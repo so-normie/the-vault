@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "09fee349f8d49954",
+    "type": "split",
+    "children": [
+      {
+        "id": "733b05ea379f937b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0fba1be40bb6f35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 0꞉ Introduction ⟋ Getting Started.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2d7fe24e50fc22c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🔴 Academics/Study Notes/English/Merriam-Webster/🌐 Word Games.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0cb6590500357dc9",
+    "type": "split",
+    "children": [
+      {
+        "id": "0003096247c01cc1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be8332c622b8de82",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "2fa1f04345e5f3ab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "one visualize",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e4b30cdbd54fb24f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "12023a45463e759e",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 459.5
+  },
+  "right": {
+    "id": "99b85c3be194de7d",
+    "type": "split",
+    "children": [
+      {
+        "id": "2335af5583b7e2e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5157d85a04767c8e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "🔴 Academics/Study Notes/English/Merriam-Webster/🌐 Word Games.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "815d7838b864f984",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "🔴 Academics/Study Notes/English/Merriam-Webster/🌐 Word Games.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "42e58a17bc8fad25",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "93f70f12e2c4074f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "🔴 Academics/Study Notes/English/Merriam-Webster/🌐 Word Games.md"
+              }
+            }
+          },
+          {
+            "id": "468189997ab487e3",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "73506b8c2d758b19",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 436.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-sample-plugin:Sample Plugin": false,
+      "markdown-importer:Open format converter": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "random-note:Open random note": false,
+      "publish:Publish changes": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "flashcards-obsidian:Generate flashcards": false,
+      "chronology:Open Chronology": false,
+      "3d-graph:3D Graph": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "custom-sort:Toggle custom sorting": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+    }
+  },
+  "active": "2d7fe24e50fc22c0",
+  "lastOpenFiles": [
+    "🔴 Academics/Study Notes/English/Merriam-Webster/🌐 🤖 ChatGPT, Bing Chat, etc. Generated Flash Cards.md",
+    "Assets/Audio/resemblance-pronunciation.mp3",
+    "Assets/Audio/resemblance-pronunciation.mp3.crdownload",
+    "Assets/Audio/liaison-pronunciation.mp3",
+    "Assets/Audio/liaison-pronunciation.mp3.crdownload",
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 0꞉ Introduction ⟋ Getting Started.md",
+    "🔴 Academics/Study Notes/Computer Science/🌐 AWS Educate.md",
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 1꞉ C++ Basics.md",
+    "🔴 Academics/Study Notes/English/Merriam-Webster/🌐 Word Games.md",
+    "Assets/Images/merriam-webster-name-that-thing-jodhpurs.jpg",
+    "Assets/Images/merriam-webster-name-that-thing-viaduct.jpg",
+    "🔴 Academics/Study Notes/English/Merriam-Webster/🌐 Word of the Day.md",
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/1. Functions.md",
+    "🔴 Academics/Study Notes/Computer Science/🌐 C reference",
+    "🔴 Academics/Study Notes/Computer Science/🌐 C++ reference/Standard library (headers).md",
+    "🔴 Academics/Study Notes/Computer Science/🌐 C++ reference/sortspec.md.md",
+    "🔴 Academics/Study Notes/Computer Science/🌐 C++ reference/Language.md",
+    "🔴 Academics/Study Notes/Computer Science/🌐 C++ reference/Concurrency support library.md",
+    "🔴 Academics/Study Notes/Computer Science/🌐 C++ reference/Filesystem library.md",
+    "🔴 Academics/Study Notes/Computer Science/🌐 C++ reference",
+    "🔴 Academics/Study Notes/Mind Map.md",
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 7꞉ Control Flow and Error Handling.md",
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 4꞉ Fundamental Data Types.md",
+    "🔴 Academics/Study Notes/Business/📕 Master Your Data with Excel and Power BI.md",
+    "🔴 Academics/Study Notes/English/Merriam-Webster/🌐 Weekly Word Games.md",
+    "Assets/Images/thomas-calculus-early-transcendentals-15th-edition-even-functions-and-odd-functions-symmetry-definitions.jpg",
+    "Assets/Images/thomas-calculus-early-transcendentals-15th-edition-increasing-and-decreasing-functions-definitions.jpg",
+    "Assets/Images/thomas-calculus-early-transcendentals-15th-edition-figure-1-10.jpg",
+    "Assets/Images/thomas-calculus-early-transcendentals-15th-edition-geometry-example-1-answer.jpg",
+    "Assets/Images/thomas-calculus-early-transcendentals-15th-edition-geometry-example-1-question.jpg",
+    "Untitled.md",
+    "Pasted image 20230318182809.png",
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/Preface.md",
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Appendix A꞉ Miscellaneous Subjects.md",
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Appendix B꞉ C++ Updates.md",
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Appendix C꞉ The End.md",
+    "🔴 Academics/Study Notes/Computer Science/🌐 Structy/8. Mixed Recall.md",
+    "🔴 Academics/Study Notes/Computer Science/🌐 Structy/sortspec.md.md",
+    "🔴 Academics/Study Notes/Computer Science/🌐 Structy/0. Introduction.md",
+    "🔴 Academics/Study Notes/Computer Science/🌐 Structy",
+    "Assets/Images/merriam-webster-name-that-animal-volume-3-civet.jpg",
+    "Assets/Images/merriam-webster-name-that-animal-volume-3-civet.jpg.crdownload",
+    "Assets/Images/merriam-webster-name-that-animal-volume-3-serval.jpg",
+    "Assets/Images/merriam-webster-name-that-animal-volume-3-serval.jpg.crdownload",
+    "Assets/Images/merriam-webster-name-that-animal-volume-3-bird-of-paradise.jpg.crdownload"
+  ]
+}

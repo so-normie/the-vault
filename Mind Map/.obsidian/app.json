@@ -1,0 +1,16 @@
+{
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "vimMode": true,
+  "defaultViewMode": "preview",
+  "livePreview": false,
+  "readableLineLength": false,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "showInlineTitle": false,
+  "useMarkdownLinks": false,
+  "legacyEditor": false,
+  "strictLineBreaks": false
+}
