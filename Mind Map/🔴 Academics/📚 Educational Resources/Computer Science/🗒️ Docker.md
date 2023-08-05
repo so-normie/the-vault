@@ -36,3 +36,5 @@ What is the difference between docker and docker-compose? #card
   (3) Docker run vs docker-compose: What's the difference? - TheServerSide. https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Docker-run-vs-docker-compose-Whats-the-difference.
   (4) Dockerfile vs docker-compose: What's the difference? - TheServerSide. https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Dockerfile-vs-docker-compose-Whats-the-difference.
   (5) Difference between Docker vs docker-compose and docker swarm - Naiveskill. https://naiveskill.com/docker-vs-docker-compose/.
+
+How can I get a 

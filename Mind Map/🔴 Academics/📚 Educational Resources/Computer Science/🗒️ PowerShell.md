@@ -158,7 +158,7 @@ What are type accelerators in PowerShell? #card-reverse
 ^1682809184424
 
 **Q:** How do you export a list of running processes to a CSV file using cmdlets in PowerShell? #card-reverse 
-**A:** Use the <span class="spoiler">Get-Process cmdlet and pipe the output to the <span class="spoiler">Export-Csv</span> cmdlet, e.g., G`et-Process | Export-Csv -Path "C:\Processes.csv" -NoTypeInformation`.
+**A:** Use the <span class="spoiler">Get-Process</span> cmdlet and pipe the output to the <span class="spoiler">Export-Csv</span> cmdlet, e.g., G`et-Process | Export-Csv -Path "C:\Processes.csv" -NoTypeInformation`.
 ^1682809184427
 
 How to view the full history of commands across all shells and sessions? #card-reverse 
@@ -305,9 +305,11 @@ Get-Command node | ForEach-Object { $_.Source }
 
 How do you find a process with task id `4200` via PowerShell? #card-reverse  
 `netstat -ano | findstr :4200`
+^1690892249692
 
 How does one kill a process with task id `4200` via PowerShell #card-reverse 
 `taskkill /PID 15940 /F`
+^1690892249700
 
 **Front**: What is the difference between `Get-ChildItem` and `Get-Item` in PowerShell? #card 
 **Back**: `Get-Item` gets the item at the specified location, while `Get-ChildItem` gets the items and child items in one or more specified locations. In other words, `Get-Item` returns information about the targeted item itself, whereas `Get-ChildItem` returns information about the targeted item's children, if the given item happens to be a container ¹.
@@ -316,5 +318,75 @@ How does one kill a process with task id `4200` via PowerShell #card-reverse
   (2) Get-ChildItem (Microsoft.PowerShell.Management) - PowerShell. https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.3.
   (3) PowerShell Get-Item - Computer Performance. https://www.computerperformance.co.uk/powershell/get-item/.
   (4) powershell - Is there a difference between Get-Item ending with a .... https://stackoverflow.com/questions/70390400/is-there-a-difference-between-get-item-ending-with-a-trailing-wildcard-and-get-c.
+^1690892249707
+
+What is wrong with the following PowerShell scripting code?
+```pwsh
+$currentDirectory = $Get-Location
+```
+#card 
+When using the `Get-Location` cmdlet in PowerShell, it does *not* require the `$` symbol.
+^1690892249714
+
+What is the problem with the following code? #card 
+```pwsh
+Write-Host $currentDirectory > tmp.txt
+```
+#card 
+- Write-Host sends information directly to the console, no to a file. If you want to write the value of $currentDirectory to a file, you should use either `Out-File` or `Set-Content`. For example…
+	- `$currentDirectory | Out-File "tmp.txt"`
+	- `Set-Content -Path "tmp.txt" -Value $currentDirectory`
+^1690892249721
+
+How can I use `Set-Content` to write the value of `$currentDirectory` to the file `tmp.txt`? #card-reverse 
+`Set-Content -Path "tmp.txt" -Value $currentDirectory`
+^1690892249727
+
+How can I use `Out-File` to write the value of `$currentDirectory` to the file `tmp.txt` #card-reverse 
+`$currentDirectory | Out-File "tmp.txt"`
+^1690892249735
+
+If you want to append new content to a file, you can use {`Out-File`}. If you want to replace the existing content with new content, you can use {`Set-Content`}. [You should also consider the encoding of the data when choosing which cmdlet to use](https://stackoverflow.com/questions/10655788/powershell-set-content-and-out-file-what-is-the-difference). #card
+^1690892249742
+
+By default, `Out-File` saves data to a file in what encoding? #card 
+Unicode (UTF-16LE) *This can be specified
+^1690892249751
+
+By default, `Set-Content` defaults to what encoding? #card 
+ASCII (US-ASCII)
+^1690892249758
+
+What is a major difference between `Set-Content` and `Out-File`? #card 
+- `Out-File` allows you append new content to a file using the `-Append` parameter
+- `Set-Content` will replace existing content with new content
+ 
+What is the difference between `Write-Host` and `Write-Information`? #card 
+- `Write-Host` sends information directly to the console. As such, you can *not* pipe/transfer the output of Write-Host
+- The output of `Write-Information` can be redirected using either the `>` redirection operator or using cmdlets such as `Out-File`
+^1690892249765
+
+Can you use `Out-File` or `>` to redirect the output of `Write-Host`? #card 
+No!
+^1690892249772
+
+Can you use `Out-File` or `>` to redirect the output of `Write-Information`? #card 
+Yes!
+^1690892249779
+
+Starting in PowerShell 5.0, is `Write-Host` a wrapper for `Write-Information`? #card 
+Yes, although only explicitly calling the cmdlet `Write-Information` can you the output be redirected or reused.
+^1690892249786
+
+What command should I run if I want to get a list of all files in the current folder that contain the word “quartz” in their name? #card 
+```powershell
+Get-ChildItem -Filter "*quartz*" -Name
+```
+^1690892249793
 
 
+What command should I run if I want to get a list of all files in the current folder, and all subsequent subfolders, that contain the word “quartz” in their name? #card 
+```powershell
+Get-ChildItem -Filter "*quartz*" -Recurse -Name
+```
+^1690892249800

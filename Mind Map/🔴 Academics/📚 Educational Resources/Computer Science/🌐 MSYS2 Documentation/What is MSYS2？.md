@@ -77,6 +77,10 @@ How do I install a package in MSYS2? #card
 **A:** To install packages using MSYS2, you can use the `pacman` package manager. First, open the MSYS2 terminal by running `msys2_shell.cmd`. Then, update the package database and synchronize it with the remote repository by running the command `pacman -Syu`. After that, you can install packages by running the command `pacman -S package_name`, replacing `package_name` with the name of the package you want to install.
 ^1684769561115
 
+**Q:** How do you update packages and synchronize it with the remote repositories? #card 
+**A:** `pacman -Syu`
+^1688994744883
+
 **Q:** How do you install all the packages listed in a file using MSYS2? #card 
 **A:** To install all the packages listed in a file using MSYS2, you can use the `pacman` package manager. First, open the MSYS2 terminal by running `msys2_shell.cmd`. Then, update the package database and synchronize it with the remote repository by running the command `pacman -Syu`. After that, you can install all the packages listed in the file by running the command `pacman -S --needed $(< /path/to/file)`, replacing `/path/to/file` with the path to the file containing the list of packages.
 ^1684769561118

@@ -540,11 +540,15 @@ int a;         // no initializer (default initialization)
 int b = 5;     // initializer after equals sign (copy initialization)
 int c( 6 );    // initializer in parenthesis (direct initialization)
 // List initialization methods (C++11)
-int d { 7 };   // initializer in braces (direct list initialization)
+int d { 7 };   // initializer in braces (direct list initialization or brace initialization)
 int e = { 8 }; // initializer in braces after equals sign (copy list initialization)
 int f {};      // initializer is empty braces (value initialization)
 ```
 ^1682908023246
+
+What is another name for direct list initialization? #card 
+brace initialization
+^1691038901263
 
 
 -----
@@ -1746,11 +1750,13 @@ An {**expression statement**} is an expression that has been turned into a sta
 
 What is the difference between initialization and assignment? #card 
 Initialization provides a variable with an initial value (at the point of creation). Assignment gives a variable a new value after the variable has already been defined.
+^1691038901268
 
 ##### **Question #2**
 
 When does undefined behavior occur? What are the consequences of undefined behavior? #card 
 Undefined behavior occurs when the programmer does something that is ill-specified by the C++ language. The consequences could be almost anything, from crashing to producing the wrong answer to working correctly anyway.
+^1691038901272
 
 ##### **Question #3**
 
@@ -1763,3 +1769,4 @@ Enter another integer: 4
 6 - 4 is 2.
 ```
 #card 
+^1691038901276

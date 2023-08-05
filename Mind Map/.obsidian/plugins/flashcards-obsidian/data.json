@@ -7,8 +7,8 @@
   "deck": "Default",
   "folderBasedDeck": true,
   "flashcardsTag": "card",
-  "inlineSeparator": "::",
-  "inlineSeparatorReverse": ":::",
+  "inlineSeparator": "🎴",
+  "inlineSeparatorReverse": "🃏",
   "defaultAnkiTag": "obsidian",
   "ankiConnectPermission": true
 }

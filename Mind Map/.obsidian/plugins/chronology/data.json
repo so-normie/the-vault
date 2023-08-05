@@ -3,5 +3,7 @@
   "launchOnStartup": true,
   "use24Hours": true,
   "avgDailyNotes": 3,
-  "useSimpleList": false
+  "useSimpleList": false,
+  "groupItemsInSameSlot": false,
+  "firstDayOfWeek": 0
 }

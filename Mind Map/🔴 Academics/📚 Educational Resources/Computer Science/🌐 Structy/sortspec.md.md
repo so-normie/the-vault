@@ -9,6 +9,7 @@ sorting-spec: |
  // after enabling the custom sort plugin
  // 
  target-folder: .
+ Table of Contents
  0꞉ Introduction
  1꞉ Array and String
  2꞉ Linked List

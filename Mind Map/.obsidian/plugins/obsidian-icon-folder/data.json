@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiBookmarkLine",
+      "FasCompassDrafting",
       "RiDocumentBookMarkFill",
       "SiPowershell",
-      "FasCode",
-      "FasBoxesStacked",
-      "RiFolder3Fill"
+      "FasCode"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -76,7 +76,6 @@
   "🔴 Academics/📚 Educational Resources/Computer Science": "RiFolder3Fill",
   "🔴 Academics/📚 Educational Resources/Electrical Engineering": "RiFolder3Fill",
   "🔴 Academics/📚 Educational Resources/Mathematics": "RiFolder3Fill",
-  "🔴 Academics/📚 Educational Resources/ZOther TRASH": "Fab42Group",
   "🔴 Academics/📚 Educational Resources/Mind Map.md": "FasBrain",
   "🔴 Academics/📚 Educational Resources/Computer Science/🌐 AWS Educate.md": "RiDocumentBookMarkFill",
   "🔴 Academics/📚 Educational Resources/Computer Science/🌐 C reference": "RiDocumentBookMarkFill",
@@ -266,7 +265,7 @@
   "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Nodejs.dev": "RiDocumentBookMarkFill",
   "🟢 Personal/👨🏼‍👩🏾‍👧🏽‍👦🏽 Family/Leila USC Research": "SiBookstack",
   "🔴 Academics/📚 Educational Resources/Computer Science/🌐 LeetCode": "RiDocumentBookMarkFill",
-  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 LeetCode/Problems (Easy).md": "RiDocumentBookMarkFill",
+  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 LeetCode/Problems (Easy).md": "RiBookmarkLine",
   "🔴 Academics": "RiFolder3Fill",
   "assets": "FasBoxesStacked",
   "assets/excalidraw": "RiFolder3Fill",
@@ -275,5 +274,22 @@
   "scripts": "FasCode",
   "scripts/anki-prepare.ps1": "SiPowershell",
   "scripts/migrate-anki-media.ps1": "SiPowershell",
-  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 GoogleTest": "RiDocumentBookMarkFill"
+  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 GoogleTest": "RiDocumentBookMarkFill",
+  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Advanced SQL": "RiDocumentBookMarkFill",
+  "templates": "FasCompassDrafting",
+  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 LeetCode/Problems (Hard).md": "RiBookmarkLine",
+  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 LeetCode/Problems (Medium).md": "RiBookmarkLine",
+  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Use the Index, Luke! (2022)": "RiDocumentBookMarkFill",
+  "🔴 Academics/📚 Educational Resources/Computer Science/🙋🏽‍♂️ Data Engineering Prep (Discord Group)": "RiDocumentBookMarkFill",
+  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Amazon Redshift - Fundamentals": "RiDocumentBookMarkFill",
+  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Amazon Redshift - Fundamentals/1. Introduction.md": "RiBookmarkLine",
+  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Amazon Redshift - Fundamentals/2. Storage.md": "RiBookmarkLine",
+  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Microsoft Learn/Q&A.md": "RiBookmarkLine",
+  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Microsoft Learn/Code Samples.md": "RiBookmarkLine",
+  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Microsoft Learn/Assessments.md": "RiBookmarkLine",
+  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Microsoft Learn/Shows.md": "RiBookmarkLine",
+  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Microsoft Learn/Events.md": "RiBookmarkLine",
+  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Microsoft Learn/Training.md": "RiBookmarkLine",
+  "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Microsoft Learn/Documentation.md": "RiBookmarkLine",
+  "🔴 Academics/📚 Educational Resources/Computer Science/🙋🏽‍♂️ Data Engineering Prep (Discord Group)/Unique Problems.md": "RiBookmarkLine"
 }

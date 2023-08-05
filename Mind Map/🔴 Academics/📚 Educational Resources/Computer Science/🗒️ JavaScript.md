@@ -21,11 +21,11 @@ This policy dictates that JavaScript from one page may not access the other page
 
 What is a client-side dynamic webpage? #card-reverse  
 - If the JavaScript code manipulates the DOM like a SPA does.
-- [Source]: https://stackoverflow.com/a/44458845/8088657
+- Source: https://stackoverflow.com/a/44458845/8088657
 
 Can a website with JavaScript still be considered a “static” website? #card 
 - As far as the required server infrastructure is concerned, a website with JavaScript can still be considered static because it can be hosted by static hosting services (no server code involved).
-- [Source]: https://stackoverflow.com/a/44458845/8088657
+- Source: https://stackoverflow.com/a/44458845/8088657
 
 What is a dynamic site? #card 
 - A dynamic site is a site with a server side language (php, python etc.) You could therefore have a dynamic site without JavaScript.
@@ -45,4 +45,27 @@ What is a dynamic site? #card
 **Back:** If you’re using a bundler or module system, you can specify the entry point of your project in its configuration. For example, if you’re using webpack, you can specify the entry point in the `webpack.config.js` file.
 ^1683153231998
 
+In JavaScript, what is the difference between using single quotation marks (e.g., `'Hello'`) or double quotation marks (e.g., `"Hello"`)? #card 
+- There is no difference in JavaScript, they are both treated the same.
+- Only thing that matters is that you start, and end, with the same symbol.
+
+What are template literals? #card 
+- In the context of JavaScript, they allow you to put a variable directly into a string.
+- Declared by using \` (backticks) as opposed to single or double quotes.
+- Consider the following example…
+  ```js
+  let name == "John Doe";
+  let greeting = `Hello ${name}`
+  console.log(greeting); // Outputs: Hello, John Doe!
+  ```
+- The variable inside the placeholder can be any valid JavaScript expression. Notably, they can do much more…
+	- Evaluate JavaScript expressions
+	- Include line breaks as they are
+
+Other than variable substitution, what else can template literals do? #card 
+- Evaluate JavaScript expressions
+- Include line breaks as they are
+
+When dealing with inline boolean expression, is the left, or right side, of the colon the value returned if the expression evaluated is true? #card 
+The value to the left of the colon is true.
 

@@ -64,10 +64,22 @@ Does `printf()` have an option for `std꞉꞉string`? #card
 No, `printf()` does ***not*** have an option for `std꞉꞉string`
 ^1683769343762
 
-Can you initialize a  `char*` via `char* name {""}` #card
-^1687733827885
-No, you can not.
+Can you initialize a  `char*` via brace initialization with an empty string? #card
+Yes.
 ^1683769343768
+
+Is the following a valid example of brace initialization? 
+```cpp
+int x = {4.4};
+```
+#card 
+No, the syntax for brace initialization is as follows…
+```cpp
+T object {arg1, arg2, ...};
+```
+^1691038802876
+
+
 
 In C++, can `struct` have a member functions? #card 
 Yes.
@@ -321,3 +333,128 @@ void increaseCount(int id, int loop_count) {
 **Front**: How does `std꞉꞉lock_guard` ensure the mutex gets unlocked in C++? #card
 **Back**: `std꞉꞉lock_guard` automatically unlocks the mutex when the `lock_guard` object is destroyed, which happens when the object goes out of scope. This ensures that the mutex will be unlocked even if an exception occurs.
 ^1687772985684
+
+❗How can you initialize a char* pointer to point to the start of a C string in C++? #card 
+Yes, you simply do the following…
+^1691038455680
+
+In C++, when you extract text from a string into a string stream, what is the time and space complexity of such an operation? For instance, consider the following snippet of code…
+```cpp
+std::string text {"Hello1232"}
+stringstream ss;
+ss << text;
+```
+When we stream `text` into `ss`, our we making an exact copy of `text` into or what? #card 
+When extracting text form a string, the *time* complexity of such an operation is **linear** (i.e., $\mathcal{O}(n)$). Additionally, the *space* complexity is also **linear** (i.e., $\mathcal{O}(n)$) since we need allocate the same space needed to contain the text.
+^1691035292892
+
+Is the generic function `std::reverse()`, from the `<algorithm>` library, an in-place algorithm? #card 
+Yes, it is an in-place algorithm.
+^1691035292898
+
+What is the time and space complexity of `std::reverse()`? #card 
+- Time: $\mathcal{O}\left( \frac{n}{2} \right)$
+- Space:  $\mathcal{O}(1)$
+^1691035292903
+
+Is the following code valid? 
+```cpp
+int main() {  
+    char* it;  
+    char* str = " Hellow the Words";  
+    it = str[0];  
+    return 0;  
+}
+```
+#card 
+No! You can not use 
+^1691038455685
+
+Is the following code valid?
+```cpp
+#include <iostream>
+int main() {
+    char* it;
+    char* str = " Hellow the Words";
+    it = &str[0];
+    *it = 'l';
+    for(auto iter : str ) {
+        std::cout << *iter;
+    }
+    std::cout << std::endl;   
+    return 0;
+}
+```
+#card 
+- No, remember that to use `auto` range-based loops, the container/data structure must support the `.begin()` method.
+	- C-style string literals do not support that
+- Also, the statement `*it = 'l'` is wrong.
+	- In C++, string literals are stored in read-only memory, and attempting to modify them results in undefined behavior.
+	- To avoid this you can either use `std::string` or an **array** of `char`s.
+^1691038455691
+
+Lets say I have a `std::stringstream` called `ss`, is the following code valid? 
+```
+ss.insert("");
+ss.clear()
+```
+#card 
+- No, the following code is not valid. `stringstream` and other stream classes in C++ do not have an `insert` method.
+	- If you want to insert data into a stream, use `<<` (i.e., insertion operator)
+	- You can also use the `string` method to set the contents of the stream directly.
+^1691038455702
+
+How can I get `std::string` of all the values currently in a `std::stringstream`? #card 
+Simply call `.str()` with no arguments.
+^1691038455709
+
+How can I completely erase/reset the values of a `std::stringstream` to empty? #card 
+Simply call `.str("")` with the empty string (i.e., `""`) argument.
+^1691038455714
+
+What exactly is the heap in Computer Science? Particularly, what distinguishes it from stack? Reference not only the software layer but also the hardware layer/computer architecture that allows this. #card 
+
+Why is `for(auto num : list)` undesirable? #card 
+You are iterating over elements by value which means we cannot modify them in place.
+^1691038455719
+
+Whare the three common examples in how one can use the `auto` keyword in a range-based for loop? #card 
+1. [To iterate over elements by value, use `for (auto element : container)`](https://en.cppreference.com/w/cpp/language/range-for)[1](https://en.cppreference.com/w/cpp/language/range-for).
+2. [To iterate over elements by reference, use `for (auto& element : container)`](https://en.cppreference.com/w/cpp/language/range-for)[1](https://en.cppreference.com/w/cpp/language/range-for).
+3. [To iterate over elements by constant reference, use `for (const auto& element : container)`](https://en.cppreference.com/w/cpp/language/range-for)[1](https://en.cppreference.com/w/cpp/language/range-for).
+^1691038455740
+
+How do you declare an array of size three using the `array` library in C++? #card 
+The traditional way…
+```cpp
+#include <array>
+^1691049517596
+
+// ...
+
+array<int,3> arr = [3, 2, 1];
+```
+An experimental, yet easier way… *\*Notice how we don’t have to concern ourselves with specifying the size!*
+```cpp
+#include <arrray>
+
+auto a2 = std::to_array({0, 2, 1, 3});
+```
+
+Is the following code valid?
+```cpp
+array<int> arr = [3, 2, 1];
+```
+#card 
+- No! You need to specify the size for the template parameter.
+- If you don’t want to have to do that, use `std::to_array()`.
+^1691049517601
+
+What library is the function `to_array()` a part of? #card 
+It is part of the `<array>` library.
+^1691049517605
+
+What is the difference between `min()` and `lowest()` for `numeric_limits<T>`? #card 
+- `lowest()` returns the least (including negative) value for that type
+- `min()` returns the smallest finite (positive only) value for that type
+^1691051525227

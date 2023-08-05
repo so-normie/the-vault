@@ -15,9 +15,9 @@ The option {`--inlineSourceMap`} will put generated source maps inside your .js 
 There is yet another option {`--inlineSources`}. This one will create a separate .js.map file, which will include the original TypeScript source so you don't need to deploy your .ts files under the server.
 ^1684392288374
 
-What is the benefit to using `--inlineSources` vs `--inlineSourceMap`? #card 
-- **Inline** sources can be more convenient for development, but they increase the size of the JavaScript files delivered to the client, and they expose your source code to anyone who looks. 
-- **Source** maps can be more complex to manage, but they allow you to keep your original source code hidden in production while still giving you the ability to debug problems effectively.
+What is the benefit to using `--inlineSources` vs (`--inlineSourceMap` or `--sourceMap`)? #card 
+- `--inlineSources` can be more convenient for development, but they increase the size of the JavaScript files delivered to the client, and they expose your source code to anyone who looks. 
+- `--inlineSourceMap` or `--sourceMap` maps can be more complex to manage, but they allow you to keep your original source code hidden in production while still giving you the ability to debug problems effectively.
 ^1684392288380
 
 To clarify, when transpiling a typescript file to a JavaScript file using `tsc`, does it transpile everything to just one file? For instance, lets say I had a project with a `main.ts` that also imported logic from `A.ts` and `B.ts`. When I call `tsc`, do I only need to call it on `main.ts` and does it include the necessary logic also from `A.ts` and `B.ts`? #card 
@@ -53,3 +53,10 @@ export class ZipCodeValidator implements StringValidator {
 }
 ```
 In this example, the `StringValidator` interface is exported from the `StringValidator.ts` file using the `export` keyword. It is then imported into the `ZipCodeValidator.ts` file using the `import` statement. The `ZipCodeValidator` class and the `numberRegexp` constant are also exported from the `ZipCodeValidator.ts` file using the `export` keyword.
+
+In the context of developing plugins for Obsidian, when I build my plugin in debug mode with the `--inlineSources`, does Dev Tools recognize the path to the original TypeScript? #card 
+
+In the context of TypeScript, what is the relation of the **tsc** option `inlineSources`, `sourceMap`, and `inlineSourceMap`. #card
+1. First, you got two options in how you want your `.map` file generated. Either you can have the contents of it inside your generated `main.js` file (i.e., `inlineSources`) or you can have it separate (i.e., `sourceMap`)
+	- There is further option of using (`inlineSources`) so that the content of your `main.ts` is embedded in your “map.”
+		- Downside of this is that your `main.ts` code is exposde.

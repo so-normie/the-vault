@@ -76,3 +76,5 @@ In Vim, you can use the `:g` command to delete all lines that contain the word
 ```
 This command will search for all lines containing the word “flashcard” and delete them. Is there anything else you’d like to know?
 ^1686475065800
+
+In Vim, 

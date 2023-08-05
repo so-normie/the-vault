@@ -168,6 +168,10 @@
 
 **.NET Framework**: The .NET Framework is a development framework for building Windows desktop applications, web applications, and services using .NET. It provides a comprehensive set of libraries and runtime components, supporting multiple programming languages and offering a wide range of functionality. The .NET Framework fills the need for a framework that facilitates the development of a wide variety of applications and services on the Windows platform.
 
+**xUnit.net**: A free, open-source unit testing framework for .NET, designed for simplicity and flexibility. It's a part of the larger xUnit family of testing frameworks, which originated in the Java language with JUnit. xUnit.net offers a more modern, more extensible, and slightly different way of writing tests compared to older .NET testing frameworks like NUnit. It allows for data-driven (theory) tests, improved isolation of tests, and controls the lifecycle of test objects more directly. The goal of xUnit.net, like other unit testing frameworks, is to help developers verify the correctness of their code and build robust, error-free applications.
+
+**NUnit**: is an open-source unit testing framework for .NET languages, such as C# or VB.NET. It offers a range of tools for developers to write and run tests, verifying if their code behaves as expected. NUnit tests individual "units" of code, typically methods or functions, in isolation. It uses various attributes and assertion methods for indicating test methods and verifying results. NUnit's main purpose is to improve code quality by early bug detection and fostering well-structured, testable code design.
+
 ## Libraries
 
 **jQuery**: jQuery is a fast, lightweight JavaScript library that simplifies HTML document traversal, event handling, and animation. It provides an easy-to-use API for manipulating and interacting with web page elements. jQuery fills the need for a library that enhances JavaScript development by simplifying common tasks, improving cross-browser compatibility, and enabling rapid development of dynamic web applications.
@@ -215,6 +219,12 @@
 **Beautiful Soup**: Beautiful Soup is a Python library for web scraping and parsing HTML and XML documents. It provides an easy-to-use interface for extracting and navigating data from web pages, simplifying the process of data extraction and scraping. Beautiful Soup fills the need for a library that facilitates web scraping and data extraction, offering robust parsing capabilities and convenient data manipulation.
 
 **Spectre.Console**: Spectre.Console is a .NET library for creating beautiful and interactive console applications. It provides a rich set of features for styling and formatting console output, creating tables and progress bars, and handling user input. Spectre.Console fills the need for a library that enhances console application development, allowing developers to create visually appealing and interactive command-line interfaces.
+
+**Serilog**: A diagnostic logging library for .NET applications. It is highly valued for its ability to write structured log events in addition to standard text logs.
+Standard text logs are simply lines of text that are written to a console, file, or some other output. While this is sometimes enough, it can be challenging to parse and analyze when the volume of logs grows large.
+That's where structured logging comes in. Structured logs are written in a way that retains the properties of the log event, making it easier to filter and query your logs based on those properties. This can make finding specific logs or analyzing trends much easier compared to traditional plain-text logs.
+Serilog supports a variety of sinks (log destinations) and enrichers (additional data added to each log entry). With sinks, you can write your logs to various outputs such as a file, console, database, or even cloud-based log services. Enrichers allow you to add extra information to your logs, such as machine or process identifiers, timestamps, or even custom data relevant to your application.
+In addition to this, Serilog is known for its simplicity and easy configuration. It's a robust, flexible solution for logging in .NET, often used in production applications.
 
 ## Technologies
 
@@ -339,6 +349,16 @@
 **Couchbase**: Couchbase is a distributed NoSQL database that provides flexible data models, high scalability, and low-latency access to data. It combines key-value and document database paradigms and offers features such as in-memory caching and support for mobile and edge computing. Couchbase fills the need for a technology that enables distributed and scalable storage and retrieval of structured and unstructured data.
 
 **DuckDB**: DuckDB is an in-memory analytical database designed for fast query processing and efficient storage utilization. It is optimized for analytical workloads and offers compatibility with the SQL query language. DuckDB fills the need for a technology that provides fast analytical processing and efficient data storage, making it suitable for interactive data exploration and analysis.
+
+**Polly** is a .NET resilience and transient-fault-handling library. In simpler terms, it helps your application gracefully handle and recover from errors.
+Polly allows developers to express resilience policies in a fluent manner, such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback. These policies can be used to handle faults when your application communicates over the network, calls a database, or any kind of I/O operation which may temporarily fail due to external system unavailability, timeouts, network instability, etc.
+Here's a bit more about some of the key policies:
+- **Retry policies:** These enable the application to retry a function if it fails. You can specify the number of times to retry and the time delay between each retry.
+- **Circuit Breaker policies:** This is a design pattern that prevents a function from continuing to try to execute when it's likely to fail. This can be used to prevent an application from making futile calls or overloading a failing service.
+- **Timeout policies:** As the name suggests, these allow you to set a time limit for an operation. If the operation doesn't complete within the specified time, it's cancelled.
+- **Bulkhead Isolation policies:** These are used to limit the amount of resources one operation can consume, preventing it from exhausting the entire resource set during high load or fault situations. This allows you to keep some resources free for other operations, preventing a single failing operation from bringing down the entire application.
+- **Fallback policies:** These allow you to provide a default behavior when all else fails. For instance, you might fetch data from a cache if the live service is unavailable.
+Polly is a powerful tool for making your .NET applications more resilient and reliable. It's often used in Microservices architectures and distributed systems where the risk of encountering transient faults is high.
 
 ## Cloud Platforms
 
