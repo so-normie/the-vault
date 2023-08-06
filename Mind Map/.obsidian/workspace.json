@@ -1,19 +1,14 @@
 {
   "main": {
-    "id": "09fee349f8d49954",
+    "id": "812027d141a633e2",
     "type": "split",
-    "ophidian:layout-settings": {
-      "pane-relief:sliding-panes": {
-        "active": false
-      }
-    },
     "children": [
       {
-        "id": "892e60e6a9ce57f3",
+        "id": "1e5d80ffd484642e",
         "type": "tabs",
         "children": [
           {
-            "id": "2e082085f1e9167e",
+            "id": "7497a1b28628477c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -21,107 +16,85 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                }
-              ]
-            },
-            "pinned": true,
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.google.com/uviewer?q=google%20drive&origin=https%3A%2F%2Fwww.google.com&cs=1"
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "7c86cf4246b29061",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "Unique Problems",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Computer Science/🙋🏽‍♂️ Data Engineering Prep (Discord Group)/Unique Problems.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "pinned": true,
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "assets/excalidraw/excalidraw-data-engineering-study-group.excalidraw.md"
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "8fe92bb424d857ac",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "0. Introduction",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Computer Science/🌐 Structy/0. Introduction.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":782.1864769345239}"
-                },
-                {
-                  "title": "🗒️ SQL",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗒️ SQL.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "📕 Python in a Nutshell, 4ᵗʰ Edition (2023)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Computer Science/📕 Python in a Nutshell, 4ᵗʰ Edition (2023).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":57},\"to\":{\"line\":1,\"ch\":57}}}"
-                },
-                {
-                  "title": "🗒️ SQL",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗒️ SQL.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/Computer Science/Visual Studio Code.md",
+                "file": "Untitled.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "301a8741aa5d1c74",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "1. Array and String",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Computer Science/🌐 Structy/1. Array and String.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "2. Linked List",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Computer Science/🌐 Structy/2. Linked List.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Structy/0. Introduction.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "0cb6590500357dc9",
+    "id": "e8ed80397d38533a",
     "type": "split",
     "children": [
       {
-        "id": "0003096247c01cc1",
+        "id": "54360f8db890b174",
         "type": "tabs",
         "children": [
           {
-            "id": "be8332c622b8de82",
+            "id": "378dfb133d1155ab",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "e3f6c9ecddf3f564",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -135,99 +108,64 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse"
-              }
-            }
-          },
-          {
-            "id": "2fa1f04345e5f3ab",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#computer-science/programming-language",
-                "matchingCase": true,
-                "explainSearch": true,
-                "collapseAll": true,
-                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "592de7c0ba68db8d",
+            "id": "c66e0c5f869fd443",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ecfca12363b989f1",
+            "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           },
           {
-            "id": "2b0e438c1b2d5d94",
+            "id": "eac6a8071c277ac3",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "surfing-tab-tree",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 453.5110321044922,
+    "width": 300,
     "collapsed": true
   },
   "right": {
-    "id": "99b85c3be194de7d",
+    "id": "4862554a11d6c3ac",
     "type": "split",
     "children": [
       {
-        "id": "2335af5583b7e2e6",
+        "id": "89a4ef93bf01a9a6",
         "type": "tabs",
         "children": [
           {
-            "id": "5157d85a04767c8e",
+            "id": "4a339558f59cc8a8",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/Computer Science/Visual Studio Code.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,67 +177,40 @@
             }
           },
           {
-            "id": "815d7838b864f984",
+            "id": "b1bed1699b770f6a",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/Computer Science/Visual Studio Code.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "42e58a17bc8fad25",
+            "id": "795183581340a3c8",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "frequency",
                 "useHierarchy": true
               }
             }
           },
           {
-            "id": "93f70f12e2c4074f",
+            "id": "6a46d1a4d8a6d9e3",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "outline",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/Computer Science/Visual Studio Code.md"
+                "file": "Untitled.md"
               }
             }
           },
           {
-            "id": "468189997ab487e3",
+            "id": "885a95689720234f",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -314,105 +225,47 @@
               "type": "chronology-calendar-view",
               "state": {}
             }
-          },
-          {
-            "id": "73506b8c2d758b19",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 362.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "flashcards-obsidian:Generate flashcards": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "chronology:Open Chronology": false,
       "3d-graph:3D Graph": false,
       "custom-sort:Toggle custom sorting": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "publish:Publish changes...": false,
-      "markdown-importer:Open format converter": false,
+      "flashcards-obsidian:Generate flashcards": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "surfing:surfing-bookmark-manager": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
+      "markdown-importer:Open format converter": false,
       "zk-prefixer:Create new unique note": false,
-      "workspaces:Manage workspace layouts": false,
       "random-note:Open random note": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "chronology:Open Chronology": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "publish:Publish changes...": false
     }
   },
-  "active": "8fe92bb424d857ac",
+  "active": "7497a1b28628477c",
   "lastOpenFiles": [
     "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Structy/0. Introduction.md",
-    "🔴 Academics/📚 Educational Resources/Computer Science/Visual Studio Code.md",
-    "🗒️ SQL.md",
-    "🔴 Academics/📚 Educational Resources/Computer Science/📕 Python in a Nutshell, 4ᵗʰ Edition (2023).md",
-    "assets/excalidraw/excalidraw-data-engineering-study-group.excalidraw.md",
-    "templates/Template.md",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Amazon Redshift - Fundamentals/1. Introduction.md",
-    "assets/excalidraw/excalidraw-data-engineering-study-group.excalidraw.svg",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Amazon Redshift - Fundamentals/2. Storage.md",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🙋🏽‍♂️ Data Engineering Prep (Discord Group)",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🙋🏽‍♂️ Data Engineering Prep (Discord Group)/Unique Problems.md",
-    "🔴 Academics/Study Groups",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Structy/Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Structy/2. Linked List.md",
     "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Structy/1. Array and String.md",
-    "🤖 ChatGPT, Bing Chat, etc. Warning.md",
-    "Device Configuration for Laptop and Desktop.md",
-    "Tag Organization.md",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Structy/8. Mixed Recall.md",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Structy/7. Exhaustive Recursion.md",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Structy/6. Stack.md",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Structy/5. Dynamic Programming.md",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Structy/4. Graph.md",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Structy/3. Binary Tree.md",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Advanced SQL/Advanced SQL — Chapter #05 — Video #29 — Window functions, frame specifications (ROWS∕RANGE∕GROUPS).md",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🗒️ Quartz.md",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🗒️ GitHub.md",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Use the Index, Luke! (2022)/1. Chapter.md",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 LeetCode/sortspec.md.md",
-    "assets/images/Pasted image 20230611201224.png",
-    "assets/images/Pasted image 20230611201227.png",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Amazon Redshift - Fundamentals",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Use the Index, Luke! (2022)",
-    "assets/images/Pasted image 20230801232925.png",
-    "assets/images/Pasted image 20230801224026.png",
-    "🔴 Academics/📚 Educational Resources/Computer Science/Data Engineering Discord",
-    "assets/images/Pasted image 20230731171524.png",
-    "assets/images/Pasted image 20230731171410.png",
-    "assets/images/Pasted image 20230731165752.png",
-    "assets/images/row-vicinity-window-frames.png",
-    "assets/images/Pasted image 20230731161649.png",
-    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Advanced SQL",
-    "assets/videos/structy-array-and-string-welcome.mp4",
-    "assets/videos/array and string welcome _ Structy and 13 more pages - Personal - Microsoft​ Edge Dev 2023-07-22 16-20-50.mp4",
-    "🔴 Academics/📚 Educational Resources/Computer Science/📕 Introduction to Algorithms, 4ᵗʰ Edition (2022).md~RF1b4449.TMP",
-    "assets/images/thomas-calculus-early-transcendentals-15th-edition-geometry-formulas-pythagorean-theorem.jpg~RF1b4051.TMP",
-    "Templates/Untitled.canvas"
+    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 Structy/2. Linked List.md",
+    "Untitled.md",
+    "🔴 Academics/📚 Educational Resources/Computer Science/🌐 pganalyze"
   ]
 }

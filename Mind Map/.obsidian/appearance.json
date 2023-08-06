@@ -1,6 +1,6 @@
 {
   "accentColor": "#7300ff",
-  "translucency": false,
+  "translucency": true,
   "interfaceFontFamily": "",
   "textFontFamily": "Atkinson Hyperlegible,CaskaydiaCove Nerd Font",
   "monospaceFontFamily": "CaskaydiaCove Nerd Font,CaskaydiaCove NF",

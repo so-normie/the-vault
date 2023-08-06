@@ -35,5 +35,8 @@
   "obsidian-sample-plugin",
   "flashcards-obsidian",
   "obsidian-advanced-slides",
-  "surfing"
+  "surfing",
+  "obsidian-annotator",
+  "obsidian-pandoc",
+  "recent-files-obsidian"
 ]
