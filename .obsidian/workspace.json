@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "4aef16ae9d964dfe",
+    "type": "split",
+    "children": [
+      {
+        "id": "4921f35fdcc9301d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ef7985764b5e729",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "054543266f94f825",
+    "type": "split",
+    "children": [
+      {
+        "id": "245e0d8eb6e1ea59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c46f839357dd8c29",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d3282a9dc9202806",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0ed8f3b863135bdc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 321.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "11917e682556304d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0368619d043b08d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab4277b1ba6c374d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e95c715988a4f67f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "507533288f59c34f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "618ff2da6f03c389",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3ef7985764b5e729",
+  "lastOpenFiles": [
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🗒️ PostgreSQL Next Generation Parallel Query.md",
+    "Pasted image 20230807030022.png",
+    "Pasted image 20230807025824.png",
+    "PostgreSQL.md",
+    "Pasted image 20230807024546.png",
+    "Pasted image 20230807023937.png",
+    "Pasted image 20230807021201.png",
+    "Pasted image 20230807020622.png",
+    "Pasted image 20230807013338.png",
+    "Pasted image 20230807013247.png",
+    "Pasted image 20230807013201.png",
+    "Pasted image 20230807012423.png",
+    "Mind Map/Untitled.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 GoogleTest/GUIDES.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 Microsoft Learn/Assessments.md",
+    "Parallel.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🗒️ SQL.md",
+    "Anki Flashcards/Default.apkg",
+    "Anki Flashcards",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 CMake Reference Documentation/Guides.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 CMake Reference Documentation/Interactive Dialogs.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 Amazon Redshift - Fundamentals/2. Storage.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 Amazon Redshift - Fundamentals/1. Introduction.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🗒️ GoogleTest.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🗒️ JavaScript.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 Codility.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🗒️ Git.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🗒️ CMake.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🗒️ Anki.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 The Modern JavaScript Tutorial/Part 1 “The JavaScript Language”.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 Advanced SQL/Advanced SQL — Chapter #05 — Video #29 — Window functions, frame specifications (ROWS∕RANGE∕GROUPS).md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 C++ reference/Feature test macros.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 C++ reference/Concurrency support library.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 C++ reference/Algorithms library.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 Microsoft Learn/Certifications.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 Poetry Documentation.md",
+    "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/📕 Fluent Python, 2ⁿᵈ Edition (2022).md"
+  ]
+}
