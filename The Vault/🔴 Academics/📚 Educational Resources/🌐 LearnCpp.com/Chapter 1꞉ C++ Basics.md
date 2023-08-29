@@ -91,14 +91,14 @@ In the following code, what is line 1?
 #include <iostream>
 int main()
 {
-   std▹cout << "Hello world!";
+   std::cout << "Hello world!";
    return 0;
 }
 ```
 #card 
 - A special type of line called a **preprocessor directive**. 
 	- This preprocessor directive indicates that we would like to use the contents of the iostream library, which is the part of the C++ standard library that allows us to read and write text from/to the console.
-	- We need this line in order to use `std▹cout` on line 5. Excluding this line would result in a compile error on line 5, as the compiler wouldn’t otherwise know what `std▹cout` is.
+	- We need this line in order to use `std::cout` on line 5. Excluding this line would result in a compile error on line 5, as the compiler wouldn’t otherwise know what `std::cout` is.
 ^1682908022710
 
 
@@ -666,12 +666,12 @@ When should I do an explicit initialization vs a value initialization? #card
 - Use an explicit initialization value if you’re actually using that value.
 ```cpp
 int x { 0 };    // explicit initialization to value 0
-std▹cout << x; // we're using that zero value
+std::cout << x; // we're using that zero value
 ```
 - Use value initialization if the value is temporary and will be replaced.
 ```cpp
 int x {};      // value initialization
-std▹cin >> x; // we're immediately replacing that value
+std::cin >> x; // we're immediately replacing that value
 ```
 ^1683686190103
 
@@ -748,13 +748,13 @@ What does the *io* part of *iostream* stand for? #card
 ^1682908023416
 
 ---- 
-#### std▹cout
+#### std::cout
 
 ---- 
-#### std▹endl
+#### std::endl
 
 ---- 
-#### std▹cout is buffered
+#### std::cout is buffered
 
 When often are buffered systems used? #card 
 - Cases where processing a few large batches of data is more efficient than processing smaller batches
@@ -772,10 +772,10 @@ Any output still waiting in the buffer will not be displayed.
 
 
 ---- 
-#### std▹endl vs ‘\n’
+#### std::endl vs ‘\n’
 
 ---- 
-#### std▹cin
+#### std::cin
 
 Do we need to use '\n' when getting input from the user via the console? #card 
 No. The user will need to press the *enter* key to have their input accepted, and this will move the cursor to the next line of the console.
@@ -785,14 +785,14 @@ No. The user will need to press the *enter* key to have their input accepted, an
 Is it possible to input more than one value on a single line? #card 
 Yes, just like it is possible to output more than one bit of text in a single line…
 ```cpp
-#include <iostream>  // for std▹cout and std▹cin
+#include <iostream>  // for std::cout and std::cin
 int main()
 {
-    std▹cout << "Enter two numbers separated by a space: ";
+    std::cout << "Enter two numbers separated by a space: ";
     int x{ }; // define variable x to hold user input (and zero-initialize it)
     int y{ }; // define variable y to hold user input (and zero-initialize it)
-    std▹cin >> x >> y; // get two numbers and store in variable x and y respectively
-    std▹cout << "You entered " << x << " and " << y << '\n';
+    std::cin >> x >> y; // get two numbers and store in variable x and y respectively
+    std::cout << "You entered " << x << " and " << y << '\n';
     return 0;
 }
 ```
@@ -822,13 +822,13 @@ No. For console applications, LearnCpp.com recommends…
 **Question #1**
 Consider the following program that we used above:
 ```cpp
-#include <iostream>  // for std▹cout and std▹cin
+#include <iostream>  // for std::cout and std::cin
 int main()
 {
-    std▹cout << "Enter a number: "; // ask user for a number
+    std::cout << "Enter a number: "; // ask user for a number
     int x{}; // define variable x to hold user input
-    std▹cin >> x; // get number from keyboard and store it in variable x
-    std▹cout << "You entered " << x << '\n';
+    std::cin >> x; // get number from keyboard and store it in variable x
+    std::cout << "You entered " << x << '\n';
     return 0;
 }
 ```
@@ -842,61 +842,61 @@ e) A really big number (at least 3 billion)
 f) A small number followed by some letters, such as _123abc_
 …
 a) x is 0.
-- In attempting to read into an integer variable using `std▹cin >> x`, our `std▹cin` object enters a “fail state” because the ‘h’ cannot be converted into an integer.
+- In attempting to read into an integer variable using `std::cin >> x`, our `std::cin` object enters a “fail state” because the ‘h’ cannot be converted into an integer.
 b) The fractional component is dropped.
 c) A small negative integer, such as *-3*
 d) x is 0. 
 - Again another fail state occurs.
 e) You are most likely to get the number 2147483647. This happens because x can only hold numbers up to a certain size. If you enter a value larger than the largest number x can hold, it will be set to the largest number that x can hold (which is probably 2147483647, but might be different on your system). We discuss this further in lesson [4.4 -- Signed integers](https://www.learncpp.com/cpp-tutorial/signed-integers/).
-f) x gets the numeric value (e.g. 123). We’ll cover this case in more detail in lesson [7.16 -- std▹cin and handling invalid input](https://www.learncpp.com/cpp-tutorial/stdcin-and-handling-invalid-input/).
+f) x gets the numeric value (e.g. 123). We’ll cover this case in more detail in lesson [7.16 -- std::cin and handling invalid input](https://www.learncpp.com/cpp-tutorial/stdcin-and-handling-invalid-input/).
 ^1682908023459
 
-When `std▹cin` is in a failed state, any further {input or output operation performed using `std▹cin` will not have an effect till the fail state is cleared}.
+When `std::cin` is in a failed state, any further {input or output operation performed using `std::cin` will not have an effect till the fail state is cleared}.
 ^1684496322478
 
 How can you prevent reading a fail state from occurring? #card 
-Check if the input was successful using `std▹cin.fail()` before you use the input value:
+Check if the input was successful using `std::cin.fail()` before you use the input value:
 ```cpp
-std▹cin >> x; 
-if (std▹cin.fail()) {     
-	std▹cout << "That was not a valid number.\n";     
+std::cin >> x; 
+if (std::cin.fail()) {     
+	std::cout << "That was not a valid number.\n";     
 	// Reset the state of std::cin to good     
-	std▹cin.clear();     
+	std::cin.clear();     
 	// Ignore the rest of the line     
-	std▹cin.ignore(std▹numeric_limits<std▹streamsize>▹max(), '\n'); 
+	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); 
 } 
 else {     
-	std▹cout << "You entered " << x << '\n'; 
+	std::cout << "You entered " << x << '\n'; 
 }
 ```
-This code will display an error message if the user enters something that is not a number. The `std▹cin.clear()` line will reset the state of `std▹cin` to good, and the `std▹cin.ignore()` line will remove the incorrect input from `std▹cin` so that it doesn't interfere with subsequent input operations.
+This code will display an error message if the user enters something that is not a number. The `std::cin.clear()` line will reset the state of `std::cin` to good, and the `std::cin.ignore()` line will remove the incorrect input from `std::cin` so that it doesn't interfere with subsequent input operations.
 ^1684496322516
 
-What does `std▹cin.clear()` do? #card-reverse 
-Resets the state of `std▹cin` to good.
+What does `std::cin.clear()` do? #card-reverse 
+Resets the state of `std::cin` to good.
 ^1684496322525
 
-Waht does `std▹cin.ignore()` do? #card-reverse 
-Removes the incorrect input form `std:꞉cin` so that it doesn’t interfere with subsequent operations.
+Waht does `std::cin.ignore()` do? #card-reverse 
+Removes the incorrect input form `std::cin` so that it doesn’t interfere with subsequent operations.
 ^1684496322533
 
-What does `std::cin.ignore(std▹numeric_limits<std▹streamsize>▹꞉max(), '\n')` do? #card-reverse
+What does `std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n')` do? #card-reverse
 ^1684496733288 
 Used to ignore the rest of the line, ensuring that the invalid input doesn't interfere with future input operations.
 ^1684496733294
 
-What is the general process for checking for fail states for `std▹cin`?
-1. Check if `std▹cin` is in a failed state.
-2. Reset the state by calling the `std▹cin.clear()` method.
-3. Make sure to ignore the rest of the line by using `std::cin.ignore(std▹numeric_limits<std▹streamsize>▹꞉max(), '\n')`.
+What is the general process for checking for fail states for `std::cin`?
+1. Check if `std::cin` is in a failed state.
+2. Reset the state by calling the `std::cin.clear()` method.
+3. Make sure to ignore the rest of the line by using `std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n')`.
 ^1684496733301
 
 #### 🤖 ChatGPT Generated Flash Cards
 
 ![[🤖 ChatGPT, Bing Chat, etc. Warning]]
 
-**Front of Card**: What does `std▹cout` stand for? #card 
-**Back of Card**: `std▹cout` stands for "standard character output". It is a predefined variable in the iostream library that allows us to send data to the console to be printed as text.
+**Front of Card**: What does `std::cout` stand for? #card 
+**Back of Card**: `std::cout` stands for "standard character output". It is a predefined variable in the iostream library that allows us to send data to the console to be printed as text.
 ^1682908023477
 
 
@@ -906,27 +906,27 @@ What is the general process for checking for fail states for `std▹cin`?
 
 
 **Front of Card**: What is the insertion operator and what is it used for? #card 
-**Back of Card**: The insertion operator (`<<`) is used with std▹cout to send data to the console to be printed as text. It shows the direction that data is moving (if `std▹cout` represents the console, the output data is moving from the variable to the console).
+**Back of Card**: The insertion operator (`<<`) is used with std::cout to send data to the console to be printed as text. It shows the direction that data is moving (if `std::cout` represents the console, the output data is moving from the variable to the console).
 ^1682908023516
 
 
-**Front of Card**: How can we print the value of a variable using `std▹cout`? #card 
-**Back of Card**: We can print the value of a variable using `std▹cout` by using the insertion operator (`<<`) and the name of the variable, like so: `std▹cout << x;`
+**Front of Card**: How can we print the value of a variable using `std::cout`? #card 
+**Back of Card**: We can print the value of a variable using `std::cout` by using the insertion operator (`<<`) and the name of the variable, like so: `std::cout << x;`
 ^1682908023530
 
 
-**Front of Card**: How can we print more than one thing on the same line using `std▹cout`? #card 
-**Back of Card**: To print more than one thing on the same line using `std▹cout`, we can use the insertion operator (`<<`) multiple times in a single statement to concatenate (link together) multiple pieces of output.
+**Front of Card**: How can we print more than one thing on the same line using `std::cout`? #card 
+**Back of Card**: To print more than one thing on the same line using `std::cout`, we can use the insertion operator (`<<`) multiple times in a single statement to concatenate (link together) multiple pieces of output.
 ^1682908023541
 
 
-**Front of Card**: What does `std▹endl` do and when should we use it? #card 
-**Back of Card**: When output with `std▹cout`, `std▹endl` prints a newline character to the console (causing the cursor to go to the start of the next line) and flushes the buffer. We should use `std▹endl` whenever a line of output is complete.
+**Front of Card**: What does `std::endl` do and when should we use it? #card 
+**Back of Card**: When output with `std::cout`, `std::endl` prints a newline character to the console (causing the cursor to go to the start of the next line) and flushes the buffer. We should use `std::endl` whenever a line of output is complete.
 ^1682908023553
 
 
-**Front of Card**: What is the buffer in C++ and how does it relate to `std▹cout`? #card 
-**Back of Card**: The buffer in C++ is a region of memory set aside to collect output requests made with `std▹cout`. Output is typically not sent to the console immediately, but rather added to the buffer. Periodically, the buffer is flushed and the output is sent to the console.
+**Front of Card**: What is the buffer in C++ and how does it relate to `std::cout`? #card 
+**Back of Card**: The buffer in C++ is a region of memory set aside to collect output requests made with `std::cout`. Output is typically not sent to the console immediately, but rather added to the buffer. Periodically, the buffer is flushed and the output is sent to the console.
 ^1682908023564
 
 Is output typically sent to the console immediately? #card 
@@ -935,22 +935,22 @@ No, it is typically added to the buffer.
 
 
 **Front of Card**: What is the preferred way to move the cursor to the next line of the console when outputting text? #card 
-**Back of Card**: The preferred way to move the cursor to the next line of the console when outputting text is to use the newline character '\n'. This is more efficient than using `std▹endl`, which flushes the buffer as well.
+**Back of Card**: The preferred way to move the cursor to the next line of the console when outputting text is to use the newline character '\n'. This is more efficient than using `std::endl`, which flushes the buffer as well.
 ^1682908023575
 
 
-**Front of Card**: What is `std▹cin` and what is it used for? #card 
-**Back of Card**: `std▹cin` is a predefined variable in the iostream library that is used to read input from the keyboard using the extraction operator (`>>`). The input must be stored in a variable to be used.
+**Front of Card**: What is `std::cin` and what is it used for? #card 
+**Back of Card**: `std::cin` is a predefined variable in the iostream library that is used to read input from the keyboard using the extraction operator (`>>`). The input must be stored in a variable to be used.
 ^1682908023586
 
 
-**Front of Card**: How do we get input from the user using `std▹cin`? #card 
-**Back of Card**: We can get input from the user using `std▹cin` by using the extraction operator (`>>`) and the name of the variable we want to store the input in, like so: `std▹cin >> x`;
+**Front of Card**: How do we get input from the user using `std::cin`? #card 
+**Back of Card**: We can get input from the user using `std::cin` by using the extraction operator (`>>`) and the name of the variable we want to store the input in, like so: `std::cin >> x`;
 ^1682908023598
 
 
-**Front of Card**: How can we prompt the user for input when using `std▹cin`? #card 
-**Back of Card**: We can prompt the user for input when using `std▹cin` by using `std▹cout` to output a message to the console before getting input with `std▹cin`.
+**Front of Card**: How can we prompt the user for input when using `std::cin`? #card 
+**Back of Card**: We can prompt the user for input when using `std::cin` by using `std::cout` to output a message to the console before getting input with `std::cin`.
 ^1682908023608
 
 
@@ -1140,12 +1140,12 @@ int main()
     {
         float data[4];
     } a, b, c;
-    [std▹cout](https://en.cppreference.com/w/cpp/io/cout)
+    [std::cout](https://en.cppreference.com/w/cpp/io/cout)
         << "alignof(struct_float) = " << alignof(struct_float) << '\n'
         << "sizeof(sse_t) = " << sizeof(sse_t) << '\n'
         << "alignof(sse_t) = " << alignof(sse_t) << '\n'
         << "alignof(cacheline) = " << alignof(alignas(64) char[64]) << '\n'
-        << [std▹hex](https://en.cppreference.com/w/cpp/io/manip/hex) << [std▹showbase](https://en.cppreference.com/w/cpp/io/manip/showbase)
+        << [std::hex](https://en.cppreference.com/w/cpp/io/manip/hex) << [std::showbase](https://en.cppreference.com/w/cpp/io/manip/showbase)
         << "&a: " << &a << '\n'
         << "&b: " << &b << '\n'
         << "&c: " << &c << '\n'
@@ -1258,7 +1258,7 @@ int main() {
 	int a = 5;      // in binary: 0101
 	int b = 3;      // in binary: 0011
 	int result = a | b; // bitwise OR operation
-	std▹cout << "The result of 5 | 3 is " << result << '\n';
+	std::cout << "The result of 5 | 3 is " << result << '\n';
 	return 0; 
 }
 ```
@@ -1491,7 +1491,7 @@ For each of the following, indicate what output they produce:
 
 a)
 ```cpp
-std▹cout << 3 + 4 << '\n';
+std::cout << 3 + 4 << '\n';
 ```
 #card 
 7
@@ -1499,7 +1499,7 @@ std▹cout << 3 + 4 << '\n';
 
 b)
 ```cpp
-std▹cout << 3 + 4 - 5 << '\n';
+std::cout << 3 + 4 - 5 << '\n';
 ```
 #card 
 2
@@ -1507,7 +1507,7 @@ std▹cout << 3 + 4 - 5 << '\n';
 
 c)
 ```cpp
-std▹cout << 2 + 3 * 4 << '\n';
+std::cout << 2 + 3 * 4 << '\n';
 ```
 #card 
 14
@@ -1516,7 +1516,7 @@ std▹cout << 2 + 3 * 4 << '\n';
 d) Extra credit:
 ```cpp
 int x { 2 };
-std▹cout << (x = 5) << '\n';
+std::cout << (x = 5) << '\n';
 ```
 #card 
 Will print 5.
@@ -1596,7 +1596,7 @@ Function calls are part of an expression, so this is an expression statement.
 
 e) Extra credit:
 ```cpp
-std▹cout << x; // Hint: operator<< is a binary operator.
+std::cout << x; // Hint: operator<< is a binary operator.
 ```
 #card 
 `operator<<` is a binary operator, so `std::cout` must be the left-hand operand, and `x` must be the right-hand operand. Since that’s the entire statement, this must be an expression statement. ^1684868417741
@@ -1612,13 +1612,13 @@ Determine what values the following program outputs. Do not compile this program
 #include <iostream>
 int main()
 {
-	std▹cout << 2 + 3 << '\n';
+	std::cout << 2 + 3 << '\n';
 	int x{ 6 };
 	int y{ x - 2 };
-	std▹cout << y << '\n';
+	std::cout << y << '\n';
 	int z{ };
 	z = x;
-	std▹cout << z - x << '\n';
+	std::cout << z - x << '\n';
 	return 0;
 }
 ```
@@ -1666,10 +1666,10 @@ Triple 4 is: 12
 #include <iostream>  
 int main() {  
     int numToMultiply {};  
-    std▹cout << "Enter an integer: ";  
-    std▹cin >> numToMultiply;  
-    std▹cout << "Double " << numToMultiply << " is: " << numToMultiply * 2 << std▹endl;  
-    std▹cout << "Triple " << numToMultiply << " is: " << numToMultiply * 3 << std▹endl;  
+    std::cout << "Enter an integer: ";  
+    std::cin >> numToMultiply;  
+    std::cout << "Double " << numToMultiply << " is: " << numToMultiply * 2 << std::endl;  
+    std::cout << "Triple " << numToMultiply << " is: " << numToMultiply * 3 << std::endl;  
     return 0;  
 }
 ```
@@ -1718,7 +1718,7 @@ You should prefer {brace initialization} over the other initialization forms, an
 Although you can define multiple variables in a single statement, it’s better to {define and initialize each variable on its own line, in a separate statement}.
 ^1684868484099
 
-{**std▹cout**} and operator<< allow us to output an expression to the console as text. {**std▹endl**} outputs a newline character, forcing the console cursor to move to the next line. {**std▹cin**} and operator>> allow us to get a value from the keyboard. ^1684868417813
+{**std::cout**} and operator<< allow us to output an expression to the console as text. {**std::endl**} outputs a newline character, forcing the console cursor to move to the next line. {**std::cin**} and operator>> allow us to get a value from the keyboard. ^1684868417813
 ^1684868859281
 
 A variable that has not been given a value is called an {**uninitialized variable**}. Trying to get the value of an uninitialized variable will result in {**undefined behavior**}, which can manifest in any number of ways.

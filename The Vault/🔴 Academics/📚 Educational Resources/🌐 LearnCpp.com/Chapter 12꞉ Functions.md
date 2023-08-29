@@ -11,7 +11,7 @@ cards-deck: Default::Computer Science
 
 ### 12.2: [The stack and the heap](https://www.learncpp.com/cpp-tutorial/the-stack-and-the-heap/)
 
-### 12.3: [std▹vector capacity and stack behavior](https://www.learncpp.com/cpp-tutorial/stdvector-capacity-and-stack-behavior/) 
+### 12.3: [std::vector capacity and stack behavior](https://www.learncpp.com/cpp-tutorial/stdvector-capacity-and-stack-behavior/) 
 
 ### 12.4: [Recursion](https://www.learncpp.com/cpp-tutorial/recursion/)
 

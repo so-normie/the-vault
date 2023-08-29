@@ -117,7 +117,7 @@ Why should I *not* name my variables to start with `CMAKE_`? #card
 
 ###### [Getting Started](https://cmake.org/cmake/help/latest/guide/tutorial/A%20Basic%20Starting%20Point.html#id4)
 
-In C++, what does the function `std▹stod()` stand for? #card
+In C++, what does the function `std::stod()` stand for? #card
 - In C++, `stod` stands for **string to double**. It is a function that converts a string to a double-precision floating-point number. The function is defined in the `<string>` header and takes a string as its first argument.
 - It can also take an optional second argument, which is a pointer to a `size_t` object that will be set to the position of the first character in the string after the number¹.
 ^1687649756589

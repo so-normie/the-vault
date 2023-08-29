@@ -3,7 +3,7 @@ author: [James Stewart, Daniel K. Clegg, Saleem Watson]
 publisher: Cengage Learning
 published: January 2020
 tags: [🔴-academics/📚-educational-resources/name/calculus-early-transcendentals-9th-edition, study-note] 
-cards-deck: Default▹Mathematics
+cards-deck: Default::Mathematics
 ---
 
 # Calculus꞉ Early Transcendentals, 9ᵗʰ Edition

@@ -503,7 +503,7 @@ void multiply(int x, int y)
 
 int main()
 {
-    std▹cout << multiply(4, 5) << '\n';
+    std::cout << multiply(4, 5) << '\n';
     return 0;
 }
 ```

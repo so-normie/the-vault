@@ -19,6 +19,6 @@ cards-deck: Default::Computer Science
 
 ### 16.6: [Container classes](https://www.learncpp.com/cpp-tutorial/container-classes/)
 
-### 16.7: [std▹initializer_list](https://www.learncpp.com/cpp-tutorial/stdinitializer_list/) 
+### 16.7: [std::initializer_list](https://www.learncpp.com/cpp-tutorial/stdinitializer_list/) 
 
 ### 16.x: [Chapter 16 comprehensive quiz](https://www.learncpp.com/cpp-tutorial/chapter-16-comprehensive-quiz/)

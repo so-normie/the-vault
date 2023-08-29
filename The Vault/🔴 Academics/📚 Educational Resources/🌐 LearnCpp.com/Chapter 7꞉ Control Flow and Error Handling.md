@@ -37,7 +37,7 @@ cards-deck: Default::Computer Science
 
 ### 7.15: [Detecting and handling errors](https://www.learncpp.com/cpp-tutorial/detecting-and-handling-errors/)
 
-### 7.16: [std▹cin and handling invalid input](https://www.learncpp.com/cpp-tutorial/stdcin-and-handling-invalid-input/) 
+### 7.16: [std::cin and handling invalid input](https://www.learncpp.com/cpp-tutorial/stdcin-and-handling-invalid-input/) 
 
 ### 7.17: [Assert and static_assert](https://www.learncpp.com/cpp-tutorial/assert-and-static_assert/)
 
@@ -97,9 +97,9 @@ int plusOne()
 
 int main()
 {
-    std▹cout << plusOne() << '\n';
-    std▹cout << plusOne() << '\n';
-    std▹cout << plusOne() << '\n';
+    std::cout << plusOne() << '\n';
+    std::cout << plusOne() << '\n';
+    std::cout << plusOne() << '\n';
 
     return 0;
 }
@@ -166,9 +166,9 @@ Here is an example of how the `plusOne()` function could be used:
 ```cpp
 int main() {
   int num = plusOne();
-  std▹cout << num << std▹endl;
+  std::cout << num << std::endl;
   num = plusOne();
-  std▹cout << num << std▹endl;
+  std::cout << num << std::endl;
   return 0;
 }
 ```
@@ -228,10 +228,10 @@ int main() {
     // Print 100 random numbers
     for (int count{ 1 }; count <= 100; ++count)
     {
-        std▹cout << LCG16() << '\t';
+        std::cout << LCG16() << '\t';
         // If we've printed 10 numbers, start a new row
         if (count % 10 == 0)
-            std▹cout << '\n';
+            std::cout << '\n';
     }
     return 0;
 }
@@ -394,17 +394,17 @@ The random library has support for how many Mersenne Twister types? #card
 How to print the Mersenne Twister? #card 
 ```cpp
 #include <iostream>
-#include <random> // for std▹mt19937
+#include <random> // for std::mt19937
 int main()
 {
-	std▹mt19937 mt{}; // Instantiate a 32-bit Mersenne Twister
+	std::mt19937 mt{}; // Instantiate a 32-bit Mersenne Twister
 	// Print a bunch of random numbers
 	for (int count{ 1 }; count <= 40; ++count)
 	{
-		std▹cout << mt() << '\t'; // generate a random number
+		std::cout << mt() << '\t'; // generate a random number
 		// If we've printed 5 numbers, start a new row
 		if (count % 5 == 0)
-			std▹cout << '\n';
+			std::cout << '\n';
 	}
 	return 0;
 }
@@ -413,7 +413,7 @@ int main()
 
 What is the general process of implementing the Mersenne Twister? #card 
 1. <span class="spoiler">First, we include the `random` header, since that’s where all the random number capabilities live</span>.
-2. <span class="spoiler">Next, we instantiate a 32-bit Mersenne Twister engine via the statement std▹mt19937 mt</span>. 
+2. <span class="spoiler">Next, we instantiate a 32-bit Mersenne Twister engine via the statement std::mt19937 mt</span>. 
 3. <span class="spoiler">Then, each time we want to generate a random 32-bit unsigned integer, we call mt()</span>.
 ^1683661498659
 
@@ -421,7 +421,7 @@ Since `mt` is a variable, what does `mt()` means? #card
 > [!tip+] Tip
 > Since `mt` is a variable, you may be wondering what `mt()` means.
 > 
-> In lesson [4.17 -- Introduction to stds▹string](https://www.learncpp.com/cpp-tutorial/introduction-to-stdstring/), we showed an example where we called the function `name.length()`, which invoked the `length()` function on `std▹string` variable `name`.  
+> In lesson [4.17 -- Introduction to stds::string](https://www.learncpp.com/cpp-tutorial/introduction-to-stdstring/), we showed an example where we called the function `name.length()`, which invoked the `length()` function on `std::string` variable `name`.  
 > 
 > `mt()` is a concise syntax for calling the function `mt.operator()`, which for these PRNG types has been defined to return the next random result in the sequence. The advantage of using `operator()` instead of a named function is that we don’t need to remember the function’s name, and the concise syntax is less typing.
 ^1683661498676
@@ -451,19 +451,19 @@ A <span class="spoiler">**uniform distribution**</span> is a random number dis
 How do you implement a simulation of a roll of a 6-sided dice? #card 
 ```cpp
 #include <iostream>
-#include <random> // for std▹mt19937 and std▹uniform_int_distribution
+#include <random> // for std::mt19937 and std::uniform_int_distribution
 int main()
 {
-	std▹mt19937 mt{};
+	std::mt19937 mt{};
 	// Create a reusable random number generator that generates uniform numbers between 1 and 6
-	std▹uniform_int_distribution die6{ 1, 6 }; // for C++14, use std▹uniform_int_distribution<> die6{ 1, 6 };
+	std::uniform_int_distribution die6{ 1, 6 }; // for C++14, use std::uniform_int_distribution<> die6{ 1, 6 };
 	// Print a bunch of random numbers
 	for (int count{ 1 }; count <= 40; ++count)
 	{
-		std▹cout << die6(mt) << '\t'; // generate a roll of the die here
+		std::cout << die6(mt) << '\t'; // generate a roll of the die here
 		// If we've printed 10 numbers, start a new row
 		if (count % 10 == 0)
-			std▹cout << '\n';
+			std::cout << '\n';
 	}
 	return 0;
 }
@@ -497,23 +497,23 @@ C and C++ have a long history of PRNGs being seeded using the current time (usin
 How would we implement this concept? #card 
 ```cpp
 #include <iostream>
-#include <random> // for std▹mt19937
-#include <chrono> // for std▹chrono
+#include <random> // for std::mt19937
+#include <chrono> // for std::chrono
 int main()
 {
 	// Seed our Mersenne Twister using the
-	std▹mt19937 mt{ static_cast<unsigned int>(
-		std▹chrono▹steady_clock▹now().time_since_epoch().count()
+	std::mt19937 mt{ static_cast<unsigned int>(
+		std::chrono::steady_clock::now().time_since_epoch().count()
 		) };
 	// Create a reusable random number generator that generates uniform numbers between 1 and 6
-	std▹uniform_int_distribution die6{ 1, 6 }; // for C++14, use std▹uniform_int_distribution<> die6{ 1, 6 };
+	std::uniform_int_distribution die6{ 1, 6 }; // for C++14, use std::uniform_int_distribution<> die6{ 1, 6 };
 	// Print a bunch of random numbers
 	for (int count{ 1 }; count <= 40; ++count)
 	{
-		std▹cout << die6(mt) << '\t'; // generate a roll of the die here
+		std::cout << die6(mt) << '\t'; // generate a roll of the die here
 		// If we've printed 10 numbers, start a new row
 		if (count % 10 == 0)
-			std▹cout << '\n';
+			std::cout << '\n';
 	}
 	return 0;
 }
@@ -528,73 +528,73 @@ What is the downside of this approach? #card
 ^1683673446249
 
 
-Why do we use `std▹chrono▹steady_clock▹now()`? #card 
+Why do we use `std::chrono::steady_clock::now()`? #card 
 > [!tip]+
-> `std▹chrono▹high_resolution_clock` is a popular choice instead of `std▹chrono▹steady_clock`. `std▹chrono▹high_resolution_clock` is the clock that uses the most granular unit of time, but it may use the system clock for the current time, which can be changed or rolled back by users. `std▹chrono▹steady_clock` may have a less granular tick time, but is the only clock with a guarantee that users can not adjust it.
+> `std::chrono::high_resolution_clock` is a popular choice instead of `std::chrono::steady_clock`. `std::chrono::high_resolution_clock` is the clock that uses the most granular unit of time, but it may use the system clock for the current time, which can be changed or rolled back by users. `std::chrono::steady_clock` may have a less granular tick time, but is the only clock with a guarantee that users can not adjust it.
 ^1683673446254
 
 ---
 #### Seeding with the random device
 
-The random library contains a type called {`std▹random_device`} that is an {implementation-defined PRNG}. Normally {we avoid implementation-defined capabilities} because they {have no guarantees about quality or portability}, but {this is one of the exception cases}. Typically {`std▹random_device`} will {ask the OS for a random number (how it does this depends on the OS)}.
+The random library contains a type called {`std::random_device`} that is an {implementation-defined PRNG}. Normally {we avoid implementation-defined capabilities} because they {have no guarantees about quality or portability}, but {this is one of the exception cases}. Typically {`std::random_device`} will {ask the OS for a random number (how it does this depends on the OS)}.
 ^1683673446259
 
 How to implement? #card 
 ```cpp
 #include <iostream>
-#include <random> // for std▹mt19937 and std▹random_device
+#include <random> // for std::mt19937 and std::random_device
 int main()
 {
-	std▹mt19937 mt{ std▹random_device{}() };
+	std::mt19937 mt{ std::random_device{}() };
 	// Create a reusable random number generator that generates uniform numbers between 1 and 6
-	std▹uniform_int_distribution die6{ 1, 6 }; // for C++14, use std▹uniform_int_distribution<> die6{ 1, 6 };
+	std::uniform_int_distribution die6{ 1, 6 }; // for C++14, use std::uniform_int_distribution<> die6{ 1, 6 };
 	// Print a bunch of random numbers
 	for (int count{ 1 }; count <= 40; ++count)
 	{
-		std▹cout << die6(mt) << '\t'; // generate a roll of the die here
+		std::cout << die6(mt) << '\t'; // generate a roll of the die here
 		// If we've printed 10 numbers, start a new row
 		if (count % 10 == 0)
-			std▹cout << '\n';
+			std::cout << '\n';
 	}
 	return 0;
 }
 ```
-In the above program, we’re seeding our Mersenne Twister with one random number generated from a temporary instance of `std▹random_device`. If you run this program multiple times, it should also produce different results each time.
+In the above program, we’re seeding our Mersenne Twister with one random number generated from a temporary instance of `std::random_device`. If you run this program multiple times, it should also produce different results each time.
 ^1683673446265
 
 
 What is a problem with this approach? #card 
-- One potential problem with `std▹random_device`: it isn’t required to be non-deterministic, meaning it _could_, on some systems, produce the same sequence every time the program is run, which is exactly what we’re trying to avoid.
-	- There was a [bug in MinGW](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=85494) (fixed in GCC 9.2) that would do exactly this, making `std▹random_device` useless.
-- However, the latest versions of the most popular compilers (GCC/MinGW, Clang, Visual Studio) support proper implementations of `std▹random_device`.
+- One potential problem with `std::random_device`: it isn’t required to be non-deterministic, meaning it _could_, on some systems, produce the same sequence every time the program is run, which is exactly what we’re trying to avoid.
+	- There was a [bug in MinGW](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=85494) (fixed in GCC 9.2) that would do exactly this, making `std::random_device` useless.
+- However, the latest versions of the most popular compilers (GCC/MinGW, Clang, Visual Studio) support proper implementations of `std::random_device`.
 ^1683673446271
 
 
 Is this the best practice for seeding my PRNGs? #card 
 > [!tip]+ Best practice
-> Use `std▹random_device` to seed your PRNGs (unless it’s not implemented properly for your target compiler/architecture).
+> Use `std::random_device` to seed your PRNGs (unless it’s not implemented properly for your target compiler/architecture).
 ^1683673446276
 
 
-What does `std▹random_device{}()` mean?  #card
-> [!info]+ Q: What does `std▹random_device{}()` mean? 
-> `std▹random_device{}` creates a value-initialized temporary object of type `std▹random_device`. The `()` then calls `operator()` on that temporary object, which returns a randomized value (which we use as an initializer for our Mersenne Twister) 
+What does `std::random_device{}()` mean?  #card
+> [!info]+ Q: What does `std::random_device{}()` mean? 
+> `std::random_device{}` creates a value-initialized temporary object of type `std::random_device`. The `()` then calls `operator()` on that temporary object, which returns a randomized value (which we use as an initializer for our Mersenne Twister) 
 > It’s the equivalent of the calling the following function, which uses a syntax you should be more familiar with:
 >  ```cpp
 >  unsigned int getRandomDeviceValue()
 >  {
-> 	 std▹random_device rd{}; // create a value initialized std▹random_device object
+> 	 std::random_device rd{}; // create a value initialized std::random_device object
 > 	 return rd(); // return the result of operator() to the caller
 >  }
 >  ```
->  Using `std▹random_device{}()` allows us to get the same result without creating a named function or named variable, so it’s much more concise. 
+>  Using `std::random_device{}()` allows us to get the same result without creating a named function or named variable, so it’s much more concise. 
 ^1683673446309
 
 
 
-If `std▹random_device` is random itself, why don’t we just use that instead of Mersenne Twister? #card  
-> [!info]+ Q: If std▹random_device is random itself, why don’t we just use that instead of Mersenne Twister?
-> Because std▹random_device is implementation defined, we can’t assume much about it. It may be expensive to access or it may cause our program to pause while waiting for more random numbers to become available. The pool of numbers that it draws from may also be depleted quickly, which would impact the random results for other applications requesting random numbers via the same method. For this reason, std▹random_device is better used to seed other PRNGs rather than as a PRNG itself.
+If `std::random_device` is random itself, why don’t we just use that instead of Mersenne Twister? #card  
+> [!info]+ Q: If std::random_device is random itself, why don’t we just use that instead of Mersenne Twister?
+> Because std::random_device is implementation defined, we can’t assume much about it. It may be expensive to access or it may cause our program to pause while waiting for more random numbers to become available. The pool of numbers that it draws from may also be depleted quickly, which would impact the random results for other applications requesting random numbers via the same method. For this reason, std::random_device is better used to seed other PRNGs rather than as a PRNG itself.
 ^1683673446282
 
 
@@ -613,13 +613,13 @@ What is wrong with this code? #card
 #include <random>
 int getCard()
 {
-    std▹mt19937 mt{ std▹random_device{}() }; 
-    std▹uniform_int_distribution card{ 1, 52 };
+    std::mt19937 mt{ std::random_device{}() }; 
+    std::uniform_int_distribution card{ 1, 52 };
     return card(mt);
 }
 int main()
 {
-    std▹cout << getCard();
+    std::cout << getCard();
     return 0;
 }
 ```
@@ -629,21 +629,21 @@ In the `getCard()` function, the random number generator is being created and 
 ---
 #### Mersenne Twister and underseeding issues
 
-The internal state of a Mersenne Twister is {624 bytes} in size. In the examples above, where we seed from the clock or std▹random_device, our seed is only a single 32-bit integer. This means we’re essentially {initializing a 624-byte object with a 4-byte value}, which is significantly {underseeding} the Mersenne Twister PRNG.
+The internal state of a Mersenne Twister is {624 bytes} in size. In the examples above, where we seed from the clock or std::random_device, our seed is only a single 32-bit integer. This means we’re essentially {initializing a 624-byte object with a 4-byte value}, which is significantly {underseeding} the Mersenne Twister PRNG.
 ^1683673446298
 
 
-For example, seeding {`std▹mt19937`} with {a single 32-bit} value will {never generate the number `42` as its first output}. So {how do we fix this}? As of C++20, {there’s no easy way. But we do have some suggestions}.
+For example, seeding {`std::mt19937`} with {a single 32-bit} value will {never generate the number `42` as its first output}. So {how do we fix this}? As of C++20, {there’s no easy way. But we do have some suggestions}.
 ^1683673446303
 
 
-First, let’s talk about {`std▹seed_seq`} (which stands for {“seed sequence”}). In the prior lesson, we mentioned that a seed can be {either a single value, or a set of values}. {`std▹seed_seq`} is a type that {performs two functions}. 
+First, let’s talk about {`std::seed_seq`} (which stands for {“seed sequence”}). In the prior lesson, we mentioned that a seed can be {either a single value, or a set of values}. {`std::seed_seq`} is a type that {performs two functions}. 
 ^1683675200241
 
-How many functions does `std▹seed_seq` perform? #card 
+How many functions does `std::seed_seq` perform? #card 
 - First, it can hold multiple seed values, so we can use it to seed our PRNG with more than one value.
 - Second, it will generate as many additional unbiased seed values as needed to initialize a PRNG’s state.
-	- So if you initialize `std▹seed_seq` with a single 32-bit integer (e.g. from std▹random_device) and then initialize a Mersenne Twister with the `std▹seed_seq` object, `std▹seed_seq` will generate 620 bytes of additional seed data. The results won’t be amazingly high quality, but it’s better than nothing. 
+	- So if you initialize `std::seed_seq` with a single 32-bit integer (e.g. from std::random_device) and then initialize a Mersenne Twister with the `std::seed_seq` object, `std::seed_seq` will generate 620 bytes of additional seed data. The results won’t be amazingly high quality, but it’s better than nothing. 
 ^1683673446334
 
 
@@ -660,14 +660,14 @@ No, that’s a lot of passing for something we may only use sporadically, and in
 ^1683673446347
 
 
-Is it a correct approach to create a static local std▹mt19937 variable in each function that needs it (static so that it only gets seeded once)? #card
+Is it a correct approach to create a static local std::mt19937 variable in each function that needs it (static so that it only gets seeded once)? #card
 No, it’s overkill to have every function that uses a random number generator define and seed its own local generator, and the low volume of calls to each generator may lead to lower quality results.
 ^1683673446352
 
 
 It it a correct approach to create a global random number generator object (inside a namespace!)? #card 
 Yes! Remember how we told you to avoid non-const global variables? This is an exception.
-Here’s a simple, header-only solution that you can `#include` in any code file that needs access to a randomized, self-seeded `std▹mt19937`: 
+Here’s a simple, header-only solution that you can `#include` in any code file that needs access to a randomized, self-seeded `std::mt19937`: 
 **Random.h**:
 ```cpp
 #ifndef RANDOM_MT_H
@@ -678,22 +678,22 @@ Here’s a simple, header-only solution that you can `#include` in any code file
 // It can be included into as many code files as needed (The inline keyword avoids ODR violations)
 namespace Random
 {
-	inline std▹mt19937 init()
+	inline std::mt19937 init()
 	{
-		std▹random_device rd;
-		// Create seed_seq with high-res clock and 7 random numbers from std▹random_device
-		std▹seed_seq ss{
-			static_cast<unsigned int>(std▹chrono▹steady_clock▹now().time_since_epoch().count()),
+		std::random_device rd;
+		// Create seed_seq with high-res clock and 7 random numbers from std::random_device
+		std::seed_seq ss{
+			static_cast<unsigned int>(std::chrono::steady_clock::now().time_since_epoch().count()),
 			rd(), rd(), rd(), rd(), rd(), rd(), rd() };
-		return std▹mt19937{ ss };
+		return std::mt19937{ ss };
 	}
-	// Here's our std▹mt19937 PRNG object
+	// Here's our std::mt19937 PRNG object
 	// The inline keyword also means we only have one global instance for our whole program
-	inline std▹mt19937 mt{ init() };
+	inline std::mt19937 mt{ init() };
 	// Generate a random number between [min, max] (inclusive)
 	inline int get(int min, int max)
 	{
-		std▹uniform_int_distribution die{ min, max };
+		std::uniform_int_distribution die{ min, max };
 		return die(mt); // and then generate a random number from our global generator
 	}
 };
@@ -703,18 +703,18 @@ And a sample program showing how it is used:
 **main.cpp**:
 ```cpp
 #include <iostream>
-#include "Random.h" // defines Random▹mt and Random▹get()
+#include "Random.h" // defines Random::mt and Random::get()
 int main()
 {
-	// Use Random▹get() to generate a random number between 1 and 6
-	std▹cout << Random▹get(1, 6) << '\n';
+	// Use Random::get() to generate a random number between 1 and 6
+	std::cout << Random::get(1, 6) << '\n';
 	// Create a reusable random number generator that generates uniform numbers between 1 and 6
-	std▹uniform_int_distribution die6{ 1, 6 }; // for C++14, use std▹uniform_int_distribution<> die6{ 1, 6 };
+	std::uniform_int_distribution die6{ 1, 6 }; // for C++14, use std::uniform_int_distribution<> die6{ 1, 6 };
 	// Print a bunch of random numbers
 	for (int count{ 1 }; count <= 10; ++count)
 	{
-		// We can also directly access Random▹mt
-		std▹cout << die6(Random▹mt) << '\t'; // generate a roll of the die here
+		// We can also directly access Random::mt
+		std::cout << die6(Random::mt) << '\t'; // generate a roll of the die here
 	}
 	return 0;
 }

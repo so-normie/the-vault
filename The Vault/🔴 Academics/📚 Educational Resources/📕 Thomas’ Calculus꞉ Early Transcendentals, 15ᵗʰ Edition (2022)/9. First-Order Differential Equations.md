@@ -3,7 +3,7 @@ author: [Joel Hass, Christopher Heil, Maurice Weir, Przemyslaw Bogacki]
 publisher: Pearson
 published: February 2022
 tags: [🔴-academics/📚-educational-resources/name/thomas-calculus-early-transcendentals-15th-edition-2022, study-note] 
-cards-deck: Default▹Mathematics
+cards-deck: Default::Mathematics
 ---
 
 # Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition (2022)

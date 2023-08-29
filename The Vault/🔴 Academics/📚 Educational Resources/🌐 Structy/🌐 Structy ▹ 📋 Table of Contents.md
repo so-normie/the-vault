@@ -9,6 +9,7 @@ tags:
 - 🔴-academics/📚-educational-resources/name/🌐-structy/🔖-bookmark/🌐-structy/🌐-structy-▹-📋-table-of-contents
 - study-note
 cards-deck: 🔴 Academics::📚 Educational Resources::🌐 Structy::🌐 Structy ▹ 📋 Table of Contents
+cards-deck: 🔴 Academics::📚 Educational Resources::🌐 Structy::🌐 Structy ▹ 📋 Table of Contents
 ---
 
 # 🌐 Structy
@@ -42,7 +43,10 @@ What is the website **Structy**?
 <br>
 #card
 <br> <span class="spoiler">Structy</span> is an online platform that teaches data structures and algorithms. It is designed to help one learn the concepts and skills you need to succeed in technical interviews.
-<br>﹈<br>^1693298222386
+^1693321531220
+
+⌂
+<br>﹈<br>
 
 
 ---

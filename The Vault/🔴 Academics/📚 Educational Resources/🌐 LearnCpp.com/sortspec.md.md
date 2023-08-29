@@ -33,7 +33,7 @@ sorting-spec: |
  Chapter 20꞉ Exceptions
  Chapter M꞉ Move Semantics and Smart Pointers
  Chapter 21꞉ The Standard Template Library
- Chapter 22꞉ std▹string
+ Chapter 22꞉ std::string
  Chapter 23꞉ Input and Output (I⟋O)
  Appendix A꞉ Miscellaneous Subjects
  Appendix B꞉ C++ Updates

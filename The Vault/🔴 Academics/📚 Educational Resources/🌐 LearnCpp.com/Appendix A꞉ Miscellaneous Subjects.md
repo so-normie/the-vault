@@ -11,6 +11,6 @@ cards-deck: Default::Computer Science
 
 ### A.2: [Using libraries with Visual Studio](https://www.learncpp.com/cpp-tutorial/a2-using-libraries-with-visual-studio-2005-express/)
 
-### A.3: [Using libraries with Code▹Blocks](https://www.learncpp.com/cpp-tutorial/a3-using-libraries-with-codeblocks/) 
+### A.3: [Using libraries with Code::Blocks](https://www.learncpp.com/cpp-tutorial/a3-using-libraries-with-codeblocks/) 
 
 ### A.4: [C++ FAQ](https://www.learncpp.com/cpp-tutorial/cpp-faq/)

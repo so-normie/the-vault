@@ -62,7 +62,7 @@ What symbol should I use as an alternate to the colon (i.e., `:`) for filenames?
 <br>
 #card
 <br>
-Should use the following symbol… `꞉` w`∶`
+Should use the following symbol… `꞉`
 ^1692233925063
 
 What symbol should I use as an alternate to the colon (i.e., `/`) for filenames?
@@ -99,11 +99,7 @@ In my vault, what does the ⌂ symbol mean?
 <br>
 Simply used to certian types of lists so that they are formatted correctly. Not significant beyond that.
 
-⎴
-<br>
-The red fox was with the happy with the deer
-<br>
-⎵
+
 
 ---
 

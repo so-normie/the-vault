@@ -48,7 +48,7 @@ int main() {
         myArray[i].y = i * 2;
     }
     for (int i = 0; i < n; i++)
-        std▹cout << myArray[i].x << " " << myArray[i].y << std▹endl;
+        std::cout << myArray[i].x << " " << myArray[i].y << std::endl;
     delete[] myArray;
     return 0;
 }
@@ -79,9 +79,9 @@ What is the downside of arrays being stored in contiguous memory in C++?
 - These downsides can be mitigated by using dynamic data structures such as <span class="spoiler">vectors</span> or <span class="spoiler">linked lists</span>, which are designed to handle resizing and insertion/deletion more efficiently.
 ^1683769343759
 
-Does `printf()` have an option for `std▹string`? 
+Does `printf()` have an option for `std::string`? 
 #card 
-No, `printf()` does ***not*** have an option for `std▹string`
+No, `printf()` does ***not*** have an option for `std::string`
 ^1683769343762
 
 Can you initialize a  `char*` via brace initialization with an empty string? 
@@ -129,7 +129,7 @@ As recommended by LearnCpp.com What are the general things one should do when co
 
 How would you convert the following implementation of a constructor to a initializer list?
 ```cpp
-IntCollection▹IntCollection(const IntCollection &c)
+IntCollection::IntCollection(const IntCollection &c)
     : data(new int[static_cast<unsigned long long int>(c.capacity)]),
       size(c.size),
       capacity(c.capacity) {
@@ -140,7 +140,7 @@ IntCollection▹IntCollection(const IntCollection &c)
 ```
 #card 
 ```cpp
-IntCollection▹IntCollection(const IntCollection &c)
+IntCollection::IntCollection(const IntCollection &c)
     : data(new int[static_cast<unsigned long long int>(c.capacity)]),
       size(c.size),
       capacity(c.capacity) {
@@ -292,19 +292,19 @@ Why does importing from a `.cxx` into another `.cxx` file create an error in C++
 ^1687733827893
 
 In the broad sense, how should I think of mutexes in C++? What are some simple concrete examples displaying the concept? #card 
-- In C++, a `std▹mutex` can be used to protect shared data from being simultaneously accessed by multiple threads, thus preventing race condition. Here's a simple example:
+- In C++, a `std::mutex` can be used to protect shared data from being simultaneously accessed by multiple threads, thus preventing race condition. Here's a simple example:
 ```cpp
 #include <iostream>
 #include <thread>
 #include <mutex>
-std▹mutex mtx; // global mutex
+std::mutex mtx; // global mutex
 int count = 0;  // global count
 void increaseCount(int id, int loop_count) {
     for (int i = 0; i < loop_count; ++i) {
         // lock the mutex before accessing shared data
         mtx.lock();
         ++count;
-        std▹cout << "Thread " << id << " incremented count to " << count << std▹endl;
+        std::cout << "Thread " << id << " incremented count to " << count << std::endl;
         mtx.unlock();
         // unlock after done
     }
@@ -312,8 +312,8 @@ void increaseCount(int id, int loop_count) {
 int main() {
     const int loop_count = 100;
     // Create two threads that both run increaseCount()
-    std▹thread t1(increaseCount, 1, loop_count);
-    std▹thread t2(increaseCount, 2, loop_count);
+    std::thread t1(increaseCount, 1, loop_count);
+    std::thread t2(increaseCount, 2, loop_count);
     // Wait for both threads to finish
     t1.join();
     t2.join();
@@ -321,21 +321,21 @@ int main() {
 }
 ```
 - This is a simple program where two threads increment a global counter. A mutex is used to ensure that only one thread increments and prints the counter at a time, preventing race condition.
-- Note that `std▹mutex▹lock()` will block if the mutex is already locked by another thread, and will only return once the lock is acquired. Once you're done with the shared resource, you must call `std▹mutex▹unlock()` to release the lock, allowing other threads to acquire it.
+- Note that `std::mutex::lock()` will block if the mutex is already locked by another thread, and will only return once the lock is acquired. Once you're done with the shared resource, you must call `std::mutex::unlock()` to release the lock, allowing other threads to acquire it.
 - The `lock()` and `unlock()` operations should always come in pairs. If a thread fails to unlock a mutex, other threads will be blocked when they attempt to lock the mutex, resulting in a deadlock.
-- It's generally recommended to use `std▹lock_guard` or `std▹unique_lock`, which provide a safer and more convenient way to manage locking and unlocking:
+- It's generally recommended to use `std::lock_guard` or `std::unique_lock`, which provide a safer and more convenient way to manage locking and unlocking:
 ```cpp
 void increaseCount(int id, int loop_count) {
     for (int i = 0; i < loop_count; ++i) {
         // lock the mutex before accessing shared data
-        std▹lock_guard<std▹mutex> guard(mtx);
+        std::lock_guard<std::mutex> guard(mtx);
         ++count;
-        std▹cout << "Thread " << id << " incremented count to " << count << std▹endl;
+        std::cout << "Thread " << id << " incremented count to " << count << std::endl;
         // mtx is automatically released when guard goes out of scope
     }
 }
 ```
-- With `std▹lock_guard`, you don't need to explicitly unlock the mutex. It will automatically be unlocked when the `lock_guard` object is destroyed, which happens when the object goes out of scope. This means the mutex will be unlocked even if an exception occurs, making your code more robust.
+- With `std::lock_guard`, you don't need to explicitly unlock the mutex. It will automatically be unlocked when the `lock_guard` object is destroyed, which happens when the object goes out of scope. This means the mutex will be unlocked even if an exception occurs, making your code more robust.
 ^1687772985678
 
 **Front**: What is a mutex in C++? 
@@ -343,14 +343,14 @@ void increaseCount(int id, int loop_count) {
 **Back**: A mutex (short for "mutual exclusion") in C++ is a synchronization primitive that can be used to protect shared data from being simultaneously accessed by multiple threads, thus preventing race conditions.
 ^1687773021696
 
-**Front**: What is the purpose of the `std▹mutex▹lock()` function in C++? 
+**Front**: What is the purpose of the `std::mutex::lock()` function in C++? 
 #card
-**Back**: The `std▹mutex▹lock()` function is used to lock the mutex. If the mutex is already locked by another thread, this call will block until the mutex is available to be locked.
+**Back**: The `std::mutex::lock()` function is used to lock the mutex. If the mutex is already locked by another thread, this call will block until the mutex is available to be locked.
 ^1687773021701
 
-**Front**: What is the purpose of the `std▹mutex▹unlock()` function in C++? 
+**Front**: What is the purpose of the `std::mutex::unlock()` function in C++? 
 #card
-**Back**: The `std▹mutex▹unlock()` function in C++ is used to unlock the mutex, making it available for other threads to lock and access the shared data.
+**Back**: The `std::mutex::unlock()` function in C++ is used to unlock the mutex, making it available for other threads to lock and access the shared data.
 ^1687773021707
 
 
@@ -360,21 +360,21 @@ void increaseCount(int id, int loop_count) {
 ^1687773021713
 
 
-**Front**: What are `std▹lock_guard` and `std▹unique_lock` in C++? 
+**Front**: What are `std::lock_guard` and `std::unique_lock` in C++? 
 #card
-**Back**: `std▹lock_guard` and `std▹unique_lock` are both classes in C++ that manage a mutex object. They lock the mutex upon construction and unlock the mutex upon destruction. This provides a safer and more convenient way to manage locking and unlocking, as it ensures the mutex will always be unlocked even if an exception occurs. 
+**Back**: `std::lock_guard` and `std::unique_lock` are both classes in C++ that manage a mutex object. They lock the mutex upon construction and unlock the mutex upon destruction. This provides a safer and more convenient way to manage locking and unlocking, as it ensures the mutex will always be unlocked even if an exception occurs. 
 ^1687773021720
 
 
-**Front**: What is the difference between `std▹lock_guard` and `std▹unique_lock` in C++? 
+**Front**: What is the difference between `std::lock_guard` and `std::unique_lock` in C++? 
 #card
-**Back**: Both `std▹lock_guard` and `std▹unique_lock` automatically manage the lock state of a mutex. However, `std▹unique_lock` is more flexible and allows for deferred locking, try-locking, timed locking, recursive locking, and transferring lock ownership, while `std▹lock_guard` does not.
+**Back**: Both `std::lock_guard` and `std::unique_lock` automatically manage the lock state of a mutex. However, `std::unique_lock` is more flexible and allows for deferred locking, try-locking, timed locking, recursive locking, and transferring lock ownership, while `std::lock_guard` does not.
 ^1687773021726
 
    
-**Front**: How does `std▹lock_guard` ensure the mutex gets unlocked in C++? 
+**Front**: How does `std::lock_guard` ensure the mutex gets unlocked in C++? 
 #card
-**Back**: `std▹lock_guard` automatically unlocks the mutex when the `lock_guard` object is destroyed, which happens when the object goes out of scope. This ensures that the mutex will be unlocked even if an exception occurs.
+**Back**: `std::lock_guard` automatically unlocks the mutex when the `lock_guard` object is destroyed, which happens when the object goes out of scope. This ensures that the mutex will be unlocked even if an exception occurs.
 ^1687772985684
 
 ❗How can you initialize a char* pointer to point to the start of a C string in C++? 

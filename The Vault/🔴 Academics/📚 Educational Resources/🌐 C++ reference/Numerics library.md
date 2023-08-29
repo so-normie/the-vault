@@ -13,42 +13,42 @@ cards-deck: Default::Computer Science
 
 **Flashcard 1**:
 Q: What are the C++ mathematical functions for computing the smallest integer value not less than the given value? #card-reverse 
-A: `std▹ceil`, `std▹ceilf`, and `std▹ceill`
+A: `std::ceil`, `std::ceilf`, and `std::ceill`
 
 
 **Flashcard 2**:
-Q: What is the prototype of the `std▹ceil` function in C++? #card-reverse 
-A: double `std▹ceil(double x) noexcept;`
+Q: What is the prototype of the `std::ceil` function in C++? #card-reverse 
+A: double `std::ceil(double x) noexcept;`
 
 
 **Flashcard 3**:
-Q: What is the prototype of the `std▹ceilf` function in C++? #card-reverse 
-A: `float std▹ceilf(float x) noexcept;`
+Q: What is the prototype of the `std::ceilf` function in C++? #card-reverse 
+A: `float std::ceilf(float x) noexcept;`
 
 
 **Flashcard 4**:
-Q: What is the prototype of the `std▹ceill` function in C++? #card-reverse 
-A: `long double std▹ceill(long double x) noexcept;`
+Q: What is the prototype of the `std::ceill` function in C++? #card-reverse 
+A: `long double std::ceill(long double x) noexcept;`
 
 
 **Flashcard 5**:
-Q: Which header should be included to use the `std▹ceil` functions in C++? #card 
+Q: Which header should be included to use the `std::ceil` functions in C++? #card 
 A: `#include <cmath>`
 
 
 **Flashcard 6**:
 Q: Which C++ function should be used when dealing with float type arguments? #card-reverse 
-A: `std▹ceilf`
+A: `std::ceilf`
 
 
 **Flashcard 7**:
 Q: Which C++ function should be used when dealing with long double type arguments? #card-reverse 
-A: `std▹ceill`
+A: `std::ceill`
 
 
 **Flashcard 8**:
 Q: Which C++ function should be used when dealing with double type or default arguments? #card-reverse 
-A: `std▹ceil`
+A: `std::ceil`
 
 
 **Front:** What is an exception in C++? #card-reverse 
@@ -64,5 +64,5 @@ A: `std▹ceil`
 
 
 **Front:** What happens if an exception occurs within a function declared with `noexcept`? #card 
-**Back:** If an exception does occur within a function declared with `noexcept`, it will result in a call to `std▹terminate`, which by default calls <span class="spoiler">`abort`</span> to terminate the program.
+**Back:** If an exception does occur within a function declared with `noexcept`, it will result in a call to `std::terminate`, which by default calls <span class="spoiler">`abort`</span> to terminate the program.
 

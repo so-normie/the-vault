@@ -1,6 +1,6 @@
 {
   "accentColor": "#8400c2",
-  "translucency": true,
+  "translucency": false,
   "interfaceFontFamily": "",
   "textFontFamily": "Atkinson Hyperlegible",
   "monospaceFontFamily": "CaskaydiaCove Nerd Font",
@@ -16,8 +16,8 @@
     "code"
   ],
   "baseFontSizeAction": true,
-  "theme": "obsidian",
+  "theme": "moonstone",
   "nativeMenus": true,
   "showViewHeader": true,
-  "baseFontSize": 14
+  "baseFontSize": 16
 }

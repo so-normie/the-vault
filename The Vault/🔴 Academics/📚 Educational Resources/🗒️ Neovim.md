@@ -50,14 +50,14 @@ In Vim, `<CR>` stands for “Carriage Return” and is used to represent the 
 
 
 How do I find and replace everything in vim? In other words, what is the general form of the substitute command? #card 
-- In Vim, you can find and replace text using the `꞉substitute` (`꞉s`) command. To run commands in Vim, you must be in normal mode, the default mode when starting the editor. To go back to normal mode from any other mode, just press the `Esc` key. The general form of the substitute command is as follows꞉ 
+- In Vim, you can find and replace text using the `:substitute` (`:s`) command. To run commands in Vim, you must be in normal mode, the default mode when starting the editor. To go back to normal mode from any other mode, just press the `Esc` key. The general form of the substitute command is as follows:
   ```
-  ꞉[range]s/{pattern}/{string}/[flags] [count]
+  :[range]s/{pattern}/{string}/[flags] [count]
   ```
 ^1683608281394
 
 How to search and replace across the entire file? #card
-- If you want to search and replace the pattern in the entire file, use the percentage character `%` as a range. This character indicates a range from the first to the last line of the file꞉ `꞉%s/foo/bar/g`
+- If you want to search and replace the pattern in the entire file, use the percentage character `%` as a range. This character indicates a range from the first to the last line of the file: `":"%s/foo/bar/g`
 ^1683608281400
 
 **Front:** What is the difference between the `:s` and `:g` commands in Vim? #card 

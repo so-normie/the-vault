@@ -1,5 +1,5 @@
 {
-  "findText": "^\\^\\d{13}$",
+  "findText": "\\^\\d{13}",
   "replaceText": "",
   "useRegEx": true,
   "selOnly": false,

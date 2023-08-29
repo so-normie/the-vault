@@ -15,6 +15,11 @@
     "recentlyUsedIconsSize": 5,
     "rules": [
       {
+        "rule": ".gif",
+        "icon": "TiGif",
+        "for": "everything"
+      },
+      {
         "rule": ".jpeg",
         "icon": "FarFileImage",
         "for": "everything"
@@ -73,11 +78,6 @@
         "rule": "sortspec",
         "icon": "RiSortDesc",
         "for": "everything"
-      },
-      {
-        "rule": ".gif",
-        "icon": "TiGif",
-        "for": "everything"
       }
     ],
     "extraMargin": {
@@ -93,7 +93,6 @@
     "inheritanceIcon": "FarFileImage"
   },
   "Technology Management.code-workspace": "RiFileLine",
-  "🔴 Academics/📚 Educational Resources/Mind Map.md": "FasBrain",
   "assets": "FasBoxesStacked",
   "scripts": "FasCode",
   "scripts/anki-prepare.ps1": "SiPowershell",

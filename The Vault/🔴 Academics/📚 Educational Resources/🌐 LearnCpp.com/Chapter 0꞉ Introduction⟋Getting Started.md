@@ -445,7 +445,7 @@ A piece  of software that contains all of the things you need to develop, compil
 #### Visual Studio (for Windows)
 
 ---
-#### Code▹Blocks (for Linux or Windows)
+#### Code::Blocks (for Linux or Windows)
 
 ---
 #### Visual Studio Code (for experienced Linux, macOS, or Windows users)
@@ -484,7 +484,7 @@ A piece  of software that contains all of the things you need to develop, compil
 
 **What are some popular IDEs for C++?**
 **Question**: Can you name a few popular IDEs for C++ programming? #card-reverse
-**Answer**: Some popular IDEs for C++ include Visual Studio, Code▹Blocks, Eclipse, Xcode, and Visual Studio Code.  
+**Answer**: Some popular IDEs for C++ include Visual Studio, Code::Blocks, Eclipse, Xcode, and Visual Studio Code.  
 ^1682810812891
 
 
@@ -497,7 +497,7 @@ A piece  of software that contains all of the things you need to develop, compil
 
 **How do I set up an IDE for C++ development?**
 **Question**: What steps do I need to follow to set up an IDE for C++ development? #card-reverse
-**Answer**: Setting up an IDE for C++ development typically involves configuring the compiler and build settings, creating a new project, and adding source files to the project. The specifics can vary depending on the IDE you are using. The tutorial provides detailed instructions for setting up Code▹Blocks and Visual Studio.
+**Answer**: Setting up an IDE for C++ development typically involves configuring the compiler and build settings, creating a new project, and adding source files to the project. The specifics can vary depending on the IDE you are using. The tutorial provides detailed instructions for setting up Code::Blocks and Visual Studio.
 ^1682810812898
 
 
@@ -593,7 +593,7 @@ What are precompiled headers? #card
 #### Visual Studio Solution Explorer 
 
 ---
-#### Creating a project in Code▹Blocks
+#### Creating a project in Code::Blocks
 
 ---
 #### Creating a project in VS Code
@@ -667,9 +667,9 @@ First, add or ensure the following lines are near the top of your program (Visua
 ```
 Second, add the following code at the end of your main() function (right before the return statement):
 ```cpp
-std▹cin.clear(); // reset any error flags
-std▹cin.ignore(std▹numeric_limits<std▹streamsize>▹max(), '\n'); // ignore any characters in the input buffer until we find an enter character
-std▹cin.get(); // get one more char from the user
+std::cin.clear(); // reset any error flags
+std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // ignore any characters in the input buffer until we find an enter character
+std::cin.get(); // get one more char from the user
 ```
 ^1682810812964
 
@@ -838,7 +838,7 @@ They choose one or two versions back from the latest version.
 #### Setting a language standard in Visual Studio
 
 --- 
-#### Setting a language standard in Code▹Blocks
+#### Setting a language standard in Code::Blocks
 
 --- 
 #### Setting a language standard in g++

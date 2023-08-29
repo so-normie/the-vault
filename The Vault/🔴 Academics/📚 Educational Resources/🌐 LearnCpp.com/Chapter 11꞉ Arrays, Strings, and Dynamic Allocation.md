@@ -55,7 +55,7 @@ In C++, how does one implement selection sort? #card-reverse
 
 ### 11.6: [C-style strings](https://www.learncpp.com/cpp-tutorial/c-style-strings/)
 
-### 11.7: [std▹string_view (part 2)](https://www.learncpp.com/cpp-tutorial/stdstring_view-part-2/)
+### 11.7: [std::string_view (part 2)](https://www.learncpp.com/cpp-tutorial/stdstring_view-part-2/)
 
 ### 11.8: [Pointers and arrays](https://www.learncpp.com/cpp-tutorial/pointers-and-arrays/)
 
@@ -73,9 +73,9 @@ In C++, how does one implement selection sort? #card-reverse
 
 ### 11.15: [Pointers to pointers and dynamic multidimensional arrays](https://www.learncpp.com/cpp-tutorial/pointers-to-pointers/)
 
-### 11.16: [An introduction to std▹array](https://www.learncpp.com/cpp-tutorial/an-introduction-to-stdarray/) 
+### 11.16: [An introduction to std::array](https://www.learncpp.com/cpp-tutorial/an-introduction-to-stdarray/) 
 
-### 11.17: [An introduction to std▹vector](https://www.learncpp.com/cpp-tutorial/an-introduction-to-stdvector/) 
+### 11.17: [An introduction to std::vector](https://www.learncpp.com/cpp-tutorial/an-introduction-to-stdvector/) 
 
 ### 11.18: [Introduction to iterators](https://www.learncpp.com/cpp-tutorial/introduction-to-iterators/)
 

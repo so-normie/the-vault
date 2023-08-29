@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "812c3ec44d553faa",
+        "id": "847f767b5938af2f",
         "type": "tabs",
         "children": [
           {
-            "id": "d6c5a348c0de46a9",
+            "id": "b1efcaefcf6adf9b",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,29 +18,131 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "🌐 Structy ▹ 📋 Table of Contents",
+                  "title": "003. max-value 🧑🏽‍💻",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":14.563636548591383}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":53.44800048828125}"
+                },
+                {
+                  "title": "002. hey programmer 🧑🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":337.066650390625}"
+                },
+                {
+                  "title": "001. code workspace tour 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "000. course introduction 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":34.881248792012535}"
                 },
                 {
                   "title": "0. Introduction ▹ 📋 Table of Contents",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":34.34008824912812}"
+                  "eState": "{\"scroll\":34.10890141831643}"
+                },
+                {
+                  "title": "000. course introduction 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":19.02708299954732}"
+                },
+                {
+                  "title": "0. Introduction ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":11.359524045671735}"
                 },
                 {
                   "title": "🌐 Structy ▹ 📋 Table of Contents",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":23.105881634880514}"
+                  "eState": "{\"scroll\":4.457142739068894}"
+                },
+                {
+                  "title": "002. hey programmer 🧑🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":42.86578850997122}"
+                },
+                {
+                  "title": "004. is prime 👨🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/004. is prime 👨🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":28.27051091142925}"
+                },
+                {
+                  "title": "003. max-value 🧑🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":38.098484286373086}"
+                },
+                {
+                  "title": "002. hey programmer 🧑🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":666.0708662668864}"
+                },
+                {
+                  "title": "001. code workspace tour 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":9},\"to\":{\"line\":40,\"ch\":9}},\"scroll\":25.820833206176758}"
+                },
+                {
+                  "title": "0. Introduction ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":18.541935090095766}"
+                },
+                {
+                  "title": "000. course introduction 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":31.870635017516122}"
+                },
+                {
+                  "title": "001. code workspace tour 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":37.76666937934028}"
+                },
+                {
+                  "title": "002. hey programmer 🧑🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":185.9333292643229}"
+                },
+                {
+                  "title": "000. course introduction 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":31.91825406513517}"
+                },
+                {
+                  "title": "0. Introduction ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":17.29032258064516}"
+                },
+                {
+                  "title": "006. uncompress 👨🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/006. uncompress 👨🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":10.084507042253522}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -102,7 +204,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#🔴-academics/📚-educational-resource/name",
+                "query": "▹",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +315,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md"
               }
             }
           }
@@ -222,8 +324,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 514.5,
-    "collapsed": true
+    "width": 514.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,35 +352,35 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d6c5a348c0de46a9",
+  "active": "b1efcaefcf6adf9b",
   "lastOpenFiles": [
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
-    "202308290339.md",
-    "Untitled.canvas",
-    "2023-08-29.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ Yarn.md",
-    "🔴 Academics/📚 Educational Resources/sortspec.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md",
-    "🔴 Academics/📚 Educational Resources/📄 Google Cloud.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/121. combine intervals 👨🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 10꞉ Compound Types꞉ Enums and Structs.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 9꞉ Compound Types꞉ References and Pointers.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/004. is prime 👨🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/006. uncompress 👨🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 33 The Nature and Propagation of Light.md",
+    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 38 Photons꞉ Light Waves Behaving as Particles.md",
+    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 39 Particles Behaving as Waves.md",
+    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 40 Quantum Mechanics I꞉ Wave Functions.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/011. pair product 👨🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/📕 Discrete and Combinatorial Mathematics (Classic Version), 5ᵗʰ Edition.md",
+    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 44 Particle Physics and Cosmology.md",
     "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter M꞉ Move Semantics and Smart Pointers.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 8꞉ Type Conversion and Function Overloading.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Appendix B꞉ C++ Updates.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 0꞉ Introduction⟋Getting Started.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Appendix C꞉ The End.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 16꞉ An Introduction to Object Relationships.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 17꞉ Inheritance.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 21꞉ The Standard Template Library.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 4꞉ Fundamental Data Types.md",
-    "Device Configuration for Laptop and Desktop.md",
-    "Terror interview prolbelm.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/7. Exhaustive Recursion/106. exhaustive recursion wrap-up 👨🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter O꞉ Bit Manipulation (optional chapter).md",
+    "🔴 Academics/📚 Educational Resources/🌐 CMake Reference Documentation/Guides.md",
+    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/CREDITS.md",
+    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/DETAILED CONTENTS.md",
+    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/INDEX.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Numerics library.md",
+    "🔴 Academics/📚 Educational Resources/Mind Map.md",
+    "🔴 Academics/📚 Educational Resources/🌐 MSYS2 Documentation/What is MSYS2？.md",
+    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/TO THE STUDENT.md",
+    "Untitled.canvas",
     "Untitled.loom",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/context.mdb",
     "📕 Calculus꞉ Early Transcendentals, 9ᵗʰ Edition (2020).pdf",

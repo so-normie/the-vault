@@ -7,7 +7,7 @@ cards-deck: Default::Computer Science
 
 ## Chapter O꞉ Bit Manipulation (optional chapter)
 
-### O.1: [Bit flags and bit manipulation via std▹bitset](https://www.learncpp.com/cpp-tutorial/bit-flags-and-bit-manipulation-via-stdbitset/) 
+### O.1: [Bit flags and bit manipulation via std::bitset](https://www.learncpp.com/cpp-tutorial/bit-flags-and-bit-manipulation-via-stdbitset/) 
 
 ### O.2: [Bitwise operators](https://www.learncpp.com/cpp-tutorial/bitwise-operators/)
 

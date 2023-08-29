@@ -16,16 +16,16 @@ cards-deck: Default::Computer Science
 What is the command to run to update all packages? #card
 ```bash session
 $ pacman -Suy
-▹ Synchronizing package databases...
+:: Synchronizing package databases...
  mingw32 is up to date
  mingw64 is up to date
  ucrt64 is up to date
  clang32 is up to date
  clang64 is up to date
  msys is up to date
-▹ Starting core system upgrade...
+:: Starting core system upgrade...
  there is nothing to do
-▹ Starting full system upgrade...
+:: Starting full system upgrade...
  there is nothing to do
 ```
 ^1684769537658

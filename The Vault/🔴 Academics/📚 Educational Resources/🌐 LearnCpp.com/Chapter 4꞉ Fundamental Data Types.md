@@ -36,7 +36,7 @@ In C++, what function should one use to swap values in an array? What libraries 
 	- Defined in header `<string_view>`
 
 
-In C++, what does `std▹` stand for? #card-reverse
+In C++, what does `std::` stand for? #card-reverse
 - The `std` is a short form of standard.
 - The `std` namespace contains the built-in classes and declared functions.
 	- One can find all the standard types and functions in the c++ `std` namespace.
@@ -68,8 +68,8 @@ In C++, what does `std▹` stand for? #card-reverse
 
 ### 4.16: [Numeral systems (decimal, binary, hexadecimal, and octal)](https://www.learncpp.com/cpp-tutorial/numeral-systems-decimal-binary-hexadecimal-and-octal/)
 
-### 4.17: [Introduction to std▹string](https://www.learncpp.com/cpp-tutorial/introduction-to-stdstring/) 
+### 4.17: [Introduction to std::string](https://www.learncpp.com/cpp-tutorial/introduction-to-stdstring/) 
 
-### 4.18: [Introduction to std▹string_view](https://www.learncpp.com/cpp-tutorial/introduction-to-stdstring_view/) 
+### 4.18: [Introduction to std::string_view](https://www.learncpp.com/cpp-tutorial/introduction-to-stdstring_view/) 
 
 ### 4.x: [Chapter 4 summary and quiz](https://www.learncpp.com/cpp-tutorial/chapter-4-summary-and-quiz/)
