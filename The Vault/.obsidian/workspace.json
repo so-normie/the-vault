@@ -16,12 +16,35 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "🌐 Structy ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":14.563636548591383}"
+                },
+                {
+                  "title": "0. Introduction ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":34.34008824912812}"
+                },
+                {
+                  "title": "🌐 Structy ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":23.105881634880514}"
                 }
               ]
             },
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -136,6 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,6 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +212,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
+              }
             }
           }
         ],
@@ -200,38 +227,40 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "surfing:surfing-bookmark-manager": false,
       "omnisearch:Omnisearch": false,
-      "switcher:Open quick switcher": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "surfing:surfing-bookmark-manager": false,
+      "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "zk-prefixer:Create new unique note": false,
-      "random-note:Open random note": false,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "markdown-importer:Open format converter": true,
+      "zk-prefixer:Create new unique note": true,
+      "random-note:Open random note": true,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
       "publish:Publish changes...": true,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-excalidraw-plugin:Create new drawing": true,
       "chronology:Open Chronology": true,
       "3d-graph:3D Graph": false,
-      "custom-sort:Toggle custom sorting": false,
+      "custom-sort:Toggle custom sorting": true,
       "notion-like-tables:Create new loom": false,
-      "obsidian-projects:Open projects": false,
       "homepage:Open homepage": false,
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e3f6c9ecddf3f564",
+  "active": "d6c5a348c0de46a9",
   "lastOpenFiles": [
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
+    "202308290339.md",
+    "Untitled.canvas",
+    "2023-08-29.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Yarn.md",
     "🔴 Academics/📚 Educational Resources/sortspec.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md",
@@ -251,8 +280,6 @@
     "Device Configuration for Laptop and Desktop.md",
     "Terror interview prolbelm.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/7. Exhaustive Recursion/106. exhaustive recursion wrap-up 👨🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/7. Exhaustive Recursion/105. substitute synonyms 👨🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/7. Exhaustive Recursion/104. parenthetical possibilities 👨🏽‍💻.md",
     "Untitled.loom",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/context.mdb",
     "📕 Calculus꞉ Early Transcendentals, 9ᵗʰ Edition (2020).pdf",
@@ -273,7 +300,6 @@
     "assets/images/Pasted image 20230815101015.png",
     "assets/images/Pasted image 20230815100423.png",
     "assets/images/Pasted image 20230815100228.png",
-    "Untitled.canvas",
     "Untitled 1.canvas"
   ]
 }

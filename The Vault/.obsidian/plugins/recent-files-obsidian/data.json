@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "0. Introduction ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "🌐 Structy ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
+    },
+    {
       "basename": "Problems ▹ 📋 Table of Contents",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md"
     },
@@ -9,20 +17,12 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md"
     },
     {
-      "basename": "0. Introduction ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
-    },
-    {
       "basename": "001. code workspace tour 👨🏻‍🏫",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md"
     },
     {
       "basename": "002. hey programmer 🧑🏽‍💻",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md"
-    },
-    {
-      "basename": "🌐 Structy ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "🗒️ Yarn",
@@ -195,10 +195,6 @@
     {
       "basename": "3. Your first CMakeLists.txt",
       "path": "🔴 Academics/📚 Educational Resources/🌐 More Modern CMake/3. Your first CMakeLists.txt.md"
-    },
-    {
-      "basename": "4. Working with Targets",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 More Modern CMake/4. Working with Targets.md"
     }
   ],
   "omittedPaths": [],

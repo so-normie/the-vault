@@ -4901,18 +4901,18 @@
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 76,
+      "wordCount": 85,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.25333333333333335,
-      "characterCount": 630,
-      "nonWhitespaceCharacterCount": 538,
+      "pageCount": 0.2833333333333333,
+      "characterCount": 673,
+      "nonWhitespaceCharacterCount": 573,
       "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1693304919309,
-      "modifiedDate": 1693298614539,
-      "sizeInBytes": 1291
+      "modifiedDate": 1693308123705,
+      "sizeInBytes": 1334
     },
     "🔴 Academics/📚 Educational Resources/🌐 The Modern JavaScript Tutorial/🌐 The Modern JavaScript Tutorial.md": {
       "isDirectory": false,
