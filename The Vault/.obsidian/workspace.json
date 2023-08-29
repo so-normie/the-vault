@@ -1,0 +1,279 @@
+{
+  "main": {
+    "id": "812027d141a633e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "812c3ec44d553faa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6c5a348c0de46a9",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e8ed80397d38533a",
+    "type": "split",
+    "children": [
+      {
+        "id": "54360f8db890b174",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "378dfb133d1155ab",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "e3f6c9ecddf3f564",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c66e0c5f869fd443",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#🔴-academics/📚-educational-resource/name",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ad89270ff0b486ff",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 391.5
+  },
+  "right": {
+    "id": "4862554a11d6c3ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "89a4ef93bf01a9a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "614c7bcf9b8d44d3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "795183581340a3c8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4a339558f59cc8a8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b1bed1699b770f6a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "885a95689720234f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "3d46bbe9c9fe1930",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1e70995f1f94d6ae",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 514.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "surfing:surfing-bookmark-manager": false,
+      "omnisearch:Omnisearch": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "publish:Publish changes...": true,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "chronology:Open Chronology": true,
+      "3d-graph:3D Graph": false,
+      "custom-sort:Toggle custom sorting": false,
+      "notion-like-tables:Create new loom": false,
+      "obsidian-projects:Open projects": false,
+      "homepage:Open homepage": false,
+      "flashcards-obsidian:Generate flashcards": false
+    }
+  },
+  "active": "e3f6c9ecddf3f564",
+  "lastOpenFiles": [
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Yarn.md",
+    "🔴 Academics/📚 Educational Resources/sortspec.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md",
+    "🔴 Academics/📚 Educational Resources/📄 Google Cloud.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/121. combine intervals 👨🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 10꞉ Compound Types꞉ Enums and Structs.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 9꞉ Compound Types꞉ References and Pointers.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter M꞉ Move Semantics and Smart Pointers.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 8꞉ Type Conversion and Function Overloading.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Appendix B꞉ C++ Updates.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 0꞉ Introduction⟋Getting Started.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Appendix C꞉ The End.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 16꞉ An Introduction to Object Relationships.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 17꞉ Inheritance.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 21꞉ The Standard Template Library.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 4꞉ Fundamental Data Types.md",
+    "Device Configuration for Laptop and Desktop.md",
+    "Terror interview prolbelm.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/7. Exhaustive Recursion/106. exhaustive recursion wrap-up 👨🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/7. Exhaustive Recursion/105. substitute synonyms 👨🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/7. Exhaustive Recursion/104. parenthetical possibilities 👨🏽‍💻.md",
+    "Untitled.loom",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/context.mdb",
+    "📕 Calculus꞉ Early Transcendentals, 9ᵗʰ Edition (2020).pdf",
+    "📕 Algebra, 3rd Edition (1999).pdf",
+    "Context/spacesLastSync.log",
+    "Context",
+    "assets/images/PascalTriangleAnimated2.gif",
+    "assets/images/Pasted image 20230826161630.png",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String ꞉꞉ 🔖 Bookmark",
+    "🔴 Academics/📚 Educational Resources/🌐 Advent of Code/Advent of Code 2015",
+    "🔴 Academics/📚 Educational Resources/🌐 Advent of Code",
+    "🔴 Academics/📚 Educational Resources/🌐 C++ Weekly With Jason Turner/C++ Weekly",
+    "assets/images/Pasted image 20230810203231.png",
+    "assets/images/Pasted image 20230815102520.png",
+    "assets/images/Pasted image 20230815102057.png",
+    "assets/images/Pasted image 20230815101746.png",
+    "assets/images/Pasted image 20230815101404.png",
+    "assets/images/Pasted image 20230815101015.png",
+    "assets/images/Pasted image 20230815100423.png",
+    "assets/images/Pasted image 20230815100228.png",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}

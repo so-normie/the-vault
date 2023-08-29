@@ -1,0 +1,507 @@
+{
+  "workspaces": {
+    "🌐 Structy": {
+      "main": {
+        "id": "812027d141a633e2",
+        "type": "split",
+        "children": [
+          {
+            "id": "0fd3dc86836b5d3e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a317b53e9b86b62a",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "6. Stack ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/6. Stack/6. Stack ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":17.247503196984052}"
+                    },
+                    {
+                      "title": "5. Dynamic Programming ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/5. Dynamic Programming ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":17.384449602504144}"
+                    },
+                    {
+                      "title": "4. Graph ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/4. Graph/4. Graph ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":17.384449602504144}"
+                    },
+                    {
+                      "title": "3. Binary Tree ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/3. Binary Tree ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":28.80870599616064}"
+                    },
+                    {
+                      "title": "2. Linked List ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/2. Linked List ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":26.406576177125338}"
+                    },
+                    {
+                      "title": "1. Array and String ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/1. Array and String ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":29.3852968887544}"
+                    },
+                    {
+                      "title": "0. Introduction ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":17.283517548532195}"
+                    },
+                    {
+                      "title": "🌐 Structy ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":44.27857062318044}"
+                    },
+                    {
+                      "title": "0. Introduction ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":29.713933287814445}"
+                    },
+                    {
+                      "title": "🌐 Structy ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":30.308841972853713}"
+                    },
+                    {
+                      "title": "0. Introduction ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":8.659645050410697}"
+                    },
+                    {
+                      "title": "3. Binary Tree ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/3. Binary Tree ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":16.06062629491863}"
+                    },
+                    {
+                      "title": "2. Linked List ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/2. Linked List ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":16.06062629491863}"
+                    },
+                    {
+                      "title": "1. Array and String ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/1. Array and String ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":22.22335205078125}"
+                    },
+                    {
+                      "title": "0. Introduction ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":12.331383200252757}"
+                    },
+                    {
+                      "title": "1. Array and String ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/1. Array and String ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":12.331383200252757}"
+                    },
+                    {
+                      "title": "0. Introduction ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":8.659645050410697}"
+                    },
+                    {
+                      "title": "1. Array and String ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/1. Array and String ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":27.84241668271347}"
+                    },
+                    {
+                      "title": "0. Introduction ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":22.22335205078125}"
+                    },
+                    {
+                      "title": "🌐 Structy ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":0}"
+                    },
+                    {
+                      "title": "000. course introduction 👨🏻‍🏫",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":27.43108619112666}"
+                    },
+                    {
+                      "title": "0. Introduction ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "🌐 Structy ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":17.612695307330533}"
+                    },
+                    {
+                      "title": "0. Introduction ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"scroll\":0}"
+                    },
+                    {
+                      "title": "🌐 Structy ꞉꞉ 📋 Table of Contents",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ꞉꞉ 📋 Table of Contents.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":3},\"to\":{\"line\":36,\"ch\":3}},\"scroll\":4.762804777725883}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/7. Exhaustive Recursion/7. Exhaustive Recursion ꞉꞉ 📋 Table of Contents.md",
+                    "mode": "preview",
+                    "backlinks": true,
+                    "source": true
+                  }
+                }
+              },
+              {
+                "id": "7b14c4f7aa3ce9ec",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Graph view",
+                      "icon": "lucide-git-fork",
+                      "state": "{\"type\":\"graph\",\"state\":{}}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/8. Mixed Recall ꞉꞉ 📋 Table of Contents.md",
+                    "mode": "preview",
+                    "backlinks": true,
+                    "source": true
+                  }
+                }
+              },
+              {
+                "id": "ea5bd091a54517c2",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "e8ed80397d38533a",
+        "type": "split",
+        "children": [
+          {
+            "id": "54360f8db890b174",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "378dfb133d1155ab",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "e3f6c9ecddf3f564",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "c66e0c5f869fd443",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#academics/educational-resource/cpp-reference",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "eac6a8071c277ac3",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "surfing-tab-tree",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 506.5110321044922
+      },
+      "right": {
+        "id": "4862554a11d6c3ac",
+        "type": "split",
+        "children": [
+          {
+            "id": "89a4ef93bf01a9a6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4a339558f59cc8a8",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "b1bed1699b770f6a",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "795183581340a3c8",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "ecfca12363b989f1",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "6a46d1a4d8a6d9e3",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "885a95689720234f",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "chronology-calendar-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "3d46bbe9c9fe1930",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 446.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "markdown-importer:Open format converter": false,
+          "zk-prefixer:Create new unique note": false,
+          "random-note:Open random note": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "publish:Publish changes...": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "chronology:Open Chronology": false,
+          "3d-graph:3D Graph": false,
+          "custom-sort:Toggle custom sorting": false,
+          "obsidian-textgenerator-plugin:Generate Text!": false,
+          "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+          "surfing:surfing-bookmark-manager": false,
+          "flashcards-obsidian:Generate flashcards": false,
+          "notion-like-tables:Create new loom": false,
+          "obsidian-projects:Open projects": false
+        }
+      },
+      "active": "ea5bd091a54517c2"
+    }
+  },
+  "active": "🌐 Structy"
+}

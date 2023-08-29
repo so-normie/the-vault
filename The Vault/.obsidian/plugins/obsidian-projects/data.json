@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "projects": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [
+      {
+        "project": "f205376b-28b6-4151-ac43-d09ebea4c562"
+      },
+      {
+        "project": "f205376b-28b6-4151-ac43-d09ebea4c562",
+        "view": "2ec1dc31-649a-4954-9998-8a7529012a43"
+      }
+    ],
+    "linkBehavior": "open-editor"
+  }
+}
