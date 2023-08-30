@@ -1,0 +1,49 @@
+{
+  "syncFolderName": true,
+  "ctrlKey": true,
+  "altKey": false,
+  "hideFolderNote": false,
+  "templatePath": "",
+  "autoCreate": false,
+  "enableCollapsing": false,
+  "excludeFolders": [],
+  "showDeleteConfirmation": true,
+  "underlineFolder": true,
+  "allowWhitespaceCollapsing": false,
+  "underlineFolderInPath": true,
+  "openFolderNoteOnClickInPath": true,
+  "openInNewTab": false,
+  "folderNoteName": "{{folder_name}} ▹ 📋 Table of Contents",
+  "folderNoteType": ".md",
+  "disableFolderHighlighting": false,
+  "newFolderNoteName": "{{folder_name}} ▹ 📋 Table of Contents",
+  "storageLocation": "insideFolder",
+  "syncDelete": false,
+  "showRenameConfirmation": true,
+  "defaultOverview": {
+    "id": "",
+    "folderPath": "",
+    "title": "{{folderName}} overview",
+    "showTitle": false,
+    "depth": 3,
+    "includeTypes": [
+      "folder",
+      "markdown"
+    ],
+    "style": "list",
+    "disableFileTag": false,
+    "sortBy": "name",
+    "sortByAsc": true,
+    "showEmptyFolders": false,
+    "onlyIncludeSubfolders": false,
+    "storeFolderCondition": true,
+    "showFolderNotes": false
+  },
+  "useSubmenus": true,
+  "syncMove": true,
+  "frontMatterTitle": {
+    "enabled": true,
+    "explorer": true,
+    "path": true
+  }
+}

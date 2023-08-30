@@ -1,0 +1,30 @@
+{
+  "collapse-filter": false,
+  "search": "structy",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#educational-resource/structy",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.21307994289793,
+  "lineSizeMultiplier": 3.52796257796258,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 15.3326403326403,
+  "linkStrength": 0.458939708939709,
+  "linkDistance": 30,
+  "scale": 0.19770481704347811,
+  "close": true
+}

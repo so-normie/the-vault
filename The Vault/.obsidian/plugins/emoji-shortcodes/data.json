@@ -1,0 +1,11 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 100,
+  "history": [
+    ":aerial_tramway:",
+    ":business_suit_levitating:",
+    ":100:"
+  ]
+}

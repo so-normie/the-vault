@@ -1,0 +1,23 @@
+{
+  "accentColor": "#7300ff",
+  "translucency": true,
+  "interfaceFontFamily": "",
+  "textFontFamily": "Atkinson Hyperlegible",
+  "monospaceFontFamily": "CaskaydiaCove Nerd Font",
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "realistic-highlight",
+    "header-font-sizes",
+    "spoiler",
+    "keyboard-buttons",
+    "keyboard-button",
+    "header-font-size",
+    "callouts",
+    "code"
+  ],
+  "baseFontSizeAction": true,
+  "theme": "moonstone",
+  "nativeMenus": true,
+  "showViewHeader": true,
+  "baseFontSize": 16
+}
