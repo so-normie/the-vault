@@ -26,8 +26,6 @@
   "custom-sort",
   "novel-word-count",
   "obsidian-zotero-desktop-connector",
-  "obsidian-quiet-outline",
-  "obsidian-outliner",
   "obsidian-auto-split",
   "pane-relief",
   "hotkey-helper",
@@ -46,5 +44,6 @@
   "obsidian-git",
   "omnisearch",
   "cycle-through-panes",
-  "flashcards-obsidian"
+  "obsidian-quiet-outline",
+  "obsidian-outliner"
 ]

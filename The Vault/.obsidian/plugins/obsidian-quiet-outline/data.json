@@ -15,7 +15,7 @@
   "hide_unsearched": true,
   "auto_expand": true,
   "regex_search": true,
-  "ellipsis": false,
+  "ellipsis": true,
   "label_direction": "left",
   "drag_modify": false
 }

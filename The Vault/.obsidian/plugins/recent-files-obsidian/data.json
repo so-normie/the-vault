@@ -13,6 +13,10 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md"
     },
     {
+      "basename": "sortspec",
+      "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
+    },
+    {
       "basename": "000. course introduction 👨🏻‍🏫",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "009. most frequent char 👨🏽‍💻",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/009. most frequent char 👨🏽‍💻.md"
-    },
-    {
-      "basename": "005. array and string welcome 👨🏻‍🏫",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/005. array and string welcome 👨🏻‍🏫.md"
     }
   ],
   "omittedPaths": [],
