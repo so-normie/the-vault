@@ -1,0 +1,151 @@
+{
+  "main": {
+    "id": "c1f063037a514959",
+    "type": "split",
+    "children": [
+      {
+        "id": "d31880ff758feed5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "722ed3c3797f4b88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 pganalyze/🗒️ PostgreSQL Next Generation Parallel Query.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ede28b9a828f9af6",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a2ed5aa4473af89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc3038da0f7f9205",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ae392f9ba7b17a2b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "53d76763d4e659ab",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "17795b9f4744515b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c3d3f410deeae41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7a76eb0f3d52346",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 pganalyze/🗒️ PostgreSQL Next Generation Parallel Query.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5cf2c6cfdc6ecd13",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 pganalyze/🗒️ PostgreSQL Next Generation Parallel Query.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "849877ab05be8984",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0de16e2d9889d944",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Mind Map/🔴 Academics/📚 Educational Resources/Computer Science/🌐 pganalyze/🗒️ PostgreSQL Next Generation Parallel Query.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "cc3038da0f7f9205",
+  "lastOpenFiles": []
+}

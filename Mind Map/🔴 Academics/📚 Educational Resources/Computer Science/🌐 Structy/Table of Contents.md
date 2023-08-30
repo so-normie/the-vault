@@ -10,20 +10,17 @@ cards-deck: Default::Computer Science
 
 ---
 
-## 🔙 Previous Link(s):
+## 🔙 Previous Link:
 
 ---
 
 ## Table of Contents
-```dataview
-TABLE title
-FROM #educational-resource/structy 
-SORT rating desc
-```
 
 ---
 
-## 🔜 Next Link(s):
+## 🔜 Next Link:
 - [[0. Introduction]]
 
 ---
+
+## 🕸️ Mentions

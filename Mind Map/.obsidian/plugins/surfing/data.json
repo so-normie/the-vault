@@ -11,7 +11,7 @@
     "craft"
   ],
   "alwaysShowCustomSearch": false,
-  "showOtherSearchEngines": false,
+  "showOtherSearchEngines": true,
   "showSearchBarInPage": false,
   "markdownPath": "/",
   "customHighlightFormat": false,
@@ -21,13 +21,13 @@
   "showRefreshButton": false,
   "openInObsidianWeb": false,
   "useCustomIcons": false,
-  "useWebview": false,
+  "useWebview": true,
   "useIconList": true,
   "darkMode": false,
   "bookmarkManager": {
-    "openBookMark": false,
-    "saveBookMark": false,
-    "sendToReadWise": false,
+    "openBookMark": true,
+    "saveBookMark": true,
+    "sendToReadWise": true,
     "pagination": "12",
     "category": "- Computer\n    - 算法\n    - 数据结构\n- obsidian\n    - surfing\n    - dataview\n",
     "defaultCategory": "ROOT",
@@ -43,17 +43,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "2e082085f1e9167e",
-      "parent": 0,
-      "droppable": true,
-      "text": "google drive - Google Search",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }
