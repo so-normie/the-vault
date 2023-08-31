@@ -1,24 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "002. hey programmer 🧑🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md"
+      "basename": "000. course introduction 👨🏻‍🏫",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md"
     },
     {
-      "basename": "003. max-value 🧑🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md"
+      "basename": "🗒️ C++",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++.md"
+    },
+    {
+      "basename": "Template (🎴 card)",
+      "path": "templates/Template (🎴 card).md"
+    },
+    {
+      "basename": "002. hey programmer 🧑🏽‍💻",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md"
     },
     {
       "basename": "001. code workspace tour 👨🏻‍🏫",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md"
     },
     {
-      "basename": "sortspec",
-      "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
+      "basename": "003. max-value 🧑🏽‍💻",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md"
     },
     {
-      "basename": "000. course introduction 👨🏻‍🏫",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md"
+      "basename": "004. is prime 👨🏽‍💻",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/004. is prime 👨🏽‍💻.md"
     },
     {
       "basename": "0. Introduction ▹ 📋 Table of Contents",
@@ -29,8 +37,40 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
     },
     {
-      "basename": "004. is prime 👨🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/004. is prime 👨🏽‍💻.md"
+      "basename": "Template (Default)",
+      "path": "templates/Template (Default).md"
+    },
+    {
+      "basename": "Template (🌐 Structy - Problem)",
+      "path": "templates/Template (🌐 Structy - Problem).md"
+    },
+    {
+      "basename": "🗒️ Go",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Go.md"
+    },
+    {
+      "basename": "🗒️ Visual Studio Code",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio Code.md"
+    },
+    {
+      "basename": "🗒️ .NET",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ .NET.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
+    },
+    {
+      "basename": "🗒️ ESBuild",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ ESBuild.md"
+    },
+    {
+      "basename": "🗒️ Yarn",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Yarn.md"
+    },
+    {
+      "basename": "🌐 Typst",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Typst.md"
     },
     {
       "basename": "006. uncompress 👨🏽‍💻",
@@ -155,50 +195,6 @@
     {
       "basename": "📕 Calculus with Multiple Variables Essential Skills Workbook꞉ Includes Vector Calculus and Full Solutions",
       "path": "🔴 Academics/📚 Educational Resources/📕 Calculus with Multiple Variables Essential Skills Workbook꞉ Includes Vector Calculus and Full Solutions.md"
-    },
-    {
-      "basename": "🗒️ C++",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++.md"
-    },
-    {
-      "basename": "Chapter 1꞉ C++ Basics",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 1꞉ C++ Basics.md"
-    },
-    {
-      "basename": "Project Kaban Board",
-      "path": "🔴 Academics/Projects/Project Kaban Board.md"
-    },
-    {
-      "basename": "🗒️ Obsidian",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md"
-    },
-    {
-      "basename": "🗒️ Neovim",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Neovim.md"
-    },
-    {
-      "basename": "1. Functions",
-      "path": "🔴 Academics/📚 Educational Resources/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition (2022)/1. Functions.md"
-    },
-    {
-      "basename": "🌐 AWS Educate",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 AWS Educate.md"
-    },
-    {
-      "basename": "📕 Calculus꞉ Early Transcendentals, 9ᵗʰ Edition",
-      "path": "🔴 Academics/📚 Educational Resources/📕 Calculus꞉ Early Transcendentals, 9ᵗʰ Edition.md"
-    },
-    {
-      "basename": "📕 An Introduction to Abstract Mathematics, 1ˢᵗ Edition",
-      "path": "🔴 Academics/📚 Educational Resources/📕 An Introduction to Abstract Mathematics, 1ˢᵗ Edition.md"
-    },
-    {
-      "basename": "1. Array and String ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/1. Array and String ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "009. most frequent char 👨🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/009. most frequent char 👨🏽‍💻.md"
     }
   ],
   "omittedPaths": [],

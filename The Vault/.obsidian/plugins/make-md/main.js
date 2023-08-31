@@ -11897,14 +11897,14 @@ var HoverPlugin = class {
       return;
     let bidi = this.view.bidiSpans(this.view.state.doc.lineAt(pos)).find((s5) => s5.from <= pos && s5.to >= pos);
     let rtl = bidi && bidi.dir == import_view.Direction.RTL ? -1 : 1;
-    let open2 = this.source(
+    let open = this.source(
       this.view,
       pos,
       lastMove.x < posCoords.left ? -rtl : rtl
     );
-    if (open2 == null ? void 0 : open2.then) {
+    if (open == null ? void 0 : open.then) {
       let pending = this.pending = { pos };
-      open2.then(
+      open.then(
         (result) => {
           if (this.pending == pending) {
             this.pending = null;
@@ -11914,8 +11914,8 @@ var HoverPlugin = class {
         },
         (e4) => (0, import_view.logException)(this.view.state, e4, "hover tooltip")
       );
-    } else if (open2) {
-      this.view.dispatch({ effects: this.setHover.of(open2) });
+    } else if (open) {
+      this.view.dispatch({ effects: this.setHover.of(open) });
     }
   }
   mousemove(event) {
@@ -13820,6 +13820,21 @@ var uiIconSet = {
 `,
   "mk-make-date": `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+</svg>
+`,
+  "mk-make-indent": `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="9.5" y1="8.5" x2="17.5" y2="8.5" stroke="currentColor" stroke-linecap="round"/>
+<line x1="9.5" y1="11.5" x2="17.5" y2="11.5" stroke="currentColor" stroke-linecap="round"/>
+<line x1="9.5" y1="14.5" x2="13.5" y2="14.5" stroke="currentColor" stroke-linecap="round"/>
+<path d="M7 11.5L3.25 13.6651L3.25 9.33494L7 11.5Z" fill="currentColor"/>
+</svg>
+
+`,
+  "mk-make-unindent": `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="5.5" y1="8.5" x2="13.5" y2="8.5" stroke="currentColor" stroke-linecap="round"/>
+<line x1="5.5" y1="11.5" x2="13.5" y2="11.5" stroke="currentColor" stroke-linecap="round"/>
+<line x1="5.5" y1="14.5" x2="9.5" y2="14.5" stroke="currentColor" stroke-linecap="round"/>
+<path d="M16 11.5L19.75 9.33494L19.75 13.6651L16 11.5Z" fill="currentColor"/>
 </svg>
 `,
   "mk-mark-strong": `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -16119,7 +16134,7 @@ var sanitizeTableSchema = async (plugin, db, context) => {
       `SELECT name FROM sqlite_master WHERE type='table';`
     );
   } catch (e4) {
-    console.log(e4, context.dbPath);
+    console.log(e4);
   }
   if (tableRes && (!tableRes[0] || !tableRes[0].values.some((f4) => f4[0] == "m_schema") || !tableRes[0].values.some((f4) => f4[0] == "m_fields") || !tableRes[0].values.some((f4) => f4[0] == "files"))) {
     await createDefaultDB(plugin, context);
@@ -19128,7 +19143,6 @@ var urlRegex = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{
 var openPath = (plugin, _path, modifiers) => {
   const { type, path } = _path;
   const target = modifiers.ctrlKey || modifiers.metaKey ? modifiers.altKey ? "split" : "tab" : false;
-  console.log(_path);
   if (type == "file" || type == "folder") {
     const afile = getAbstractFileAtPath(app, path);
     if (afile) {
@@ -19301,7 +19315,10 @@ var MDBProvider = (props2) => {
     return props2.context;
   }, [props2.context]);
   const tagContexts = F2(
-    () => def.filter((f4) => f4.type == "tag").map((f4) => f4.value),
+    () => {
+      var _a3;
+      return (_a3 = def.filter((f4) => f4.type == "tag").map((f4) => f4.value).filter((f4) => f4)) != null ? _a3 : [];
+    },
     [def]
   );
   const cols = F2(
@@ -20815,7 +20832,7 @@ var TagsView = (props2) => {
   };
   return /* @__PURE__ */ Cn.createElement("div", {
     className: "mk-tag-selector"
-  }, props2.tags.map((f4, i4) => /* @__PURE__ */ Cn.createElement("div", {
+  }, props2.tags.filter((f4) => f4).map((f4, i4) => /* @__PURE__ */ Cn.createElement("div", {
     key: i4,
     onContextMenu: (e4) => showTagMenu(e4, f4),
     onClick: (e4) => !props2.canOpen ? showTagMenu(e4, f4) : openTagContext(f4, props2.plugin, e4.metaKey)
@@ -43419,8 +43436,6 @@ var ContextViewComponent = (props2) => {
     let folderNote = getAbstractFileAtPath(app, folderNotePath);
     if ((currentFlowNotePath == null ? void 0 : currentFlowNotePath.path) != (folderNote == null ? void 0 : folderNote.path))
       setCurrentFlowNotePath(folderNote);
-    if (folderNotePath == folderRef.current && folderNotePath)
-      return;
     folderRef.current = folderNotePath;
     const div = ref.current;
     if (!folderNote) {
@@ -43463,8 +43478,8 @@ var ContextViewComponent = (props2) => {
         ref.current.empty();
     }
   }, [flowOpen, folderCache]);
-  const viewFolderNote = (open2) => {
-    setFlowOpen(open2);
+  const viewFolderNote = (open) => {
+    setFlowOpen(open);
   };
   const fileNameRef = _2(null);
   const onBlur = (e4) => {
@@ -44054,11 +44069,11 @@ var newFileInFolder = async (plugin, data, dontOpen) => {
     dontOpen
   );
 };
-var noteToFolderNote = async (plugin, file, open2) => {
+var noteToFolderNote = async (plugin, file, open) => {
   const folderPath = fileNameToString(file.path);
   const folder = getAbstractFileAtPath(app, folderPath);
   if (folder && folder instanceof import_obsidian41.TFolder) {
-    if (open2) {
+    if (open) {
       openTFolder(folder, plugin, false);
     }
     return;
@@ -44069,7 +44084,7 @@ var noteToFolderNote = async (plugin, file, open2) => {
   if (newFolderNotePath != file.path) {
     await app.vault.rename(file, newFolderNotePath);
   }
-  if (open2) {
+  if (open) {
     openTFolder(getAbstractFileAtPath(app, folderPath), plugin, false);
   }
 };
@@ -45581,7 +45596,7 @@ var InlineMenuComponent = (props2) => {
       props2.plugin.app.commands.commands["editor:indent-list"].editorCallback(view.editor, view);
     },
     className: "mk-mark",
-    dangerouslySetInnerHTML: { __html: uiIconSet["mk-make-keyboard"] }
+    dangerouslySetInnerHTML: { __html: uiIconSet["mk-make-indent"] }
   }), /* @__PURE__ */ Cn.createElement("div", {
     "aria-label": !platformIsMobile() ? i18n_default.commands.toggleKeyboard : void 0,
     onMouseDown: () => {
@@ -45589,7 +45604,7 @@ var InlineMenuComponent = (props2) => {
       props2.plugin.app.commands.commands["editor:unindent-list"].editorCallback(view.editor, view);
     },
     className: "mk-mark",
-    dangerouslySetInnerHTML: { __html: uiIconSet["mk-make-keyboard"] }
+    dangerouslySetInnerHTML: { __html: uiIconSet["mk-make-unindent"] }
   }), /* @__PURE__ */ Cn.createElement("div", {
     "aria-label": !platformIsMobile() ? i18n_default.commands.toggleKeyboard : void 0,
     onMouseDown: () => {
@@ -51711,7 +51726,7 @@ var MainMenu = (props2) => {
       menuItem.setIcon("vault");
       menuItem.setTitle(i18n_default.menu.openVault);
       menuItem.onClick((ev) => {
-        open();
+        plugin.app.commands.commands["app:open-vault"].callback();
       });
     });
     menu.addSeparator();
@@ -53092,10 +53107,10 @@ var FileExplorerComponent = (props2) => {
     resetState();
   }
   const handleCollapse = T2(
-    (folder, open2) => {
+    (folder, open) => {
       var _a2;
       if (folder.parentId == null) {
-        if (plugin.settings.expandedSpaces.includes(folder.space) && !open2)
+        if (plugin.settings.expandedSpaces.includes(folder.space) && !open)
           plugin.settings.expandedSpaces = plugin.settings.expandedSpaces.filter((f4) => f4 != folder.space);
         else
           plugin.settings.expandedSpaces = [
@@ -53106,7 +53121,7 @@ var FileExplorerComponent = (props2) => {
       } else {
         const openFolders = (_a2 = expandedFolders2[folder.space]) != null ? _a2 : [];
         const folderOpen = openFolders == null ? void 0 : openFolders.includes(folder.item.path);
-        const newOpenFolders = !folderOpen || open2 ? [...openFolders, folder.item.path] : openFolders.filter(
+        const newOpenFolders = !folderOpen || open ? [...openFolders, folder.item.path] : openFolders.filter(
           (openFolder) => folder.item.path !== openFolder
         );
         plugin.settings.expandedFolders = {
@@ -55595,8 +55610,16 @@ var ReadingModeHeader = (props2) => {
 // src/utils/contexts/markdownPost.tsx
 var import_obsidian63 = require("obsidian");
 var replaceInlineContext = (plugin, el, ctx) => {
-  replaceMarkdownForReadingMode(el, (dom) => {
+  replaceMarkdownForReadingMode(el, async (dom) => {
     let element = dom.querySelector(".mod-header");
+    if (!el.parentElement)
+      return;
+    let outerdom = dom;
+    while (!outerdom.hasClass("mk-floweditor") && !outerdom.hasClass("workspace") && outerdom.parentElement) {
+      outerdom = outerdom.parentElement;
+    }
+    if (outerdom.hasClass("mk-floweditor"))
+      return;
     if (element) {
       if (!element.hasClass("mk-inline-context") || element.getAttribute("data-path") != ctx.sourcePath) {
         element.innerHTML = "";

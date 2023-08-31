@@ -1,7 +1,7 @@
 ---
 sorting-spec: |
   target-folder: .
-  > advanced modified
+  order-desc: true a-z
   %
   sortspec
 ---
