@@ -5,6 +5,10 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md"
     },
     {
+      "basename": "🗒️ .NET",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ .NET.md"
+    },
+    {
       "basename": "🗒️ C++",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ C++.md"
     },
@@ -51,10 +55,6 @@
     {
       "basename": "🗒️ Visual Studio Code",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio Code.md"
-    },
-    {
-      "basename": "🗒️ .NET",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ .NET.md"
     },
     {
       "basename": "sortspec",
