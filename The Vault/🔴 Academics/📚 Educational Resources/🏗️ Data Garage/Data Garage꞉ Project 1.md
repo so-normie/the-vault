@@ -1,6 +1,11 @@
 ---
-tags: [🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/python, 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/sql, data-garage/project-1]
+tags:
+  - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/python
+  - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/sql
+  - data-garage/project-1
 cards-deck: Default::Computer Science
+created: 2023-09-02 09:11
+updated: 2023-09-02 15:28
 ---
 
 # Data Garage꞉ Project #1
@@ -22,7 +27,7 @@ flowchart LR
 >[!info]+
 >In this section, type out the general goal of the project. Don't worry if this goal will be modified in the future, for now simply define a direction to head towards to.
 
-![[excalidraw-data-garage-project-1-criteria]]
+![[assets/excalidraw/data-garage-project-1-criteria]]
 
 ## II. Define
 

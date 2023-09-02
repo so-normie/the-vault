@@ -359,6 +359,18 @@
               "type": "file",
               "ctime": 1692979319085,
               "path": "🔴 Academics/📚 Educational Resources/🗒️ Node.js.md"
+            },
+            {
+              "type": "group",
+              "ctime": 1693686350881,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1693686599868,
+                  "path": "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md"
+                }
+              ],
+              "title": "🌐 System Design Fight Club"
             }
           ],
           "title": "📚 Educational Resources"

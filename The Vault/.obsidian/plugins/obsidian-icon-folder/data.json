@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasListOl",
       "FasCode",
       "LiConstruction",
       "RiBookmarkLine",
-      "RiDocumentBookMarkFill",
-      "RiDocumentBookMarkLine"
+      "RiDocumentBookMarkFill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -70,13 +70,23 @@
         "for": "everything"
       },
       {
-        "rule": "꞉꞉ 📋 Table of Contents",
+        "rule": "▹ 📋 Table of Contents",
         "icon": "FasListOl",
+        "for": "everything"
+      },
+      {
+        "rule": "Home.md",
+        "icon": "TiHome",
         "for": "everything"
       },
       {
         "rule": "sortspec.md",
         "icon": "RiSortDesc",
+        "for": "everything"
+      },
+      {
+        "rule": ".svg",
+        "icon": "SiSvg",
         "for": "everything"
       }
     ],
@@ -321,7 +331,6 @@
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Medium).md": "LiConstruction",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 C++ Weekly With Jason Turner": "RiDocumentBookMarkFill",
-  "🔴 Academics/📚 Educational Resources/🌐 C++ Weekly With Jason Turner/C++ Weekly - Ep 342 - C++.md": "RiAlignLeft",
   "🔴 Academics/📚 Educational Resources/🗒️ Java.md": "RiDocumentBookMarkFill",
   "🔴 Academics/📚 Educational Resources/🗒️ Node.js.md": "RiMarkdownLine",
   "🔴 Academics/📚 Educational Resources/🌐 Advent of Code": "RiDocumentBookMarkFill",
@@ -348,5 +357,7 @@
   "🔴 Academics/📚 Educational Resources/🌐 Codility.md": "RiDocumentBookMarkFill",
   "🔴 Academics/📚 Educational Resources/📄 Hugo.md": "RiDocumentBookMarkFill",
   "🔴 Academics/📚 Educational Resources/📄 Google Cloud.md": "RiDocumentBookMarkFill",
-  "🔴 Academics/📚 Educational Resources/🌐 The Official Guide to Mermaid.js.md": "RiDocumentBookMarkFill"
+  "🔴 Academics/📚 Educational Resources/🌐 The Official Guide to Mermaid.js.md": "RiDocumentBookMarkFill",
+  "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club": "RiDocumentBookMarkFill",
+  "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md": "FasListOl"
 }

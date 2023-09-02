@@ -1,3 +1,7 @@
+---
+created: 2023-09-02 09:11
+updated: 2023-09-02 15:28
+---
 
 ---
 author: 
@@ -29,7 +33,7 @@ What are some common container technologies? #card #🔴-academics/📚-educatio
 
 
 How should one visualize the resource usage differences of containers vs virtual machines? #card #🔴-academics/📚-educational-resources/discipline/computer-science/technology/docker 
-[[excalidraw-containerization-explained]]
+[[assets/excalidraw/containerization-explained]]
 ^1683827206715
 
 G
@@ -202,5 +206,5 @@ Yes.
 ^1683831459246
 
 How should one visualize the Virtual Machine (VM) vs Docker? #card #🔴-academics/📚-educational-resources/discipline/computer-science/technology/docker 
-![[excalidraw-virtual-machine-(vm)-vs-docker.svg|600]]
+![[assets/excalidraw/virtual-machine-(vm)-vs-docker.svg|600]]
 ^1683831459252

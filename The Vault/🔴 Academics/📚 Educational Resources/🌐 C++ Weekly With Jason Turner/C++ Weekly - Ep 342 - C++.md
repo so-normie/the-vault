@@ -1,13 +1,15 @@
 ---
-title: "C++ Weekly - Ep 342 - C++"
-created: 2023-08-24 00:06 
-authors: [Edmund Leibert III]
-tags: 
-- 🔴-academics/📚-educational-resources/name/cpp-weekly-with-jason-turner
-- 🔴-academics/📚-educational-resources/source-format/internet/youtube
-- 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp
-- study-note
+title: C++ Weekly - Ep 342 - C++
+created: 2023-08-24 00:06
+authors:
+  - Edmund Leibert III
+tags:
+  - 🔴-academics/📚-educational-resources/name/cpp-weekly-with-jason-turner
+  - 🔴-academics/📚-educational-resources/source-format/internet/youtube
+  - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp
+  - study-note
 cards-deck: Default::Computer Science
+updated: 2023-09-02 12:43
 ---
 
 # 🌐 C++ Weekly With Jason Turner

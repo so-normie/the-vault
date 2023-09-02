@@ -1,12 +1,14 @@
 ---
-title: "🗒️ LaTeX"
-created: 2023-08-04 01:58 
-authors: [Edmund Leibert III]
-tags: 
-- 🔴-academics/📚-educational-resources/name/latex
-- 🔴-academics/📚-educational-resources/discipline/computer-science/technology/latex
-- study-note
+title: 🗒️ LaTeX
+created: 2023-08-04 01:58
+authors:
+  - Edmund Leibert III
+tags:
+  - 🔴-academics/📚-educational-resources/name/latex
+  - 🔴-academics/📚-educational-resources/discipline/computer-science/technology/latex
+  - study-note
 cards-deck: Default::Computer Science
+updated: 2023-09-02 15:16
 ---
 
 # 🗒️ LaTeX

@@ -1,32 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "🌐 Structy ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
+      "basename": "containerization-explained",
+      "path": "assets/excalidraw/containerization-explained.md"
     },
     {
-      "basename": "excalidraw-containerization-explained",
-      "path": "assets/excalidraw/excalidraw-containerization-explained.md"
+      "basename": "containerization-explained",
+      "path": "assets/excalidraw/containerization-explained.svg"
     },
     {
-      "basename": "excalidraw-rough-draft",
-      "path": "assets/excalidraw/excalidraw-rough-draft.md"
+      "basename": "excalidraw-2023-09-02 15.25.37.excalidraw",
+      "path": "Assets/Excalidraw/excalidraw-2023-09-02 15.25.37.excalidraw.md"
     },
     {
-      "basename": "excalidraw-containerization-explained",
-      "path": "assets/excalidraw/excalidraw-containerization-explained.svg"
+      "basename": "🗒️ LaTeX",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md"
+    },
+    {
+      "basename": "System Design꞉ Reddit",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/System Design꞉ Reddit.md"
     },
     {
       "basename": "🗒️ Git",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ Git.md"
     },
     {
-      "basename": "004. is prime 👨🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/004. is prime 👨🏽‍💻.md"
+      "basename": "0. Introduction ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "🌐 Structy ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "000. course introduction 👨🏻‍🏫",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md"
+    },
+    {
+      "basename": "001. code workspace tour 👨🏻‍🏫",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md"
+    },
+    {
+      "basename": "002. hey programmer 🧑🏽‍💻",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md"
+    },
+    {
+      "basename": "🌐 System Design Fight Club ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "C++ Weekly - Ep 342 - C++",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 C++ Weekly With Jason Turner/C++ Weekly - Ep 342 - C++.md"
+    },
+    {
+      "basename": "🌐 C++ Weekly With Jason Turner ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 C++ Weekly With Jason Turner/🌐 C++ Weekly With Jason Turner ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
+    },
+    {
+      "basename": "rough-draft",
+      "path": "assets/excalidraw/rough-draft.md"
+    },
+    {
+      "basename": "004. is prime 👨🏽‍💻",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/004. is prime 👨🏽‍💻.md"
     },
     {
       "basename": "sortspec",
@@ -35,10 +75,6 @@
     {
       "basename": "8. Mixed Recall ▹ 📋 Table of Contents",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/8. Mixed Recall ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "sortspec",
-      "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
     },
     {
       "basename": "🗒️ .NET",
@@ -53,20 +89,8 @@
       "path": "templates/Template (🎴 card).md"
     },
     {
-      "basename": "002. hey programmer 🧑🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md"
-    },
-    {
-      "basename": "001. code workspace tour 👨🏻‍🏫",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md"
-    },
-    {
       "basename": "003. max-value 🧑🏽‍💻",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md"
-    },
-    {
-      "basename": "0. Introduction ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "Template (Default)",
@@ -175,26 +199,6 @@
     {
       "basename": "📕 How to Read and Do Proofs꞉ An Introduction to Mathematical Thought Processes, 6ᵗʰ Edition",
       "path": "🔴 Academics/📚 Educational Resources/📕 How to Read and Do Proofs꞉ An Introduction to Mathematical Thought Processes, 6ᵗʰ Edition.md"
-    },
-    {
-      "basename": "📕 Fundamentals of Differential Equations and Boundary Value Problems, 7ᵗʰ Edition",
-      "path": "🔴 Academics/📚 Educational Resources/📕 Fundamentals of Differential Equations and Boundary Value Problems, 7ᵗʰ Edition.md"
-    },
-    {
-      "basename": "📕 How to Prove It꞉ A Structured Approach, 3ʳᵈ Edition",
-      "path": "🔴 Academics/📚 Educational Resources/📕 How to Prove It꞉ A Structured Approach, 3ʳᵈ Edition.md"
-    },
-    {
-      "basename": "📕 Precalculus꞉ Mathematics for Calculus, 7ᵗʰ Edition",
-      "path": "🔴 Academics/📚 Educational Resources/📕 Precalculus꞉ Mathematics for Calculus, 7ᵗʰ Edition.md"
-    },
-    {
-      "basename": "📕 Introduction to Formal Political Theory",
-      "path": "🔴 Academics/📚 Educational Resources/📕 Introduction to Formal Political Theory.md"
-    },
-    {
-      "basename": "📕 Foundations of Higher Mathematics, 3ʳᵈ Edition",
-      "path": "🔴 Academics/📚 Educational Resources/📕 Foundations of Higher Mathematics, 3ʳᵈ Edition.md"
     }
   ],
   "omittedPaths": [],

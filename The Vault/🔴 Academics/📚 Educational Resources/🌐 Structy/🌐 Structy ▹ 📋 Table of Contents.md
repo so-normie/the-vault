@@ -1,7 +1,7 @@
 ---
 title: 🌐 Structy ▹ 📋 Table of Contents
 created: 2023-08-30 00:00
-updated: 2023-09-02 12:08
+updated: 2023-09-02 12:47
 authors:
   - Edmund Leibert III
 tags:
@@ -47,21 +47,7 @@ What is the website **Structy**?
 <span class="spoiler">Structy</span> is an online platform that teaches data structures and algorithms. It is designed to help one learn the concepts and skills you need to succeed in technical interviews.
 
 ⌂
-<br>﹈<br>^1693681674919
-
-
-
-﹇<br>
-What does YOLO stand for?
-
-#card 
-
-Stands for **y**ou **o**nly **l**ive **o**nce
-
-⌂
-<br>﹈<br>^1693681674925
-
-
+<br>﹈<br>
 
 ---
 

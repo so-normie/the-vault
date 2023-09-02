@@ -1,12 +1,14 @@
 ---
-title: "🌐 C++ Weekly With Jason Turner ▹ 📋 Table of Contents"
-created: 2023-08-04 01:58 
-authors: [Edmund Leibert III]
+title: 🌐 C++ Weekly With Jason Turner ▹ 📋 Table of Contents
+created: 2023-08-04 01:58
+updated: 2023-09-02 12:24
+authors:
+  - Edmund Leibert III
 tags:
-- 🔴-academics/📚-educational-resources/name/cpp-weekly-with-jason-turner
-- 🔴-academics/📚-educational-resources/source-format/internet/youtube
-- 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp
-- study-note
+  - 🔴-academics/📚-educational-resources/name/cpp-weekly-with-jason-turner
+  - 🔴-academics/📚-educational-resources/source-format/internet/youtube
+  - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp
+  - study-note
 cards-deck: Default::Computer Science
 ---
 

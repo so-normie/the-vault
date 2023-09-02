@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f3c8f54264f9f0ae",
+            "id": "7efc223ab99896d0",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,27 +18,97 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "🌐 Structy ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "0. Introduction ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
                   "title": "000. course introduction 👨🏻‍🏫",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
                   "eState": "{}"
+                },
+                {
+                  "title": "001. code workspace tour 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "002. hey programmer 🧑🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "001. code workspace tour 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "🌐 Structy ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":25.89696895714962}"
+                },
+                {
+                  "title": "🌐 System Design Fight Club ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":18.248336441056797}"
+                },
+                {
+                  "title": "System Design꞉ Reddit",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/System Design꞉ Reddit.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":6.283464566929134}"
+                },
+                {
+                  "title": "🌐 System Design Fight Club ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":15.684506698393486}"
+                },
+                {
+                  "title": "0. Introduction ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":20.460416078567505}"
+                },
+                {
+                  "title": "🌐 System Design Fight Club ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":10.986666666666666}"
+                },
+                {
+                  "title": "System Design꞉ Reddit",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/System Design꞉ Reddit.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":0}"
                 }
               ]
             },
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🗒️ Git.md",
-                "mode": "preview",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/System Design꞉ Reddit.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
-              },
-              "pinned": true
+              }
             }
           },
           {
-            "id": "9d312f22978240c0",
+            "id": "f8938de066e291e0",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -52,15 +122,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
+                "file": "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
+          },
+          {
+            "id": "f238281858fc2d98",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "containerization-explained",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/excalidraw/containerization-explained.svg\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "containerization-explained",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"assets/excalidraw/containerization-explained.md\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "containerization-explained",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/excalidraw/containerization-explained.svg\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "excalidraw-2023-09-02 15.25.37.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Assets/Excalidraw/excalidraw-2023-09-02 15.25.37.excalidraw.md\"}}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "assets/excalidraw/containerization-explained.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,7 +237,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp",
+                "query": "tag:#🔴-academics/📚-educational-resources/name/🌐-system-design-fight-club/🔖-bookmark",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,11 +263,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 408.5
+    "width": 467.5
   },
   "right": {
     "id": "4862554a11d6c3ac",
@@ -233,7 +347,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
+                "file": "assets/excalidraw/containerization-explained.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +373,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
+                "file": "assets/excalidraw/containerization-explained.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,16 +428,33 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
+                "file": "assets/excalidraw/containerization-explained.md"
               }
+            }
+          },
+          {
+            "id": "ada8df4fa6019871",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "video-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 514.5,
+    "width": 860.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -352,35 +483,37 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "378dfb133d1155ab",
+  "active": "f238281858fc2d98",
   "lastOpenFiles": [
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
-    "assets/excalidraw/excalidraw-containerization-explained.md",
-    "assets/excalidraw/test.md",
-    "assets/excalidraw/excalidraw-rough-draft.md",
-    "assets/excalidraw/test.svg",
-    "assets/excalidraw/excalidraw-containerization-explained.svg",
+    "assets/excalidraw/containerization-explained.svg",
+    "assets/excalidraw/containerization-explained.md",
+    "Assets/Excalidraw/excalidraw-2023-09-02 15.25.37.excalidraw.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md",
+    "assets/excalidraw/excalidraw-2023-09-02 15.25.37.excalidraw.md",
+    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/System Design꞉ Reddit.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Git.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/004. is prime 👨🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/System Design꞉ Reddit/System Design꞉ Reddit ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/System Design꞉ Reddit",
+    "🔴 Academics/📚 Educational Resources/🌐 C++ Weekly With Jason Turner/C++ Weekly - Ep 342 - C++.md",
+    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club (YouTube Channel)/Untitled.md",
+    "🔴 Academics/📚 Educational Resources/🌐 C++ Weekly With Jason Turner/🌐 C++ Weekly With Jason Turner ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club",
+    "🔴 Academics/📚 Educational Resources/sortspec.md",
+    "Tag Organization.md",
+    "assets/excalidraw/test.md",
+    "assets/excalidraw/rough-draft.md",
+    "assets/excalidraw/test.svg",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/004. is prime 👨🏽‍💻.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/8. Mixed Recall ▹ 📋 Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/sortspec.md",
     "🔴 Academics/📚 Educational Resources/🗒️ .NET.md",
     "🔴 Academics/📚 Educational Resources/🗒️ C++.md",
-    "templates/Template (🎴 card).md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
-    "templates/Template (📚 Educational resources - Frontmatter).md",
-    "templates/Template (Default).md",
-    "templates/Template (🌐 Structy - Problem).md",
-    "🔴 Academics/📚 Educational Resources/🗒️ Go.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio Code.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ ESBuild.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ Yarn.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ Yarn-edmund-laptop.md",
     "Untitled.canvas",
     "Untitled.loom",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/context.mdb",
@@ -392,8 +525,6 @@
     "assets/images/Pasted image 20230826161630.png",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String ꞉꞉ 🔖 Bookmark",
     "🔴 Academics/📚 Educational Resources/🌐 Advent of Code/Advent of Code 2015",
-    "🔴 Academics/📚 Educational Resources/🌐 Advent of Code",
-    "🔴 Academics/📚 Educational Resources/🌐 C++ Weekly With Jason Turner/C++ Weekly",
     "assets/images/Pasted image 20230810203231.png",
     "assets/images/Pasted image 20230815102520.png",
     "assets/images/Pasted image 20230815102057.png",

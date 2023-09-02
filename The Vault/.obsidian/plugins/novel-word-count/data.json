@@ -66,6 +66,38 @@
       "modifiedDate": 1693671118695,
       "sizeInBytes": 81299
     },
+    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/System Design꞉ Reddit.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 880,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.933333333333333,
+      "characterCount": 5383,
+      "nonWhitespaceCharacterCount": 4320,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693683827622,
+      "modifiedDate": 1693693402979,
+      "sizeInBytes": 6028
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 41,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.13666666666666666,
+      "characterCount": 261,
+      "nonWhitespaceCharacterCount": 203,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693683690328,
+      "modifiedDate": 1693687367042,
+      "sizeInBytes": 716
+    },
     "🔴 Academics/📚 Educational Resources/🙋🏽‍♂️ Data Engineering Prep (Discord Group)/Unique Problems.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -425,14 +457,14 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.5766666666666667,
-      "characterCount": 3266,
+      "characterCount": 3187,
       "nonWhitespaceCharacterCount": 2694,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1693671118678,
-      "modifiedDate": 1693671118678,
-      "sizeInBytes": 3588
+      "modifiedDate": 1693692981297,
+      "sizeInBytes": 3530
     },
     "🔴 Academics/📚 Educational Resources/🗒️ JetBrains.md": {
       "isDirectory": false,
@@ -565,18 +597,18 @@
     "🔴 Academics/📚 Educational Resources/🗒️ Git.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 3026,
+      "wordCount": 3015,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 10.086666666666666,
-      "characterCount": 20683,
-      "nonWhitespaceCharacterCount": 17307,
+      "pageCount": 10.05,
+      "characterCount": 20738,
+      "nonWhitespaceCharacterCount": 17296,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1693671118674,
-      "modifiedDate": 1693677257299,
-      "sizeInBytes": 21463
+      "modifiedDate": 1693688374834,
+      "sizeInBytes": 21523
     },
     "🔴 Academics/📚 Educational Resources/🗒️ ESBuild.md": {
       "isDirectory": false,
@@ -2457,14 +2489,14 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.5866666666666667,
-      "characterCount": 1688,
-      "nonWhitespaceCharacterCount": 1193,
+      "characterCount": 1695,
+      "nonWhitespaceCharacterCount": 1200,
       "linkCount": 0,
       "embedCount": 2,
       "aliases": null,
       "createdDate": 1693671118623,
-      "modifiedDate": 1693671118624,
-      "sizeInBytes": 1973
+      "modifiedDate": 1693693691542,
+      "sizeInBytes": 2038
     },
     "🔴 Academics/📚 Educational Resources/🏗️ Data Garage/Data Garage꞉ Project 1 1.md": {
       "isDirectory": false,
@@ -2597,18 +2629,18 @@
     "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 161,
+      "wordCount": 146,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.5366666666666666,
-      "characterCount": 1127,
-      "nonWhitespaceCharacterCount": 936,
+      "pageCount": 0.4866666666666667,
+      "characterCount": 994,
+      "nonWhitespaceCharacterCount": 827,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1693671118620,
-      "modifiedDate": 1693681737123,
-      "sizeInBytes": 1808
+      "modifiedDate": 1693684304228,
+      "sizeInBytes": 1669
     },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md": {
       "isDirectory": false,
@@ -4905,14 +4937,14 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.2833333333333333,
-      "characterCount": 703,
+      "characterCount": 672,
       "nonWhitespaceCharacterCount": 573,
       "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1693671118560,
-      "modifiedDate": 1693671118560,
-      "sizeInBytes": 1430
+      "modifiedDate": 1693684504846,
+      "sizeInBytes": 1383
     },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md": {
       "isDirectory": false,
@@ -5941,18 +5973,18 @@
     "🔴 Academics/📚 Educational Resources/🌐 IBM Technology.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1112,
+      "wordCount": 1122,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 3.7066666666666666,
-      "characterCount": 10974,
-      "nonWhitespaceCharacterCount": 9564,
+      "pageCount": 3.74,
+      "characterCount": 11140,
+      "nonWhitespaceCharacterCount": 9710,
       "linkCount": 1,
       "embedCount": 1,
       "aliases": null,
       "createdDate": 1693671118531,
-      "modifiedDate": 1693671118533,
-      "sizeInBytes": 11317
+      "modifiedDate": 1693693734129,
+      "sizeInBytes": 11391
     },
     "🔴 Academics/📚 Educational Resources/🌐 HackerRank.md": {
       "isDirectory": false,
@@ -6185,14 +6217,14 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.14333333333333334,
-      "characterCount": 301,
+      "characterCount": 273,
       "nonWhitespaceCharacterCount": 212,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1693671118516,
-      "modifiedDate": 1693671118517,
-      "sizeInBytes": 766
+      "modifiedDate": 1693682695492,
+      "sizeInBytes": 761
     },
     "🔴 Academics/📚 Educational Resources/🌐 C++ Weekly With Jason Turner/C++ Weekly - Ep 342 - C++.md": {
       "isDirectory": false,
@@ -6201,14 +6233,14 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 5.593333333333334,
-      "characterCount": 11072,
+      "characterCount": 10800,
       "nonWhitespaceCharacterCount": 8922,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1693671118516,
-      "modifiedDate": 1693671118516,
-      "sizeInBytes": 11503
+      "modifiedDate": 1693683827892,
+      "sizeInBytes": 11253
     },
     "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Technical specifications.md": {
       "isDirectory": false,
@@ -6681,14 +6713,14 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0,
-      "characterCount": 2,
+      "characterCount": 1,
       "nonWhitespaceCharacterCount": 0,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1693671118513,
-      "modifiedDate": 1693671118513,
-      "sizeInBytes": 88
+      "modifiedDate": 1693682647326,
+      "sizeInBytes": 142
     },
     "🔴 Academics/📚 Educational Resources/Merriam-Webster/🌐 🤖 ChatGPT, Bing Chat, etc. Generated Flash Cards.md": {
       "isDirectory": false,
@@ -7042,22 +7074,6 @@
       "modifiedDate": 1693671118504,
       "sizeInBytes": 865
     },
-    "Tag Organization.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 206,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.6866666666666666,
-      "characterCount": 3690,
-      "nonWhitespaceCharacterCount": 3390,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693671117771,
-      "modifiedDate": 1693671117771,
-      "sizeInBytes": 3780
-    },
     "scripts/scripts.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -7090,22 +7106,6 @@
       "modifiedDate": 1693671117771,
       "sizeInBytes": 0
     },
-    "Device Configuration for Laptop and Desktop.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 407,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 1.3566666666666667,
-      "characterCount": 3636,
-      "nonWhitespaceCharacterCount": 3148,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693671117770,
-      "modifiedDate": 1693671117770,
-      "sizeInBytes": 3652
-    },
     "assets/mermaid/Flowchart Process.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -7122,7 +7122,7 @@
       "modifiedDate": 1693671117888,
       "sizeInBytes": 0
     },
-    "assets/excalidraw/excalidraw-virtual-machine-(vm)-vs-docker.md": {
+    "assets/excalidraw/virtual-machine-(vm)-vs-docker.md": {
       "isDirectory": false,
       "noteCount": 1,
       "wordCount": 0,
@@ -7138,7 +7138,7 @@
       "modifiedDate": 1693671117806,
       "sizeInBytes": 14882
     },
-    "assets/excalidraw/excalidraw-rough-draft.md": {
+    "assets/excalidraw/rough-draft.md": {
       "isDirectory": false,
       "noteCount": 1,
       "wordCount": 0,
@@ -7154,23 +7154,7 @@
       "modifiedDate": 1693673504248,
       "sizeInBytes": 10276
     },
-    "assets/excalidraw/excalidraw-imagination-city-map.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1693671117804,
-      "modifiedDate": 1693671117804,
-      "sizeInBytes": 66694
-    },
-    "assets/excalidraw/excalidraw-data-garage-project-1-criteria.md": {
+    "assets/excalidraw/data-garage-project-1-criteria.md": {
       "isDirectory": false,
       "noteCount": 1,
       "wordCount": 0,
@@ -7186,7 +7170,7 @@
       "modifiedDate": 1693671117801,
       "sizeInBytes": 1633
     },
-    "assets/excalidraw/excalidraw-data-engineering-study-group.excalidraw.md": {
+    "assets/excalidraw/data-engineering-study-group.excalidraw.md": {
       "isDirectory": false,
       "noteCount": 1,
       "wordCount": 0,
@@ -7202,7 +7186,7 @@
       "modifiedDate": 1693671117799,
       "sizeInBytes": 6617
     },
-    "assets/excalidraw/excalidraw-containerization-explained.md": {
+    "assets/excalidraw/containerization-explained.md": {
       "isDirectory": false,
       "noteCount": 1,
       "wordCount": 0,
@@ -7217,6 +7201,22 @@
       "createdDate": 1693671117797,
       "modifiedDate": 1693671117797,
       "sizeInBytes": 41426
+    },
+    "assets/excalidraw/containerization-explained.svg": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 12231,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 40.77,
+      "characterCount": 224199,
+      "nonWhitespaceCharacterCount": 211960,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693671117798,
+      "modifiedDate": 1693693902335,
+      "sizeInBytes": 224199
     }
   }
 }

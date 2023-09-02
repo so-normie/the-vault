@@ -37,7 +37,6 @@
   "obsidian-file-color",
   "notion-like-tables",
   "quick-explorer",
-  "obsidian-mkdocs-publisher",
   "obsidian-gist",
   "folder-notes",
   "homepage",
@@ -47,5 +46,6 @@
   "obsidian-quiet-outline",
   "obsidian-outliner",
   "flashcards-obsidian",
-  "update-time-on-edit"
+  "update-time-on-edit",
+  "obsidian-timestamp-notes"
 ]

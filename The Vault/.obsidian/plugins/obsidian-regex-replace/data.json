@@ -1,6 +1,6 @@
 {
-  "findText": "**Back**:",
-  "replaceText": "",
+  "findText": "—",
+  "replaceText": "-",
   "useRegEx": false,
   "selOnly": false,
   "caseInsensitive": false,
