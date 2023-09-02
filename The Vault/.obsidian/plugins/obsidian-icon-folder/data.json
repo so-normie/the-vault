@@ -75,7 +75,7 @@
         "for": "everything"
       },
       {
-        "rule": "sortspec",
+        "rule": "sortspec.md",
         "icon": "RiSortDesc",
         "for": "everything"
       }
@@ -319,7 +319,6 @@
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/217. Contains Duplicate.md": "LiConstruction",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Hard).md": "LiConstruction",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Medium).md": "LiConstruction",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/create-templates.py": "SiPython",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 C++ Weekly With Jason Turner": "RiDocumentBookMarkFill",
   "🔴 Academics/📚 Educational Resources/🌐 C++ Weekly With Jason Turner/C++ Weekly - Ep 342 - C++.md": "RiAlignLeft",

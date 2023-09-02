@@ -16,6 +16,30 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "sortspec",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "8. Mixed Recall ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/8. Mixed Recall ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "sortspec",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/sortspec.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "000. course introduction 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":49.05}"
                 }
               ]
             },
@@ -28,19 +52,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "5b4fe562a3bf369a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.5"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,8 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 408.5
   },
   "right": {
     "id": "4862554a11d6c3ac",
@@ -296,7 +308,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 514.5
+    "width": 514.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -323,11 +336,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "5b4fe562a3bf369a",
+  "active": "f3c8f54264f9f0ae",
   "lastOpenFiles": [
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/8. Mixed Recall ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/sortspec.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
     "🔴 Academics/📚 Educational Resources/🗒️ .NET.md",
     "🔴 Academics/📚 Educational Resources/🗒️ C++.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
     "templates/Template (🎴 card).md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
@@ -340,7 +356,6 @@
     "templates/Template (🌐 Structy - Problem).md",
     "🔴 Academics/📚 Educational Resources/🗒️ Go.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio Code.md",
-    "🔴 Academics/📚 Educational Resources/sortspec.md",
     "🔴 Academics/📚 Educational Resources/🗒️ ESBuild.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Yarn.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Yarn-edmund-laptop.md",
@@ -349,8 +364,6 @@
     "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 33 The Nature and Propagation of Light.md",
     "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 38 Photons꞉ Light Waves Behaving as Particles.md",
     "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 39 Particles Behaving as Waves.md",
-    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 40 Quantum Mechanics I꞉ Wave Functions.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/011. pair product 👨🏽‍💻.md",
     "Untitled.canvas",
     "Untitled.loom",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/context.mdb",

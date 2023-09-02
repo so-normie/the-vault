@@ -5,6 +5,18 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md"
     },
     {
+      "basename": "sortspec",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md"
+    },
+    {
+      "basename": "8. Mixed Recall ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/8. Mixed Recall ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
+    },
+    {
       "basename": "🗒️ .NET",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ .NET.md"
     },
@@ -55,10 +67,6 @@
     {
       "basename": "🗒️ Visual Studio Code",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio Code.md"
-    },
-    {
-      "basename": "sortspec",
-      "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
     },
     {
       "basename": "🗒️ ESBuild",
@@ -191,10 +199,6 @@
     {
       "basename": "📕 Concrete Mathematics꞉ A Foundation for Computer Science, 2ⁿᵈ Edition",
       "path": "🔴 Academics/📚 Educational Resources/📕 Concrete Mathematics꞉ A Foundation for Computer Science, 2ⁿᵈ Edition.md"
-    },
-    {
-      "basename": "📕 Calculus with Multiple Variables Essential Skills Workbook꞉ Includes Vector Calculus and Full Solutions",
-      "path": "🔴 Academics/📚 Educational Resources/📕 Calculus with Multiple Variables Essential Skills Workbook꞉ Includes Vector Calculus and Full Solutions.md"
     }
   ],
   "omittedPaths": [],
