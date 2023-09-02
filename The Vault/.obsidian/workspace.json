@@ -18,42 +18,49 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "sortspec",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "8. Mixed Recall ▹ 📋 Table of Contents",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/8. Mixed Recall ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "sortspec",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/sortspec.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
                   "title": "000. course introduction 👨🏻‍🏫",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":49.05}"
+                  "eState": "{}"
+                }
+              ]
+            },
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🔴 Academics/📚 Educational Resources/🗒️ Git.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "9d312f22978240c0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,8 +150,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -227,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,10 +302,19 @@
           {
             "id": "26ac17d6ff548807",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "outline",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md"
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
               }
             }
           }
@@ -313,7 +328,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
       "canvas:Create new canvas": true,
@@ -333,24 +347,32 @@
       "custom-sort:Toggle custom sorting": false,
       "surfing:surfing-bookmark-manager": false,
       "notion-like-tables:Create new loom": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "omnisearch:Omnisearch": false,
+      "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f3c8f54264f9f0ae",
+  "active": "378dfb133d1155ab",
   "lastOpenFiles": [
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
+    "assets/excalidraw/excalidraw-containerization-explained.md",
+    "assets/excalidraw/test.md",
+    "assets/excalidraw/excalidraw-rough-draft.md",
+    "assets/excalidraw/test.svg",
+    "assets/excalidraw/excalidraw-containerization-explained.svg",
+    "🔴 Academics/📚 Educational Resources/🗒️ Git.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/004. is prime 👨🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/8. Mixed Recall ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/sortspec.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
     "🔴 Academics/📚 Educational Resources/🗒️ .NET.md",
     "🔴 Academics/📚 Educational Resources/🗒️ C++.md",
     "templates/Template (🎴 card).md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/004. is prime 👨🏽‍💻.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
     "templates/Template (📚 Educational resources - Frontmatter).md",
     "templates/Template (Default).md",
     "templates/Template (🌐 Structy - Problem).md",
@@ -359,11 +381,6 @@
     "🔴 Academics/📚 Educational Resources/🗒️ ESBuild.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Yarn.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Yarn-edmund-laptop.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Typst.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/006. uncompress 👨🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 33 The Nature and Propagation of Light.md",
-    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 38 Photons꞉ Light Waves Behaving as Particles.md",
-    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 39 Particles Behaving as Waves.md",
     "Untitled.canvas",
     "Untitled.loom",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/context.mdb",
@@ -383,8 +400,6 @@
     "assets/images/Pasted image 20230815101746.png",
     "assets/images/Pasted image 20230815101404.png",
     "assets/images/Pasted image 20230815101015.png",
-    "assets/images/Pasted image 20230815100423.png",
-    "assets/images/Pasted image 20230815100228.png",
     "Untitled 1.canvas"
   ]
 }

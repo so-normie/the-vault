@@ -43,5 +43,17 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "889718cc1f450bb0",
+      "parent": 0,
+      "droppable": true,
+      "text": "Excalidraw | Hand-drawn look & feel • Collaborative • Secure",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }
