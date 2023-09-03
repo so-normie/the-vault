@@ -1,0 +1,440 @@
+{
+  "main": {
+    "id": "812027d141a633e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae5cee06635f8137",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ca6388e6554fd29",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template (🌐 LeetCode ꞉꞉ Problem ꞉꞉ Database)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Template (🌐 LeetCode ꞉꞉ Problem ꞉꞉ Database).md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":15.756756756756756}"
+                },
+                {
+                  "title": "Template Test",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Template Test.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Template (🌐 LeetCode ꞉꞉ Problem ꞉꞉ Database)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Template (🌐 LeetCode ꞉꞉ Problem ꞉꞉ Database).md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/60. Triangle Judgement.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0d3a34539671bc0e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "🗒️ Obsidian",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":9.608948368354131}"
+                }
+              ]
+            },
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/Template (🌐 LeetCode ꞉꞉ Problem ꞉꞉ Database).md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              },
+              "pinned": true
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e8ed80397d38533a",
+    "type": "split",
+    "children": [
+      {
+        "id": "54360f8db890b174",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "378dfb133d1155ab",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "e3f6c9ecddf3f564",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "c66e0c5f869fd443",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#🔴-academics/📚-educational-resources/name/🌐-system-design-fight-club/🔖-bookmark",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ad89270ff0b486ff",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 523.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "4862554a11d6c3ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "89a4ef93bf01a9a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08583351533589ea",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "614c7bcf9b8d44d3",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "795183581340a3c8",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4a339558f59cc8a8",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/60. Triangle Judgement.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b1bed1699b770f6a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/60. Triangle Judgement.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "885a95689720234f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "3d46bbe9c9fe1930",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "65f00b42e334c34e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "video-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "d5101c51e18594f0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/60. Triangle Judgement.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 500.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "markdown-importer:Open format converter": true,
+      "zk-prefixer:Create new unique note": true,
+      "random-note:Open random note": true,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "publish:Publish changes...": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "chronology:Open Chronology": false,
+      "3d-graph:3D Graph": false,
+      "custom-sort:Toggle custom sorting": false,
+      "surfing:surfing-bookmark-manager": false,
+      "notion-like-tables:Create new loom": false,
+      "omnisearch:Omnisearch": false,
+      "homepage:Open homepage": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "2ca6388e6554fd29",
+  "lastOpenFiles": [
+    "templates/Template (🌐 LeetCode ꞉꞉ Problem ꞉꞉ Database).md",
+    "templates/Template (Anki Flashcard ꞉꞉ #card OR 🎴).md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/60. Triangle Judgement.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md",
+    "Template Test.md",
+    "templates/Template Test.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/610. Triangle Judgement.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md",
+    "templates/Template (🗒️ Scratch Note).md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/1. Array and String ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/System Design꞉ Reddit.md",
+    "assets/excalidraw/system-design-fight-club-system-design-reddit.md",
+    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/sortspec.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md",
+    "assets/excalidraw/file.excalidraw.md",
+    "assets/excalidraw/file.excalidraw",
+    "assets/excalidraw/system-design-fight-club-system-design-reddit.svg",
+    "assets/excalidraw/containerization-explained.md",
+    "assets/images/data-engineer-project-1-prompt.png",
+    "assets/excalidraw/data-garage-project-1-criteria.md",
+    "assets/excalidraw/virtual-machine-(vm)-vs-docker.md",
+    "assets/excalidraw/data-engineering-study-group.excalidraw.md",
+    "assets/excalidraw/containerization-explained.svg",
+    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/System Design꞉ Reddit",
+    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club",
+    "assets/excalidraw/test.svg",
+    "Untitled.canvas",
+    "Untitled.loom",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/context.mdb",
+    "📕 Calculus꞉ Early Transcendentals, 9ᵗʰ Edition (2020).pdf",
+    "📕 Algebra, 3rd Edition (1999).pdf",
+    "Context/spacesLastSync.log",
+    "Context",
+    "assets/images/PascalTriangleAnimated2.gif",
+    "assets/images/Pasted image 20230826161630.png",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String ꞉꞉ 🔖 Bookmark",
+    "assets/images/Pasted image 20230810203231.png",
+    "assets/images/Pasted image 20230815102520.png",
+    "assets/images/Pasted image 20230815102057.png",
+    "assets/images/Pasted image 20230815101746.png",
+    "Untitled 1.canvas"
+  ]
+}

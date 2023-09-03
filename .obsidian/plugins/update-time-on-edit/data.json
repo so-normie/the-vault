@@ -1,0 +1,11 @@
+{
+  "dateFormat": "yyyy-MM-dd HH:mm",
+  "enableCreateTime": true,
+  "headerUpdated": "updated",
+  "headerCreated": "created",
+  "minMinutesBetweenSaves": 5,
+  "ignoreGlobalFolder": [
+    "templates"
+  ],
+  "ignoreCreatedFolder": []
+}

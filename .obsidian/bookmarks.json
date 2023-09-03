@@ -1,0 +1,400 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1692979262178,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1692304019535,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1692304562459,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1692304694810,
+                  "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
+                  "subpath": "#📋 Table of Contents",
+                  "title": "🌐 Structy ꞉꞉ 📋 Table of Contents"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1692304805595,
+                  "items": [
+                    {
+                      "type": "file",
+                      "ctime": 1693031389735,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1692304973466,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1692305641967,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1692305850869,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1692305838754,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1692309053875,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/004. is prime 👨🏽‍💻.md"
+                    }
+                  ],
+                  "title": "0. Introduction"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1692363645116,
+                  "items": [
+                    {
+                      "type": "file",
+                      "ctime": 1692363688116,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/1. Array and String ▹ 📋 Table of Contents.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1692363699130,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/005. array and string welcome 👨🏻‍🏫.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1692363706657,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/006. uncompress 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1692363714659,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/007. compress 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1692363727030,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/008. anagrams 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1692366275801,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/009. most frequent char 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1692366286414,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/010. pair sum 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1692366316846,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/011. pair product 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1692366327497,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/012. check in 👨🏻‍🏫.md"
+                    }
+                  ],
+                  "title": "1. Array and String"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1693059345320,
+                  "items": [
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/2. Linked List ▹ 📋 Table of Contents.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/017. linked list welcome 👨🏻‍🏫.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/018. linked list intro 👨🏻‍🏫.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/019. linked list warm up 👨🏻‍🏫.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/020. linked list values 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/021. sum list 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/022. linked list find 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/023. get node value 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/024. reverse list 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/025. zipper lists 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/026. merge lists 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/027. pep talk 👨🏻‍🏫.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/028. is univalue list 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/029. longest streak 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/030. remove node 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/031. insert node 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/032. create linked list 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/033. add lists 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/034. linked list quiz 📝.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059417460,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/035. linked list wrap up 👨🏻‍🏫.md"
+                    }
+                  ],
+                  "title": "2. Linked List"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1692565249386,
+                  "items": [
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/3. Binary Tree ▹ 📋 Table of Contents.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146481,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/036. binary tree welcome 👨🏻‍🏫.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/037. binary tree intro 👨🏻‍🏫.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/038. binary tree warm up 👨🏻‍🏫.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/039. depth first values 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/040. breadth first values 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/041. tree sum 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/042. tree includes 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/043. tree min value 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/044. max root to leaf path sum 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/045. tree path finder 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/046. tree value count 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/047. how high 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/048. bottom right value 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/049. all tree paths 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/050. tree levels 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/051. level averages 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/052. leaf list 👨🏽‍💻.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/053. binary tree quiz 📝.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693059146482,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/054. binary tree wrap up 👨🏻‍🏫.md"
+                    }
+                  ],
+                  "title": "3. Binary Tree"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1692565272185,
+                  "items": [],
+                  "title": "4. Graph"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1692565280597,
+                  "items": [],
+                  "title": "5. Dynamic Programming"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1692565291994,
+                  "items": [],
+                  "title": "6. Stack"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1692565296490,
+                  "items": [],
+                  "title": "7. Exhaustive Recursion"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1692565306402,
+                  "items": [],
+                  "title": "8. Mixed Recall"
+                }
+              ],
+              "title": "🌐 Structy"
+            },
+            {
+              "type": "file",
+              "ctime": 1692979319085,
+              "path": "🔴 Academics/📚 Educational Resources/🗒️ Node.js.md"
+            },
+            {
+              "type": "group",
+              "ctime": 1693686350881,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1693686599868,
+                  "path": "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md"
+                }
+              ],
+              "title": "🌐 System Design Fight Club"
+            },
+            {
+              "type": "group",
+              "ctime": 1693756112016,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1693761211030,
+                  "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1693761202276,
+                  "items": [],
+                  "title": "Problems"
+                }
+              ],
+              "title": "🌐 LeetCode"
+            }
+          ],
+          "title": "📚 Educational Resources"
+        }
+      ],
+      "title": "🔴 Academics"
+    }
+  ]
+}
