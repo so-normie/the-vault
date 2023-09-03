@@ -1,9 +1,9 @@
 ---
-sorting-spec: |
+sorting-spec: |-
   target-folder: .
   order-desc: advanced modified
   %
   sortspec
 created: 2023-09-02 09:11
-updated: 2023-09-02 12:23
+updated: 2023-09-02 17:22
 ---

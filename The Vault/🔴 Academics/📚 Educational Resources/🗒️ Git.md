@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Git
 created: 2023-08-04 01:58
-updated: 2023-09-02 13:58
+updated: 2023-09-02 16:01
 authors:
   - Edmund Leibert III
 tags:
@@ -682,6 +682,64 @@ Is `git fetch` the same as `git fetch --all`?
 
 ⌂
 <br>﹈<br>
+
+﹇<br>
+After I run the command `git submodule init`, the directory that should be containing the submodule is empty. Why is this the case and how can I fix this?
+
+#card 
+
+After running `git submodule init`, the submodule directory may still appear empty. This is because `git submodule init` only initializes the local configuration file for the submodule, but it does not actually fetch the data from the submodule repository.
+
+[To fetch the data from the submodule repository and populate the submodule directory, you need to run `git submodule update --init`](about:blank#)[1](https://stackoverflow.com/questions/11358082/empty-git-submodule-folder-when-repo-cloned).
+
+[If you have already cloned the repository but forgot to use the `--recursive` flag, you can still fetch the submodules by running `git submodule update --init`](about:blank#)[1](https://stackoverflow.com/questions/11358082/empty-git-submodule-folder-when-repo-cloned).
+- [If submodules have other submodules, you need to use the recursive option: `git submodule update --init --recursive`](https://stackoverflow.com/questions/11358082/empty-git-submodule-folder-when-repo-cloned)[1](https://stackoverflow.com/questions/11358082/empty-git-submodule-folder-when-repo-cloned). 
+
+⌂
+<br>﹈<br>
+
+
+﹇<br>
+What does `git submodule init` do?
+
+#card 
+
+`git submodule init` initializes the local configuration file for the submodule, but it does not actually fetch the data from the submodule repository.
+
+⌂
+<br>﹈<br>
+
+﹇<br>
+How do I fetch data from a submodule repository and populate the submodule directory? 
+
+#card 
+
+To fetch data from a submodule repository and populate the submodule directory, you need to run `git submodule update --init`.
+
+⌂
+<br>﹈<br>
+
+﹇<br>
+What if I forgot to use the `--recursive` flag when cloning a repository with submodules? 
+
+#card 
+
+If you have already cloned a repository with submodules but forgot to use the `--recursive` flag, you can still fetch the submodules by running `git submodule update --init`.
+
+⌂
+<br>﹈<br>
+
+﹇<br>
+How do I fetch data from submodules that have other submodules? 
+
+#card 
+
+If submodules have other submodules, you need to use the recursive option when fetching data: `git submodule update --init --recursive`.
+
+⌂
+<br>﹈<br>
+
+
 
 ---
 

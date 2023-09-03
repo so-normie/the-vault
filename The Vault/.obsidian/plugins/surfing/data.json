@@ -43,17 +43,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "0efcd449b5a55aa6",
-      "parent": 0,
-      "droppable": true,
-      "text": "Transaction processing system - Wikipedia",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }

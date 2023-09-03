@@ -1,7 +1,7 @@
 ---
 title: System Design꞉ Reddit
 created: 2023-08-24 00:06
-updated: 2023-09-02 15:21
+updated: 2023-09-02 17:37
 authors:
   - Edmund Leibert III
 tags:
@@ -31,7 +31,7 @@ cards-deck: Default::Computer Science
 > [System Design: Reddit - YouTube](https://www.youtube.com/watch?v=X3rXAkZwRuQ&t=345s)
 
 > [!info]+ What is the text file below?
-> The `.txt` file below is a recreation of the `.txt` file that was shown in the video.
+> The `.txt` file below is a recreation of the `reddit-text.txt` file that was shown in the video.
 
 ```
 REDDIT
@@ -235,11 +235,11 @@ Yes ❗
 
 
 ﹇<br>
-What is the celebrity problem and how does it appear in this Reddit design problem?
+What is the *celebrity problem* and how does it appear in this Reddit design problem?
 
 #card 
 
-There is a large number of subreddits with only a few trafficking in all the activity.
+❗ There is a large number of subreddits with only a few trafficking in all the activity.
 
 ⌂
 <br>﹈<br>
