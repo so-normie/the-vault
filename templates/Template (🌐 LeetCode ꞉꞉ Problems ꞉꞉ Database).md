@@ -41,6 +41,10 @@ What is the _optimal_ solution to this problem? If there are multiple, list them
 
 ❗To be done
 
+- **Asymptotic Complexity**:
+	- Time: $\mathcal{O}(n)$
+	- Space: $\mathcal{O}(n)$
+
 ⌂
 <br>﹈<br>
 

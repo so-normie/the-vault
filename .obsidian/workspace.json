@@ -18,6 +18,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database).md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":23.328347045624533}"
+                },
+                {
+                  "title": "125. Valid Palindrome",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":146.8709677419355}"
+                },
+                {
                   "title": "121. Best Time to Buy and Sell Stock",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
@@ -172,7 +184,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -180,7 +192,7 @@
             }
           },
           {
-            "id": "790c2f43ee03f79d",
+            "id": "8a3da6ab91a89225",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -194,14 +206,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
-                "mode": "source",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -375,7 +388,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -401,7 +414,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -473,7 +486,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md"
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md"
               }
             }
           }
@@ -511,9 +524,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "beb8d3a8a1e5578e",
+  "active": "8a3da6ab91a89225",
   "lastOpenFiles": [
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md",
+    "templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database).md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md",
@@ -527,7 +542,6 @@
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/577. Employee Bonus.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/610. Triangle Judgement.md",
     "Untitled.md",
-    "templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database).md",
     "templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Solution).md",
     "templates/Template (🌐 Structy - Problem).md",
     "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md",
@@ -538,7 +552,6 @@
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Git.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ Anki.md",
     "assets/excalidraw/file.excalidraw",
     "assets/excalidraw/system-design-fight-club-system-design-reddit.svg",
     "assets/images/data-engineer-project-1-prompt.png",

@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "125. Valid Palindrome",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md"
+      "basename": "226. Invert Binary Tree",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md"
     },
     {
       "basename": "1. Two Sum",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
+    },
+    {
+      "basename": "Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database)",
+      "path": "templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database).md"
+    },
+    {
+      "basename": "125. Valid Palindrome",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md"
     },
     {
       "basename": "121. Best Time to Buy and Sell Stock",
@@ -55,10 +63,6 @@
     {
       "basename": "Untitled",
       "path": "Untitled.md"
-    },
-    {
-      "basename": "Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database)",
-      "path": "templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database).md"
     },
     {
       "basename": "Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Solution)",
@@ -195,10 +199,6 @@
     {
       "basename": "Template (Default)",
       "path": "templates/Template (Default).md"
-    },
-    {
-      "basename": "🗒️ Go",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Go.md"
     }
   ],
   "omittedPaths": [],

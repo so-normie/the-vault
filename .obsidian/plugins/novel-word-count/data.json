@@ -133,18 +133,18 @@
     "templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database).md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 120,
+      "wordCount": 129,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.4,
-      "characterCount": 1077,
-      "nonWhitespaceCharacterCount": 916,
+      "pageCount": 0.43,
+      "characterCount": 1160,
+      "nonWhitespaceCharacterCount": 987,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1693765440735,
-      "modifiedDate": 1693791112453,
-      "sizeInBytes": 1151
+      "modifiedDate": 1693861815429,
+      "sizeInBytes": 1234
     },
     "templates/Template (Default).md": {
       "isDirectory": false,
@@ -6161,6 +6161,22 @@
       "createdDate": 1693765440784,
       "modifiedDate": 1693765440784,
       "sizeInBytes": 983
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 313,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.0433333333333332,
+      "characterCount": 2232,
+      "nonWhitespaceCharacterCount": 1768,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693861826493,
+      "modifiedDate": 1693862729383,
+      "sizeInBytes": 3262
     },
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md": {
       "isDirectory": false,
