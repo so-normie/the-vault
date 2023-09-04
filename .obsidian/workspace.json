@@ -18,6 +18,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Problems ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "1. Two Sum",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
                   "title": "Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database)",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database).md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
@@ -184,7 +196,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/584. Find Customer Referee.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -213,8 +225,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -388,7 +399,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/584. Find Customer Referee.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -414,7 +425,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/584. Find Customer Referee.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -486,7 +497,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md"
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/584. Find Customer Referee.md"
               }
             }
           }
@@ -524,8 +535,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8a3da6ab91a89225",
+  "active": "beb8d3a8a1e5578e",
   "lastOpenFiles": [
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/584. Find Customer Referee.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md",
     "templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database).md",
@@ -546,12 +559,10 @@
     "templates/Template (🌐 Structy - Problem).md",
     "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Git.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
     "assets/excalidraw/file.excalidraw",
     "assets/excalidraw/system-design-fight-club-system-design-reddit.svg",
     "assets/images/data-engineer-project-1-prompt.png",

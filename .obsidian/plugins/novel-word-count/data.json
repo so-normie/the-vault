@@ -6162,6 +6162,22 @@
       "modifiedDate": 1693765440784,
       "sizeInBytes": 983
     },
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/584. Find Customer Referee.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 119,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.39666666666666667,
+      "characterCount": 783,
+      "nonWhitespaceCharacterCount": 635,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693864080087,
+      "modifiedDate": 1693864197638,
+      "sizeInBytes": 1479
+    },
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -6233,13 +6249,13 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.09666666666666666,
-      "characterCount": 188,
+      "characterCount": 165,
       "nonWhitespaceCharacterCount": 120,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1693765440788,
-      "modifiedDate": 1693765440788,
+      "modifiedDate": 1693864080347,
       "sizeInBytes": 688
     },
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/183. Customers Who Never Order.md": {

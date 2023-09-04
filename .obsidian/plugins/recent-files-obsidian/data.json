@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "226. Invert Binary Tree",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md"
+      "basename": "584. Find Customer Referee",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/584. Find Customer Referee.md"
+    },
+    {
+      "basename": "Problems ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "1. Two Sum",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
+    },
+    {
+      "basename": "226. Invert Binary Tree",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md"
     },
     {
       "basename": "Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database)",
@@ -79,10 +87,6 @@
     {
       "basename": "🗒️ Obsidian",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md"
-    },
-    {
-      "basename": "Problems ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "Problems (Easy)",
@@ -195,10 +199,6 @@
     {
       "basename": "003. max-value 🧑🏽‍💻",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md"
-    },
-    {
-      "basename": "Template (Default)",
-      "path": "templates/Template (Default).md"
     }
   ],
   "omittedPaths": [],

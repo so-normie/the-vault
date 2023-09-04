@@ -1,13 +1,15 @@
 ---
-title: "Problems ▹ 📋 Table of Contents"
+title: Problems ▹ 📋 Table of Contents
 created: 2023-08-26 03:57
-authors: [Edmund Leibert III]
-tags: 
-- 🔴-academics/📚-educational-resources/name/leetcode
-- 🔴-academics/📚-educational-resources/source-format/internet/website
-- 🔴-academics/📚-educational-resources/name/🌐-leetcode/🔖-bookmark/🌐-leetcode/🌐-leetCode-▹-📋-table-of-contents/problems/problems-▹-📋-table-of-contents
-- study-note
+authors:
+  - Edmund Leibert III
+tags:
+  - 🔴-academics/📚-educational-resources/name/leetcode
+  - 🔴-academics/📚-educational-resources/source-format/internet/website
+  - 🔴-academics/📚-educational-resources/name/🌐-leetcode/🔖-bookmark/🌐-leetcode/🌐-leetCode-▹-📋-table-of-contents/problems/problems-▹-📋-table-of-contents
+  - study-note
 cards-deck: Default::Computer Science
+updated: 2023-09-04 14:48
 ---
 
 #  🌐 LeetCode
