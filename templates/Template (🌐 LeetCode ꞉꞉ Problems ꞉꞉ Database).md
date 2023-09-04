@@ -10,7 +10,7 @@ tags:
   - 🔴-academics/📚-educational-resources/name/🌐-leetcode/🔖-bookmark/🌐-leetcode/🌐-leetCode-▹-📋-table-of-contents/problems/
   - 🔴-academics/📚-educational-resources/name/🌐-leetcode/🏷️-tag/problem/tag/topic/
   - study-note
-cards-deck: Default::Computer Science
+cards-deck: 🔴 Academics::📚 Educational Resources::🌐 LeetCode::Problems::{{title}}
 ---
 
 #  🌐 LeetCode
@@ -44,7 +44,7 @@ What is the _optimal_ solution to this problem? If there are multiple, list them
 ⌂
 <br>﹈<br>
 
-##### Attempt #1 :: 📆 {{date}} {{time}}
+##### Attempt #1 :: 📆 {{date}} {{time}} :: ✅
 
 ###### Performance
 

@@ -384,7 +384,43 @@
                 {
                   "type": "group",
                   "ctime": 1693761202276,
-                  "items": [],
+                  "items": [
+                    {
+                      "type": "file",
+                      "ctime": 1693782245953,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693799696586,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693781989086,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/196. Delete Duplicate Emails.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693787375514,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/175. Combine Two Tables.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693789814724,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/181. Employees Earning More Than Their Managers.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693793672819,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/182. Duplicate Emails.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1693793679449,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/183. Customers Who Never Order.md"
+                    }
+                  ],
                   "title": "Problems"
                 }
               ],

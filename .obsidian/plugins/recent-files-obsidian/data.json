@@ -1,36 +1,120 @@
 {
   "recentFiles": [
     {
-      "basename": "60. Triangle Judgement",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/60. Triangle Judgement.md"
+      "basename": "125. Valid Palindrome",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md"
     },
     {
-      "basename": "Template (🌐 LeetCode ꞉꞉ Problem ꞉꞉ Database)",
-      "path": "templates/Template (🌐 LeetCode ꞉꞉ Problem ꞉꞉ Database).md"
+      "basename": "1. Two Sum",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
     },
     {
-      "basename": "Template (Anki Flashcard ꞉꞉ #card OR 🎴)",
-      "path": "templates/Template (Anki Flashcard ꞉꞉ #card OR 🎴).md"
+      "basename": "121. Best Time to Buy and Sell Stock",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md"
     },
     {
-      "basename": "002. hey programmer 🧑🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md"
+      "basename": "20. Valid Parentheses",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md"
     },
     {
-      "basename": "🗒️ Obsidian",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md"
-    },
-    {
-      "basename": "Template Test",
-      "path": "Template Test.md"
+      "basename": "21. Merge Two Sorted Lists",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/21. Merge Two Sorted Lists.md"
     },
     {
       "basename": "118. Pascal's Triangle",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md"
     },
     {
+      "basename": "196. Delete Duplicate Emails",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/196. Delete Duplicate Emails.md"
+    },
+    {
+      "basename": "183. Customers Who Never Order",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/183. Customers Who Never Order.md"
+    },
+    {
+      "basename": "182. Duplicate Emails",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/182. Duplicate Emails.md"
+    },
+    {
+      "basename": "181. Employees Earning More Than Their Managers",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/181. Employees Earning More Than Their Managers.md"
+    },
+    {
+      "basename": "175. Combine Two Tables",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/175. Combine Two Tables.md"
+    },
+    {
+      "basename": "577. Employee Bonus",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/577. Employee Bonus.md"
+    },
+    {
+      "basename": "610. Triangle Judgement",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/610. Triangle Judgement.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database)",
+      "path": "templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database).md"
+    },
+    {
+      "basename": "Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Solution)",
+      "path": "templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Solution).md"
+    },
+    {
+      "basename": "Template (🌐 Structy - Problem)",
+      "path": "templates/Template (🌐 Structy - Problem).md"
+    },
+    {
+      "basename": "🗒️ LaTeX",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md"
+    },
+    {
+      "basename": "🗒️ Obsidian",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md"
+    },
+    {
+      "basename": "Problems ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "Problems (Easy)",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md"
+    },
+    {
       "basename": "🌐 LeetCode ▹ 📋 Table of Contents",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "002. hey programmer 🧑🏽‍💻",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md"
+    },
+    {
+      "basename": "🗒️ Git",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Git.md"
+    },
+    {
+      "basename": "🌐 Structy ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "🗒️ Anki",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Anki.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
+    },
+    {
+      "basename": "Template (Anki Flashcard ꞉꞉ #card OR 🎴)",
+      "path": "templates/Template (Anki Flashcard ꞉꞉ #card OR 🎴).md"
+    },
+    {
+      "basename": "Template Test",
+      "path": "Template Test.md"
     },
     {
       "basename": "Template (🗒️ Scratch Note)",
@@ -47,10 +131,6 @@
     {
       "basename": "0. Introduction ▹ 📋 Table of Contents",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "🌐 Structy ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "1. Array and String ▹ 📋 Table of Contents",
@@ -70,10 +150,6 @@
     },
     {
       "basename": "sortspec",
-      "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
-    },
-    {
-      "basename": "sortspec",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md"
     },
     {
@@ -85,16 +161,8 @@
       "path": "🤖 ChatGPT, Bing Chat, etc. Warning.md"
     },
     {
-      "basename": "🗒️ Git",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Git.md"
-    },
-    {
       "basename": "excalidraw-2023-09-02 15.25.37.excalidraw",
       "path": "Assets/Excalidraw/excalidraw-2023-09-02 15.25.37.excalidraw.md"
-    },
-    {
-      "basename": "🗒️ LaTeX",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md"
     },
     {
       "basename": "C++ Weekly - Ep 342 - C++",
@@ -129,76 +197,8 @@
       "path": "templates/Template (Default).md"
     },
     {
-      "basename": "Template (🌐 Structy - Problem)",
-      "path": "templates/Template (🌐 Structy - Problem).md"
-    },
-    {
       "basename": "🗒️ Go",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ Go.md"
-    },
-    {
-      "basename": "🗒️ Visual Studio Code",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio Code.md"
-    },
-    {
-      "basename": "🗒️ ESBuild",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ ESBuild.md"
-    },
-    {
-      "basename": "🗒️ Yarn",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Yarn.md"
-    },
-    {
-      "basename": "🌐 Typst",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Typst.md"
-    },
-    {
-      "basename": "006. uncompress 👨🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/006. uncompress 👨🏽‍💻.md"
-    },
-    {
-      "basename": "Chapter 33 The Nature and Propagation of Light",
-      "path": "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 33 The Nature and Propagation of Light.md"
-    },
-    {
-      "basename": "Chapter 38 Photons꞉ Light Waves Behaving as Particles",
-      "path": "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 38 Photons꞉ Light Waves Behaving as Particles.md"
-    },
-    {
-      "basename": "Chapter 39 Particles Behaving as Waves",
-      "path": "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 39 Particles Behaving as Waves.md"
-    },
-    {
-      "basename": "Chapter 40 Quantum Mechanics I꞉ Wave Functions",
-      "path": "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 40 Quantum Mechanics I꞉ Wave Functions.md"
-    },
-    {
-      "basename": "011. pair product 👨🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/011. pair product 👨🏽‍💻.md"
-    },
-    {
-      "basename": "📕 Discrete and Combinatorial Mathematics (Classic Version), 5ᵗʰ Edition",
-      "path": "🔴 Academics/📚 Educational Resources/📕 Discrete and Combinatorial Mathematics (Classic Version), 5ᵗʰ Edition.md"
-    },
-    {
-      "basename": "Chapter 44 Particle Physics and Cosmology",
-      "path": "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 44 Particle Physics and Cosmology.md"
-    },
-    {
-      "basename": "Chapter M꞉ Move Semantics and Smart Pointers",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter M꞉ Move Semantics and Smart Pointers.md"
-    },
-    {
-      "basename": "Chapter O꞉ Bit Manipulation (optional chapter)",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter O꞉ Bit Manipulation (optional chapter).md"
-    },
-    {
-      "basename": "Guides",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 CMake Reference Documentation/Guides.md"
-    },
-    {
-      "basename": "CREDITS",
-      "path": "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/CREDITS.md"
     }
   ],
   "omittedPaths": [],

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ae5cee06635f8137",
+        "id": "651bbfff05df755e",
         "type": "tabs",
         "children": [
           {
-            "id": "2ca6388e6554fd29",
+            "id": "beb8d3a8a1e5578e",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,37 +18,169 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Template (🌐 LeetCode ꞉꞉ Problem ꞉꞉ Database)",
+                  "title": "121. Best Time to Buy and Sell Stock",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Template (🌐 LeetCode ꞉꞉ Problem ꞉꞉ Database).md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":15.756756756756756}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":126,\"ch\":0},\"to\":{\"line\":126,\"ch\":0}},\"scroll\":123.50277777777778}"
                 },
                 {
-                  "title": "Template Test",
+                  "title": "125. Valid Palindrome",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Template Test.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":78,\"ch\":5},\"to\":{\"line\":78,\"ch\":5}},\"scroll\":49.57843137254902}"
                 },
                 {
-                  "title": "Template (🌐 LeetCode ꞉꞉ Problem ꞉꞉ Database)",
+                  "title": "121. Best Time to Buy and Sell Stock",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Template (🌐 LeetCode ꞉꞉ Problem ꞉꞉ Database).md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":0},\"to\":{\"line\":37,\"ch\":0}},\"scroll\":17.81111111111111}"
+                },
+                {
+                  "title": "125. Valid Palindrome",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":61,\"ch\":42},\"to\":{\"line\":61,\"ch\":42}},\"scroll\":26.843055555555555}"
+                },
+                {
+                  "title": "20. Valid Parentheses",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":3.022222222222222}"
+                },
+                {
+                  "title": "21. Merge Two Sorted Lists",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/21. Merge Two Sorted Lists.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":13.177777777777777}"
+                },
+                {
+                  "title": "125. Valid Palindrome",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":33},\"to\":{\"line\":32,\"ch\":33}},\"scroll\":23.352281226626776}"
+                },
+                {
+                  "title": "121. Best Time to Buy and Sell Stock",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":116.091796875}"
+                },
+                {
+                  "title": "1. Two Sum",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":17.304347826086957}"
+                },
+                {
+                  "title": "20. Valid Parentheses",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
                   "eState": "{}"
+                },
+                {
+                  "title": "21. Merge Two Sorted Lists",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/21. Merge Two Sorted Lists.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":108.375}"
+                },
+                {
+                  "title": "118. Pascal's Triangle",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "196. Delete Duplicate Emails",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/196. Delete Duplicate Emails.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":111.54237288135593}"
+                },
+                {
+                  "title": "183. Customers Who Never Order",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/183. Customers Who Never Order.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "182. Duplicate Emails",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/182. Duplicate Emails.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":17.88235294117647}"
+                },
+                {
+                  "title": "181. Employees Earning More Than Their Managers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/181. Employees Earning More Than Their Managers.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":16.507246376811594}"
+                },
+                {
+                  "title": "175. Combine Two Tables",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/175. Combine Two Tables.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":14.044943820224718}"
+                },
+                {
+                  "title": "121. Best Time to Buy and Sell Stock",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":20.333333333333332}"
+                },
+                {
+                  "title": "118. Pascal's Triangle",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "21. Merge Two Sorted Lists",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/21. Merge Two Sorted Lists.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":20.777860882572924}"
+                },
+                {
+                  "title": "20. Valid Parentheses",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":27.843055555555555}"
+                },
+                {
+                  "title": "21. Merge Two Sorted Lists",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/21. Merge Two Sorted Lists.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":92.49242424242425}"
+                },
+                {
+                  "title": "121. Best Time to Buy and Sell Stock",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":74,\"ch\":44},\"to\":{\"line\":74,\"ch\":44}},\"scroll\":57.74920634920635}"
+                },
+                {
+                  "title": "21. Merge Two Sorted Lists",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/21. Merge Two Sorted Lists.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "577. Employee Bonus",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/577. Employee Bonus.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":26.58823529411765}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/60. Triangle Judgement.md",
-                "mode": "source",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           },
           {
-            "id": "0d3a34539671bc0e",
+            "id": "790c2f43ee03f79d",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -56,25 +188,17 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "🗒️ Obsidian",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":9.608948368354131}"
                 }
               ]
             },
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Template (🌐 LeetCode ꞉꞉ Problem ꞉꞉ Database).md",
-                "mode": "preview",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
-              },
-              "pinned": true
+              }
             }
           }
         ]
@@ -141,7 +265,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#🔴-academics/📚-educational-resources/name/🌐-system-design-fight-club/🔖-bookmark",
+                "query": "tag:🔴-academics/📚-educational-resources/name/🌐-leetcode/🏷️-tag/problem/tag/topic/database",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,8 +296,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 523.5,
-    "collapsed": true
+    "width": 523.5
   },
   "right": {
     "id": "4862554a11d6c3ac",
@@ -252,7 +375,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/60. Triangle Judgement.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +401,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/60. Triangle Judgement.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,7 +459,7 @@
             }
           },
           {
-            "id": "d5101c51e18594f0",
+            "id": "056ce0d6ffb8ea46",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -350,15 +473,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/60. Triangle Judgement.md"
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 500.5
+    "width": 546.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -375,48 +499,49 @@
       "workspaces:Manage workspace layouts": false,
       "publish:Publish changes...": true,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "chronology:Open Chronology": false,
       "3d-graph:3D Graph": false,
       "custom-sort:Toggle custom sorting": false,
       "surfing:surfing-bookmark-manager": false,
       "notion-like-tables:Create new loom": false,
-      "omnisearch:Omnisearch": false,
       "homepage:Open homepage": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false,
+      "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2ca6388e6554fd29",
+  "active": "beb8d3a8a1e5578e",
   "lastOpenFiles": [
-    "templates/Template (🌐 LeetCode ꞉꞉ Problem ꞉꞉ Database).md",
-    "templates/Template (Anki Flashcard ꞉꞉ #card OR 🎴).md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/60. Triangle Judgement.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md",
-    "Template Test.md",
-    "templates/Template Test.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/610. Triangle Judgement.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/21. Merge Two Sorted Lists.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/196. Delete Duplicate Emails.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/183. Customers Who Never Order.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/182. Duplicate Emails.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/181. Employees Earning More Than Their Managers.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/175. Combine Two Tables.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/577. Employee Bonus.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/610. Triangle Judgement.md",
+    "Untitled.md",
+    "templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database).md",
+    "templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Solution).md",
+    "templates/Template (🌐 Structy - Problem).md",
+    "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md",
-    "templates/Template (🗒️ Scratch Note).md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Git.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/1. Array and String ▹ 📋 Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/System Design꞉ Reddit.md",
-    "assets/excalidraw/system-design-fight-club-system-design-reddit.md",
-    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/sortspec.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md",
-    "assets/excalidraw/file.excalidraw.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Anki.md",
     "assets/excalidraw/file.excalidraw",
     "assets/excalidraw/system-design-fight-club-system-design-reddit.svg",
-    "assets/excalidraw/containerization-explained.md",
     "assets/images/data-engineer-project-1-prompt.png",
-    "assets/excalidraw/data-garage-project-1-criteria.md",
-    "assets/excalidraw/virtual-machine-(vm)-vs-docker.md",
-    "assets/excalidraw/data-engineering-study-group.excalidraw.md",
     "assets/excalidraw/containerization-explained.svg",
     "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/System Design꞉ Reddit",
     "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club",

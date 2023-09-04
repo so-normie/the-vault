@@ -1,11 +1,12 @@
 ---
 author: 
-created: 2023 
-tags: 
-- 🔴-academics/📚-educational-resources/name/leetcode
-- 🔴-academics/📚-educational-resources/name/leetcode/difficulty/easy
-- study-note 
+created: 2023
+tags:
+  - 🔴-academics/📚-educational-resources/name/leetcode
+  - 🔴-academics/📚-educational-resources/name/leetcode/difficulty/easy
+  - study-note
 cards-deck: Default::Computer Science
+updated: 2023-09-03 16:16
 ---
 
 # LeetCode

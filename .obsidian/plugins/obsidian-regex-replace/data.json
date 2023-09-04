@@ -1,8 +1,8 @@
 {
-  "findText": "\\*\\*Front\\*\\*\\: ",
-  "replaceText": "",
+  "findText": "(\\#card(-reverse)?)",
+  "replaceText": "\n$1\n",
   "useRegEx": true,
-  "selOnly": false,
+  "selOnly": true,
   "caseInsensitive": false,
   "processLineBreak": true,
   "processTab": false,
