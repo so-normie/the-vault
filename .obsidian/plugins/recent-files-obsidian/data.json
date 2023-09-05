@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "69. Array Sovler",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/69. Array Sovler.md"
+      "basename": "1. Two Sum",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
+    },
+    {
+      "basename": "🌐 LeetCode ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "183. Customers Who Never Order",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/183. Customers Who Never Order.md"
+    },
+    {
+      "basename": "20. Valid Parentheses",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md"
+    },
+    {
+      "basename": "118. Pascal's Triangle",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md"
     },
     {
       "basename": "Problems ▹ 📋 Table of Contents",
@@ -15,14 +31,6 @@
     {
       "basename": "🗒️ Node.js",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ Node.js.md"
-    },
-    {
-      "basename": "1. Two Sum",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
-    },
-    {
-      "basename": "🌐 LeetCode ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "🗒️ PostgreSQL Next Generation Parallel Query",
@@ -57,20 +65,8 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md"
     },
     {
-      "basename": "20. Valid Parentheses",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md"
-    },
-    {
       "basename": "21. Merge Two Sorted Lists",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/21. Merge Two Sorted Lists.md"
-    },
-    {
-      "basename": "118. Pascal's Triangle",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md"
-    },
-    {
-      "basename": "183. Customers Who Never Order",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/183. Customers Who Never Order.md"
     },
     {
       "basename": "182. Duplicate Emails",

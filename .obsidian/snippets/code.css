@@ -1,3 +1,41 @@
+p code {
+    border: 0.1rem solid #d8dee9;
+    border-radius: 5px;
+    background: #f8f8f8;
+    padding: 0em 0.1em 0em 0.1em;
+}
+
+.minimal-dark p code {
+    border: 0.1rem solid #4c556a;
+    border-radius: 5px;
+    background: #22272e;
+}
+
+
 code {
-    background: "#ebebeb" !important;
+    font-family: "CaskaydiaCove Nerd Font";
+}
+
+pre {
+    display: block;
+    font-size: inherit;
+    color: inherit;
+    word-break: normal;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    overflow: auto;
+}
+
+pre {
+    border: 0.1rem solid #d8dee9;
+    border-radius: 5px;
+    background: #f8f8f8;
+}
+
+
+.minimal-dark pre {
+    border: 0.1rem solid #4c556a;
+    border-radius: 5px;
+    background: #22272e;
 }

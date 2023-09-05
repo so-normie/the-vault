@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6a1442ce5de03af8",
+        "id": "c49bb5c5f05c3ef6",
         "type": "tabs",
         "children": [
           {
-            "id": "a95f0e8df9d8ce19",
+            "id": "1aabf6d27ac6ec67",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,71 +18,9 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Problems ▹ 📋 Table of Contents",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "196. Delete Duplicate Emails",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/196. Delete Duplicate Emails.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "🗒️ Node.js",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ Node.js.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":173.26315789473685}"
-                },
-                {
-                  "title": "🗒️ PostgreSQL Next Generation Parallel Query",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ PostgreSQL Next Generation Parallel Query.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/69. Array Sovler.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "45275fe6c85c778a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1699862f1b040097",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
+                  "title": "Graph view",
+                  "icon": "lucide-git-fork",
+                  "state": "{\"type\":\"graph\",\"state\":{}}",
                   "eState": "{}"
                 }
               ]
@@ -91,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -161,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#🔴-academics/📚-educational-resources/name/leetcode/related-topics/depth-first-search",
+                "query": "tag:🔴-academics/📚-educational-resources/name/🌐-leetcode/🔖-bookmark/🌐-leetcode/🌐-leetCode-▹-📋-table-of-contents/problems/183-customers-who-never-order",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -192,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "right": {
     "id": "4862554a11d6c3ac",
@@ -271,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/69. Array Sovler.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,7 +236,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/69. Array Sovler.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -355,30 +294,22 @@
             }
           },
           {
-            "id": "056ce0d6ffb8ea46",
+            "id": "7b35e3b7426bf735",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "outline",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/69. Array Sovler.md"
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 546.5
+    "width": 546.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -406,19 +337,23 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a95f0e8df9d8ce19",
+  "active": "1aabf6d27ac6ec67",
   "lastOpenFiles": [
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md",
+    "submodule",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/183. Customers Who Never Order.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/69. Array Sovler.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/196. Delete Duplicate Emails.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Node.js.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/🗒️ PostgreSQL Next Generation Parallel Query.md",
     "scripts/migrate-content-to-quartz.ps1",
     "scripts/migrate-content-to-quartz",
-    "anki/collection-2023-09-04@16-38-10.colpkg",
-    "anki",
+    "anki-flashcards/collection-2023-09-04@16-38-10.colpkg",
+    "anki-flashcards",
     "Template Test.md",
     "Home.md",
     "scripts/scripts.md",
@@ -441,14 +376,10 @@
     "templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database).md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/21. Merge Two Sorted Lists.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/183. Customers Who Never Order.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/182. Duplicate Emails.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/181. Employees Earning More Than Their Managers.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/175. Combine Two Tables.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/577. Employee Bonus.md",
     "assets/excalidraw/file.excalidraw",
     "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/System Design꞉ Reddit",
     "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club",
