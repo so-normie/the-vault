@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "1. Two Sum",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
                   "title": "Graph view",
                   "icon": "lucide-git-fork",
                   "state": "{\"type\":\"graph\",\"state\":{}}",
@@ -28,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Codility.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -99,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:🔴-academics/📚-educational-resources/name/🌐-leetcode/🔖-bookmark/🌐-leetcode/🌐-leetCode-▹-📋-table-of-contents/problems/183-customers-who-never-order",
+                "query": "tag:#computer-science",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,8 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "right": {
     "id": "4862554a11d6c3ac",
@@ -210,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Codility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +241,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Codility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -299,12 +304,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Codility.md"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -339,6 +344,7 @@
   },
   "active": "1aabf6d27ac6ec67",
   "lastOpenFiles": [
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
     "submodule",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/183. Customers Who Never Order.md",
@@ -348,7 +354,6 @@
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/196. Delete Duplicate Emails.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Node.js.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
     "🔴 Academics/📚 Educational Resources/🗒️ PostgreSQL Next Generation Parallel Query.md",
     "scripts/migrate-content-to-quartz.ps1",
     "scripts/migrate-content-to-quartz",
@@ -385,7 +390,6 @@
     "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club",
     "Untitled.canvas",
     "Untitled.loom",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/context.mdb",
     "Untitled 1.canvas"
   ]
 }

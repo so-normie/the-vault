@@ -5,7 +5,7 @@ p code {
     padding: 0em 0.1em 0em 0.1em;
 }
 
-.minimal-dark p code {
+.theme-dark p code {
     border: 0.1rem solid #4c556a;
     border-radius: 5px;
     background: #22272e;
@@ -34,7 +34,7 @@ pre {
 }
 
 
-.minimal-dark pre {
+.theme-dark pre {
     border: 0.1rem solid #4c556a;
     border-radius: 5px;
     background: #22272e;

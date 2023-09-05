@@ -274,22 +274,6 @@
       "modifiedDate": 1693755966943,
       "sizeInBytes": 7860
     },
-    "🔴 Academics/📚 Educational Resources/🗒️ Neovim.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 697,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 2.3233333333333333,
-      "characterCount": 4331,
-      "nonWhitespaceCharacterCount": 3520,
-      "linkCount": 0,
-      "embedCount": 1,
-      "aliases": null,
-      "createdDate": 1693755966940,
-      "modifiedDate": 1693755966940,
-      "sizeInBytes": 4670
-    },
     "🔴 Academics/📚 Educational Resources/🗒️ PowerShell.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -353,6 +337,22 @@
       "createdDate": 1693755966940,
       "modifiedDate": 1693881144444,
       "sizeInBytes": 19480
+    },
+    "🔴 Academics/📚 Educational Resources/🗒️ Neovim.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 697,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.3233333333333333,
+      "characterCount": 4331,
+      "nonWhitespaceCharacterCount": 3520,
+      "linkCount": 0,
+      "embedCount": 1,
+      "aliases": null,
+      "createdDate": 1693755966940,
+      "modifiedDate": 1693755966940,
+      "sizeInBytes": 4670
     },
     "🔴 Academics/📚 Educational Resources/🗒️ Microsoft Windows.md": {
       "isDirectory": false,
@@ -418,22 +418,6 @@
       "modifiedDate": 1693755966938,
       "sizeInBytes": 351
     },
-    "🔴 Academics/📚 Educational Resources/🗒️ JetBrains.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 668,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 2.2266666666666666,
-      "characterCount": 5240,
-      "nonWhitespaceCharacterCount": 4315,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966936,
-      "modifiedDate": 1693755966937,
-      "sizeInBytes": 5585
-    },
     "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -449,6 +433,22 @@
       "createdDate": 1693755966937,
       "modifiedDate": 1693755966937,
       "sizeInBytes": 3620
+    },
+    "🔴 Academics/📚 Educational Resources/🗒️ JetBrains.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 668,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.2266666666666666,
+      "characterCount": 5240,
+      "nonWhitespaceCharacterCount": 4315,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966936,
+      "modifiedDate": 1693755966937,
+      "sizeInBytes": 5585
     },
     "🔴 Academics/📚 Educational Resources/🗒️ JavaScript.md": {
       "isDirectory": false,
@@ -482,22 +482,6 @@
       "modifiedDate": 1693755966935,
       "sizeInBytes": 1003
     },
-    "🔴 Academics/📚 Educational Resources/🗒️ GoogleTest.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 201,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.67,
-      "characterCount": 1602,
-      "nonWhitespaceCharacterCount": 1376,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966934,
-      "modifiedDate": 1693755966935,
-      "sizeInBytes": 1882
-    },
     "🔴 Academics/📚 Educational Resources/🗒️ HTML.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -513,6 +497,22 @@
       "createdDate": 1693755966935,
       "modifiedDate": 1693755966935,
       "sizeInBytes": 277
+    },
+    "🔴 Academics/📚 Educational Resources/🗒️ GoogleTest.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 201,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.67,
+      "characterCount": 1602,
+      "nonWhitespaceCharacterCount": 1376,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966934,
+      "modifiedDate": 1693755966935,
+      "sizeInBytes": 1882
     },
     "🔴 Academics/📚 Educational Resources/🗒️ Go.md": {
       "isDirectory": false,
@@ -562,22 +562,6 @@
       "modifiedDate": 1693755966931,
       "sizeInBytes": 6241
     },
-    "🔴 Academics/📚 Educational Resources/🗒️ ESBuild.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 1035,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 3.45,
-      "characterCount": 7454,
-      "nonWhitespaceCharacterCount": 5977,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966929,
-      "modifiedDate": 1693755966929,
-      "sizeInBytes": 7724
-    },
     "🔴 Academics/📚 Educational Resources/🗒️ Git.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -593,6 +577,22 @@
       "createdDate": 1693755966930,
       "modifiedDate": 1693881144443,
       "sizeInBytes": 25906
+    },
+    "🔴 Academics/📚 Educational Resources/🗒️ ESBuild.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1035,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 3.45,
+      "characterCount": 7454,
+      "nonWhitespaceCharacterCount": 5977,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966929,
+      "modifiedDate": 1693755966929,
+      "sizeInBytes": 7724
     },
     "🔴 Academics/📚 Educational Resources/🗒️ Docker.md": {
       "isDirectory": false,
@@ -674,22 +674,6 @@
       "modifiedDate": 1693881144443,
       "sizeInBytes": 1584
     },
-    "🔴 Academics/📚 Educational Resources/🗒️ Anaconda.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 23,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.07666666666666666,
-      "characterCount": 156,
-      "nonWhitespaceCharacterCount": 95,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966925,
-      "modifiedDate": 1693755966925,
-      "sizeInBytes": 579
-    },
     "🔴 Academics/📚 Educational Resources/🗒️ Angular.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -705,6 +689,22 @@
       "createdDate": 1693755966925,
       "modifiedDate": 1693755966925,
       "sizeInBytes": 4029
+    },
+    "🔴 Academics/📚 Educational Resources/🗒️ Anaconda.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 23,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.07666666666666666,
+      "characterCount": 156,
+      "nonWhitespaceCharacterCount": 95,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966925,
+      "modifiedDate": 1693755966925,
+      "sizeInBytes": 579
     },
     "🔴 Academics/📚 Educational Resources/🗒️ .NET.md": {
       "isDirectory": false,
@@ -930,22 +930,6 @@
       "modifiedDate": 1693755966917,
       "sizeInBytes": 260
     },
-    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 40 Quantum Mechanics I꞉ Wave Functions.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 7,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.023333333333333334,
-      "characterCount": 54,
-      "nonWhitespaceCharacterCount": 40,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966915,
-      "modifiedDate": 1693755966915,
-      "sizeInBytes": 282
-    },
     "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 42 Molecules and Condensed Matter.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -977,6 +961,22 @@
       "createdDate": 1693755966916,
       "modifiedDate": 1693755966916,
       "sizeInBytes": 285
+    },
+    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 40 Quantum Mechanics I꞉ Wave Functions.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 7,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.023333333333333334,
+      "characterCount": 54,
+      "nonWhitespaceCharacterCount": 40,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966915,
+      "modifiedDate": 1693755966915,
+      "sizeInBytes": 282
     },
     "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 4 Newton’s Laws of Motion.md": {
       "isDirectory": false,
@@ -1138,21 +1138,21 @@
       "modifiedDate": 1693755966911,
       "sizeInBytes": 264
     },
-    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 26 Direct-Current Circuits.md": {
+    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 22 Gauss’s Law.md": {
       "isDirectory": false,
       "noteCount": 1,
       "wordCount": 4,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.013333333333333334,
-      "characterCount": 42,
-      "nonWhitespaceCharacterCount": 31,
+      "characterCount": 30,
+      "nonWhitespaceCharacterCount": 19,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1693755966908,
-      "modifiedDate": 1693755966908,
-      "sizeInBytes": 268
+      "createdDate": 1693755966906,
+      "modifiedDate": 1693755966906,
+      "sizeInBytes": 258
     },
     "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 30 Inductance.md": {
       "isDirectory": false,
@@ -1234,6 +1234,22 @@
       "modifiedDate": 1693755966908,
       "sizeInBytes": 279
     },
+    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 26 Direct-Current Circuits.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 4,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.013333333333333334,
+      "characterCount": 42,
+      "nonWhitespaceCharacterCount": 31,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966908,
+      "modifiedDate": 1693755966908,
+      "sizeInBytes": 268
+    },
     "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 25 Current, Resistance, and Electromotive Force.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -1249,22 +1265,6 @@
       "createdDate": 1693755966907,
       "modifiedDate": 1693755966908,
       "sizeInBytes": 289
-    },
-    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 23 Electric Potential.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 4,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.013333333333333334,
-      "characterCount": 37,
-      "nonWhitespaceCharacterCount": 26,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966907,
-      "modifiedDate": 1693755966907,
-      "sizeInBytes": 263
     },
     "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 24 Capacitance.md": {
       "isDirectory": false,
@@ -1282,21 +1282,21 @@
       "modifiedDate": 1693755966907,
       "sizeInBytes": 256
     },
-    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 22 Gauss’s Law.md": {
+    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 23 Electric Potential.md": {
       "isDirectory": false,
       "noteCount": 1,
       "wordCount": 4,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.013333333333333334,
-      "characterCount": 30,
-      "nonWhitespaceCharacterCount": 19,
+      "characterCount": 37,
+      "nonWhitespaceCharacterCount": 26,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1693755966906,
-      "modifiedDate": 1693755966906,
-      "sizeInBytes": 258
+      "createdDate": 1693755966907,
+      "modifiedDate": 1693755966907,
+      "sizeInBytes": 263
     },
     "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 21 Electric Charge and Electric Field.md": {
       "isDirectory": false,
@@ -1314,22 +1314,6 @@
       "modifiedDate": 1693755966906,
       "sizeInBytes": 279
     },
-    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 2 Motion Along a Straight Line.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 17,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.056666666666666664,
-      "characterCount": 112,
-      "nonWhitespaceCharacterCount": 87,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966905,
-      "modifiedDate": 1693755966905,
-      "sizeInBytes": 279
-    },
     "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 20 The Second Law of Thermodynamics.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -1345,6 +1329,22 @@
       "createdDate": 1693755966905,
       "modifiedDate": 1693755966905,
       "sizeInBytes": 277
+    },
+    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 2 Motion Along a Straight Line.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 17,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.056666666666666664,
+      "characterCount": 112,
+      "nonWhitespaceCharacterCount": 87,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966905,
+      "modifiedDate": 1693755966905,
+      "sizeInBytes": 279
     },
     "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 19 The First Law of Thermodynamics.md": {
       "isDirectory": false,
@@ -1378,22 +1378,6 @@
       "modifiedDate": 1693755966904,
       "sizeInBytes": 273
     },
-    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 16 Sound and Hearing.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 5,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.016666666666666666,
-      "characterCount": 36,
-      "nonWhitespaceCharacterCount": 24,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966903,
-      "modifiedDate": 1693755966903,
-      "sizeInBytes": 262
-    },
     "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 17 Temperature and Heat.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -1409,6 +1393,22 @@
       "createdDate": 1693755966903,
       "modifiedDate": 1693755966903,
       "sizeInBytes": 265
+    },
+    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 16 Sound and Hearing.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 5,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.016666666666666666,
+      "characterCount": 36,
+      "nonWhitespaceCharacterCount": 24,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966903,
+      "modifiedDate": 1693755966903,
+      "sizeInBytes": 262
     },
     "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 15 Mechanical Waves.md": {
       "isDirectory": false,
@@ -1442,22 +1442,6 @@
       "modifiedDate": 1693755966901,
       "sizeInBytes": 260
     },
-    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 12 Fluid Mechanics.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 4,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.013333333333333334,
-      "characterCount": 34,
-      "nonWhitespaceCharacterCount": 23,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966901,
-      "modifiedDate": 1693755966901,
-      "sizeInBytes": 260
-    },
     "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 13 Gravitation.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -1473,6 +1457,22 @@
       "createdDate": 1693755966901,
       "modifiedDate": 1693755966901,
       "sizeInBytes": 256
+    },
+    "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 12 Fluid Mechanics.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 4,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.013333333333333334,
+      "characterCount": 34,
+      "nonWhitespaceCharacterCount": 23,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966901,
+      "modifiedDate": 1693755966901,
+      "sizeInBytes": 260
     },
     "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 11 Equilibrium and Elasticity.md": {
       "isDirectory": false,
@@ -1874,22 +1874,6 @@
       "modifiedDate": 1693755966889,
       "sizeInBytes": 1026
     },
-    "🔴 Academics/📚 Educational Resources/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition (2022)/16. Integrals and Vector Fields.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 92,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.30666666666666664,
-      "characterCount": 743,
-      "nonWhitespaceCharacterCount": 629,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966887,
-      "modifiedDate": 1693755966888,
-      "sizeInBytes": 1036
-    },
     "🔴 Academics/📚 Educational Resources/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition (2022)/17. Second-Order Differential Equations.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -1905,6 +1889,22 @@
       "createdDate": 1693755966888,
       "modifiedDate": 1693755966888,
       "sizeInBytes": 1044
+    },
+    "🔴 Academics/📚 Educational Resources/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition (2022)/16. Integrals and Vector Fields.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 92,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.30666666666666664,
+      "characterCount": 743,
+      "nonWhitespaceCharacterCount": 629,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966887,
+      "modifiedDate": 1693755966888,
+      "sizeInBytes": 1036
     },
     "🔴 Academics/📚 Educational Resources/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition (2022)/15. Multiple Integrals.md": {
       "isDirectory": false,
@@ -1922,22 +1922,6 @@
       "modifiedDate": 1693755966887,
       "sizeInBytes": 1027
     },
-    "🔴 Academics/📚 Educational Resources/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition (2022)/13. Vector-Valued Functions and Motion in Space.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 94,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.31333333333333335,
-      "characterCount": 759,
-      "nonWhitespaceCharacterCount": 643,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966886,
-      "modifiedDate": 1693755966886,
-      "sizeInBytes": 1052
-    },
     "🔴 Academics/📚 Educational Resources/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition (2022)/14. Partial Derivatives.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -1953,6 +1937,22 @@
       "createdDate": 1693755966887,
       "modifiedDate": 1693755966887,
       "sizeInBytes": 1028
+    },
+    "🔴 Academics/📚 Educational Resources/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition (2022)/13. Vector-Valued Functions and Motion in Space.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 94,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.31333333333333335,
+      "characterCount": 759,
+      "nonWhitespaceCharacterCount": 643,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966886,
+      "modifiedDate": 1693755966886,
+      "sizeInBytes": 1052
     },
     "🔴 Academics/📚 Educational Resources/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition (2022)/12. Vectors and the Geometry Space.md": {
       "isDirectory": false,
@@ -2018,22 +2018,6 @@
       "modifiedDate": 1693755966884,
       "sizeInBytes": 12820
     },
-    "🔴 Academics/📚 Educational Resources/📕 Precalculus꞉ Mathematics for Calculus, 7ᵗʰ Edition.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 2,
-      "nonWhitespaceCharacterCount": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966883,
-      "modifiedDate": 1693755966883,
-      "sizeInBytes": 271
-    },
     "🔴 Academics/📚 Educational Resources/📕 Python in a Nutshell, 4ᵗʰ Edition (2023).md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -2049,6 +2033,22 @@
       "createdDate": 1693755966883,
       "modifiedDate": 1693755966883,
       "sizeInBytes": 5120
+    },
+    "🔴 Academics/📚 Educational Resources/📕 Precalculus꞉ Mathematics for Calculus, 7ᵗʰ Edition.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 2,
+      "nonWhitespaceCharacterCount": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966883,
+      "modifiedDate": 1693755966883,
+      "sizeInBytes": 271
     },
     "🔴 Academics/📚 Educational Resources/📕 Master Your Data with Excel and Power BI.md": {
       "isDirectory": false,
@@ -2178,22 +2178,6 @@
       "modifiedDate": 1693755966878,
       "sizeInBytes": 0
     },
-    "🔴 Academics/📚 Educational Resources/📕 How to Prove It꞉ A Structured Approach, 3ʳᵈ Edition.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 2,
-      "nonWhitespaceCharacterCount": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966877,
-      "modifiedDate": 1693755966877,
-      "sizeInBytes": 256
-    },
     "🔴 Academics/📚 Educational Resources/📕 How to Read and Do Proofs꞉ An Introduction to Mathematical Thought Processes, 6ᵗʰ Edition.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -2209,6 +2193,22 @@
       "createdDate": 1693755966878,
       "modifiedDate": 1693755966878,
       "sizeInBytes": 265
+    },
+    "🔴 Academics/📚 Educational Resources/📕 How to Prove It꞉ A Structured Approach, 3ʳᵈ Edition.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 2,
+      "nonWhitespaceCharacterCount": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966877,
+      "modifiedDate": 1693755966877,
+      "sizeInBytes": 256
     },
     "🔴 Academics/📚 Educational Resources/📕 Fundamentals of Differential Equations and Boundary Value Problems, 7ᵗʰ Edition.md": {
       "isDirectory": false,
@@ -2226,22 +2226,6 @@
       "modifiedDate": 1693755966877,
       "sizeInBytes": 287
     },
-    "🔴 Academics/📚 Educational Resources/📕 Fluent Python, 2ⁿᵈ Edition (2022).md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966876,
-      "modifiedDate": 1693755966876,
-      "sizeInBytes": 0
-    },
     "🔴 Academics/📚 Educational Resources/📕 Foundations of Higher Mathematics, 3ʳᵈ Edition.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -2257,6 +2241,22 @@
       "createdDate": 1693755966876,
       "modifiedDate": 1693755966877,
       "sizeInBytes": 256
+    },
+    "🔴 Academics/📚 Educational Resources/📕 Fluent Python, 2ⁿᵈ Edition (2022).md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966876,
+      "modifiedDate": 1693755966876,
+      "sizeInBytes": 0
     },
     "🔴 Academics/📚 Educational Resources/📕 Essential Calculus Skills Practice Workbook with Full Solutions.md": {
       "isDirectory": false,
@@ -2306,22 +2306,6 @@
       "modifiedDate": 1693755966874,
       "sizeInBytes": 258
     },
-    "🔴 Academics/📚 Educational Resources/📕 Discrete and Combinatorial Mathematics (Classic Version), 5ᵗʰ Edition.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 2,
-      "nonWhitespaceCharacterCount": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966875,
-      "modifiedDate": 1693755966875,
-      "sizeInBytes": 272
-    },
     "🔴 Academics/📚 Educational Resources/📕 Discrete Mathematical Structures, 6ᵗʰ Edition.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -2337,6 +2321,22 @@
       "createdDate": 1693755966874,
       "modifiedDate": 1693755966874,
       "sizeInBytes": 259
+    },
+    "🔴 Academics/📚 Educational Resources/📕 Discrete and Combinatorial Mathematics (Classic Version), 5ᵗʰ Edition.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 2,
+      "nonWhitespaceCharacterCount": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966875,
+      "modifiedDate": 1693755966875,
+      "sizeInBytes": 272
     },
     "🔴 Academics/📚 Educational Resources/📕 Concrete Mathematics꞉ A Foundation for Computer Science, 2ⁿᵈ Edition.md": {
       "isDirectory": false,
@@ -2450,38 +2450,6 @@
       "modifiedDate": 1693755966871,
       "sizeInBytes": 254
     },
-    "🔴 Academics/📚 Educational Resources/🏗️ Data Garage/Data Garage꞉ Project 1.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 176,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.5866666666666667,
-      "characterCount": 1695,
-      "nonWhitespaceCharacterCount": 1200,
-      "linkCount": 0,
-      "embedCount": 2,
-      "aliases": null,
-      "createdDate": 1693755966870,
-      "modifiedDate": 1693755966870,
-      "sizeInBytes": 2045
-    },
-    "🔴 Academics/📚 Educational Resources/🏗️ Data Garage/Data Garage꞉ Project 1 1.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 109,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.36333333333333334,
-      "characterCount": 1012,
-      "nonWhitespaceCharacterCount": 633,
-      "linkCount": 3,
-      "embedCount": 1,
-      "aliases": null,
-      "createdDate": 1693755966870,
-      "modifiedDate": 1693755966870,
-      "sizeInBytes": 1270
-    },
     "🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke! (2022)/2. Chapter.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -2529,6 +2497,38 @@
       "createdDate": 1693755966868,
       "modifiedDate": 1693755966868,
       "sizeInBytes": 1934
+    },
+    "🔴 Academics/📚 Educational Resources/🏗️ Data Garage/Data Garage꞉ Project 1.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 176,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.5866666666666667,
+      "characterCount": 1695,
+      "nonWhitespaceCharacterCount": 1200,
+      "linkCount": 0,
+      "embedCount": 2,
+      "aliases": null,
+      "createdDate": 1693755966870,
+      "modifiedDate": 1693755966870,
+      "sizeInBytes": 2045
+    },
+    "🔴 Academics/📚 Educational Resources/🏗️ Data Garage/Data Garage꞉ Project 1 1.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 109,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.36333333333333334,
+      "characterCount": 1012,
+      "nonWhitespaceCharacterCount": 633,
+      "linkCount": 3,
+      "embedCount": 1,
+      "aliases": null,
+      "createdDate": 1693755966870,
+      "modifiedDate": 1693755966870,
+      "sizeInBytes": 1270
     },
     "🔴 Academics/📚 Educational Resources/🌐 Typst.md": {
       "isDirectory": false,
@@ -2626,22 +2626,6 @@
       "modifiedDate": 1693755966864,
       "sizeInBytes": 6299
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 2,
-      "nonWhitespaceCharacterCount": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966863,
-      "modifiedDate": 1693755966863,
-      "sizeInBytes": 107
-    },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -2658,21 +2642,21 @@
       "modifiedDate": 1693881144442,
       "sizeInBytes": 1742
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/130. topological order 👨🏽‍💻.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 51,
+      "wordCount": 0,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.17,
-      "characterCount": 393,
-      "nonWhitespaceCharacterCount": 297,
-      "linkCount": 1,
+      "pageCount": 0,
+      "characterCount": 2,
+      "nonWhitespaceCharacterCount": 0,
+      "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1693755966860,
-      "modifiedDate": 1693755966860,
-      "sizeInBytes": 666
+      "createdDate": 1693755966863,
+      "modifiedDate": 1693755966863,
+      "sizeInBytes": 107
     },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/8. Mixed Recall ▹ 📋 Table of Contents.md": {
       "isDirectory": false,
@@ -2754,6 +2738,22 @@
       "modifiedDate": 1693755966860,
       "sizeInBytes": 658
     },
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/130. topological order 👨🏽‍💻.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 51,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.17,
+      "characterCount": 393,
+      "nonWhitespaceCharacterCount": 297,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966860,
+      "modifiedDate": 1693755966860,
+      "sizeInBytes": 666
+    },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/129. detect dictionary 👨🏽‍💻.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -2770,22 +2770,6 @@
       "modifiedDate": 1693755966859,
       "sizeInBytes": 674
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/127. build tree in pre 👨🏽‍💻.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 53,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.17666666666666667,
-      "characterCount": 393,
-      "nonWhitespaceCharacterCount": 295,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966858,
-      "modifiedDate": 1693755966859,
-      "sizeInBytes": 666
-    },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/128. lexical order 👨🏽‍💻.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -2799,6 +2783,22 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1693755966859,
+      "modifiedDate": 1693755966859,
+      "sizeInBytes": 666
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/127. build tree in pre 👨🏽‍💻.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 53,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.17666666666666667,
+      "characterCount": 393,
+      "nonWhitespaceCharacterCount": 295,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966858,
       "modifiedDate": 1693755966859,
       "sizeInBytes": 666
     },
@@ -2914,22 +2914,6 @@
       "modifiedDate": 1693755966855,
       "sizeInBytes": 660
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/118. positioning plants 👨🏽‍💻.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 51,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.17,
-      "characterCount": 406,
-      "nonWhitespaceCharacterCount": 310,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966854,
-      "modifiedDate": 1693755966854,
-      "sizeInBytes": 680
-    },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/119. breaking boundaries 👨🏽‍💻.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -2945,6 +2929,22 @@
       "createdDate": 1693755966855,
       "modifiedDate": 1693755966855,
       "sizeInBytes": 664
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/118. positioning plants 👨🏽‍💻.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 51,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.17,
+      "characterCount": 406,
+      "nonWhitespaceCharacterCount": 310,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966854,
+      "modifiedDate": 1693755966854,
+      "sizeInBytes": 680
     },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/117. max increasing subseq 👨🏽‍💻.md": {
       "isDirectory": false,
@@ -2978,22 +2978,6 @@
       "modifiedDate": 1693755966853,
       "sizeInBytes": 672
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/114. can color 👨🏽‍💻.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 51,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.17,
-      "characterCount": 387,
-      "nonWhitespaceCharacterCount": 291,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966852,
-      "modifiedDate": 1693755966852,
-      "sizeInBytes": 652
-    },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/115. tolerant teams 👨🏽‍💻.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -3010,6 +2994,22 @@
       "modifiedDate": 1693755966853,
       "sizeInBytes": 658
     },
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/114. can color 👨🏽‍💻.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 51,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.17,
+      "characterCount": 387,
+      "nonWhitespaceCharacterCount": 291,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966852,
+      "modifiedDate": 1693755966852,
+      "sizeInBytes": 652
+    },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/113. lefty nodes 👨🏽‍💻.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -3019,6 +3019,22 @@
       "pageCount": 0.17,
       "characterCount": 379,
       "nonWhitespaceCharacterCount": 283,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966852,
+      "modifiedDate": 1693755966852,
+      "sizeInBytes": 646
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/112. flip tree 👨🏽‍💻.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 51,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.17,
+      "characterCount": 381,
+      "nonWhitespaceCharacterCount": 285,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
@@ -3042,22 +3058,6 @@
       "modifiedDate": 1693755966851,
       "sizeInBytes": 619
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/112. flip tree 👨🏽‍💻.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 51,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.17,
-      "characterCount": 381,
-      "nonWhitespaceCharacterCount": 285,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966852,
-      "modifiedDate": 1693755966852,
-      "sizeInBytes": 646
-    },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/110. linked list cycle 👨🏽‍💻.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -3074,22 +3074,6 @@
       "modifiedDate": 1693755966851,
       "sizeInBytes": 649
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/108. linked palindrome 👨🏽‍💻.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 51,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.17,
-      "characterCount": 401,
-      "nonWhitespaceCharacterCount": 305,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966850,
-      "modifiedDate": 1693755966850,
-      "sizeInBytes": 674
-    },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/109. middle value 👨🏽‍💻.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -3105,6 +3089,22 @@
       "createdDate": 1693755966851,
       "modifiedDate": 1693755966851,
       "sizeInBytes": 654
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/108. linked palindrome 👨🏽‍💻.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 51,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.17,
+      "characterCount": 401,
+      "nonWhitespaceCharacterCount": 305,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966850,
+      "modifiedDate": 1693755966850,
+      "sizeInBytes": 674
     },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/107. mixed recall welcome 👨🏽‍💻.md": {
       "isDirectory": false,
@@ -3154,21 +3154,21 @@
       "modifiedDate": 1693755966849,
       "sizeInBytes": 712
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/7. Exhaustive Recursion/103. create combinations 👨🏽‍💻.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/7. Exhaustive Recursion/105. substitute synonyms 👨🏽‍💻.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 51,
+      "wordCount": 53,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.17,
-      "characterCount": 439,
+      "pageCount": 0.17666666666666667,
+      "characterCount": 441,
       "nonWhitespaceCharacterCount": 343,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1693755966847,
+      "createdDate": 1693755966848,
       "modifiedDate": 1693755966848,
-      "sizeInBytes": 714
+      "sizeInBytes": 716
     },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/7. Exhaustive Recursion/104. parenthetical possibilities 👨🏽‍💻.md": {
       "isDirectory": false,
@@ -3186,21 +3186,21 @@
       "modifiedDate": 1693755966848,
       "sizeInBytes": 714
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/7. Exhaustive Recursion/105. substitute synonyms 👨🏽‍💻.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/7. Exhaustive Recursion/103. create combinations 👨🏽‍💻.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 53,
+      "wordCount": 51,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.17666666666666667,
-      "characterCount": 441,
+      "pageCount": 0.17,
+      "characterCount": 439,
       "nonWhitespaceCharacterCount": 343,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1693755966848,
+      "createdDate": 1693755966847,
       "modifiedDate": 1693755966848,
-      "sizeInBytes": 716
+      "sizeInBytes": 714
     },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/7. Exhaustive Recursion/102. break time 👨🏽‍💻.md": {
       "isDirectory": false,
@@ -3330,22 +3330,6 @@
       "modifiedDate": 1693755966844,
       "sizeInBytes": 652
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/6. Stack/094. paired parentheses 👨🏽‍💻.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 49,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.16333333333333333,
-      "characterCount": 390,
-      "nonWhitespaceCharacterCount": 296,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966842,
-      "modifiedDate": 1693755966842,
-      "sizeInBytes": 664
-    },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/6. Stack/095. befitting brackets 👨🏽‍💻.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -3361,6 +3345,22 @@
       "createdDate": 1693755966842,
       "modifiedDate": 1693755966843,
       "sizeInBytes": 662
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/6. Stack/094. paired parentheses 👨🏽‍💻.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 49,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.16333333333333333,
+      "characterCount": 390,
+      "nonWhitespaceCharacterCount": 296,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966842,
+      "modifiedDate": 1693755966842,
+      "sizeInBytes": 664
     },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/6. Stack/093. stack welcome 👨🏽‍💻.md": {
       "isDirectory": false,
@@ -3442,22 +3442,6 @@
       "modifiedDate": 1693755966839,
       "sizeInBytes": 676
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/088. can concat 👨🏽‍💻.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 51,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.17,
-      "characterCount": 405,
-      "nonWhitespaceCharacterCount": 309,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966837,
-      "modifiedDate": 1693755966838,
-      "sizeInBytes": 671
-    },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/089. quickest concat 👨🏽‍💻.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -3473,6 +3457,22 @@
       "createdDate": 1693755966838,
       "modifiedDate": 1693755966838,
       "sizeInBytes": 681
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/088. can concat 👨🏽‍💻.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 51,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.17,
+      "characterCount": 405,
+      "nonWhitespaceCharacterCount": 309,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966837,
+      "modifiedDate": 1693755966838,
+      "sizeInBytes": 671
     },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/087. overlap subsequence 👨🏽‍💻.md": {
       "isDirectory": false,
@@ -3506,22 +3506,6 @@
       "modifiedDate": 1693755966837,
       "sizeInBytes": 701
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/084. counting change 👨🏽‍💻.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 51,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.17,
-      "characterCount": 406,
-      "nonWhitespaceCharacterCount": 310,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966836,
-      "modifiedDate": 1693755966836,
-      "sizeInBytes": 677
-    },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/085. array stepper 👨🏽‍💻.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -3537,6 +3521,22 @@
       "createdDate": 1693755966836,
       "modifiedDate": 1693755966836,
       "sizeInBytes": 689
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/084. counting change 👨🏽‍💻.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 51,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.17,
+      "characterCount": 406,
+      "nonWhitespaceCharacterCount": 310,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966836,
+      "modifiedDate": 1693755966836,
+      "sizeInBytes": 677
     },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/083. summing squares 👨🏽‍💻.md": {
       "isDirectory": false,
@@ -3554,22 +3554,6 @@
       "modifiedDate": 1693755966835,
       "sizeInBytes": 681
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/081. max path sum 👨🏽‍💻.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 52,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.17333333333333334,
-      "characterCount": 409,
-      "nonWhitespaceCharacterCount": 312,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966834,
-      "modifiedDate": 1693755966834,
-      "sizeInBytes": 677
-    },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/082. non-adjacent sum 👨🏽‍💻.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -3585,6 +3569,22 @@
       "createdDate": 1693755966835,
       "modifiedDate": 1693755966835,
       "sizeInBytes": 683
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/081. max path sum 👨🏽‍💻.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 52,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.17333333333333334,
+      "characterCount": 409,
+      "nonWhitespaceCharacterCount": 312,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966834,
+      "modifiedDate": 1693755966834,
+      "sizeInBytes": 677
     },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/080. count paths 👨🏽‍💻.md": {
       "isDirectory": false,
@@ -3602,6 +3602,22 @@
       "modifiedDate": 1693755966834,
       "sizeInBytes": 512
     },
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/078. sum possible 👨🏽‍💻.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 51,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.17,
+      "characterCount": 397,
+      "nonWhitespaceCharacterCount": 301,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966833,
+      "modifiedDate": 1693755966833,
+      "sizeInBytes": 665
+    },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/079. min change 👨🏽‍💻.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -3618,15 +3634,15 @@
       "modifiedDate": 1693755966834,
       "sizeInBytes": 663
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/078. sum possible 👨🏽‍💻.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/077. tribonacci 👨🏽‍💻.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 51,
+      "wordCount": 50,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.17,
-      "characterCount": 397,
-      "nonWhitespaceCharacterCount": 301,
+      "pageCount": 0.16666666666666666,
+      "characterCount": 399,
+      "nonWhitespaceCharacterCount": 304,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
@@ -3649,22 +3665,6 @@
       "createdDate": 1693755966832,
       "modifiedDate": 1693755966832,
       "sizeInBytes": 647
-    },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/077. tribonacci 👨🏽‍💻.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 50,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.16666666666666666,
-      "characterCount": 399,
-      "nonWhitespaceCharacterCount": 304,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966833,
-      "modifiedDate": 1693755966833,
-      "sizeInBytes": 665
     },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming/075. dynamic programming welcome 👨🏻‍🏫.md": {
       "isDirectory": false,
@@ -3730,22 +3730,6 @@
       "modifiedDate": 1693755966830,
       "sizeInBytes": 495
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/4. Graph/071. prereqs possible 👨🏽‍💻.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 49,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.16333333333333333,
-      "characterCount": 378,
-      "nonWhitespaceCharacterCount": 284,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966829,
-      "modifiedDate": 1693755966830,
-      "sizeInBytes": 650
-    },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/4. Graph/072. knight attack 👨🏽‍💻.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -3761,6 +3745,22 @@
       "createdDate": 1693755966830,
       "modifiedDate": 1693755966830,
       "sizeInBytes": 616
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/4. Graph/071. prereqs possible 👨🏽‍💻.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 49,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.16333333333333333,
+      "characterCount": 378,
+      "nonWhitespaceCharacterCount": 284,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966829,
+      "modifiedDate": 1693755966830,
+      "sizeInBytes": 650
     },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/4. Graph/070. has cycle 👨🏽‍💻.md": {
       "isDirectory": false,
@@ -4786,22 +4786,6 @@
       "modifiedDate": 1693755966797,
       "sizeInBytes": 2205
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/008. anagrams 👨🏽‍💻.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 291,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.97,
-      "characterCount": 2606,
-      "nonWhitespaceCharacterCount": 2188,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966796,
-      "modifiedDate": 1693755966796,
-      "sizeInBytes": 2917
-    },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/009. most frequent char 👨🏽‍💻.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -4817,6 +4801,22 @@
       "createdDate": 1693755966796,
       "modifiedDate": 1693755966796,
       "sizeInBytes": 6747
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/008. anagrams 👨🏽‍💻.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 291,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.97,
+      "characterCount": 2606,
+      "nonWhitespaceCharacterCount": 2188,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966796,
+      "modifiedDate": 1693755966796,
+      "sizeInBytes": 2917
     },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/007. compress 👨🏽‍💻.md": {
       "isDirectory": false,
@@ -5410,22 +5410,6 @@
       "modifiedDate": 1693881144433,
       "sizeInBytes": 75931
     },
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/610. Triangle Judgement.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 446,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 1.4866666666666666,
-      "characterCount": 2617,
-      "nonWhitespaceCharacterCount": 1999,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693881144439,
-      "modifiedDate": 1693881144439,
-      "sizeInBytes": 3355
-    },
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -5442,21 +5426,21 @@
       "modifiedDate": 1693881144440,
       "sizeInBytes": 723
     },
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/577. Employee Bonus.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/610. Triangle Judgement.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 135,
+      "wordCount": 446,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.45,
-      "characterCount": 955,
-      "nonWhitespaceCharacterCount": 712,
+      "pageCount": 1.4866666666666666,
+      "characterCount": 2617,
+      "nonWhitespaceCharacterCount": 1999,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1693881144438,
-      "modifiedDate": 1693881144438,
-      "sizeInBytes": 1643
+      "createdDate": 1693881144439,
+      "modifiedDate": 1693881144439,
+      "sizeInBytes": 3355
     },
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/584. Find Customer Referee.md": {
       "isDirectory": false,
@@ -5473,6 +5457,22 @@
       "createdDate": 1693881144438,
       "modifiedDate": 1693881144439,
       "sizeInBytes": 1546
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/577. Employee Bonus.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 135,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.45,
+      "characterCount": 955,
+      "nonWhitespaceCharacterCount": 712,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693881144438,
+      "modifiedDate": 1693881144438,
+      "sizeInBytes": 1643
     },
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md": {
       "isDirectory": false,
@@ -5602,22 +5602,6 @@
       "modifiedDate": 1693881144435,
       "sizeInBytes": 1781
     },
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 266,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.8866666666666667,
-      "characterCount": 2426,
-      "nonWhitespaceCharacterCount": 2074,
-      "linkCount": 1,
-      "embedCount": 1,
-      "aliases": null,
-      "createdDate": 1693755966777,
-      "modifiedDate": 1693881144434,
-      "sizeInBytes": 3249
-    },
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -5649,6 +5633,22 @@
       "createdDate": 1693881144435,
       "modifiedDate": 1693881144435,
       "sizeInBytes": 6354
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 266,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.8866666666666667,
+      "characterCount": 2426,
+      "nonWhitespaceCharacterCount": 2074,
+      "linkCount": 1,
+      "embedCount": 1,
+      "aliases": null,
+      "createdDate": 1693755966777,
+      "modifiedDate": 1693881144434,
+      "sizeInBytes": 3249
     },
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md": {
       "isDirectory": false,
@@ -5810,22 +5810,6 @@
       "modifiedDate": 1693755966771,
       "sizeInBytes": 41112
     },
-    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 6꞉ Scope, Duration, and Linkage.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 112,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.37333333333333335,
-      "characterCount": 2044,
-      "nonWhitespaceCharacterCount": 1876,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966770,
-      "modifiedDate": 1693755966770,
-      "sizeInBytes": 2272
-    },
     "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 5꞉ Operators.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -5841,6 +5825,22 @@
       "createdDate": 1693755966770,
       "modifiedDate": 1693755966770,
       "sizeInBytes": 1236
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 6꞉ Scope, Duration, and Linkage.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 112,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.37333333333333335,
+      "characterCount": 2044,
+      "nonWhitespaceCharacterCount": 1876,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966770,
+      "modifiedDate": 1693755966770,
+      "sizeInBytes": 2272
     },
     "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 4꞉ Fundamental Data Types.md": {
       "isDirectory": false,
@@ -6514,22 +6514,6 @@
       "modifiedDate": 1693755966750,
       "sizeInBytes": 374
     },
-    "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Regular expressions library.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 7,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.023333333333333334,
-      "characterCount": 55,
-      "nonWhitespaceCharacterCount": 40,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966749,
-      "modifiedDate": 1693755966750,
-      "sizeInBytes": 375
-    },
     "🔴 Academics/📚 Educational Resources/🌐 C++ reference/sortspec.md.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -6546,21 +6530,21 @@
       "modifiedDate": 1693755966751,
       "sizeInBytes": 1033
     },
-    "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Named requirements.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Regular expressions library.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 6,
+      "wordCount": 7,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.02,
-      "characterCount": 46,
-      "nonWhitespaceCharacterCount": 32,
+      "pageCount": 0.023333333333333334,
+      "characterCount": 55,
+      "nonWhitespaceCharacterCount": 40,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1693755966748,
-      "modifiedDate": 1693755966748,
-      "sizeInBytes": 366
+      "createdDate": 1693755966749,
+      "modifiedDate": 1693755966750,
+      "sizeInBytes": 375
     },
     "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Ranges library.md": {
       "isDirectory": false,
@@ -6593,6 +6577,22 @@
       "createdDate": 1693755966748,
       "modifiedDate": 1693755966749,
       "sizeInBytes": 3261
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Named requirements.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 6,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.02,
+      "characterCount": 46,
+      "nonWhitespaceCharacterCount": 32,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966748,
+      "modifiedDate": 1693755966748,
+      "sizeInBytes": 366
     },
     "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Metaprogramming library.md": {
       "isDirectory": false,
@@ -6786,22 +6786,6 @@
       "modifiedDate": 1693755966743,
       "sizeInBytes": 369
     },
-    "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Concurrency support library.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 7,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.023333333333333334,
-      "characterCount": 55,
-      "nonWhitespaceCharacterCount": 40,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966742,
-      "modifiedDate": 1693755966742,
-      "sizeInBytes": 375
-    },
     "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Containers library.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -6817,6 +6801,22 @@
       "createdDate": 1693755966742,
       "modifiedDate": 1693755966742,
       "sizeInBytes": 366
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Concurrency support library.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 7,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.023333333333333334,
+      "characterCount": 55,
+      "nonWhitespaceCharacterCount": 40,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966742,
+      "modifiedDate": 1693755966742,
+      "sizeInBytes": 375
     },
     "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Concepts library.md": {
       "isDirectory": false,
@@ -6914,22 +6914,6 @@
       "modifiedDate": 1693755966738,
       "sizeInBytes": 6636
     },
-    "🔴 Academics/📚 Educational Resources/sortspec.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 2,
-      "nonWhitespaceCharacterCount": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966736,
-      "modifiedDate": 1693881144431,
-      "sizeInBytes": 152
-    },
     "🔴 Academics/📚 Educational Resources/🌐 Advanced SQL/Advanced SQL — Chapter #05 — Video #29 — Window functions, frame specifications (ROWS∕RANGE∕GROUPS).md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -6945,6 +6929,22 @@
       "createdDate": 1693755966737,
       "modifiedDate": 1693755966737,
       "sizeInBytes": 6932
+    },
+    "🔴 Academics/📚 Educational Resources/sortspec.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 2,
+      "nonWhitespaceCharacterCount": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966736,
+      "modifiedDate": 1693881144431,
+      "sizeInBytes": 152
     },
     "🔴 Academics/📚 Educational Resources/Merriam-Webster/🌐 🤖 ChatGPT, Bing Chat, etc. Generated Flash Cards.md": {
       "isDirectory": false,
@@ -7122,22 +7122,6 @@
       "modifiedDate": 1693755966726,
       "sizeInBytes": 66
     },
-    "🔴 Academics/Projects/Project “APIforMicrosoftWord”.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966724,
-      "modifiedDate": 1693755966724,
-      "sizeInBytes": 0
-    },
     "🔴 Academics/Projects/Project “AutodidactPlanner”.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -7153,6 +7137,22 @@
       "createdDate": 1693755966724,
       "modifiedDate": 1693755966725,
       "sizeInBytes": 1973
+    },
+    "🔴 Academics/Projects/Project “APIforMicrosoftWord”.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966724,
+      "modifiedDate": 1693755966724,
+      "sizeInBytes": 0
     },
     "🔴 Academics/Projects/Project Kaban Board.md": {
       "isDirectory": false,
@@ -7186,22 +7186,6 @@
       "modifiedDate": 1693881144108,
       "sizeInBytes": 1355
     },
-    "templates/Template (🌐 Structy - Problem).md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 63,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.21,
-      "characterCount": 476,
-      "nonWhitespaceCharacterCount": 363,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755966721,
-      "modifiedDate": 1693755966721,
-      "sizeInBytes": 494
-    },
     "templates/Template (🗒️ Scratch Note).md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -7218,21 +7202,21 @@
       "modifiedDate": 1693758313263,
       "sizeInBytes": 406
     },
-    "templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database).md": {
+    "templates/Template (🌐 Structy - Problem).md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 129,
+      "wordCount": 63,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.43,
-      "characterCount": 1225,
-      "nonWhitespaceCharacterCount": 987,
+      "pageCount": 0.21,
+      "characterCount": 476,
+      "nonWhitespaceCharacterCount": 363,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1693881144429,
-      "modifiedDate": 1693881144429,
-      "sizeInBytes": 1299
+      "createdDate": 1693755966721,
+      "modifiedDate": 1693755966721,
+      "sizeInBytes": 494
     },
     "templates/Template (🌐 Structy - Chapters).md": {
       "isDirectory": false,
@@ -7266,6 +7250,22 @@
       "modifiedDate": 1693881144430,
       "sizeInBytes": 234
     },
+    "templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database).md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 129,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.43,
+      "characterCount": 1225,
+      "nonWhitespaceCharacterCount": 987,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693881144429,
+      "modifiedDate": 1693881144429,
+      "sizeInBytes": 1299
+    },
     "templates/Template (Default).md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -7298,22 +7298,6 @@
       "modifiedDate": 1693762596872,
       "sizeInBytes": 49
     },
-    "README.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 56,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.18666666666666668,
-      "characterCount": 299,
-      "nonWhitespaceCharacterCount": 233,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1693755957737,
-      "modifiedDate": 1693755957738,
-      "sizeInBytes": 299
-    },
     "assets/mermaid/Flowchart Process.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -7345,6 +7329,22 @@
       "createdDate": 1693755965911,
       "modifiedDate": 1693755965912,
       "sizeInBytes": 33077
+    },
+    "README.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 56,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.18666666666666668,
+      "characterCount": 299,
+      "nonWhitespaceCharacterCount": 233,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755957737,
+      "modifiedDate": 1693755957738,
+      "sizeInBytes": 299
     }
   }
 }

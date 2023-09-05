@@ -16,7 +16,7 @@
     "code"
   ],
   "baseFontSizeAction": true,
-  "theme": "obsidian",
+  "theme": "system",
   "nativeMenus": true,
   "showViewHeader": true,
   "baseFontSize": 15
