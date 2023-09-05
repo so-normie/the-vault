@@ -136,7 +136,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "right": {
     "id": "4862554a11d6c3ac",
@@ -309,7 +310,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -342,7 +343,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1aabf6d27ac6ec67",
+  "active": "e3f6c9ecddf3f564",
   "lastOpenFiles": [
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
     "submodule",
