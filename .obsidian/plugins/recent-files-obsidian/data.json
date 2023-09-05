@@ -1,20 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "584. Find Customer Referee",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/584. Find Customer Referee.md"
+      "basename": "69. Array Sovler",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/69. Array Sovler.md"
     },
     {
       "basename": "Problems ▹ 📋 Table of Contents",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md"
     },
     {
+      "basename": "196. Delete Duplicate Emails",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/196. Delete Duplicate Emails.md"
+    },
+    {
+      "basename": "🗒️ Node.js",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Node.js.md"
+    },
+    {
       "basename": "1. Two Sum",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
     },
     {
+      "basename": "🌐 LeetCode ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "🗒️ PostgreSQL Next Generation Parallel Query",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ PostgreSQL Next Generation Parallel Query.md"
+    },
+    {
       "basename": "226. Invert Binary Tree",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md"
+    },
+    {
+      "basename": "Terror interview prolbelm",
+      "path": "Terror interview prolbelm.md"
+    },
+    {
+      "basename": "🤖 ChatGPT, Bing Chat, etc. Warning",
+      "path": "🤖 ChatGPT, Bing Chat, etc. Warning.md"
+    },
+    {
+      "basename": "584. Find Customer Referee",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/584. Find Customer Referee.md"
     },
     {
       "basename": "Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database)",
@@ -39,10 +67,6 @@
     {
       "basename": "118. Pascal's Triangle",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md"
-    },
-    {
-      "basename": "196. Delete Duplicate Emails",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/196. Delete Duplicate Emails.md"
     },
     {
       "basename": "183. Customers Who Never Order",
@@ -93,10 +117,6 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md"
     },
     {
-      "basename": "🌐 LeetCode ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
-    },
-    {
       "basename": "002. hey programmer 🧑🏽‍💻",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md"
     },
@@ -119,10 +139,6 @@
     {
       "basename": "Template (Anki Flashcard ꞉꞉ #card OR 🎴)",
       "path": "templates/Template (Anki Flashcard ꞉꞉ #card OR 🎴).md"
-    },
-    {
-      "basename": "Template Test",
-      "path": "Template Test.md"
     },
     {
       "basename": "Template (🗒️ Scratch Note)",
@@ -165,10 +181,6 @@
       "path": "assets/images/data-engineer-project-1-prompt.png"
     },
     {
-      "basename": "🤖 ChatGPT, Bing Chat, etc. Warning",
-      "path": "🤖 ChatGPT, Bing Chat, etc. Warning.md"
-    },
-    {
       "basename": "excalidraw-2023-09-02 15.25.37.excalidraw",
       "path": "Assets/Excalidraw/excalidraw-2023-09-02 15.25.37.excalidraw.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "8. Mixed Recall ▹ 📋 Table of Contents",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/8. Mixed Recall ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "🗒️ .NET",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ .NET.md"
-    },
-    {
-      "basename": "🗒️ C++",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++.md"
-    },
-    {
-      "basename": "003. max-value 🧑🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md"
     }
   ],
   "omittedPaths": [],

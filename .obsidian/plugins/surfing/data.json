@@ -43,5 +43,17 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "23e6b35332273921",
+      "parent": 0,
+      "droppable": true,
+      "text": "javascript - Where should I put <script> tags in HTML markup? - Stack Overflow",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }

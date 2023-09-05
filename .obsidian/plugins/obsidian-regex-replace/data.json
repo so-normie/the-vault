@@ -1,8 +1,8 @@
 {
-  "findText": "(\\#card(-reverse)?)",
-  "replaceText": "\n$1\n",
+  "findText": "\\^\\d{13}",
+  "replaceText": "",
   "useRegEx": true,
-  "selOnly": true,
+  "selOnly": false,
   "caseInsensitive": false,
   "processLineBreak": true,
   "processTab": false,

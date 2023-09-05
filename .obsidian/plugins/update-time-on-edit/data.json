@@ -5,7 +5,9 @@
   "headerCreated": "created",
   "minMinutesBetweenSaves": 5,
   "ignoreGlobalFolder": [
-    "templates"
+    "templates",
+    "scripts",
+    "assets"
   ],
   "ignoreCreatedFolder": []
 }

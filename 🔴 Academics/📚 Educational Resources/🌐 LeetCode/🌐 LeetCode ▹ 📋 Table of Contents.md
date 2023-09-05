@@ -1,14 +1,16 @@
 ---
-title: "🌐 LeetCode ▹ 📋 Table of Contents"
+title: 🌐 LeetCode ▹ 📋 Table of Contents
 created: 2023-08-26 03:57
-authors: [Edmund Leibert III]
-tags: 
-- 🔴-academics/📚-educational-resources/name/leetcode
-- 🔴-academics/📚-educational-resources/source-format/internet/website
-- 🔴-academics/📚-educational-resources/discipline/computer-science
-- 🔴-academics/📚-educational-resources/name/🌐-leetcode/🔖-bookmark/🌐-leetcode/🌐-leetCode-▹-📋-table-of-contents
-- study-note
-cards-deck: 📚 Educational Resources::🌐 LeetCode
+updated: 2023-09-04 17:55
+authors:
+  - Edmund Leibert III
+tags:
+  - 🔴-academics/📚-educational-resources/name/leetcode
+  - 🔴-academics/📚-educational-resources/source-format/internet/website
+  - 🔴-academics/📚-educational-resources/discipline/computer-science
+  - 🔴-academics/📚-educational-resources/name/🌐-leetcode/🔖-bookmark/🌐-leetcode/🌐-leetCode-▹-📋-table-of-contents
+  - study-note
+cards-deck: 🔴 Academics::📚 Educational Resources::🌐 LeetCode
 ---
 
 #  🌐 LeetCode
@@ -25,8 +27,11 @@ cards-deck: 📚 Educational Resources::🌐 LeetCode
 
 ## 🌐 LeetCode  ▹ 📋 Table of Contents
 
+﹇<br>
 What is **LeetCode**?
-#card 
+
+#card
+
 - LeetCode is a platform where programmers can practice coding problems. It offers a variety of problems, from easy to difficult, and it also has a ranking system so that you can track your progress. LeetCode is a great way to improve your coding skills and prepare for technical interviews.
 - Here are some of the features of LeetCode:
 	- A large library of coding problems: LeetCode has over 1,600 coding problems, covering a wide range of topics in data structures and algorithms.
@@ -40,8 +45,10 @@ What is **LeetCode**?
 	- It can help you stay up-to-date on the latest coding trends.
 	- It can help you connect with other programmers and learn from them.
 	- It can help you learn new data structures and algorithms.
-- ⌂
-^1693101819423
+
+⌂
+<br>﹈<br>^1693875322825
+
 
 ---
 
