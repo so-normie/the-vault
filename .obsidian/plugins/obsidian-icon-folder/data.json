@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasExclamation",
       "FabReadme",
       "TiCards",
       "FasListOl",
-      "FasCode",
-      "LiConstruction"
+      "FasCode"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -369,5 +369,6 @@
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md": "LiConstruction",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/610. Triangle Judgement.md": "LiConstruction",
   "anki-flashcards": "TiCards",
-  "README.md": "FabReadme"
+  "README.md": "FabReadme",
+  "Terror interview prolbelm.md": "FasExclamation"
 }

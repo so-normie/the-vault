@@ -40,6 +40,34 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "7c5c5c5344e451f1",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "🗒️ JetBrains",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ JetBrains.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":139.9090909090909}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Terror interview prolbelm 1.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
         ]
       }
@@ -345,8 +373,21 @@
   },
   "active": "1aabf6d27ac6ec67",
   "lastOpenFiles": [
+    "Terror interview prolbelm 1.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Codility.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ JetBrains.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
+    "assets/fonts/_atkinson-hyperlegible-regular-102.ttf",
+    "assets/fonts/_atkinson-hyperlegible-italic-102.ttf",
+    "assets/fonts/_atkinson-hyperlegible-bolditalic-102.ttf",
+    "assets/fonts/_atkinson-hyperlegible-bold-102.ttf",
+    "assets/fonts/CaskaydiaCoveNerdFont-Bold.ttf",
+    "assets/fonts/CaskaydiaCoveNerdFont-BoldItalic.ttf",
+    "assets/fonts/CaskaydiaCoveNerdFont-ExtraLight.ttf",
+    "assets/fonts/CaskaydiaCoveNerdFont-ExtraLightItalic.ttf",
+    "assets/fonts/CaskaydiaCoveNerdFont-Italic.ttf",
+    "assets/fonts/CaskaydiaCoveNerdFont-Light.ttf",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
-    "submodule",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/183. Customers Who Never Order.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md",
@@ -356,10 +397,6 @@
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/196. Delete Duplicate Emails.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Node.js.md",
     "🔴 Academics/📚 Educational Resources/🗒️ PostgreSQL Next Generation Parallel Query.md",
-    "scripts/migrate-content-to-quartz.ps1",
-    "scripts/migrate-content-to-quartz",
-    "anki-flashcards/collection-2023-09-04@16-38-10.colpkg",
-    "anki-flashcards",
     "Template Test.md",
     "Home.md",
     "scripts/scripts.md",
@@ -375,7 +412,6 @@
     "assets/images/Pasted image 20230807013247.png",
     "assets/images/Pasted image 20230807013201.png",
     "assets/images/Pasted image 20230807012423.png",
-    "🔴 Academics/📚 Educational Resources/Unconfirmed 664267.crdownload",
     "🔴 Academics/📚 Educational Resources/Default Deck.md",
     "🤖 ChatGPT, Bing Chat, etc. Warning.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/584. Find Customer Referee.md",
@@ -383,14 +419,7 @@
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/21. Merge Two Sorted Lists.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/182. Duplicate Emails.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/181. Employees Earning More Than Their Managers.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/175. Combine Two Tables.md",
-    "assets/excalidraw/file.excalidraw",
-    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/System Design꞉ Reddit",
-    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club",
     "Untitled.canvas",
-    "Untitled.loom",
     "Untitled 1.canvas"
   ]
 }

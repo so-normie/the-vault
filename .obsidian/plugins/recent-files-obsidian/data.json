@@ -5,6 +5,18 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 Codility.md"
     },
     {
+      "basename": "Terror interview prolbelm 1",
+      "path": "Terror interview prolbelm 1.md"
+    },
+    {
+      "basename": "🗒️ JetBrains",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ JetBrains.md"
+    },
+    {
+      "basename": "🌐 Structy ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
+    },
+    {
       "basename": "1. Two Sum",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
     },
@@ -125,10 +137,6 @@
       "path": "🔴 Academics/📚 Educational Resources/🗒️ Git.md"
     },
     {
-      "basename": "🌐 Structy ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
-    },
-    {
       "basename": "🗒️ Anki",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ Anki.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "🌐 C++ Weekly With Jason Turner ▹ 📋 Table of Contents",
       "path": "🔴 Academics/📚 Educational Resources/🌐 C++ Weekly With Jason Turner/🌐 C++ Weekly With Jason Turner ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "004. is prime 👨🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/004. is prime 👨🏽‍💻.md"
-    },
-    {
-      "basename": "8. Mixed Recall ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/8. Mixed Recall ▹ 📋 Table of Contents.md"
     }
   ],
   "omittedPaths": [],
