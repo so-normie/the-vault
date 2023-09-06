@@ -13,11 +13,12 @@
     "keyboard-button",
     "header-font-size",
     "callouts",
-    "code"
+    "code",
+    "source-mode"
   ],
   "baseFontSizeAction": true,
-  "theme": "moonstone",
+  "theme": "obsidian",
   "nativeMenus": true,
   "showViewHeader": true,
-  "baseFontSize": 15
+  "baseFontSize": 14
 }

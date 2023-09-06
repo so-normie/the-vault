@@ -1,12 +1,16 @@
 ---
-title: "🗒️ JetBrains"
-created: 2023-08-04 01:58 
-authors: [Edmund Leibert III]
-tags: 
-- 🔴-academics/📚-educational-resources/name/jetbrains
-- 🔴-academics/📚-educational-resources/discipline/computer-science/technology/jetbrains
-- study-note
-cards-deck: Default::Computer Science
+title: 🗒️ JetBrains
+created: 2023-08-04 01:58
+updated: 2023-09-05 13:10
+authors:
+  - Edmund Leibert III
+tags:
+  - 🔴-academics/📚-educational-resources/name/🗒️-jetbrains
+  - 🔴-academics/📚-educational-resources/source-format/
+  - 🔴-academics/📚-educational-resources/discipline/computer-science/technology/jetbrains
+  - 🔴-academics/📚-educational-resources/name/🗒️-jetbrains/🔖-bookmark/🗒️-jetbrains
+  - study-note
+cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ JetBrains
 ---
 
 # 🗒️ JetBrains
@@ -159,6 +163,7 @@ How can I switch between project?
 - Switch to the next project window: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>]</kbd> (Window | Next Project Window)
 - Switch to the previous project window: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>[</kbd> (Window | Previous Project Window)
 ^1691962812714
+
 
 
 ---
