@@ -1,13 +1,15 @@
 ---
-title: "🗒️ C++"
+title: 🗒️ C++
 author: 
 publisher: 
 published: 
-tags: 
-- 🔴-academics/📚-educational-resources/name/cpp
-- 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp
-- study-note 
+tags:
+  - 🔴-academics/📚-educational-resources/name/cpp
+  - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp
+  - study-note
 cards-deck: Default::Computer Science
+created: 2023-09-03 08:46
+updated: 2023-09-07 17:03
 ---
 
 # 🗒️ C++
@@ -151,9 +153,6 @@ IntCollection::IntCollection(const IntCollection &c)
 }
 ```
 ^1683771976139
-
-
-![[🤖 ChatGPT, Bing Chat, etc. Warning]]
 
 When at the end of a while loop in C++, are all objects deconstructed? For instance, I instantiated the `Assignment` class (which is a derived class of the `Activity` class) in a `while(true)` loop. If the loop is not broken and goes for another iteration, the assignment class appears to be deconstructed. #card 
 In C++, an object’s destructor is called at the closing `}` for the block it was created in. So if you have a loop like this:

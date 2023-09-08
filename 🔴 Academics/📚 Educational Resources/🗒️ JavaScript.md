@@ -1,3 +1,7 @@
+---
+created: 2023-09-03 08:46
+updated: 2023-09-07 19:20
+---
 
 ---
 author: 
@@ -31,7 +35,6 @@ What is a dynamic site? #card
 - A dynamic site is a site with a server side language (php, python etc.) You could therefore have a dynamic site without JavaScript.
 - [Source]: https://stackoverflow.com/a/44458845/8088657
 
-![[🤖 ChatGPT, Bing Chat, etc. Warning]]
 
 **Front:** What is a function in JavaScript? #card 
 **Back:** A function in JavaScript is a block of code designed to perform a particular task. It is defined with the `function` keyword, followed by a name and parentheses `()`.

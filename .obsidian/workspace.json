@@ -4,11 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "c49bb5c5f05c3ef6",
+        "id": "9fd86f1d6acb9b0a",
         "type": "tabs",
         "children": [
           {
-            "id": "1aabf6d27ac6ec67",
+            "id": "f835aaae4a307b7a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}}).md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "0c089da51b82e315",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,190 +42,220 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "20. Valid Parentheses",
+                  "title": "Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}})",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}}).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                }
+              ]
+            },
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🐛 fodo dcsdc'f fc.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "245a0f1d6ac35382",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "title": "181. Employees Earning More Than Their Managers",
+                  "title": "002. hey programmer 🧑🏽‍💻",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/181. Employees Earning More Than Their Managers.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "226. Invert Binary Tree",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "577. Employee Bonus",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/577. Employee Bonus.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "584. Find Customer Referee",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/584. Find Customer Referee.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":12.096774193548386}"
-                },
-                {
-                  "title": "577. Employee Bonus",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/577. Employee Bonus.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":15.121212121212121}"
-                },
-                {
-                  "title": "584. Find Customer Referee",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/584. Find Customer Referee.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":23.379310344827587}"
-                },
-                {
-                  "title": "577. Employee Bonus",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/577. Employee Bonus.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":19.135593220338983}"
-                },
-                {
-                  "title": "226. Invert Binary Tree",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":40.888888888888886}"
-                },
-                {
-                  "title": "577. Employee Bonus",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/577. Employee Bonus.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":23.379310344827587}"
-                },
-                {
-                  "title": "226. Invert Binary Tree",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":18.80597014925373}"
-                },
-                {
-                  "title": "196. Delete Duplicate Emails",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/196. Delete Duplicate Emails.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":82.65789473684211}"
-                },
-                {
-                  "title": "183. Customers Who Never Order",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/183. Customers Who Never Order.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":27.95863166268894}"
-                },
-                {
-                  "title": "226. Invert Binary Tree",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "118. Pascal's Triangle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":19}"
-                },
-                {
-                  "title": "183. Customers Who Never Order",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/183. Customers Who Never Order.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":3.0241935483870965}"
-                },
-                {
-                  "title": "182. Duplicate Emails",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/182. Duplicate Emails.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":15.121212121212121}"
-                },
-                {
-                  "title": "181. Employees Earning More Than Their Managers",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/181. Employees Earning More Than Their Managers.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":50.46052631578947}"
-                },
-                {
-                  "title": "175. Combine Two Tables",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/175. Combine Two Tables.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "181. Employees Earning More Than Their Managers",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/181. Employees Earning More Than Their Managers.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "175. Combine Two Tables",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/175. Combine Two Tables.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":63}"
-                },
-                {
-                  "title": "125. Valid Palindrome",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":145}"
-                },
-                {
-                  "title": "175. Combine Two Tables",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/175. Combine Two Tables.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "125. Valid Palindrome",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":145}"
-                },
-                {
-                  "title": "121. Best Time to Buy and Sell Stock",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":75.04545454545455}"
-                },
-                {
-                  "title": "118. Pascal's Triangle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "21. Merge Two Sorted Lists",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/21. Merge Two Sorted Lists.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":17.044776119402986}"
-                },
-                {
-                  "title": "20. Valid Parentheses",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":49.064080944350756}"
-                },
-                {
-                  "title": "1. Two Sum",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":242.66088631984584}"
-                },
-                {
-                  "title": "182. Duplicate Emails",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/182. Duplicate Emails.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
                   "eState": "{\"scroll\":0}"
                 },
                 {
-                  "title": "125. Valid Palindrome",
+                  "title": "003. max-value 🧑🏽‍💻",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":49.025851938895414}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":60,\"ch\":9},\"to\":{\"line\":60,\"ch\":9}},\"scroll\":47.76984154993996}"
+                },
+                {
+                  "title": "002. hey programmer 🧑🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":24.855750317445256}"
+                },
+                {
+                  "title": "003. max-value 🧑🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":58,\"ch\":0},\"to\":{\"line\":58,\"ch\":0}},\"scroll\":39.287878601472556}"
+                },
+                {
+                  "title": "002. hey programmer 🧑🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":37.79999909577546}"
+                },
+                {
+                  "title": "001. code workspace tour 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":16.830303770123106}"
+                },
+                {
+                  "title": "0. Introduction ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":24.248809360322497}"
+                },
+                {
+                  "title": "049. all tree paths 👨🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/049. all tree paths 👨🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":11.09090909090909}"
+                },
+                {
+                  "title": "014. five sort 👨🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/014. five sort 👨🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":105.767998046875}"
+                },
+                {
+                  "title": "009. most frequent char 👨🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/009. most frequent char 👨🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":150.26400390625}"
+                },
+                {
+                  "title": "003. max-value 🧑🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":448.26362748579544}"
+                },
+                {
+                  "title": "001. code workspace tour 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "002. hey programmer 🧑🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "003. max-value 🧑🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":0.7841845140032949}"
+                },
+                {
+                  "title": "002. hey programmer 🧑🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "000. course introduction 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "001. code workspace tour 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "002. hey programmer 🧑🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "001. code workspace tour 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "002. hey programmer 🧑🏽‍💻",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":33.92499923706055}"
+                },
+                {
+                  "title": "001. code workspace tour 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":1.8848351111778847}"
+                },
+                {
+                  "title": "000. course introduction 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "001. code workspace tour 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "000. course introduction 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "0. Introduction ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "000. course introduction 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "001. code workspace tour 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "000. course introduction 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "0. Introduction ▹ 📋 Table of Contents",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "001. code workspace tour 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "000. course introduction 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
                 },
                 {
                   "title": "0. Introduction ▹ 📋 Table of Contents",
@@ -210,99 +264,54 @@
                   "eState": "{\"scroll\":0}"
                 },
                 {
-                  "title": "🌐 Codility",
+                  "title": "001. code workspace tour 👨🏻‍🏫",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Codility.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":57.666666666666664}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":0.9283516349373283}"
                 },
                 {
-                  "title": "1. Two Sum",
+                  "title": "002. hey programmer 🧑🏽‍💻",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":25.275862068965516}"
                 },
                 {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{}}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "bf2dc5f10650f759",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
+                  "title": "001. code workspace tour 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":9.846153846153847}"
+                },
                 {
-                  "state": "{}",
+                  "title": "000. course introduction 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":0},\"to\":{\"line\":32,\"ch\":0}},\"scroll\":39.57083311535063}"
+                },
+                {
+                  "title": "001. code workspace tour 👨🏻‍🏫",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
                   "eState": "{}"
                 },
                 {
                   "title": "🌐 Structy ▹ 📋 Table of Contents",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":25.182291666666668}"
-                },
-                {
-                  "title": "0. Introduction ▹ 📋 Table of Contents",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Template (🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ Note)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Template (🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ Note).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":82},\"to\":{\"line\":13,\"ch\":82}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":20.337930613550647}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e6cb37c9898e2ff5",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
+                "file": "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 LeetCode ꞉꞉ Problems ꞉꞉ {{Note ‖ Database}}).md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -366,7 +375,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#computer-science",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -397,7 +406,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 618.5,
+    "collapsed": true
   },
   "right": {
     "id": "4862554a11d6c3ac",
@@ -476,7 +486,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
+                "file": "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}}).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -502,7 +512,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
+                "file": "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}}).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -574,16 +584,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
+                "file": "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}}).md"
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 546.5
+    "width": 563.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -611,34 +622,36 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bf2dc5f10650f759",
+  "active": "f835aaae4a307b7a",
   "lastOpenFiles": [
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
-    "templates/Template (🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ Note).md",
-    "templates/Template (🌐 Structy - Chapters).md",
-    "templates/Template (🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ Problem) 1.md",
+    "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 LeetCode ꞉꞉ Problems ꞉꞉ {{Note ‖ Database}}).md",
+    "🐛 fodo dcsdc'f fc.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/181. Employees Earning More Than Their Managers.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/577. Employee Bonus.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/584. Find Customer Referee.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/196. Delete Duplicate Emails.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/183. Customers Who Never Order.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/182. Duplicate Emails.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/175. Combine Two Tables.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/21. Merge Two Sorted Lists.md",
+    "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}}).md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/049. all tree paths 👨🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/014. five sort 👨🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/009. most frequent char 👨🏽‍💻.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ JetBrains.md",
-    "Terror interview prolbelm 1.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Codility.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/181. Employees Earning More Than Their Managers.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
+    "🔴 Academics/📚 Educational Resources/Merriam-Webster/🌐 🤖 ChatGPT, Bing Chat, etc. Generated Flash Cards.md",
+    "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Numerics library.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 11꞉ Arrays, Strings, and Dynamic Allocation.md",
+    "🤖 ChatGPT, Bing Chat, etc. Warning.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 0꞉ Introduction⟋Getting Started.md",
+    "🔴 Academics/📚 Educational Resources/🌐 MSYS2 Documentation/What is MSYS2？.md",
+    "🔴 Academics/📚 Educational Resources/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition (2022)/1. Functions.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ JavaScript.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Neovim.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 1꞉ C++ Basics.md",
+    "scripts/my_script.js",
+    "scripts/my_scripts.js",
     "assets/fonts/_atkinson-hyperlegible-regular-102.ttf",
     "assets/fonts/_atkinson-hyperlegible-italic-102.ttf",
     "assets/fonts/_atkinson-hyperlegible-bolditalic-102.ttf",
@@ -647,8 +660,6 @@
     "assets/fonts/CaskaydiaCoveNerdFont-BoldItalic.ttf",
     "assets/fonts/CaskaydiaCoveNerdFont-ExtraLight.ttf",
     "assets/fonts/CaskaydiaCoveNerdFont-ExtraLightItalic.ttf",
-    "assets/fonts/CaskaydiaCoveNerdFont-Italic.ttf",
-    "assets/fonts/CaskaydiaCoveNerdFont-Light.ttf",
     "assets/images/Pasted image 20230807030022.png",
     "assets/images/Pasted image 20230807025824.png",
     "assets/images/Pasted image 20230807024546.png",

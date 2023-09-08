@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiConstruction",
+      "TiPlayCard",
       "FasExclamation",
       "FabReadme",
-      "TiCards",
-      "FasListOl",
-      "FasCode"
+      "TiCards"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -35,6 +35,11 @@
         "for": "everything"
       },
       {
+        "rule": ".js",
+        "icon": "SiJavascript",
+        "for": "everything"
+      },
+      {
         "rule": ".md",
         "icon": "RiMarkdownLine",
         "for": "everything"
@@ -52,6 +57,11 @@
       {
         "rule": ".png",
         "icon": "FarFileImage",
+        "for": "everything"
+      },
+      {
+        "rule": ".ps1",
+        "icon": "SiPowershell",
         "for": "everything"
       },
       {
@@ -110,8 +120,6 @@
   "Technology Management.code-workspace": "RiFileLine",
   "assets": "FasBoxesStacked",
   "scripts": "FasCode",
-  "scripts/anki-prepare.ps1": "SiPowershell",
-  "scripts/migrate-anki-media.ps1": "SiPowershell",
   "templates": "FasCompassDrafting",
   "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)": "RiDocumentBookMarkFill",
   "🔴 Academics/📚 Educational Resources/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/ANSWERS TO ODD-NUMBERED PROBLEMS.md": "RiBookmarkLine",
@@ -370,5 +378,7 @@
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/610. Triangle Judgement.md": "LiConstruction",
   "anki-flashcards": "TiCards",
   "README.md": "FabReadme",
-  "Terror interview prolbelm.md": "FasExclamation"
+  "Terror interview prolbelm.md": "FasExclamation",
+  "anki-flashcards/collection-2023-09-04@16-38-10.colpkg": "TiPlayCard",
+  "🐛 fodo dcsdc'f fc.md": "LiConstruction"
 }

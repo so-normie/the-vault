@@ -1,6 +1,10 @@
 ---
-tags: [🔴-academics/📚-educational-resources/name/msys2-documentation, study-note] 
+tags:
+  - 🔴-academics/📚-educational-resources/name/msys2-documentation
+  - study-note
 cards-deck: Default::Computer Science
+created: 2023-09-03 08:46
+updated: 2023-09-07 19:20
 ---
 
 # MSYS2 Documentation
@@ -66,8 +70,6 @@ Yes. However, the executable is called `/ucrt64/bin/mingw32-make.exe`.
 How do I install a package in MSYS2? #card
 `pacman -S <name-of-package>`
 ^1684769537688
-
-![[🤖 ChatGPT, Bing Chat, etc. Warning]]
 
 **Q:** How do you export a list of installed packages in MSYS2? #card 
 **A:** You can run your existing MSYS2 installation via `msys2_shell.cmd` and then make a list of installed packages by running the command `pacman -Qqe | xargs echo > /c/packages.txt ; exit`. This will create a text file named `packages.txt` containing the list of installed packages.

@@ -1,13 +1,16 @@
 ---
-tags: [🔴-academics/📚-educational-resources/name/merriam-webster, 🔴-academics/📚-educational-resources/discipline/english/dictionary/chatgpt-bing-chat-etc-generated-flash-cards, study-note] 
+tags:
+  - 🔴-academics/📚-educational-resources/name/merriam-webster
+  - 🔴-academics/📚-educational-resources/discipline/english/dictionary/chatgpt-bing-chat-etc-generated-flash-cards
+  - study-note
 cards-deck: Default::English
+created: 2023-09-03 08:46
+updated: 2023-09-07 19:22
 ---
 
 # Merriam-Webster
 
 ## 🤖 ChatGPT, Bing Chat, etc. Generated Flash Cards
-
-![[🤖 ChatGPT, Bing Chat, etc. Warning]]
 
 ### March 11, 2023
 

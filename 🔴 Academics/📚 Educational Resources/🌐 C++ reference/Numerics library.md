@@ -1,6 +1,12 @@
 ---
-tags: [🔴-academics/📚-educational-resources/name/cpp-reference, 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp, 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/c, study-note] 
+tags:
+  - 🔴-academics/📚-educational-resources/name/cpp-reference
+  - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp
+  - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/c
+  - study-note
 cards-deck: Default::Computer Science
+created: 2023-09-03 08:46
+updated: 2023-09-07 19:22
 ---
 
 # C++ reference
@@ -8,8 +14,6 @@ cards-deck: Default::Computer Science
 ## Numerics library
 
 ### Common mathematical functions
-
-#### ![[🤖 ChatGPT, Bing Chat, etc. Warning]]
 
 **Flashcard 1**:
 Q: What are the C++ mathematical functions for computing the smallest integer value not less than the given value? #card-reverse 

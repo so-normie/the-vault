@@ -1,6 +1,11 @@
 ---
-tags: [🔴-academics/📚-educational-resources/name/learncpp-com, 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp, study-note] 
+tags:
+  - 🔴-academics/📚-educational-resources/name/learncpp-com
+  - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp
+  - study-note
 cards-deck: Default::Computer Science
+created: 2023-09-03 08:46
+updated: 2023-09-07 19:19
 ---
 
 # LearnCpp.com
@@ -891,9 +896,6 @@ What is the general process for checking for fail states for `std::cin`?
 3. Make sure to ignore the rest of the line by using `std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n')`.
 ^1684496733301
 
-#### 🤖 ChatGPT Generated Flash Cards
-
-![[🤖 ChatGPT, Bing Chat, etc. Warning]]
 
 **Front of Card**: What does `std::cout` stand for? #card 
 **Back of Card**: `std::cout` stands for "standard character output". It is a predefined variable in the iostream library that allows us to send data to the console to be printed as text.
@@ -1109,12 +1111,6 @@ You should *avoid* naming your identifiers starting with an underscore, as these
 What is a good rule of thumb for naming? #card 
 Therefore, a good rule of thumb is to make the length of an identifier proportional to how widely it is used. An identifier with a trivial use can have a short name (e.g. such as _i_). An identifier that is used more broadly (e.g. a function that is called from many different places in a program) should have a longer and more descriptive name (e.g. instead of _open_, try _openFileOnDisk_).
 ^1683685547832
-
-
-
-
-
-![[🤖 ChatGPT, Bing Chat, etc. Warning]]
 
 **Q:** What is the keyword `alignas` used for in C++? #card
 **A:** <span class="spoiler">`alignas`</span> specifies the alignment requirement of a variable or a type.

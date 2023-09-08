@@ -1,32 +1,120 @@
 {
   "recentFiles": [
     {
-      "basename": "0. Introduction ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
+      "basename": "Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}})",
+      "path": "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}}).md"
     },
     {
-      "basename": "🌐 Structy ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
+      "basename": "Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 LeetCode ꞉꞉ Problems ꞉꞉ {{Note ‖ Database}})",
+      "path": "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 LeetCode ꞉꞉ Problems ꞉꞉ {{Note ‖ Database}}).md"
     },
     {
-      "basename": "Template (🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ Note)",
-      "path": "templates/Template (🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ Note).md"
+      "basename": "🐛 fodo dcsdc'f fc",
+      "path": "🐛 fodo dcsdc'f fc.md"
     },
     {
       "basename": "002. hey programmer 🧑🏽‍💻",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md"
     },
     {
-      "basename": "1. Two Sum",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
+      "basename": "003. max-value 🧑🏽‍💻",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md"
     },
     {
-      "basename": "20. Valid Parentheses",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md"
+      "basename": "001. code workspace tour 👨🏻‍🏫",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md"
+    },
+    {
+      "basename": "0. Introduction ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "049. all tree paths 👨🏽‍💻",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/049. all tree paths 👨🏽‍💻.md"
+    },
+    {
+      "basename": "014. five sort 👨🏽‍💻",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/014. five sort 👨🏽‍💻.md"
+    },
+    {
+      "basename": "009. most frequent char 👨🏽‍💻",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/009. most frequent char 👨🏽‍💻.md"
+    },
+    {
+      "basename": "000. course introduction 👨🏻‍🏫",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md"
     },
     {
       "basename": "181. Employees Earning More Than Their Managers",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/181. Employees Earning More Than Their Managers.md"
+    },
+    {
+      "basename": "121. Best Time to Buy and Sell Stock",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md"
+    },
+    {
+      "basename": "118. Pascal's Triangle",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md"
+    },
+    {
+      "basename": "🌐 Structy ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "1. Two Sum",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
+    },
+    {
+      "basename": "🌐 🤖 ChatGPT, Bing Chat, etc. Generated Flash Cards",
+      "path": "🔴 Academics/📚 Educational Resources/Merriam-Webster/🌐 🤖 ChatGPT, Bing Chat, etc. Generated Flash Cards.md"
+    },
+    {
+      "basename": "Numerics library",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Numerics library.md"
+    },
+    {
+      "basename": "Chapter 11꞉ Arrays, Strings, and Dynamic Allocation",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 11꞉ Arrays, Strings, and Dynamic Allocation.md"
+    },
+    {
+      "basename": "Chapter 0꞉ Introduction⟋Getting Started",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 0꞉ Introduction⟋Getting Started.md"
+    },
+    {
+      "basename": "What is MSYS2？",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 MSYS2 Documentation/What is MSYS2？.md"
+    },
+    {
+      "basename": "1. Functions",
+      "path": "🔴 Academics/📚 Educational Resources/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition (2022)/1. Functions.md"
+    },
+    {
+      "basename": "🗒️ JavaScript",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ JavaScript.md"
+    },
+    {
+      "basename": "🗒️ Neovim",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Neovim.md"
+    },
+    {
+      "basename": "Chapter 1꞉ C++ Basics",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/Chapter 1꞉ C++ Basics.md"
+    },
+    {
+      "basename": "🗒️ .NET",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ .NET.md"
+    },
+    {
+      "basename": "Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database)",
+      "path": "templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database).md"
+    },
+    {
+      "basename": "🗒️ C++",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++.md"
+    },
+    {
+      "basename": "20. Valid Parentheses",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md"
     },
     {
       "basename": "226. Invert Binary Tree",
@@ -49,10 +137,6 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/183. Customers Who Never Order.md"
     },
     {
-      "basename": "118. Pascal's Triangle",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md"
-    },
-    {
       "basename": "182. Duplicate Emails",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/182. Duplicate Emails.md"
     },
@@ -65,20 +149,8 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md"
     },
     {
-      "basename": "121. Best Time to Buy and Sell Stock",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md"
-    },
-    {
       "basename": "21. Merge Two Sorted Lists",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/21. Merge Two Sorted Lists.md"
-    },
-    {
-      "basename": "001. code workspace tour 👨🏻‍🏫",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md"
-    },
-    {
-      "basename": "000. course introduction 👨🏻‍🏫",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md"
     },
     {
       "basename": "🌐 LeetCode ▹ 📋 Table of Contents",
@@ -109,20 +181,8 @@
       "path": "Terror interview prolbelm.md"
     },
     {
-      "basename": "🤖 ChatGPT, Bing Chat, etc. Warning",
-      "path": "🤖 ChatGPT, Bing Chat, etc. Warning.md"
-    },
-    {
-      "basename": "Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database)",
-      "path": "templates/Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Database).md"
-    },
-    {
       "basename": "610. Triangle Judgement",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/610. Triangle Judgement.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Untitled.md"
     },
     {
       "basename": "Template (🌐 LeetCode ꞉꞉ Problems ꞉꞉ Solution)",
@@ -139,62 +199,6 @@
     {
       "basename": "Problems (Easy)",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md"
-    },
-    {
-      "basename": "🗒️ Git",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Git.md"
-    },
-    {
-      "basename": "🗒️ Anki",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Anki.md"
-    },
-    {
-      "basename": "sortspec",
-      "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
-    },
-    {
-      "basename": "Template (Anki Flashcard ꞉꞉ #card OR 🎴)",
-      "path": "templates/Template (Anki Flashcard ꞉꞉ #card OR 🎴).md"
-    },
-    {
-      "basename": "Template (🗒️ Scratch Note)",
-      "path": "templates/Template (🗒️ Scratch Note).md"
-    },
-    {
-      "basename": "1. Array and String ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/1. Array and String ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "System Design꞉ Reddit",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/System Design꞉ Reddit.md"
-    },
-    {
-      "basename": "system-design-fight-club-system-design-reddit",
-      "path": "assets/excalidraw/system-design-fight-club-system-design-reddit.md"
-    },
-    {
-      "basename": "🌐 System Design Fight Club ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "sortspec",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md"
-    },
-    {
-      "basename": "data-engineer-project-1-prompt",
-      "path": "assets/images/data-engineer-project-1-prompt.png"
-    },
-    {
-      "basename": "excalidraw-2023-09-02 15.25.37.excalidraw",
-      "path": "Assets/Excalidraw/excalidraw-2023-09-02 15.25.37.excalidraw.md"
-    },
-    {
-      "basename": "C++ Weekly - Ep 342 - C++",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 C++ Weekly With Jason Turner/C++ Weekly - Ep 342 - C++.md"
-    },
-    {
-      "basename": "🌐 C++ Weekly With Jason Turner ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 C++ Weekly With Jason Turner/🌐 C++ Weekly With Jason Turner ▹ 📋 Table of Contents.md"
     }
   ],
   "omittedPaths": [],

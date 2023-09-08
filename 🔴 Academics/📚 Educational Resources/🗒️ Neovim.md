@@ -2,8 +2,13 @@
 author: 
 publisher: 
 published: 
-tags: [🔴-academics/📚-educational-resources/discipline/computer-science/technology/neovim, 🔴-academics/📚-educational-resources/name/neovim, study-note] 
+tags:
+  - 🔴-academics/📚-educational-resources/discipline/computer-science/technology/neovim
+  - 🔴-academics/📚-educational-resources/name/neovim
+  - study-note
 cards-deck: Default::Computer Science
+created: 2023-09-03 08:46
+updated: 2023-09-07 19:20
 ---
 
 What is the command that runs a series of diagnostic tests to check the health of your **Neovim** installation? #card-reverse 
@@ -13,8 +18,6 @@ What is the command that runs a series of diagnostic tests to check the health o
 What is the command to save and then close all open tabs? #card 
 `:wqa`
 ^1683605588578
-
-![[🤖 ChatGPT, Bing Chat, etc. Warning]]
 
 What does the keymap <S-Tab> mean? #card-reverse 
 The keymap `<S-Tab>` stands for the Shift key combined with the Tab key. In key mapping notation, `<S-Tab>` represents pressing the Shift key (denoted by the `S` inside the angle brackets) and the Tab key simultaneously. This is a common key combination used in various applications and programming environments, including Neovim and Vim, for tasks like navigating between fields, cycling through autocompletion suggestions in reverse order, or unindenting lines of code.

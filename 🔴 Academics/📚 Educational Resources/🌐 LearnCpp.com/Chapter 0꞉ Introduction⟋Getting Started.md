@@ -1,6 +1,11 @@
 ---
-tags: [🔴-academics/📚-educational-resources/name/learncpp-com, 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp, study-note] 
+tags:
+  - 🔴-academics/📚-educational-resources/name/learncpp-com
+  - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp
+  - study-note
 cards-deck: Default::Computer Science
+created: 2023-09-03 08:46
+updated: 2023-09-07 19:21
 ---
 
 # LearnCpp.com
@@ -165,10 +170,6 @@ What are the general exceptions to portability? #card-reverse
 ^1682810812770
 
 
-#### 🤖 Bing AI Generated Flash Cards
-
-![[🤖 ChatGPT, Bing Chat, etc. Warning]]
-
 Q: What is a programming language? #card 
 A: A programming language is a set of rules that provides a way of instructing a computer what operations to perform.
 ^1682810812774
@@ -259,10 +260,6 @@ What is the underlying design philosophy of C? #card
 “trust the programmer”
 ^1682810812800
 
-
-#### 🤖 ChatGPT Generated Flash Cards
-
-![[🤖 ChatGPT, Bing Chat, etc. Warning]]
 
 Question: What is C++? #card-reverse 
 Answer: <span class="spoiler">C++</span> is a high-level programming language that is used to develop applications for a wide variety of platforms, including desktop computers, mobile devices, and game consoles.
@@ -466,9 +463,6 @@ A piece  of software that contains all of the things you need to develop, compil
 #### Moving on
 
 ---
-#### 🤖 ChatGPT Generated Flash Cards
-
-![[🤖 ChatGPT, Bing Chat, etc. Warning]]
 
 **What is an IDE?**
 **Question**: What does IDE stand for in the context of programming? #card-reverse 

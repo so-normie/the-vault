@@ -1,6 +1,11 @@
 ---
-tags: [🔴-academics/📚-educational-resources/name/learncpp-com, 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp, study-note] 
+tags:
+  - 🔴-academics/📚-educational-resources/name/learncpp-com
+  - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp
+  - study-note
 cards-deck: Default::Computer Science
+created: 2023-09-03 08:46
+updated: 2023-09-07 19:21
 ---
 
 # LearnCpp.com
@@ -20,10 +25,6 @@ In C++, how does one implement selection sort? #card-reverse
 // to be filled!
 ```
 
-
-#### 🤖 ChatGPT Generated Flash Cards
-
-![[🤖 ChatGPT, Bing Chat, etc. Warning]]
 
 **Question**: Selection sort is an in-place comparison sorting algorithm that divides the input list into two parts. What does the algorithm find and swap to move the sublist boundaries one element to the right? #card-reverse 
 **Answer**: The algorithm finds the smallest element in the unsorted sublist and swaps it with the leftmost unsorted element.
