@@ -1,7 +1,7 @@
 ---
 title: 🐛 fodo dcsdc'f fc
 created: 2023-09-07 19:26
-updated: 2023-09-07 21:37
+updated: 2023-09-08 14:22
 authors:
   - Edmund Leibert III
 tags:
@@ -29,6 +29,10 @@ cards-deck: 🔴 Academics::📚 Educational Resources::🌐 Structy::0. Introdu
 ## 0. Introduction
 
 ### 🐛 fodo dcsdc'f fc
+
+Question 1 🎴 answeer wedwed ^1694205447938
+
+Question Reverse 🃏 Asnwedfq ^1694206901884
 
 ---
 

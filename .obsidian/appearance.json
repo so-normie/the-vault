@@ -17,8 +17,8 @@
     "source-mode"
   ],
   "baseFontSizeAction": true,
-  "theme": "system",
+  "theme": "obsidian",
   "nativeMenus": true,
   "showViewHeader": true,
-  "baseFontSize": 16
+  "baseFontSize": 15
 }

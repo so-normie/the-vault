@@ -5,12 +5,13 @@ authors:
   - Edmund Leibert III
 tags:
   - 🔴-academics/📚-educational-resources/name/🗒️-rust
-  - 🔴-academics/📚-educational-resources/source-format/misc
+  - 🔴-academics/📚-educational-resources/source-format/miscellaneous
   - 🔴-academics/📚-educational-resources/discipline/computer-science
   - 🔴-academics/📚-educational-resources/name/🗒️-rust/🔖-bookmark/🗒️-rust
   - study-note
 cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Rust
 sticker: emoji//1f602
+updated: 2023-09-08 14:42
 ---
 TARGET DECK: 🔴 Academics::📚 Educational Resources::🗒️ Rust 
 

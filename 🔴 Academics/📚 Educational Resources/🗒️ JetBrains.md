@@ -1,12 +1,12 @@
 ---
 title: 🗒️ JetBrains
 created: 2023-08-04 01:58
-updated: 2023-09-05 13:10
+updated: 2023-09-08 14:42
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academics/📚-educational-resources/name/🗒️-jetbrains
-  - 🔴-academics/📚-educational-resources/source-format/
+  - 🔴-academics/📚-educational-resources/source-format/miscellaneous
   - 🔴-academics/📚-educational-resources/discipline/computer-science/technology/jetbrains
   - 🔴-academics/📚-educational-resources/name/🗒️-jetbrains/🔖-bookmark/🗒️-jetbrains
   - study-note

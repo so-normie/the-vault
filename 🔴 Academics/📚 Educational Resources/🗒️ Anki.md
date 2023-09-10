@@ -1,12 +1,12 @@
 ---
 title: 🗒️ Anki
 created: 2023-08-30 00:00
-updated: 2023-09-03 14:16
+updated: 2023-09-08 14:42
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academics/📚-educational-resources/name/🗒️-anki
-  - 🔴-academics/📚-educational-resources/source-format/
+  - 🔴-academics/📚-educational-resources/source-format/miscellaneous
   - 🔴-academics/📚-educational-resources/discipline/computer-science
   - study-note
 cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Anki

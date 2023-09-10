@@ -419,12 +419,22 @@
                       "type": "file",
                       "ctime": 1693793679449,
                       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/183. Customers Who Never Order.md"
+                    },
+                    {
+                      "type": "file",
+                      "ctime": 1694218977292,
+                      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/596. Classes More Than 5 Students.md"
                     }
                   ],
                   "title": "Problems"
                 }
               ],
               "title": "🌐 LeetCode"
+            },
+            {
+              "type": "file",
+              "ctime": 1694208713683,
+              "path": "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md"
             }
           ],
           "title": "📚 Educational Resources"

@@ -1,9 +1,9 @@
 ﹇<br>
-Question
+{{Question}}
 
 #card 
 
-Answer
+{{Answer}}
 
 ⌂
 <br>﹈<br>

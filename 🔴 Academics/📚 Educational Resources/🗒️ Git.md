@@ -1,12 +1,12 @@
 ---
 title: 🗒️ Git
 created: 2023-08-04 01:58
-updated: 2023-09-03 14:14
+updated: 2023-09-08 14:41
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academics/📚-educational-resources/name/🗒️-git
-  - 🔴-academics/📚-educational-resources/source-format
+  - 🔴-academics/📚-educational-resources/source-format/miscellaneous
   - 🔴-academics/📚-educational-resources/discipline/computer-science/technology/git
   - study-note
 cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Git

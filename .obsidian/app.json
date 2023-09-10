@@ -10,7 +10,7 @@
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": true,
   "showInlineTitle": false,
-  "useMarkdownLinks": false,
+  "useMarkdownLinks": true,
   "legacyEditor": false,
   "strictLineBreaks": true,
   "newLinkFormat": "absolute"
