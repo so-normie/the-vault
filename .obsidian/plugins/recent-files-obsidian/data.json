@@ -1,6 +1,7 @@
 {
   "recentFiles": [
     {
+<<<<<<< Updated upstream
       "basename": "597. Friend Requests I꞉ Overall Acceptance Rate",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/597. Friend Requests I꞉ Overall Acceptance Rate.md"
     },
@@ -15,6 +16,30 @@
     {
       "basename": "Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}})",
       "path": "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}}).md"
+=======
+      "basename": "1. Two Sum",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
+    },
+    {
+      "basename": "002. hey programmer 🧑🏽‍💻",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md"
+    },
+    {
+      "basename": "0. Introduction ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "🌐 Structy ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "Template (🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ Note)",
+      "path": "templates/Template (🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ Note).md"
+    },
+    {
+      "basename": "20. Valid Parentheses",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md"
+>>>>>>> Stashed changes
     },
     {
       "basename": "Template {{Solution ꞉꞉ Attempt}}",

@@ -315,7 +315,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/597. Friend Requests I꞉ Overall Acceptance Rate.md",
+=======
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -341,7 +345,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
                 "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/597. Friend Requests I꞉ Overall Acceptance Rate.md",
+=======
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -413,7 +421,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< Updated upstream
                 "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/597. Friend Requests I꞉ Overall Acceptance Rate.md"
+=======
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -451,10 +463,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
+<<<<<<< Updated upstream
   "active": "87437c954ffe8749",
   "lastOpenFiles": [
     "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/597. Friend Requests I꞉ Overall Acceptance Rate.md",
+=======
+  "active": "1aabf6d27ac6ec67",
+  "lastOpenFiles": [
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
+    "templates/Template (🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ Note).md",
+    "templates/Template (🌐 Structy - Chapters).md",
+    "templates/Template (🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ Problem) 1.md",
+>>>>>>> Stashed changes
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
     "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}}).md",
     "templates/Template {{Solution ꞉꞉ Attempt}}.md",
