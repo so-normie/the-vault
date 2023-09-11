@@ -1,126 +1,14 @@
 {
   "main": {
-    "id": "812027d141a633e2",
+    "id": "c6990a7579e12b8e",
     "type": "split",
     "children": [
       {
-        "id": "cb05cad48614ae56",
+        "id": "b5d796a6ac7d2ed2",
         "type": "tabs",
         "children": [
           {
-            "id": "87437c954ffe8749",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "1. Two Sum",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "002. hey programmer 🧑🏽‍💻",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":16.229411405675553}"
-                },
-                {
-                  "title": "001. code workspace tour 👨🏻‍🏫",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "000. course introduction 👨🏻‍🏫",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":34.73684210526316}"
-                },
-                {
-                  "title": "0. Introduction ▹ 📋 Table of Contents",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "000. course introduction 👨🏻‍🏫",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "0. Introduction ▹ 📋 Table of Contents",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":16.470588235294116}"
-                },
-                {
-                  "title": "1. Two Sum",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":293.88648120777026}"
-                },
-                {
-                  "title": "596. Classes More Than 5 Students",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/596. Classes More Than 5 Students.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":32.90857107979911}"
-                },
-                {
-                  "title": "20. Valid Parentheses",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":32.142857142857146}"
-                },
-                {
-                  "title": "595. Big Countries",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/595. Big Countries.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":34.622856794084825}"
-                },
-                {
-                  "title": "586. Customer Placing the Largest Number of Orders",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/586. Customer Placing the Largest Number of Orders.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":21.65999959309896}"
-                },
-                {
-                  "title": "595. Big Countries",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/595. Big Countries.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":22.448486328125}"
-                },
-                {
-                  "title": "586. Customer Placing the Largest Number of Orders",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/586. Customer Placing the Largest Number of Orders.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":47.730910422585225}"
-                },
-                {
-                  "title": "226. Invert Binary Tree",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":74.2560009765625}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/597. Friend Requests I꞉ Overall Acceptance Rate.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "38a7ca9ea0e01311",
+            "id": "31c375ed07a11084",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -134,8 +22,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md",
-                "mode": "source",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/219. Contains Duplicate II.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -147,15 +35,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e8ed80397d38533a",
+    "id": "95c3c687023cd2df",
     "type": "split",
     "children": [
       {
-        "id": "54360f8db890b174",
+        "id": "e6009f67c642bbe3",
         "type": "tabs",
         "children": [
           {
-            "id": "378dfb133d1155ab",
+            "id": "66806c8f4619484a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -172,7 +60,7 @@
             }
           },
           {
-            "id": "e3f6c9ecddf3f564",
+            "id": "7eff4470cee5490f",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -186,12 +74,12 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "c66e0c5f869fd443",
+            "id": "3785bf70fd36bb07",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -205,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Structy",
+                "query": "window",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -215,56 +103,7 @@
             }
           },
           {
-            "id": "ad89270ff0b486ff",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 1
-      }
-    ],
-    "direction": "horizontal",
-    "width": 745.5
-  },
-  "right": {
-    "id": "4862554a11d6c3ac",
-    "type": "split",
-    "children": [
-      {
-        "id": "89a4ef93bf01a9a6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "08583351533589ea",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "614c7bcf9b8d44d3",
+            "id": "5f98b32eff7928b4",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -281,7 +120,7 @@
             }
           },
           {
-            "id": "795183581340a3c8",
+            "id": "32284157afb698e5",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -293,15 +132,27 @@
               ]
             },
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true
-              }
+              "type": "surfing-tab-tree",
+              "state": {}
             }
-          },
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 585.5
+  },
+  "right": {
+    "id": "128fe29333f9ab00",
+    "type": "split",
+    "children": [
+      {
+        "id": "5bd7845f4bc91318",
+        "type": "tabs",
+        "children": [
           {
-            "id": "4a339558f59cc8a8",
+            "id": "c4c5a8fd080ab8bd",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -315,11 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/597. Friend Requests I꞉ Overall Acceptance Rate.md",
-=======
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
->>>>>>> Stashed changes
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/219. Contains Duplicate II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +178,7 @@
             }
           },
           {
-            "id": "b1bed1699b770f6a",
+            "id": "0d4bbe8a1b7f6c33",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -345,18 +192,53 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< Updated upstream
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/597. Friend Requests I꞉ Overall Acceptance Rate.md",
-=======
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
->>>>>>> Stashed changes
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/219. Contains Duplicate II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "885a95689720234f",
+            "id": "d2736bc6aa7bafe3",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "43cb2c85e7dca703",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/219. Contains Duplicate II.md"
+              }
+            }
+          },
+          {
+            "id": "17de1bfedef36282",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -371,86 +253,16 @@
               "type": "chronology-calendar-view",
               "state": {}
             }
-          },
-          {
-            "id": "3d46bbe9c9fe1930",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "65f00b42e334c34e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "video-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "7b35e3b7426bf735",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "outline",
-              "state": {
-<<<<<<< Updated upstream
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/597. Friend Requests I꞉ Overall Acceptance Rate.md"
-=======
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
->>>>>>> Stashed changes
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 401.5,
-    "collapsed": true
+    "width": 385.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": true,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": true,
-      "daily-notes:Open today's daily note": true,
-      "templates:Insert template": true,
-      "markdown-importer:Open format converter": true,
-      "zk-prefixer:Create new unique note": true,
-      "command-palette:Open command palette": false,
-      "random-note:Open random note": true,
-      "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false,
-      "publish:Publish changes...": true,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "chronology:Open Chronology": false,
@@ -459,70 +271,28 @@
       "surfing:surfing-bookmark-manager": false,
       "notion-like-tables:Create new loom": false,
       "omnisearch:Omnisearch": false,
+      "flashcards-obsidian:Generate flashcards": false,
       "templater-obsidian:Templater": false,
-      "flashcards-obsidian:Generate flashcards": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "publish:Publish changes...": false
     }
   },
-<<<<<<< Updated upstream
-  "active": "87437c954ffe8749",
+  "active": "31c375ed07a11084",
   "lastOpenFiles": [
-    "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/597. Friend Requests I꞉ Overall Acceptance Rate.md",
-=======
-  "active": "1aabf6d27ac6ec67",
-  "lastOpenFiles": [
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
-    "templates/Template (🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ Note).md",
-    "templates/Template (🌐 Structy - Chapters).md",
-    "templates/Template (🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ Problem) 1.md",
->>>>>>> Stashed changes
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
-    "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}}).md",
-    "templates/Template {{Solution ꞉꞉ Attempt}}.md",
-    "templates/Template {{Solution}}.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/596. Classes More Than 5 Students.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/586. Customer Placing the Largest Number of Orders.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/595. Big Countries.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md",
-    "Untitled.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/226. Invert Binary Tree.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md",
-    "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 LeetCode ꞉꞉ Problems ꞉꞉ {{Note}}).md",
-    "templates/Template {{Anki Note ⊃ “♯card-reverse”}}.md",
-    "templates/Template {{Anki Note ⊃ “♯card”}}.md",
-    "templates/Template {{Anki Note ⊃ “🎴”}}.md",
-    "templates/Template {{Anki Note ⊃ “🃏”}}.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ Node.js.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ Git.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ JetBrains.md",
-    "scripts/my_script.js",
-    "scripts/my_scripts.js",
-    "assets/fonts/_atkinson-hyperlegible-regular-102.ttf",
-    "assets/fonts/_atkinson-hyperlegible-italic-102.ttf",
-    "assets/fonts/_atkinson-hyperlegible-bolditalic-102.ttf",
-    "assets/fonts/_atkinson-hyperlegible-bold-102.ttf",
-    "assets/fonts/CaskaydiaCoveNerdFont-Bold.ttf",
-    "assets/fonts/CaskaydiaCoveNerdFont-BoldItalic.ttf",
-    "assets/fonts/CaskaydiaCoveNerdFont-ExtraLight.ttf",
-    "assets/fonts/CaskaydiaCoveNerdFont-ExtraLightItalic.ttf",
-    "assets/images/Pasted image 20230807030022.png",
-    "assets/images/Pasted image 20230807025824.png",
-    "assets/images/Pasted image 20230807024546.png",
-    "assets/images/Pasted image 20230807023937.png",
-    "assets/images/Pasted image 20230807021201.png",
-    "assets/images/Pasted image 20230807020622.png",
-    "assets/images/Pasted image 20230807013338.png",
-    "assets/images/Pasted image 20230807013247.png",
-    "assets/images/Pasted image 20230807013201.png",
-    "assets/images/Pasted image 20230807012423.png",
-    "Untitled.canvas",
-    "Untitled 1.canvas"
+    "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ C++.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/219. Contains Duplicate II.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Anki.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ .NET.md"
   ]
 }

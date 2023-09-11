@@ -238,8 +238,8 @@
   "🔴 Academics/📚 Educational Resources/🌐 The Modern JavaScript Tutorial/Part 1 “The JavaScript Language”.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 PowerShell Documentation": "RiDocumentBookMarkFill",
   "🔴 Academics/📚 Educational Resources/🌐 pganalyze": "RiDocumentBookMarkFill",
-  "🔴 Academics/📚 Educational Resources/🌐 Nodejs.dev": "RiDocumentBookMarkFill",
-  "🔴 Academics/📚 Educational Resources/🌐 More Modern CMake": "RiDocumentBookMarkFill",
+  "🔴 Academics/📚 Educational Resources/🌐 Nodejs.dev": "RiDocumentBookMarkLine",
+  "🔴 Academics/📚 Educational Resources/🌐 More Modern CMake": "RiDocumentBookMarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 More Modern CMake/1. Introduction.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 More Modern CMake/10. ROOT.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 More Modern CMake/11. Functions in CMake.md": "RiBookmarkLine",
@@ -252,7 +252,7 @@
   "🔴 Academics/📚 Educational Resources/🌐 More Modern CMake/7. Common Problems and Solutions.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 More Modern CMake/8. Debugging.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 More Modern CMake/Setup.md": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn": "RiDocumentBookMarkFill",
+  "🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn": "RiDocumentBookMarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Assessments.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Certifications.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Code Samples.md": "RiBookmarkLine",
@@ -357,8 +357,8 @@
   "🔴 Academics/📚 Educational Resources/🌐 Structy/6. Stack": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/7. Exhaustive Recursion": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md": "RiDocumentBookMarkLine",
-  "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md": "RiDocumentBookMarkLine",
+  "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md": "TiNotes",
+  "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md": "TiNotes",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md": "FasListOl",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/3. Binary Tree ▹ 📋 Table of Contents.md": "FasListOl",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/2. Linked List ▹ 📋 Table of Contents.md": "FasListOl",
@@ -383,5 +383,10 @@
   "🐛 fodo dcsdc'f fc.md": "LiConstruction",
   "🔴 Academics/📚 Educational Resources/🗒️ Git.md": "TiNotes",
   "🔴 Academics/📚 Educational Resources/🗒️ JavaScript.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🗒️ Neovim.md": "TiNotes"
+  "🔴 Academics/📚 Educational Resources/🗒️ Neovim.md": "TiNotes",
+  "🔴 Academics/📚 Educational Resources/🗒️ Rust.md": {
+    "iconName": "TiNotes",
+    "inheritanceIcon": "TiNotes"
+  },
+  "🔴 Academics/📚 Educational Resources/🗒️ Anki.md": "TiNotes"
 }

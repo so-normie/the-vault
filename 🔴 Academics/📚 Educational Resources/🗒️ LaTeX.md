@@ -1,14 +1,16 @@
 ---
 title: 🗒️ LaTeX
 created: 2023-08-04 01:58
+updated: 2023-09-11 00:17
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academics/📚-educational-resources/name/latex
+  - 🔴-academics/📚-educational-resources/name/🗒️-latex
+  - 🔴-academics/📚-educational-resources/source-format/miscellaneous
   - 🔴-academics/📚-educational-resources/discipline/computer-science/technology/latex
+  - 🔴-academics/📚-educational-resources/name/🗒️-latex/🔖-bookmark/🗒️-latex
   - study-note
-cards-deck: Default::Computer Science
-updated: 2023-09-02 15:16
+cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ LaTeX
 ---
 
 # 🗒️ LaTeX
@@ -25,18 +27,30 @@ updated: 2023-09-02 15:16
 
 ## 🗒️ LaTeX
 
+﹇<br>
 How can I type **Big O** in LaTeX/MathJax? 
+
 #card
+
 ```latex
 $O(n\log{}n)$ % regular O
 $\mathcal{0}(n\log{}n)$ % Open at top left
 ```
-- You can refer to the following table for more information…
-  [![|360](https://i0.wp.com/texblog.org/Wordpress/wp-content/uploads/2014/06/big-o-bachmann-landau-notations-latex1.png?w=839&ssl=1)](https://i0.wp.com/texblog.org/Wordpress/wp-content/uploads/2014/06/big-o-bachmann-landau-notations-latex1.png?w=839&ssl=1)
-^1693094345396
 
+You can refer to the following table for more information…
+
+[![|360](https://i0.wp.com/texblog.org/Wordpress/wp-content/uploads/2014/06/big-o-bachmann-landau-notations-latex1.png?w=839&ssl=1)](https://i0.wp.com/texblog.org/Wordpress/wp-content/uploads/2014/06/big-o-bachmann-landau-notations-latex1.png?w=839&ssl=1)
+
+⌂
+<br>﹈<br>^1694416424339
+
+
+
+﹇<br>
 How can I create a _combinatorial_ in **MathJax**/**LaTeX**?
+
 #card 
+
 To create a combinatorial in MathJax/LaTeX, you can use the `\binom` or `\dbinom` command. The `\binom` command is the standard LaTeX command for creating binomial coefficients, and the `\dbinom` command is an alternative that is sometimes used for better spacing.
 The syntax for the `\binom` command is:
 ```latex
@@ -58,10 +72,17 @@ Here are some other examples of how to create combinatorials in MathJax/LaTeX:
 - The number of arrangements of $k$ elements in a row is $k!$.
 - The number of arrangements of $k$ elements in a circle is $(k−1)!$.
 🤖 Google Bard: https://g.co/bard/share/6951fe74b78f
-^1693094345401
 
+⌂
+<br>﹈<br>^1694416424345
+
+
+
+﹇<br>
 How can I add a tab or extra padding space in MathJax/LaTeX?
+
 #card 
+
 To add a tab or extra padding space in MathJax/LaTeX, you can use the following commands:
 - `\;` for a thick space.
 - `\:` for a medium space.
@@ -81,7 +102,25 @@ For example, the following code will add a quad space between the two words "hel
 $$hello\quad world$$
 ```
 🤖 Google Bard: https://g.co/bard/share/38845e3b4a91
-^1693094773803
+
+⌂
+<br>﹈<br>^1694416424350
+
+
+
+﹇<br>
+In MathJax/LateX, how can I change text be normal in the equation?
+
+#card 
+
+To change text to normal in a MathJax/LaTeX equation, you can use the `\text{}` command. This command allows you to include normal text within an equation. For example, if you want to include the word “normal” in an equation, you can write `x = \text{normal}`. [This will display “normal” in normal font within the equation](https://tex.stackexchange.com/questions/39515/is-there-a-way-to-set-math-mode-font-non-italic) [1](https://tex.stackexchange.com/questions/39515/is-there-a-way-to-set-math-mode-font-non-italic).
+^1694416424356
+
+⌂
+<br>﹈<br>^1694416424361
+
+
+
 
 ---
 
