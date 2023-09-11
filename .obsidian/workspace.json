@@ -4,57 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8246025a47fdaf73",
+        "id": "b5d796a6ac7d2ed2",
         "type": "tabs",
         "children": [
           {
-            "id": "640f2210b576c81c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "219. Contains Duplicate II",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/219. Contains Duplicate II.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":279.77272727272725}"
-                },
-                {
-                  "title": "1. Two Sum",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":114.32631321957237}"
-                },
-                {
-                  "title": "0. Introduction ▹ 📋 Table of Contents",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":19.666666666666668}"
-                },
-                {
-                  "title": "🗒️ C++",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ C++.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":1037.8782552083333}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2837. Total Traveled Distance.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7045408431db617a",
+            "id": "31c375ed07a11084",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -76,7 +30,7 @@
             }
           },
           {
-            "id": "cf978eacc4e39dad",
+            "id": "59eb145d048bcd3d",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -90,8 +44,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🗒️ SQL Server.md",
-                "mode": "preview",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2837. Total Traveled Distance.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -162,7 +116,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "python leetcode",
+                "query": "tag:#🔴-academics/📚-educational-resources/discipline/computer-science/dbms/sql-server",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -206,11 +160,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 468.5,
+    "width": 305.5,
     "collapsed": true
   },
   "right": {
@@ -221,42 +175,6 @@
         "id": "5bd7845f4bc91318",
         "type": "tabs",
         "children": [
-          {
-            "id": "50226b7da202a29d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "43cb2c85e7dca703",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/219. Contains Duplicate II.md"
-              }
-            }
-          },
           {
             "id": "c4c5a8fd080ab8bd",
             "type": "leaf",
@@ -272,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/219. Contains Duplicate II.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2837. Total Traveled Distance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -298,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/219. Contains Duplicate II.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2837. Total Traveled Distance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -325,6 +243,25 @@
             }
           },
           {
+            "id": "43cb2c85e7dca703",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2837. Total Traveled Distance.md"
+              }
+            }
+          },
+          {
             "id": "17de1bfedef36282",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -342,11 +279,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 385.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -374,14 +312,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "7045408431db617a",
+  "active": "59eb145d048bcd3d",
   "lastOpenFiles": [
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2837. Total Traveled Distance.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/219. Contains Duplicate II.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ SQL Server.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2837. Total Traveled Distance.md",
     "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/🗒️ C++.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Anki.md",
     "🔴 Academics/📚 Educational Resources/🗒️ .NET.md"
