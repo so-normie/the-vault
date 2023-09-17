@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bbc0059f6cc31629",
+        "id": "02472b9dd002fadd",
         "type": "tabs",
         "children": [
           {
-            "id": "d64e08b10f2ba9ce",
+            "id": "e84e3f58b516b56d",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -16,12 +16,227 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Executor vs Executor Core",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Executor vs Executor Core.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":9.918333129882813}"
+                },
+                {
+                  "title": "Dynamic Resource Allocation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Resource Allocation.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":17.23}"
+                },
+                {
+                  "title": "General Join Mechanics",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Optimizing DataFrame Transformations/General Join Mechanics.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":1.1194029850746268}"
+                },
+                {
+                  "title": "Unique Problems",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🙋🏽‍♂️ Data Engineering Prep (Discord Group)/Unique Problems.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":30.182430782833613}"
+                },
+                {
+                  "title": "🗒️ Yarn",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ Yarn.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "General Join Mechanics",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Optimizing DataFrame Transformations/General Join Mechanics.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":6.166666384096499}"
+                },
+                {
+                  "title": "Dynamic Resource Allocation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Resource Allocation.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":34.945942646748314}"
+                },
+                {
+                  "title": "Partition vs Bucketing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Partition vs Bucketing.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "General Join Mechanics",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Optimizing DataFrame Transformations/General Join Mechanics.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "Dynamic Resource Allocation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Resource Allocation.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":34.64188859269426}"
+                },
+                {
+                  "title": "Partition vs Bucketing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Partition vs Bucketing.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
+                },
+                {
+                  "title": "Dynamic Resource Allocation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Resource Allocation.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Dynamic Partition Pruning",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Partition Pruning.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Broadcast Joins",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Broadcast Joins.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Dynamic Partition Pruning",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Partition Pruning.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "Broadcast Joins",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Broadcast Joins.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
+                },
+                {
+                  "title": "Dynamic Partition Pruning",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Partition Pruning.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                },
+                {
+                  "title": "Excessively Large Partition",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Excessively Large Partition.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Dynamic Partition Pruning",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Partition Pruning.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "🗒️ Python",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ Python.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":11.499999128069197}"
+                },
+                {
+                  "title": "🗒️ SQL",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ SQL.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "🗒️ Mechanical Physics",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ Mechanical Physics.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "🗒️ TypeScript",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ TypeScript.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":17.680555555555557}"
+                },
+                {
+                  "title": "🗒️ Rust",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ Rust.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":25.978141409451844}"
+                },
+                {
+                  "title": "Broadcast Joins",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Broadcast Joins.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "Excessively High Concurrency",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Excessively High Concurrency.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":20.470719620988177}"
+                },
+                {
+                  "title": "Broadcast Joins",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Broadcast Joins.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":326},\"to\":{\"line\":31,\"ch\":326}},\"scroll\":0}"
+                },
+                {
+                  "title": "Excessively High Concurrency",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Excessively High Concurrency.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":7.029519957369984}"
+                },
+                {
+                  "title": "Container killed by YARN",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Container killed by YARN.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Repartition vs Coalesce",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Repartition vs Coalesce.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Reading Query Plans",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Reading Query Plans.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":18.31717159386837}"
+                },
+                {
+                  "title": "Container killed by YARN",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Container killed by YARN.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":2.2105261752479954}"
+                },
+                {
+                  "title": "Partition vs Bucketing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Partition vs Bucketing.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":32.635800962094905}"
+                },
+                {
+                  "title": "Reading Query Plans",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Reading Query Plans.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":3},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Partition vs Bucketing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/Spark Optimization/Partition vs Bucketing.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Partition Pruning.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -88,7 +303,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#🔴-academics/📚-educational-resources/discipline/computer-science/dbms/sql-server",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,7 +351,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 433.5
+    "width": 387.5026054382324
   },
   "right": {
     "id": "128fe29333f9ab00",
@@ -161,6 +376,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Partition Pruning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,6 +402,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Partition Pruning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +442,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Partition Pruning.md"
+              }
             }
           },
           {
@@ -244,13 +463,33 @@
               "type": "chronology-calendar-view",
               "state": {}
             }
+          },
+          {
+            "id": "85ad7c8e0cd987c9",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 385.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -277,17 +516,46 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d64e08b10f2ba9ce",
+  "active": "e84e3f58b516b56d",
   "lastOpenFiles": [
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Executor vs Executor Core.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Resource Allocation.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Executor vs Executor Core",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Optimizing DataFrame Transformations/General Join Mechanics.md",
+    "🔴 Academics/📚 Educational Resources/🙋🏽‍♂️ Data Engineering Prep (Discord Group)/Unique Problems.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Yarn.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Optimizing DataFrame Transformations",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Partition vs Bucketing.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Rock the JVM",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Partition Pruning.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Broadcast Joins.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Excessively Large Partition.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Python.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ SQL.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Mechanical Physics.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ TypeScript.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Rust.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Excessively High Concurrency.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Container killed by YARN.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Repartition vs Coalesce.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Reading Query Plans.md",
+    "assets/images/Pasted image 20230913161050.png",
+    "🐛 fodo dcsdc'f fc.md",
     "🔴 Academics/📚 Educational Resources/📕 Python in a Nutshell, 4ᵗʰ Edition (2023).md",
-    "🔴 Academics/📚 Educational Resources/📕 Precalculus꞉ Mathematics for Calculus, 7ᵗʰ Edition.md",
-    "🔴 Academics/📚 Educational Resources/📕 Master Your Data with Excel and Power BI.md",
-    "🔴 Academics/📚 Educational Resources/📕 Fluent Python, 2ⁿᵈ Edition (2022).md",
-    "🔴 Academics/📚 Educational Resources/🗒️ C++.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2837. Total Traveled Distance.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/219. Contains Duplicate II.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ Anki.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ .NET.md"
+    "🔴 Academics/📚 Educational Resources/📕 Discrete Mathematical Structures, 6ᵗʰ Edition.md",
+    "🔴 Academics/📚 Educational Resources/📕 Discrete Mathematics and Its Applications, 8ᵗʰ Edition.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Reading Spark UI DAGs.md",
+    "Terror interview prolbelm.md",
+    "assets/images/Pasted image 20230912115122.png",
+    "assets/images/Pasted image 20230912115211.png",
+    "assets/images/geeks-for-geeks-uri-vs-url.png",
+    "assets/images/data-engineer-project-1-prompt.png",
+    "assets/images/aws-educate-analytics-data-models-data-table.png",
+    "assets/images/Pasted image 20230912120040.png",
+    "assets/images/Pasted image 20230912115301.png",
+    "🔴 Academics/📚 Educational Resources/🗒️ Git.md",
+    "🔴 Academics/📚 Educational Resources/🌐 The Modern JavaScript Tutorial/Part 1 “The JavaScript Language”.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization"
   ]
 }
