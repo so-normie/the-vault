@@ -3,14 +3,14 @@ title: 🗒️ C++
 authors:
   - Edmund Leibert III
 created: 2023-09-03 08:46
-updated: 2023-09-11 05:52
+updated: 2023-09-16 16:53
 tags:
-  - 🔴-academics/📚-educational-resources/name/cpp
+  - 🔴-academics/📚-educational-resources/name/🗒️-cpp
   - 🔴-academics/📚-educational-resources/source-format/miscellaneous
   - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp
   - 🔴-academics/📚-educational-resources/name/🗒️-cpp/🔖-bookmark/🗒️-cpp
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️C++
+cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ C++
 ---
 
 # 🗒️ C++
@@ -45,6 +45,31 @@ struct structName {
 
 
 ﹇<br>
+What is the difference between brace and list initialization in C++?
+
+#card 
+
+In C++, both brace initialization (also known as uniform initialization) and list initialization are ways to initialize objects. They are similar in many ways, but there are some differences<sup>[\[1\]](https://stackoverflow.com/questions/18222926/what-are-the-advantages-of-list-initialization-using-curly-braces)</sup><sup>[\[2\]](https://stackoverflow.com/questions/21150067/initialization-difference-with-or-without-curly-braces-in-c)</sup>:
+1. **Narrowing Conversions**: Brace initialization does not allow narrowing conversions<sup>[\[1\]](https://stackoverflow.com/questions/18222926/what-are-the-advantages-of-list-initialization-using-curly-braces)</sup>. For example, if you try to initialize an `int` with a `double`, brace initialization will give a compile error, while list initialization will not<sup>[\[1\]](https://stackoverflow.com/questions/18222926/what-are-the-advantages-of-list-initialization-using-curly-braces)</sup>.
+2. **std::initializer_list Constructor**: If a class has a constructor that takes an `std::initializer_list`, brace initialization will prefer that constructor over others<sup>[\[1\]](https://stackoverflow.com/questions/18222926/what-are-the-advantages-of-list-initialization-using-curly-braces)</sup>. This can lead to some unexpected results if not taken into account<sup>[\[1\]](https://stackoverflow.com/questions/18222926/what-are-the-advantages-of-list-initialization-using-curly-braces)</sup>.
+3. **Auto Keyword**: When using the `auto` keyword, brace initialization and list initialization behave differently<sup>[\[1\]](https://stackoverflow.com/questions/18222926/what-are-the-advantages-of-list-initialization-using-curly-braces)</sup>. For example…
+	```cpp
+	auto x = {1};
+	``` 
+	…will deduce `x` as `std::initializer_list<int>`, while…
+	```cpp
+	auto x{1};
+	``` 
+	…will deduce `x` as `int`<sup>[\[1\]](https://stackoverflow.com/questions/18222926/what-are-the-advantages-of-list-initialization-using-curly-braces)</sup>.
+
+In general, brace initialization is preferred in modern C++ due to its safety features (like disallowing narrowing conversions) and its uniform syntax<sup>[\[1\]](https://stackoverflow.com/questions/18222926/what-are-the-advantages-of-list-initialization-using-curly-braces)</sup> However, it’s important to be aware of these differences when writing code.
+
+⌂
+<br>﹈<br>^1694908101464
+
+
+
+﹇<br>
 How do you create a dynamically allocated array of structs. 
 
 #card 
@@ -75,14 +100,95 @@ int main() {
 
 
 ﹇<br>
-What must I always remember when using `new` keyword in C++? 
+What must I always remember when using the `new` keyword in C++? 
 
 #card-reverse  
 
-Don’t forget to deallocate the memory using `delete[]`!
+Don’t forget to deallocate the memory using `delete` or `delete[]`!
+
+Here’s how you can delete a single object and an array of objects that were initialized using the `new` operator in C++:
+
+```cpp
+// Define a simple struct
+struct MyStruct {
+    int x;
+    int y;
+};
+
+// Initialize a single MyStruct using new
+MyStruct* p1 = new MyStruct();
+
+// Use the struct
+p1->x = 10;
+p1->y = 20;
+
+// Delete the struct
+delete p1;
+p1 = nullptr; // Avoid dangling pointer
+
+// Initialize an array of MyStruct using new
+MyStruct* p2 = new MyStruct[10];
+
+// Use the struct array
+for(int i = 0; i < 10; ++i) {
+    p2[i].x = i;
+    p2[i].y = i * 2;
+}
+
+// Delete the struct array
+delete[] p2;
+p2 = nullptr; // Avoid dangling pointer
+```
+
+In this example, `p1` is a pointer to a `MyStruct` object and `p2` is a pointer to an array of `MyStruct` objects. The `new` operator is used to allocate memory for the object and the array, and returns a pointer to them. After you’re done using the object and the array, you can use the `delete` and `delete[]` operators respectively to deallocate the memory and avoid memory leaks.
+
+Remember, after calling `delete` or `delete[]` on a pointer, you should not use that pointer again. It’s a good practice to set the pointer to `nullptr` after deleting it. This helps prevent “dangling pointers”, which are pointers that point to memory that has already been deallocated. Dangling pointers can lead to undefined behavior and difficult-to-find bugs in your code.
 
 ⌂
 <br>﹈<br>^1694418100796
+
+﹇<br>
+What should you do after calling `delete` or `delete[]` on a pointer? 
+
+#card
+
+You should not use that pointer again. It’s a good practice to set the pointer to `nullptr` after deleting it.
+
+⌂
+<br>﹈<br>^1694494768670
+
+
+﹇<br>
+Why should you set a pointer to `nullptr` after deleting it? 
+
+#card
+
+Setting a pointer to `nullptr` after deleting it helps prevent “dangling pointers”.
+
+⌂
+<br>﹈<br>^1694494768674
+
+
+﹇<br>
+What are “dangling pointers”? 
+
+#card
+
+“Dangling pointers” are pointers that point to memory that has already been deallocated.
+
+⌂
+<br>﹈<br>^1694494768678
+
+
+﹇<br>
+What can dangling pointers lead to? 
+
+#card
+
+Dangling pointers can lead to undefined behavior and difficult-to-find bugs in your code.
+
+⌂
+<br>﹈<br>^1694494768681
 
 
 ﹇<br>
@@ -174,16 +280,6 @@ Yes.
 <br>﹈<br>^1694418100825
 
 
-﹇<br>
-What is **polymorphism**? 
-
-#card 
-
-❗ To be filled.
-
-⌂
-<br>﹈<br>^1694418100829
-
 
 ﹇<br>
 What must be *always* at the end of declaring a class? 
@@ -197,7 +293,7 @@ A semicolon.
 
 
 ﹇<br>
-As recommended by LearnCpp.com What are the general things one should do when configuring their compiler for a C++ project? 
+As recommended by LearnCpp.com, what are the general things one should do when configuring their compiler for a C++ project? 
 
 #card 
 
@@ -216,10 +312,11 @@ As recommended by LearnCpp.com What are the general things one should do when co
 How would you convert the following implementation of a constructor to a initializer list?
 
 ```cpp
-IntCollection::IntCollection(const IntCollection &c)
-    : data(new int[static_cast<unsigned long long int>(c.capacity)]),
-      size(c.size),
-      capacity(c.capacity) {
+IntCollection::IntCollection(const IntCollection &c) {
+    data = new int[static_cast<unsigned long long int>(c.capacity)];
+    size = c.size;
+    capacity = c.capacity;
+
     for (int i = 0; i < c.size; i++) {
         this->data[i] = c.data[i];
     }
@@ -241,6 +338,60 @@ IntCollection::IntCollection(const IntCollection &c)
 
 ⌂
 <br>﹈<br>^1694418100839
+
+
+﹇<br>
+In C++, the initializer list provides several benefits:
+1. ???
+2. ???
+3. ???
+
+#card 
+
+In C++, the initializer list provides several benefits:
+1. **Efficiency**: Initializing member variables via an initializer list can be more efficient than doing so in the constructor body.
+2. **Immutability**: For `const` or reference members, you must use an initializer list, as they can't be assigned values in the constructor body.
+3. **Readability**: It makes the code more readable by listing all member initializations in one place.
+
+⌂
+<br>﹈<br>^1694834417492
+
+
+
+﹇<br>
+In C++, explain relatively in-depth how an initializer list enhances **efficiency**.
+
+#card 
+
+**Under the Hood for Efficiency**: When you use an initializer list, the member variables are initialized directly with the value, rather than first being default-constructed and then assigned a value. This "two-step" process in the absence of initializer lists can be less efficient, especially for complex objects. In some cases, it may even lead to double initialization. This efficiency gain is more noticeable for types where the cost of construction and assignment is high.
+
+⌂
+<br>﹈<br>^1694834417509
+
+
+﹇<br>
+In C++, explain relatively in-depth how an initializer list enhances **immutability**.
+
+#card 
+
+> Why _**must**_ you use initializer lists for `const` and Reference Members?
+
+For `const` members and references, you _**must**_ use an initializer list because once they are constructed, you cannot change their value or bind them to another object. Unlike regular variables, `const` members are immutable by definition and must be initialized at the point of construction, which can only happen in an initializer list.
+
+⌂
+<br>﹈<br>^1694834417517
+
+
+﹇<br>
+In C++, explain relatively in-depth how an initializer list enhances **readability**.
+
+#card 
+
+**Readability**: Using initializer lists consolidates all the initialization logic in a single location right at the top of the constructor. This improves code readability, as anyone looking at your class will immediately know how members are being initialized without having to scan through the constructor's code block.
+
+⌂
+<br>﹈<br>^1694834417523
+
 
 
 ﹇<br>
@@ -275,6 +426,73 @@ For the debug flag for g++, what is the difference between `-g` and `-ggdb`?
 
 ⌂
 <br>﹈<br>^1694418100846
+
+
+In C++, the constructor is a {1:special member function} of a {1:class} that has the {2:same name as the class itself}. 
+^1694834417534
+
+
+The purpose of the constructor is to {1:initialize the member variables and allocate resources}. Constructors {2:don't have a return type, not even `void`}.
+^1694834417540
+
+﹇<br>
+When you see a constructor definition, like the one you posted:
+
+```cpp
+IntCollection::IntCollection(const IntCollection &c)
+    : data(new int[static_cast<unsigned long long int>(c.capacity)]),
+      size(c.size),
+      capacity(c.capacity) {
+    // constructor body
+}
+```
+
+What can you infer?
+
+#card 
+
+When you see a constructor definition, like the one you posted:
+
+```cpp
+IntCollection::IntCollection(const IntCollection &c)
+    : data(new int[static_cast<unsigned long long int>(c.capacity)]),
+      size(c.size),
+      capacity(c.capacity) {
+    // constructor body
+}
+```
+
+The constructor is acting on an instance of a class, and the variables `data`, `size`, and `capacity` are assumed to be member variables of that class. The `IntCollection::` scope resolution operator makes it clear that this constructor is for the `IntCollection` class. Thus, it's assumed that `data`, `size`, and `capacity` have been declared in the class definition of `IntCollection`.
+
+So when you see a constructor defined outside the class with variable names but without types, the types have typically been declared in the class definition. Here's an example for full context:
+
+```cpp
+// Class definition (often in a header file)
+class IntCollection {
+public:
+    IntCollection(const IntCollection &c); // copy constructor
+    // Other constructors and member functions
+private:
+    int* data;
+    int size;
+    int capacity;
+};
+
+// Constructor implementation (often in a cpp file)
+IntCollection::IntCollection(const IntCollection &c)
+    : data(new int[static_cast<unsigned long long int>(c.capacity)]),
+      size(c.size),
+      capacity(c.capacity) {
+    // constructor body
+}
+```
+
+The member variables `data`, `size`, and `capacity` are already typed in the class definition. The constructor then uses these pre-declared variables, so there's no need to redeclare their types in the constructor.
+
+⌂
+<br>﹈<br>^1694834417546
+
+
 
 
 ﹇<br>
@@ -590,11 +808,28 @@ How does `std::lock_guard` ensure the mutex gets unlocked in C++?
 
 
 ﹇<br>
-❗How can you initialize a char* pointer to point to the start of a C string in C++? 
+How can you initialize a char* pointer to point to the start of a C string in C++? 
 
 #card 
 
-Yes, you simply do the following…
+Yes.
+
+In C++, you can initialize a `char*` pointer to point to the start of a C string as follows:
+
+```cpp
+const char* str = "Hello, World!";
+```
+
+In this example, `str` is a pointer to a character and it’s pointing to the first character of the string “Hello, World!”. Please note that the string is constant, meaning you can’t modify the contents of the string through this pointer.
+
+If you want to point to a non-constant C string, you can do it like this:
+
+```cpp
+char str[] = "Hello, World!";
+char* ptr = str;
+```
+
+In this case, `ptr` points to the first character of the array `str`, and you can modify the contents of the string through this pointer. However, be careful not to go out of bounds of the array, as that would lead to undefined behavior.
 
 ⌂
 <br>﹈<br>^1694418100917
@@ -737,10 +972,39 @@ What exactly is the heap in Computer Science? Particularly, what distinguishes i
 
 #card 
 
-❗ To  be filled.
+In computer science, the **heap** is a region of a computer’s memory space that is used for dynamic memory allocation. [It complements the **stack**, which is used for static memory allocation](https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/)[1](https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/)[2](https://www.baeldung.com/cs/memory-stack-vs-heap).
+
+Here are some key differences between the heap and the stack:
+
+1. [**Memory Allocation**: In a stack, memory allocation and deallocation are automatically done by the compiler, whereas in the heap, it needs to be done by the programmer manually](https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/)[1](https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/).
+2. **Memory Management**: Stack memory uses a “Last In, First Out” (LIFO) data structure, meaning that the most recently added item is the first to be removed. [Heap memory, on the other hand, operates dynamically, which means that the program can allocate and deallocate memory areas of different sizes when necessary](https://www.baeldung.com/cs/memory-stack-vs-heap)[2](https://www.baeldung.com/cs/memory-stack-vs-heap).
+3. [**Scope**: Stack memory is used for local variables and function calls, while heap memory is used for objects and data structures that need to persist outside of single function calls](https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/)[1](https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/)[2](https://www.baeldung.com/cs/memory-stack-vs-heap).
+4. **Size**: Stack has a limited size, usually determined at the start of the program. [The heap, on the other hand, can grow and shrink during the execution of the program to accommodate dynamic memory needs](https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/)[1](https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/)[2](https://www.baeldung.com/cs/memory-stack-vs-heap).
+
+In terms of hardware or computer architecture, both stack and heap are located in a computer’s RAM (Random Access Memory). The operating system allocates physical memory for both stack and heap when a process is started. [The exact location of the stack and heap in physical memory isn’t fixed and can be anywhere due to the Memory Management Unit (MMU) which adds a layer of indirection between virtual memory (used by your programs) and physical memory (the actual hardware)](https://stackoverflow.com/questions/30008025/where-is-heap-and-stack-on-physical-memory)[3](https://stackoverflow.com/questions/30008025/where-is-heap-and-stack-on-physical-memory). [Modern operating systems also implement techniques like Address Space Layout Randomization (ASLR) to randomly place these in virtual memory for security reasons](about:blank#)[3](https://stackoverflow.com/questions/30008025/where-is-heap-and-stack-on-physical-memory).
+
+It’s important to note that while these concepts are common across many programming languages and operating systems, the exact details can vary.
 
 ⌂
 <br>﹈<br>^1694418100953
+
+
+﹇<br>
+What is the difference between “heap” and “free store”?
+
+#card 
+
+[The terms “heap” and “free store” are often used interchangeably in the context of C++ memory management, but there is a subtle difference between them](https://stackoverflow.com/questions/6161235/what-is-the-difference-between-the-heap-and-the-free-store)[1](https://stackoverflow.com/questions/6161235/what-is-the-difference-between-the-heap-and-the-free-store)[2](https://stackoverflow.com/questions/16404748/why-should-i-prefer-using-the-free-store-over-the-heap)[3](https://www.appsloveworld.com/cplus/100/25/what-is-the-difference-between-the-heap-and-the-free-store):
+
+- [**Heap**: A dynamic memory area that is allocated/freed by the `malloc` / `free` functions](https://stackoverflow.com/questions/6161235/what-is-the-difference-between-the-heap-and-the-free-store)[1](https://stackoverflow.com/questions/6161235/what-is-the-difference-between-the-heap-and-the-free-store)[3](https://www.appsloveworld.com/cplus/100/25/what-is-the-difference-between-the-heap-and-the-free-store).
+- [**Free Store**: A dynamic memory area that is allocated/freed by `new` / `delete`](https://stackoverflow.com/questions/6161235/what-is-the-difference-between-the-heap-and-the-free-store)[1](https://stackoverflow.com/questions/6161235/what-is-the-difference-between-the-heap-and-the-free-store)[3](https://www.appsloveworld.com/cplus/100/25/what-is-the-difference-between-the-heap-and-the-free-store).
+
+[It’s possible for `new` and `delete` to be implemented in terms of `malloc` and `free`, so technically, they could be the same memory area](https://stackoverflow.com/questions/6161235/what-is-the-difference-between-the-heap-and-the-free-store)[1](https://stackoverflow.com/questions/6161235/what-is-the-difference-between-the-heap-and-the-free-store)[3](https://www.appsloveworld.com/cplus/100/25/what-is-the-difference-between-the-heap-and-the-free-store). [However, as the standard doesn’t specify this, it’s best to treat them separately, and not to mix `malloc` / `delete` or `new` / `free`](https://stackoverflow.com/questions/16404748/why-should-i-prefer-using-the-free-store-over-the-heap)[2](https://stackoverflow.com/questions/16404748/why-should-i-prefer-using-the-free-store-over-the-heap).
+
+[In practice, the term “heap” is often used in a more general sense to refer to dynamic memory allocation in various programming languages, while “free store” is a term more specific to C++](about:blank#)[1](https://stackoverflow.com/questions/6161235/what-is-the-difference-between-the-heap-and-the-free-store)[2](https://stackoverflow.com/questions/16404748/why-should-i-prefer-using-the-free-store-over-the-heap)[3](https://www.appsloveworld.com/cplus/100/25/what-is-the-difference-between-the-heap-and-the-free-store).
+
+⌂
+<br>﹈<br>^1694838074673
 
 
 ﹇<br>
@@ -908,7 +1172,8 @@ for(const auto& i : arr) {
 The following code is **not** valid. `i` is a `const int&` so it is not allowed to modify the value at that address.
 
 ⌂
-<br>﹈<br>^1694418101003
+<br>﹈<br>^1694494807603
+
 
 
 ﹇<br>
@@ -926,7 +1191,8 @@ for(auto i : arr) {
 - Recall that in this form of a `for`-range loop, `i` is of type `int` (i.e., simply just a _copy_ of the value in `arr`)
 
 ⌂
-<br>﹈<br>^1694418101008
+<br>﹈<br>^1694494836967
+
 
 
 ﹇<br>
@@ -963,7 +1229,8 @@ for(auto& i : arr) {
 - Remember that since `i` is of type `int &` (i.e., `i` is a reference), then we do **not** need to dereference (i.e., need to use the `*` operator)
 
 ⌂
-<br>﹈<br>^1694418101019
+<br>﹈<br>^1694494836971
+
 
 
 ﹇<br>
@@ -1007,7 +1274,8 @@ std::cout << y << std::endl; // prints 5
 In this example, `y` is a reference to `x`, so when we print the value of `y`, it prints the value of `x`. We do not need to use the dereference operator to access the value of `x` through the reference `y`. 
 
 ⌂
-<br>﹈<br>^1694418101034
+<br>﹈<br>^1694494836974
+
 
 
 ﹇<br>
@@ -1025,6 +1293,44 @@ In this example, `y` is a pointer to an `int`, and we initialize it with the add
 
 ⌂
 <br>﹈<br>^1694418101041
+
+﹇<br>
+Why is accessing an element in an array faster than in a linked list? 
+
+#card
+
+Accessing an element in an array is faster because of the way arrays are stored in memory. In an array, elements are stored in contiguous memory locations. This means that if you know the address of the first element (the base address), you can directly calculate the address of any element. 
+- For example, if you want to access the 5th element of an array, you can directly access it because you know it’s exactly 5 memory spaces away from the start of the array. This is a constant time operation, often denoted as $\mathcal{O}(1)$. 
+- On the other hand, a linked list stores elements in separate nodes, each containing a reference to the next node. To access a particular element, you have to start from the head of the list and follow the references until you reach the desired element. This could potentially require traversing the entire list, which makes it a linear time operation, often denoted as $\mathcal{O}(n)$.
+
+⌂
+<br>﹈<br>^1694495603173
+
+
+
+﹇<br>
+What are some reasons we wouldn’t always use linked lists instead of arrays in C++? 
+
+#card
+
+There are several reasons why we might prefer arrays over linked lists in certain situations in C++.
+1. Firstly, each node in a linked list requires extra memory to store the reference to the next node. This overhead does not exist in arrays.
+2. Secondly, due to their contiguous memory layout, arrays allow for faster access times. This can be crucial in situations where you need to frequently access elements at arbitrary positions. 
+3. Lastly, arrays are simpler to use and understand than linked lists. They don’t require dealing with pointers or dynamic memory allocation, which makes them a good choice for many situations.
+
+⌂
+<br>﹈<br>^1694495603177
+
+
+﹇<br>
+When can linked lists be more efficient than arrays?
+
+#card
+
+Linked lists can be more efficient than arrays when you need to frequently add or remove elements from the list. In an array, adding or removing elements typically requires shifting elements or reallocating memory, which can be costly operations. However, in a linked list, these operations simply involve changing a few references and can be done in constant time (i.e., $\mathcal{O}(1)$) if you have a reference to the point of insertion or deletion. Therefore, if your program involves frequent insertions or deletions, a linked list could be more efficient.
+
+⌂
+<br>﹈<br>^1694495603181
 
 
 ﹇<br>
@@ -1084,6 +1390,260 @@ In C++, specifically regarding the **indirection**, what is the difference betwe
 
 ⌂
 <br>﹈<br>^1694418101072
+
+﹇<br>
+What are the main two types of polymorphism in C++?
+
+
+#card 
+
+- Compile-Time Polymorphism (Method Overloading)
+- Run-Time Polymorphism (Method Overriding via Virtual Functions)
+
+⌂
+<br>﹈<br>^1694836467493
+
+
+﹇<br>
+In programming, especially C++, what is polymorphism?
+
+#card 
+
+Certainly! Polymorphism is one of the four fundamental principles of Object-Oriented Programming (OOP), alongside encapsulation, inheritance, and abstraction. In C++, polymorphism allows objects of different classes to be treated as objects of a common superclass.
+
+There are mainly two types of polymorphism in C++:
+
+1. **Compile-Time Polymorphism**: Method Overloading
+
+	In compile-time polymorphism, the function that needs to be executed is determined at compile-time. Overloading is a typical example.
+	
+	```cpp
+	#include <iostream>
+	using namespace std;
+	
+	class MathOperations {
+	public:
+	    // Overloaded add() for integers
+	    int add(int a, int b) {
+	        return a + b;
+	    }
+	    
+	    // Overloaded add() for floats
+	    float add(float a, float b) {
+	        return a + b;
+	    }
+	};
+	
+	int main() {
+	    MathOperations math;
+	    cout << math.add(5, 10) << endl;  // Output: 15
+	    cout << math.add(5.5f, 10.5f) << endl;  // Output: 16
+	    return 0;
+	}
+	```
+
+2. **Run-Time Polymorphism**: Method Overriding via Virtual Functions
+	
+	In run-time polymorphism, the function that needs to be executed is determined at run-time, typically using virtual functions and pointers/references to base classes.
+	
+	```cpp
+	#include <iostream>
+	using namespace std;
+	
+	class Shape {
+	public:
+	    virtual void draw() {
+	        cout << "Drawing a shape" << endl;
+	    }
+	};
+	
+	class Circle : public Shape {
+	public:
+	    void draw() override {
+	        cout << "Drawing a circle" << endl;
+	    }
+	};
+	
+	class Square : public Shape {
+	public:
+	    void draw() override {
+	        cout << "Drawing a square" << endl;
+	    }
+	};
+	
+	void drawShape(Shape& shape) {
+	    shape.draw();
+	}
+	
+	int main() {
+	    Circle c;
+	    Square s;
+	    
+	    drawShape(c);  // Output: Drawing a circle
+	    drawShape(s);  // Output: Drawing a square
+	    
+	    return 0;
+	}
+	```
+	
+	In this example, the function `drawShape` takes a reference to a `Shape` object. When you pass a `Circle` or `Square` object to `drawShape`, the program invokes the `draw` method of the corresponding class, even though the type of the parameter is a reference to the base `Shape` class. This is run-time polymorphism in action.
+	
+	Would you like to have Anki flashcards for this topic?
+
+⌂
+<br>﹈<br>^1694836467498
+
+
+{1:Compile-Time Polymorphism} {2:(Method Overloading)}
+^1694836467505
+ 
+{1:Run-Time Polymorphism} {2:(Method Overriding via Virtual Functions)}
+^1694836467511
+
+﹇<br>
+What is compile-time polymorphism in C++ and give an example?
+
+#card
+
+Compile-time polymorphism in C++ allows the function to be determined at compile-time. Method overloading is an example. For instance, you can have multiple `add` methods that accept different types of parameters (`int`, `float`, etc.).
+
+⌂
+<br>﹈<br>^1694836598257
+
+
+﹇<br>
+What is run-time polymorphism in C++ and give an example?
+
+#card
+
+Run-time polymorphism in C++ allows the function to be determined at run-time, typically using virtual functions and pointers/references to base classes. For example, a base class `Shape` can have a virtual function `draw`, which can be overridden by derived classes like `Circle` and `Square`. Using a reference/pointer to `Shape`, you can call the `draw` method and execute the derived class's implementation.
+
+⌂
+<br>﹈<br>^1694836598264
+
+
+﹇<br>
+What is a virtual function in C++?
+
+#card
+
+A virtual function in C++ is a member function that is declared within a base class and is redefined by a derived class. The keyword `virtual` is used to make a function virtual. When you refer to a derived class object using a pointer or a reference to the base class, you can call a virtual function for that object and execute the derived class’s version of the function.
+
+⌂
+<br>﹈<br>^1694836598269
+
+
+﹇<br>
+What does the `override` keyword signify in C++?
+
+#card
+
+The `override` keyword in C++ indicates that a virtual member function in a derived class is meant to override a virtual function declared in a base class. It helps in catching errors during compilation, such as a mismatch in function signatures between the base and derived class methods. If the method does not correctly override a base class method, the compiler will issue an error.
+
+⌂
+<br>﹈<br>^1694836598274
+
+
+﹇<br>
+In a brief summary, what is **polymorphism** in the context of C++?
+
+#card 
+
+Polymorphism is a fundamental concept in Object-Oriented Programming that allows objects of different types to be treated as objects of a common type. In C++, it manifests in two main ways:
+1. **Compile-Time Polymorphism**: This occurs when the function to be executed is determined at compile-time. Method overloading is a common example.
+2. **Run-Time Polymorphism**: This takes place when the function to be executed is determined at run-time. This is often implemented using virtual functions and allows you to perform operations on objects without knowing their concrete types.
+
+In essence, polymorphism enables more flexible, extensible, and maintainable code by allowing you to write functions that can work with different classes in a unified manner.
+
+⌂
+<br>﹈<br>^1694836789227
+
+
+
+﹇<br>
+What is encapsulation in C++? Give an example.
+
+#card
+
+Encapsulation in C++ is the bundling of data with the methods that operate on that data. It restricts direct access to an object's data, ensuring that it can only be modified in well-defined ways. 
+
+Example:
+```cpp
+class Circle {
+private:
+    double radius;
+public:
+    void setRadius(double r) { radius = r; }
+    double getArea() { return 3.14159 * radius * radius; }
+};
+```
+
+⌂
+<br>﹈<br>^1694836978464
+
+
+
+﹇<br>
+What is inheritance in C++? Give an example.
+
+#card
+
+Inheritance in C++ is the mechanism by which one class (derived class) inherits attributes and methods from another class (base class). This promotes code reusability.
+
+Example:
+```cpp
+class Shape {
+public:
+    virtual void draw() {}
+};
+
+class Circle : public Shape {
+public:
+    void draw() override { /* Drawing logic */ }
+};
+```
+
+⌂
+<br>﹈<br>^1694836978474
+
+
+
+﹇<br>
+What is polymorphism in C++? Give an example.
+
+#card
+
+Polymorphism in C++ allows objects of different classes to be treated as objects of a common superclass. It often uses virtual functions to achieve this. 
+
+Example:
+```cpp
+void drawShape(Shape& shape) {
+    shape.draw();
+}
+```
+
+⌂
+<br>﹈<br>^1694836978481
+
+
+﹇<br>
+What is abstraction in C++? Give an example.
+
+#card
+
+Abstraction in C++ allows the programmer to hide complex details while exposing only the essential parts. It often involves the use of abstract classes and interfaces. 
+
+Example:
+```cpp
+class AbstractShape {
+public:
+    virtual void draw() = 0;
+};
+```
+
+⌂
+<br>﹈<br>^1694836978489
+
 
 
 ---

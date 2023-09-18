@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b5d796a6ac7d2ed2",
+        "id": "6383176b2d033eca",
         "type": "tabs",
         "children": [
           {
-            "id": "31c375ed07a11084",
+            "id": "ad2051a3fa7ca51c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -16,13 +16,19 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "1. Two Sum",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":35.65142822265625}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/219. Contains Duplicate II.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -30,7 +36,7 @@
             }
           },
           {
-            "id": "59eb145d048bcd3d",
+            "id": "b43b9f68ea1dc398",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -44,15 +50,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2837. Total Traveled Distance.md",
-                "mode": "source",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#🔴-academics/📚-educational-resources/discipline/computer-science/dbms/sql-server",
+                "query": "line:(Does have a specific char data type like other programming languages?)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,11 +165,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 305.5,
+    "width": 460.5,
     "collapsed": true
   },
   "right": {
@@ -175,6 +180,23 @@
         "id": "5bd7845f4bc91318",
         "type": "tabs",
         "children": [
+          {
+            "id": "974b22a74bf8c0bb",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
           {
             "id": "c4c5a8fd080ab8bd",
             "type": "leaf",
@@ -190,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2837. Total Traveled Distance.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +238,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2837. Total Traveled Distance.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,25 +265,6 @@
             }
           },
           {
-            "id": "43cb2c85e7dca703",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2837. Total Traveled Distance.md"
-              }
-            }
-          },
-          {
             "id": "17de1bfedef36282",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -277,48 +280,119 @@
               "type": "chronology-calendar-view",
               "state": {}
             }
+          },
+          {
+            "id": "1c9d60aadefe8a28",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "06a137421270ac8c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md"
+              }
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 385.5,
-    "collapsed": true
+    "width": 397.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "chronology:Open Chronology": false,
+      "chronology:Open Chronology": true,
       "3d-graph:3D Graph": false,
-      "custom-sort:Toggle custom sorting": false,
-      "surfing:surfing-bookmark-manager": false,
-      "notion-like-tables:Create new loom": false,
-      "omnisearch:Omnisearch": false,
-      "flashcards-obsidian:Generate flashcards": false,
-      "templater-obsidian:Templater": false,
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "publish:Publish changes...": false
+      "surfing:surfing-bookmark-manager": false,
+      "flashcards-obsidian:Generate flashcards": true,
+      "custom-sort:Toggle custom sorting": false,
+      "templater-obsidian:Templater": true,
+      "switcher:Open quick switcher": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "zk-prefixer:Create new unique note": true,
+      "publish:Publish changes...": true,
+      "notion-like-tables:Create new loom": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "59eb145d048bcd3d",
+  "active": "ad2051a3fa7ca51c",
+  "ophidian:layout-settings": {
+    "pane-relief:focus-lock": true
+  },
   "lastOpenFiles": [
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/219. Contains Duplicate II.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Anaconda.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2480. Form a Chemical Bond.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2504. Concatenate the Name and the Profession.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2668. Find Latest Salaries.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2837. Total Traveled Distance.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2669. Count Artist Occurrences On Spotify Ranking List.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/627. Swap Salary.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/016. array and string wrap up 👨🏻‍🏫.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ JetBrains.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/015. array and string quiz 📝.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/014. five sort 👨🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/013. intersection 👨🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/011. pair product 👨🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/012. check in 👨🏻‍🏫.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/010. pair sum 👨🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/383. Ransom Note.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2853. Highest Salaries Difference.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/620. Not Boring Movies.md",
+    "assets/images/Pasted image 20230611201227.png",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/006. uncompress 👨🏽‍💻.md",
     "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md",
     "🔴 Academics/📚 Educational Resources/🗒️ C++.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ Anki.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ .NET.md"
+    "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/Structy (JavaScript)",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/Structy (Java)",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/Structy (Python)",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/Structy (C++)",
+    "🔴 Academics/📚 Educational Resources/Wikipedia",
+    "Untitled.loom",
+    "assets/images/oreilly-media-logo.svg",
+    "assets/images/oreilly-vector-logo-seeklogo.com.zip",
+    "assets/images/Unconfirmed 445558.crdownload",
+    "🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)"
   ]
 }

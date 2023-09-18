@@ -72,7 +72,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.18",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.19",
     "libraryItems": [
       {
         "status": "unpublished",
@@ -179,7 +179,7 @@
             "containerId": null,
             "originalText": "Application\nserver",
             "lineHeight": 1.3499999999999994,
-            "baseline": 33
+            "baseline": 34
           }
         ],
         "id": "6LeEYUCLF9FQIuqEeglls",
@@ -1113,7 +1113,7 @@
             "containerId": null,
             "originalText": "Relational DB",
             "lineHeight": 1.350000000000001,
-            "baseline": 15
+            "baseline": 16
           }
         ],
         "id": "Yz0pvmodv3T5yTRYkPGNR",
@@ -2612,7 +2612,7 @@
             "containerId": null,
             "originalText": "Document DB",
             "lineHeight": 1.4240667712990924,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "iEPfFZFylca8U8gmzcuKf",
@@ -3013,7 +3013,7 @@
             "containerId": null,
             "originalText": "Graph DB",
             "lineHeight": 1.3499999999999999,
-            "baseline": 16
+            "baseline": 17
           },
           {
             "type": "line",
@@ -4117,7 +4117,7 @@
             "containerId": null,
             "originalText": "Stack\nStorage",
             "lineHeight": 1.3500000000000014,
-            "baseline": 33
+            "baseline": 34
           }
         ],
         "id": "sHG6Q5nl33ZHP8ji3Ty40",
@@ -4701,7 +4701,7 @@
             "containerId": null,
             "originalText": "Key",
             "lineHeight": 1.3499999999999988,
-            "baseline": 5
+            "baseline": 6
           },
           {
             "type": "text",
@@ -4741,7 +4741,7 @@
             "containerId": null,
             "originalText": "Key",
             "lineHeight": 1.3499999999999988,
-            "baseline": 5
+            "baseline": 6
           },
           {
             "type": "text",
@@ -4781,7 +4781,7 @@
             "containerId": null,
             "originalText": "Value",
             "lineHeight": 1.3499999999999952,
-            "baseline": 5
+            "baseline": 6
           },
           {
             "type": "text",
@@ -4821,7 +4821,7 @@
             "containerId": null,
             "originalText": "Value",
             "lineHeight": 1.3499999999999952,
-            "baseline": 5
+            "baseline": 6
           },
           {
             "type": "text",
@@ -5493,7 +5493,7 @@
             "containerId": null,
             "originalText": "Auth &\n IAM",
             "lineHeight": 1.3328788279541297,
-            "baseline": 44
+            "baseline": 45
           }
         ],
         "id": "PRS639OZoUanvODBnwqvS",
@@ -5909,7 +5909,7 @@
             "containerId": null,
             "originalText": "www     127.0.0.1",
             "lineHeight": 1.0127659574468078,
-            "baseline": 8
+            "baseline": 9
           },
           {
             "type": "arrow",
@@ -6769,7 +6769,7 @@
             "containerId": null,
             "originalText": "Message Q",
             "lineHeight": 1.3500000000000016,
-            "baseline": 16
+            "baseline": 17
           }
         ],
         "id": "kOvjbi-tAL_Ck3JsITTxK",
@@ -7007,7 +7007,7 @@
             "containerId": null,
             "originalText": "Pipeline",
             "lineHeight": 1.2999999999999996,
-            "baseline": 21
+            "baseline": 22
           }
         ],
         "id": "XN_tTn_2YEjwRYRiU9XAo",
@@ -7713,7 +7713,7 @@
             "containerId": null,
             "originalText": "CDN",
             "lineHeight": 1.2257881191819515,
-            "baseline": 28
+            "baseline": 29
           },
           {
             "type": "line",
@@ -9068,7 +9068,7 @@
             "containerId": null,
             "originalText": "Web Application",
             "lineHeight": 1.3499999999999985,
-            "baseline": 15
+            "baseline": 14
           },
           {
             "type": "rectangle",
@@ -15492,7 +15492,7 @@
             "containerId": null,
             "originalText": "Power BI",
             "lineHeight": 1.2603288994037813,
-            "baseline": 119
+            "baseline": 118
           },
           {
             "type": "line",
@@ -16568,7 +16568,7 @@
             "containerId": null,
             "originalText": "Superset",
             "lineHeight": 1.2499999999999998,
-            "baseline": 151
+            "baseline": 150
           },
           {
             "type": "line",
@@ -17573,7 +17573,7 @@
             "containerId": null,
             "originalText": "Apache",
             "lineHeight": 1.2719778104654809,
-            "baseline": 88
+            "baseline": 89
           },
           {
             "type": "text",
@@ -18289,7 +18289,7 @@
             "containerId": null,
             "originalText": "dbt",
             "lineHeight": 1.2669208596893964,
-            "baseline": 199
+            "baseline": 198
           }
         ],
         "id": "26lNXOaTR_AG3PelLOYiW",
@@ -18746,7 +18746,7 @@
             "containerId": null,
             "originalText": "cloudera",
             "lineHeight": 1.2705114743101995,
-            "baseline": 61
+            "baseline": 62
           },
           {
             "type": "text",
@@ -19802,7 +19802,7 @@
             "containerId": null,
             "originalText": "H",
             "lineHeight": 1.2568581443963873,
-            "baseline": 51
+            "baseline": 50
           },
           {
             "type": "text",
@@ -20316,7 +20316,7 @@
             "containerId": null,
             "originalText": "HIVE",
             "lineHeight": 1.2656907250372091,
-            "baseline": 139
+            "baseline": 138
           },
           {
             "type": "line",
@@ -20559,7 +20559,7 @@
             "containerId": null,
             "originalText": "hadoop",
             "lineHeight": 1.2642988307056797,
-            "baseline": 125
+            "baseline": 126
           },
           {
             "type": "line",
@@ -23493,7 +23493,7 @@
             "containerId": null,
             "originalText": "!",
             "lineHeight": 1.6000000000000008,
-            "baseline": 32
+            "baseline": 31
           },
           {
             "type": "text",
@@ -23638,7 +23638,7 @@
             "containerId": null,
             "originalText": "!",
             "lineHeight": 1.6000000000000008,
-            "baseline": 32
+            "baseline": 31
           },
           {
             "type": "text",
@@ -23904,7 +23904,7 @@
             "containerId": null,
             "originalText": "!",
             "lineHeight": 1.6000000000000008,
-            "baseline": 32
+            "baseline": 31
           },
           {
             "type": "text",
@@ -24159,7 +24159,7 @@
             "containerId": null,
             "originalText": "i",
             "lineHeight": 1.5666679947475814,
-            "baseline": 31
+            "baseline": 30
           },
           {
             "type": "text",
@@ -24797,7 +24797,7 @@
             "containerId": null,
             "originalText": "My name is XYZ. I love prototyping, \ndesigning & developing stuff. ",
             "lineHeight": 1.1775940293114735,
-            "baseline": 46
+            "baseline": 45
           },
           {
             "type": "rectangle",

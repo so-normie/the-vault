@@ -1,10 +1,15 @@
 /* src/obsidian/shared/styles.css */
 .dataloom-modal__divider {
   margin: 1.5em 0;
-  border-top: 1px solid var(--background-modifier-border);
+}
+.dataloom-modal__divider--first-child {
+  margin-top: 0;
 }
 .dataloom-modal-text--emphasize {
   color: var(--text-accent);
+}
+.dataloom-modal__title {
+  margin-bottom: 0;
 }
 
 /* src/obsidian/modal/donation-modal/styles.css */
@@ -13,10 +18,6 @@
 }
 
 /* src/obsidian/modal/welcome-modal/styles.css */
-.data-welcome-modal__title {
-  margin-top: 0em;
-  margin-bottom: 1em;
-}
 .dataloom-welcome-modal__card-container {
   display: flex;
   flex-direction: column;
@@ -122,6 +123,27 @@
   border-bottom: 0;
 }
 
+/* src/react/shared/icon/styles.css */
+svg.dataloom-svg {
+  vertical-align: middle;
+}
+svg.dataloom-svg--sm {
+  width: var(--icon-s);
+  height: var(--icon-s);
+}
+svg.dataloom-svg--md {
+  width: var(--icon-m);
+  height: var(--icon-m);
+}
+svg.dataloom-svg--lg {
+  width: var(--icon-l);
+  height: var(--icon-l);
+}
+svg.dataloom-svg--xl {
+  width: 20px;
+  height: 20px;
+}
+
 /* src/react/shared/stack/styles.css */
 .dataloom-stack {
   display: flex;
@@ -170,6 +192,10 @@
 .dataloom-button--text:hover {
   background-color: var(--background-modifier-hover) !important;
 }
+.dataloom-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
 
 /* src/react/shared/menu/styles.css */
 .dataloom-menu {
@@ -186,24 +212,22 @@
 /* src/react/shared/flex/styles.css */
 .dataloom-flex {
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
 }
 
 /* src/shared/spacing/styles.css */
 .dataloom-overflow--wrap {
-  overflow-wrap: break-word;
   overflow: hidden;
+  overflow-wrap: break-word;
   white-space: normal;
 }
 .dataloom-overflow--hide {
   overflow: hidden;
-  overflow-wrap: normal;
   white-space: nowrap;
 }
 .dataloom-overflow--ellipsis {
-  white-space: nowrap;
   overflow: hidden;
+  white-space: nowrap;
   text-overflow: ellipsis;
 }
 
@@ -221,6 +245,12 @@
 }
 .dataloom-text--semibold {
   font-weight: var(--font-semibold);
+}
+.dataloom-text--on-accent {
+  color: var(--text-on-accent);
+}
+.dataloom-text--error {
+  color: var(--text-error);
 }
 
 /* src/react/shared/menu-item/styles.css */
@@ -306,10 +336,6 @@
   height: 200px;
   resize: vertical;
 }
-.dataloom-export-app h5 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 .dataloom-export-app select {
   background-color: var(--background-secondary-alt) !important;
 }
@@ -343,6 +369,108 @@
 }
 .dataloom-switch--dark {
   outline-color: var(--text-on-accent);
+}
+
+/* src/react/shared/stepper/styles.css */
+.dataloom-step__header--margin-bottom {
+  margin-bottom: 5px;
+}
+.dataloom-step__content {
+  width: 100%;
+  margin-top: 10px;
+}
+.dataloom-step__content--margin-top {
+  margin-top: 25px;
+}
+.dataloom-step__indicator {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--background-secondary);
+}
+.dataloom-step__indicator--complete {
+  cursor: pointer;
+}
+.dataloom-step__text--complete {
+  cursor: pointer;
+}
+.dataloom-step__spacer {
+  width: 100%;
+  height: 25px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  border-left: 1px solid var(--background-modifier-border);
+}
+.dataloom-step__separator {
+  min-width: 15px;
+  margin-left: 15px;
+  border-left: 1px solid var(--background-modifier-border);
+  align-self: stretch;
+}
+.dataloom-step__separator--no-border {
+  border-left: none;
+}
+
+/* src/react/import-app/upload-data/file-input/styles.css */
+.dataloom-file-input input[type=file] {
+  color: transparent;
+}
+
+/* src/react/import-app/match-columns/styles.css */
+.dataloom-match-columns {
+  margin-bottom: 10px;
+}
+.dataloom-match-columns__container {
+  width: 100%;
+  max-height: 250px;
+  overflow: scroll;
+  padding-right: 3em;
+}
+.dataloom-match-columns table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.dataloom-match-columns th,
+.dataloom-match-columns td {
+  border-bottom: 1px solid var(--table-border-color);
+  border-right: 1px solid var(--table-border-color);
+  padding: 0.5em;
+  max-width: 20em;
+  height: 1em;
+}
+.dataloom-match-columns th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: var(--background-secondary);
+  font-weight: 500;
+}
+.dataloom-match-columns th {
+  min-width: 14em;
+  border-top: 1px solid var(--table-border-color);
+}
+.dataloom-match-columns td:first-child,
+.dataloom-match-columns th:first-child {
+  border-left: 1px solid var(--table-border-color);
+}
+.dataloom-match-columns--disabled {
+  opacity: 0.5;
+}
+.dataloom-match-columns input[type=checkbox] {
+  margin-top: 1px;
+  margin-right: 0px;
+}
+
+/* src/react/import-app/styles.css */
+.dataloom-import-app {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  max-height: calc(100vh - 20em);
+}
+.dataloom-import-app textarea {
+  width: 100%;
+  height: 10em;
+  resize: none;
 }
 
 /* src/react/shared/wrap/styles.css */
@@ -458,9 +586,6 @@
 .dataloom-date-cell {
   width: 100%;
   text-align: left;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 
 /* src/react/loom-app/number-cell/styles.css */
@@ -521,19 +646,21 @@
 
 /* src/react/loom-app/tag-color-menu/components/color-item/styles.css */
 .dataloom-color-item {
-  display: flex;
-  align-items: center;
-  padding: var(--dataloom-spacing--xs) var(--dataloom-spacing--lg);
   width: 100%;
 }
-.dataloom-color-item-square {
-  width: 10px;
-  height: 10px;
-  padding: 0;
-  margin: 0 10px 0 0;
+.dataloom-color-item__square {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
 }
 
 /* src/react/loom-app/tag-color-menu/styles.css */
+.dataloom-tag-color-menu__color-container {
+  width: 100%;
+  height: 215px;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
 
 /* src/react/loom-app/tag-cell-edit/selectable-tag/styles.css */
 .dataloom-selectable-tag {
@@ -705,6 +832,9 @@
 }
 .dataloom-red--dark {
   background-color: hsl(8, 35%, 30%);
+}
+.dataloom-disabled {
+  opacity: 0.5;
 }
 .dataloom-selectable {
   cursor: pointer;

@@ -1,6 +1,6 @@
 {
-  "findText": "<br>",
-  "replaceText": "",
+  "findText": "\\#card",
+  "replaceText": "\n#card\n",
   "useRegEx": true,
   "selOnly": false,
   "caseInsensitive": false,

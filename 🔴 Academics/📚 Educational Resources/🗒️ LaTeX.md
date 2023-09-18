@@ -1,7 +1,7 @@
 ---
 title: 🗒️ LaTeX
 created: 2023-08-04 01:58
-updated: 2023-09-11 05:52
+updated: 2023-09-16 16:47
 authors:
   - Edmund Leibert III
 tags:
@@ -33,8 +33,8 @@ How can I type **Big O** in LaTeX/MathJax?
 #card
 
 ```latex
-$O(n\log{}n)$ % regular O
-$\mathcal{0}(n\log{}n)$ % Open at top left
+$O(n\log{n})$ % regular O
+$\mathcal{0}(n\log{n})$ % Open at top left
 ```
 
 You can refer to the following table for more information…
@@ -113,8 +113,19 @@ In MathJax/LateX, how can I change text be normal in the equation?
 
 #card 
 
-To change text to normal in a MathJax/LaTeX equation, you can use the `\text{}` command. This command allows you to include normal text within an equation. For example, if you want to include the word “normal” in an equation, you can write `x = \text{normal}`. [This will display “normal” in normal font within the equation](https://tex.stackexchange.com/questions/39515/is-there-a-way-to-set-math-mode-font-non-italic) [1](https://tex.stackexchange.com/questions/39515/is-there-a-way-to-set-math-mode-font-non-italic).
-^1694416424356
+To change text to normal in a MathJax/LaTeX equation, you can use the… 
+
+```latex
+\text{}
+``` 
+
+command. This command allows you to include normal text within an equation. For example, if you want to include the word “normal” in an equation, you can write…. 
+
+```latex
+x = \text{normal}
+```
+
+[This will display “normal” in normal font within the equation](https://tex.stackexchange.com/questions/39515/is-there-a-way-to-set-math-mode-font-non-italic) [1](https://tex.stackexchange.com/questions/39515/is-there-a-way-to-set-math-mode-font-non-italic).
 
 ⌂
 <br>﹈<br>^1694416424361
