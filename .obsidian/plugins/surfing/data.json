@@ -23,7 +23,7 @@
   "useCustomIcons": false,
   "useWebview": true,
   "useIconList": true,
-  "darkMode": false,
+  "darkMode": true,
   "bookmarkManager": {
     "openBookMark": true,
     "saveBookMark": true,

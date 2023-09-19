@@ -2,16 +2,17 @@
   "showFrontmatter": true,
   "showLineNumber": true,
   "spellcheck": true,
-  "vimMode": true,
-  "defaultViewMode": "preview",
-  "livePreview": false,
+  "vimMode": false,
+  "defaultViewMode": "source",
+  "livePreview": true,
   "readableLineLength": false,
-  "promptDelete": true,
+  "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": true,
   "showInlineTitle": false,
   "useMarkdownLinks": true,
   "legacyEditor": false,
   "strictLineBreaks": true,
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "absolute",
+  "attachmentFolderPath": "assets/images"
 }
