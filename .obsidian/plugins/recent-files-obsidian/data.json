@@ -1,32 +1,156 @@
 {
   "recentFiles": [
     {
-      "basename": "121. Best Time to Buy and Sell Stock",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md"
+      "basename": "Dynamic Partition Pruning",
+      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Partition Pruning.md"
     },
     {
-      "basename": "1. Two Sum",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
+      "basename": "Executor vs Executor Core",
+      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Executor vs Executor Core.md"
     },
     {
-      "basename": "🗒️ Anaconda",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Anaconda.md"
+      "basename": "Dynamic Resource Allocation",
+      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Resource Allocation.md"
     },
     {
-      "basename": "2480. Form a Chemical Bond",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2480. Form a Chemical Bond.md"
+      "basename": "General Join Mechanics",
+      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Optimizing DataFrame Transformations/General Join Mechanics.md"
     },
     {
-      "basename": "2504. Concatenate the Name and the Profession",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2504. Concatenate the Name and the Profession.md"
+      "basename": "Unique Problems",
+      "path": "🔴 Academics/📚 Educational Resources/🙋🏽‍♂️ Data Engineering Prep (Discord Group)/Unique Problems.md"
     },
     {
-      "basename": "2668. Find Latest Salaries",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2668. Find Latest Salaries.md"
+      "basename": "🗒️ Yarn",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Yarn.md"
     },
     {
-      "basename": "002. hey programmer 🧑🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md"
+      "basename": "Partition vs Bucketing",
+      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Partition vs Bucketing.md"
+    },
+    {
+      "basename": "Broadcast Joins",
+      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Broadcast Joins.md"
+    },
+    {
+      "basename": "Excessively Large Partition",
+      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Excessively Large Partition.md"
+    },
+    {
+      "basename": "🗒️ Python",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Python.md"
+    },
+    {
+      "basename": "🗒️ SQL",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ SQL.md"
+    },
+    {
+      "basename": "🗒️ Mechanical Physics",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Mechanical Physics.md"
+    },
+    {
+      "basename": "🗒️ TypeScript",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ TypeScript.md"
+    },
+    {
+      "basename": "🗒️ Rust",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Rust.md"
+    },
+    {
+      "basename": "Excessively High Concurrency",
+      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Excessively High Concurrency.md"
+    },
+    {
+      "basename": "Container killed by YARN",
+      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Container killed by YARN.md"
+    },
+    {
+      "basename": "Repartition vs Coalesce",
+      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Repartition vs Coalesce.md"
+    },
+    {
+      "basename": "Reading Query Plans",
+      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Reading Query Plans.md"
+    },
+    {
+      "basename": "🐛 fodo dcsdc'f fc",
+      "path": "🐛 fodo dcsdc'f fc.md"
+    },
+    {
+      "basename": "📕 Python in a Nutshell, 4ᵗʰ Edition (2023)",
+      "path": "🔴 Academics/📚 Educational Resources/📕 Python in a Nutshell, 4ᵗʰ Edition (2023).md"
+    },
+    {
+      "basename": "📕 Discrete Mathematical Structures, 6ᵗʰ Edition",
+      "path": "🔴 Academics/📚 Educational Resources/📕 Discrete Mathematical Structures, 6ᵗʰ Edition.md"
+    },
+    {
+      "basename": "📕 Discrete Mathematics and Its Applications, 8ᵗʰ Edition",
+      "path": "🔴 Academics/📚 Educational Resources/📕 Discrete Mathematics and Its Applications, 8ᵗʰ Edition.md"
+    },
+    {
+      "basename": "Terror interview prolbelm",
+      "path": "Terror interview prolbelm.md"
+    },
+    {
+      "basename": "Pasted image 20230912115122",
+      "path": "assets/images/Pasted image 20230912115122.png"
+    },
+    {
+      "basename": "Pasted image 20230912115211",
+      "path": "assets/images/Pasted image 20230912115211.png"
+    },
+    {
+      "basename": "geeks-for-geeks-uri-vs-url",
+      "path": "assets/images/geeks-for-geeks-uri-vs-url.png"
+    },
+    {
+      "basename": "data-engineer-project-1-prompt",
+      "path": "assets/images/data-engineer-project-1-prompt.png"
+    },
+    {
+      "basename": "aws-educate-analytics-data-models-data-table",
+      "path": "assets/images/aws-educate-analytics-data-models-data-table.png"
+    },
+    {
+      "basename": "Pasted image 20230912120040",
+      "path": "assets/images/Pasted image 20230912120040.png"
+    },
+    {
+      "basename": "Pasted image 20230912115301",
+      "path": "assets/images/Pasted image 20230912115301.png"
+    },
+    {
+      "basename": "🗒️ Git",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Git.md"
+    },
+    {
+      "basename": "Part 1 “The JavaScript Language”",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 The Modern JavaScript Tutorial/Part 1 “The JavaScript Language”.md"
+    },
+    {
+      "basename": "🌐 The Modern JavaScript Tutorial",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 The Modern JavaScript Tutorial/🌐 The Modern JavaScript Tutorial.md"
+    },
+    {
+      "basename": "🌐 PostgreSQL Documentation",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 PostgreSQL Documentation.md"
+    },
+    {
+      "basename": "📕 Precalculus꞉ Mathematics for Calculus, 7ᵗʰ Edition",
+      "path": "🔴 Academics/📚 Educational Resources/📕 Precalculus꞉ Mathematics for Calculus, 7ᵗʰ Edition.md"
+    },
+    {
+      "basename": "📕 Master Your Data with Excel and Power BI",
+      "path": "🔴 Academics/📚 Educational Resources/📕 Master Your Data with Excel and Power BI.md"
+    },
+    {
+      "basename": "📕 Fluent Python, 2ⁿᵈ Edition (2022)",
+      "path": "🔴 Academics/📚 Educational Resources/📕 Fluent Python, 2ⁿᵈ Edition (2022).md"
+    },
+    {
+      "basename": "🗒️ C++",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++.md"
     },
     {
       "basename": "2837. Total Traveled Distance",

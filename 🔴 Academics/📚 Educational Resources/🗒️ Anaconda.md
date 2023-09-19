@@ -9,7 +9,7 @@ tags:
   - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/python
   - study-note
 cards-deck: Default::Computer Science
-updated: 2023-09-18 18:03
+updated: 2023-09-18 17:57
 ---
 
 #  🗒️ Anaconda

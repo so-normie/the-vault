@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "121. Best Time to Buy and Sell Stock",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":135.88235294117646}"
+                },
+                {
                   "title": "1. Two Sum",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
@@ -28,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md",
+                "file": "🔴 Academics/📚 Educational Resources/🗒️ Anaconda.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -57,7 +63,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +128,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(Does have a specific char data type like other programming languages?)",
+                "query": "tag:#🔴-academics/📚-educational-resources/name/merriam-webster",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,12 +172,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 460.5,
-    "collapsed": true
+    "width": 460.5
   },
   "right": {
     "id": "128fe29333f9ab00",
@@ -212,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,16 +321,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md"
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 397.5
+    "width": 397.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -352,14 +359,28 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ad2051a3fa7ca51c",
+  "active": "b43b9f68ea1dc398",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Optimizing DataFrame Transformations/General Join Mechanics.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Excessively Large Partition.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Excessively High Concurrency.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Container killed by YARN.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Broadcast Joins.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Repartition vs Coalesce.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Partition vs Bucketing.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Optimizing DataFrame Transformations",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Executor vs Executor Core.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Resource Allocation.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Partition Pruning.md",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization",
+    "assets/images/Pasted image 20230913161050.png",
+    "🔴 Academics/📚 Educational Resources/🗒️ Anaconda.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ Anaconda.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2480. Form a Chemical Bond.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2504. Concatenate the Name and the Profession.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2668. Find Latest Salaries.md",
@@ -373,17 +394,7 @@
     "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/014. five sort 👨🏽‍💻.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/013. intersection 👨🏽‍💻.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/011. pair product 👨🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/012. check in 👨🏻‍🏫.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/010. pair sum 👨🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/383. Ransom Note.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2853. Highest Salaries Difference.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/620. Not Boring Movies.md",
     "assets/images/Pasted image 20230611201227.png",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/006. uncompress 👨🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ C++.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/Structy (JavaScript)",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/Structy (Java)",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/Structy (Python)",
@@ -391,8 +402,6 @@
     "🔴 Academics/📚 Educational Resources/Wikipedia",
     "Untitled.loom",
     "assets/images/oreilly-media-logo.svg",
-    "assets/images/oreilly-vector-logo-seeklogo.com.zip",
-    "assets/images/Unconfirmed 445558.crdownload",
-    "🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)"
+    "assets/images/oreilly-vector-logo-seeklogo.com.zip"
   ]
 }
