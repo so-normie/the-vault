@@ -1,16 +1,136 @@
 {
   "recentFiles": [
     {
+      "basename": "Problems (Easy)",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md"
+    },
+    {
+      "basename": "🌐 LeetCode ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "1. Two Sum",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
+    },
+    {
+      "basename": "🗒️ SQL",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ SQL/🗒️ SQL.md"
+    },
+    {
+      "basename": "13. Roman to Integer",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/13. Roman to Integer.md"
+    },
+    {
+      "basename": "9. Palindrome Number",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/9. Palindrome Number.md"
+    },
+    {
+      "basename": "🗒️ JetBrains",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ JetBrains.md"
+    },
+    {
+      "basename": "125. Valid Palindrome",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md"
+    },
+    {
+      "basename": "🗒️ Obsidian",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md"
+    },
+    {
+      "basename": "🗒️ LaTeX",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md"
+    },
+    {
+      "basename": "🗒️ GitHub",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ GitHub.md"
+    },
+    {
+      "basename": "🗒️ HTML",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ HTML.md"
+    },
+    {
+      "basename": "🗒️ Yarn",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Yarn.md"
+    },
+    {
+      "basename": "🗒️ Wolfram Mathematica",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Wolfram Mathematica.md"
+    },
+    {
+      "basename": "🗒️ Anki",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Anki.md"
+    },
+    {
+      "basename": "🗒️ Rust",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Rust.md"
+    },
+    {
+      "basename": "🗒️ CMake",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ CMake.md"
+    },
+    {
+      "basename": "Partition vs Bucketing",
+      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Partition vs Bucketing.md"
+    },
+    {
+      "basename": "🗒️ Anaconda",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Anaconda.md"
+    },
+    {
+      "basename": "015. array and string quiz 📝",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/015. array and string quiz 📝.md"
+    },
+    {
+      "basename": "016. array and string wrap up 👨🏻‍🏫",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/016. array and string wrap up 👨🏻‍🏫.md"
+    },
+    {
+      "basename": "🗒️ C++",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++.md"
+    },
+    {
+      "basename": "🗒️ ESLint",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ ESLint.md"
+    },
+    {
+      "basename": "Google Apps Scripts",
+      "path": "🔴 Academics/📚 Educational Resources/Google Apps Scripts.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
+    },
+    {
+      "basename": "Dynamic Resource Allocation",
+      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Resource Allocation.md"
+    },
+    {
+      "basename": "Excessively Large Partition",
+      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Excessively Large Partition.md"
+    },
+    {
+      "basename": "Excessively High Concurrency",
+      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Excessively High Concurrency.md"
+    },
+    {
+      "basename": "Container killed by YARN",
+      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Container killed by YARN.md"
+    },
+    {
+      "basename": "Broadcast Joins",
+      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Broadcast Joins.md"
+    },
+    {
+      "basename": "excalidraw-2023-09-18 18.07.58.excalidraw",
+      "path": "excalidraw-2023-09-18 18.07.58.excalidraw.md"
+    },
+    {
       "basename": "Dynamic Partition Pruning",
       "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Partition Pruning.md"
     },
     {
       "basename": "Executor vs Executor Core",
       "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Executor vs Executor Core.md"
-    },
-    {
-      "basename": "Dynamic Resource Allocation",
-      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Resource Allocation.md"
     },
     {
       "basename": "General Join Mechanics",
@@ -21,28 +141,8 @@
       "path": "🔴 Academics/📚 Educational Resources/🙋🏽‍♂️ Data Engineering Prep (Discord Group)/Unique Problems.md"
     },
     {
-      "basename": "🗒️ Yarn",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Yarn.md"
-    },
-    {
-      "basename": "Partition vs Bucketing",
-      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Partition vs Bucketing.md"
-    },
-    {
-      "basename": "Broadcast Joins",
-      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Broadcast Joins.md"
-    },
-    {
-      "basename": "Excessively Large Partition",
-      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Excessively Large Partition.md"
-    },
-    {
       "basename": "🗒️ Python",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ Python.md"
-    },
-    {
-      "basename": "🗒️ SQL",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ SQL.md"
     },
     {
       "basename": "🗒️ Mechanical Physics",
@@ -51,18 +151,6 @@
     {
       "basename": "🗒️ TypeScript",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ TypeScript.md"
-    },
-    {
-      "basename": "🗒️ Rust",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Rust.md"
-    },
-    {
-      "basename": "Excessively High Concurrency",
-      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Excessively High Concurrency.md"
-    },
-    {
-      "basename": "Container killed by YARN",
-      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Container killed by YARN.md"
     },
     {
       "basename": "Repartition vs Coalesce",
@@ -111,218 +199,6 @@
     {
       "basename": "aws-educate-analytics-data-models-data-table",
       "path": "assets/images/aws-educate-analytics-data-models-data-table.png"
-    },
-    {
-      "basename": "Pasted image 20230912120040",
-      "path": "assets/images/Pasted image 20230912120040.png"
-    },
-    {
-      "basename": "Pasted image 20230912115301",
-      "path": "assets/images/Pasted image 20230912115301.png"
-    },
-    {
-      "basename": "🗒️ Git",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Git.md"
-    },
-    {
-      "basename": "Part 1 “The JavaScript Language”",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 The Modern JavaScript Tutorial/Part 1 “The JavaScript Language”.md"
-    },
-    {
-      "basename": "🌐 The Modern JavaScript Tutorial",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 The Modern JavaScript Tutorial/🌐 The Modern JavaScript Tutorial.md"
-    },
-    {
-      "basename": "🌐 PostgreSQL Documentation",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 PostgreSQL Documentation.md"
-    },
-    {
-      "basename": "📕 Precalculus꞉ Mathematics for Calculus, 7ᵗʰ Edition",
-      "path": "🔴 Academics/📚 Educational Resources/📕 Precalculus꞉ Mathematics for Calculus, 7ᵗʰ Edition.md"
-    },
-    {
-      "basename": "📕 Master Your Data with Excel and Power BI",
-      "path": "🔴 Academics/📚 Educational Resources/📕 Master Your Data with Excel and Power BI.md"
-    },
-    {
-      "basename": "📕 Fluent Python, 2ⁿᵈ Edition (2022)",
-      "path": "🔴 Academics/📚 Educational Resources/📕 Fluent Python, 2ⁿᵈ Edition (2022).md"
-    },
-    {
-      "basename": "🗒️ C++",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++.md"
-    },
-    {
-      "basename": "2837. Total Traveled Distance",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2837. Total Traveled Distance.md"
-    },
-    {
-      "basename": "2669. Count Artist Occurrences On Spotify Ranking List",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2669. Count Artist Occurrences On Spotify Ranking List.md"
-    },
-    {
-      "basename": "627. Swap Salary",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/627. Swap Salary.md"
-    },
-    {
-      "basename": "016. array and string wrap up 👨🏻‍🏫",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/016. array and string wrap up 👨🏻‍🏫.md"
-    },
-    {
-      "basename": "🗒️ JetBrains",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ JetBrains.md"
-    },
-    {
-      "basename": "015. array and string quiz 📝",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/015. array and string quiz 📝.md"
-    },
-    {
-      "basename": "014. five sort 👨🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/014. five sort 👨🏽‍💻.md"
-    },
-    {
-      "basename": "013. intersection 👨🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/013. intersection 👨🏽‍💻.md"
-    },
-    {
-      "basename": "Problems ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "011. pair product 👨🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/011. pair product 👨🏽‍💻.md"
-    },
-    {
-      "basename": "012. check in 👨🏻‍🏫",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/012. check in 👨🏻‍🏫.md"
-    },
-    {
-      "basename": "010. pair sum 👨🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/010. pair sum 👨🏽‍💻.md"
-    },
-    {
-      "basename": "383. Ransom Note",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/383. Ransom Note.md"
-    },
-    {
-      "basename": "2853. Highest Salaries Difference",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2853. Highest Salaries Difference.md"
-    },
-    {
-      "basename": "620. Not Boring Movies",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/620. Not Boring Movies.md"
-    },
-    {
-      "basename": "Pasted image 20230611201227",
-      "path": "assets/images/Pasted image 20230611201227.png"
-    },
-    {
-      "basename": "006. uncompress 👨🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/006. uncompress 👨🏽‍💻.md"
-    },
-    {
-      "basename": "🗒️ LaTeX",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md"
-    },
-    {
-      "basename": "🗒️ C++",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++.md"
-    },
-    {
-      "basename": "🗒️ Obsidian",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md"
-    },
-    {
-      "basename": "219. Contains Duplicate II",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/219. Contains Duplicate II.md"
-    },
-    {
-      "basename": "196. Delete Duplicate Emails",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/196. Delete Duplicate Emails.md"
-    },
-    {
-      "basename": "009. most frequent char 👨🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/009. most frequent char 👨🏽‍💻.md"
-    },
-    {
-      "basename": "008. anagrams 👨🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/008. anagrams 👨🏽‍💻.md"
-    },
-    {
-      "basename": "🗒️ Git",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Git.md"
-    },
-    {
-      "basename": "007. compress 👨🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/007. compress 👨🏽‍💻.md"
-    },
-    {
-      "basename": "excalidraw-2023-09-15 13.42.45.excalidraw",
-      "path": "Assets/Excalidraw/excalidraw-2023-09-15 13.42.45.excalidraw.md"
-    },
-    {
-      "basename": "004. is prime 👨🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/004. is prime 👨🏽‍💻.md"
-    },
-    {
-      "basename": "001. code workspace tour 👨🏻‍🏫",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md"
-    },
-    {
-      "basename": "003. max-value 🧑🏽‍💻",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md"
-    },
-    {
-      "basename": "Template {{Solution ꞉꞉ Attempt}}",
-      "path": "templates/Template {{Solution ꞉꞉ Attempt}}.md"
-    },
-    {
-      "basename": "Template {{Solution}}",
-      "path": "templates/Template {{Solution}}.md"
-    },
-    {
-      "basename": "005. array and string welcome 👨🏻‍🏫",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/005. array and string welcome 👨🏻‍🏫.md"
-    },
-    {
-      "basename": "Preface",
-      "path": "🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/Preface.md"
-    },
-    {
-      "basename": "📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "2. Linked List ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/2. Linked List ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "1. Array and String ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/1. Array and String ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "0. Introduction ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "000. course introduction 👨🏻‍🏫",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md"
-    },
-    {
-      "basename": "619. Biggest Single Number",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/619. Biggest Single Number.md"
-    },
-    {
-      "basename": "182. Duplicate Emails",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/182. Duplicate Emails.md"
-    },
-    {
-      "basename": "sortspec",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md"
-    },
-    {
-      "basename": "sortspec",
-      "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
     }
   ],
   "omittedPaths": [],

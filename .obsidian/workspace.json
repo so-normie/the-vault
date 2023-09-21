@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6383176b2d033eca",
+        "id": "c784ec42d8517115",
         "type": "tabs",
         "children": [
           {
-            "id": "ad2051a3fa7ca51c",
+            "id": "6b75421f5dd591a3",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,23 +18,29 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "121. Best Time to Buy and Sell Stock",
+                  "title": "Problems (Easy)",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":135.88235294117646}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":1648.9758522727273}"
+                },
+                {
+                  "title": "🗒️ JetBrains",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ JetBrains.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":0}"
                 },
                 {
                   "title": "1. Two Sum",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":35.65142822265625}"
+                  "eState": "{\"scroll\":897.2866536458333}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🗒️ Anaconda.md",
+                "file": "🔴 Academics/📚 Educational Resources/🗒️ SQL/🗒️ SQL.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -42,7 +48,7 @@
             }
           },
           {
-            "id": "b43b9f68ea1dc398",
+            "id": "b6fdea58a07b909c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -53,10 +59,40 @@
                 }
               ]
             },
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "8579d95536c200ba",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "1. Two Sum",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":22.0440673828125}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -128,7 +164,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#🔴-academics/📚-educational-resources/name/merriam-webster",
+                "query": "sql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,7 +208,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -218,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -321,33 +357,34 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 397.5,
+    "width": 549.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
+      "graph:Open graph view": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "chronology:Open Chronology": true,
       "3d-graph:3D Graph": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
+      "canvas:Create new canvas": true,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "random-note:Open random note": false,
+      "markdown-importer:Open format converter": true,
+      "random-note:Open random note": true,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "surfing:surfing-bookmark-manager": false,
+      "surfing:surfing-bookmark-manager": true,
       "flashcards-obsidian:Generate flashcards": true,
+      "obsidian-excalidraw-plugin:Create new drawing": true,
       "custom-sort:Toggle custom sorting": false,
       "templater-obsidian:Templater": true,
       "switcher:Open quick switcher": true,
@@ -355,52 +392,54 @@
       "templates:Insert template": true,
       "zk-prefixer:Create new unique note": true,
       "publish:Publish changes...": true,
-      "notion-like-tables:Create new loom": false,
-      "omnisearch:Omnisearch": false
+      "notion-like-tables:Create new loom": false
     }
   },
-  "active": "b43b9f68ea1dc398",
+  "active": "b6fdea58a07b909c",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "🔴 Academics/📚 Educational Resources/Spark Optimization/Optimizing DataFrame Transformations/General Join Mechanics.md",
-    "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Excessively Large Partition.md",
-    "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Excessively High Concurrency.md",
-    "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Container killed by YARN.md",
-    "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Broadcast Joins.md",
-    "🔴 Academics/📚 Educational Resources/Spark Optimization/Repartition vs Coalesce.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
+    "assets/images/leetcode.svg",
+    "🔴 Academics/📚 Educational Resources/🗒️ SQL",
+    "assets/images/jpg",
+    "assets/images/svg/leetcode.svg",
+    "assets/images/svg",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md",
+    "🔴 Academics/📚 Educational Resources/🗒️ SQL/🗒️ SQL.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/13. Roman to Integer.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/9. Palindrome Number.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ JetBrains.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ LaTeX.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ GitHub.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ HTML.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Yarn.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Wolfram Mathematica.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Anki.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Rust.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ CMake.md",
     "🔴 Academics/📚 Educational Resources/Spark Optimization/Partition vs Bucketing.md",
-    "🔴 Academics/📚 Educational Resources/Spark Optimization/Optimizing DataFrame Transformations",
-    "🔴 Academics/📚 Educational Resources/Spark Optimization/Executor vs Executor Core.md",
-    "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Partition Pruning.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Anaconda.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/015. array and string quiz 📝.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/016. array and string wrap up 👨🏻‍🏫.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ C++.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ ESLint.md",
+    "🔴 Academics/📚 Educational Resources/Google Apps Scripts.md",
+    "🔴 Academics/📚 Educational Resources/sortspec.md",
     "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Resource Allocation.md",
+    "Untitled.loom",
+    "🔴 Academics/📚 Educational Resources/Spark Optimization/Optimizing DataFrame Transformations",
     "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors",
     "🔴 Academics/📚 Educational Resources/Spark Optimization",
     "assets/images/Pasted image 20230913161050.png",
-    "🔴 Academics/📚 Educational Resources/🗒️ Anaconda.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2480. Form a Chemical Bond.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2504. Concatenate the Name and the Profession.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2668. Find Latest Salaries.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2837. Total Traveled Distance.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2669. Count Artist Occurrences On Spotify Ranking List.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/627. Swap Salary.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/016. array and string wrap up 👨🏻‍🏫.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ JetBrains.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/015. array and string quiz 📝.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/014. five sort 👨🏽‍💻.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/013. intersection 👨🏽‍💻.md",
     "assets/images/Pasted image 20230611201227.png",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/Structy (JavaScript)",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/Structy (Java)",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/Structy (Python)",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/Structy (C++)",
-    "🔴 Academics/📚 Educational Resources/Wikipedia",
-    "Untitled.loom",
-    "assets/images/oreilly-media-logo.svg",
-    "assets/images/oreilly-vector-logo-seeklogo.com.zip"
+    "assets/images/oreilly-media-logo.svg"
   ]
 }

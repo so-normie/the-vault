@@ -1,6 +1,6 @@
 ---
 title: 🗒️ JetBrains
-updated: 2023-09-17 02:29
+updated: 2023-09-19 07:23
 created: 2023-08-04 01:58
 authors:
   - Edmund Leibert III
@@ -53,7 +53,7 @@ In JetBrains, what is the shortcut to open **Settings**?
 
 
 ﹇<br>
-When working with **CLion**, how should I got about setting a project’s C++ standard?
+When working with **CLion**, how should I go about setting a project’s C++ standard?
 
 #card
  
@@ -112,7 +112,7 @@ What is the shortcut to create new tab in the terminal window of a JetBrains IDE
 
 #card-reverse  
 
-<kbd>Ctrl</kbd> + <kbd>Shift</kbd>+<kbd>T</kbd>
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>
 
 ⌂
 <br>﹈<br>^1694713732761
@@ -125,7 +125,7 @@ What is the shortcut to make a new branch in a JetBrains IDE?
 
 #card-reverse  
 
-<kbd>Ctrl</kbd> + <kbd>Alt</kbd>+<kbd>N</kbd>
+<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>N</kbd>
 
 ⌂
 <br>﹈<br>^1694713732765

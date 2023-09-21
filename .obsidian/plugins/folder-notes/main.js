@@ -3576,16 +3576,83 @@ var DEFAULT_SETTINGS = {
     enabled: false,
     explorer: true,
     path: true
-  }
+  },
+  settingsTab: "general"
 };
 var SettingsTab = class extends import_obsidian15.PluginSettingTab {
   constructor(app2, plugin) {
     super(app2, plugin);
+    this.TABS = {
+      GENERAL: {
+        name: "General",
+        id: "general"
+      },
+      FOLDER_OVERVIEW: {
+        name: "Folder overview",
+        id: "folder_overview"
+      },
+      EXCLUDE_FOLDERS: {
+        name: "Exclude folders",
+        id: "exclude_folders"
+      },
+      FILE_EXPLORER: {
+        name: "File explorer",
+        id: "file_explorer"
+      },
+      PATH: {
+        name: "Path",
+        id: "path"
+      }
+    };
+  }
+  renderSettingsPage(tabId) {
+    this.settingsPage.empty();
+    console.log(tabId);
+    switch (tabId.toLocaleLowerCase()) {
+      case this.TABS.GENERAL.id:
+        this.renderGeneral();
+        break;
+      case this.TABS.FOLDER_OVERVIEW.id:
+        this.renderFolderOverview();
+        break;
+      case this.TABS.EXCLUDE_FOLDERS.id:
+        this.renderExcludeFolders();
+        break;
+      case this.TABS.FILE_EXPLORER.id:
+        this.renderFileExplorer();
+        break;
+      case this.TABS.PATH.id:
+        this.renderPath();
+        break;
+    }
   }
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    containerEl.createEl("h2", { text: "Folder notes settings" });
+    const tabBar = containerEl.createEl("nav", { cls: "fn-settings-tab-bar" });
+    for (const [tabId, tabInfo] of Object.entries(this.TABS)) {
+      const tabEl = tabBar.createEl("div", { cls: "fn-settings-tab" });
+      const tabName = tabEl.createEl("div", { cls: "fn-settings-tab-name", text: tabInfo.name });
+      console.log(this.plugin.settings.settingsTab, tabId);
+      if (this.plugin.settings.settingsTab.toLocaleLowerCase() === tabId.toLocaleLowerCase()) {
+        tabEl.addClass("fn-settings-tab-active");
+      }
+      tabEl.addEventListener("click", () => {
+        for (const tabEl2 of tabBar.children) {
+          tabEl2.removeClass("fn-settings-tab-active");
+          this.plugin.settings.settingsTab = tabId.toLocaleLowerCase();
+          this.plugin.saveSettings();
+        }
+        tabEl.addClass("fn-settings-tab-active");
+        this.renderSettingsPage(tabId);
+      });
+    }
+    this.settingsPage = containerEl.createDiv({ cls: "fn-settings-page" });
+    this.renderSettingsPage(this.plugin.settings.settingsTab);
+  }
+  renderGeneral() {
+    this.settingsPage.createEl("h1", { text: "General settings" });
+    const containerEl = this.settingsPage;
     const nameSetting = new import_obsidian15.Setting(containerEl).setName("Folder note name").setDesc("{{folder_name}} will be replaced with the name of the folder").addText((text) => text.setValue(this.plugin.settings.newFolderNoteName).onChange(async (value) => {
       if (value.trim() === "") {
         return;
@@ -3600,9 +3667,6 @@ var SettingsTab = class extends import_obsidian15.PluginSettingTab {
     new import_obsidian15.Setting(containerEl).setName("Folder note type").setDesc("Choose the file type for creating new folder notes (markdown or canvas) old folder notes will not be changed and you can also create canvas/markdown files and change the name manually to the custom folder note name or to the name of the folder.").addDropdown((dropdown) => dropdown.addOption(".md", "markdown").addOption(".canvas", "canvas").setValue(this.plugin.settings.folderNoteType).onChange(async (value) => {
       this.plugin.settings.folderNoteType = value;
       await this.plugin.saveSettings();
-    }));
-    new import_obsidian15.Setting(containerEl).setName("Manage folder overview defaults").setDesc("Manage the default settings for the folder overview plugin").addButton((button) => button.setButtonText("Manage").setCta().onClick(async () => {
-      new FolderOverviewSettings(this.plugin.app, this.plugin, this.plugin.settings.defaultOverview, null, null, true).open();
     }));
     const setting = new import_obsidian15.Setting(containerEl);
     const desc = document.createDocumentFragment();
@@ -3652,15 +3716,6 @@ var SettingsTab = class extends import_obsidian15.PluginSettingTab {
         await this.plugin.saveSettings();
       }));
     }
-    const disableSetting = new import_obsidian15.Setting(containerEl);
-    disableSetting.setName("Disable folder collapsing");
-    disableSetting.setDesc("Disable the ability to collapse folders by clicking exactly on the folder name");
-    disableSetting.addToggle((toggle) => toggle.setValue(!this.plugin.settings.enableCollapsing).onChange(async (value) => {
-      this.plugin.settings.enableCollapsing = !value;
-      await this.plugin.saveSettings();
-    }));
-    disableSetting.infoEl.appendText("Requires a restart to take effect");
-    disableSetting.infoEl.style.color = this.app.vault.getConfig("accentColor") || "#7d5bed";
     if (import_obsidian15.Platform.isDesktopApp) {
       new import_obsidian15.Setting(containerEl).setName("Key for creating folder note").setDesc("The key combination to create a folder note").addDropdown((dropdown) => {
         if (!import_obsidian15.Platform.isMacOS) {
@@ -3678,25 +3733,6 @@ var SettingsTab = class extends import_obsidian15.PluginSettingTab {
         });
       });
     }
-    new import_obsidian15.Setting(containerEl).setName("Only open folder notes through the name").setDesc("Only open folder notes in the file explorer by clicking on the folder name").addToggle((toggle) => toggle.setValue(this.plugin.settings.allowWhitespaceCollapsing).onChange(async (value) => {
-      if (!value) {
-        document.body.classList.add("fn-whitespace-stop-collapsing");
-      } else {
-        document.body.classList.remove("fn-whitespace-stop-collapsing");
-      }
-      this.plugin.settings.allowWhitespaceCollapsing = value;
-      await this.plugin.saveSettings();
-    }));
-    new import_obsidian15.Setting(containerEl).setName("Hide folder note").setDesc("Hide the folder note in the file explorer").addToggle((toggle) => toggle.setValue(this.plugin.settings.hideFolderNote).onChange(async (value) => {
-      this.plugin.settings.hideFolderNote = value;
-      await this.plugin.saveSettings();
-      if (value) {
-        document.body.classList.add("hide-folder-note");
-      } else {
-        document.body.classList.remove("hide-folder-note");
-      }
-      this.display();
-    }));
     new import_obsidian15.Setting(containerEl).setName("Sync folder name").setDesc("Automatically rename the folder note when the folder name is changed").addToggle((toggle) => toggle.setValue(this.plugin.settings.syncFolderName).onChange(async (value) => {
       this.plugin.settings.syncFolderName = value;
       await this.plugin.saveSettings();
@@ -3719,36 +3755,6 @@ var SettingsTab = class extends import_obsidian15.PluginSettingTab {
       await this.plugin.saveSettings();
       this.display();
     }));
-    new import_obsidian15.Setting(containerEl).setName("Use submenus").setDesc("Use submenus for file/folder commands").addToggle((toggle) => toggle.setValue(this.plugin.settings.useSubmenus).onChange(async (value) => {
-      this.plugin.settings.useSubmenus = value;
-      await this.plugin.saveSettings();
-      this.display();
-    }));
-    new import_obsidian15.Setting(containerEl).setName("Add underline to folders with folder notes").setDesc("Add an underline to folders that have a folder note in the file explorer").addToggle((toggle) => toggle.setValue(this.plugin.settings.underlineFolder).onChange(async (value) => {
-      this.plugin.settings.underlineFolder = value;
-      if (value) {
-        document.body.classList.add("folder-note-underline");
-      } else {
-        document.body.classList.remove("folder-note-underline");
-      }
-      await this.plugin.saveSettings();
-    }));
-    new import_obsidian15.Setting(containerEl).setName("Open folder note through path").setDesc("Open a folder note when clicking on a folder name in the path if it is a folder note").addToggle((toggle) => toggle.setValue(this.plugin.settings.openFolderNoteOnClickInPath).onChange(async (value) => {
-      this.plugin.settings.openFolderNoteOnClickInPath = value;
-      await this.plugin.saveSettings();
-      this.display();
-    }));
-    if (this.plugin.settings.openFolderNoteOnClickInPath) {
-      new import_obsidian15.Setting(containerEl).setName("Underline folders in the path").setDesc("Add an underline to folders that have a folder note in the path above a note").addToggle((toggle) => toggle.setValue(this.plugin.settings.underlineFolderInPath).onChange(async (value) => {
-        this.plugin.settings.underlineFolderInPath = value;
-        if (value) {
-          document.body.classList.add("folder-note-underline-path");
-        } else {
-          document.body.classList.remove("folder-note-underline-path");
-        }
-        await this.plugin.saveSettings();
-      }));
-    }
     new import_obsidian15.Setting(containerEl).setName("Enable front matter title plugin integration").setDesc("Automatically rename a folder name when the folder note is renamed").addToggle((toggle) => toggle.setValue(this.plugin.settings.frontMatterTitle.enabled).onChange(async (value) => {
       var _a;
       this.plugin.settings.frontMatterTitle.enabled = value;
@@ -3768,25 +3774,6 @@ var SettingsTab = class extends import_obsidian15.PluginSettingTab {
       }
       this.display();
     }));
-    if (this.plugin.settings.frontMatterTitle.enabled) {
-      new import_obsidian15.Setting(containerEl).setName("Include file explorer").setDesc("Automatically rename a folder name in the file explorer when the folder note is renamed").addToggle((toggle) => toggle.setValue(this.plugin.settings.frontMatterTitle.explorer).onChange(async (value) => {
-        this.plugin.settings.frontMatterTitle.explorer = value;
-        await this.plugin.saveSettings();
-        this.plugin.app.vault.getFiles().forEach((file) => {
-          var _a;
-          (_a = this.plugin.fmtpHandler) == null ? void 0 : _a.handleRename({ id: "", result: false, path: file.path }, false);
-        });
-      }));
-      new import_obsidian15.Setting(containerEl).setName("Include path above note").setDesc("Automatically rename a folder name in the path above a note when the folder note is renamed").addToggle((toggle) => toggle.setValue(this.plugin.settings.frontMatterTitle.path).onChange(async (value) => {
-        this.plugin.settings.frontMatterTitle.path = value;
-        await this.plugin.saveSettings();
-        if (value) {
-          this.plugin.updateBreadcrumbs();
-        } else {
-          this.plugin.updateBreadcrumbs(true);
-        }
-      }));
-    }
     new import_obsidian15.Setting(containerEl).setName("Create folder note for every folder").setDesc("Create a folder note for every folder in the vault").addButton((cb) => {
       cb.setIcon("plus");
       cb.setTooltip("Create folder notes");
@@ -3794,9 +3781,69 @@ var SettingsTab = class extends import_obsidian15.PluginSettingTab {
         new ConfirmationModal(this.app, this.plugin).open();
       });
     });
+  }
+  renderFileExplorer() {
+    const containerEl = this.settingsPage;
+    this.settingsPage.createEl("h1", { text: "File explorer settings" });
+    new import_obsidian15.Setting(containerEl).setName("Add underline to folders with folder notes").setDesc("Add an underline to folders that have a folder note in the file explorer").addToggle((toggle) => toggle.setValue(this.plugin.settings.underlineFolder).onChange(async (value) => {
+      this.plugin.settings.underlineFolder = value;
+      if (value) {
+        document.body.classList.add("folder-note-underline");
+      } else {
+        document.body.classList.remove("folder-note-underline");
+      }
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian15.Setting(containerEl).setName("Hide folder note").setDesc("Hide the folder note in the file explorer").addToggle((toggle) => toggle.setValue(this.plugin.settings.hideFolderNote).onChange(async (value) => {
+      this.plugin.settings.hideFolderNote = value;
+      await this.plugin.saveSettings();
+      if (value) {
+        document.body.classList.add("hide-folder-note");
+      } else {
+        document.body.classList.remove("hide-folder-note");
+      }
+      this.display();
+    }));
+    new import_obsidian15.Setting(containerEl).setName("Only open folder notes through the name").setDesc("Only open folder notes in the file explorer by clicking on the folder name").addToggle((toggle) => toggle.setValue(this.plugin.settings.allowWhitespaceCollapsing).onChange(async (value) => {
+      if (!value) {
+        document.body.classList.add("fn-whitespace-stop-collapsing");
+      } else {
+        document.body.classList.remove("fn-whitespace-stop-collapsing");
+      }
+      this.plugin.settings.allowWhitespaceCollapsing = value;
+      await this.plugin.saveSettings();
+    }));
+    const disableSetting = new import_obsidian15.Setting(containerEl);
+    disableSetting.setName("Disable folder collapsing");
+    disableSetting.setDesc("Disable the ability to collapse folders by clicking exactly on the folder name");
+    disableSetting.addToggle((toggle) => toggle.setValue(!this.plugin.settings.enableCollapsing).onChange(async (value) => {
+      this.plugin.settings.enableCollapsing = !value;
+      await this.plugin.saveSettings();
+    }));
+    disableSetting.infoEl.appendText("Requires a restart to take effect");
+    disableSetting.infoEl.style.color = this.app.vault.getConfig("accentColor") || "#7d5bed";
+    new import_obsidian15.Setting(containerEl).setName("Use submenus").setDesc("Use submenus for file/folder commands").addToggle((toggle) => toggle.setValue(this.plugin.settings.useSubmenus).onChange(async (value) => {
+      this.plugin.settings.useSubmenus = value;
+      await this.plugin.saveSettings();
+      this.display();
+    }));
+    if (this.plugin.settings.frontMatterTitle.enabled) {
+      new import_obsidian15.Setting(containerEl).setName("Change folder name in the file explorer").setDesc("Automatically rename a folder name in the file explorer when the folder note is renamed").addToggle((toggle) => toggle.setValue(this.plugin.settings.frontMatterTitle.explorer).onChange(async (value) => {
+        this.plugin.settings.frontMatterTitle.explorer = value;
+        await this.plugin.saveSettings();
+        this.plugin.app.vault.getFiles().forEach((file) => {
+          var _a;
+          (_a = this.plugin.fmtpHandler) == null ? void 0 : _a.handleRename({ id: "", result: false, path: file.path }, false);
+        });
+      }));
+    }
+  }
+  renderExcludeFolders() {
+    this.settingsPage.createEl("h1", { text: "Exclude folders settings" });
+    const containerEl = this.settingsPage;
     const manageExcluded = new import_obsidian15.Setting(containerEl).setHeading().setClass("fn-excluded-folder-heading").setName("Manage excluded folders");
     const desc3 = document.createDocumentFragment();
-    desc3.append("Add {regex} at the beginning of the folder name to use a regex pattern.", desc.createEl("br"), "Use * before and after to exclude folders that include the name between the *s.", desc.createEl("br"), "Use * before the folder name to exclude folders that end with the folder name.", desc.createEl("br"), "Use * after the folder name to exclude folders that start with the folder name.");
+    desc3.append("Add {regex} at the beginning of the folder name to use a regex pattern.", desc3.createEl("br"), "Use * before and after to exclude folders that include the name between the *s.", desc3.createEl("br"), "Use * before the folder name to exclude folders that end with the folder name.", desc3.createEl("br"), "Use * after the folder name to exclude folders that start with the folder name.");
     manageExcluded.setDesc(desc3);
     manageExcluded.infoEl.appendText("The regexes and wildcards are only for the folder name, not the path.");
     manageExcluded.infoEl.createEl("br");
@@ -3821,6 +3868,42 @@ var SettingsTab = class extends import_obsidian15.PluginSettingTab {
         addExcludeFolderListItem(this, containerEl, excludedFolder);
       }
     });
+  }
+  renderFolderOverview() {
+    this.settingsPage.createEl("h1", { text: "Folder overview settings" });
+    const containerEl = this.settingsPage;
+    new import_obsidian15.Setting(containerEl).setName("Manage folder overview defaults").setDesc("Manage the default settings for the folder overview plugin").addButton((button) => button.setButtonText("Manage").setCta().onClick(async () => {
+      new FolderOverviewSettings(this.plugin.app, this.plugin, this.plugin.settings.defaultOverview, null, null, true).open();
+    }));
+  }
+  renderPath() {
+    this.settingsPage.createEl("h1", { text: "Path settings" });
+    const containerEl = this.settingsPage;
+    new import_obsidian15.Setting(containerEl).setName("Open folder note through path").setDesc("Open a folder note when clicking on a folder name in the path if it is a folder note").addToggle((toggle) => toggle.setValue(this.plugin.settings.openFolderNoteOnClickInPath).onChange(async (value) => {
+      this.plugin.settings.openFolderNoteOnClickInPath = value;
+      await this.plugin.saveSettings();
+      this.display();
+    }));
+    if (this.plugin.settings.openFolderNoteOnClickInPath) {
+      new import_obsidian15.Setting(containerEl).setName("Underline folders in the path").setDesc("Add an underline to folders that have a folder note in the path above a note").addToggle((toggle) => toggle.setValue(this.plugin.settings.underlineFolderInPath).onChange(async (value) => {
+        this.plugin.settings.underlineFolderInPath = value;
+        if (value) {
+          document.body.classList.add("folder-note-underline-path");
+        } else {
+          document.body.classList.remove("folder-note-underline-path");
+        }
+        await this.plugin.saveSettings();
+      }));
+    }
+    new import_obsidian15.Setting(containerEl).setName("Change folder name in the path").setDesc("Automatically rename a folder name in the path above a note when the folder note is renamed").addToggle((toggle) => toggle.setValue(this.plugin.settings.frontMatterTitle.path).onChange(async (value) => {
+      this.plugin.settings.frontMatterTitle.path = value;
+      await this.plugin.saveSettings();
+      if (value) {
+        this.plugin.updateBreadcrumbs();
+      } else {
+        this.plugin.updateBreadcrumbs(true);
+      }
+    }));
   }
   updateFolderNotes(oldTemplate, newTemplate) {
     this.plugin.settings.folderNoteName = newTemplate;

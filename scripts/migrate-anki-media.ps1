@@ -1,4 +1,5 @@
+# Define the path to Anki's collection.media folder
+$collectionMediaPath = "C:\Users\edmun\AppData\Roaming\Anki2\Edmund Leibert III (User 1)\collection.media"
 
-# Get every item in the Assets/Audio and Assets/Images folders and copy them to Anki's collection.media folder
-$collectionMediaPath = "C:\Users\edmun\AppData\Roaming\Anki2\Edmund Leibert III\collection.media"
-Get-ChildItem -Path {"..\Assets\Audio" , "..\Assets\Images"} -Recurse | Copy-Item -Destination $collectionMediaPath -Force
+# Copy the assets folder to the collection.media folder
+Copy-Item -Path "../assets" -Destination $collectionMediaPath -Recurse
