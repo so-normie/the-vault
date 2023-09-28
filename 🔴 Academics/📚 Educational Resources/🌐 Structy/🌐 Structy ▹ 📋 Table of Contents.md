@@ -1,7 +1,7 @@
 ---
 title: 🌐 Structy ▹ 📋 Table of Contents
 created: 2023-08-30 00:00
-updated: 2023-09-28 14:08
+updated: 2023-09-28 14:18
 authors:
   - Edmund Leibert III
 tags:
