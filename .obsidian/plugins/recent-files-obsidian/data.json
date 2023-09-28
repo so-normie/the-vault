@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "🌐 Structy ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "🗒️ SQL",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ SQL/🗒️ SQL.md"
+    },
+    {
       "basename": "Problems (Easy)",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md"
     },
@@ -9,12 +17,16 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
     },
     {
-      "basename": "1. Two Sum",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
+      "basename": "terror-interview-problem",
+      "path": "terror-interview-problem.md"
     },
     {
-      "basename": "🗒️ SQL",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ SQL/🗒️ SQL.md"
+      "basename": "0. Introduction ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "1. Two Sum",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
     },
     {
       "basename": "13. Roman to Integer",
@@ -187,18 +199,6 @@
     {
       "basename": "Pasted image 20230912115211",
       "path": "assets/images/Pasted image 20230912115211.png"
-    },
-    {
-      "basename": "geeks-for-geeks-uri-vs-url",
-      "path": "assets/images/geeks-for-geeks-uri-vs-url.png"
-    },
-    {
-      "basename": "data-engineer-project-1-prompt",
-      "path": "assets/images/data-engineer-project-1-prompt.png"
-    },
-    {
-      "basename": "aws-educate-analytics-data-models-data-table",
-      "path": "assets/images/aws-educate-analytics-data-models-data-table.png"
     }
   ],
   "omittedPaths": [],

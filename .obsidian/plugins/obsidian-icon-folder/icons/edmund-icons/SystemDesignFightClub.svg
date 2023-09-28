@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg width="200mm" height="200mm" viewBox="0 0 200 200" version="1.1" id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)" sodipodi:docname="SystemDesignFightClub.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+   <sodipodi:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25"
+      inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1"
+      inkscape:document-units="mm" inkscape:zoom="0.17304819" inkscape:cx="182.03022" inkscape:cy="286.04749"
+      inkscape:window-width="1920" inkscape:window-height="991" inkscape:window-x="-9" inkscape:window-y="-9"
+      inkscape:window-maximized="1" inkscape:current-layer="layer1" />
+   <defs id="defs1" />
+   <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
+      <rect fill="currentColor" style="stroke-width:1.31373" id="rect1" width="15.289576" height="233.54826" x="92.884171" y="-16.436291"
+         rx="20" />
+      <rect fill="currentColor" style="stroke-width:1.29423" id="rect1-8" width="15.289576" height="226.66795" x="91.185783" y="-214.37061"
+         rx="20" transform="rotate(89.911896)" />
+      <text xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.3687px;font-family:Corbel;-inkscape-font-specification:'Corbel Bold';stroke-width:5.25199;fill:currentColor"
+         x="19.237822" y="75.781273" id="text1">
+         <tspan sodipodi:role="line" id="tspan1"
+            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.3688px;font-family:Corbel;-inkscape-font-specification:'Corbel Bold';stroke-width:5.25199"
+            x="19.237822" y="75.781273">S</tspan>
+      </text>
+      <text xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.3687px;font-family:Corbel;-inkscape-font-specification:'Corbel Bold';stroke-width:5.25199;fill:currentColor"
+         x="120.57687" y="76.102715" id="text1-2">
+         <tspan sodipodi:role="line" id="tspan1-7"
+            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.3688px;font-family:Corbel;-inkscape-font-specification:'Corbel Bold';stroke-width:5.25199"
+            x="120.57687" y="76.102715">D</tspan>
+      </text>
+      <text xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.3687px;font-family:Corbel;-inkscape-font-specification:'Corbel Bold';stroke-width:5.25199;fill:currentColor"
+         x="20.619057" y="184.54105" id="text1-2-7">
+         <tspan sodipodi:role="line" id="tspan1-7-9"
+            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.3688px;font-family:Corbel;-inkscape-font-specification:'Corbel Bold';stroke-width:5.25199"
+            x="20.619057" y="184.54105">F</tspan>
+      </text>
+      <text xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.3687px;font-family:Corbel;-inkscape-font-specification:'Corbel Bold';stroke-width:5.25199;fill:currentColor"
+         x="123.19572" y="183.52356" id="text1-2-7-2">
+         <tspan sodipodi:role="line" id="tspan1-7-9-0"
+            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.3688px;font-family:Corbel;-inkscape-font-specification:'Corbel Bold';stroke-width:5.25199"
+            x="123.19572" y="183.52356">C</tspan>
+      </text>
+   </g>
+</svg>
