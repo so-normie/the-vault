@@ -1,7 +1,7 @@
 ---
 title: 🌐 Structy ▹ 📋 Table of Contents
 created: 2023-08-30 00:00
-updated: 2023-09-28 14:35
+updated: 2023-09-28 16:30
 authors:
   - Edmund Leibert III
 tags:
@@ -51,13 +51,11 @@ What is the website **Structy**?
 <span class="spoiler">Structy</span> is an online platform that teaches data structures and algorithms. It is designed to help one learn the concepts and skills you need to succeed in technical interviews.
 
 ⌂
-<br>﹈<br>
-
+<br>﹈<br>^1695943908172
 
 
 My favorite color is {1:red}
-
-
+^1695943908175
 
 ```dataviewjs
 // Generate a nested object from a list of file paths
