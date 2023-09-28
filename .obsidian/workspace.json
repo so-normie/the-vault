@@ -4,51 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c784ec42d8517115",
+        "id": "7bdba98c51efe455",
         "type": "tabs",
         "children": [
           {
-            "id": "6b75421f5dd591a3",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Problems (Easy)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":1648.9758522727273}"
-                },
-                {
-                  "title": "🗒️ JetBrains",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ JetBrains.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "1. Two Sum",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":897.2866536458333}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🗒️ SQL/🗒️ SQL.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b6fdea58a07b909c",
+            "id": "a20164387640aaab",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -59,48 +19,17 @@
                 }
               ]
             },
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "8579d95536c200ba",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "1. Two Sum",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":22.0440673828125}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,11 +137,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 460.5
+    "width": 448.5,
+    "collapsed": true
   },
   "right": {
     "id": "128fe29333f9ab00",
@@ -254,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -357,7 +287,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md"
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
               }
             }
           }
@@ -395,19 +325,25 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "b6fdea58a07b909c",
+  "active": "a20164387640aaab",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 LeetCode ꞉꞉ Problems ꞉꞉ {{Note}}).md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md",
+    "templates/Template {{Templater ⊃ tp.file.creation_date}}.md",
+    "templates/Template {{Solution}}.md",
+    "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}}).md",
+    "terror-interview-problem.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md",
     "assets/images/leetcode.svg",
     "🔴 Academics/📚 Educational Resources/🗒️ SQL",
     "assets/images/jpg",
     "assets/images/svg/leetcode.svg",
     "assets/images/svg",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md",
     "🔴 Academics/📚 Educational Resources/🗒️ SQL/🗒️ SQL.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/13. Roman to Integer.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/9. Palindrome Number.md",
@@ -425,12 +361,6 @@
     "🔴 Academics/📚 Educational Resources/Spark Optimization/Partition vs Bucketing.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Anaconda.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/015. array and string quiz 📝.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/016. array and string wrap up 👨🏻‍🏫.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ C++.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ ESLint.md",
-    "🔴 Academics/📚 Educational Resources/Google Apps Scripts.md",
-    "🔴 Academics/📚 Educational Resources/sortspec.md",
-    "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Resource Allocation.md",
     "Untitled.loom",
     "🔴 Academics/📚 Educational Resources/Spark Optimization/Optimizing DataFrame Transformations",
     "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors",

@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Problems (Easy)",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md"
+      "basename": "🌐 Structy ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 LeetCode ꞉꞉ Problems ꞉꞉ {{Note}})",
+      "path": "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 LeetCode ꞉꞉ Problems ꞉꞉ {{Note}}).md"
     },
     {
       "basename": "🌐 LeetCode ▹ 📋 Table of Contents",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "Problems (Easy)",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md"
+    },
+    {
+      "basename": "Template {{Templater ⊃ tp.file.creation_date}}",
+      "path": "templates/Template {{Templater ⊃ tp.file.creation_date}}.md"
+    },
+    {
+      "basename": "Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}})",
+      "path": "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}}).md"
     },
     {
       "basename": "1. Two Sum",
@@ -177,28 +193,12 @@
       "path": "🔴 Academics/📚 Educational Resources/📕 Discrete Mathematics and Its Applications, 8ᵗʰ Edition.md"
     },
     {
-      "basename": "Terror interview prolbelm",
-      "path": "Terror interview prolbelm.md"
-    },
-    {
       "basename": "Pasted image 20230912115122",
       "path": "assets/images/Pasted image 20230912115122.png"
     },
     {
       "basename": "Pasted image 20230912115211",
       "path": "assets/images/Pasted image 20230912115211.png"
-    },
-    {
-      "basename": "geeks-for-geeks-uri-vs-url",
-      "path": "assets/images/geeks-for-geeks-uri-vs-url.png"
-    },
-    {
-      "basename": "data-engineer-project-1-prompt",
-      "path": "assets/images/data-engineer-project-1-prompt.png"
-    },
-    {
-      "basename": "aws-educate-analytics-data-models-data-table",
-      "path": "assets/images/aws-educate-analytics-data-models-data-table.png"
     }
   ],
   "omittedPaths": [],

@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "EiOreilly",
       "SiGooglecloud",
       "SiTypescript",
       "TiBrandTypescript",
-      "SiJetbrains",
-      "EiStructy"
+      "SiJetbrains"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -227,7 +227,7 @@
   "🔴 Academics/📚 Educational Resources/🌐 IBM Technology.md": "SiYoutube",
   "🔴 Academics/📚 Educational Resources/🌐 Poetry Documentation.md": "SiPoetry",
   "🔴 Academics/📚 Educational Resources/🌐 Typst.md": "RiDocumentBookMarkLine",
-  "🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)": "SiOreilly",
+  "🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)": "EiOreilly",
   "🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)/Chapter 1. A Little Background.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)/Chapter 2. Creating and Populating a Database.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)/Preface.md": "RiBookmarkLine",
