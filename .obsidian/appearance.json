@@ -1,28 +1,17 @@
 {
-  "accentColor": "#8400c2",
+  "accentColor": "",
+  "theme": "moonstone",
+  "nativeMenus": true,
   "translucency": true,
-  "interfaceFontFamily": "",
-  "textFontFamily": "Atkinson Hyperlegible",
-  "monospaceFontFamily": "CaskaydiaCove Nerd Font",
-  "cssTheme": "Minimal",
   "enabledCssSnippets": [
-    "realistic-highlight",
-    "header-font-sizes",
     "spoiler",
-    "keyboard-buttons",
+    "source-mode",
+    "realistic-highlight",
     "keyboard-button",
     "header-font-size",
-    "callouts",
     "code",
-    "source-mode"
+    "callouts"
   ],
-  "baseFontSizeAction": true,
-<<<<<<< HEAD
-  "theme": "moonstone",
-=======
-  "theme": "obsidian",
->>>>>>> eb0cb116bf466b813753bf1c96d7b2d13d532edc
-  "nativeMenus": true,
-  "showViewHeader": true,
-  "baseFontSize": 16
+  "monospaceFontFamily": "CaskaydiaCove Nerd Font",
+  "textFontFamily": "Atkinson Hyperlegible"
 }

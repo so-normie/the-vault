@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiVisualstudiocode",
+      "SiYarn",
+      "SiVisualstudio",
       "EiOreilly",
-      "SiGooglecloud",
-      "SiTypescript",
-      "TiBrandTypescript",
-      "SiJetbrains"
+      "SiGooglecloud"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -423,5 +423,8 @@
   "🔴 Academics/📚 Educational Resources/🗒️ Angular.md": "SiAngular",
   "🔴 Academics/📚 Educational Resources/🗒️ Bash.md": "SiGnubash",
   "🔴 Academics/📚 Educational Resources/🗒️ GitHub CLI.md": "SiGithub",
-  "🔴 Academics/📚 Educational Resources/🗒️ SQL": "TiSql"
+  "🔴 Academics/📚 Educational Resources/🗒️ SQL": "TiSql",
+  "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio": "SiVisualstudio",
+  "🔴 Academics/📚 Educational Resources/🗒️ Yarn": "SiYarn",
+  "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio Code": "SiVisualstudiocode"
 }

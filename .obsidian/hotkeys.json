@@ -32,14 +32,6 @@
       "key": "L"
     }
   ],
-  "app:toggle-right-sidebar": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "R"
-    }
-  ],
   "obsidian-quiet-outline:quiet-outline": [
     {
       "modifiers": [
@@ -66,5 +58,34 @@
       ],
       "key": "O"
     }
-  ]
+  ],
+  "workspace:goto-tab-3": [],
+  "workspace:goto-tab-6": [],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "obsidian-excalidraw-plugin:save": [],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "R"
+    }
+  ],
+  "templater-obsidian:replace-in-file-templater": []
 }
