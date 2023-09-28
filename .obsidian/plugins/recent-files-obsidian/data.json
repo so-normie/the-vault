@@ -5,12 +5,17 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
     },
     {
+<<<<<<< HEAD
       "basename": "Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 LeetCode ꞉꞉ Problems ꞉꞉ {{Note}})",
       "path": "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 LeetCode ꞉꞉ Problems ꞉꞉ {{Note}}).md"
     },
     {
       "basename": "🌐 LeetCode ▹ 📋 Table of Contents",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
+=======
+      "basename": "🗒️ SQL",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ SQL/🗒️ SQL.md"
+>>>>>>> eb0cb116bf466b813753bf1c96d7b2d13d532edc
     },
     {
       "basename": "Problems (Easy)",
@@ -25,12 +30,16 @@
       "path": "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}}).md"
     },
     {
-      "basename": "1. Two Sum",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
+      "basename": "terror-interview-problem",
+      "path": "terror-interview-problem.md"
     },
     {
-      "basename": "🗒️ SQL",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ SQL/🗒️ SQL.md"
+      "basename": "0. Introduction ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "1. Two Sum",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
     },
     {
       "basename": "13. Roman to Integer",

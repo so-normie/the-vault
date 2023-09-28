@@ -11,7 +11,11 @@ tags:
   - study-note
 cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Rust
 sticker: emoji//1f602
+<<<<<<< HEAD
 updated: 2023-09-28 14:16
+=======
+updated: 2023-09-22 09:56
+>>>>>>> eb0cb116bf466b813753bf1c96d7b2d13d532edc
 ---
 TARGET DECK: 🔴 Academics::📚 Educational Resources::🗒️ Rust 
 

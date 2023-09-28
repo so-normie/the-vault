@@ -3,7 +3,11 @@ tags:
   - 🔴-academics/📚-educational-resources/discipline/computer-science/spark
 cards-deck: Default::Computer Science
 created: 2023-09-12 11:38
+<<<<<<< HEAD
 updated: 2023-09-28 14:16
+=======
+updated: 2023-09-18 18:04
+>>>>>>> eb0cb116bf466b813753bf1c96d7b2d13d532edc
 ---
 Allocating only 10% of memory to a Spark executor can lead to issues such as "Container killed by YARN for exceeding memory limits" for several reasons:
 

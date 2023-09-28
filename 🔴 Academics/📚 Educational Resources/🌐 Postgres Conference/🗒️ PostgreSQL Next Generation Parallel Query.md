@@ -8,7 +8,11 @@ tags:
   - study-note
 cards-deck: Default::Computer Science
 created: 2023-09-04 15:48
+<<<<<<< HEAD
 updated: 2023-09-28 14:16
+=======
+updated: 2023-09-22 09:56
+>>>>>>> eb0cb116bf466b813753bf1c96d7b2d13d532edc
 ---
 
 # [Seminar by Robert Haas (PostgreSQL core contributor)](https://www.youtube.com/watch?v=H38NT8cHGXo&pp=ygUqcm9iZXJ0IGhhYXMgbmV4dCBnZW5lcmF0aW9uIHBhcmFsbGVsIHF1ZXJ5) 

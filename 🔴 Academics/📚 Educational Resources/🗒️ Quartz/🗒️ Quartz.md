@@ -7,7 +7,11 @@ tags:
   - 🔴-academics/📚-educational-resources/name/quartz
   - study-note
 cards-deck: Default::Computer Science
+<<<<<<< HEAD
 updated: 2023-09-28 14:16
+=======
+updated: 2023-09-22 09:56
+>>>>>>> eb0cb116bf466b813753bf1c96d7b2d13d532edc
 ---
 
 # 🗒️ Quartz

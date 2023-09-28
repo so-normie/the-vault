@@ -1,6 +1,10 @@
 ---
 title: 🗒️ JetBrains
+<<<<<<< HEAD
 updated: 2023-09-28 14:16
+=======
+updated: 2023-09-24 08:26
+>>>>>>> eb0cb116bf466b813753bf1c96d7b2d13d532edc
 created: 2023-08-04 01:58
 authors:
   - Edmund Leibert III

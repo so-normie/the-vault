@@ -17,7 +17,11 @@
     "source-mode"
   ],
   "baseFontSizeAction": true,
+<<<<<<< HEAD
   "theme": "moonstone",
+=======
+  "theme": "obsidian",
+>>>>>>> eb0cb116bf466b813753bf1c96d7b2d13d532edc
   "nativeMenus": true,
   "showViewHeader": true,
   "baseFontSize": 16

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 tags:
   - 🔴-academics/📚-educational-resources/name/merriam-webster
   - 🔴-academics/📚-educational-resources/discipline/english/dictionary/weekly-challenges
@@ -6,6 +7,10 @@ tags:
 cards-deck: Default::English
 created: 2023-09-28 14:16
 updated: 2023-09-28 14:16
+=======
+tags: [🔴-academics/📚-educational-resources/name/merriam-webster, 🔴-academics/📚-educational-resources/discipline/english/dictionary/weekly-challenges, study-note] 
+cards-deck: Default::English
+>>>>>>> eb0cb116bf466b813753bf1c96d7b2d13d532edc
 ---
 
 # Merriam-Webster
