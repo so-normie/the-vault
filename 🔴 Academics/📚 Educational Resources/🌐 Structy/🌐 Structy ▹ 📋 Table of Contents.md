@@ -1,7 +1,7 @@
 ---
 title: 🌐 Structy ▹ 📋 Table of Contents
 created: 2023-08-30 00:00
-updated: 2023-09-28 16:30
+updated: 2023-09-29 15:30
 authors:
   - Edmund Leibert III
 tags:
@@ -51,11 +51,11 @@ What is the website **Structy**?
 <span class="spoiler">Structy</span> is an online platform that teaches data structures and algorithms. It is designed to help one learn the concepts and skills you need to succeed in technical interviews.
 
 ⌂
-<br>﹈<br>^1695943908172
+<br>﹈<br>
 
 
-My favorite color is {1:red}
-^1695943908175
+
+**Table of Contents**
 
 ```dataviewjs
 // Generate a nested object from a list of file paths
@@ -187,8 +187,33 @@ function moveTableOfContentsToTop(inputString) {
     return flattenNodes(root).join('\n');
 }
 
+
+function trimTOC(toc, current_folder) {
+  // Split the TOC into lines
+  const lines = toc.split("\n");
+
+  // Calculate how many lines to remove based on the length of current_folder
+  const numLinesToRemove = current_folder.split("/").length - 1;
+
+  // Remove the first numLinesToRemove lines
+  const newLines = lines.slice(numLinesToRemove);
+
+  // Calculate how many spaces to remove based on numLinesToRemove
+  const numSpacesToRemove = (numLinesToRemove - 1) * 2;
+
+  // Remove numSpacesToRemove spaces from the beginning of each line
+  const trimmedLines = newLines.map(line => line.slice(numSpacesToRemove));
+
+  // Join the lines back into a single string
+  const trimmedTOC = trimmedLines.join("\n");
+
+  return trimmedTOC;
+}
+
+
 // Main program
 const current_folder = dv.current().file.folder;
+console.log(current_folder);
 const files = dv.pages(`"${current_folder}"`).values;
 
 // Build file tree
@@ -200,7 +225,10 @@ const toc = generateTOC(fileTree);
 // Sort Table of Contents
 const toc_sorted = moveTableOfContentsToTop(toc);
 
-dv.paragraph(toc_sorted);
+// trimmedTOC
+const trimmedTOC = trimTOC(toc, current_folder);
+
+dv.paragraph(trimmedTOC);
 ```
 
 ---

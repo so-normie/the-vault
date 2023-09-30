@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "tag:#🔴-academics/📚-educational-resources/name/🌐-structy  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 15.3326403326403,
   "linkStrength": 0.458939708939709,
   "linkDistance": 30,
-  "scale": 0.07389738850939896,
-  "close": false
+  "scale": 0.033828797509863326,
+  "close": true
 }

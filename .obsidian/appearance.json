@@ -1,5 +1,5 @@
 {
-  "accentColor": "",
+  "accentColor": "#734eca",
   "theme": "moonstone",
   "nativeMenus": true,
   "translucency": true,
@@ -13,5 +13,6 @@
     "callouts"
   ],
   "monospaceFontFamily": "CaskaydiaCove Nerd Font",
-  "textFontFamily": "Atkinson Hyperlegible"
+  "textFontFamily": "Atkinson Hyperlegible",
+  "cssTheme": "Minimal"
 }
