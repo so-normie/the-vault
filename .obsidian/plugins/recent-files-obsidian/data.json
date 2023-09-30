@@ -1,24 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "🗒️ C++ ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md"
+      "basename": "26. Remove Duplicates from Sorted Array",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/26. Remove Duplicates from Sorted Array.md"
     },
     {
-      "basename": "🌐 Structy ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
+      "basename": "000. course introduction 👨🏻‍🏫",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md"
     },
     {
       "basename": "sortspec",
       "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
     },
     {
-      "basename": "Misc. Notes",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++/Misc. Notes.md"
+      "basename": "🌐 Structy ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
     },
     {
-      "basename": "000. course introduction 👨🏻‍🏫",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md"
+      "basename": "Template (🔴 Academics꞉꞉📚 Educational Resources꞉꞉🌐 LeetCode꞉꞉Problems꞉꞉{{Note}})",
+      "path": "templates/Template (🔴 Academics꞉꞉📚 Educational Resources꞉꞉🌐 LeetCode꞉꞉Problems꞉꞉{{Note}}).md"
+    },
+    {
+      "basename": "020. linked list values 👨🏽‍💻",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/020. linked list values 👨🏽‍💻.md"
+    },
+    {
+      "basename": "0. Introduction ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "Untitled 1",
+      "path": "Untitled 1.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "🗒️ C++ ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "Misc. Notes",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++/Misc. Notes.md"
     },
     {
       "basename": "005. array and string welcome 👨🏻‍🏫",
@@ -33,10 +57,6 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md"
     },
     {
-      "basename": "0. Introduction ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
-    },
-    {
       "basename": "🌐 Typst",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Typst/🌐 Typst.md"
     },
@@ -47,10 +67,6 @@
     {
       "basename": "🗒️ Lua",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ Lua/🗒️ Lua.md"
-    },
-    {
-      "basename": "Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 LeetCode ꞉꞉ Problems ꞉꞉ {{Note}})",
-      "path": "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 LeetCode ꞉꞉ Problems ꞉꞉ {{Note}}).md"
     },
     {
       "basename": "Problems (Easy)",

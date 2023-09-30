@@ -134,29 +134,7 @@
             }
           },
           {
-            "id": "837891f0348446c0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "6484977578d228ce",
+            "id": "6e0113e4f08c93b9",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -171,14 +149,64 @@
               "type": "markdown",
               "state": {
                 "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2b8682f3af068b9a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
                 "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3de339ed07b69213",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template (🔴 Academics꞉꞉📚 Educational Resources꞉꞉🌐 LeetCode꞉꞉Problems꞉꞉{{Note}})",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Template (🔴 Academics꞉꞉📚 Educational Resources꞉꞉🌐 LeetCode꞉꞉Problems꞉꞉{{Note}}).md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/26. Remove Duplicates from Sorted Array.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -290,7 +318,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 448.5
+    "width": 448.5,
+    "collapsed": true
   },
   "right": {
     "id": "128fe29333f9ab00",
@@ -332,7 +361,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/26. Remove Duplicates from Sorted Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -358,7 +387,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md",
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/26. Remove Duplicates from Sorted Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -435,17 +464,15 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md"
+                "file": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/26. Remove Duplicates from Sorted Array.md"
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 549.5,
-    "collapsed": true
+    "width": 549.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -473,23 +500,27 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "837891f0348446c0",
+  "active": "3de339ed07b69213",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/sortspec.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ C++/Misc. Notes.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
+    "🔴 Academics/📚 Educational Resources/sortspec.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/26. Remove Duplicates from Sorted Array.md",
+    "templates/Template (🔴 Academics꞉꞉📚 Educational Resources꞉꞉🌐 LeetCode꞉꞉Problems꞉꞉{{Note}}).md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/020. linked list values 👨🏽‍💻.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ C++/Misc. Notes.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/005. array and string welcome 👨🏻‍🏫.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Untitled.loom",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Untitled.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/🌐 Typst/🌐 Typst.md",
     "🔴 Academics/📚 Educational Resources/📕 Calculus with Multiple Variables Essential Skills Workbook꞉ Includes Vector Calculus and Full Solutions.md",
     "🔴 Academics/📚 Educational Resources/📕 Fluent Python, 2ⁿᵈ Edition (2022).md",
@@ -503,14 +534,10 @@
     "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio Code/🗒️ Visual Studio Code ▹ 📋 Table of Contents.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio Code/Keyboard Shortcuts.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio Code",
-    "🔴 Academics/📚 Educational Resources/🗒️ Vimium/🗒️ Vimium.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Vimium",
-    "🔴 Academics/📚 Educational Resources/🗒️ TypeScript/🗒️ TypeScript.md",
     "🔴 Academics/📚 Educational Resources/🗒️ TypeScript",
     "🔴 Academics/📚 Educational Resources/🗒️ State Tool",
-    "🔴 Academics/📚 Educational Resources/🗒️ SQL Server/🗒️ SQL Server.md",
     "🔴 Academics/📚 Educational Resources/🗒️ SQL Server",
-    "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Optimizing DataFrame Transformations/General Join Mechanics.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Optimizing DataFrame Transformations",
     "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Causes of OOM Errors",
     "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization",

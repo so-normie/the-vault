@@ -2901,18 +2901,18 @@
     "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 663,
+      "wordCount": 664,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 2.21,
-      "characterCount": 5509,
-      "nonWhitespaceCharacterCount": 4143,
+      "pageCount": 2.2133333333333334,
+      "characterCount": 5537,
+      "nonWhitespaceCharacterCount": 4169,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1693755966863,
-      "modifiedDate": 1696026654821,
-      "sizeInBytes": 6186
+      "modifiedDate": 1696037036862,
+      "sizeInBytes": 6214
     },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md": {
       "isDirectory": false,
@@ -5189,18 +5189,18 @@
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 117,
+      "wordCount": 122,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.39,
-      "characterCount": 801,
-      "nonWhitespaceCharacterCount": 657,
+      "pageCount": 0.4066666666666667,
+      "characterCount": 833,
+      "nonWhitespaceCharacterCount": 678,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1693755966792,
-      "modifiedDate": 1694727175984,
-      "sizeInBytes": 1594
+      "modifiedDate": 1696037597543,
+      "sizeInBytes": 1624
     },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md": {
       "isDirectory": false,
@@ -5221,18 +5221,18 @@
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 483,
+      "wordCount": 590,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.61,
-      "characterCount": 4053,
-      "nonWhitespaceCharacterCount": 2917,
+      "pageCount": 1.9666666666666666,
+      "characterCount": 4926,
+      "nonWhitespaceCharacterCount": 3642,
       "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1693755966790,
-      "modifiedDate": 1696021505751,
-      "sizeInBytes": 4777
+      "modifiedDate": 1696037375280,
+      "sizeInBytes": 5648
     },
     "🔴 Academics/📚 Educational Resources/🌐 Poetry Documentation/🌐 Poetry Documentation.md": {
       "isDirectory": false,
@@ -8225,22 +8225,6 @@
       "createdDate": 1694131077338,
       "modifiedDate": 1694203898541,
       "sizeInBytes": 907
-    },
-    "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 LeetCode ꞉꞉ Problems ꞉꞉ {{Note}}).md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 43,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.14333333333333334,
-      "characterCount": 264,
-      "nonWhitespaceCharacterCount": 178,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1694153282624,
-      "modifiedDate": 1695797493342,
-      "sizeInBytes": 1094
     },
     "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🗒️ {{Scratch Note}} ▹ 📋 Table of Contents).md": {
       "isDirectory": false,
@@ -11937,6 +11921,70 @@
       "createdDate": 1693755957737,
       "modifiedDate": 1693755957738,
       "sizeInBytes": 299
+    },
+    "Untitled.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1696036456762,
+      "modifiedDate": 1696036456762,
+      "sizeInBytes": 0
+    },
+    "Untitled 1.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1696036460170,
+      "modifiedDate": 1696036460170,
+      "sizeInBytes": 0
+    },
+    "templates/Template (🔴 Academics꞉꞉📚 Educational Resources꞉꞉🌐 LeetCode꞉꞉Problems꞉꞉{{Note}}).md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 48,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.16,
+      "characterCount": 267,
+      "nonWhitespaceCharacterCount": 199,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1694153282624,
+      "modifiedDate": 1696040239511,
+      "sizeInBytes": 1080
+    },
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/26. Remove Duplicates from Sorted Array.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 825,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.75,
+      "characterCount": 6370,
+      "nonWhitespaceCharacterCount": 5277,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1696040278585,
+      "modifiedDate": 1696046603531,
+      "sizeInBytes": 7419
     }
   }
 }

@@ -1,7 +1,7 @@
 ---
 title: 🌐 Structy ▹ 📋 Table of Contents
 created: 2023-08-30 00:00
-updated: 2023-09-29 15:30
+updated: 2023-09-29 18:23
 authors:
   - Edmund Leibert III
 tags:
@@ -51,11 +51,12 @@ What is the website **Structy**?
 <span class="spoiler">Structy</span> is an online platform that teaches data structures and algorithms. It is designed to help one learn the concepts and skills you need to succeed in technical interviews.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1696037036801
 
 
 
-**Table of Contents**
+
+## Table of Contents
 
 ```dataviewjs
 // Generate a nested object from a list of file paths
@@ -188,7 +189,7 @@ function moveTableOfContentsToTop(inputString) {
 }
 
 
-function trimTOC(toc, current_folder) {
+function trimTOC(toc_sorted, current_folder) {
   // Split the TOC into lines
   const lines = toc.split("\n");
 
@@ -226,7 +227,7 @@ const toc = generateTOC(fileTree);
 const toc_sorted = moveTableOfContentsToTop(toc);
 
 // trimmedTOC
-const trimmedTOC = trimTOC(toc, current_folder);
+const trimmedTOC = trimTOC(toc_sorted, current_folder);
 
 dv.paragraph(trimmedTOC);
 ```

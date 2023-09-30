@@ -15,28 +15,31 @@ tags:
 cards-deck: 🔴 Academics::📚 Educational Resources::🌐 LeetCode::Problems::<% tp.file.title %>
 ---
 
-# 🌐 Structy
+# <% tp.file.title %>
 
 ---
 
-## 🕸️ All Mention(s): 
+> [!abstract]+ Abstract 
+> 
 
 ---
 
-## 🔙 Previous Note(s):
+> [!info]+ 🕸️ All Mention(s): 
+> 
 
 ---
 
-## 0. Introduction
+> [!info]+ 🔙 Previous Note(s):
+> 
 
-### <% tp.file.title %>
+---
 
 > [!info]+ Where can the problem be found?
 > The problem can be found here: 
 
 ---
 
-## 🔜 Next Note(s):
-- 
+> [!info]+ 🔜 Next Note(s):
+> - 
 
 ---
