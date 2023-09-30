@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasPerson",
+      "EiScribbleNotes",
       "EiPostgreSQL",
       "TiCards",
-      "TiNotes",
-      "EiMsys2",
-      "EiUseTheIndexLuke"
+      "TiNotes"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -458,5 +458,9 @@
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md": "TiNotes",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/175. Combine Two Tables.md": "TiNotes",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/181. Employees Earning More Than Their Managers.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🌐 PostgreSQL Documentation": "EiPostgreSQL"
+  "🔴 Academics/📚 Educational Resources/🌐 PostgreSQL Documentation": "EiPostgreSQL",
+  "🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms  Library.md": "EiScribbleNotes",
+  "🔴 Academics/📚 Educational Resources/🗒️ C++/Misc. Notes.md": "EiScribbleNotes",
+  "🔴 Academics/📚 Educational Resources/🗒️ C++/MSVC.md": "EiScribbleNotes",
+  "Untitled.md": "FasPerson"
 }

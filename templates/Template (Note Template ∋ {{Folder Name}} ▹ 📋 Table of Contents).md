@@ -17,6 +17,8 @@ cards-deck: 🔴 Academics::📚 Educational Resources::🗒️::<% tp.file.titl
 
 <% tp.file.folder(false) %>
 
+<% tp.file.path(true) %>
+
 ---
 
 > [!Abstract]+ Abstract
@@ -35,6 +37,52 @@ cards-deck: 🔴 Academics::📚 Educational Resources::🗒️::<% tp.file.titl
 ---
 
 ```dataviewjs
+// Generate a nested object from a list of file paths
+function buildFileTree(files) {
+  const root = {};
+  
+  for (const file of files) {
+    let node = root;
+    const parts = file.file.path.split('/');
+    
+    for (const part of parts) {
+      if (!node[part]) {
+        node[part] = {};
+      }
+      node = node[part];
+    }
+
+    node['metadata'] = file;
+  }
+  
+  return root;
+}
+
+// Generate the table of contents recursively from the file tree
+function generateTOC(node, indentLevel = 0) {
+  let toc = '';
+  const indent = ' '.repeat(indentLevel * 2);
+
+  for (const [key, value] of Object.entries(node)) {
+    if (key === 'metadata') {
+      const file = value;
+      toc += `${indent}- ${file.file.link}\n`;
+    } else {
+      // Check if the current node is a leaf node
+      if (value.hasOwnProperty('metadata')) {
+        const file = value.metadata;
+        toc += `${indent}- ${file.file.link}\n`;
+      } else {
+        toc += `${indent}- ${key}\n`;
+        toc += generateTOC(value, indentLevel + 1);
+      }
+    }
+  }
+
+  return toc;
+}
+
+
 function parseTOC(tocParagraph) {
   // Split the paragraph by lines
   const lines = tocParagraph.split('\n');
@@ -51,7 +99,7 @@ function parseTOC(tocParagraph) {
     const indentLevel = line.search(/\S|$/) / 2;
 
     // Extract the actual content by trimming the leading spaces
-    const content = line;
+    const content = line.trim();
 
     // Add the parsed entry to the list
     parsedList.push({
@@ -61,58 +109,6 @@ function parseTOC(tocParagraph) {
   }
 
   return parsedList;
-}
-
-// Generate a nested object from a list of file paths
-function buildFileTree(files) {
-  const root = {};
-  
-  for (const file of files) {
-    let node = root;
-    const parts = file.file.path.split('/');
-    
-    for (const part of parts) {
-      if (!node[part]) {
-        node[part] = {};
-      }
-      node = node[part];
-    }
-
-    node['file_metadata'] = file;
-  }
-  
-  return root;
-}
-
-// Generate the table of contents recursively from the file tree
-function generateTOC(node, indentLevel = 0) {
-  let toc = '';
-  const indent = ' '.repeat(indentLevel * 2);
-  
-  for (const [key, value] of Object.entries(node)) {
-	console.log("key: ");
-	console.log(key);
-    console.log("value: ");
-    console.log(value);
-    if (key === 'file_metadata') {
-      const file = value;
-      toc += `${indent}- ${file.file.link}\n`;
-    } 
-    else {
-	  if(Object.entries(value)[0][0] === 'file_metadata') {
-		  console.log("Current level is a file");
-		  const file = Object.entries(value)[0][1];
-		  toc += `${indent}- ${file.file.link}\n`;
-	  }
-	  else {
-		  console.log("Current level is NOT file");
-		  toc += `${indent}- ${key}\n`;
-		  toc += generateTOC(value, indentLevel + 1);
-	  }
-    }
-  }
-
-  return toc;
 }
 
 function moveTableOfContentsToTop(inputString) {
@@ -171,30 +167,47 @@ function moveTableOfContentsToTop(inputString) {
 }
 
 
+function trimTOC(toc_sorted, current_folder) {
+  // Split the TOC into lines
+  const lines = toc.split("\n");
+
+  // Calculate how many lines to remove based on the length of current_folder
+  const numLinesToRemove = current_folder.split("/").length - 1;
+
+  // Remove the first numLinesToRemove lines
+  const newLines = lines.slice(numLinesToRemove);
+
+  // Calculate how many spaces to remove based on numLinesToRemove
+  const numSpacesToRemove = (numLinesToRemove - 1) * 2;
+
+  // Remove numSpacesToRemove spaces from the beginning of each line
+  const trimmedLines = newLines.map(line => line.slice(numSpacesToRemove));
+
+  // Join the lines back into a single string
+  const trimmedTOC = trimmedLines.join("\n");
+
+  return trimmedTOC;
+}
+
+
 // Main program
 const current_folder = dv.current().file.folder;
+console.log(current_folder);
 const files = dv.pages(`"${current_folder}"`).values;
 
 // Build file tree
 const fileTree = buildFileTree(files);
-console.log("fileTree: ");
-console.log(fileTree);
 
 // Generate Table of Contents
-let toc = generateTOC(fileTree);
+const toc = generateTOC(fileTree);
 
-// Remove the first lines of the TOC that are not necessary
-const current_folder_length = current_folder.split("/").length;
-toc = toc.split('\n').slice(current_folder_length - 1).join('\n');
+// Sort Table of Contents
+const toc_sorted = moveTableOfContentsToTop(toc);
 
-// Remove the first two spaces of each line
-toc = toc.replace(/^  /gm, '');
+// trimmedTOC
+const trimmedTOC = trimTOC(toc_sorted, current_folder);
 
-let toc_sorted = moveTableOfContentsToTop(toc);
-
-dv.el("b","Table of Contents");
-dv.paragraph(toc_sorted);
-console.log(toc_sorted);
+dv.paragraph(trimmedTOC);
 ```
 
 
