@@ -549,8 +549,7 @@ var FileHelper = class {
       if (cancellationToken.isCancelled) {
         break;
       }
-      const contents = await this.vault.cachedRead(file);
-      this.setCounts(counts, file, contents, this.settings.wordCountType);
+      this.setCounts(counts, file, this.settings.wordCountType);
     }
     debugEnd();
     return counts;
@@ -561,6 +560,7 @@ var FileHelper = class {
     }
     const childPaths = this.getChildPaths(counts, path);
     const directoryDefault = {
+      isCountable: false,
       isDirectory: true,
       noteCount: 0,
       wordCount: 0,
@@ -579,6 +579,7 @@ var FileHelper = class {
     return childPaths.reduce((total, childPath) => {
       const childCount = this.getCachedDataForPath(counts, childPath);
       return {
+        isCountable: total.isCountable || childCount.isCountable,
         isDirectory: true,
         noteCount: total.noteCount + childCount.noteCount,
         linkCount: total.linkCount + childCount.linkCount,
@@ -616,8 +617,7 @@ var FileHelper = class {
       return;
     }
     if (abstractFile instanceof import_obsidian3.TFile) {
-      const contents = await this.vault.cachedRead(abstractFile);
-      this.setCounts(counts, abstractFile, contents, this.settings.wordCountType);
+      this.setCounts(counts, abstractFile, this.settings.wordCountType);
     }
   }
   countEmbeds(metadata) {
@@ -653,8 +653,11 @@ var FileHelper = class {
   removeCounts(counts, path) {
     delete counts[path];
   }
-  setCounts(counts, file, content, wordCountType) {
+  async setCounts(counts, file, wordCountType) {
+    const metadata = this.app.metadataCache.getFileCache(file);
+    const shouldCountFile = this.shouldCountFile(file, metadata);
     counts[file.path] = {
+      isCountable: shouldCountFile,
       isDirectory: false,
       noteCount: 1,
       wordCount: 0,
@@ -670,10 +673,10 @@ var FileHelper = class {
       modifiedDate: file.stat.mtime,
       sizeInBytes: file.stat.size
     };
-    const metadata = this.app.metadataCache.getFileCache(file);
-    if (!this.shouldCountFile(file, metadata)) {
+    if (!shouldCountFile) {
       return;
     }
+    const content = await this.vault.cachedRead(file);
     const meaningfulContent = this.getMeaningfulContent(content, metadata);
     const wordCount = this.countWords(meaningfulContent, wordCountType);
     const wordGoal = this.getWordGoal(metadata);
@@ -794,6 +797,11 @@ var NovelWordCountPlugin = class extends import_obsidian4.Plugin {
     super(app, manifest);
     this.debugHelper = new DebugHelper();
     this.fileSizeHelper = new FileSizeHelper();
+    this.unconditionalCountTypes = [
+      "created" /* Created */,
+      "filesize" /* FileSize */,
+      "modified" /* Modified */
+    ];
     this.fileHelper = new FileHelper(this.app, this);
     this.eventHelper = new EventHelper(
       this,
@@ -966,6 +974,9 @@ var NovelWordCountPlugin = class extends import_obsidian4.Plugin {
   }
   getDataTypeLabel(counts, countType, abbreviateDescriptions) {
     if (!counts || typeof counts.wordCount !== "number") {
+      return null;
+    }
+    if (!counts.isCountable && !this.unconditionalCountTypes.includes(countType)) {
       return null;
     }
     const getPluralizedCount = function(noun, count, round = true) {

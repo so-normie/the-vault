@@ -1,3 +1,5 @@
 {
-  "folder": "templates"
+  "folder": "templates",
+  "timeFormat": "kk:mm",
+  "dateFormat": "YYYY-MM-DD"
 }

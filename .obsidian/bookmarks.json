@@ -445,6 +445,18 @@
               "type": "file",
               "ctime": 1695112021220,
               "path": "🔴 Academics/📚 Educational Resources/🗒️ Anaconda.md"
+            },
+            {
+              "type": "group",
+              "ctime": 1696119008419,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1696119032103,
+                  "path": "🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms library.md"
+                }
+              ],
+              "title": "🗒️ C++"
             }
           ],
           "title": "📚 Educational Resources"
