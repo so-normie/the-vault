@@ -1,16 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled",
-      "path": "Untitled.md"
+      "basename": "Default",
+      "path": "Default.md"
     },
     {
-      "basename": "Algorithms  Library",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms  Library.md"
+      "basename": "Project Structure",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/Project Structure.md"
     },
     {
-      "basename": "Algorithms library",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Algorithms library.md"
+      "basename": "terror-interview-problem",
+      "path": "terror-interview-problem.md"
+    },
+    {
+      "basename": "🗒️ Visual Studio ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/🗒️ Visual Studio ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "🌐 Structy ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "edsfAnswerItBad2017",
+      "path": "zotero/edsfAnswerItBad2017.md"
+    },
+    {
+      "basename": "stwAnswerWhatAre2013",
+      "path": "zotero/stwAnswerWhatAre2013.md"
+    },
+    {
+      "basename": "akremWhatAreBenefits2013",
+      "path": "zotero/akremWhatAreBenefits2013.md"
+    },
+    {
+      "basename": "odedAnswerWhatAre2011",
+      "path": "zotero/odedAnswerWhatAre2011.md"
+    },
+    {
+      "basename": "ravenItBadIdea2017",
+      "path": "zotero/ravenItBadIdea2017.md"
+    },
+    {
+      "basename": "ShouldPlaceSolution",
+      "path": "zotero/ShouldPlaceSolution.md"
+    },
+    {
+      "basename": "microsoftcorporationWhatAreBenefits2023",
+      "path": "zotero/microsoftcorporationWhatAreBenefits2023.md"
+    },
+    {
+      "basename": "microsoftcorporationCanYouPlease2023",
+      "path": "zotero/microsoftcorporationCanYouPlease2023.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "zotero/sortspec.md"
+    },
+    {
+      "basename": "AlgorithmsLibrary2023",
+      "path": "zotero/AlgorithmsLibrary2023.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
+    },
+    {
+      "basename": "Configuring the Settings",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/Configuring the Settings.md"
     },
     {
       "basename": "Template (Note Template ∋ {{Folder Name}} ▹ 📋 Table of Contents)",
@@ -21,24 +77,68 @@
       "path": "🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md"
     },
     {
-      "basename": "🌐 Structy ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
+      "basename": "0. Introduction ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
     },
     {
-      "basename": "sortspec",
-      "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
+      "basename": "zabianStructyLearnData2023",
+      "path": "zotero/zabianStructyLearnData2023.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Algorithms library",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms library.md"
+    },
+    {
+      "basename": "Template {{Templater ⊃ tp.file.creation_date}}",
+      "path": "templates/Template {{Templater ⊃ tp.file.creation_date}}.md"
+    },
+    {
+      "basename": "📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "ConstrainedAlgorithms202023",
+      "path": "zotero/ConstrainedAlgorithms202023.md"
+    },
+    {
+      "basename": "StdRangesFor_each_n2023",
+      "path": "zotero/StdRangesFor_each_n2023.md"
+    },
+    {
+      "basename": "Problems ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "🌐 LeetCode ▹ 📋 Table of Contents",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
     },
     {
-      "basename": "20. Valid Parentheses",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md"
+      "basename": "Algorithms library",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Algorithms library.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md"
+    },
+    {
+      "basename": "🌐 C++ reference ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 C++ reference/🌐 C++ reference ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 C++ reference/sortspec.md"
     },
     {
       "basename": "000. course introduction 👨🏻‍🏫",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md"
+    },
+    {
+      "basename": "20. Valid Parentheses",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md"
     },
     {
       "basename": "26. Remove Duplicates from Sorted Array",
@@ -53,20 +153,12 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/020. linked list values 👨🏽‍💻.md"
     },
     {
-      "basename": "0. Introduction ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
-    },
-    {
       "basename": "Misc. Notes",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ C++/Misc. Notes.md"
     },
     {
       "basename": "005. array and string welcome 👨🏻‍🏫",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/005. array and string welcome 👨🏻‍🏫.md"
-    },
-    {
-      "basename": "Problems ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "🌐 Typst",
@@ -83,10 +175,6 @@
     {
       "basename": "Problems (Easy)",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md"
-    },
-    {
-      "basename": "Template {{Templater ⊃ tp.file.creation_date}}",
-      "path": "templates/Template {{Templater ⊃ tp.file.creation_date}}.md"
     },
     {
       "basename": "Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}})",
@@ -111,66 +199,6 @@
     {
       "basename": "125. Valid Palindrome",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md"
-    },
-    {
-      "basename": "Partition vs Bucketing",
-      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Partition vs Bucketing.md"
-    },
-    {
-      "basename": "015. array and string quiz 📝",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/015. array and string quiz 📝.md"
-    },
-    {
-      "basename": "016. array and string wrap up 👨🏻‍🏫",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/016. array and string wrap up 👨🏻‍🏫.md"
-    },
-    {
-      "basename": "Dynamic Resource Allocation",
-      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Resource Allocation.md"
-    },
-    {
-      "basename": "Excessively Large Partition",
-      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Excessively Large Partition.md"
-    },
-    {
-      "basename": "Excessively High Concurrency",
-      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Excessively High Concurrency.md"
-    },
-    {
-      "basename": "Container killed by YARN",
-      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Container killed by YARN.md"
-    },
-    {
-      "basename": "Broadcast Joins",
-      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Broadcast Joins.md"
-    },
-    {
-      "basename": "Dynamic Partition Pruning",
-      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Dynamic Partition Pruning.md"
-    },
-    {
-      "basename": "Executor vs Executor Core",
-      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Executor vs Executor Core.md"
-    },
-    {
-      "basename": "General Join Mechanics",
-      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Optimizing DataFrame Transformations/General Join Mechanics.md"
-    },
-    {
-      "basename": "Unique Problems",
-      "path": "🔴 Academics/📚 Educational Resources/🙋🏽‍♂️ Data Engineering Prep (Discord Group)/Unique Problems.md"
-    },
-    {
-      "basename": "Repartition vs Coalesce",
-      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Repartition vs Coalesce.md"
-    },
-    {
-      "basename": "Reading Query Plans",
-      "path": "🔴 Academics/📚 Educational Resources/Spark Optimization/Reading Query Plans.md"
-    },
-    {
-      "basename": "🐛 fodo dcsdc'f fc",
-      "path": "🐛 fodo dcsdc'f fc.md"
     }
   ],
   "omittedPaths": [],

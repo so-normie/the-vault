@@ -1,6 +1,6 @@
 ---
 title: <% tp.file.title %>
-created: <% tp.file.creation_date("YYYY-MM-DD HH:mm") %>
+created: <% tp.file.creation_date("YYYY-MM-DD kk:mm") %>
 updated: 
 authors:
   - Edmund Leibert III

@@ -3102,7 +3102,7 @@ function coloredClassApplyer(domElement) {
     tagElements.push({
       el,
       hashEl,
-      className: `colored-tag-${el.innerText.trim()}`
+      className: `colored-tag-${el.innerText.trim().toLowerCase()}`
     });
   });
   tagElements.forEach(({ el, hashEl: hashEl2, className }) => {
@@ -3246,7 +3246,7 @@ var ColoredTagsPlugin = class extends import_obsidian.Plugin {
   colorizeTag(tagName) {
     tagName = tagName.replace(/#/g, "");
     const tagHref = "#" + tagName.replace(/\//g, "\\/");
-    const tagFlat = tagName.replace(/[^0-9a-z-]/ig, "");
+    const tagFlat = tagName.replace(/[^0-9a-z-]/ig, "").toLowerCase();
     const { background: backgroundLight, color: colorLight } = this.getColors(tagName, this.palettes.light);
     const { background: backgroundDark, color: colorDark } = this.getColors(tagName, this.palettes.dark);
     const selectors = [

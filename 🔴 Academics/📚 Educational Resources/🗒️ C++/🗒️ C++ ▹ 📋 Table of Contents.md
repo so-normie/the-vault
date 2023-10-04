@@ -1,23 +1,20 @@
 ---
 title: 🗒️ C++ ▹ 📋 Table of Contents
 created: 2023-09-28 14:16
-updated: 2023-09-30 11:48
+updated: 2023-10-01 02:28
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academics/📚-educational-resources/name/🌐-leetcode
+  - 🔴-academics/📚-educational-resources/name/🗒️-cpp
   - 🔴-academics/📚-educational-resources/source-format/internet/website
-  - 🔴-academics/📚-educational-resources/discipline/computer-science
-  - 🔴-academics/📚-educational-resources/name/🌐-leetcode/🔖-bookmark/🗒️-c++-▹-📋-table-of-contents
+  - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp
+  - 🔴-academics/📚-educational-resources/name/🗒️-cpp/🔖-bookmark/🗒️-cpp-▹-📋-table-of-contents
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️::🗒️ C++ ▹ 📋 Table of Contents
+cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ C++::🗒️ C++ ▹ 📋 Table of Contents
 ---
 
 # 🗒️ C++ ▹ 📋 Table of Contents
 
-🗒️ C++
-
-🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md
 
 ---
 
@@ -27,12 +24,12 @@ cards-deck: 🔴 Academics::📚 Educational Resources::🗒️::🗒️ C++ ▹
 ---
 
  > [!Info]+ 🕸️ All Mention(s): 
- > - 
+ > 
 
 ---
 
  > [!Info]+ 🔙️ Previous Note(s): 
- > - 
+ > 
  
 ---
 
@@ -167,26 +164,50 @@ function moveTableOfContentsToTop(inputString) {
 }
 
 
-function trimTOC(toc_sorted, current_folder) {
-  // Split the TOC into lines
+function trimTOC(toc, current_path) {
   const lines = toc.split("\n");
+  let trimmedTOC = [];
 
-  // Calculate how many lines to remove based on the length of current_folder
-  const numLinesToRemove = current_folder.split("/").length - 1;
+  // Split the current_path into components
+  const pathComponents = current_path.split("/");
 
-  // Remove the first numLinesToRemove lines
-  const newLines = lines.slice(numLinesToRemove);
+  // Initialize variables to keep track of the current depth and match
+  let currentDepth = -1;
+  let currentMatchIndex = 0;
+  let shouldStartTrimming = false;
 
-  // Calculate how many spaces to remove based on numLinesToRemove
-  const numSpacesToRemove = (numLinesToRemove - 1) * 2;
+  // Iterate through lines to find matching components
+  for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      
+      // Calculate the current line's depth based on the number of leading spaces
+      const currentLineDepth = line.match(/^(\s*)/)[0].length;
 
-  // Remove numSpacesToRemove spaces from the beginning of each line
-  const trimmedLines = newLines.map(line => line.slice(numSpacesToRemove));
+      if (shouldStartTrimming && currentLineDepth <= currentDepth) {
+          // Skip lines that are at a shallower depth than the starting point
+          continue;
+      }
 
-  // Join the lines back into a single string
-  const trimmedTOC = trimmedLines.join("\n");
+      // If we find a match for the current path component
+      if (line.trim().endsWith(pathComponents[currentMatchIndex])) {
+          if (currentMatchIndex < pathComponents.length - 1) {
+              // Move to the next path component if there are more
+              currentMatchIndex++;
+          } else {
+              // We've found the line corresponding to the current_path, now start trimming
+              currentDepth = currentLineDepth;
+              shouldStartTrimming = true;
+          }
+      }
 
-  return trimmedTOC;
+      if (shouldStartTrimming) {
+          // Remove the same number of spaces as the depth of the line where current_path was found
+          const adjustedLine = line.slice(currentDepth);
+          trimmedTOC.push(adjustedLine);
+      }
+  }
+
+  return trimmedTOC.join("\n");
 }
 
 
@@ -203,17 +224,18 @@ const toc = generateTOC(fileTree);
 
 // Sort Table of Contents
 const toc_sorted = moveTableOfContentsToTop(toc);
+console.log(toc_sorted);
 
 // trimmedTOC
-const trimmedTOC = trimTOC(toc_sorted, current_folder);
+const trimmed_toc = trimTOC(toc_sorted, current_folder);
 
-dv.paragraph(trimmedTOC);
+dv.paragraph(trimmed_toc);
 ```
 
 
 ---
 
 > [!Info]+ 🔜 Next Note(s):
-> - 
+> 
 
 ---

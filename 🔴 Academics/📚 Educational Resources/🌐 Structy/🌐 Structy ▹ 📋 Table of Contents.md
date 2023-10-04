@@ -1,7 +1,7 @@
 ---
 title: 🌐 Structy ▹ 📋 Table of Contents
-created: 2023-08-30 00:00
-updated: 2023-09-30 11:06
+created: 2023-09-03 08:46
+updated: 2023-10-01 15:19
 authors:
   - Edmund Leibert III
 tags:
@@ -48,12 +48,22 @@ What is the website **Structy**?
 
 #card
 
-<span class="spoiler">Structy</span> is an online platform that teaches data structures and algorithms. It is designed to help one learn the concepts and skills you need to succeed in technical interviews.
+[Structy is a platform designed to help software engineers master data structures and algorithms efficiently](https://www.structy.net/) \[[[#^zabianStructyLearnData2023|1]]\]. [It provides a guided course that builds your algorithm knowledge gradually](https://www.structy.net/) \[[[#^zabianStructyLearnData2023|1]]\]. [The platform emphasizes understanding of the concepts, which empowers you to solve problems](https://www.structy.net/) \[[[#^zabianStructyLearnData2023|1]]\].
+
+[Structy is organized in a way that makes it incredibly efficient and intuitive to learn the patterns needed to solve interview problems](https://www.structy.net/) \[[[#^zabianStructyLearnData2023|1]]\]. [It offers a strong sense of progression through all the topics required for technical interviews](https://www.structy.net/) \[[[#^zabianStructyLearnData2023|1]]\].
+
+The platform is trusted by thousands of software engineers for interview preparation. [Many users have successfully passed their interviews and received offers from top companies after studying with Structy](https://www.structy.net/) \[[[#^zabianStructyLearnData2023|1]]\]. \[[[#^microsoftcorporationCanYouPlease2023|2]]\]
+
+**Bibliography**:
+
+\[1\] 
+![zabianStructyLearnData2023](zotero/zabianStructyLearnData2023.md) ^zabianStructyLearnData2023
+
+\[2\]
+![microsoftcorporationCanYouPlease2023](zotero/microsoftcorporationCanYouPlease2023.md) ^microsoftcorporationCanYouPlease2023
 
 ⌂
 <br>﹈<br>^1696037036801
-
-
 
 
 ## Table of Contents
@@ -189,26 +199,50 @@ function moveTableOfContentsToTop(inputString) {
 }
 
 
-function trimTOC(toc_sorted, current_folder) {
-  // Split the TOC into lines
+function trimTOC(toc, current_path) {
   const lines = toc.split("\n");
+  let trimmedTOC = [];
 
-  // Calculate how many lines to remove based on the length of current_folder
-  const numLinesToRemove = current_folder.split("/").length - 1;
+  // Split the current_path into components
+  const pathComponents = current_path.split("/");
 
-  // Remove the first numLinesToRemove lines
-  const newLines = lines.slice(numLinesToRemove);
+  // Initialize variables to keep track of the current depth and match
+  let currentDepth = -1;
+  let currentMatchIndex = 0;
+  let shouldStartTrimming = false;
 
-  // Calculate how many spaces to remove based on numLinesToRemove
-  const numSpacesToRemove = (numLinesToRemove - 1) * 2;
+  // Iterate through lines to find matching components
+  for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      
+      // Calculate the current line's depth based on the number of leading spaces
+      const currentLineDepth = line.match(/^(\s*)/)[0].length;
 
-  // Remove numSpacesToRemove spaces from the beginning of each line
-  const trimmedLines = newLines.map(line => line.slice(numSpacesToRemove));
+      if (shouldStartTrimming && currentLineDepth <= currentDepth) {
+          // Skip lines that are at a shallower depth than the starting point
+          continue;
+      }
 
-  // Join the lines back into a single string
-  const trimmedTOC = trimmedLines.join("\n");
+      // If we find a match for the current path component
+      if (line.trim().endsWith(pathComponents[currentMatchIndex])) {
+          if (currentMatchIndex < pathComponents.length - 1) {
+              // Move to the next path component if there are more
+              currentMatchIndex++;
+          } else {
+              // We've found the line corresponding to the current_path, now start trimming
+              currentDepth = currentLineDepth;
+              shouldStartTrimming = true;
+          }
+      }
 
-  return trimmedTOC;
+      if (shouldStartTrimming) {
+          // Remove the same number of spaces as the depth of the line where current_path was found
+          const adjustedLine = line.slice(currentDepth);
+          trimmedTOC.push(adjustedLine);
+      }
+  }
+
+  return trimmedTOC.join("\n");
 }
 
 
@@ -225,12 +259,14 @@ const toc = generateTOC(fileTree);
 
 // Sort Table of Contents
 const toc_sorted = moveTableOfContentsToTop(toc);
+console.log(toc_sorted);
 
 // trimmedTOC
-const trimmedTOC = trimTOC(toc_sorted, current_folder);
+const trimmed_toc = trimTOC(toc_sorted, current_folder);
 
-dv.paragraph(trimmedTOC);
+dv.paragraph(trimmed_toc);
 ```
+
 
 ---
 

@@ -1,118 +1,145 @@
 {
   "settings": {
-    "migrated": 2,
+    "migrated": 3,
     "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
     "fontSize": 16,
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FasPerson",
-      "EiScribbleNotes",
-      "EiPostgreSQL",
-      "TiCards",
-      "TiNotes"
+      "EiZoteroItem",
+      "EiZotero",
+      "TiNotes",
+      "TiNote",
+      "FasPerson"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
       {
         "rule": ".excalidraw.md",
         "icon": "RiPenNibLine",
-        "for": "everything"
+        "for": "everything",
+        "order": 0
       },
       {
         "rule": ".gif",
         "icon": "TiGif",
-        "for": "everything"
+        "for": "everything",
+        "order": 1
       },
       {
         "rule": ".jpeg",
         "icon": "FarFileImage",
-        "for": "everything"
+        "for": "everything",
+        "order": 2
       },
       {
         "rule": ".jpg",
         "icon": "FarFileImage",
-        "for": "everything"
+        "for": "everything",
+        "order": 3
       },
       {
         "rule": ".js",
         "icon": "SiJavascript",
-        "for": "everything"
+        "for": "everything",
+        "order": 4
       },
       {
         "rule": ".md",
         "icon": "RiMarkdownLine",
-        "for": "everything"
+        "for": "everything",
+        "order": 5
       },
       {
         "rule": ".mp3",
         "icon": "FarFileAudio",
-        "for": "files"
+        "for": "files",
+        "order": 6
       },
       {
         "rule": ".pdf",
         "icon": "FarFilePdf",
-        "for": "everything"
+        "for": "everything",
+        "order": 7
       },
       {
         "rule": ".png",
         "icon": "FarFileImage",
-        "for": "everything"
+        "for": "everything",
+        "order": 8
       },
       {
         "rule": ".ps1",
         "icon": "TiBrandPowershell",
-        "for": "everything"
+        "for": "everything",
+        "order": 9
       },
       {
         "rule": ".svg",
         "icon": "SiSvg",
-        "for": "everything"
+        "for": "everything",
+        "order": 10
       },
       {
         "rule": ".ttf",
         "icon": "FasFont",
-        "for": "everything"
+        "for": "everything",
+        "order": 11
       },
       {
         "rule": ".webm",
         "icon": "FarFileAudio",
-        "for": "files"
+        "for": "files",
+        "order": 12
       },
       {
         "rule": ".webp",
         "icon": "FarFileImage",
-        "for": "everything"
+        "for": "everything",
+        "order": 13
       },
       {
         "rule": "^(?!.*꞉꞉ 🔖 Bookmark).*$",
         "icon": "RiFolder3Fill",
-        "for": "folders"
+        "for": "folders",
+        "order": 14
       },
       {
         "rule": "^excalidraw-",
         "icon": "RiPenNibLine",
-        "for": "everything"
+        "for": "everything",
+        "order": 15
       },
       {
         "rule": "▹ 📋 Table of Contents",
         "icon": "FasListOl",
-        "for": "everything"
+        "for": "everything",
+        "order": 16
       },
       {
         "rule": "Home.md",
         "icon": "TiHome",
-        "for": "everything"
+        "for": "everything",
+        "order": 17
       },
       {
-        "rule": "sortspec.md",
+        "rule": "sortspec",
         "icon": "RiSortDesc",
-        "for": "everything"
+        "for": "everything",
+        "order": 18
       },
       {
         "rule": "Template *",
         "icon": "TiSvgTemplate",
-        "for": "everything"
+        "for": "everything",
+        "order": 19
+      },
+      {
+        "rule": "zotero/*",
+        "icon": "EiZoteroItem",
+        "for": "everything",
+        "order": 20,
+        "useFilePath": true
       }
     ],
     "extraMargin": {
@@ -459,8 +486,16 @@
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/175. Combine Two Tables.md": "TiNotes",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/181. Employees Earning More Than Their Managers.md": "TiNotes",
   "🔴 Academics/📚 Educational Resources/🌐 PostgreSQL Documentation": "EiPostgreSQL",
-  "🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms  Library.md": "EiScribbleNotes",
   "🔴 Academics/📚 Educational Resources/🗒️ C++/Misc. Notes.md": "EiScribbleNotes",
   "🔴 Academics/📚 Educational Resources/🗒️ C++/MSVC.md": "EiScribbleNotes",
-  "Untitled.md": "FasPerson"
+  "🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms library.md": "EiScribbleNotes",
+  "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md": "TiNotes",
+  "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md": "TiNotes",
+  "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md": "TiNotes",
+  "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md": "TiNotes",
+  "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/004. is prime 👨🏽‍💻.md": "TiNotes",
+  "zotero/zabianStructyLearnData2023.md": "EiZoteroItem",
+  "zotero": "EiZotero",
+  "zotero/AlgorithmsLibrary2023.md": "EiZoteroItem",
+  "zotero/StdRangesFor_each_n2023.md": "EiZoteroItem"
 }

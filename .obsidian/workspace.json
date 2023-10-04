@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7bdba98c51efe455",
+        "id": "a4f984e3df4fd060",
         "type": "tabs",
         "children": [
           {
-            "id": "57cb996755f5043e",
+            "id": "705a2355188d6c29",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -16,206 +16,20 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Project Structure",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/Project Structure.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":94.13333565848214}"
                 }
               ]
             },
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Default.md",
                 "mode": "preview",
-                "backlinks": true,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "a20164387640aaab",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "000. course introduction 👨🏻‍🏫",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "005. array and string welcome 👨🏻‍🏫",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/005. array and string welcome 👨🏻‍🏫.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":3.9794058922493813}"
-                },
-                {
-                  "title": "🌐 Structy ▹ 📋 Table of Contents",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":4.350305312519889}"
-                },
-                {
-                  "title": "🌐 LeetCode ▹ 📋 Table of Contents",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":42.19199951171875}"
-                },
-                {
-                  "title": "Problems ▹ 📋 Table of Contents",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":23.103226200226814}"
-                },
-                {
-                  "title": "🌐 LeetCode ▹ 📋 Table of Contents",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "🌐 Structy ▹ 📋 Table of Contents",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":11.09572338718018}"
-                },
-                {
-                  "title": "0. Introduction ▹ 📋 Table of Contents",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":18.176470588235293}"
-                },
-                {
-                  "title": "🌐 Structy ▹ 📋 Table of Contents",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":51.400002002716064}"
-                },
-                {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "🌐 Typst",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Typst/🌐 Typst.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "📕 Fluent Python, 2ⁿᵈ Edition (2022)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/📕 Fluent Python, 2ⁿᵈ Edition (2022).md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "🗒️ Python",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ Python/🗒️ Python.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "🗒️ Python",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ Python.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "🗒️ Python",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ Python/🗒️ Python.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "🗒️ Lua",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ Lua/🗒️ Lua.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "🌐 Structy ▹ 📋 Table of Contents",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":42.51192593355791}"
-                }
-              ]
-            },
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🔴 Academics/📚 Educational Resources/sortspec.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "14069ca2abb38a1a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "🌐 Structy ▹ 📋 Table of Contents",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":0}"
-                }
-              ]
-            },
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/Template (Note Template ∋ {{Folder Name}} ▹ 📋 Table of Contents).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "ab4aa7dfa77a0244",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Algorithms library",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 C++ reference/Algorithms library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":21},\"to\":{\"line\":7,\"ch\":21}},\"scroll\":0}"
-                },
-                {
-                  "title": "Algorithms  Library",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms  Library.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":19.516927083333332}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms  Library.md",
-                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -285,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp",
+                "query": "**References**",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -333,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 812.5
+    "width": 459.5
   },
   "right": {
     "id": "128fe29333f9ab00",
@@ -343,23 +157,6 @@
         "id": "5bd7845f4bc91318",
         "type": "tabs",
         "children": [
-          {
-            "id": "974b22a74bf8c0bb",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
           {
             "id": "c4c5a8fd080ab8bd",
             "type": "leaf",
@@ -375,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Default.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -401,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Default.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -422,7 +219,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true
               }
             }
@@ -478,7 +275,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Default.md"
               }
             }
           }
@@ -492,10 +289,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "flashcards-obsidian:Generate flashcards": false,
       "omnisearch:Omnisearch": false,
       "graph:Open graph view": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "chronology:Open Chronology": true,
       "3d-graph:3D Graph": false,
       "canvas:Create new canvas": true,
       "command-palette:Open command palette": false,
@@ -504,50 +301,52 @@
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
       "surfing:surfing-bookmark-manager": true,
-      "flashcards-obsidian:Generate flashcards": true,
-      "obsidian-excalidraw-plugin:Create new drawing": true,
-      "custom-sort:Toggle custom sorting": false,
-      "templater-obsidian:Templater": true,
       "switcher:Open quick switcher": true,
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": true,
       "zk-prefixer:Create new unique note": true,
       "publish:Publish changes...": true,
-      "notion-like-tables:Create new loom": false
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "notion-like-tables:Create new loom": false,
+      "custom-sort:Toggle custom sorting": false,
+      "chronology:Open Chronology": false
     }
   },
-  "active": "57cb996755f5043e",
+  "active": "705a2355188d6c29",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms  Library.md",
-    "Untitled 1.md",
-    "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Algorithms library.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/Project Structure.md",
+    "Default.md",
+    "terror-interview-problem.md",
+    "zotero/microsoftcorporationWhatAreBenefits2023.md",
+    "zotero/ravenItBadIdea2017.md",
+    "zotero/ShouldPlaceSolution.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/🗒️ Visual Studio ▹ 📋 Table of Contents.md",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
+    "zotero/edsfAnswerItBad2017.md",
+    "zotero/stwAnswerWhatAre2013.md",
+    "zotero/akremWhatAreBenefits2013.md",
+    "zotero/odedAnswerWhatAre2011.md",
+    "zotero/microsoftcorporationCanYouPlease2023.md",
+    "zotero/sortspec.md",
+    "zotero/AlgorithmsLibrary2023.md",
+    "🔴 Academics/📚 Educational Resources/sortspec.md",
+    "microsoftcorporationCanYouPlease2023.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/Configuring the Settings.md",
     "templates/Template (Note Template ∋ {{Folder Name}} ▹ 📋 Table of Contents).md",
     "🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md",
-    "templates/Template {{Anki Note ∋ “🎴”}}.md",
-    "templates/Template {{Anki Note ⊃ “⋕card-reverse”}} 1.md",
-    "templates/Template (Default).md",
-    "templates/Template {{O’Reilly Media Link}}.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/sortspec.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/26. Remove Duplicates from Sorted Array.md",
-    "templates/Template (🔴 Academics꞉꞉📚 Educational Resources꞉꞉🌐 LeetCode꞉꞉Problems꞉꞉{{Note}}).md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/020. linked list values 👨🏽‍💻.md",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
-    "Untitled.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ C++/Misc. Notes.md",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/005. array and string welcome 👨🏻‍🏫.md",
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md",
+    "zotero/zabianStructyLearnData2023.md",
+    "README.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms library.md",
+    "templates/Template {{Templater ⊃ tp.file.creation_date}}.md",
+    "🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents.md",
+    "zotero",
+    "🔴 Academics/📚 Educational Resources/Untitled",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Untitled.loom",
-    "🔴 Academics/📚 Educational Resources/🌐 Typst/🌐 Typst.md",
-    "🔴 Academics/📚 Educational Resources/📕 Calculus with Multiple Variables Essential Skills Workbook꞉ Includes Vector Calculus and Full Solutions.md",
-    "🔴 Academics/📚 Educational Resources/📕 Fluent Python, 2ⁿᵈ Edition (2022).md",
     "🔴 Academics/📚 Educational Resources/📕 How to Read and Do Proofs꞉ An Introduction to Mathematical Thought Processes, 6ᵗʰ Edition",
     "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio Code",
     "🔴 Academics/📚 Educational Resources/🗒️ Vimium",
@@ -555,8 +354,6 @@
     "🔴 Academics/📚 Educational Resources/🗒️ State Tool",
     "🔴 Academics/📚 Educational Resources/🗒️ SQL Server",
     "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Optimizing DataFrame Transformations",
-    "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Causes of OOM Errors",
-    "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization",
     "assets/images/the-data-school-cross-join.gif",
     "assets/images/Pasted image 20230924131220.png",
     "assets/images/leetcode.svg",
