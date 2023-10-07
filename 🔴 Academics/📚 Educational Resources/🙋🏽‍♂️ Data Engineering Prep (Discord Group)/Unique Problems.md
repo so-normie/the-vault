@@ -1,9 +1,12 @@
 ---
-title: "Unique Problems"
+title: Unique Problems
 created: 2023-08-04 02:27
-authors: [Edmund Leibert III]
-tags: [study-note]
+authors:
+  - Edmund Leibert III
+tags:
+  - study-note
 cards-deck: Default::Computer Science
+updated: 2023-10-07 15:19
 ---
 
 # Unique Problems

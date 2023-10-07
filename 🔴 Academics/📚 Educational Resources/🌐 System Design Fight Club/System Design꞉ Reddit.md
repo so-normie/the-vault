@@ -1,7 +1,7 @@
 ---
 title: System Design꞉ Reddit
 created: 2023-08-24 00:06
-updated: 2023-09-02 17:37
+updated: 2023-10-07 15:19
 authors:
   - Edmund Leibert III
 tags:
