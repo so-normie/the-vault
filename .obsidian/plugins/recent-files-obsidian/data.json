@@ -1,20 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "🌐 AWS Educate",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 AWS Educate/🌐 AWS Educate.md"
+    },
+    {
       "basename": "Default",
       "path": "Default.md"
     },
     {
-      "basename": "Project Structure",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/Project Structure.md"
-    },
-    {
       "basename": "terror-interview-problem",
       "path": "terror-interview-problem.md"
-    },
-    {
-      "basename": "🗒️ Visual Studio ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/🗒️ Visual Studio ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "🌐 Structy ▹ 📋 Table of Contents",
@@ -65,16 +61,8 @@
       "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
     },
     {
-      "basename": "Configuring the Settings",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/Configuring the Settings.md"
-    },
-    {
       "basename": "Template (Note Template ∋ {{Folder Name}} ▹ 📋 Table of Contents)",
       "path": "templates/Template (Note Template ∋ {{Folder Name}} ▹ 📋 Table of Contents).md"
-    },
-    {
-      "basename": "🗒️ C++ ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "0. Introduction ▹ 📋 Table of Contents",
@@ -87,10 +75,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "Algorithms library",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms library.md"
     },
     {
       "basename": "Template {{Templater ⊃ tp.file.creation_date}}",
@@ -117,20 +101,8 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
     },
     {
-      "basename": "Algorithms library",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Algorithms library.md"
-    },
-    {
       "basename": "sortspec",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md"
-    },
-    {
-      "basename": "🌐 C++ reference ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 C++ reference/🌐 C++ reference ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "sortspec",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 C++ reference/sortspec.md"
     },
     {
       "basename": "000. course introduction 👨🏻‍🏫",
@@ -153,24 +125,12 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/020. linked list values 👨🏽‍💻.md"
     },
     {
-      "basename": "Misc. Notes",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++/Misc. Notes.md"
-    },
-    {
       "basename": "005. array and string welcome 👨🏻‍🏫",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/005. array and string welcome 👨🏻‍🏫.md"
     },
     {
-      "basename": "🌐 Typst",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Typst/🌐 Typst.md"
-    },
-    {
       "basename": "🗒️ Python",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ Python/🗒️ Python.md"
-    },
-    {
-      "basename": "🗒️ Lua",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Lua/🗒️ Lua.md"
     },
     {
       "basename": "Problems (Easy)",
