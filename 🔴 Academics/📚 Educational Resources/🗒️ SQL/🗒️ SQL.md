@@ -3,7 +3,7 @@ title: 🗒️ SQL
 authors:
   - Edmund Leibert III
 created: 2023-09-03 08:46
-updated: 2023-09-19 19:39
+updated: 2023-10-07 15:19
 tags:
   - 🔴-academics/📚-educational-resources/name/🗒️-sql
   - 🔴-academics/📚-educational-resources/source-format/miscellaneous

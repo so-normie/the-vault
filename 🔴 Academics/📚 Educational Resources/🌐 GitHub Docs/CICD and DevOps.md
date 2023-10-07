@@ -1,11 +1,13 @@
 ---
-title: "CI/CD and DevOps"
+title: CI/CD and DevOps
 created: 2023-08-13 11:30
-authors: [Edmund Leibert III]
-tags: 
-- 🔴-academics/📚-educational-resources/name/github-docs
-- study-note
+authors:
+  - Edmund Leibert III
+tags:
+  - 🔴-academics/📚-educational-resources/name/github-docs
+  - study-note
 cards-deck: Default::Computer Science
+updated: 2023-10-07 15:19
 ---
 
 #  CI/CD and DevOps

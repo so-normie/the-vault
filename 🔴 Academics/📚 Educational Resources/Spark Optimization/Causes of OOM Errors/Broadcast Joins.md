@@ -3,7 +3,7 @@ tags:
   - 🔴-academics/📚-educational-resources/discipline/computer-science/spark
 cards-deck: Default::Computer Science
 created: 2023-09-12 11:38
-updated: 2023-09-18 18:04
+updated: 2023-10-07 15:19
 ---
 
 In Apache Spark, broadcast joins are a type of join operation used to combine two DataFrames or RDDs (Resilient Distributed Datasets) by broadcasting one of them to all worker nodes in the cluster. This is an optimization technique for small DataFrames that can significantly improve join performance by reducing data shuffling across the network. However, when not used judiciously, broadcast joins can lead to out of memory errors. Here's how:

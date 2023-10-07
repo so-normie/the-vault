@@ -1,7 +1,12 @@
 ---
-tags: [🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/python, 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/sql, data-garage/project-1]
+tags:
+  - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/python
+  - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/sql
+  - data-garage/project-1
 cards-deck: Default::Computer Science
 version: v0.1
+created: 2023-10-07 15:19
+updated: 2023-10-07 15:19
 ---
 # Project “AutodidactPlanner”
 
