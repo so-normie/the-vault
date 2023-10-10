@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Default",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Default.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
                   "title": "Project Structure",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/Project Structure.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
@@ -28,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Default.md",
+                "file": "README.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -172,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Default.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Default.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,16 +281,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Default.md"
+                "file": "README.md"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 549.5
+    "width": 549.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -317,8 +324,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/Project Structure.md",
     "Default.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/Project Structure.md",
     "terror-interview-problem.md",
     "zotero/microsoftcorporationWhatAreBenefits2023.md",
     "zotero/ravenItBadIdea2017.md",

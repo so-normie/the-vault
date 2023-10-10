@@ -1,13 +1,13 @@
 ---
 created: 2023-10-01 16:14
-updated: 2023-10-03 15:27
+updated: 2023-10-03 22:41
 cards-deck: Default
 ---
 
 ﹇<br>
 What is our favourite color?
 
-> [!warning] Note
+> [!warning] wWarn
 > I love notes
 
 #card 
@@ -24,7 +24,10 @@ Red
 > I love notes
 
 ⌂
-<br>﹈<br>^1696368700360
+<br>﹈<br>^1696398295792
+
+
+
 
 
 

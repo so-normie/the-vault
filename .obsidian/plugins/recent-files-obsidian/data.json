@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "Default",
       "path": "Default.md"
     },
@@ -83,10 +87,6 @@
     {
       "basename": "zabianStructyLearnData2023",
       "path": "zotero/zabianStructyLearnData2023.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Algorithms library",
