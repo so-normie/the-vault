@@ -3,7 +3,7 @@ tags:
   - 🔴-academics/📚-educational-resources/discipline/computer-science/spark
 cards-deck: Default::Computer Science
 created: 2023-09-12 11:38
-updated: 2023-09-18 18:04
+updated: 2023-10-08 22:03
 ---
 
 In Apache Spark, executors have a finite amount of memory available to them, and this memory is typically divided into different regions, such as storage memory and execution memory. When one excessive large partition is processed in an executor, it can lead to out-of-memory errors due to several reasons:

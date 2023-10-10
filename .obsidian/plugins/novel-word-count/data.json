@@ -69,97 +69,150 @@
       "modifiedDate": 1693765440911,
       "sizeInBytes": 828
     },
-    "🔴 Academics/📚 Educational Resources/🗒️ Yarn/🗒️ Yarn.md": {
+    "🔴 Academics/📚 Educational Resources/🗒️ SQL Server/🗒️ SQL Server.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
+      "wordCount": 608,
       "wordCount": 0,
       "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.026666666666667,
+      "characterCount": 5914,
+      "nonWhitespaceCharacterCount": 5097,
       "wordGoal": 0,
       "pageCount": 0,
       "characterCount": 0,
       "nonWhitespaceCharacterCount": 0,
       "linkCount": 0,
       "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966944,
+      "modifiedDate": 1695937554014,
+      "sizeInBytes": 6004
       "aliases": [],
       "createdDate": 1695935772675,
       "modifiedDate": 1695935930938,
       "sizeInBytes": 410
     },
-    "🔴 Academics/📚 Educational Resources/🗒️ Wolfram Mathematica/🗒️ Wolfram Mathematica.md": {
+    "🔴 Academics/📚 Educational Resources/🗒️ SQL/🗒️ SQL.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 0,
+      "wordCount": 5233,
       "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 17.44333333333333,
+      "characterCount": 37164,
+      "nonWhitespaceCharacterCount": 30092,
       "wordGoal": 0,
       "pageCount": 0,
       "characterCount": 0,
       "nonWhitespaceCharacterCount": 0,
       "linkCount": 0,
+      "embedCount": 12,
+      "aliases": null,
+      "createdDate": 1693755966945,
+      "modifiedDate": 1695797493397,
+      "sizeInBytes": 38189
       "embedCount": 0,
       "aliases": [],
       "createdDate": 1695935772675,
       "modifiedDate": 1695935772675,
       "sizeInBytes": 0
     },
+    "🔴 Academics/📚 Educational Resources/🗒️ Obsidian/🗒️ Obsidian.md": {
     "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio Code/🗒️ Visual Studio Code ▹ 📋 Table of Contents.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
+      "wordCount": 469,
       "wordCount": 0,
       "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.5633333333333332,
+      "characterCount": 3524,
+      "nonWhitespaceCharacterCount": 2789,
       "wordGoal": 0,
       "pageCount": 0,
       "characterCount": 0,
       "nonWhitespaceCharacterCount": 0,
       "linkCount": 0,
       "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966941,
+      "modifiedDate": 1695937554009,
+      "sizeInBytes": 3689
       "aliases": [],
       "createdDate": 1695935772673,
       "modifiedDate": 1695935930935,
       "sizeInBytes": 5344
     },
+    "🔴 Academics/📚 Educational Resources/🗒️ Python/🗒️ Python.md": {
     "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio Code/Keyboard Shortcuts.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
+      "wordCount": 1134,
       "wordCount": 0,
       "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 3.78,
+      "characterCount": 7756,
+      "nonWhitespaceCharacterCount": 6521,
       "wordGoal": 0,
       "pageCount": 0,
       "characterCount": 0,
       "nonWhitespaceCharacterCount": 0,
       "linkCount": 0,
       "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966943,
+      "modifiedDate": 1695960063345,
+      "sizeInBytes": 7808
       "aliases": [],
       "createdDate": 1695935772672,
       "modifiedDate": 1695935930934,
       "sizeInBytes": 1280
     },
-    "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/🗒️ Visual Studio ▹ 📋 Table of Contents.md": {
+    "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Dynamic Partition Pruning.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
+      "wordCount": 439,
       "wordCount": 0,
       "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.4633333333333334,
+      "characterCount": 3181,
+      "nonWhitespaceCharacterCount": 2551,
       "wordGoal": 0,
       "pageCount": 0,
       "characterCount": 0,
       "nonWhitespaceCharacterCount": 0,
       "linkCount": 0,
       "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1695085446236,
+      "modifiedDate": 1695937554017,
+      "sizeInBytes": 3185
       "aliases": [],
       "createdDate": 1696378817846,
       "modifiedDate": 1696378817847,
       "sizeInBytes": 6463
     },
+    "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Optimizing DataFrame Transformations/General Join Mechanics.md": {
     "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/Configuring the Settings.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
+      "wordCount": 323,
       "wordCount": 0,
       "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.0766666666666667,
+      "characterCount": 2177,
+      "nonWhitespaceCharacterCount": 1814,
       "wordGoal": 0,
       "pageCount": 0,
       "characterCount": 0,
@@ -200,6 +253,10 @@
       "nonWhitespaceCharacterCount": 0,
       "linkCount": 0,
       "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1695085446240,
+      "modifiedDate": 1695937554019,
+      "sizeInBytes": 2177
       "aliases": [],
       "createdDate": 1695935772671,
       "modifiedDate": 1695935930933,
@@ -324,35 +381,54 @@
       "modifiedDate": 1695935930926,
       "sizeInBytes": 3671
     },
+    "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Causes of OOM Errors/Container killed by YARN.md": {
     "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Dynamic Resource Allocation.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
+      "wordCount": 367,
       "wordCount": 0,
       "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.2233333333333334,
+      "characterCount": 2561,
+      "nonWhitespaceCharacterCount": 2164,
       "wordGoal": 0,
       "pageCount": 0,
       "characterCount": 0,
       "nonWhitespaceCharacterCount": 0,
       "linkCount": 0,
       "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1695085446232,
+      "modifiedDate": 1695937554015,
+      "sizeInBytes": 2565
       "aliases": [],
       "createdDate": 1695935772665,
       "modifiedDate": 1695935930926,
       "sizeInBytes": 6208
     },
-    "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Dynamic Partition Pruning.md": {
+    "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Causes of OOM Errors/Broadcast Joins.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
+      "wordCount": 715,
       "wordCount": 0,
       "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.3833333333333333,
+      "characterCount": 4629,
+      "nonWhitespaceCharacterCount": 3853,
       "wordGoal": 0,
       "pageCount": 0,
       "characterCount": 0,
       "nonWhitespaceCharacterCount": 0,
       "linkCount": 0,
       "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1695085446231,
+      "modifiedDate": 1695937554015,
+      "sizeInBytes": 4635
       "aliases": [],
       "createdDate": 1695935772664,
       "modifiedDate": 1695935930924,
@@ -698,18 +774,27 @@
       "modifiedDate": 1695935930899,
       "sizeInBytes": 1136
     },
-    "🔴 Academics/📚 Educational Resources/🗒️ Hugo/📄 Hugo.md": {
+    "🔴 Academics/📚 Educational Resources/🗒️ GitHub/🗒️ GitHub.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
+      "wordCount": 243,
       "wordCount": 0,
       "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.81,
+      "characterCount": 2391,
+      "nonWhitespaceCharacterCount": 2089,
       "wordGoal": 0,
       "pageCount": 0,
       "characterCount": 0,
       "nonWhitespaceCharacterCount": 0,
       "linkCount": 0,
       "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755966931,
+      "modifiedDate": 1695937554001,
+      "sizeInBytes": 2407
       "aliases": [],
       "createdDate": 1695935772644,
       "modifiedDate": 1695935930898,
@@ -3001,7 +3086,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": 0,
       "pageCount": 0,
-      "characterCount": 0,
+      "characterCount": 2,
       "nonWhitespaceCharacterCount": 0,
       "linkCount": 0,
       "embedCount": 0,
@@ -3010,11 +3095,11 @@
       "modifiedDate": 1695935772608,
       "sizeInBytes": 0
     },
-    "🔴 Academics/📚 Educational Resources/🌐 The Modern JavaScript Tutorial/🌐 The Modern JavaScript Tutorial.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/128. lexical order 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 0,
+      "wordCount": 51,
       "wordCountTowardGoal": 0,
       "wordGoal": 0,
       "pageCount": 0,
@@ -3027,7 +3112,7 @@
       "modifiedDate": 1693765440854,
       "sizeInBytes": 0
     },
-    "🔴 Academics/📚 Educational Resources/🌐 The Modern JavaScript Tutorial/Part 1 “The JavaScript Language”.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/127. build tree in pre 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -3061,7 +3146,7 @@
       "modifiedDate": 1693765440853,
       "sizeInBytes": 755
     },
-    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/System Design꞉ Reddit.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/8. Mixed Recall ▹ 📋 Table of Contents.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -3095,11 +3180,11 @@
       "modifiedDate": 1696378817844,
       "sizeInBytes": 8588
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/130. topological order 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 0,
+      "wordCount": 51,
       "wordCountTowardGoal": 0,
       "wordGoal": 0,
       "pageCount": 0,
@@ -3316,7 +3401,7 @@
       "modifiedDate": 1695486719246,
       "sizeInBytes": 700
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/123. binary search tree includes 👨🏽‍💻.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/122. binary search 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -3333,7 +3418,7 @@
       "modifiedDate": 1695486719245,
       "sizeInBytes": 734
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/122. binary search 👨🏽‍💻.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/123. binary search tree includes 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -3367,7 +3452,7 @@
       "modifiedDate": 1695486719244,
       "sizeInBytes": 698
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/120. merge sort 👨🏽‍💻.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/119. breaking boundaries 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -3418,7 +3503,7 @@
       "modifiedDate": 1695486719242,
       "sizeInBytes": 712
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/117. max increasing subseq 👨🏽‍💻.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/118. positioning plants 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -3520,7 +3605,7 @@
       "modifiedDate": 1695486719239,
       "sizeInBytes": 678
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/111. lowest common ancestor 👨🏽‍💻.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/109. middle value 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -3588,7 +3673,7 @@
       "modifiedDate": 1695486719238,
       "sizeInBytes": 706
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall/107. mixed recall welcome 👨🏽‍💻.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -4269,6 +4354,7 @@
       "sizeInBytes": 648
     },
     "🔴 Academics/📚 Educational Resources/🌐 Structy/4. Graph/071. prereqs possible 👨🏽‍💻.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/4. Graph/071. prereqs possible 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -4285,6 +4371,7 @@
       "modifiedDate": 1695486719216,
       "sizeInBytes": 682
     },
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/4. Graph/070. has cycle 👨🏽‍💻.md": {
     "🔴 Academics/📚 Educational Resources/🌐 Structy/4. Graph/070. has cycle 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -4506,7 +4593,7 @@
       "modifiedDate": 1695486719205,
       "sizeInBytes": 670
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/4. Graph/057. graph warm up 👨🏻‍🏫.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/4. Graph/056. graph intro 👨🏻‍🏫.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -4557,7 +4644,7 @@
       "modifiedDate": 1695486719204,
       "sizeInBytes": 677
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/053. binary tree quiz 📝.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/015. array and string quiz 📝.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -4761,7 +4848,7 @@
       "modifiedDate": 1695486719196,
       "sizeInBytes": 718
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/043. tree min value 👨🏽‍💻.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/011. pair product 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -4829,7 +4916,7 @@
       "modifiedDate": 1695486719193,
       "sizeInBytes": 692
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/039. depth first values 👨🏽‍💻.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/005. array and string welcome 👨🏻‍🏫.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -5560,11 +5647,11 @@
       "modifiedDate": 1696378817832,
       "sizeInBytes": 5852
     },
-    "🔴 Academics/📚 Educational Resources/🌐 PostgreSQL Documentation/🌐 PostgreSQL Documentation.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 0,
+      "wordCount": 41,
       "wordCountTowardGoal": 0,
       "wordGoal": 0,
       "pageCount": 0,
@@ -5577,7 +5664,7 @@
       "modifiedDate": 1695935772605,
       "sizeInBytes": 0
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Postgres Conference/🗒️ PostgreSQL Next Generation Parallel Query.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/System Design꞉ Reddit.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -5611,10 +5698,11 @@
       "modifiedDate": 1695935930842,
       "sizeInBytes": 520
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Nodejs.dev/Learn.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 PostgreSQL Documentation/🌐 PostgreSQL Documentation.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
+      "wordCount": 0,
       "wordCount": 0,
       "wordCountTowardGoal": 0,
       "wordGoal": 0,
@@ -5628,7 +5716,7 @@
       "modifiedDate": 1693765440796,
       "sizeInBytes": 558
     },
-    "🔴 Academics/📚 Educational Resources/🌐 MSYS2 Documentation/What is MSYS2？.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Postgres Conference/🗒️ PostgreSQL Next Generation Parallel Query.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -5866,7 +5954,7 @@
       "modifiedDate": 1693765440792,
       "sizeInBytes": 7865
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Shows.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Q&A.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -5883,7 +5971,7 @@
       "modifiedDate": 1693765440792,
       "sizeInBytes": 357
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Q&A.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Shows.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -5985,7 +6073,7 @@
       "modifiedDate": 1693765440789,
       "sizeInBytes": 363
     },
-    "🔴 Academics/📚 Educational Resources/🌐 Merriam-Webster/🌐 🤖 ChatGPT, Bing Chat, etc. Generated Flash Cards.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -6155,7 +6243,7 @@
       "modifiedDate": 1695486719163,
       "sizeInBytes": 21656
     },
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/627. Swap Salary.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/620. Not Boring Movies.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -6172,7 +6260,7 @@
       "modifiedDate": 1695486719163,
       "sizeInBytes": 6758
     },
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/620. Not Boring Movies.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/619. Biggest Single Number.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -6206,7 +6294,7 @@
       "modifiedDate": 1695486719161,
       "sizeInBytes": 7184
     },
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/619. Biggest Single Number.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/627. Swap Salary.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -6275,6 +6363,7 @@
       "sizeInBytes": 8642
     },
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/596. Classes More Than 5 Students.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/596. Classes More Than 5 Students.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -6291,6 +6380,7 @@
       "modifiedDate": 1694390136401,
       "sizeInBytes": 1699
     },
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/595. Big Countries.md": {
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/595. Big Countries.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -6393,7 +6483,7 @@
       "modifiedDate": 1695486719159,
       "sizeInBytes": 7795
     },
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2837. Total Traveled Distance.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2687. Bikes Last Time Used.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -6461,7 +6551,7 @@
       "modifiedDate": 1695486719157,
       "sizeInBytes": 4152
     },
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/26. Remove Duplicates from Sorted Array.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/2837. Total Traveled Distance.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -6648,7 +6738,7 @@
       "modifiedDate": 1695486719154,
       "sizeInBytes": 5574
     },
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/196. Delete Duplicate Emails.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/182. Duplicate Emails.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -6801,7 +6891,7 @@
       "modifiedDate": 1694390136389,
       "sizeInBytes": 3208
     },
-    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -6886,11 +6976,11 @@
       "modifiedDate": 1693765440783,
       "sizeInBytes": 830
     },
-    "🔴 Academics/📚 Educational Resources/🌐 LearnCpp.com/sortspec.md.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 LeetCode/111. Minimum Depth of Binary Tree.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 0,
+      "wordCount": 723,
       "wordCountTowardGoal": 0,
       "wordGoal": 0,
       "pageCount": 0,
@@ -7498,11 +7588,11 @@
       "modifiedDate": 1695935930836,
       "sizeInBytes": 8981
     },
-    "🔴 Academics/📚 Educational Resources/🌐 CMake Reference Documentation/sortspec.md.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 GitHub Docs/Get started.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 0,
+      "wordCount": 23,
       "wordCountTowardGoal": 0,
       "wordGoal": 0,
       "pageCount": 0,
@@ -7889,7 +7979,7 @@
       "modifiedDate": 1693765440760,
       "sizeInBytes": 356
     },
-    "🔴 Academics/📚 Educational Resources/🌐 C++ reference/Language support library.md": {
+    "🔴 Academics/📚 Educational Resources/🌐 GitHub Docs/CICD and DevOps.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -8386,7 +8476,7 @@
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 0,
+      "wordCount": 963,
       "wordCountTowardGoal": 0,
       "wordGoal": 0,
       "pageCount": 0,
@@ -8399,10 +8489,11 @@
       "modifiedDate": 1693765440748,
       "sizeInBytes": 9
     },
-    "🔴 Academics/Projects/Project “Colortype”.md": {
+    "🔴 Academics/📚 Educational Resources/sortspec.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
+      "wordCount": 0,
       "wordCount": 0,
       "wordCountTowardGoal": 0,
       "wordGoal": 0,
@@ -8485,9 +8576,11 @@
       "sizeInBytes": 1973
     },
     "🔴 Academics/Projects/Project “APIforMicrosoftWord”.md": {
+    "🔴 Academics/Projects/Project “APIforMicrosoftWord”.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
+      "wordCount": 0,
       "wordCount": 0,
       "wordCountTowardGoal": 0,
       "wordGoal": 0,
@@ -8603,7 +8696,7 @@
       "modifiedDate": 1696378817825,
       "sizeInBytes": 385
     },
-    "zotero/ravenItBadIdea2017.md": {
+    "zotero/odedAnswerWhatAre2011.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -8620,7 +8713,7 @@
       "modifiedDate": 1696378817827,
       "sizeInBytes": 339
     },
-    "zotero/odedAnswerWhatAre2011.md": {
+    "zotero/ravenItBadIdea2017.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -8858,7 +8951,7 @@
       "modifiedDate": 1694390136379,
       "sizeInBytes": 28
     },
-    "templates/Template {{Anki Note ∋ “⋕card”}}.md": {
+    "templates/Template {{Anki Note ∋ “🎴”}}.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -8994,7 +9087,7 @@
       "modifiedDate": 1694390136376,
       "sizeInBytes": 428
     },
-    "scripts/migrate-content-to-quartz.ps1": {
+    "scripts/convert-single-files-to-be-in-folders.ps1": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -9011,7 +9104,7 @@
       "modifiedDate": 1694048921725,
       "sizeInBytes": 1203
     },
-    "scripts/migrate-anki-media.ps1": {
+    "scripts/migrate-content-to-quartz.ps1": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -9028,7 +9121,7 @@
       "modifiedDate": 1695486719137,
       "sizeInBytes": 292
     },
-    "scripts/convert-single-files-to-be-in-folders.ps1": {
+    "scripts/anki-prepare.ps1": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -9045,7 +9138,7 @@
       "modifiedDate": 1695935772592,
       "sizeInBytes": 916
     },
-    "scripts/anki-prepare.ps1": {
+    "scripts/migrate-anki-media.ps1": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -9062,7 +9155,7 @@
       "modifiedDate": 1693765440733,
       "sizeInBytes": 3712
     },
-    "README.md": {
+    "terror-interview-problem.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -9164,7 +9257,7 @@
       "modifiedDate": 1693765440232,
       "sizeInBytes": 21596210
     },
-    "assets/videos/structy-002-hey-programmer-approach.mp4": {
+    "assets/videos/structy-course-introduction.mp4": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -9181,12 +9274,13 @@
       "modifiedDate": 1693765440076,
       "sizeInBytes": 4819615
     },
-    "assets/mermaid/Flowchart Process.md": {
-      "isCountable": true,
+    "assets/videos/structy-002-hey-programmer-approach.mp4": {
+      "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
       "wordCount": 0,
       "wordCountTowardGoal": 0,
+      "wordGoal": 0,
       "wordGoal": 0,
       "pageCount": 0,
       "characterCount": 0,
@@ -9215,7 +9309,7 @@
       "modifiedDate": 1693765440032,
       "sizeInBytes": 36980
     },
-    "assets/images/thomas-calculus-early-transcendentals-15th-edition-geometry-formulas-triangle.jpg": {
+    "assets/images/thomas-calculus-early-transcendentals-15th-edition-geometry-formulas-trapezoid.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -9249,6 +9343,7 @@
       "modifiedDate": 1693765440031,
       "sizeInBytes": 3038
     },
+    "assets/images/thomas-calculus-early-transcendentals-15th-edition-geometry-formulas-sphere.jpg": {
     "assets/images/thomas-calculus-early-transcendentals-15th-edition-geometry-formulas-sphere.jpg": {
       "isCountable": false,
       "isDirectory": false,
@@ -9368,7 +9463,7 @@
       "modifiedDate": 1693765440027,
       "sizeInBytes": 3951
     },
-    "assets/images/thomas-calculus-early-transcendentals-15th-edition-geometry-formulas-any-cylinder-or-prism-with-parallel-bases.jpg": {
+    "assets/images/thomas-calculus-early-transcendentals-15th-edition-geometry-formulas-any-cone-or-pyramid.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -9385,7 +9480,7 @@
       "modifiedDate": 1693765440027,
       "sizeInBytes": 8971
     },
-    "assets/images/thomas-calculus-early-transcendentals-15th-edition-geometry-formulas-any-cone-or-pyramid.jpg": {
+    "assets/images/thomas-calculus-early-transcendentals-15th-edition-geometry-formulas-any-cylinder-or-prism-with-parallel-bases.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -9453,7 +9548,7 @@
       "modifiedDate": 1693765440024,
       "sizeInBytes": 9408
     },
-    "assets/images/thomas-calculus-early-transcendentals-15th-edition-figure-1-10.jpg": {
+    "assets/images/thomas-calculus-early-transcendentals-15th-edition-geometry-example-1-answer.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -9487,6 +9582,7 @@
       "modifiedDate": 1693765440023,
       "sizeInBytes": 4698
     },
+    "assets/images/thomas-calculus-early-transcendentals-15th-edition-even-functions-and-odd-functions-symmetry-definitions.jpg": {
     "assets/images/thomas-calculus-early-transcendentals-15th-edition-even-functions-and-odd-functions-symmetry-definitions.jpg": {
       "isCountable": false,
       "isDirectory": false,
@@ -9623,7 +9719,7 @@
       "modifiedDate": 1693765439969,
       "sizeInBytes": 26546
     },
-    "assets/images/Pasted image 20230815101746.png": {
+    "assets/images/Pasted image 20230815101404.png": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -9640,7 +9736,7 @@
       "modifiedDate": 1693765439969,
       "sizeInBytes": 28496
     },
-    "assets/images/Pasted image 20230815101404.png": {
+    "assets/images/Pasted image 20230815100228.png": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -9657,7 +9753,7 @@
       "modifiedDate": 1693765439968,
       "sizeInBytes": 20217
     },
-    "assets/images/Pasted image 20230815101015.png": {
+    "assets/images/Pasted image 20230815101746.png": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -9743,6 +9839,7 @@
       "sizeInBytes": 11739
     },
     "assets/images/Pasted image 20230812201316.png": {
+    "assets/images/Pasted image 20230812201316.png": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -9760,6 +9857,7 @@
       "sizeInBytes": 24283
     },
     "assets/images/Pasted image 20230811063221.png": {
+    "assets/images/Pasted image 20230811063221.png": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -9776,6 +9874,7 @@
       "modifiedDate": 1693765439964,
       "sizeInBytes": 161058
     },
+    "assets/images/Pasted image 20230811062531.png": {
     "assets/images/Pasted image 20230811062531.png": {
       "isCountable": false,
       "isDirectory": false,
@@ -9827,7 +9926,7 @@
       "modifiedDate": 1693765439960,
       "sizeInBytes": 65754
     },
-    "assets/images/Pasted image 20230807030022.png": {
+    "assets/images/Pasted image 20230810203231.png": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -9844,6 +9943,7 @@
       "modifiedDate": 1693867839299,
       "sizeInBytes": 1529000
     },
+    "assets/images/Pasted image 20230807025824.png": {
     "assets/images/Pasted image 20230807025824.png": {
       "isCountable": false,
       "isDirectory": false,
@@ -9929,7 +10029,7 @@
       "modifiedDate": 1693867839263,
       "sizeInBytes": 715053
     },
-    "assets/images/Pasted image 20230807013338.png": {
+    "assets/images/Pasted image 20230807013247.png": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -9946,7 +10046,7 @@
       "modifiedDate": 1693867839257,
       "sizeInBytes": 90728
     },
-    "assets/images/Pasted image 20230807013247.png": {
+    "assets/images/Pasted image 20230807013338.png": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -9997,7 +10097,7 @@
       "modifiedDate": 1693867839252,
       "sizeInBytes": 477913
     },
-    "assets/images/Pasted image 20230806040120.png": {
+    "assets/images/Pasted image 20230806035554.png": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10014,7 +10114,7 @@
       "modifiedDate": 1693867839249,
       "sizeInBytes": 1293495
     },
-    "assets/images/Pasted image 20230806035940.png": {
+    "assets/images/Pasted image 20230806040120.png": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10031,7 +10131,7 @@
       "modifiedDate": 1693867839240,
       "sizeInBytes": 938048
     },
-    "assets/images/Pasted image 20230806035554.png": {
+    "assets/images/Pasted image 20230806035940.png": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10082,7 +10182,7 @@
       "modifiedDate": 1693867839222,
       "sizeInBytes": 58043
     },
-    "assets/images/Pasted image 20230801224026.png": {
+    "assets/images/Pasted image 20230731171524.png": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10116,6 +10216,7 @@
       "modifiedDate": 1693867839219,
       "sizeInBytes": 130241
     },
+    "assets/images/Pasted image 20230731171410.png": {
     "assets/images/Pasted image 20230731171410.png": {
       "isCountable": false,
       "isDirectory": false,
@@ -10184,7 +10285,7 @@
       "modifiedDate": 1693867839214,
       "sizeInBytes": 1198
     },
-    "assets/images/Pasted image 20230721170047.png": {
+    "assets/images/Pasted image 20230625181008.png": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10201,7 +10302,7 @@
       "modifiedDate": 1693867839213,
       "sizeInBytes": 3373
     },
-    "assets/images/Pasted image 20230625181008.png": {
+    "assets/images/Pasted image 20230721170047.png": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10320,7 +10421,7 @@
       "modifiedDate": 1693765440021,
       "sizeInBytes": 16270
     },
-    "assets/images/merriam-webster-name-that-thing-wafer-board.jpg": {
+    "assets/images/merriam-webster-name-that-thing-vamp.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10337,7 +10438,7 @@
       "modifiedDate": 1693765440020,
       "sizeInBytes": 38136
     },
-    "assets/images/merriam-webster-name-that-thing-viaduct.jpg": {
+    "assets/images/merriam-webster-name-that-thing-tongue.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10354,7 +10455,7 @@
       "modifiedDate": 1693765440019,
       "sizeInBytes": 2842
     },
-    "assets/images/merriam-webster-name-that-thing-vamp.jpg": {
+    "assets/images/merriam-webster-name-that-thing-wafer-board.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10371,7 +10472,7 @@
       "modifiedDate": 1693765440019,
       "sizeInBytes": 41730
     },
-    "assets/images/merriam-webster-name-that-thing-tongue.jpg": {
+    "assets/images/merriam-webster-name-that-thing-viaduct.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10422,7 +10523,7 @@
       "modifiedDate": 1693765440017,
       "sizeInBytes": 3130
     },
-    "assets/images/merriam-webster-name-that-thing-tasmanian-devil.jpg": {
+    "assets/images/merriam-webster-name-that-thing-tang.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10439,7 +10540,7 @@
       "modifiedDate": 1693765440016,
       "sizeInBytes": 5243
     },
-    "assets/images/merriam-webster-name-that-thing-tang.jpg": {
+    "assets/images/merriam-webster-name-that-thing-tasmanian-devil.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10456,7 +10557,7 @@
       "modifiedDate": 1693765440016,
       "sizeInBytes": 19157
     },
-    "assets/images/merriam-webster-name-that-thing-tachometer.jpg": {
+    "assets/images/merriam-webster-name-that-thing-staff.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10473,7 +10574,7 @@
       "modifiedDate": 1693765440015,
       "sizeInBytes": 18450
     },
-    "assets/images/merriam-webster-name-that-thing-stamen.jpg": {
+    "assets/images/merriam-webster-name-that-thing-tachometer.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10490,7 +10591,7 @@
       "modifiedDate": 1693765440015,
       "sizeInBytes": 16169
     },
-    "assets/images/merriam-webster-name-that-thing-staff.jpg": {
+    "assets/images/merriam-webster-name-that-thing-saffron.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10524,6 +10625,7 @@
       "modifiedDate": 1693765440013,
       "sizeInBytes": 49215
     },
+    "assets/images/merriam-webster-name-that-thing-spoon.jpg": {
     "assets/images/merriam-webster-name-that-thing-spoon.jpg": {
       "isCountable": false,
       "isDirectory": false,
@@ -10609,7 +10711,7 @@
       "modifiedDate": 1693765440009,
       "sizeInBytes": 15467
     },
-    "assets/images/merriam-webster-name-that-thing-raglan-sleeve.jpg": {
+    "assets/images/merriam-webster-name-that-thing-ramekin.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10626,7 +10728,7 @@
       "modifiedDate": 1693765440011,
       "sizeInBytes": 21152
     },
-    "assets/images/merriam-webster-name-that-thing-prince-nez.jpg": {
+    "assets/images/merriam-webster-name-that-thing-pommel.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10643,6 +10745,7 @@
       "modifiedDate": 1693765440010,
       "sizeInBytes": 15699
     },
+    "assets/images/merriam-webster-name-that-thing-philtrum.jpg": {
     "assets/images/merriam-webster-name-that-thing-philtrum.jpg": {
       "isCountable": false,
       "isDirectory": false,
@@ -10762,6 +10865,23 @@
       "modifiedDate": 1693765440004,
       "sizeInBytes": 5311
     },
+    "assets/images/merriam-webster-name-that-thing-duffle-coat.jpg": {
+      "isCountable": false,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1693755965973,
+      "modifiedDate": 1693755965974,
+      "sizeInBytes": 44489
+    },
     "assets/images/merriam-webster-name-that-thing-helix.jpg": {
       "isCountable": false,
       "isDirectory": false,
@@ -10796,7 +10916,7 @@
       "modifiedDate": 1693765440003,
       "sizeInBytes": 5860
     },
-    "assets/images/merriam-webster-name-that-thing-fuselage.jpg": {
+    "assets/images/merriam-webster-name-that-thing-flush.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10830,7 +10950,7 @@
       "modifiedDate": 1693765440002,
       "sizeInBytes": 41536
     },
-    "assets/images/merriam-webster-name-that-thing-flush.jpg": {
+    "assets/images/merriam-webster-name-that-thing-ferrule.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10966,7 +11086,7 @@
       "modifiedDate": 1693765439998,
       "sizeInBytes": 27680
     },
-    "assets/images/merriam-webster-name-that-thing-duffle-coat.jpg": {
+    "assets/images/merriam-webster-name-that-thing-emery-board.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -10983,7 +11103,7 @@
       "modifiedDate": 1693765439997,
       "sizeInBytes": 44489
     },
-    "assets/images/merriam-webster-name-that-thing-dorsal-fin.jpg": {
+    "assets/images/merriam-webster-name-that-thing-derailleur.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -11000,7 +11120,7 @@
       "modifiedDate": 1693765439996,
       "sizeInBytes": 2835
     },
-    "assets/images/merriam-webster-name-that-thing-derailleur.jpg": {
+    "assets/images/merriam-webster-name-that-thing-cumulus-cloud.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -11017,7 +11137,7 @@
       "modifiedDate": 1693765439996,
       "sizeInBytes": 10054
     },
-    "assets/images/merriam-webster-name-that-thing-cumulus-cloud.jpg": {
+    "assets/images/merriam-webster-name-that-thing-chop.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -11136,7 +11256,7 @@
       "modifiedDate": 1693765439992,
       "sizeInBytes": 65335
     },
-    "assets/images/merriam-webster-name-that-thing-cab.jpg": {
+    "assets/images/merriam-webster-name-that-thing-cable-stitch.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -11204,7 +11324,7 @@
       "modifiedDate": 1693765439990,
       "sizeInBytes": 53948
     },
-    "assets/images/merriam-webster-name-that-hat-tam-o’shanter.jpg": {
+    "assets/images/merriam-webster-name-that-hat-deerstalker.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -11255,7 +11375,7 @@
       "modifiedDate": 1693765439988,
       "sizeInBytes": 14903
     },
-    "assets/images/merriam-webster-name-that-hat-chullo.jpg": {
+    "assets/images/merriam-webster-name-that-hat-shako.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -11272,7 +11392,7 @@
       "modifiedDate": 1693765439988,
       "sizeInBytes": 21598
     },
-    "assets/images/merriam-webster-name-that-hat-bycoket.jpg": {
+    "assets/images/merriam-webster-name-that-hat-chullo.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -11425,7 +11545,7 @@
       "modifiedDate": 1693765439984,
       "sizeInBytes": 4030
     },
-    "assets/images/learncpp-com-development-min.webp": {
+    "assets/images/learncpp-com-compiling-min.webp": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -11459,7 +11579,7 @@
       "modifiedDate": 1693765439983,
       "sizeInBytes": 5720
     },
-    "assets/images/learncpp-com-compilesource-min.webp": {
+    "assets/images/learncpp-com-development-min.webp": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -11493,7 +11613,7 @@
       "modifiedDate": 1693765439982,
       "sizeInBytes": 54881
     },
-    "assets/images/dschool-processhexdiagram-tool-behaviors-final-2019.png": {
+    "assets/images/aws-educate-cloud-challenges-troubleshooting-your-set-up.jpg": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -11662,6 +11782,23 @@
       "createdDate": 1693765439971,
       "modifiedDate": 1693765439971,
       "sizeInBytes": 40426
+    },
+    "assets/images/aws-educate-analytics-data-models-assessment.png": {
+      "isCountable": false,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1693755965947,
+      "modifiedDate": 1693755965947,
+      "sizeInBytes": 87769
     },
     "assets/images/an-introduction-to-modern-javascript.jpg": {
       "isCountable": false,
@@ -11918,7 +12055,7 @@
       "modifiedDate": 1682868407000,
       "sizeInBytes": 2334072
     },
-    "assets/fonts/CaskaydiaCoveNerdFontPropo-BoldItalic.ttf": {
+    "assets/fonts/CaskaydiaCoveNerdFontPropo-ExtraLight.ttf": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -12037,7 +12174,7 @@
       "modifiedDate": 1682868407000,
       "sizeInBytes": 2254568
     },
-    "assets/fonts/CaskaydiaCoveNerdFontMono-LightItalic.ttf": {
+    "assets/fonts/CaskaydiaCoveNerdFontMono-SemiBoldItalic.ttf": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -12055,6 +12192,7 @@
       "sizeInBytes": 2110284
     },
     "assets/fonts/CaskaydiaCoveNerdFontMono-Light.ttf": {
+    "assets/fonts/CaskaydiaCoveNerdFontMono-Light.ttf": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -12071,6 +12209,7 @@
       "modifiedDate": 1682868407000,
       "sizeInBytes": 2258032
     },
+    "assets/fonts/CaskaydiaCoveNerdFontMono-Italic.ttf": {
     "assets/fonts/CaskaydiaCoveNerdFontMono-Italic.ttf": {
       "isCountable": false,
       "isDirectory": false,
@@ -12105,7 +12244,7 @@
       "modifiedDate": 1682868407000,
       "sizeInBytes": 2108212
     },
-    "assets/fonts/CaskaydiaCoveNerdFontMono-ExtraLight.ttf": {
+    "assets/fonts/CaskaydiaCoveNerdFontMono-BoldItalic.ttf": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -12208,6 +12347,7 @@
       "sizeInBytes": 2182348
     },
     "assets/fonts/CaskaydiaCoveNerdFont-SemiBold.ttf": {
+    "assets/fonts/CaskaydiaCoveNerdFont-SemiBold.ttf": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -12241,7 +12381,7 @@
       "modifiedDate": 1682868407000,
       "sizeInBytes": 2331776
     },
-    "assets/fonts/CaskaydiaCoveNerdFont-LightItalic.ttf": {
+    "assets/fonts/CaskaydiaCoveNerdFont-ExtraLightItalic.ttf": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -12292,7 +12432,7 @@
       "modifiedDate": 1682868407000,
       "sizeInBytes": 2181636
     },
-    "assets/fonts/CaskaydiaCoveNerdFont-ExtraLightItalic.ttf": {
+    "assets/fonts/CaskaydiaCoveNerdFont-Light.ttf": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -12309,7 +12449,7 @@
       "modifiedDate": 1682868407000,
       "sizeInBytes": 2182936
     },
-    "assets/fonts/CaskaydiaCoveNerdFont-ExtraLight.ttf": {
+    "assets/fonts/CaskaydiaCoveNerdFont-Italic.ttf": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -12497,6 +12637,7 @@
       "sizeInBytes": 52704
     },
     "assets/audios/rhythm-pronunciation.mp3": {
+    "assets/audios/rhythm-pronunciation.mp3": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -12581,7 +12722,7 @@
       "modifiedDate": 1693765439939,
       "sizeInBytes": 61047
     },
-    "assets/audios/principal-pronunciation.mp3": {
+    "assets/audios/pronunciation-pronunciation.mp3": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -12734,7 +12875,7 @@
       "modifiedDate": 1693765439932,
       "sizeInBytes": 58124
     },
-    "assets/audios/foreign-pronunciation.mp3": {
+    "assets/audios/exuberance-pronunciation.mp3": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -12769,6 +12910,7 @@
       "sizeInBytes": 55623
     },
     "assets/audios/existence-pronunciation.mp3": {
+    "assets/audios/existence-pronunciation.mp3": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -12802,7 +12944,7 @@
       "modifiedDate": 1693765439929,
       "sizeInBytes": 69801
     },
-    "assets/audios/eligible-pronunciation.mp3": {
+    "assets/audios/ecstasy-pronunciation.mp3": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -12819,7 +12961,7 @@
       "modifiedDate": 1693765439928,
       "sizeInBytes": 51451
     },
-    "assets/audios/ecstasy-pronunciation.mp3": {
+    "assets/audios/eligible-pronunciation.mp3": {
       "isCountable": false,
       "isDirectory": false,
       "noteCount": 1,
@@ -12954,6 +13096,23 @@
       "createdDate": 1693765439922,
       "modifiedDate": 1693765439922,
       "sizeInBytes": 54791
+    },
+    "README.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 56,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.18666666666666668,
+      "characterCount": 301,
+      "nonWhitespaceCharacterCount": 233,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1693755957737,
+      "modifiedDate": 1696827795903,
+      "sizeInBytes": 361
     },
     "anki-flashcards/collection-2023-09-04@16-38-10.colpkg": {
       "isCountable": false,
