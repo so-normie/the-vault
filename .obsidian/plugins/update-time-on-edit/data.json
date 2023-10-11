@@ -28,7 +28,6 @@
     "zotero/akremWhatAreBenefits2013.md": "d0e8366d9bdc01c5dcb049293eeddeea5e695e561aef2e16baba7bf9b520c522",
     "zotero/odedAnswerWhatAre2011.md": "a4d3cc0afc9b9b7d7a5afa0ffdc0b20ff1f56ddd9383689016117989e8b36690",
     "zotero/stwAnswerWhatAre2013.md": "ed14223ba84f872b14af036535acadc4873c9fe8783b071aed7c0ffd319ae533",
-    "Default.md": "1fcd523ff46b1b4cf2991fdeced79e8faf4bdda0896b8d6f04a6bd36342f94d5",
     "README.md": "d17f3b18704d5a916c91b703870a03dab86240ff23399317187608a954821c90",
     "🔴 Academics/Projects/Project “MeDev”.md": "c0c0b9155521dffd2accdfcf440e5d6a05bd5b38dbd1117c870b21ac0512073c",
     "🔴 Academics/📚 Educational Resources/Spark Optimization/Causes of OOM Errors/Broadcast Joins.md": "a9319c80f8b9bac0772407fc90619d1d5cd83c4a402b548359877a5c2c53b46c",
@@ -113,6 +112,7 @@
     "🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke! (2022)/0. Preface.md": "65a77883793cd16eff9d0cf3bb321b0ed9a1bb98d355b5a0eceb1ec35d9aa59f",
     "🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke! (2022)/1. Chapter.md": "ecc0555288d9396279a48c3a219c47edb45f28574f9c0bd6bcfae8c7456f44a7",
     "🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/Preface.md": "86073577c6a32030e2e707e8d4606965d98c939a23737eaa83db1046023de247",
-    "🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents.md": "bda2c600e8bb5ff83f6935ec0cc6a60ea5fe57413c48ec1638cc38d42cf1401e"
+    "🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents.md": "bda2c600e8bb5ff83f6935ec0cc6a60ea5fe57413c48ec1638cc38d42cf1401e",
+    "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Dynamic Partition Pruning.md": "df958619e29ee842bfdd0d61a0fe81e272d369db70c849bd131edf90e487d153"
   }
 }

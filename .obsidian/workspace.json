@@ -11,8 +11,14 @@
             "id": "705a2355188d6c29",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Default",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Default.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":31.8}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -301,6 +307,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "flashcards-obsidian:Generate flashcards": false,
       "omnisearch:Omnisearch": false,
       "graph:Open graph view": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
@@ -329,8 +336,9 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "🔴 Academics/📚 Educational Resources/🌐 AWS Educate/🌐 AWS Educate.md",
     "Default.md",
+    "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Dynamic Partition Pruning.md",
+    "🔴 Academics/📚 Educational Resources/🌐 AWS Educate/🌐 AWS Educate.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/Project Structure.md",
     "terror-interview-problem.md",
     "zotero/microsoftcorporationWhatAreBenefits2023.md",
@@ -354,7 +362,6 @@
     "zotero/zabianStructyLearnData2023.md",
     "README.md",
     "🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms library.md",
-    "templates/Template {{Templater ⊃ tp.file.creation_date}}.md",
     "zotero",
     "🔴 Academics/📚 Educational Resources/Untitled",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Untitled.loom",
