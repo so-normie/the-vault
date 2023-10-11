@@ -36,6 +36,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Default",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Default.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
                   "title": "Project Structure",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/Project Structure.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
