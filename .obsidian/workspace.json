@@ -4,59 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a4f984e3df4fd060",
+        "id": "b15365785c9b2b14",
         "type": "tabs",
         "children": [
           {
-            "id": "705a2355188d6c29",
+            "id": "6f8e33ef0ea104a1",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Default",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Default.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":31.8}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "🌐 AWS Educate",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🌐 AWS Educate/🌐 AWS Educate.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Default",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Default.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Default",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Default.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Project Structure",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/Project Structure.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
-                  "eState": "{\"scroll\":94.13333565848214}"
                 }
               ]
             },
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Dynamic Partition Pruning.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -196,7 +161,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Dynamic Partition Pruning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +186,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Dynamic Partition Pruning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -298,9 +261,7 @@
             },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Dynamic Partition Pruning.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -308,8 +269,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 549.5,
-    "collapsed": true
+    "width": 549.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -337,11 +297,12 @@
       "chronology:Open Chronology": false
     }
   },
-  "active": "705a2355188d6c29",
+  "active": "6f8e33ef0ea104a1",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "🔴 Academics/📚 Educational Resources/🗒️ Java/🗒️ Java.md",
     "Default.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Dynamic Partition Pruning.md",
     "🔴 Academics/📚 Educational Resources/🌐 AWS Educate/🌐 AWS Educate.md",
@@ -367,7 +328,6 @@
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md",
     "zotero/zabianStructyLearnData2023.md",
     "README.md",
-    "🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms library.md",
     "zotero",
     "🔴 Academics/📚 Educational Resources/Untitled",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Untitled.loom",

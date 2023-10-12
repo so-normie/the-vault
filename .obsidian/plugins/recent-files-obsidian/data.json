@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "🗒️ Java",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Java/🗒️ Java.md"
+    },
+    {
+      "basename": "Default",
+      "path": "Default.md"
+    },
+    {
       "basename": "Dynamic Partition Pruning",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Dynamic Partition Pruning.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "Default",
-      "path": "Default.md"
     },
     {
       "basename": "terror-interview-problem",

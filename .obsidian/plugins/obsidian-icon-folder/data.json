@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "EiUseTheIndexLuke",
       "EiZoteroItem",
       "EiZotero",
       "TiNotes",
-      "TiNote",
-      "FasPerson"
+      "TiNote"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -124,7 +124,7 @@
       },
       {
         "rule": "sortspec",
-        "icon": "RiSortDesc",
+        "icon": "TiSortDescending2",
         "for": "everything",
         "order": 18
       },
