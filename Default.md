@@ -57,7 +57,7 @@ What is the most holy god
 
 #card 
 
-> Jesus
+> Jesus yolo
 
 ⌂
 <br>﹈<br>^1696368700368
