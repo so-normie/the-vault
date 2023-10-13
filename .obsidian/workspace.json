@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "c6990a7579e12b8e",
+    "id": "812027d141a633e2",
     "type": "split",
     "children": [
       {
-        "id": "b15365785c9b2b14",
+        "id": "0fd3dc86836b5d3e",
         "type": "tabs",
         "children": [
           {
-            "id": "6f8e33ef0ea104a1",
+            "id": "ea5bd091a54517c2",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -20,13 +20,8 @@
               ]
             },
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "terror-interview-problem.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -35,15 +30,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "95c3c687023cd2df",
+    "id": "e8ed80397d38533a",
     "type": "split",
     "children": [
       {
-        "id": "e6009f67c642bbe3",
+        "id": "54360f8db890b174",
         "type": "tabs",
         "children": [
           {
-            "id": "66806c8f4619484a",
+            "id": "378dfb133d1155ab",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -60,7 +55,7 @@
             }
           },
           {
-            "id": "7eff4470cee5490f",
+            "id": "e3f6c9ecddf3f564",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -79,7 +74,7 @@
             }
           },
           {
-            "id": "3785bf70fd36bb07",
+            "id": "c66e0c5f869fd443",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -93,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "**References**",
+                "query": "tag:#academics/educational-resource/cpp-reference",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,24 +98,7 @@
             }
           },
           {
-            "id": "5f98b32eff7928b4",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "32284157afb698e5",
+            "id": "eac6a8071c277ac3",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -141,18 +119,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 435.5
+    "width": 506.5110321044922
   },
   "right": {
-    "id": "128fe29333f9ab00",
+    "id": "4862554a11d6c3ac",
     "type": "split",
     "children": [
       {
-        "id": "5bd7845f4bc91318",
+        "id": "89a4ef93bf01a9a6",
         "type": "tabs",
         "children": [
           {
-            "id": "c4c5a8fd080ab8bd",
+            "id": "4a339558f59cc8a8",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -166,7 +144,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "terror-interview-problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +155,7 @@
             }
           },
           {
-            "id": "0d4bbe8a1b7f6c33",
+            "id": "b1bed1699b770f6a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -192,14 +169,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "terror-interview-problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "d2736bc6aa7bafe3",
+            "id": "795183581340a3c8",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -213,13 +189,47 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "frequency",
                 "useHierarchy": true
               }
             }
           },
           {
-            "id": "17de1bfedef36282",
+            "id": "ecfca12363b989f1",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "6a46d1a4d8a6d9e3",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "885a95689720234f",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -236,7 +246,7 @@
             }
           },
           {
-            "id": "1c9d60aadefe8a28",
+            "id": "3d46bbe9c9fe1930",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -248,64 +258,44 @@
               ]
             },
             "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
-            }
-          },
-          {
-            "id": "06a137421270ac8c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "terror-interview-problem.md"
-              }
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 549.5
+    "width": 446.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "3d-graph:3D Graph": false,
-      "canvas:Create new canvas": true,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": true,
-      "random-note:Open random note": true,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "surfing:surfing-bookmark-manager": true,
-      "switcher:Open quick switcher": true,
-      "daily-notes:Open today's daily note": true,
-      "templates:Insert template": true,
-      "zk-prefixer:Create new unique note": true,
-      "publish:Publish changes...": true,
-      "templater-obsidian:Templater": false,
+      "publish:Publish changes...": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "notion-like-tables:Create new loom": false,
+      "chronology:Open Chronology": false,
+      "3d-graph:3D Graph": false,
       "custom-sort:Toggle custom sorting": false,
-      "chronology:Open Chronology": false
+      "surfing:surfing-bookmark-manager": false,
+      "notion-like-tables:Create new loom": false
     }
   },
-  "active": "6f8e33ef0ea104a1",
+  "active": "ea5bd091a54517c2",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
