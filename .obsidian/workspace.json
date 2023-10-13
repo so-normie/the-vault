@@ -20,8 +20,13 @@
               ]
             },
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "terror-interview-problem.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -161,6 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "terror-interview-problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,6 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "terror-interview-problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -261,7 +268,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "terror-interview-problem.md"
+              }
             }
           }
         ],
@@ -273,7 +282,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "flashcards-obsidian:Generate flashcards": false,
       "omnisearch:Omnisearch": false,
       "graph:Open graph view": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
@@ -302,12 +310,12 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "terror-interview-problem.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Java/🗒️ Java.md",
     "Default.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Dynamic Partition Pruning.md",
     "🔴 Academics/📚 Educational Resources/🌐 AWS Educate/🌐 AWS Educate.md",
     "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/Project Structure.md",
-    "terror-interview-problem.md",
     "zotero/microsoftcorporationWhatAreBenefits2023.md",
     "zotero/ravenItBadIdea2017.md",
     "zotero/ShouldPlaceSolution.md",
