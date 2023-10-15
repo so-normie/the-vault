@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "MSYS2 Commands",
-      "path": "🔴 Academics/📚 Educational Resources/MSYS2/MSYS2 Commands.md"
+      "basename": "🌐 Structy ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "1. Array and String ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/1. Array and String ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "0. Introduction ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "🗒️ Obsidian",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ Obsidian/🗒️ Obsidian.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "MSYS2 Commands",
+      "path": "🔴 Academics/📚 Educational Resources/MSYS2/MSYS2 Commands.md"
     },
     {
       "basename": "📕 Python in a Nutshell, 4ᵗʰ Edition (2023)",
@@ -35,14 +51,6 @@
     {
       "basename": "🌐 AWS Educate",
       "path": "🔴 Academics/📚 Educational Resources/🌐 AWS Educate/🌐 AWS Educate.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "🌐 Structy ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "edsfAnswerItBad2017",
@@ -93,16 +101,8 @@
       "path": "templates/Template (Note Template ∋ {{Folder Name}} ▹ 📋 Table of Contents).md"
     },
     {
-      "basename": "0. Introduction ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
-    },
-    {
       "basename": "zabianStructyLearnData2023",
       "path": "zotero/zabianStructyLearnData2023.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Template {{Templater ⊃ tp.file.creation_date}}",

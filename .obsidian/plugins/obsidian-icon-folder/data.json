@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "EiAnaconda",
+      "LiBookmark",
+      "FarBookmark",
       "SiNeovim",
-      "EiPlantPot",
-      "SiPowershell",
-      "SiRust",
-      "EiRclone"
+      "EiPlantPot"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -111,8 +111,8 @@
         "order": 15
       },
       {
-        "rule": "▹ 📋 Table of Contents",
-        "icon": "FasListOl",
+        "rule": "*▹ 📋 Table of Contents",
+        "icon": "LiListOrdered",
         "for": "everything",
         "order": 16
       },
@@ -149,7 +149,7 @@
       "left": 0
     },
     "iconInTabsEnabled": true,
-    "iconsBackgroundCheckEnabled": false
+    "iconsBackgroundCheckEnabled": true
   },
   "Assets/Images/thomas-calculus-early-transcendentals-15th-edition-geometry-example-1-question.jpg": {
     "iconName": null,
@@ -198,13 +198,12 @@
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/217. Contains Duplicate.md": "LiConstruction",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Hard).md": "LiConstruction",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Medium).md": "LiConstruction",
-  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems": "RiBookmarkLine",
+  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems": "LiBookmark",
   "🔴 Academics/📚 Educational Resources/🌐 Advent of Code": "EiAdventOfCode",
   "🔴 Academics/📚 Educational Resources/🌐 Advent of Code/Advent of Code 2015": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md": "FasListOl",
   "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club": "EiSystemDesignFightClub",
   "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md": "FasListOl",
-  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md": "FasListOl",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md": "FasListOl",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md": "LiConstruction",
   "anki-flashcards": "TiCards",
@@ -256,7 +255,6 @@
   "🔴 Academics/📚 Educational Resources/🌐 HackerRank": "SiHackerrank",
   "🔴 Academics/📚 Educational Resources/🌐 StrataScratch": "EiStratascratch",
   "scripts/my_script.js": "TiBrandJavascript",
-  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md": "TiNotes",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/9. Palindrome Number.md": "TiNotes",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/13. Roman to Integer.md": "TiNotes",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md": "TiNotes",
@@ -300,5 +298,6 @@
   "🔴 Academics/📚 Educational Resources/🗒️ Rust": "SiRust",
   "🔴 Academics/📚 Educational Resources/🗒️ PowerShell": "SiPowershell",
   "🔴 Academics/📚 Educational Resources/🗒️ Quartz": "EiPlantPot",
-  "🔴 Academics/📚 Educational Resources/🗒️ Neovim": "SiNeovim"
+  "🔴 Academics/📚 Educational Resources/🗒️ Neovim": "SiNeovim",
+  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Explore": "LiBookmark"
 }
