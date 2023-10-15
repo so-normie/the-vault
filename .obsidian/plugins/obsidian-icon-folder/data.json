@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "EiUseTheIndexLuke",
-      "EiZoteroItem",
-      "EiZotero",
-      "TiNotes",
-      "TiNote"
+      "SiNeovim",
+      "EiPlantPot",
+      "SiPowershell",
+      "SiRust",
+      "EiRclone"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -148,7 +148,8 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": true
+    "iconInTabsEnabled": true,
+    "iconsBackgroundCheckEnabled": false
   },
   "Assets/Images/thomas-calculus-early-transcendentals-15th-edition-geometry-example-1-question.jpg": {
     "iconName": null,
@@ -282,5 +283,22 @@
   "zotero/ShouldPlaceSolution.md": "EiZoteroItem",
   "zotero/akremWhatAreBenefits2013.md": "EiZoteroItem",
   "zotero/odedAnswerWhatAre2011.md": "EiZoteroItem",
-  "zotero/stwAnswerWhatAre2013.md": "EiZoteroItem"
+  "zotero/stwAnswerWhatAre2013.md": "EiZoteroItem",
+  "🔴 Academics/📚 Educational Resources/🌐 C++ reference": "EiCppReference",
+  "🔴 Academics/📚 Educational Resources/MSYS2": "EiMsys2",
+  "🔴 Academics/📚 Educational Resources/🌐 MSYS2 Documentation": "EiMsys2",
+  "🔴 Academics/📚 Educational Resources/🗒️ Yarn": "FabYarn",
+  "🔴 Academics/📚 Educational Resources/🗒️ Physics": "EiPhysics",
+  "🔴 Academics/📚 Educational Resources/🗒️ Microsoft Windows": "FabMicrosoft",
+  "🔴 Academics/📚 Educational Resources/🗒️ C++": "SiCplusplus",
+  "🔴 Academics/📚 Educational Resources/🗒️ Wolfram Mathematica": "SiWolframmathematica",
+  "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio": "SiVisualstudio",
+  "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio Code": "SiVisualstudiocode",
+  "🔴 Academics/📚 Educational Resources/🗒️ TypeScript": "SiTypescript",
+  "🔴 Academics/📚 Educational Resources/🗒️ Vimium": "EiVimium",
+  "🔴 Academics/📚 Educational Resources/🗒️ Rclone": "EiRclone",
+  "🔴 Academics/📚 Educational Resources/🗒️ Rust": "SiRust",
+  "🔴 Academics/📚 Educational Resources/🗒️ PowerShell": "SiPowershell",
+  "🔴 Academics/📚 Educational Resources/🗒️ Quartz": "EiPlantPot",
+  "🔴 Academics/📚 Educational Resources/🗒️ Neovim": "SiNeovim"
 }
