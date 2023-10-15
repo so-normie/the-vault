@@ -4,7 +4,7 @@ tags:
   - study-note
 cards-deck: Default::Computer Science
 created: 2023-09-03 08:46
-updated: 2023-09-07 19:20
+updated: 2023-10-13T02:14
 ---
 
 # MSYS2 Documentation
