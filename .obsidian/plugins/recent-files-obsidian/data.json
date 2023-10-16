@@ -1,8 +1,100 @@
 {
   "recentFiles": [
     {
+      "basename": "🗒️ C++ ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "ConstrainedAlgorithms202023",
+      "path": "zotero/ConstrainedAlgorithms202023.md"
+    },
+    {
+      "basename": "Algorithms library",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms library.md"
+    },
+    {
+      "basename": "terror-interview-problem",
+      "path": "terror-interview-problem.md"
+    },
+    {
+      "basename": "🗒️ Visual Studio ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/🗒️ Visual Studio ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "🗒️ Yarn ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Yarn/🗒️ Yarn ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "🗒️ Wolfram Mathematica ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Wolfram Mathematica/🗒️ Wolfram Mathematica ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
+    },
+    {
+      "basename": "MSYS2 Commands",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ MSYS2/MSYS2 Commands.md"
+    },
+    {
+      "basename": "zabianStructyLearnData2023",
+      "path": "zotero/zabianStructyLearnData2023.md"
+    },
+    {
+      "basename": "odedAnswerWhatAre2011",
+      "path": "zotero/odedAnswerWhatAre2011.md"
+    },
+    {
+      "basename": "AlgorithmsLibrary2023",
+      "path": "zotero/AlgorithmsLibrary2023.md"
+    },
+    {
+      "basename": "ShouldPlaceSolution",
+      "path": "zotero/ShouldPlaceSolution.md"
+    },
+    {
+      "basename": "akremWhatAreBenefits2013",
+      "path": "zotero/akremWhatAreBenefits2013.md"
+    },
+    {
+      "basename": "microsoftcorporationCanYouPlease2023",
+      "path": "zotero/microsoftcorporationCanYouPlease2023.md"
+    },
+    {
+      "basename": "edsfAnswerItBad2017",
+      "path": "zotero/edsfAnswerItBad2017.md"
+    },
+    {
+      "basename": "microsoftcorporationWhatAreBenefits2023",
+      "path": "zotero/microsoftcorporationWhatAreBenefits2023.md"
+    },
+    {
+      "basename": "ravenItBadIdea2017",
+      "path": "zotero/ravenItBadIdea2017.md"
+    },
+    {
+      "basename": "stwAnswerWhatAre2013",
+      "path": "zotero/stwAnswerWhatAre2013.md"
+    },
+    {
+      "basename": "🌐 LeetCode ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
+    },
+    {
       "basename": "🌐 Structy ▹ 📋 Table of Contents",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "000. course introduction 👨🏻‍🏫",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md"
+    },
+    {
+      "basename": "Problems ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "📕 Fluent Python, 2ⁿᵈ Edition (2022)",
+      "path": "🔴 Academics/📚 Educational Resources/📕 Fluent Python, 2ⁿᵈ Edition (2022)/📕 Fluent Python, 2ⁿᵈ Edition (2022).md"
     },
     {
       "basename": "1. Array and String ▹ 📋 Table of Contents",
@@ -21,20 +113,12 @@
       "path": "README.md"
     },
     {
-      "basename": "MSYS2 Commands",
-      "path": "🔴 Academics/📚 Educational Resources/MSYS2/MSYS2 Commands.md"
-    },
-    {
       "basename": "📕 Python in a Nutshell, 4ᵗʰ Edition (2023)",
       "path": "🔴 Academics/📚 Educational Resources/📕 Python in a Nutshell, 4ᵗʰ Edition (2023)/📕 Python in a Nutshell, 4ᵗʰ Edition (2023).md"
     },
     {
       "basename": "What is MSYS2？",
       "path": "🔴 Academics/📚 Educational Resources/🌐 MSYS2 Documentation/What is MSYS2？.md"
-    },
-    {
-      "basename": "terror-interview-problem",
-      "path": "terror-interview-problem.md"
     },
     {
       "basename": "🗒️ Java",
@@ -53,56 +137,12 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 AWS Educate/🌐 AWS Educate.md"
     },
     {
-      "basename": "edsfAnswerItBad2017",
-      "path": "zotero/edsfAnswerItBad2017.md"
-    },
-    {
-      "basename": "stwAnswerWhatAre2013",
-      "path": "zotero/stwAnswerWhatAre2013.md"
-    },
-    {
-      "basename": "akremWhatAreBenefits2013",
-      "path": "zotero/akremWhatAreBenefits2013.md"
-    },
-    {
-      "basename": "odedAnswerWhatAre2011",
-      "path": "zotero/odedAnswerWhatAre2011.md"
-    },
-    {
-      "basename": "ravenItBadIdea2017",
-      "path": "zotero/ravenItBadIdea2017.md"
-    },
-    {
-      "basename": "ShouldPlaceSolution",
-      "path": "zotero/ShouldPlaceSolution.md"
-    },
-    {
-      "basename": "microsoftcorporationWhatAreBenefits2023",
-      "path": "zotero/microsoftcorporationWhatAreBenefits2023.md"
-    },
-    {
-      "basename": "microsoftcorporationCanYouPlease2023",
-      "path": "zotero/microsoftcorporationCanYouPlease2023.md"
-    },
-    {
       "basename": "sortspec",
       "path": "zotero/sortspec.md"
     },
     {
-      "basename": "AlgorithmsLibrary2023",
-      "path": "zotero/AlgorithmsLibrary2023.md"
-    },
-    {
-      "basename": "sortspec",
-      "path": "🔴 Academics/📚 Educational Resources/sortspec.md"
-    },
-    {
       "basename": "Template (Note Template ∋ {{Folder Name}} ▹ 📋 Table of Contents)",
       "path": "templates/Template (Note Template ∋ {{Folder Name}} ▹ 📋 Table of Contents).md"
-    },
-    {
-      "basename": "zabianStructyLearnData2023",
-      "path": "zotero/zabianStructyLearnData2023.md"
     },
     {
       "basename": "Template {{Templater ⊃ tp.file.creation_date}}",
@@ -113,28 +153,12 @@
       "path": "🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents.md"
     },
     {
-      "basename": "ConstrainedAlgorithms202023",
-      "path": "zotero/ConstrainedAlgorithms202023.md"
-    },
-    {
       "basename": "StdRangesFor_each_n2023",
       "path": "zotero/StdRangesFor_each_n2023.md"
     },
     {
-      "basename": "Problems ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "🌐 LeetCode ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
-    },
-    {
       "basename": "sortspec",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/sortspec.md"
-    },
-    {
-      "basename": "000. course introduction 👨🏻‍🏫",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md"
     },
     {
       "basename": "20. Valid Parentheses",
@@ -175,18 +199,6 @@
     {
       "basename": "🗒️ SQL",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ SQL/🗒️ SQL.md"
-    },
-    {
-      "basename": "13. Roman to Integer",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/13. Roman to Integer.md"
-    },
-    {
-      "basename": "9. Palindrome Number",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/9. Palindrome Number.md"
-    },
-    {
-      "basename": "125. Valid Palindrome",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md"
     }
   ],
   "omittedPaths": [],
