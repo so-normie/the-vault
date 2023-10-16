@@ -5,6 +5,10 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
     },
     {
+      "basename": "Misc. Notes",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Git/Misc. Notes.md"
+    },
+    {
       "basename": "0. Introduction ▹ 📋 Table of Contents",
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
     },
@@ -109,8 +113,8 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md"
     },
     {
-      "basename": "📕 Fluent Python, 2ⁿᵈ Edition (2022)",
-      "path": "🔴 Academics/📚 Educational Resources/📕 Fluent Python, 2ⁿᵈ Edition (2022)/📕 Fluent Python, 2ⁿᵈ Edition (2022).md"
+      "basename": "📕 Fluent Python, 2nd Edition (2022)",
+      "path": "🔴 Academics/📚 Educational Resources/📕 Fluent Python, 2nd Edition (2022)/📕 Fluent Python, 2nd Edition (2022).md"
     },
     {
       "basename": "1. Array and String ▹ 📋 Table of Contents",
@@ -121,8 +125,8 @@
       "path": "README.md"
     },
     {
-      "basename": "📕 Python in a Nutshell, 4ᵗʰ Edition (2023)",
-      "path": "🔴 Academics/📚 Educational Resources/📕 Python in a Nutshell, 4ᵗʰ Edition (2023)/📕 Python in a Nutshell, 4ᵗʰ Edition (2023).md"
+      "basename": "📕 Python in a Nutshell, 4th Edition (2023)",
+      "path": "🔴 Academics/📚 Educational Resources/📕 Python in a Nutshell, 4th Edition (2023)/📕 Python in a Nutshell, 4th Edition (2023).md"
     },
     {
       "basename": "What is MSYS2？",
@@ -195,10 +199,6 @@
     {
       "basename": "Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}})",
       "path": "templates/Template (🔴 Academics ꞉꞉ 📚 Educational Resources ꞉꞉ 🌐 Structy ꞉꞉ 0. Introduction ꞉꞉ {{Note}}).md"
-    },
-    {
-      "basename": "1. Two Sum",
-      "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
     }
   ],
   "omittedPaths": [],

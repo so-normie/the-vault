@@ -1,34 +1,37 @@
 ---
 title: 🗒️ Git
 created: 2023-08-04 01:58
-<<<<<<< HEAD
-updated: 2023-09-28 14:16
-=======
-updated: 2023-09-22 09:56
->>>>>>> eb0cb116bf466b813753bf1c96d7b2d13d532edc
+updated: 2023-10-16T04:38
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academics/📚-educational-resources/name/🗒️-git
   - 🔴-academics/📚-educational-resources/source-format/miscellaneous
   - 🔴-academics/📚-educational-resources/discipline/computer-science/technology/git
+  - 🔴-academics/📚-educational-resources/name/🗒️-git/🔖-bookmark/misc-notes
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Git
+cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Git::Misc. Notes
 ---
 
-# 🗒️ Git
-
----
-
-## 🕸️ All Mention(s): 
+# Misc. Notes
 
 ---
 
-## 🔙 Previous Note(s):
+> [!abstract]+ Abstract 
+> 
 
 ---
 
-## 🗒️ Git
+> [!info]+ 🕸️ All Mention(s): 
+> 
+
+---
+
+> [!info]+ 🔙 Previous Note(s):
+> 
+
+---
+
 
 ﹇<br>
 How to rename a branch?
@@ -815,11 +818,9 @@ By looking at the `.gitmodules` file in the root directory of the repository.
 ⌂
 <br>﹈<br>^1693775679984
 
-
-
-
 ---
 
-## 🔜 Next Note(s):
+> [!info]+ 🔜 Next Note(s):
+>
 
 ---
