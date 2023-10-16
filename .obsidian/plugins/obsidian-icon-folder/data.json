@@ -208,246 +208,294 @@
       {
         "rule": "🗒️ Visual Studio Code",
         "icon": "SiVisualstudiocode",
-        "for": "everything",
+        "for": "folders",
         "order": 30,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Visual Studio",
         "icon": "SiVisualstudio",
-        "for": "everything",
+        "for": "folders",
         "order": 31,
         "useFilePath": true
       },
       {
         "rule": "🗒️ TypeScript",
         "icon": "SiTypescript",
-        "for": "everything",
+        "for": "folders",
         "order": 32,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Vimium",
         "icon": "EiVimium",
-        "for": "everything",
+        "for": "folders",
         "order": 33,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Rclone",
         "icon": "EiRclone",
-        "for": "everything",
+        "for": "folders",
         "order": 34,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Rust",
         "icon": "SiRust",
-        "for": "everything",
+        "for": "folders",
         "order": 35,
         "useFilePath": true
       },
       {
         "rule": "🗒️ PowerShell",
         "icon": "SiPowershell",
-        "for": "everything",
+        "for": "folders",
         "order": 36,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Quartz",
         "icon": "EiPlantPot",
-        "for": "everything",
+        "for": "folders",
         "order": 37,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Physics",
         "icon": "EiPhysics",
-        "for": "everything",
+        "for": "folders",
         "order": 38,
         "useFilePath": true
       },
       {
         "rule": "🌐 Typst",
         "icon": "EiTypst",
-        "for": "everything",
+        "for": "folders",
         "order": 39,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Node\\.js",
         "icon": "FabNode",
-        "for": "everything",
+        "for": "folders",
         "order": 40,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Microsoft Windows",
         "icon": "FabMicrosoft",
-        "for": "everything",
+        "for": "folders",
         "order": 41,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Neovim",
         "icon": "SiNeovim",
-        "for": "everything",
+        "for": "folders",
         "order": 42,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Microsoft Excel",
         "icon": "SiMicrosoftexcel",
-        "for": "everything",
+        "for": "folders",
         "order": 43,
         "useFilePath": true
       },
       {
         "rule": "🗒️ LaTeX",
         "icon": "SiLatex",
-        "for": "everything",
+        "for": "folders",
         "order": 44,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Lua",
         "icon": "SiLua",
-        "for": "everything",
+        "for": "folders",
         "order": 45,
         "useFilePath": true
       },
       {
         "rule": "🗒️ JavaScript",
         "icon": "FabJava",
-        "for": "everything",
+        "for": "folders",
         "order": 46,
         "useFilePath": true
       },
       {
         "rule": "🗒️ HTML",
         "icon": "SiHtml5",
-        "for": "everything",
+        "for": "folders",
         "order": 47,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Hugo",
         "icon": "EiHugo",
-        "for": "everything",
+        "for": "folders",
         "order": 48,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Google Apps Scripts",
         "icon": "SiGoogleappsscript",
-        "for": "everything",
+        "for": "folders",
         "order": 49,
         "useFilePath": true
       },
       {
         "rule": "🗒️ GoogleTest",
         "icon": "SiGoogle",
-        "for": "everything",
+        "for": "folders",
         "order": 50,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Go",
         "icon": "SiGo",
-        "for": "everything",
+        "for": "folders",
         "order": 51
       },
       {
         "rule": "🗒️ ESBuild",
         "icon": "SiEsbuild",
-        "for": "everything",
+        "for": "folders",
         "order": 52,
         "useFilePath": true
       },
       {
         "rule": "🗒️ ESLint",
         "icon": "SiEslint",
-        "for": "everything",
+        "for": "folders",
         "order": 53,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Discord",
         "icon": "SiDiscord",
-        "for": "everything",
+        "for": "folders",
         "order": 54,
         "useFilePath": true
       },
       {
         "rule": "🗒️ CMake",
         "icon": "EiCMake",
-        "for": "everything",
+        "for": "folders",
         "order": 55,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Anki",
         "icon": "EiAnki",
-        "for": "everything",
+        "for": "folders",
         "order": 56,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Angular",
         "icon": "SiAngular",
-        "for": "everything",
+        "for": "folders",
         "order": 57,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Anaconda",
         "icon": "SiAnaconda",
-        "for": "everything",
+        "for": "folders",
         "order": 58,
         "useFilePath": true
       },
       {
         "rule": "🗒️ .NET",
         "icon": "SiDotnet",
-        "for": "everything",
+        "for": "folders",
         "order": 59,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Python",
         "icon": "SiPython",
-        "for": "everything",
+        "for": "folders",
         "order": 60,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Obsidian",
         "icon": "SiObsidian",
-        "for": "everything",
+        "for": "folders",
         "order": 61,
         "useFilePath": true
       },
       {
         "rule": "🗒️ JetBrains",
         "icon": "SiJetbrains",
-        "for": "everything",
+        "for": "folders",
         "order": 62,
         "useFilePath": true
       },
       {
         "rule": "🗒️ SQL Server",
         "icon": "SiMicrosoftsqlserver",
-        "for": "everything",
+        "for": "folders",
         "order": 63,
         "useFilePath": true
       },
       {
         "rule": "🗒️ SQL",
         "icon": "TiSql",
-        "for": "everything",
+        "for": "folders",
         "order": 64,
         "useFilePath": true
+      },
+      {
+        "rule": "🌐 The Official Guide to Mermaid.js",
+        "icon": "EiMermaid",
+        "for": "folders",
+        "order": 65
+      },
+      {
+        "rule": "🌐 The Modern JavaScript Tutorial",
+        "icon": "LiRadioTower",
+        "for": "folders",
+        "order": 66
+      },
+      {
+        "rule": "🌐 Poetry Documentation",
+        "icon": "SiPoetry",
+        "for": "folders",
+        "order": 67
+      },
+      {
+        "rule": "🗒️ Java",
+        "icon": "FabJava",
+        "for": "folders",
+        "order": 68
+      },
+      {
+        "rule": "🗒️ GitHub",
+        "icon": "SiGithub",
+        "for": "folders",
+        "order": 69
+      },
+      {
+        "rule": "🗒️ Git",
+        "icon": "SiGit",
+        "for": "everything",
+        "order": 70
+      },
+      {
+        "rule": "🗒️ Docker",
+        "icon": "SiDocker",
+        "for": "everything",
+        "order": 71
+      },
+      {
+        "rule": "🗒️ Bash",
+        "icon": "SiGnubash",
+        "for": "everything",
+        "order": 72
       }
     ],
     "extraMargin": {

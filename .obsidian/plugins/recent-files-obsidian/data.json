@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents",
+      "path": "🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "Preface",
+      "path": "🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/Preface.md"
+    },
+    {
       "basename": "🗒️ C++ ▹ 📋 Table of Contents",
       "path": "🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "🗒️ Obsidian",
+      "path": "🔴 Academics/📚 Educational Resources/🗒️ Obsidian/🗒️ Obsidian.md"
     },
     {
       "basename": "ConstrainedAlgorithms202023",
@@ -105,10 +117,6 @@
       "path": "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
     },
     {
-      "basename": "🗒️ Obsidian",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ Obsidian/🗒️ Obsidian.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
     },
@@ -147,10 +155,6 @@
     {
       "basename": "Template {{Templater ⊃ tp.file.creation_date}}",
       "path": "templates/Template {{Templater ⊃ tp.file.creation_date}}.md"
-    },
-    {
-      "basename": "📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents",
-      "path": "🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "StdRangesFor_each_n2023",
@@ -195,10 +199,6 @@
     {
       "basename": "1. Two Sum",
       "path": "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
-    },
-    {
-      "basename": "🗒️ SQL",
-      "path": "🔴 Academics/📚 Educational Resources/🗒️ SQL/🗒️ SQL.md"
     }
   ],
   "omittedPaths": [],
