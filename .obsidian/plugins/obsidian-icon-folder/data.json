@@ -453,49 +453,113 @@
         "rule": "🌐 The Official Guide to Mermaid.js",
         "icon": "EiMermaid",
         "for": "folders",
-        "order": 65
+        "order": 65,
+        "useFilePath": true
       },
       {
         "rule": "🌐 The Modern JavaScript Tutorial",
         "icon": "LiRadioTower",
         "for": "folders",
-        "order": 66
+        "order": 66,
+        "useFilePath": true
       },
       {
         "rule": "🌐 Poetry Documentation",
         "icon": "SiPoetry",
         "for": "folders",
-        "order": 67
+        "order": 67,
+        "useFilePath": true
       },
       {
         "rule": "🗒️ Java",
         "icon": "FabJava",
         "for": "folders",
-        "order": 68
+        "order": 68,
+        "useFilePath": true
       },
       {
         "rule": "🗒️ GitHub",
         "icon": "SiGithub",
         "for": "folders",
-        "order": 69
+        "order": 69,
+        "useFilePath": true
       },
       {
         "rule": "🗒️ Git",
         "icon": "SiGit",
-        "for": "everything",
-        "order": 70
+        "for": "folders",
+        "order": 70,
+        "useFilePath": true
       },
       {
         "rule": "🗒️ Docker",
         "icon": "SiDocker",
-        "for": "everything",
-        "order": 71
+        "for": "folders",
+        "order": 71,
+        "useFilePath": true
       },
       {
         "rule": "🗒️ Bash",
         "icon": "SiGnubash",
+        "for": "folders",
+        "order": 72,
+        "useFilePath": true
+      },
+      {
+        "rule": "🌐 LearnCpp.com",
+        "icon": "EiLearnCpp",
+        "for": "folders",
+        "order": 73,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Spark Optimization",
+        "icon": "SiApachespark",
+        "for": "folders",
+        "order": 74,
+        "useFilePath": true
+      },
+      {
+        "rule": "🌐 Codility",
+        "icon": "EiCodility",
         "for": "everything",
-        "order": 72
+        "order": 75
+      },
+      {
+        "rule": "🌐 More Modern CMake",
+        "icon": "EiHsfLogo",
+        "for": "everything",
+        "order": 76
+      },
+      {
+        "rule": "🌐 Nodejs.dev",
+        "icon": "FabNode",
+        "for": "everything",
+        "order": 77
+      },
+      {
+        "rule": "🌐 HackerRank",
+        "icon": "SiHackerrank",
+        "for": "everything",
+        "order": 78
+      },
+      {
+        "rule": "🌐 Microsoft Learn",
+        "icon": "FabMicrosoft",
+        "for": "everything",
+        "order": 79
+      },
+      {
+        "rule": "🌐 IBM Technology",
+        "icon": "SiYoutube",
+        "for": "everything",
+        "order": 80
+      },
+      {
+        "rule": "🌐 PostgreSQL Documentation",
+        "icon": "BoBxlPostgresql",
+        "for": "everything",
+        "order": 81
       }
     ],
     "extraMargin": {
@@ -519,9 +583,6 @@
   "🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)/Chapter 2. Creating and Populating a Database.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)/Preface.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)/Table of Contents.md": "FasListOl",
-  "🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke! (2022)/0. Preface.md": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke! (2022)/2. Chapter.md": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke! (2022)/1. Chapter.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🙋🏽‍♂️ Data Engineering Prep (Discord Group)/Unique Problems.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 PowerShell Documentation": "RiDocumentBookMarkFill",
   "🔴 Academics/📚 Educational Resources/🌐 pganalyze": "RiDocumentBookMarkFill",
@@ -607,5 +668,8 @@
   "🔴 Academics/📚 Educational Resources/📕 Introduction to Algorithms, 4ᵗʰ Edition (2022)": "RiBook2Fill",
   "🔴 Academics/📚 Educational Resources/📕 How to Read and Do Proofs꞉ An Introduction to Mathematical Thought Processes, 6ᵗʰ Edition": "RiBook2Fill",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/005. array and string welcome 👨🏻‍🏫.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/006. uncompress 👨🏽‍💻.md": "TiNotes"
+  "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/006. uncompress 👨🏽‍💻.md": "TiNotes",
+  "🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke!/0. Preface.md": "RiBookmarkLine",
+  "🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke!/1. Chapter.md": "RiBookmarkLine",
+  "🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke!/2. Chapter.md": "RiBookmarkLine"
 }
