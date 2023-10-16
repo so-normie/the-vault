@@ -6,139 +6,447 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "EiUseTheIndexLuke",
-      "EiZoteroItem",
-      "EiZotero",
+      "EiOReilly",
+      "FabNode",
       "TiNotes",
-      "TiNote"
+      "RiBook2Fill",
+      "RiBook3Fill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
       {
+        "rule": "🌐 LeetCode",
+        "icon": "SiLeetcode",
+        "for": "folders",
+        "order": 0,
+        "useFilePath": true
+      },
+      {
+        "rule": "🌐 Structy",
+        "icon": "EiStructy",
+        "for": "folders",
+        "order": 1,
+        "useFilePath": true
+      },
+      {
+        "rule": "📕 Foundations of Scalable Systems \\(2022\\)",
+        "icon": "EiOReilly",
+        "for": "folders",
+        "order": 2,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ C++",
+        "icon": "SiCplusplus",
+        "for": "folders",
+        "order": 4
+      },
+      {
+        "rule": ".* ▹ 📋 Table of Contents",
+        "icon": "RiListOrdered2",
+        "for": "files",
+        "order": 5,
+        "useFilePath": true
+      },
+      {
         "rule": ".excalidraw.md",
         "icon": "RiPenNibLine",
-        "for": "everything",
-        "order": 0
+        "for": "files",
+        "order": 6
       },
       {
         "rule": ".gif",
         "icon": "TiGif",
-        "for": "everything",
-        "order": 1
+        "for": "files",
+        "order": 7
       },
       {
         "rule": ".jpeg",
         "icon": "FarFileImage",
-        "for": "everything",
-        "order": 2
+        "for": "files",
+        "order": 8
       },
       {
         "rule": ".jpg",
         "icon": "FarFileImage",
-        "for": "everything",
-        "order": 3
+        "for": "files",
+        "order": 10
       },
       {
         "rule": ".js",
         "icon": "SiJavascript",
-        "for": "everything",
-        "order": 4
+        "for": "files",
+        "order": 10
+      },
+      {
+        "rule": "sortspec",
+        "icon": "RiSortDesc",
+        "for": "files",
+        "order": 11
       },
       {
         "rule": ".md",
         "icon": "RiMarkdownLine",
-        "for": "everything",
-        "order": 5
+        "for": "files",
+        "order": 12
       },
       {
         "rule": ".mp3",
         "icon": "FarFileAudio",
         "for": "files",
-        "order": 6
+        "order": 13
       },
       {
         "rule": ".pdf",
         "icon": "FarFilePdf",
-        "for": "everything",
-        "order": 7
+        "for": "files",
+        "order": 14
       },
       {
         "rule": ".png",
         "icon": "FarFileImage",
-        "for": "everything",
-        "order": 8
-      },
-      {
-        "rule": ".ps1",
-        "icon": "TiBrandPowershell",
-        "for": "everything",
-        "order": 9
+        "for": "files",
+        "order": 15
       },
       {
         "rule": ".svg",
         "icon": "SiSvg",
-        "for": "everything",
-        "order": 10
+        "for": "files",
+        "order": 16
+      },
+      {
+        "rule": ".ps1",
+        "icon": "TiBrandPowershell",
+        "for": "files",
+        "order": 17
       },
       {
         "rule": ".ttf",
         "icon": "FasFont",
-        "for": "everything",
-        "order": 11
+        "for": "files",
+        "order": 18
       },
       {
         "rule": ".webm",
         "icon": "FarFileAudio",
         "for": "files",
-        "order": 12
+        "order": 19
       },
       {
         "rule": ".webp",
         "icon": "FarFileImage",
-        "for": "everything",
-        "order": 13
-      },
-      {
-        "rule": "^(?!.*꞉꞉ 🔖 Bookmark).*$",
-        "icon": "RiFolder3Fill",
-        "for": "folders",
-        "order": 14
+        "for": "files",
+        "order": 20
       },
       {
         "rule": "^excalidraw-",
         "icon": "RiPenNibLine",
-        "for": "everything",
-        "order": 15
+        "for": "files",
+        "order": 22
       },
       {
-        "rule": "▹ 📋 Table of Contents",
-        "icon": "FasListOl",
-        "for": "everything",
-        "order": 16
+        "rule": "C++ reference",
+        "icon": "EiCppReference",
+        "for": "folders",
+        "order": 22,
+        "useFilePath": true
       },
       {
         "rule": "Home.md",
         "icon": "TiHome",
-        "for": "everything",
-        "order": 17
-      },
-      {
-        "rule": "sortspec",
-        "icon": "TiSortDescending2",
-        "for": "everything",
-        "order": 18
+        "for": "files",
+        "order": 24
       },
       {
         "rule": "Template *",
         "icon": "TiSvgTemplate",
-        "for": "everything",
-        "order": 19
+        "for": "files",
+        "order": 25
+      },
+      {
+        "rule": "📕 .*",
+        "icon": "BoBxsBook",
+        "for": "folders",
+        "order": 25,
+        "useFilePath": true
       },
       {
         "rule": "zotero/*",
         "icon": "EiZoteroItem",
+        "for": "files",
+        "order": 25,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Wolfram Mathematica",
+        "icon": "SiWolframmathematica",
+        "for": "folders",
+        "order": 26,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Yarn",
+        "icon": "SiYarn",
+        "for": "folders",
+        "order": 27,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ MSYS2",
+        "icon": "EiMSYS2",
+        "for": "folders",
+        "order": 28,
+        "useFilePath": true
+      },
+      {
+        "rule": "🌐 MSYS2 Documentation",
+        "icon": "EiMSYS2",
+        "for": "folders",
+        "order": 29,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Visual Studio Code",
+        "icon": "SiVisualstudiocode",
         "for": "everything",
-        "order": 20,
+        "order": 30,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Visual Studio",
+        "icon": "SiVisualstudio",
+        "for": "everything",
+        "order": 31,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ TypeScript",
+        "icon": "SiTypescript",
+        "for": "everything",
+        "order": 32,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Vimium",
+        "icon": "EiVimium",
+        "for": "everything",
+        "order": 33,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Rclone",
+        "icon": "EiRclone",
+        "for": "everything",
+        "order": 34,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Rust",
+        "icon": "SiRust",
+        "for": "everything",
+        "order": 35,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ PowerShell",
+        "icon": "SiPowershell",
+        "for": "everything",
+        "order": 36,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Quartz",
+        "icon": "EiPlantPot",
+        "for": "everything",
+        "order": 37,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Physics",
+        "icon": "EiPhysics",
+        "for": "everything",
+        "order": 38,
+        "useFilePath": true
+      },
+      {
+        "rule": "🌐 Typst",
+        "icon": "EiTypst",
+        "for": "everything",
+        "order": 39,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Node\\.js",
+        "icon": "FabNode",
+        "for": "everything",
+        "order": 40,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Microsoft Windows",
+        "icon": "FabMicrosoft",
+        "for": "everything",
+        "order": 41,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Neovim",
+        "icon": "SiNeovim",
+        "for": "everything",
+        "order": 42,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Microsoft Excel",
+        "icon": "SiMicrosoftexcel",
+        "for": "everything",
+        "order": 43,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ LaTeX",
+        "icon": "SiLatex",
+        "for": "everything",
+        "order": 44,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Lua",
+        "icon": "SiLua",
+        "for": "everything",
+        "order": 45,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ JavaScript",
+        "icon": "FabJava",
+        "for": "everything",
+        "order": 46,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ HTML",
+        "icon": "SiHtml5",
+        "for": "everything",
+        "order": 47,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Hugo",
+        "icon": "EiHugo",
+        "for": "everything",
+        "order": 48,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Google Apps Scripts",
+        "icon": "SiGoogleappsscript",
+        "for": "everything",
+        "order": 49,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ GoogleTest",
+        "icon": "SiGoogle",
+        "for": "everything",
+        "order": 50,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Go",
+        "icon": "SiGo",
+        "for": "everything",
+        "order": 51
+      },
+      {
+        "rule": "🗒️ ESBuild",
+        "icon": "SiEsbuild",
+        "for": "everything",
+        "order": 52,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ ESLint",
+        "icon": "SiEslint",
+        "for": "everything",
+        "order": 53,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Discord",
+        "icon": "SiDiscord",
+        "for": "everything",
+        "order": 54,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ CMake",
+        "icon": "EiCMake",
+        "for": "everything",
+        "order": 55,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Anki",
+        "icon": "EiAnki",
+        "for": "everything",
+        "order": 56,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Angular",
+        "icon": "SiAngular",
+        "for": "everything",
+        "order": 57,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Anaconda",
+        "icon": "SiAnaconda",
+        "for": "everything",
+        "order": 58,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ .NET",
+        "icon": "SiDotnet",
+        "for": "everything",
+        "order": 59,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Python",
+        "icon": "SiPython",
+        "for": "everything",
+        "order": 60,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ Obsidian",
+        "icon": "SiObsidian",
+        "for": "everything",
+        "order": 61,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ JetBrains",
+        "icon": "SiJetbrains",
+        "for": "everything",
+        "order": 62,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ SQL Server",
+        "icon": "SiMicrosoftsqlserver",
+        "for": "everything",
+        "order": 63,
+        "useFilePath": true
+      },
+      {
+        "rule": "🗒️ SQL",
+        "icon": "TiSql",
+        "for": "everything",
+        "order": 64,
         "useFilePath": true
       }
     ],
@@ -148,7 +456,8 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": true
+    "iconInTabsEnabled": true,
+    "iconsBackgroundCheckEnabled": true
   },
   "Assets/Images/thomas-calculus-early-transcendentals-15th-edition-geometry-example-1-question.jpg": {
     "iconName": null,
@@ -158,21 +467,16 @@
   "assets": "FasBoxesStacked",
   "scripts": "FasCode",
   "templates": "FasToolbox",
-  "🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)": "EiOreilly",
   "🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)/Chapter 1. A Little Background.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)/Chapter 2. Creating and Populating a Database.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)/Preface.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)/Table of Contents.md": "FasListOl",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy": "EiStructy",
-  "🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke! (2022)": "EiUseTheIndexLuke",
   "🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke! (2022)/0. Preface.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke! (2022)/2. Chapter.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke! (2022)/1. Chapter.md": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🙋🏽‍♂️ Data Engineering Prep (Discord Group)": "RiDocumentBookMarkLine",
   "🔴 Academics/📚 Educational Resources/🙋🏽‍♂️ Data Engineering Prep (Discord Group)/Unique Problems.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 PowerShell Documentation": "RiDocumentBookMarkFill",
   "🔴 Academics/📚 Educational Resources/🌐 pganalyze": "RiDocumentBookMarkFill",
-  "🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn": "FabMicrosoft",
   "🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Assessments.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Certifications.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Code Samples.md": "RiBookmarkLine",
@@ -181,14 +485,11 @@
   "🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Events.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Training.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Shows.md": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 GitHub Docs": "SiGithub",
   "🔴 Academics/📚 Educational Resources/🌐 GitHub Docs/CICD and DevOps.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 GitHub Docs/Table of Contents.md": "FasListOl",
   "🔴 Academics/📚 Educational Resources/🌐 GitHub Docs/Get started.md": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Amazon Redshift - Fundamentals": "RiDocumentBookMarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Amazon Redshift - Fundamentals/1. Introduction.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Amazon Redshift - Fundamentals/2. Storage.md": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Advanced SQL": "RiDocumentBookMarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 DB2 (University of Tübingen)": "RiDocumentBookMarkFill",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode": "SiLeetcode",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/111. Minimum Depth of Binary Tree.md": "LiConstruction",
@@ -197,14 +498,10 @@
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/217. Contains Duplicate.md": "LiConstruction",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Hard).md": "LiConstruction",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Medium).md": "LiConstruction",
-  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems": "RiBookmarkLine",
+  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems": "LiBookmark",
   "🔴 Academics/📚 Educational Resources/🌐 Advent of Code": "EiAdventOfCode",
   "🔴 Academics/📚 Educational Resources/🌐 Advent of Code/Advent of Code 2015": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md": "FasListOl",
-  "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club": "EiSystemDesignFightClub",
   "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md": "FasListOl",
-  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md": "FasListOl",
-  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md": "FasListOl",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md": "LiConstruction",
   "anki-flashcards": "TiCards",
   "Terror interview prolbelm.md": "FasExclamation",
@@ -213,49 +510,22 @@
     "iconName": null,
     "inheritanceIcon": "TiNotes"
   },
-  "🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)": "EiOreilly",
   "🔴 Academics/📚 Educational Resources/Wikipedia": "RiDocumentBookMarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md": "FasListOl",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/1. Array and String ▹ 📋 Table of Contents.md": "FasListOl",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List/2. Linked List ▹ 📋 Table of Contents.md": "FasListOl",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree/3. Binary Tree ▹ 📋 Table of Contents.md": "FasListOl",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/4. Graph": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/6. Stack": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/7. Exhaustive Recursion": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/Spark Optimization": "SiApachespark",
   "🔴 Academics/📚 Educational Resources/🗒️ Wolfram Mathematica.md": {
     "iconName": null,
     "inheritanceIcon": "SiWolframmathematica"
   },
-  "🔴 Academics/📚 Educational Resources/🗒️ SQL": "TiSql",
-  "🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization": "SiApachespark",
-  "🔴 Academics/📚 Educational Resources/🗒️ SQL Server": "TiSql",
-  "🔴 Academics/📚 Educational Resources/🗒️ Python": "SiPython",
-  "🔴 Academics/📚 Educational Resources/🗒️ Obsidian": "EiObsidian",
-  "🔴 Academics/📚 Educational Resources/🗒️ JetBrains": "EiJetbrains",
-  "🔴 Academics/📚 Educational Resources/🗒️ Java": "FabJava",
-  "🔴 Academics/📚 Educational Resources/🗒️ GitHub": "SiGithub",
-  "🔴 Academics/📚 Educational Resources/🗒️ GitHub CLI": "SiGithub",
-  "🔴 Academics/📚 Educational Resources/🗒️ Git": "SiGit",
-  "🔴 Academics/📚 Educational Resources/🗒️ Docker": "SiDocker",
-  "🔴 Academics/📚 Educational Resources/🗒️ Bash": "SiGnubash",
-  "🔴 Academics/📚 Educational Resources/📕 Python in a Nutshell, 4ᵗʰ Edition (2023)": "EiOreilly",
-  "🔴 Academics/📚 Educational Resources/🌐 Postgres Conference": "EiPostgreSQL",
-  "🔴 Academics/📚 Educational Resources/🌐 Codility": "EiCodility",
-  "🔴 Academics/📚 Educational Resources/🌐 IBM Technology": "RiYoutubeFill",
-  "🔴 Academics/📚 Educational Resources/🌐 AWS Educate": "FabAws",
-  "🔴 Academics/📚 Educational Resources/📕 Master Your Data with Excel and Power BI": "FarFilePdf",
-  "🔴 Academics/📚 Educational Resources/📕 Fluent Python, 2ⁿᵈ Edition (2022)": "EiOreilly",
-  "🔴 Academics/📚 Educational Resources/🌐 HackerRank": "SiHackerrank",
   "🔴 Academics/📚 Educational Resources/🌐 StrataScratch": "EiStratascratch",
   "scripts/my_script.js": "TiBrandJavascript",
-  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md": "TiNotes",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/9. Palindrome Number.md": "TiNotes",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/13. Roman to Integer.md": "TiNotes",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md": "TiNotes",
@@ -264,7 +534,6 @@
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md": "TiNotes",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/175. Combine Two Tables.md": "TiNotes",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/181. Employees Earning More Than Their Managers.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🌐 PostgreSQL Documentation": "EiPostgreSQL",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md": "TiNotes",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md": "TiNotes",
   "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md": "TiNotes",
@@ -282,5 +551,13 @@
   "zotero/ShouldPlaceSolution.md": "EiZoteroItem",
   "zotero/akremWhatAreBenefits2013.md": "EiZoteroItem",
   "zotero/odedAnswerWhatAre2011.md": "EiZoteroItem",
-  "zotero/stwAnswerWhatAre2013.md": "EiZoteroItem"
+  "zotero/stwAnswerWhatAre2013.md": "EiZoteroItem",
+  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Explore": "LiBookmark",
+  "🔴 Academics/📚 Educational Resources/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition (2022)": "RiBook2Fill",
+  "🔴 Academics/📚 Educational Resources/📕 Introduction to Formal Political Theory": "RiBook2Fill",
+  "🔴 Academics/📚 Educational Resources/📕 Precalculus꞉ Mathematics for Calculus, 7ᵗʰ Edition": "RiBook2Fill",
+  "🔴 Academics/📚 Educational Resources/📕 Introduction to Algorithms, 4ᵗʰ Edition (2022)": "RiBook2Fill",
+  "🔴 Academics/📚 Educational Resources/📕 How to Read and Do Proofs꞉ An Introduction to Mathematical Thought Processes, 6ᵗʰ Edition": "RiBook2Fill",
+  "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/005. array and string welcome 👨🏻‍🏫.md": "TiNotes",
+  "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/006. uncompress 👨🏽‍💻.md": "TiNotes"
 }
