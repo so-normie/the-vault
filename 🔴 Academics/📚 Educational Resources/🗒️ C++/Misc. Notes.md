@@ -1,11 +1,7 @@
 ---
 title: Misc. Notes
 created: 2023-09-03 08:46
-<<<<<<< HEAD
-updated: 2023-09-28 14:16
-=======
-updated: 2023-09-24 10:45
->>>>>>> eb0cb116bf466b813753bf1c96d7b2d13d532edc
+updated: 2023-10-16T18:53
 authors:
   - Edmund Leibert III
 tags:
@@ -17,20 +13,25 @@ tags:
 cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ C++::Misc. Notes
 ---
 
-# 🗒️ C++
+# Misc. Notes
+
 
 ---
 
-## 🕸️ All Mention(s):
+> [!abstract]+ Abstract 
+> 
 
 ---
 
-## 🔙 Previous Note(s):
+> [!info]+ 🕸️ All Mention(s): 
+> 
 
 ---
 
-## Misc. Notes
+> [!info]+ 🔙 Previous Note(s):
+> 
 
+---
 
 ﹇<br>
 When declaring a `struct` in C++, what must I *always* remember to add at the end of it? 
@@ -1649,11 +1650,9 @@ public:
 <br>﹈<br>^1694836978489
 
 
-
 ---
 
-
-## 🔜 Next Note(s):
-
+> [!info]+ 🔜 Next Note(s):
+>
 
 ---

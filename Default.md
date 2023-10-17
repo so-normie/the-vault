@@ -1,7 +1,6 @@
 ---
 created: 2023-10-01 16:14
-updated: 2023-10-08 22:03
-updated: 2023-10-03 22:41
+updated: 2023-10-16T20:26
 cards-deck: Default
 ---
 
@@ -25,12 +24,7 @@ Red
 > I love notes
 
 ⌂
-<br>﹈<br>^1696398295792
-
-
-
-
-
+<br>﹈<br>
 
 ﹇<br>
 Question
@@ -48,9 +42,7 @@ int main() {
 ```
 
 ⌂
-<br>﹈<br>^1696368700364
-
-
+<br>﹈<br>
 
 ﹇<br>
 What is the most holy god
@@ -60,7 +52,7 @@ What is the most holy god
 > Jesus yolo
 
 ⌂
-<br>﹈<br>^1696368700368
+<br>﹈<br>
 
 
 

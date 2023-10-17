@@ -1,7 +1,7 @@
 ---
 title: 🌐 Structy ▹ 📋 Table of Contents
 created: 2023-09-03 08:46
-updated: 2023-10-15T17:32
+updated: 2023-10-16T20:07
 authors:
   - Edmund Leibert III
 tags:
@@ -54,10 +54,11 @@ What is the website **Structy**?
 
 The platform is trusted by thousands of software engineers for interview preparation. [Many users have successfully passed their interviews and received offers from top companies after studying with Structy](https://www.structy.net/) \[[[#^zabianStructyLearnData2023|1]]\]. \[[[#^microsoftcorporationCanYouPlease2023|2]]\]
 
-**Bibliography**:
+<center><b>Bibliography:</b></center>
 
 \[1\] 
-![zabianStructyLearnData2023](zotero/zabianStructyLearnData2023.md) ^zabianStructyLearnData2023
+![zabianStructyLearnData2023](zotero/zabianStructyLearnData2023.md) 
+^zabianStructyLearnData2023
 
 \[2\]
 ![microsoftcorporationCanYouPlease2023](zotero/microsoftcorporationCanYouPlease2023.md) ^microsoftcorporationCanYouPlease2023
@@ -251,14 +252,22 @@ const current_folder = dv.current().file.folder;
 console.log(current_folder);
 const files = dv.pages(`"${current_folder}"`).values;
 
+console.log("files:");
+console.log(files);
+
 // Build file tree
 const fileTree = buildFileTree(files);
+console.log("fileTree:");
+console.log(fileTree);
 
 // Generate Table of Contents
 const toc = generateTOC(fileTree);
+console.log("toc:");
+console.log(toc);
 
 // Sort Table of Contents
 const toc_sorted = moveTableOfContentsToTop(toc);
+console.log("toc_sorted:");
 console.log(toc_sorted);
 
 // trimmedTOC

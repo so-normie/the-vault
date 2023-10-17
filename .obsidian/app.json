@@ -14,5 +14,5 @@
   "legacyEditor": false,
   "strictLineBreaks": true,
   "newLinkFormat": "absolute",
-  "attachmentFolderPath": "assets/images"
+  "attachmentFolderPath": "assets"
 }

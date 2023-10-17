@@ -7,8 +7,9 @@ sorting-spec: |
   🌐 Structy
   🗒️ C++
   🌐 C++ reference
+  🗒️ Bash
   %
   sortspec
 created: 2023-09-03 08:46
-updated: 2023-10-15T19:19
+updated: 2023-10-16T18:42
 ---
