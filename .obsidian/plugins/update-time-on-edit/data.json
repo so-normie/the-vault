@@ -4,17 +4,26 @@
   "headerUpdated": "updated",
   "headerCreated": "created",
   "minMinutesBetweenSaves": 1,
-  "ignoreGlobalFolder": [],
+  "ignoreGlobalFolder": [
+    "templates",
+    "scripts"
+  ],
   "ignoreCreatedFolder": [],
   "enableExperimentalHash": false,
   "fileHashMap": {
     "🔴 Academics/📚 Educational Resources/🌐 MSYS2 Documentation/What is MSYS2？.md": "4437aa6e49f5becdaa2bc6012ceee02bccb0712aa53c37c6c1cafc46ae6021ca",
-    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md": "ca6f35d843a507689d8ec8741506309bc7cb9ca039eec2cab27a43de651fff1a",
+    "🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md": "e983a43fa2c823fa75a90357b5098dd196650d262b059138aa18480a55ab5466",
     "🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md": "ba0f795a56a213a20e95653baa300ce4b174297e27603cbe6cdb73f006db7569",
     "🔴 Academics/📚 Educational Resources/🗒️ MSYS2/MSYS2 Commands.md": "396e4b589f4002bcf7535750a5b9edd0276c2b53979c3048d9f30fd61e1b6ad8",
-    "🔴 Academics/📚 Educational Resources/sortspec.md": "4308217ec806052b8aa1967959c3e798a61d290fb03be509cd1ef6df0b945687",
+    "🔴 Academics/📚 Educational Resources/sortspec.md": "e94f69d0415fbbf41a284d8daa694ab9207174eb16cb60e8d3645c0530490893",
     "🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md": "c8bc896b59723002770309a50bc6b1994643e5259f032ab6f14fc6826e3aee63",
     "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md": "38a5bef1ae127353f7c24ceae015e657cc6a39c161aa160bec35efdb9d7dd01c",
-    "🔴 Academics/📚 Educational Resources/🗒️ Git/Misc. Notes.md": "47baeb42c52bda172a10e771c0bbca253feef539a302f1ab448f7a45efebdfc5"
+    "🔴 Academics/📚 Educational Resources/🗒️ Git/Misc. Notes.md": "47baeb42c52bda172a10e771c0bbca253feef539a302f1ab448f7a45efebdfc5",
+    "templates/Template {{Anki Note ∋ “⋕card”}}.md": "6060c2ab88b75db87e399e907293158e8a395a6fe37ab616555ccdeb879c21f3",
+    "Default.md": "179ca585e537c5ed87e229a4b73702647bed27a49c036bb8a438de78d0b99660",
+    "🔴 Academics/📚 Educational Resources/🗒️ Bash/Misc. Notes.md": "f1bf1e7ebdf9e26703a11d6c559eaa3a47eed6f7c1b637fc27fbe5c0ce3172d1",
+    "🔴 Academics/📚 Educational Resources/🗒️ C++/Misc. Notes.md": "57d85ad7549c25a676516f05baa8c832e9f316b0329036ba69f9bdc488a61b00",
+    "zotero/vladimirlikicUnderstandingBashElements2018.md": "30b26a5ab45d47529e65495c0a8e69f06371c764dae9f63aac7df32fdb3c47e6",
+    "zotero/AlgorithmsLibrary2023.md": "1477cbd375c3775714aa86e360f7af714403caa6d4c1b51002ee3022898006e1"
   }
 }

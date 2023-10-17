@@ -15,122 +15,136 @@
     "recentlyUsedIconsSize": 5,
     "rules": [
       {
+        "rule": "zotero\\/.*",
+        "icon": "EiZoteroItem",
+        "for": "files",
+        "order": 0,
+        "useFilePath": true
+      },
+      {
         "rule": "🌐 LeetCode",
         "icon": "SiLeetcode",
         "for": "folders",
-        "order": 0,
+        "order": 1,
         "useFilePath": true
       },
       {
         "rule": "🌐 Structy",
         "icon": "EiStructy",
         "for": "folders",
-        "order": 1,
+        "order": 2,
         "useFilePath": true
       },
       {
         "rule": "📕 Foundations of Scalable Systems \\(2022\\)",
         "icon": "EiOReilly",
         "for": "folders",
-        "order": 2,
+        "order": 3,
         "useFilePath": true
       },
       {
         "rule": "🗒️ C++",
         "icon": "SiCplusplus",
         "for": "folders",
-        "order": 4
+        "order": 5
       },
       {
-        "rule": ".* ▹ 📋 Table of Contents",
-        "icon": "RiListOrdered2",
+        "rule": "\\.jpg",
+        "icon": "FarFileImage",
         "for": "files",
-        "order": 5,
+        "order": 6,
         "useFilePath": true
       },
       {
-        "rule": ".excalidraw.md",
+        "rule": "\\.excalidraw\\.md",
         "icon": "RiPenNibLine",
         "for": "files",
-        "order": 6
+        "order": 7,
+        "useFilePath": true
       },
       {
-        "rule": ".gif",
+        "rule": "\\.gif",
         "icon": "TiGif",
         "for": "files",
-        "order": 7
+        "order": 7,
+        "useFilePath": true
       },
       {
-        "rule": ".jpeg",
+        "rule": "\\.jpeg",
         "icon": "FarFileImage",
         "for": "files",
-        "order": 8
+        "order": 8,
+        "useFilePath": true
       },
       {
-        "rule": ".jpg",
-        "icon": "FarFileImage",
+        "rule": "\\.js",
+        "icon": "TiBrandJavascript",
         "for": "files",
-        "order": 10
+        "order": 8,
+        "useFilePath": true
       },
       {
-        "rule": ".js",
-        "icon": "SiJavascript",
-        "for": "files",
-        "order": 10
-      },
-      {
-        "rule": "sortspec",
+        "rule": "sortspec\\.md",
         "icon": "RiSortDesc",
         "for": "files",
-        "order": 11
+        "order": 11,
+        "useFilePath": true
       },
       {
-        "rule": ".mp3",
+        "rule": "\\.mp3",
         "icon": "FarFileAudio",
         "for": "files",
-        "order": 13
+        "order": 13,
+        "useFilePath": true
       },
       {
-        "rule": ".pdf",
+        "rule": "\\.pdf",
         "icon": "FarFilePdf",
         "for": "files",
-        "order": 13
+        "order": 14,
+        "useFilePath": true
       },
       {
-        "rule": ".png",
+        "rule": "\\.png",
         "icon": "FarFileImage",
         "for": "files",
-        "order": 14
+        "order": 15,
+        "useFilePath": true
       },
       {
-        "rule": ".svg",
+        "rule": "\\.svg",
         "icon": "SiSvg",
         "for": "files",
-        "order": 15
+        "order": 16,
+        "useFilePath": true
       },
       {
-        "rule": ".ps1",
+        "rule": "\\.ps1",
         "icon": "TiBrandPowershell",
         "for": "files",
-        "order": 16
+        "order": 17,
+        "useFilePath": true
       },
       {
-        "rule": ".ttf",
+        "rule": "\\.ttf",
         "icon": "FasFont",
         "for": "files",
-        "order": 17
+        "order": 18,
+        "useFilePath": true
       },
       {
-        "rule": ".webm",
+        "rule": "\\.webm",
         "icon": "FarFileAudio",
         "for": "files",
-        "order": 18
+        "order": 19,
+        "useFilePath": true
       },
       {
-        "rule": ".webp",
+        "rule": "\\.webp",
         "icon": "FarFileImage",
         "for": "files",
-        "order": 19
+        "order": 20,
+        "useFilePath": true
       },
       {
         "rule": "^excalidraw-",
@@ -142,53 +156,35 @@
         "rule": "C++ reference",
         "icon": "EiCppReference",
         "for": "folders",
-        "order": 21,
+        "order": 22,
         "useFilePath": true
       },
       {
-        "rule": "Home.md",
-        "icon": "TiHome",
+        "rule": "Template .*",
+        "icon": "TiTemplate",
         "for": "files",
-        "order": 23
-      },
-      {
-        "rule": ".md",
-        "icon": "RiMarkdownLine",
-        "for": "files",
-        "order": 25
-      },
-      {
-        "rule": "Template *",
-        "icon": "TiSvgTemplate",
-        "for": "files",
-        "order": 24
+        "order": 24,
+        "useFilePath": true
       },
       {
         "rule": "📕 .*",
         "icon": "BoBxsBook",
         "for": "folders",
-        "order": 24,
-        "useFilePath": true
-      },
-      {
-        "rule": "zotero/.*",
-        "icon": "EiZoteroItem",
-        "for": "files",
-        "order": 24,
+        "order": 25,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Wolfram Mathematica",
         "icon": "SiWolframmathematica",
         "for": "folders",
-        "order": 26,
+        "order": 27,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Yarn",
         "icon": "SiYarn",
         "for": "folders",
-        "order": 27,
+        "order": 28,
         "useFilePath": true
       },
       {
@@ -202,383 +198,448 @@
         "rule": "🌐 MSYS2 Documentation",
         "icon": "EiMSYS2",
         "for": "folders",
-        "order": 29,
+        "order": 30,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Visual Studio Code",
         "icon": "SiVisualstudiocode",
         "for": "folders",
-        "order": 30,
+        "order": 31,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Visual Studio",
         "icon": "SiVisualstudio",
         "for": "folders",
-        "order": 31,
+        "order": 32,
         "useFilePath": true
       },
       {
         "rule": "🗒️ TypeScript",
         "icon": "SiTypescript",
         "for": "folders",
-        "order": 32,
+        "order": 33,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Vimium",
         "icon": "EiVimium",
         "for": "folders",
-        "order": 33,
+        "order": 34,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Rclone",
         "icon": "EiRclone",
         "for": "folders",
-        "order": 34,
+        "order": 35,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Rust",
         "icon": "SiRust",
         "for": "folders",
-        "order": 35,
+        "order": 36,
         "useFilePath": true
       },
       {
         "rule": "🗒️ PowerShell",
         "icon": "SiPowershell",
         "for": "folders",
-        "order": 36,
+        "order": 37,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Quartz",
         "icon": "EiPlantPot",
         "for": "folders",
-        "order": 37,
+        "order": 38,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Physics",
         "icon": "EiPhysics",
         "for": "folders",
-        "order": 38,
+        "order": 39,
         "useFilePath": true
       },
       {
         "rule": "🌐 Typst",
         "icon": "EiTypst",
         "for": "folders",
-        "order": 39,
+        "order": 40,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Node\\.js",
         "icon": "FabNode",
         "for": "folders",
-        "order": 40,
+        "order": 41,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Microsoft Windows",
         "icon": "FabMicrosoft",
         "for": "folders",
-        "order": 41,
+        "order": 42,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Neovim",
         "icon": "SiNeovim",
         "for": "folders",
-        "order": 42,
+        "order": 43,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Microsoft Excel",
         "icon": "SiMicrosoftexcel",
         "for": "folders",
-        "order": 43,
+        "order": 44,
         "useFilePath": true
       },
       {
         "rule": "🗒️ LaTeX",
         "icon": "SiLatex",
         "for": "folders",
-        "order": 44,
+        "order": 45,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Lua",
         "icon": "SiLua",
         "for": "folders",
-        "order": 45,
+        "order": 46,
         "useFilePath": true
       },
       {
         "rule": "🗒️ JavaScript",
         "icon": "FabJava",
         "for": "folders",
-        "order": 46,
+        "order": 47,
         "useFilePath": true
       },
       {
         "rule": "🗒️ HTML",
         "icon": "SiHtml5",
         "for": "folders",
-        "order": 47,
+        "order": 48,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Hugo",
         "icon": "EiHugo",
         "for": "folders",
-        "order": 48,
+        "order": 49,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Google Apps Scripts",
         "icon": "SiGoogleappsscript",
         "for": "folders",
-        "order": 49,
+        "order": 50,
         "useFilePath": true
       },
       {
         "rule": "🗒️ GoogleTest",
         "icon": "SiGoogle",
         "for": "folders",
-        "order": 50,
+        "order": 51,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Go",
         "icon": "SiGo",
         "for": "folders",
-        "order": 51
+        "order": 52
       },
       {
         "rule": "🗒️ ESBuild",
         "icon": "SiEsbuild",
         "for": "folders",
-        "order": 52,
+        "order": 53,
         "useFilePath": true
       },
       {
         "rule": "🗒️ ESLint",
         "icon": "SiEslint",
         "for": "folders",
-        "order": 53,
+        "order": 54,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Discord",
         "icon": "SiDiscord",
         "for": "folders",
-        "order": 54,
+        "order": 55,
         "useFilePath": true
       },
       {
         "rule": "🗒️ CMake",
         "icon": "EiCMake",
         "for": "folders",
-        "order": 55,
+        "order": 56,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Anki",
         "icon": "EiAnki",
         "for": "folders",
-        "order": 56,
+        "order": 57,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Angular",
         "icon": "SiAngular",
         "for": "folders",
-        "order": 57,
+        "order": 58,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Anaconda",
         "icon": "SiAnaconda",
         "for": "folders",
-        "order": 58,
+        "order": 59,
         "useFilePath": true
       },
       {
         "rule": "🗒️ .NET",
         "icon": "SiDotnet",
         "for": "folders",
-        "order": 59,
+        "order": 60,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Python",
         "icon": "SiPython",
         "for": "folders",
-        "order": 60,
+        "order": 61,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Obsidian",
         "icon": "SiObsidian",
         "for": "folders",
-        "order": 61,
+        "order": 62,
         "useFilePath": true
       },
       {
         "rule": "🗒️ JetBrains",
         "icon": "SiJetbrains",
         "for": "folders",
-        "order": 62,
+        "order": 63,
         "useFilePath": true
       },
       {
         "rule": "🗒️ SQL Server",
         "icon": "SiMicrosoftsqlserver",
         "for": "folders",
-        "order": 63,
+        "order": 64,
         "useFilePath": true
       },
       {
         "rule": "🗒️ SQL",
         "icon": "TiSql",
         "for": "folders",
-        "order": 64,
+        "order": 65,
         "useFilePath": true
       },
       {
         "rule": "🔴 Academics\\\\📚 Educational Resources(\\\\🗒️ .*)\\\\.*",
         "icon": "EiScribbleNotes",
         "for": "files",
-        "order": 65,
+        "order": 66,
         "useFilePath": true
       },
       {
         "rule": "🌐 The Official Guide to Mermaid.js",
         "icon": "EiMermaid",
         "for": "folders",
-        "order": 66,
+        "order": 67,
         "useFilePath": true
       },
       {
         "rule": "🌐 The Modern JavaScript Tutorial",
         "icon": "LiRadioTower",
         "for": "folders",
-        "order": 67,
+        "order": 68,
         "useFilePath": true
       },
       {
         "rule": "🌐 Poetry Documentation",
         "icon": "SiPoetry",
         "for": "folders",
-        "order": 68,
+        "order": 69,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Java",
         "icon": "FabJava",
         "for": "folders",
-        "order": 69,
+        "order": 70,
         "useFilePath": true
       },
       {
         "rule": "🗒️ GitHub",
         "icon": "SiGithub",
         "for": "folders",
-        "order": 70,
+        "order": 71,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Git",
         "icon": "SiGit",
         "for": "folders",
-        "order": 71,
+        "order": 72,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Docker",
         "icon": "SiDocker",
         "for": "folders",
-        "order": 72,
+        "order": 73,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Bash",
         "icon": "SiGnubash",
         "for": "folders",
-        "order": 73,
+        "order": 74,
         "useFilePath": true
       },
       {
         "rule": "🌐 LearnCpp.com",
         "icon": "EiLearnCpp",
         "for": "folders",
-        "order": 74,
+        "order": 75,
         "useFilePath": true
       },
       {
         "rule": "🗒️ Spark Optimization",
         "icon": "SiApachespark",
         "for": "folders",
-        "order": 75,
+        "order": 76,
         "useFilePath": true
       },
       {
         "rule": "🌐 Codility",
         "icon": "EiCodility",
         "for": "folders",
-        "order": 76
+        "order": 77
       },
       {
         "rule": "🌐 More Modern CMake",
         "icon": "EiHsfLogo",
         "for": "folders",
-        "order": 77
+        "order": 78
       },
       {
         "rule": "🌐 Nodejs.dev",
         "icon": "FabNode",
         "for": "folders",
-        "order": 78
+        "order": 79
       },
       {
         "rule": "🌐 HackerRank",
         "icon": "SiHackerrank",
         "for": "folders",
-        "order": 79
+        "order": 80
       },
       {
         "rule": "🌐 Microsoft Learn",
         "icon": "FabMicrosoft",
         "for": "folders",
-        "order": 80
+        "order": 81
       },
       {
         "rule": "🌐 IBM Technology",
         "icon": "SiYoutube",
         "for": "folders",
-        "order": 81
+        "order": 82
       },
       {
         "rule": "🌐 PostgreSQL Documentation",
         "icon": "BoBxlPostgresql",
         "for": "folders",
-        "order": 82
+        "order": 84
       },
       {
         "rule": "🌐 Use the Index, Luke!",
         "icon": "EiUseTheIndexLuke",
         "for": "folders",
-        "order": 83
+        "order": 85,
+        "useFilePath": true
       },
       {
         "rule": "zotero",
         "icon": "EiZotero",
         "for": "folders",
-        "order": 84
+        "order": 85
+      },
+      {
+        "rule": "scripts",
+        "icon": "FasCode",
+        "for": "folders",
+        "order": 85
+      },
+      {
+        "rule": "🌐 GitHub Docs",
+        "icon": "SiGithub",
+        "for": "folders",
+        "order": 87
+      },
+      {
+        "rule": "templates",
+        "icon": "FasToolbox",
+        "for": "folders",
+        "order": 88,
+        "useFilePath": true
+      },
+      {
+        "rule": "anki",
+        "icon": "EiAnki",
+        "for": "folders",
+        "order": 88
+      },
+      {
+        "rule": ".* ▹ 📋 Table of Contents",
+        "icon": "LiListOrdered",
+        "for": "files",
+        "order": 89,
+        "useFilePath": true
+      },
+      {
+        "rule": "\\.code\\-workspace",
+        "icon": "SiVisualstudiocode",
+        "for": "everything",
+        "order": 89
+      },
+      {
+        "rule": "templates\\/.*",
+        "icon": "TiTemplate",
+        "for": "files",
+        "order": 90,
+        "useFilePath": true
+      },
+      {
+        "rule": "\\.md",
+        "icon": "RiMarkdownLine",
+        "for": "files",
+        "order": 90
+      },
+      {
+        "rule": ".",
+        "icon": "RiFolderFill",
+        "for": "folders",
+        "order": 91,
+        "useFilePath": true
+      },
+      {
+        "rule": "\\.mp4",
+        "icon": "LiFileVideo",
+        "for": "files",
+        "order": 91
       }
     ],
     "extraMargin": {
@@ -595,9 +656,6 @@
     "inheritanceIcon": "FarFileImage"
   },
   "Technology Management.code-workspace": "RiFileLine",
-  "assets": "FasBoxesStacked",
-  "scripts": "FasCode",
-  "templates": "FasToolbox",
   "🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)/Chapter 1. A Little Background.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)/Chapter 2. Creating and Populating a Database.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)/Preface.md": "RiBookmarkLine",
@@ -626,55 +684,26 @@
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/217. Contains Duplicate.md": "LiConstruction",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Hard).md": "LiConstruction",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Medium).md": "LiConstruction",
-  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems": "LiBookmark",
   "🔴 Academics/📚 Educational Resources/🌐 Advent of Code": "EiAdventOfCode",
   "🔴 Academics/📚 Educational Resources/🌐 Advent of Code/Advent of Code 2015": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md": "FasListOl",
   "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md": "LiConstruction",
-  "anki-flashcards": "TiCards",
   "Terror interview prolbelm.md": "FasExclamation",
-  "anki-flashcards/collection-2023-09-04@16-38-10.colpkg": "TiPlayCard",
   "🔴 Academics/📚 Educational Resources/🗒️ Rust.md": {
     "iconName": null,
     "inheritanceIcon": "TiNotes"
   },
   "🔴 Academics/📚 Educational Resources/Wikipedia": "RiDocumentBookMarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/2. Linked List": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/3. Binary Tree": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/4. Graph": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/5. Dynamic Programming": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/6. Stack": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/7. Exhaustive Recursion": "RiBookmarkLine",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/8. Mixed Recall": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🗒️ Wolfram Mathematica.md": {
     "iconName": null,
     "inheritanceIcon": "SiWolframmathematica"
   },
   "🔴 Academics/📚 Educational Resources/🌐 StrataScratch": "EiStratascratch",
-  "scripts/my_script.js": "TiBrandJavascript",
-  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/9. Palindrome Number.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/13. Roman to Integer.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/20. Valid Parentheses.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/21. Merge Two Sorted Lists.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/121. Best Time to Buy and Sell Stock.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/125. Valid Palindrome.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/175. Combine Two Tables.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/181. Employees Earning More Than Their Managers.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/003. max-value 🧑🏽‍💻.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/004. is prime 👨🏽‍💻.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🌐 LeetCode/Explore": "LiBookmark",
   "🔴 Academics/📚 Educational Resources/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition (2022)": "RiBook2Fill",
   "🔴 Academics/📚 Educational Resources/📕 Introduction to Formal Political Theory": "RiBook2Fill",
   "🔴 Academics/📚 Educational Resources/📕 Precalculus꞉ Mathematics for Calculus, 7ᵗʰ Edition": "RiBook2Fill",
   "🔴 Academics/📚 Educational Resources/📕 Introduction to Algorithms, 4ᵗʰ Edition (2022)": "RiBook2Fill",
   "🔴 Academics/📚 Educational Resources/📕 How to Read and Do Proofs꞉ An Introduction to Mathematical Thought Processes, 6ᵗʰ Edition": "RiBook2Fill",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/005. array and string welcome 👨🏻‍🏫.md": "TiNotes",
-  "🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/006. uncompress 👨🏽‍💻.md": "TiNotes",
   "🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke!/0. Preface.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke!/1. Chapter.md": "RiBookmarkLine",
   "🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke!/2. Chapter.md": "RiBookmarkLine",
