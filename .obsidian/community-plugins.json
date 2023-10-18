@@ -42,7 +42,6 @@
   "cycle-through-panes",
   "obsidian-quiet-outline",
   "obsidian-outliner",
-  "flashcards-obsidian",
   "obsidian-timestamp-notes",
   "templater-obsidian",
   "obsidian-git",
@@ -50,5 +49,8 @@
   "creases",
   "obsidian-hover-editor",
   "obsidian-underline",
-  "OA-file-hider"
+  "OA-file-hider",
+  "github-embeds",
+  "colored-tags",
+  "obsidian-icon-shortcodes"
 ]

@@ -370,7 +370,14 @@
     "🔴-academics/📚-educational-resources/name/🌐-leetcode/🔖-bookmark/🗒️-visual-studio-▹-📋-table-of-contents": 4,
     "🔴-academics/📚-educational-resources/name/🗒️-visual-studio/🔖-bookmark/🗒️-visual-studio-▹-📋-table-of-contents": 2,
     "🔴-academics/📚-educational-resources/discipline/computer-science/technology/visual-studio": 22,
-    "🔴-academics/📚-educational-resources/name/🗒️-visual-studio/🔖-bookmark/project-structure": 3
+    "🔴-academics/📚-educational-resources/name/🗒️-visual-studio/🔖-bookmark/project-structure": 3,
+    "🔴-academics/📚-educational-resources/name/🗒️-bash": 94,
+    "🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/bash": 12,
+    "🔴-academics/📚-educational-resources/name/🗒️-bash/🔖-bookmark": 1,
+    "🔴-academics/📚-educational-resources/name/🗒️-bash/🔖-bookmark/🗒️-bash": 1,
+    "🔴-academics/📚-educational-resources/name/🗒️-bash/🔖-bookmark/🗒️-bash/misc-notes": 1,
+    "🔴-academics/📚-educational-resources/name/🗒️-git/🔖-bookmark": 1,
+    "🔴-academics/📚-educational-resources/name/🗒️-git/🔖-bookmark/misc-notes": 1
   },
   "_version": 2
 }
