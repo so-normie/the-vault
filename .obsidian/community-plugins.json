@@ -15,7 +15,6 @@
   "tag-wrangler",
   "obsidian-plugin-toc",
   "obsidian-desmos",
-  "obsidian-tikzjax",
   "obsidian-latex-suite",
   "obsidian-mind-map",
   "obsidian-sortable",
@@ -52,5 +51,8 @@
   "OA-file-hider",
   "github-embeds",
   "colored-tags",
-  "obsidian-icon-shortcodes"
+  "obsidian-icon-shortcodes",
+  "mathlinks",
+  "math-booster",
+  "obsidian-math-plus"
 ]

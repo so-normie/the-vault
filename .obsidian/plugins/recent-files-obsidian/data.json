@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "leila physics homework",
+      "path": "the-vault/🔴 Academics/leila physics homework.md"
+    },
+    {
+      "basename": "excalidraw-2023-10-17 23.36.52.excalidraw",
+      "path": "assets/excalidraw/excalidraw-2023-10-17 23.36.52.excalidraw.md"
+    },
+    {
       "basename": "📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents",
       "path": "the-vault/🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "📕 Python in a Nutshell, 4th Edition (2023)",
       "path": "the-vault/🔴 Academics/📚 Educational Resources/📕 Python in a Nutshell, 4th Edition (2023)/📕 Python in a Nutshell, 4th Edition (2023).md"
-    },
-    {
-      "basename": "🗒️ Java",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Java/🗒️ Java.md"
-    },
-    {
-      "basename": "Dynamic Partition Pruning",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Dynamic Partition Pruning.md"
     }
   ],
   "omittedPaths": [],
