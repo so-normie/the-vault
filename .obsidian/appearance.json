@@ -1,6 +1,6 @@
 {
   "accentColor": "#734eca",
-  "theme": "obsidian",
+  "theme": "system",
   "nativeMenus": true,
   "translucency": true,
   "enabledCssSnippets": [
@@ -14,5 +14,6 @@
   ],
   "monospaceFontFamily": "CaskaydiaCove Nerd Font",
   "textFontFamily": "Atkinson Hyperlegible",
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "baseFontSize": 16
 }

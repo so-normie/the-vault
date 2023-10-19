@@ -1,11 +1,7 @@
 ---
-title: 🗒️ LaTeX
+title: LaTeX
 created: 2023-08-04 01:58
-<<<<<<< HEAD
-updated: 2023-09-28 14:16
-=======
-updated: 2023-09-22 09:56
->>>>>>> eb0cb116bf466b813753bf1c96d7b2d13d532edc
+updated: 2023-10-18T18:42
 authors:
   - Edmund Leibert III
 tags:
@@ -13,23 +9,29 @@ tags:
   - 🔴-academics/📚-educational-resources/source-format/miscellaneous
   - 🔴-academics/📚-educational-resources/discipline/computer-science/technology/latex
   - 🔴-academics/📚-educational-resources/name/🗒️-latex/🔖-bookmark/🗒️-latex
-  - study-note
 cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ LaTeX
 ---
 
-# 🗒️ LaTeX
+# LaTeX
 
 ---
 
-## 🕸️ All Mention(s): 
+> [!abstract]+ Abstract 
+> These [Structy | Learn Algorithms, Efficiently.](https://www.structy.net/) course notes are a comprehensive resource that delve into the intricacies of data structures and algorithms, with a focus on the nuances of different programming languages. These provide not just solutions, but also discuss edge cases, enhancing understanding of how problems can be solved in various scenarios. 
+> 
+> These notes are structured in a Q&A format, making it easy to follow and learn. Additionally, corresponding Anki flashcards are available, enabling efficient revision and reinforcement of the concepts.
 
 ---
 
-## 🔙 Previous Note(s):
+> [!info]+ 🕸️ All Mention(s): 
+> 
 
 ---
 
-## 🗒️ LaTeX
+> [!info]+ 🔙 Previous Note(s):
+> 
+
+---
 
 ﹇<br>
 How can I type **Big O** in LaTeX/MathJax? 
@@ -135,10 +137,24 @@ x = \text{normal}
 <br>﹈<br>^1694416424361
 
 
+﹇<br>
+In MathJax/LaTeX, how can I type a vector? (e.g. $\vec{\boldsymbol{F}}$)
+
+#card 
+
+Use the `vec` command like so…
+
+```latex
+\vec{\boldsymbol{F}}
+```
+
+⌂
+<br>﹈<br>
 
 
 ---
 
-## 🔜 Next Note(s):
+> [!info]+ 🔜 Next Note(s):
+> 
 
 ---
