@@ -24,7 +24,6 @@
   "custom-sort",
   "novel-word-count",
   "obsidian-zotero-desktop-connector",
-  "obsidian-auto-split",
   "pane-relief",
   "hotkey-helper",
   "obsidian-sample-plugin",
@@ -54,10 +53,14 @@
   "mathlinks",
   "math-booster",
   "obsidian-tikzjax",
-  "obsidian-latex",
   "text-extractor",
   "obsidian-latex-environments",
   "obsidian-asciimath",
   "flashcards-obsidian",
-  "obsidian-pandoc-reference-list"
+  "obsidian-pandoc-reference-list",
+  "obsidian-plaintext",
+  "obsidian-pretty-bibtex",
+  "obsidian-banners",
+  "obsidian-excalidraw-plugin",
+  "obsidian-front-matter-title-plugin"
 ]

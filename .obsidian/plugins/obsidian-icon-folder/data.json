@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "EiStrataScratch",
+      "TiBible",
+      "BoBxBible",
       "RiDeleteBinLine",
-      "SiYoutube",
-      "EiOReilly",
-      "FabNode",
-      "TiNotes"
+      "SiYoutube"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -352,7 +352,8 @@
         "rule": "🗒️ Go",
         "icon": "SiGo",
         "for": "folders",
-        "order": 52
+        "order": 52,
+        "useFilePath": true
       },
       {
         "rule": "🗒️ ESBuild",
@@ -446,10 +447,10 @@
         "useFilePath": true
       },
       {
-        "rule": "🔴 Academics\\\\📚 Educational Resources(\\\\🗒️ .*)\\\\.*",
+        "rule": "🔴 Academics\\/📚 Educational Resources(\\/🗒️ .*)\\/.*",
         "icon": "EiScribbleNotes",
         "for": "files",
-        "order": 66,
+        "order": 65,
         "useFilePath": true
       },
       {
@@ -470,7 +471,7 @@
         "rule": "🌐 Poetry Documentation",
         "icon": "SiPoetry",
         "for": "folders",
-        "order": 69,
+        "order": 70,
         "useFilePath": true
       },
       {
@@ -608,26 +609,33 @@
         "rule": ".* ▹ 📋 Table of Contents",
         "icon": "LiListOrdered",
         "for": "files",
-        "order": 89,
+        "order": 88,
         "useFilePath": true
       },
       {
         "rule": "\\.code\\-workspace",
         "icon": "SiVisualstudiocode",
-        "for": "everything",
+        "for": "files",
         "order": 89
-      },
-      {
-        "rule": "assets",
-        "icon": "LiBoxes",
-        "for": "folders",
-        "order": 89,
-        "useFilePath": true
       },
       {
         "rule": "templates\\/.*",
         "icon": "TiTemplate",
         "for": "files",
+        "order": 89,
+        "useFilePath": true
+      },
+      {
+        "rule": "the-vault\\/assets\\/(excalidraw|fonts|images|mermaid|videos|audios)",
+        "icon": "RiFolderFill",
+        "for": "folders",
+        "order": 90,
+        "useFilePath": true
+      },
+      {
+        "rule": "the-vault\\/assets",
+        "icon": "LiBoxes",
+        "for": "folders",
         "order": 90,
         "useFilePath": true
       },
@@ -635,26 +643,33 @@
         "rule": "\\.md",
         "icon": "RiMarkdownLine",
         "for": "files",
-        "order": 91
+        "order": 92
       },
       {
         "rule": ".",
         "icon": "RiFolderFill",
         "for": "folders",
-        "order": 92,
+        "order": 93,
         "useFilePath": true
       },
       {
         "rule": "\\.mp4",
         "icon": "LiFileVideo",
         "for": "files",
-        "order": 92
+        "order": 93
+      },
+      {
+        "rule": ".*\\.excalidraw\\.png",
+        "icon": "FarFileImage",
+        "for": "everything",
+        "order": 94
       },
       {
         "rule": ".*\\.excalidraw",
         "icon": "LiPencilRuler",
         "for": "files",
-        "order": 93
+        "order": 95,
+        "useFilePath": true
       }
     ],
     "extraMargin": {
@@ -664,63 +679,8 @@
       "left": 0
     },
     "iconInTabsEnabled": true,
-    "iconsBackgroundCheckEnabled": true
+    "iconsBackgroundCheckEnabled": true,
+    "iconInTitleEnabled": false
   },
-  "Assets/Images/thomas-calculus-early-transcendentals-15th-edition-geometry-example-1-question.jpg": {
-    "iconName": null,
-    "inheritanceIcon": "FarFileImage"
-  },
-  "Technology Management.code-workspace": "RiFileLine",
-  "🔴 Academics/📚 Educational Resources/🌐 PowerShell Documentation": "RiDocumentBookMarkFill",
-  "🔴 Academics/📚 Educational Resources/🌐 pganalyze": "RiDocumentBookMarkFill",
-  "🔴 Academics/📚 Educational Resources/🌐 DB2 (University of Tübingen)": "RiDocumentBookMarkFill",
-  "🔴 Academics/📚 Educational Resources/🌐 Advent of Code": "EiAdventOfCode",
-  "🔴 Academics/📚 Educational Resources/🌐 Advent of Code/Advent of Code 2015": "RiBookmarkLine",
-  "Terror interview prolbelm.md": "FasExclamation",
-  "🔴 Academics/📚 Educational Resources/🗒️ Rust.md": {
-    "iconName": null,
-    "inheritanceIcon": "TiNotes"
-  },
-  "🔴 Academics/📚 Educational Resources/Wikipedia": "RiDocumentBookMarkLine",
-  "🔴 Academics/📚 Educational Resources/🗒️ Wolfram Mathematica.md": {
-    "iconName": null,
-    "inheritanceIcon": "SiWolframmathematica"
-  },
-  "🔴 Academics/📚 Educational Resources/🌐 StrataScratch": "EiStratascratch",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode": "SiLeetcode",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 Postgres Conference": "SiYoutube",
-  "the-vault/🔴 Academics/📚 Educational Resources/📕 How to Read and Do Proofs꞉ An Introduction to Mathematical Thought Processes, 6ᵗʰ Edition": "RiBook2Fill",
-  "the-vault/🔴 Academics/📚 Educational Resources/📕 Introduction to Algorithms, 4ᵗʰ Edition (2022)": "RiBook2Fill",
-  "the-vault/🔴 Academics/📚 Educational Resources/📕 Introduction to Formal Political Theory": "RiBook2Fill",
-  "the-vault/🔴 Academics/📚 Educational Resources/📕 Precalculus꞉ Mathematics for Calculus, 7ᵗʰ Edition": "RiBook2Fill",
-  "the-vault/🔴 Academics/📚 Educational Resources/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition (2022)": "RiBook2Fill",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 Amazon Redshift - Fundamentals/1. Introduction.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 Amazon Redshift - Fundamentals/2. Storage.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 GitHub Docs/Get started.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 GitHub Docs/Table of Contents.md": "FasListOl",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 GitHub Docs/CICD and DevOps.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/111. Minimum Depth of Binary Tree.md": "LiConstruction",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/217. Contains Duplicate.md": "LiConstruction",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/112. Path Sum.md": "LiConstruction",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Easy).md": "LiConstruction",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Medium).md": "LiConstruction",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems (Hard).md": "LiConstruction",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Documentation.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Assessments.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Certifications.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Code Samples.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Events.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Q&A.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Training.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 Microsoft Learn/Shows.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md": "FasListOl",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke!/2. Chapter.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke!/0. Preface.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 Use the Index, Luke!/1. Chapter.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)/Chapter 1. A Little Background.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)/Chapter 2. Creating and Populating a Database.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)/Preface.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/📕 Learning SQL, 3rd Edition (2020)/Table of Contents.md": "FasListOl",
-  "the-vault/🔴 Academics/📚 Educational Resources/🙋🏽‍♂️ Data Engineering Prep (Discord Group)/Unique Problems.md": "RiBookmarkLine",
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/118. Pascal's Triangle.md": "LiConstruction"
+  "the-vault/🔴 Academics/📚 Educational Resources/🌐 StrataScratch": "EiStrataScratch"
 }

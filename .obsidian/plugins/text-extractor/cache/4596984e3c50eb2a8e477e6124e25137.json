@@ -1,0 +1,1 @@
+{"path":"Pasted image 20231018221530.png","text":"_ Components are not vectors The components A, and A, of a vector A are numbers; they are not vectors themselves. This is why we print the symbols for components in lightface italic type with no arrow on top instead of in boldface italic with an arrow, which is reserved for vectors. I","libVersion":"0.2.3","langs":"eng"}
