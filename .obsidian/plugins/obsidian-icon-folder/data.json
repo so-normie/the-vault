@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiDeleteBinLine",
       "SiYoutube",
       "EiOReilly",
       "FabNode",
-      "TiNotes",
-      "RiBook2Fill"
+      "TiNotes"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -649,6 +649,12 @@
         "icon": "LiFileVideo",
         "for": "files",
         "order": 92
+      },
+      {
+        "rule": ".*\\.excalidraw",
+        "icon": "LiPencilRuler",
+        "for": "files",
+        "order": 93
       }
     ],
     "extraMargin": {

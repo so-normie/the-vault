@@ -5,12 +5,12 @@
       "path": "the-vault/🔴 Academics/leila physics homework.md"
     },
     {
-      "basename": "excalidraw-2023-10-17 23.36.52.excalidraw",
-      "path": "assets/excalidraw/excalidraw-2023-10-17 23.36.52.excalidraw.md"
+      "basename": "Mechanical Physics",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Physics/Mechanical Physics.md"
     },
     {
-      "basename": "📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents.md"
+      "basename": "LaTeX",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ LaTeX/LaTeX.md"
     },
     {
       "basename": "Default",
@@ -19,6 +19,22 @@
     {
       "basename": "🌐 Structy ▹ 📋 Table of Contents",
       "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "Rapporteur_180deg",
+      "path": "the-vault/assets/images/Rapporteur_180deg.svg"
+    },
+    {
+      "basename": "1. Functions",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition (2022)/1. Functions.md"
+    },
+    {
+      "basename": "🗒️ Obsidian",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Obsidian/🗒️ Obsidian.md"
+    },
+    {
+      "basename": "📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "terror-interview-problem",
@@ -153,52 +169,12 @@
       "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md"
     },
     {
-      "basename": "🗒️ Obsidian",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Obsidian/🗒️ Obsidian.md"
-    },
-    {
       "basename": "Algorithms library",
       "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms library.md"
     },
     {
       "basename": "🗒️ Visual Studio ▹ 📋 Table of Contents",
       "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/🗒️ Visual Studio ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "🗒️ Yarn ▹ 📋 Table of Contents",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Yarn/🗒️ Yarn ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "MSYS2 Commands",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ MSYS2/MSYS2 Commands.md"
-    },
-    {
-      "basename": "🌐 LeetCode ▹ 📋 Table of Contents",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "000. course introduction 👨🏻‍🏫",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md"
-    },
-    {
-      "basename": "Problems ▹ 📋 Table of Contents",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "📕 Fluent Python, 2nd Edition (2022)",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/📕 Fluent Python, 2nd Edition (2022)/📕 Fluent Python, 2nd Edition (2022).md"
-    },
-    {
-      "basename": "1. Array and String ▹ 📋 Table of Contents",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy/1. Array and String/1. Array and String ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "📕 Python in a Nutshell, 4th Edition (2023)",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/📕 Python in a Nutshell, 4th Edition (2023)/📕 Python in a Nutshell, 4th Edition (2023).md"
     }
   ],
   "omittedPaths": [],
