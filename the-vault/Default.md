@@ -1,6 +1,6 @@
 ---
 created: 2023-10-01 16:14
-updated: 2023-10-17T18:32
+updated: 2023-10-19T13:44
 cards-deck: Default
 ---
 
@@ -24,7 +24,8 @@ Red
 > I love notes
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1697748293485
+
 
 ﹇<br>
 Question
@@ -42,7 +43,22 @@ int main() {
 ```
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1697748293492
+
+
+
+﹇<br>
+Question 
+
+#card 
+
+![Pasted image 20231019113907](Pasted%20image%2020231019113907.png)
+
+![problem-2.excalidraw](the-vault/assets/excalidraw/problem-2.excalidraw.png)
+
+⌂
+<br>﹈<br>^1697748293499
+
 
 ﹇<br>
 What is the most holy god
@@ -52,7 +68,8 @@ What is the most holy god
 > Jesus yolo
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1697748293505
+
 
 
 
