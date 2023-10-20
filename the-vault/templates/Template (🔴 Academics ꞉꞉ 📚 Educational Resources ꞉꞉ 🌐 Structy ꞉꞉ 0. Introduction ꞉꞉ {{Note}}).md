@@ -1,12 +1,12 @@
 ---
 title: <% tp.file.title %>
 created: <% tp.file.creation_date("YYYY-MM-DD HH:mm") %>
-updated: 
+updated: 2023-10-20T08:59
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academics/📚-educational-resources/name/🌐-structy
-  - 🔴-academics/📚-educational-resources/source-format/internet/website
+  - 🔴-academics/📚-educational-resources/format/internet/website
   - 🔴-academics/📚-educational-resources/discipline/computer-science
   - 🔴-academics/📚-educational-resources/name/🌐-structy/🔖-bookmark/🌐-structy-▹-📋-table-of-contents/0-introduction/<% tp.user.my_script(tp.file.title) %>
   - 🔴-academics/📚-educational-resources/name/🌐-structy/🏷️-tag/

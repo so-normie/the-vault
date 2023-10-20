@@ -1,8 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "🌐 LeetCode ▹ 📋 Table of Contents",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
+      "basename": "1. Two Sum",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/LeetCode/Problems/1. Two Sum.md"
+    },
+    {
+      "basename": "Additional Tools and Resources",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/LeetCode/Explore/The LeetCode Beginner's Guide/Solving Your First Problem/Additional Tools and Resources.md"
+    },
+    {
+      "basename": "Solving Your First Problem",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/LeetCode/Explore/The LeetCode Beginner's Guide/Solving Your First Problem/Solving Your First Problem.md"
+    },
+    {
+      "basename": "Solving Your First Problem ▹ 📋 Table of Contents",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/LeetCode/Explore/The LeetCode Beginner's Guide/Solving Your First Problem/Solving Your First Problem ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "LeetCode ▹ 📋 Table of Contents",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/LeetCode/LeetCode ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "Overview",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/LeetCode/Explore/The LeetCode Beginner's Guide/Overview.md"
+    },
+    {
+      "basename": "Preface",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/O'Reilly Learning/Foundations of Scalable Systems/Preface.md"
+    },
+    {
+      "basename": "The LeetCode Beginner's Guide ▹ 📋 Table of Contents",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/LeetCode/Explore/The LeetCode Beginner's Guide/The LeetCode Beginner's Guide ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "Problems ▹ 📋 Table of Contents",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/LeetCode/Problems/Problems ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "Problems (Easy)",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/LeetCode/Problems (Easy).md"
+    },
+    {
+      "basename": "Foundations of Scalable Systems ▹ 📋 Table of Contents",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/O'Reilly Learning/Foundations of Scalable Systems/Foundations of Scalable Systems ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "Certifications",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/Microsoft Learn/Certifications.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/sortspec.md"
+    },
+    {
+      "basename": "Explore ▹ 📋 Table of Contents",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/LeetCode/Explore/Explore ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "Udemy ▹ 📋 Table of Contents",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/Udemy/Udemy ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "YouTube ▹ 📋 Table of Contents",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/YouTube/YouTube ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "O'Reilly Learning ▹ 📋 Table of Contents",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/O'Reilly Learning/O'Reilly Learning ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "📕 Python in a Nutshell, 4th Edition (2023) ▹ 📋 Table of Contents",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/📕 Python in a Nutshell, 4th Edition (2023)/📕 Python in a Nutshell, 4th Edition (2023) ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "Misc. Notes",
@@ -23,14 +91,6 @@
     {
       "basename": "physics-img",
       "path": "the-vault/assets/images/physics-img.png"
-    },
-    {
-      "basename": "Preface",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/Preface.md"
-    },
-    {
-      "basename": "📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "leila physics homework",
@@ -125,12 +185,8 @@
       "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Git/Misc. Notes.md"
     },
     {
-      "basename": "1. Two Sum",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
-    },
-    {
       "basename": "9. Palindrome Number",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/9. Palindrome Number.md"
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/LeetCode/Problems/9. Palindrome Number.md"
     },
     {
       "basename": "Misc. Notes",
@@ -143,62 +199,6 @@
     {
       "basename": "0. Introduction ▹ 📋 Table of Contents",
       "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "microsoftcorporationCanYouPlease2023",
-      "path": "the-vault/zotero/microsoftcorporationCanYouPlease2023.md"
-    },
-    {
-      "basename": "StdRangesFor_each_n2023",
-      "path": "the-vault/zotero/StdRangesFor_each_n2023.md"
-    },
-    {
-      "basename": "ConstrainedAlgorithms202023",
-      "path": "the-vault/zotero/ConstrainedAlgorithms202023.md"
-    },
-    {
-      "basename": "odedAnswerWhatAre2011",
-      "path": "the-vault/zotero/odedAnswerWhatAre2011.md"
-    },
-    {
-      "basename": "edsfAnswerItBad2017",
-      "path": "the-vault/zotero/edsfAnswerItBad2017.md"
-    },
-    {
-      "basename": "ShouldPlaceSolution",
-      "path": "the-vault/zotero/ShouldPlaceSolution.md"
-    },
-    {
-      "basename": "ravenItBadIdea2017",
-      "path": "the-vault/zotero/ravenItBadIdea2017.md"
-    },
-    {
-      "basename": "zabianStructyLearnData2023",
-      "path": "the-vault/zotero/zabianStructyLearnData2023.md"
-    },
-    {
-      "basename": "stwAnswerWhatAre2013",
-      "path": "the-vault/zotero/stwAnswerWhatAre2013.md"
-    },
-    {
-      "basename": "sortspec",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/sortspec.md"
-    },
-    {
-      "basename": "Template {{Anki Note ∋ “⋕card-reverse”}}",
-      "path": "the-vault/templates/Template {{Anki Note ∋ “⋕card-reverse”}}.md"
-    },
-    {
-      "basename": "Template {{Anki Note ∋ “⋕card”}}",
-      "path": "the-vault/templates/Template {{Anki Note ∋ “⋕card”}}.md"
-    },
-    {
-      "basename": "Template {{Anki Note ∋ “🃏”}}",
-      "path": "the-vault/templates/Template {{Anki Note ∋ “🃏”}}.md"
-    },
-    {
-      "basename": "Template (Note Template ∋ {{Folder Name}} ▹ 📋 Table of Contents)",
-      "path": "the-vault/templates/Template (Note Template ∋ {{Folder Name}} ▹ 📋 Table of Contents).md"
     }
   ],
   "omittedPaths": [],

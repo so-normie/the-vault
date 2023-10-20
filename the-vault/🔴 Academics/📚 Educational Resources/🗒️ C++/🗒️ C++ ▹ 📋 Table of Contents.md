@@ -1,12 +1,12 @@
 ---
 title: 🗒️ C++ ▹ 📋 Table of Contents
 created: 2023-09-28 14:16
-updated: 2023-10-16T00:58
+updated: 2023-10-20T08:59
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academics/📚-educational-resources/name/🗒️-cpp
-  - 🔴-academics/📚-educational-resources/source-format/internet/website
+  - 🔴-academics/📚-educational-resources/format/internet/website
   - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp
   - 🔴-academics/📚-educational-resources/name/🗒️-cpp/🔖-bookmark/🗒️-cpp-▹-📋-table-of-contents
   - study-note

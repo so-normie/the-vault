@@ -1,12 +1,12 @@
 ---
 title: Misc. Notes
 created: 2023-09-03 08:46
-updated: 2023-10-16T18:53
+updated: 2023-10-20T08:59
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academics/📚-educational-resources/name/🗒️-cpp
-  - 🔴-academics/📚-educational-resources/source-format/miscellaneous
+  - 🔴-academics/📚-educational-resources/format/miscellaneous
   - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp
   - 🔴-academics/📚-educational-resources/name/🗒️-cpp/🔖-bookmark/🗒️-cpp/misc-notes
   - study-note

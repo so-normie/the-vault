@@ -1,12 +1,12 @@
 ---
 title: Algorithms library
 created: 2023-09-03 08:46
-updated: 2023-09-30 16:57
+updated: 2023-10-20T08:59
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academics/📚-educational-resources/name/🌐-cpp-reference
-  - 🔴-academics/📚-educational-resources/source-format/internet/website
+  - 🔴-academics/📚-educational-resources/format/internet/website
   - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp
   - 🔴-academics/📚-educational-resources/name/🌐-leetcode/🔖-bookmark/algorithms-library
   - study-note
