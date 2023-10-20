@@ -5,40 +5,56 @@
     "fontSize": 16,
     "emojiStyle": "none",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "SiYarn",
+      "SiGit",
+      "TiSql",
+      "SiVisualstudio",
+      "EiCppReference",
+      "SiCplusplus",
+      "EiStructy",
+      "SiVisualstudiocode",
+      "SiLatex",
+      "SiGnubash",
+      "EiAnki",
+      "EiZotero",
+      "FasToolbox",
+      "TiTemplate",
+      "FasCode"
+    ],
     "recentlyUsedIconsSize": 15,
     "rules": [
       {
-        "rule": "^the-vault\\/🔴 Academics\\/📚 Educational Resources\\/🌐 LeetCode$",
-        "icon": "SiLeetcode",
+        "rule": ".*",
+        "icon": "RiFolderFill",
         "for": "folders",
         "order": 0,
         "useFilePath": true
       },
       {
-        "rule": "^the-vault\\/🔴 Academics\\/📚 Educational Resources\\/🗒️ C\\+\\+$",
-        "icon": "TiBrandCpp",
-        "for": "folders",
+        "rule": "sortspec\\.md",
+        "icon": "RiSortDesc",
+        "for": "files",
         "order": 1,
         "useFilePath": true
       },
       {
-        "rule": "^the-vault\\/anki$",
-        "icon": "EiAnki",
-        "for": "folders",
+        "rule": ".*\\.md",
+        "icon": "RiMarkdownLine",
+        "for": "files",
         "order": 2,
         "useFilePath": true
       },
       {
-        "rule": ".*",
-        "icon": "RiFolderFill",
-        "for": "folders",
+        "rule": ".*\\.(jpg|jpeg|png)",
+        "icon": "FarFileImage",
+        "for": "files",
         "order": 3,
         "useFilePath": true
       },
       {
-        "rule": "^.*\\.md$",
-        "icon": "RiMarkdownLine",
+        "rule": ".*\\.svg",
+        "icon": "SiSvg",
         "for": "files",
         "order": 4,
         "useFilePath": true
@@ -50,8 +66,25 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": true,
+    "iconInTabsEnabled": false,
     "iconInTitleEnabled": false,
     "iconsBackgroundCheckEnabled": false
-  }
+  },
+  "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode": "SiLeetcode",
+  "the-vault/🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)": "EiOReilly",
+  "the-vault/templates": "FasToolbox",
+  "the-vault/zotero": "EiZotero",
+  "the-vault/scripts": "FasCode",
+  "the-vault/anki": "EiAnki",
+  "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Bash": "SiGnubash",
+  "the-vault/🔴 Academics/📚 Educational Resources/🗒️ LaTeX": "SiLatex",
+  "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Visual Studio": "SiVisualstudio",
+  "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy": "EiStructy",
+  "the-vault/🔴 Academics/📚 Educational Resources/🗒️ C++": "SiCplusplus",
+  "the-vault/🔴 Academics/📚 Educational Resources/🌐 C++ reference": "EiCppReference",
+  "the-vault/🔴 Academics/📚 Educational Resources/🗒️ SQL": "TiSql",
+  "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Git": "SiGit",
+  "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Yarn": "SiYarn",
+  "the-vault/🔴 Academics/📚 Educational Resources/🗒️ MSYS2": "FasCode",
+  "the-vault/🔴 Academics/📚 Educational Resources/🌐 MSYS2 Documentation": "FasCode"
 }

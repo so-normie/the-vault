@@ -5,6 +5,26 @@
       "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
     },
     {
+      "basename": "Misc. Notes",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Bash/Misc. Notes.md"
+    },
+    {
+      "basename": "🌐 C++ reference ▹ 📋 Table of Contents",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 C++ reference/🌐 C++ reference ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "🗒️ C++ ▹ 📋 Table of Contents",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "🌐 Structy ▹ 📋 Table of Contents",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
+    },
+    {
+      "basename": "physics-img",
+      "path": "the-vault/assets/images/physics-img.png"
+    },
+    {
       "basename": "Preface",
       "path": "the-vault/🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/Preface.md"
     },
@@ -33,20 +53,8 @@
       "path": "the-vault/assets/excalidraw/problem-2.excalidraw.light.png"
     },
     {
-      "basename": "physics-img",
-      "path": "the-vault/assets/images/physics-img.png"
-    },
-    {
       "basename": "Default",
       "path": "the-vault/Default.md"
-    },
-    {
-      "basename": "🌐 Structy ▹ 📋 Table of Contents",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md"
-    },
-    {
-      "basename": "🗒️ C++ ▹ 📋 Table of Contents",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "Algorithms library",
@@ -91,10 +99,6 @@
     {
       "basename": "vladimirlikicUnderstandingBashElements2018",
       "path": "the-vault/zotero/vladimirlikicUnderstandingBashElements2018.md"
-    },
-    {
-      "basename": "Misc. Notes",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Bash/Misc. Notes.md"
     },
     {
       "basename": "Configuring the Settings",

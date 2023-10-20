@@ -1,10 +1,10 @@
 {
-  "syncFolderName": false,
+  "syncFolderName": true,
   "ctrlKey": true,
   "altKey": false,
   "hideFolderNote": false,
   "templatePath": "",
-  "autoCreate": false,
+  "autoCreate": true,
   "enableCollapsing": false,
   "excludeFolders": [
     {
@@ -59,7 +59,7 @@
     "explorer": false,
     "path": false
   },
-  "settingsTab": "general",
+  "settingsTab": "file_explorer",
   "supportedFileTypes": [
     "md",
     "canvas"
