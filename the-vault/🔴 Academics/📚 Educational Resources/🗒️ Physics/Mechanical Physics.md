@@ -1,7 +1,7 @@
 ---
 title: Mechanical Physics
 created: 2023-09-03 08:46
-updated: 2023-10-19T13:41
+updated: 2023-10-19T15:14
 authors:
   - Edmund Leibert III
 tags:
@@ -49,7 +49,7 @@ Are components vectors?
 
 **No**. Components are not considered vectors.
 
-![|600](Pasted%20image%2020231019113907.png)
+![|600](the-vault/assets/images/physics-img.png)
 
 ⌂
 <br>﹈<br>^1697747703538

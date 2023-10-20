@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "physics-img",
+      "path": "the-vault/assets/images/physics-img.png"
+    },
+    {
+      "basename": "Default",
+      "path": "the-vault/Default.md"
+    },
+    {
       "basename": "🌐 LeetCode ▹ 📋 Table of Contents",
       "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "Algorithms library",
       "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms library.md"
-    },
-    {
-      "basename": "Default",
-      "path": "the-vault/Default.md"
     },
     {
       "basename": "leila physics homework",
@@ -61,8 +65,8 @@
       "path": "the-vault/🔴 Academics/📚 Educational Resources/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition (2022)/1. Functions.md"
     },
     {
-      "basename": "🗒️ Obsidian",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Obsidian/🗒️ Obsidian.md"
+      "basename": "🗒️ Obsidian ▹ 📋 Table of Contents",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Obsidian/🗒️ Obsidian ▹ 📋 Table of Contents.md"
     },
     {
       "basename": "📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents",

@@ -1,12 +1,25 @@
 {
-  "syncFolderName": true,
+  "syncFolderName": false,
   "ctrlKey": true,
   "altKey": false,
   "hideFolderNote": false,
   "templatePath": "",
   "autoCreate": false,
   "enableCollapsing": false,
-  "excludeFolders": [],
+  "excludeFolders": [
+    {
+      "type": "folder",
+      "path": "",
+      "subFolders": true,
+      "disableSync": true,
+      "disableAutoCreate": true,
+      "disableFolderNote": false,
+      "enableCollapsing": false,
+      "position": 0,
+      "excludeFromFolderOverview": false,
+      "string": ""
+    }
+  ],
   "showDeleteConfirmation": true,
   "underlineFolder": true,
   "allowWhitespaceCollapsing": false,
@@ -34,7 +47,7 @@
     "disableFileTag": false,
     "sortBy": "name",
     "sortByAsc": true,
-    "showEmptyFolders": false,
+    "showEmptyFolders": true,
     "onlyIncludeSubfolders": false,
     "storeFolderCondition": true,
     "showFolderNotes": false
@@ -43,8 +56,8 @@
   "syncMove": true,
   "frontMatterTitle": {
     "enabled": true,
-    "explorer": true,
-    "path": true
+    "explorer": false,
+    "path": false
   },
   "settingsTab": "general",
   "supportedFileTypes": [

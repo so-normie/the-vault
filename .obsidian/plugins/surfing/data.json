@@ -23,7 +23,7 @@
   "useCustomIcons": false,
   "useWebview": true,
   "useIconList": true,
-  "darkMode": true,
+  "darkMode": false,
   "bookmarkManager": {
     "openBookMark": true,
     "saveBookMark": true,
@@ -43,5 +43,17 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "8ca89ac605983d32",
+      "parent": 0,
+      "droppable": true,
+      "text": "LeetCode Tracker (Kirb 350) - Google Sheets",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }

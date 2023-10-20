@@ -1,6 +1,6 @@
 ---
 created: 2023-10-01 16:14
-updated: 2023-10-19T13:44
+updated: 2023-10-19T15:14
 cards-deck: Default
 ---
 
@@ -52,7 +52,7 @@ Question
 
 #card 
 
-![Pasted image 20231019113907](Pasted%20image%2020231019113907.png)
+![Pasted image 20231019113907](the-vault/assets/images/physics-img.png)
 
 ![problem-2.excalidraw](the-vault/assets/excalidraw/problem-2.excalidraw.png)
 
