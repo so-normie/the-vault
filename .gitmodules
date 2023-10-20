@@ -1,9 +1,3 @@
-[submodule "The Vault/.obsidian/plugins/flashcards-obsidian"]
-	path = The Vault/.obsidian/plugins/flashcards-obsidian
-	url = https://github.com/edmund-leibert/flashcards-obsidian
 [submodule ".obsidian/plugins/flashcards-obsidian"]
 	path = .obsidian/plugins/flashcards-obsidian
 	url = https://github.com/edmund-leibert/flashcards-obsidian
-[submodule ".obsidian/plugins/obsidian-excalidraw-plugin"]
-	path = .obsidian/plugins/obsidian-excalidraw-plugin
-	url = https://github.com/edmund-leibert/obsidian-excalidraw-plugin.git
