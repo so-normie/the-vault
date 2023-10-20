@@ -75,9 +75,9 @@ function dedent(templ) {
 }
 var esm_default = dedent;
 
-// node_modules/.pnpm/asciimath-parser@0.6.2/node_modules/asciimath-parser/dist/index.js
-var m = ((T) => (T.NumberLiteral = "NumberLiteral", T.StringLiteral = "StringLiteral", T.Text = "Text", T.Const = "Const", T.OperatorOA = "OperatorA", T.OperatorOAB = "OperatorOAB", T.OperatorAOB = "OperatorAOB", T.OperatorMinus = "OperatorMinus", T.OperatorAO = "OperatorAO", T.OperatorO2 = "OperatorOptionalTwoParams", T.OperatorSup = "OperatorSup", T.OperatorPartial = "OperatorPartial", T.LParen = "LParen", T.RParen = "RParen", T.Paren = "Paren", T.Align = "Align", T.Split = "Split", T.None = "None", T))(m || {});
-var C = /* @__PURE__ */ new Map([["alpha", { type: "Const", tex: "\\alpha" }], ["beta", { type: "Const", tex: "\\beta" }], ["gamma", { type: "Const", tex: "\\gamma" }], ["Gamma", { type: "Const", tex: "\\Gamma" }], ["delta", { type: "Const", tex: "\\delta" }], ["Delta", { type: "Const", tex: "\\Delta" }], ["epsi", { type: "Const", tex: "\\varepsilon" }], ["epsilon", { type: "Const", tex: "\\epsilon" }], ["varepsilon", { type: "Const", tex: "\\varepsilon" }], ["zeta", { type: "Const", tex: "\\zeta" }], ["eta", { type: "Const", tex: "\\eta" }], ["theta", { type: "Const", tex: "\\theta" }], ["Theta", { type: "Const", tex: "\\Theta" }], ["vartheta", { type: "Const", tex: "\\vartheta" }], ["iota", { type: "Const", tex: "\\iota" }], ["kappa", { type: "Const", tex: "\\kappa" }], ["lambda", { type: "Const", tex: "\\lambda" }], ["Lambda", { type: "Const", tex: "\\Lambda" }], ["mu", { type: "Const", tex: "\\mu" }], ["nu", { type: "Const", tex: "\\nu" }], ["xi", { type: "Const", tex: "\\xi" }], ["Xi", { type: "Const", tex: "\\Xi" }], ["pi", { type: "Const", tex: "\\pi" }], ["Pi", { type: "Const", tex: "\\Pi" }], ["rho", { type: "Const", tex: "\\rho" }], ["sigma", { type: "Const", tex: "\\sigma" }], ["Sigma", { type: "Const", tex: "\\Sigma" }], ["tau", { type: "Const", tex: "\\tau" }], ["upsilon", { type: "Const", tex: "\\upsilon" }], ["phi", { type: "Const", tex: "\\phi" }], ["varphi", { type: "Const", tex: "\\varphi" }], ["varPhi", { type: "Const", tex: "\\varPhi" }], ["Phi", { type: "Const", tex: "\\Phi" }], ["chi", { type: "Const", tex: "\\chi" }], ["psi", { type: "Const", tex: "\\psi" }], ["Psi", { type: "Const", tex: "\\Psi" }], ["omega", { type: "Const", tex: "\\omega" }], ["Omega", { type: "Const", tex: "\\Omega" }], ["***", { type: "Const", tex: "\\star" }], ["star", { type: "Const", tex: "\\star" }], ["**", { type: "Const", tex: "\\ast" }], ["ast", { type: "Const", tex: "\\ast" }], ["*", { type: "Const", tex: "\\cdot" }], ["cdot", { type: "Const", tex: "\\cdot" }], ["//", { type: "Const", tex: "{/}" }], ["\\\\", { type: "Const", tex: "\\backslash" }], ["setminus", { type: "Const", tex: "\\setminus" }], ["xx", { type: "Const", tex: "\\times" }], ["|><", { type: "Const", tex: "\\ltimes" }], ["><|", { type: "Const", tex: "\\rtimes" }], ["|><|", { type: "Const", tex: "\\bowtie" }], ["-:", { type: "Const", tex: "\\div" }], ["@", { type: "Const", tex: "\\circ" }], ["o+", { type: "Const", tex: "\\oplus" }], ["ox", { type: "Const", tex: "\\otimes" }], ["o.", { type: "Const", tex: "\\odot" }], ["sum", { type: "Const", tex: "\\sum" }], ["prod", { type: "Const", tex: "\\prod" }], ["^^", { type: "Const", tex: "\\wedge" }], ["^^^", { type: "Const", tex: "\\bigwedge" }], ["vv", { type: "Const", tex: "\\vee" }], ["vvv", { type: "Const", tex: "\\bigvee" }], ["nn", { type: "Const", tex: "\\cap" }], ["nnn", { type: "Const", tex: "\\bigcap" }], ["uu", { type: "Const", tex: "\\cup" }], ["uuu", { type: "Const", tex: "\\bigcup" }], ["!=", { type: "Const", tex: "\\ne" }], ["lt", { type: "Const", tex: "<" }], ["<=", { type: "Const", tex: "\\leqslant" }], ["le", { type: "Const", tex: "\\le" }], ["gt", { type: "Const", tex: ">" }], [">=", { type: "Const", tex: "\\geqslant" }], ["ge", { type: "Const", tex: "\\ge" }], ["-<", { type: "Const", tex: "\\prec" }], [">-", { type: "Const", tex: "\\succ" }], ["-<=", { type: "Const", tex: "\\preceq" }], [">-=", { type: "Const", tex: "\\succeq" }], ["in", { type: "Const", tex: "\\in" }], ["!in", { type: "Const", tex: "\\notin" }], ["sub", { type: "Const", tex: "\\subset" }], ["sup", { type: "Const", tex: "\\supset" }], ["sube", { type: "Const", tex: "\\subseteq" }], ["supe", { type: "Const", tex: "\\supseteq" }], ["-=", { type: "Const", tex: "\\equiv" }], ["~=", { type: "Const", tex: "\\cong" }], ["~", { type: "Const", tex: "\\sim" }], ["~~", { type: "Const", tex: "\\approx" }], ["\\#", { type: "Const", tex: "\\#" }], ["\\&", { type: "Const", tex: "\\&" }], ["\\@", { type: "Const", tex: "@" }], ["\\%", { type: "Const", tex: "\\%" }], ["%", { type: "Const", tex: "\\%" }], ["\\_", { type: "Const", tex: "\\_" }], ["\\^", { type: "Const", tex: "\\^" }], ["\\$", { type: "Const", tex: "\\$" }], ["\\ ", { type: "Const", tex: "\\ " }], ["\\,", { type: "Const", tex: "\\," }], ["\\;", { type: "Const", tex: "\\;" }], ["\\:", { type: "Const", tex: "\\:" }], ["\\!", { type: "Const", tex: "\\!" }], ["enspace", { type: "Const", tex: "\\enspace" }], ["hspace", { type: "OperatorA", tex: "\\hspace{$1}", eatNext: true }], ["prop", { type: "Const", tex: "\\propto" }], ["comp", { type: "Const", tex: "\\complement" }], ["complement", { type: "Const", tex: "\\complement" }], ["if", { type: "Text", tex: "if\\quad" }], ["otherwise", { type: "Text", tex: "otherwise\\quad" }], ["and", { type: "Text", tex: " and " }], ["or", { type: "Text", tex: " or " }], ["not", { type: "Const", tex: "\\neg" }], ["=>", { type: "Const", tex: "\\implies" }], ["~>", { type: "Const", tex: "\\rightsquigarrow" }], ["-/->", { type: "Const", tex: "\\nrightarrow" }], ["<-/-", { type: "Const", tex: "\\nleftarrow" }], ["<-/->", { type: "Const", tex: "\\nleftrightarrow" }], ["<=>", { type: "Const", tex: "\\iff" }], ["iff", { type: "Const", tex: "\\iff" }], ["AA", { type: "Const", tex: "\\forall" }], ["EE", { type: "Const", tex: "\\exists" }], ["_|_", { type: "Const", tex: "\\bot" }], ["TT", { type: "Const", tex: "\\top" }], ["|--", { type: "Const", tex: "\\vdash" }], ["|==", { type: "Const", tex: "\\models" }], ["int", { type: "Const", tex: "\\int" }], ["oint", { type: "Const", tex: "\\oint" }], ["del", { type: "Const", tex: "\\partial" }], ["grad", { type: "Const", tex: "\\nabla" }], ["+-", { type: "Const", tex: "\\pm" }], ["-+", { type: "Const", tex: "\\mp" }], ["O/", { type: "Const", tex: "\\varnothing" }], ["oo", { type: "Const", tex: "\\infty" }], ["aleph", { type: "Const", tex: "\\aleph" }], ["...", { type: "Const", tex: "\\ldots" }], [":.", { type: "Const", tex: "\\therefore" }], [":'", { type: "Const", tex: "\\because" }], ["/_", { type: "Const", tex: "\\angle" }], ["/_\\", { type: "Const", tex: "\\triangle" }], ["quad", { type: "Const", tex: "\\quad" }], ["qquad", { type: "Const", tex: "\\qquad" }], ["cdots", { type: "Const", tex: "\\cdots" }], ["vdots", { type: "Const", tex: "\\vdots" }], ["ddots", { type: "Const", tex: "\\ddots" }], ["diamond", { type: "Const", tex: "\\diamond" }], ["Lap", { type: "Const", tex: "\\mathscr{L}" }], ["square", { type: "Const", tex: "\\square" }], ["|__", { type: "LParen", tex: "\\lfloor" }], ["__|", { type: "RParen", tex: "\\rfloor" }], ["|~", { type: "LParen", tex: "\\lceil" }], ["~|", { type: "RParen", tex: "\\rceil" }], ["CC", { type: "Const", tex: "\\mathbb{C}" }], ["NN", { type: "Const", tex: "\\mathbb{N}" }], ["QQ", { type: "Const", tex: "\\mathbb{Q}" }], ["RR", { type: "Const", tex: "\\mathbb{R}" }], ["ZZ", { type: "Const", tex: "\\mathbb{Z}" }], ["'", { type: "Const", tex: "^{\\prime}" }], ["''", { type: "Const", tex: "^{\\prime\\prime}" }], ["'''", { type: "Const", tex: "^{\\prime\\prime\\prime}" }], ["lim", { type: "Const", tex: "\\lim" }], ["sin", { type: "Const", tex: "\\sin" }], ["cos", { type: "Const", tex: "\\cos" }], ["tan", { type: "Const", tex: "\\tan" }], ["sinh", { type: "Const", tex: "\\sinh" }], ["cosh", { type: "Const", tex: "\\cosh" }], ["tanh", { type: "Const", tex: "\\tanh" }], ["cot", { type: "Const", tex: "\\cot" }], ["sec", { type: "Const", tex: "\\sec" }], ["csc", { type: "Const", tex: "\\csc" }], ["arcsin", { type: "Const", tex: "\\arcsin" }], ["arccos", { type: "Const", tex: "\\arccos" }], ["arctan", { type: "Const", tex: "\\arctan" }], ["coth", { type: "Const", tex: "\\coth" }], ["sech", { type: "Const", tex: "\\operatorname{sech}" }], ["csch", { type: "Const", tex: "\\operatorname{csch}" }], ["exp", { type: "Const", tex: "\\exp" }], ["log", { type: "Const", tex: "\\log" }], ["ln", { type: "Const", tex: "\\ln" }], ["det", { type: "Const", tex: "\\det" }], ["dim", { type: "Const", tex: "\\dim" }], ["gcd", { type: "Const", tex: "\\gcd" }], ["lcm", { type: "Const", tex: "\\operatorname{lcm}" }], ["min", { type: "Const", tex: "\\min" }], ["max", { type: "Const", tex: "\\max" }], ["Sup", { type: "Const", tex: "\\sup" }], ["inf", { type: "Const", tex: "\\inf" }], ["mod", { type: "Const", tex: "\\operatorname{mod}" }], ["sgn", { type: "Const", tex: "\\operatorname{sgn}" }], ["abs", { type: "OperatorA", tex: "\\left|$1\\right|" }], ["norm", { type: "OperatorA", tex: "\\left\\|$1\\right\\|" }], ["floor", { type: "OperatorA", tex: "\\left\\lfloor$1\\right\\rfloor" }], ["ceil", { type: "OperatorA", tex: "\\left\\lceil$1\\right\\rceil" }], ["uarr", { type: "Const", tex: "\\uparrow" }], ["uparrow", { type: "Const", tex: "\\uparrow" }], ["darr", { type: "Const", tex: "\\downarrow" }], ["downarrow", { type: "Const", tex: "\\downarrow" }], ["rarr", { type: "Const", tex: "\\rightarrow" }], ["rightarrow", { type: "Const", tex: "\\rightarrow" }], ["to", { type: "Const", tex: "\\to" }], ["->", { type: "Const", tex: "\\to" }], ["<-", { type: "Const", tex: "\\gets" }], [">->", { type: "Const", tex: "\\rightarrowtail" }], ["->>", { type: "Const", tex: "\\twoheadrightarrow" }], [">->>", { type: "Const", tex: "\u2916" }], ["|->", { type: "Const", tex: "\\mapsto" }], ["larr", { type: "Const", tex: "\\leftarrow" }], ["leftarrow", { type: "Const", tex: "\\leftarrow" }], ["harr", { type: "Const", tex: "\\leftrightarrow" }], ["rArr", { type: "Const", tex: "\\Rightarrow" }], ["lArr", { type: "Const", tex: "\\Leftarrow" }], ["hArr", { type: "Const", tex: "\\Leftrightarrow" }], ["curvArrLt", { type: "Const", tex: "\\curvearrowleft" }], ["curvArrRt", { type: "Const", tex: "\\curvearrowright" }], ["circArrLt", { type: "Const", tex: "\\circlearrowleft" }], ["circArrRt", { type: "Const", tex: "\\circlearrowright" }], ["sqrt", { type: "OperatorA", tex: "\\sqrt{ $1 }" }], ["root", { type: "OperatorOAB", tex: "\\sqrt[ $1 ]{ $2 }" }], ["frac", { type: "OperatorOAB", tex: "\\frac{ $1 }{ $2 }" }], ["/", { type: "OperatorAOB", tex: "\\frac{ $1 }{ $2 }" }], ["_", { type: "OperatorSup", tex: "_{ $1 }" }], ["^", { type: "OperatorSup", tex: "^{ $1 }" }], ["stackrel", { type: "OperatorOAB", tex: "\\stackrel{ $1 }{ $2 }" }], ["overset", { type: "OperatorOAB", tex: "\\overset{ $1 }{ $2 }" }], ["underset", { type: "OperatorOAB", tex: "\\underset{ $1 }{ $2 }" }], ["hat", { type: "OperatorA", tex: "\\hat{ $1 }" }], ["\\`", { type: "OperatorA", tex: "\\`{ $1 }" }], ["widehat", { type: "OperatorA", tex: "\\widehat{ $1 }" }], ["Hat", { type: "OperatorA", tex: "\\widehat{ $1 }" }], ["widetilde", { type: "OperatorA", tex: "\\widetilde{ $1 }" }], ["ol", { type: "OperatorA", tex: "\\overline{ $1 }" }], ["overline", { type: "OperatorA", tex: "\\overline{ $1 }" }], ["arc", { type: "OperatorA", tex: "\\stackrel{\\frown}{ $1 }" }], ["bar", { type: "OperatorA", tex: "\\bar{ $1 }" }], ["vec", { type: "OperatorA", tex: "\\vec{ $1 }" }], ["Vec", { type: "OperatorA", tex: "\\overrightarrow{ $1 }" }], ["tilde", { type: "OperatorA", tex: "\\tilde{ $1 }" }], ["Tilde", { type: "OperatorA", tex: "\\widetilde{ $1 }" }], ["dot", { type: "OperatorA", tex: "\\dot{ $1 }" }], ["ddot", { type: "OperatorA", tex: "\\ddot{ $1 }" }], ["ul", { type: "OperatorA", tex: "\\underline{ $1 }" }], ["underline", { type: "OperatorA", tex: "\\underline{ $1 }" }], ["underbrace", { type: "OperatorA", tex: "\\underbrace{ $1 }" }], ["ubrace", { type: "OperatorA", tex: "\\underbrace{ $1 }" }], ["overbrace", { type: "OperatorA", tex: "\\overbrace{ $1 }" }], ["obrace", { type: "OperatorA", tex: "\\overbrace{ $1 }" }], ["color", { type: "OperatorOAB", tex: "{ \\color{$1} $2 }", eatNext: true }], ["phantom", { type: "OperatorA", tex: "\\phantom{$1}" }], ["text", { type: "OperatorA", tex: "\\text{$1}", eatNext: true }], ["tex", { type: "OperatorA", tex: "$1", eatNext: true }], ["mbox", { type: "OperatorA", tex: "\\mbox{$1}" }], ["op", { type: "OperatorA", tex: "\\operatorname{ $1 }", eatNext: true }], ["cancel", { type: "OperatorA", tex: "\\cancel{ $1 }" }], ["bb", { type: "OperatorA", tex: "\\mathbf{ $1 }" }], ["mathbf", { type: "OperatorA", tex: "\\mathbf{ $1 }" }], ["sf", { type: "OperatorA", tex: "\\mathsf{ $1 }" }], ["mathsf", { type: "OperatorA", tex: "\\mathsf{ $1 }" }], ["bbb", { type: "OperatorA", tex: "\\mathbb{ $1 }" }], ["mathbb", { type: "OperatorA", tex: "\\mathbb{ $1 }" }], ["cc", { type: "OperatorA", tex: "\\mathcal{ $1 }" }], ["mathcal", { type: "OperatorA", tex: "\\mathcal{ $1 }" }], ["tt", { type: "OperatorA", tex: "\\mathtt{ $1 }" }], ["mathtt", { type: "OperatorA", tex: "\\mathtt{ $1 }" }], ["fr", { type: "OperatorA", tex: "\\mathfrak{ $1 }" }], ["bm", { type: "OperatorA", tex: "\\boldsymbol{ $1 }" }], ["rm", { type: "OperatorA", tex: "\\mathrm{ $1 }" }], ["scr", { type: "OperatorA", tex: "\\mathscr{ $1 }" }], ["limits", { type: "OperatorA", tex: "\\mathop{ $1 }\\limits" }], ["iint", { type: "Const", tex: "\\iint" }], ["iiint", { type: "Const", tex: "\\iiint" }], ["oiint", { type: "Const", tex: "\u222F" }], ["oiiint", { type: "Const", tex: "\u2230" }], ["laplace", { type: "Const", tex: "\\Delta" }], ["==", { type: "OperatorOptionalTwoParams", tex: "\\xlongequal[ $2 ]{ $1 }" }], ["-->", { type: "OperatorOptionalTwoParams", tex: "\\xrightarrow[ $2 ]{ $1 }" }], ["||", { type: "Paren", tex: "\\Vert" }], ["!||", { type: "Const", tex: "\u2226" }], ["S=", { type: "Const", tex: "\u224C" }], ["S~", { type: "Const", tex: "\u223D" }], ["!-=", { type: "Const", tex: "\\not\\equiv" }], ["!|", { type: "Const", tex: "\u2224" }], ["!", { type: "OperatorAO", tex: "{$1 !}" }], ["!!", { type: "OperatorAO", tex: "{$1 !!}" }], ["!sube", { type: "Const", tex: "\\not\\subseteq" }], ["!supe", { type: "Const", tex: "\\not\\supseteq" }], ["subne", { type: "Const", tex: "\\subsetneqq" }], ["supne", { type: "Const", tex: "\\supsetneqq" }], ["lhd", { type: "Const", tex: "\\lhd" }], ["rhd", { type: "Const", tex: "\\rhd" }], ["normal", { type: "Const", tex: "\\unlhd" }], ["rnormal", { type: "Const", tex: "\\unrhd" }], ["hline", { type: "Const", tex: "\\hline" }], ["--", { type: "Const", tex: "\\hline" }], ["(", { type: "LParen", tex: "(" }], [")", { type: "RParen", tex: ")" }], ["[", { type: "LParen", tex: "[" }], ["]", { type: "RParen", tex: "]" }], ["{", { type: "LParen", tex: "\\lbrace" }], ["}", { type: "RParen", tex: "\\rbrace" }], ["(:", { type: "LParen", tex: "\\langle" }], [":)", { type: "RParen", tex: "\\rangle" }], ["{:", { type: "LParen", tex: "." }], [":}", { type: "RParen", tex: "." }], ["|", { type: "Paren", tex: "|" }], ["&", { type: "Align", tex: "&" }], ["&&", { type: "Align", tex: "&&" }], [",", { type: "Split", tex: "," }], [";", { type: "Split", tex: ";" }], ["-", { type: "OperatorMinus", tex: "{-$1 }" }], ["+", { type: "OperatorMinus", tex: "{+$1 }" }], ["part", { type: "OperatorPartial", tex: "\\partial" }], ["pp", { type: "OperatorPartial", tex: "\\partial" }], ["dd", { type: "OperatorPartial", tex: "\\mathrm{d}" }], ["tiny", { type: "OperatorA", tex: "{\\tiny $1 }" }], ["small", { type: "OperatorA", tex: "{\\small $1 }" }], ["large", { type: "OperatorA", tex: "{\\large $1 }" }], ["huge", { type: "OperatorA", tex: "{\\huge $1 }" }]]);
+// node_modules/.pnpm/asciimath-parser@0.6.3/node_modules/asciimath-parser/dist/index.js
+var f = ((T) => (T.NumberLiteral = "NumberLiteral", T.StringLiteral = "StringLiteral", T.Text = "Text", T.Const = "Const", T.OperatorOA = "OperatorA", T.OperatorOAB = "OperatorOAB", T.OperatorAOB = "OperatorAOB", T.OperatorMinus = "OperatorMinus", T.OperatorAO = "OperatorAO", T.OperatorO2 = "OperatorOptionalTwoParams", T.OperatorSup = "OperatorSup", T.OperatorPartial = "OperatorPartial", T.LParen = "LParen", T.RParen = "RParen", T.Paren = "Paren", T.Align = "Align", T.Split = "Split", T.None = "None", T))(f || {});
+var C = /* @__PURE__ */ new Map([["alpha", { type: "Const", tex: "\\alpha" }], ["beta", { type: "Const", tex: "\\beta" }], ["gamma", { type: "Const", tex: "\\gamma" }], ["Gamma", { type: "Const", tex: "\\Gamma" }], ["delta", { type: "Const", tex: "\\delta" }], ["Delta", { type: "Const", tex: "\\Delta" }], ["epsi", { type: "Const", tex: "\\varepsilon" }], ["epsilon", { type: "Const", tex: "\\epsilon" }], ["varepsilon", { type: "Const", tex: "\\varepsilon" }], ["zeta", { type: "Const", tex: "\\zeta" }], ["eta", { type: "Const", tex: "\\eta" }], ["theta", { type: "Const", tex: "\\theta" }], ["Theta", { type: "Const", tex: "\\Theta" }], ["vartheta", { type: "Const", tex: "\\vartheta" }], ["iota", { type: "Const", tex: "\\iota" }], ["kappa", { type: "Const", tex: "\\kappa" }], ["lambda", { type: "Const", tex: "\\lambda" }], ["Lambda", { type: "Const", tex: "\\Lambda" }], ["mu", { type: "Const", tex: "\\mu" }], ["nu", { type: "Const", tex: "\\nu" }], ["xi", { type: "Const", tex: "\\xi" }], ["Xi", { type: "Const", tex: "\\Xi" }], ["pi", { type: "Const", tex: "\\pi" }], ["Pi", { type: "Const", tex: "\\Pi" }], ["rho", { type: "Const", tex: "\\rho" }], ["sigma", { type: "Const", tex: "\\sigma" }], ["Sigma", { type: "Const", tex: "\\Sigma" }], ["tau", { type: "Const", tex: "\\tau" }], ["upsilon", { type: "Const", tex: "\\upsilon" }], ["phi", { type: "Const", tex: "\\phi" }], ["varphi", { type: "Const", tex: "\\varphi" }], ["varPhi", { type: "Const", tex: "\\varPhi" }], ["Phi", { type: "Const", tex: "\\Phi" }], ["chi", { type: "Const", tex: "\\chi" }], ["psi", { type: "Const", tex: "\\psi" }], ["Psi", { type: "Const", tex: "\\Psi" }], ["omega", { type: "Const", tex: "\\omega" }], ["Omega", { type: "Const", tex: "\\Omega" }], ["***", { type: "Const", tex: "\\star" }], ["star", { type: "Const", tex: "\\star" }], ["**", { type: "Const", tex: "\\ast" }], ["ast", { type: "Const", tex: "\\ast" }], ["*", { type: "Const", tex: "\\cdot" }], ["cdot", { type: "Const", tex: "\\cdot" }], ["//", { type: "Const", tex: "{/}" }], ["\\\\", { type: "Const", tex: "\\backslash" }], ["setminus", { type: "Const", tex: "\\setminus" }], ["xx", { type: "Const", tex: "\\times" }], ["|><", { type: "Const", tex: "\\ltimes" }], ["><|", { type: "Const", tex: "\\rtimes" }], ["|><|", { type: "Const", tex: "\\bowtie" }], ["-:", { type: "Const", tex: "\\div" }], ["@", { type: "Const", tex: "\\circ" }], ["o+", { type: "Const", tex: "\\oplus" }], ["ox", { type: "Const", tex: "\\otimes" }], ["o.", { type: "Const", tex: "\\odot" }], ["sum", { type: "Const", tex: "\\sum" }], ["prod", { type: "Const", tex: "\\prod" }], ["^^", { type: "Const", tex: "\\wedge" }], ["^^^", { type: "Const", tex: "\\bigwedge" }], ["vv", { type: "Const", tex: "\\vee" }], ["vvv", { type: "Const", tex: "\\bigvee" }], ["nn", { type: "Const", tex: "\\cap" }], ["nnn", { type: "Const", tex: "\\bigcap" }], ["uu", { type: "Const", tex: "\\cup" }], ["uuu", { type: "Const", tex: "\\bigcup" }], ["!=", { type: "Const", tex: "\\ne" }], ["lt", { type: "Const", tex: "<" }], ["<=", { type: "Const", tex: "\\leqslant" }], ["le", { type: "Const", tex: "\\le" }], ["gt", { type: "Const", tex: ">" }], [">=", { type: "Const", tex: "\\geqslant" }], ["ge", { type: "Const", tex: "\\ge" }], ["-<", { type: "Const", tex: "\\prec" }], [">-", { type: "Const", tex: "\\succ" }], ["-<=", { type: "Const", tex: "\\preceq" }], [">-=", { type: "Const", tex: "\\succeq" }], ["in", { type: "Const", tex: "\\in" }], ["!in", { type: "Const", tex: "\\notin" }], ["sub", { type: "Const", tex: "\\subset" }], ["sup", { type: "Const", tex: "\\supset" }], ["sube", { type: "Const", tex: "\\subseteq" }], ["supe", { type: "Const", tex: "\\supseteq" }], ["-=", { type: "Const", tex: "\\equiv" }], ["~=", { type: "Const", tex: "\\cong" }], ["~", { type: "Const", tex: "\\sim" }], ["~~", { type: "Const", tex: "\\approx" }], ["\\#", { type: "Const", tex: "\\#" }], ["\\&", { type: "Const", tex: "\\&" }], ["\\@", { type: "Const", tex: "@" }], ["\\%", { type: "Const", tex: "\\%" }], ["%", { type: "Const", tex: "\\%" }], ["\\_", { type: "Const", tex: "\\_" }], ["\\^", { type: "Const", tex: "\\^" }], ["\\$", { type: "Const", tex: "\\$" }], ["\\ ", { type: "Const", tex: "\\ " }], ["\\,", { type: "Const", tex: "\\," }], ["\\;", { type: "Const", tex: "\\;" }], ["\\:", { type: "Const", tex: "\\:" }], ["\\!", { type: "Const", tex: "\\!" }], ["enspace", { type: "Const", tex: "\\enspace" }], ["hspace", { type: "OperatorA", tex: "\\hspace{$1}", eatNext: true }], ["prop", { type: "Const", tex: "\\propto" }], ["comp", { type: "Const", tex: "\\complement" }], ["complement", { type: "Const", tex: "\\complement" }], ["if", { type: "Text", tex: "if\\quad" }], ["otherwise", { type: "Text", tex: "otherwise\\quad" }], ["and", { type: "Text", tex: " and " }], ["or", { type: "Text", tex: " or " }], ["not", { type: "Const", tex: "\\neg" }], ["=>", { type: "Const", tex: "\\implies" }], ["~>", { type: "Const", tex: "\\rightsquigarrow" }], ["-/->", { type: "Const", tex: "\\nrightarrow" }], ["<-/-", { type: "Const", tex: "\\nleftarrow" }], ["<-/->", { type: "Const", tex: "\\nleftrightarrow" }], ["<=>", { type: "Const", tex: "\\iff" }], ["iff", { type: "Const", tex: "\\iff" }], ["AA", { type: "Const", tex: "\\forall" }], ["EE", { type: "Const", tex: "\\exists" }], ["_|_", { type: "Const", tex: "\\bot" }], ["TT", { type: "Const", tex: "\\top" }], ["|--", { type: "Const", tex: "\\vdash" }], ["|==", { type: "Const", tex: "\\models" }], ["int", { type: "Const", tex: "\\int" }], ["oint", { type: "Const", tex: "\\oint" }], ["del", { type: "Const", tex: "\\partial" }], ["grad", { type: "Const", tex: "\\nabla" }], ["+-", { type: "Const", tex: "\\pm" }], ["-+", { type: "Const", tex: "\\mp" }], ["O/", { type: "Const", tex: "\\varnothing" }], ["oo", { type: "Const", tex: "\\infty" }], ["aleph", { type: "Const", tex: "\\aleph" }], ["...", { type: "Const", tex: "\\ldots" }], [":.", { type: "Const", tex: "\\therefore" }], [":'", { type: "Const", tex: "\\because" }], ["/_", { type: "Const", tex: "\\angle" }], ["/_\\", { type: "Const", tex: "\\triangle" }], ["quad", { type: "Const", tex: "\\quad" }], ["qquad", { type: "Const", tex: "\\qquad" }], ["cdots", { type: "Const", tex: "\\cdots" }], ["vdots", { type: "Const", tex: "\\vdots" }], ["ddots", { type: "Const", tex: "\\ddots" }], ["diamond", { type: "Const", tex: "\\diamond" }], ["Lap", { type: "Const", tex: "\\mathscr{L}" }], ["square", { type: "Const", tex: "\\square" }], ["|__", { type: "LParen", tex: "\\lfloor" }], ["__|", { type: "RParen", tex: "\\rfloor" }], ["|~", { type: "LParen", tex: "\\lceil" }], ["~|", { type: "RParen", tex: "\\rceil" }], ["CC", { type: "Const", tex: "\\mathbb{C}" }], ["NN", { type: "Const", tex: "\\mathbb{N}" }], ["QQ", { type: "Const", tex: "\\mathbb{Q}" }], ["RR", { type: "Const", tex: "\\mathbb{R}" }], ["ZZ", { type: "Const", tex: "\\mathbb{Z}" }], ["'", { type: "Const", tex: "^{\\prime}" }], ["''", { type: "Const", tex: "^{\\prime\\prime}" }], ["'''", { type: "Const", tex: "^{\\prime\\prime\\prime}" }], ["lim", { type: "Const", tex: "\\lim" }], ["sin", { type: "Const", tex: "\\sin" }], ["cos", { type: "Const", tex: "\\cos" }], ["tan", { type: "Const", tex: "\\tan" }], ["sinh", { type: "Const", tex: "\\sinh" }], ["cosh", { type: "Const", tex: "\\cosh" }], ["tanh", { type: "Const", tex: "\\tanh" }], ["cot", { type: "Const", tex: "\\cot" }], ["sec", { type: "Const", tex: "\\sec" }], ["csc", { type: "Const", tex: "\\csc" }], ["arcsin", { type: "Const", tex: "\\arcsin" }], ["arccos", { type: "Const", tex: "\\arccos" }], ["arctan", { type: "Const", tex: "\\arctan" }], ["coth", { type: "Const", tex: "\\coth" }], ["sech", { type: "Const", tex: "\\operatorname{sech}" }], ["csch", { type: "Const", tex: "\\operatorname{csch}" }], ["exp", { type: "Const", tex: "\\exp" }], ["log", { type: "Const", tex: "\\log" }], ["ln", { type: "Const", tex: "\\ln" }], ["det", { type: "Const", tex: "\\det" }], ["dim", { type: "Const", tex: "\\dim" }], ["gcd", { type: "Const", tex: "\\gcd" }], ["lcm", { type: "Const", tex: "\\operatorname{lcm}" }], ["min", { type: "Const", tex: "\\min" }], ["max", { type: "Const", tex: "\\max" }], ["Sup", { type: "Const", tex: "\\sup" }], ["inf", { type: "Const", tex: "\\inf" }], ["mod", { type: "Const", tex: "\\operatorname{mod}" }], ["sgn", { type: "Const", tex: "\\operatorname{sgn}" }], ["abs", { type: "OperatorA", tex: "\\left|$1\\right|" }], ["norm", { type: "OperatorA", tex: "\\left\\|$1\\right\\|" }], ["floor", { type: "OperatorA", tex: "\\left\\lfloor$1\\right\\rfloor" }], ["ceil", { type: "OperatorA", tex: "\\left\\lceil$1\\right\\rceil" }], ["uarr", { type: "Const", tex: "\\uparrow" }], ["uparrow", { type: "Const", tex: "\\uparrow" }], ["darr", { type: "Const", tex: "\\downarrow" }], ["downarrow", { type: "Const", tex: "\\downarrow" }], ["rarr", { type: "Const", tex: "\\rightarrow" }], ["rightarrow", { type: "Const", tex: "\\rightarrow" }], ["to", { type: "Const", tex: "\\to" }], ["->", { type: "Const", tex: "\\to" }], ["<-", { type: "Const", tex: "\\gets" }], [">->", { type: "Const", tex: "\\rightarrowtail" }], ["->>", { type: "Const", tex: "\\twoheadrightarrow" }], [">->>", { type: "Const", tex: "\u2916" }], ["|->", { type: "Const", tex: "\\mapsto" }], ["larr", { type: "Const", tex: "\\leftarrow" }], ["leftarrow", { type: "Const", tex: "\\leftarrow" }], ["harr", { type: "Const", tex: "\\leftrightarrow" }], ["rArr", { type: "Const", tex: "\\Rightarrow" }], ["lArr", { type: "Const", tex: "\\Leftarrow" }], ["hArr", { type: "Const", tex: "\\Leftrightarrow" }], ["curvArrLt", { type: "Const", tex: "\\curvearrowleft" }], ["curvArrRt", { type: "Const", tex: "\\curvearrowright" }], ["circArrLt", { type: "Const", tex: "\\circlearrowleft" }], ["circArrRt", { type: "Const", tex: "\\circlearrowright" }], ["sqrt", { type: "OperatorA", tex: "\\sqrt{ $1 }" }], ["root", { type: "OperatorOAB", tex: "\\sqrt[ $1 ]{ $2 }" }], ["frac", { type: "OperatorOAB", tex: "\\frac{ $1 }{ $2 }" }], ["/", { type: "OperatorAOB", tex: "\\frac{ $1 }{ $2 }" }], ["choose", { type: "OperatorAOB", tex: "{ $1 \\choose $2 }" }], ["_", { type: "OperatorSup", tex: "_{ $1 }" }], ["^", { type: "OperatorSup", tex: "^{ $1 }" }], ["stackrel", { type: "OperatorOAB", tex: "\\stackrel{ $1 }{ $2 }" }], ["overset", { type: "OperatorOAB", tex: "\\overset{ $1 }{ $2 }" }], ["underset", { type: "OperatorOAB", tex: "\\underset{ $1 }{ $2 }" }], ["hat", { type: "OperatorA", tex: "\\hat{ $1 }" }], ["\\`", { type: "OperatorA", tex: "\\`{ $1 }" }], ["widehat", { type: "OperatorA", tex: "\\widehat{ $1 }" }], ["Hat", { type: "OperatorA", tex: "\\widehat{ $1 }" }], ["widetilde", { type: "OperatorA", tex: "\\widetilde{ $1 }" }], ["ol", { type: "OperatorA", tex: "\\overline{ $1 }" }], ["overline", { type: "OperatorA", tex: "\\overline{ $1 }" }], ["arc", { type: "OperatorA", tex: "\\stackrel{\\frown}{ $1 }" }], ["bar", { type: "OperatorA", tex: "\\bar{ $1 }" }], ["vec", { type: "OperatorA", tex: "\\vec{ $1 }" }], ["Vec", { type: "OperatorA", tex: "\\overrightarrow{ $1 }" }], ["tilde", { type: "OperatorA", tex: "\\tilde{ $1 }" }], ["Tilde", { type: "OperatorA", tex: "\\widetilde{ $1 }" }], ["dot", { type: "OperatorA", tex: "\\dot{ $1 }" }], ["ddot", { type: "OperatorA", tex: "\\ddot{ $1 }" }], ["ul", { type: "OperatorA", tex: "\\underline{ $1 }" }], ["underline", { type: "OperatorA", tex: "\\underline{ $1 }" }], ["underbrace", { type: "OperatorA", tex: "\\underbrace{ $1 }" }], ["ubrace", { type: "OperatorA", tex: "\\underbrace{ $1 }" }], ["overbrace", { type: "OperatorA", tex: "\\overbrace{ $1 }" }], ["obrace", { type: "OperatorA", tex: "\\overbrace{ $1 }" }], ["color", { type: "OperatorOAB", tex: "{ \\color{$1} $2 }", eatNext: true }], ["phantom", { type: "OperatorA", tex: "\\phantom{$1}" }], ["text", { type: "OperatorA", tex: "\\text{$1}", eatNext: true }], ["tex", { type: "OperatorA", tex: "$1", eatNext: true }], ["mbox", { type: "OperatorA", tex: "\\mbox{$1}" }], ["op", { type: "OperatorA", tex: "\\operatorname{ $1 }", eatNext: true }], ["cancel", { type: "OperatorA", tex: "\\cancel{ $1 }" }], ["bb", { type: "OperatorA", tex: "\\mathbf{ $1 }" }], ["mathbf", { type: "OperatorA", tex: "\\mathbf{ $1 }" }], ["sf", { type: "OperatorA", tex: "\\mathsf{ $1 }" }], ["mathsf", { type: "OperatorA", tex: "\\mathsf{ $1 }" }], ["bbb", { type: "OperatorA", tex: "\\mathbb{ $1 }" }], ["mathbb", { type: "OperatorA", tex: "\\mathbb{ $1 }" }], ["cc", { type: "OperatorA", tex: "\\mathcal{ $1 }" }], ["mathcal", { type: "OperatorA", tex: "\\mathcal{ $1 }" }], ["tt", { type: "OperatorA", tex: "\\mathtt{ $1 }" }], ["mathtt", { type: "OperatorA", tex: "\\mathtt{ $1 }" }], ["fr", { type: "OperatorA", tex: "\\mathfrak{ $1 }" }], ["bm", { type: "OperatorA", tex: "\\boldsymbol{ $1 }" }], ["rm", { type: "OperatorA", tex: "\\mathrm{ $1 }" }], ["scr", { type: "OperatorA", tex: "\\mathscr{ $1 }" }], ["limits", { type: "OperatorA", tex: "\\mathop{ $1 }\\limits" }], ["iint", { type: "Const", tex: "\\iint" }], ["iiint", { type: "Const", tex: "\\iiint" }], ["oiint", { type: "Const", tex: "\u222F" }], ["oiiint", { type: "Const", tex: "\u2230" }], ["laplace", { type: "Const", tex: "\\Delta" }], ["==", { type: "OperatorOptionalTwoParams", tex: "\\xlongequal[ $2 ]{ $1 }" }], ["-->", { type: "OperatorOptionalTwoParams", tex: "\\xrightarrow[ $2 ]{ $1 }" }], ["||", { type: "Paren", tex: "\\Vert" }], ["!||", { type: "Const", tex: "\u2226" }], ["S=", { type: "Const", tex: "\u224C" }], ["S~", { type: "Const", tex: "\u223D" }], ["!-=", { type: "Const", tex: "\\not\\equiv" }], ["!|", { type: "Const", tex: "\u2224" }], ["!", { type: "OperatorAO", tex: "{$1 !}" }], ["!!", { type: "OperatorAO", tex: "{$1 !!}" }], ["!sube", { type: "Const", tex: "\\not\\subseteq" }], ["!supe", { type: "Const", tex: "\\not\\supseteq" }], ["subne", { type: "Const", tex: "\\subsetneqq" }], ["supne", { type: "Const", tex: "\\supsetneqq" }], ["lhd", { type: "Const", tex: "\\lhd" }], ["rhd", { type: "Const", tex: "\\rhd" }], ["normal", { type: "Const", tex: "\\unlhd" }], ["rnormal", { type: "Const", tex: "\\unrhd" }], ["hline", { type: "Const", tex: "\\hline" }], ["--", { type: "Const", tex: "\\hline" }], ["(", { type: "LParen", tex: "(" }], [")", { type: "RParen", tex: ")" }], ["[", { type: "LParen", tex: "[" }], ["]", { type: "RParen", tex: "]" }], ["{", { type: "LParen", tex: "\\lbrace" }], ["}", { type: "RParen", tex: "\\rbrace" }], ["(:", { type: "LParen", tex: "\\langle" }], [":)", { type: "RParen", tex: "\\rangle" }], ["{:", { type: "LParen", tex: "." }], [":}", { type: "RParen", tex: "." }], ["|", { type: "Paren", tex: "|" }], ["&", { type: "Align", tex: "&" }], ["&&", { type: "Align", tex: "&&" }], [",", { type: "Split", tex: "," }], [";", { type: "Split", tex: ";" }], ["-", { type: "OperatorMinus", tex: "{-$1 }" }], ["+", { type: "OperatorMinus", tex: "{+$1 }" }], ["part", { type: "OperatorPartial", tex: "\\partial" }], ["pp", { type: "OperatorPartial", tex: "\\partial" }], ["dd", { type: "OperatorPartial", tex: "\\mathrm{d}" }], ["tiny", { type: "OperatorA", tex: "{\\tiny $1 }" }], ["small", { type: "OperatorA", tex: "{\\small $1 }" }], ["large", { type: "OperatorA", tex: "{\\large $1 }" }], ["huge", { type: "OperatorA", tex: "{\\huge $1 }" }]]);
 function V() {
   return { type: "Root", body: [] };
 }
@@ -96,7 +96,7 @@ function d(o) {
 function v() {
   return { type: "Matrix", params: [], lparen: ".", rparen: ".", alignment: "c", dividerIndices: [] };
 }
-function f() {
+function m() {
   return { type: "ParamOne", tex: "", params: d() };
 }
 function c() {
@@ -246,7 +246,7 @@ function W(o, e, t) {
 function D(o, e, t, n) {
   let p;
   o.type === "Flat" ? p = o : (p = d(), p.body.push(o));
-  let s = f();
+  let s = m();
   s.tex = e.tex;
   let a = l(t, n, false);
   if (n = a.current, a.node.type === "Flat")
@@ -258,7 +258,7 @@ function D(o, e, t, n) {
   return s.params = a.node, p.body.push(s), o = p, { node: o, current: n };
 }
 function K(o, e) {
-  let t = f();
+  let t = m();
   return t.params = o, t.tex = e.tex, o = t, o;
 }
 function j(o, e, t, n) {
@@ -268,7 +268,7 @@ function j(o, e, t, n) {
   return n = s.current, s.node.type === "Flat" && (s.node = k(s.node)), p.params[1] = s.node, o = p, { node: o, current: n };
 }
 function $(o, e, t) {
-  let n = f(), p = o[e];
+  let n = m(), p = o[e];
   n.tex = p.tex, e++;
   let s = l(o, e, t);
   return e = s.current, s.node.type === "Flat" && (s.node = k(s.node)), n.params = s.node, { node: n, current: e };
@@ -287,7 +287,7 @@ function G(o, e) {
     return { node: i(t.value), current: e };
   let p = l(o, e, true);
   e = p.current;
-  let s = f();
+  let s = m();
   return s.tex = t.tex, s.params = p.node, { node: s, current: e };
 }
 function Q(o, e, t) {
@@ -656,7 +656,7 @@ function S(o = {}) {
 }
 function J(o) {
   var _a;
-  let e = { display: true, symbols: { dx: { type: "Const", tex: "{\\text{d}x}" }, dy: { type: "Const", tex: "{\\text{d}y}" }, dz: { type: "Const", tex: "{\\text{d}z}" }, dt: { type: "Const", tex: "{\\text{d}t}" }, "#": { type: "Const", tex: "\\displaystyle" }, choose: { type: "OperatorAOB", tex: "{ $1 \\choose $2 }" }, atop: { type: "OperatorAOB", tex: "{ $1 \\atop $2 }" } }, replaceBeforeTokenizing: [[/&#(x?[0-9a-fA-F]+);/g, (t, n) => String.fromCodePoint(n[0] === "x" ? `0${n}` : n)]] };
+  let e = { display: true, symbols: { dx: { type: "Const", tex: "{\\text{d}x}" }, dy: { type: "Const", tex: "{\\text{d}y}" }, dz: { type: "Const", tex: "{\\text{d}z}" }, dt: { type: "Const", tex: "{\\text{d}t}" }, "#": { type: "Const", tex: "\\displaystyle" }, atop: { type: "OperatorAOB", tex: "{ $1 \\atop $2 }" } }, replaceBeforeTokenizing: [[/&#(x?[0-9a-fA-F]+);/g, (t, n) => String.fromCodePoint(n[0] === "x" ? `0${n}` : n)]] };
   return typeof (o == null ? void 0 : o.display) < "u" && (e.display = o.display), (o == null ? void 0 : o.symbols) && (Array.isArray(o.symbols) ? o.symbols.forEach(([t, n]) => {
     e.symbols[t] = n;
   }) : e.symbols = { ...e.symbols, ...o.symbols }), ((_a = o == null ? void 0 : o.replaceBeforeTokenizing) == null ? void 0 : _a.length) && e.replaceBeforeTokenizing.push(...o.replaceBeforeTokenizing), e;
@@ -669,13 +669,13 @@ var _ = class {
     let { display: t, symbols: n, replaceBeforeTokenizing: p } = J(e);
     this.trie = S({ symbols: n }), this.display = t, this.replaceLaws = p;
   }
-  toTex(e) {
+  toTex(e, t) {
     try {
-      e = this.replaceLaws.reduce((n, p) => n.replaceAll(p[0], p[1]), e);
-      let t = h(P(this.trie.tryParsingAll(e)));
-      return this.display && (t = `\\displaystyle{ ${t} }`), t;
-    } catch (t) {
-      return `\\text{${String(t)}}`;
+      e = this.replaceLaws.reduce((p, s) => p.replaceAll(s[0], s[1]), e);
+      let n = h(P(this.trie.tryParsingAll(e)));
+      return typeof (t == null ? void 0 : t.display) > "u" ? this.display && (n = `\\displaystyle{ ${n} }`) : t.display && (n = `\\displaystyle{ ${n} }`), n;
+    } catch (n) {
+      return `\\text{${String(n)}}`;
     }
   }
 };
@@ -994,13 +994,12 @@ var symbols_default = [
   { am: "\\%", tex: "\\%" },
   { am: "%", tex: "\\%" },
   { am: "\\$", tex: "\\$" },
-  { am: "\\ ", tex: "\\ " },
   { am: "\\,", tex: "\\," },
   { am: "\\;", tex: "\\;" },
   { am: "\\:", tex: "\\:" },
   { am: "\\!", tex: "\\!" },
   { am: "enspace", tex: "a\\enspace b" },
-  { am: "hspace", tex: "\\hspace{12pt}", rendered: "a\\hspace{12pt} b" },
+  { am: "hspace", tex: "\\hspace{$1}", rendered: "a\\hspace{12pt}b", placeholder: "($1)", fill: ["12pt"] },
   { am: "prop", tex: "\\propto" },
   { am: "comp", tex: "\\complement" },
   { am: "complement", tex: "\\complement" },
@@ -1044,10 +1043,10 @@ var symbols_default = [
   { am: "diamond", tex: "\\diamond" },
   { am: "Lap", tex: "\\mathscr{L}" },
   { am: "square", tex: "\\square" },
-  { am: "|__", tex: "\\lfloor", rendered: "\\lfloor" },
-  { am: "__|", tex: "\\rfloor", rendered: "\\rfloor" },
-  { am: "|~", tex: "\\lceil", rendered: "\\lceil" },
-  { am: "~|", tex: "\\rceil", rendered: "\\rceil" },
+  { am: "|__", tex: "\\lfloor" },
+  { am: "__|", tex: "\\rfloor" },
+  { am: "|~", tex: "\\lceil" },
+  { am: "~|", tex: "\\rceil" },
   { am: "CC", tex: "\\mathbb{C}" },
   { am: "NN", tex: "\\mathbb{N}" },
   { am: "QQ", tex: "\\mathbb{Q}" },
@@ -1056,7 +1055,7 @@ var symbols_default = [
   { am: "'", tex: "^{\\prime}" },
   { am: "''", tex: "^{\\prime\\prime}" },
   { am: "'''", tex: "^{\\prime\\prime\\prime}" },
-  { am: "lim", tex: "\\lim" },
+  { am: "lim", tex: "\\lim_{$2} $1", placeholder: "_($2) $1", fill: ["f(x)", "x\\to 0"] },
   { am: "sin", tex: "\\sin" },
   { am: "cos", tex: "\\cos" },
   { am: "tan", tex: "\\tan" },
@@ -1085,10 +1084,10 @@ var symbols_default = [
   { am: "inf", tex: "\\inf" },
   { am: "mod", tex: "\\operatorname{mod}" },
   { am: "sgn", tex: "\\operatorname{sgn}" },
-  { am: "abs", tex: "\\left|a\\right|" },
-  { am: "norm", tex: "\\left\\|a\\right\\|" },
-  { am: "floor", tex: "\\left\\lfloor a\\right\\rfloor" },
-  { am: "ceil", tex: "\\left\\lceil a\\right\\rceil" },
+  { am: "abs", tex: "\\left| $1 \\right|", placeholder: "($1)", fill: ["a"] },
+  { am: "norm", tex: "\\left\\| $1 \\right\\|", placeholder: "($1)", fill: ["a"] },
+  { am: "floor", tex: "\\left\\lfloor $1 \\right\\rfloor", placeholder: "($1)", fill: ["a"] },
+  { am: "ceil", tex: "\\left\\lceil $1 \\right\\rceil", placeholder: "($1)", fill: ["a"] },
   { am: "uarr", tex: "\\uparrow" },
   { am: "uparrow", tex: "\\uparrow" },
   { am: "darr", tex: "\\downarrow" },
@@ -1112,66 +1111,66 @@ var symbols_default = [
   { am: "curvArrRt", tex: "\\curvearrowright" },
   { am: "circArrLt", tex: "\\circlearrowleft" },
   { am: "circArrRt", tex: "\\circlearrowright" },
-  { am: "sqrt", tex: "\\sqrt{ a }", rendered: "\\sqrt{ a }", placeholder: "(a)" },
-  { am: "root", tex: "\\sqrt[ a ]{ b }", rendered: "\\sqrt[ a ]{ b }", placeholder: "(a)(b)" },
-  { am: "frac", tex: "\\frac{ a }{ b }", rendered: "\\frac{ a }{ b }", placeholder: "(a)(b)" },
-  { am: "/", tex: "\\frac{ a }{ b }", rendered: "\\frac{ a }{ b }" },
-  { am: "choose", tex: "{ a \\choose b }", rendered: "{ a \\choose b }" },
-  { am: "_", tex: "_{ a }", rendered: "x_a", placeholder: "(a)" },
-  { am: "^", tex: "^{ a }", rendered: "x^a", placeholder: "(a)" },
-  { am: "stackrel", tex: "\\stackrel{ a }{ b }", rendered: "\\stackrel{ a }{ b }", placeholder: "(a)(b)" },
-  { am: "overset", tex: "\\overset{ a }{ b }", rendered: "\\overset{ a }{ b }", placeholder: "(a)(b)" },
-  { am: "underset", tex: "\\underset{ a }{ b }", rendered: "\\underset{ a }{ b }", placeholder: "(a)(b)" },
-  { am: "hat", tex: "\\hat{ a }", rendered: "\\hat{ a }" },
-  { am: "Hat", tex: "\\widehat{ a }", rendered: "\\widehat{ a }" },
-  { am: "ol", tex: "\\overline{ a }", rendered: "\\overline{ a }" },
-  { am: "overline", tex: "\\overline{ a }", rendered: "\\overline{ a }" },
-  { am: "arc", tex: "\\stackrel{\\frown}{ a }", rendered: "\\stackrel{\\frown}{ a }" },
-  { am: "bar", tex: "\\bar{ a }", rendered: "\\bar{ a }" },
-  { am: "vec", tex: "\\vec{ a }", rendered: "\\vec{ a }" },
-  { am: "Vec", tex: "\\overrightarrow{ a }", rendered: "\\overrightarrow{ a }" },
-  { am: "tilde", tex: "\\tilde{ a }", rendered: "\\tilde{ a }" },
-  { am: "Tilde", tex: "\\widetilde{ a }", rendered: "\\widetilde{ a }" },
-  { am: "dot", tex: "\\dot{ a }", rendered: "\\dot{ a }" },
-  { am: "ddot", tex: "\\ddot{ a }", rendered: "\\ddot{ a }" },
-  { am: "ul", tex: "\\underline{ a }", rendered: "\\underline{ a }" },
-  { am: "underline", tex: "\\underline{ a }", rendered: "\\underline{ a }" },
-  { am: "underbrace", tex: "\\underbrace{ a }", rendered: "\\underbrace{ a }" },
-  { am: "ubrace", tex: "\\underbrace{ a }", rendered: "\\underbrace{ a }" },
-  { am: "overbrace", tex: "\\overbrace{ a }", rendered: "\\overbrace{ a }" },
-  { am: "obrace", tex: "\\overbrace{ a }", rendered: "\\overbrace{ a }" },
-  { am: "color", tex: "{ \\color{a} b }", rendered: "{ \\color{a} b }", placeholder: "(a)(b)" },
-  { am: "phantom", tex: "\\phantom{a}", rendered: "\\phantom{a}" },
-  { am: "text", tex: "\\text{a}", rendered: "\\text{a}" },
-  { am: "tex", tex: "Embedded LaTeX", rendered: "a", placeholder: '"a"' },
-  { am: "mbox", tex: "\\mbox{a}", rendered: "\\mbox{a}" },
-  { am: "op", tex: "\\operatorname{ a }", rendered: "\\operatorname{ a }", placeholder: "(a)" },
-  { am: "cancel", tex: "\\cancel{ a }", rendered: "\\cancel{ a }" },
-  { am: "bb", tex: "\\mathbf{ A }" },
-  { am: "sf", tex: "\\mathsf{ A }" },
-  { am: "bbb", tex: "\\mathbb{ A }" },
-  { am: "cc", tex: "\\mathcal{ A }" },
-  { am: "tt", tex: "\\mathtt{ A }" },
-  { am: "fr", tex: "\\mathfrak{ A }" },
-  { am: "bm", tex: "\\boldsymbol{ A }" },
-  { am: "rm", tex: "\\mathrm{ A }" },
-  { am: "scr", tex: "\\mathscr{ A }" },
-  { am: "limits", tex: "\\mathop{ a }\\limits", rendered: "\\mathop{ a }\\limits_{n\\to\\infty}", placeholder: "(a)_(n->oo)" },
+  { am: "sqrt", tex: "\\sqrt{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "root", tex: "\\sqrt[ $1 ]{ $2 }", placeholder: "($1)($2)", fill: ["a", "b"] },
+  { am: "frac", tex: "\\frac{ $1 }{ $2 }", placeholder: "($1)($2)", fill: ["a", "b"] },
+  { am: "/", tex: "\\frac{ $1 }{ $2 }", placeholder: "($1)($2)", fill: ["a", "b"] },
+  { am: "choose", tex: "{ a \\choose b }" },
+  { am: "_", tex: "_{ $1 }", rendered: "x_{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "^", tex: "^{ $1 }", rendered: "x^{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "stackrel", tex: "\\stackrel{ $1 }{ $2 }", placeholder: "($1)($2)", fill: ["a", "b"] },
+  { am: "overset", tex: "\\overset{ $1 }{ $2 }", placeholder: "($1)($2)", fill: ["a", "b"] },
+  { am: "underset", tex: "\\underset{ $1 }{ $2 }", placeholder: "($1)($2)", fill: ["a", "b"] },
+  { am: "hat", tex: "\\hat{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "Hat", tex: "\\widehat{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "ol", tex: "\\overline{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "overline", tex: "\\overline{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "arc", tex: "\\stackrel{\\frown}{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "bar", tex: "\\bar{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "vec", tex: "\\vec{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "Vec", tex: "\\overrightarrow{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "tilde", tex: "\\tilde{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "Tilde", tex: "\\widetilde{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "dot", tex: "\\dot{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "ddot", tex: "\\ddot{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "ul", tex: "\\underline{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "underline", tex: "\\underline{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "underbrace", tex: "\\underbrace{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "ubrace", tex: "\\underbrace{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "overbrace", tex: "\\overbrace{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "obrace", tex: "\\overbrace{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "color", tex: "{ \\color{$2} $1 }", placeholder: "($2)($1)", fill: ["b", "red"] },
+  { am: "phantom", tex: "\\phantom{a}", placeholder: "($1)", fill: ["a"] },
+  { am: "text", tex: "\\text{$1}", rendered: "", placeholder: '"$1"', fill: ["a"] },
+  { am: "tex", tex: "$1", placeholder: '"$1"', fill: ["a"] },
+  { am: "mbox", tex: "\\mbox{a}", placeholder: "($1)", fill: ["a"] },
+  { am: "op", tex: "\\operatorname{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "cancel", tex: "\\cancel{ $1 }", placeholder: "($1)", fill: ["a"] },
+  { am: "bb", tex: "\\mathbf{$1}", placeholder: "($1)", fill: ["A"] },
+  { am: "sf", tex: "\\mathsf{$1}", placeholder: "($1)", fill: ["A"] },
+  { am: "bbb", tex: "\\mathbb{$1}", placeholder: "($1)", fill: ["A"] },
+  { am: "cc", tex: "\\mathcal{$1}", placeholder: "($1)", fill: ["A"] },
+  { am: "tt", tex: "\\mathtt{$1}", placeholder: "($1)", fill: ["A"] },
+  { am: "fr", tex: "\\mathfrak{$1}", placeholder: "($1)", fill: ["A"] },
+  { am: "bm", tex: "\\boldsymbol{$1}", placeholder: "($1)", fill: ["A"] },
+  { am: "rm", tex: "\\mathrm{$1}", placeholder: "($1)", fill: ["A"] },
+  { am: "scr", tex: "\\mathscr{$1}", placeholder: "($1)", fill: ["A"] },
+  { am: "limits", tex: "\\mathop{ $1 }\\limits", rendered: "\\mathop{ $1 }\\limits_{k=1}^n", placeholder: "($1)_($2)^($3)", fill: ["a", "k=1", "n"] },
   { am: "iint", tex: "\\iint" },
   { am: "iiint", tex: "\\iiint" },
   { am: "oiint", tex: "\u222F" },
   { am: "oiiint", tex: "\u2230" },
   { am: "laplace", tex: "\\Delta" },
-  { am: "==", tex: "\\xlongequal[ b ]{ a }", rendered: "\\xlongequal[ b ]{ a }", placeholder: "^(a)_(b)" },
-  { am: "-->", tex: "\\xrightarrow[ b ]{ a }", rendered: "\\xrightarrow[ b ]{ a }", placeholder: "^(a)_(b)" },
+  { am: "==", tex: "\\xlongequal[ $2 ]{ $1 }", placeholder: "^($1)_($2)", fill: ["a", "b"] },
+  { am: "-->", tex: "\\xrightarrow[ $2 ]{ $1 }", placeholder: "^($1)_($2)", fill: ["a", "b"] },
   { am: "||", tex: "\\Vert", rendered: "\\Vert" },
   { am: "!||", tex: "\u2226" },
   { am: "S=", tex: "\u224C" },
   { am: "S~", tex: "\u223D" },
   { am: "!-=", tex: "\\not\\equiv" },
   { am: "!|", tex: "\u2224" },
-  { am: "!", tex: "{a !}", rendered: "{a !}" },
-  { am: "!!", tex: "{a !!}", rendered: "{a !!}" },
+  { am: "!", tex: "{a !}" },
+  { am: "!!", tex: "{a !!}" },
   { am: "!sube", tex: "\\not\\subseteq" },
   { am: "!supe", tex: "\\not\\supseteq" },
   { am: "subne", tex: "\\subsetneqq" },
@@ -1180,8 +1179,6 @@ var symbols_default = [
   { am: "rhd", tex: "\\rhd" },
   { am: "normal", tex: "\\unlhd" },
   { am: "rnormal", tex: "\\unrhd" },
-  { am: "hline", tex: "\\hline", rendered: "" },
-  { am: "--", tex: "\\hline", rendered: "" },
   { am: "(", tex: "(" },
   { am: ")", tex: ")" },
   { am: "[", tex: "[" },
@@ -1192,48 +1189,77 @@ var symbols_default = [
   { am: ":)", tex: "\\rangle" },
   { am: "{:", tex: "{", rendered: "" },
   { am: ":}", tex: "}", rendered: "" },
-  { am: "|", tex: "|", rendered: "|" },
-  { am: "&", tex: "&", rendered: "&" },
-  { am: "&&", tex: "&&", rendered: "&&" },
-  { am: ",", tex: ",", rendered: "," },
-  { am: ";", tex: ";", rendered: ";" },
-  { am: "-", tex: "{-a }", rendered: "{-a }" },
-  { am: "+", tex: "{+a }", rendered: "{+a }" },
-  { am: "pp", tex: "\\frac{ \\partial ^ n {f} }{ \\partial {b} ^ x }", rendered: "\\frac{ \\partial ^ n {f} }{ \\partial x ^ n }", placeholder: "(^n) (f)(x)" },
-  { am: "dd", tex: "\\frac{ \\mathrm{d} ^ n {f} }{ \\mathrm{d} x ^ n }", rendered: "\\frac{ \\mathrm{d} ^ n {f} }{ \\mathrm{d} x ^ n }", placeholder: "(^n) (f)(x)" },
-  { am: "tiny", tex: "{\\tiny a }", rendered: "{\\tiny \\text{text} }" },
-  { am: "small", tex: "{\\small a }", rendered: "{\\small \\text{text} }" },
-  { am: "large", tex: "{\\large a }", rendered: "{\\large \\text{text} }" },
-  { am: "huge", tex: "{\\huge a }", rendered: "{\\huge \\text{text} }" }
+  { am: "|", tex: "|" },
+  { am: "&", tex: "&" },
+  { am: "&&", tex: "&&" },
+  { am: ",", tex: "," },
+  { am: ";", tex: ";" },
+  { am: "pp", tex: "\\frac{ \\partial ^ $3 { $1 } }{ \\partial $2 ^ $3 }", placeholder: "^$3 ($1)($2)", fill: ["f", "x", "n"] },
+  { am: "dd", tex: "\\frac{ \\mathrm{d} ^ $3 { $1 } }{ \\mathrm{d} $2 ^ $3 }", placeholder: "^$3 ($1)($2)", fill: ["f", "x", "n"] },
+  { am: "tiny", tex: "{\\tiny $1 }", placeholder: "($1)", fill: ["\\text{text}"] },
+  { am: "small", tex: "{\\small $1 }", placeholder: "($1)", fill: ["\\text{text}"] },
+  { am: "large", tex: "{\\large $1 }", placeholder: "($1)", fill: ["\\text{text}"] },
+  { am: "huge", tex: "{\\huge $1 }", placeholder: "($1)", fill: ["\\text{text}"] }
 ];
 
 // src/symbol-search/modal.ts
 var SymbolSearchModal = class extends import_obsidian4.SuggestModal {
+  constructor(app2, sel, am) {
+    super(app2);
+    this.sel = sel;
+    this.am = am;
+    this.renderCount = 0;
+    this.renderMax = 0;
+  }
   getSuggestions(query) {
     query = query.toLowerCase();
-    return symbols_default.filter((sym) => [sym.am, sym.tex].some((v2) => v2.toLocaleLowerCase().includes(query)));
+    const suggestions = symbols_default.filter((sym) => [sym.am, sym.tex].some((v2) => v2.toLocaleLowerCase().includes(query)));
+    this.renderCount = 0;
+    this.renderMax = Math.min(suggestions.length, 100);
+    return suggestions;
   }
-  renderSuggestion({ am, tex, rendered, placeholder }, el) {
+  renderSuggestion(sym, el) {
+    this.renderCount++;
+    let { am, tex, rendered } = sym;
     el.classList.add("__asciimath-symbol-search-result");
     const text = el.createDiv();
     const amLine = text.createDiv();
     amLine.createSpan({ text: am });
-    placeholder && amLine.createSpan({ text: ` ${placeholder}`, cls: "__asciimath-symbol-search-placeholder" });
+    let toBeRendered = typeof rendered !== "undefined" ? rendered : tex;
+    if ("placeholder" in sym) {
+      const { placeholder, fill } = sym;
+      let template = placeholder;
+      if (this.sel) {
+        const selToTex = am === "tex" || am === "text" ? this.sel : this.am.toTex(this.sel, { display: false });
+        template = template.replace("$1", this.sel);
+        tex = tex.replace("$1", selToTex);
+        toBeRendered = toBeRendered.replace("$1", selToTex);
+      }
+      fill.forEach((x, i2) => {
+        template = template.replace(`$${i2 + 1}`, x);
+        toBeRendered = toBeRendered.replaceAll(`$${i2 + 1}`, x);
+        tex = tex.replaceAll(`$${i2 + 1}`, x);
+      });
+      amLine.createSpan({ text: ` ${template}`, cls: "__asciimath-symbol-search-placeholder" });
+    }
     text.createEl("small", { text: `LaTeX alternative: ${tex}` });
     el.createDiv("__asciimath-symbol-search-preview math", (el2) => {
+      if (am === "tex")
+        toBeRendered = `tex"${toBeRendered}"`;
       el2.innerHTML = `
         <mjx-container class="MathJax" jax="CHTML">
-        ${(0, import_obsidian4.renderMath)(typeof rendered !== "undefined" ? rendered : tex, false).innerHTML}
+        ${(0, import_obsidian4.renderMath)(toBeRendered, true).innerHTML}
         </mjx-container>
       `;
-      (0, import_obsidian4.finishRenderMath)();
+      if (this.renderCount >= this.renderMax)
+        (0, import_obsidian4.finishRenderMath)();
     });
   }
   onSelected(cb) {
     this.callback = cb;
   }
   onChooseSuggestion(sym) {
-    this.callback(sym.am);
+    this.callback(sym);
   }
 };
 
@@ -1260,7 +1286,7 @@ var AsciiMathPlugin = class extends import_obsidian5.Plugin {
   }
   calcSymbols() {
     return this.settings.customSymbols.map(([k2, v2]) => {
-      return [k2, { type: m.Const, tex: v2 }];
+      return [k2, { type: f.Const, tex: v2 }];
     });
   }
   onunload() {
@@ -1379,14 +1405,7 @@ ${editor.getDoc().getSelection()}
       id: "asciimath-insert-symbol",
       icon: "sigma",
       name: "Insert AsciiMath symbol",
-      editorCallback: (editor) => {
-        const modal = new SymbolSearchModal(this.app);
-        modal.setPlaceholder("Start typing AsciiMath or LaTeX symbol name");
-        modal.onSelected((sym) => {
-          editor.replaceSelection(sym);
-        });
-        modal.open();
-      }
+      editorCallback: this.modalCallback()
     });
     this.postProcessors = /* @__PURE__ */ new Map();
     this.app.workspace.onLayoutReady(async () => {
@@ -1400,6 +1419,46 @@ ${editor.getDoc().getSelection()}
     this.setupMathBlockRendering();
     this.addSettingTab(new AsciiMathSettingTab(this.app, this));
     console.log("Obsidian asciimath loaded");
+  }
+  modalCallback() {
+    return (editor) => {
+      const sel = editor.getSelection();
+      const modal = new SymbolSearchModal(this.app, sel, this.AM);
+      modal.setPlaceholder("Start typing AsciiMath or LaTeX symbol name");
+      modal.onSelected((sym) => {
+        var _a;
+        const { am } = sym;
+        if ("placeholder" in sym) {
+          const { placeholder, fill } = sym;
+          let tempExceptFirst = placeholder;
+          for (let i2 = 2; i2 <= fill.length; i2++)
+            tempExceptFirst = tempExceptFirst.replace(`$${i2}`, "");
+          const temp = tempExceptFirst.replace("$1", "");
+          if (!sel) {
+            const cur = editor.getCursor();
+            const placeholder_a_pos = placeholder.indexOf("$1");
+            const spacesBefore$1 = ((_a = placeholder.substring(0, placeholder_a_pos).match(/(\$\d+?)/g)) == null ? void 0 : _a.join("").length) || 0;
+            editor.replaceSelection(am + temp);
+            editor.setCursor({ line: cur.line, ch: cur.ch + am.length + placeholder_a_pos - spacesBefore$1 });
+          } else {
+            const placeholder_b_pos = placeholder.indexOf("$2");
+            const cur = editor.getCursor("to");
+            editor.replaceSelection(am + tempExceptFirst.replace("$1", sel));
+            if (placeholder_b_pos !== -1) {
+              const $before$2 = placeholder.substring(0, placeholder_b_pos).match(/(\$\d+?)/g);
+              const $spacesBefore$2 = ($before$2 == null ? void 0 : $before$2.join("").length) || 0;
+              const $2before$1 = !$before$2 || !$before$2.includes("$1") ? sel.length : 0;
+              editor.setCursor({ line: cur.line, ch: cur.ch + am.length + placeholder_b_pos - $spacesBefore$2 - $2before$1 });
+            } else {
+              editor.setCursor({ line: cur.line, ch: cur.ch + am.length + placeholder.length - 2 });
+            }
+          }
+        } else {
+          editor.replaceSelection(am);
+        }
+      });
+      modal.open();
+    };
   }
   actionConvertActiveFile(target, message) {
     return async () => new ConfirmModal(this.app).setMessage(message).onConfirm(async () => {

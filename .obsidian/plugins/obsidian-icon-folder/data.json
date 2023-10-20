@@ -15,17 +15,17 @@
     "recentlyUsedIconsSize": 5,
     "rules": [
       {
+        "rule": ".* ▹ 📋 Table of Contents",
+        "icon": "RiListOrdered2",
+        "for": "files",
+        "order": 0,
+        "useFilePath": true
+      },
+      {
         "rule": "zotero\\/.*",
         "icon": "EiZoteroItem",
         "for": "files",
         "order": 1,
-        "useFilePath": true
-      },
-      {
-        "rule": ".* ▹ 📋 Table of Contents",
-        "icon": "LiListOrdered",
-        "for": "files",
-        "order": 0,
         "useFilePath": true
       },
       {
@@ -669,6 +669,13 @@
         "icon": "LiPencilRuler",
         "for": "files",
         "order": 95,
+        "useFilePath": true
+      },
+      {
+        "rule": ".* ▹ 📋 Table of Contents",
+        "icon": "RiListOrdered2",
+        "for": "files",
+        "order": 96,
         "useFilePath": true
       }
     ],

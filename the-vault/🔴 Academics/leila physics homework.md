@@ -1,6 +1,6 @@
 ---
 created: 2023-10-18T00:20
-updated: 2023-10-19T13:57
+updated: 2023-10-19T21:52
 cards-deck: Default
 ---
 
@@ -13,7 +13,8 @@ A cable holds a $1130\:\text{kg}$ car in place on a ramp. The cable makes an ang
 
 `\begin{proof}[**Solution for (a)**]`
 <br>
-![problem-2.excalidraw|350](the-vault/assets/excalidraw/problem-2.excalidraw.svg)
+![problem-2.excalidraw.light|400](the-vault/assets/excalidraw/problem-2.excalidraw.light.svg)
+
 
 `\end{proof}`
 

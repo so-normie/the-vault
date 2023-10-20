@@ -5,6 +5,30 @@
       "path": "the-vault/🔴 Academics/leila physics homework.md"
     },
     {
+      "basename": "Drawing 2023-10-19 21.48.10.excalidraw",
+      "path": "the-vault/assets/excalidraw/Drawing 2023-10-19 21.48.10.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2023-10-19 21.48.13.excalidraw",
+      "path": "the-vault/assets/excalidraw/Drawing 2023-10-19 21.48.13.excalidraw.md"
+    },
+    {
+      "basename": "problem-2.excalidraw",
+      "path": "the-vault/assets/excalidraw/problem-2.excalidraw.md"
+    },
+    {
+      "basename": "problem-2.excalidraw.dark",
+      "path": "the-vault/assets/excalidraw/problem-2.excalidraw.dark.svg"
+    },
+    {
+      "basename": "problem-2.excalidraw.light",
+      "path": "the-vault/assets/excalidraw/problem-2.excalidraw.light.svg"
+    },
+    {
+      "basename": "problem-2.excalidraw.light",
+      "path": "the-vault/assets/excalidraw/problem-2.excalidraw.light.png"
+    },
+    {
       "basename": "physics-img",
       "path": "the-vault/assets/images/physics-img.png"
     },
@@ -31,18 +55,6 @@
     {
       "basename": "Mechanical Physics",
       "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Physics/Mechanical Physics.md"
-    },
-    {
-      "basename": "problem-2.excalidraw",
-      "path": "the-vault/assets/excalidraw/problem-2.excalidraw.png"
-    },
-    {
-      "basename": "problem-2.excalidraw",
-      "path": "the-vault/assets/excalidraw/problem-2.excalidraw.md"
-    },
-    {
-      "basename": "problem-2.excalidraw",
-      "path": "the-vault/assets/excalidraw/problem-2.excalidraw.svg"
     },
     {
       "basename": "LaTeX",
@@ -187,14 +199,6 @@
     {
       "basename": "Template (Note Template ∋ {{Folder Name}} ▹ 📋 Table of Contents)",
       "path": "the-vault/templates/Template (Note Template ∋ {{Folder Name}} ▹ 📋 Table of Contents).md"
-    },
-    {
-      "basename": "Preface",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/📕 Foundations of Scalable Systems (2022)/Preface.md"
-    },
-    {
-      "basename": "🗒️ Visual Studio ▹ 📋 Table of Contents",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Visual Studio/🗒️ Visual Studio ▹ 📋 Table of Contents.md"
     }
   ],
   "omittedPaths": [],

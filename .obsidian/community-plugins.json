@@ -41,7 +41,6 @@
   "obsidian-outliner",
   "obsidian-timestamp-notes",
   "templater-obsidian",
-  "obsidian-git",
   "update-time-on-edit",
   "creases",
   "obsidian-hover-editor",
@@ -62,5 +61,6 @@
   "obsidian-pretty-bibtex",
   "obsidian-banners",
   "obsidian-excalidraw-plugin",
-  "obsidian-front-matter-title-plugin"
+  "obsidian-front-matter-title-plugin",
+  "obsidian-git"
 ]
