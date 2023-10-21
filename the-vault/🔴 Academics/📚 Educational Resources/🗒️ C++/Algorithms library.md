@@ -1,7 +1,7 @@
 ---
 title: Algorithms library
 created: 2023-09-28 14:16
-updated: 2023-10-20T08:59
+updated: 2023-10-21T12:38
 authors:
   - Edmund Leibert III
 tags:

@@ -1,11 +1,8 @@
 ---
 created: 2023-09-14 10:18
-<<<<<<< HEAD
-updated: 2023-09-28 14:16
-=======
-updated: 2023-09-18 18:04
->>>>>>> eb0cb116bf466b813753bf1c96d7b2d13d532edc
+updated: 2023-10-21T13:21
 ---
+
 Dynamic resource allocation in Apache Spark is a feature that allows the Spark cluster to adjust the allocation of computing resources (CPU and memory) to running Spark applications based on their actual resource needs. This feature is particularly useful in multi-tenant environments or when running multiple Spark applications on the same cluster, as it helps optimize resource utilization and improve overall cluster efficiency.
 
 Here's how dynamic resource allocation works in Spark:

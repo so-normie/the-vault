@@ -5,7 +5,7 @@ tags:
   - data-garage/project-1
 cards-deck: Default::Computer Science
 created: 2023-09-02 09:11
-updated: 2023-09-02 15:28
+updated: 2023-10-21T12:38
 ---
 
 # Data Garage꞉ Project #1

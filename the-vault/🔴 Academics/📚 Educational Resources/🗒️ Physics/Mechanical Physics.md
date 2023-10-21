@@ -1,7 +1,7 @@
 ---
 title: Mechanical Physics
 created: 2023-09-03 08:46
-updated: 2023-10-20T08:59
+updated: 2023-10-21T13:22
 authors:
   - Edmund Leibert III
 tags:

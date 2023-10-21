@@ -8,7 +8,7 @@ tags:
   - study-note
 cards-deck: Default::Computer Science
 created: 2023-10-07 15:19
-updated: 2023-10-07 15:19
+updated: 2023-10-21T12:38
 ---
 
 How long should I take for each type of coding problem? 

@@ -1,7 +1,7 @@
 ---
 title: Project Structure
 created: 2023-09-03 08:46
-updated: 2023-10-20T08:59
+updated: 2023-10-21T12:38
 authors:
   - Edmund Leibert III
 tags:
@@ -17,17 +17,14 @@ cards-deck: 🔴 Academics::📚 Educational Resources::🗒️Visual Studio::Pr
 
 ---
 
-> [!Abstract]+ Abstract
+> [!ABSTRACT]+ 
+> Abstract
 > 
 
 ---
 
- > [!Info]+ 🕸️ All Mention(s): 
- > 
-
----
-
- > [!Info]+ 🔙️ Previous Note(s): 
+ > [!INFO]+ 
+ > Previous Note(s): 
  > 
  
 ---
@@ -105,7 +102,8 @@ So in essence, a solution is like a bookshelf (container), while a project is li
 
 ---
 
-> [!Info]+ 🔜 Next Note(s):
+> [!INFO]+
+> Next Note(s):
 > 
 
 ---

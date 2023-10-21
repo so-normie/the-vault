@@ -1,8 +1,0 @@
----
-tags: [🔴-academics/📚-educational-resources/name/more-modern-cmake, 🔴-academics/📚-educational-resources/discipline/computer-science/technology/cmake, study-note] 
-cards-deck: Default::Computer Science
----
-
-# More Modern CMake
-
-## Set up

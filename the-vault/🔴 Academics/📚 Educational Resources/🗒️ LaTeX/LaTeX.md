@@ -1,7 +1,7 @@
 ---
 title: LaTeX
 created: 2023-08-04 01:58
-updated: 2023-10-20T08:59
+updated: 2023-10-21T12:38
 authors:
   - Edmund Leibert III
 tags:

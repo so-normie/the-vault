@@ -6,7 +6,7 @@ tags:
 cards-deck: Default::Computer Science
 version: v0.1
 created: 2023-10-07 15:19
-updated: 2023-10-17T19:15
+updated: 2023-10-21T12:38
 ---
 # Project “AutodidactPlanner”
 
