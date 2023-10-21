@@ -8,7 +8,7 @@ tags:
   - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/sql
   - study-note
 cards-deck: Default::Computer Science
-updated: 2023-10-21T12:38
+updated: 2023-10-21T14:52
 ---
 
 # 📕 Learning SQL, 3rd Edition (2020)
@@ -53,6 +53,6 @@ This book also covers how to retrieve data from nonrelational databases.
 ---
 
 ## 🔜 Next Note(s):
-- [[the-vault/🔴 Academics/📚 Educational Resources/Learning SQL, 3rd Edition (2020)/Chapter 1. A Little Background]]
+- [[the-vault/🔴 Academics/📚 Educational Resources/Learning SQL, 3rd Edition/Chapter 1. A Little Background]]
 
 ---
