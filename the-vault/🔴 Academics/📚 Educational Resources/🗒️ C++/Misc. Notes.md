@@ -1,7 +1,7 @@
 ---
 title: Misc. Notes
 created: 2023-09-03 08:46
-updated: 2023-10-24T01:49
+updated: 2023-10-25T09:46
 authors:
   - Edmund Leibert III
 tags:
@@ -1648,6 +1648,27 @@ public:
 
 ⌂
 <br>﹈<br>^1694836978489
+
+﹇<br>
+Does `std::multiset` have a `.push()` method? 
+
+#card 
+
+No, it does not have a `.push()` method.
+
+⌂
+<br>﹈<br>
+
+﹇<br>
+Does `std::multiset` have a `.remove()`  method?
+
+#card 
+
+No, it does not have a `.remove()` method. 
+
+⌂
+<br>﹈<br>
+
 
 
 ---

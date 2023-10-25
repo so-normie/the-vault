@@ -6,6 +6,13 @@
 .obsidian/plugins/surfing/data.json
 .obsidian/workspace.json
 
+
+# Ignore all plugins in the .obsidian/plugins directory
+.obsidian/plugins/*
+
+# Don't ignore the icons folder in the .obsidian/plugins directory
+!.obsidian/plugins/icons
+
 # Ignore everything in the following directories
 # 🔴 Academics/📚 Educational Resources/*
 # But don't ignore the following files and subfolders in those directories

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Misc. Notes",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ C++/Misc. Notes.md"
+    },
+    {
       "basename": "28. Find the Index of the First Occurrence in a String",
       "path": "the-vault/🔴 Academics/📚 Educational Resources/LeetCode/Problems/28. Find the Index of the First Occurrence in a String.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Dynamic Resource Allocation",
       "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Dynamic Resource Allocation.md"
-    },
-    {
-      "basename": "Custom CSS",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Discord/Custom CSS.md"
     }
   ],
   "omittedPaths": [],
