@@ -1,0 +1,8 @@
+/* .callout-title-inner {
+    align-items: end;
+    display: inline-flex;
+} */
+
+body {
+    --p-spacing: 0.75rem;
+}

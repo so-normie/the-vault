@@ -1,0 +1,278 @@
+---
+title: Structy ▹ Table of Contents
+created: 2023-09-03 08:46
+updated: 2023-10-24T01:49
+authors:
+  - Edmund Leibert III
+tags:
+  - 🔴-academics/📚-educational-resources/name/structy/structy-▹-table-of-contents
+  - 🔴-academics/📚-educational-resources/source-format/course
+  - 🔴-academics/📚-educational-resources/discipline/computer-science
+  - study-note
+cards-deck: 🔴 Academics::📚 Educational Resources::Structy::Structy ▹ Table of Contents
+---
+
+# :Ei_structy: Structy ▹ Table of Contents 
+
+---
+
+> [!abstract]+ Abstract 
+> These [Structy | Learn Algorithms, Efficiently.](https://www.structy.net/) course notes are a comprehensive resource that delve into the intricacies of data structures and algorithms, with a focus on the nuances of different programming languages. These provide not just solutions, but also discuss edge cases, enhancing understanding of how problems can be solved in various scenarios. 
+> 
+> These notes are structured in a Q&A format, making it easy to follow and learn. Additionally, corresponding Anki flashcards are available, enabling efficient revision and reinforcement of the concepts.
+
+---
+
+> [!INFO]+
+> Previous Note(s):
+> 
+
+---
+
+> [!INFO]+
+> The course itself can be found here: [Structy | Learn Algorithms, Efficiently.](https://www.structy.net/)
+
+> [!INFO]+
+> Key for what emojis in the names of notes represent…
+> - 👨🏻‍🏫 = lecture
+> - 👨🏽‍💻 = challenge
+> - 📝 = quiz
+
+> [!INFO]+
+> The GitHub repository of my (Edmund Leibert III’s) solutions for this course can be found here…
+> - :Si_cplusplus: **C++**: [edmund-leibert/structy-course (github.com)](https://github.com/edmund-leibert/structy-course)
+> - :Si_python: **Python**:
+> - :Si_javascript: **JavaScript**:
+> - :Fab_java: **Java**:
+
+﹇<br>
+What is the website **Structy**?
+
+#card
+
+[Structy is a platform designed to help software engineers master data structures and algorithms efficiently](https://www.structy.net/) [@zabianStructyLearnData2023]. [It provides a guided course that builds your algorithm knowledge gradually](https://www.structy.net/). [The platform emphasizes understanding of the concepts, which empowers you to solve problems](https://www.structy.net/) [@zabianStructyLearnData2023].
+
+[Structy is organized in a way that makes it incredibly efficient and intuitive to learn the patterns needed to solve interview problems](https://www.structy.net/) [@zabianStructyLearnData2023]. [It offers a strong sense of progression through all the topics required for technical interviews](https://www.structy.net/) [@zabianStructyLearnData2023].
+
+The platform is trusted by thousands of software engineers for interview preparation. [Many users have successfully passed their interviews and received offers from top companies after studying with Structy](https://www.structy.net/) [@zabianStructyLearnData2023]. [@microsoftcorporationCanYouPlease2023]
+
+⌂
+<br>﹈<br>^1696037036801
+
+## Table of Contents
+
+```dataviewjs
+// Generate a nested object from a list of file paths
+function buildFileTree(files) {
+  const root = {};
+  
+  for (const file of files) {
+    let node = root;
+    const parts = file.file.path.split('/');
+    
+    for (const part of parts) {
+      if (!node[part]) {
+        node[part] = {};
+      }
+      node = node[part];
+    }
+
+    node['metadata'] = file;
+  }
+  
+  return root;
+}
+
+// Generate the table of contents recursively from the file tree
+function generateTOC(node, indentLevel = 0) {
+  let toc = '';
+  const indent = ' '.repeat(indentLevel * 2);
+
+  for (const [key, value] of Object.entries(node)) {
+    if (key === 'metadata') {
+      const file = value;
+      toc += `${indent}- ${file.file.link}\n`;
+    } else {
+      // Check if the current node is a leaf node
+      if (value.hasOwnProperty('metadata')) {
+        const file = value.metadata;
+        toc += `${indent}- ${file.file.link}\n`;
+      } else {
+        toc += `${indent}- ${key}\n`;
+        toc += generateTOC(value, indentLevel + 1);
+      }
+    }
+  }
+
+  return toc;
+}
+
+
+function parseTOC(tocParagraph) {
+  // Split the paragraph by lines
+  const lines = tocParagraph.split('\n');
+
+  // Initialize an empty list to store the parsed entries
+  const parsedList = [];
+
+  // Loop through each line to parse it
+  for (const line of lines) {
+    // Ignore empty lines
+    if (line.trim() === '') continue;
+
+    // Calculate the indent level based on leading spaces (assuming 2 spaces per level)
+    const indentLevel = line.search(/\S|$/) / 2;
+
+    // Extract the actual content by trimming the leading spaces
+    const content = line.trim();
+
+    // Add the parsed entry to the list
+    parsedList.push({
+      content: content,
+      indentLevel: indentLevel,
+    });
+  }
+
+  return parsedList;
+}
+
+function moveTableOfContentsToTop(inputString) {
+    const lines = inputString.trim().split('\n');
+    const stack = [];
+    let root = [];
+
+    lines.forEach(line => {
+        const indent = line.search(/\S|$/);
+
+        while (stack.length > 0 && stack[stack.length - 1].indent >= indent) {
+            stack.pop();
+        }
+
+        const node = {
+            line: line,
+            indent: indent,
+            children: []
+        };
+
+        if (stack.length === 0) {
+            root.push(node);
+        } else {
+            stack[stack.length - 1].children.push(node);
+        }
+
+        stack.push(node);
+    });
+
+    function sortNodes(nodes) {
+        nodes.forEach(node => {
+            node.children.sort((a, b) => {
+                const hasTableOfContentsA = a.line.includes('▹ Table of Contents');
+                const hasTableOfContentsB = b.line.includes('▹ Table of Contents');
+                return hasTableOfContentsB - hasTableOfContentsA;
+            });
+
+            if (node.children.length > 0) {
+                sortNodes(node.children);
+            }
+        });
+    }
+
+    function flattenNodes(nodes, result = []) {
+        nodes.forEach(node => {
+            result.push(node.line);
+            if (node.children.length > 0) {
+                flattenNodes(node.children, result);
+            }
+        });
+        return result;
+    }
+
+    sortNodes(root);
+    return flattenNodes(root).join('\n');
+}
+
+
+function trimTOC(toc, current_path) {
+  const lines = toc.split("\n");
+  let trimmedTOC = [];
+
+  // Split the current_path into components
+  const pathComponents = current_path.split("/");
+
+  // Initialize variables to keep track of the current depth and match
+  let currentDepth = -1;
+  let currentMatchIndex = 0;
+  let shouldStartTrimming = false;
+
+  // Iterate through lines to find matching components
+  for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      
+      // Calculate the current line's depth based on the number of leading spaces
+      const currentLineDepth = line.match(/^(\s*)/)[0].length;
+
+      if (shouldStartTrimming && currentLineDepth <= currentDepth) {
+          // Skip lines that are at a shallower depth than the starting point
+          continue;
+      }
+
+      // If we find a match for the current path component
+      if (line.trim().endsWith(pathComponents[currentMatchIndex])) {
+          if (currentMatchIndex < pathComponents.length - 1) {
+              // Move to the next path component if there are more
+              currentMatchIndex++;
+          } else {
+              // We've found the line corresponding to the current_path, now start trimming
+              currentDepth = currentLineDepth;
+              shouldStartTrimming = true;
+          }
+      }
+
+      if (shouldStartTrimming) {
+          // Remove the same number of spaces as the depth of the line where current_path was found
+          const adjustedLine = line.slice(currentDepth);
+          trimmedTOC.push(adjustedLine);
+      }
+  }
+
+  return trimmedTOC.join("\n");
+}
+
+
+// Main program
+const current_folder = dv.current().file.folder;
+console.log(current_folder);
+const files = dv.pages(`"${current_folder}"`).values;
+
+console.log("files:");
+console.log(files);
+
+// Build file tree
+const fileTree = buildFileTree(files);
+console.log("fileTree:");
+console.log(fileTree);
+
+// Generate Table of Contents
+const toc = generateTOC(fileTree);
+console.log("toc:");
+console.log(toc);
+
+// Sort Table of Contents
+const toc_sorted = moveTableOfContentsToTop(toc);
+console.log("toc_sorted:");
+console.log(toc_sorted);
+
+// trimmedTOC
+const trimmed_toc = trimTOC(toc_sorted, current_folder);
+
+dv.paragraph(trimmed_toc);
+```
+
+
+---
+
+> [!INFO]+
+> Next Note(s):
+> - [0. Introduction ▹ Table of Contents](the-vault/🔴%20Academics/📚%20Educational%20Resources/Structy/0.%20Introduction/0.%20Introduction%20▹%20Table%20of%20Contents.md)
+
+---
