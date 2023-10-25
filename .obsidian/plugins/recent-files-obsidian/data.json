@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Default",
+      "path": "the-vault/Default.md"
+    },
+    {
+      "basename": "295. Find Median in Data Stream",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/LeetCode/Problems/295. Find Median in Data Stream.md"
+    },
+    {
+      "basename": "🗒️ Python ▹ Table of Contents",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Python/🗒️ Python ▹ Table of Contents.md"
+    },
+    {
+      "basename": "🗒️ Anaconda ▹ Table of Contents",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Anaconda/🗒️ Anaconda ▹ Table of Contents.md"
+    },
+    {
+      "basename": "002. hey programmer 🧑🏽‍💻",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md"
+    },
+    {
+      "basename": "Template {{LeetCode ∋ Attempt(s)}}",
+      "path": "the-vault/templates/Template {{LeetCode ∋ Attempt(s)}}.md"
+    },
+    {
+      "basename": "1. Two Sum",
+      "path": "the-vault/🔴 Academics/📚 Educational Resources/LeetCode/Problems/1. Two Sum.md"
+    },
+    {
       "basename": "28. Find the Index of the First Occurrence in a String",
       "path": "the-vault/🔴 Academics/📚 Educational Resources/LeetCode/Problems/28. Find the Index of the First Occurrence in a String.md"
     },
@@ -9,28 +37,12 @@
       "path": "the-vault/templates/Template {{LeetCode ∋ Problem}}.md"
     },
     {
-      "basename": "Template {{LeetCode ∋ Attempt(s)}}",
-      "path": "the-vault/templates/Template {{LeetCode ∋ Attempt(s)}}.md"
-    },
-    {
-      "basename": "002. hey programmer 🧑🏽‍💻",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md"
-    },
-    {
       "basename": "Keyboard Shortcuts",
       "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Visual Studio Code/Keyboard Shortcuts.md"
     },
     {
-      "basename": "1. Two Sum",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/LeetCode/Problems/1. Two Sum.md"
-    },
-    {
       "basename": "Chapter 7꞉ Control Flow and Error Handling",
       "path": "the-vault/🔴 Academics/📚 Educational Resources/LearnCpp.com/Chapter 7꞉ Control Flow and Error Handling.md"
-    },
-    {
-      "basename": "Default",
-      "path": "the-vault/Default.md"
     },
     {
       "basename": "Project “AutodidactPlanner”",
@@ -183,22 +195,6 @@
     {
       "basename": "Foundations of Higher Mathematics, 3rd Edition ▹ Table of Contents",
       "path": "the-vault/🔴 Academics/📚 Educational Resources/Foundations of Higher Mathematics, 3rd Edition/Foundations of Higher Mathematics, 3rd Edition ▹ Table of Contents.md"
-    },
-    {
-      "basename": "Executor vs Executor Core",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Executor vs Executor Core.md"
-    },
-    {
-      "basename": "Excessively Large Partition",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Causes of OOM Errors/Excessively Large Partition.md"
-    },
-    {
-      "basename": "Dynamic Resource Allocation",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Spark Optimization/Dynamic Resource Allocation.md"
-    },
-    {
-      "basename": "Custom CSS",
-      "path": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Discord/Custom CSS.md"
     }
   ],
   "omittedPaths": [],

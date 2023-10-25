@@ -25,50 +25,50 @@
     "recentlyUsedIconsSize": 15,
     "rules": [
       {
+        "rule": "the-vault\\/assets\\/audios\\/.*",
+        "icon": "FarFileAudio",
+        "for": "files",
+        "order": 0,
+        "useFilePath": true
+      },
+      {
         "rule": ".* ▹ Table of Contents",
         "icon": "RiListOrdered2",
         "for": "files",
-        "order": 0,
+        "order": 1,
         "useFilePath": true
       },
       {
         "rule": "the-vault\\/scripts\\/.*\\.js",
         "icon": "TiBrandJavascript",
         "for": "files",
-        "order": 1,
+        "order": 2,
         "useFilePath": true
       },
       {
         "rule": "the-vault\\/scripts\\/.*\\.ps1",
         "icon": "TiBrandPowershell",
         "for": "files",
-        "order": 2,
+        "order": 3,
         "useFilePath": true
       },
       {
         "rule": "the-vault\\/templates\\/.*",
         "icon": "TiTemplate",
         "for": "files",
-        "order": 4,
+        "order": 5,
         "useFilePath": true
       },
       {
         "rule": "sortspec\\.md",
         "icon": "RiSortDesc",
         "for": "files",
-        "order": 5,
+        "order": 6,
         "useFilePath": true
       },
       {
         "rule": ".*\\.md",
         "icon": "RiMarkdownLine",
-        "for": "files",
-        "order": 6,
-        "useFilePath": true
-      },
-      {
-        "rule": ".*\\.(jpg|jpeg|png)",
-        "icon": "FarFileImage",
         "for": "files",
         "order": 7,
         "useFilePath": true
@@ -77,21 +77,55 @@
         "rule": ".*\\.svg",
         "icon": "SiSvg",
         "for": "files",
+        "order": 7,
+        "useFilePath": true
+      },
+      {
+        "rule": ".*\\.gif",
+        "icon": "TiGif",
+        "for": "files",
         "order": 8,
+        "useFilePath": true
+      },
+      {
+        "rule": "the-vault\\/assets\\/videos\\/.*",
+        "icon": "LiFileVideo",
+        "for": "files",
+        "order": 9,
+        "useFilePath": true
+      },
+      {
+        "rule": ".*\\.(jpg|jpeg|png|webp|gif)",
+        "icon": "FarFileImage",
+        "for": "files",
+        "order": 11,
         "useFilePath": true
       },
       {
         "rule": ".*\\.code-workspace",
         "icon": "TiBrandVscode",
         "for": "files",
-        "order": 9
+        "order": 12
       },
       {
         "rule": ".*",
         "icon": "RiFolderFill",
         "for": "folders",
-        "order": 10,
+        "order": 14,
         "useFilePath": true
+      },
+      {
+        "rule": "the-vault\\/assets\\/fonts\\/.*",
+        "icon": "FasFont",
+        "for": "files",
+        "order": 12,
+        "useFilePath": true
+      },
+      {
+        "rule": ".*\\.zip",
+        "icon": "TiFileZip",
+        "for": "files",
+        "order": 14
       }
     ],
     "extraMargin": {

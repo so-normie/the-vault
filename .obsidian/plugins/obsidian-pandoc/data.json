@@ -1,7 +1,7 @@
 {
   "showCLICommands": false,
   "addExtensionsToInternalLinks": "html",
-  "injectAppCSS": "light",
+  "injectAppCSS": "current",
   "injectThemeCSS": false,
   "customCSSFile": null,
   "displayYAMLFrontmatter": false,
