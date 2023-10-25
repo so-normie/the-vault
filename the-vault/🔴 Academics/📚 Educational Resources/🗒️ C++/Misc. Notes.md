@@ -1,7 +1,7 @@
 ---
 title: Misc. Notes
 created: 2023-09-03 08:46
-updated: 2023-10-25T09:46
+updated: 2023-10-25T11:58
 authors:
   - Edmund Leibert III
 tags:
@@ -208,7 +208,7 @@ False. [If you need to change the size of the array during runtime, you’ll hav
 
 
 ﹇<br>
-Are arrays contiguous in C++? If so, what is the benefit? 
+Are arrays contiguous in C++? If so, what is the benefit? Explain. 
 
 #card 
 
