@@ -12,8 +12,14 @@
   "checkpointList": [
     {
       "path": "/",
+<<<<<<< HEAD
       "date": "2023-10-25",
       "size": 1762399
+=======
+      "date": "2023-10-24",
+      "size": 1778896
+      "size": 1763793
+>>>>>>> 8e6dbe93311ee7cec70da9dc5aead6b327b9e410
     }
   ],
   "activityHistory": [
@@ -37,24 +43,16 @@
           "value": 22972
         },
         {
-          "date": "2023-10-21",
-          "value": 59313
-        },
-        {
-          "date": "2023-10-22",
-          "value": 9095
-        },
-        {
-          "date": "2023-10-23",
-          "value": 2103243
-        },
-        {
           "date": "2023-10-24",
+<<<<<<< HEAD
           "value": 8811
         },
         {
           "date": "2023-10-25",
           "value": 1652
+=======
+          "value": 7125
+>>>>>>> 8e6dbe93311ee7cec70da9dc5aead6b327b9e410
         }
       ]
     }
@@ -67,4 +65,3 @@
   "emptyColor": "#ecedf0",
   "cellRadius": 1,
   "type": "yearly"
-}
