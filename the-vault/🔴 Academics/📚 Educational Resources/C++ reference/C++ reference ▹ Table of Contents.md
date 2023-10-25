@@ -1,12 +1,12 @@
 ---
 title: C++ reference ▹ Table of Contents
 created: 2023-09-30 15:42
-updated: 2023-10-21T12:38
+updated: 2023-10-24T01:49
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academics/📚-educational-resources/name/🌐-cpp-reference
-  - 🔴-academics/📚-educational-resources/format/internet/website
+  - 🔴-academics/📚-educational-resources/source-format/internet/website
   - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/cpp
   - 🔴-academics/📚-educational-resources/name/leetcode/🔖-bookmark/🌐-c++-reference-▹-📋-table-of-contents
   - study-note

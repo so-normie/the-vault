@@ -1,12 +1,12 @@
 ---
 title: The LeetCode Beginner's Guide ▹ 📋 Table of Contents
 created: 2023-10-20 12:01
-updated: 2023-10-21T12:38
+updated: 2023-10-24T01:49
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academics/📚-educational-resources/name/leetcode/explore/the-leetcode-beginners-guide/the-leetcode-beginners-guide-▹-📋-table-of-contents
-  - 🔴-academics/📚-educational-resources/format/course
+  - 🔴-academics/📚-educational-resources/source-format/course
   - 🔴-academics/📚-educational-resources/discipline/computer-science
   - study-note
 cards-deck: 🔴 Academics::📚 Educational Resources::LeetCode::Explore::The LeetCode Beginner's Guide::The LeetCode Beginner's Guide ▹ 📋 Table of Contents

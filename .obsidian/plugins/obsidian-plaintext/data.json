@@ -1,6 +1,7 @@
 {
   "overrideViewsFromOtherPlugins": false,
   "extensions": [
-    "bib"
+    "bib",
+    "js"
   ]
 }

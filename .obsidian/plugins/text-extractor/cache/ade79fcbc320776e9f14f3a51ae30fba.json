@@ -1,0 +1,1 @@
+{"path":"main/assets/images/Pasted image 20230806035940.png","text":"Parallel Joins in PostgreSQL * It's easy to perform a join “in parallel” by giving each worker some of the rows from one side of the joir * But that worker must join the rows i /¢ linst a rows from the other sids he | be Incorrect","libVersion":"0.2.3","langs":"eng"}

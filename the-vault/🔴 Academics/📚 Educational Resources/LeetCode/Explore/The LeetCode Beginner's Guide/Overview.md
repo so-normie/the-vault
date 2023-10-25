@@ -1,12 +1,12 @@
 ---
 title: Overview
 created: 2023-10-20 12:05
-updated: 2023-10-21T13:23
+updated: 2023-10-24T01:49
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academics/📚-educational-resources/name/leetcode/leetcode/explore/overview
-  - 🔴-academics/📚-educational-resources/format/internet/website
+  - 🔴-academics/📚-educational-resources/source-format/internet/website
   - 🔴-academics/📚-educational-resources/discipline/computer-science
   - study-note
 cards-deck: 🔴 Academics::📚 Educational Resources::LeetCode::Explore::The LeetCode Beginner's Guide::Overview
