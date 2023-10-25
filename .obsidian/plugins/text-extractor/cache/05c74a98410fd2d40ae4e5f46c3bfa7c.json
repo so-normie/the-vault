@@ -1,1 +1,0 @@
-{"path":"main/assets/images/Pasted image 20230807020622.png","text":"R Aggregate in PostgreSQL * Aggregate (single group) * HashAggregate (hash table, one entry per group) * GroupAggregate (sort by grouping key)","libVersion":"0.2.3","langs":"eng"}
