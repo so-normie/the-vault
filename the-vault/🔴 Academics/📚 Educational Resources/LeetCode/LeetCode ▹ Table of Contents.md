@@ -1,12 +1,12 @@
 ---
 title: 🌐 LeetCode ▹ 📋 Table of Contents
 created: 2023-09-03 11:24
-updated: 2023-10-21T13:22
+updated: 2023-10-24T01:49
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academics/📚-educational-resources/name/leetcode
-  - 🔴-academics/📚-educational-resources/format/internet/website
+  - 🔴-academics/📚-educational-resources/source-format/internet/website
   - 🔴-academics/📚-educational-resources/discipline/computer-science
   - 🔴-academics/📚-educational-resources/name/leetcode/leetCode-▹-📋-table-of-contents
   - study-note

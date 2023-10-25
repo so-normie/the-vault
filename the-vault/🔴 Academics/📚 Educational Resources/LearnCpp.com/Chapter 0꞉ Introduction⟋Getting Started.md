@@ -5,7 +5,7 @@ tags:
   - study-note
 cards-deck: Default::Computer Science
 created: 2023-09-03 08:46
-updated: 2023-10-21T12:38
+updated: 2023-10-24T01:53
 ---
 
 # LearnCpp.com
@@ -762,7 +762,7 @@ Add the `-pedantic-errors` flag to the compile command line
 ^1682810813007
 
 What is important to remember regarding compiler extension settings? #card 
-> [!info]
+> [\!INFOOO]
 > A reminder
 > These settings are applied on a per-project basis. You need to set them every time you create a new project, or create a template project with those settings once and use that to create new projects.
 ^1682812336748

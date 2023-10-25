@@ -1,12 +1,12 @@
 ---
 title: Structy ▹ Table of Contents
 created: 2023-09-03 08:46
-updated: 2023-10-21T14:18
+updated: 2023-10-24T01:49
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academics/📚-educational-resources/name/structy/structy-▹-table-of-contents
-  - 🔴-academics/📚-educational-resources/format/course
+  - 🔴-academics/📚-educational-resources/source-format/course
   - 🔴-academics/📚-educational-resources/discipline/computer-science
   - study-note
 cards-deck: 🔴 Academics::📚 Educational Resources::Structy::Structy ▹ Table of Contents

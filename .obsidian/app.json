@@ -14,7 +14,7 @@
   "legacyEditor": false,
   "strictLineBreaks": true,
   "newLinkFormat": "absolute",
-  "attachmentFolderPath": "assets",
+  "attachmentFolderPath": "the-vault/assets",
   "userIgnoreFilters": [
     "the-vault/scripts/",
     "the-vault/anki/"

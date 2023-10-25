@@ -10,7 +10,7 @@ tags:
   - study-note
 cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Visual Studio Code::🗒️ Visual Studio Code ▹ 📋 Table of Contents
 created: 2023-10-13T01:57
-updated: 2023-10-21T13:20
+updated: 2023-10-24T01:53
 ---
 
 # 🗒️ Visual Studio Code ▹ 📋 Table of Contents
@@ -22,7 +22,7 @@ updated: 2023-10-21T13:20
 
 ---
 
- > [!Info]+ 🕸️ All Mention(s): 
+ > [\!INFO]+ 🕸️ All Mention(s): 
  > - 
 
 ---

@@ -3116,7 +3116,7 @@ __export(main_exports, {
   default: () => Graph3dPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian7 = require("obsidian");
+var import_obsidian8 = require("obsidian");
 
 // src/views/graph/Graph3dView.ts
 var import_obsidian6 = require("obsidian");
@@ -30268,7 +30268,9 @@ var GroupSettings = class {
     this.groups = groups != null ? groups : this.groups;
   }
   static fromStore(store) {
-    return new GroupSettings(store == null ? void 0 : store.groups);
+    return new GroupSettings(store == null ? void 0 : store.groups.flatMap((nodeGroup) => {
+      return new NodeGroup(nodeGroup.query, nodeGroup.color);
+    }));
   }
   toObject() {
     return {
@@ -30285,6 +30287,9 @@ var NodeGroup = class {
     return new RegExp(query);
   }
   static matches(query, node) {
+    if (query.match(/^tag:#?/)) {
+      return node.tags.includes(query.replace(/^tag:#?/, ""));
+    }
     return node.path.startsWith(this.sanitizeQuery(query));
   }
   static sanitizeQuery(query) {
@@ -30924,20 +30929,26 @@ var Link = class {
 };
 
 // src/graph/Node.ts
+var import_obsidian7 = require("obsidian");
 var Node = class {
-  constructor(name, path, val = 10, neighbors = [], links = []) {
+  constructor(name, path, val = 10, neighbors = [], links = [], tags = []) {
     this.id = path;
     this.name = name;
     this.path = path;
     this.val = val;
     this.neighbors = neighbors;
     this.links = links;
+    this.tags = tags;
   }
   static createFromFiles(files) {
     const nodeMap = /* @__PURE__ */ new Map();
     return [
       files.map((file, index5) => {
         const node = new Node(file.name, file.path);
+        const cache = app.metadataCache.getFileCache(file), tags = cache ? (0, import_obsidian7.getAllTags)(cache) : null;
+        if (tags != null) {
+          tags.forEach((tag) => node.tags.push(tag.substring(1)));
+        }
         if (!nodeMap.has(node.id)) {
           nodeMap.set(node.id, index5);
           return node;
@@ -30977,8 +30988,8 @@ var _Graph = class {
     this.clone = () => {
       return new _Graph(structuredClone(this.nodes), structuredClone(this.links), structuredClone(this.nodeIndex), structuredClone(this.linkIndex));
     };
-    this.update = (app) => {
-      const newGraph = _Graph.createFromApp(app);
+    this.update = (app2) => {
+      const newGraph = _Graph.createFromApp(app2);
       this.nodes.splice(0, this.nodes.length, ...newGraph.nodes);
       this.links.splice(0, this.nodes.length, ...newGraph.links);
       this.nodeIndex.clear();
@@ -31052,8 +31063,8 @@ var _Graph = class {
   }
 };
 var Graph = _Graph;
-Graph.createFromApp = (app) => {
-  const [nodes, nodeIndex] = Node.createFromFiles(app.vault.getFiles()), [links, linkIndex] = Link.createFromCache(app.metadataCache.resolvedLinks, nodes, nodeIndex);
+Graph.createFromApp = (app2) => {
+  const [nodes, nodeIndex] = Node.createFromFiles(app2.vault.getFiles()), [links, linkIndex] = Link.createFromCache(app2.metadataCache.resolvedLinks, nodes, nodeIndex);
   return new _Graph(nodes, links, nodeIndex, linkIndex);
 };
 
@@ -31088,7 +31099,7 @@ var shallowCompare = (obj1, obj2) => {
 var ShallowCompare_default = shallowCompare;
 
 // src/main.ts
-var Graph3dPlugin = class extends import_obsidian7.Plugin {
+var Graph3dPlugin = class extends import_obsidian8.Plugin {
   constructor() {
     super(...arguments);
     this.openFileState = new State(void 0);
@@ -31119,7 +31130,7 @@ var Graph3dPlugin = class extends import_obsidian7.Plugin {
         this.openFileState.value = newFilePath;
         this.openGraph(true);
       } else {
-        new import_obsidian7.Notice("No file is currently open");
+        new import_obsidian8.Notice("No file is currently open");
       }
     };
     this.openGlobalGraph = () => {

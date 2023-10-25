@@ -26,10 +26,10 @@
   "underlineFolderInPath": true,
   "openFolderNoteOnClickInPath": true,
   "openInNewTab": false,
-  "folderNoteName": "{{folder_name}} ▹ 📋 Table of Contents",
+  "folderNoteName": "{{folder_name}} ▹ Table of Contents",
   "folderNoteType": ".md",
   "disableFolderHighlighting": false,
-  "newFolderNoteName": "{{folder_name}} ▹ 📋 Table of Contents",
+  "newFolderNoteName": "{{folder_name}} ▹ Table of Contents",
   "storageLocation": "insideFolder",
   "syncDelete": false,
   "showRenameConfirmation": true,
@@ -59,7 +59,7 @@
     "explorer": false,
     "path": false
   },
-  "settingsTab": "file_explorer",
+  "settingsTab": "general",
   "supportedFileTypes": [
     "md",
     "canvas"

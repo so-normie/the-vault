@@ -1,12 +1,12 @@
 ---
 title: 🗒️ Visual Studio ▹ 📋 Table of Contents
 created: 2023-10-01 14:09
-updated: 2023-10-21T12:38
+updated: 2023-10-24T01:49
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academics/📚-educational-resources/name/🗒️-visual-studio
-  - 🔴-academics/📚-educational-resources/format/miscellaneous
+  - 🔴-academics/📚-educational-resources/source-format/miscellaneous
   - 🔴-academics/📚-educational-resources/discipline/computer-science/technology/visual-studio
   - 🔴-academics/📚-educational-resources/name/🗒️-visual-studio/🔖-bookmark/🗒️-visual-studio-▹-📋-table-of-contents
   - study-note

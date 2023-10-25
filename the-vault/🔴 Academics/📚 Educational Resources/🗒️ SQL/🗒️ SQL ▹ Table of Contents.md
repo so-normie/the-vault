@@ -3,10 +3,10 @@ title: 🗒️ SQL
 authors:
   - Edmund Leibert III
 created: 2023-09-03 08:46
-updated: 2023-10-21T12:38
+updated: 2023-10-24T01:49
 tags:
   - 🔴-academics/📚-educational-resources/name/🗒️-sql
-  - 🔴-academics/📚-educational-resources/format/miscellaneous
+  - 🔴-academics/📚-educational-resources/source-format/miscellaneous
   - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/sql
   - 🔴-academics/📚-educational-resources/name/🗒️-sql/🔖-bookmark/🗒️-sql
   - study-note

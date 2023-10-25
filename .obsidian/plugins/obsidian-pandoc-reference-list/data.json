@@ -1,8 +1,18 @@
 {
-  "pathToPandoc": "",
+  "pathToPandoc": "C:\\Users\\edmun\\anaconda3\\Library\\bin\\pandoc.exe",
   "tooltipDelay": 400,
-  "zoteroGroups": [],
+  "zoteroGroups": [
+    {
+      "id": 1,
+      "name": "My Library",
+      "lastUpdate": 1698191357463
+    }
+  ],
   "renderCitations": true,
   "renderCitationsReadingMode": true,
-  "renderLinkCitations": true
+  "renderLinkCitations": true,
+  "pullFromZotero": true,
+  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/ieee.csl",
+  "enableCiteKeyCompletion": true,
+  "showCitekeyTooltips": true
 }

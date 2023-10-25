@@ -5,7 +5,7 @@ tags:
   - study-note
 cards-deck: Default::Computer Science
 created: 2023-10-13T01:57
-updated: 2023-10-21T12:38
+updated: 2023-10-24T01:53
 ---
 
 # LearnCpp.com
@@ -255,7 +255,7 @@ When a PRNG is instantiated, an {initial value (or set of values)} called a {**
 ^1683601577413 
 
 All the values that a PRNG… are what? #card 
-> [!info]+ Key Insight
+> [\!INFO]+ Key Insight
 > All of the values that a PRNG will produce are deterministically calculated from the seed value(s).
 ^1683602487101
 
@@ -445,7 +445,7 @@ A <span class="spoiler">**random number distribution**</span> converts the out
 
 
 What is a **random number distribution** for stats geeks? #card 
-> [!info]+ As an aside…
+> [\!INFO]+ As an aside…
 > For the stats geeks: a random number distribution is just a probability distribution designed to take PRNG values as input.
 ^1683662631355
 
@@ -582,7 +582,7 @@ Is this the best practice for seeding my PRNGs? #card
 
 
 What does `std::random_device{}()` mean?  #card
-> [!info]+ Q: What does `std::random_device{}()` mean? 
+> [\!INFO]+ Q: What does `std::random_device{}()` mean? 
 > `std::random_device{}` creates a value-initialized temporary object of type `std::random_device`. The `()` then calls `operator()` on that temporary object, which returns a randomized value (which we use as an initializer for our Mersenne Twister) 
 > It’s the equivalent of the calling the following function, which uses a syntax you should be more familiar with:
 >  ```cpp
@@ -598,7 +598,7 @@ What does `std::random_device{}()` mean?  #card
 
 
 If `std::random_device` is random itself, why don’t we just use that instead of Mersenne Twister? #card  
-> [!info]+ Q: If std::random_device is random itself, why don’t we just use that instead of Mersenne Twister?
+> [\!INFO]+ Q: If std::random_device is random itself, why don’t we just use that instead of Mersenne Twister?
 > Because std::random_device is implementation defined, we can’t assume much about it. It may be expensive to access or it may cause our program to pause while waiting for more random numbers to become available. The pool of numbers that it draws from may also be depleted quickly, which would impact the random results for other applications requesting random numbers via the same method. For this reason, std::random_device is better used to seed other PRNGs rather than as a PRNG itself.
 ^1683673446282
 

@@ -10,9 +10,9 @@ tags:
   - study-note
 cards-deck: Default::Mathematics
 created: 2023-09-03 08:46
-updated: 2023-10-21T12:38
+updated: 2023-10-24T01:53
 ---
 
->[!info]+ Successor Classes
+>[\!INFO]+ Successor Classes
 > - [[🔴 Academics/📚 Educational Resources/📕 Precalculus꞉ Mathematics for Calculus, 7ᵗʰ Edition]]
 > - [[📕 Geometry]]

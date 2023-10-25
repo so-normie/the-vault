@@ -1,14 +1,13 @@
 ---
 title: 🗒️ Git
 created: 2023-08-04 01:58
-updated: 2023-10-21T13:22
+updated: 2023-10-24T01:49
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academics/📚-educational-resources/name/🗒️-git
-  - 🔴-academics/📚-educational-resources/format/miscellaneous
+  - 🔴-academics/📚-educational-resources/name/🗒️-git/misc-notes
+  - 🔴-academics/📚-educational-resources/source-format/miscellaneous
   - 🔴-academics/📚-educational-resources/discipline/computer-science/technology/git
-  - 🔴-academics/📚-educational-resources/name/🗒️-git/🔖-bookmark/misc-notes
   - study-note
 cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Git::Misc. Notes
 ---
@@ -17,20 +16,97 @@ cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Git::Misc. Notes
 
 ---
 
-> [!abstract]+ Abstract 
+> [!ABSTRACT]+ 
+> Miscellaneous notes pertaining to [Git](https://git-scm.com/).
+
+---
+
+> [!INFO]+ 
+> All Mention(s): 
 > 
 
 ---
 
-> [!info]+ 🕸️ All Mention(s): 
+> [!INFO]+ 
+> Previous Note(s):
 > 
 
 ---
 
-> [!info]+ 🔙 Previous Note(s):
-> 
 
----
+﹇<br>
+What is the command to list all git worktrees in a repo?
+
+#card 
+
+The command to list all git worktrees in a repository is:
+
+```bash
+git worktree list
+```
+
+This command will display the path of each worktree and the branch currently checked out in that worktree. It’s a handy way to manage multiple branches in the same repository without having to switch back and forth. Remember to run this command in the root directory of your git repository.
+⌂
+<br>﹈<br>
+
+﹇<br>
+So while a folder naming structure is allowed in naming git branches, it seems that at most you can only have one folder _not_ multiple when naming a git branch.
+
+#card 
+
+Yes, you’re correct. While Git does allow you to use a folder-like structure in your branch names using the `/` character, it’s important to note that Git doesn’t actually have a concept of folders for branches. The `/` character is just another valid character that can be used in a branch name, much like a `-` or `_`.
+
+However, many people use the `/` character in their branch names to organize their branches in a way that’s similar to folders and subfolders. For example, you might have `feature/login` and `feature/signup` branches.
+
+But remember, while you can use multiple `/` characters in a branch name (like `feature/user/login`), it doesn’t create nested folders. It’s just part of the branch name. When you list your branches with `git branch`, Git doesn’t display them in a nested or tree structure. It just lists all the branches flatly, but they will be sorted alphabetically so branches with the same prefixes will be grouped together.
+
+So, in essence, you can use one or more `/` characters in your branch names as a way to categorize them, but Git doesn’t treat these as actual folders or subfolders.
+
+⌂
+<br>﹈<br>
+
+
+﹇<br>
+While it is possible, it seems that using multiple `/` when naming a git branch has the unintended result of not working correctly with git worktrees.
+
+#card 
+
+Yes, you’re correct. Using multiple `/` characters in a branch name can cause issues when working with git worktrees. The reason for this is that git worktrees create a new directory for each branch. [If a branch name contains multiple `/` characters, it can be interpreted as a directory structure, which can cause confusion and unexpected behavior](https://stackoverflow.com/questions/31935776/what-would-i-use-git-worktree-for)[1](https://stackoverflow.com/questions/31935776/what-would-i-use-git-worktree-for)[2](https://stackoverflow.com/questions/31871888/what-goes-wrong-when-using-git-worktree-with-git-submodules)[3](https://github.com/microsoft/vscode/issues/164363)[4](https://stackoverflow.com/questions/39665570/why-can-two-git-worktrees-not-check-out-the-same-branch)[5](https://stackoverflow.com/questions/69125521/does-one-git-worktree-support-multiple-branches).
+
+For example, if you have a branch named `feature/user/login`, git worktrees might interpret this as wanting to create a `feature` directory with a `user` subdirectory, and then a `login` subdirectory under that. This can lead to issues if you also have other branches that start with `feature/user`, as it would imply they should all be located in the same `feature/user` directory.
+
+So while git does allow you to use multiple `/` characters in your branch names, it’s generally best to avoid doing so if you’re planning on using git worktrees. Instead, consider using a different character, like `-` or `_`, to separate different parts of your branch names.
+
+⌂
+<br>﹈<br>
+
+
+
+
+﹇<br>
+How can I modify my local git repository to allow longer file names?
+
+#card 
+
+To modify your local Git repository to allow longer file names, you can change the `core.longpaths` setting to `true`. This can be done by running the following command in your Git Bash:
+
+```bash
+git config --system core.longpaths true
+```
+
+This command changes the configuration of Git on your system to enable long paths. If you want to apply this setting only to a specific repository, you can use the `--local` option instead of `--system`:
+
+```bash
+git config --local core.longpaths true
+```
+
+This command needs to be run in the root directory of the repository for which you want to enable long paths. Please note that this setting is available in Git 2.9.0 and later.
+
+Remember, this is a workaround for Windows users, as Windows has a maximum path length of 260 characters by default. If you’re frequently dealing with long file paths, you might want to consider restructuring your directories to avoid deeply nested structures.
+
+⌂
+<br>﹈<br>^1697930592589
+
 
 
 ﹇<br>
@@ -46,7 +122,7 @@ git branch -m old-name new-name
 ```
 
 ⌂
-<br>﹈<br>^1693775679543
+<br>﹈<br>^1697930420698
 
 
 ﹇<br>
@@ -64,8 +140,7 @@ git push origin new-name
 ```
 
 ⌂
-<br>﹈<br>^1693775679551
-
+<br>﹈<br>^1697930420713
 
 
 ﹇<br>
@@ -76,7 +151,7 @@ How to confirm the name of your current remote?
 `git remote -v`
 
 ⌂
-<br>﹈<br>^1693775679558
+<br>﹈<br>^1697930420723
 
 
 ﹇<br>
@@ -87,7 +162,7 @@ How do you rename an existing remote?
 `git remote rename [old name] [new name]`
 
 ⌂
-<br>﹈<br>^1693775679566
+<br>﹈<br>^1697930420730
 
 
 ﹇<br>
@@ -98,7 +173,7 @@ Does renaming an existing remote, also rename the repository name on the hosting
 No, the `git remote rename` command only renames the remote in your local repository. It does not change the name of the repository on GitHub or any other remote hosting service. If you want to rename your repository on GitHub, you can do so through the repository settings on the GitHub website.
 
 ⌂
-<br>﹈<br>^1693775679573
+<br>﹈<br>^1697930420736
 
 
 ﹇<br>
@@ -114,8 +189,7 @@ In `.gitignore`, how do you match any level of subdirectories?
 ```
 
 ⌂
-<br>﹈<br>^1693775679580
-
+<br>﹈<br>^1697930420744
 
 ﹇<br>
 How to configure git to always **push the current branch and set the remote as upstream** automatically every time you push? 
@@ -129,8 +203,7 @@ Run the following command…
 The <span class="spoiler">`--global`</span> flag means this will apply to all git commands on your machine (regardless of which repo it is), you can omit the flag to make it specific to a single repo on your machine.
 
 ⌂
-<br>﹈<br>^1693775679587
-
+<br>﹈<br>^1697930420751
 
 ﹇<br>
 How do you delete a remote branch in Git? 
@@ -142,8 +215,7 @@ How do you delete a remote branch in Git?
 	`git push origin -d remote_branch_name`
 
 ⌂
-<br>﹈<br>^1693775679594
-
+<br>﹈<br>^1697930420758
 
 ﹇<br>
 How to set up my git name and git email? 
@@ -160,22 +232,17 @@ git config --global user.email "youremail@yourdomain.com"
 [Once done, you can confirm that the information is set by running: `git config --list`](https://linuxize.com/post/how-to-configure-git-username-and-email/) [1](https://linuxize.com/post/how-to-configure-git-username-and-email/).
 
 ⌂
-<br>﹈<br>^1693775679602
-
+<br>﹈<br>^1697930420764
 
 ﹇<br>
 How do you query a remote repository without having to clone/fetch it first?  
 
-#card-reverse 
+#card 
 
-❗
-- Use the command `git ls-remote`
-- <span class="spoiler">[It will list `refs/heads` and `refs/tags` of said remote repository](https://riptutorial.com/git/example/1486/ls-remote)</span>
+Use the command `git ls-remote`. It will list `refs/heads` and `refs/tags` of said remote repository.
 
 ⌂
-<br>﹈<br>^1693775679609
-
-
+<br>﹈<br>^1697930420770
 
 ﹇<br>
 What command should you run to list all local branches?
@@ -185,8 +252,7 @@ What command should you run to list all local branches?
 `git branch --list`
 
 ⌂
-<br>﹈<br>^1693775679616
-
+<br>﹈<br>^1697930420776
 
 ﹇<br>
 What command should you run to list all local _and_ remote branches?
@@ -196,8 +262,7 @@ What command should you run to list all local _and_ remote branches?
 `git branch --list --all`
 
 ⌂
-<br>﹈<br>^1693775679623
-
+<br>﹈<br>^1697930420786
 
 ﹇<br>
 In regards to `.gitignore`, how to fix Visual Studio Code still tracking changes of files that should be ignored? 
@@ -210,8 +275,7 @@ One possibility is that the files were added to your cache.
 - [You can try clearing it with the command `git rm --cached .vscode/settings.json`](https://stackoverflow.com/questions/57187693/how-to-fix-vscode-tracking-in-gitignore)
 
 ⌂
-<br>﹈<br>^1693775679630
-
+<br>﹈<br>^1697930420792
 
 ﹇<br>
 What is the **GitHub Standard Fork & Pull Request Workflow**? 
@@ -225,19 +289,17 @@ What is the **GitHub Standard Fork & Pull Request Workflow**?
 Citation: [GitHub Standard Fork & Pull Request Workflow](https://gist.github.com/augustoproiete/256b560d008d39afc0814a19f41a1d49)
 
 ⌂
-<br>﹈<br>^1693775679637
-
+<br>﹈<br>^1697930420799
 
 ﹇<br>
 After forking a repository, how should I name my branch for most of my personal projects? 
 
 #card 
 
-❗Simply name you branch, `<repository-name>-forked`.
+Simply name you branch, `<repository-name>-forked`.
 
 ⌂
-<br>﹈<br>^1693775679644
-
+<br>﹈<br>^1697930420805
 
 ﹇<br>
 How do you ignore all folders with the name containing the word “build”? 
@@ -251,8 +313,7 @@ Add the following line to your `.gitignore` file:
 - This will ignore any folder with the word “build” in its name, regardless of its location in the repository. 
 
 ⌂
-<br>﹈<br>^1693775679651
-
+<br>﹈<br>^1697930420811
 
 ﹇<br>
 [What command to see all the branches of a remote repository?](https://git-scm.com/docs/git-ls-remote.html) 
@@ -262,8 +323,7 @@ Add the following line to your `.gitignore` file:
 ❗[`git ls-remote --heads <url>`](https://git-scm.com/docs/git-ls-remote.html)
 
 ⌂
-<br>﹈<br>^1693775679658
-
+<br>﹈<br>^1697930420818
 
 ﹇<br>
 What is the opposite of git add? 
@@ -282,8 +342,7 @@ git reset file.txt
 This will unstage the changes to `file.txt` that were previously staged using `git add`. I hope this helps! Let me know if you have any other questions.
 
 ⌂
-<br>﹈<br>^1693775679665
-
+<br>﹈<br>^1697930420826
 
 ﹇<br>
 What is the difference between `fetch` and `pull`? 
@@ -293,8 +352,7 @@ What is the difference between `fetch` and `pull`?
 <span class="spoiler">`Fetch`</span> and <span class="spoiler">`pull`</span> are both used to download new data from a remote repository. <span class="spoiler">`Fetch`</span> only downloads new data from a remote repository but it doesn’t integrate any of this new data into your working files. <span class="spoiler">`Pull`</span>, on the other hand, not only downloads new data but also directly integrates it into your current working copy files.
 
 ⌂
-<br>﹈<br>^1693775679673
-
+<br>﹈<br>^1697930420834
 
 ﹇<br>
 Front: What does it mean to integrate new data into your working files? 
@@ -304,8 +362,7 @@ Front: What does it mean to integrate new data into your working files?
 Back: By “integrate,” it means that <span class="spoiler">`pull`</span> not only downloads new data from the remote repository but also merges it with your local branch. This means that any changes made in the remote repository are applied to your local repository, updating your current working copy files with the latest changes from the remote repository.
 
 ⌂
-<br>﹈<br>^1693775679680
-
+<br>﹈<br>^1697930420840
 
 ﹇<br>
 What does **unversioned files** mean? 
@@ -315,8 +372,7 @@ What does **unversioned files** mean?
 Files that have been added to the project directory but are not tracked by any VCS system.
 
 ⌂
-<br>﹈<br>^1693775679687
-
+<br>﹈<br>^1697930420847
 
 ﹇<br>
 What does `git fetch` do? 
@@ -326,8 +382,7 @@ What does `git fetch` do?
 This command will download all the latest changes form the remote repository.
 
 ⌂
-<br>﹈<br>^1693775679695
-
+<br>﹈<br>^1697930420852
 
 ﹇<br>
 How can I create a new local branch that tracks a remote branch? 
@@ -339,8 +394,7 @@ git checkout -b new-branch origin/remote-branch-name
 ```
 
 ⌂
-<br>﹈<br>^1693775679702
-
+<br>﹈<br>^1697930420859
 
 ﹇<br>
 So I just cloned a repo, and I having a weird issue. Right now, I am working on brnach `A`, However, I have a branch on my origin called `B`. For some reason, when I call `git fetch`, and then run `git branch -l`, the branch `B` is not being shown as a branch in the list. Only the branch `A` is being shown. What gives? 
@@ -352,8 +406,7 @@ So I just cloned a repo, and I having a weird issue. Right now, I am working on 
 - If you want to checkout the remote branch `B`, you can use the command `git checkout B`. This will create a new local branch called `B` that tracks the remote branch `B`. After checking out the remote branch, you should be able to see it when running the `git branch` command[1](https://stackoverflow.com/questions/46597915/git-branches-not-showing-in-git-branch-after-pull-or-fetch-but-git-checkout).
 
 ⌂
-<br>﹈<br>^1693775679710
-
+<br>﹈<br>^1697930420880
 
 ﹇<br>
 What is the difference between `git branch -r`, `git branch -a`, and `git branch -l` 
@@ -366,8 +419,7 @@ The commands do the following…
 - Print only local branches
 
 ⌂
-<br>﹈<br>^1693775679719
-
+<br>﹈<br>^1697930420891
 
 ﹇<br>
 ❗Assume that you forked a repository, made some changes, and screwed somethings up. You want a fresh start by overwriting your forked `master` branch with the original repo. How would you go about doing this? 
@@ -376,8 +428,7 @@ The commands do the following…
 	1. cd
 
 ⌂
-<br>﹈<br>^1693775679729
-
+<br>﹈<br>^1697930420898
 
 ﹇<br>
 What does the following git command do? Assume, that we are currently on the branch master.
@@ -391,8 +442,7 @@ git checkout -b obsidian-sample-plugin-forked
 2. Checkouts the branch `obsidian-sample-plugin-forked`
 
 ⌂
-<br>﹈<br>^1693775679738
-
+<br>﹈<br>^1697930420905
 
 ﹇<br>
 What emoji (i.e., gitmoji) should I use when I am making commit regarding `.gitignore` changes?
@@ -402,8 +452,7 @@ What emoji (i.e., gitmoji) should I use when I am making commit regarding `.giti
 You should follow this format: `🙈 chore[.gitignore]:` 
 
 ⌂
-<br>﹈<br>^1693775679747
-
+<br>﹈<br>^1697930420912
 
 ﹇<br>
 How do I set to ignore all the contents of a folder no matter where it may be in my project directory?
@@ -413,8 +462,7 @@ How do I set to ignore all the contents of a folder no matter where it may be in
 `**/build/**`
 
 ⌂
-<br>﹈<br>^1693775679756
-
+<br>﹈<br>^1697930420920
 
 ﹇<br>
 What does `git saubmodule add` do? 
@@ -434,8 +482,7 @@ git clone --recursive [URL-to-your-repository]
 Submodules are not automatically updated, nor do they track the origin. As such, if the remote repository is updated, you won’t automatically get those changes in your repository; you need to to manually update the submodule to point to a newer commit.
 
 ⌂
-<br>﹈<br>^1693775679765
-
+<br>﹈<br>^1697930420927
 
 ﹇<br>
 What must I be aware if use the `submodule` command to add a repository to my repository? 
@@ -445,8 +492,7 @@ What must I be aware if use the `submodule` command to add a repository to my re
 All future `clone`s and  `pull`s  of my repository must use the `--recursive` tag so that the submodules are properly initialized.
 
 ⌂
-<br>﹈<br>^1693775679774
-
+<br>﹈<br>^1697930420934
 
 ﹇<br>
 When I use the `submodule` command to add a repository to my own repository, do I have to manually update the submodule? 
@@ -456,8 +502,7 @@ When I use the `submodule` command to add a repository to my own repository, do 
 Yes.
 
 ⌂
-<br>﹈<br>^1693775679782
-
+<br>﹈<br>^1697930420940
 
 ﹇<br>
 When I fork a repository, what is upstream and what is origin? 
@@ -467,8 +512,7 @@ When I fork a repository, what is upstream and what is origin?
 When you fork a repository, the original repository is referred to as **upstream**, and the forked repository is referred to as **origin**.
 
 ⌂
-<br>﹈<br>^1693775679791
-
+<br>﹈<br>^1697930420946
 
 ﹇<br>
 How do you change the `git init` default branch name?
@@ -495,8 +539,7 @@ nothing to commit (create/copy files and use "git add" to track)
 Release notes: [https://lore.kernel.org/git/xmqq5za8hpir.fsf@gitster.c.googlers.com/](https://lore.kernel.org/git/xmqq5za8hpir.fsf@gitster.c.googlers.com/)
 
 ⌂
-<br>﹈<br>^1693775679803
-
+<br>﹈<br>^1697930420953
 
 ﹇<br>
 What does `git fetch origin` do?
@@ -513,8 +556,7 @@ What does `git fetch origin` do?
    3. **Does NOT Merge or Modify Working Directory**: Unlike `git pull`, which is essentially a combination of `git fetch` followed by `git merge` (or `git rebase`), `git fetch` on its own does not modify your current working branch or your working directory. It merely fetches the new data and updates the remote-tracking branches.
 
 ⌂
-<br>﹈<br>^1693775679810
-
+<br>﹈<br>^1697930420959
 
 ﹇<br>
 Why is `git fetch origin` so useful?
@@ -527,8 +569,7 @@ It is a safe operation in that it won't affect your local branches or working di
 
 In the context of the problem you were facing, `git fetch origin` ensures you have the latest state of the `master` branch from `origin` before you perform the reset operation.
 ⌂
-<br>﹈<br>^1693775679818
-
+<br>﹈<br>^1697930420965
 
 ﹇<br>
 Lets consider the case that you have a repo in which you are having merge conflict like so…
@@ -548,8 +589,7 @@ git reset --hard origin/master
 ```
 
 ⌂
-<br>﹈<br>^1693775679826
-
+<br>﹈<br>^1697930420975
 
 ﹇<br>
 What does the following code do?
@@ -563,8 +603,7 @@ git reset --hard origin/master
 Forces our local `master` branch to be reset and just match our `remote/origin/master` branch?
 
 ⌂
-<br>﹈<br>^1693775679834
-
+<br>﹈<br>^1697930420984
 
 ﹇<br>
 Why do we need to cautious about `git reset --hard`?
@@ -576,8 +615,7 @@ Be cautious with `git reset --hard` as it will discard changes in your working d
 If you've made local commits that you want to keep, you'll need to take a different approach (like creating a new branch for those commits or rebasing).
 
 ⌂
-<br>﹈<br>^1693775679841
-
+<br>﹈<br>^1697930420990
 
 ﹇<br>
 What does `git reset` primarily do?
@@ -587,8 +625,7 @@ What does `git reset` primarily do?
 `git reset` moves the current branch's pointer to a specified commit.
 
 ⌂
-<br>﹈<br>^1693775679848
-
+<br>﹈<br>^1697930420997
 
 ﹇<br>
 When using `git reset`, what is the default target commit if none is specified?
@@ -598,8 +635,7 @@ When using `git reset`, what is the default target commit if none is specified?
 `HEAD`, which is the latest commit in the current branch.
 
 ⌂
-<br>﹈<br>^1693775679855
-
+<br>﹈<br>^1697930421003
 
 ﹇<br>
 What does the `--hard` flag do when used with `git reset`?
@@ -609,8 +645,7 @@ What does the `--hard` flag do when used with `git reset`?
 It resets both the staging area and the working directory to match the state of the specified commit, discarding all changes in these areas.
 
 ⌂
-<br>﹈<br>^1693775679863
-
+<br>﹈<br>^1697930421010
 
 ﹇<br>
  What happens to your branch and working directory when you run `git reset --hard HEAD~1`?
@@ -620,8 +655,7 @@ It resets both the staging area and the working directory to match the state of 
  The current branch pointer moves one commit back, discarding the most recent commit, as well as any staged and unstaged changes in the working directory.
  
 ⌂
-<br>﹈<br>^1693775679869
-
+<br>﹈<br>^1697930421016
 
 ﹇<br>
  Is `git reset --hard` a safe operation?
@@ -631,8 +665,7 @@ It resets both the staging area and the working directory to match the state of 
  No, `git reset --hard` is a destructive operation. It discards commits and changes, so always be certain you want to use it and have backups or other branches pointing to desired commits.
  
 ⌂
-<br>﹈<br>^1693775679876
-
+<br>﹈<br>^1697930421023
 
 ﹇<br>
  What does `git reset --hard origin/master` do?
@@ -642,8 +675,7 @@ It resets both the staging area and the working directory to match the state of 
   It sets the current branch and working directory to match the state of the `master` branch on `origin`, discarding any local commits and changes not on `origin/master`.
   
 ⌂
-<br>﹈<br>^1693775679883
-
+<br>﹈<br>^1697930421030
 
 ﹇<br>
 So, even though my local repository is based on my `origin` (hosted on GitHub) being a fork (i.e., the `upstream`) of my original repository, when I run the command `git branch -la`, the output is not listing any `upstream` branches. How can I fix this?
@@ -663,8 +695,7 @@ Make sure to replace `original-owner` and `original-repo` with the username of t
 After adding the `upstream` remote, you can fetch changes from the original repository by running `git fetch upstream`. You can then merge these changes into your local branch by running `git merge upstream/branch-name`, where `branch-name` is the name of the branch that you want to merge changes from.
 
 ⌂
-<br>﹈<br>^1693775679891
-
+<br>﹈<br>^1697930421039
 
 ﹇<br>
 How can I list all the remote URLs (local and upstream) of my local repository?
@@ -674,8 +705,7 @@ How can I list all the remote URLs (local and upstream) of my local repository?
 The `git remote -v` command shows the remote URLs for all remotes in your local repository. The `-v` option stands for “verbose” and causes the command to show the remote URLs as well as the remote names.
 
 ⌂
-<br>﹈<br>^1693775679898
-
+<br>﹈<br>^1697930421047
 
 ﹇<br>
 How can **hard** reset a branch in a forked repository to completely be the same as the corresponding branch in the upstream repository?
@@ -685,8 +715,7 @@ How can **hard** reset a branch in a forked repository to completely be the same
 ❗ To be filled.
 
 ⌂
-<br>﹈<br>^1693775679907
-
+<br>﹈<br>^1697930421053
 
 ﹇<br>
 How can I `fetch` from all remotes in one command?
@@ -696,8 +725,7 @@ How can I `fetch` from all remotes in one command?
 `git fetch --all`
 
 ⌂
-<br>﹈<br>^1693775679914
-
+<br>﹈<br>^1697930421058
 
 ﹇<br>
 Is there a difference between `--help` and `-help` for **git**?
@@ -707,8 +735,7 @@ Is there a difference between `--help` and `-help` for **git**?
 Yes! `--help` will open the browser while `-help` will just open the command line.
 
 ⌂
-<br>﹈<br>^1693775679921
-
+<br>﹈<br>^1697930421068
 
 ﹇<br>
 How can you force changes into origin when pushing?
@@ -720,8 +747,7 @@ Use the option `--force` with `git push` like so…
 `git push --force`
 
 ⌂
-<br>﹈<br>^1693775679928
-
+<br>﹈<br>^1697930421073
 
 ﹇<br>
 Is `git fetch` the same as `git fetch --all`?
@@ -733,8 +759,7 @@ Is `git fetch` the same as `git fetch --all`?
 [Additionally, if you want to remove any remote-tracking references that no longer exist on the remote before fetching, you can use the `-p` or `--prune` flag with the `git fetch` command](https://stackoverflow.com/questions/59685267/git-fetch-all-vs-git-fetch-p-what-is-the-difference)[2](https://stackoverflow.com/questions/59685267/git-fetch-all-vs-git-fetch-p-what-is-the-difference). [For example, `git fetch --all -p` would fetch from all remotes and prune any references that no longer exist](https://stackoverflow.com/questions/59685267/git-fetch-all-vs-git-fetch-p-what-is-the-difference)[2](https://stackoverflow.com/questions/59685267/git-fetch-all-vs-git-fetch-p-what-is-the-difference).
 
 ⌂
-<br>﹈<br>^1693775679935
-
+<br>﹈<br>^1697930421079
 
 ﹇<br>
 After I run the command `git submodule init`, the directory that should be containing the submodule is empty. Why is this the case and how can I fix this?
@@ -749,8 +774,7 @@ After running `git submodule init`, the submodule directory may still appear emp
 - [If submodules have other submodules, you need to use the recursive option: `git submodule update --init --recursive`](https://stackoverflow.com/questions/11358082/empty-git-submodule-folder-when-repo-cloned)[1](https://stackoverflow.com/questions/11358082/empty-git-submodule-folder-when-repo-cloned). 
 
 ⌂
-<br>﹈<br>^1693775679942
-
+<br>﹈<br>^1697930421085
 
 
 ﹇<br>
@@ -761,8 +785,7 @@ What does `git submodule init` do?
 `git submodule init` initializes the local configuration file for the submodule, but it does not actually fetch the data from the submodule repository.
 
 ⌂
-<br>﹈<br>^1693775679949
-
+<br>﹈<br>^1697930421091
 
 ﹇<br>
 How do I fetch data from a submodule repository and populate the submodule directory? 
@@ -772,8 +795,7 @@ How do I fetch data from a submodule repository and populate the submodule direc
 To fetch data from a submodule repository and populate the submodule directory, you need to run `git submodule update --init`.
 
 ⌂
-<br>﹈<br>^1693775679955
-
+<br>﹈<br>^1697930421097
 
 ﹇<br>
 What if I forgot to use the `--recursive` flag when cloning a repository with submodules? 
@@ -783,8 +805,7 @@ What if I forgot to use the `--recursive` flag when cloning a repository with su
 If you have already cloned a repository with submodules but forgot to use the `--recursive` flag, you can still fetch the submodules by running `git submodule update --init`.
 
 ⌂
-<br>﹈<br>^1693775679962
-
+<br>﹈<br>^1697930421103
 
 ﹇<br>
 How do I fetch data from submodules that have other submodules? 
@@ -794,8 +815,7 @@ How do I fetch data from submodules that have other submodules?
 If submodules have other submodules, you need to use the recursive option when fetching data: `git submodule update --init --recursive`.
 
 ⌂
-<br>﹈<br>^1693775679970
-
+<br>﹈<br>^1697930421110
 
 ﹇<br>
 What is the git command to list all submodules present in a repository?
@@ -805,8 +825,7 @@ What is the git command to list all submodules present in a repository?
 `git submodule status`
 
 ⌂
-<br>﹈<br>^1693775679976
-
+<br>﹈<br>^1697930421116
 
 ﹇<br>
 How can you view the configured submodules in a repository by examining a specific file?
@@ -816,11 +835,12 @@ How can you view the configured submodules in a repository by examining a specif
 By looking at the `.gitmodules` file in the root directory of the repository.
 
 ⌂
-<br>﹈<br>^1693775679984
+<br>﹈<br>^1697930421122
+
 
 ---
 
-> [!info]+ 🔜 Next Note(s):
->
+> [!INFO]+ 
+> Next Note(s):
 
 ---

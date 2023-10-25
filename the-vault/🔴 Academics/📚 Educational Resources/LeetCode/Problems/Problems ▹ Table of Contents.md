@@ -1,12 +1,12 @@
 ---
 title: Problems ▹ 📋 Table of Contents
 created: 2023-08-26 03:57
-updated: 2023-10-21T12:38
+updated: 2023-10-24T01:49
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academics/📚-educational-resources/name/leetcode
-  - 🔴-academics/📚-educational-resources/format/internet/website
+  - 🔴-academics/📚-educational-resources/source-format/internet/website
   - 🔴-academics/📚-educational-resources/discipline/computer-science
   - 🔴-academics/📚-educational-resources/name/leetcode//problems/problems-▹-📋-table-of-contents
   - study-note

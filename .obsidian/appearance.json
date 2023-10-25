@@ -1,6 +1,6 @@
 {
   "accentColor": "#734eca",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "nativeMenus": true,
   "translucency": true,
   "enabledCssSnippets": [
@@ -10,7 +10,8 @@
     "keyboard-button",
     "header-font-size",
     "code",
-    "callouts"
+    "callouts",
+    "icons"
   ],
   "monospaceFontFamily": "CaskaydiaCove Nerd Font",
   "textFontFamily": "Atkinson Hyperlegible",
