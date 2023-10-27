@@ -1,6 +1,6 @@
 ---
 created: 2023-10-07 15:19
-updated: 2023-10-21T12:38
+updated: 2023-10-07 15:19
 ---
 ## Goal
 Create an Obsidian plug-in based off of the plugin Highlightr that allows the  user to change the font color of the text.

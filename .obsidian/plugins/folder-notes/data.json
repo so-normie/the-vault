@@ -1,15 +1,15 @@
 {
-  "syncFolderName": true,
+  "syncFolderName": false,
   "ctrlKey": true,
   "altKey": false,
   "hideFolderNote": false,
   "templatePath": "",
-  "autoCreate": true,
+  "autoCreate": false,
   "enableCollapsing": false,
   "excludeFolders": [
     {
       "type": "folder",
-      "path": "the-vault/🔴 Academics",
+      "path": "",
       "subFolders": true,
       "disableSync": true,
       "disableAutoCreate": true,
@@ -18,54 +18,6 @@
       "position": 0,
       "excludeFromFolderOverview": false,
       "string": ""
-    },
-    {
-      "type": "pattern",
-      "string": "the-vault/assets*",
-      "position": 1,
-      "subFolders": false,
-      "disableSync": true,
-      "disableAutoCreate": true,
-      "disableFolderNote": false,
-      "enableCollapsing": false,
-      "excludeFromFolderOverview": false,
-      "path": ""
-    },
-    {
-      "type": "pattern",
-      "string": "the-vault/anki*",
-      "position": 2,
-      "subFolders": false,
-      "disableSync": true,
-      "disableAutoCreate": true,
-      "disableFolderNote": false,
-      "enableCollapsing": false,
-      "excludeFromFolderOverview": false,
-      "path": ""
-    },
-    {
-      "type": "pattern",
-      "string": "the-vault/templates*",
-      "position": 3,
-      "subFolders": false,
-      "disableSync": true,
-      "disableAutoCreate": true,
-      "disableFolderNote": false,
-      "enableCollapsing": false,
-      "excludeFromFolderOverview": false,
-      "path": ""
-    },
-    {
-      "type": "pattern",
-      "string": "the-vault/scripts*",
-      "position": 4,
-      "subFolders": false,
-      "disableSync": true,
-      "disableAutoCreate": true,
-      "disableFolderNote": false,
-      "enableCollapsing": false,
-      "excludeFromFolderOverview": false,
-      "path": ""
     }
   ],
   "showDeleteConfirmation": true,
@@ -74,10 +26,10 @@
   "underlineFolderInPath": true,
   "openFolderNoteOnClickInPath": true,
   "openInNewTab": false,
-  "folderNoteName": "{{folder_name}} ▹ Table of Contents",
+  "folderNoteName": "{{folder_name}} ▹ 📋 Table of Contents",
   "folderNoteType": ".md",
   "disableFolderHighlighting": false,
-  "newFolderNoteName": "{{folder_name}} ▹ Table of Contents",
+  "newFolderNoteName": "{{folder_name}} ▹ 📋 Table of Contents",
   "storageLocation": "insideFolder",
   "syncDelete": false,
   "showRenameConfirmation": true,
@@ -107,7 +59,7 @@
     "explorer": false,
     "path": false
   },
-  "settingsTab": "folder_overview",
+  "settingsTab": "general",
   "supportedFileTypes": [
     "md",
     "canvas"

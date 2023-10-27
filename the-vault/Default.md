@@ -1,6 +1,6 @@
 ---
 created: 2023-10-01 16:14
-updated: 2023-10-24T01:53
+updated: 2023-10-19T15:14
 cards-deck: Default
 ---
 
@@ -14,13 +14,13 @@ What is our favorite color?
 
 Red
 
-> [\!INFO]+ Note
+> [!info]+ Note
 > I love notes
 
-> [\!INFO]- Note
+> [!info]- Note
 > I love notes
 
-> [\!INFO] Note
+> [!info] Note
 > I love notes
 
 ⌂

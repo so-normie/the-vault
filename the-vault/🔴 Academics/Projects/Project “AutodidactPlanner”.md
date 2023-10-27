@@ -4,8 +4,9 @@ tags:
   - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/sql
   - data-garage/project-1
 cards-deck: Default::Computer Science
+version: v0.1
 created: 2023-10-07 15:19
-updated: 2023-10-24T01:53
+updated: 2023-10-17T19:15
 ---
 # Project “AutodidactPlanner”
 
@@ -18,7 +19,7 @@ updated: 2023-10-24T01:53
 
 ## I. Goal
 
->[\!INFOO]- What are we trying to achieve overall?
+>[!info]- What are we trying to achieve overall?
 >In this section, type a general description of the project. Don't worry if this goal will be modified in the future, for now simply define a direction to head towards to. In simple terms, what does this project do?
 
 Create a comprehensive client side application that can update my Calibre database, Excel sheet, etc.
@@ -41,7 +42,7 @@ journey
 
 ## III. Define
 
->[!INFO]- What are the limitations and more specific goals of our project? What tools can we use?
+>[!info]- What are the limitations and more specific goals of our project? What tools can we use?
 >In this section, type out the criteria and constraints of the project. After that, specify what programming languages, tools, libraries, etc. you will need to complete the project. Remember, this is *not* final.
 
 ### 2.1. Criteria & Constraints

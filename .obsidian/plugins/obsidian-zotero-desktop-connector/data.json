@@ -1,0 +1,30 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [
+    {
+      "name": "Formatted Bibliography :: IEEE (with URL)",
+      "format": "formatted-bibliography",
+      "cslStyle": "ieee-with-url"
+    },
+    {
+      "name": "Formatted Citation :: IEEE (with URL)",
+      "format": "formatted-citation",
+      "cslStyle": "ieee-with-url"
+    }
+  ],
+  "exportFormats": [
+    {
+      "name": "Import #1",
+      "outputPathTemplate": "{{citekey}}.md",
+      "imageOutputPathTemplate": "{{citekey}}/",
+      "imageBaseNameTemplate": "image"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": false,
+  "whichNotesToOpenAfterImport": "first-imported-note"
+}

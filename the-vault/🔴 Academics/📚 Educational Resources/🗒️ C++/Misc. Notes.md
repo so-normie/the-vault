@@ -1,7 +1,7 @@
 ---
 title: Misc. Notes
 created: 2023-09-03 08:46
-updated: 2023-10-25T11:58
+updated: 2023-10-16T18:53
 authors:
   - Edmund Leibert III
 tags:
@@ -208,7 +208,7 @@ False. [If you need to change the size of the array during runtime, you’ll hav
 
 
 ﹇<br>
-Are arrays contiguous in C++? If so, what is the benefit? Explain. 
+Are arrays contiguous in C++? If so, what is the benefit? 
 
 #card 
 
@@ -1648,27 +1648,6 @@ public:
 
 ⌂
 <br>﹈<br>^1694836978489
-
-﹇<br>
-Does `std::multiset` have a `.push()` method? 
-
-#card 
-
-No, it does not have a `.push()` method.
-
-⌂
-<br>﹈<br>
-
-﹇<br>
-Does `std::multiset` have a `.remove()`  method?
-
-#card 
-
-No, it does not have a `.remove()` method. 
-
-⌂
-<br>﹈<br>
-
 
 
 ---

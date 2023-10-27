@@ -3,9 +3,12 @@ tags:
   - 🔴-academics/📚-educational-resources/discipline/computer-science/spark
 cards-deck: Default::Computer Science
 created: 2023-09-12 11:38
-updated: 2023-10-21T13:20
+<<<<<<< HEAD
+updated: 2023-09-28 14:16
+=======
+updated: 2023-09-18 18:04
+>>>>>>> eb0cb116bf466b813753bf1c96d7b2d13d532edc
 ---
-
 Allocating only 10% of memory to a Spark executor can lead to issues such as "Container killed by YARN for exceeding memory limits" for several reasons:
 
 1. **Inadequate Memory for Task Execution**: Spark tasks within an executor require a certain amount of memory to function efficiently. When you allocate only 10% of the total memory to the executor, it may not have enough memory to accommodate the data, intermediate results, and other resources required for task execution. As a result, tasks might fail or perform poorly, leading to container termination.

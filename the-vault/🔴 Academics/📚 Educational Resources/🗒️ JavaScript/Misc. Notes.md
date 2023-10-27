@@ -1,32 +1,37 @@
 ---
 title: Misc. Notes
 created: 2023-09-03 08:46
-updated: 2023-10-24T01:26
+<<<<<<< HEAD
+updated: 2023-09-28 14:16
+=======
+updated: 2023-09-25 06:30
+>>>>>>> eb0cb116bf466b813753bf1c96d7b2d13d532edc
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academics/📚-educational-resources/name/🗒️-javascript/misc/notes
+  - 🔴-academics/📚-educational-resources/name/🗒️-javascript
   - 🔴-academics/📚-educational-resources/source-format/miscellaneous
   - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/javascript
+  - 🔴-academics/📚-educational-resources/name/🗒️-javascript/🔖-bookmark/🗒️-javascript/misc-notes
   - study-note
 cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ JavaScript::Misc. Notes
 ---
 
+
+---
+
+ > [!Info]+ 🕸️ All Mention(s): 
+ > d
+
+---
+
+ > [!Info]+ 🔙️ Previous Note(s): 
+ > d
+
+
+---
+
 #  Misc. Notes
-
----
-
- > [!INFO]+ 
- > All Mention(s): 
- > 
-
----
-
- > [!INFO]+ 
- > Previous Note(s): 
- > 
-
----
 
 ﹇<br>
 What command returns the current window/tab/document’s url? 
@@ -281,47 +286,18 @@ Other than variable substitution, what else can template literals do?
 
 
 ﹇<br>
-In JavaScript, are boolean's capitalized or in lowercase?
+When dealing with inline boolean expression, is the left, or right side, of the colon the value returned if the expression evaluated is true? 
 
 #card 
 
-In JavaScript, boolean values are written in lowercase. The two boolean values are `true` and `false`. Here is an example:
-
-```javascript
-let isCodingFun = true;
-let isFishTasty = false;
-console.log(isCodingFun);  // Outputs: true
-console.log(isFishTasty);  // Outputs: false
-```
-
-In the code above, `isCodingFun` is `true` and `isFishTasty` is `false`. Remember, JavaScript is case-sensitive, so writing `True` or `False` would result in an error or unexpected behavior. Always write boolean values as `true` or `false`.
-
-⌂
-<br>﹈<br>
-
-
-﹇<br>
-When dealing with inline Boolean expression, is the left, or right side, of the colon the value returned if the expression evaluated is true? 
-
-#card 
-
-In JavaScript, when using the ternary operator (`condition ? valueIfTrue : valueIfFalse`), the value to the left of the colon (`:`) is returned if the condition evaluates to `true`, and the value to the right of the colon is returned if the condition evaluates to `false`. Here’s an example:
-
-```javascript
-let age = 15;
-let beverage = (age >= 21) ? "Beer" : "Juice";
-console.log(beverage);  // Outputs: "Juice"
-```
-
-In this code, if `age` is 21 or over, `"Beer"` is assigned to `beverage`. If `age` is under 21, `"Juice"` is assigned to `beverage`. Since `age` is 15 in this case, `"Juice"` is outputted.
+The value to the left of the colon is true.
 
 ⌂
 <br>﹈<br>
 
 ---
 
-> [!Info] 
-> Next Note(s):
+> [!Info] 🔜 Next Note(s):
 > 
 
 ---
