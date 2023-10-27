@@ -1,1 +1,0 @@
-{"path":"main/assets/images/Pasted image 20230815100423.png","text":"SELECT city.name, country.name FROM city LEFT JOIN country ON city.country_id = country.id; cITY COUNTRY id name countryid id name 1 Paris 1 1 France 7] Berlin 7 2 Germany 3 Warsaw NuLL","libVersion":"0.2.3","langs":"eng"}

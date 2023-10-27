@@ -1,1 +1,0 @@
-{"path":"main/assets/images/Pasted image 20230807023937.png","text":"Parallel Aggregate in Mid-Plan Hash Join -> Finalize Aggregate -> Gather -> Partial Aggregate -> Partial Plan -> Hash -> Non-Partial Plan","libVersion":"0.2.3","langs":"eng"}

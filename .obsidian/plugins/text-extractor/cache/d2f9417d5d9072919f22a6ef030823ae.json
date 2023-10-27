@@ -1,1 +1,0 @@
-{"path":"the-vault/assets/images/Pasted image 20230815101404.png","text":"SELECT city.name, country.name FROM city FULL [OUTER] JOIN country ON city.country_id = country.id;","libVersion":"0.2.3","langs":"eng"}
