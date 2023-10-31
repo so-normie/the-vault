@@ -63,5 +63,9 @@
   "supportedFileTypes": [
     "md",
     "canvas"
-  ]
+  ],
+  "boldName": false,
+  "boldNameInPath": false,
+  "cursiveName": false,
+  "cursiveNameInPath": false
 }
