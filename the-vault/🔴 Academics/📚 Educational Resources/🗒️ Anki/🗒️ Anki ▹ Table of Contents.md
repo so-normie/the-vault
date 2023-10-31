@@ -1,31 +1,31 @@
 ---
-title: 🗒️ Anki
+title: Anki ▹ Table of Contents
 created: 2023-08-30 00:00
-updated: 2023-10-21T12:38
+updated: 2023-10-27T00:22
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academics/📚-educational-resources/name/🗒️-anki
+  - 🔴-academics/📚-educational-resources/name/anki/anki-▹-table-of-contents
   - 🔴-academics/📚-educational-resources/source-format/miscellaneous
   - 🔴-academics/📚-educational-resources/discipline/computer-science
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Anki
+cards-deck: 🔴 Academics::📚 Educational Resources::Anki::Anki ▹ Table of Contents
 ---
 
-
-# 🗒️ Anki
-
----
-
-## 🕸️ All Mention(s): 
+# Anki
 
 ---
 
-## 🔙 Previous Note(s):
+> [!ABSTRACT]
+> 
 
 ---
 
-## 🗒️ Anki
+> [!INFO] 
+> Previous Note(s):
+> 
+
+---
 
 ﹇<br>
 What does **burying** a card do?
@@ -75,6 +75,8 @@ No, the code will not be interpreted. The `format()` specifier is not supported.
 
 ---
 
-## 🔜 Next Note(s):
+> [!INFO]
+> Next Note(s):
+> 
 
 ---
