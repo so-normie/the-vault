@@ -1,0 +1,7 @@
+div.markdown-source-view > div.cm-editor > div.cm-scroller > .cm-sizer > div.cm-contentContainer > div.cm-gutters {
+  position: relative !important;
+}
+
+/* .markdown-source-view {
+  font-family: "CaskaydiaCove Nerd Font" !important;
+} */

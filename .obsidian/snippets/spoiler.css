@@ -1,0 +1,10 @@
+.spoiler {
+  filter: blur(3px);
+  transition-property: -webkit-filter;
+  transition-duration: .4s;
+}
+
+.spoiler:hover,
+.spoiler:focus {
+  filter: blur(0px);
+}
