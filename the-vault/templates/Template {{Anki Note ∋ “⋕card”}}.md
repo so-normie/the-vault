@@ -1,5 +1,5 @@
 ﹇<br>
-{{Question 
+{{Question}}
 
 #card 
 

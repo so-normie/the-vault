@@ -3,5 +3,5 @@
 # ...except for all files called data.json
 !.obsidian/plugins/**/data.json
 # ...except the flashcards plugin
-!.obsidian/plugins/flashcards
+!.obsidian/plugins/flashcards-obsidian
 
