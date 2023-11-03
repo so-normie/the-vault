@@ -19,5 +19,6 @@
     "the-vault/scripts/",
     "the-vault/anki/"
   ],
-  "trashOption": "local"
+  "trashOption": "local",
+  "newFileLocation": "current"
 }

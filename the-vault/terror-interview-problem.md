@@ -2,9 +2,7 @@
 created: 2023-09-27 11:20
 updated: 2023-10-08 22:03
 ---
-created: 2023-09-03 11:23
-updated: 2023-09-04 15:30
----
+
 # 1. Avoiding Monsters
 
 1. Avoiding the Monsters
@@ -34,3 +32,6 @@ Cell
 (1, 0)
 (2, 0)
 ```
+
+
+

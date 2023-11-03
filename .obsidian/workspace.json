@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6729671cb0063f26",
+        "id": "4263a9a47cc85ae8",
         "type": "tabs",
         "children": [
           {
-            "id": "0012f0eed3b36588",
+            "id": "e707026a3aba7935",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/Default.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/278. First Bad Version.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "ed08417e5281015b",
+            "id": "15f584a9efd93c6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academics/📚 Educational Resources/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ LaTeX/LaTeX.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -47,14 +47,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8bfb2c6059cb3575",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
-          },
-          {
             "id": "4bbd078a939f1607",
             "type": "leaf",
             "state": {
@@ -70,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:🔴-academics/📚-educational-resources",
+                "query": "Rollup",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,13 +86,21 @@
               "type": "surfing-tab-tree",
               "state": {}
             }
+          },
+          {
+            "id": "d8bd9e79e958e7e7",
+            "type": "leaf",
+            "state": {
+              "type": "trash-explorer",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 424.5
+    "width": 508.5,
+    "collapsed": true
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -111,12 +111,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "cc8193e4b63054cc",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
             "id": "fafe1fb10aade653",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/Default.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/278. First Bad Version.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/Default.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/278. First Bad Version.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,52 +177,52 @@
             }
           },
           {
-            "id": "cc8193e4b63054cc",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "9a138bc6750bd89e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "the-vault/Default.md"
-              }
-            }
-          },
-          {
             "id": "3abdc3d8f00e79f9",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "fb57af6af6b075fa",
+            "type": "leaf",
+            "state": {
+              "type": "ReferenceListView",
+              "state": {}
+            }
+          },
+          {
+            "id": "ce58a4bc600f9b0b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/278. First Bad Version.md"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 553.5,
+    "width": 358.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "flashcards-obsidian:Generate flashcards": false,
+      "omnisearch:Omnisearch": false,
+      "flashcards-obsidian:Generate flashcards": true,
       "surfing:surfing-bookmark-manager": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "omnisearch:Omnisearch": false,
       "chronology:Open Chronology": true,
       "custom-sort:Toggle custom sorting": false,
       "notion-like-tables:Create loom": true,
       "templater-obsidian:Templater": true,
       "obsidian-excalidraw-plugin:Create new drawing": true,
       "switcher:Open quick switcher": true,
-      "graph:Open graph view": true,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": true,
@@ -224,46 +232,57 @@
       "random-note:Open random note": true,
       "audio-recorder:Start/stop recording": true,
       "workspaces:Manage workspace layouts": false,
-      "publish:Publish changes...": true
+      "publish:Publish changes...": true,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "0012f0eed3b36588",
+  "active": "e707026a3aba7935",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academics/📚 Educational Resources/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
-    "the-vault/Default.md",
-    "the-vault/src/🔴 Academics/📚 Educational Resources/Docker Docs/Guides/Get started/Get started ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academics/📚 Educational Resources/🗒️ Git/Misc. Notes.md",
-    "the-vault/src/🔴 Academics/📚 Educational Resources/Typst/Misc. Notes.md",
-    "the-vault/templates/Template {{Anki Note ∋ “⋕card-reverse”}}.md",
-    "the-vault/templates/Template {{Anki Note ∋ “⋕card”}}.md",
-    "2023-10-31.md",
-    "the-vault/src/🔴 Academics/📚 Educational Resources/Docker Docs/Guides/Guides ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academics/📚 Educational Resources/Docker Docs/Guides/Get started",
-    "the-vault/src/🔴 Academics/📚 Educational Resources/Docker Docs/Docker Docs ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academics/📚 Educational Resources/Docker Docs/Guides",
-    "the-vault/src/🔴 Academics/📚 Educational Resources/🗒️ Docker/🗒️ Docker ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academics/📚 Educational Resources/Docker Docs",
-    "the-vault/🔴 Academics/📚 Educational Resources/🗒️ C++/🗒️ C++ ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ LaTeX/LaTeX.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/278. First Bad Version.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2917. Find the K-or of an Array.md",
+    "the-vault/templates/Template {{LeetCode ∋ Problem}}.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1. Two Sum.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/111. Minimum Depth of Binary Tree.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Rollup/Misc. Notes.md",
+    "the-vault/zotero/My Library.bib",
+    "the-vault/zotero",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/MSVC.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/Algorithms library.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Rollup/Rollup ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESBuild/🗒️ ESBuild ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Rollup",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/0. Introduction ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
     "the-vault/🔴 Academics/🔴 Academics ∋ Table of Contents.md",
-    "the-vault/src",
-    "the-vault/🔴 Academics/📚 Educational Resources/🗒️ Bash/Misc. Notes.md",
-    "the-vault/🔴 Academics/Projects/Projects ∋ Table of Contents.md",
-    "the-vault/anki/anki ∋ Table of Contents.md",
-    "the-vault/the-vault ∋ Table of Contents.md",
-    "the-vault/🔴 Academics/leila physics homework.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/University Physics with Modern Physics, 15th Edition (2019)/UNIT CONVERSION FACTORS.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/University Physics with Modern Physics, 15th Edition (2019)/TO THE STUDENT.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/University Physics with Modern Physics, 15th Edition (2019)/sortspec.md.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/University Physics with Modern Physics, 15th Edition (2019)/DETAILED CONTENTS.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/University Physics with Modern Physics, 15th Edition (2019)/INDEX.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/University Physics with Modern Physics, 15th Edition (2019)/CREDITS.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/University Physics with Modern Physics, 15th Edition (2019)/Chapter 9 Rotation of Rigid Bodies.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/University Physics with Modern Physics, 15th Edition (2019)/Chapter 42 Molecules and Condensed Matter.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/University Physics with Modern Physics, 15th Edition (2019)",
-    "the-vault/🔴 Academics/📚 Educational Resources/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)",
-    "the-vault/🔴 Academics/📚 Educational Resources/Python in a Nutshell, 4th Edition (2023)",
-    "the-vault/🔴 Academics/📚 Educational Resources/Precalculus꞉ Mathematics for Calculus, 7th Edition",
-    "the-vault/🔴 Academics/📚 Educational Resources/Master Your Data with Excel and Power BI",
-    "the-vault/🔴 Academics/📚 Educational Resources/Learning SQL, 3rd Edition (2020)"
+    "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
+    "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ∋ Table of Contents.md",
+    "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ∋ Table of Contents.md",
+    "the-vault/🔴 Academics/📚 Educational Resources/📚 Educational Resources ∋ Table of Contents.md",
+    "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction",
+    "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy",
+    "the-vault/🔴 Academics/📚 Educational Resources",
+    "the-vault/🔴 Academics",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/1. Array and String ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/005. array and string welcome 👨🏻‍🏫.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/4. Graph ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Anki/Anki ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/8. Mixed Recall ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/7. Exhaustive Recursion/7. Exhaustive Recursion ∋ Table of Contents.md",
+    "the-vault/src/🔵 Vocational",
+    "the-vault/assets/images/docker-docs-docker-architecture.png",
+    "the-vault/assets/images/Pasted image 20230913161050.png",
+    "the-vault/assets/images/Pasted image 20230924131220.png",
+    "the-vault/assets/images/Pasted image 20230815101404.png",
+    "the-vault/assets/images/Pasted image 20230813091946.png",
+    "the-vault/assets/images/Pasted image 20230810211121.png",
+    "the-vault/assets/images/Pasted image 20230807030022.png",
+    "the-vault/assets/images/Pasted image 20230807025824.png",
+    "the-vault/assets/images/Pasted image 20230807024546.png",
+    "the-vault/assets/images/Pasted image 20230815100423.png",
+    "the-vault.code-workspace",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started"
   ]
 }
