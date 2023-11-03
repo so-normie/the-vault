@@ -1,7 +1,2 @@
-# Ignore all files in the folder .obsidian/plugins/*
-.obsidian/plugins/*
-# ...except for all files called data.json
-!.obsidian/plugins/**/data.json
-# ...except the flashcards plugin
-!.obsidian/plugins/flashcards-obsidian
+
 

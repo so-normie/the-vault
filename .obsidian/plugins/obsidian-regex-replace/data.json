@@ -1,0 +1,10 @@
+{
+  "findText": "\\#card",
+  "replaceText": "\n#card\n",
+  "useRegEx": true,
+  "selOnly": false,
+  "caseInsensitive": false,
+  "processLineBreak": true,
+  "processTab": false,
+  "prefillFind": false
+}

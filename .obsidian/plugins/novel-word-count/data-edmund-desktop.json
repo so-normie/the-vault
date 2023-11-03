@@ -1,0 +1,2816 @@
+{
+  "settings": {
+    "countType": "notefolderonly",
+    "countType2": "none",
+    "countType3": "none",
+    "abbreviateDescriptions": false,
+    "alignment": "inline",
+    "debugMode": false,
+    "wordsPerPage": 300,
+    "charsPerPage": 1500,
+    "wordCountType": "SpaceDelimited",
+    "pageCountType": "ByWords"
+  },
+  "cachedCounts": {
+    "🔵 Vocation/🔍 Job Hunt/Flow.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 30,
+      "pageCount": 0.1,
+      "characterCount": 197,
+      "nonWhitespaceCharacterCount": 136,
+      "createdDate": 1678221586543,
+      "modifiedDate": 1677979229000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 www.web.dev.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503619,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 www.thecsharpacademy.com.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503625,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 www.w3.org WAI WCA.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503622,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 www.schema.org.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503631,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 www.schema.org (2).md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503635,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 www.iamtimcorey.com.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503638,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 www.gameprogrammingpatterns.com.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503641,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 www.devdrills.io.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503649,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 www.developer.mozilla.org.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503645,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 WAI WCA.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503652,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 w3 validator.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503654,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 typescript handbook.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503657,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 The Probability Companion for Engineers and Scientists.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503666,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Type Challenges.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503660,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 SQL Cookbook.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503673,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 T-SQL Window Functions for Data Analysis and Beyond.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503668,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 StrataScratch.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503671,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 SICP JavaScript Edition.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503678,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Schuam's Outlines꞉ General Topology.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503683,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 SILOTA Advanced SQL Tricks.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503675,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Serious Python.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503681,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Schaum's Outlines꞉ Linear Algebra.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503686,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Schaum's Outlines꞉ Complex Variables.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503688,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Real Complex Analysis.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503690,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 React - The Complete Guide.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503692,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Python tutorial docs.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503694,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Programmingn C⋕ 10.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503696,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Pro Git Book.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503698,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Pre-Calculus Mathematics.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 21,
+      "pageCount": 0.07,
+      "characterCount": 250,
+      "nonWhitespaceCharacterCount": 229,
+      "createdDate": 1677174503700,
+      "modifiedDate": 1678360626000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Practices of the Python Pro.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503702,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 pluralsight.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503704,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Pandas Library.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503707,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Origometry.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503709,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 nodejs.org en.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503711,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 neetcode.io.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503714,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Microsoft Excel 365.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503716,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 microsoft doc developer learn.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503718,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Matters Computational꞉ Ideas, Algorithms, Source Code.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503720,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Mathematical Statistics and Data Analysis.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503722,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Linear Algebra.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503724,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 LeetCode.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 40,
+      "pageCount": 0.13333333333333333,
+      "characterCount": 454,
+      "nonWhitespaceCharacterCount": 411,
+      "createdDate": 1677174503793,
+      "modifiedDate": 1679080892000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Learning SQL.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503807,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 learn micrcosoft aspnet core.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503809,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 JavaScript+ The Definitive Guide.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503811,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Introductory to Functional Analysis with Applications.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503813,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Introduction to Real Analysis.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503816,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Introduction to Partial Differential Equations with Applications.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503818,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Introduction to Cryptography with Coding Theory.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503820,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Introduction to Algorithms.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503822,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Introduction to Algorithms (2).md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503824,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 html spec whatwg.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503826,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 HackerRank.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503828,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Guide to Competitive Programmning.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503830,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Graph Theory.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503832,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Graduate Texts in Mathematics.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503834,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Geometry.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503836,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Fluent React.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503838,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Fluent Python.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503840,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Elementary Statistics.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 13,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503842,
+      "modifiedDate": 1675053140000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Elementary Linear Algebra.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503844,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Elementary Introduction to Number Theory.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503846,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Dive into Design Patterns.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503848,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Discrete Mathematical Structures.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 13,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503852,
+      "modifiedDate": 1675001051000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Designing Data-Intensive Applications.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503853,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Cracking the Coding Interview.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503855,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Contemporary Abstract Algebra.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503858,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Complex Variables꞉ Introduction and Applications.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503859,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Complex Variables and Applications.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503861,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 College Algebra.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 13,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503863,
+      "modifiedDate": 1675001049000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Build an app with ASPNET (Udemy).md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503865,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 BeautifulSoup4 docs.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503868,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Bash Cookbook.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503870,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Base Mathematics.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503872,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Architecture Patterns with Python.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503874,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 All the Math You Missed.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503876,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Algorithms.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503878,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Advanced Engineering Mathematics.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503881,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Advanced Calculus꞉ A Course in Mathematical Analysis.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503224,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Advanced Calculus.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503586,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/ZOther TRASH/📕 Abstract Algebra with a Concrete Introduction.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 12,
+      "createdDate": 1677174503616,
+      "modifiedDate": 1675000775000
+    },
+    "🔴 Academics/Study Notes/Political Science/📕 Introduction to Formal Political Theory.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 12,
+      "pageCount": 0.04,
+      "characterCount": 165,
+      "nonWhitespaceCharacterCount": 151,
+      "createdDate": 1677816466502,
+      "modifiedDate": 1678360496000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/University Physics with Modern Physics 15th Edition.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 8,
+      "pageCount": 0.02666666666666667,
+      "characterCount": 53,
+      "nonWhitespaceCharacterCount": 46,
+      "createdDate": 1679040309276,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/UNIT CONVERSION FACTORS.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 4,
+      "pageCount": 0.013333333333333334,
+      "characterCount": 25,
+      "nonWhitespaceCharacterCount": 22,
+      "createdDate": 1679040309282,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/TO THE INSTRUCTOR.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 4,
+      "pageCount": 0.013333333333333334,
+      "characterCount": 19,
+      "nonWhitespaceCharacterCount": 16,
+      "createdDate": 1679040309292,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/TO THE STUDENT.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 4,
+      "pageCount": 0.013333333333333334,
+      "characterCount": 16,
+      "nonWhitespaceCharacterCount": 13,
+      "createdDate": 1679040309288,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Title Page.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 3,
+      "pageCount": 0.01,
+      "characterCount": 12,
+      "nonWhitespaceCharacterCount": 10,
+      "createdDate": 1679040309285,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/sortspec.md.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 290,
+      "pageCount": 0.9666666666666667,
+      "characterCount": 2172,
+      "nonWhitespaceCharacterCount": 1684,
+      "createdDate": 1679040309614,
+      "modifiedDate": 1678708598000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Practice makes perfect....md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 4,
+      "pageCount": 0.013333333333333334,
+      "characterCount": 27,
+      "nonWhitespaceCharacterCount": 24,
+      "createdDate": 1679040309295,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/INDEX.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 10,
+      "pageCount": 0.03333333333333333,
+      "characterCount": 153,
+      "nonWhitespaceCharacterCount": 142,
+      "createdDate": 1679040309302,
+      "modifiedDate": 1679273357000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/DETAILED CONTENTS.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 3,
+      "pageCount": 0.01,
+      "characterCount": 19,
+      "nonWhitespaceCharacterCount": 17,
+      "createdDate": 1679040309299,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Copyright.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 2,
+      "pageCount": 0.006666666666666667,
+      "characterCount": 11,
+      "nonWhitespaceCharacterCount": 10,
+      "createdDate": 1679040309313,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/CREDITS.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 10,
+      "pageCount": 0.03333333333333333,
+      "characterCount": 155,
+      "nonWhitespaceCharacterCount": 144,
+      "createdDate": 1679040309306,
+      "modifiedDate": 1679273363000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 7 Potential Energy and Energy Conservation.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 8,
+      "pageCount": 0.02666666666666667,
+      "characterCount": 52,
+      "nonWhitespaceCharacterCount": 45,
+      "createdDate": 1679040309324,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 9 Rotation of Rigid Bodies.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 7,
+      "pageCount": 0.023333333333333334,
+      "characterCount": 36,
+      "nonWhitespaceCharacterCount": 30,
+      "createdDate": 1679040309310,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 8 Momentum, Impulse, and Collisions.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 7,
+      "pageCount": 0.023333333333333334,
+      "characterCount": 45,
+      "nonWhitespaceCharacterCount": 39,
+      "createdDate": 1679040309317,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 44 Particle Physics and Cosmology.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 7,
+      "pageCount": 0.023333333333333334,
+      "characterCount": 43,
+      "nonWhitespaceCharacterCount": 37,
+      "createdDate": 1679040309329,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 6 Work and Kinetic Energy.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 7,
+      "pageCount": 0.023333333333333334,
+      "characterCount": 35,
+      "nonWhitespaceCharacterCount": 29,
+      "createdDate": 1679040309320,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 5 Applying Newton’s Laws.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 6,
+      "pageCount": 0.02,
+      "characterCount": 34,
+      "nonWhitespaceCharacterCount": 29,
+      "createdDate": 1679040309347,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 40 Quantum Mechanics I꞉ Wave Functions.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 8,
+      "pageCount": 0.02666666666666667,
+      "characterCount": 48,
+      "nonWhitespaceCharacterCount": 41,
+      "createdDate": 1679040309343,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 43 Nuclear Physics.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 5,
+      "pageCount": 0.016666666666666666,
+      "characterCount": 28,
+      "nonWhitespaceCharacterCount": 24,
+      "createdDate": 1679040309333,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 42 Molecules and Condensed Matter.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 7,
+      "pageCount": 0.023333333333333334,
+      "characterCount": 43,
+      "nonWhitespaceCharacterCount": 37,
+      "createdDate": 1679040309337,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 4 Newton’s Laws of Motion.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 7,
+      "pageCount": 0.023333333333333334,
+      "characterCount": 35,
+      "nonWhitespaceCharacterCount": 29,
+      "createdDate": 1679040309359,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 41 Quantum Mechanics II꞉ Atomic Structure.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 8,
+      "pageCount": 0.02666666666666667,
+      "characterCount": 51,
+      "nonWhitespaceCharacterCount": 44,
+      "createdDate": 1679040309351,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 39 Particles Behaving as Waves.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 7,
+      "pageCount": 0.023333333333333334,
+      "characterCount": 40,
+      "nonWhitespaceCharacterCount": 34,
+      "createdDate": 1679040309364,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 38 Photons꞉ Light Waves Behaving as Particles.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 9,
+      "pageCount": 0.03,
+      "characterCount": 55,
+      "nonWhitespaceCharacterCount": 47,
+      "createdDate": 1679040309369,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 36 Diffraction.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 4,
+      "pageCount": 0.013333333333333334,
+      "characterCount": 24,
+      "nonWhitespaceCharacterCount": 21,
+      "createdDate": 1679040309372,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 37 Relativity.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 4,
+      "pageCount": 0.013333333333333334,
+      "characterCount": 23,
+      "nonWhitespaceCharacterCount": 20,
+      "createdDate": 1679040309376,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 35 Interference.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 4,
+      "pageCount": 0.013333333333333334,
+      "characterCount": 25,
+      "nonWhitespaceCharacterCount": 22,
+      "createdDate": 1679040309381,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 34 Geometric Optics.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 5,
+      "pageCount": 0.016666666666666666,
+      "characterCount": 29,
+      "nonWhitespaceCharacterCount": 25,
+      "createdDate": 1679040309393,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 33 The Nature and Propagation of Light.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 9,
+      "pageCount": 0.03,
+      "characterCount": 48,
+      "nonWhitespaceCharacterCount": 40,
+      "createdDate": 1679040309407,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 32 Electromagnetic Waves.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 5,
+      "pageCount": 0.016666666666666666,
+      "characterCount": 34,
+      "nonWhitespaceCharacterCount": 30,
+      "createdDate": 1679040309402,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 31 Alternating Current.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 5,
+      "pageCount": 0.016666666666666666,
+      "characterCount": 32,
+      "nonWhitespaceCharacterCount": 28,
+      "createdDate": 1679040309398,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 30 Inductance.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 4,
+      "pageCount": 0.013333333333333334,
+      "characterCount": 23,
+      "nonWhitespaceCharacterCount": 20,
+      "createdDate": 1679040309411,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 27 Magnetic Field and Magnetic Forces.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 8,
+      "pageCount": 0.02666666666666667,
+      "characterCount": 47,
+      "nonWhitespaceCharacterCount": 40,
+      "createdDate": 1679040309426,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 3 Motion in Two or Three Dimensions.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 9,
+      "pageCount": 0.03,
+      "characterCount": 45,
+      "nonWhitespaceCharacterCount": 37,
+      "createdDate": 1679040309418,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 29 Electromagnetic Induction.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 5,
+      "pageCount": 0.016666666666666666,
+      "characterCount": 38,
+      "nonWhitespaceCharacterCount": 34,
+      "createdDate": 1679040309415,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 28 Sources of Magnetic Field.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 7,
+      "pageCount": 0.023333333333333334,
+      "characterCount": 38,
+      "nonWhitespaceCharacterCount": 32,
+      "createdDate": 1679040309422,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 26 Direct-Current Circuits.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 5,
+      "pageCount": 0.016666666666666666,
+      "characterCount": 36,
+      "nonWhitespaceCharacterCount": 32,
+      "createdDate": 1679040309430,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 25 Current, Resistance, and Electromotive Force.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 8,
+      "pageCount": 0.02666666666666667,
+      "characterCount": 57,
+      "nonWhitespaceCharacterCount": 50,
+      "createdDate": 1679040309439,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 24 Capacitance.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 4,
+      "pageCount": 0.013333333333333334,
+      "characterCount": 24,
+      "nonWhitespaceCharacterCount": 21,
+      "createdDate": 1679040309435,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 23 Electric Potential.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 5,
+      "pageCount": 0.016666666666666666,
+      "characterCount": 31,
+      "nonWhitespaceCharacterCount": 27,
+      "createdDate": 1679040309443,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 22 Gauss’s Law.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 5,
+      "pageCount": 0.016666666666666666,
+      "characterCount": 24,
+      "nonWhitespaceCharacterCount": 20,
+      "createdDate": 1679040309446,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 20 The Second Law of Thermodynamics.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 8,
+      "pageCount": 0.02666666666666667,
+      "characterCount": 45,
+      "nonWhitespaceCharacterCount": 38,
+      "createdDate": 1679040309539,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 21 Electric Charge and Electric Field.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 8,
+      "pageCount": 0.02666666666666667,
+      "characterCount": 47,
+      "nonWhitespaceCharacterCount": 40,
+      "createdDate": 1679040309544,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 18 Thermal Properties of Matter.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 7,
+      "pageCount": 0.023333333333333334,
+      "characterCount": 41,
+      "nonWhitespaceCharacterCount": 35,
+      "createdDate": 1679040309553,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 2 Motion Along a Straight Line.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 8,
+      "pageCount": 0.02666666666666667,
+      "characterCount": 40,
+      "nonWhitespaceCharacterCount": 33,
+      "createdDate": 1679040309547,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 19 The First Law of Thermodynamics.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 8,
+      "pageCount": 0.02666666666666667,
+      "characterCount": 44,
+      "nonWhitespaceCharacterCount": 37,
+      "createdDate": 1679040309550,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 16 Sound and Hearing.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 6,
+      "pageCount": 0.02,
+      "characterCount": 30,
+      "nonWhitespaceCharacterCount": 25,
+      "createdDate": 1679040309568,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 15 Mechanical Waves.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 5,
+      "pageCount": 0.016666666666666666,
+      "characterCount": 29,
+      "nonWhitespaceCharacterCount": 25,
+      "createdDate": 1679040309564,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 17 Temperature and Heat.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 6,
+      "pageCount": 0.02,
+      "characterCount": 33,
+      "nonWhitespaceCharacterCount": 28,
+      "createdDate": 1679040309557,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 14 Periodic Motion.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 5,
+      "pageCount": 0.016666666666666666,
+      "characterCount": 28,
+      "nonWhitespaceCharacterCount": 24,
+      "createdDate": 1679040309560,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 13 Gravitation.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 4,
+      "pageCount": 0.013333333333333334,
+      "characterCount": 24,
+      "nonWhitespaceCharacterCount": 21,
+      "createdDate": 1679040309571,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 12 Fluid Mechanics.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 5,
+      "pageCount": 0.016666666666666666,
+      "characterCount": 28,
+      "nonWhitespaceCharacterCount": 24,
+      "createdDate": 1679040309573,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 11 Equilibrium and Elasticity.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 6,
+      "pageCount": 0.02,
+      "characterCount": 39,
+      "nonWhitespaceCharacterCount": 34,
+      "createdDate": 1679040309575,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 10 Dynamics of Rotational Motion.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 7,
+      "pageCount": 0.023333333333333334,
+      "characterCount": 42,
+      "nonWhitespaceCharacterCount": 36,
+      "createdDate": 1679040309578,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/Chapter 1 Units, Physical Quantities, and Vectors.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 8,
+      "pageCount": 0.02666666666666667,
+      "characterCount": 51,
+      "nonWhitespaceCharacterCount": 44,
+      "createdDate": 1679040309585,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/BRIEF CONTENTS.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 3,
+      "pageCount": 0.01,
+      "characterCount": 16,
+      "nonWhitespaceCharacterCount": 14,
+      "createdDate": 1679040309581,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/APPLICATIONS.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 2,
+      "pageCount": 0.006666666666666667,
+      "characterCount": 14,
+      "nonWhitespaceCharacterCount": 13,
+      "createdDate": 1679040309592,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/APPENDIX E.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 3,
+      "pageCount": 0.01,
+      "characterCount": 12,
+      "nonWhitespaceCharacterCount": 10,
+      "createdDate": 1679040309594,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/APPENDIX F.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 3,
+      "pageCount": 0.01,
+      "characterCount": 12,
+      "nonWhitespaceCharacterCount": 10,
+      "createdDate": 1679040309589,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/APPENDIX D.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 3,
+      "pageCount": 0.01,
+      "characterCount": 12,
+      "nonWhitespaceCharacterCount": 10,
+      "createdDate": 1679040309601,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/APPENDIX B.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 3,
+      "pageCount": 0.01,
+      "characterCount": 12,
+      "nonWhitespaceCharacterCount": 10,
+      "createdDate": 1679040309596,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/APPENDIX C.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 3,
+      "pageCount": 0.01,
+      "characterCount": 12,
+      "nonWhitespaceCharacterCount": 10,
+      "createdDate": 1679040309598,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/APPENDIX A.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 3,
+      "pageCount": 0.01,
+      "characterCount": 12,
+      "nonWhitespaceCharacterCount": 10,
+      "createdDate": 1679040309606,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/ABOUT THE AUTHORS.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 4,
+      "pageCount": 0.013333333333333334,
+      "characterCount": 19,
+      "nonWhitespaceCharacterCount": 16,
+      "createdDate": 1679040309610,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Physics/📕 University Physics with Modern Physics, 15ᵗʰ Edition (2019)/ANSWERS TO ODD-NUMBERED PROBLEMS.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 5,
+      "pageCount": 0.016666666666666666,
+      "characterCount": 34,
+      "nonWhitespaceCharacterCount": 30,
+      "createdDate": 1679040309603,
+      "modifiedDate": 1678708264000
+    },
+    "🔴 Academics/Study Notes/Mind Map.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 67,
+      "pageCount": 0.22333333333333333,
+      "characterCount": 585,
+      "nonWhitespaceCharacterCount": 472,
+      "createdDate": 1676165436451,
+      "modifiedDate": 1678473547000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Precalculus꞉ Mathematics for Calculus, 7ᵗʰ Edition.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 21,
+      "pageCount": 0.07,
+      "characterCount": 250,
+      "nonWhitespaceCharacterCount": 229,
+      "createdDate": 1677174503228,
+      "modifiedDate": 1678360260000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/sortspec.md.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 154,
+      "pageCount": 0.5133333333333333,
+      "characterCount": 1098,
+      "nonWhitespaceCharacterCount": 915,
+      "createdDate": 1679040317578,
+      "modifiedDate": 1678894708000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/Appendix B.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 110,
+      "pageCount": 0.36666666666666664,
+      "characterCount": 960,
+      "nonWhitespaceCharacterCount": 845,
+      "createdDate": 1679040317575,
+      "modifiedDate": 1678894119000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/Preface.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 649,
+      "pageCount": 2.1633333333333336,
+      "characterCount": 5884,
+      "nonWhitespaceCharacterCount": 5138,
+      "createdDate": 1679040325475,
+      "modifiedDate": 1678955513000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/Appendix A.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 110,
+      "pageCount": 0.36666666666666664,
+      "characterCount": 960,
+      "nonWhitespaceCharacterCount": 845,
+      "createdDate": 1679040318402,
+      "modifiedDate": 1678894124000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/8. Techniques of Integration.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 112,
+      "pageCount": 0.37333333333333335,
+      "characterCount": 978,
+      "nonWhitespaceCharacterCount": 861,
+      "createdDate": 1679040317534,
+      "modifiedDate": 1678891628000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/9. First-Order Differential Equations.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 112,
+      "pageCount": 0.37333333333333335,
+      "characterCount": 987,
+      "nonWhitespaceCharacterCount": 870,
+      "createdDate": 1679040317537,
+      "modifiedDate": 1678891640000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/7. Integrals and Transcendental Functions.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 113,
+      "pageCount": 0.37666666666666665,
+      "characterCount": 991,
+      "nonWhitespaceCharacterCount": 873,
+      "createdDate": 1679040317531,
+      "modifiedDate": 1678891616000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/6. Applications of Definite Integrals.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 113,
+      "pageCount": 0.37666666666666665,
+      "characterCount": 987,
+      "nonWhitespaceCharacterCount": 869,
+      "createdDate": 1679040317290,
+      "modifiedDate": 1678891597000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/5. Integrals.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 110,
+      "pageCount": 0.36666666666666664,
+      "characterCount": 962,
+      "nonWhitespaceCharacterCount": 847,
+      "createdDate": 1679040317288,
+      "modifiedDate": 1678891580000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/4. Applications of Derivatives.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 112,
+      "pageCount": 0.37333333333333335,
+      "characterCount": 980,
+      "nonWhitespaceCharacterCount": 863,
+      "createdDate": 1679040317280,
+      "modifiedDate": 1678891564000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/2. Limits and Continuity.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 112,
+      "pageCount": 0.37333333333333335,
+      "characterCount": 974,
+      "nonWhitespaceCharacterCount": 857,
+      "createdDate": 1679040317286,
+      "modifiedDate": 1678891572000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/19. Fourier Series and Wavelets.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 113,
+      "pageCount": 0.37666666666666665,
+      "characterCount": 981,
+      "nonWhitespaceCharacterCount": 863,
+      "createdDate": 1679040317568,
+      "modifiedDate": 1678891788000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/3. Derivatives.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 110,
+      "pageCount": 0.36666666666666664,
+      "characterCount": 964,
+      "nonWhitespaceCharacterCount": 849,
+      "createdDate": 1679040317283,
+      "modifiedDate": 1678891568000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/18. Complex Functions.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 111,
+      "pageCount": 0.37,
+      "characterCount": 971,
+      "nonWhitespaceCharacterCount": 855,
+      "createdDate": 1679040317565,
+      "modifiedDate": 1678891774000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/17. Second-Order Differential Equations.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 112,
+      "pageCount": 0.37333333333333335,
+      "characterCount": 989,
+      "nonWhitespaceCharacterCount": 872,
+      "createdDate": 1679040317561,
+      "modifiedDate": 1678891760000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/16. Integrals and Vector Fields.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 113,
+      "pageCount": 0.37666666666666665,
+      "characterCount": 981,
+      "nonWhitespaceCharacterCount": 863,
+      "createdDate": 1679040317558,
+      "modifiedDate": 1678891750000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/15. Multiple Integrals.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 111,
+      "pageCount": 0.37,
+      "characterCount": 972,
+      "nonWhitespaceCharacterCount": 856,
+      "createdDate": 1679040317555,
+      "modifiedDate": 1678891740000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/13. Vector-Valued Functions and Motion in Space.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 115,
+      "pageCount": 0.38333333333333336,
+      "characterCount": 997,
+      "nonWhitespaceCharacterCount": 877,
+      "createdDate": 1679040317547,
+      "modifiedDate": 1678891721000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/14. Partial Derivatives.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 111,
+      "pageCount": 0.37,
+      "characterCount": 973,
+      "nonWhitespaceCharacterCount": 857,
+      "createdDate": 1679040317551,
+      "modifiedDate": 1678891731000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/12. Vectors and the Geometry Space.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 114,
+      "pageCount": 0.38,
+      "characterCount": 984,
+      "nonWhitespaceCharacterCount": 865,
+      "createdDate": 1679040317544,
+      "modifiedDate": 1678891698000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/11. Parametric Equations and Polar Coordinates.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 114,
+      "pageCount": 0.38,
+      "characterCount": 996,
+      "nonWhitespaceCharacterCount": 877,
+      "createdDate": 1679040317572,
+      "modifiedDate": 1678891683000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/10. Infinite Sequences and Series.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 113,
+      "pageCount": 0.37666666666666665,
+      "characterCount": 982,
+      "nonWhitespaceCharacterCount": 865,
+      "createdDate": 1679040317540,
+      "modifiedDate": 1678891668000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Thomas’ Calculus꞉ Early Transcendentals, 15ᵗʰ Edition/1. Functions.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1824,
+      "pageCount": 6.08,
+      "characterCount": 12512,
+      "nonWhitespaceCharacterCount": 10464,
+      "createdDate": 1679040318403,
+      "modifiedDate": 1679193999468
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 How to Read and Do Proofs꞉ An Introduction to Mathematical Thought Processes, 6ᵗʰ Edition.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 16,
+      "pageCount": 0.05333333333333334,
+      "characterCount": 244,
+      "nonWhitespaceCharacterCount": 228,
+      "createdDate": 1677174410388,
+      "modifiedDate": 1678360263000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 How to Prove It꞉ A Structured Approach, 3ʳᵈ Edition.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 19,
+      "pageCount": 0.06333333333333334,
+      "characterCount": 235,
+      "nonWhitespaceCharacterCount": 216,
+      "createdDate": 1677174410381,
+      "modifiedDate": 1678360266000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Foundations of Higher Mathematics, 3ʳᵈ Edition.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 20,
+      "pageCount": 0.06666666666666667,
+      "characterCount": 235,
+      "nonWhitespaceCharacterCount": 215,
+      "createdDate": 1677174410385,
+      "modifiedDate": 1678360272000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Fundamentals of Differential Equations and Boundary Value Problems, 7ᵗʰ Edition.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 23,
+      "pageCount": 0.07666666666666666,
+      "characterCount": 267,
+      "nonWhitespaceCharacterCount": 243,
+      "createdDate": 1677174503234,
+      "modifiedDate": 1678360269000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Essential Calculus Skills Practice Workbook with Full Solutions.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 17,
+      "pageCount": 0.056666666666666664,
+      "characterCount": 236,
+      "nonWhitespaceCharacterCount": 219,
+      "createdDate": 1677174503230,
+      "modifiedDate": 1678360274000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Elementary Algebra, 4ᵗʰ Edition.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 37,
+      "pageCount": 0.12333333333333334,
+      "characterCount": 347,
+      "nonWhitespaceCharacterCount": 309,
+      "createdDate": 1677174503883,
+      "modifiedDate": 1678360277000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Discrete Mathematics and Its Applications, 8ᵗʰ Edition.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 19,
+      "pageCount": 0.06333333333333334,
+      "characterCount": 237,
+      "nonWhitespaceCharacterCount": 218,
+      "createdDate": 1677174410374,
+      "modifiedDate": 1678360279000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Discrete Mathematical Structures, 6ᵗʰ Edition.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 21,
+      "pageCount": 0.07,
+      "characterCount": 238,
+      "nonWhitespaceCharacterCount": 217,
+      "createdDate": 1677174406378,
+      "modifiedDate": 1678360282000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Concrete Mathematics꞉ A Foundation for Computer Science, 2ⁿᵈ Edition.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 22,
+      "pageCount": 0.07333333333333333,
+      "characterCount": 266,
+      "nonWhitespaceCharacterCount": 244,
+      "createdDate": 1677174406389,
+      "modifiedDate": 1678360288000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Discrete and Combinatorial Mathematics (Classic Version), 5ᵗʰ Edition.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 20,
+      "pageCount": 0.06666666666666667,
+      "characterCount": 251,
+      "nonWhitespaceCharacterCount": 231,
+      "createdDate": 1677174410378,
+      "modifiedDate": 1678360286000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Calculus꞉ Early Transcendentals, 9ᵗʰ Edition.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 106,
+      "pageCount": 0.35333333333333333,
+      "characterCount": 919,
+      "nonWhitespaceCharacterCount": 810,
+      "createdDate": 1678462064990,
+      "modifiedDate": 1678360291000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 Calculus with Multiple Variables Essential Skills Workbook꞉ Includes Vector Calculus and Full Solutions.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 17,
+      "pageCount": 0.056666666666666664,
+      "characterCount": 273,
+      "nonWhitespaceCharacterCount": 256,
+      "createdDate": 1677174503232,
+      "modifiedDate": 1678360294000
+    },
+    "🔴 Academics/Study Notes/Mathematics/📕 An Introduction to Abstract Mathematics, 1ˢᵗ Edition.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 22,
+      "pageCount": 0.07333333333333333,
+      "characterCount": 245,
+      "nonWhitespaceCharacterCount": 223,
+      "createdDate": 1677174503226,
+      "modifiedDate": 1678360296000
+    },
+    "🔴 Academics/Study Notes/English/Merriam-Webster/🌐 Word of the Day.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 2262,
+      "pageCount": 7.54,
+      "characterCount": 18745,
+      "nonWhitespaceCharacterCount": 16383,
+      "createdDate": 1679040325488,
+      "modifiedDate": 1679233321000
+    },
+    "🔴 Academics/Study Notes/English/Merriam-Webster/🌐 Word Games.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1573,
+      "pageCount": 5.243333333333333,
+      "characterCount": 14431,
+      "nonWhitespaceCharacterCount": 12668,
+      "createdDate": 1679040325492,
+      "modifiedDate": 1679245327000
+    },
+    "🔴 Academics/Study Notes/English/Merriam-Webster/🌐 🤖 ChatGPT Generated Flash Cards.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 3799,
+      "pageCount": 12.663333333333334,
+      "characterCount": 31214,
+      "nonWhitespaceCharacterCount": 27208,
+      "createdDate": 1679040325485,
+      "modifiedDate": 1679244256000
+    },
+    "🔴 Academics/Study Notes/English/Merriam-Webster/🌐 Weekly Word Games.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 291,
+      "pageCount": 0.97,
+      "characterCount": 2221,
+      "nonWhitespaceCharacterCount": 1893,
+      "createdDate": 1679142120391,
+      "modifiedDate": 1679070731000
+    },
+    "🔴 Academics/Study Notes/Default Deck.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 16,
+      "pageCount": 0.05333333333333334,
+      "characterCount": 116,
+      "nonWhitespaceCharacterCount": 96,
+      "createdDate": 1675909133775,
+      "modifiedDate": 1675911097000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 C++ reference/Standard library (headers).md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 18,
+      "pageCount": 0.06,
+      "characterCount": 251,
+      "nonWhitespaceCharacterCount": 231,
+      "createdDate": 1679300303805,
+      "modifiedDate": 1679232405000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 C++ reference/sortspec.md.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 128,
+      "pageCount": 0.4266666666666667,
+      "characterCount": 995,
+      "nonWhitespaceCharacterCount": 835,
+      "createdDate": 1679300303808,
+      "modifiedDate": 1679232607000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 C++ reference/Language.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 16,
+      "pageCount": 0.05333333333333334,
+      "characterCount": 233,
+      "nonWhitespaceCharacterCount": 215,
+      "createdDate": 1679300303801,
+      "modifiedDate": 1679232257000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 C++ reference/Concurrency support library.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 18,
+      "pageCount": 0.06,
+      "characterCount": 252,
+      "nonWhitespaceCharacterCount": 232,
+      "createdDate": 1679300303803,
+      "modifiedDate": 1679232300000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 C++ reference/Filesystem library.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1679300303798,
+      "modifiedDate": 1679232071000
+    },
+    "🔴 Academics/Study Notes/Computer Science/📕 Python in a Nutshell, 4ᵗʰ Edition (2023).md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 342,
+      "pageCount": 1.14,
+      "characterCount": 4838,
+      "nonWhitespaceCharacterCount": 4396,
+      "createdDate": 1679040287151,
+      "modifiedDate": 1678564886000
+    },
+    "🔴 Academics/Study Notes/Computer Science/📕 Introduction to Algorithms, 4ᵗʰ Edition (2022).md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1677174406365,
+      "modifiedDate": 1677058265000
+    },
+    "🔴 Academics/Study Notes/Computer Science/📕 Fluent Python, 2ⁿᵈ Edition (2022).md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1676163870402,
+      "modifiedDate": 1676163885953
+    },
+    "🔴 Academics/Study Notes/Computer Science/🏗️ Data Garage/Data Garage꞉ Project 1.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 185,
+      "pageCount": 0.6166666666666667,
+      "characterCount": 1813,
+      "nonWhitespaceCharacterCount": 1349,
+      "createdDate": 1676165088228,
+      "modifiedDate": 1678357576000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 The Official Guide to Mermaid.js.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1678221586533,
+      "modifiedDate": 1677978560000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Structy/sortspec.md.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 99,
+      "pageCount": 0.33,
+      "characterCount": 645,
+      "nonWhitespaceCharacterCount": 528,
+      "createdDate": 1679142120546,
+      "modifiedDate": 1679079905000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Structy/7. Exhaustive Recursion.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 38,
+      "pageCount": 0.12666666666666668,
+      "characterCount": 450,
+      "nonWhitespaceCharacterCount": 408,
+      "createdDate": 1679142120518,
+      "modifiedDate": 1679079567000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Structy/8. Mixed Recall.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 114,
+      "pageCount": 0.38,
+      "characterCount": 860,
+      "nonWhitespaceCharacterCount": 742,
+      "createdDate": 1679142120528,
+      "modifiedDate": 1679079651000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Structy/6. Stack.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 36,
+      "pageCount": 0.12,
+      "characterCount": 399,
+      "nonWhitespaceCharacterCount": 360,
+      "createdDate": 1679142120521,
+      "modifiedDate": 1679079589000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Structy/4. Graph.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 77,
+      "pageCount": 0.25666666666666665,
+      "characterCount": 632,
+      "nonWhitespaceCharacterCount": 552,
+      "createdDate": 1679142120532,
+      "modifiedDate": 1679079666000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Structy/5. Dynamic Programming.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 76,
+      "pageCount": 0.25333333333333335,
+      "characterCount": 656,
+      "nonWhitespaceCharacterCount": 577,
+      "createdDate": 1679142120525,
+      "modifiedDate": 1679079635000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Structy/3. Binary Tree.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 93,
+      "pageCount": 0.31,
+      "characterCount": 679,
+      "nonWhitespaceCharacterCount": 576,
+      "createdDate": 1679142120536,
+      "modifiedDate": 1679079684000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Structy/2. Linked List.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 82,
+      "pageCount": 0.2733333333333333,
+      "characterCount": 640,
+      "nonWhitespaceCharacterCount": 537,
+      "createdDate": 1679142120539,
+      "modifiedDate": 1679079704000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Structy/1. Array and String.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 53,
+      "pageCount": 0.17666666666666667,
+      "characterCount": 492,
+      "nonWhitespaceCharacterCount": 425,
+      "createdDate": 1679142120542,
+      "modifiedDate": 1679079727000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Structy/0. Introduction.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 2627,
+      "pageCount": 8.756666666666666,
+      "characterCount": 19045,
+      "nonWhitespaceCharacterCount": 16214,
+      "createdDate": 1675909278563,
+      "modifiedDate": 1679086255000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 PostgreSQL Documentation.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1677174406372,
+      "modifiedDate": 1677058249000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Poetry Documentation.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 14,
+      "pageCount": 0.04666666666666667,
+      "characterCount": 231,
+      "nonWhitespaceCharacterCount": 214,
+      "createdDate": 1678462065008,
+      "modifiedDate": 1678360554000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 MSYS2 Documentation/What is MSYS2？.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 125,
+      "pageCount": 0.4166666666666667,
+      "characterCount": 1165,
+      "nonWhitespaceCharacterCount": 1028,
+      "createdDate": 1679040293564,
+      "modifiedDate": 1678612218000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LeetCode.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1677174406368,
+      "modifiedDate": 1677058158000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Modern Modern CMake/sortspec.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 111,
+      "pageCount": 0.37,
+      "characterCount": 742,
+      "nonWhitespaceCharacterCount": 609,
+      "createdDate": 1679040317292,
+      "modifiedDate": 1678884865000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Modern Modern CMake/Setup.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 17,
+      "pageCount": 0.056666666666666664,
+      "characterCount": 192,
+      "nonWhitespaceCharacterCount": 173,
+      "createdDate": 1679040316838,
+      "modifiedDate": 1678851920000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Modern Modern CMake/9. Finding Packages.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 18,
+      "pageCount": 0.06,
+      "characterCount": 205,
+      "nonWhitespaceCharacterCount": 185,
+      "createdDate": 1679040316858,
+      "modifiedDate": 1678852043000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Modern Modern CMake/6. Project structure.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 18,
+      "pageCount": 0.06,
+      "characterCount": 206,
+      "nonWhitespaceCharacterCount": 186,
+      "createdDate": 1679040316851,
+      "modifiedDate": 1678852011000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Modern Modern CMake/8. Debugging.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 17,
+      "pageCount": 0.056666666666666664,
+      "characterCount": 198,
+      "nonWhitespaceCharacterCount": 179,
+      "createdDate": 1679040316856,
+      "modifiedDate": 1678852031000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Modern Modern CMake/7. Common Problems and Solutions.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 20,
+      "pageCount": 0.06666666666666667,
+      "characterCount": 218,
+      "nonWhitespaceCharacterCount": 196,
+      "createdDate": 1679040316854,
+      "modifiedDate": 1678852022000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Modern Modern CMake/4. Working with Targets.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 19,
+      "pageCount": 0.06333333333333334,
+      "characterCount": 209,
+      "nonWhitespaceCharacterCount": 188,
+      "createdDate": 1679040316845,
+      "modifiedDate": 1678851981000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Modern Modern CMake/5. Variables explained.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 18,
+      "pageCount": 0.06,
+      "characterCount": 208,
+      "nonWhitespaceCharacterCount": 188,
+      "createdDate": 1679040316849,
+      "modifiedDate": 1678851996000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Modern Modern CMake/3. Your first CMakeLists.txt.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 19,
+      "pageCount": 0.06333333333333334,
+      "characterCount": 214,
+      "nonWhitespaceCharacterCount": 193,
+      "createdDate": 1679040316843,
+      "modifiedDate": 1678851968000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Modern Modern CMake/2. Building with CMake.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 19,
+      "pageCount": 0.06333333333333334,
+      "characterCount": 208,
+      "nonWhitespaceCharacterCount": 187,
+      "createdDate": 1679040316840,
+      "modifiedDate": 1678851950000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Modern Modern CMake/11. Functions in CMake.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 19,
+      "pageCount": 0.06333333333333334,
+      "characterCount": 208,
+      "nonWhitespaceCharacterCount": 187,
+      "createdDate": 1679040316863,
+      "modifiedDate": 1678852061000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Modern Modern CMake/10. ROOT.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 17,
+      "pageCount": 0.056666666666666664,
+      "characterCount": 194,
+      "nonWhitespaceCharacterCount": 175,
+      "createdDate": 1679040316860,
+      "modifiedDate": 1678852050000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 Modern Modern CMake/1. Introduction.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 352,
+      "pageCount": 1.1733333333333333,
+      "characterCount": 2326,
+      "nonWhitespaceCharacterCount": 1950,
+      "createdDate": 1679040316866,
+      "modifiedDate": 1678853072000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 JavaScript.info.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1676163870402,
+      "modifiedDate": 1676163870402
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter O꞉ Bit Manipulation (optional chapter).md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 49,
+      "pageCount": 0.16333333333333333,
+      "characterCount": 745,
+      "nonWhitespaceCharacterCount": 693,
+      "createdDate": 1679040287444,
+      "modifiedDate": 1678584918000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/sortspec.md.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 225,
+      "pageCount": 0.75,
+      "characterCount": 1581,
+      "nonWhitespaceCharacterCount": 1318,
+      "createdDate": 1679040316832,
+      "modifiedDate": 1678862397000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter M꞉ Move Semantics and Smart Pointers.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 215,
+      "pageCount": 0.7166666666666667,
+      "characterCount": 2147,
+      "nonWhitespaceCharacterCount": 1904,
+      "createdDate": 1679040287730,
+      "modifiedDate": 1678585456000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 9꞉ Compound Types꞉ References and Pointers.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 101,
+      "pageCount": 0.33666666666666667,
+      "characterCount": 1623,
+      "nonWhitespaceCharacterCount": 1519,
+      "createdDate": 1679040287456,
+      "modifiedDate": 1678584999000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 8꞉ Type Conversion and Function Overloading.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 117,
+      "pageCount": 0.39,
+      "characterCount": 2129,
+      "nonWhitespaceCharacterCount": 2010,
+      "createdDate": 1679040287453,
+      "modifiedDate": 1678584982000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 5꞉ Operators.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 63,
+      "pageCount": 0.21,
+      "characterCount": 1140,
+      "nonWhitespaceCharacterCount": 1074,
+      "createdDate": 1679040287442,
+      "modifiedDate": 1678584859000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 7꞉ Control Flow and Error Handling.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 139,
+      "pageCount": 0.4633333333333333,
+      "characterCount": 2390,
+      "nonWhitespaceCharacterCount": 2247,
+      "createdDate": 1679040287450,
+      "modifiedDate": 1678584955000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 6꞉ Scope, Duration, and Linkage.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 122,
+      "pageCount": 0.4066666666666667,
+      "characterCount": 2151,
+      "nonWhitespaceCharacterCount": 2027,
+      "createdDate": 1679040287448,
+      "modifiedDate": 1678584936000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 4꞉ Fundamental Data Types.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 278,
+      "pageCount": 0.9266666666666666,
+      "characterCount": 3339,
+      "nonWhitespaceCharacterCount": 3043,
+      "createdDate": 1679040316643,
+      "modifiedDate": 1678845607000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 3꞉ Debugging C++ Programs.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 93,
+      "pageCount": 0.31,
+      "characterCount": 1530,
+      "nonWhitespaceCharacterCount": 1434,
+      "createdDate": 1679040287440,
+      "modifiedDate": 1678584681000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 2꞉ C++ Basics꞉ Functions and Files.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 116,
+      "pageCount": 0.38666666666666666,
+      "characterCount": 1929,
+      "nonWhitespaceCharacterCount": 1811,
+      "createdDate": 1679040287437,
+      "modifiedDate": 1678584613000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 22꞉ std꞉꞉string.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 57,
+      "pageCount": 0.19,
+      "characterCount": 1047,
+      "nonWhitespaceCharacterCount": 982,
+      "createdDate": 1679040316647,
+      "modifiedDate": 1678845953000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 23꞉ Input and Output (I⟋O).md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 107,
+      "pageCount": 0.3566666666666667,
+      "characterCount": 1217,
+      "nonWhitespaceCharacterCount": 1100,
+      "createdDate": 1679040287738,
+      "modifiedDate": 1678585531000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 20꞉ Exceptions.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 74,
+      "pageCount": 0.24666666666666667,
+      "characterCount": 1344,
+      "nonWhitespaceCharacterCount": 1268,
+      "createdDate": 1679040287723,
+      "modifiedDate": 1678585329000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 21꞉ The Standard Template Library.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 39,
+      "pageCount": 0.13,
+      "characterCount": 615,
+      "nonWhitespaceCharacterCount": 574,
+      "createdDate": 1679040287734,
+      "modifiedDate": 1678585490000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 1꞉ C++ Basics.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 95,
+      "pageCount": 0.31666666666666665,
+      "characterCount": 1632,
+      "nonWhitespaceCharacterCount": 1535,
+      "createdDate": 1679040287435,
+      "modifiedDate": 1678584580000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 18꞉ Virtual Functions.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 104,
+      "pageCount": 0.3466666666666667,
+      "characterCount": 1759,
+      "nonWhitespaceCharacterCount": 1653,
+      "createdDate": 1679040287720,
+      "modifiedDate": 1678585235000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 19꞉ Templates and Classes.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 55,
+      "pageCount": 0.18333333333333332,
+      "characterCount": 1011,
+      "nonWhitespaceCharacterCount": 954,
+      "createdDate": 1679040287726,
+      "modifiedDate": 1678585358000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 16꞉ An Introduction to Object Relationships.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 49,
+      "pageCount": 0.16333333333333333,
+      "characterCount": 929,
+      "nonWhitespaceCharacterCount": 876,
+      "createdDate": 1679040287712,
+      "modifiedDate": 1678585189000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 17꞉ Inheritance.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 81,
+      "pageCount": 0.27,
+      "characterCount": 1438,
+      "nonWhitespaceCharacterCount": 1354,
+      "createdDate": 1679040287715,
+      "modifiedDate": 1678585207000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 15꞉ Reserved for Future Reorganization.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 19,
+      "pageCount": 0.06333333333333334,
+      "characterCount": 228,
+      "nonWhitespaceCharacterCount": 207,
+      "createdDate": 1679040287709,
+      "modifiedDate": 1678585168000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 13꞉ Basic Object-oriented Programming.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 124,
+      "pageCount": 0.41333333333333333,
+      "characterCount": 2286,
+      "nonWhitespaceCharacterCount": 2160,
+      "createdDate": 1679040287704,
+      "modifiedDate": 1678585126000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 14꞉ Operator overloading.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 132,
+      "pageCount": 0.44,
+      "characterCount": 2464,
+      "nonWhitespaceCharacterCount": 2330,
+      "createdDate": 1679040287707,
+      "modifiedDate": 1678585150000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 12꞉ Functions.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 67,
+      "pageCount": 0.22333333333333333,
+      "characterCount": 1144,
+      "nonWhitespaceCharacterCount": 1074,
+      "createdDate": 1679040287701,
+      "modifiedDate": 1678585108000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 11꞉ Arrays, Strings, and Dynamic Allocation.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 414,
+      "pageCount": 1.38,
+      "characterCount": 4316,
+      "nonWhitespaceCharacterCount": 3885,
+      "createdDate": 1679040295713,
+      "modifiedDate": 1679080114000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 10꞉ Compound Types꞉ Enums and Structs.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 104,
+      "pageCount": 0.3466666666666667,
+      "characterCount": 1845,
+      "nonWhitespaceCharacterCount": 1739,
+      "createdDate": 1679040287458,
+      "modifiedDate": 1678585071000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Appendix B꞉ C++ Updates.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 37,
+      "pageCount": 0.12333333333333334,
+      "characterCount": 589,
+      "nonWhitespaceCharacterCount": 550,
+      "createdDate": 1679040287433,
+      "modifiedDate": 1678581957000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Chapter 0꞉ Introduction ⟋ Getting Started.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 4293,
+      "pageCount": 14.31,
+      "characterCount": 29414,
+      "nonWhitespaceCharacterCount": 24738,
+      "createdDate": 1677174406375,
+      "modifiedDate": 1679080141000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Appendix C꞉ The End.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 21,
+      "pageCount": 0.07,
+      "characterCount": 281,
+      "nonWhitespaceCharacterCount": 257,
+      "createdDate": 1679040287741,
+      "modifiedDate": 1678585586000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 LearnCpp.com/Appendix A꞉ Miscellaneous Subjects.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 40,
+      "pageCount": 0.13333333333333333,
+      "characterCount": 653,
+      "nonWhitespaceCharacterCount": 610,
+      "createdDate": 1679040316649,
+      "modifiedDate": 1678845999000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 HackerRank.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1677174406362,
+      "modifiedDate": 1677058195000
+    },
+    "🔴 Academics/Study Notes/Computer Science/🌐 AWS Educate.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1523,
+      "pageCount": 5.076666666666667,
+      "characterCount": 10471,
+      "nonWhitespaceCharacterCount": 8856,
+      "createdDate": 1677174406359,
+      "modifiedDate": 1679187487764
+    },
+    "🔴 Academics/Study Notes/Business/📕 Master Your Data with Excel and Power BI.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 67,
+      "pageCount": 0.22333333333333333,
+      "characterCount": 685,
+      "nonWhitespaceCharacterCount": 615,
+      "createdDate": 1678221586530,
+      "modifiedDate": 1678939831000
+    },
+    "🔴 Academics/Study Notes/Business/Microsoft Excel.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1679040287149,
+      "modifiedDate": 1678557645000
+    },
+    "🔴 Academics/Projects/Project “MeDev”.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 2,
+      "pageCount": 0.006666666666666667,
+      "characterCount": 7,
+      "nonWhitespaceCharacterCount": 6,
+      "createdDate": 1675978540154,
+      "modifiedDate": 1675978556072
+    },
+    "🔴 Academics/Projects/Project “FilterForObsidianSortable”.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1677174417082,
+      "modifiedDate": 1677095881000
+    },
+    "🔴 Academics/Projects/Project “Colortype”.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 63,
+      "pageCount": 0.21,
+      "characterCount": 315,
+      "nonWhitespaceCharacterCount": 250,
+      "createdDate": 1675965754999,
+      "modifiedDate": 1675992453772
+    },
+    "🔴 Academics/Projects/Project “BetterAnkiDeckGeneration”.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1676165401027,
+      "modifiedDate": 1676165401027
+    },
+    "🔴 Academics/Projects/Project “BetterWinget”.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 12,
+      "pageCount": 0.04,
+      "characterCount": 74,
+      "nonWhitespaceCharacterCount": 63,
+      "createdDate": 1675983221911,
+      "modifiedDate": 1675983378534
+    },
+    "🔴 Academics/Projects/Project “Backbone”.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 12,
+      "pageCount": 0.04,
+      "characterCount": 62,
+      "nonWhitespaceCharacterCount": 50,
+      "createdDate": 1675966588704,
+      "modifiedDate": 1675966619361
+    },
+    "🔴 Academics/Projects/Project “AutodidactPlanner”.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 281,
+      "pageCount": 0.9366666666666666,
+      "characterCount": 1798,
+      "nonWhitespaceCharacterCount": 1469,
+      "createdDate": 1678462066986,
+      "modifiedDate": 1678950407000
+    },
+    "🔴 Academics/Projects/Project Kaban Board.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 71,
+      "pageCount": 0.23666666666666666,
+      "characterCount": 506,
+      "nonWhitespaceCharacterCount": 416,
+      "createdDate": 1675965083240,
+      "modifiedDate": 1678940075000
+    },
+    "War.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 330,
+      "pageCount": 1.1,
+      "characterCount": 1776,
+      "nonWhitespaceCharacterCount": 1404,
+      "createdDate": 1678221586904,
+      "modifiedDate": 1678899718000
+    },
+    "Tag Organization.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 206,
+      "pageCount": 0.6866666666666666,
+      "characterCount": 2780,
+      "nonWhitespaceCharacterCount": 2561,
+      "createdDate": 1675886074289,
+      "modifiedDate": 1678851871000
+    },
+    "Templates/Anki Deck (Template).md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 8,
+      "pageCount": 0.02666666666666667,
+      "characterCount": 44,
+      "nonWhitespaceCharacterCount": 36,
+      "createdDate": 1676164095999,
+      "modifiedDate": 1676164404141
+    },
+    "excalibrain.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 18098,
+      "pageCount": 60.32666666666667,
+      "characterCount": 191771,
+      "nonWhitespaceCharacterCount": 144345,
+      "createdDate": 1678462066983,
+      "modifiedDate": 1678612449000
+    },
+    "Device Configuration for Laptop and Desktop.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 778,
+      "pageCount": 2.5933333333333333,
+      "characterCount": 5625,
+      "nonWhitespaceCharacterCount": 4815,
+      "createdDate": 1675874869066,
+      "modifiedDate": 1678864586000
+    },
+    "Assets/Mermaid/Flowchart Process.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1678462064979,
+      "modifiedDate": 1678416248000
+    },
+    "Assets/Excalidraw/excalidraw-rough-draft.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1898,
+      "pageCount": 6.326666666666667,
+      "characterCount": 20588,
+      "nonWhitespaceCharacterCount": 14764,
+      "createdDate": 1675991613888,
+      "modifiedDate": 1675993117161
+    },
+    "Assets/Excalidraw/excalidraw-imagination-city-map.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 5530,
+      "pageCount": 18.433333333333334,
+      "characterCount": 63395,
+      "nonWhitespaceCharacterCount": 48056,
+      "createdDate": 1678462064973,
+      "modifiedDate": 1678379214000
+    },
+    "Assets/Excalidraw/excalidraw-data-garage-project-1-criteria.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 224,
+      "pageCount": 0.7466666666666667,
+      "characterCount": 2573,
+      "nonWhitespaceCharacterCount": 2087,
+      "createdDate": 1676421474356,
+      "modifiedDate": 1676436289000
+    },
+    "Assets/Excalidraw/Drawing 2023-03-09 02.54.58.excalidraw.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 286,
+      "pageCount": 0.9533333333333334,
+      "characterCount": 3236,
+      "nonWhitespaceCharacterCount": 2584,
+      "createdDate": 1678462063820,
+      "modifiedDate": 1678359733000
+    }
+  }
+}
