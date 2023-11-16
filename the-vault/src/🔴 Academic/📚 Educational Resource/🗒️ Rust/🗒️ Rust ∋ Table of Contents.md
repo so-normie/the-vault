@@ -9,8 +9,8 @@ tags:
   - 🔴-academic/📚-educational-resource/discipline/computer-science
   - 🔴-academic/📚-educational-resource/name/🗒️-rust/🔖-bookmark/🗒️-rust
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Rust
-updated: 2023-11-02T12:51
+cards-deck: 🔴 Academic::📚 Educational ResourceRust
+updated: 2023-11-05T01:47
 ---
 
 ## 🔙 Previous Note(s):

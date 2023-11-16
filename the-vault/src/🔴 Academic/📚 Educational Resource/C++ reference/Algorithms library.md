@@ -10,7 +10,7 @@ tags:
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/cpp
   - 🔴-academic/📚-educational-resource/name/🌐-leetcode/🔖-bookmark/algorithms-library
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🌐 C++ reference::Algorithms library ▹ 📋 Table of Contents
+cards-deck: 🔴 Academic::📚 Educational Resource++ reference::Algorithms library ▹ 📋 Table of Contents
 ---
 
 > [!Abstract]+ Abstract

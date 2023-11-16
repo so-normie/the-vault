@@ -6625,11 +6625,15 @@ var runAutoFractionCursor = (view, ctx, range) => {
       }
     }
   }
-  let numerator = view.state.sliceDoc(start2, to);
-  if (numerator === "")
+  if (start2 === to) {
     return false;
-  if (curLine.charAt(start2) === "(" && curLine.charAt(to - 1) === ")") {
-    numerator = numerator.slice(1, -1);
+  }
+  let numerator = view.state.sliceDoc(start2, to);
+  if (numerator.at(0) === "(" && numerator.at(-1) === ")") {
+    const closing = findMatchingBracket(numerator, 0, "(", ")", false);
+    if (closing === numerator.length - 1) {
+      numerator = numerator.slice(1, -1);
+    }
   }
   const replacement = `${settings.autofractionSymbol}{${numerator}}{$0}$1`;
   queueSnippet(view, start2, to, replacement, "/");

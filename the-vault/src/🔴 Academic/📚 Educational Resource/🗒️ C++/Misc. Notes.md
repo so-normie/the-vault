@@ -10,7 +10,7 @@ tags:
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/cpp
   - 🔴-academic/📚-educational-resource/name/🗒️-cpp/🔖-bookmark/🗒️-cpp/misc-notes
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ C++::Misc. Notes
+cards-deck: 🔴 Academic::📚 Educational Resource️ C++::Misc. Notes
 ---
 
 # Misc. Notes

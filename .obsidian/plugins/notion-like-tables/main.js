@@ -2401,7 +2401,7 @@ var require_react_dom_development = __commonJS({
         var HostPortal = 4;
         var HostComponent = 5;
         var HostText = 6;
-        var Fragment21 = 7;
+        var Fragment22 = 7;
         var Mode = 8;
         var ContextConsumer = 9;
         var ContextProvider = 10;
@@ -3478,7 +3478,7 @@ var require_react_dom_development = __commonJS({
               return "DehydratedFragment";
             case ForwardRef:
               return getWrappedName$1(type, type.render, "ForwardRef");
-            case Fragment21:
+            case Fragment22:
               return "Fragment";
             case HostComponent:
               return type;
@@ -12843,7 +12843,7 @@ var require_react_dom_development = __commonJS({
             }
           }
           function updateFragment2(returnFiber, current2, fragment, lanes, key) {
-            if (current2 === null || current2.tag !== Fragment21) {
+            if (current2 === null || current2.tag !== Fragment22) {
               var created = createFiberFromFragment(fragment, returnFiber.mode, lanes, key);
               created.return = returnFiber;
               return created;
@@ -13245,7 +13245,7 @@ var require_react_dom_development = __commonJS({
               if (child.key === key) {
                 var elementType = element.type;
                 if (elementType === REACT_FRAGMENT_TYPE) {
-                  if (child.tag === Fragment21) {
+                  if (child.tag === Fragment22) {
                     deleteRemainingChildren(returnFiber, child.sibling);
                     var existing = useFiber(child, element.props.children);
                     existing.return = returnFiber;
@@ -17351,7 +17351,7 @@ var require_react_dom_development = __commonJS({
               var _resolvedProps2 = workInProgress2.elementType === type ? _unresolvedProps2 : resolveDefaultProps(type, _unresolvedProps2);
               return updateForwardRef(current2, workInProgress2, type, _resolvedProps2, renderLanes2);
             }
-            case Fragment21:
+            case Fragment22:
               return updateFragment(current2, workInProgress2, renderLanes2);
             case Mode:
               return updateMode(current2, workInProgress2, renderLanes2);
@@ -17623,7 +17623,7 @@ var require_react_dom_development = __commonJS({
             case SimpleMemoComponent:
             case FunctionComponent:
             case ForwardRef:
-            case Fragment21:
+            case Fragment22:
             case Mode:
             case Profiler:
             case ContextConsumer:
@@ -21837,7 +21837,7 @@ var require_react_dom_development = __commonJS({
           return fiber;
         }
         function createFiberFromFragment(elements, mode, lanes, key) {
-          var fiber = createFiber(Fragment21, elements, key, mode);
+          var fiber = createFiber(Fragment22, elements, key, mode);
           fiber.lanes = lanes;
           return fiber;
         }
@@ -30578,7 +30578,7 @@ var require_react_is_development = __commonJS({
         var ContextProvider = REACT_PROVIDER_TYPE;
         var Element2 = REACT_ELEMENT_TYPE;
         var ForwardRef = REACT_FORWARD_REF_TYPE;
-        var Fragment21 = REACT_FRAGMENT_TYPE;
+        var Fragment22 = REACT_FRAGMENT_TYPE;
         var Lazy = REACT_LAZY_TYPE;
         var Memo = REACT_MEMO_TYPE;
         var Portal = REACT_PORTAL_TYPE;
@@ -30637,7 +30637,7 @@ var require_react_is_development = __commonJS({
         exports.ContextProvider = ContextProvider;
         exports.Element = Element2;
         exports.ForwardRef = ForwardRef;
-        exports.Fragment = Fragment21;
+        exports.Fragment = Fragment22;
         exports.Lazy = Lazy;
         exports.Memo = Memo;
         exports.Portal = Portal;
@@ -30845,7 +30845,7 @@ var require_react_is_development2 = __commonJS({
         var ContextProvider = REACT_PROVIDER_TYPE;
         var Element2 = REACT_ELEMENT_TYPE;
         var ForwardRef = REACT_FORWARD_REF_TYPE;
-        var Fragment21 = REACT_FRAGMENT_TYPE;
+        var Fragment22 = REACT_FRAGMENT_TYPE;
         var Lazy = REACT_LAZY_TYPE;
         var Memo = REACT_MEMO_TYPE;
         var Portal = REACT_PORTAL_TYPE;
@@ -30913,7 +30913,7 @@ var require_react_is_development2 = __commonJS({
         exports.ContextProvider = ContextProvider;
         exports.Element = Element2;
         exports.ForwardRef = ForwardRef;
-        exports.Fragment = Fragment21;
+        exports.Fragment = Fragment22;
         exports.Lazy = Lazy;
         exports.Memo = Memo;
         exports.Portal = Portal;
@@ -31813,11 +31813,11 @@ var require_react_jsx_runtime_development = __commonJS({
             return jsxWithValidation(type, props, key, false);
           }
         }
-        var jsx138 = jsxWithValidationDynamic;
-        var jsxs63 = jsxWithValidationStatic;
+        var jsx139 = jsxWithValidationDynamic;
+        var jsxs64 = jsxWithValidationStatic;
         exports.Fragment = REACT_FRAGMENT_TYPE;
-        exports.jsx = jsx138;
-        exports.jsxs = jsxs63;
+        exports.jsx = jsx139;
+        exports.jsxs = jsxs64;
       })();
     }
   }
@@ -41468,6 +41468,30 @@ var MigrateState15 = class {
   }
 };
 
+// src/shared/loom-state/migrate/migrate-state-16.ts
+var MigrateState152 = class {
+  migrate(prevState) {
+    const { sources } = prevState.model;
+    const nextSources = sources.map((source) => {
+      if (source.type === "folder" /* FOLDER */) {
+        const { id: id2, path, type } = source;
+        return {
+          id: id2,
+          path,
+          type,
+          includeSubfolders: true
+        };
+      }
+      return source;
+    });
+    return __spreadProps(__spreadValues({}, prevState), {
+      model: __spreadProps(__spreadValues({}, prevState.model), {
+        sources: nextSources
+      })
+    });
+  }
+};
+
 // src/shared/loom-state/validate-state.ts
 var import_runtypes = __toESM(require_lib());
 var FilterOperatorUnion = (0, import_runtypes.Union)((0, import_runtypes.Literal)("and"), (0, import_runtypes.Literal)("or"));
@@ -41768,14 +41792,13 @@ var BaseSource = (0, import_runtypes.Record)({
 var ObsidianFolderSource = BaseSource.extend({
   type: (0, import_runtypes.Literal)("folder" /* FOLDER */),
   path: import_runtypes.String,
-  showNested: import_runtypes.Boolean,
-  showMarkdownOnly: import_runtypes.Boolean
+  includeSubfolders: import_runtypes.Boolean
 });
 var ObsidianTagSource = BaseSource.extend({
   type: (0, import_runtypes.Literal)("tag" /* TAG */),
   name: import_runtypes.String
 });
-var Source = (0, import_runtypes.Union)(ObsidianFolderSource, ObsidianTagSource);
+var Source2 = (0, import_runtypes.Union)(ObsidianFolderSource, ObsidianTagSource);
 var TableSettings = (0, import_runtypes.Record)({
   numFrozenColumns: import_runtypes.Number,
   showCalculationRow: import_runtypes.Boolean
@@ -41790,7 +41813,7 @@ var TableModel = (0, import_runtypes.Record)({
   rows: (0, import_runtypes.Array)(Row),
   filters: (0, import_runtypes.Array)(Filter),
   settings: TableSettings,
-  sources: (0, import_runtypes.Array)(Source),
+  sources: (0, import_runtypes.Array)(Source2),
   externalRowOrder: (0, import_runtypes.Array)(SourceRowOrder)
 });
 var LoomStateObject = (0, import_runtypes.Record)({
@@ -41984,6 +42007,15 @@ var deserializeState = (data, pluginVersion) => {
     if (isVersionLessThan(fileVersion, VERSION_8_8_0)) {
       failedMigration = VERSION_8_8_0;
       const nextState = new MigrateState15().migrate(
+        currentState
+      );
+      currentState = nextState;
+      failedMigration = null;
+    }
+    const VERSION_8_11_0 = "8.11.0";
+    if (isVersionLessThan(fileVersion, VERSION_8_11_0)) {
+      failedMigration = VERSION_8_11_0;
+      const nextState = new MigrateState152().migrate(
         currentState
       );
       currentState = nextState;
@@ -50164,15 +50196,15 @@ function BaseSubmenu({
         onClick: () => onHideClick()
       }
     ),
-    index < 4 && numFrozenColumns !== index + 2 && /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(
+    index < 4 && numFrozenColumns !== index + 1 && /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(
       MenuItem,
       {
         lucideId: "pin",
         name: "Freeze up to column",
-        onClick: () => onFrozenColumnsChange(index + 2)
+        onClick: () => onFrozenColumnsChange(index + 1)
       }
     ),
-    numFrozenColumns === index + 2 && /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(
+    numFrozenColumns === index + 1 && /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(
       MenuItem,
       {
         lucideId: "pin-off",
@@ -50244,10 +50276,7 @@ function HeaderMenu({
   const [localValue, setLocalValue] = (0, import_react23.useState)(content);
   import_react23.default.useEffect(() => {
     if (closeRequest !== null) {
-      if (submenu === null) {
-        if (localValue !== content)
-          onColumnChange(columnId, { content: localValue });
-      }
+      saveLocalValue();
       onClose();
     }
   }, [
@@ -50259,45 +50288,57 @@ function HeaderMenu({
     onColumnChange,
     onClose
   ]);
+  function saveLocalValue() {
+    if (localValue !== content)
+      onColumnChange(columnId, { content: localValue });
+  }
   function handleWrapOverflowToggle() {
     onColumnChange(columnId, { shouldWrapOverflow: !shouldWrapOverflow });
   }
   function handleSortClick(sortDir2) {
     onColumnChange(columnId, { sortDir: sortDir2 }, { shouldSortRows: true });
+    saveLocalValue();
     onClose();
   }
   function handleAspectRatioClick(value) {
     onColumnChange(columnId, { aspectRatio: value });
+    saveLocalValue();
     onClose();
     setSubmenu(1 /* OPTIONS */);
   }
   function handleHorizontalPaddingClick(value) {
     onColumnChange(columnId, { horizontalPadding: value });
+    saveLocalValue();
     onClose();
     setSubmenu(1 /* OPTIONS */);
   }
   function handleVerticalPaddingClick(value) {
     onColumnChange(columnId, { verticalPadding: value });
+    saveLocalValue();
     onClose();
     setSubmenu(1 /* OPTIONS */);
   }
   function handleTypeClick(type2) {
     onColumnTypeChange(columnId, type2);
+    saveLocalValue();
     onClose();
     setSubmenu(null);
   }
   function handleFrozenColumnsChange(value) {
     onFrozenColumnsChange(value);
+    saveLocalValue();
     onClose();
     setSubmenu(null);
   }
   function handleHideClick() {
     onColumnChange(columnId, { isVisible: false });
+    saveLocalValue();
     onClose();
     setSubmenu(null);
   }
   function handleDeleteClick() {
     onColumnDeleteClick(columnId);
+    saveLocalValue();
     onClose();
     setSubmenu(null);
   }
@@ -53224,7 +53265,7 @@ var Table2 = import_react41.default.forwardRef(function Table3({
               numFrozenColumns,
               columnId: column == null ? void 0 : column.id,
               content,
-              isDraggable: i2 > 0 && i2 < columns.length - 1,
+              isDraggable: i2 > 0 && i2 < tableColumns.length - 1,
               onColumnReorder
             },
             key
@@ -56968,13 +57009,12 @@ var validateMarkdownTable = (tokens) => {
 };
 
 // src/shared/loom-state/loom-state-factory.ts
-var createFolderSource = (path) => {
+var createFolderSource = (path, includeSubfolders) => {
   return {
     id: generateUuid(),
     type: "folder" /* FOLDER */,
     path,
-    showMarkdownOnly: true,
-    showNested: false
+    includeSubfolders
   };
 };
 var createColumn = (options) => {
@@ -58707,11 +58747,49 @@ function SortBubbleList({
 // src/react/loom-app/option-bar/sources-menu/index.tsx
 var import_react52 = __toESM(require_react());
 
-// src/react/loom-app/option-bar/sources-menu/add-source-submenu.tsx
+// src/react/loom-app/option-bar/sources-menu/add-source-submenu/index.tsx
 var import_react50 = __toESM(require_react());
+
+// src/react/loom-app/option-bar/sources-menu/add-source-submenu/folder-source-options.tsx
 var import_jsx_runtime126 = __toESM(require_jsx_runtime());
-var PATH_INPUT_ID = "path";
-var TYPE_SELECT_ID = "type";
+function FolderSourceOptions({
+  pathInputId,
+  includeSubfoldersInputId,
+  error,
+  includeSubfolders,
+  path,
+  onIncludeSubfoldersToggle,
+  onPathChange
+}) {
+  return /* @__PURE__ */ (0, import_jsx_runtime126.jsxs)(import_jsx_runtime126.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime126.jsxs)(Stack, { spacing: "sm", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime126.jsx)("label", { htmlFor: pathInputId, children: "Path" }),
+      /* @__PURE__ */ (0, import_jsx_runtime126.jsx)(
+        input_default,
+        {
+          id: pathInputId,
+          autoFocus: false,
+          hasError: (error == null ? void 0 : error.inputId) === pathInputId,
+          value: path,
+          onChange: (value) => onPathChange(value)
+        }
+      )
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime126.jsxs)(Stack, { spacing: "sm", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime126.jsx)("label", { htmlFor: includeSubfoldersInputId, children: "Include subfolders" }),
+      /* @__PURE__ */ (0, import_jsx_runtime126.jsx)(
+        Switch,
+        {
+          value: includeSubfolders,
+          onToggle: onIncludeSubfoldersToggle
+        }
+      )
+    ] })
+  ] });
+}
+
+// src/react/loom-app/option-bar/sources-menu/add-source-submenu/index.tsx
+var import_jsx_runtime127 = __toESM(require_jsx_runtime());
 function AddSourceSubmenu({
   sources,
   onAddSourceClick,
@@ -58719,34 +58797,38 @@ function AddSourceSubmenu({
 }) {
   const [type, setType] = import_react50.default.useState(null);
   const [path, setPath] = import_react50.default.useState("");
+  const [includeSubfolders, setIncludeSubfolders] = import_react50.default.useState(true);
   const [error, setError] = import_react50.default.useState(null);
+  const typeSelectId = import_react50.default.useId();
+  const pathInputId = import_react50.default.useId();
+  const includeSubfoldersInputId = import_react50.default.useId();
   function handleAddClick() {
     if (type === null) {
       setError({
         message: "Please select a type",
-        inputId: TYPE_SELECT_ID
+        inputId: typeSelectId
       });
       return;
     } else if (path === "") {
       setError({
         message: "Please enter a path",
-        inputId: PATH_INPUT_ID
+        inputId: pathInputId
       });
       return;
     } else if (alreadyHasSource(sources, type, path)) {
       setError({
         message: "Source already exists",
-        inputId: PATH_INPUT_ID
+        inputId: pathInputId
       });
       return;
     }
     let source;
     if (type === "folder" /* FOLDER */) {
-      source = createFolderSource(path);
+      source = createFolderSource(path, includeSubfolders);
     } else {
       setError({
         message: "Source not supported",
-        inputId: TYPE_SELECT_ID
+        inputId: pathInputId
       });
       return;
     }
@@ -58764,46 +58846,45 @@ function AddSourceSubmenu({
     }
     throw new Error("Source type not handled");
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime126.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(
     Submenu,
     {
       title: "Add source",
       showBackButton: sources.length > 0,
       onBackClick,
-      children: /* @__PURE__ */ (0, import_jsx_runtime126.jsx)(Padding, { py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime126.jsxs)(Stack, { spacing: "lg", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime126.jsxs)(Stack, { spacing: "sm", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime126.jsx)("label", { htmlFor: "type", children: "Type" }),
-          /* @__PURE__ */ (0, import_jsx_runtime126.jsxs)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(Padding, { py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime127.jsxs)(Stack, { spacing: "lg", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime127.jsxs)(Stack, { spacing: "sm", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime127.jsx)("label", { htmlFor: "type", children: "Type" }),
+          /* @__PURE__ */ (0, import_jsx_runtime127.jsxs)(
             Select,
             {
               id: "type",
               value: type != null ? type : "",
-              hasError: (error == null ? void 0 : error.inputId) === TYPE_SELECT_ID,
+              hasError: (error == null ? void 0 : error.inputId) === typeSelectId,
               onChange: (value) => setType(value || null),
               children: [
-                /* @__PURE__ */ (0, import_jsx_runtime126.jsx)("option", { value: "", children: "Select an option" }),
+                /* @__PURE__ */ (0, import_jsx_runtime127.jsx)("option", { value: "", children: "Select an option" }),
                 Object.values(SourceType).filter((type2) => type2 !== "tag" /* TAG */).map((type2) => {
-                  return /* @__PURE__ */ (0, import_jsx_runtime126.jsx)("option", { value: type2, children: getDisplayNameForSource(type2) }, type2);
+                  return /* @__PURE__ */ (0, import_jsx_runtime127.jsx)("option", { value: type2, children: getDisplayNameForSource(type2) }, type2);
                 })
               ]
             }
           )
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime126.jsxs)(Stack, { spacing: "sm", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime126.jsx)("label", { htmlFor: PATH_INPUT_ID, children: "Path" }),
-          /* @__PURE__ */ (0, import_jsx_runtime126.jsx)(
-            input_default,
-            {
-              id: PATH_INPUT_ID,
-              autoFocus: false,
-              hasError: (error == null ? void 0 : error.inputId) === PATH_INPUT_ID,
-              value: path,
-              onChange: (value) => setPath(value)
-            }
-          )
-        ] }),
-        (error == null ? void 0 : error.message) && /* @__PURE__ */ (0, import_jsx_runtime126.jsx)(Text, { value: error.message, variant: "error" }),
-        /* @__PURE__ */ (0, import_jsx_runtime126.jsx)(Button, { variant: "default", onClick: () => handleAddClick(), children: "Add" })
+        /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(
+          FolderSourceOptions,
+          {
+            pathInputId,
+            includeSubfoldersInputId,
+            error,
+            includeSubfolders,
+            path,
+            onIncludeSubfoldersToggle: setIncludeSubfolders,
+            onPathChange: (value) => setPath(value)
+          }
+        ),
+        (error == null ? void 0 : error.message) && /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(Text, { value: error.message, variant: "error" }),
+        /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(Button, { variant: "default", onClick: () => handleAddClick(), children: "Add" })
       ] }) })
     }
   );
@@ -58813,27 +58894,27 @@ function AddSourceSubmenu({
 var import_react51 = __toESM(require_react());
 
 // src/react/loom-app/option-bar/sources-menu/sources-header.tsx
-var import_jsx_runtime127 = __toESM(require_jsx_runtime());
+var import_jsx_runtime128 = __toESM(require_jsx_runtime());
 function SourcesHeader({
   showEditButton,
   onAddClick,
   onEditClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime127.jsxs)(Flex, { justify: "space-between", align: "center", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(Text, { value: "Sources" }),
-    /* @__PURE__ */ (0, import_jsx_runtime127.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
-      showEditButton && /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime128.jsxs)(Flex, { justify: "space-between", align: "center", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(Text, { value: "Sources" }),
+    /* @__PURE__ */ (0, import_jsx_runtime128.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
+      showEditButton && /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(
         Button,
         {
-          icon: /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(Icon, { lucideId: "edit" }),
+          icon: /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(Icon, { lucideId: "edit" }),
           ariaLabel: "Edit source",
           onClick: () => onEditClick()
         }
       ),
-      /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(
+      /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(
         Button,
         {
-          icon: /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(Icon, { lucideId: "plus" }),
+          icon: /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(Icon, { lucideId: "plus" }),
           onClick: () => onAddClick(),
           ariaLabel: "Add source"
         }
@@ -58843,7 +58924,7 @@ function SourcesHeader({
 }
 
 // src/react/loom-app/option-bar/sources-menu/dataloom-source/index.tsx
-var import_jsx_runtime128 = __toESM(require_jsx_runtime());
+var import_jsx_runtime129 = __toESM(require_jsx_runtime());
 function SourceItem({
   id: id2,
   content,
@@ -58851,19 +58932,19 @@ function SourceItem({
   isEditing,
   onDelete
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime128.jsx)("div", { className: "dataloom-source", children: /* @__PURE__ */ (0, import_jsx_runtime128.jsxs)(Flex, { justify: "space-between", align: "center", height: "100%", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(Stack, { isHorizontal: true, spacing: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime129.jsx)("div", { className: "dataloom-source", children: /* @__PURE__ */ (0, import_jsx_runtime129.jsxs)(Flex, { justify: "space-between", align: "center", height: "100%", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(Stack, { isHorizontal: true, spacing: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
       Bubble,
       {
-        icon: /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(Icon, { lucideId: getIconIdForSourceType(type) }),
+        icon: /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(Icon, { lucideId: getIconIdForSourceType(type) }),
         variant: "no-fill",
         value: content
       }
     ) }),
-    isEditing && /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(
+    isEditing && /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
       Button,
       {
-        icon: /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(Icon, { lucideId: "trash" }),
+        icon: /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(Icon, { lucideId: "trash" }),
         ariaLabel: "Delete source",
         onClick: () => onDelete(id2)
       }
@@ -58872,15 +58953,15 @@ function SourceItem({
 }
 
 // src/react/loom-app/option-bar/sources-menu/base-content/index.tsx
-var import_jsx_runtime129 = __toESM(require_jsx_runtime());
+var import_jsx_runtime130 = __toESM(require_jsx_runtime());
 function BaseContent2({
   sources,
   onAddClick,
   onDeleteClick
 }) {
   const [isEditing, setIsEditing] = import_react51.default.useState(false);
-  return /* @__PURE__ */ (0, import_jsx_runtime129.jsxs)(Stack, { spacing: "md", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime130.jsxs)(Stack, { spacing: "md", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
       SourcesHeader,
       {
         showEditButton: sources.length > 0,
@@ -58888,7 +58969,7 @@ function BaseContent2({
         onEditClick: () => setIsEditing((prevState) => !prevState)
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime129.jsx)("div", { className: "dataloom-source-container", children: sources.map((source) => {
+    /* @__PURE__ */ (0, import_jsx_runtime130.jsx)("div", { className: "dataloom-source-container", children: sources.map((source) => {
       const { id: id2, type } = source;
       let content = "";
       if (type === "folder" /* FOLDER */) {
@@ -58896,7 +58977,7 @@ function BaseContent2({
       } else if (type === "tag" /* TAG */) {
         content = source.name;
       }
-      return /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
+      return /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
         SourceItem,
         {
           id: id2,
@@ -58912,7 +58993,7 @@ function BaseContent2({
 }
 
 // src/react/loom-app/option-bar/sources-menu/index.tsx
-var import_jsx_runtime130 = __toESM(require_jsx_runtime());
+var import_jsx_runtime131 = __toESM(require_jsx_runtime());
 function SourcesMenu({
   id: id2,
   isOpen,
@@ -58935,7 +59016,7 @@ function SourcesMenu({
     setSubmenu(null);
     onClose();
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
     Menu,
     {
       id: id2,
@@ -58943,8 +59024,8 @@ function SourcesMenu({
       isOpen,
       width: 225,
       position,
-      children: /* @__PURE__ */ (0, import_jsx_runtime130.jsxs)(Padding, { px: "lg", py: "md", children: [
-        submenu === null && /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime131.jsxs)(Padding, { px: "lg", py: "md", children: [
+        submenu === null && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
           BaseContent2,
           {
             sources,
@@ -58952,7 +59033,7 @@ function SourcesMenu({
             onDeleteClick: onSourceDelete
           }
         ),
-        submenu === 0 /* ADD */ && /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
+        submenu === 0 /* ADD */ && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
           AddSourceSubmenu,
           {
             sources,
@@ -58966,7 +59047,7 @@ function SourcesMenu({
 }
 
 // src/react/loom-app/option-bar/index.tsx
-var import_jsx_runtime131 = __toESM(require_jsx_runtime());
+var import_jsx_runtime132 = __toESM(require_jsx_runtime());
 function OptionBar({
   columns,
   filters,
@@ -59013,15 +59094,15 @@ function OptionBar({
     (column) => column.sortDir !== "default" /* NONE */
   );
   const isSmallScreen = isSmallScreenSize();
-  return /* @__PURE__ */ (0, import_jsx_runtime131.jsxs)(import_jsx_runtime131.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime131.jsx)("div", { className: "dataloom-option-bar", children: /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(Padding, { py: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime131.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime132.jsxs)(import_jsx_runtime132.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime132.jsx)("div", { className: "dataloom-option-bar", children: /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(Padding, { py: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime132.jsxs)(
       Stack,
       __spreadProps(__spreadValues({
         isHorizontal: !isSmallScreen,
         spacing: "sm"
       }, !isSmallScreen && { justify: "space-between" }), {
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime131.jsxs)(
+          /* @__PURE__ */ (0, import_jsx_runtime132.jsxs)(
             Stack,
             __spreadProps(__spreadValues({
               isHorizontal: true,
@@ -59032,14 +59113,14 @@ function OptionBar({
               justify: "flex-end"
             }), {
               children: [
-                /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
+                /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
                   SortBubbleList,
                   {
                     sortedColumns,
                     onRemoveClick: handleRemoveClick
                   }
                 ),
-                /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
+                /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
                   ActiveFilterBubble,
                   {
                     numActive: activeFilters.length
@@ -59048,7 +59129,7 @@ function OptionBar({
               ]
             })
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime131.jsxs)(
+          /* @__PURE__ */ (0, import_jsx_runtime132.jsxs)(
             Stack,
             __spreadProps(__spreadValues({
               isHorizontal: true,
@@ -59059,7 +59140,7 @@ function OptionBar({
               width: "100%"
             }), {
               children: [
-                isSmallScreen === false && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
+                isSmallScreen === false && /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
                   menu_button_default,
                   {
                     isFocused: sourcesMenu.isTriggerFocused,
@@ -59070,7 +59151,7 @@ function OptionBar({
                     children: "Sources"
                   }
                 ),
-                isSmallScreen === false && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
+                isSmallScreen === false && /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
                   menu_button_default,
                   {
                     isFocused: filterMenu.isTriggerFocused,
@@ -59081,15 +59162,15 @@ function OptionBar({
                     children: "Filter"
                   }
                 ),
-                /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(SearchBar, {}),
-                /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
+                /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(SearchBar, {}),
+                /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
                   menu_button_default,
                   {
                     isFocused: moreMenu.isTriggerFocused,
                     menuId: moreMenu.id,
                     ref: moreMenu.triggerRef,
                     level: 1 /* ONE */,
-                    icon: /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(Icon, { lucideId: "more-vertical" }),
+                    icon: /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(Icon, { lucideId: "more-vertical" }),
                     onOpen: handleMoreMenuOpen
                   }
                 )
@@ -59099,7 +59180,7 @@ function OptionBar({
         ]
       })
     ) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
       SourcesMenu,
       {
         id: sourcesMenu.id,
@@ -59112,7 +59193,7 @@ function OptionBar({
         onClose: sourcesMenu.onClose
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
       MoreMenu,
       {
         id: moreMenu.id,
@@ -59127,7 +59208,7 @@ function OptionBar({
         onSourcesClick: handleSourceMenuOpen
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
       FilterMenu,
       {
         id: filterMenu.id,
@@ -59148,12 +59229,12 @@ var import_react53 = __toESM(require_react());
 var import_lodash9 = __toESM(require_lodash());
 
 // src/react/loom-app/new-row-button/index.tsx
-var import_jsx_runtime132 = __toESM(require_jsx_runtime());
+var import_jsx_runtime133 = __toESM(require_jsx_runtime());
 function NewRowButton({ onClick }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(
     Button,
     {
-      icon: /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(Icon, { lucideId: "plus" }),
+      icon: /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(Icon, { lucideId: "plus" }),
       ariaLabel: "New row",
       onClick: () => onClick(),
       children: "New"
@@ -59162,7 +59243,7 @@ function NewRowButton({ onClick }) {
 }
 
 // src/react/loom-app/bottom-bar/index.tsx
-var import_jsx_runtime133 = __toESM(require_jsx_runtime());
+var import_jsx_runtime134 = __toESM(require_jsx_runtime());
 function BottomBar({
   onRowAddClick,
   onScrollToTopClick,
@@ -59209,46 +59290,46 @@ function BottomBar({
       observer.disconnect();
     };
   }, []);
-  return /* @__PURE__ */ (0, import_jsx_runtime133.jsx)("div", { ref, className: "dataloom-bottom-bar", children: /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime134.jsx)("div", { ref, className: "dataloom-bottom-bar", children: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(
     "div",
     {
       style: {
         top: numToPx(-bottomBarOffset)
       },
-      children: /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(Padding, { pt: "md", width: "100%", children: /* @__PURE__ */ (0, import_jsx_runtime133.jsxs)(Flex, { justify: "space-between", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime133.jsxs)(Stack, { spacing: "md", isHorizontal: true, children: [
-          isMobile && /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(Padding, { pt: "md", width: "100%", children: /* @__PURE__ */ (0, import_jsx_runtime134.jsxs)(Flex, { justify: "space-between", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime134.jsxs)(Stack, { spacing: "md", isHorizontal: true, children: [
+          isMobile && /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(
             Button,
             {
               ariaLabel: "Undo",
-              icon: /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(Icon, { lucideId: "undo" }),
+              icon: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(Icon, { lucideId: "undo" }),
               onClick: onUndoClick
             }
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(NewRowButton, { onClick: onRowAddClick })
+          /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(NewRowButton, { onClick: onRowAddClick })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime133.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime134.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(
             Button,
             {
               ariaLabel: "Scroll to top",
-              icon: /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(Icon, { lucideId: "chevron-up" }),
+              icon: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(Icon, { lucideId: "chevron-up" }),
               onClick: onScrollToTopClick
             }
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(
             Button,
             {
               ariaLabel: "Scroll to bottom",
               onClick: onScrollToBottomClick,
-              icon: /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(Icon, { lucideId: "chevron-down" })
+              icon: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(Icon, { lucideId: "chevron-down" })
             }
           ),
-          isMobile && /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(
+          isMobile && /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(
             Button,
             {
               ariaLabel: "Redo",
-              icon: /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(Icon, { lucideId: "redo" }),
+              icon: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(Icon, { lucideId: "redo" }),
               onClick: onRedoClick
             }
           )
@@ -61118,7 +61199,7 @@ var useRow = () => {
 var import_lodash16 = __toESM(require_lodash());
 var CellBodyUpdateCommand = class extends loom_state_command_default {
   constructor(id2, data, isPartial = true) {
-    super();
+    super(true);
     this.id = id2;
     this.data = data;
     this.isPartial = isPartial;
@@ -62816,13 +62897,16 @@ function findDataFromSources(app, sources, columns, numRows) {
     const { id: id2, type } = source;
     switch (type) {
       case "folder" /* FOLDER */: {
-        const { path } = source;
+        const { path, includeSubfolders } = source;
         const result = findRowsFromFolder(
           app,
           nextColumns,
+          numRows + newRows.length,
           id2,
-          path,
-          numRows + newRows.length
+          {
+            path,
+            includeSubfolders
+          }
         );
         newRows.push(...result.newRows);
         nextColumns = result.nextColumns;
@@ -62837,29 +62921,33 @@ function findDataFromSources(app, sources, columns, numRows) {
     nextColumns
   };
 }
-var findRowsFromFolder = (app, columns, sourceId, folderPath, numRows) => {
-  const folder = app.vault.getAbstractFileByPath(folderPath);
+var findRowsFromFolder = (app, columns, numRows, sourceId, folderOptions) => {
+  const { path, includeSubfolders } = folderOptions;
+  const folder = app.vault.getAbstractFileByPath(path);
   if (!folder)
     return {
       nextColumns: columns,
       newRows: []
     };
   const files = app.vault.getMarkdownFiles().filter((file) => {
-    var _a2;
-    return ((_a2 = file.parent) == null ? void 0 : _a2.path) === folder.path;
+    var _a2, _b;
+    if (includeSubfolders) {
+      return (_a2 = file.parent) == null ? void 0 : _a2.path.startsWith(folder.path);
+    }
+    return ((_b = file.parent) == null ? void 0 : _b.path) === folder.path;
   });
   const newRows = [];
   const nextColumns = (0, import_lodash20.cloneDeep)(columns);
   files.forEach((file) => {
     const cells = [];
     nextColumns.forEach((column) => {
-      const { path } = file;
+      const { path: path2 } = file;
       const { id: id2, type, frontmatterKey } = column;
       let newCell = null;
       if (type === "source-file" /* SOURCE_FILE */) {
-        newCell = createCell(id2, { type, content: path });
+        newCell = createCell(id2, { type, content: path2 });
       } else if (frontmatterKey !== null) {
-        const result = deserializeFrontmatterForCell(app, column, path);
+        const result = deserializeFrontmatterForCell(app, column, path2);
         if (result !== null) {
           const { newCell: cell, nextTags } = result;
           newCell = cell;
@@ -63073,7 +63161,7 @@ var useCloseOnObsidianModalOpen = () => {
 };
 
 // src/react/loom-app/app/index.tsx
-var import_jsx_runtime134 = __toESM(require_jsx_runtime());
+var import_jsx_runtime135 = __toESM(require_jsx_runtime());
 function App10() {
   const logger = useLogger();
   const { reactAppId, isMarkdownView, app } = useAppMount();
@@ -63196,7 +63284,7 @@ function App10() {
   let className = "dataloom-app";
   if (isMarkdownView)
     className += " dataloom-app--markdown-view";
-  return /* @__PURE__ */ (0, import_jsx_runtime134.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime135.jsxs)(
     "div",
     {
       ref: appRef,
@@ -63205,7 +63293,7 @@ function App10() {
       onKeyDown: handleKeyDown,
       onClick,
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(
           OptionBar,
           {
             columns,
@@ -63221,7 +63309,7 @@ function App10() {
             onSourceDelete
           }
         ),
-        /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(
           table_default,
           {
             ref: tableRef,
@@ -63251,7 +63339,7 @@ function App10() {
             onRowReorder
           }
         ),
-        /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(
           BottomBar,
           {
             onRowAddClick,
@@ -63268,7 +63356,7 @@ function App10() {
 
 // src/react/shared/error-boundary/index.tsx
 var import_react66 = __toESM(require_react());
-var import_jsx_runtime135 = __toESM(require_jsx_runtime());
+var import_jsx_runtime136 = __toESM(require_jsx_runtime());
 var ErrorBoundary = class extends import_react66.default.Component {
   constructor(props) {
     super(props);
@@ -63287,7 +63375,7 @@ var ErrorBoundary = class extends import_react66.default.Component {
     if (this.state.hasError) {
       copyErrorMessage = `Error message: ${this.state.errorMessage}
 Error info: ${(_a2 = this.state.errorInfo) == null ? void 0 : _a2.componentStack}`;
-      return /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(
+      return /* @__PURE__ */ (0, import_jsx_runtime136.jsx)(
         ErrorDisplay,
         {
           title: "DataLoom experienced an error",
@@ -63304,7 +63392,7 @@ Error info: ${(_a2 = this.state.errorInfo) == null ? void 0 : _a2.componentStack
 var error_boundary_default = ErrorBoundary;
 
 // src/react/loom-app/index.tsx
-var import_jsx_runtime136 = __toESM(require_jsx_runtime());
+var import_jsx_runtime137 = __toESM(require_jsx_runtime());
 function LoomApp({
   app,
   reactAppId,
@@ -63315,7 +63403,7 @@ function LoomApp({
   loomState,
   onSaveState
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime136.jsx)(error_boundary_default, { children: /* @__PURE__ */ (0, import_jsx_runtime136.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(error_boundary_default, { children: /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(
     AppMountProvider,
     {
       app,
@@ -63323,12 +63411,12 @@ function LoomApp({
       reactAppId,
       isMarkdownView,
       loomFile,
-      children: /* @__PURE__ */ (0, import_jsx_runtime136.jsx)(Provider_default, { store: store2, children: /* @__PURE__ */ (0, import_jsx_runtime136.jsx)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(Provider_default, { store: store2, children: /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(
         LoomStateProvider,
         {
           initialState: loomState,
           onSaveState,
-          children: /* @__PURE__ */ (0, import_jsx_runtime136.jsx)(DragProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime136.jsx)(MenuProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime136.jsx)(App10, {}) }) })
+          children: /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(DragProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(MenuProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(App10, {}) }) })
         }
       ) })
     }
@@ -63336,7 +63424,7 @@ function LoomApp({
 }
 
 // src/obsidian/embedded/embedded-app-manager.tsx
-var import_jsx_runtime137 = __toESM(require_jsx_runtime());
+var import_jsx_runtime138 = __toESM(require_jsx_runtime());
 var embeddedApps = [];
 var loadPreviewModeApps = (app, markdownLeaves, pluginVersion) => {
   for (let i2 = 0; i2 < markdownLeaves.length; i2++) {
@@ -63399,7 +63487,7 @@ var renderApp = (app, reactAppId, leaf, file, root, state) => {
   const THROTTLE_TIME_MILLIS = 2e3;
   const throttleHandleSave = import_lodash22.default.throttle(handleSave, THROTTLE_TIME_MILLIS);
   root.render(
-    /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime138.jsx)(
       LoomApp,
       {
         app,
@@ -63415,7 +63503,7 @@ var renderApp = (app, reactAppId, leaf, file, root, state) => {
   );
 };
 var renderErrorApp = (root, error) => {
-  root.render(/* @__PURE__ */ (0, import_jsx_runtime137.jsx)(ErrorApp, { error, isEmbeddedApp: true }));
+  root.render(/* @__PURE__ */ (0, import_jsx_runtime138.jsx)(ErrorApp, { error, isEmbeddedApp: true }));
 };
 var handleSave = (app, file, appId, state) => __async(void 0, null, function* () {
   yield serializeFrontmatter(app, state);

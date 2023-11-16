@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4263a9a47cc85ae8",
+        "id": "b95cb04e78300bbf",
         "type": "tabs",
         "children": [
           {
-            "id": "e707026a3aba7935",
+            "id": "0cec135f27dad579",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/278. First Bad Version.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "15f584a9efd93c6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ LaTeX/LaTeX.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -62,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Rollup",
+                "query": "tag:#card-reverse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,11 +82,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 508.5
+    "width": 324.5,
+    "collapsed": true
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -123,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/278. First Bad Version.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/278. First Bad Version.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,12 +186,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/278. First Bad Version.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md"
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -211,15 +199,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
       "flashcards-obsidian:Generate flashcards": true,
       "surfing:surfing-bookmark-manager": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "chronology:Open Chronology": true,
-      "custom-sort:Toggle custom sorting": false,
-      "notion-like-tables:Create loom": true,
-      "templater-obsidian:Templater": true,
-      "obsidian-excalidraw-plugin:Create new drawing": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
       "canvas:Create new canvas": true,
@@ -232,45 +214,54 @@
       "audio-recorder:Start/stop recording": true,
       "workspaces:Manage workspace layouts": false,
       "publish:Publish changes...": true,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false,
+      "notion-like-tables:Create loom": false,
+      "custom-sort:Toggle custom sorting": false,
+      "chronology:Open Chronology": false,
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "e707026a3aba7935",
+  "active": "0cec135f27dad579",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ LaTeX/LaTeX.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/278. First Bad Version.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2917. Find the K-or of an Array.md",
-    "the-vault/templates/Template {{LeetCode ∋ Problem}}.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Conda/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Conda/Conda ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Conda",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Real Python ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/PragmatiCoders ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/144. Binary Tree Preorder Traversal.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/141. Linked List Cycle.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1. Two Sum.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/111. Minimum Depth of Binary Tree.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Rollup/Misc. Notes.md",
-    "the-vault/zotero/My Library.bib",
-    "the-vault/zotero",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/MSVC.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/Algorithms library.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Rollup/Rollup ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESBuild/🗒️ ESBuild ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Rollup",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/0. Introduction ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/136. Single Number.md",
+    "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/112. Path Sum.md",
     "the-vault/🔴 Academics/🔴 Academics ∋ Table of Contents.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction/0. Introduction ∋ Table of Contents.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ∋ Table of Contents.md",
+    "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ∋ Table of Contents.md",
     "the-vault/🔴 Academics/📚 Educational Resources/📚 Educational Resources ∋ Table of Contents.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy/0. Introduction",
-    "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy",
+    "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode",
     "the-vault/🔴 Academics/📚 Educational Resources",
     "the-vault/🔴 Academics",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/1. Array and String ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/005. array and string welcome 👨🏻‍🏫.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/4. Graph ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Anki/Anki ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/8. Mixed Recall ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/7. Exhaustive Recursion/7. Exhaustive Recursion ∋ Table of Contents.md",
-    "the-vault/src/🔵 Vocational",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JetBrains/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JetBrains/🗒️ JetBrains ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 4꞉ Share the application.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JetBrains/Keyboard Shortcuts.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 3꞉ Update the application.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 2꞉ Containerize an application.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/003. max-value 🧑🏽‍💻.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Visual Studio Code/Keyboard Shortcuts.md",
+    "Pasted image 20231105005754.png",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Microservice APIs",
+    "the-vault/zotero/My Library.bib",
+    "the-vault/zotero",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Rollup",
     "the-vault/assets/images/docker-docs-docker-architecture.png",
     "the-vault/assets/images/Pasted image 20230913161050.png",
     "the-vault/assets/images/Pasted image 20230924131220.png",
@@ -279,9 +270,6 @@
     "the-vault/assets/images/Pasted image 20230810211121.png",
     "the-vault/assets/images/Pasted image 20230807030022.png",
     "the-vault/assets/images/Pasted image 20230807025824.png",
-    "the-vault/assets/images/Pasted image 20230807024546.png",
-    "the-vault/assets/images/Pasted image 20230815100423.png",
-    "the-vault.code-workspace",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started"
+    "the-vault/assets/images/Pasted image 20230807024546.png"
   ]
 }

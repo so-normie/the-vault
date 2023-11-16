@@ -155,12 +155,13 @@
     "explorer": false,
     "path": false
   },
-  "settingsTab": "exclude_folders",
+  "settingsTab": "path",
   "supportedFileTypes": [
     "md"
   ],
   "boldName": true,
   "boldNameInPath": true,
   "cursiveName": true,
-  "cursiveNameInPath": true
+  "cursiveNameInPath": true,
+  "disableOpenFolderNoteOnClick": false
 }

@@ -36,8 +36,8 @@
   "reveal-file-in-explorer",
   "obsidian-trash-explorer",
   "global-search-and-replace",
-  "update-time-on-edit",
   "obsidian-front-matter-title-plugin",
   "obsidian-latex-suite",
-  "quick-latex"
+  "quick-latex",
+  "update-time-on-edit"
 ]

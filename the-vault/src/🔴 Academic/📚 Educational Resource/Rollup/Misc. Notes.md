@@ -9,7 +9,7 @@ tags:
   - 🔴-academic/📚-educational-resource/source-format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/rollup
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Rollup::Misc. Notes
+cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Rollup::Misc. Notes
 ---
 
 # Misc. Notes

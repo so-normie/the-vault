@@ -13,7 +13,7 @@ tags:
   - 🔴-academics/📚-educational-resources/discipline/computer-science/dbms/sql-server
   - 🔴-academics/📚-educational-resources/name/🗒️-sql-server/🔖-bookmark/🗒️-sql-server
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ SQL Server
+cards-deck: 🔴 Academic::📚 Educational ResourceL Server
 ---
 
 # 🗒️ SQL Server

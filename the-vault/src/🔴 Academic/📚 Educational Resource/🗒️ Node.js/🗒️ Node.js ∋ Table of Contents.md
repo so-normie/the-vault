@@ -5,7 +5,7 @@ updated: 2023-09-22 09:56
 ipline/computer-science/technology/node-js
   - 🔴-academics/📚-educational-resources/name/🗒️-node-js/🔖-bookmark/🗒️-node-js
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Node.js
+cards-deck: 🔴 Academic::📚 Educational Resourcede.js
 ---
 
 

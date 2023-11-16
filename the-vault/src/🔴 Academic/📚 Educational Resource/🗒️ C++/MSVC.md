@@ -10,7 +10,7 @@ tags:
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/cpp
   - 🔴-academic/📚-educational-resource/name/🗒️-cpp/🔖-bookmark/🗒️-cpp/msvc
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ C++::MSVC
+cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ C++::MSVC
 ---
 
 # MSVC

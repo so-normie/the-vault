@@ -9,7 +9,7 @@ tags:
   - 🔴-academic/📚-educational-resource/source-format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/bash
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Bash::Misc. Notes
+cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Bash::Misc. Notes
 ---
 
 # Misc. Notes

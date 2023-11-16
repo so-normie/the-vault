@@ -1,7 +1,7 @@
 ---
 title: LaTeX
 created: 2023-08-04 01:58
-updated: 2023-10-18T20:01
+updated: 2023-11-05T01:47
 authors:
   - Edmund Leibert III
 tags:
@@ -9,7 +9,7 @@ tags:
   - 🔴-academic/📚-educational-resource/source-format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/latex
   - 🔴-academic/📚-educational-resource/name/🗒️-latex/🔖-bookmark/🗒️-latex
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ LaTeX
+cards-deck: 🔴 Academic::📚 Educational ResourceX
 ---
 
 # LaTeX

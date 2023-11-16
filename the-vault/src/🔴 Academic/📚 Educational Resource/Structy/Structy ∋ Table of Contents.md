@@ -1,15 +1,15 @@
 ---
 title: Structy ∋ Table of Contents
 created: 2023-09-03 08:46
-updated: 2023-11-02T15:14
+updated: 2023-11-05T15:44
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/structy/structy-∋-table-of-contents
-  - 🔴-academic/📚-educational-resource/source-format/internet
+  - 🔴-academic/📚-educational-resource/course
   - 🔴-academic/📚-educational-resource/discipline/computer-science
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::Structy::Structy ∋ Table of Contents
+cards-deck: 🔴 Academic::📚 Educational Resource::Structy::Structy ∋ Table of Contents
 ---
 
 # Structy ∋ Table of Contents 
@@ -53,7 +53,7 @@ What is the website **Structy**?
 Structy is a guided course that builds your algorithm knowledge efficiently. [@zabianStructyLearnData2023]
 
 ⌂
-<br>﹈<br>^1696037036801
+<br>﹈<br>^1699227896521
 
 ## :FasListOl: Table of Contents
 

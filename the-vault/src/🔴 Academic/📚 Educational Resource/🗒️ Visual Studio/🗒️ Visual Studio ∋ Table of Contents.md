@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Visual Studio
 created: 2023-10-01 14:09
-updated: 2023-11-02T12:25
+updated: 2023-11-05T01:47
 authors:
   - Edmund Leibert III
 tags:
@@ -10,7 +10,7 @@ tags:
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/visual-studio
   - 🔴-academic/📚-educational-resource/name/🗒️-visual-studio/🔖-bookmark/🗒️-visual-studio-▹-📋-table-of-contents
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Visual Studio::🗒️ Visual Studio ▹ 📋 Table of Contents
+cards-deck: 🔴 Academic::📚 Educational Resource🗒️ Visual Studio::🗒️ Visual Studio ▹ 📋 Table of Contents
 ---
 
 # 🗒️ Visual Studio

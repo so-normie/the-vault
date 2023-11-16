@@ -9,7 +9,7 @@ tags:
   - 🔴-academic/📚-educational-resource/source-format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/git
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Git::Misc. Notes
+cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Git::Misc. Notes
 ---
 
 # Misc. Notes

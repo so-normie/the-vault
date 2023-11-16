@@ -3112,8 +3112,10 @@ function coloredClassApplyer(domElement) {
         hashEl2.classList.remove(cls);
       }
     });
-    el.classList.add(className);
-    hashEl2.classList.add(className);
+    if (!el.classList.contains(className)) {
+      el.classList.add(className);
+      hashEl2.classList.add(className);
+    }
   });
 }
 var coloredClassApplyerPlugin = import_view.ViewPlugin.fromClass(class {
@@ -3121,8 +3123,6 @@ var coloredClassApplyerPlugin = import_view.ViewPlugin.fromClass(class {
     coloredClassApplyer(view.dom);
   }
   update(update) {
-    if (!(update.docChanged || update.focusChanged))
-      return;
     coloredClassApplyer(update.view.dom);
   }
 });
@@ -3246,14 +3246,15 @@ var ColoredTagsPlugin = class extends import_obsidian.Plugin {
   colorizeTag(tagName) {
     tagName = tagName.replace(/#/g, "");
     const tagHref = "#" + tagName.replace(/\//g, "\\/");
-    const tagFlat = tagName.replace(/[^0-9a-z-]/ig, "").toLowerCase();
+    const tagFlat = tagName.replace(/[^0-9a-z-]/ig, "");
     const { background: backgroundLight, color: colorLight } = this.getColors(tagName, this.palettes.light);
     const { background: backgroundDark, color: colorDark } = this.getColors(tagName, this.palettes.dark);
     const selectors = [
       `a.tag[href="${tagHref}"]`,
-      `.cm-s-obsidian .cm-line span.cm-hashtag.colored-tag-${tagName.replace(/\//g, "\\/")}`
+      `.cm-s-obsidian .cm-line span.cm-hashtag.colored-tag-${tagName.toLowerCase().replace(/\//g, "\\/")}`
     ];
     if (tagFlat) {
+      selectors.push(`.cm-s-obsidian .cm-line span.cm-tag-${tagFlat.toLowerCase()}.cm-hashtag`);
       selectors.push(`.cm-s-obsidian .cm-line span.cm-tag-${tagFlat}.cm-hashtag`);
     }
     const lightThemeSelectors = selectors.map((selector) => "body " + selector);

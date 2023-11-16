@@ -9,7 +9,7 @@ tags:
   - 🔴-academic/📚-educational-resource/source-format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/cmake
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ CMake::Misc. Notes
+cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ CMake::Misc. Notes
 ---
 
 #  Misc. Notes

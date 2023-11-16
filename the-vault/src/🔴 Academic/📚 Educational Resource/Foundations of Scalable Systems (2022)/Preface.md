@@ -10,7 +10,7 @@ tags:
   - 🔴-academic/📚-educational-resource/discipline/computer-science
   - 🔴-academic/📚-educational-resource/name/📕-foundations-of-scalable-systems-(2022)/🔖-bookmark/📕-foundations-of-scalable-systems-(2022)/preface
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::📕 Foundations of Scalable Systems (2022)::Preface
+cards-deck: 🔴 Academic::📚 Educational Resourceoundations of Scalable Systems (2022)::Preface
 ---
 
 #  📕 Foundations of Scalable Systems (2022)

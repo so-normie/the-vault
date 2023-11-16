@@ -1,7 +1,7 @@
 ---
 title: Project Structure
 created: 2023-09-03 08:46
-updated: 2023-10-17T19:15
+updated: 2023-11-05T01:47
 authors:
   - Edmund Leibert III
 tags:
@@ -10,7 +10,7 @@ tags:
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/visual-studio
   - 🔴-academic/📚-educational-resource/name/🗒️-visual-studio/🔖-bookmark/project-structure
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️Visual Studio::Project Structure
+cards-deck: 🔴 Academic::📚 Educational Resource️Visual Studio::Project Structure
 ---
 
 # Project Structure

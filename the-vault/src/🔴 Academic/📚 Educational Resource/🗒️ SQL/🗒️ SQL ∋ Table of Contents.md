@@ -3,14 +3,14 @@ title: 🗒️ SQL
 authors:
   - Edmund Leibert III
 created: 2023-09-03 08:46
-updated: 2023-10-17T19:15
+updated: 2023-11-05T01:47
 tags:
   - 🔴-academic/📚-educational-resource/name/🗒️-sql
   - 🔴-academic/📚-educational-resource/source-format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/sql
   - 🔴-academic/📚-educational-resource/name/🗒️-sql/🔖-bookmark/🗒️-sql
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ SQL
+cards-deck: 🔴 Academic::📚 Educational ResourceSQL
 ---
 
 #  🗒️ SQL

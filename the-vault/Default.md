@@ -1,10 +1,14 @@
 ---
 created: 2023-10-01 16:14
-updated: 2023-11-01T21:56
+updated: 2023-11-05T01:38
 cards-deck: Default
 ---
 
+# Red
 
+## Blue
+
+### Green
 
 ﹇<br>
 What is our favorite color?
@@ -31,8 +35,7 @@ Red
 >
 
 ⌂
-<br>﹈<br>^1698872376539
-
+<br>﹈<br>^1699173505984
 
 
 ﹇<br>
@@ -51,8 +54,7 @@ int main() {
 ```
 
 ⌂
-<br>﹈<br>^1698872376551
-
+<br>﹈<br>^1699173505991
 
 
 ﹇<br>
@@ -63,8 +65,7 @@ Question
 ![Pasted image 20231019113907|500](the-vault/assets/images/physics-img.png)
 
 ⌂
-<br>﹈<br>^1698872376558
-
+<br>﹈<br>^1699173505997
 
 
 ﹇<br>
@@ -75,10 +76,5 @@ What is the most holy god
 > Jesus yolo
 
 ⌂
-<br>﹈<br>^1698872376565
-
-
-
-
-
+<br>﹈<br>^1699173506002
 

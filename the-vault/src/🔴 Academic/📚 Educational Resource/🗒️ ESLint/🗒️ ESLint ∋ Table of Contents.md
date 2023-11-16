@@ -10,7 +10,7 @@ tags:
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/eslint
   - 🔴-academic/📚-educational-resource/name/🗒️-eslint/🔖-bookmark/🗒️-eslint
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ ESLint
+cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ ESLint
 ---
 
 # 🗒️ ESLint

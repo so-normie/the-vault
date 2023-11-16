@@ -1,12 +1,8 @@
 ---
 title: 🗒️ Obsidian
 created: 2023-08-20 08:26
-updated: 2023-09-28 14:16
-  - 🔴-academics/📚-educational-resources/source-format/miscellaneous
-  - 🔴-academics/📚-educational-resources/discipline/computer-science/technology/obsidian
-  - 🔴-academics/📚-educational-resources/name/🗒️-obsidian/🔖-bookmark/🗒️-obsidian
-  - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Obsidian
+updated: 2023-11-05T01:47
+cards-deck: 🔴 Academic::📚 Educational Resourcesidian
 ---
 
 # 🗒️ Obsidian

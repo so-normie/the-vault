@@ -1,7 +1,7 @@
 ---
 title: Mechanical Physics
 created: 2023-09-03 08:46
-updated: 2023-10-19T15:14
+updated: 2023-11-05T01:47
 authors:
   - Edmund Leibert III
 tags:
@@ -10,7 +10,7 @@ tags:
   - 🔴-academic/📚-educational-resource/discipline/physics
   - 🔴-academic/📚-educational-resource/name/🗒️-physics/🔖-bookmark/mechanical-physics
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ Physics::Mechanical Physics
+cards-deck: 🔴 Academic::📚 Educational Resourceysics::Mechanical Physics
 version: v0.1
 ---
 

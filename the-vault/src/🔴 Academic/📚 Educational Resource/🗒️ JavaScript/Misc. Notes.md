@@ -5,7 +5,7 @@ updated: 2023-09-25 06:30
 ducational-resources/discipline/computer-science/programming-language/javascript
   - 🔴-academics/📚-educational-resources/name/🗒️-javascript/🔖-bookmark/🗒️-javascript/misc-notes
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::🗒️ JavaScript::Misc. Notes
+cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ JavaScript::Misc. Notes
 ---
 
 

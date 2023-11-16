@@ -12,7 +12,7 @@ tags:
   - 🔴-academic/📚-educational-resource/name/leetcode/problems/🏷️/difficulty/
   - 🔴-academic/📚-educational-resource/name/leetcode/problems/🏷️/tag/topic/
   - study-note
-cards-deck: 🔴 Academics::📚 Educational Resources::LeetCode::Problems::<% tp.file.title %>
+cards-deck: 🔴 Academic::📚 Educational Resource::LeetCode::Problems::<% tp.file.title %>
 ---
 
 # <% tp.file.title %>

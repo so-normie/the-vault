@@ -6,7 +6,7 @@
   "defaultViewMode": "preview",
   "livePreview": false,
   "readableLineLength": false,
-  "promptDelete": true,
+  "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": true,
   "showInlineTitle": false,

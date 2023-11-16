@@ -1,7 +1,7 @@
 ---
 title: Part 1꞉ Overview
 created: 2023-10-31T17:48
-updated: 2023-11-02T15:14
+updated: 2023-11-06T17:42
 authors:
   - Edmund Leibert III
 tags:
@@ -11,6 +11,8 @@ tags:
   - study-note
 cards-deck: "🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Get started::Part 1: Overview"
 ---
+
+# Overview of the get started guide
 
 ---
 
@@ -25,8 +27,6 @@ cards-deck: "🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Get 
 > 
 
 ---
-
-# Overview of the get started guide
 
 ﹇<br>
 What does this guide contain? [@OverviewGetStarted0200]
