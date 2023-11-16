@@ -39,5 +39,7 @@
   "obsidian-front-matter-title-plugin",
   "obsidian-latex-suite",
   "quick-latex",
-  "update-time-on-edit"
+  "update-time-on-edit",
+  "obsidian-git",
+  "obsidian-style-settings"
 ]

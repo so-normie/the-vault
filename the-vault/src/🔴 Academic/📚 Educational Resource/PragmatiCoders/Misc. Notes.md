@@ -1,13 +1,14 @@
 ---
 title: Misc. Notes
 created: 2023-11-14T14:30
-updated: 2023-11-14T17:47
+updated: 2023-11-16T15:42
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/structy/0-introduction/
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::PragmatiCoders::Misc. Notes
+icon: ":SiMarkdown:"
 ---
 
 # Misc. Notes
@@ -26,11 +27,11 @@ cards-deck: 🔴 Academic::📚 Educational Resource::PragmatiCoders::Misc. Note
 ---
 
 ﹇<br>
-What is an enum in Python?
+What is an **enum** in Python?
 
-#card 
+#card #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python 
 
-An enum is a special type of data structure in Python that allows you to define a set of named constants.
+An **enum** is a special type of data structure in Python that allows you to define a set of named constants.
 
 ⌂
 <br>﹈<br>^1700006314256
@@ -38,7 +39,7 @@ An enum is a special type of data structure in Python that allows you to define 
 ﹇<br>
 Why use enums in Python?
 
-#card 
+#card #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python 
 
 Enums can make your Python code more readable, maintainable, and error-resistant.
 
@@ -48,9 +49,14 @@ Enums can make your Python code more readable, maintainable, and error-resistant
 ﹇<br>
 How do you define an enum in Python 3.10 or later?
 
-#card 
+#card #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python 
 
 You use the `enum` module and subclass the `Enum` class to create your own enums.
+
+For example…
+```python
+from enum import Enum
+```
 
 ⌂
 <br>﹈<br>^1700006314297
@@ -58,7 +64,7 @@ You use the `enum` module and subclass the `Enum` class to create your own enums
 ﹇<br>
 How do you access members of an enum?
 
-#card
+#card #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python 
 
 You use the dot notation to access members of an enum.
 
@@ -66,9 +72,9 @@ You use the dot notation to access members of an enum.
 <br>﹈<br>^1700006314306
 
 ﹇<br>
-How do you iterate over the members of an enum?
+In Python, how do you iterate over the members of an enum?
 
-#card 
+#card #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python 
 
 You use a for loop to iterate over the members of an enum.
 
@@ -78,7 +84,7 @@ You use a for loop to iterate over the members of an enum.
 ﹇<br>
 How can you use enums in switch statements?
 
-#card 
+#card #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python 
 
 You can use enums in switch statements to match different cases.
 
@@ -88,7 +94,8 @@ You can use enums in switch statements to match different cases.
 ﹇<br>
 Give an example of how to define an enum in Python 3.10 or later.
 
-#card 
+#card #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python 
+
 
 ```python
 from enum import Enum
@@ -105,7 +112,7 @@ class Color(Enum):
 ﹇<br>
 Give an example of how to access a member of an enum.
 
-#card 
+#card #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python 
 
 ```python
 color = Color.RED
@@ -118,7 +125,7 @@ print(color)
 ﹇<br>
 Give an example of how to iterate over the members of an enum.
 
-#card 
+#card #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python 
 
 ```python
 for member in Color:
@@ -131,7 +138,7 @@ for member in Color:
 ﹇<br>
 Give an example of how to use an enum in a switch statement.
 
-#card 
+#card #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python 
 
 ```python
 def get_color_name(color):

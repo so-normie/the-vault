@@ -6,6 +6,13 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiWindows",
+      "EiPragmatiCoders",
+      "SiMicrosoftsqlserver",
+      "SiApachespark",
+      "EiRclone",
+      "EiPlantPot",
+      "RiPlantFill",
       "SiAnaconda",
       "SiPython",
       "SiObsidian",
@@ -13,14 +20,7 @@
       "SiWolframmathematica",
       "SiYarn",
       "TiKeyboardHide",
-      "TiSql",
-      "SiTypescript",
-      "SiVisualstudiocode",
-      "FasBook",
-      "EiOReilly",
-      "SiRust",
-      "TiNotes",
-      "TiTemplate"
+      "TiSql"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -127,9 +127,9 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": true,
+    "iconInTabsEnabled": false,
     "iconInTitleEnabled": false,
-    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterEnabled": true,
     "iconsBackgroundCheckEnabled": true
   },
   "the-vault/🔴 Academics/leila physics homework.md": "LiConstruction",
@@ -242,5 +242,11 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/141. Linked List Cycle.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python": "SiPython",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Conda": "SiAnaconda"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Conda": "SiAnaconda",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Quartz": "EiPlantPot",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Rclone": "EiRclone",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Spark Optimization": "SiApachespark",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ SQL Server": "SiMicrosoftsqlserver",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders": "EiPragmatiCoders",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Windows": "SiWindows"
 }
