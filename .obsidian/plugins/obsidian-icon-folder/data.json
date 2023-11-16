@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "BoBxsMessageSquareDots",
       "SiWindows",
       "EiPragmatiCoders",
       "SiMicrosoftsqlserver",
@@ -19,8 +20,7 @@
       "EiVimium",
       "SiWolframmathematica",
       "SiYarn",
-      "TiKeyboardHide",
-      "TiSql"
+      "TiKeyboardHide"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -248,5 +248,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Spark Optimization": "SiApachespark",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ SQL Server": "SiMicrosoftsqlserver",
   "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders": "EiPragmatiCoders",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Windows": "SiWindows"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Windows": "SiWindows",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md": "BoBxsMessageSquareDots"
 }

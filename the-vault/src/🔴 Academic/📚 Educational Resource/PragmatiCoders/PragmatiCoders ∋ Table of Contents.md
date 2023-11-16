@@ -1,11 +1,12 @@
 ---
 title: PragmatiCoders ∋ Table of Contents
 created: 2023-11-14T14:30
-updated: 2023-11-16T14:55
+updated: 2023-11-16T15:44
 tags:
   - 🔴-academic/📚-educational-resource/pragmaticoders/pragmaticoders-∋-table-of-contents
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource️::PragmatiCoders::PragmatiCoders ∋ Table of Contents
+icon: ListOI
 ---
 
 # PragmatiCoders ∋ Table of Contents
