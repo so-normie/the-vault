@@ -198,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -231,7 +231,7 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "0c5e01afae58f6be",
+  "active": "0cec135f27dad579",
   "lastOpenFiles": [
     "the-vault/zotero/My Library.bib",
     "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md",

@@ -7,12 +7,9 @@
   "citeFormats": [
     {
       "name": "Citation",
-      "format": "formatted-citation"
-    },
-    {
-      "name": "Bibliography",
-      "format": "formatted-bibliography",
-      "cslStyle": "ieee-with-url"
+      "format": "pandoc",
+      "cslStyle": "ieee-with-url",
+      "brackets": true
     }
   ],
   "exportFormats": [],
