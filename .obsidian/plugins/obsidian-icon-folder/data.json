@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiTemplate",
       "EiZotero",
       "FasBook",
       "FabNode",
@@ -19,8 +20,7 @@
       "SiApachespark",
       "EiRclone",
       "EiPlantPot",
-      "RiPlantFill",
-      "SiAnaconda"
+      "RiPlantFill"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -253,5 +253,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Fluent Python, 2nd Edition (2022)": "FasBook",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Physics": "EiPhysics",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Node.js": "FabNode",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero": "EiZotero"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero": "EiZotero",
+  "the-vault/templates/Template {{LeetCode ∋ Problem}}.md": "TiTemplate"
 }

@@ -5,7 +5,7 @@ updated:
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/name/structy/0-introduction/
+  - 🔴-academic/📚-educational-resource/name/structy/🔖/0-introduction/
   - 🔴-academic/📚-educational-resource/source-format/internet/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science
   - 🔴-academic/📚-educational-resource/name/structy/🏷️/challenge
@@ -60,6 +60,10 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Structy::
 ### :SiJavascript: JavaScript
 
 ### :FabJava: Java
+
+---
+
+## :EiZoteroItem: Bibliography
 
 ---
 

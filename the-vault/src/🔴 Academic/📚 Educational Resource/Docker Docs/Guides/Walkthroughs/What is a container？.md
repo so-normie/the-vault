@@ -1,7 +1,7 @@
 ---
 title: What is a container?
 created: 2023-10-31T16:39
-updated: 2023-11-17T02:15
+updated: 2023-11-17T09:51
 authors:
   - Edmund Leibert III
 tags:
@@ -137,6 +137,15 @@ The `welcome-to-docker` container continues to {1:run} until you {2:stop it}. 
 ---
 
 ## :EiZoteroItem: Bibliography
+
+\[1\]
+“Explore networking features on Docker Desktop,” _Docker Documentation_, 09:42:25 +0200 +0200. Available: [https://docs.docker.com/desktop/networking/](https://docs.docker.com/desktop/networking/). [Accessed: Nov. 17, 2023]
+
+\[2\]
+baeldung, “Assigning a Port Mapping to a Running Docker Container | Baeldung on Linux,” Jan. 13, 2022. Available: [https://www.baeldung.com/linux/assign-port-docker-container](https://www.baeldung.com/linux/assign-port-docker-container). [Accessed: Nov. 17, 2023]
+
+\[3\]
+I. Salki, “Answer to ‘Docker run -p ?/? (what are this two port numbers and what they represents ),’” _Stack Overflow_, Jun. 01, 2020. Available: [https://stackoverflow.com/a/62125889/8088657](https://stackoverflow.com/a/62125889/8088657). [Accessed: Nov. 17, 2023]
 
 ---
 

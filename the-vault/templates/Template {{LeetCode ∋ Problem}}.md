@@ -5,7 +5,7 @@ authors:
 created: 
 updated: 
 tags:
-  - 🔴-academic/📚-educational-resource/name/leetcode/problems/
+  - 🔴-academic/📚-educational-resource/name/leetcode/🔖/problems/
   - 🔴-academic/📚-educational-resource/source-format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/
   - 🔴-academic/📚-educational-resource/name/leetcode/problems/🏷️/premium/
@@ -42,8 +42,12 @@ cards-deck: 🔴 Academic::📚 Educational Resource::LeetCode::Problems::<% tp.
 
 ---
 
+## :EiZoteroItem: Bibliography
+
+---
+
 > [!INFO]+ 
 > **Next Note(s)**:
-> - 
+> 
 
 ---

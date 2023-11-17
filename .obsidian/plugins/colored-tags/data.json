@@ -897,7 +897,9 @@
     "🔴-academic/📚-educational-resource/name/🗒️-obsidian/🔖/🗒️-obsidian": 1,
     "🔴-academic/📚-educational-resource/name/🗒️-obsidian/🔖/🗒️-obsidian-∋-table-of-contents": 2,
     "🔴-academic/📚-educational-resource/name/🗒️-obsidian/🔖/misc-notes": 3,
-    "🔴-academic/📚-educational-resource/discipline/computer-science/technology/obsidian": 19
+    "🔴-academic/📚-educational-resource/discipline/computer-science/technology/obsidian": 19,
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖": 6,
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖/problems": 3
   },
   "_version": 2
 }

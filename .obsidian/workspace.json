@@ -32,22 +32,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "7d682eb9911e97e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/What is a container？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/What is a container？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,17 +198,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/What is a container？.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 433.5,
-    "collapsed": true
+    "width": 433.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,10 +236,15 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "7d682eb9911e97e6",
+  "active": "f1141900217fc1a2",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md",
+    "the-vault/templates/Template {{Table of Contents}}.md",
+    "the-vault/templates/Template {{Bibliography}}.md",
+    "the-vault/templates/Template {{Attempt}}.md",
+    "the-vault/templates/Template {{Structy ∋ Challenge}}.md",
+    "the-vault/templates/Template {{LeetCode ∋ Problem}}.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/What is a container？.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Walkthroughs ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/🗒️ Zotero ∋ Table of Contents.md",
@@ -277,12 +268,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Rollup/Rollup ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Python in a Nutshell, 4th Edition (2023)/Misc..md",
     "the-vault/zotero/My Library.bib",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/PragmatiCoders ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Windows/🗒️ Microsoft Windows ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Conda/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Conda/Conda ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Conda",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python",
     "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders",
