@@ -241,7 +241,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/136. Single Number.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/141. Linked List Cycle.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python": "SiPython",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Conda": "SiAnaconda",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Quartz": "EiPlantPot",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Rclone": "EiRclone",
@@ -249,5 +248,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ SQL Server": "SiMicrosoftsqlserver",
   "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders": "EiPragmatiCoders",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Windows": "SiWindows",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md": "BoBxsMessageSquareDots"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md": "BoBxsMessageSquareDots",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python": "SiPython"
 }

@@ -39,24 +39,6 @@
       "modifiedDate": 1698826886871,
       "sizeInBytes": 67
     },
-    "the-vault/zotero/My Library.bib": {
-      "isCountable": false,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1698966185754,
-      "modifiedDate": 1700020574770,
-      "sizeInBytes": 40260
-    },
     "the-vault/terror-interview-problem.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -5695,19 +5677,19 @@
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 807,
+      "wordCount": 813,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 2.69,
-      "characterCount": 6448,
-      "nonWhitespaceCharacterCount": 5510,
-      "readingTimeInMinutes": 3.0452830188679245,
+      "pageCount": 2.71,
+      "characterCount": 6504,
+      "nonWhitespaceCharacterCount": 5560,
+      "readingTimeInMinutes": 3.0679245283018868,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700020616736,
-      "modifiedDate": 1700036496679,
-      "sizeInBytes": 7599
+      "modifiedDate": 1700179634909,
+      "sizeInBytes": 7655
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Python in a Nutshell, 4th Edition (2023)/Misc..md": {
       "isCountable": true,
@@ -13538,6 +13520,24 @@
       "createdDate": 1699171074927,
       "modifiedDate": 1699171074928,
       "sizeInBytes": 67523
+    },
+    "the-vault/zotero/My Library.bib": {
+      "isCountable": false,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700179738016,
+      "modifiedDate": 1700179739206,
+      "sizeInBytes": 40260
     }
   }
 }

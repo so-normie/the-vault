@@ -11,8 +11,9 @@
   "renderCitations": true,
   "renderCitationsReadingMode": true,
   "renderLinkCitations": true,
-  "pullFromZotero": true,
+  "pullFromZotero": false,
   "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/ieee-with-url.csl",
   "enableCiteKeyCompletion": true,
-  "showCitekeyTooltips": true
+  "showCitekeyTooltips": true,
+  "pathToBibliography": "C:\\Users\\edmun\\Projects\\Repositories\\the-vault\\the-vault\\zotero\\My Library.bib"
 }
