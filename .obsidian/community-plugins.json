@@ -41,5 +41,8 @@
   "quick-latex",
   "update-time-on-edit",
   "obsidian-git",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "reference-map",
+  "obsidian-zotero-desktop-connector",
+  "obsidian-citation-plugin"
 ]
