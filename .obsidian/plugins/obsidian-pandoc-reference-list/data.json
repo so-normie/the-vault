@@ -5,7 +5,7 @@
     {
       "id": 1,
       "name": "My Library",
-      "lastUpdate": 1700187206679
+      "lastUpdate": 1700188163593
     }
   ],
   "renderCitations": true,
@@ -15,5 +15,5 @@
   "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/ieee-with-url.csl",
   "enableCiteKeyCompletion": true,
   "showCitekeyTooltips": true,
-  "pathToBibliography": "C:\\Users\\edmun\\Projects\\Repositories\\the-vault\\the-vault\\zotero\\My Library.bib"
+  "pathToBibliography": ""
 }
