@@ -199,19 +199,9 @@
               "type": "ReferenceListView",
               "state": {}
             }
-          },
-          {
-            "id": "5853502322e2abab",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md"
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",

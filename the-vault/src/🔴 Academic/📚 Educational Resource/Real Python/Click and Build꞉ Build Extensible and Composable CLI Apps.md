@@ -3,7 +3,7 @@ title: Click and Build꞉ Build Extensible and Composable CLI Apps
 authors:
   - Edmund Leibert III
 created: 2023-11-14T19:56
-updated: 2023-11-16T18:26
+updated: 2023-11-16T20:29
 tags:
   - 🔴-academic/📚-educational-resource/name/real-python/click-and-build-build-extensible-and-composable-cli-apps
   - 🔴-academic/📚-educational-resource/source-format/website
@@ -223,14 +223,14 @@ No, unlike `argparse`, Click doesn’t come in the Python standard library.
 
 ---
 
-> [!INFO]+
-> <center><b>Bibliography</b></center>
-> 
-> \[1\]
-> “The Python Standard Library,” _Python documentation_. Available: [https://docs.python.org/3/library/index.html](https://docs.python.org/3/library/index.html). \[Accessed: Nov. 17, 2023\]
-> 
-> \[2\]
-> Leodanis Pozo Ramos, “Build a Command-Line To-Do App With Python and Typer,” _Real Python_, Nov. 08, 2021. Available: [https://realpython.com/python-typer-cli/](https://realpython.com/python-typer-cli/). \[Accessed: Nov. 17, 2023\]
+
+<center><b>Bibliography</b></center>
+
+\[1\] 
+“The Python Standard Library,” _Python documentation_. Available: [https://docs.python.org/3/library/index.html](https://docs.python.org/3/library/index.html). \[Accessed: Nov. 17, 2023\]
+
+\[2\]
+Leodanis Pozo Ramos, “Build a Command-Line To-Do App With Python and Typer,” _Real Python_, Nov. 08, 2021. Available: [https://realpython.com/python-typer-cli/](https://realpython.com/python-typer-cli/). \[Accessed: Nov. 17, 2023\]
 
 ---
 
