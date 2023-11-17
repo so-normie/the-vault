@@ -129,7 +129,7 @@
     },
     "iconInTabsEnabled": false,
     "iconInTitleEnabled": false,
-    "iconInFrontmatterEnabled": true,
+    "iconInFrontmatterEnabled": false,
     "iconsBackgroundCheckEnabled": true
   },
   "the-vault/🔴 Academics/leila physics homework.md": "LiConstruction",

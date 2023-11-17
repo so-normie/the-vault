@@ -3,7 +3,7 @@ title: Click and Build꞉ Build Extensible and Composable CLI Apps
 authors:
   - Edmund Leibert III
 created: 2023-11-14T19:56
-updated: 2023-11-16T16:58
+updated: 2023-11-16T17:19
 tags:
   - 🔴-academic/📚-educational-resource/name/real-python/click-and-build-build-extensible-and-composable-cli-apps
   - 🔴-academic/📚-educational-resource/source-format/website
@@ -225,7 +225,13 @@ No, unlike `argparse`, Click doesn’t come in the Python standard library.
 
 [@TransactionProcessingSystem2023]
 
+[@edsfAnswerItBad2017]
+
 [@bertensLiteraryTheoryBasics2007]
+
+[@bertensIdeaPostmodernHistory1994]
+
+[@AlgorithmsLibrary2023]
 
 ---
 
