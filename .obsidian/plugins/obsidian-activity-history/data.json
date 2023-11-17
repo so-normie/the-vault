@@ -12,8 +12,13 @@
   "checkpointList": [
     {
       "path": "/",
+<<<<<<< Updated upstream
       "date": "2023-11-16",
       "size": 1724307
+=======
+      "date": "2023-11-17",
+      "size": 1792683
+>>>>>>> Stashed changes
     }
   ],
   "activityHistory": [
@@ -33,6 +38,7 @@
           "value": 355922
         },
         {
+<<<<<<< Updated upstream
           "date": "2023-10-31",
           "value": 25762
         },
@@ -87,6 +93,14 @@
         {
           "date": "2023-11-16",
           "value": 11672
+=======
+          "date": "2023-11-16",
+          "value": 375
+        },
+        {
+          "date": "2023-11-17",
+          "value": 0
+>>>>>>> Stashed changes
         }
       ]
     }
