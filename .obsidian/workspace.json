@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#🔴-academics/📚-educational-resources/name",
+                "query": "tag:#🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 428.5
+    "width": 458.5
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -214,6 +214,13 @@
   },
   "active": "3868feedd8498298",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Guides ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Docker Overview.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 4꞉ Share the application.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/0. Introduction ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Rollup/Rollup ∋ Table of Contents.md",
@@ -227,7 +234,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Conda/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Conda/Conda ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Conda",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Real Python ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python",
     "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders",
@@ -238,15 +244,9 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/136. Single Number.md",
     "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/112. Path Sum.md",
     "the-vault/🔴 Academics/🔴 Academics ∋ Table of Contents.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ∋ Table of Contents.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/📚 Educational Resources ∋ Table of Contents.md",
     "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode",
     "the-vault/🔴 Academics/📚 Educational Resources",
     "the-vault/🔴 Academics",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JetBrains/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JetBrains/🗒️ JetBrains ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 4꞉ Share the application.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JetBrains/Keyboard Shortcuts.md",
     "Pasted image 20231105005754.png",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Microservice APIs",
     "the-vault/zotero",

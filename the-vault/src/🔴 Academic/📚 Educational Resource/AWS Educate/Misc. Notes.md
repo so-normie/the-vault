@@ -3,11 +3,11 @@ author:
 publisher: Amazon Web Services, Inc.
 published: 
 tags:
-  - 🔴-academic/📚-educational-resources/name/aws-educate
+  - 🔴-academic/📚-educational-resource/name/aws-educate
   - study-note
 cards-deck: Default::Computer Science
 created: 2023-09-03 08:46
-updated: 2023-11-02T12:47
+updated: 2023-11-16T23:00
 ---
 
 ysis

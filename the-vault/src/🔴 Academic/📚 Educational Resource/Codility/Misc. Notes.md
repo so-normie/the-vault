@@ -3,11 +3,11 @@ author:
 publisher: 
 published: 
 tags:
-  - 🔴-academic/📚-educational-resources/name/codility
+  - 🔴-academic/📚-educational-resource/name/codility
   - study-note
 cards-deck: Default::Computer Science
 created: 2023-09-03 11:24
-updated: 2023-11-02T12:47
+updated: 2023-11-16T23:00
 ---
 
 context of C++, when tasked with iterating across an alphanumeric text and which the numeric portions of the text represent condensed forms of ambiguous text (i.e., `3aeb` is the same as `???aeb`), how should we go about iterating across this container with respect to the condensed text inside it? 

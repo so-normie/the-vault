@@ -1,11 +1,10 @@
 ---
 title: Misc. Notes
 created: 2023-11-14T17:17
-updated: 2023-11-14T17:47
+updated: 2023-11-16T23:01
 authors:
   - Edmund Leibert III
 tags:
-  - red
   - study-note
 cards-deck: "🔴 Academic::📚 Educational Resource::Real Python::Click and Python: Build Extensible and Composable CLI Apps"
 ---

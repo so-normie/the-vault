@@ -1,8 +1,8 @@
 ---
 title: Structy ∋ Table of Contents
 created: 2023-09-03 08:46
-updated: 2023-11-05T15:44
-authors:
+updated: 2023-11-16T22:53
+author(s):
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/structy/structy-∋-table-of-contents

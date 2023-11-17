@@ -1,11 +1,11 @@
 ---
 title: Part 3꞉ Share the application
 created: 2023-10-31T17:48
-updated: 2023-11-06T18:09
+updated: 2023-11-16T23:07
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/name/docker-docs/guides/get-started/part-4-share-the-application
+  - 🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/get-started/part-4-share-the-application
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/docker
   - study-note
 cards-deck: "🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Get started::Part 4: Share the application"

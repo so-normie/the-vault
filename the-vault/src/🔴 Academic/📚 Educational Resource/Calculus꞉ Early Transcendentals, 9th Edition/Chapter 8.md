@@ -6,11 +6,11 @@ author:
 publisher: Cengage Learning
 published: January 2020
 tags:
-  - 🔴-academic/📚-educational-resources/name/calculus-early-transcendentals-9th-edition
+  - 🔴-academic/📚-educational-resource/name/calculus-early-transcendentals-9th-edition
   - study-note
 cards-deck: Default::Mathematics
 created: 2023-09-03 08:46
-updated: 2023-11-02T12:47
+updated: 2023-11-16T23:00
 ---
 
 tion

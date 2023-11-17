@@ -1,11 +1,11 @@
 ---
 title: Docker Overview
 created: 2023-10-31T17:48
-updated: 2023-11-02T15:14
+updated: 2023-11-16T23:15
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/name/docker-docs/guides/docker-overview
+  - 🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/docker-overview
   - 🔴-academic/📚-educational-resource/source-format/internet
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/docker
   - study-note
@@ -16,7 +16,7 @@ version: v0.1
 ---
 
 > [!ABSTRACT]+
-> [Docker overview | Docker Docs](https://docs.docker.com/get-started/overview/#responsive-deployment-and-scaling)
+> These notes pertain to [Docker overview | Docker Docs](https://docs.docker.com/get-started/overview/#responsive-deployment-and-scaling).
 
 ---
 
