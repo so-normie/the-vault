@@ -1,0 +1,12 @@
+ol.bibliography {
+    counter-reset: number;
+}
+  .bibliography li {
+    list-style: none;
+    counter-increment: number;
+}
+  .bibliography li::before {
+    content: "[" counter(number) "]";
+    position: relative;
+    left:-5px
+}

@@ -1,7 +1,7 @@
 ---
 title: Docker Docs ∋ Table of Contents
 created: 2023-10-31T16:39
-updated: 2023-11-17T00:27
+updated: 2023-11-17T00:36
 author(s):
   - Edmund Leibert III
 tags:
@@ -49,16 +49,6 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Docker Docs �
 
 \[1\]
 “Home,” _Docker Docs_, 09:42:25 +0200 +0200. Available: [https://docs.docker.com/](https://docs.docker.com/). [Accessed: Nov. 17, 2023]
-
-<ol class="bibliography">
-  <li>Some text here</li>
-  <li>Some more text here..</li>
-  <li>Oh yeah, here's some pretty text</li>
-  <ol>
-    <li>Some more text here..</li>
-  	<li>Oh yeah, here's some pretty text</li>
-  </ol>
-</ol>
 
 ---
 

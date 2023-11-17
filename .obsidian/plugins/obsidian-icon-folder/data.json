@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "EiOReilly",
       "EiZoteroItem",
       "BoBxsMessageSquareDots",
       "SiWindows",
@@ -19,8 +20,7 @@
       "SiPython",
       "SiObsidian",
       "EiVimium",
-      "SiWolframmathematica",
-      "SiYarn"
+      "SiWolframmathematica"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -142,7 +142,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/HackerRank": "SiHackerrank",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Introduction to Algorithms, 4th Edition (2022)": "FasBook",
   "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com": "EiLearnCpp",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Learning SQL, 3rd Edition (2020)": "EiOReilly",
   "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode": "SiLeetcode",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Microsoft Learn": "SiMicrosoft",
   "the-vault/src/🔴 Academic/📚 Educational Resource/MSYS2 Documentation": "EiMSYS2",
@@ -151,7 +150,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/Postgres Conference": "SiYoutube",
   "the-vault/src/🔴 Academic/📚 Educational Resource/PostgreSQL Documentation": "EiPostgreSQL",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Precalculus꞉ Mathematics for Calculus, 7th Edition": "FasBook",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Python in a Nutshell, 4th Edition (2023)": "EiOReilly",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Structy": "EiStructy",
   "the-vault/src/🔴 Academic/📚 Educational Resource/The Official Guide to Mermaid.js": "EiMermaid",
   "the-vault/src/🔴 Academic/📚 Educational Resource/The Modern JavaScript Tutorial": "LiRadioTower",
@@ -221,7 +219,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/003. max-value 🧑🏽‍💻.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/004. is prime 👨🏽‍💻.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Rust": "SiRust",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Microservice APIs": "EiOReilly",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Discrete Mathematics and Its Applications, 8th Edition": "FasBook",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Discrete Mathematical Structures, 6th Edition": "FasBook",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Visual Studio Code": "SiVisualstudiocode",
@@ -249,5 +246,9 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Windows": "SiWindows",
   "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md": "BoBxsMessageSquareDots",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python": "SiPython",
-  "the-vault/zotero/My Library.bib": "EiZoteroItem"
+  "the-vault/zotero/My Library.bib": "EiZoteroItem",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning": "EiOReilly",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Microservice APIs": "EiOReilly",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Learning SQL, 3rd Edition (2020)": "EiOReilly",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Python in a Nutshell, 4th Edition (2023)": "EiOReilly"
 }

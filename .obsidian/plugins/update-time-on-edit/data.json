@@ -460,7 +460,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/CMake Reference Documentation/Reference Manuals.md": "564a308abd1efcc9d02a51ba8fa241edd9b23a488a358d5c6083491488f52faf",
     "the-vault/src/🔴 Academic/📚 Educational Resource/CMake Reference Documentation/Release Notes.md": "50fec301a70e18aba6a77c788b32da598923a631c1cc2fba898db28dae535d45",
     "the-vault/src/🔴 Academic/📚 Educational Resource/CMake Reference Documentation/sortspec.md.md": "c67a0695e4634225e6f0c70aec7c9058ecf828f6ddf7b40a81ab794b5d060d3d",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md": "06e534e0215107fad0897d6490a0ef88767b708aa77cd2ad952ad36c9c9c811b",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md": "ec7b61735e04977b38aa1fb838842f68659c1b090efe8d2a751854f69bfd6692",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Foundations of Scalable Systems (2022)/Preface.md": "f0eb8417a7291eb49325fb44e092c8857c3f590bca44c46575083724bdd64fad",
     "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs/CICD and DevOps.md": "bcbe3891c98cca4a5631ec95517c7aeb328b4fdee1aafbb2609b600cecb73cea",
     "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs/Get started.md": "2d22daabf8f9c6a728ea13a52ab9ff203abd9cd3d18efe339a024055fc389ede",
@@ -496,11 +496,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter M꞉ Move Semantics and Smart Pointers.md": "140f115bcc8cd479aaa68249a77933655cbae7def9afdc5f739c6c5e8ca96836",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter O꞉ Bit Manipulation (optional chapter).md": "792043d7ace291dabead6e58d0e70d5d05a1cdee165a9ec6342bee60c095949c",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/sortspec.md.md": "b861e84382baed31f049a9c7b49f5120c76afc24f6969c19c399379f4d07f367",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Learning SQL, 3rd Edition (2020)/Chapter 1. A Little Background.md": "828995c773e3c4d992adee420c540b1132238b7d72dddb8ceae0c114910427f4",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Learning SQL, 3rd Edition (2020)/Chapter 2. Creating and Populating a Database.md": "ba081575f9c9c523a8112e6bd39e6e9d3309611dbfe3eb346b6c12b6bb911f0d",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Learning SQL, 3rd Edition (2020)/Preface.md": "ae6694f4e32d2538211d4967af337f239520f30577dd1d70ab4479591ceb5fcc",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Learning SQL, 3rd Edition (2020)/sortspec.md.md": "e2fe35591b3be31c90430913e171a3ffdbfecc899f9b9381aaa55103ed7b9fef",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Learning SQL, 3rd Edition (2020)/Table of Contents.md": "96b6831bfc2c8b8bfe0abf354f2a1eb1361c68713e212ecbb34e1f505fdf3d45",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/111. Minimum Depth of Binary Tree.md": "526407a62c5684d0b9d3ff0272e2b5319f4683950780e96f3e3bce9e3cc1e168",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/112. Path Sum.md": "77cf4e6edc9a65de874016b6bc45722182b3d0fd19962a2cff3daccf3557d523",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/217. Contains Duplicate.md": "a8135dadfccb8c1a8f20878d178111b7e825f40127078f998bd11f15b44fba58",
@@ -814,7 +809,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Codility/Misc. Notes.md": "abd4000e7ce96d37f2a6d210922b410d870fc6c6650bc1d1aa52c462c6ef5442",
     "the-vault/src/🔴 Academic/📚 Educational Resource/IBM Technology/Misc. Notes.md": "f4d32aa8fa38fc3ad8be8b8cb34a283e170ec865761444c7c391c226148713ec",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Calculus꞉ Early Transcendentals, 9th Edition/Chapter 8.md": "c54d47cc5f3441586250dee782deb5de3abf1b629d5e79ff6f850fd6d3c69246",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Python in a Nutshell, 4th Edition (2023)/Misc..md": "ccf6eac364350ff7c158cc7a040e9c2ed4dc61e9089315950a3c9ff9af4c4e18",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Master Your Data with Excel and Power BI/Misc..md": "2ebccb620442d2a40bbc5c0f7e159ee4901336f0fea58c071917bd17eb2e9e07",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Foundations of Scalable Systems (2022)/Misc..md": "e902fff3f6b8641ff11eaf58a158530166f13d8809785e3f6eeb9231b296e25c",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/036. binary tree welcome 👨🏻‍🏫.md": "7d2dd58dac16735ec076a767830bb8047bbf363084ef0167e6cfcd0f57ad932a",
@@ -892,6 +886,12 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Misc. Notes.md": "2144d907cb76b429afd0b6063a827d039687cb8a2625545a5af290c77ce76fbe",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md": "d99439248bf1c4269c81e45b1a436ba1d917cf55d0a18f4d0da94d395233d4b3",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Conda/Misc. Notes.md": "63958bb3cbcbe8f3e7ef016d6bc46731eb6c05c2aede45fc7ca7910be33cf881",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/PragmatiCoders ∋ Table of Contents.md": "5190b306dbddf195b619eb478ab50732118cb43e7e132d749cc641623ddbb7bc"
+    "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/PragmatiCoders ∋ Table of Contents.md": "5190b306dbddf195b619eb478ab50732118cb43e7e132d749cc641623ddbb7bc",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Learning SQL, 3rd Edition (2020)/Chapter 1. A Little Background.md": "828995c773e3c4d992adee420c540b1132238b7d72dddb8ceae0c114910427f4",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Learning SQL, 3rd Edition (2020)/Chapter 2. Creating and Populating a Database.md": "ba081575f9c9c523a8112e6bd39e6e9d3309611dbfe3eb346b6c12b6bb911f0d",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Learning SQL, 3rd Edition (2020)/Preface.md": "ae6694f4e32d2538211d4967af337f239520f30577dd1d70ab4479591ceb5fcc",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Learning SQL, 3rd Edition (2020)/sortspec.md.md": "e2fe35591b3be31c90430913e171a3ffdbfecc899f9b9381aaa55103ed7b9fef",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Learning SQL, 3rd Edition (2020)/Table of Contents.md": "96b6831bfc2c8b8bfe0abf354f2a1eb1361c68713e212ecbb34e1f505fdf3d45",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Python in a Nutshell, 4th Edition (2023)/Misc..md": "ccf6eac364350ff7c158cc7a040e9c2ed4dc61e9089315950a3c9ff9af4c4e18"
   }
 }

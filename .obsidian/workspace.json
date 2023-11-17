@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
-                "mode": "source",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/O'Reilly Learning ∋ Table of Contents.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/O'Reilly Learning ∋ Table of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/O'Reilly Learning ∋ Table of Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/O'Reilly Learning ∋ Table of Contents.md"
               }
             }
           }
@@ -222,9 +222,11 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "08e41fc892ca79b3",
+  "active": "4bbd078a939f1607",
   "lastOpenFiles": [
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/O'Reilly Learning ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/0. Introduction ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
@@ -235,7 +237,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Rollup/Rollup ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Python in a Nutshell, 4th Edition (2023)/Misc..md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Python in a Nutshell, 4th Edition (2023)/Misc..md",
     "the-vault/zotero/My Library.bib",
     "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/PragmatiCoders ∋ Table of Contents.md",
@@ -253,14 +255,12 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1. Two Sum.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/136. Single Number.md",
     "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/112. Path Sum.md",
-    "the-vault/🔴 Academics/🔴 Academics ∋ Table of Contents.md",
     "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode",
     "the-vault/🔴 Academics/📚 Educational Resources",
     "the-vault/🔴 Academics",
     "Pasted image 20231105005754.png",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Microservice APIs",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Microservice APIs",
     "the-vault/zotero",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Rollup",
     "the-vault/assets/images/docker-docs-docker-architecture.png",
     "the-vault/assets/images/Pasted image 20230913161050.png",
     "the-vault/assets/images/Pasted image 20230924131220.png",
