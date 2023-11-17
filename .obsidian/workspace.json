@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d69711ec3298d387",
+        "id": "f8857e31a478bac4",
         "type": "tabs",
         "children": [
           {
-            "id": "fed2e9813b4dfa74",
+            "id": "08e41fc892ca79b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -189,7 +189,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -222,7 +222,7 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "fed2e9813b4dfa74",
+  "active": "08e41fc892ca79b3",
   "lastOpenFiles": [
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
