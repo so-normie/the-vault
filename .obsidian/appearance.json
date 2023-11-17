@@ -2,7 +2,7 @@
   "accentColor": "#734eca",
   "theme": "obsidian",
   "nativeMenus": true,
-  "translucency": false,
+  "translucency": true,
   "enabledCssSnippets": [
     "spoiler",
     "source-mode",

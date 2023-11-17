@@ -17,7 +17,7 @@
   "customHighlightFormat": true,
   "highlightFormat": "[{CONTENT}]({URL})",
   "highlightInSameTab": false,
-  "openInSameTab": true,
+  "openInSameTab": false,
   "showRefreshButton": true,
   "openInObsidianWeb": false,
   "useCustomIcons": false,
@@ -43,5 +43,17 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "e209dbe3a991f065",
+      "parent": 0,
+      "droppable": true,
+      "text": "Welcome to Click — Click Documentation (8.0.x)",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }

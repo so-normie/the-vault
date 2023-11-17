@@ -3,7 +3,7 @@ title: Click and Build꞉ Build Extensible and Composable CLI Apps
 authors:
   - Edmund Leibert III
 created: 2023-11-14T19:56
-updated: 2023-11-16T20:29
+updated: 2023-11-16T22:37
 tags:
   - 🔴-academic/📚-educational-resource/name/real-python/click-and-build-build-extensible-and-composable-cli-apps
   - 🔴-academic/📚-educational-resource/source-format/website
@@ -97,15 +97,11 @@ For developers, data scientists, DevOps engineers, or anyone using Python to aut
 
 ## Creating Command-Line Interfaces With Click and Python
 
-The {1:[Click](https://click.palletsprojects.com/en/8.0.x/)} library enables you to {2:quickly create robust, feature-rich, and extensible [command-line interfaces (CLIs)](https://realpython.com/python-command-line-arguments/#the-command-line-interface) for your scripts and tools. This library can significantly speed up your development process because it allows you to focus on the application’s logic and leave CLI creation and management to the library itself}.
+The {1:[Click](https://click.palletsprojects.com/en/8.0.x/)} library enables you to {2:quickly create robust, feature-rich, and extensible [command-line interfaces (CLIs)](https://realpython.com/python-command-line-arguments/#the-command-line-interface) for your scripts and tools. This library can significantly speed up your development process because it allows you to focus on the application’s logic and leave CLI creation and management to the library itself}. [@WelcomeClickClick] [@realpythonPythonCommandLineArguments2020]
 ^1700029670730
 
-Click is a great alternative to the {2:[`argparse`](https://realpython.com/command-line-interfaces-python-argparse/)} module, which is the {3:default CLI framework in the Python standard library}.
+Click is a great alternative to the {2:[`argparse`](https://realpython.com/command-line-interfaces-python-argparse/)} module, which is the {3:default CLI framework in the Python standard library}. [@leodanispozoramosBuildCommandLineInterfaces]
 ^1700029670768
-
-Red is ==blue==.
-
-Red is <u>blue</u>
 
 ### Why Use Click for CLI Development
 
@@ -138,7 +134,7 @@ What are some key features of Click apps?
 
 Key features of Click apps include…
 - Can be **lazily composable** without restrictions
-- Follow the [Unix](https://en.wikipedia.org/wiki/Unix-like) **command-line conventions**
+- Follow the [Unix](https://en.wikipedia.org/wiki/Unix-like) **command-line conventions** [@UnixlikeWikipedia]
 - Support loading values from **environment variables**
 - Support custom **prompts** for input values
 - Handle **paths** and **files** out of the box
@@ -224,13 +220,25 @@ No, unlike `argparse`, Click doesn’t come in the Python standard library.
 ---
 
 
-<center><b>Bibliography</b></center>
+## :EiZoteroItem: Bibliography
 
 \[1\] 
 “The Python Standard Library,” _Python documentation_. Available: [https://docs.python.org/3/library/index.html](https://docs.python.org/3/library/index.html). \[Accessed: Nov. 17, 2023\]
 
 \[2\]
 Leodanis Pozo Ramos, “Build a Command-Line To-Do App With Python and Typer,” _Real Python_, Nov. 08, 2021. Available: [https://realpython.com/python-typer-cli/](https://realpython.com/python-typer-cli/). \[Accessed: Nov. 17, 2023\]
+
+\[3\]
+“Welcome to Click — Click Documentation (8.0.x),” _Click_. Available: [https://click.palletsprojects.com/en/8.0.x/](https://click.palletsprojects.com/en/8.0.x/). [Accessed: Nov. 17, 2023]
+
+\[4\]
+Real Python, “Python Command-Line Arguments – Real Python,” _Real Python_, Feb. 05, 2020. Available: [https://realpython.com/python-command-line-arguments/](https://realpython.com/python-command-line-arguments/). [Accessed: Nov. 17, 2023]
+
+\[5\]
+Leodanis Pozo Ramos, “Build Command-Line Interfaces With Python’s argparse – Real Python.” Available: [https://realpython.com/command-line-interfaces-python-argparse/](https://realpython.com/command-line-interfaces-python-argparse/). [Accessed: Nov. 17, 2023]
+
+\[6\]
+“Unix-like - Wikipedia.” Available: [https://en.wikipedia.org/wiki/Unix-like](https://en.wikipedia.org/wiki/Unix-like). [Accessed: Nov. 17, 2023]
 
 ---
 

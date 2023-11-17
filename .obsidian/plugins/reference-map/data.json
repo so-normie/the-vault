@@ -17,7 +17,7 @@
     {
       "id": 1,
       "name": "My Library",
-      "lastUpdate": 1700183945613
+      "lastUpdate": 1700203301050
     }
   ],
   "zoteroPort": "23119",
@@ -39,12 +39,12 @@
   "modalInsertTemplate": "{{title}}\n{{authors}}\n{{journal}}, {{year}}\n{{abstract}}\n",
   "formatMetadataCopyOne": true,
   "formatMetadataCopyTwo": true,
-  "formatMetadataCopyThree": false,
+  "formatMetadataCopyThree": true,
   "metadataCopyTemplateOne": "{{bibtex}}",
   "metadataCopyTemplateTwo": "# {{title}}\n**{{authors}}**\n*{{journal}}, {{year}}*\n>[!abstract] Abstract\n>{{abstract}}\n",
   "metadataCopyTemplateThree": "[[{{title}}-{{author}} {{year}}]]",
-  "metadataCopyOneBatch": false,
-  "metadataCopyTwoBatch": false,
+  "metadataCopyOneBatch": true,
+  "metadataCopyTwoBatch": true,
   "metadataCopyThreeBatch": true,
   "debugMode": true
 }

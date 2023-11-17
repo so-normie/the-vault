@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b95cb04e78300bbf",
+        "id": "624028e5dc32ea4d",
         "type": "tabs",
         "children": [
           {
-            "id": "7831ff04c498b116",
+            "id": "3868feedd8498298",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "da8edd9e50da88ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Python in a Nutshell, 4th Edition (2023)/Misc..md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -80,14 +67,6 @@
             }
           },
           {
-            "id": "241a772c404f3697",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {}
-            }
-          },
-          {
             "id": "d8bd9e79e958e7e7",
             "type": "leaf",
             "state": {
@@ -99,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 428.5,
-    "collapsed": true
+    "width": 428.5
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -124,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +179,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -210,7 +188,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "flashcards-obsidian:Generate flashcards": true,
-      "surfing:surfing-bookmark-manager": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
@@ -235,8 +212,11 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "7831ff04c498b116",
+  "active": "3868feedd8498298",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/0. Introduction ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Rollup/Rollup ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Python in a Nutshell, 4th Edition (2023)/Misc..md",
     "the-vault/zotero/My Library.bib",
@@ -267,9 +247,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JetBrains/🗒️ JetBrains ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 4꞉ Share the application.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JetBrains/Keyboard Shortcuts.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 3꞉ Update the application.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 2꞉ Containerize an application.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
     "Pasted image 20231105005754.png",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Microservice APIs",
     "the-vault/zotero",

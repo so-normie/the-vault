@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "EiZoteroItem",
       "BoBxsMessageSquareDots",
       "SiWindows",
       "EiPragmatiCoders",
@@ -19,8 +20,7 @@
       "SiObsidian",
       "EiVimium",
       "SiWolframmathematica",
-      "SiYarn",
-      "TiKeyboardHide"
+      "SiYarn"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -248,5 +248,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders": "EiPragmatiCoders",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Windows": "SiWindows",
   "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md": "BoBxsMessageSquareDots",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python": "SiPython"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python": "SiPython",
+  "the-vault/zotero/My Library.bib": "EiZoteroItem"
 }
