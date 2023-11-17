@@ -12,7 +12,7 @@ tags:
   - study-note
 cards-deck: Default::Computer Science
 created: 2023-09-03 08:46
-updated: 2023-11-16T17:20
+updated: 2023-11-16T18:06
 ---
 
 # Python in a Nutshell, 4ᵗʰ Edition (2023)
@@ -82,7 +82,6 @@ Python provides a unique mix of… #card-reverse
 
 [@bertensIdeaPostmodernHistory1994]
 
-[@bertensIdeaPostmodernHistory1994]
 
 ## [2. The Python Interpreter](https://learning.oreilly.com/library/view/python-in-a/9781098113544/ch02.html)
   
