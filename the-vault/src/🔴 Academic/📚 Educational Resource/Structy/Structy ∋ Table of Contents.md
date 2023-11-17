@@ -1,7 +1,7 @@
 ---
 title: Structy ∋ Table of Contents
 created: 2023-09-03 08:46
-updated: 2023-11-16T22:53
+updated: 2023-11-17T00:16
 author(s):
   - Edmund Leibert III
 tags:
@@ -73,6 +73,10 @@ Structy is a guided course that builds your algorithm knowledge efficiently. [@z
 	- **6. Stack**
 	- **7. Exhaustive Recursion**
 	- **8. Mixed Recall**
+
+---
+
+## Bibliography
 
 ---
 
