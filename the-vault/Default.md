@@ -1,30 +1,41 @@
 ---
 created: 2023-10-01 16:14
-updated: 2023-10-19T15:14
+updated: 2023-11-05T01:38
 cards-deck: Default
 ---
+
+# Red
+
+## Blue
+
+### Green
 
 ﹇<br>
 What is our favorite color?
 
-> [!warning] Warn
+> [!warning]
 > I love notes
 
 #card 
 
 Red
 
-> [!info]+ Note
+> [!info]+
 > I love notes
 
-> [!info]- Note
+> [!info]-
 > I love notes
 
-> [!info] Note
+> [!info]
 > I love notes
+
+> [!info]
+> >[!info]
+> >sdcsd
+>
 
 ⌂
-<br>﹈<br>^1697748293485
+<br>﹈<br>^1699173505984
 
 
 ﹇<br>
@@ -43,8 +54,7 @@ int main() {
 ```
 
 ⌂
-<br>﹈<br>^1697748293492
-
+<br>﹈<br>^1699173505991
 
 
 ﹇<br>
@@ -52,12 +62,10 @@ Question
 
 #card 
 
-![Pasted image 20231019113907](the-vault/assets/images/physics-img.png)
-
-![problem-2.excalidraw](the-vault/assets/excalidraw/problem-2.excalidraw.png)
+![Pasted image 20231019113907|500](the-vault/assets/images/physics-img.png)
 
 ⌂
-<br>﹈<br>^1697748293499
+<br>﹈<br>^1699173505997
 
 
 ﹇<br>
@@ -68,8 +76,5 @@ What is the most holy god
 > Jesus yolo
 
 ⌂
-<br>﹈<br>^1697748293505
-
-
-
+<br>﹈<br>^1699173506002
 

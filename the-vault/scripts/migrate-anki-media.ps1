@@ -3,3 +3,6 @@ $collectionMediaPath = "C:\Users\edmun\AppData\Roaming\Anki2\Edmund Leibert III 
 
 # Copy the assets folder to the collection.media folder
 Copy-Item -Path "../assets" -Destination $collectionMediaPath -Recurse
+
+
+

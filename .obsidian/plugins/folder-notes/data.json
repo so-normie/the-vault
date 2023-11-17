@@ -1,21 +1,117 @@
 {
-  "syncFolderName": false,
+  "syncFolderName": true,
   "ctrlKey": true,
   "altKey": false,
   "hideFolderNote": false,
   "templatePath": "",
-  "autoCreate": false,
+  "autoCreate": true,
   "enableCollapsing": false,
   "excludeFolders": [
     {
       "type": "folder",
-      "path": "",
-      "subFolders": true,
+      "path": "the-vault",
+      "subFolders": false,
       "disableSync": true,
       "disableAutoCreate": true,
       "disableFolderNote": false,
       "enableCollapsing": false,
       "position": 0,
+      "excludeFromFolderOverview": false,
+      "string": ""
+    },
+    {
+      "type": "folder",
+      "path": "the-vault/anki",
+      "subFolders": true,
+      "disableSync": true,
+      "disableAutoCreate": true,
+      "disableFolderNote": false,
+      "enableCollapsing": false,
+      "position": 1,
+      "excludeFromFolderOverview": false,
+      "string": ""
+    },
+    {
+      "type": "folder",
+      "path": "the-vault/assets",
+      "subFolders": true,
+      "disableSync": true,
+      "disableAutoCreate": true,
+      "disableFolderNote": false,
+      "enableCollapsing": false,
+      "position": 2,
+      "excludeFromFolderOverview": false,
+      "string": ""
+    },
+    {
+      "type": "folder",
+      "path": "the-vault/scripts",
+      "subFolders": true,
+      "disableSync": true,
+      "disableAutoCreate": true,
+      "disableFolderNote": false,
+      "enableCollapsing": false,
+      "position": 3,
+      "excludeFromFolderOverview": false,
+      "string": ""
+    },
+    {
+      "type": "folder",
+      "path": "the-vault/templates",
+      "subFolders": true,
+      "disableSync": true,
+      "disableAutoCreate": true,
+      "disableFolderNote": false,
+      "enableCollapsing": false,
+      "position": 4,
+      "excludeFromFolderOverview": false,
+      "string": ""
+    },
+    {
+      "type": "folder",
+      "path": "the-vault/src",
+      "subFolders": false,
+      "disableSync": true,
+      "disableAutoCreate": true,
+      "disableFolderNote": false,
+      "enableCollapsing": false,
+      "position": 5,
+      "excludeFromFolderOverview": false,
+      "string": ""
+    },
+    {
+      "type": "folder",
+      "path": "the-vault/src/🔴 Academics",
+      "subFolders": false,
+      "disableSync": true,
+      "disableAutoCreate": true,
+      "disableFolderNote": false,
+      "enableCollapsing": false,
+      "position": 6,
+      "excludeFromFolderOverview": false,
+      "string": ""
+    },
+    {
+      "type": "folder",
+      "path": "the-vault/src/🔴 Academics/📚 Educational Resources",
+      "subFolders": false,
+      "disableSync": true,
+      "disableAutoCreate": true,
+      "disableFolderNote": false,
+      "enableCollapsing": false,
+      "position": 7,
+      "excludeFromFolderOverview": false,
+      "string": ""
+    },
+    {
+      "type": "folder",
+      "path": "the-vault/zotero",
+      "subFolders": true,
+      "disableSync": true,
+      "disableAutoCreate": true,
+      "disableFolderNote": false,
+      "enableCollapsing": false,
+      "position": 8,
       "excludeFromFolderOverview": false,
       "string": ""
     }
@@ -26,10 +122,10 @@
   "underlineFolderInPath": true,
   "openFolderNoteOnClickInPath": true,
   "openInNewTab": false,
-  "folderNoteName": "{{folder_name}} ▹ 📋 Table of Contents",
+  "folderNoteName": "{{folder_name}} ∋ Table of Contents",
   "folderNoteType": ".md",
   "disableFolderHighlighting": false,
-  "newFolderNoteName": "{{folder_name}} ▹ 📋 Table of Contents",
+  "newFolderNoteName": "{{folder_name}} ∋ Table of Contents",
   "storageLocation": "insideFolder",
   "syncDelete": false,
   "showRenameConfirmation": true,
@@ -59,9 +155,13 @@
     "explorer": false,
     "path": false
   },
-  "settingsTab": "general",
+  "settingsTab": "path",
   "supportedFileTypes": [
-    "md",
-    "canvas"
-  ]
+    "md"
+  ],
+  "boldName": true,
+  "boldNameInPath": true,
+  "cursiveName": true,
+  "cursiveNameInPath": true,
+  "disableOpenFolderNoteOnClick": false
 }

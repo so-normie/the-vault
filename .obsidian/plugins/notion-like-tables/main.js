@@ -1082,7 +1082,7 @@ var require_react_development = __commonJS({
           var dispatcher = resolveDispatcher();
           return dispatcher.useCallback(callback, deps);
         }
-        function useMemo4(create, deps) {
+        function useMemo3(create, deps) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useMemo(create, deps);
         }
@@ -1851,7 +1851,7 @@ var require_react_development = __commonJS({
         exports.useImperativeHandle = useImperativeHandle;
         exports.useInsertionEffect = useInsertionEffect;
         exports.useLayoutEffect = useLayoutEffect2;
-        exports.useMemo = useMemo4;
+        exports.useMemo = useMemo3;
         exports.useReducer = useReducer;
         exports.useRef = useRef4;
         exports.useState = useState2;
@@ -2350,9 +2350,9 @@ var require_react_dom_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React62 = require_react();
+        var React68 = require_react();
         var Scheduler = require_scheduler();
-        var ReactSharedInternals = React62.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React68.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         var suppressWarning = false;
         function setSuppressWarning(newSuppressWarning) {
           {
@@ -2401,7 +2401,7 @@ var require_react_dom_development = __commonJS({
         var HostPortal = 4;
         var HostComponent = 5;
         var HostText = 6;
-        var Fragment23 = 7;
+        var Fragment22 = 7;
         var Mode = 8;
         var ContextConsumer = 9;
         var ContextProvider = 10;
@@ -3478,7 +3478,7 @@ var require_react_dom_development = __commonJS({
               return "DehydratedFragment";
             case ForwardRef:
               return getWrappedName$1(type, type.render, "ForwardRef");
-            case Fragment23:
+            case Fragment22:
               return "Fragment";
             case HostComponent:
               return type;
@@ -3873,7 +3873,7 @@ var require_react_dom_development = __commonJS({
           {
             if (props.value == null) {
               if (typeof props.children === "object" && props.children !== null) {
-                React62.Children.forEach(props.children, function(child) {
+                React68.Children.forEach(props.children, function(child) {
                   if (child == null) {
                     return;
                   }
@@ -4304,7 +4304,7 @@ var require_react_dom_development = __commonJS({
           var warnedForNaNValue = false;
           var warnedForInfinityValue = false;
           var camelize = function(string) {
-            return string.replace(hyphenPattern, function(_5, character) {
+            return string.replace(hyphenPattern, function(_7, character) {
               return character.toUpperCase();
             });
           };
@@ -12034,7 +12034,7 @@ var require_react_dom_development = __commonJS({
           }
         }
         var fakeInternalInstance = {};
-        var emptyRefsObject = new React62.Component().refs;
+        var emptyRefsObject = new React68.Component().refs;
         var didWarnAboutStateAssignmentForComponent;
         var didWarnAboutUninitializedState;
         var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -12843,7 +12843,7 @@ var require_react_dom_development = __commonJS({
             }
           }
           function updateFragment2(returnFiber, current2, fragment, lanes, key) {
-            if (current2 === null || current2.tag !== Fragment23) {
+            if (current2 === null || current2.tag !== Fragment22) {
               var created = createFiberFromFragment(fragment, returnFiber.mode, lanes, key);
               created.return = returnFiber;
               return created;
@@ -13245,7 +13245,7 @@ var require_react_dom_development = __commonJS({
               if (child.key === key) {
                 var elementType = element.type;
                 if (elementType === REACT_FRAGMENT_TYPE) {
-                  if (child.tag === Fragment23) {
+                  if (child.tag === Fragment22) {
                     deleteRemainingChildren(returnFiber, child.sibling);
                     var existing = useFiber(child, element.props.children);
                     existing.return = returnFiber;
@@ -17351,7 +17351,7 @@ var require_react_dom_development = __commonJS({
               var _resolvedProps2 = workInProgress2.elementType === type ? _unresolvedProps2 : resolveDefaultProps(type, _unresolvedProps2);
               return updateForwardRef(current2, workInProgress2, type, _resolvedProps2, renderLanes2);
             }
-            case Fragment23:
+            case Fragment22:
               return updateFragment(current2, workInProgress2, renderLanes2);
             case Mode:
               return updateMode(current2, workInProgress2, renderLanes2);
@@ -17623,7 +17623,7 @@ var require_react_dom_development = __commonJS({
             case SimpleMemoComponent:
             case FunctionComponent:
             case ForwardRef:
-            case Fragment23:
+            case Fragment22:
             case Mode:
             case Profiler:
             case ContextConsumer:
@@ -21837,7 +21837,7 @@ var require_react_dom_development = __commonJS({
           return fiber;
         }
         function createFiberFromFragment(elements, mode, lanes, key) {
-          var fiber = createFiber(Fragment23, elements, key, mode);
+          var fiber = createFiber(Fragment22, elements, key, mode);
           fiber.lanes = lanes;
           return fiber;
         }
@@ -23638,7 +23638,7 @@ var require_lodash = __commonJS({
         return string.match(reUnicodeWord) || [];
       }
       var runInContext = function runInContext2(context) {
-        context = context == null ? root : _5.defaults(root.Object(), context, _5.pick(root, contextProps));
+        context = context == null ? root : _7.defaults(root.Object(), context, _7.pick(root, contextProps));
         var Array3 = context.Array, Date2 = context.Date, Error2 = context.Error, Function2 = context.Function, Math2 = context.Math, Object2 = context.Object, RegExp2 = context.RegExp, String3 = context.String, TypeError2 = context.TypeError;
         var arrayProto = Array3.prototype, funcProto = Function2.prototype, objectProto = Object2.prototype;
         var coreJsData = context["__core-js_shared__"];
@@ -26932,7 +26932,7 @@ var require_lodash = __commonJS({
           customizer = typeof customizer == "function" ? customizer : undefined2;
           return baseClone(value, CLONE_SYMBOLS_FLAG, customizer);
         }
-        function cloneDeep21(value) {
+        function cloneDeep19(value) {
           return baseClone(value, CLONE_DEEP_FLAG | CLONE_SYMBOLS_FLAG);
         }
         function cloneDeepWith(value, customizer) {
@@ -28058,7 +28058,7 @@ var require_lodash = __commonJS({
         lodash.ceil = ceil2;
         lodash.clamp = clamp;
         lodash.clone = clone2;
-        lodash.cloneDeep = cloneDeep21;
+        lodash.cloneDeep = cloneDeep19;
         lodash.cloneDeepWith = cloneDeepWith;
         lodash.cloneWith = cloneWith;
         lodash.conformsTo = conformsTo;
@@ -28372,17 +28372,17 @@ var require_lodash = __commonJS({
         }
         return lodash;
       };
-      var _5 = runInContext();
+      var _7 = runInContext();
       if (typeof define == "function" && typeof define.amd == "object" && define.amd) {
-        root._ = _5;
+        root._ = _7;
         define(function() {
-          return _5;
+          return _7;
         });
       } else if (freeModule) {
-        (freeModule.exports = _5)._ = _5;
-        freeExports._ = _5;
+        (freeModule.exports = _7)._ = _7;
+        freeExports._ = _7;
       } else {
-        root._ = _5;
+        root._ = _7;
       }
     }).call(exports);
   }
@@ -29334,7 +29334,7 @@ var require_template = __commonJS({
                 var string = String(literal_3.value);
                 strings.splice(i2, 2, strings[i2] + string + strings[i2 + 1]);
                 break;
-              } catch (_5) {
+              } catch (_7) {
                 i2++;
                 break;
               }
@@ -29352,7 +29352,7 @@ var require_template = __commonJS({
                 var string = String(literal_4.value);
                 strings.splice(i2, 2, strings[i2] + string + strings[i2 + 1]);
                 break;
-              } catch (_5) {
+              } catch (_7) {
                 i2++;
                 break;
               }
@@ -30284,8 +30284,8 @@ var require_use_sync_external_store_shim_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React62 = require_react();
-        var ReactSharedInternals = React62.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var React68 = require_react();
+        var ReactSharedInternals = React68.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         function error(format) {
           {
             {
@@ -30315,13 +30315,13 @@ var require_use_sync_external_store_shim_development = __commonJS({
           return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
         }
         var objectIs = typeof Object.is === "function" ? Object.is : is;
-        var useState2 = React62.useState, useEffect2 = React62.useEffect, useLayoutEffect2 = React62.useLayoutEffect, useDebugValue2 = React62.useDebugValue;
+        var useState2 = React68.useState, useEffect2 = React68.useEffect, useLayoutEffect2 = React68.useLayoutEffect, useDebugValue2 = React68.useDebugValue;
         var didWarnOld18Alpha = false;
         var didWarnUncachedGetSnapshot = false;
         function useSyncExternalStore3(subscribe2, getSnapshot, getServerSnapshot) {
           {
             if (!didWarnOld18Alpha) {
-              if (React62.startTransition !== void 0) {
+              if (React68.startTransition !== void 0) {
                 didWarnOld18Alpha = true;
                 error("You are using an outdated, pre-release alpha of React 18 that does not support useSyncExternalStore. The use-sync-external-store shim will not work correctly. Upgrade to a newer pre-release.");
               }
@@ -30386,7 +30386,7 @@ var require_use_sync_external_store_shim_development = __commonJS({
         var canUseDOM2 = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
         var isServerEnvironment = !canUseDOM2;
         var shim = isServerEnvironment ? useSyncExternalStore$1 : useSyncExternalStore3;
-        var useSyncExternalStore$2 = React62.useSyncExternalStore !== void 0 ? React62.useSyncExternalStore : shim;
+        var useSyncExternalStore$2 = React68.useSyncExternalStore !== void 0 ? React68.useSyncExternalStore : shim;
         exports.useSyncExternalStore = useSyncExternalStore$2;
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
@@ -30418,14 +30418,14 @@ var require_with_selector_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React62 = require_react();
+        var React68 = require_react();
         var shim = require_shim();
         function is(x2, y2) {
           return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
         }
         var objectIs = typeof Object.is === "function" ? Object.is : is;
         var useSyncExternalStore3 = shim.useSyncExternalStore;
-        var useRef4 = React62.useRef, useEffect2 = React62.useEffect, useMemo4 = React62.useMemo, useDebugValue2 = React62.useDebugValue;
+        var useRef4 = React68.useRef, useEffect2 = React68.useEffect, useMemo3 = React68.useMemo, useDebugValue2 = React68.useDebugValue;
         function useSyncExternalStoreWithSelector3(subscribe2, getSnapshot, getServerSnapshot, selector, isEqual) {
           var instRef = useRef4(null);
           var inst;
@@ -30438,7 +30438,7 @@ var require_with_selector_development = __commonJS({
           } else {
             inst = instRef.current;
           }
-          var _useMemo = useMemo4(function() {
+          var _useMemo = useMemo3(function() {
             var hasMemo = false;
             var memoizedSnapshot;
             var memoizedSelection;
@@ -30578,7 +30578,7 @@ var require_react_is_development = __commonJS({
         var ContextProvider = REACT_PROVIDER_TYPE;
         var Element2 = REACT_ELEMENT_TYPE;
         var ForwardRef = REACT_FORWARD_REF_TYPE;
-        var Fragment23 = REACT_FRAGMENT_TYPE;
+        var Fragment22 = REACT_FRAGMENT_TYPE;
         var Lazy = REACT_LAZY_TYPE;
         var Memo = REACT_MEMO_TYPE;
         var Portal = REACT_PORTAL_TYPE;
@@ -30637,7 +30637,7 @@ var require_react_is_development = __commonJS({
         exports.ContextProvider = ContextProvider;
         exports.Element = Element2;
         exports.ForwardRef = ForwardRef;
-        exports.Fragment = Fragment23;
+        exports.Fragment = Fragment22;
         exports.Lazy = Lazy;
         exports.Memo = Memo;
         exports.Portal = Portal;
@@ -30845,7 +30845,7 @@ var require_react_is_development2 = __commonJS({
         var ContextProvider = REACT_PROVIDER_TYPE;
         var Element2 = REACT_ELEMENT_TYPE;
         var ForwardRef = REACT_FORWARD_REF_TYPE;
-        var Fragment23 = REACT_FRAGMENT_TYPE;
+        var Fragment22 = REACT_FRAGMENT_TYPE;
         var Lazy = REACT_LAZY_TYPE;
         var Memo = REACT_MEMO_TYPE;
         var Portal = REACT_PORTAL_TYPE;
@@ -30913,7 +30913,7 @@ var require_react_is_development2 = __commonJS({
         exports.ContextProvider = ContextProvider;
         exports.Element = Element2;
         exports.ForwardRef = ForwardRef;
-        exports.Fragment = Fragment23;
+        exports.Fragment = Fragment22;
         exports.Lazy = Lazy;
         exports.Memo = Memo;
         exports.Portal = Portal;
@@ -30961,7 +30961,7 @@ var require_react_jsx_runtime_development = __commonJS({
     if (true) {
       (function() {
         "use strict";
-        var React62 = require_react();
+        var React68 = require_react();
         var REACT_ELEMENT_TYPE = Symbol.for("react.element");
         var REACT_PORTAL_TYPE = Symbol.for("react.portal");
         var REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
@@ -30987,7 +30987,7 @@ var require_react_jsx_runtime_development = __commonJS({
           }
           return null;
         }
-        var ReactSharedInternals = React62.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React68.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         function error(format) {
           {
             {
@@ -31814,10 +31814,10 @@ var require_react_jsx_runtime_development = __commonJS({
           }
         }
         var jsx139 = jsxWithValidationDynamic;
-        var jsxs60 = jsxWithValidationStatic;
+        var jsxs64 = jsxWithValidationStatic;
         exports.Fragment = REACT_FRAGMENT_TYPE;
         exports.jsx = jsx139;
-        exports.jsxs = jsxs60;
+        exports.jsxs = jsxs64;
       })();
     }
   }
@@ -31832,6 +31832,590 @@ var require_jsx_runtime = __commonJS({
     } else {
       module2.exports = require_react_jsx_runtime_development();
     }
+  }
+});
+
+// node_modules/fuzzysort/fuzzysort.js
+var require_fuzzysort = __commonJS({
+  "node_modules/fuzzysort/fuzzysort.js"(exports, module2) {
+    ((root, UMD) => {
+      if (typeof define === "function" && define.amd)
+        define([], UMD);
+      else if (typeof module2 === "object" && module2.exports)
+        module2.exports = UMD();
+      else
+        root["fuzzysort"] = UMD();
+    })(exports, (_7) => {
+      "use strict";
+      var single = (search, target) => {
+        if (search == "farzher")
+          return { target: "farzher was here (^-^*)/", score: 0, _indexes: [0] };
+        if (!search || !target)
+          return NULL;
+        var preparedSearch = getPreparedSearch(search);
+        if (!isObj(target))
+          target = getPrepared(target);
+        var searchBitflags = preparedSearch.bitflags;
+        if ((searchBitflags & target._bitflags) !== searchBitflags)
+          return NULL;
+        return algorithm(preparedSearch, target);
+      };
+      var go = (search, targets, options) => {
+        if (search == "farzher")
+          return [{ target: "farzher was here (^-^*)/", score: 0, _indexes: [0], obj: targets ? targets[0] : NULL }];
+        if (!search)
+          return options && options.all ? all(search, targets, options) : noResults;
+        var preparedSearch = getPreparedSearch(search);
+        var searchBitflags = preparedSearch.bitflags;
+        var containsSpace = preparedSearch.containsSpace;
+        var threshold = options && options.threshold || INT_MIN;
+        var limit = options && options["limit"] || INT_MAX;
+        var resultsLen = 0;
+        var limitedCount = 0;
+        var targetsLen = targets.length;
+        if (options && options.key) {
+          var key = options.key;
+          for (var i2 = 0; i2 < targetsLen; ++i2) {
+            var obj = targets[i2];
+            var target = getValue2(obj, key);
+            if (!target)
+              continue;
+            if (!isObj(target))
+              target = getPrepared(target);
+            if ((searchBitflags & target._bitflags) !== searchBitflags)
+              continue;
+            var result = algorithm(preparedSearch, target);
+            if (result === NULL)
+              continue;
+            if (result.score < threshold)
+              continue;
+            result = { target: result.target, _targetLower: "", _targetLowerCodes: NULL, _nextBeginningIndexes: NULL, _bitflags: 0, score: result.score, _indexes: result._indexes, obj };
+            if (resultsLen < limit) {
+              q2.add(result);
+              ++resultsLen;
+            } else {
+              ++limitedCount;
+              if (result.score > q2.peek().score)
+                q2.replaceTop(result);
+            }
+          }
+        } else if (options && options.keys) {
+          var scoreFn = options["scoreFn"] || defaultScoreFn;
+          var keys = options.keys;
+          var keysLen = keys.length;
+          for (var i2 = 0; i2 < targetsLen; ++i2) {
+            var obj = targets[i2];
+            var objResults = new Array(keysLen);
+            for (var keyI = 0; keyI < keysLen; ++keyI) {
+              var key = keys[keyI];
+              var target = getValue2(obj, key);
+              if (!target) {
+                objResults[keyI] = NULL;
+                continue;
+              }
+              if (!isObj(target))
+                target = getPrepared(target);
+              if ((searchBitflags & target._bitflags) !== searchBitflags)
+                objResults[keyI] = NULL;
+              else
+                objResults[keyI] = algorithm(preparedSearch, target);
+            }
+            objResults.obj = obj;
+            var score = scoreFn(objResults);
+            if (score === NULL)
+              continue;
+            if (score < threshold)
+              continue;
+            objResults.score = score;
+            if (resultsLen < limit) {
+              q2.add(objResults);
+              ++resultsLen;
+            } else {
+              ++limitedCount;
+              if (score > q2.peek().score)
+                q2.replaceTop(objResults);
+            }
+          }
+        } else {
+          for (var i2 = 0; i2 < targetsLen; ++i2) {
+            var target = targets[i2];
+            if (!target)
+              continue;
+            if (!isObj(target))
+              target = getPrepared(target);
+            if ((searchBitflags & target._bitflags) !== searchBitflags)
+              continue;
+            var result = algorithm(preparedSearch, target);
+            if (result === NULL)
+              continue;
+            if (result.score < threshold)
+              continue;
+            if (resultsLen < limit) {
+              q2.add(result);
+              ++resultsLen;
+            } else {
+              ++limitedCount;
+              if (result.score > q2.peek().score)
+                q2.replaceTop(result);
+            }
+          }
+        }
+        if (resultsLen === 0)
+          return noResults;
+        var results = new Array(resultsLen);
+        for (var i2 = resultsLen - 1; i2 >= 0; --i2)
+          results[i2] = q2.poll();
+        results.total = resultsLen + limitedCount;
+        return results;
+      };
+      var highlight = (result, hOpen, hClose) => {
+        if (typeof hOpen === "function")
+          return highlightCallback(result, hOpen);
+        if (result === NULL)
+          return NULL;
+        if (hOpen === void 0)
+          hOpen = "<b>";
+        if (hClose === void 0)
+          hClose = "</b>";
+        var highlighted = "";
+        var matchesIndex = 0;
+        var opened = false;
+        var target = result.target;
+        var targetLen = target.length;
+        var indexes2 = result._indexes;
+        indexes2 = indexes2.slice(0, indexes2.len).sort((a2, b2) => a2 - b2);
+        for (var i2 = 0; i2 < targetLen; ++i2) {
+          var char = target[i2];
+          if (indexes2[matchesIndex] === i2) {
+            ++matchesIndex;
+            if (!opened) {
+              opened = true;
+              highlighted += hOpen;
+            }
+            if (matchesIndex === indexes2.length) {
+              highlighted += char + hClose + target.substr(i2 + 1);
+              break;
+            }
+          } else {
+            if (opened) {
+              opened = false;
+              highlighted += hClose;
+            }
+          }
+          highlighted += char;
+        }
+        return highlighted;
+      };
+      var highlightCallback = (result, cb) => {
+        if (result === NULL)
+          return NULL;
+        var target = result.target;
+        var targetLen = target.length;
+        var indexes2 = result._indexes;
+        indexes2 = indexes2.slice(0, indexes2.len).sort((a2, b2) => a2 - b2);
+        var highlighted = "";
+        var matchI = 0;
+        var indexesI = 0;
+        var opened = false;
+        var result = [];
+        for (var i2 = 0; i2 < targetLen; ++i2) {
+          var char = target[i2];
+          if (indexes2[indexesI] === i2) {
+            ++indexesI;
+            if (!opened) {
+              opened = true;
+              result.push(highlighted);
+              highlighted = "";
+            }
+            if (indexesI === indexes2.length) {
+              highlighted += char;
+              result.push(cb(highlighted, matchI++));
+              highlighted = "";
+              result.push(target.substr(i2 + 1));
+              break;
+            }
+          } else {
+            if (opened) {
+              opened = false;
+              result.push(cb(highlighted, matchI++));
+              highlighted = "";
+            }
+          }
+          highlighted += char;
+        }
+        return result;
+      };
+      var indexes = (result) => result._indexes.slice(0, result._indexes.len).sort((a2, b2) => a2 - b2);
+      var prepare = (target) => {
+        if (typeof target !== "string")
+          target = "";
+        var info = prepareLowerInfo(target);
+        return { "target": target, _targetLower: info._lower, _targetLowerCodes: info.lowerCodes, _nextBeginningIndexes: NULL, _bitflags: info.bitflags, "score": NULL, _indexes: [0], "obj": NULL };
+      };
+      var prepareSearch = (search) => {
+        if (typeof search !== "string")
+          search = "";
+        search = search.trim();
+        var info = prepareLowerInfo(search);
+        var spaceSearches = [];
+        if (info.containsSpace) {
+          var searches = search.split(/\s+/);
+          searches = [...new Set(searches)];
+          for (var i2 = 0; i2 < searches.length; i2++) {
+            if (searches[i2] === "")
+              continue;
+            var _info = prepareLowerInfo(searches[i2]);
+            spaceSearches.push({ lowerCodes: _info.lowerCodes, _lower: searches[i2].toLowerCase(), containsSpace: false });
+          }
+        }
+        return { lowerCodes: info.lowerCodes, bitflags: info.bitflags, containsSpace: info.containsSpace, _lower: info._lower, spaceSearches };
+      };
+      var getPrepared = (target) => {
+        if (target.length > 999)
+          return prepare(target);
+        var targetPrepared = preparedCache.get(target);
+        if (targetPrepared !== void 0)
+          return targetPrepared;
+        targetPrepared = prepare(target);
+        preparedCache.set(target, targetPrepared);
+        return targetPrepared;
+      };
+      var getPreparedSearch = (search) => {
+        if (search.length > 999)
+          return prepareSearch(search);
+        var searchPrepared = preparedSearchCache.get(search);
+        if (searchPrepared !== void 0)
+          return searchPrepared;
+        searchPrepared = prepareSearch(search);
+        preparedSearchCache.set(search, searchPrepared);
+        return searchPrepared;
+      };
+      var all = (search, targets, options) => {
+        var results = [];
+        results.total = targets.length;
+        var limit = options && options.limit || INT_MAX;
+        if (options && options.key) {
+          for (var i2 = 0; i2 < targets.length; i2++) {
+            var obj = targets[i2];
+            var target = getValue2(obj, options.key);
+            if (!target)
+              continue;
+            if (!isObj(target))
+              target = getPrepared(target);
+            target.score = INT_MIN;
+            target._indexes.len = 0;
+            var result = target;
+            result = { target: result.target, _targetLower: "", _targetLowerCodes: NULL, _nextBeginningIndexes: NULL, _bitflags: 0, score: target.score, _indexes: NULL, obj };
+            results.push(result);
+            if (results.length >= limit)
+              return results;
+          }
+        } else if (options && options.keys) {
+          for (var i2 = 0; i2 < targets.length; i2++) {
+            var obj = targets[i2];
+            var objResults = new Array(options.keys.length);
+            for (var keyI = options.keys.length - 1; keyI >= 0; --keyI) {
+              var target = getValue2(obj, options.keys[keyI]);
+              if (!target) {
+                objResults[keyI] = NULL;
+                continue;
+              }
+              if (!isObj(target))
+                target = getPrepared(target);
+              target.score = INT_MIN;
+              target._indexes.len = 0;
+              objResults[keyI] = target;
+            }
+            objResults.obj = obj;
+            objResults.score = INT_MIN;
+            results.push(objResults);
+            if (results.length >= limit)
+              return results;
+          }
+        } else {
+          for (var i2 = 0; i2 < targets.length; i2++) {
+            var target = targets[i2];
+            if (!target)
+              continue;
+            if (!isObj(target))
+              target = getPrepared(target);
+            target.score = INT_MIN;
+            target._indexes.len = 0;
+            results.push(target);
+            if (results.length >= limit)
+              return results;
+          }
+        }
+        return results;
+      };
+      var algorithm = (preparedSearch, prepared, allowSpaces = false) => {
+        if (allowSpaces === false && preparedSearch.containsSpace)
+          return algorithmSpaces(preparedSearch, prepared);
+        var searchLower = preparedSearch._lower;
+        var searchLowerCodes = preparedSearch.lowerCodes;
+        var searchLowerCode = searchLowerCodes[0];
+        var targetLowerCodes = prepared._targetLowerCodes;
+        var searchLen = searchLowerCodes.length;
+        var targetLen = targetLowerCodes.length;
+        var searchI = 0;
+        var targetI = 0;
+        var matchesSimpleLen = 0;
+        for (; ; ) {
+          var isMatch = searchLowerCode === targetLowerCodes[targetI];
+          if (isMatch) {
+            matchesSimple[matchesSimpleLen++] = targetI;
+            ++searchI;
+            if (searchI === searchLen)
+              break;
+            searchLowerCode = searchLowerCodes[searchI];
+          }
+          ++targetI;
+          if (targetI >= targetLen)
+            return NULL;
+        }
+        var searchI = 0;
+        var successStrict = false;
+        var matchesStrictLen = 0;
+        var nextBeginningIndexes = prepared._nextBeginningIndexes;
+        if (nextBeginningIndexes === NULL)
+          nextBeginningIndexes = prepared._nextBeginningIndexes = prepareNextBeginningIndexes(prepared.target);
+        var firstPossibleI = targetI = matchesSimple[0] === 0 ? 0 : nextBeginningIndexes[matchesSimple[0] - 1];
+        var backtrackCount = 0;
+        if (targetI !== targetLen)
+          for (; ; ) {
+            if (targetI >= targetLen) {
+              if (searchI <= 0)
+                break;
+              ++backtrackCount;
+              if (backtrackCount > 200)
+                break;
+              --searchI;
+              var lastMatch = matchesStrict[--matchesStrictLen];
+              targetI = nextBeginningIndexes[lastMatch];
+            } else {
+              var isMatch = searchLowerCodes[searchI] === targetLowerCodes[targetI];
+              if (isMatch) {
+                matchesStrict[matchesStrictLen++] = targetI;
+                ++searchI;
+                if (searchI === searchLen) {
+                  successStrict = true;
+                  break;
+                }
+                ++targetI;
+              } else {
+                targetI = nextBeginningIndexes[targetI];
+              }
+            }
+          }
+        var substringIndex = prepared._targetLower.indexOf(searchLower, matchesSimple[0]);
+        var isSubstring = ~substringIndex;
+        if (isSubstring && !successStrict) {
+          for (var i2 = 0; i2 < matchesSimpleLen; ++i2)
+            matchesSimple[i2] = substringIndex + i2;
+        }
+        var isSubstringBeginning = false;
+        if (isSubstring) {
+          isSubstringBeginning = prepared._nextBeginningIndexes[substringIndex - 1] === substringIndex;
+        }
+        {
+          if (successStrict) {
+            var matchesBest = matchesStrict;
+            var matchesBestLen = matchesStrictLen;
+          } else {
+            var matchesBest = matchesSimple;
+            var matchesBestLen = matchesSimpleLen;
+          }
+          var score = 0;
+          var extraMatchGroupCount = 0;
+          for (var i2 = 1; i2 < searchLen; ++i2) {
+            if (matchesBest[i2] - matchesBest[i2 - 1] !== 1) {
+              score -= matchesBest[i2];
+              ++extraMatchGroupCount;
+            }
+          }
+          var unmatchedDistance = matchesBest[searchLen - 1] - matchesBest[0] - (searchLen - 1);
+          score -= (12 + unmatchedDistance) * extraMatchGroupCount;
+          if (matchesBest[0] !== 0)
+            score -= matchesBest[0] * matchesBest[0] * 0.2;
+          if (!successStrict) {
+            score *= 1e3;
+          } else {
+            var uniqueBeginningIndexes = 1;
+            for (var i2 = nextBeginningIndexes[0]; i2 < targetLen; i2 = nextBeginningIndexes[i2])
+              ++uniqueBeginningIndexes;
+            if (uniqueBeginningIndexes > 24)
+              score *= (uniqueBeginningIndexes - 24) * 10;
+          }
+          if (isSubstring)
+            score /= 1 + searchLen * searchLen * 1;
+          if (isSubstringBeginning)
+            score /= 1 + searchLen * searchLen * 1;
+          score -= targetLen - searchLen;
+          prepared.score = score;
+          for (var i2 = 0; i2 < matchesBestLen; ++i2)
+            prepared._indexes[i2] = matchesBest[i2];
+          prepared._indexes.len = matchesBestLen;
+          return prepared;
+        }
+      };
+      var algorithmSpaces = (preparedSearch, target) => {
+        var seen_indexes = /* @__PURE__ */ new Set();
+        var score = 0;
+        var result = NULL;
+        var first_seen_index_last_search = 0;
+        var searches = preparedSearch.spaceSearches;
+        for (var i2 = 0; i2 < searches.length; ++i2) {
+          var search = searches[i2];
+          result = algorithm(search, target);
+          if (result === NULL)
+            return NULL;
+          score += result.score;
+          if (result._indexes[0] < first_seen_index_last_search) {
+            score -= first_seen_index_last_search - result._indexes[0];
+          }
+          first_seen_index_last_search = result._indexes[0];
+          for (var j2 = 0; j2 < result._indexes.len; ++j2)
+            seen_indexes.add(result._indexes[j2]);
+        }
+        var allowSpacesResult = algorithm(preparedSearch, target, true);
+        if (allowSpacesResult !== NULL && allowSpacesResult.score > score) {
+          return allowSpacesResult;
+        }
+        result.score = score;
+        var i2 = 0;
+        for (let index of seen_indexes)
+          result._indexes[i2++] = index;
+        result._indexes.len = i2;
+        return result;
+      };
+      var prepareLowerInfo = (str) => {
+        var strLen = str.length;
+        var lower = str.toLowerCase();
+        var lowerCodes = [];
+        var bitflags = 0;
+        var containsSpace = false;
+        for (var i2 = 0; i2 < strLen; ++i2) {
+          var lowerCode = lowerCodes[i2] = lower.charCodeAt(i2);
+          if (lowerCode === 32) {
+            containsSpace = true;
+            continue;
+          }
+          var bit = lowerCode >= 97 && lowerCode <= 122 ? lowerCode - 97 : lowerCode >= 48 && lowerCode <= 57 ? 26 : lowerCode <= 127 ? 30 : 31;
+          bitflags |= 1 << bit;
+        }
+        return { lowerCodes, bitflags, containsSpace, _lower: lower };
+      };
+      var prepareBeginningIndexes = (target) => {
+        var targetLen = target.length;
+        var beginningIndexes = [];
+        var beginningIndexesLen = 0;
+        var wasUpper = false;
+        var wasAlphanum = false;
+        for (var i2 = 0; i2 < targetLen; ++i2) {
+          var targetCode = target.charCodeAt(i2);
+          var isUpper = targetCode >= 65 && targetCode <= 90;
+          var isAlphanum = isUpper || targetCode >= 97 && targetCode <= 122 || targetCode >= 48 && targetCode <= 57;
+          var isBeginning = isUpper && !wasUpper || !wasAlphanum || !isAlphanum;
+          wasUpper = isUpper;
+          wasAlphanum = isAlphanum;
+          if (isBeginning)
+            beginningIndexes[beginningIndexesLen++] = i2;
+        }
+        return beginningIndexes;
+      };
+      var prepareNextBeginningIndexes = (target) => {
+        var targetLen = target.length;
+        var beginningIndexes = prepareBeginningIndexes(target);
+        var nextBeginningIndexes = [];
+        var lastIsBeginning = beginningIndexes[0];
+        var lastIsBeginningI = 0;
+        for (var i2 = 0; i2 < targetLen; ++i2) {
+          if (lastIsBeginning > i2) {
+            nextBeginningIndexes[i2] = lastIsBeginning;
+          } else {
+            lastIsBeginning = beginningIndexes[++lastIsBeginningI];
+            nextBeginningIndexes[i2] = lastIsBeginning === void 0 ? targetLen : lastIsBeginning;
+          }
+        }
+        return nextBeginningIndexes;
+      };
+      var cleanup = () => {
+        preparedCache.clear();
+        preparedSearchCache.clear();
+        matchesSimple = [];
+        matchesStrict = [];
+      };
+      var preparedCache = /* @__PURE__ */ new Map();
+      var preparedSearchCache = /* @__PURE__ */ new Map();
+      var matchesSimple = [];
+      var matchesStrict = [];
+      var defaultScoreFn = (a2) => {
+        var max2 = INT_MIN;
+        var len = a2.length;
+        for (var i2 = 0; i2 < len; ++i2) {
+          var result = a2[i2];
+          if (result === NULL)
+            continue;
+          var score = result.score;
+          if (score > max2)
+            max2 = score;
+        }
+        if (max2 === INT_MIN)
+          return NULL;
+        return max2;
+      };
+      var getValue2 = (obj, prop) => {
+        var tmp = obj[prop];
+        if (tmp !== void 0)
+          return tmp;
+        var segs = prop;
+        if (!Array.isArray(prop))
+          segs = prop.split(".");
+        var len = segs.length;
+        var i2 = -1;
+        while (obj && ++i2 < len)
+          obj = obj[segs[i2]];
+        return obj;
+      };
+      var isObj = (x2) => {
+        return typeof x2 === "object";
+      };
+      var INT_MAX = Infinity;
+      var INT_MIN = -INT_MAX;
+      var noResults = [];
+      noResults.total = 0;
+      var NULL = null;
+      var fastpriorityqueue = (r2) => {
+        var e = [], o2 = 0, a2 = {}, v2 = (r3) => {
+          for (var a3 = 0, v3 = e[a3], c2 = 1; c2 < o2; ) {
+            var s2 = c2 + 1;
+            a3 = c2, s2 < o2 && e[s2].score < e[c2].score && (a3 = s2), e[a3 - 1 >> 1] = e[a3], c2 = 1 + (a3 << 1);
+          }
+          for (var f3 = a3 - 1 >> 1; a3 > 0 && v3.score < e[f3].score; f3 = (a3 = f3) - 1 >> 1)
+            e[a3] = e[f3];
+          e[a3] = v3;
+        };
+        return a2.add = (r3) => {
+          var a3 = o2;
+          e[o2++] = r3;
+          for (var v3 = a3 - 1 >> 1; a3 > 0 && r3.score < e[v3].score; v3 = (a3 = v3) - 1 >> 1)
+            e[a3] = e[v3];
+          e[a3] = r3;
+        }, a2.poll = (r3) => {
+          if (0 !== o2) {
+            var a3 = e[0];
+            return e[0] = e[--o2], v2(), a3;
+          }
+        }, a2.peek = (r3) => {
+          if (0 !== o2)
+            return e[0];
+        }, a2.replaceTop = (r3) => {
+          e[0] = r3, v2();
+        }, a2;
+      };
+      var q2 = fastpriorityqueue();
+      return { "single": single, "go": go, "highlight": highlight, "prepare": prepare, "indexes": indexes, "cleanup": cleanup };
+    });
   }
 });
 
@@ -36738,7 +37322,7 @@ var require_papaparse_min = __commonJS({
               return false;
             var e2 = (r4 = f3.URL || f3.webkitURL || null, i3 = s2.toString(), b2.BLOB_URL || (b2.BLOB_URL = r4.createObjectURL(new Blob(["var global = (function() { if (typeof self !== 'undefined') { return self; } if (typeof window !== 'undefined') { return window; } if (typeof global !== 'undefined') { return global; } return {}; })(); global.IS_PAPA_WORKER=true; ", "(", i3, ")();"], { type: "text/javascript" })))), t3 = new f3.Worker(e2);
             var r4, i3;
-            return t3.onmessage = _5, t3.id = u2++, a2[t3.id] = t3;
+            return t3.onmessage = _7, t3.id = u2++, a2[t3.id] = t3;
           }();
           return i2.userStep = t2.step, i2.userChunk = t2.chunk, i2.userComplete = t2.complete, i2.userError = t2.error, t2.step = J(t2.step), t2.chunk = J(t2.chunk), t2.complete = J(t2.complete), t2.error = J(t2.error), delete t2.worker, void i2.postMessage({ input: e, config: t2, workerId: i2.id });
         }
@@ -36750,7 +37334,7 @@ var require_papaparse_min = __commonJS({
         }(e), n3 = t2.download ? new l2(t2) : new p2(t2)) : true === e.readable && J(e.read) && J(e.on) ? n3 = new g2(t2) : (f3.File && e instanceof File || e instanceof Object) && (n3 = new c2(t2));
         return n3.stream(e);
       }, unparse: function(e, t2) {
-        var n3 = false, _6 = true, m3 = ",", y3 = "\r\n", s3 = '"', a3 = s3 + s3, r3 = false, i2 = null, o3 = false;
+        var n3 = false, _8 = true, m3 = ",", y3 = "\r\n", s3 = '"', a3 = s3 + s3, r3 = false, i2 = null, o3 = false;
         !function() {
           if ("object" != typeof t2)
             return;
@@ -36761,7 +37345,7 @@ var require_papaparse_min = __commonJS({
           "boolean" != typeof t2.skipEmptyLines && "string" != typeof t2.skipEmptyLines || (r3 = t2.skipEmptyLines);
           "string" == typeof t2.newline && (y3 = t2.newline);
           "string" == typeof t2.quoteChar && (s3 = t2.quoteChar);
-          "boolean" == typeof t2.header && (_6 = t2.header);
+          "boolean" == typeof t2.header && (_8 = t2.header);
           if (Array.isArray(t2.columns)) {
             if (0 === t2.columns.length)
               throw new Error("Option columns is empty");
@@ -36784,7 +37368,7 @@ var require_papaparse_min = __commonJS({
           var i3 = "";
           "string" == typeof e2 && (e2 = JSON.parse(e2)), "string" == typeof t3 && (t3 = JSON.parse(t3));
           var n4 = Array.isArray(e2) && 0 < e2.length, s4 = !Array.isArray(t3[0]);
-          if (n4 && _6) {
+          if (n4 && _8) {
             for (var a4 = 0; a4 < e2.length; a4++)
               0 < a4 && (i3 += m3), i3 += v3(e2[a4], a4);
             0 < t3.length && (i3 += y3);
@@ -36998,7 +37582,7 @@ var require_papaparse_min = __commonJS({
         if (J(m3.step)) {
           var p3 = m3.step;
           m3.step = function(e2) {
-            if (c3 = e2, _6())
+            if (c3 = e2, _8())
               g3();
             else {
               if (g3(), 0 === c3.data.length)
@@ -37013,14 +37597,14 @@ var require_papaparse_min = __commonJS({
         function g3() {
           return c3 && u3 && (k2("Delimiter", "UndetectableDelimiter", "Unable to auto-detect delimiting character; defaulted to '" + b2.DefaultDelimiter + "'"), u3 = false), m3.skipEmptyLines && (c3.data = c3.data.filter(function(e2) {
             return !y3(e2);
-          })), _6() && function() {
+          })), _8() && function() {
             if (!c3)
               return;
             function e2(e3, t4) {
               J(m3.transformHeader) && (e3 = m3.transformHeader(e3, t4)), l3.push(e3);
             }
             if (Array.isArray(c3.data[0])) {
-              for (var t3 = 0; _6() && t3 < c3.data.length; t3++)
+              for (var t3 = 0; _8() && t3 < c3.data.length; t3++)
                 c3.data[t3].forEach(e2);
               c3.data.splice(0, 1);
             } else
@@ -37042,7 +37626,7 @@ var require_papaparse_min = __commonJS({
             return f4 += t3, c3;
           }();
         }
-        function _6() {
+        function _8() {
           return m3.header && 0 === l3.length;
         }
         function v3(e2, t3) {
@@ -37083,8 +37667,8 @@ var require_papaparse_min = __commonJS({
                   if (r5 && y3(p4.data[g4]))
                     c4++;
                   else {
-                    var _7 = p4.data[g4].length;
-                    l4 += _7, void 0 !== o4 ? 0 < _7 && (d4 += Math.abs(_7 - o4), o4 = _7) : o4 = _7;
+                    var _9 = p4.data[g4].length;
+                    l4 += _9, void 0 !== o4 ? 0 < _9 && (d4 += Math.abs(_9 - o4), o4 = _9) : o4 = _9;
                   }
                 0 < p4.data.length && (l4 /= p4.data.length - c4), (void 0 === a4 || d4 <= a4) && (void 0 === u4 || u4 < l4) && 1.99 < l4 && (a4 = d4, s5 = f5, u4 = l4);
               }
@@ -37123,9 +37707,9 @@ var require_papaparse_min = __commonJS({
             return L2();
           if (j2.header && !t2) {
             var l3 = i2.split(P2)[0].split(M2), c3 = [], p3 = {}, g3 = false;
-            for (var _6 in l3) {
-              var m3 = l3[_6];
-              J(j2.transformHeader) && (m3 = j2.transformHeader(m3, _6));
+            for (var _8 in l3) {
+              var m3 = l3[_8];
+              J(j2.transformHeader) && (m3 = j2.transformHeader(m3, _8));
               var y3 = m3, v3 = p3[m3] || 0;
               for (0 < v3 && (g3 = true, y3 = m3 + "_" + v3), p3[m3] = v3 + 1; c3.includes(y3); )
                 y3 = y3 + "_" + v3;
@@ -37227,7 +37811,7 @@ var require_papaparse_min = __commonJS({
           return W2;
         };
       }
-      function _5(e) {
+      function _7(e) {
         var t2 = e.data, r3 = a2[t2.workerId], i2 = false;
         if (t2.error)
           r3.userError(t2.error, t2.file);
@@ -37281,590 +37865,6 @@ var require_papaparse_min = __commonJS({
   }
 });
 
-// node_modules/fuzzysort/fuzzysort.js
-var require_fuzzysort = __commonJS({
-  "node_modules/fuzzysort/fuzzysort.js"(exports, module2) {
-    ((root, UMD) => {
-      if (typeof define === "function" && define.amd)
-        define([], UMD);
-      else if (typeof module2 === "object" && module2.exports)
-        module2.exports = UMD();
-      else
-        root["fuzzysort"] = UMD();
-    })(exports, (_5) => {
-      "use strict";
-      var single = (search, target) => {
-        if (search == "farzher")
-          return { target: "farzher was here (^-^*)/", score: 0, _indexes: [0] };
-        if (!search || !target)
-          return NULL;
-        var preparedSearch = getPreparedSearch(search);
-        if (!isObj(target))
-          target = getPrepared(target);
-        var searchBitflags = preparedSearch.bitflags;
-        if ((searchBitflags & target._bitflags) !== searchBitflags)
-          return NULL;
-        return algorithm(preparedSearch, target);
-      };
-      var go = (search, targets, options) => {
-        if (search == "farzher")
-          return [{ target: "farzher was here (^-^*)/", score: 0, _indexes: [0], obj: targets ? targets[0] : NULL }];
-        if (!search)
-          return options && options.all ? all(search, targets, options) : noResults;
-        var preparedSearch = getPreparedSearch(search);
-        var searchBitflags = preparedSearch.bitflags;
-        var containsSpace = preparedSearch.containsSpace;
-        var threshold = options && options.threshold || INT_MIN;
-        var limit = options && options["limit"] || INT_MAX;
-        var resultsLen = 0;
-        var limitedCount = 0;
-        var targetsLen = targets.length;
-        if (options && options.key) {
-          var key = options.key;
-          for (var i2 = 0; i2 < targetsLen; ++i2) {
-            var obj = targets[i2];
-            var target = getValue2(obj, key);
-            if (!target)
-              continue;
-            if (!isObj(target))
-              target = getPrepared(target);
-            if ((searchBitflags & target._bitflags) !== searchBitflags)
-              continue;
-            var result = algorithm(preparedSearch, target);
-            if (result === NULL)
-              continue;
-            if (result.score < threshold)
-              continue;
-            result = { target: result.target, _targetLower: "", _targetLowerCodes: NULL, _nextBeginningIndexes: NULL, _bitflags: 0, score: result.score, _indexes: result._indexes, obj };
-            if (resultsLen < limit) {
-              q2.add(result);
-              ++resultsLen;
-            } else {
-              ++limitedCount;
-              if (result.score > q2.peek().score)
-                q2.replaceTop(result);
-            }
-          }
-        } else if (options && options.keys) {
-          var scoreFn = options["scoreFn"] || defaultScoreFn;
-          var keys = options.keys;
-          var keysLen = keys.length;
-          for (var i2 = 0; i2 < targetsLen; ++i2) {
-            var obj = targets[i2];
-            var objResults = new Array(keysLen);
-            for (var keyI = 0; keyI < keysLen; ++keyI) {
-              var key = keys[keyI];
-              var target = getValue2(obj, key);
-              if (!target) {
-                objResults[keyI] = NULL;
-                continue;
-              }
-              if (!isObj(target))
-                target = getPrepared(target);
-              if ((searchBitflags & target._bitflags) !== searchBitflags)
-                objResults[keyI] = NULL;
-              else
-                objResults[keyI] = algorithm(preparedSearch, target);
-            }
-            objResults.obj = obj;
-            var score = scoreFn(objResults);
-            if (score === NULL)
-              continue;
-            if (score < threshold)
-              continue;
-            objResults.score = score;
-            if (resultsLen < limit) {
-              q2.add(objResults);
-              ++resultsLen;
-            } else {
-              ++limitedCount;
-              if (score > q2.peek().score)
-                q2.replaceTop(objResults);
-            }
-          }
-        } else {
-          for (var i2 = 0; i2 < targetsLen; ++i2) {
-            var target = targets[i2];
-            if (!target)
-              continue;
-            if (!isObj(target))
-              target = getPrepared(target);
-            if ((searchBitflags & target._bitflags) !== searchBitflags)
-              continue;
-            var result = algorithm(preparedSearch, target);
-            if (result === NULL)
-              continue;
-            if (result.score < threshold)
-              continue;
-            if (resultsLen < limit) {
-              q2.add(result);
-              ++resultsLen;
-            } else {
-              ++limitedCount;
-              if (result.score > q2.peek().score)
-                q2.replaceTop(result);
-            }
-          }
-        }
-        if (resultsLen === 0)
-          return noResults;
-        var results = new Array(resultsLen);
-        for (var i2 = resultsLen - 1; i2 >= 0; --i2)
-          results[i2] = q2.poll();
-        results.total = resultsLen + limitedCount;
-        return results;
-      };
-      var highlight = (result, hOpen, hClose) => {
-        if (typeof hOpen === "function")
-          return highlightCallback(result, hOpen);
-        if (result === NULL)
-          return NULL;
-        if (hOpen === void 0)
-          hOpen = "<b>";
-        if (hClose === void 0)
-          hClose = "</b>";
-        var highlighted = "";
-        var matchesIndex = 0;
-        var opened = false;
-        var target = result.target;
-        var targetLen = target.length;
-        var indexes2 = result._indexes;
-        indexes2 = indexes2.slice(0, indexes2.len).sort((a2, b2) => a2 - b2);
-        for (var i2 = 0; i2 < targetLen; ++i2) {
-          var char = target[i2];
-          if (indexes2[matchesIndex] === i2) {
-            ++matchesIndex;
-            if (!opened) {
-              opened = true;
-              highlighted += hOpen;
-            }
-            if (matchesIndex === indexes2.length) {
-              highlighted += char + hClose + target.substr(i2 + 1);
-              break;
-            }
-          } else {
-            if (opened) {
-              opened = false;
-              highlighted += hClose;
-            }
-          }
-          highlighted += char;
-        }
-        return highlighted;
-      };
-      var highlightCallback = (result, cb) => {
-        if (result === NULL)
-          return NULL;
-        var target = result.target;
-        var targetLen = target.length;
-        var indexes2 = result._indexes;
-        indexes2 = indexes2.slice(0, indexes2.len).sort((a2, b2) => a2 - b2);
-        var highlighted = "";
-        var matchI = 0;
-        var indexesI = 0;
-        var opened = false;
-        var result = [];
-        for (var i2 = 0; i2 < targetLen; ++i2) {
-          var char = target[i2];
-          if (indexes2[indexesI] === i2) {
-            ++indexesI;
-            if (!opened) {
-              opened = true;
-              result.push(highlighted);
-              highlighted = "";
-            }
-            if (indexesI === indexes2.length) {
-              highlighted += char;
-              result.push(cb(highlighted, matchI++));
-              highlighted = "";
-              result.push(target.substr(i2 + 1));
-              break;
-            }
-          } else {
-            if (opened) {
-              opened = false;
-              result.push(cb(highlighted, matchI++));
-              highlighted = "";
-            }
-          }
-          highlighted += char;
-        }
-        return result;
-      };
-      var indexes = (result) => result._indexes.slice(0, result._indexes.len).sort((a2, b2) => a2 - b2);
-      var prepare = (target) => {
-        if (typeof target !== "string")
-          target = "";
-        var info = prepareLowerInfo(target);
-        return { "target": target, _targetLower: info._lower, _targetLowerCodes: info.lowerCodes, _nextBeginningIndexes: NULL, _bitflags: info.bitflags, "score": NULL, _indexes: [0], "obj": NULL };
-      };
-      var prepareSearch = (search) => {
-        if (typeof search !== "string")
-          search = "";
-        search = search.trim();
-        var info = prepareLowerInfo(search);
-        var spaceSearches = [];
-        if (info.containsSpace) {
-          var searches = search.split(/\s+/);
-          searches = [...new Set(searches)];
-          for (var i2 = 0; i2 < searches.length; i2++) {
-            if (searches[i2] === "")
-              continue;
-            var _info = prepareLowerInfo(searches[i2]);
-            spaceSearches.push({ lowerCodes: _info.lowerCodes, _lower: searches[i2].toLowerCase(), containsSpace: false });
-          }
-        }
-        return { lowerCodes: info.lowerCodes, bitflags: info.bitflags, containsSpace: info.containsSpace, _lower: info._lower, spaceSearches };
-      };
-      var getPrepared = (target) => {
-        if (target.length > 999)
-          return prepare(target);
-        var targetPrepared = preparedCache.get(target);
-        if (targetPrepared !== void 0)
-          return targetPrepared;
-        targetPrepared = prepare(target);
-        preparedCache.set(target, targetPrepared);
-        return targetPrepared;
-      };
-      var getPreparedSearch = (search) => {
-        if (search.length > 999)
-          return prepareSearch(search);
-        var searchPrepared = preparedSearchCache.get(search);
-        if (searchPrepared !== void 0)
-          return searchPrepared;
-        searchPrepared = prepareSearch(search);
-        preparedSearchCache.set(search, searchPrepared);
-        return searchPrepared;
-      };
-      var all = (search, targets, options) => {
-        var results = [];
-        results.total = targets.length;
-        var limit = options && options.limit || INT_MAX;
-        if (options && options.key) {
-          for (var i2 = 0; i2 < targets.length; i2++) {
-            var obj = targets[i2];
-            var target = getValue2(obj, options.key);
-            if (!target)
-              continue;
-            if (!isObj(target))
-              target = getPrepared(target);
-            target.score = INT_MIN;
-            target._indexes.len = 0;
-            var result = target;
-            result = { target: result.target, _targetLower: "", _targetLowerCodes: NULL, _nextBeginningIndexes: NULL, _bitflags: 0, score: target.score, _indexes: NULL, obj };
-            results.push(result);
-            if (results.length >= limit)
-              return results;
-          }
-        } else if (options && options.keys) {
-          for (var i2 = 0; i2 < targets.length; i2++) {
-            var obj = targets[i2];
-            var objResults = new Array(options.keys.length);
-            for (var keyI = options.keys.length - 1; keyI >= 0; --keyI) {
-              var target = getValue2(obj, options.keys[keyI]);
-              if (!target) {
-                objResults[keyI] = NULL;
-                continue;
-              }
-              if (!isObj(target))
-                target = getPrepared(target);
-              target.score = INT_MIN;
-              target._indexes.len = 0;
-              objResults[keyI] = target;
-            }
-            objResults.obj = obj;
-            objResults.score = INT_MIN;
-            results.push(objResults);
-            if (results.length >= limit)
-              return results;
-          }
-        } else {
-          for (var i2 = 0; i2 < targets.length; i2++) {
-            var target = targets[i2];
-            if (!target)
-              continue;
-            if (!isObj(target))
-              target = getPrepared(target);
-            target.score = INT_MIN;
-            target._indexes.len = 0;
-            results.push(target);
-            if (results.length >= limit)
-              return results;
-          }
-        }
-        return results;
-      };
-      var algorithm = (preparedSearch, prepared, allowSpaces = false) => {
-        if (allowSpaces === false && preparedSearch.containsSpace)
-          return algorithmSpaces(preparedSearch, prepared);
-        var searchLower = preparedSearch._lower;
-        var searchLowerCodes = preparedSearch.lowerCodes;
-        var searchLowerCode = searchLowerCodes[0];
-        var targetLowerCodes = prepared._targetLowerCodes;
-        var searchLen = searchLowerCodes.length;
-        var targetLen = targetLowerCodes.length;
-        var searchI = 0;
-        var targetI = 0;
-        var matchesSimpleLen = 0;
-        for (; ; ) {
-          var isMatch = searchLowerCode === targetLowerCodes[targetI];
-          if (isMatch) {
-            matchesSimple[matchesSimpleLen++] = targetI;
-            ++searchI;
-            if (searchI === searchLen)
-              break;
-            searchLowerCode = searchLowerCodes[searchI];
-          }
-          ++targetI;
-          if (targetI >= targetLen)
-            return NULL;
-        }
-        var searchI = 0;
-        var successStrict = false;
-        var matchesStrictLen = 0;
-        var nextBeginningIndexes = prepared._nextBeginningIndexes;
-        if (nextBeginningIndexes === NULL)
-          nextBeginningIndexes = prepared._nextBeginningIndexes = prepareNextBeginningIndexes(prepared.target);
-        var firstPossibleI = targetI = matchesSimple[0] === 0 ? 0 : nextBeginningIndexes[matchesSimple[0] - 1];
-        var backtrackCount = 0;
-        if (targetI !== targetLen)
-          for (; ; ) {
-            if (targetI >= targetLen) {
-              if (searchI <= 0)
-                break;
-              ++backtrackCount;
-              if (backtrackCount > 200)
-                break;
-              --searchI;
-              var lastMatch = matchesStrict[--matchesStrictLen];
-              targetI = nextBeginningIndexes[lastMatch];
-            } else {
-              var isMatch = searchLowerCodes[searchI] === targetLowerCodes[targetI];
-              if (isMatch) {
-                matchesStrict[matchesStrictLen++] = targetI;
-                ++searchI;
-                if (searchI === searchLen) {
-                  successStrict = true;
-                  break;
-                }
-                ++targetI;
-              } else {
-                targetI = nextBeginningIndexes[targetI];
-              }
-            }
-          }
-        var substringIndex = prepared._targetLower.indexOf(searchLower, matchesSimple[0]);
-        var isSubstring = ~substringIndex;
-        if (isSubstring && !successStrict) {
-          for (var i2 = 0; i2 < matchesSimpleLen; ++i2)
-            matchesSimple[i2] = substringIndex + i2;
-        }
-        var isSubstringBeginning = false;
-        if (isSubstring) {
-          isSubstringBeginning = prepared._nextBeginningIndexes[substringIndex - 1] === substringIndex;
-        }
-        {
-          if (successStrict) {
-            var matchesBest = matchesStrict;
-            var matchesBestLen = matchesStrictLen;
-          } else {
-            var matchesBest = matchesSimple;
-            var matchesBestLen = matchesSimpleLen;
-          }
-          var score = 0;
-          var extraMatchGroupCount = 0;
-          for (var i2 = 1; i2 < searchLen; ++i2) {
-            if (matchesBest[i2] - matchesBest[i2 - 1] !== 1) {
-              score -= matchesBest[i2];
-              ++extraMatchGroupCount;
-            }
-          }
-          var unmatchedDistance = matchesBest[searchLen - 1] - matchesBest[0] - (searchLen - 1);
-          score -= (12 + unmatchedDistance) * extraMatchGroupCount;
-          if (matchesBest[0] !== 0)
-            score -= matchesBest[0] * matchesBest[0] * 0.2;
-          if (!successStrict) {
-            score *= 1e3;
-          } else {
-            var uniqueBeginningIndexes = 1;
-            for (var i2 = nextBeginningIndexes[0]; i2 < targetLen; i2 = nextBeginningIndexes[i2])
-              ++uniqueBeginningIndexes;
-            if (uniqueBeginningIndexes > 24)
-              score *= (uniqueBeginningIndexes - 24) * 10;
-          }
-          if (isSubstring)
-            score /= 1 + searchLen * searchLen * 1;
-          if (isSubstringBeginning)
-            score /= 1 + searchLen * searchLen * 1;
-          score -= targetLen - searchLen;
-          prepared.score = score;
-          for (var i2 = 0; i2 < matchesBestLen; ++i2)
-            prepared._indexes[i2] = matchesBest[i2];
-          prepared._indexes.len = matchesBestLen;
-          return prepared;
-        }
-      };
-      var algorithmSpaces = (preparedSearch, target) => {
-        var seen_indexes = /* @__PURE__ */ new Set();
-        var score = 0;
-        var result = NULL;
-        var first_seen_index_last_search = 0;
-        var searches = preparedSearch.spaceSearches;
-        for (var i2 = 0; i2 < searches.length; ++i2) {
-          var search = searches[i2];
-          result = algorithm(search, target);
-          if (result === NULL)
-            return NULL;
-          score += result.score;
-          if (result._indexes[0] < first_seen_index_last_search) {
-            score -= first_seen_index_last_search - result._indexes[0];
-          }
-          first_seen_index_last_search = result._indexes[0];
-          for (var j2 = 0; j2 < result._indexes.len; ++j2)
-            seen_indexes.add(result._indexes[j2]);
-        }
-        var allowSpacesResult = algorithm(preparedSearch, target, true);
-        if (allowSpacesResult !== NULL && allowSpacesResult.score > score) {
-          return allowSpacesResult;
-        }
-        result.score = score;
-        var i2 = 0;
-        for (let index of seen_indexes)
-          result._indexes[i2++] = index;
-        result._indexes.len = i2;
-        return result;
-      };
-      var prepareLowerInfo = (str) => {
-        var strLen = str.length;
-        var lower = str.toLowerCase();
-        var lowerCodes = [];
-        var bitflags = 0;
-        var containsSpace = false;
-        for (var i2 = 0; i2 < strLen; ++i2) {
-          var lowerCode = lowerCodes[i2] = lower.charCodeAt(i2);
-          if (lowerCode === 32) {
-            containsSpace = true;
-            continue;
-          }
-          var bit = lowerCode >= 97 && lowerCode <= 122 ? lowerCode - 97 : lowerCode >= 48 && lowerCode <= 57 ? 26 : lowerCode <= 127 ? 30 : 31;
-          bitflags |= 1 << bit;
-        }
-        return { lowerCodes, bitflags, containsSpace, _lower: lower };
-      };
-      var prepareBeginningIndexes = (target) => {
-        var targetLen = target.length;
-        var beginningIndexes = [];
-        var beginningIndexesLen = 0;
-        var wasUpper = false;
-        var wasAlphanum = false;
-        for (var i2 = 0; i2 < targetLen; ++i2) {
-          var targetCode = target.charCodeAt(i2);
-          var isUpper = targetCode >= 65 && targetCode <= 90;
-          var isAlphanum = isUpper || targetCode >= 97 && targetCode <= 122 || targetCode >= 48 && targetCode <= 57;
-          var isBeginning = isUpper && !wasUpper || !wasAlphanum || !isAlphanum;
-          wasUpper = isUpper;
-          wasAlphanum = isAlphanum;
-          if (isBeginning)
-            beginningIndexes[beginningIndexesLen++] = i2;
-        }
-        return beginningIndexes;
-      };
-      var prepareNextBeginningIndexes = (target) => {
-        var targetLen = target.length;
-        var beginningIndexes = prepareBeginningIndexes(target);
-        var nextBeginningIndexes = [];
-        var lastIsBeginning = beginningIndexes[0];
-        var lastIsBeginningI = 0;
-        for (var i2 = 0; i2 < targetLen; ++i2) {
-          if (lastIsBeginning > i2) {
-            nextBeginningIndexes[i2] = lastIsBeginning;
-          } else {
-            lastIsBeginning = beginningIndexes[++lastIsBeginningI];
-            nextBeginningIndexes[i2] = lastIsBeginning === void 0 ? targetLen : lastIsBeginning;
-          }
-        }
-        return nextBeginningIndexes;
-      };
-      var cleanup = () => {
-        preparedCache.clear();
-        preparedSearchCache.clear();
-        matchesSimple = [];
-        matchesStrict = [];
-      };
-      var preparedCache = /* @__PURE__ */ new Map();
-      var preparedSearchCache = /* @__PURE__ */ new Map();
-      var matchesSimple = [];
-      var matchesStrict = [];
-      var defaultScoreFn = (a2) => {
-        var max2 = INT_MIN;
-        var len = a2.length;
-        for (var i2 = 0; i2 < len; ++i2) {
-          var result = a2[i2];
-          if (result === NULL)
-            continue;
-          var score = result.score;
-          if (score > max2)
-            max2 = score;
-        }
-        if (max2 === INT_MIN)
-          return NULL;
-        return max2;
-      };
-      var getValue2 = (obj, prop) => {
-        var tmp = obj[prop];
-        if (tmp !== void 0)
-          return tmp;
-        var segs = prop;
-        if (!Array.isArray(prop))
-          segs = prop.split(".");
-        var len = segs.length;
-        var i2 = -1;
-        while (obj && ++i2 < len)
-          obj = obj[segs[i2]];
-        return obj;
-      };
-      var isObj = (x2) => {
-        return typeof x2 === "object";
-      };
-      var INT_MAX = Infinity;
-      var INT_MIN = -INT_MAX;
-      var noResults = [];
-      noResults.total = 0;
-      var NULL = null;
-      var fastpriorityqueue = (r2) => {
-        var e = [], o2 = 0, a2 = {}, v2 = (r3) => {
-          for (var a3 = 0, v3 = e[a3], c2 = 1; c2 < o2; ) {
-            var s2 = c2 + 1;
-            a3 = c2, s2 < o2 && e[s2].score < e[c2].score && (a3 = s2), e[a3 - 1 >> 1] = e[a3], c2 = 1 + (a3 << 1);
-          }
-          for (var f3 = a3 - 1 >> 1; a3 > 0 && v3.score < e[f3].score; f3 = (a3 = f3) - 1 >> 1)
-            e[a3] = e[f3];
-          e[a3] = v3;
-        };
-        return a2.add = (r3) => {
-          var a3 = o2;
-          e[o2++] = r3;
-          for (var v3 = a3 - 1 >> 1; a3 > 0 && r3.score < e[v3].score; v3 = (a3 = v3) - 1 >> 1)
-            e[a3] = e[v3];
-          e[a3] = r3;
-        }, a2.poll = (r3) => {
-          if (0 !== o2) {
-            var a3 = e[0];
-            return e[0] = e[--o2], v2(), a3;
-          }
-        }, a2.peek = (r3) => {
-          if (0 !== o2)
-            return e[0];
-        }, a2.replaceTop = (r3) => {
-          e[0] = r3, v2();
-        }, a2;
-      };
-      var q2 = fastpriorityqueue();
-      return { "single": single, "go": go, "highlight": highlight, "prepare": prepare, "indexes": indexes, "cleanup": cleanup };
-    });
-  }
-});
-
 // src/main.ts
 var main_exports = {};
 __export(main_exports, {
@@ -37872,13 +37872,13 @@ __export(main_exports, {
   default: () => DataLoomPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian20 = require("obsidian");
+var import_obsidian19 = require("obsidian");
 
-// src/obsidian/modal/support-modal/index.tsx
+// src/obsidian/modal/welcome-modal/index.tsx
 var import_obsidian = require("obsidian");
 
 // src/obsidian/shared/index.ts
-var renderBuyMeACoffeeBadge = (contentEl) => {
+var renderBuyMeACoffeeBadge = (contentEl, width = 180) => {
   const linkEl = contentEl.createEl("a", {
     href: "https://www.buymeacoffee.com/treywallis"
   });
@@ -37886,17 +37886,7 @@ var renderBuyMeACoffeeBadge = (contentEl) => {
   imgEl.src = "https://img.buymeacoffee.com/button-api/?text=Buy me a herbal tea&emoji=\u{1F375}&slug=treywallis&button_colour=9478F0&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00&refresh_id=2";
   imgEl.referrerPolicy = "no-referrer";
   imgEl.alt = "Buymeacoffee";
-  imgEl.width = 180;
-};
-var renderGitHubSponsorBadge = (contentEl) => {
-  const linkEl = contentEl.createEl("a", {
-    href: "https://github.com/sponsors/trey-wallis"
-  });
-  const imgEl = linkEl.createEl("img");
-  imgEl.src = "https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86";
-  imgEl.referrerPolicy = "no-referrer";
-  imgEl.alt = "GitHub Sponsor";
-  imgEl.width = 110;
+  imgEl.width = width;
 };
 var renderDivider = (contentEl) => {
   const isFirstChild = contentEl.children.length === 0;
@@ -37913,46 +37903,8 @@ var setModalTitle = (containerEl, text) => {
   modalTitleEl == null ? void 0 : modalTitleEl.addClass("dataloom-modal__title");
 };
 
-// src/obsidian/modal/support-modal/index.tsx
-var SupportModal = class extends import_obsidian.Modal {
-  constructor(app) {
-    super(app);
-  }
-  onOpen() {
-    const { containerEl } = this;
-    setModalTitle(containerEl, "Support DataLoom");
-    const { contentEl } = this;
-    renderDivider(contentEl);
-    this.renderText(contentEl);
-    const badgeContainer = contentEl.createEl("div", {
-      cls: "dataloom-support-modal__badge-container"
-    });
-    renderGitHubSponsorBadge(badgeContainer);
-    renderBuyMeACoffeeBadge(badgeContainer);
-  }
-  renderText(contentEl) {
-    const containerEl = contentEl.createEl("div", {
-      cls: "dataloom-support-modal__container"
-    });
-    containerEl.createEl("p", {
-      text: "Fellow loomers, I need your help. I develop this plugin as a free service, however I cannot dedicate adequate time to it without some support."
-    });
-    containerEl.createEl("p", {
-      text: "If this plugin has helped you, please consider supporting."
-    });
-    containerEl.createEl("p", {
-      text: "Thank you."
-    });
-  }
-  onClose() {
-    const { contentEl } = this;
-    contentEl.empty();
-  }
-};
-
 // src/obsidian/modal/welcome-modal/index.tsx
-var import_obsidian2 = require("obsidian");
-var WelcomeModal = class extends import_obsidian2.Modal {
+var WelcomeModal = class extends import_obsidian.Modal {
   constructor(app) {
     super(app);
   }
@@ -38006,7 +37958,7 @@ var WelcomeModal = class extends import_obsidian2.Modal {
       cls: "dataloom-welcome-modal__card"
     });
     const iconEl = cardEl.createDiv();
-    (0, import_obsidian2.setIcon)(iconEl, iconId);
+    (0, import_obsidian.setIcon)(iconEl, iconId);
     iconEl.firstChild.classList.add(
       "dataloom-welcome-modal__card-icon"
     );
@@ -38028,13 +37980,13 @@ var WelcomeModal = class extends import_obsidian2.Modal {
 };
 
 // src/obsidian/modal/whats-new-modal/index.tsx
-var import_obsidian4 = require("obsidian");
+var import_obsidian3 = require("obsidian");
 
 // src/data/network.ts
-var import_obsidian3 = require("obsidian");
+var import_obsidian2 = require("obsidian");
 var getLastestGithubRelease = () => __async(void 0, null, function* () {
   try {
-    const response = yield (0, import_obsidian3.requestUrl)({
+    const response = yield (0, import_obsidian2.requestUrl)({
       url: "https://api.github.com/repos/trey-wallis/obsidian-dataloom/releases/latest",
       method: "GET"
     });
@@ -38042,54 +37994,72 @@ var getLastestGithubRelease = () => __async(void 0, null, function* () {
     return body;
   } catch (err) {
     console.error(err);
-    new import_obsidian3.Notice("Error fetching latest release");
+    new import_obsidian2.Notice("Error fetching latest release");
     return null;
   }
 });
 
 // src/obsidian/modal/whats-new-modal/index.tsx
-var WhatsNewModal = class extends import_obsidian4.Modal {
-  constructor(app, onModalClose) {
+var WhatsNewModal = class extends import_obsidian3.Modal {
+  constructor(app) {
     super(app);
-    this.onModalClose = onModalClose;
   }
   onOpen() {
     return __async(this, null, function* () {
       const { containerEl } = this;
-      setModalTitle(containerEl, "DataLoom - What's New");
+      const data = yield getLastestGithubRelease();
+      const { body, tag_name } = data;
+      setModalTitle(containerEl, `DataLoom ${tag_name}`);
       const { contentEl } = this;
+      this.renderDescription(contentEl);
       renderDivider(contentEl);
-      this.renderContent(contentEl);
+      this.renderContent(contentEl, body);
     });
   }
-  renderContent(contentEl) {
+  renderDescription(containerEl) {
+    return __async(this, null, function* () {
+      containerEl.createDiv({
+        text: "Thank you for using DataLoom! If you like the plugin, please consider supporting me by buying an herbal tea. With your sponsorship, I'll be able to continue to add features, fix bugs, and respond to issues on Github."
+      });
+      const badgeContainer = containerEl.createDiv({
+        cls: "dataloom-whats-new-modal__badge-container"
+      });
+      renderBuyMeACoffeeBadge(badgeContainer, 200);
+      containerEl.createDiv({
+        text: "DataLoom now has a Discord. Please join to get help, report bugs, and participate in the community."
+      });
+      containerEl.createDiv({
+        cls: "dataloom-whats-new-modal__spacer"
+      });
+      containerEl.createEl("a", {
+        text: "Join Discord",
+        href: "https://discord.gg/QaFbepMdN4"
+      });
+    });
+  }
+  renderContent(contentEl, body) {
     return __async(this, null, function* () {
       const data = yield getLastestGithubRelease();
-      const { body, published_at, tag_name } = data;
       if (data) {
-        const tagEl = contentEl.createEl("h5", {
-          text: `v${tag_name}`,
-          cls: "dataloom-whats-new-modal__tag"
+        const bodyEl = contentEl.createDiv({
+          cls: "dataloom-whats-new-modal__content"
         });
-        const date = new Date(published_at);
-        tagEl.createSpan({
-          text: date.toLocaleDateString(),
-          cls: "dataloom-whats-new-modal__date"
-        });
-        const bodyEl = contentEl.createDiv();
         const replacedText = this.replaceIssueNumbersWithLinks(body);
-        import_obsidian4.MarkdownRenderer.render(
+        import_obsidian3.MarkdownRenderer.render(
           this.app,
           replacedText,
           bodyEl,
           "",
-          new import_obsidian4.Component()
+          new import_obsidian3.Component()
         );
         bodyEl.querySelectorAll("a").forEach((a2) => {
           const issueNumber = this.extractIssueNumberFromURL(a2.getText());
           if (issueNumber) {
             a2.setText(issueNumber);
           }
+        });
+        contentEl.createDiv({
+          cls: "dataloom-whats-new-modal__spacer"
         });
         contentEl.createEl("a", {
           text: "View all releases",
@@ -38121,14 +38091,13 @@ var WhatsNewModal = class extends import_obsidian4.Modal {
   onClose() {
     const { contentEl } = this;
     contentEl.empty();
-    this.onModalClose();
   }
 };
 
 // src/obsidian/dataloom-settings-tab.ts
+var import_obsidian4 = require("obsidian");
 var import_obsidian5 = require("obsidian");
-var import_obsidian6 = require("obsidian");
-var DataLoomSettingsTab = class extends import_obsidian5.PluginSettingTab {
+var DataLoomSettingsTab = class extends import_obsidian4.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
@@ -38145,18 +38114,18 @@ var DataLoomSettingsTab = class extends import_obsidian5.PluginSettingTab {
     this.renderDebugSettings(containerEl);
   }
   renderSupportHeader(containerEl) {
-    new import_obsidian6.Setting(containerEl).setName("DataLoom").setHeading();
+    new import_obsidian5.Setting(containerEl).setName("DataLoom").setHeading();
     const supportDesc = new DocumentFragment();
-    const textEl = supportDesc.createDiv({
-      text: "Enjoying the plugin? Consider supporting the development of DataLoom by buying me an herbal tea or sponsoring me on GitHub."
+    supportDesc.createDiv({
+      text: "Enjoying the plugin? Please buy me an herbal tea to support the development of DataLoom."
     });
-    textEl.style.marginBottom = "1.5em";
-    renderGitHubSponsorBadge(supportDesc);
-    new import_obsidian6.Setting(containerEl).setDesc(supportDesc);
+    new import_obsidian5.Setting(containerEl).setDesc(supportDesc);
     renderBuyMeACoffeeBadge(containerEl);
+    const spacing = containerEl.createDiv();
+    spacing.style.marginBottom = "0.75em";
   }
   renderFileSettings(containerEl) {
-    new import_obsidian6.Setting(containerEl).setName("File").setHeading();
+    new import_obsidian5.Setting(containerEl).setName("File").setHeading();
     const attachmentsFolderDesc = new DocumentFragment();
     attachmentsFolderDesc.createDiv({
       text: "Create looms in the attachments folder defined in the Obsidian settings."
@@ -38172,7 +38141,7 @@ var DataLoomSettingsTab = class extends import_obsidian5.PluginSettingTab {
     attachmentsFolderDesc.createDiv({
       text: "Otherwise, the folder location below will be used"
     });
-    new import_obsidian6.Setting(containerEl).setName("Create looms in the attachments folder").setDesc(attachmentsFolderDesc).addToggle((cb) => {
+    new import_obsidian5.Setting(containerEl).setName("Create looms in the attachments folder").setDesc(attachmentsFolderDesc).addToggle((cb) => {
       cb.setValue(
         this.plugin.settings.createAtObsidianAttachmentFolder
       ).onChange((value) => __async(this, null, function* () {
@@ -38186,7 +38155,7 @@ var DataLoomSettingsTab = class extends import_obsidian5.PluginSettingTab {
       text: "Where newly created looms are placed. Default location is the vault root folder, if not specified."
     });
     if (this.plugin.settings.createAtObsidianAttachmentFolder === false) {
-      new import_obsidian6.Setting(containerEl).setName("Default location for new looms").setDesc(defaultLocationDesc).addText((cb) => {
+      new import_obsidian5.Setting(containerEl).setName("Default location for new looms").setDesc(defaultLocationDesc).addText((cb) => {
         cb.setValue(
           this.plugin.settings.customFolderForNewFiles
         ).onChange((value) => __async(this, null, function* () {
@@ -38201,8 +38170,8 @@ var DataLoomSettingsTab = class extends import_obsidian5.PluginSettingTab {
     freezeColumnsDesc.createSpan({
       text: "The number of columns to stay in place when the table scrolls horizontally."
     });
-    new import_obsidian6.Setting(containerEl).setName("Table").setHeading();
-    new import_obsidian6.Setting(containerEl).setName("Frozen columns").setDesc(freezeColumnsDesc).addDropdown((cb) => {
+    new import_obsidian5.Setting(containerEl).setName("Table").setHeading();
+    new import_obsidian5.Setting(containerEl).setName("Frozen columns").setDesc(freezeColumnsDesc).addDropdown((cb) => {
       cb.addOptions({
         "0": "0",
         "1": "1",
@@ -38221,8 +38190,8 @@ var DataLoomSettingsTab = class extends import_obsidian5.PluginSettingTab {
     removeMarkdownOnExportDesc.createSpan({
       text: "If enabled, content will be exported as plain text instead of markdown. For example, if enabled, a checkbox cell's content will be exported true or false instead of [ ] or [x]."
     });
-    new import_obsidian6.Setting(containerEl).setName("Export").setHeading();
-    new import_obsidian6.Setting(containerEl).setName("Remove markdown").setDesc(removeMarkdownOnExportDesc).addToggle((cb) => {
+    new import_obsidian5.Setting(containerEl).setName("Export").setHeading();
+    new import_obsidian5.Setting(containerEl).setName("Remove markdown").setDesc(removeMarkdownOnExportDesc).addToggle((cb) => {
       cb.setValue(
         this.plugin.settings.removeMarkdownOnExport
       ).onChange((value) => __async(this, null, function* () {
@@ -38232,7 +38201,7 @@ var DataLoomSettingsTab = class extends import_obsidian5.PluginSettingTab {
     });
   }
   renderEmbeddedLoomSettings(containerEl) {
-    new import_obsidian6.Setting(containerEl).setName("Embedded looms").setHeading();
+    new import_obsidian5.Setting(containerEl).setName("Embedded looms").setHeading();
     const defaultEmbedWidthDesc = new DocumentFragment();
     defaultEmbedWidthDesc.createSpan({
       text: "The default embedded loom width. Accepts valid HTML width values. Like 100px, 50%, etc."
@@ -38241,7 +38210,7 @@ var DataLoomSettingsTab = class extends import_obsidian5.PluginSettingTab {
       text: "Please close and reopen your embedded looms for this setting to take effect",
       cls: "dataloom-modal-text--emphasize"
     });
-    new import_obsidian6.Setting(containerEl).setName("Default embedded loom width").setDesc(defaultEmbedWidthDesc).addText((cb) => {
+    new import_obsidian5.Setting(containerEl).setName("Default embedded loom width").setDesc(defaultEmbedWidthDesc).addText((cb) => {
       cb.setValue(this.plugin.settings.defaultEmbedWidth).onChange(
         (value) => __async(this, null, function* () {
           this.plugin.settings.defaultEmbedWidth = value;
@@ -38257,7 +38226,7 @@ var DataLoomSettingsTab = class extends import_obsidian5.PluginSettingTab {
       text: "Please close and reopen your embedded looms for this setting to take effect",
       cls: "dataloom-modal-text--emphasize"
     });
-    new import_obsidian6.Setting(containerEl).setName("Default embedded loom height").setDesc(defaultEmbedHeightDesc).addText((cb) => {
+    new import_obsidian5.Setting(containerEl).setName("Default embedded loom height").setDesc(defaultEmbedHeightDesc).addText((cb) => {
       cb.setValue(this.plugin.settings.defaultEmbedHeight).onChange(
         (value) => __async(this, null, function* () {
           this.plugin.settings.defaultEmbedHeight = value;
@@ -38267,8 +38236,8 @@ var DataLoomSettingsTab = class extends import_obsidian5.PluginSettingTab {
     });
   }
   renderModalSettings(containerEl) {
-    new import_obsidian6.Setting(containerEl).setName("Modal").setHeading();
-    new import_obsidian6.Setting(containerEl).setName("What's new modal").setDesc("Show the what's new modal when the plugin is updated.").addToggle((cb) => {
+    new import_obsidian5.Setting(containerEl).setName("Modal").setHeading();
+    new import_obsidian5.Setting(containerEl).setName("What's new modal").setDesc("Show the what's new modal when the plugin is updated.").addToggle((cb) => {
       cb.setValue(this.plugin.settings.showWhatsNewModal).onChange(
         (value) => __async(this, null, function* () {
           this.plugin.settings.showWhatsNewModal = value;
@@ -38276,18 +38245,10 @@ var DataLoomSettingsTab = class extends import_obsidian5.PluginSettingTab {
         })
       );
     });
-    new import_obsidian6.Setting(containerEl).setName("Support modal").setDesc("Show the support modal when the plugin is updated.").addToggle((cb) => {
-      cb.setValue(this.plugin.settings.showSupportModal).onChange(
-        (value) => __async(this, null, function* () {
-          this.plugin.settings.showSupportModal = value;
-          yield this.plugin.saveSettings();
-        })
-      );
-    });
   }
   renderDebugSettings(containerEl) {
-    new import_obsidian6.Setting(containerEl).setName("Debug").setHeading();
-    new import_obsidian6.Setting(containerEl).setName("Debug mode").setDesc(
+    new import_obsidian5.Setting(containerEl).setName("Debug").setHeading();
+    new import_obsidian5.Setting(containerEl).setName("Debug mode").setDesc(
       "Turns on console.log for plugin events. This is useful for troubleshooting."
     ).addToggle((cb) => {
       cb.setValue(this.plugin.settings.shouldDebug).onChange(
@@ -39311,7 +39272,7 @@ var __extends = function() {
   };
 }();
 var __generator = function(thisArg, body) {
-  var _5 = { label: 0, sent: function() {
+  var _7 = { label: 0, sent: function() {
     if (t2[0] & 1)
       throw t2[1];
     return t2[1];
@@ -39327,7 +39288,7 @@ var __generator = function(thisArg, body) {
   function step(op) {
     if (f3)
       throw new TypeError("Generator is already executing.");
-    while (_5)
+    while (_7)
       try {
         if (f3 = 1, y2 && (t2 = op[0] & 2 ? y2["return"] : op[0] ? y2["throw"] || ((t2 = y2["return"]) && t2.call(y2), 0) : y2.next) && !(t2 = t2.call(y2, op[1])).done)
           return t2;
@@ -39339,42 +39300,42 @@ var __generator = function(thisArg, body) {
             t2 = op;
             break;
           case 4:
-            _5.label++;
+            _7.label++;
             return { value: op[1], done: false };
           case 5:
-            _5.label++;
+            _7.label++;
             y2 = op[1];
             op = [0];
             continue;
           case 7:
-            op = _5.ops.pop();
-            _5.trys.pop();
+            op = _7.ops.pop();
+            _7.trys.pop();
             continue;
           default:
-            if (!(t2 = _5.trys, t2 = t2.length > 0 && t2[t2.length - 1]) && (op[0] === 6 || op[0] === 2)) {
-              _5 = 0;
+            if (!(t2 = _7.trys, t2 = t2.length > 0 && t2[t2.length - 1]) && (op[0] === 6 || op[0] === 2)) {
+              _7 = 0;
               continue;
             }
             if (op[0] === 3 && (!t2 || op[1] > t2[0] && op[1] < t2[3])) {
-              _5.label = op[1];
+              _7.label = op[1];
               break;
             }
-            if (op[0] === 6 && _5.label < t2[1]) {
-              _5.label = t2[1];
+            if (op[0] === 6 && _7.label < t2[1]) {
+              _7.label = t2[1];
               t2 = op;
               break;
             }
-            if (t2 && _5.label < t2[2]) {
-              _5.label = t2[2];
-              _5.ops.push(op);
+            if (t2 && _7.label < t2[2]) {
+              _7.label = t2[2];
+              _7.ops.push(op);
               break;
             }
             if (t2[2])
-              _5.ops.pop();
-            _5.trys.pop();
+              _7.ops.pop();
+            _7.trys.pop();
             continue;
         }
-        op = body.call(thisArg, _5);
+        op = body.call(thisArg, _7);
       } catch (e) {
         op = [6, e];
         y2 = 0;
@@ -39575,7 +39536,7 @@ function stringify(obj, serializer, indent, decycler) {
 function getSerialize(serializer, decycler) {
   var stack = [], keys = [];
   if (!decycler)
-    decycler = function(_5, value) {
+    decycler = function(_7, value) {
       if (stack[0] === value)
         return "[Circular ~]";
       return "[Circular ~." + keys.slice(0, stack.indexOf(value)).join(".") + "]";
@@ -40282,7 +40243,7 @@ var createAsyncThunk = function() {
                     };
                   }
                   started = true;
-                  abortedPromise = new Promise(function(_5, reject) {
+                  abortedPromise = new Promise(function(_7, reject) {
                     return abortController.signal.addEventListener("abort", function() {
                       return reject({
                         name: "AbortError",
@@ -41465,6 +41426,72 @@ var MigrateState13 = class {
   }
 };
 
+// src/shared/loom-state/migrate/migrate-state-14.ts
+var MigrateState14 = class {
+  migrate(prevState) {
+    const { rows, columns } = prevState.model;
+    const nextRows = rows.map((row) => {
+      return __spreadProps(__spreadValues({}, row), {
+        sourceId: null
+      });
+    });
+    const newColumns = columns.map((column) => {
+      return __spreadProps(__spreadValues({}, column), {
+        frontmatterKey: null
+      });
+    });
+    return __spreadProps(__spreadValues({}, prevState), {
+      model: __spreadProps(__spreadValues({}, prevState.model), {
+        rows: nextRows,
+        columns: newColumns,
+        sources: [],
+        externalRowOrder: []
+      })
+    });
+  }
+};
+
+// src/shared/loom-state/migrate/migrate-state-15.ts
+var MigrateState15 = class {
+  migrate(prevState) {
+    const { rows, columns, sources, filters, settings, externalRowOrder } = prevState.model;
+    return __spreadProps(__spreadValues({}, prevState), {
+      model: {
+        rows,
+        columns,
+        filters,
+        settings,
+        externalRowOrder,
+        sources
+      }
+    });
+  }
+};
+
+// src/shared/loom-state/migrate/migrate-state-16.ts
+var MigrateState152 = class {
+  migrate(prevState) {
+    const { sources } = prevState.model;
+    const nextSources = sources.map((source) => {
+      if (source.type === "folder" /* FOLDER */) {
+        const { id: id2, path, type } = source;
+        return {
+          id: id2,
+          path,
+          type,
+          includeSubfolders: true
+        };
+      }
+      return source;
+    });
+    return __spreadProps(__spreadValues({}, prevState), {
+      model: __spreadProps(__spreadValues({}, prevState.model), {
+        sources: nextSources
+      })
+    });
+  }
+};
+
 // src/shared/loom-state/validate-state.ts
 var import_runtypes = __toESM(require_lib());
 var FilterOperatorUnion = (0, import_runtypes.Union)((0, import_runtypes.Literal)("and"), (0, import_runtypes.Literal)("or"));
@@ -41765,14 +41792,13 @@ var BaseSource = (0, import_runtypes.Record)({
 var ObsidianFolderSource = BaseSource.extend({
   type: (0, import_runtypes.Literal)("folder" /* FOLDER */),
   path: import_runtypes.String,
-  showNested: import_runtypes.Boolean,
-  showMarkdownOnly: import_runtypes.Boolean
+  includeSubfolders: import_runtypes.Boolean
 });
 var ObsidianTagSource = BaseSource.extend({
   type: (0, import_runtypes.Literal)("tag" /* TAG */),
   name: import_runtypes.String
 });
-var Source = (0, import_runtypes.Union)(ObsidianFolderSource, ObsidianTagSource);
+var Source2 = (0, import_runtypes.Union)(ObsidianFolderSource, ObsidianTagSource);
 var TableSettings = (0, import_runtypes.Record)({
   numFrozenColumns: import_runtypes.Number,
   showCalculationRow: import_runtypes.Boolean
@@ -41787,7 +41813,7 @@ var TableModel = (0, import_runtypes.Record)({
   rows: (0, import_runtypes.Array)(Row),
   filters: (0, import_runtypes.Array)(Filter),
   settings: TableSettings,
-  sources: (0, import_runtypes.Array)(Source),
+  sources: (0, import_runtypes.Array)(Source2),
   externalRowOrder: (0, import_runtypes.Array)(SourceRowOrder)
 });
 var LoomStateObject = (0, import_runtypes.Record)({
@@ -41810,31 +41836,6 @@ var DeserializationError = class extends Error {
     this.pluginVersion = pluginVersion;
     this.fileVersion = fileVersion;
     this.failedMigration = failedMigration;
-  }
-};
-
-// src/shared/loom-state/migrate/migrate-state-14.ts
-var MigrateState14 = class {
-  migrate(prevState) {
-    const { rows, columns } = prevState.model;
-    const nextRows = rows.map((row) => {
-      return __spreadProps(__spreadValues({}, row), {
-        sourceId: null
-      });
-    });
-    const newColumns = columns.map((column) => {
-      return __spreadProps(__spreadValues({}, column), {
-        frontmatterKey: null
-      });
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        rows: nextRows,
-        columns: newColumns,
-        sources: [],
-        externalRowOrder: []
-      })
-    });
   }
 };
 
@@ -41997,6 +41998,24 @@ var deserializeState = (data, pluginVersion) => {
     if (isVersionLessThan(fileVersion, VERSION_8_7_0)) {
       failedMigration = VERSION_8_7_0;
       const nextState = new MigrateState14().migrate(
+        currentState
+      );
+      currentState = nextState;
+      failedMigration = null;
+    }
+    const VERSION_8_8_0 = "8.8.0";
+    if (isVersionLessThan(fileVersion, VERSION_8_8_0)) {
+      failedMigration = VERSION_8_8_0;
+      const nextState = new MigrateState15().migrate(
+        currentState
+      );
+      currentState = nextState;
+      failedMigration = null;
+    }
+    const VERSION_8_11_0 = "8.11.0";
+    if (isVersionLessThan(fileVersion, VERSION_8_11_0)) {
+      failedMigration = VERSION_8_11_0;
+      const nextState = new MigrateState152().migrate(
         currentState
       );
       currentState = nextState;
@@ -42349,7 +42368,7 @@ var import_react3 = __toESM(require_react());
 var useAppSelector = useSelector;
 
 // src/shared/logger.ts
-var log = (shouldDebug) => (message, args = {}) => {
+var log = (shouldDebug, message, args = {}) => {
   if (shouldDebug) {
     console.log(message);
     if (Object.keys(args).length !== 0)
@@ -42359,7 +42378,7 @@ var log = (shouldDebug) => (message, args = {}) => {
 var useLogger = () => {
   const { shouldDebug } = useAppSelector((state) => state.global.settings);
   const logger = import_react3.default.useCallback(
-    (message, args) => log(shouldDebug)(message, args),
+    (message, args) => log(shouldDebug, message, args),
     [shouldDebug]
   );
   return logger;
@@ -42628,10 +42647,6 @@ var RowSortCommand = class extends loom_state_command_default {
       })
     });
   }
-  redo(prevState) {
-    super.onRedo();
-    return this.execute(prevState);
-  }
   undo(prevState) {
     super.onUndo();
     const { rows } = prevState.model;
@@ -42648,6 +42663,10 @@ var RowSortCommand = class extends loom_state_command_default {
         rows: newRows
       })
     });
+  }
+  redo(prevState) {
+    super.onRedo();
+    return this.execute(prevState);
   }
   sortByIndex(rows) {
     const rowsCopy = [...rows];
@@ -42918,10 +42937,10 @@ function LoomStateProvider({
 }
 
 // src/react/loom-app/app/index.tsx
-var import_react59 = __toESM(require_react());
+var import_react65 = __toESM(require_react());
 
 // src/react/loom-app/table/index.tsx
-var import_react13 = __toESM(require_react());
+var import_react41 = __toESM(require_react());
 
 // node_modules/react-virtuoso/dist/index.mjs
 var import_react6 = __toESM(require_react(), 1);
@@ -44147,7 +44166,7 @@ var sizeSystem = system(
         sizeRanges,
         withLatestFrom(sizes),
         scan(
-          ({ sizes: oldSizes }, [_5, newSizes]) => {
+          ({ sizes: oldSizes }, [_7, newSizes]) => {
             return {
               changed: newSizes !== oldSizes,
               sizes: newSizes
@@ -44650,8 +44669,8 @@ var stateFlagsSystem = system(([{ scrollContainerState, scrollTop, viewportHeigh
       scrollTop,
       throttleTime(100),
       withLatestFrom(isScrolling),
-      filter(([_5, isScrolling2]) => !!isScrolling2),
-      scan(([_5, prev], [next]) => [prev, next], [0, 0]),
+      filter(([_7, isScrolling2]) => !!isScrolling2),
+      scan(([_7, prev], [next]) => [prev, next], [0, 0]),
       map(([prev, next]) => next - prev)
     ),
     scrollVelocity
@@ -44709,7 +44728,7 @@ var initialTopMostItemIndexSystem = system(
       pipe(
         didMount,
         withLatestFrom(initialTopMostItemIndex),
-        filter(([_5, location]) => !!location),
+        filter(([_7, location]) => !!location),
         mapTo(false)
       ),
       scrolledToInitialItem
@@ -44870,7 +44889,7 @@ var groupedListSystem = system(([{ totalCount, groupIndices, sizes }, { scrollTo
   connect(
     pipe(
       combineLatest(scrollTop, sizes, headerHeight),
-      filter(([_5, sizes2]) => hasGroups(sizes2)),
+      filter(([_7, sizes2]) => hasGroups(sizes2)),
       map(([scrollTop2, state, headerHeight2]) => findMaxKeyValue(state.groupOffsetTree, Math.max(scrollTop2 - headerHeight2, 0), "v")[0]),
       distinctUntilChanged(),
       map((index) => [index])
@@ -45060,6 +45079,26 @@ function buildListState(items, topItems, totalCount, gap, sizes, firstItemIndex)
     firstItemIndex
   };
 }
+function buildListStateFromItemCount(itemCount, initialTopMostItemIndex, sizes, firstItemIndex, gap, data) {
+  let includedGroupsCount = 0;
+  if (sizes.groupIndices.length > 0) {
+    for (const index of sizes.groupIndices) {
+      if (index - includedGroupsCount >= itemCount) {
+        break;
+      }
+      includedGroupsCount++;
+    }
+  }
+  const adjustedCount = itemCount + includedGroupsCount;
+  const initialTopMostItemIndexNumber = getInitialTopMostItemIndexNumber(initialTopMostItemIndex, adjustedCount);
+  const items = Array.from({ length: adjustedCount }).map((_7, index) => ({
+    index: index + initialTopMostItemIndexNumber,
+    size: 0,
+    offset: 0,
+    data: data[index + initialTopMostItemIndexNumber]
+  }));
+  return buildListState(items, [], adjustedCount, gap, sizes, firstItemIndex);
+}
 var listStateSystem = system(
   ([
     { sizes, totalCount, data, firstItemIndex, gap },
@@ -45072,6 +45111,7 @@ var listStateSystem = system(
     { recalcInProgress }
   ]) => {
     const topItemsIndexes = statefulStream([]);
+    const initialItemCount = statefulStream(0);
     const itemsRendered = stream();
     connect(groupedListSystem2.topItemsIndexes, topItemsIndexes);
     const listState = statefulStreamFromEmitter(
@@ -45109,11 +45149,22 @@ var listStateSystem = system(
           ]) => {
             const sizesValue = sizes2;
             const { sizeTree, offsetTree } = sizesValue;
-            if (totalCount2 === 0 || startOffset === 0 && endOffset === 0) {
+            const initialItemCountValue = getValue(initialItemCount);
+            if (totalCount2 === 0) {
               return __spreadProps(__spreadValues({}, EMPTY_LIST_STATE), { totalCount: totalCount2 });
             }
+            if (startOffset === 0 && endOffset === 0) {
+              if (initialItemCountValue === 0) {
+                return __spreadProps(__spreadValues({}, EMPTY_LIST_STATE), { totalCount: totalCount2 });
+              } else {
+                return buildListStateFromItemCount(initialItemCountValue, initialTopMostItemIndex2, sizes2, firstItemIndex2, gap2, data2 || []);
+              }
+            }
             if (empty(sizeTree)) {
-              return buildListState(
+              if (initialItemCountValue > 0) {
+                return null;
+              }
+              const state = buildListState(
                 probeItemSet(getInitialTopMostItemIndexNumber(initialTopMostItemIndex2, totalCount2), sizesValue, data2),
                 [],
                 totalCount2,
@@ -45121,6 +45172,7 @@ var listStateSystem = system(
                 sizesValue,
                 firstItemIndex2
               );
+              return state;
             }
             const topItems = [];
             if (topItemsIndexes2.length > 0) {
@@ -45252,7 +45304,7 @@ var listStateSystem = system(
         distinctUntilChanged(rangeComparator)
       )
     );
-    return __spreadValues({ listState, topItemsIndexes, endReached, startReached, rangeChanged, itemsRendered }, stateFlags);
+    return __spreadValues({ listState, topItemsIndexes, endReached, startReached, rangeChanged, itemsRendered, initialItemCount }, stateFlags);
   },
   tup(
     sizeSystem,
@@ -45267,8 +45319,7 @@ var listStateSystem = system(
   { singleton: true }
 );
 var initialItemCountSystem = system(
-  ([{ sizes, firstItemIndex, data, gap }, { initialTopMostItemIndex }, { listState }, { didMount }]) => {
-    const initialItemCount = statefulStream(0);
+  ([{ sizes, firstItemIndex, data, gap }, { initialTopMostItemIndex }, { initialItemCount, listState }, { didMount }]) => {
     connect(
       pipe(
         didMount,
@@ -45276,29 +45327,12 @@ var initialItemCountSystem = system(
         filter(([, count]) => count !== 0),
         withLatestFrom(initialTopMostItemIndex, sizes, firstItemIndex, gap, data),
         map(([[, count], initialTopMostItemIndexValue, sizes2, firstItemIndex2, gap2, data2 = []]) => {
-          let includedGroupsCount = 0;
-          if (sizes2.groupIndices.length > 0) {
-            for (const index of sizes2.groupIndices) {
-              if (index - includedGroupsCount >= count) {
-                break;
-              }
-              includedGroupsCount++;
-            }
-          }
-          const adjustedCount = count + includedGroupsCount;
-          const initialTopMostItemIndexNumber = getInitialTopMostItemIndexNumber(initialTopMostItemIndexValue, adjustedCount);
-          const items = Array.from({ length: adjustedCount }).map((_5, index) => ({
-            index: index + initialTopMostItemIndexNumber,
-            size: 0,
-            offset: 0,
-            data: data2[index + initialTopMostItemIndexNumber]
-          }));
-          return buildListState(items, [], adjustedCount, gap2, sizes2, firstItemIndex2);
+          return buildListStateFromItemCount(count, initialTopMostItemIndexValue, sizes2, firstItemIndex2, gap2, data2);
         })
       ),
       listState
     );
-    return { initialItemCount };
+    return {};
   },
   tup(sizeSystem, initialTopMostItemIndexSystem, listStateSystem, propsReadySystem),
   { singleton: true }
@@ -45312,7 +45346,7 @@ var scrollSeekSystem = system(
       pipe(
         scrollVelocity,
         withLatestFrom(scrollSeekConfiguration, isSeeking, rangeChanged),
-        filter(([_5, config]) => !!config),
+        filter(([_7, config]) => !!config),
         map(([speed, config, isSeeking2, range]) => {
           const { exit, enter } = config;
           if (isSeeking2) {
@@ -45345,7 +45379,7 @@ var topItemCountSystem = system(([{ topItemsIndexes }]) => {
     pipe(
       topItemCount,
       filter((length) => length > 0),
-      map((length) => Array.from({ length }).map((_5, index) => index))
+      map((length) => Array.from({ length }).map((_7, index) => index))
     ),
     topItemsIndexes
   );
@@ -45446,7 +45480,7 @@ var upwardScrollFixSystem = system(
       pipe(
         combineLatest(statefulStreamFromEmitter(isScrolling, false), deviation, recalcInProgress),
         filter(([is, deviation2, recalc]) => !is && !recalc && deviation2 !== 0),
-        map(([_5, deviation2]) => deviation2),
+        map(([_7, deviation2]) => deviation2),
         throttleTime(1)
       ),
       scrollByWith
@@ -45764,7 +45798,7 @@ var listSystem = system(
       ..._c
     ] = _a2, _d = _b, { listState, topItemsIndexes } = _d, flags = __objRest(_d, ["listState", "topItemsIndexes"]), [
       { scrollToIndex },
-      _5,
+      _7,
       { topItemCount },
       { groupCounts },
       featureGroup1
@@ -46260,7 +46294,7 @@ function buildProbeGridState(items) {
   });
 }
 function buildItems(startIndex, endIndex, data) {
-  return Array.from({ length: endIndex - startIndex + 1 }).map((_5, i2) => {
+  return Array.from({ length: endIndex - startIndex + 1 }).map((_7, i2) => {
     const dataItem = data === null ? null : data[i2 + startIndex];
     return { index: i2 + startIndex, data: dataItem };
   });
@@ -46301,7 +46335,7 @@ var gridSystem = /* @__PURE__ */ system(
       pipe(
         didMount,
         withLatestFrom(initialTopMostItemIndex),
-        filter(([_5, location]) => !!location)
+        filter(([_7, location]) => !!location)
       ),
       () => {
         publish(scrolledToInitialItem, false);
@@ -47014,6 +47048,7 @@ var {
   {
     required: {},
     optional: {
+      restoreStateFrom: "restoreStateFrom",
       context: "context",
       followOutput: "followOutput",
       firstItemIndex: "firstItemIndex",
@@ -47047,7 +47082,8 @@ var {
       scrollToIndex: "scrollToIndex",
       scrollIntoView: "scrollIntoView",
       scrollTo: "scrollTo",
-      scrollBy: "scrollBy"
+      scrollBy: "scrollBy",
+      getState: "getState"
     },
     events: {
       isScrolling: "isScrolling",
@@ -47067,554 +47103,552 @@ var Scroller = /* @__PURE__ */ buildScroller({ usePublisher, useEmitterValue, us
 var WindowScroller = /* @__PURE__ */ buildWindowScroller({ usePublisher, useEmitterValue, useEmitter });
 var TableVirtuoso = Table;
 
-// src/shared/dragging/drag-context.tsx
-var import_react7 = __toESM(require_react());
+// src/react/loom-app/table/index.tsx
+var import_lodash8 = __toESM(require_lodash());
+
+// src/shared/spacing/hooks.ts
+var useOverflow = (shouldWrap, options) => {
+  const { ellipsis = false } = options != null ? options : {};
+  if (shouldWrap)
+    return "dataloom-overflow--wrap";
+  if (ellipsis)
+    return "dataloom-overflow--ellipsis";
+  return "dataloom-overflow--hide";
+};
+
+// src/react/shared/text/index.tsx
 var import_jsx_runtime3 = __toESM(require_jsx_runtime());
-var DragContext = import_react7.default.createContext(null);
-var useDragContext = () => {
-  const value = import_react7.default.useContext(DragContext);
+function Text({
+  value,
+  variant,
+  size = "sm",
+  maxWidth,
+  whiteSpace,
+  shouldWrap = false
+}) {
+  const overflowClassName = useOverflow(
+    shouldWrap || maxWidth !== void 0,
+    {
+      ellipsis: true
+    }
+  );
+  let className = "dataloom-text";
+  if (variant === "faint")
+    className += " dataloom-text--faint";
+  else if (variant === "muted")
+    className += " dataloom-text--muted";
+  else if (variant === "semibold")
+    className += " dataloom-text--semibold";
+  else if (variant === "on-accent")
+    className += " dataloom-text--on-accent";
+  else if (variant === "error")
+    className += " dataloom-text--error";
+  className += " " + overflowClassName;
+  let fontSize = "";
+  if (size === "xs") {
+    fontSize = "var(--dataloom-font-size--xs)";
+  } else if (size === "sm") {
+    fontSize = "var(--dataloom-font-size--sm)";
+  } else if (size === "md") {
+    fontSize = "var(--dataloom-font-size--md)";
+  } else if (size === "lg") {
+    fontSize = "var(--dataloom-font-size--lg)";
+  } else if (size === "xl") {
+    fontSize = "var(--dataloom-font-size--xl)";
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(
+    "p",
+    {
+      className,
+      style: {
+        fontSize,
+        whiteSpace,
+        maxWidth
+      },
+      children: value
+    }
+  );
+}
+
+// src/react/shared/menu/index.tsx
+var import_react13 = __toESM(require_react());
+
+// src/react/shared/base-menu/index.tsx
+var import_react10 = __toESM(require_react());
+var import_react_dom3 = __toESM(require_react_dom());
+
+// src/react/shared/menu-provider/hooks.ts
+var import_react9 = __toESM(require_react());
+
+// src/react/shared/menu-provider/index.tsx
+var import_react7 = __toESM(require_react());
+
+// src/react/shared/menu-provider/factory.ts
+var createMenu = (parentComponentId, level, position, options) => {
+  const {
+    shouldRequestOnClose = false,
+    shouldFocusTriggerOnClose = true,
+    name
+  } = options != null ? options : {};
+  return __spreadProps(__spreadValues({
+    id: "m" + generateUuid(),
+    parentComponentId
+  }, name && { name }), {
+    position,
+    level,
+    shouldRequestOnClose,
+    shouldFocusTriggerOnClose
+  });
+};
+var createCloseRequest = (menuId, type) => {
+  return {
+    menuId,
+    type
+  };
+};
+
+// src/react/shared/menu-provider/utils.ts
+var getPositionFromEl = (el) => {
+  const { top, left, width, height } = el.getBoundingClientRect();
+  return { top, left, width, height };
+};
+var findMenuTriggerEl = (menuId) => {
+  return document.querySelector(
+    `[data-menu-id="${menuId}"]`
+  );
+};
+
+// src/react/shared/menu-provider/index.tsx
+var import_jsx_runtime4 = __toESM(require_jsx_runtime());
+var MenuContext = import_react7.default.createContext(null);
+var useMenuContext = () => {
+  const value = import_react7.default.useContext(MenuContext);
   if (value === null) {
     throw new Error(
-      "useDragContext() called without a <DragProvider /> in the tree."
+      "useMenuContext() called without a <MenuProvider /> in the tree."
     );
   }
   return value;
 };
-function DragProvider({ children }) {
-  const [dragData, setDragData] = import_react7.default.useState(null);
-  const [touchDropZone, setTouchDropZone] = import_react7.default.useState(
-    null
+function MenuProvider({ children }) {
+  const [openMenus, setOpenMenus] = import_react7.default.useState([]);
+  const [closeRequests, setCloseRequests] = import_react7.default.useState([]);
+  const [focusedMenuTrigger, setFocusedMenuTrigger] = import_react7.default.useState(null);
+  const logger = useLogger();
+  function handleOpen(parentComponentId, level, triggerRef, options) {
+    logger("MenuProvider handleOpenMenu");
+    const { name, shouldRequestOnClose } = options != null ? options : {};
+    if (!triggerRef.current) {
+      logger("No trigger ref. Cannot open menu");
+      return;
+    }
+    if (!canOpen(level)) {
+      logger("Level is too low. Cannot open menu");
+      return;
+    }
+    logger("MenuProvider opening menu", { level });
+    const position = getPositionFromEl(triggerRef.current);
+    const menu = createMenu(parentComponentId, level, position, {
+      name,
+      shouldRequestOnClose
+    });
+    clearMenuTriggerFocus();
+    setOpenMenus((prevMenus) => [...prevMenus, menu]);
+  }
+  const focusMenuTrigger = import_react7.default.useCallback(
+    (parentComponentId, name) => {
+      logger("MenuProvider focusMenuTrigger", {
+        parentComponentId,
+        name
+      });
+      setFocusedMenuTrigger({
+        parentComponentId,
+        name
+      });
+    },
+    [logger]
   );
-  return /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(
-    DragContext.Provider,
+  function clearMenuTriggerFocus() {
+    logger("MenuProvider clearMenuTriggerFocus");
+    setFocusedMenuTrigger(null);
+  }
+  const handleClose = import_react7.default.useCallback(
+    (id2) => {
+      logger("MenuProvider onClose");
+      const menu = openMenus.find((menu2) => menu2.id === id2);
+      if (!menu)
+        throw new Error("Menu not found");
+      focusMenuTrigger(menu.parentComponentId, menu.name);
+      setOpenMenus(
+        (prevMenus) => prevMenus.filter((menu2) => menu2.id !== id2)
+      );
+      setCloseRequests(
+        (prevRequests) => prevRequests.filter((request) => request.menuId !== id2)
+      );
+    },
+    [logger, openMenus, focusMenuTrigger]
+  );
+  const handleRequestClose = import_react7.default.useCallback(
+    (id2, type) => {
+      logger("MenuProvider onRequestClose", { type });
+      const menu = openMenus.find((menu2) => menu2.id === id2);
+      if (!menu)
+        return;
+      const { shouldRequestOnClose } = menu;
+      if (shouldRequestOnClose) {
+        const request = createCloseRequest(menu.id, type);
+        setCloseRequests((prevRequests) => [...prevRequests, request]);
+      } else {
+        handleClose(id2);
+      }
+    },
+    [logger, setCloseRequests, handleClose, openMenus]
+  );
+  const handlePositionUpdate = import_react7.default.useCallback(
+    (id2, position) => {
+      logger("MenuProvider onPositionUpdate", { id: id2, position });
+      setOpenMenus((prevMenus) => {
+        return prevMenus.map((menu) => {
+          if (menu.id === id2) {
+            return __spreadProps(__spreadValues({}, menu), { position });
+          }
+          return menu;
+        });
+      });
+    },
+    [setOpenMenus, logger]
+  );
+  function getMenu(parentComponentId, name) {
+    var _a2, _b, _c;
+    const menu = openMenus.find((m2) => {
+      if (m2.parentComponentId === parentComponentId) {
+        if (name !== void 0) {
+          return m2.name === name;
+        }
+        return true;
+      }
+      return false;
+    });
+    let closeRequest = null;
+    if (menu) {
+      closeRequest = (_a2 = closeRequests.find((request) => request.menuId === menu.id)) != null ? _a2 : null;
+    }
+    return {
+      id: (_b = menu == null ? void 0 : menu.id) != null ? _b : "",
+      isOpen: menu !== void 0,
+      closeRequest,
+      isTriggerFocused: (focusedMenuTrigger == null ? void 0 : focusedMenuTrigger.parentComponentId) === parentComponentId && (focusedMenuTrigger == null ? void 0 : focusedMenuTrigger.name) === name,
+      position: (_c = menu == null ? void 0 : menu.position) != null ? _c : {
+        top: 0,
+        left: 0,
+        width: 0,
+        height: 0
+      }
+    };
+  }
+  const handleCloseAll = import_react7.default.useCallback(() => {
+    logger("MenuProvider onCloseAll");
+    setOpenMenus(
+      (prevState) => prevState.filter((menu) => menu.shouldRequestOnClose)
+    );
+    setCloseRequests(() => {
+      return openMenus.map(
+        (menu) => createCloseRequest(menu.id, "save-and-close")
+      );
+    });
+  }, [openMenus, setOpenMenus, logger]);
+  const getTopMenu = import_react7.default.useCallback(() => {
+    var _a2;
+    return (_a2 = openMenus[openMenus.length - 1]) != null ? _a2 : null;
+  }, [openMenus]);
+  const canOpen = import_react7.default.useCallback(
+    (level) => {
+      const topMenu = getTopMenu();
+      if (topMenu === null)
+        return true;
+      if (level > topMenu.level)
+        return true;
+      return false;
+    },
+    [getTopMenu]
+  );
+  function handleCloseRequestClear(id2) {
+    setCloseRequests(
+      (prevRequests) => prevRequests.filter((request) => request.menuId !== id2)
+    );
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
+    MenuContext.Provider,
     {
-      value: { dragData, touchDropZone, setDragData, setTouchDropZone },
+      value: {
+        topMenu: getTopMenu(),
+        canOpen,
+        getMenu,
+        onOpen: handleOpen,
+        onClose: handleClose,
+        onRequestClose: handleRequestClose,
+        onPositionUpdate: handlePositionUpdate,
+        onCloseAll: handleCloseAll,
+        onCloseRequestClear: handleCloseRequestClear
+      },
       children
     }
   );
 }
 
-// src/shared/dragging/utils.ts
-var import_lodash6 = __toESM(require_lodash());
-var getRowId = (rowEl) => {
-  const td = rowEl.firstChild;
-  if (!td)
-    return null;
-  const id2 = td.getAttribute("data-row-id");
-  return id2 != null ? id2 : null;
-};
-var dropDrag = (targetRowId, dragData, state, onLoomStateChange) => {
-  if (dragData === null)
-    throw Error("No drag data found");
-  if (dragData.type !== "row")
-    return;
-  if (!confirmSortOrderChange(state))
-    return;
-  onLoomStateChange((prevState) => {
-    const { rows, columns } = prevState.model;
-    const draggedElIndex = rows.findIndex((row) => row.id === dragData.id);
-    const targetElIndex = rows.findIndex((row) => row.id === targetRowId);
-    const newRows = (0, import_lodash6.cloneDeep)(rows);
-    const draggedEl = newRows[draggedElIndex];
-    newRows.splice(draggedElIndex, 1);
-    newRows.splice(targetElIndex, 0, draggedEl);
-    newRows.forEach((row, index) => {
-      row.index = index;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        bodyRows: newRows,
-        columns: columns.map((column) => {
-          return __spreadProps(__spreadValues({}, column), {
-            sortDir: "default" /* NONE */
-          });
-        })
-      })
-    });
-  });
-};
-
-// src/react/loom-app/table/body-row.tsx
-var import_jsx_runtime4 = __toESM(require_jsx_runtime());
-function BodyRow(_a2) {
-  var _b = _a2, { style, children } = _b, props = __objRest(_b, ["style", "children"]);
-  const { loomState, setLoomState } = useLoomState();
-  const { dragData, setDragData } = useDragContext();
-  function handleDragStart(e) {
-    const el = e.target;
-    const rowId = getRowId(el);
-    if (!rowId)
-      return;
-    setDragData({
-      type: "row",
-      id: rowId
-    });
-  }
-  function handleDragEnd(e) {
-    const el = e.target;
-    el.draggable = false;
-    setDragData(null);
-  }
-  function handleDrop(e) {
-    e.preventDefault();
-    const target = e.currentTarget;
-    const targetId = getRowId(target);
-    if (!targetId)
-      return;
-    dropDrag(targetId, dragData, loomState, setLoomState);
-  }
-  function handleDragOver(e) {
-    e.preventDefault();
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
-    "div",
-    __spreadProps(__spreadValues({
-      className: "dataloom-row",
-      onDrop: handleDrop,
-      onDragStart: handleDragStart,
-      onDragEnd: handleDragEnd,
-      onDragOver: handleDragOver
-    }, props), {
-      style,
-      children
-    })
-  );
-}
-
-// src/react/loom-app/table/hooks.tsx
+// src/react/shared/menu/hooks.ts
 var import_react8 = __toESM(require_react());
-var useStickyOffset = (ref, numFrozenColumns, columnIndex) => {
-  const [columnWidths, setColumnWidths] = import_react8.default.useState([]);
+var import_lodash6 = __toESM(require_lodash());
+
+// src/shared/dom-utils.ts
+var findAncestorsUntilClassName = (currentEl, className) => {
+  const ancestors = [];
+  let el = currentEl;
+  while (el && !el.classList.contains(className)) {
+    ancestors.push(el);
+    el = el.parentElement;
+  }
+  return ancestors;
+};
+
+// src/react/shared/menu/hooks.ts
+var useMenuPosition = (isOpen, isParentObsidianModal, onPositionUpdate) => {
+  const className = isParentObsidianModal ? "modal" : "view-content";
+  const ref = useBasePosition(className, isOpen, onPositionUpdate);
+  return ref;
+};
+var useBasePosition = (className, isOpen, onPositionUpdate) => {
+  const ref = import_react8.default.useRef(null);
   import_react8.default.useEffect(() => {
     if (!ref.current)
       return;
-    if (columnIndex + 1 > numFrozenColumns)
-      return;
-    const tableEl = ref.current.closest(".dataloom-table");
-    if (!tableEl)
-      return;
-    const columns = tableEl.querySelectorAll(".dataloom-cell--header");
-    if (!columns)
-      return;
-    const observers = [];
-    columns.forEach((column, i2) => {
-      if (i2 < columnIndex) {
-        const observer = new ResizeObserver(() => {
-          const rect = column.getBoundingClientRect();
-          setColumnWidths((prevState) => {
-            const newState = [...prevState];
-            newState[i2] = rect.width;
-            return newState;
-          });
-        });
-        observer.observe(column);
-        observers.push(observer);
-      }
-    });
+    const positionEl = ref.current;
+    const THROTTLE_TIME_MILLIS = 50;
+    const throttleUpdatePosition = import_lodash6.default.throttle(
+      updatePosition,
+      THROTTLE_TIME_MILLIS
+    );
+    function updatePosition() {
+      const position = getPositionFromEl(positionEl);
+      onPositionUpdate(position);
+    }
+    const ancestors = findAncestorsUntilClassName(positionEl, className);
+    if (isOpen) {
+      ancestors.forEach((ancestor) => {
+        ancestor.addEventListener("scroll", throttleUpdatePosition);
+        ancestor.addEventListener("resize", throttleUpdatePosition);
+      });
+      window.addEventListener("resize", throttleUpdatePosition);
+      updatePosition();
+    }
     return () => {
-      observers.forEach((observer) => observer.disconnect());
+      ancestors.forEach((ancestor) => {
+        ancestor.removeEventListener("scroll", throttleUpdatePosition);
+        ancestor.removeEventListener("resize", throttleUpdatePosition);
+      });
+      window.removeEventListener("resize", throttleUpdatePosition);
     };
-  }, [numFrozenColumns, columnIndex, ref]);
-  const offset = columnWidths.reduce((a2, b2) => a2 + b2, 0);
-  return offset;
+  }, [className, isOpen, onPositionUpdate]);
+  return ref;
 };
 
-// src/react/loom-app/table/header-cell.tsx
-var import_react9 = __toESM(require_react());
-var import_lodash7 = __toESM(require_lodash());
-var import_jsx_runtime5 = __toESM(require_jsx_runtime());
-function HeaderCell({
-  index,
-  columnId,
-  isDraggable,
-  numFrozenColumns,
-  content
-}) {
-  const { setLoomState } = useLoomState();
-  const { dragData, touchDropZone, setDragData, setTouchDropZone } = useDragContext();
-  const ref = import_react9.default.useRef(null);
-  const leftOffset = useStickyOffset(ref, numFrozenColumns, index);
-  const shouldFreeze = index + 1 <= numFrozenColumns;
-  function startDrag(el) {
-    const columnId2 = getColumnId(el);
-    if (!columnId2)
-      return;
-    setDragData({
-      type: "column",
-      id: columnId2
+// src/react/shared/menu-provider/hooks.ts
+var useMenu = (parentComponentId, options) => {
+  const { name, isParentObsidianModal = false } = options || {};
+  const { onOpen, getMenu, onClose, onCloseRequestClear, onPositionUpdate } = useMenuContext();
+  const { id: id2, isOpen, position, isTriggerFocused, closeRequest } = getMenu(
+    parentComponentId,
+    name
+  );
+  const handlePositionUpdate = import_react9.default.useCallback(
+    (newPosition) => {
+      onPositionUpdate(id2, newPosition);
+    },
+    [id2, onPositionUpdate]
+  );
+  const triggerRef = useMenuPosition(
+    isOpen,
+    isParentObsidianModal,
+    handlePositionUpdate
+  );
+  import_react9.default.useEffect(
+    function focusMenuTrigger() {
+      var _a2;
+      if (!triggerRef.current)
+        return;
+      if (!isTriggerFocused)
+        return;
+      (_a2 = triggerRef.current) == null ? void 0 : _a2.focus();
+    },
+    [isTriggerFocused, triggerRef]
+  );
+  function handleOpen(level, options2) {
+    const { shouldRequestOnClose } = options2 || {};
+    onOpen(parentComponentId, level, triggerRef, {
+      name,
+      shouldRequestOnClose
     });
   }
-  function dropDrag2(targetRowId) {
-    if (dragData == null)
-      throw new Error("No drag data found");
-    if (dragData.type !== "column")
+  const handleClose = import_react9.default.useCallback(() => {
+    if (!isOpen)
       return;
-    setLoomState((prevState) => {
-      const { columns } = prevState.model;
-      const draggedElIndex = columns.findIndex(
-        (column) => column.id === dragData.id
-      );
-      const targetElIndex = columns.findIndex(
-        (column) => column.id === targetRowId
-      );
-      const newColumns = (0, import_lodash7.cloneDeep)(columns);
-      const draggedEl = newColumns[draggedElIndex];
-      newColumns.splice(draggedElIndex, 1);
-      newColumns.splice(targetElIndex, 0, draggedEl);
-      const nextRows = prevState.model.rows.map((row) => {
-        const { cells } = row;
-        const nextCells = cells.sort((a2, b2) => {
-          const aIndex = newColumns.findIndex(
-            (column) => column.id === a2.columnId
-          );
-          const bIndex = newColumns.findIndex(
-            (column) => column.id === b2.columnId
-          );
-          return aIndex - bIndex;
-        });
-        return __spreadProps(__spreadValues({}, row), {
-          cells: nextCells
-        });
-      });
-      return __spreadProps(__spreadValues({}, prevState), {
-        model: __spreadProps(__spreadValues({}, prevState.model), {
-          columns: newColumns,
-          rows: nextRows
-        })
-      });
-    });
-  }
-  function addDragHover(thEl) {
-    const child = thEl.firstChild;
-    if (!child)
-      return;
-    if (child.classList.contains("dataloom-focusable"))
-      thEl.classList.add("dataloom-th--drag-over");
-  }
-  function removeDragHover() {
-    const el = document.querySelector(".dataloom-th--drag-over");
-    if (el)
-      el.classList.remove("dataloom-th--drag-over");
-  }
-  function getColumnId(columnEl) {
-    const id2 = columnEl.getAttribute("data-column-id");
-    if (!id2)
-      return null;
-    return id2;
-  }
-  function handleDragStart(e) {
-    const el = e.target;
-    startDrag(el);
-  }
-  function handleDrop(e) {
-    e.preventDefault();
-    const target = e.currentTarget;
-    const targetId = getColumnId(target);
-    if (!targetId)
-      return;
-    dropDrag2(targetId);
-  }
-  function handleDragEnd() {
-    setDragData(null);
-  }
-  function handleDragOver(e) {
-    e.preventDefault();
-  }
-  function handleTouchStart(e) {
-    e.stopPropagation();
-    const el = e.currentTarget;
-    startDrag(el);
-  }
-  const handleTouchMove = (e) => {
-    e.stopPropagation();
-    if (dragData == null)
-      return;
-    const { clientX, clientY } = e.touches[0];
-    const elementUnderneath = document.elementFromPoint(clientX, clientY);
-    if (!elementUnderneath)
-      return;
-    const thEl = elementUnderneath.closest(
-      ".dataloom-cell--header"
-    );
-    if (!thEl)
-      return;
-    const targetId = getColumnId(thEl);
-    if (!targetId)
-      return;
-    if (targetId === dragData.id)
-      return;
-    const { top, left, bottom, right } = thEl.getBoundingClientRect();
-    setTouchDropZone({
-      id: targetId,
-      top,
-      left,
-      bottom,
-      right
-    });
-    removeDragHover();
-    if (thEl.lastChild)
-      addDragHover(thEl);
+    onClose(id2);
+  }, [id2, isOpen, onClose]);
+  const handleCloseRequestClear = import_react9.default.useCallback(() => {
+    onCloseRequestClear(id2);
+  }, [id2, onCloseRequestClear]);
+  return {
+    id: id2,
+    isOpen,
+    closeRequest,
+    position,
+    triggerRef,
+    isTriggerFocused,
+    onOpen: handleOpen,
+    onClose: handleClose,
+    onCloseRequestClear: handleCloseRequestClear
   };
-  function handleTouchEnd(e) {
-    if (touchDropZone) {
-      const touchX = e.changedTouches[0].clientX;
-      const touchY = e.changedTouches[0].clientY;
-      const isInsideDropZone = touchX >= touchDropZone.left && touchX <= touchDropZone.right && touchY >= touchDropZone.top && touchY <= touchDropZone.bottom;
-      if (isInsideDropZone) {
-        dropDrag2(touchDropZone.id);
+};
+var useMenuOperations = () => {
+  const { topMenu, canOpen, onCloseAll, onRequestClose, onClose } = useMenuContext();
+  return {
+    topMenu,
+    canOpen,
+    onCloseAll,
+    onClose,
+    onRequestClose
+  };
+};
+
+// src/react/shared/base-menu/index.tsx
+var import_jsx_runtime5 = __toESM(require_jsx_runtime());
+var BaseMenu = import_react10.default.forwardRef(
+  ({
+    id: id2,
+    isOpen,
+    hideBorder = false,
+    position,
+    width = 0,
+    height = 0,
+    maxHeight = 0,
+    maxWidth = 0,
+    children
+  }, ref) => {
+    const logger = useLogger();
+    const { topMenu, onRequestClose, onClose } = useMenuOperations();
+    function handleClick(e) {
+      logger("Menu handleClick");
+      e.stopPropagation();
+      if (!topMenu)
+        return;
+      if (topMenu.id === id2)
+        return;
+      onRequestClose(topMenu.id, "close-on-save");
+    }
+    function handleKeyDown(e) {
+      logger("Menu handleKeyDown");
+      if (topMenu === null)
+        return;
+      if (e.key === "Enter") {
+        e.stopPropagation();
+        onRequestClose(topMenu.id, "close-on-save");
+      } else if (e.key === "Escape") {
+        e.stopPropagation();
+        onClose(topMenu.id);
       }
     }
-    setDragData(null);
-    setTouchDropZone(null);
-    removeDragHover();
+    if (!isOpen)
+      return /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_jsx_runtime5.Fragment, {});
+    return import_react_dom3.default.createPortal(
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(
+        "div",
+        {
+          id: id2,
+          className: "dataloom-menu",
+          ref,
+          style: {
+            top: numToPx(position.top),
+            left: numToPx(position.left),
+            width: width !== 0 ? numToPx(width) : "max-content",
+            height: height !== 0 ? numToPx(height) : "max-content",
+            maxWidth: maxWidth !== 0 ? numToPx(maxWidth) : void 0,
+            maxHeight: maxHeight !== 0 ? numToPx(maxHeight) : void 0,
+            overflowY: maxHeight !== 0 ? "scroll" : void 0,
+            boxShadow: hideBorder ? void 0 : "0px 0px 0px 2px var(--background-modifier-border)"
+          },
+          onClick: handleClick,
+          onKeyDown: handleKeyDown,
+          children
+        }
+      ),
+      document.body
+    );
   }
-  function handleTouchCancel() {
-    setDragData(null);
-    setTouchDropZone(null);
-    removeDragHover();
-  }
-  let className = "dataloom-cell dataloom-cell--header";
-  if (shouldFreeze)
-    className += " dataloom-cell--freeze dataloom-cell--freeze-header";
-  return /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(
-    "div",
-    __spreadProps(__spreadValues({
-      className,
-      ref,
-      "data-column-id": columnId,
-      style: {
-        left: shouldFreeze ? numToPx(leftOffset) : void 0
-      }
-    }, isDraggable && {
-      draggable: true,
-      onDrop: handleDrop,
-      onDragStart: handleDragStart,
-      onDragOver: handleDragOver,
-      onDragEnd: handleDragEnd,
-      onTouchStart: handleTouchStart,
-      onTouchMove: handleTouchMove,
-      onTouchEnd: handleTouchEnd,
-      onTouchCancel: handleTouchCancel
-    }), {
-      children: content
-    })
-  );
-}
+);
+var base_menu_default = BaseMenu;
 
-// src/react/loom-app/table/body-cell.tsx
-var import_react10 = __toESM(require_react());
-var import_jsx_runtime6 = __toESM(require_jsx_runtime());
-function BodyCell({
-  rowId,
-  index,
-  numFrozenColumns,
-  content
-}) {
-  const ref = import_react10.default.useRef(null);
-  const leftOffset = useStickyOffset(ref, numFrozenColumns, index);
-  const shouldFreeze = index + 1 <= numFrozenColumns;
-  let className = "dataloom-cell dataloom-cell--body";
-  if (shouldFreeze)
-    className += " dataloom-cell--freeze";
-  return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(
-    "div",
-    {
-      className,
-      ref,
-      "data-row-id": index === 0 ? rowId : void 0,
-      style: { left: shouldFreeze ? numToPx(leftOffset) : void 0 },
-      children: content
-    }
-  );
-}
-
-// src/react/loom-app/table/footer-cell.tsx
-var import_react11 = __toESM(require_react());
-var import_jsx_runtime7 = __toESM(require_jsx_runtime());
-function FooterCell({
-  index,
-  content,
-  numFrozenColumns
-}) {
-  const ref = import_react11.default.useRef(null);
-  const leftOffset = useStickyOffset(ref, numFrozenColumns, index);
-  const shouldFreeze = index + 1 <= numFrozenColumns;
-  let className = "dataloom-cell dataloom-cell--footer";
-  if (shouldFreeze)
-    className += " dataloom-cell--freeze dataloom-cell--freeze-footer";
-  return /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
-    "div",
-    {
-      ref,
-      className,
-      style: {
-        left: shouldFreeze ? numToPx(leftOffset) : void 0
-      },
-      children: content
-    }
-  );
-}
-
-// src/shared/hooks.ts
+// src/react/shared/base-menu/utils.ts
 var import_react12 = __toESM(require_react());
-var useForceUpdate = () => {
-  const [time, setTime] = import_react12.default.useState(0);
-  return [time, import_react12.default.useCallback(() => setTime(Date.now()), [])];
-};
-var useCompare = (value, runOnMount = true) => {
-  const prevValue = usePrevious(value);
-  if (prevValue === void 0)
-    return runOnMount;
-  return prevValue !== value;
-};
-var usePrevious = (value) => {
-  const ref = import_react12.default.useRef();
-  import_react12.default.useEffect(() => {
-    ref.current = value;
-  });
-  return ref.current;
-};
-var usePlaceCursorAtEnd = (inputRef, value) => {
-  import_react12.default.useEffect(() => {
-    function setSelection() {
-      if (inputRef.current) {
-        inputRef.current.selectionStart = value.length;
-        inputRef.current.selectionEnd = value.length;
-      }
-    }
-    setSelection();
-  }, [inputRef]);
-};
-var useUUID = () => {
-  const [uuid] = import_react12.default.useState(generateUuid());
-  return uuid;
-};
 
-// src/react/loom-app/table/index.tsx
-var import_jsx_runtime8 = __toESM(require_jsx_runtime());
-var Table2 = import_react13.default.forwardRef(function Table3({ headerRow, bodyRows, footer, numFrozenColumns }, ref) {
-  const previousRowLength = usePrevious(bodyRows.length);
-  import_react13.default.useEffect(() => {
-    var _a2;
-    if (previousRowLength === void 0)
-      return;
-    if (previousRowLength < bodyRows.length)
-      (_a2 = ref.current) == null ? void 0 : _a2.scrollToIndex(bodyRows.length - 1);
-  }, [ref, previousRowLength, bodyRows.length]);
-  return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
-    TableVirtuoso,
-    {
-      ref,
-      overscan: 10,
-      style: {
-        width: "100%",
-        height: "100%"
-      },
-      totalCount: bodyRows.length,
-      components: Components,
-      fixedHeaderContent: () => {
-        const { cells } = headerRow;
-        return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "dataloom-row", children: cells.map((cell, i2) => {
-          const { id: id2, content } = cell;
-          return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
-            HeaderCell,
-            {
-              index: i2,
-              numFrozenColumns,
-              columnId: id2,
-              content,
-              isDraggable: i2 < cells.length - 1
-            },
-            id2
-          );
-        }) });
-      },
-      fixedFooterContent: () => {
-        if (!footer)
-          return null;
-        return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "dataloom-row", children: footer.cells.map((cell, i2) => {
-          const { id: id2, content } = cell;
-          return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
-            FooterCell,
-            {
-              index: i2,
-              numFrozenColumns,
-              content
-            },
-            id2
-          );
-        }) });
-      },
-      itemContent: (index) => {
-        const row = bodyRows[index];
-        const { id: rowId, cells } = row;
-        return cells.map((cell, i2) => {
-          const { id: id2, content } = cell;
-          return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
-            BodyCell,
-            {
-              rowId,
-              content,
-              index: i2,
-              numFrozenColumns
-            },
-            id2
-          );
-        });
-      }
+// src/shared/render-utils.ts
+var import_react11 = __toESM(require_react());
+
+// src/shared/render/utils.ts
+var replaceNewLinesWithBr = (content) => {
+  const lines = content.split("\n");
+  let updated = "";
+  lines.forEach((line) => {
+    if (line === "") {
+      updated += "<br>";
+    } else {
+      updated += line + "\n";
     }
-  );
-});
-var Components = {
-  Table: (_a2) => {
-    var props = __objRest(_a2, []);
-    return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", __spreadValues({ className: "dataloom-table" }, props));
-  },
-  TableHead: import_react13.default.forwardRef((_b, ref) => {
-    var props = __objRest(_b, []);
-    return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
-      "div",
-      __spreadProps(__spreadValues({
-        className: "dataloom-header"
-      }, props), {
-        style: {
-          position: void 0,
-          top: void 0,
-          zIndex: void 0
-        },
-        ref
-      })
-    );
-  }),
-  TableRow: (_c) => {
-    var _d = _c, { style } = _d, props = __objRest(_d, ["style"]);
-    return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(BodyRow, __spreadProps(__spreadValues({}, props), { style }));
-  },
-  TableBody: import_react13.default.forwardRef((_e, ref) => {
-    var _f = _e, { style } = _f, props = __objRest(_f, ["style"]);
-    return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", __spreadProps(__spreadValues({ className: "dataloom-body" }, props), { style, ref }));
-  }),
-  TableFoot: import_react13.default.forwardRef((_g, ref) => {
-    var props = __objRest(_g, []);
-    return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
-      "div",
-      __spreadProps(__spreadValues({
-        className: "dataloom-footer"
-      }, props), {
-        style: {
-          position: void 0,
-          bottom: void 0,
-          zIndex: void 0
-        },
-        ref
-      })
-    );
-  }),
-  FillerRow: ({ height }) => {
-    return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "dataloom-row", style: { height } });
+  });
+  return updated;
+};
+var appendOrReplaceFirstChild = (container, child) => {
+  if (container === null)
+    return;
+  if (child === null)
+    return;
+  if (container && !container.firstChild) {
+    container.appendChild(child);
+  } else if (container.firstChild && container.firstChild !== child) {
+    container.replaceChild(child, container.firstChild);
   }
 };
-var table_default = Table2;
+var getDynamicSize = (defaultValue, value) => {
+  if (value === void 0)
+    return defaultValue;
+  if (typeof value === "string")
+    return value;
+  const { base, mobile } = value;
+  if (isSmallScreenSize()) {
+    return mobile != null ? mobile : base;
+  } else {
+    return base;
+  }
+};
+var isSmallScreenSize = () => {
+  return window.innerWidth <= 480;
+};
+var hasDarkTheme = () => {
+  var _a2;
+  const el = document.querySelector("body");
+  return (_a2 = el == null ? void 0 : el.className.includes("theme-dark")) != null ? _a2 : false;
+};
+
+// src/shared/render-utils.ts
+var import_obsidian10 = require("obsidian");
+
+// src/obsidian/dataloom-view.tsx
+var import_obsidian8 = require("obsidian");
+var import_client = __toESM(require_client());
+
+// src/obsidian/utils.ts
+var createAppId = () => {
+  return "a" + generateUuid();
+};
 
 // src/shared/spacing/index.ts
 var getSpacing = (size) => {
@@ -47638,7 +47672,7 @@ var getSpacing = (size) => {
 };
 
 // src/react/shared/stack/index.tsx
-var import_jsx_runtime9 = __toESM(require_jsx_runtime());
+var import_jsx_runtime6 = __toESM(require_jsx_runtime());
 function Stack({
   className: customClassName,
   spacing = "md",
@@ -47670,7 +47704,7 @@ function Stack({
   let className = "dataloom-stack";
   if (customClassName)
     className += " " + customClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(
     "div",
     {
       className,
@@ -47691,274 +47725,32 @@ function Stack({
   );
 }
 
-// src/react/shared/button/index.tsx
-var import_jsx_runtime10 = __toESM(require_jsx_runtime());
-function Button({
-  isDisabled = false,
-  variant = "text",
-  isFullWidth,
-  isFocusable = true,
-  isSmall,
-  invertFocusColor,
-  children,
-  ariaLabel = "",
-  icon,
-  onClick,
-  onMouseDown
+// src/react/shared/divider/index.tsx
+var import_jsx_runtime7 = __toESM(require_jsx_runtime());
+function Divider({
+  isVertical = false,
+  width = "100%",
+  height = "100%"
 }) {
-  const logger = useLogger();
-  function handleClick() {
-    onClick == null ? void 0 : onClick();
-  }
-  function handleKeyDown(e) {
-    logger("Button handleKeyDown");
-    if (e.key === "Enter") {
-      e.preventDefault();
-      e.stopPropagation();
-      onClick == null ? void 0 : onClick();
-    }
-  }
-  let className = "dataloom-button";
-  if (isFocusable) {
-    className += " dataloom-focusable";
-    if (invertFocusColor)
-      className += " dataloom-focusable--inverted";
-  }
-  if (variant == "link")
-    className += " dataloom-button--link";
-  else if (variant == "text")
-    className += " dataloom-button--text";
-  if (isSmall)
-    className += " dataloom-button--small";
-  if (isFullWidth)
-    className += " dataloom-button--full-width";
-  return /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
-    "button",
+  return /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
+    "hr",
     {
-      disabled: isDisabled,
-      tabIndex: isFocusable ? 0 : -1,
-      className,
-      "aria-label": ariaLabel,
-      onKeyDown: handleKeyDown,
-      onMouseDown,
-      onClick: handleClick,
-      children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(Stack, { isHorizontal: true, children: [
-        icon && icon,
-        children
-      ] })
-    }
-  );
-}
-
-// src/react/shared/icon/index.tsx
-var import_obsidian7 = require("obsidian");
-var import_react14 = __toESM(require_react());
-
-// src/shared/render/utils.ts
-var replaceNewLinesWithBr = (content) => {
-  const lines = content.split("\n");
-  let updated = "";
-  lines.forEach((line) => {
-    if (line === "") {
-      updated += "<br>";
-    } else {
-      updated += line + "\n";
-    }
-  });
-  return updated;
-};
-var appendOrReplaceFirstChild = (container, child) => {
-  if (container == null || child === null)
-    return;
-  if (container && !container.firstChild) {
-    container.appendChild(child);
-  } else if (container.firstChild && container.firstChild !== child) {
-    container.replaceChild(child, container.firstChild);
-  }
-};
-var getDynamicSize = (defaultValue, value) => {
-  if (value === void 0)
-    return defaultValue;
-  if (typeof value === "string")
-    return value;
-  const { base, mobile } = value;
-  if (isSmallScreenSize()) {
-    return mobile != null ? mobile : base;
-  } else {
-    return base;
-  }
-};
-var isSmallScreenSize = () => {
-  return window.innerWidth <= 480;
-};
-var hasDarkTheme = () => {
-  var _a2;
-  const el = document.querySelector("body");
-  return (_a2 = el == null ? void 0 : el.className.includes("theme-dark")) != null ? _a2 : false;
-};
-
-// src/react/shared/icon/index.tsx
-var import_jsx_runtime11 = __toESM(require_jsx_runtime());
-function Icon({
-  ariaLabel,
-  lucideId,
-  size = "sm",
-  color
-}) {
-  const ref = import_react14.default.useRef(null);
-  let className = "";
-  if (size === "sm") {
-    className += "dataloom-svg--sm";
-  } else if (size === "md") {
-    className += "dataloom-svg--md";
-  } else if (size === "lg") {
-    className += "dataloom-svg--lg";
-  } else if (size === "xl") {
-    className += "dataloom-svg--xl";
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
-    "div",
-    {
-      "aria-label": ariaLabel,
-      ref: (node) => {
-        ref.current = node;
-        const div = document.createElement("div");
-        if (color) {
-          div.style.color = color;
-        }
-        (0, import_obsidian7.setIcon)(div, lucideId);
-        const svg = div.querySelector("svg");
-        if (svg) {
-          svg.addClass("dataloom-svg");
-          svg.addClass(className);
-        }
-        appendOrReplaceFirstChild(node, div);
+      className: "dataloom-hr",
+      style: {
+        width: !isVertical ? width : void 0,
+        height: isVertical === true ? height : void 0,
+        borderTop: isVertical === false ? "1px solid var(--hr-color)" : void 0,
+        borderLeft: isVertical === true ? "1px var(--hr-color) solid" : void 0
       }
     }
   );
 }
 
-// src/react/shared/input/index.tsx
-var import_react15 = __toESM(require_react());
-var import_jsx_runtime12 = __toESM(require_jsx_runtime());
-var Input = import_react15.default.forwardRef(
-  ({
-    id: id2,
-    isTransparent,
-    showBorder,
-    hasError,
-    value,
-    autoFocus = true,
-    isDisabled = false,
-    focusOutline = "accent",
-    placeholder,
-    inputMode,
-    onChange,
-    onKeyDown,
-    onBlur
-  }, ref) => {
-    let className = "dataloom-input dataloom-focusable";
-    if (isTransparent) {
-      className += " dataloom-input--transparent";
-    } else if (showBorder) {
-      className += " dataloom-input--border";
-    }
-    if (inputMode === "numeric")
-      className += " dataloom-input--numeric";
-    if (focusOutline === "default") {
-      className += " dataloom-input__focus-outline--default";
-    } else if (focusOutline === "none") {
-      className += " dataloom-input__focus-outline--none";
-    }
-    if (hasError)
-      className += " dataloom-input--error";
-    return /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
-      "input",
-      {
-        id: id2,
-        ref,
-        className,
-        placeholder,
-        disabled: isDisabled,
-        type: "text",
-        inputMode,
-        autoFocus,
-        value,
-        onChange: (e) => onChange(e.target.value),
-        onKeyDown,
-        onBlur
-      }
-    );
-  }
-);
-var input_default = Input;
-
-// src/react/loom-app/option-bar/search-bar/index.tsx
-var import_jsx_runtime13 = __toESM(require_jsx_runtime());
-function SearchBar() {
-  const { searchText, setSearchText, isSearchBarVisible, toggleSearchBar } = useLoomState();
-  return /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "dataloom-search-bar", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(Stack, { spacing: "lg", isHorizontal: true, children: [
-    isSearchBarVisible && /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
-      input_default,
-      {
-        placeholder: "Type to search...",
-        value: searchText,
-        onChange: (value) => setSearchText(value)
-      }
-    ),
-    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
-      Button,
-      {
-        icon: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(Icon, { lucideId: "search" }),
-        ariaLabel: "Search",
-        onClick: () => toggleSearchBar()
-      }
-    )
-  ] }) });
-}
-
-// src/react/shared/bubble/index.tsx
-var import_jsx_runtime14 = __toESM(require_jsx_runtime());
-function Bubble({
-  variant = "default",
-  canRemove,
-  icon,
-  value,
-  onRemoveClick
-}) {
-  let className = "dataloom-bubble";
-  if (variant === "no-fill") {
-    className += " dataloom-bubble--no-fill";
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(Stack, { spacing: "lg", isHorizontal: true, children: [
-    /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(Stack, { spacing: "sm", isHorizontal: true, children: [
-      icon,
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { children: value })
-    ] }),
-    canRemove && /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
-      Button,
-      {
-        isSmall: true,
-        invertFocusColor: true,
-        icon: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(Icon, { lucideId: "x", color: "var(--text-on-accent)" }),
-        ariaLabel: "Remove sort",
-        onClick: onRemoveClick
-      }
-    )
-  ] }) });
-}
-
-// src/react/loom-app/option-bar/active-filter-bubble/index.tsx
-var import_jsx_runtime15 = __toESM(require_jsx_runtime());
-function ActiveFilterBubble({ numActive }) {
-  if (numActive === 0)
-    return /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_jsx_runtime15.Fragment, {});
-  const value = `${numActive} active filter${numActive > 1 ? "s" : ""}`;
-  return /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "dataloom-active-filter-bubble", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Bubble, { value }) });
-}
+// src/react/shared/error-display/index.tsx
+var import_obsidian6 = require("obsidian");
 
 // src/react/shared/padding/index.tsx
-var import_jsx_runtime16 = __toESM(require_jsx_runtime());
+var import_jsx_runtime8 = __toESM(require_jsx_runtime());
 function Padding({
   width = "100%",
   px,
@@ -48008,7 +47800,7 @@ function Padding({
       renderPb = spacing;
     }
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
     "div",
     {
       className: "dataloom-padding",
@@ -48024,684 +47816,8 @@ function Padding({
   );
 }
 
-// src/react/shared/menu-button/index.tsx
-var import_react19 = __toESM(require_react());
-
-// src/react/shared/menu-trigger/index.tsx
-var import_react18 = __toESM(require_react());
-
-// src/shared/keyboard-event.ts
-var import_obsidian8 = require("obsidian");
-var isWindowsUndoDown = (e) => e.ctrlKey && e.key === "z";
-var isWindowsRedoDown = (e) => e.ctrlKey && e.key === "y";
-var isMacUndoDown = (e) => e.metaKey && e.key === "z";
-var isMacRedoDown = (e) => e.metaKey && e.shiftKey && e.key === "z";
-var isInsertLineDown = (e) => {
-  return e.shiftKey && e.key === "Enter";
-};
-var isInsertLineAltDown = (e) => {
-  if (import_obsidian8.Platform.isMacOS) {
-    return e.metaKey && e.key === "Enter";
-  } else if (import_obsidian8.Platform.isWin || import_obsidian8.Platform.isLinux) {
-    return e.altKey && e.key === "Enter";
-  }
-};
-
-// src/react/shared/menu/hooks.ts
-var import_react17 = __toESM(require_react());
-var import_lodash8 = __toESM(require_lodash());
-
-// src/react/shared/menu/factory.ts
-var createMenu = (level, shouldRequestOnClose, shouldFocusTriggerOnClose) => {
-  return {
-    id: "m" + generateUuid(),
-    level,
-    shouldRequestOnClose,
-    shouldFocusTriggerOnClose
-  };
-};
-var createCloseRequest = (menuId, type) => {
-  return {
-    menuId,
-    type
-  };
-};
-
-// src/react/shared/menu-provider/index.tsx
-var import_react16 = __toESM(require_react());
-var import_jsx_runtime17 = __toESM(require_jsx_runtime());
-var MenuContext = import_react16.default.createContext(null);
-var useMenuContext = () => {
-  const value = import_react16.default.useContext(MenuContext);
-  if (value === null) {
-    throw new Error(
-      "useMenuContext() called without a <MenuProvider /> in the tree."
-    );
-  }
-  return value;
-};
-function MenuProvider({ children }) {
-  const [openMenus, setOpenMenus] = import_react16.default.useState([]);
-  const [closeRequests, setCloseRequests] = import_react16.default.useState([]);
-  return /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(
-    MenuContext.Provider,
-    {
-      value: { openMenus, closeRequests, setOpenMenus, setCloseRequests },
-      children
-    }
-  );
-}
-
-// src/react/loom-app/app/hooks/use-focus/utils.ts
-var addFocusClass = (el) => {
-  if (!el)
-    return;
-  el.classList.add("dataloom-focus-visible");
-};
-var removeCurrentFocusClass = () => {
-  const el = document.querySelector(".dataloom-focus-visible");
-  if (!el)
-    return;
-  el.classList.remove("dataloom-focus-visible");
-};
-var getTopMenuEl = (topMenu, appId) => {
-  if (topMenu)
-    return document.getElementById(topMenu.id);
-  return document.getElementById(appId);
-};
-var focusNextElement = (layerEl, focusableEls) => {
-  const focusedEl = document.activeElement;
-  if (focusedEl) {
-    const currentIndex = Array.from(focusableEls).indexOf(focusedEl);
-    if (currentIndex !== -1) {
-      let index = currentIndex + 1;
-      if (index > focusableEls.length - 1)
-        index = 0;
-      focusableEls[index].focus();
-      return;
-    }
-  }
-  const selectedEl = layerEl.querySelector(".dataloom-selected");
-  if (selectedEl) {
-    selectedEl.focus();
-  } else {
-    focusableEls[0].focus();
-  }
-};
-var getFocusableElements = (el) => {
-  return el.querySelectorAll(".dataloom-focusable");
-};
-var getNumOptionBarFocusableEls = (appEl) => {
-  const el = appEl.querySelector(
-    ".dataloom-option-bar"
-  );
-  if (!el)
-    throw Error("No option bar found");
-  return getFocusableElements(el).length;
-};
-var getNumBottomBarFocusableEl = (appEl) => {
-  const el = appEl.querySelector(
-    ".dataloom-bottom-bar"
-  );
-  if (!el)
-    throw Error("No bottom bar found");
-  return getFocusableElements(el).length;
-};
-var isArrowKeyPressed = (e, isMenuOpen) => {
-  if (isMenuOpen) {
-    return e.key === "ArrowDown" || e.key === "ArrowUp";
-  }
-  return e.key === "ArrowDown" || e.key === "ArrowUp" || e.key === "ArrowLeft" || e.key === "ArrowRight";
-};
-
-// src/react/shared/menu/hooks.ts
-var useModalMenu = (options) => {
-  const { ref, position } = useModalPosition();
-  return useAbstractMenu(ref, position, options);
-};
-var useMenu = (options) => {
-  const { ref, position } = usePosition();
-  return useAbstractMenu(ref, position, options);
-};
-var useAbstractMenu = (ref, position, options) => {
-  var _a2;
-  const {
-    level = 1 /* ONE */,
-    shouldRequestOnClose = false,
-    shouldFocusTriggerOnClose = true
-  } = options != null ? options : {};
-  const { openMenus, closeRequests, setOpenMenus, setCloseRequests } = useMenuContext();
-  const [menu] = import_react17.default.useState(
-    createMenu(level, shouldRequestOnClose, shouldFocusTriggerOnClose)
-  );
-  const isOpen = openMenus.find((m2) => m2.id === menu.id) !== void 0;
-  const closeRequest = (_a2 = closeRequests.find((r2) => r2.menuId === menu.id)) != null ? _a2 : null;
-  const logger = useLogger();
-  const onOpen = import_react17.default.useCallback(() => {
-    logger("Menu onOpen");
-    removeCurrentFocusClass();
-    setOpenMenus((prevMenus) => {
-      const found = prevMenus.find((m2) => m2.id === menu.id);
-      if (found)
-        return prevMenus;
-      return [...prevMenus, menu];
-    });
-  }, [menu, setOpenMenus, logger]);
-  const onClose = import_react17.default.useCallback(
-    (shouldFocusTriggerOnClose2 = true) => {
-      logger("Menu onClose");
-      setOpenMenus(
-        (prevMenus) => prevMenus.filter((m2) => m2.id !== menu.id)
-      );
-      setCloseRequests(
-        (prevRequests) => prevRequests.filter((request) => request.menuId !== menu.id)
-      );
-      if (shouldFocusTriggerOnClose2 && menu.shouldFocusTriggerOnClose && ref.current) {
-        ref.current.focus();
-        addFocusClass(ref.current);
-      }
-    },
-    [ref, menu, setOpenMenus, setCloseRequests, logger]
-  );
-  const onRequestClose = import_react17.default.useCallback(
-    (type = "save-and-close") => {
-      logger("Menu onRequestClose", { type });
-      if (shouldRequestOnClose) {
-        const request = createCloseRequest(menu.id, type);
-        setCloseRequests((prevRequests) => [...prevRequests, request]);
-      } else {
-        onClose();
-      }
-    },
-    [menu, setCloseRequests, logger, shouldRequestOnClose, onClose]
-  );
-  import_react17.default.useEffect(
-    function closeMenuAfterUnmounting() {
-      return () => {
-        if (isOpen) {
-          logger("Menu closeMenuAfterUnmounting");
-          onClose();
-        }
-      };
-    },
-    [isOpen, logger, onClose]
-  );
-  return {
-    menu,
-    triggerRef: ref,
-    triggerPosition: position,
-    isOpen,
-    closeRequest,
-    onOpen,
-    onRequestClose,
-    onClose
-  };
-};
-var useMenuOperations = () => {
-  var _a2;
-  const { openMenus, setOpenMenus, setCloseRequests } = useMenuContext();
-  const topMenu = (_a2 = openMenus[openMenus.length - 1]) != null ? _a2 : null;
-  const canOpen = import_react17.default.useCallback(
-    (menu) => {
-      if (topMenu === null)
-        return true;
-      if (menu.level > topMenu.level)
-        return true;
-      return false;
-    },
-    [topMenu]
-  );
-  const onCloseAll = import_react17.default.useCallback(() => {
-    setOpenMenus(
-      (prevState) => prevState.filter((menu) => menu.shouldRequestOnClose)
-    );
-    setCloseRequests(() => {
-      return openMenus.map(
-        (menu) => createCloseRequest(menu.id, "save-and-close")
-      );
-    });
-  }, [openMenus, setOpenMenus, setCloseRequests]);
-  const onRequestCloseTop = import_react17.default.useCallback(() => {
-    if (!topMenu)
-      return;
-    if (topMenu.shouldRequestOnClose) {
-      const request = createCloseRequest(topMenu.id, "save-and-close");
-      setCloseRequests((prevRequests) => [...prevRequests, request]);
-    } else {
-      setOpenMenus(
-        (prevMenus) => prevMenus.filter((menu) => menu.id !== topMenu.id)
-      );
-    }
-  }, [topMenu, setOpenMenus, setCloseRequests]);
-  return {
-    canOpen,
-    topMenu,
-    onCloseAll,
-    onRequestCloseTop
-  };
-};
-var useModalPosition = () => {
-  const [position, setPosition] = import_react17.default.useState({
-    top: 0,
-    left: 0,
-    width: 0,
-    height: 0
-  });
-  const ref = import_react17.default.useRef(null);
-  import_react17.default.useEffect(() => {
-    if (!ref.current)
-      return;
-    const el = ref.current;
-    function updatePosition() {
-      const { top, left, width, height } = el.getBoundingClientRect();
-      setPosition({
-        top,
-        left,
-        width,
-        height
-      });
-    }
-    const ancestors = findAncestorsUntilModal(el);
-    const THROTTLE_TIME_MILLIS = 10;
-    const throttleUpdatePosition = import_lodash8.default.throttle(
-      updatePosition,
-      THROTTLE_TIME_MILLIS
-    );
-    ancestors.forEach((ancestor) => {
-      ancestor.addEventListener("scroll", throttleUpdatePosition);
-    });
-    window.addEventListener("resize", throttleUpdatePosition);
-    updatePosition();
-    return () => {
-      ancestors.forEach((ancestor) => {
-        ancestor.removeEventListener("scroll", throttleUpdatePosition);
-      });
-      window.removeEventListener("resize", throttleUpdatePosition);
-    };
-  }, []);
-  return {
-    ref,
-    position
-  };
-};
-var findAncestorsUntilModal = (currentEl) => {
-  const ancestors = [];
-  let el = currentEl;
-  while (el && !el.classList.contains("modal")) {
-    ancestors.push(el);
-    el = el.parentElement;
-  }
-  return ancestors;
-};
-var usePosition = () => {
-  const { mountLeaf, isMarkdownView } = useAppMount();
-  const [position, setPosition] = import_react17.default.useState({
-    top: 0,
-    left: 0,
-    width: 0,
-    height: 0
-  });
-  const ref = import_react17.default.useRef(null);
-  import_react17.default.useEffect(() => {
-    var _a2;
-    if (!ref.current)
-      return;
-    const el = ref.current;
-    const THROTTLE_TIME_MILLIS = 10;
-    const throttleUpdatePosition = import_lodash8.default.throttle(
-      updatePosition,
-      THROTTLE_TIME_MILLIS
-    );
-    function updatePosition() {
-      const { top, left, width, height } = el.getBoundingClientRect();
-      setPosition({
-        top,
-        left,
-        width,
-        height
-      });
-    }
-    const observer = new ResizeObserver(() => throttleUpdatePosition());
-    observer.observe(mountLeaf.view.containerEl);
-    let pageScrollerEl = null;
-    let focusContainerEl = null;
-    if (isMarkdownView) {
-      pageScrollerEl = (_a2 = el.closest(".markdown-preview-view")) != null ? _a2 : el.closest(".cm-scroller");
-      pageScrollerEl == null ? void 0 : pageScrollerEl.addEventListener("scroll", throttleUpdatePosition);
-      focusContainerEl = el.closest(".cm-contentContainer");
-      focusContainerEl == null ? void 0 : focusContainerEl.addEventListener(
-        "focusin",
-        throttleUpdatePosition
-      );
-    }
-    const table = el.closest(".dataloom-table");
-    if (table)
-      observer.observe(table);
-    const tableContainer = el.closest('[data-virtuoso-scroller="true"]');
-    tableContainer == null ? void 0 : tableContainer.addEventListener("scroll", throttleUpdatePosition);
-    return () => {
-      observer.disconnect();
-      tableContainer == null ? void 0 : tableContainer.removeEventListener("scroll", updatePosition);
-      pageScrollerEl == null ? void 0 : pageScrollerEl.removeEventListener(
-        "scroll",
-        throttleUpdatePosition
-      );
-      focusContainerEl == null ? void 0 : focusContainerEl.removeEventListener(
-        "focusin",
-        throttleUpdatePosition
-      );
-    };
-  }, [mountLeaf.view.containerEl, isMarkdownView]);
-  return {
-    ref,
-    position
-  };
-};
-
-// src/react/shared/menu-trigger/index.tsx
-var import_jsx_runtime18 = __toESM(require_jsx_runtime());
-var MenuTrigger = import_react18.default.forwardRef(
-  ({
-    menu,
-    isButton = false,
-    isCell = false,
-    shouldOpenOnTrigger = true,
-    children,
-    onEnterDown,
-    onBackspaceDown,
-    onClick,
-    onMouseDown,
-    onOpen
-  }, ref) => {
-    const logger = useLogger();
-    const { onRequestCloseTop, canOpen } = useMenuOperations();
-    function handleKeyDown(e) {
-      logger("MenuTrigger handleKeyDown");
-      if (e.key === "Enter") {
-        e.stopPropagation();
-        onEnterDown == null ? void 0 : onEnterDown();
-        e.preventDefault();
-        if (shouldOpenOnTrigger) {
-          if (canOpen(menu)) {
-            const tag = e.target.tagName;
-            if (tag === "A")
-              return;
-            onOpen();
-            return;
-          }
-        }
-        onRequestCloseTop();
-      } else if (e.key === "Backspace") {
-        onBackspaceDown == null ? void 0 : onBackspaceDown();
-      }
-      if (e.key.length === 1) {
-        if (isWindowsRedoDown(e) || isWindowsUndoDown(e) || isMacRedoDown(e) || isMacUndoDown(e))
-          return;
-        if (!isCell)
-          return;
-        onOpen();
-      }
-    }
-    function handleClick(e) {
-      logger("MenuTrigger handleClick");
-      e.stopPropagation();
-      onClick == null ? void 0 : onClick(e);
-      if (shouldOpenOnTrigger) {
-        if (canOpen(menu)) {
-          const tag = e.target.tagName;
-          if (tag === "A")
-            return;
-          onOpen();
-          return;
-        }
-      }
-      onRequestCloseTop();
-    }
-    return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
-      "div",
-      {
-        tabIndex: 0,
-        className: "dataloom-menu-trigger dataloom-focusable",
-        ref,
-        style: {
-          width: isCell ? "100%" : void 0,
-          height: isCell ? "100%" : void 0,
-          borderRadius: isButton ? "var(--button-radius)" : void 0
-        },
-        onClick: handleClick,
-        onKeyDown: handleKeyDown,
-        onMouseDown,
-        children
-      }
-    );
-  }
-);
-var menu_trigger_default = MenuTrigger;
-
-// src/react/shared/menu-button/index.tsx
-var import_jsx_runtime19 = __toESM(require_jsx_runtime());
-var MenuButton = import_react19.default.forwardRef(
-  ({
-    isDisabled,
-    menu,
-    variant,
-    ariaLabel,
-    icon,
-    children,
-    onClick,
-    onMouseDown,
-    onOpen
-  }, ref) => {
-    return /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(
-      menu_trigger_default,
-      {
-        shouldOpenOnTrigger: true,
-        isButton: true,
-        ref,
-        menu,
-        onClick,
-        onMouseDown,
-        onOpen,
-        children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(
-          Button,
-          {
-            isDisabled,
-            isFocusable: false,
-            variant,
-            icon,
-            ariaLabel,
-            children
-          }
-        )
-      }
-    );
-  }
-);
-var menu_button_default = MenuButton;
-
-// src/react/loom-app/option-bar/more-menu/index.tsx
-var import_react31 = __toESM(require_react());
-
-// src/react/shared/menu/index.tsx
-var import_react23 = __toESM(require_react());
-
-// src/react/shared/menu/base-menu.tsx
-var import_react20 = __toESM(require_react());
-var import_react_dom3 = __toESM(require_react_dom());
-var import_jsx_runtime20 = __toESM(require_jsx_runtime());
-var BaseMenu = import_react20.default.forwardRef(
-  ({
-    id: id2,
-    isOpen,
-    hideBorder = false,
-    triggerPosition,
-    width = 0,
-    height = 0,
-    maxHeight = 0,
-    maxWidth = 0,
-    children,
-    onRequestClose,
-    onClose
-  }, ref) => {
-    const logger = useLogger();
-    const { topMenu, onRequestCloseTop } = useMenuOperations();
-    function handleClick(e) {
-      logger("Menu handleClick");
-      e.stopPropagation();
-      if (topMenu.id === id2)
-        return;
-      onRequestCloseTop();
-    }
-    function handleKeyDown(e) {
-      logger("Menu handleKeyDown");
-      if (e.key === "Enter") {
-        e.stopPropagation();
-        onRequestClose("close-on-save");
-      } else if (e.key === "Escape") {
-        e.stopPropagation();
-        onClose();
-      }
-    }
-    if (!isOpen)
-      return /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(import_jsx_runtime20.Fragment, {});
-    return /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(import_jsx_runtime20.Fragment, { children: import_react_dom3.default.createPortal(
-      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(
-        "div",
-        {
-          id: id2,
-          className: "dataloom-menu",
-          onKeyDown: handleKeyDown,
-          onClick: handleClick,
-          children: /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(
-            "div",
-            {
-              ref,
-              className: "dataloom-menu__container",
-              style: {
-                top: numToPx(triggerPosition.top),
-                left: numToPx(triggerPosition.left),
-                width: width !== 0 ? numToPx(width) : "max-content",
-                height: height !== 0 ? numToPx(height) : "max-content",
-                maxWidth: maxWidth !== 0 ? numToPx(maxWidth) : void 0,
-                maxHeight: maxHeight !== 0 ? numToPx(maxHeight) : void 0,
-                overflowY: maxHeight !== 0 ? "scroll" : void 0,
-                boxShadow: hideBorder ? void 0 : "0px 0px 0px 2px var(--background-modifier-border)"
-              },
-              children
-            }
-          )
-        }
-      ),
-      document.body
-    ) });
-  }
-);
-var base_menu_default = BaseMenu;
-
-// src/react/shared/menu/utils.ts
-var import_react22 = __toESM(require_react());
-
-// src/shared/render-utils.ts
-var import_react21 = __toESM(require_react());
-var import_obsidian13 = require("obsidian");
-
-// src/obsidian/dataloom-view.tsx
-var import_obsidian11 = require("obsidian");
-var import_client = __toESM(require_client());
-
-// src/obsidian/utils.ts
-var createAppId = () => {
-  return "a" + generateUuid();
-};
-
-// src/shared/spacing/hooks.ts
-var useOverflow = (shouldWrap, options) => {
-  const { ellipsis = false } = options != null ? options : {};
-  if (shouldWrap)
-    return "dataloom-overflow--wrap";
-  if (ellipsis)
-    return "dataloom-overflow--ellipsis";
-  return "dataloom-overflow--hide";
-};
-
-// src/react/shared/text/index.tsx
-var import_jsx_runtime21 = __toESM(require_jsx_runtime());
-function Text({
-  value,
-  variant,
-  size = "sm",
-  maxWidth,
-  whiteSpace,
-  shouldWrap = false
-}) {
-  const overflowClassName = useOverflow(
-    shouldWrap || maxWidth !== void 0,
-    {
-      ellipsis: true
-    }
-  );
-  let className = "dataloom-text";
-  if (variant === "faint")
-    className += " dataloom-text--faint";
-  else if (variant === "muted")
-    className += " dataloom-text--muted";
-  else if (variant === "semibold")
-    className += " dataloom-text--semibold";
-  else if (variant === "on-accent")
-    className += " dataloom-text--on-accent";
-  else if (variant === "error")
-    className += " dataloom-text--error";
-  className += " " + overflowClassName;
-  let fontSize = "";
-  if (size === "xs") {
-    fontSize = "var(--dataloom-font-size--xs)";
-  } else if (size === "sm") {
-    fontSize = "var(--dataloom-font-size--sm)";
-  } else if (size === "md") {
-    fontSize = "var(--dataloom-font-size--md)";
-  } else if (size === "lg") {
-    fontSize = "var(--dataloom-font-size--lg)";
-  } else if (size === "xl") {
-    fontSize = "var(--dataloom-font-size--xl)";
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
-    "p",
-    {
-      className,
-      style: {
-        fontSize,
-        whiteSpace,
-        maxWidth
-      },
-      children: value
-    }
-  );
-}
-
-// src/react/shared/divider/index.tsx
-var import_jsx_runtime22 = __toESM(require_jsx_runtime());
-function Divider({
-  isVertical = false,
-  width = "100%",
-  height = "100%"
-}) {
-  return /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(
-    "hr",
-    {
-      className: "dataloom-hr",
-      style: {
-        width: !isVertical ? width : void 0,
-        height: isVertical === true ? height : void 0,
-        borderTop: isVertical === false ? "1px solid var(--hr-color)" : void 0,
-        borderLeft: isVertical === true ? "1px var(--hr-color) solid" : void 0
-      }
-    }
-  );
-}
-
 // src/react/shared/error-display/index.tsx
-var import_obsidian9 = require("obsidian");
-var import_jsx_runtime23 = __toESM(require_jsx_runtime());
+var import_jsx_runtime9 = __toESM(require_jsx_runtime());
 function ErrorDisplay({
   title,
   copyErrorMessage,
@@ -48713,19 +47829,19 @@ function ErrorDisplay({
 }) {
   function handleCopyClick() {
     navigator.clipboard.writeText(copyErrorMessage);
-    new import_obsidian9.Notice("Copied error to clipboard");
+    new import_obsidian6.Notice("Copied error to clipboard");
   }
   let className = "dataloom-error";
   if (isEmbeddedApp)
     className += " dataloom-error--embedded-app";
-  return /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(Padding, { p: "2xl", children: /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)(Stack, { spacing: "xl", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)(Stack, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(Text, { variant: "semibold", size: "xl", value: "Opps" }),
-      /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(Text, { variant: "semibold", size: "md", value: title })
+  return /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(Padding, { p: "2xl", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)(Stack, { spacing: "xl", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)(Stack, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(Text, { variant: "semibold", size: "xl", value: "Opps" }),
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(Text, { variant: "semibold", size: "md", value: title })
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(Divider, {}),
-    /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)(Stack, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(Divider, {}),
+    /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)(Stack, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
         Text,
         {
           variant: "semibold",
@@ -48733,15 +47849,15 @@ function ErrorDisplay({
           value: "Error message"
         }
       ),
-      /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("div", { className: "dataloom-error__message", children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(Text, { value: errorMessage, whiteSpace: "pre-wrap" }) })
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "dataloom-error__message", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(Text, { value: errorMessage, whiteSpace: "pre-wrap" }) })
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(Divider, {}),
+    /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(Divider, {}),
     infoSection,
-    /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)(Stack, { spacing: "sm", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(Text, { value: helpMessage }),
-      /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", { href: helpURL, children: helpURL })
+    /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)(Stack, { spacing: "sm", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(Text, { value: helpMessage }),
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", { href: helpURL, children: helpURL })
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(Stack, { isHorizontal: true, children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(Stack, { isHorizontal: true, children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
       "button",
       {
         className: "dataloom-copy-button",
@@ -48753,14 +47869,14 @@ function ErrorDisplay({
 }
 
 // src/react/error-app/index.tsx
-var import_jsx_runtime24 = __toESM(require_jsx_runtime());
+var import_jsx_runtime10 = __toESM(require_jsx_runtime());
 function ErrorApp({ error, isEmbeddedApp = false }) {
   const { fileVersion, pluginVersion, failedMigration, message } = error;
   const copyErrorMessage = `Plugin version: ${pluginVersion}
 File version: ${fileVersion}
 Failed migration: ${failedMigration}
 Error message: ${message}`;
-  return /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
     ErrorDisplay,
     {
       title: "DataLoom cannot render file",
@@ -48769,31 +47885,31 @@ Error message: ${message}`;
       isEmbeddedApp,
       helpMessage: "For help fixing this error please visit:",
       helpURL: "https://dataloom.xyz/other/loom-file",
-      infoSection: /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)(import_jsx_runtime24.Fragment, { children: [
-        /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)(Stack, { isHorizontal: true, spacing: "xl", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)(Stack, { children: [
-            /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(Text, { variant: "semibold", value: "Plugin version" }),
-            /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(Text, { value: pluginVersion })
+      infoSection: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(import_jsx_runtime10.Fragment, { children: [
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(Stack, { isHorizontal: true, spacing: "xl", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(Stack, { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Text, { variant: "semibold", value: "Plugin version" }),
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Text, { value: pluginVersion })
           ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(Divider, { isVertical: true, height: "60px" }),
-          /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)(Stack, { children: [
-            /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(Text, { variant: "semibold", value: "File version" }),
-            /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(Text, { value: fileVersion })
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Divider, { isVertical: true, height: "60px" }),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(Stack, { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Text, { variant: "semibold", value: "File version" }),
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Text, { value: fileVersion })
           ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(Divider, { isVertical: true, height: "60px" }),
-          /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)(Stack, { children: [
-            /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(Text, { variant: "semibold", value: "Failed migration" }),
-            /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(Text, { value: failedMigration != null ? failedMigration : "None" })
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Divider, { isVertical: true, height: "60px" }),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(Stack, { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Text, { variant: "semibold", value: "Failed migration" }),
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Text, { value: failedMigration != null ? failedMigration : "None" })
           ] })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(Divider, {})
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Divider, {})
       ] })
     }
   );
 }
 
 // src/data/serialize-frontmatter.ts
-var import_obsidian10 = require("obsidian");
+var import_obsidian7 = require("obsidian");
 var serializeFrontmatter = (app, state) => __async(void 0, null, function* () {
   const { rows, columns, sources } = state.model;
   if (sources.length === 0)
@@ -48815,7 +47931,7 @@ var serializeFrontmatter = (app, state) => __async(void 0, null, function* () {
     const file = app.vault.getAbstractFileByPath(sourceFileCell.content);
     if (!file)
       throw new Error("Source file not found");
-    if (!(file instanceof import_obsidian10.TFile))
+    if (!(file instanceof import_obsidian7.TFile))
       throw new Error("Expected TFile");
     for (const column of columns) {
       const { type, frontmatterKey, tags } = column;
@@ -48860,9 +47976,9 @@ var serializeFrontmatter = (app, state) => __async(void 0, null, function* () {
 });
 
 // src/obsidian/dataloom-view.tsx
-var import_jsx_runtime25 = __toESM(require_jsx_runtime());
+var import_jsx_runtime11 = __toESM(require_jsx_runtime());
 var DATA_LOOM_VIEW = "dataloom";
-var DataLoomView = class extends import_obsidian11.TextFileView {
+var DataLoomView = class extends import_obsidian8.TextFileView {
   constructor(leaf, pluginId, pluginVersion) {
     super(leaf);
     this.handleSaveLoomState = (appId, state) => __async(this, null, function* () {
@@ -48940,7 +48056,7 @@ var DataLoomView = class extends import_obsidian11.TextFileView {
       return;
     if (this.root) {
       this.root.render(
-        /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
           LoomApp,
           {
             app: this.app,
@@ -48958,7 +48074,7 @@ var DataLoomView = class extends import_obsidian11.TextFileView {
   }
   renderErrorApp(error) {
     if (this.root) {
-      this.root.render(/* @__PURE__ */ (0, import_jsx_runtime25.jsx)(ErrorApp, { error }));
+      this.root.render(/* @__PURE__ */ (0, import_jsx_runtime11.jsx)(ErrorApp, { error }));
     }
   }
 };
@@ -48980,7 +48096,7 @@ var handleLinkClick = (app, event) => {
 };
 
 // src/shared/render-embed.ts
-var import_obsidian12 = require("obsidian");
+var import_obsidian9 = require("obsidian");
 var renderText = (app, leaf, value) => __async(void 0, null, function* () {
   var _a2, _b;
   const div = document.createElement("div");
@@ -48988,8 +48104,8 @@ var renderText = (app, leaf, value) => __async(void 0, null, function* () {
   div.style.height = "100%";
   try {
     const view = leaf.view;
-    if (view instanceof import_obsidian12.MarkdownView || view instanceof DataLoomView) {
-      yield import_obsidian12.MarkdownRenderer.render(
+    if (view instanceof import_obsidian9.MarkdownView || view instanceof DataLoomView) {
+      yield import_obsidian9.MarkdownRenderer.render(
         app,
         value,
         div,
@@ -49017,11 +48133,11 @@ var renderMarkdown = (app, leaf, markdown) => __async(void 0, null, function* ()
   try {
     const formattedMarkdown = replaceNewLinesWithBr(markdown);
     const view2 = leaf == null ? void 0 : leaf.view;
-    if (view2 instanceof import_obsidian13.MarkdownView || view2 instanceof DataLoomView) {
+    if (view2 instanceof import_obsidian10.MarkdownView || view2 instanceof DataLoomView) {
       const file = view2.file;
       if (file === null)
         return div;
-      yield import_obsidian13.MarkdownRenderer.render(
+      yield import_obsidian10.MarkdownRenderer.render(
         app,
         formattedMarkdown,
         div,
@@ -49062,10 +48178,10 @@ var renderMarkdown = (app, leaf, markdown) => __async(void 0, null, function* ()
 var useRenderMarkdown = (markdown, options) => {
   const { app } = useAppMount();
   const { isEmbed = false, isExternalLink = false } = options != null ? options : {};
-  const containerRef = import_react21.default.useRef(null);
-  const renderRef = import_react21.default.useRef(null);
+  const containerRef = import_react11.default.useRef(null);
+  const renderRef = import_react11.default.useRef(null);
   const { mountLeaf } = useAppMount();
-  import_react21.default.useEffect(() => {
+  import_react11.default.useEffect(() => {
     function updateContainerRef() {
       return __async(this, null, function* () {
         let el = null;
@@ -49089,27 +48205,27 @@ var useRenderMarkdown = (markdown, options) => {
   };
 };
 var isOnMobile = () => {
-  return import_obsidian13.Platform.isMobile;
+  return import_obsidian10.Platform.isMobile;
 };
 var getResourcePath = (app, filePath) => {
   return app.vault.adapter.getResourcePath(filePath);
 };
 
-// src/react/shared/menu/utils.ts
-var useShiftMenu = (isModalMenu, viewportEl, menuRef, triggerPosition, isOpen, options) => {
+// src/react/shared/base-menu/utils.ts
+var useShiftMenu = (isModalMenu, viewportEl, menuRef, position, isOpen, options) => {
   const {
     openDirection = "normal",
     topOffset = 0,
     leftOffset = 0
   } = options || {};
-  import_react22.default.useEffect(() => {
+  import_react12.default.useEffect(() => {
     if (!menuRef.current)
       return;
     if (!isOpen)
       return;
     const menuPosition = getMenuPosition(
       menuRef.current,
-      triggerPosition,
+      position,
       topOffset,
       leftOffset,
       openDirection
@@ -49123,22 +48239,22 @@ var useShiftMenu = (isModalMenu, viewportEl, menuRef, triggerPosition, isOpen, o
     menuRef.current.style.left = numToPx(newPosition.left);
   });
 };
-var getMenuPosition = (menuEl, triggerPosition, topOffset, leftOffset, openDirection) => {
+var getMenuPosition = (menuEl, position, topOffset, leftOffset, openDirection) => {
   const rect = menuEl.getBoundingClientRect();
-  let top = triggerPosition.top + topOffset;
-  let left = triggerPosition.left + leftOffset;
+  let top = position.top + topOffset;
+  let left = position.left + leftOffset;
   if (openDirection === "left") {
     left = left - rect.width;
   } else if (openDirection === "right") {
-    left = left + triggerPosition.width;
+    left = left + position.width;
   } else if (openDirection === "bottom-left") {
-    top = top + triggerPosition.height;
+    top = top + position.height;
     left = left - rect.width;
   } else if (openDirection === "bottom-right") {
-    top = top + triggerPosition.height;
-    left = left + triggerPosition.width;
+    top = top + position.height;
+    left = left + position.width;
   } else if (openDirection === "bottom") {
-    top = top + triggerPosition.height;
+    top = top + position.height;
     left = left + rect.width;
   }
   return {
@@ -49197,59 +48313,93 @@ var shiftElementIntoContainer = (container, element) => {
 };
 
 // src/react/shared/menu/index.tsx
-var import_jsx_runtime26 = __toESM(require_jsx_runtime());
+var import_jsx_runtime12 = __toESM(require_jsx_runtime());
 function Menu({
   id: id2,
   isOpen,
   hideBorder = false,
   openDirection,
-  triggerPosition,
+  position,
   width = 0,
   height = 0,
+  leftOffset = 0,
+  topOffset = 0,
   maxHeight = 0,
   maxWidth = 0,
-  children,
-  onRequestClose,
-  onClose
+  children
 }) {
-  const ref = import_react23.default.useRef(null);
+  const ref = import_react13.default.useRef(null);
   const { mountLeaf } = useAppMount();
-  useShiftMenu(
-    false,
-    mountLeaf.view.containerEl,
-    ref,
-    triggerPosition,
-    isOpen,
-    {
-      openDirection
-    }
-  );
-  if (!isOpen)
-    return /* @__PURE__ */ (0, import_jsx_runtime26.jsx)(import_jsx_runtime26.Fragment, {});
-  return /* @__PURE__ */ (0, import_jsx_runtime26.jsx)(
+  useShiftMenu(false, mountLeaf.view.containerEl, ref, position, isOpen, {
+    openDirection,
+    leftOffset,
+    topOffset
+  });
+  return /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
     base_menu_default,
     {
       ref,
       id: id2,
       isOpen,
       hideBorder,
-      triggerPosition,
+      position,
       width,
       height,
       maxHeight,
       maxWidth,
-      onRequestClose,
-      onClose,
       children
     }
   );
 }
 
 // src/react/shared/menu-item/index.tsx
-var import_react24 = __toESM(require_react());
+var import_react15 = __toESM(require_react());
+
+// src/react/shared/icon/index.tsx
+var import_obsidian11 = require("obsidian");
+var import_react14 = __toESM(require_react());
+var import_jsx_runtime13 = __toESM(require_jsx_runtime());
+function Icon({
+  ariaLabel,
+  lucideId,
+  size = "sm",
+  color
+}) {
+  const ref = import_react14.default.useRef(null);
+  let className = "";
+  if (size === "sm") {
+    className += "dataloom-svg--sm";
+  } else if (size === "md") {
+    className += "dataloom-svg--md";
+  } else if (size === "lg") {
+    className += "dataloom-svg--lg";
+  } else if (size === "xl") {
+    className += "dataloom-svg--xl";
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+    "div",
+    {
+      "aria-label": ariaLabel,
+      ref: (node) => {
+        ref.current = node;
+        const div = document.createElement("div");
+        if (color) {
+          div.style.color = color;
+        }
+        (0, import_obsidian11.setIcon)(div, lucideId);
+        const svg = div.querySelector("svg");
+        if (svg) {
+          svg.addClass("dataloom-svg");
+          svg.addClass(className);
+        }
+        appendOrReplaceFirstChild(node, div);
+      }
+    }
+  );
+}
 
 // src/react/shared/flex/index.tsx
-var import_jsx_runtime27 = __toESM(require_jsx_runtime());
+var import_jsx_runtime14 = __toESM(require_jsx_runtime());
 function Flex({
   flexDir = "row",
   justify = "flex-start",
@@ -49259,7 +48409,7 @@ function Flex({
   height,
   children
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime27.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
     "div",
     {
       className: "dataloom-flex",
@@ -49277,7 +48427,7 @@ function Flex({
 }
 
 // src/react/shared/menu-item/index.tsx
-var import_jsx_runtime28 = __toESM(require_jsx_runtime());
+var import_jsx_runtime15 = __toESM(require_jsx_runtime());
 function MenuItem({
   isFocusable = true,
   lucideId,
@@ -49287,8 +48437,8 @@ function MenuItem({
   onClick,
   isSelected = false
 }) {
-  const ref = import_react24.default.useRef(null);
-  import_react24.default.useEffect(() => {
+  const ref = import_react15.default.useRef(null);
+  import_react15.default.useEffect(() => {
     if (!ref.current)
       return;
     if (isSelected) {
@@ -49312,7 +48462,7 @@ function MenuItem({
     className += " dataloom-selected";
   if (isFocusable)
     className += " dataloom-focusable";
-  return /* @__PURE__ */ (0, import_jsx_runtime28.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(
     "div",
     {
       ref,
@@ -49321,201 +48471,445 @@ function MenuItem({
       "aria-label": ariaLabel,
       onClick: handleClick,
       onKeyDown: handleKeyDown,
-      children: /* @__PURE__ */ (0, import_jsx_runtime28.jsxs)(Flex, { justify: "space-between", align: "center", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime28.jsxs)(Stack, { isHorizontal: true, children: [
-          lucideId !== void 0 && /* @__PURE__ */ (0, import_jsx_runtime28.jsx)(Padding, { width: "unset", pb: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime28.jsx)(Icon, { lucideId }) }),
-          /* @__PURE__ */ (0, import_jsx_runtime28.jsx)(Text, { value: name })
+      children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)(Flex, { justify: "space-between", align: "center", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)(Stack, { isHorizontal: true, children: [
+          lucideId !== void 0 && /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Padding, { width: "unset", pb: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Icon, { lucideId }) }),
+          /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Text, { value: name })
         ] }),
-        value !== void 0 && /* @__PURE__ */ (0, import_jsx_runtime28.jsx)(Text, { variant: "faint", value })
+        value !== void 0 && /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(Text, { variant: "faint", value })
       ] })
     }
   );
 }
 
-// src/obsidian/modal/export-modal.tsx
-var import_obsidian16 = require("obsidian");
-var import_client2 = __toESM(require_client());
+// src/shared/loom-state/type-display-names.ts
+var getShortDisplayNameForCalculation = (value) => {
+  switch (value) {
+    case "count-all" /* COUNT_ALL */:
+      return "Count";
+    case "count-not-empty" /* COUNT_NOT_EMPTY */:
+      return "Not empty";
+    case "count-values" /* COUNT_VALUES */:
+      return "Values";
+    case "count-empty" /* COUNT_EMPTY */:
+      return "Empty";
+    case "count-unique" /* COUNT_UNIQUE */:
+      return "Unique";
+    case "none" /* NONE */:
+      return "None";
+    case "percent-empty" /* PERCENT_EMPTY */:
+      return "Empty";
+    case "percent-not-empty" /* PERCENT_NOT_EMPTY */:
+      return "Not empty";
+    default:
+      return "";
+  }
+};
+var getShortDisplayNameForCalculationType = (value) => {
+  if (isNumberCalcuation(value))
+    return getDisplayNameForNumberCalculation(value);
+  return getShortDisplayNameForCalculation(value);
+};
+var getAriaLabelForCalculation = (value) => {
+  switch (value) {
+    case "count-all" /* COUNT_ALL */:
+      return "Counts the total number of rows";
+    case "count-empty" /* COUNT_EMPTY */:
+      return "Counts the number of rows with an empty cell value";
+    case "count-not-empty" /* COUNT_NOT_EMPTY */:
+      return "Counts the number of rows with a non-empty cell value";
+    case "count-unique" /* COUNT_UNIQUE */:
+      return "Counts the number of unique values in the column";
+    case "count-values" /* COUNT_VALUES */:
+      return "Counts the number of values in the column";
+    case "percent-empty" /* PERCENT_EMPTY */:
+      return "Displays the percentage of rows with an empty cell value";
+    case "percent-not-empty" /* PERCENT_NOT_EMPTY */:
+      return "Displays the percentage of rows with a non-empty cell value";
+    default:
+      return "";
+  }
+};
+var getAriaLabelForNumberCalculation = (value) => {
+  switch (value) {
+    case "sum" /* SUM */:
+      return "Computes the sum of the cells in the column";
+    case "avg" /* AVG */:
+      return "Computes the average of the cells in the column";
+    case "min" /* MIN */:
+      return "Computes the minimum of the cells in the column";
+    case "max" /* MAX */:
+      return "Computes the maximum of the cells in the column";
+    case "median" /* MEDIAN */:
+      return "Computes the median of the cells in the column";
+    case "range" /* RANGE */:
+      return "Computes the range (max - min) of the cells in the column";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForCalculation = (value) => {
+  switch (value) {
+    case "count-all" /* COUNT_ALL */:
+      return "Count all";
+    case "count-not-empty" /* COUNT_NOT_EMPTY */:
+      return "Count not empty";
+    case "count-values" /* COUNT_VALUES */:
+      return "Count values";
+    case "count-empty" /* COUNT_EMPTY */:
+      return "Count empty";
+    case "count-unique" /* COUNT_UNIQUE */:
+      return "Count unique";
+    case "none" /* NONE */:
+      return "None";
+    case "percent-empty" /* PERCENT_EMPTY */:
+      return "Percent empty";
+    case "percent-not-empty" /* PERCENT_NOT_EMPTY */:
+      return "Percent not empty";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForNumberCalculation = (value) => {
+  switch (value) {
+    case "sum" /* SUM */:
+      return "Sum";
+    case "avg" /* AVG */:
+      return "Average";
+    case "min" /* MIN */:
+      return "Min";
+    case "max" /* MAX */:
+      return "Max";
+    case "median" /* MEDIAN */:
+      return "Median";
+    case "range" /* RANGE */:
+      return "Range";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForSource = (type) => {
+  switch (type) {
+    case "folder" /* FOLDER */:
+      return "Folder";
+    case "tag" /* TAG */:
+      return "Tag";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForDateFormat = (format) => {
+  switch (format) {
+    case "dd/mm/yyyy" /* DD_MM_YYYY */:
+      return "Day/Month/Year";
+    case "mm/dd/yyyy" /* MM_DD_YYYY */:
+      return "Month/Day/Year";
+    case "yyyy/mm/dd" /* YYYY_MM_DD */:
+      return "Year/Month/Day";
+    case "full" /* FULL */:
+      return "Full";
+    case "relative" /* RELATIVE */:
+      return "Relative";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForCurrencyType = (type) => {
+  switch (type) {
+    case "USD" /* UNITED_STATES */:
+      return "United States Dollar";
+    case "CAD" /* CANADA */:
+      return "Canadian Dollar";
+    case "AUD" /* AUSTRALIA */:
+      return "Australian Dollar";
+    case "SGB" /* SINGAPORE */:
+      return "Singapore Dollar";
+    case "KRW" /* SOUTH_KOREA */:
+      return "Won";
+    case "CNY" /* CHINA */:
+      return "Yuan";
+    case "JPY" /* JAPAN */:
+      return "Yen";
+    case "AED" /* UAE */:
+      return "Dirham";
+    case "SAR" /* SAUDI_ARABIA */:
+      return "Riyal";
+    case "COP" /* COLOMBIA */:
+      return "Colombian Peso";
+    case "EUR" /* EUROPE */:
+      return "Euro";
+    case "SEK" /* SWEDEN */:
+      return "Swedish Krona";
+    case "DKK" /* DENMARK */:
+      return "Danish Krone";
+    case "NOK" /* NORWAY */:
+      return "Norwegian Krone";
+    case "ISK" /* ICELAND */:
+      return "Icelandic Kr\xF3na";
+    case "BRL" /* BRAZIL */:
+      return "Real";
+    case "GBP" /* GREAT_BRITAIN */:
+      return "Pound";
+    case "INR" /* INDIA */:
+      return "Rupee";
+    case "ARS" /* ARGENTINA */:
+      return "Argentine Peso";
+    case "MXN" /* MEXICO */:
+      return "Mexican Peso";
+    case "RUB" /* RUSSIA */:
+      return "Ruble";
+    case "ILS" /* ISRAEL */:
+      return "Israeli Shekel";
+    case "CHF" /* SWITZERLAND */:
+      return "Swiss Franc";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForCellType = (type) => {
+  switch (type) {
+    case "text" /* TEXT */:
+      return "Text";
+    case "embed" /* EMBED */:
+      return "Embed";
+    case "file" /* FILE */:
+      return "File";
+    case "number" /* NUMBER */:
+      return "Number";
+    case "checkbox" /* CHECKBOX */:
+      return "Checkbox";
+    case "date" /* DATE */:
+      return "Date";
+    case "last-edited-time" /* LAST_EDITED_TIME */:
+      return "Last edited";
+    case "creation-time" /* CREATION_TIME */:
+      return "Creation";
+    case "tag" /* TAG */:
+      return "Tag";
+    case "multi-tag" /* MULTI_TAG */:
+      return "Multi-tag";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForFilterCondition = (type) => {
+  switch (type) {
+    case "is" /* IS */:
+    case "is" /* IS */:
+      return "Is";
+    case "is-not" /* IS_NOT */:
+      return "Is not";
+    case "contains" /* CONTAINS */:
+      return "Contains";
+    case "does-not-contain" /* DOES_NOT_CONTAIN */:
+      return "Does not contain";
+    case "starts-with" /* STARTS_WITH */:
+      return "Starts with";
+    case "ends-with" /* ENDS_WITH */:
+      return "Ends with";
+    case "is-equal" /* IS_EQUAL */:
+      return "=";
+    case "is-not-equal" /* IS_NOT_EQUAL */:
+      return "!=";
+    case "is-greater" /* IS_GREATER */:
+      return ">";
+    case "is-greater-or-equal" /* IS_GREATER_OR_EQUAL */:
+      return ">=";
+    case "is-less" /* IS_LESS */:
+      return "<";
+    case "is-less-or-equal" /* IS_LESS_OR_EQUAL */:
+      return "<=";
+    case "is-after" /* IS_AFTER */:
+      return "Is after";
+    case "is-before" /* IS_BEFORE */:
+      return "Is before";
+    case "is-empty" /* IS_EMPTY */:
+    case "is-empty" /* IS_EMPTY */:
+    case "is-empty" /* IS_EMPTY */:
+      return "Is empty";
+    case "is-not-empty" /* IS_NOT_EMPTY */:
+    case "is-not-empty" /* IS_NOT_EMPTY */:
+    case "is-not-empty" /* IS_NOT_EMPTY */:
+      return "Is not empty";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForDateFilterOption = (value) => {
+  switch (value) {
+    case "unselected" /* UNSELECTED */:
+      return "Select an option";
+    case "today" /* TODAY */:
+      return "Today";
+    case "tomorrow" /* TOMORROW */:
+      return "Tomorrow";
+    case "yesterday" /* YESTERDAY */:
+      return "Yesterday";
+    case "one-week-ago" /* ONE_WEEK_AGO */:
+      return "One week ago";
+    case "one-week-from-now" /* ONE_WEEK_FROM_NOW */:
+      return "One week from now";
+    case "one-month-ago" /* ONE_MONTH_AGO */:
+      return "One month ago";
+    case "one-month-from-now" /* ONE_MONTH_FROM_NOW */:
+      return "One month from now";
+    default:
+      return "";
+  }
+};
 
-// src/react/export-app/index.tsx
-var import_react25 = __toESM(require_react());
-
-// src/shared/export/types.ts
-var ExportType = /* @__PURE__ */ ((ExportType2) => {
-  ExportType2["UNSELECTED"] = "Select an option";
-  ExportType2["CSV"] = "CSV";
-  ExportType2["MARKDOWN"] = "Markdown";
-  return ExportType2;
-})(ExportType || {});
-
-// src/react/export-app/export-type-select.tsx
-var import_jsx_runtime29 = __toESM(require_jsx_runtime());
-function ExportTypeSelect({ value, onChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime29.jsxs)(Stack, { spacing: "xl", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime29.jsx)("label", { htmlFor: "type-select", children: "File Type" }),
-    /* @__PURE__ */ (0, import_jsx_runtime29.jsx)(
-      "select",
+// src/react/loom-app/footer-cell-container/calculation-menu.tsx
+var import_jsx_runtime16 = __toESM(require_jsx_runtime());
+function CalculationMenu({
+  id: id2,
+  value,
+  cellType,
+  isOpen,
+  position,
+  onClick
+}) {
+  return /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(Menu, { id: id2, isOpen, position, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "dataloom-function-menu", children: [
+    Object.values(GeneralCalculation).map((type) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(
+      MenuItem,
       {
-        id: "type-select",
-        value,
-        onChange: (e) => onChange(e.target.value),
-        children: Object.values(ExportType).map((type) => /* @__PURE__ */ (0, import_jsx_runtime29.jsx)("option", { value: type, children: type }, type))
-      }
-    )
-  ] });
+        name: getDisplayNameForCalculation(type),
+        ariaLabel: getAriaLabelForCalculation(type),
+        onClick: () => onClick(type),
+        isSelected: type === value
+      },
+      type
+    )),
+    cellType === "number" /* NUMBER */ && Object.values(NumberCalculation).map((type) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(
+      MenuItem,
+      {
+        ariaLabel: getAriaLabelForNumberCalculation(type),
+        name: getDisplayNameForNumberCalculation(type),
+        onClick: () => onClick(type),
+        isSelected: type === value
+      },
+      type
+    ))
+  ] }) });
 }
 
-// src/react/export-app/content-textarea.tsx
-var import_jsx_runtime30 = __toESM(require_jsx_runtime());
-function ContentTextArea({ value }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime30.jsx)("textarea", { readOnly: true, value });
-}
+// src/react/shared/menu-trigger/index.tsx
+var import_react16 = __toESM(require_react());
 
-// node_modules/markdown-table/index.js
-function markdownTable(table, options = {}) {
-  const align = (options.align || []).concat();
-  const stringLength = options.stringLength || defaultStringLength;
-  const alignments = [];
-  const cellMatrix = [];
-  const sizeMatrix = [];
-  const longestCellByColumn = [];
-  let mostCellsPerRow = 0;
-  let rowIndex = -1;
-  while (++rowIndex < table.length) {
-    const row2 = [];
-    const sizes2 = [];
-    let columnIndex2 = -1;
-    if (table[rowIndex].length > mostCellsPerRow) {
-      mostCellsPerRow = table[rowIndex].length;
-    }
-    while (++columnIndex2 < table[rowIndex].length) {
-      const cell = serialize(table[rowIndex][columnIndex2]);
-      if (options.alignDelimiters !== false) {
-        const size = stringLength(cell);
-        sizes2[columnIndex2] = size;
-        if (longestCellByColumn[columnIndex2] === void 0 || size > longestCellByColumn[columnIndex2]) {
-          longestCellByColumn[columnIndex2] = size;
-        }
-      }
-      row2.push(cell);
-    }
-    cellMatrix[rowIndex] = row2;
-    sizeMatrix[rowIndex] = sizes2;
+// src/shared/keyboard-event.ts
+var import_obsidian12 = require("obsidian");
+var isWindowsUndoDown = (e) => e.ctrlKey && e.key === "z";
+var isWindowsRedoDown = (e) => e.ctrlKey && e.key === "y";
+var isMacUndoDown = (e) => e.metaKey && e.key === "z";
+var isMacRedoDown = (e) => e.metaKey && e.shiftKey && e.key === "z";
+var isInsertLineDown = (e) => {
+  return e.shiftKey && e.key === "Enter";
+};
+var isInsertLineAltDown = (e) => {
+  if (import_obsidian12.Platform.isMacOS) {
+    return e.metaKey && e.key === "Enter";
+  } else if (import_obsidian12.Platform.isWin || import_obsidian12.Platform.isLinux) {
+    return e.altKey && e.key === "Enter";
   }
-  let columnIndex = -1;
-  if (typeof align === "object" && "length" in align) {
-    while (++columnIndex < mostCellsPerRow) {
-      alignments[columnIndex] = toAlignment(align[columnIndex]);
-    }
-  } else {
-    const code = toAlignment(align);
-    while (++columnIndex < mostCellsPerRow) {
-      alignments[columnIndex] = code;
-    }
-  }
-  columnIndex = -1;
-  const row = [];
-  const sizes = [];
-  while (++columnIndex < mostCellsPerRow) {
-    const code = alignments[columnIndex];
-    let before = "";
-    let after = "";
-    if (code === 99) {
-      before = ":";
-      after = ":";
-    } else if (code === 108) {
-      before = ":";
-    } else if (code === 114) {
-      after = ":";
-    }
-    let size = options.alignDelimiters === false ? 1 : Math.max(
-      1,
-      longestCellByColumn[columnIndex] - before.length - after.length
-    );
-    const cell = before + "-".repeat(size) + after;
-    if (options.alignDelimiters !== false) {
-      size = before.length + size + after.length;
-      if (size > longestCellByColumn[columnIndex]) {
-        longestCellByColumn[columnIndex] = size;
-      }
-      sizes[columnIndex] = size;
-    }
-    row[columnIndex] = cell;
-  }
-  cellMatrix.splice(1, 0, row);
-  sizeMatrix.splice(1, 0, sizes);
-  rowIndex = -1;
-  const lines = [];
-  while (++rowIndex < cellMatrix.length) {
-    const row2 = cellMatrix[rowIndex];
-    const sizes2 = sizeMatrix[rowIndex];
-    columnIndex = -1;
-    const line = [];
-    while (++columnIndex < mostCellsPerRow) {
-      const cell = row2[columnIndex] || "";
-      let before = "";
-      let after = "";
-      if (options.alignDelimiters !== false) {
-        const size = longestCellByColumn[columnIndex] - (sizes2[columnIndex] || 0);
-        const code = alignments[columnIndex];
-        if (code === 114) {
-          before = " ".repeat(size);
-        } else if (code === 99) {
-          if (size % 2) {
-            before = " ".repeat(size / 2 + 0.5);
-            after = " ".repeat(size / 2 - 0.5);
-          } else {
-            before = " ".repeat(size / 2);
-            after = before;
+};
+
+// src/react/shared/menu-trigger/index.tsx
+var import_jsx_runtime17 = __toESM(require_jsx_runtime());
+var MenuTrigger = import_react16.default.forwardRef(
+  ({
+    menuId,
+    level,
+    variant,
+    isFocused,
+    shouldRunTrigger = true,
+    children,
+    onEnterDown,
+    onBackspaceDown,
+    onClick,
+    onMouseDown,
+    onOpen
+  }, ref) => {
+    const logger = useLogger();
+    const { topMenu, canOpen, onRequestClose } = useMenuOperations();
+    function handleKeyDown(e) {
+      logger("MenuTrigger handleKeyDown");
+      if (e.key === "Enter") {
+        e.stopPropagation();
+        onEnterDown == null ? void 0 : onEnterDown();
+        e.preventDefault();
+        if (shouldRunTrigger) {
+          if (canOpen(level)) {
+            const tag = e.target.tagName;
+            if (tag === "A")
+              return;
+            onOpen();
+            return;
           }
-        } else {
-          after = " ".repeat(size);
         }
-      }
-      if (options.delimiterStart !== false && !columnIndex) {
-        line.push("|");
-      }
-      if (options.padding !== false && !(options.alignDelimiters === false && cell === "") && (options.delimiterStart !== false || columnIndex)) {
-        line.push(" ");
-      }
-      if (options.alignDelimiters !== false) {
-        line.push(before);
-      }
-      line.push(cell);
-      if (options.alignDelimiters !== false) {
-        line.push(after);
-      }
-      if (options.padding !== false) {
-        line.push(" ");
-      }
-      if (options.delimiterEnd !== false || columnIndex !== mostCellsPerRow - 1) {
-        line.push("|");
+        if (!topMenu)
+          return;
+        onRequestClose(topMenu == null ? void 0 : topMenu.id, "close-on-save");
+      } else if (e.key === "Backspace") {
+        onBackspaceDown == null ? void 0 : onBackspaceDown();
+      } else if (e.key.length === 1) {
+        if (isWindowsRedoDown(e) || isWindowsUndoDown(e) || isMacRedoDown(e) || isMacUndoDown(e))
+          return;
+        if (variant !== "cell")
+          return;
+        onOpen();
       }
     }
-    lines.push(
-      options.delimiterEnd === false ? line.join("").replace(/ +$/, "") : line.join("")
+    function handleClick(e) {
+      logger("MenuTrigger handleClick");
+      e.stopPropagation();
+      onClick == null ? void 0 : onClick(e);
+      if (shouldRunTrigger) {
+        if (canOpen(level)) {
+          const tag = e.target.tagName;
+          if (tag === "A")
+            return;
+          onOpen();
+          return;
+        }
+      }
+      if (!topMenu)
+        return;
+      onRequestClose(topMenu.id, "close-on-save");
+    }
+    let className = "dataloom-menu-trigger dataloom-focusable";
+    if (isFocused) {
+      className += " dataloom-focusable--focused";
+    }
+    return /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(
+      "div",
+      {
+        "data-menu-id": menuId,
+        tabIndex: 0,
+        className,
+        ref,
+        style: {
+          width: variant === "cell" ? "100%" : void 0,
+          height: variant === "cell" ? "100%" : void 0,
+          borderRadius: variant === "button" ? "var(--button-radius)" : void 0
+        },
+        onMouseDown,
+        onKeyDown: handleKeyDown,
+        onClick: handleClick,
+        children
+      }
     );
   }
-  return lines.join("\n");
-}
-function serialize(value) {
-  return value === null || value === void 0 ? "" : String(value);
-}
-function defaultStringLength(value) {
-  return value.length;
-}
-function toAlignment(value) {
-  const code = typeof value === "string" ? value.codePointAt(0) : 0;
-  return code === 67 || code === 99 ? 99 : code === 76 || code === 108 ? 108 : code === 82 || code === 114 ? 114 : 0;
-}
+);
+var menu_trigger_default = MenuTrigger;
 
-// src/shared/cell-content/checkbox-cell-content.ts
-var getCheckboxCellContent = (content, shouldRemoveMarkdown) => {
-  if (shouldRemoveMarkdown) {
-    if (isCheckboxChecked(content))
-      return "true";
-    return "false";
-  }
-  return content;
+// src/react/loom-app/footer-cell-container/utils.ts
+var NAMESPACE = "fa23ee5e-43ae-45e0-83ed-97c577913416";
+var hashString = (value) => {
+  return v5_default(value, NAMESPACE);
+};
+var round2Digits = (value) => {
+  if (value.toString().includes("."))
+    return parseFloat(value.toFixed(2));
+  return value;
 };
 
 // src/shared/date/constants.ts
@@ -49666,33 +49060,201 @@ var isValidDateFormat = (value, dateFormat) => {
   }
 };
 
-// src/shared/cell-content/date-cell-content.ts
-var getDateCellContent = (dateTime, format) => {
-  if (dateTime !== null)
-    return unixTimeToDateString(dateTime, format);
-  return "";
+// src/shared/loom-state/utils/column-utils.ts
+var getColumnCells = (rows, columnId) => {
+  return rows.map((row) => {
+    const { cells } = row;
+    const cell = cells.find((cell2) => cell2.columnId === columnId);
+    if (!cell)
+      throw new RowNotFoundError(row.id);
+    return cell;
+  });
 };
 
-// src/shared/cell-content/embed-cell-content.ts
-var getEmbedCellContent = (app, value, options) => {
-  const {
-    shouldRemoveMarkdown = false,
-    isExternalLink = false,
-    isExport = false
-  } = options != null ? options : {};
-  if (shouldRemoveMarkdown || value === "") {
-    return value;
-  }
-  if (isExternalLink) {
-    if (isImage(value) || isYouTubeLink(value) || isTwitterLink(value)) {
-      return `![](${value})`;
-    }
-    return "Unsupported link";
+// src/react/loom-app/footer-cell-container/general-calculation.ts
+var getGeneralCalculationContent = (columnId, sources, rows, columnTags, cellType, calculationType, dateFormat) => {
+  const columnCells = getColumnCells(rows, columnId);
+  return getCalculation(
+    sources,
+    columnCells,
+    rows,
+    columnTags,
+    cellType,
+    calculationType,
+    dateFormat
+  ).toString();
+};
+var getCalculation = (sources, columnCells, rows, columnTags, cellType, calculationType, dateFormat) => {
+  if (calculationType === "count-all" /* COUNT_ALL */) {
+    return countAll(rows);
+  } else if (calculationType === "count-empty" /* COUNT_EMPTY */) {
+    return countEmpty(columnCells, cellType);
+  } else if (calculationType === "count-not-empty" /* COUNT_NOT_EMPTY */) {
+    return countNotEmpty(columnCells, cellType);
+  } else if (calculationType === "count-unique" /* COUNT_UNIQUE */) {
+    return countUnique(
+      sources,
+      rows,
+      columnCells,
+      columnTags,
+      cellType,
+      dateFormat
+    );
+  } else if (calculationType === "count-values" /* COUNT_VALUES */) {
+    return countValues(columnCells, cellType);
+  } else if (calculationType === "percent-empty" /* PERCENT_EMPTY */) {
+    return percentEmpty(columnCells, cellType);
+  } else if (calculationType === "percent-not-empty" /* PERCENT_NOT_EMPTY */) {
+    return percentNotEmpty(columnCells, cellType);
+  } else if (calculationType === "none" /* NONE */) {
+    return "";
   } else {
-    if (isExport)
-      return `![[${value}]]`;
-    return `![](${getResourcePath(app, value)})`;
+    throw new Error("Unhandled calculation type");
   }
+};
+var countAll = (rows) => {
+  return rows.length;
+};
+var countEmpty = (columnCells, cellType) => {
+  return columnCells.map((cell) => isCellEmpty(cell, cellType)).reduce((accum, value) => {
+    if (value === true)
+      return accum + 1;
+    return accum;
+  }, 0);
+};
+var countNotEmpty = (columnCells, type) => {
+  return columnCells.map((cell) => isCellEmpty(cell, type)).reduce((accum, value) => {
+    if (value === false)
+      return accum + 1;
+    return accum;
+  }, 0);
+};
+var countUnique = (sources, rows, columnCells, columnTags, cellType, dateFormat) => {
+  const hashes = columnCells.map((cell) => {
+    var _a2;
+    const row = rows.find((row2) => {
+      const { cells } = row2;
+      return cells.find((c2) => c2.id === cell.id);
+    });
+    if (!row)
+      throw new RowNotFoundError();
+    const source = (_a2 = sources.find((source2) => source2.id === row.sourceId)) != null ? _a2 : null;
+    const cellValues = getCellValues(
+      cell,
+      cellType,
+      dateFormat,
+      row,
+      source,
+      columnTags
+    );
+    return cellValues.filter((value) => value !== "").map((value) => hashString(value));
+  }).flat(1);
+  const uniqueHashes = new Set(hashes);
+  return uniqueHashes.size;
+};
+var countValues = (columnCells, cellType) => {
+  return columnCells.map((cell) => countCellValues(cell, cellType)).reduce((accum, value) => accum + value, 0);
+};
+var percentEmpty = (columnCells, cellType) => {
+  if (columnCells.length === 0)
+    return "0%";
+  const percent = countEmpty(columnCells, cellType) / columnCells.length * 100;
+  return round2Digits(percent) + "%";
+};
+var percentNotEmpty = (columnCells, cellType) => {
+  if (columnCells.length === 0)
+    return "0%";
+  const percent = countNotEmpty(columnCells, cellType) / columnCells.length * 100;
+  return round2Digits(percent) + "%";
+};
+var getCellValues = (cell, type, dateFormat, row, source, columnTags) => {
+  const { content, dateTime, tagIds } = cell;
+  const { creationTime, lastEditedTime } = row;
+  if (type === "text" /* TEXT */ || type === "embed" /* EMBED */ || type === "number" /* NUMBER */ || type === "checkbox" /* CHECKBOX */ || type === "file" /* FILE */ || type === "source-file" /* SOURCE_FILE */) {
+    return [content];
+  } else if (type === "date" /* DATE */) {
+    if (dateTime)
+      return [dateTime.toString()];
+    return [];
+  } else if (type === "tag" /* TAG */ || type === "multi-tag" /* MULTI_TAG */) {
+    return tagIds.map((tagId) => {
+      const tag = columnTags.find((tag2) => tag2.id === tagId);
+      if (!tag)
+        throw new TagNotFoundError(tagId);
+      const { content: content2 } = tag;
+      return content2;
+    });
+  } else if (type === "last-edited-time" /* LAST_EDITED_TIME */) {
+    return [unixTimeToDateTimeString(lastEditedTime, dateFormat)];
+  } else if (type === "creation-time" /* CREATION_TIME */) {
+    return [unixTimeToDateTimeString(creationTime, dateFormat)];
+  } else if (type === "source" /* SOURCE */) {
+    return [getSourceCellContent(source)];
+  } else {
+    throw new Error("Unhandled cell type");
+  }
+};
+var countCellValues = (cell, type) => {
+  const { content, dateTime, tagIds } = cell;
+  if (type === "text" /* TEXT */ || type === "embed" /* EMBED */ || type === "number" /* NUMBER */ || type === "file" /* FILE */ || type === "source-file" /* SOURCE_FILE */) {
+    return content === "" ? 0 : 1;
+  } else if (type === "date" /* DATE */) {
+    return dateTime == null ? 0 : 1;
+  } else if (type === "tag" /* TAG */ || type === "multi-tag" /* MULTI_TAG */) {
+    return tagIds.length;
+  } else if (type === "checkbox" /* CHECKBOX */) {
+    return isCheckboxChecked(content) ? 1 : 0;
+  } else if (type === "last-edited-time" /* LAST_EDITED_TIME */ || type === "creation-time" /* CREATION_TIME */) {
+    return 1;
+  } else if (type === "source" /* SOURCE */) {
+    return 1;
+  } else {
+    throw new Error("Unhandled cell type");
+  }
+};
+var isCellEmpty = (cell, type) => {
+  const { content, dateTime, tagIds } = cell;
+  if (type === "text" /* TEXT */ || type === "embed" /* EMBED */ || type === "number" /* NUMBER */ || type === "file" /* FILE */ || type === "source-file" /* SOURCE_FILE */) {
+    return content === "";
+  } else if (type === "date" /* DATE */) {
+    return dateTime == null;
+  } else if (type === "tag" /* TAG */ || type === "multi-tag" /* MULTI_TAG */) {
+    return tagIds.length === 0;
+  } else if (type === "checkbox" /* CHECKBOX */) {
+    return !isCheckboxChecked(content);
+  } else if (type === "last-edited-time" /* LAST_EDITED_TIME */ || type === "creation-time" /* CREATION_TIME */) {
+    return true;
+  } else if (type === "source" /* SOURCE */) {
+    return false;
+  } else {
+    throw new Error("Unhandled cell type");
+  }
+};
+
+// src/react/loom-app/footer-cell-container/arithmetic.ts
+var getAverage = (values) => {
+  return getSum(values) / values.length;
+};
+var getSum = (values) => {
+  return values.reduce((sum, a2) => sum + a2, 0);
+};
+var getMaximum = (values) => {
+  return Math.max(...values);
+};
+var getMinimum = (values) => {
+  return Math.min(...values);
+};
+var getMedian = (values) => {
+  const sortedValues = values.sort((a2, b2) => a2 - b2);
+  const middle = Math.floor(values.length / 2);
+  if (values.length % 2 === 0) {
+    return (sortedValues[middle - 1] + sortedValues[middle]) / 2;
+  } else {
+    return sortedValues[middle];
+  }
+};
+var getRange = (values) => {
+  return getMaximum(values) - getMinimum(values);
 };
 
 // src/react/loom-app/number-cell/utils.ts
@@ -49720,6 +49282,4449 @@ var getNumberCellContent = (format, value, options) => {
   if (suffix && value.length > 0)
     value = `${value} ${suffix}`;
   return value;
+};
+
+// src/react/loom-app/footer-cell-container/number-calculation.ts
+var getNumberCalculationContent = (values, format, currency, calculation) => {
+  const value = getNumberCalculation(values, calculation).toString();
+  if (format === "currency" /* CURRENCY */) {
+    return getNumberCellContent(format, value, {
+      currency
+    });
+  }
+  return value;
+};
+var getNumberCalculation = (values, type) => {
+  if (type === "avg" /* AVG */) {
+    return round2Digits(getAverage(values));
+  } else if (type === "max" /* MAX */) {
+    return getMaximum(values);
+  } else if (type === "min" /* MIN */) {
+    return getMinimum(values);
+  } else if (type === "range" /* RANGE */) {
+    return round2Digits(getRange(values));
+  } else if (type === "sum" /* SUM */) {
+    return round2Digits(getSum(values));
+  } else if (type === "median" /* MEDIAN */) {
+    return round2Digits(getMedian(values));
+  } else {
+    throw new Error("Unhandled number calculation type");
+  }
+};
+
+// src/react/loom-app/footer-cell-container/index.tsx
+var import_jsx_runtime18 = __toESM(require_jsx_runtime());
+function FooterCellContainer({
+  sources,
+  columnId,
+  columnCells,
+  columnTags,
+  dateFormat,
+  numberFormat,
+  rows,
+  width,
+  calculationType,
+  currencyType,
+  cellType,
+  onColumnChange
+}) {
+  const COMPONENT_ID = `footer-cell-${columnId}`;
+  const menu = useMenu(COMPONENT_ID);
+  function handleTypeClick(value) {
+    if (menu === null)
+      return;
+    onColumnChange(columnId, {
+      calculationType: value
+    });
+    menu.onClose();
+  }
+  let content = "";
+  if (isNumberCalcuation(calculationType)) {
+    const cellValues = columnCells.filter((cell) => isNumber(cell.content)).map((cell) => parseFloat(cell.content));
+    if (cellValues.length !== 0)
+      content = getNumberCalculationContent(
+        cellValues,
+        numberFormat,
+        currencyType,
+        calculationType
+      );
+  } else {
+    content = getGeneralCalculationContent(
+      columnId,
+      sources,
+      rows,
+      columnTags,
+      cellType,
+      calculationType,
+      dateFormat
+    );
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)(import_jsx_runtime18.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+      menu_trigger_default,
+      {
+        ref: menu.triggerRef,
+        menuId: menu.id,
+        isFocused: menu.isTriggerFocused,
+        level: 1 /* ONE */,
+        variant: "cell",
+        onOpen: () => menu.onOpen(1 /* ONE */),
+        children: /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)(
+          "div",
+          {
+            className: "dataloom-cell--footer__container dataloom-selectable",
+            style: {
+              width
+            },
+            children: [
+              calculationType === "none" /* NONE */ && /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Text, { value: "Calculate", variant: "faint" }),
+              calculationType !== "none" /* NONE */ && /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)(Stack, { spacing: "sm", isHorizontal: true, children: [
+                /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                  Text,
+                  {
+                    value: getShortDisplayNameForCalculationType(
+                      calculationType
+                    ),
+                    variant: "muted"
+                  }
+                ),
+                /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Text, { value: content, variant: "semibold" })
+              ] })
+            ]
+          }
+        )
+      }
+    ),
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+      CalculationMenu,
+      {
+        id: menu.id,
+        isOpen: menu.isOpen,
+        position: menu.position,
+        cellType,
+        value: calculationType,
+        onClick: handleTypeClick
+      }
+    )
+  ] });
+}
+
+// src/react/loom-app/header-cell-container/use-column-resize.ts
+var import_react17 = __toESM(require_react());
+var useColumnResize = (columnId, onMove) => {
+  const { setResizingColumnId } = useLoomState();
+  const mouseDownX = (0, import_react17.useRef)(0);
+  function handleMouseMove(e) {
+    const dist = e.pageX - mouseDownX.current;
+    onMove(dist);
+  }
+  function handleTouchMove(e) {
+    e.stopPropagation();
+    const dist = e.touches[0].pageX - mouseDownX.current;
+    onMove(dist);
+  }
+  function handleMouseUp() {
+    document.removeEventListener("mousemove", handleMouseMove);
+    document.removeEventListener("mouseup", handleMouseUp);
+    setTimeout(() => {
+      setResizingColumnId(null);
+    }, 100);
+  }
+  function handleTouchEnd() {
+    document.removeEventListener("touchmove", handleTouchMove);
+    document.removeEventListener("touchend", handleTouchEnd);
+    setTimeout(() => {
+      setResizingColumnId(null);
+    }, 100);
+  }
+  function handleTouchStart(e) {
+    if (e.detail >= 2)
+      return;
+    document.addEventListener("touchmove", handleTouchMove);
+    document.addEventListener("touchend", handleTouchEnd);
+    mouseDownX.current = e.touches[0].pageX;
+    setResizingColumnId(columnId);
+  }
+  function handleMouseDown(e) {
+    if (e.detail >= 2)
+      return;
+    e.preventDefault();
+    document.addEventListener("mousemove", handleMouseMove);
+    document.addEventListener("mouseup", handleMouseUp);
+    mouseDownX.current = e.pageX;
+    setResizingColumnId(columnId);
+  }
+  return { handleMouseDown, handleTouchStart };
+};
+
+// src/shared/constants.ts
+var MIN_COLUMN_WIDTH = 40;
+var CHECKBOX_MARKDOWN_CHECKED = "[x]";
+var CHECKBOX_MARKDOWN_UNCHECKED2 = "[ ]";
+
+// src/react/loom-app/header-cell-container/column-resize/index.tsx
+var import_jsx_runtime19 = __toESM(require_jsx_runtime());
+function ColumnResize({
+  columnIndex,
+  currentResizingId,
+  columnId,
+  width,
+  onWidthChange,
+  onMenuClose
+}) {
+  const { handleMouseDown, handleTouchStart } = useColumnResize(
+    columnId,
+    (dist) => {
+      const oldWidth = pxToNum(width);
+      const newWidth = oldWidth + dist;
+      if (newWidth < MIN_COLUMN_WIDTH)
+        return;
+      onWidthChange(columnId, numToPx(newWidth));
+    }
+  );
+  function updateColumnWidth() {
+    const columnEl = document.body.querySelector(
+      `.dataloom-cell[data-column-id="${columnId}"] .dataloom-cell--header__container`
+    );
+    if (!columnEl)
+      throw new Error("Cannot find column element");
+    const width2 = columnEl.getBoundingClientRect().width;
+    onWidthChange(columnId, numToPx(width2));
+  }
+  function toggleAutoWidthClass(selectors, shouldAdd) {
+    selectors.forEach((selector) => {
+      const container = selector.querySelector(
+        ".dataloom-cell--header__container, .dataloom-cell--body__container, .dataloom-cell--footer__container"
+      );
+      if (!container)
+        return;
+      const containerEl = container;
+      if (shouldAdd) {
+        containerEl.classList.add("dataloom-auto-width");
+        containerEl.classList.add("dataloom-nowrap");
+      } else {
+        containerEl.classList.remove("dataloom-auto-width");
+        containerEl.classList.remove("dataloom-nowrap");
+      }
+    });
+  }
+  const isDragging = columnId === currentResizingId;
+  let innerClassName = "dataloom-column-resize__handle";
+  if (isDragging)
+    innerClassName += " dataloom-column-resize__handle--dragging";
+  return /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("div", { className: "dataloom-column-resize", children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(
+    "div",
+    {
+      className: innerClassName,
+      onMouseDown: (e) => {
+        onMenuClose();
+        handleMouseDown(e);
+      },
+      onTouchStart: handleTouchStart,
+      onClick: (e) => {
+        e.stopPropagation();
+        if (e.detail === 2) {
+          const selectors = document.body.querySelectorAll(
+            `.dataloom-cell:nth-child(${columnIndex + 1})`
+          );
+          toggleAutoWidthClass(selectors, true);
+          updateColumnWidth();
+          setTimeout(() => {
+            toggleAutoWidthClass(selectors, false);
+          }, 0);
+        }
+      }
+    }
+  ) });
+}
+
+// src/react/loom-app/header-cell-edit/index.tsx
+var import_react23 = __toESM(require_react());
+
+// src/react/shared/button/index.tsx
+var import_jsx_runtime20 = __toESM(require_jsx_runtime());
+function Button({
+  isDisabled = false,
+  variant = "text",
+  isFullWidth,
+  isFocusable = true,
+  isSmall,
+  invertFocusColor,
+  children,
+  ariaLabel = "",
+  icon,
+  onClick,
+  onMouseDown
+}) {
+  const logger = useLogger();
+  function handleClick() {
+    onClick == null ? void 0 : onClick();
+  }
+  function handleKeyDown(e) {
+    logger("Button handleKeyDown");
+    if (e.key === "Enter") {
+      e.preventDefault();
+      e.stopPropagation();
+      onClick == null ? void 0 : onClick();
+    }
+  }
+  let className = "dataloom-button";
+  if (isFocusable) {
+    className += " dataloom-focusable";
+    if (invertFocusColor)
+      className += " dataloom-focusable--inverted";
+  }
+  if (variant == "link")
+    className += " dataloom-button--link";
+  else if (variant == "text")
+    className += " dataloom-button--text";
+  if (isSmall)
+    className += " dataloom-button--small";
+  if (isFullWidth)
+    className += " dataloom-button--full-width";
+  return /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(
+    "button",
+    {
+      disabled: isDisabled,
+      tabIndex: isFocusable ? 0 : -1,
+      className,
+      "aria-label": ariaLabel,
+      onKeyDown: handleKeyDown,
+      onMouseDown,
+      onClick: handleClick,
+      children: /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)(Stack, { isHorizontal: true, children: [
+        icon && icon,
+        children
+      ] })
+    }
+  );
+}
+
+// src/react/shared/submenu/index.tsx
+var import_jsx_runtime21 = __toESM(require_jsx_runtime());
+function Submenu({
+  title,
+  showBackButton = true,
+  children,
+  onBackClick
+}) {
+  return /* @__PURE__ */ (0, import_jsx_runtime21.jsxs)(Padding, { p: "sm", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime21.jsxs)(Stack, { spacing: "md", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime21.jsxs)(Stack, { isHorizontal: true, children: [
+        showBackButton && /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
+          Button,
+          {
+            icon: /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(Icon, { lucideId: "arrow-left" }),
+            onClick: () => {
+              onBackClick();
+            }
+          }
+        ),
+        /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(Padding, { pr: "md", children: title })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(Divider, {})
+    ] }),
+    children
+  ] });
+}
+
+// src/react/loom-app/header-cell-edit/option-submenu.tsx
+var import_jsx_runtime22 = __toESM(require_jsx_runtime());
+function OptionSubmenu({
+  type,
+  currencyType,
+  numberFormat,
+  numberPrefix,
+  numberSuffix,
+  numberSeparator,
+  aspectRatio,
+  verticalPadding,
+  horizontalPadding,
+  title,
+  dateFormat,
+  onBackClick,
+  onSubmenuChange
+}) {
+  const numberFormatDisplayName = numberFormat === "number" /* NUMBER */ ? "Number" : getDisplayNameForCurrencyType(currencyType);
+  return /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(Submenu, { title, onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(Padding, { pt: "sm", pb: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)(Stack, { spacing: "sm", children: [
+    type === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(
+      MenuItem,
+      {
+        name: "Aspect ratio",
+        value: aspectRatio,
+        onClick: () => onSubmenuChange(6 /* ASPECT_RATIO */)
+      }
+    ),
+    type === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(
+      MenuItem,
+      {
+        name: "Horizontal padding",
+        value: horizontalPadding,
+        onClick: () => onSubmenuChange(4 /* HORIZONTAL_PADDING */)
+      }
+    ),
+    type === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(
+      MenuItem,
+      {
+        name: "Vertical padding",
+        value: verticalPadding,
+        onClick: () => onSubmenuChange(5 /* VERTICAL_PADDING */)
+      }
+    ),
+    type === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(
+      MenuItem,
+      {
+        name: "Number format",
+        value: numberFormatDisplayName,
+        onClick: () => onSubmenuChange(2 /* CURRENCY */)
+      }
+    ),
+    type === "number" /* NUMBER */ && numberFormat == "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(
+      MenuItem,
+      {
+        name: "Prefix",
+        value: numberPrefix,
+        onClick: () => onSubmenuChange(
+          7 /* TEXT_INPUT_NUMBER_PREFIX */
+        )
+      }
+    ),
+    type === "number" /* NUMBER */ && numberFormat == "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(
+      MenuItem,
+      {
+        name: "Suffix",
+        value: numberSuffix,
+        onClick: () => onSubmenuChange(
+          8 /* TEXT_INPUT_NUMBER_SUFFIX */
+        )
+      }
+    ),
+    type === "number" /* NUMBER */ && numberFormat == "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(
+      MenuItem,
+      {
+        name: "Separator",
+        value: numberSeparator,
+        onClick: () => onSubmenuChange(
+          9 /* TEXT_INPUT_NUMBER_SEPARATOR */
+        )
+      }
+    ),
+    (type === "creation-time" /* CREATION_TIME */ || type === "last-edited-time" /* LAST_EDITED_TIME */ || type === "date" /* DATE */) && /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(
+      MenuItem,
+      {
+        name: "Date format",
+        value: getDisplayNameForDateFormat(dateFormat),
+        onClick: () => onSubmenuChange(3 /* DATE_FORMAT */)
+      }
+    )
+  ] }) }) });
+}
+
+// src/react/shared/icon/utils.tsx
+var getIconIdForSourceType = (type) => {
+  switch (type) {
+    case "folder" /* FOLDER */:
+      return "folder";
+    case "tag" /* TAG */:
+      return "tag";
+    default:
+      return "";
+  }
+};
+var getIconIdForCellType = (type) => {
+  switch (type) {
+    case "text" /* TEXT */:
+      return "text";
+    case "embed" /* EMBED */:
+      return "link";
+    case "source-file" /* SOURCE_FILE */:
+    case "file" /* FILE */:
+      return "file";
+    case "number" /* NUMBER */:
+      return "hash";
+    case "checkbox" /* CHECKBOX */:
+      return "check-square";
+    case "creation-time" /* CREATION_TIME */:
+    case "last-edited-time" /* LAST_EDITED_TIME */:
+      return "clock-2";
+    case "tag" /* TAG */:
+      return "tag";
+    case "multi-tag" /* MULTI_TAG */:
+      return "tags";
+    case "date" /* DATE */:
+      return "calendar";
+    case "source" /* SOURCE */:
+      return "rss";
+    default:
+      return "text";
+  }
+};
+
+// src/react/loom-app/header-cell-edit/type-submenu.tsx
+var import_jsx_runtime23 = __toESM(require_jsx_runtime());
+function TypeSubmenu({
+  title,
+  value,
+  onValueClick,
+  onBackClick
+}) {
+  return /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(Submenu, { title, onBackClick, children: Object.values(CellType2).filter(
+    (type) => type !== "source" /* SOURCE */ && type !== "source-file" /* SOURCE_FILE */
+  ).map((type) => /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(
+    MenuItem,
+    {
+      name: getDisplayNameForCellType(type),
+      lucideId: getIconIdForCellType(type),
+      onClick: () => onValueClick(type),
+      isSelected: type === value
+    },
+    type
+  )) });
+}
+
+// src/react/loom-app/header-cell-edit/number-format-submenu/index.tsx
+var import_jsx_runtime24 = __toESM(require_jsx_runtime());
+function NumberFormatSubmenu({
+  title,
+  format,
+  currency,
+  onNumberFormatChange,
+  onBackClick
+}) {
+  return /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(Submenu, { title, onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)("div", { className: "dataloom-number-format-submenu", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+      MenuItem,
+      {
+        name: "Number",
+        onClick: () => onNumberFormatChange("number" /* NUMBER */),
+        isSelected: format === "number" /* NUMBER */
+      }
+    ),
+    Object.values(CurrencyType2).map((type) => /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+      MenuItem,
+      {
+        name: getDisplayNameForCurrencyType(type),
+        onClick: () => onNumberFormatChange("currency" /* CURRENCY */, {
+          currency: type
+        }),
+        isSelected: type === currency && format === "currency" /* CURRENCY */
+      },
+      type
+    ))
+  ] }) });
+}
+
+// src/react/loom-app/header-cell-edit/text-input-submenu.tsx
+var import_react19 = __toESM(require_react());
+
+// src/react/shared/input/index.tsx
+var import_react18 = __toESM(require_react());
+var import_jsx_runtime25 = __toESM(require_jsx_runtime());
+var Input = import_react18.default.forwardRef(
+  ({
+    id: id2,
+    isTransparent,
+    showBorder,
+    hasError,
+    value,
+    autoFocus = true,
+    isDisabled = false,
+    focusOutline = "accent",
+    placeholder,
+    inputMode,
+    onChange,
+    onKeyDown,
+    onBlur
+  }, ref) => {
+    let className = "dataloom-input dataloom-focusable";
+    if (isTransparent) {
+      className += " dataloom-input--transparent";
+    } else if (showBorder) {
+      className += " dataloom-input--border";
+    }
+    if (inputMode === "numeric")
+      className += " dataloom-input--numeric";
+    if (focusOutline === "default") {
+      className += " dataloom-input__focus-outline--default";
+    } else if (focusOutline === "none") {
+      className += " dataloom-input__focus-outline--none";
+    }
+    if (hasError)
+      className += " dataloom-input--error";
+    return /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(
+      "input",
+      {
+        id: id2,
+        ref,
+        className,
+        placeholder,
+        disabled: isDisabled,
+        type: "text",
+        inputMode,
+        autoFocus,
+        value,
+        onChange: (e) => onChange(e.target.value),
+        onKeyDown,
+        onBlur
+      }
+    );
+  }
+);
+var input_default = Input;
+
+// src/react/loom-app/header-cell-edit/text-input-submenu.tsx
+var import_jsx_runtime26 = __toESM(require_jsx_runtime());
+function TextInputSubmenu({
+  title,
+  value,
+  onValueChange,
+  onBackClick,
+  closeRequest,
+  onClose
+}) {
+  const [textValue, setTextValue] = import_react19.default.useState(value);
+  import_react19.default.useEffect(() => {
+    if (closeRequest !== null) {
+      onValueChange(textValue);
+      onClose();
+    }
+  }, [onValueChange, textValue, closeRequest, onClose]);
+  return /* @__PURE__ */ (0, import_jsx_runtime26.jsx)(Submenu, { title, onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime26.jsx)(input_default, { value: textValue, onChange: setTextValue }) });
+}
+
+// src/react/loom-app/header-cell-edit/date-format-submenu.tsx
+var import_jsx_runtime27 = __toESM(require_jsx_runtime());
+function DateFormatSubmenu({
+  title,
+  value,
+  onValueClick,
+  onBackClick
+}) {
+  return /* @__PURE__ */ (0, import_jsx_runtime27.jsx)(Submenu, { title, onBackClick, children: Object.values(DateFormat2).map((format) => /* @__PURE__ */ (0, import_jsx_runtime27.jsx)(
+    MenuItem,
+    {
+      name: getDisplayNameForDateFormat(format),
+      onClick: () => onValueClick(format),
+      isSelected: format === value
+    },
+    format
+  )) });
+}
+
+// src/react/loom-app/header-cell-edit/aspect-ratio-submenu.tsx
+var import_jsx_runtime28 = __toESM(require_jsx_runtime());
+function AspectRatioSubmenu({
+  title,
+  value,
+  onValueClick,
+  onBackClick
+}) {
+  return /* @__PURE__ */ (0, import_jsx_runtime28.jsx)(Submenu, { title, onBackClick, children: Object.values(AspectRatio2).map((ratio) => /* @__PURE__ */ (0, import_jsx_runtime28.jsx)(
+    MenuItem,
+    {
+      name: ratio,
+      onClick: () => onValueClick(ratio),
+      isSelected: ratio === value
+    },
+    ratio
+  )) });
+}
+
+// src/react/loom-app/header-cell-edit/padding-submenu.tsx
+var import_jsx_runtime29 = __toESM(require_jsx_runtime());
+function PaddingSubmenu({
+  title,
+  value,
+  onValueClick,
+  onBackClick
+}) {
+  return /* @__PURE__ */ (0, import_jsx_runtime29.jsx)(Submenu, { title, onBackClick, children: Object.values(PaddingSize2).map((size) => /* @__PURE__ */ (0, import_jsx_runtime29.jsx)(
+    MenuItem,
+    {
+      name: size,
+      onClick: () => onValueClick(size),
+      isSelected: size === value
+    },
+    size
+  )) });
+}
+
+// src/react/loom-app/header-cell-edit/frontmatter-key-submenu.tsx
+var import_react20 = __toESM(require_react());
+
+// src/react/shared/select/index.tsx
+var import_jsx_runtime30 = __toESM(require_jsx_runtime());
+function Select({
+  id: id2,
+  hasError,
+  className: customClassName,
+  value,
+  onChange,
+  onKeyDown,
+  children
+}) {
+  let className = "dataloom-select dataloom-focusable";
+  if (customClassName) {
+    className += " " + customClassName;
+  }
+  if (hasError) {
+    className += " dataloom-select--error";
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime30.jsx)(
+    "select",
+    {
+      id: id2,
+      tabIndex: 0,
+      className,
+      value,
+      onChange: (e) => onChange(e.target.value),
+      onKeyDown,
+      children
+    }
+  );
+}
+
+// src/react/loom-app/header-cell-edit/frontmatter-key-submenu.tsx
+var import_jsx_runtime31 = __toESM(require_jsx_runtime());
+var USE_CUSTOM_INPUT_VALUE = "custom-key";
+function FrontmatterKeySubmenu({
+  title,
+  frontmatterKey,
+  frontmatterKeys,
+  onFrontMatterKeyChange,
+  onBackClick,
+  closeRequest,
+  onClose
+}) {
+  const { value = "", isCustom = false } = frontmatterKey != null ? frontmatterKey : {};
+  const [inputValue, setInputValue] = import_react20.default.useState(value);
+  import_react20.default.useEffect(() => {
+    if (closeRequest !== null) {
+      if (isCustom) {
+        onFrontMatterKeyChange({ value: inputValue, isCustom: true });
+      }
+      onClose();
+    }
+  }, [onFrontMatterKeyChange, inputValue, closeRequest, onClose, isCustom]);
+  function handleValueChange(value2) {
+    if (value2 === USE_CUSTOM_INPUT_VALUE) {
+      onFrontMatterKeyChange({
+        value: "",
+        isCustom: true
+      });
+    } else if (value2 === "") {
+      onFrontMatterKeyChange(null);
+    } else {
+      onFrontMatterKeyChange({
+        value: value2,
+        isCustom: false
+      });
+    }
+  }
+  let selectedValue = value;
+  if (isCustom) {
+    selectedValue = USE_CUSTOM_INPUT_VALUE;
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(Submenu, { title, onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime31.jsxs)(Stack, { spacing: "md", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime31.jsxs)(Select, { value: selectedValue, onChange: handleValueChange, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime31.jsx)("option", { value: "", children: "Select an option" }),
+      frontmatterKeys.map((key) => /* @__PURE__ */ (0, import_jsx_runtime31.jsx)("option", { value: key, children: key }, key)),
+      /* @__PURE__ */ (0, import_jsx_runtime31.jsx)("option", { value: USE_CUSTOM_INPUT_VALUE, children: "Custom" })
+    ] }),
+    isCustom && /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(input_default, { value: inputValue, onChange: setInputValue })
+  ] }) }) });
+}
+
+// src/react/loom-app/header-cell-edit/base-submenu.tsx
+var import_react22 = __toESM(require_react());
+
+// src/react/shared/switch/index.tsx
+var import_jsx_runtime32 = __toESM(require_jsx_runtime());
+function Switch({ id: id2, value, ariaLabel, onToggle }) {
+  const { isDarkMode } = useAppSelector((state) => state.global);
+  function handleKeyDown(e) {
+    if (e.key === "Enter") {
+      e.stopPropagation();
+      onToggle(!value);
+    }
+  }
+  function handleClick(e) {
+    e.stopPropagation();
+    onToggle(!value);
+  }
+  let className = "checkbox-container dataloom-switch dataloom-focusable";
+  if (value)
+    className += " is-enabled";
+  if (isDarkMode)
+    className += " dataloom-switch--dark";
+  return /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(
+    "div",
+    {
+      tabIndex: 0,
+      className,
+      "aria-label": ariaLabel,
+      onClick: handleClick,
+      onKeyDown: handleKeyDown,
+      children: /* @__PURE__ */ (0, import_jsx_runtime32.jsx)("input", { id: id2, type: "checkbox" })
+    }
+  );
+}
+
+// src/shared/hooks.ts
+var import_react21 = __toESM(require_react());
+var usePrevious = (value) => {
+  const ref = import_react21.default.useRef();
+  import_react21.default.useEffect(() => {
+    ref.current = value;
+  });
+  return ref.current;
+};
+var usePlaceCursorAtEnd = (inputRef, value) => {
+  import_react21.default.useEffect(() => {
+    function setSelection() {
+      if (inputRef.current) {
+        inputRef.current.selectionStart = value.length;
+        inputRef.current.selectionEnd = value.length;
+      }
+    }
+    setSelection();
+  }, [inputRef]);
+};
+
+// src/react/loom-app/header-cell-edit/base-submenu.tsx
+var import_jsx_runtime33 = __toESM(require_jsx_runtime());
+function BaseSubmenu({
+  index,
+  shouldWrapOverflow,
+  numFrozenColumns,
+  numSources,
+  frontmatterKey,
+  columnName,
+  columnId,
+  columnType,
+  columnSortDir,
+  canDeleteColumn,
+  onSortClick,
+  onSubmenuChange,
+  onWrapOverflowToggle,
+  onDeleteClick,
+  onColumnNameChange,
+  onHideClick,
+  onFrozenColumnsChange
+}) {
+  const inputRef = import_react22.default.useRef(null);
+  usePlaceCursorAtEnd(inputRef, columnName);
+  import_react22.default.useEffect(() => {
+    if (inputRef.current) {
+      inputRef.current.focus();
+    }
+  }, [inputRef]);
+  function handleInputChange(inputValue) {
+    onColumnNameChange(inputValue);
+  }
+  const hasOptions = columnType === "embed" /* EMBED */ || columnType === "date" /* DATE */ || columnType === "number" /* NUMBER */ || columnType === "last-edited-time" /* LAST_EDITED_TIME */ || columnType === "creation-time" /* CREATION_TIME */;
+  return /* @__PURE__ */ (0, import_jsx_runtime33.jsxs)(Stack, { spacing: "sm", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime33.jsxs)(Stack, { spacing: "sm", width: "100%", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(Padding, { px: "md", py: "sm", width: "100%", children: /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(
+        input_default,
+        {
+          ref: inputRef,
+          isDisabled: columnType === "source" /* SOURCE */ || columnType === "source-file" /* SOURCE_FILE */,
+          showBorder: true,
+          value: columnName,
+          onChange: handleInputChange
+        }
+      ) }),
+      columnType !== "source" /* SOURCE */ && columnType !== "source-file" /* SOURCE_FILE */ && /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(
+        MenuItem,
+        {
+          lucideId: "list",
+          name: "Type",
+          value: getDisplayNameForCellType(columnType),
+          onClick: () => {
+            onSubmenuChange(0 /* TYPE */);
+          }
+        }
+      ),
+      numSources > 0 && columnType !== "source" /* SOURCE */ && columnType !== "source-file" /* SOURCE_FILE */ && /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(
+        MenuItem,
+        {
+          lucideId: "file-key-2",
+          name: "Frontmatter key",
+          value: (frontmatterKey == null ? void 0 : frontmatterKey.value) || "No key set",
+          onClick: () => {
+            onSubmenuChange(10 /* FRONTMATTER_KEY */);
+          }
+        }
+      ),
+      hasOptions && /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(
+        MenuItem,
+        {
+          lucideId: "settings",
+          name: "Options",
+          onClick: () => {
+            onSubmenuChange(1 /* OPTIONS */);
+          }
+        }
+      )
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(Divider, {}),
+    /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(
+      MenuItem,
+      {
+        lucideId: "arrow-up",
+        name: "Ascending",
+        onClick: () => onSortClick("asc" /* ASC */),
+        isSelected: columnSortDir === "asc" /* ASC */
+      }
+    ),
+    /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(
+      MenuItem,
+      {
+        lucideId: "arrow-down",
+        name: "Descending",
+        onClick: () => onSortClick("desc" /* DESC */),
+        isSelected: columnSortDir === "desc" /* DESC */
+      }
+    ),
+    /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(Divider, {}),
+    /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(
+      MenuItem,
+      {
+        lucideId: "eye-off",
+        name: "Hide",
+        onClick: () => onHideClick()
+      }
+    ),
+    index < 4 && numFrozenColumns !== index + 1 && /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(
+      MenuItem,
+      {
+        lucideId: "pin",
+        name: "Freeze up to column",
+        onClick: () => onFrozenColumnsChange(index + 1)
+      }
+    ),
+    numFrozenColumns === index + 1 && /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(
+      MenuItem,
+      {
+        lucideId: "pin-off",
+        name: "Unfreeze columns",
+        onClick: () => onFrozenColumnsChange(1)
+      }
+    ),
+    canDeleteColumn && /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(
+      MenuItem,
+      {
+        lucideId: "trash",
+        name: "Delete",
+        onClick: () => onDeleteClick()
+      }
+    ),
+    columnType !== "embed" /* EMBED */ && columnType !== "number" /* NUMBER */ && columnType !== "source" /* SOURCE */ && /* @__PURE__ */ (0, import_jsx_runtime33.jsxs)(import_jsx_runtime33.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(Divider, {}),
+      /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime33.jsxs)(Flex, { justify: "space-between", align: "center", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(Text, { value: "Wrap content" }),
+        /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(
+          Switch,
+          {
+            value: shouldWrapOverflow,
+            onToggle: (value) => onWrapOverflowToggle(columnId, value)
+          }
+        )
+      ] }) })
+    ] })
+  ] });
+}
+
+// src/react/loom-app/header-cell-edit/index.tsx
+var import_jsx_runtime34 = __toESM(require_jsx_runtime());
+function HeaderMenu({
+  index,
+  isOpen,
+  numSources,
+  column,
+  id: id2,
+  position,
+  numFrozenColumns,
+  frontmatterKeys,
+  canDeleteColumn,
+  closeRequest,
+  onColumnDeleteClick,
+  onClose,
+  onFrozenColumnsChange,
+  onColumnChange,
+  onColumnTypeChange
+}) {
+  const {
+    id: columnId,
+    content,
+    type,
+    sortDir,
+    dateFormat,
+    aspectRatio,
+    verticalPadding,
+    horizontalPadding,
+    shouldWrapOverflow,
+    numberFormat,
+    currencyType,
+    numberPrefix,
+    numberSeparator,
+    numberSuffix,
+    frontmatterKey
+  } = column;
+  const [submenu, setSubmenu] = (0, import_react23.useState)(null);
+  const [localValue, setLocalValue] = (0, import_react23.useState)(content);
+  import_react23.default.useEffect(() => {
+    if (closeRequest !== null) {
+      saveLocalValue();
+      onClose();
+    }
+  }, [
+    content,
+    columnId,
+    closeRequest,
+    submenu,
+    localValue,
+    onColumnChange,
+    onClose
+  ]);
+  function saveLocalValue() {
+    if (localValue !== content)
+      onColumnChange(columnId, { content: localValue });
+  }
+  function handleWrapOverflowToggle() {
+    onColumnChange(columnId, { shouldWrapOverflow: !shouldWrapOverflow });
+  }
+  function handleSortClick(sortDir2) {
+    onColumnChange(columnId, { sortDir: sortDir2 }, { shouldSortRows: true });
+    saveLocalValue();
+    onClose();
+  }
+  function handleAspectRatioClick(value) {
+    onColumnChange(columnId, { aspectRatio: value });
+    saveLocalValue();
+    onClose();
+    setSubmenu(1 /* OPTIONS */);
+  }
+  function handleHorizontalPaddingClick(value) {
+    onColumnChange(columnId, { horizontalPadding: value });
+    saveLocalValue();
+    onClose();
+    setSubmenu(1 /* OPTIONS */);
+  }
+  function handleVerticalPaddingClick(value) {
+    onColumnChange(columnId, { verticalPadding: value });
+    saveLocalValue();
+    onClose();
+    setSubmenu(1 /* OPTIONS */);
+  }
+  function handleTypeClick(type2) {
+    onColumnTypeChange(columnId, type2);
+    saveLocalValue();
+    onClose();
+    setSubmenu(null);
+  }
+  function handleFrozenColumnsChange(value) {
+    onFrozenColumnsChange(value);
+    saveLocalValue();
+    onClose();
+    setSubmenu(null);
+  }
+  function handleHideClick() {
+    onColumnChange(columnId, { isVisible: false });
+    saveLocalValue();
+    onClose();
+    setSubmenu(null);
+  }
+  function handleDeleteClick() {
+    onColumnDeleteClick(columnId);
+    saveLocalValue();
+    onClose();
+    setSubmenu(null);
+  }
+  function handleNumberFormatChange(value, options) {
+    onColumnChange(
+      columnId,
+      __spreadValues({
+        numberFormat: value
+      }, (options == null ? void 0 : options.currency) && {
+        currencyType: options.currency
+      }),
+      { shouldSortRows: true }
+    );
+    setSubmenu(1 /* OPTIONS */);
+  }
+  function handleNumberOptionChange(value) {
+    submenu === 7 /* TEXT_INPUT_NUMBER_PREFIX */ && onColumnChange(
+      columnId,
+      { numberPrefix: value },
+      { shouldSortRows: true }
+    );
+    submenu === 8 /* TEXT_INPUT_NUMBER_SUFFIX */ && onColumnChange(
+      columnId,
+      { numberSuffix: value },
+      { shouldSortRows: true }
+    );
+    submenu === 9 /* TEXT_INPUT_NUMBER_SEPARATOR */ && onColumnChange(
+      columnId,
+      { numberSeparator: value },
+      { shouldSortRows: true }
+    );
+    setSubmenu(null);
+  }
+  function handleDateFormatClick(value) {
+    onColumnChange(columnId, { dateFormat: value });
+    setSubmenu(1 /* OPTIONS */);
+  }
+  function handleFrontmatterKeyChange(frontmatterKey2) {
+    onColumnChange(columnId, {
+      frontmatterKey: frontmatterKey2
+    });
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(Menu, { isOpen, id: id2, position, width: 190, children: /* @__PURE__ */ (0, import_jsx_runtime34.jsxs)("div", { className: "dataloom-header-menu", children: [
+    submenu === null && /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(
+      BaseSubmenu,
+      {
+        index,
+        numSources,
+        canDeleteColumn,
+        shouldWrapOverflow,
+        numFrozenColumns,
+        frontmatterKey,
+        columnId,
+        columnName: localValue,
+        columnType: type,
+        columnSortDir: sortDir,
+        onColumnNameChange: setLocalValue,
+        onSortClick: handleSortClick,
+        onSubmenuChange: setSubmenu,
+        onWrapOverflowToggle: handleWrapOverflowToggle,
+        onDeleteClick: handleDeleteClick,
+        onHideClick: handleHideClick,
+        onFrozenColumnsChange: handleFrozenColumnsChange
+      }
+    ),
+    submenu === 1 /* OPTIONS */ && /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(
+      OptionSubmenu,
+      {
+        title: "Options",
+        type,
+        horizontalPadding,
+        verticalPadding,
+        aspectRatio,
+        dateFormat,
+        numberFormat,
+        currencyType,
+        numberPrefix,
+        numberSuffix,
+        numberSeparator,
+        onBackClick: () => setSubmenu(null),
+        onSubmenuChange: setSubmenu
+      }
+    ),
+    submenu === 6 /* ASPECT_RATIO */ && /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(
+      AspectRatioSubmenu,
+      {
+        title: "Aspect ratio",
+        value: aspectRatio,
+        onValueClick: handleAspectRatioClick,
+        onBackClick: () => setSubmenu(null)
+      }
+    ),
+    submenu === 4 /* HORIZONTAL_PADDING */ && /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(
+      PaddingSubmenu,
+      {
+        title: "Horizontal padding",
+        value: horizontalPadding,
+        onValueClick: handleHorizontalPaddingClick,
+        onBackClick: () => setSubmenu(null)
+      }
+    ),
+    submenu === 5 /* VERTICAL_PADDING */ && /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(
+      PaddingSubmenu,
+      {
+        title: "Vertical padding",
+        value: verticalPadding,
+        onValueClick: handleVerticalPaddingClick,
+        onBackClick: () => setSubmenu(null)
+      }
+    ),
+    submenu === 0 /* TYPE */ && /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(
+      TypeSubmenu,
+      {
+        title: "Type",
+        value: type,
+        onValueClick: handleTypeClick,
+        onBackClick: () => setSubmenu(null)
+      }
+    ),
+    submenu === 3 /* DATE_FORMAT */ && /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(
+      DateFormatSubmenu,
+      {
+        title: "Date Format",
+        value: dateFormat,
+        onValueClick: handleDateFormatClick,
+        onBackClick: () => setSubmenu(1 /* OPTIONS */)
+      }
+    ),
+    submenu === 2 /* CURRENCY */ && /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(
+      NumberFormatSubmenu,
+      {
+        title: "Number format",
+        format: numberFormat,
+        currency: currencyType,
+        onNumberFormatChange: handleNumberFormatChange,
+        onBackClick: () => setSubmenu(1 /* OPTIONS */)
+      }
+    ),
+    submenu === 7 /* TEXT_INPUT_NUMBER_PREFIX */ && /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(
+      TextInputSubmenu,
+      {
+        title: "Prefix",
+        value: numberPrefix,
+        closeRequest,
+        onValueChange: handleNumberOptionChange,
+        onClose,
+        onBackClick: () => setSubmenu(1 /* OPTIONS */)
+      }
+    ),
+    submenu === 8 /* TEXT_INPUT_NUMBER_SUFFIX */ && /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(
+      TextInputSubmenu,
+      {
+        title: "Suffix",
+        closeRequest,
+        value: numberSuffix,
+        onClose,
+        onValueChange: handleNumberOptionChange,
+        onBackClick: () => setSubmenu(1 /* OPTIONS */)
+      }
+    ),
+    submenu === 9 /* TEXT_INPUT_NUMBER_SEPARATOR */ && /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(
+      TextInputSubmenu,
+      {
+        title: "Separator",
+        closeRequest,
+        value: numberSeparator,
+        onClose,
+        onValueChange: handleNumberOptionChange,
+        onBackClick: () => setSubmenu(1 /* OPTIONS */)
+      }
+    ),
+    submenu === 10 /* FRONTMATTER_KEY */ && /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(
+      FrontmatterKeySubmenu,
+      {
+        title: "Frontmatter key",
+        closeRequest,
+        frontmatterKeys,
+        frontmatterKey,
+        onClose,
+        onFrontMatterKeyChange: handleFrontmatterKeyChange,
+        onBackClick: () => setSubmenu(null)
+      }
+    )
+  ] }) });
+}
+
+// src/react/loom-app/header-cell-container/index.tsx
+var import_jsx_runtime35 = __toESM(require_jsx_runtime());
+function HeaderCellContainer({
+  index,
+  column,
+  numSources,
+  numColumns,
+  frontmatterKeys,
+  numFrozenColumns,
+  resizingColumnId,
+  onColumnChange,
+  onColumnDeleteClick,
+  onFrozenColumnsChange,
+  onColumnTypeChange
+}) {
+  const { id: columnId, type, width, content } = column;
+  const COMPONENT_ID = `header-cell-${columnId}`;
+  const menu = useMenu(COMPONENT_ID);
+  const lucideId = getIconIdForCellType(type);
+  let contentClassName = "dataloom-cell--header__inner-container";
+  if (resizingColumnId == null)
+    contentClassName += " dataloom-selectable";
+  return /* @__PURE__ */ (0, import_jsx_runtime35.jsxs)(import_jsx_runtime35.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime35.jsx)(
+      menu_trigger_default,
+      {
+        ref: menu.triggerRef,
+        menuId: menu.id,
+        variant: "cell",
+        isFocused: menu.isTriggerFocused,
+        level: 1 /* ONE */,
+        shouldRunTrigger: resizingColumnId === null,
+        onOpen: () => menu.onOpen(1 /* ONE */, {
+          shouldRequestOnClose: true
+        }),
+        children: /* @__PURE__ */ (0, import_jsx_runtime35.jsxs)(
+          "div",
+          {
+            className: "dataloom-cell--header__container",
+            style: {
+              width
+            },
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime35.jsx)("div", { className: contentClassName, children: /* @__PURE__ */ (0, import_jsx_runtime35.jsxs)(Stack, { isHorizontal: true, spacing: "md", align: "center", children: [
+                /* @__PURE__ */ (0, import_jsx_runtime35.jsx)(Icon, { lucideId, size: "md" }),
+                content
+              ] }) }),
+              /* @__PURE__ */ (0, import_jsx_runtime35.jsx)(
+                ColumnResize,
+                {
+                  columnIndex: index,
+                  currentResizingId: resizingColumnId,
+                  columnId,
+                  width,
+                  onWidthChange: (id2, value) => {
+                    onColumnChange(id2, {
+                      width: value
+                    });
+                  },
+                  onMenuClose: menu.onClose
+                }
+              )
+            ]
+          }
+        )
+      }
+    ),
+    /* @__PURE__ */ (0, import_jsx_runtime35.jsx)(
+      HeaderMenu,
+      {
+        id: menu.id,
+        index,
+        isOpen: menu.isOpen,
+        numSources,
+        closeRequest: menu.closeRequest,
+        frontmatterKeys,
+        position: menu.position,
+        numFrozenColumns,
+        column,
+        canDeleteColumn: numColumns > 1 && type !== "source-file" /* SOURCE_FILE */ && type !== "source" /* SOURCE */,
+        numColumns,
+        onColumnDeleteClick,
+        onColumnChange,
+        onClose: menu.onClose,
+        onFrozenColumnsChange,
+        onColumnTypeChange
+      }
+    )
+  ] });
+}
+
+// src/shared/dragging/drag-context.tsx
+var import_react24 = __toESM(require_react());
+var import_jsx_runtime36 = __toESM(require_jsx_runtime());
+var DragContext = import_react24.default.createContext(null);
+var useDragContext = () => {
+  const value = import_react24.default.useContext(DragContext);
+  if (value === null) {
+    throw new Error(
+      "useDragContext() called without a <DragProvider /> in the tree."
+    );
+  }
+  return value;
+};
+function DragProvider({ children }) {
+  const [dragData, setDragData] = import_react24.default.useState(null);
+  const [touchDropZone, setTouchDropZone] = import_react24.default.useState(
+    null
+  );
+  return /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
+    DragContext.Provider,
+    {
+      value: { dragData, touchDropZone, setDragData, setTouchDropZone },
+      children
+    }
+  );
+}
+
+// src/shared/dragging/utils.ts
+var getRowId = (rowEl) => {
+  const td = rowEl.firstChild;
+  if (!td)
+    return null;
+  const id2 = td.getAttribute("data-row-id");
+  return id2 != null ? id2 : null;
+};
+
+// src/react/loom-app/table/body-row.tsx
+var import_jsx_runtime37 = __toESM(require_jsx_runtime());
+function BodyRow(_a2) {
+  var _b = _a2, {
+    style,
+    children,
+    onRowReorder
+  } = _b, props = __objRest(_b, [
+    "style",
+    "children",
+    "onRowReorder"
+  ]);
+  const { loomState } = useLoomState();
+  const { dragData, setDragData } = useDragContext();
+  function handleDragStart(e) {
+    const el = e.target;
+    const rowId = getRowId(el);
+    if (!rowId)
+      return;
+    setDragData({
+      type: "row",
+      id: rowId
+    });
+  }
+  function handleDragEnd(e) {
+    const el = e.target;
+    el.draggable = false;
+    setDragData(null);
+  }
+  function handleDrop(e) {
+    e.preventDefault();
+    const target = e.currentTarget;
+    const targetId = getRowId(target);
+    if (!targetId)
+      return;
+    if (dragData === null)
+      throw Error("No drag data found");
+    if (dragData.type !== "row")
+      return;
+    if (!confirmSortOrderChange(loomState))
+      return;
+    onRowReorder(dragData.id, targetId);
+  }
+  function handleDragOver(e) {
+    e.preventDefault();
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime37.jsx)(
+    "div",
+    __spreadProps(__spreadValues({
+      className: "dataloom-row",
+      onDrop: handleDrop,
+      onDragStart: handleDragStart,
+      onDragEnd: handleDragEnd,
+      onDragOver: handleDragOver
+    }, props), {
+      style,
+      children
+    })
+  );
+}
+
+// src/react/loom-app/table/header-cell.tsx
+var import_react26 = __toESM(require_react());
+
+// src/react/loom-app/table/hooks.tsx
+var import_react25 = __toESM(require_react());
+var useStickyOffset = (ref, numFrozenColumns, columnIndex) => {
+  const [columnWidths, setColumnWidths] = import_react25.default.useState([]);
+  import_react25.default.useEffect(() => {
+    if (!ref.current)
+      return;
+    if (columnIndex + 1 > numFrozenColumns)
+      return;
+    const tableEl = ref.current.closest(".dataloom-table");
+    if (!tableEl)
+      return;
+    const columns = tableEl.querySelectorAll(".dataloom-cell--header");
+    if (!columns)
+      return;
+    const observers = [];
+    columns.forEach((column, i2) => {
+      if (i2 < columnIndex) {
+        const observer = new ResizeObserver(() => {
+          const rect = column.getBoundingClientRect();
+          setColumnWidths((prevState) => {
+            const newState = [...prevState];
+            newState[i2] = rect.width;
+            return newState;
+          });
+        });
+        observer.observe(column);
+        observers.push(observer);
+      }
+    });
+    return () => {
+      observers.forEach((observer) => observer.disconnect());
+    };
+  }, [numFrozenColumns, columnIndex, ref]);
+  const offset = columnWidths.reduce((a2, b2) => a2 + b2, 0);
+  return offset;
+};
+
+// src/react/loom-app/table/header-cell.tsx
+var import_jsx_runtime38 = __toESM(require_jsx_runtime());
+function HeaderCell({
+  index,
+  columnId,
+  isDraggable,
+  numFrozenColumns,
+  content,
+  onColumnReorder
+}) {
+  const { dragData, touchDropZone, setDragData, setTouchDropZone } = useDragContext();
+  const ref = import_react26.default.useRef(null);
+  const leftOffset = useStickyOffset(ref, numFrozenColumns, index);
+  const shouldFreeze = index + 1 <= numFrozenColumns;
+  function startDrag(el) {
+    const columnId2 = getColumnId(el);
+    if (!columnId2)
+      return;
+    setDragData({
+      type: "column",
+      id: columnId2
+    });
+  }
+  function dropDrag(targetRowId) {
+    if (dragData == null)
+      throw new Error("No drag data found");
+    if (dragData.type !== "column")
+      return;
+    onColumnReorder(dragData.id, targetRowId);
+  }
+  function addDragHover(thEl) {
+    const child = thEl.firstChild;
+    if (!child)
+      return;
+    if (child.classList.contains("dataloom-focusable"))
+      thEl.classList.add("dataloom-th--drag-over");
+  }
+  function removeDragHover() {
+    const el = document.querySelector(".dataloom-th--drag-over");
+    if (el)
+      el.classList.remove("dataloom-th--drag-over");
+  }
+  function getColumnId(columnEl) {
+    const id2 = columnEl.getAttribute("data-column-id");
+    if (!id2)
+      return null;
+    return id2;
+  }
+  function handleDragStart(e) {
+    const el = e.target;
+    startDrag(el);
+  }
+  function handleDrop(e) {
+    e.preventDefault();
+    const target = e.currentTarget;
+    const targetId = getColumnId(target);
+    if (!targetId)
+      return;
+    dropDrag(targetId);
+  }
+  function handleDragEnd() {
+    setDragData(null);
+  }
+  function handleDragOver(e) {
+    e.preventDefault();
+  }
+  function handleTouchStart(e) {
+    e.stopPropagation();
+    const el = e.currentTarget;
+    startDrag(el);
+  }
+  const handleTouchMove = (e) => {
+    e.stopPropagation();
+    if (dragData == null)
+      return;
+    const { clientX, clientY } = e.touches[0];
+    const elementUnderneath = document.elementFromPoint(clientX, clientY);
+    if (!elementUnderneath)
+      return;
+    const thEl = elementUnderneath.closest(
+      ".dataloom-cell--header"
+    );
+    if (!thEl)
+      return;
+    const targetId = getColumnId(thEl);
+    if (!targetId)
+      return;
+    if (targetId === dragData.id)
+      return;
+    const { top, left, bottom, right } = thEl.getBoundingClientRect();
+    setTouchDropZone({
+      id: targetId,
+      top,
+      left,
+      bottom,
+      right
+    });
+    removeDragHover();
+    if (thEl.lastChild)
+      addDragHover(thEl);
+  };
+  function handleTouchEnd(e) {
+    if (touchDropZone) {
+      const touchX = e.changedTouches[0].clientX;
+      const touchY = e.changedTouches[0].clientY;
+      const isInsideDropZone = touchX >= touchDropZone.left && touchX <= touchDropZone.right && touchY >= touchDropZone.top && touchY <= touchDropZone.bottom;
+      if (isInsideDropZone) {
+        dropDrag(touchDropZone.id);
+      }
+    }
+    setDragData(null);
+    setTouchDropZone(null);
+    removeDragHover();
+  }
+  function handleTouchCancel() {
+    setDragData(null);
+    setTouchDropZone(null);
+    removeDragHover();
+  }
+  let className = "dataloom-cell dataloom-cell--header";
+  if (shouldFreeze)
+    className += " dataloom-cell--freeze dataloom-cell--freeze-header";
+  return /* @__PURE__ */ (0, import_jsx_runtime38.jsx)(
+    "div",
+    __spreadProps(__spreadValues({
+      className,
+      ref,
+      "data-column-id": columnId,
+      style: {
+        left: shouldFreeze ? numToPx(leftOffset) : void 0
+      }
+    }, isDraggable && {
+      draggable: true,
+      onDrop: handleDrop,
+      onDragStart: handleDragStart,
+      onDragOver: handleDragOver,
+      onDragEnd: handleDragEnd,
+      onTouchStart: handleTouchStart,
+      onTouchMove: handleTouchMove,
+      onTouchEnd: handleTouchEnd,
+      onTouchCancel: handleTouchCancel
+    }), {
+      children: content
+    })
+  );
+}
+
+// src/react/loom-app/table/body-cell.tsx
+var import_react27 = __toESM(require_react());
+var import_jsx_runtime39 = __toESM(require_jsx_runtime());
+function BodyCell({
+  rowId,
+  index,
+  numFrozenColumns,
+  content
+}) {
+  const ref = import_react27.default.useRef(null);
+  const leftOffset = useStickyOffset(ref, numFrozenColumns, index);
+  const shouldFreeze = index + 1 <= numFrozenColumns;
+  let className = "dataloom-cell dataloom-cell--body";
+  if (shouldFreeze)
+    className += " dataloom-cell--freeze";
+  return /* @__PURE__ */ (0, import_jsx_runtime39.jsx)(
+    "div",
+    {
+      className,
+      ref,
+      "data-row-id": index === 0 ? rowId : void 0,
+      style: { left: shouldFreeze ? numToPx(leftOffset) : void 0 },
+      children: content
+    }
+  );
+}
+
+// src/react/loom-app/table/footer-cell.tsx
+var import_react28 = __toESM(require_react());
+var import_jsx_runtime40 = __toESM(require_jsx_runtime());
+function FooterCell({
+  index,
+  content,
+  numFrozenColumns
+}) {
+  const ref = import_react28.default.useRef(null);
+  const leftOffset = useStickyOffset(ref, numFrozenColumns, index);
+  const shouldFreeze = index + 1 <= numFrozenColumns;
+  let className = "dataloom-cell dataloom-cell--footer";
+  if (shouldFreeze)
+    className += " dataloom-cell--freeze dataloom-cell--freeze-footer";
+  return /* @__PURE__ */ (0, import_jsx_runtime40.jsx)(
+    "div",
+    {
+      ref,
+      className,
+      style: {
+        left: shouldFreeze ? numToPx(leftOffset) : void 0
+      },
+      children: content
+    }
+  );
+}
+
+// src/react/loom-app/new-column-button/index.tsx
+var import_jsx_runtime41 = __toESM(require_jsx_runtime());
+function NewColumnButton({ onClick }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime41.jsx)("div", { className: "dataloom-new-column", children: /* @__PURE__ */ (0, import_jsx_runtime41.jsx)(
+    Button,
+    {
+      icon: /* @__PURE__ */ (0, import_jsx_runtime41.jsx)(Icon, { lucideId: "plus" }),
+      ariaLabel: "New column",
+      onClick: () => onClick()
+    }
+  ) });
+}
+
+// src/react/shared/menu-button/index.tsx
+var import_react29 = __toESM(require_react());
+var import_jsx_runtime42 = __toESM(require_jsx_runtime());
+var MenuButton = import_react29.default.forwardRef(
+  ({
+    menuId,
+    isDisabled,
+    isFocused,
+    variant,
+    level,
+    ariaLabel,
+    icon,
+    children,
+    onClick,
+    onMouseDown,
+    onOpen
+  }, ref) => {
+    return /* @__PURE__ */ (0, import_jsx_runtime42.jsx)(
+      menu_trigger_default,
+      {
+        ref,
+        menuId,
+        isFocused,
+        variant: "button",
+        level,
+        onClick,
+        onMouseDown,
+        onOpen,
+        children: /* @__PURE__ */ (0, import_jsx_runtime42.jsx)(
+          Button,
+          {
+            isDisabled,
+            isFocusable: false,
+            variant,
+            icon,
+            ariaLabel,
+            children
+          }
+        )
+      }
+    );
+  }
+);
+var menu_button_default = MenuButton;
+
+// src/react/loom-app/row-options/row-menu/index.tsx
+var import_jsx_runtime43 = __toESM(require_jsx_runtime());
+function RowOptions({
+  id: id2,
+  isOpen,
+  position,
+  canDeleteRow,
+  onDeleteClick,
+  onInsertAboveClick,
+  onInsertBelowClick
+}) {
+  return /* @__PURE__ */ (0, import_jsx_runtime43.jsx)(
+    Menu,
+    {
+      id: id2,
+      isOpen,
+      openDirection: "bottom-right",
+      position,
+      children: /* @__PURE__ */ (0, import_jsx_runtime43.jsxs)("div", { className: "dataloom-row-menu", children: [
+        canDeleteRow && /* @__PURE__ */ (0, import_jsx_runtime43.jsx)(
+          MenuItem,
+          {
+            lucideId: "trash-2",
+            name: "Delete",
+            onClick: () => onDeleteClick()
+          }
+        ),
+        /* @__PURE__ */ (0, import_jsx_runtime43.jsx)(
+          MenuItem,
+          {
+            lucideId: "chevrons-up",
+            name: "Insert above",
+            onClick: () => onInsertAboveClick()
+          }
+        ),
+        /* @__PURE__ */ (0, import_jsx_runtime43.jsx)(
+          MenuItem,
+          {
+            lucideId: "chevrons-down",
+            name: "Insert below",
+            onClick: () => onInsertBelowClick()
+          }
+        )
+      ] })
+    }
+  );
+}
+
+// src/react/loom-app/row-options/index.tsx
+var import_jsx_runtime44 = __toESM(require_jsx_runtime());
+function RowOptions2({
+  rowId,
+  source,
+  onDeleteClick,
+  onInsertAboveClick,
+  onInsertBelowClick,
+  onRowReorder
+}) {
+  const COMPONENT_ID = `row-options-${rowId}`;
+  const menu = useMenu(COMPONENT_ID);
+  const { dragData, touchDropZone, setDragData, setTouchDropZone } = useDragContext();
+  const { loomState } = useLoomState();
+  function handleDeleteClick() {
+    onDeleteClick(rowId);
+    menu.onClose();
+  }
+  function handleInsertAboveClick() {
+    onInsertAboveClick(rowId);
+    menu.onClose();
+  }
+  function handleInsertBelowClick() {
+    onInsertBelowClick(rowId);
+    menu.onClose();
+  }
+  function handleMouseDown(e) {
+    const el = e.target;
+    const row = el.closest(".dataloom-row");
+    if (row) {
+      row.setAttr("draggable", true);
+      const dragStartEvent = new DragEvent("dragstart");
+      Object.defineProperty(dragStartEvent, "target", {
+        value: row
+      });
+      row.dispatchEvent(dragStartEvent);
+    }
+  }
+  function handleTouchStart(e) {
+    e.stopPropagation();
+    const targetEl = e.currentTarget;
+    const rowEl = targetEl.closest(".dataloom-row");
+    if (!rowEl)
+      throw new Error("Row not found");
+    const rowId2 = getRowId(rowEl);
+    if (!rowId2)
+      return;
+    setDragData({
+      type: "row",
+      id: rowId2
+    });
+  }
+  const handleTouchMove = (e) => {
+    e.stopPropagation();
+    if (dragData == null)
+      return;
+    const { clientX, clientY } = e.touches[0];
+    const elementUnderneath = document.elementFromPoint(clientX, clientY);
+    if (!elementUnderneath)
+      return;
+    const rowEl = elementUnderneath.closest(
+      ".dataloom-row"
+    );
+    if (!rowEl)
+      return;
+    const targetId = getRowId(rowEl);
+    if (!targetId)
+      return;
+    if (targetId === dragData.id)
+      return;
+    const { top, left, bottom, right } = rowEl.getBoundingClientRect();
+    setTouchDropZone({
+      id: targetId,
+      top,
+      left,
+      bottom,
+      right
+    });
+    removeDragHover();
+    addDragHover(rowEl);
+  };
+  function handleTouchCancel() {
+    endDrag();
+  }
+  function handleTouchEnd(e) {
+    if (touchDropZone) {
+      const touchX = e.changedTouches[0].clientX;
+      const touchY = e.changedTouches[0].clientY;
+      const isInsideDropZone = touchX >= touchDropZone.left && touchX <= touchDropZone.right && touchY >= touchDropZone.top && touchY <= touchDropZone.bottom;
+      if (isInsideDropZone) {
+        if (dragData === null)
+          throw Error("No drag data found");
+        if (dragData.type !== "row")
+          return;
+        if (!confirmSortOrderChange(loomState))
+          return;
+        onRowReorder(dragData.id, touchDropZone.id);
+      }
+    }
+    endDrag();
+  }
+  function endDrag() {
+    setDragData(null);
+    setTouchDropZone(null);
+    removeDragHover();
+  }
+  function addDragHover(rowEl) {
+    const children = rowEl.querySelectorAll(".dataloom-cell");
+    for (let i2 = 0; i2 < children.length; i2++) {
+      children[i2].classList.add("dataloom-tr--drag-over");
+    }
+  }
+  function removeDragHover() {
+    const children = document.querySelectorAll(".dataloom-tr--drag-over");
+    for (let i2 = 0; i2 < children.length; i2++) {
+      children[i2].classList.remove("dataloom-tr--drag-over");
+    }
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime44.jsxs)(import_jsx_runtime44.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime44.jsx)("div", { className: "dataloom-row-options", children: /* @__PURE__ */ (0, import_jsx_runtime44.jsx)(Padding, { p: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime44.jsx)(
+      "div",
+      {
+        className: "dataloom-row-options__container",
+        onTouchStart: handleTouchStart,
+        onTouchMove: handleTouchMove,
+        onTouchEnd: handleTouchEnd,
+        onTouchCancel: handleTouchCancel,
+        children: /* @__PURE__ */ (0, import_jsx_runtime44.jsx)(
+          menu_button_default,
+          {
+            isFocused: menu.isTriggerFocused,
+            menuId: menu.id,
+            ref: menu.triggerRef,
+            level: 1 /* ONE */,
+            icon: /* @__PURE__ */ (0, import_jsx_runtime44.jsx)(Icon, { lucideId: "grip-vertical" }),
+            ariaLabel: "Drag to move or click to open",
+            onMouseDown: handleMouseDown,
+            onOpen: () => menu.onOpen(1 /* ONE */)
+          }
+        )
+      }
+    ) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime44.jsx)(
+      RowOptions,
+      {
+        id: menu.id,
+        isOpen: menu.isOpen,
+        position: menu.position,
+        canDeleteRow: source === null,
+        onDeleteClick: handleDeleteClick,
+        onInsertAboveClick: handleInsertAboveClick,
+        onInsertBelowClick: handleInsertBelowClick
+      }
+    )
+  ] });
+}
+
+// src/react/loom-app/body-cell-container/index.tsx
+var import_react40 = __toESM(require_react());
+var import_obsidian13 = require("obsidian");
+
+// src/react/loom-app/text-cell/index.tsx
+var import_jsx_runtime45 = __toESM(require_jsx_runtime());
+function TextCell({ value }) {
+  const { containerRef, renderRef } = useRenderMarkdown(value);
+  return /* @__PURE__ */ (0, import_jsx_runtime45.jsx)("div", { className: "dataloom-text-cell", children: /* @__PURE__ */ (0, import_jsx_runtime45.jsx)(
+    "div",
+    {
+      className: "dataloom-text-cell__container",
+      ref: (node) => {
+        containerRef.current = node;
+        appendOrReplaceFirstChild(node, renderRef.current);
+      }
+    }
+  ) });
+}
+
+// src/shared/color.ts
+var findColorClassName = (isDarkMode, color) => {
+  switch (color) {
+    case "light gray" /* LIGHT_GRAY */:
+      return isDarkMode ? "dataloom-light-gray--dark" : "dataloom-light-gray--light";
+    case "gray" /* GRAY */:
+      return isDarkMode ? "dataloom-gray--dark" : "dataloom-gray--light";
+    case "brown" /* BROWN */:
+      return isDarkMode ? "dataloom-brown--dark" : "dataloom-brown--light";
+    case "orange" /* ORANGE */:
+      return isDarkMode ? "dataloom-orange--dark" : "dataloom-orange--light";
+    case "yellow" /* YELLOW */:
+      return isDarkMode ? "dataloom-yellow--dark" : "dataloom-yellow--light";
+    case "green" /* GREEN */:
+      return isDarkMode ? "dataloom-green--dark" : "dataloom-green--light";
+    case "blue" /* BLUE */:
+      return isDarkMode ? "dataloom-blue--dark" : "dataloom-blue--light";
+    case "purple" /* PURPLE */:
+      return isDarkMode ? "dataloom-purple--dark" : "dataloom-purple--light";
+    case "pink" /* PINK */:
+      return isDarkMode ? "dataloom-pink--dark" : "dataloom-pink--light";
+    case "red" /* RED */:
+      return isDarkMode ? "dataloom-red--dark" : "dataloom-red--light";
+    default:
+      return "";
+  }
+};
+var randomColor = () => {
+  const index = Math.floor(Math.random() * Object.values(Color).length);
+  return Object.values(Color)[index];
+};
+
+// src/react/shared/tag/index.tsx
+var import_jsx_runtime46 = __toESM(require_jsx_runtime());
+function Tag5({
+  id: id2,
+  color,
+  maxWidth,
+  content,
+  showRemoveButton,
+  onRemoveClick
+}) {
+  const { isDarkMode } = useAppSelector((state) => state.global);
+  let tagClassName = "dataloom-tag";
+  tagClassName += " " + findColorClassName(isDarkMode, color);
+  if (onRemoveClick !== void 0 && id2 === void 0) {
+    throw new Error(
+      "An id must defined when the onRemoveClick handler is present."
+    );
+  }
+  let contentClassName = "dataloom-tag-content";
+  if (maxWidth !== void 0) {
+    contentClassName += " dataloom-overflow--ellipsis";
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime46.jsx)("div", { className: tagClassName, children: /* @__PURE__ */ (0, import_jsx_runtime46.jsxs)(Stack, { spacing: "sm", justify: "center", isHorizontal: true, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(
+      "div",
+      {
+        className: contentClassName,
+        style: {
+          maxWidth
+        },
+        children: content
+      }
+    ),
+    showRemoveButton && /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(Padding, { width: "max-content", children: /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(
+      Button,
+      {
+        isSmall: true,
+        icon: /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(Icon, { lucideId: "x" }),
+        onClick: () => {
+          if (id2 && onRemoveClick)
+            onRemoveClick(id2);
+        }
+      }
+    ) })
+  ] }) });
+}
+
+// src/react/loom-app/tag-cell/index.tsx
+var import_jsx_runtime47 = __toESM(require_jsx_runtime());
+function TagCell({ content, color }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime47.jsx)("div", { className: "dataloom-tag-cell", children: /* @__PURE__ */ (0, import_jsx_runtime47.jsx)(Tag5, { content, color }) });
+}
+
+// src/react/loom-app/checkbox-cell/index.tsx
+var import_jsx_runtime48 = __toESM(require_jsx_runtime());
+function CheckboxCell({ value }) {
+  const isChecked = isCheckboxChecked(value);
+  return /* @__PURE__ */ (0, import_jsx_runtime48.jsx)("div", { className: "dataloom-checkbox-cell", children: /* @__PURE__ */ (0, import_jsx_runtime48.jsx)(
+    "input",
+    {
+      className: "task-list-item-checkbox",
+      type: "checkbox",
+      checked: isChecked,
+      onChange: () => {
+      }
+    }
+  ) });
+}
+
+// src/shared/cell-content/date-cell-content.ts
+var getDateCellContent = (dateTime, format) => {
+  if (dateTime !== null)
+    return unixTimeToDateString(dateTime, format);
+  return "";
+};
+
+// src/react/loom-app/date-cell/index.tsx
+var import_jsx_runtime49 = __toESM(require_jsx_runtime());
+function DateCell({ value, format }) {
+  const content = getDateCellContent(value, format);
+  return /* @__PURE__ */ (0, import_jsx_runtime49.jsx)("div", { className: "dataloom-date-cell", children: content });
+}
+
+// src/react/loom-app/number-cell/index.tsx
+var import_jsx_runtime50 = __toESM(require_jsx_runtime());
+function NumberCell({
+  value,
+  currency,
+  format,
+  prefix: prefix2,
+  suffix,
+  separator
+}) {
+  if (isNumber(value)) {
+    value = getNumberCellContent(format, value, {
+      currency,
+      prefix: prefix2,
+      suffix,
+      separator
+    });
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime50.jsx)("div", { className: "dataloom-number-cell", children: value });
+}
+
+// src/react/loom-app/number-cell-edit/index.tsx
+var import_react30 = __toESM(require_react());
+var import_jsx_runtime51 = __toESM(require_jsx_runtime());
+function NumberCellEdit({
+  closeRequest,
+  value,
+  onChange,
+  onClose
+}) {
+  const initialValue = isNumber(value) ? value : "";
+  const [localValue, setLocalValue] = import_react30.default.useState(initialValue);
+  const inputRef = import_react30.default.useRef(null);
+  usePlaceCursorAtEnd(inputRef, localValue);
+  import_react30.default.useEffect(() => {
+    if (closeRequest !== null) {
+      if (localValue !== value)
+        onChange(localValue);
+      onClose();
+    }
+  }, [value, localValue, closeRequest, onClose, onChange]);
+  function handleChange(inputValue) {
+    if (!isNumberInput(inputValue))
+      return;
+    setLocalValue(inputValue);
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime51.jsx)("div", { className: "dataloom-number-cell-edit", children: /* @__PURE__ */ (0, import_jsx_runtime51.jsx)(
+    input_default,
+    {
+      ref: inputRef,
+      focusOutline: "default",
+      inputMode: "numeric",
+      value: localValue,
+      onChange: handleChange,
+      onBlur: (e) => {
+        e.target.classList.add("dataloom-blur--cell");
+      }
+    }
+  ) });
+}
+
+// src/react/loom-app/text-cell-edit/index.tsx
+var import_react33 = __toESM(require_react());
+
+// src/react/shared/suggest-list/index.tsx
+var import_react32 = __toESM(require_react());
+var import_fuzzysort = __toESM(require_fuzzysort());
+
+// src/react/shared/suggest-list/suggest-item/index.tsx
+var import_react31 = __toESM(require_react());
+var import_jsx_runtime52 = __toESM(require_jsx_runtime());
+var SuggestItem = import_react31.default.forwardRef(
+  function SuggestItem2({ index, file, isHighlighted, onItemClick }, ref) {
+    const logger = useLogger();
+    const handleClick = import_react31.default.useCallback(
+      (e) => {
+        e.stopPropagation();
+        onItemClick(file);
+      },
+      [file, onItemClick]
+    );
+    function handleKeyDown(e) {
+      logger("SuggestItem handleKeyDown");
+      if (e.key === "Enter") {
+        e.preventDefault();
+        onItemClick(file);
+      }
+    }
+    let name = "No match found";
+    if (file) {
+      if (file.extension === "md") {
+        name = file.basename;
+      } else {
+        name = file.name;
+      }
+    }
+    let path = null;
+    if (file) {
+      if (file.parent && file.parent.path !== "/") {
+        path = file.parent.path + "/";
+      }
+    }
+    return /* @__PURE__ */ (0, import_jsx_runtime52.jsxs)(
+      "div",
+      {
+        tabIndex: 0,
+        "data-index": index,
+        className: "dataloom-suggest-item dataloom-focusable",
+        ref,
+        style: {
+          backgroundColor: isHighlighted ? "var(--background-modifier-hover)" : "var(--background-primary)"
+        },
+        onClick: handleClick,
+        onKeyDown: handleKeyDown,
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime52.jsx)(
+            Text,
+            {
+              variant: "semibold",
+              size: "xs",
+              value: name,
+              maxWidth: "275px"
+            }
+          ),
+          path && /* @__PURE__ */ (0, import_jsx_runtime52.jsx)(Text, { value: path, size: "xs" })
+        ]
+      }
+    );
+  }
+);
+var suggest_item_default = SuggestItem;
+
+// src/react/shared/suggest-list/suggest-input/index.tsx
+var import_jsx_runtime53 = __toESM(require_jsx_runtime());
+function SuggestInput({ value, onChange }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime53.jsx)("div", { className: "dataloom-suggest-input", children: /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(
+    input_default,
+    {
+      isTransparent: true,
+      focusOutline: "none",
+      placeholder: "Search for a file...",
+      value,
+      onChange
+    }
+  ) });
+}
+
+// src/react/shared/suggest-list/clear-button.tsx
+var import_jsx_runtime54 = __toESM(require_jsx_runtime());
+function ClearButton({ onClick }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime54.jsxs)(import_jsx_runtime54.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime54.jsx)(Divider, {}),
+    /* @__PURE__ */ (0, import_jsx_runtime54.jsx)(MenuItem, { name: "Clear", onClick })
+  ] });
+}
+
+// src/react/shared/suggest-list/create-button.tsx
+var import_jsx_runtime55 = __toESM(require_jsx_runtime());
+function CreateButton({ value, onClick }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime55.jsxs)(import_jsx_runtime55.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(
+      MenuItem,
+      {
+        name: `Create ${value}`,
+        onClick: () => onClick == null ? void 0 : onClick(value)
+      }
+    ),
+    /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(Divider, {})
+  ] });
+}
+
+// src/react/shared/suggest-list/index.tsx
+var import_jsx_runtime56 = __toESM(require_jsx_runtime());
+function SuggestList({
+  hiddenExtensions = [],
+  showInput,
+  showCreate,
+  showClear,
+  filterValue,
+  onItemClick,
+  onClearClick,
+  onCreateClick
+}) {
+  const [localFilterValue, setLocalFilterValue] = import_react32.default.useState(
+    filterValue != null ? filterValue : ""
+  );
+  const highlightItemRef = import_react32.default.useRef(null);
+  const [highlightIndex, setHighlightIndex] = import_react32.default.useState(-1);
+  const { app } = useAppMount();
+  const logger = useLogger();
+  import_react32.default.useEffect(() => {
+    setLocalFilterValue(filterValue != null ? filterValue : "");
+  }, [filterValue]);
+  import_react32.default.useEffect(() => {
+    if (highlightItemRef.current) {
+      highlightItemRef.current.scrollIntoView({
+        behavior: "auto",
+        block: "nearest"
+      });
+    }
+  }, [highlightIndex]);
+  const files = app.vault.getFiles().filter((file) => !hiddenExtensions.includes(file.extension));
+  let filteredFiles = [];
+  if (localFilterValue !== "") {
+    const results = import_fuzzysort.default.go(localFilterValue, files, {
+      key: "path",
+      limit: 20
+    });
+    filteredFiles = results.map((result) => result.obj);
+  } else {
+    filteredFiles = files;
+    filteredFiles.sort((a2, b2) => b2.stat.mtime - a2.stat.mtime);
+    filteredFiles = filteredFiles.slice(0, 20);
+  }
+  function handleKeyDown() {
+    logger("SuggestMenuContent handleKeyDown");
+    const focusedEl = document.activeElement;
+    if (!focusedEl)
+      return;
+    if (focusedEl.classList.contains("dataloom-suggest-item")) {
+      const index = focusedEl.getAttribute("data-index");
+      if (!index)
+        return;
+      setHighlightIndex(parseInt(index));
+      return;
+    }
+    setHighlightIndex(-1);
+  }
+  const doesFilterFileExist = filteredFiles.map((file) => file.path).includes(localFilterValue);
+  return /* @__PURE__ */ (0, import_jsx_runtime56.jsxs)("div", { className: "dataloom-suggest-menu", onKeyDown: handleKeyDown, children: [
+    showInput && files.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime56.jsxs)(import_jsx_runtime56.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(
+        SuggestInput,
+        {
+          value: localFilterValue,
+          onChange: setLocalFilterValue
+        }
+      ),
+      /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(Divider, {})
+    ] }),
+    showCreate && !doesFilterFileExist && localFilterValue !== "" && /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(
+      CreateButton,
+      {
+        value: localFilterValue,
+        onClick: onCreateClick
+      }
+    ),
+    files.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime56.jsxs)("div", { className: "dataloom-suggest-menu__container", children: [
+      filteredFiles.length === 0 && !showCreate && /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(
+        suggest_item_default,
+        {
+          index: 0,
+          file: null,
+          ref: null,
+          isHighlighted: true,
+          onItemClick
+        }
+      ),
+      filteredFiles.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(import_jsx_runtime56.Fragment, { children: filteredFiles.map((file, index) => /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(
+        suggest_item_default,
+        {
+          index,
+          ref: highlightIndex === index ? highlightItemRef : null,
+          file,
+          isHighlighted: index === highlightIndex,
+          onItemClick
+        },
+        file.path
+      )) })
+    ] }),
+    files.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(Padding, { px: "md", pb: "md", children: /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(Text, { value: "No image files found" }) }),
+    showClear && /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(ClearButton, { onClick: onClearClick })
+  ] });
+}
+
+// src/react/loom-app/text-cell-edit/suggest-menu.tsx
+var import_jsx_runtime57 = __toESM(require_jsx_runtime());
+function SuggestMenu({
+  id: id2,
+  isOpen,
+  position,
+  filterValue,
+  onItemClick
+}) {
+  return /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(
+    Menu,
+    {
+      id: id2,
+      isOpen,
+      position,
+      width: 275,
+      topOffset: 30,
+      leftOffset: 30,
+      children: /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(SuggestList, { filterValue, onItemClick })
+    }
+  );
+}
+
+// src/react/loom-app/text-cell-edit/utils.ts
+var import_lodash7 = __toESM(require_lodash());
+
+// src/react/loom-app/text-cell-edit/constants.ts
+var DOUBLE_BRACKET_REGEX = new RegExp(/\[\[(.*?)]]/g);
+
+// src/react/loom-app/text-cell-edit/utils.ts
+var isSurroundedByDoubleBrackets = (inputValue, selectionStart) => {
+  let match;
+  const regex = (0, import_lodash7.cloneDeep)(DOUBLE_BRACKET_REGEX);
+  while ((match = regex.exec(inputValue)) !== null) {
+    const innerText2 = match[1];
+    const startIndex = match.index + 2;
+    const endIndex = startIndex + innerText2.length - 1;
+    const index = selectionStart - 1;
+    if (innerText2 === "" && index === startIndex - 1)
+      return true;
+    if (index >= startIndex && index <= endIndex)
+      return true;
+  }
+  return false;
+};
+var doubleBracketsInnerReplace = (inputValue, selectionStart, replacement) => {
+  let match;
+  const regex = (0, import_lodash7.cloneDeep)(DOUBLE_BRACKET_REGEX);
+  while ((match = regex.exec(inputValue)) !== null) {
+    const innerText2 = match[1];
+    const startIndex = match.index + 2;
+    const endIndex = startIndex + innerText2.length - 1;
+    const index = selectionStart - 1;
+    if (innerText2 === "" && index === startIndex - 1) {
+      return inputValue.slice(0, startIndex) + replacement + inputValue.slice(endIndex + 1);
+    }
+    if (index >= startIndex && index <= endIndex) {
+      return inputValue.slice(0, startIndex) + replacement + inputValue.slice(endIndex + 1);
+    }
+  }
+  return inputValue;
+};
+var getFilterValue = (inputValue, selectionStart) => {
+  let match;
+  const regex = (0, import_lodash7.cloneDeep)(DOUBLE_BRACKET_REGEX);
+  while ((match = regex.exec(inputValue)) !== null) {
+    const innerText2 = match[1];
+    const startIndex = match.index + 2;
+    const endIndex = startIndex + innerText2.length - 1;
+    const index = selectionStart - 1;
+    if (innerText2 === "" && index === startIndex - 1) {
+      return innerText2;
+    }
+    if (index >= startIndex && index <= endIndex) {
+      return innerText2;
+    }
+  }
+  return null;
+};
+var addClosingBracket = (value, selectionStart) => {
+  const char = value[selectionStart - 1];
+  if (char === "[")
+    value = value + "]";
+  return value;
+};
+var removeClosingBracket = (previousValue, value, selectionStart) => {
+  const previousChar = previousValue[selectionStart];
+  const nextChar = value[selectionStart];
+  if (previousChar === "[" && nextChar === "]") {
+    const updatedValue = value.slice(0, selectionStart) + value.slice(selectionStart + 1);
+    value = updatedValue;
+  }
+  return value;
+};
+
+// src/shared/link/link-utils.ts
+var getBasename = (filePath) => {
+  const fileName = stripDirectory(filePath);
+  return stripFileExtension(fileName);
+};
+var getExtension = (filePath) => {
+  return filePath.substring(filePath.lastIndexOf(".") + 1);
+};
+var stripFileExtension = (filePath) => {
+  return filePath.substring(0, filePath.lastIndexOf("."));
+};
+var stripDirectory = (filePath) => {
+  return filePath.substring(filePath.lastIndexOf("/") + 1);
+};
+var isMarkdownFile = (extension) => {
+  return extension === "md";
+};
+var getWikiLinkText = (path) => {
+  const basename = getBasename(path);
+  const extension = getExtension(path);
+  let text = basename;
+  if (!isMarkdownFile(extension)) {
+    text = stripDirectory(path);
+    if (path.includes("/"))
+      text = `${path}|${basename}`;
+  } else {
+    const pathWithoutExtension = stripFileExtension(path);
+    if (path.includes("/"))
+      text = `${pathWithoutExtension}|${basename}`;
+  }
+  return text;
+};
+
+// src/react/loom-app/text-cell-edit/index.tsx
+var import_jsx_runtime58 = __toESM(require_jsx_runtime());
+function TextCellEdit({
+  cellId,
+  shouldWrapOverflow,
+  closeRequest,
+  value,
+  onChange,
+  onClose
+}) {
+  var _a2, _b, _c;
+  const COMPONENT_ID = `suggest-menu-${cellId}`;
+  const menu = useMenu(COMPONENT_ID);
+  const [localValue, setLocalValue] = import_react33.default.useState(value);
+  const [cursorPosition, setCursorPosition] = import_react33.default.useState(
+    null
+  );
+  const inputRef = import_react33.default.useRef(null);
+  const logger = useLogger();
+  usePlaceCursorAtEnd(inputRef, localValue);
+  import_react33.default.useEffect(() => {
+    if (inputRef.current) {
+      const selectionIndex = inputRef.current.selectionStart;
+      if (localValue[selectionIndex - 1] === "]" && localValue[selectionIndex - 2] === "[") {
+        inputRef.current.selectionStart = selectionIndex - 1;
+        inputRef.current.selectionEnd = selectionIndex - 1;
+      } else if (localValue[selectionIndex - 1] === "]" && localValue[selectionIndex - 2] === "]" && localValue[selectionIndex - 3] === "[") {
+        inputRef.current.selectionStart = selectionIndex - 2;
+        inputRef.current.selectionEnd = selectionIndex - 2;
+      }
+    }
+  }, [inputRef, localValue]);
+  import_react33.default.useEffect(() => {
+    if (closeRequest !== null) {
+      logger("TextCellEdit onClose");
+      if (localValue !== value)
+        onChange(localValue);
+      onClose();
+    }
+  }, [logger, value, localValue, closeRequest, onClose, onChange]);
+  function handleKeyDown(e) {
+    const el = e.target;
+    logger("TextCellEdit handleKeyDown");
+    if (e.key === "Enter") {
+      if (!isInsertLineDown(e) && !isInsertLineAltDown(e)) {
+        e.preventDefault();
+      }
+    }
+    if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
+      const cursorPosition2 = el.selectionStart;
+      if (menu.isOpen) {
+        if (!isSurroundedByDoubleBrackets(value, cursorPosition2))
+          menu.onClose();
+      }
+      if (inputRef.current) {
+        const inputEl = inputRef.current;
+        inputEl.selectionStart = cursorPosition2;
+        inputEl.selectionEnd = cursorPosition2;
+      }
+    }
+  }
+  import_react33.default.useEffect(() => {
+    if (cursorPosition !== null && inputRef.current) {
+      inputRef.current.selectionStart = cursorPosition;
+      inputRef.current.selectionEnd = cursorPosition;
+      setCursorPosition(null);
+    }
+  }, [cursorPosition, inputRef]);
+  function handleMenuOpen() {
+    menu.onOpen(2 /* TWO */);
+  }
+  function handleTextareaChange(e) {
+    logger("TextCellEdit handleTextareaChange");
+    const inputValue = e.target.value;
+    let newValue = inputValue;
+    if (inputRef.current) {
+      const inputEl = inputRef.current;
+      if (inputValue.length > localValue.length) {
+        newValue = addClosingBracket(newValue, inputEl.selectionStart);
+      } else {
+        newValue = removeClosingBracket(
+          localValue,
+          inputValue,
+          inputEl.selectionStart
+        );
+      }
+      if (isSurroundedByDoubleBrackets(newValue, inputEl.selectionStart)) {
+        handleMenuOpen();
+      }
+    }
+    setLocalValue(newValue);
+  }
+  function handleSuggestItemClick(file) {
+    var _a3, _b2;
+    if (file) {
+      const fileName = getWikiLinkText(file.path);
+      const newValue = doubleBracketsInnerReplace(
+        localValue,
+        (_b2 = (_a3 = inputRef.current) == null ? void 0 : _a3.selectionStart) != null ? _b2 : 0,
+        fileName
+      );
+      onChange(newValue);
+    }
+    menu.onClose();
+  }
+  const overflowClassName = useOverflow(shouldWrapOverflow);
+  const filterValue = (_c = getFilterValue(localValue, (_b = (_a2 = inputRef.current) == null ? void 0 : _a2.selectionStart) != null ? _b : 0)) != null ? _c : "";
+  let className = overflowClassName + " dataloom-focusable";
+  if (menu.isTriggerFocused) {
+    className += " dataloom-focusable--focused";
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime58.jsxs)(import_jsx_runtime58.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime58.jsx)("div", { className: "dataloom-text-cell-edit", ref: menu.triggerRef, children: /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(
+      "textarea",
+      {
+        "data-menu-id": menu.id,
+        className,
+        autoFocus: true,
+        ref: inputRef,
+        value: localValue,
+        onKeyDown: handleKeyDown,
+        onChange: handleTextareaChange,
+        onBlur: (e) => {
+          e.target.classList.add("dataloom-blur--cell");
+        }
+      }
+    ) }),
+    /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(
+      SuggestMenu,
+      {
+        id: menu.id,
+        isOpen: menu.isOpen,
+        position: menu.position,
+        filterValue,
+        onItemClick: handleSuggestItemClick
+      }
+    )
+  ] });
+}
+
+// src/react/loom-app/tag-cell-edit/index.tsx
+var import_react36 = __toESM(require_react());
+
+// src/react/loom-app/tag-cell-edit/menu-header/index.tsx
+var import_react34 = __toESM(require_react());
+
+// src/react/shared/wrap/index.tsx
+var import_jsx_runtime59 = __toESM(require_jsx_runtime());
+function Wrap({
+  justify,
+  align = "center",
+  spacingX = "md",
+  spacingY = "md",
+  width,
+  children
+}) {
+  const justifyContent = getDynamicSize("flex-start", justify);
+  const renderWidth = getDynamicSize("100%", width);
+  return /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(
+    "div",
+    {
+      className: "dataloom-wrap",
+      style: {
+        width: renderWidth,
+        rowGap: getSpacing(spacingX),
+        columnGap: getSpacing(spacingY),
+        justifyContent,
+        alignItems: align
+      },
+      children
+    }
+  );
+}
+
+// src/react/loom-app/tag-cell-edit/menu-header/index.tsx
+var import_jsx_runtime60 = __toESM(require_jsx_runtime());
+function MenuHeader({
+  cellTags,
+  inputValue,
+  onInputValueChange,
+  onRemoveTag
+}) {
+  const inputRef = import_react34.default.useRef(null);
+  function handleInputChange(value) {
+    if (value.match(/^\s/))
+      return;
+    onInputValueChange(value);
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime60.jsxs)("div", { className: "dataloom-tag-cell-edit__menu-header", children: [
+    cellTags.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime60.jsx)(Padding, { px: "md", pt: "md", pb: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime60.jsx)(Wrap, { spacingX: "sm", children: cellTags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime60.jsx)(
+      Tag5,
+      {
+        id: tag.id,
+        color: tag.color,
+        content: tag.content,
+        maxWidth: "150px",
+        showRemoveButton: true,
+        onRemoveClick: onRemoveTag
+      },
+      tag.id
+    )) }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime60.jsx)(
+      input_default,
+      {
+        ref: inputRef,
+        isTransparent: true,
+        focusOutline: "none",
+        placeholder: "Search for a tag...",
+        value: inputValue,
+        onChange: handleInputChange
+      }
+    )
+  ] });
+}
+
+// src/react/loom-app/tag-cell-edit/create-tag/index.tsx
+var import_jsx_runtime61 = __toESM(require_jsx_runtime());
+function CreateTag({ content, color, onTagAdd }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime61.jsx)("div", { className: "dataloom-create-tag", children: /* @__PURE__ */ (0, import_jsx_runtime61.jsx)(
+    Button,
+    {
+      variant: "text",
+      isFullWidth: true,
+      onClick: () => onTagAdd(content, color),
+      children: /* @__PURE__ */ (0, import_jsx_runtime61.jsx)(Padding, { px: "md", children: /* @__PURE__ */ (0, import_jsx_runtime61.jsxs)(Stack, { spacing: "sm", isHorizontal: true, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime61.jsx)("div", { children: "Create" }),
+        /* @__PURE__ */ (0, import_jsx_runtime61.jsx)(Tag5, { content, color, maxWidth: "120px" })
+      ] }) })
+    }
+  ) });
+}
+
+// src/react/loom-app/tag-color-menu/index.tsx
+var import_react35 = __toESM(require_react());
+
+// src/shared/string-utils.ts
+var uppercaseFirst = (input) => {
+  return input.charAt(0).toUpperCase() + input.slice(1);
+};
+
+// src/react/loom-app/tag-color-menu/components/color-item/index.tsx
+var import_jsx_runtime62 = __toESM(require_jsx_runtime());
+function ColorItem({
+  isDarkMode,
+  color,
+  isSelected,
+  onColorClick
+}) {
+  function handleKeyDown(e) {
+    if (e.key === "Enter") {
+      e.stopPropagation();
+      onColorClick(color);
+    }
+  }
+  let containerClass = "dataloom-color-item dataloom-focusable dataloom-selectable";
+  if (isSelected)
+    containerClass += " dataloom-selected";
+  const colorClass = findColorClassName(isDarkMode, color);
+  let squareClass = "dataloom-color-item__square";
+  squareClass += " " + colorClass;
+  return /* @__PURE__ */ (0, import_jsx_runtime62.jsx)(
+    "div",
+    {
+      tabIndex: 0,
+      className: containerClass,
+      onKeyDown: handleKeyDown,
+      onClick: () => {
+        onColorClick(color);
+      },
+      children: /* @__PURE__ */ (0, import_jsx_runtime62.jsx)(Padding, { px: "lg", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime62.jsxs)(Stack, { isHorizontal: true, spacing: "lg", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime62.jsx)("div", { className: squareClass }),
+        /* @__PURE__ */ (0, import_jsx_runtime62.jsx)(Text, { value: uppercaseFirst(color), size: "sm" })
+      ] }) })
+    }
+  );
+}
+
+// src/react/loom-app/tag-color-menu/index.tsx
+var import_jsx_runtime63 = __toESM(require_jsx_runtime());
+function TagColorMenu({
+  id: id2,
+  isOpen,
+  position,
+  selectedColor,
+  content,
+  closeRequest,
+  onColorClick,
+  onDeleteClick,
+  onTagContentChange,
+  onClose
+}) {
+  const { isDarkMode } = useAppSelector((state) => state.global);
+  const [localValue, setLocalValue] = import_react35.default.useState(content);
+  import_react35.default.useEffect(
+    function saveOnCloseRequest() {
+      if (closeRequest === null)
+        return;
+      if (content !== localValue)
+        onTagContentChange(localValue);
+      onClose();
+    },
+    [closeRequest, content, localValue, onTagContentChange, onClose]
+  );
+  return /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(
+    Menu,
+    {
+      id: id2,
+      isOpen,
+      position,
+      topOffset: -75,
+      leftOffset: -50,
+      children: /* @__PURE__ */ (0, import_jsx_runtime63.jsx)("div", { className: "dataloom-tag-color-menu", children: /* @__PURE__ */ (0, import_jsx_runtime63.jsxs)(Stack, { spacing: "sm", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(Padding, { px: "md", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(input_default, { value: localValue, onChange: setLocalValue }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(
+          MenuItem,
+          {
+            lucideId: "trash-2",
+            name: "Delete",
+            onClick: onDeleteClick
+          }
+        ),
+        /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(Divider, {}),
+        /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(Padding, { px: "lg", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(Text, { value: "Colors" }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime63.jsx)("div", { className: "dataloom-tag-color-menu__color-container", children: Object.values(Color).map((color) => /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(
+          ColorItem,
+          {
+            isDarkMode,
+            color,
+            onColorClick,
+            isSelected: selectedColor === color
+          },
+          color
+        )) })
+      ] }) })
+    }
+  );
+}
+
+// src/react/loom-app/tag-cell-edit/selectable-tag/index.tsx
+var import_jsx_runtime64 = __toESM(require_jsx_runtime());
+function SelectableTag({
+  id: id2,
+  content,
+  color,
+  onClick,
+  onColorChange,
+  onDeleteClick,
+  onTagContentChange
+}) {
+  const COMPONENT_ID = `selectable-tag-${id2}`;
+  const menu = useMenu(COMPONENT_ID);
+  function handleColorChange(color2) {
+    onColorChange(id2, color2);
+    menu.onClose();
+  }
+  function handleDeleteClick() {
+    onDeleteClick(id2);
+    menu.onClose();
+  }
+  function handleTagContentChange(value) {
+    onTagContentChange(id2, value);
+    menu.onClose();
+  }
+  function handleKeyDown(e) {
+    if (e.key === "Enter") {
+      e.stopPropagation();
+      onClick(id2);
+    }
+  }
+  function handleClick(e) {
+    const target = e.target;
+    if (target.classList.contains("dataloom-menu-trigger"))
+      return;
+    e.stopPropagation();
+    onClick(id2);
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime64.jsxs)(import_jsx_runtime64.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime64.jsxs)(
+      "div",
+      {
+        tabIndex: 0,
+        className: "dataloom-selectable-tag dataloom-focusable dataloom-selectable",
+        onClick: handleClick,
+        onKeyDown: handleKeyDown,
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime64.jsx)(Tag5, { content, color, maxWidth: "150px" }),
+          /* @__PURE__ */ (0, import_jsx_runtime64.jsx)(
+            menu_button_default,
+            {
+              isFocused: menu.isTriggerFocused,
+              menuId: menu.id,
+              ref: menu.triggerRef,
+              level: 2 /* TWO */,
+              icon: /* @__PURE__ */ (0, import_jsx_runtime64.jsx)(Icon, { lucideId: "more-horizontal" }),
+              onOpen: () => menu.onOpen(2 /* TWO */, {
+                shouldRequestOnClose: true
+              })
+            }
+          )
+        ]
+      }
+    ),
+    /* @__PURE__ */ (0, import_jsx_runtime64.jsx)(
+      TagColorMenu,
+      {
+        isOpen: menu.isOpen,
+        id: menu.id,
+        position: menu.position,
+        closeRequest: menu.closeRequest,
+        content,
+        selectedColor: color,
+        onColorClick: (color2) => handleColorChange(color2),
+        onDeleteClick: handleDeleteClick,
+        onTagContentChange: handleTagContentChange,
+        onClose: menu.onClose
+      }
+    )
+  ] });
+}
+
+// src/react/loom-app/tag-cell-edit/menu-body/index.tsx
+var import_jsx_runtime65 = __toESM(require_jsx_runtime());
+function MenuBody({
+  columnTags,
+  inputValue,
+  newTagColor,
+  onTagAdd,
+  onTagClick,
+  onTagColorChange,
+  onTagDelete,
+  onTagContentChange
+}) {
+  const hasTagWithSameCase = columnTags.find((tag) => tag.content === inputValue) !== void 0;
+  const filteredTags = columnTags.filter(
+    (tag) => tag.content.toLowerCase().includes(inputValue.toLowerCase())
+  );
+  return /* @__PURE__ */ (0, import_jsx_runtime65.jsxs)("div", { className: "dataloom-tag-cell-edit__menu-body", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(Text, { value: "Select a tag or create one" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime65.jsxs)("div", { className: "dataloom-tag-cell-edit__menu-body-container", children: [
+      !hasTagWithSameCase && inputValue !== "" && /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(
+        CreateTag,
+        {
+          content: inputValue,
+          color: newTagColor,
+          onTagAdd
+        }
+      ),
+      filteredTags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(
+        SelectableTag,
+        {
+          id: tag.id,
+          color: tag.color,
+          content: tag.content,
+          onColorChange: onTagColorChange,
+          onClick: onTagClick,
+          onDeleteClick: onTagDelete,
+          onTagContentChange
+        },
+        tag.id
+      ))
+    ] })
+  ] });
+}
+
+// src/react/loom-app/tag-cell-edit/index.tsx
+var import_jsx_runtime66 = __toESM(require_jsx_runtime());
+function TagCellEdit({
+  isMulti,
+  columnTags,
+  cellTags,
+  closeRequest,
+  onTagClick,
+  onTagAdd,
+  onTagColorChange,
+  onTagDelete,
+  onRemoveTag,
+  onTagContentChange,
+  onClose
+}) {
+  const [inputValue, setInputValue] = import_react36.default.useState("");
+  const [newTagColor, setNewTagColor] = import_react36.default.useState(randomColor());
+  const handleTagAdd = import_react36.default.useCallback(
+    (markdown, color) => {
+      onTagAdd(markdown, color);
+      setInputValue("");
+      setNewTagColor(randomColor());
+      if (!isMulti)
+        onClose();
+    },
+    [isMulti, onTagAdd, onClose]
+  );
+  import_react36.default.useEffect(() => {
+    if (closeRequest !== null) {
+      if (closeRequest.type === "close-on-save") {
+        if (inputValue !== "") {
+          const doesTagExist = columnTags.find(
+            (tag) => tag.content === inputValue
+          );
+          if (!doesTagExist) {
+            handleTagAdd(inputValue, newTagColor);
+            return;
+          }
+        }
+      }
+      onClose();
+    }
+  }, [
+    handleTagAdd,
+    columnTags,
+    inputValue,
+    newTagColor,
+    closeRequest,
+    onClose
+  ]);
+  function handleTagClick(id2) {
+    onTagClick(id2);
+    if (!isMulti)
+      onClose();
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime66.jsxs)("div", { className: "dataloom-tag-cell-edit", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime66.jsx)(
+      MenuHeader,
+      {
+        inputValue,
+        cellTags,
+        onInputValueChange: setInputValue,
+        onRemoveTag
+      }
+    ),
+    /* @__PURE__ */ (0, import_jsx_runtime66.jsx)(
+      MenuBody,
+      {
+        inputValue,
+        columnTags,
+        newTagColor,
+        onTagAdd: handleTagAdd,
+        onTagClick: handleTagClick,
+        onTagDelete,
+        onTagColorChange,
+        onTagContentChange
+      }
+    )
+  ] });
+}
+
+// src/react/loom-app/date-cell-edit/index.tsx
+var import_react37 = __toESM(require_react());
+
+// src/react/loom-app/date-cell-edit/date-format-menu.tsx
+var import_jsx_runtime67 = __toESM(require_jsx_runtime());
+function DateFormatMenu({
+  id: id2,
+  position,
+  isOpen,
+  value,
+  onChange
+}) {
+  return /* @__PURE__ */ (0, import_jsx_runtime67.jsx)(
+    Menu,
+    {
+      isOpen,
+      id: id2,
+      position,
+      width: 175,
+      topOffset: 10,
+      leftOffset: 75,
+      children: /* @__PURE__ */ (0, import_jsx_runtime67.jsx)("div", { className: "dataloom-date-format-menu", children: Object.values([
+        "dd/mm/yyyy" /* DD_MM_YYYY */,
+        "mm/dd/yyyy" /* MM_DD_YYYY */,
+        "yyyy/mm/dd" /* YYYY_MM_DD */
+      ]).map((format) => /* @__PURE__ */ (0, import_jsx_runtime67.jsx)(
+        MenuItem,
+        {
+          name: getDisplayNameForDateFormat(format),
+          isSelected: value === format,
+          onClick: () => {
+            onChange(format);
+          }
+        },
+        format
+      )) })
+    }
+  );
+}
+
+// src/react/loom-app/date-cell-edit/index.tsx
+var import_jsx_runtime68 = __toESM(require_jsx_runtime());
+function DateCellEdit({
+  cellId,
+  value,
+  closeRequest,
+  dateFormat,
+  onDateTimeChange,
+  onClose,
+  onCloseRequestClear,
+  onDateFormatChange
+}) {
+  const COMPONENT_ID = `date-format-menu-${cellId}`;
+  const menu = useMenu(COMPONENT_ID);
+  const [localValue, setLocalValue] = import_react37.default.useState(
+    value === null ? "" : unixTimeToDateString(value, dateFormat)
+  );
+  const [isInputInvalid, setInputInvalid] = import_react37.default.useState(false);
+  const [closeTime, setCloseTime] = import_react37.default.useState(0);
+  const inputRef = import_react37.default.useRef(null);
+  import_react37.default.useEffect(() => {
+    setLocalValue(
+      value === null ? "" : unixTimeToDateString(value, dateFormat)
+    );
+  }, [value, dateFormat]);
+  import_react37.default.useEffect(() => {
+    if (closeRequest !== null) {
+      let newValue = null;
+      if (localValue !== "") {
+        if (isValidDateFormat(localValue, dateFormat)) {
+          newValue = dateStringToUnixTime(localValue, dateFormat);
+        } else {
+          if (closeRequest.type === "close-on-save") {
+            setInputInvalid(true);
+            onCloseRequestClear();
+            return;
+          }
+          newValue = value;
+        }
+      }
+      if (newValue !== value) {
+        setInputInvalid(false);
+        onDateTimeChange(newValue);
+      }
+      setCloseTime(Date.now());
+    }
+  }, [
+    value,
+    localValue,
+    closeRequest,
+    dateFormat,
+    onDateTimeChange,
+    onCloseRequestClear,
+    onClose
+  ]);
+  import_react37.default.useEffect(() => {
+    if (closeTime !== 0) {
+      onClose();
+    }
+  }, [closeTime, onClose]);
+  function handleDateFormatChange(value2) {
+    if (menu === null)
+      return;
+    onDateFormatChange(value2);
+    menu.onClose();
+  }
+  function handleClearClick() {
+    onDateTimeChange(null);
+    onClose();
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime68.jsxs)(import_jsx_runtime68.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime68.jsx)("div", { className: "dataloom-date-cell-edit", children: /* @__PURE__ */ (0, import_jsx_runtime68.jsxs)(Stack, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(Padding, { p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+        input_default,
+        {
+          ref: inputRef,
+          showBorder: true,
+          hasError: isInputInvalid,
+          value: localValue,
+          onChange: setLocalValue
+        }
+      ) }),
+      /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+        menu_trigger_default,
+        {
+          ref: menu.triggerRef,
+          menuId: menu.id,
+          variant: "cell",
+          isFocused: menu.isTriggerFocused,
+          level: 2 /* TWO */,
+          onOpen: () => menu.onOpen(2 /* TWO */),
+          children: /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+            MenuItem,
+            {
+              isFocusable: false,
+              name: "Date format",
+              value: getDisplayNameForDateFormat(dateFormat)
+            }
+          )
+        }
+      ),
+      /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(MenuItem, { name: "Clear", onClick: handleClearClick })
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+      DateFormatMenu,
+      {
+        id: menu.id,
+        isOpen: menu.isOpen,
+        position: menu.position,
+        value: dateFormat,
+        onChange: handleDateFormatChange
+      }
+    )
+  ] });
+}
+
+// src/react/loom-app/multi-tag-cell/index.tsx
+var import_jsx_runtime69 = __toESM(require_jsx_runtime());
+function MultiTagCell({ cellTags }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime69.jsx)("div", { className: "dataloom-multi-tag-cell", children: /* @__PURE__ */ (0, import_jsx_runtime69.jsx)(Wrap, { children: cellTags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime69.jsx)(Tag5, { content: tag.content, color: tag.color }, tag.id)) }) });
+}
+
+// src/shared/cell-content/file-cell-content.ts
+var getFileCellContent = (markdown) => {
+  if (markdown === "")
+    return markdown;
+  const linkRegex = new RegExp(/\[\[([^[\]]+)\]\]/);
+  const matches = markdown.match(linkRegex);
+  let matchStartIndex = -1;
+  let matchEndIndex = -1;
+  if (matches) {
+    matchStartIndex = markdown.indexOf(matches[0]);
+    matchEndIndex = matchStartIndex + matches[0].length;
+  }
+  if (matches === null) {
+    return `[[${markdown}]]`;
+  } else if (matchStartIndex === 0) {
+    return `${markdown.slice(0, matchEndIndex + 1).trim()}`;
+  } else {
+    return `[[${markdown.slice(0, matchStartIndex).trim()}]]`;
+  }
+};
+
+// src/react/loom-app/file-cell/index.tsx
+var import_jsx_runtime70 = __toESM(require_jsx_runtime());
+function FileCell({ value }) {
+  const content = getFileCellContent(value);
+  const { containerRef, renderRef } = useRenderMarkdown(content);
+  return /* @__PURE__ */ (0, import_jsx_runtime70.jsx)("div", { className: "dataloom-file-cell", children: /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
+    "div",
+    {
+      ref: (node) => {
+        containerRef.current = node;
+        appendOrReplaceFirstChild(node, renderRef.current);
+      }
+    }
+  ) });
+}
+
+// src/react/loom-app/file-cell-edit/index.tsx
+var import_jsx_runtime71 = __toESM(require_jsx_runtime());
+function FileCellEdit({ onChange, onClose }) {
+  function handleSuggestItemClick(file) {
+    if (file) {
+      let fileName = file.basename;
+      if (file.path.includes("/"))
+        fileName = `${file.path}|${file.basename}`;
+      onChange(`[[${fileName}]]`);
+    }
+    onClose();
+  }
+  function handleClearClick() {
+    onChange("");
+    onClose();
+  }
+  function handleCreateClick(value) {
+    let link = `[[${value}]]`;
+    if (value.includes("/")) {
+      const fileName = getBasename(value);
+      link = `${value}|${fileName}`;
+    }
+    onChange(link);
+    onClose();
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime71.jsx)("div", { className: "dataloom-file-cell-edit", children: /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
+    SuggestList,
+    {
+      showInput: true,
+      showClear: true,
+      showCreate: true,
+      onItemClick: handleSuggestItemClick,
+      onClearClick: handleClearClick,
+      onCreateClick: handleCreateClick
+    }
+  ) });
+}
+
+// src/shared/cell-content/embed-cell-content.ts
+var getEmbedCellContent = (app, value, options) => {
+  const {
+    shouldRemoveMarkdown = false,
+    isExternalLink = false,
+    isExport = false
+  } = options != null ? options : {};
+  if (shouldRemoveMarkdown || value === "") {
+    return value;
+  }
+  if (isExternalLink) {
+    if (isImage(value) || isYouTubeLink(value) || isTwitterLink(value)) {
+      return `![](${value})`;
+    }
+    return "Unsupported link";
+  } else {
+    if (isExport)
+      return `![[${value}]]`;
+    return `![](${getResourcePath(app, value)})`;
+  }
+};
+
+// src/react/loom-app/embed-cell/embed/index.tsx
+var import_jsx_runtime72 = __toESM(require_jsx_runtime());
+function Embed({
+  isExternalLink,
+  content,
+  aspectRatio,
+  horizontalPadding,
+  verticalPadding
+}) {
+  const { containerRef, renderRef } = useRenderMarkdown(content, {
+    isEmbed: true,
+    isExternalLink
+  });
+  const paddingX = getSpacing(horizontalPadding);
+  const paddingY = getSpacing(verticalPadding);
+  return /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(
+    "div",
+    {
+      style: {
+        aspectRatio,
+        paddingLeft: paddingX,
+        paddingRight: paddingX,
+        paddingTop: paddingY,
+        paddingBottom: paddingY
+      },
+      ref: (node) => {
+        containerRef.current = node;
+        appendOrReplaceFirstChild(node, renderRef.current);
+      }
+    }
+  );
+}
+
+// src/react/loom-app/embed-cell/index.tsx
+var import_jsx_runtime73 = __toESM(require_jsx_runtime());
+function EmbedCell({
+  isExternalLink,
+  value,
+  aspectRatio,
+  horizontalPadding,
+  verticalPadding
+}) {
+  const { app } = useAppMount();
+  const content = getEmbedCellContent(app, value, {
+    isExternalLink
+  });
+  return /* @__PURE__ */ (0, import_jsx_runtime73.jsx)("div", { className: "dataloom-embed-cell", children: /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(
+    Embed,
+    {
+      isExternalLink,
+      content,
+      aspectRatio,
+      horizontalPadding,
+      verticalPadding
+    }
+  ) });
+}
+
+// src/react/loom-app/embed-cell-edit/index.tsx
+var import_react39 = __toESM(require_react());
+
+// src/react/loom-app/embed-cell-edit/external-embed-input.tsx
+var import_react38 = __toESM(require_react());
+var import_jsx_runtime74 = __toESM(require_jsx_runtime());
+function ExternalEmbedInput({ value, onChange }) {
+  const ref = import_react38.default.useRef(null);
+  usePlaceCursorAtEnd(ref, value);
+  return /* @__PURE__ */ (0, import_jsx_runtime74.jsx)(
+    input_default,
+    {
+      ref,
+      showBorder: true,
+      placeholder: "Enter a url",
+      value,
+      onChange
+    }
+  );
+}
+
+// src/react/loom-app/embed-cell-edit/internal-embed-suggest.tsx
+var import_jsx_runtime75 = __toESM(require_jsx_runtime());
+function InternalEmbedSuggest({ onChange }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime75.jsx)(
+    SuggestList,
+    {
+      showInput: true,
+      hiddenExtensions: ["md", LOOM_EXTENSION],
+      onItemClick: (item) => {
+        var _a2;
+        return onChange((_a2 = item == null ? void 0 : item.path) != null ? _a2 : "");
+      }
+    }
+  );
+}
+
+// src/react/loom-app/embed-cell-edit/index.tsx
+var import_jsx_runtime76 = __toESM(require_jsx_runtime());
+function EmbedCellEdit({
+  closeRequest,
+  isExternalLink,
+  value,
+  onChange,
+  onClose,
+  onExternalLinkToggle
+}) {
+  const [externalLink, setExternalLink] = import_react39.default.useState(
+    isExternalLink ? value : ""
+  );
+  import_react39.default.useEffect(() => {
+    if (closeRequest !== null) {
+      if (isExternalLink) {
+        if (externalLink !== value)
+          onChange(externalLink);
+      }
+      onClose();
+    }
+  }, [isExternalLink, value, externalLink, closeRequest, onClose, onChange]);
+  function handleSuggestChange(value2) {
+    onChange(value2);
+    onClose();
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime76.jsxs)("div", { className: "dataloom-embed-cell-edit", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(Padding, { width: "100%", p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime76.jsxs)(Stack, { spacing: "sm", width: "100%", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime76.jsx)("label", { htmlFor: "external-switch", children: "External Link" }),
+      /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
+        Switch,
+        {
+          id: "external-switch",
+          value: isExternalLink,
+          onToggle: onExternalLinkToggle
+        }
+      )
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(Divider, {}),
+    isExternalLink && /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(Padding, { width: "100%", p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
+      ExternalEmbedInput,
+      {
+        value: externalLink,
+        onChange: setExternalLink
+      }
+    ) }),
+    !isExternalLink && /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(InternalEmbedSuggest, { onChange: handleSuggestChange })
+  ] });
+}
+
+// src/react/loom-app/last-edited-time-cell/index.tsx
+var import_jsx_runtime77 = __toESM(require_jsx_runtime());
+function LastEditedTimeCell({ value, format }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime77.jsx)("div", { className: "dataloom-last-edited-time-cell", children: unixTimeToDateTimeString(value, format) });
+}
+
+// src/react/loom-app/creation-time-cell/index.tsx
+var import_jsx_runtime78 = __toESM(require_jsx_runtime());
+function CreationTimeCell({ value, format }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime78.jsx)("div", { className: "dataloom-creation-time-cell", children: unixTimeToDateTimeString(value, format) });
+}
+
+// src/shared/cell-content/source-file-content.ts
+var getSourceFileContent = (content, shouldRemoveMarkdown = false) => {
+  if (content === "")
+    return "";
+  if (shouldRemoveMarkdown)
+    return content;
+  const basename = getBasename(content);
+  return `[[${content}|${basename}]]`;
+};
+
+// src/react/loom-app/source-file-cell/index.tsx
+var import_jsx_runtime79 = __toESM(require_jsx_runtime());
+function SourceFileCell({ content: originalContent }) {
+  const content = getSourceFileContent(originalContent);
+  const { containerRef, renderRef } = useRenderMarkdown(content);
+  return /* @__PURE__ */ (0, import_jsx_runtime79.jsx)(
+    "div",
+    {
+      className: "dataloom-source-file-cell",
+      ref: (node) => {
+        if (content !== "") {
+          containerRef.current = node;
+          appendOrReplaceFirstChild(node, renderRef.current);
+        }
+      },
+      children: content === "" && content
+    }
+  );
+}
+
+// src/react/shared/bubble/index.tsx
+var import_jsx_runtime80 = __toESM(require_jsx_runtime());
+function Bubble({
+  variant = "default",
+  canRemove,
+  icon,
+  value,
+  onRemoveClick
+}) {
+  let className = "dataloom-bubble";
+  if (variant === "no-fill") {
+    className += " dataloom-bubble--no-fill";
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime80.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime80.jsxs)(Stack, { spacing: "lg", isHorizontal: true, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime80.jsxs)(Stack, { spacing: "sm", isHorizontal: true, children: [
+      icon,
+      /* @__PURE__ */ (0, import_jsx_runtime80.jsx)("span", { children: value })
+    ] }),
+    canRemove && /* @__PURE__ */ (0, import_jsx_runtime80.jsx)(
+      Button,
+      {
+        isSmall: true,
+        invertFocusColor: true,
+        icon: /* @__PURE__ */ (0, import_jsx_runtime80.jsx)(Icon, { lucideId: "x", color: "var(--text-on-accent)" }),
+        ariaLabel: "Remove sort",
+        onClick: onRemoveClick
+      }
+    )
+  ] }) });
+}
+
+// src/react/loom-app/source-cell/index.tsx
+var import_jsx_runtime81 = __toESM(require_jsx_runtime());
+function SourceCell({ source }) {
+  const content = getSourceCellContent(source);
+  return /* @__PURE__ */ (0, import_jsx_runtime81.jsx)("div", { className: "dataloom-source-cell", children: /* @__PURE__ */ (0, import_jsx_runtime81.jsx)(
+    Bubble,
+    {
+      variant: "no-fill",
+      icon: /* @__PURE__ */ (0, import_jsx_runtime81.jsx)(
+        Icon,
+        {
+          lucideId: getIconIdForSourceType(
+            source == null ? void 0 : source.type
+          )
+        }
+      ),
+      value: content
+    }
+  ) });
+}
+
+// src/react/loom-app/body-cell-container/index.tsx
+var import_jsx_runtime82 = __toESM(require_jsx_runtime());
+function BodyCellContainer({
+  cellId,
+  columnId,
+  isExternalLink,
+  source,
+  content,
+  aspectRatio,
+  numberFormat,
+  verticalPadding,
+  frontmatterKey,
+  currencyType,
+  horizontalPadding,
+  dateFormat,
+  dateTime,
+  numberPrefix,
+  numberSuffix,
+  numberSeparator,
+  columnType,
+  rowCreationTime,
+  rowLastEditedTime,
+  columnTags,
+  cellTagIds,
+  width,
+  shouldWrapOverflow,
+  onTagRemoveClick,
+  onTagMultipleRemove,
+  onTagDeleteClick,
+  onTagClick,
+  onColumnChange,
+  onTagAdd,
+  onTagChange,
+  onCellChange
+}) {
+  const shouldRequestOnClose = columnType === "text" /* TEXT */ || columnType === "embed" /* EMBED */ || columnType === "number" /* NUMBER */ || columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */;
+  const COMPONENT_ID = `body-cell-${cellId}`;
+  const menu = useMenu(COMPONENT_ID);
+  function handleCellContextClick() {
+    return __async(this, null, function* () {
+      try {
+        yield navigator.clipboard.writeText(content);
+        new import_obsidian13.Notice("Copied text to clipboard");
+      } catch (err) {
+        console.error(err);
+      }
+    });
+  }
+  function toggleCheckbox() {
+    const isChecked = isCheckboxChecked(content);
+    if (isChecked) {
+      handleCheckboxChange(CHECKBOX_MARKDOWN_UNCHECKED2);
+    } else {
+      handleCheckboxChange(CHECKBOX_MARKDOWN_CHECKED);
+    }
+  }
+  function handleMenuTriggerBackspaceDown() {
+    if (columnType === "text" /* TEXT */ || columnType === "embed" /* EMBED */ || columnType === "number" /* NUMBER */ || columnType === "file" /* FILE */) {
+      onCellChange(cellId, { content: "" });
+    } else if (columnType === "date" /* DATE */) {
+      onCellChange(cellId, { dateTime: null });
+    } else if (columnType === "checkbox" /* CHECKBOX */) {
+      onCellChange(cellId, { content: CHECKBOX_MARKDOWN_UNCHECKED2 });
+    } else if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) {
+      onTagMultipleRemove(cellId, cellTagIds);
+    }
+  }
+  function handleMenuTriggerEnterDown() {
+    if (columnType === "checkbox" /* CHECKBOX */)
+      toggleCheckbox();
+  }
+  function handleMenuTriggerClick() {
+    if (columnType === "checkbox" /* CHECKBOX */) {
+      toggleCheckbox();
+    }
+  }
+  function handleExternalLinkToggle(value) {
+    onCellChange(cellId, { isExternalLink: value });
+  }
+  function handleTagAdd(markdown, color) {
+    if (markdown === "")
+      return;
+    onTagAdd(
+      cellId,
+      columnId,
+      markdown.trim(),
+      color,
+      columnType === "multi-tag" /* MULTI_TAG */
+    );
+  }
+  function handleRemoveTagClick(tagId) {
+    onTagRemoveClick(cellId, tagId);
+  }
+  function handleTagColorChange(tagId, value) {
+    onTagChange(columnId, tagId, { color: value });
+  }
+  function handleTagDeleteClick(tagId) {
+    onTagDeleteClick(columnId, tagId);
+  }
+  function handleTagContentChange(tagId, value) {
+    onTagChange(columnId, tagId, { content: value });
+  }
+  function handleTagClick(tagId) {
+    onTagClick(cellId, tagId, columnType === "multi-tag" /* MULTI_TAG */);
+  }
+  const handleInputChange = import_react40.default.useCallback(
+    (value) => {
+      onCellChange(cellId, { content: value });
+    },
+    [cellId, onCellChange]
+  );
+  function handleCheckboxChange(value) {
+    onCellChange(cellId, { content: value });
+  }
+  function handleDateFormatChange(value) {
+    onColumnChange(
+      columnId,
+      { dateFormat: value },
+      { shouldSortRows: true }
+    );
+  }
+  const handleDateTimeChange = import_react40.default.useCallback(
+    (value) => {
+      onCellChange(cellId, { dateTime: value });
+    },
+    [cellId, onCellChange]
+  );
+  let menuWidth = menu.position.width;
+  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "embed" /* EMBED */) {
+    menuWidth = 250;
+  } else if (columnType === "file" /* FILE */) {
+    menuWidth = 275;
+  } else if (columnType === "date" /* DATE */) {
+    menuWidth = 175;
+  }
+  let menuHeight = menu.position.height;
+  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */ || columnType === "number" /* NUMBER */ || columnType === "file" /* FILE */ || columnType === "embed" /* EMBED */) {
+    menuHeight = 0;
+  }
+  let className = "dataloom-cell--body__container";
+  const overflowClass = useOverflow(shouldWrapOverflow, {
+    ellipsis: columnType === "date" /* DATE */
+  });
+  className += " " + overflowClass;
+  if (columnType === "last-edited-time" /* LAST_EDITED_TIME */ || columnType === "creation-time" /* CREATION_TIME */ || columnType === "source" /* SOURCE */ || columnType === "source-file" /* SOURCE_FILE */ || source && frontmatterKey === null) {
+    className += " dataloom-cell--body__container--default-cursor";
+  }
+  const cellTags = columnTags.filter((tag) => cellTagIds.includes(tag.id));
+  let shouldRunTrigger = true;
+  if (columnType === "checkbox" /* CHECKBOX */ || columnType === "creation-time" /* CREATION_TIME */ || columnType === "last-edited-time" /* LAST_EDITED_TIME */ || columnType === "source" /* SOURCE */ || columnType === "source-file" /* SOURCE_FILE */ || source && frontmatterKey === null) {
+    shouldRunTrigger = false;
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime82.jsxs)(import_jsx_runtime82.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(
+      menu_trigger_default,
+      {
+        ref: menu.triggerRef,
+        variant: "cell",
+        menuId: menu.id,
+        isFocused: menu.isTriggerFocused,
+        level: 1 /* ONE */,
+        onClick: handleMenuTriggerClick,
+        onEnterDown: handleMenuTriggerEnterDown,
+        onBackspaceDown: handleMenuTriggerBackspaceDown,
+        shouldRunTrigger,
+        onOpen: () => menu.onOpen(1 /* ONE */, {
+          shouldRequestOnClose
+        }),
+        children: /* @__PURE__ */ (0, import_jsx_runtime82.jsxs)(
+          "div",
+          {
+            onContextMenu: handleCellContextClick,
+            className,
+            style: {
+              width
+            },
+            children: [
+              columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(TextCell, { value: content }),
+              columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(
+                EmbedCell,
+                {
+                  isExternalLink,
+                  value: content,
+                  verticalPadding,
+                  horizontalPadding,
+                  aspectRatio
+                }
+              ),
+              columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(FileCell, { value: content }),
+              columnType === "source-file" /* SOURCE_FILE */ && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(SourceFileCell, { content }),
+              columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(
+                NumberCell,
+                {
+                  value: content,
+                  currency: currencyType,
+                  format: numberFormat,
+                  prefix: numberPrefix,
+                  suffix: numberSuffix,
+                  separator: numberSeparator
+                }
+              ),
+              columnType === "tag" /* TAG */ && cellTags.length === 1 && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(
+                TagCell,
+                {
+                  content: cellTags[0].content,
+                  color: cellTags[0].color
+                }
+              ),
+              columnType === "multi-tag" /* MULTI_TAG */ && cellTags.length !== 0 && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(MultiTagCell, { cellTags }),
+              columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(DateCell, { value: dateTime, format: dateFormat }),
+              columnType === "checkbox" /* CHECKBOX */ && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(CheckboxCell, { value: content }),
+              columnType === "creation-time" /* CREATION_TIME */ && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(
+                CreationTimeCell,
+                {
+                  value: rowCreationTime,
+                  format: dateFormat
+                }
+              ),
+              columnType === "last-edited-time" /* LAST_EDITED_TIME */ && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(
+                LastEditedTimeCell,
+                {
+                  value: rowLastEditedTime,
+                  format: dateFormat
+                }
+              ),
+              columnType === "source" /* SOURCE */ && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(SourceCell, { source })
+            ]
+          }
+        )
+      }
+    ),
+    /* @__PURE__ */ (0, import_jsx_runtime82.jsxs)(
+      Menu,
+      {
+        id: menu.id,
+        hideBorder: columnType === "text" /* TEXT */ || columnType === "number" /* NUMBER */,
+        isOpen: menu.isOpen,
+        position: menu.position,
+        width: menuWidth,
+        height: menuHeight,
+        children: [
+          columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(
+            TextCellEdit,
+            {
+              cellId,
+              closeRequest: menu.closeRequest,
+              shouldWrapOverflow,
+              value: content,
+              onChange: handleInputChange,
+              onClose: menu.onClose
+            }
+          ),
+          columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(
+            EmbedCellEdit,
+            {
+              isExternalLink,
+              closeRequest: menu.closeRequest,
+              value: content,
+              onChange: handleInputChange,
+              onClose: menu.onClose,
+              onExternalLinkToggle: handleExternalLinkToggle
+            }
+          ),
+          columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(
+            FileCellEdit,
+            {
+              onChange: handleInputChange,
+              onClose: menu.onClose
+            }
+          ),
+          columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(
+            NumberCellEdit,
+            {
+              closeRequest: menu.closeRequest,
+              value: content,
+              onChange: handleInputChange,
+              onClose: menu.onClose
+            }
+          ),
+          (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(
+            TagCellEdit,
+            {
+              isMulti: columnType === "multi-tag" /* MULTI_TAG */,
+              closeRequest: menu.closeRequest,
+              columnTags,
+              cellTags,
+              onTagColorChange: handleTagColorChange,
+              onTagAdd: handleTagAdd,
+              onRemoveTag: handleRemoveTagClick,
+              onTagClick: handleTagClick,
+              onTagDelete: handleTagDeleteClick,
+              onTagContentChange: handleTagContentChange,
+              onClose: menu.onClose
+            }
+          ),
+          columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(
+            DateCellEdit,
+            {
+              cellId,
+              value: dateTime,
+              closeRequest: menu.closeRequest,
+              dateFormat,
+              onDateTimeChange: handleDateTimeChange,
+              onDateFormatChange: handleDateFormatChange,
+              onClose: menu.onClose,
+              onCloseRequestClear: menu.onCloseRequestClear
+            }
+          )
+        ]
+      }
+    )
+  ] });
+}
+
+// src/shared/deserialize-frontmatter/utils.ts
+var cellTypeToFrontMatterKeyTypes = (type) => {
+  switch (type) {
+    case "text" /* TEXT */:
+    case "embed" /* EMBED */:
+    case "file" /* FILE */:
+    case "tag" /* TAG */:
+      return ["text"];
+    case "number" /* NUMBER */:
+    case "date" /* DATE */:
+      return ["number"];
+    case "checkbox" /* CHECKBOX */:
+      return ["boolean"];
+    case "multi-tag" /* MULTI_TAG */:
+      return ["tags", "list"];
+    case "creation-time" /* CREATION_TIME */:
+    case "last-edited-time" /* LAST_EDITED_TIME */:
+    case "source" /* SOURCE */:
+    case "source-file" /* SOURCE_FILE */:
+      return [];
+    default:
+      throw new Error("Cell type not handled");
+  }
+};
+
+// src/react/loom-app/table/index.tsx
+var import_jsx_runtime83 = __toESM(require_jsx_runtime());
+var Table2 = import_react41.default.forwardRef(function Table3({
+  sources,
+  rows,
+  frontmatterKeys,
+  columns,
+  numFrozenColumns,
+  resizingColumnId,
+  showCalculationRow,
+  onColumnDeleteClick,
+  onColumnAddClick,
+  onColumnTypeChange,
+  onFrozenColumnsChange,
+  onColumnReorder,
+  onRowDeleteClick,
+  onRowInsertAboveClick,
+  onRowInsertBelowClick,
+  onColumnChange,
+  onCellChange,
+  onTagAdd,
+  onTagCellAdd,
+  onTagCellRemove,
+  onTagCellMultipleRemove,
+  onTagChange,
+  onTagDeleteClick,
+  onRowReorder
+}, ref) {
+  const previousRowLength = usePrevious(rows.length);
+  import_react41.default.useEffect(() => {
+    var _a2;
+    if (previousRowLength === void 0)
+      return;
+    if (previousRowLength < rows.length)
+      (_a2 = ref.current) == null ? void 0 : _a2.scrollToIndex(rows.length - 1);
+  }, [ref, previousRowLength, rows.length]);
+  import_react41.default.useLayoutEffect(() => {
+  });
+  const visibleColumns = columns.filter((column) => column.isVisible);
+  return /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+    TableVirtuoso,
+    {
+      ref,
+      overscan: 30,
+      style: {
+        width: "100%",
+        height: "100%"
+      },
+      totalCount: rows.length,
+      components: __spreadProps(__spreadValues({}, Components), {
+        TableRow: (_a2) => {
+          var _b = _a2, { style } = _b, props = __objRest(_b, ["style"]);
+          return /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+            BodyRow,
+            __spreadProps(__spreadValues({}, props), {
+              style,
+              onRowReorder
+            })
+          );
+        }
+      }),
+      fixedHeaderContent: () => {
+        const tableColumns = [null, ...visibleColumns, null];
+        return /* @__PURE__ */ (0, import_jsx_runtime83.jsx)("div", { className: "dataloom-row", children: tableColumns.map((column, i2) => {
+          let content;
+          let key;
+          if (column === null) {
+            key = `filler-${i2}`;
+            if (i2 === 0) {
+              content = /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(import_jsx_runtime83.Fragment, {});
+            } else {
+              content = /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+                NewColumnButton,
+                {
+                  onClick: onColumnAddClick
+                }
+              );
+            }
+          } else {
+            const { id: id2, type } = column;
+            const frontmatterTypes = cellTypeToFrontMatterKeyTypes(type);
+            let columnKeys = [];
+            frontmatterTypes.forEach((type2) => {
+              var _a2;
+              columnKeys = columnKeys.concat(
+                (_a2 = frontmatterKeys.get(type2)) != null ? _a2 : []
+              );
+            });
+            columnKeys = columnKeys.filter((key2) => {
+              const columnWithKey = columns.find(
+                (column2) => {
+                  var _a2;
+                  return ((_a2 = column2.frontmatterKey) == null ? void 0 : _a2.value) === key2;
+                }
+              );
+              if (!columnWithKey)
+                return true;
+              if (columnWithKey.id === id2)
+                return true;
+              return false;
+            });
+            key = id2;
+            content = /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+              HeaderCellContainer,
+              {
+                index: i2,
+                column,
+                frontmatterKeys: columnKeys,
+                numColumns: columns.length,
+                numSources: sources.length,
+                numFrozenColumns,
+                resizingColumnId,
+                onColumnChange,
+                onColumnDeleteClick,
+                onColumnTypeChange,
+                onFrozenColumnsChange
+              },
+              id2
+            );
+          }
+          return /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+            HeaderCell,
+            {
+              index: i2,
+              numFrozenColumns,
+              columnId: column == null ? void 0 : column.id,
+              content,
+              isDraggable: i2 > 0 && i2 < tableColumns.length - 1,
+              onColumnReorder
+            },
+            key
+          );
+        }) });
+      },
+      fixedFooterContent: () => {
+        if (!showCalculationRow)
+          return void 0;
+        const columns2 = [null, ...visibleColumns, null];
+        return /* @__PURE__ */ (0, import_jsx_runtime83.jsx)("div", { className: "dataloom-row", children: columns2.map((column, i2) => {
+          let content;
+          let key;
+          if (column === null) {
+            key = `filler-${i2}`;
+            content = /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(import_jsx_runtime83.Fragment, {});
+          } else {
+            const {
+              id: columnId,
+              type,
+              currencyType,
+              dateFormat,
+              numberFormat,
+              width,
+              tags,
+              calculationType
+            } = column;
+            const columnCells = rows.map((row) => {
+              const { id: rowId, cells } = row;
+              const cell = cells.find(
+                (cell2) => cell2.columnId === columnId
+              );
+              if (!cell)
+                throw new CellNotFoundError({
+                  columnId,
+                  rowId
+                });
+              return cell;
+            });
+            key = columnId;
+            content = /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+              FooterCellContainer,
+              {
+                sources,
+                columnId,
+                columnTags: tags,
+                numberFormat,
+                currencyType,
+                dateFormat,
+                columnCells,
+                rows,
+                calculationType,
+                width,
+                cellType: type,
+                onColumnChange
+              }
+            );
+          }
+          return /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+            FooterCell,
+            {
+              index: i2,
+              numFrozenColumns,
+              content
+            },
+            key
+          );
+        }) });
+      },
+      itemContent: (index) => {
+        var _a2;
+        const row = rows[index];
+        const {
+          id: rowId,
+          lastEditedTime,
+          creationTime,
+          sourceId
+        } = row;
+        const source = (_a2 = sources.find((source2) => source2.id === sourceId)) != null ? _a2 : null;
+        const columns2 = [null, ...visibleColumns, null];
+        return columns2.map((column, i2) => {
+          var _a3;
+          let content;
+          let key;
+          if (column === null) {
+            key = `filler-${i2}`;
+            if (i2 === 0) {
+              content = /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+                RowOptions2,
+                {
+                  source,
+                  rowId,
+                  onDeleteClick: onRowDeleteClick,
+                  onInsertAboveClick: onRowInsertAboveClick,
+                  onInsertBelowClick: onRowInsertBelowClick,
+                  onRowReorder
+                }
+              );
+            } else {
+              content = /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(import_jsx_runtime83.Fragment, {});
+            }
+          } else {
+            const {
+              id: columnId,
+              width,
+              type,
+              shouldWrapOverflow,
+              currencyType,
+              numberPrefix,
+              numberSeparator,
+              numberFormat,
+              numberSuffix,
+              dateFormat,
+              tags,
+              verticalPadding,
+              horizontalPadding,
+              aspectRatio,
+              frontmatterKey
+            } = column;
+            const cell = row.cells.find(
+              (cell2) => cell2.columnId === columnId
+            );
+            if (!cell)
+              throw new CellNotFoundError({
+                columnId,
+                rowId
+              });
+            const {
+              id: cellId,
+              content: cellContent,
+              dateTime,
+              tagIds,
+              isExternalLink
+            } = cell;
+            const source2 = (_a3 = sources.find(
+              (source3) => source3.id === row.sourceId
+            )) != null ? _a3 : null;
+            key = column.id;
+            content = /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+              BodyCellContainer,
+              {
+                cellId,
+                frontmatterKey,
+                isExternalLink,
+                verticalPadding,
+                horizontalPadding,
+                aspectRatio,
+                columnTags: tags,
+                cellTagIds: tagIds,
+                columnId,
+                source: source2,
+                numberFormat,
+                rowCreationTime: creationTime,
+                dateFormat,
+                currencyType,
+                numberPrefix,
+                numberSuffix,
+                numberSeparator,
+                rowLastEditedTime: lastEditedTime,
+                dateTime,
+                content: cellContent,
+                columnType: type,
+                shouldWrapOverflow,
+                width,
+                onTagClick: onTagCellAdd,
+                onTagRemoveClick: onTagCellRemove,
+                onTagMultipleRemove: onTagCellMultipleRemove,
+                onCellChange,
+                onTagDeleteClick,
+                onTagAdd,
+                onColumnChange,
+                onTagChange
+              },
+              cellId
+            );
+          }
+          return /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+            BodyCell,
+            {
+              rowId,
+              content,
+              index: i2,
+              numFrozenColumns
+            },
+            key
+          );
+        });
+      }
+    }
+  );
+});
+var Components = {
+  Table: (_a2) => {
+    var props = __objRest(_a2, []);
+    return /* @__PURE__ */ (0, import_jsx_runtime83.jsx)("div", __spreadValues({ className: "dataloom-table" }, props));
+  },
+  TableHead: import_react41.default.forwardRef((_b, ref) => {
+    var props = __objRest(_b, []);
+    return /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+      "div",
+      __spreadProps(__spreadValues({
+        className: "dataloom-header"
+      }, props), {
+        style: {
+          position: void 0,
+          top: void 0,
+          zIndex: void 0
+        },
+        ref
+      })
+    );
+  }),
+  TableBody: import_react41.default.forwardRef((_c, ref) => {
+    var _d = _c, { style } = _d, props = __objRest(_d, ["style"]);
+    return /* @__PURE__ */ (0, import_jsx_runtime83.jsx)("div", __spreadProps(__spreadValues({ className: "dataloom-body" }, props), { style, ref }));
+  }),
+  TableFoot: import_react41.default.forwardRef((_e, ref) => {
+    var props = __objRest(_e, []);
+    return /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+      "div",
+      __spreadProps(__spreadValues({
+        className: "dataloom-footer"
+      }, props), {
+        style: {
+          position: void 0,
+          bottom: void 0,
+          zIndex: void 0
+        },
+        ref
+      })
+    );
+  }),
+  FillerRow: ({ height }) => /* @__PURE__ */ (0, import_jsx_runtime83.jsx)("div", { className: "dataloom-row", style: { height } })
+};
+var areEqual = (prevProps, nextProps) => {
+  return import_lodash8.default.isEqual(prevProps, nextProps);
+};
+var table_default = import_react41.default.memo(Table2, areEqual);
+
+// src/react/loom-app/option-bar/search-bar/index.tsx
+var import_jsx_runtime84 = __toESM(require_jsx_runtime());
+function SearchBar() {
+  const { searchText, setSearchText, isSearchBarVisible, toggleSearchBar } = useLoomState();
+  return /* @__PURE__ */ (0, import_jsx_runtime84.jsx)("div", { className: "dataloom-search-bar", children: /* @__PURE__ */ (0, import_jsx_runtime84.jsxs)(Stack, { spacing: "lg", isHorizontal: true, children: [
+    isSearchBarVisible && /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
+      input_default,
+      {
+        placeholder: "Type to search...",
+        value: searchText,
+        onChange: (value) => setSearchText(value)
+      }
+    ),
+    /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
+      Button,
+      {
+        icon: /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(Icon, { lucideId: "search" }),
+        ariaLabel: "Search",
+        onClick: () => toggleSearchBar()
+      }
+    )
+  ] }) });
+}
+
+// src/react/loom-app/option-bar/active-filter-bubble/index.tsx
+var import_jsx_runtime85 = __toESM(require_jsx_runtime());
+function ActiveFilterBubble({ numActive }) {
+  if (numActive === 0)
+    return /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(import_jsx_runtime85.Fragment, {});
+  const value = `${numActive} active filter${numActive > 1 ? "s" : ""}`;
+  return /* @__PURE__ */ (0, import_jsx_runtime85.jsx)("div", { className: "dataloom-active-filter-bubble", children: /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(Bubble, { value }) });
+}
+
+// src/react/loom-app/option-bar/more-menu/index.tsx
+var import_react48 = __toESM(require_react());
+
+// src/obsidian/modal/export-modal.tsx
+var import_obsidian16 = require("obsidian");
+var import_client2 = __toESM(require_client());
+
+// src/react/export-app/index.tsx
+var import_react42 = __toESM(require_react());
+
+// src/shared/export/types.ts
+var ExportType = /* @__PURE__ */ ((ExportType2) => {
+  ExportType2["UNSELECTED"] = "Select an option";
+  ExportType2["CSV"] = "CSV";
+  ExportType2["MARKDOWN"] = "Markdown";
+  return ExportType2;
+})(ExportType || {});
+
+// src/react/export-app/export-type-select.tsx
+var import_jsx_runtime86 = __toESM(require_jsx_runtime());
+function ExportTypeSelect({ value, onChange }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime86.jsxs)(Stack, { spacing: "xl", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime86.jsx)("label", { htmlFor: "type-select", children: "File Type" }),
+    /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
+      "select",
+      {
+        id: "type-select",
+        value,
+        onChange: (e) => onChange(e.target.value),
+        children: Object.values(ExportType).map((type) => /* @__PURE__ */ (0, import_jsx_runtime86.jsx)("option", { value: type, children: type }, type))
+      }
+    )
+  ] });
+}
+
+// src/react/export-app/content-textarea.tsx
+var import_jsx_runtime87 = __toESM(require_jsx_runtime());
+function ContentTextArea({ value }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime87.jsx)("textarea", { readOnly: true, value });
+}
+
+// node_modules/markdown-table/index.js
+function markdownTable(table, options = {}) {
+  const align = (options.align || []).concat();
+  const stringLength = options.stringLength || defaultStringLength;
+  const alignments = [];
+  const cellMatrix = [];
+  const sizeMatrix = [];
+  const longestCellByColumn = [];
+  let mostCellsPerRow = 0;
+  let rowIndex = -1;
+  while (++rowIndex < table.length) {
+    const row2 = [];
+    const sizes2 = [];
+    let columnIndex2 = -1;
+    if (table[rowIndex].length > mostCellsPerRow) {
+      mostCellsPerRow = table[rowIndex].length;
+    }
+    while (++columnIndex2 < table[rowIndex].length) {
+      const cell = serialize(table[rowIndex][columnIndex2]);
+      if (options.alignDelimiters !== false) {
+        const size = stringLength(cell);
+        sizes2[columnIndex2] = size;
+        if (longestCellByColumn[columnIndex2] === void 0 || size > longestCellByColumn[columnIndex2]) {
+          longestCellByColumn[columnIndex2] = size;
+        }
+      }
+      row2.push(cell);
+    }
+    cellMatrix[rowIndex] = row2;
+    sizeMatrix[rowIndex] = sizes2;
+  }
+  let columnIndex = -1;
+  if (typeof align === "object" && "length" in align) {
+    while (++columnIndex < mostCellsPerRow) {
+      alignments[columnIndex] = toAlignment(align[columnIndex]);
+    }
+  } else {
+    const code = toAlignment(align);
+    while (++columnIndex < mostCellsPerRow) {
+      alignments[columnIndex] = code;
+    }
+  }
+  columnIndex = -1;
+  const row = [];
+  const sizes = [];
+  while (++columnIndex < mostCellsPerRow) {
+    const code = alignments[columnIndex];
+    let before = "";
+    let after = "";
+    if (code === 99) {
+      before = ":";
+      after = ":";
+    } else if (code === 108) {
+      before = ":";
+    } else if (code === 114) {
+      after = ":";
+    }
+    let size = options.alignDelimiters === false ? 1 : Math.max(
+      1,
+      longestCellByColumn[columnIndex] - before.length - after.length
+    );
+    const cell = before + "-".repeat(size) + after;
+    if (options.alignDelimiters !== false) {
+      size = before.length + size + after.length;
+      if (size > longestCellByColumn[columnIndex]) {
+        longestCellByColumn[columnIndex] = size;
+      }
+      sizes[columnIndex] = size;
+    }
+    row[columnIndex] = cell;
+  }
+  cellMatrix.splice(1, 0, row);
+  sizeMatrix.splice(1, 0, sizes);
+  rowIndex = -1;
+  const lines = [];
+  while (++rowIndex < cellMatrix.length) {
+    const row2 = cellMatrix[rowIndex];
+    const sizes2 = sizeMatrix[rowIndex];
+    columnIndex = -1;
+    const line = [];
+    while (++columnIndex < mostCellsPerRow) {
+      const cell = row2[columnIndex] || "";
+      let before = "";
+      let after = "";
+      if (options.alignDelimiters !== false) {
+        const size = longestCellByColumn[columnIndex] - (sizes2[columnIndex] || 0);
+        const code = alignments[columnIndex];
+        if (code === 114) {
+          before = " ".repeat(size);
+        } else if (code === 99) {
+          if (size % 2) {
+            before = " ".repeat(size / 2 + 0.5);
+            after = " ".repeat(size / 2 - 0.5);
+          } else {
+            before = " ".repeat(size / 2);
+            after = before;
+          }
+        } else {
+          after = " ".repeat(size);
+        }
+      }
+      if (options.delimiterStart !== false && !columnIndex) {
+        line.push("|");
+      }
+      if (options.padding !== false && !(options.alignDelimiters === false && cell === "") && (options.delimiterStart !== false || columnIndex)) {
+        line.push(" ");
+      }
+      if (options.alignDelimiters !== false) {
+        line.push(before);
+      }
+      line.push(cell);
+      if (options.alignDelimiters !== false) {
+        line.push(after);
+      }
+      if (options.padding !== false) {
+        line.push(" ");
+      }
+      if (options.delimiterEnd !== false || columnIndex !== mostCellsPerRow - 1) {
+        line.push("|");
+      }
+    }
+    lines.push(
+      options.delimiterEnd === false ? line.join("").replace(/ +$/, "") : line.join("")
+    );
+  }
+  return lines.join("\n");
+}
+function serialize(value) {
+  return value === null || value === void 0 ? "" : String(value);
+}
+function defaultStringLength(value) {
+  return value.length;
+}
+function toAlignment(value) {
+  const code = typeof value === "string" ? value.codePointAt(0) : 0;
+  return code === 67 || code === 99 ? 99 : code === 76 || code === 108 ? 108 : code === 82 || code === 114 ? 114 : 0;
+}
+
+// src/shared/cell-content/checkbox-cell-content.ts
+var getCheckboxCellContent = (content, shouldRemoveMarkdown) => {
+  if (shouldRemoveMarkdown) {
+    if (isCheckboxChecked(content))
+      return "true";
+    return "false";
+  }
+  return content;
 };
 
 // src/shared/cell-content/text-cell-content.ts
@@ -51074,7 +55079,7 @@ __export(esm_exports, {
   Root: () => Root2,
   Script: () => Script,
   Style: () => Style,
-  Tag: () => Tag3,
+  Tag: () => Tag7,
   Text: () => Text2,
   isTag: () => isTag
 });
@@ -51099,7 +55104,7 @@ var Directive = ElementType.Directive;
 var Comment = ElementType.Comment;
 var Script = ElementType.Script;
 var Style = ElementType.Style;
-var Tag3 = ElementType.Tag;
+var Tag7 = ElementType.Tag;
 var CDATA = ElementType.CDATA;
 var Doctype = ElementType.Doctype;
 
@@ -51425,7 +55430,7 @@ function renderNode(node, options) {
       return renderCdata(node);
     case Script:
     case Style:
-    case Tag3:
+    case Tag7:
       return renderTag(node, options);
     case Text2:
       return renderText2(node, options);
@@ -52039,49 +56044,6 @@ var getTimeCellContent = (dateTime, format) => {
   return "";
 };
 
-// src/shared/link/link-utils.ts
-var getBasename = (filePath) => {
-  const fileName = stripDirectory(filePath);
-  return stripFileExtension(fileName);
-};
-var getExtension = (filePath) => {
-  return filePath.substring(filePath.lastIndexOf(".") + 1);
-};
-var stripFileExtension = (filePath) => {
-  return filePath.substring(0, filePath.lastIndexOf("."));
-};
-var stripDirectory = (filePath) => {
-  return filePath.substring(filePath.lastIndexOf("/") + 1);
-};
-var isMarkdownFile = (extension) => {
-  return extension === "md";
-};
-var getWikiLinkText = (path) => {
-  const basename = getBasename(path);
-  const extension = getExtension(path);
-  let text = basename;
-  if (!isMarkdownFile(extension)) {
-    text = stripDirectory(path);
-    if (path.includes("/"))
-      text = `${path}|${basename}`;
-  } else {
-    const pathWithoutExtension = stripFileExtension(path);
-    if (path.includes("/"))
-      text = `${pathWithoutExtension}|${basename}`;
-  }
-  return text;
-};
-
-// src/shared/cell-content/source-file-content.ts
-var getSourceFileContent = (content, shouldRemoveMarkdown = false) => {
-  if (content === "")
-    return "";
-  if (shouldRemoveMarkdown)
-    return content;
-  const basename = getBasename(content);
-  return `[[${content}|${basename}]]`;
-};
-
 // src/shared/cell-content/index.ts
 var getTagCellContent = (column, cell) => {
   return column.tags.filter((tag) => cell.tagIds.includes(tag.id)).map((tag) => tag.content).join(",");
@@ -52222,48 +56184,16 @@ var exportToCSV = (app, loomState, shouldRemoveMarkdown) => {
   return import_papaparse.default.unparse(arr);
 };
 
-// src/react/shared/switch/index.tsx
-var import_jsx_runtime31 = __toESM(require_jsx_runtime());
-function Switch({ id: id2, value, ariaLabel, onToggle }) {
-  const { isDarkMode } = useAppSelector((state) => state.global);
-  function handleKeyDown(e) {
-    if (e.key === "Enter") {
-      e.stopPropagation();
-      onToggle(!value);
-    }
-  }
-  function handleClick(e) {
-    e.stopPropagation();
-    onToggle(!value);
-  }
-  let className = "checkbox-container dataloom-switch dataloom-focusable";
-  if (value)
-    className += " is-enabled";
-  if (isDarkMode)
-    className += " dataloom-switch--dark";
-  return /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(
-    "div",
-    {
-      tabIndex: 0,
-      className,
-      "aria-label": ariaLabel,
-      onClick: handleClick,
-      onKeyDown: handleKeyDown,
-      children: /* @__PURE__ */ (0, import_jsx_runtime31.jsx)("input", { id: id2, type: "checkbox" })
-    }
-  );
-}
-
 // src/react/export-app/index.tsx
-var import_jsx_runtime32 = __toESM(require_jsx_runtime());
+var import_jsx_runtime88 = __toESM(require_jsx_runtime());
 function ExportApp({ app, loomState, loomFilePath }) {
-  const [exportType, setExportType] = import_react25.default.useState(
+  const [exportType, setExportType] = import_react42.default.useState(
     "Select an option" /* UNSELECTED */
   );
   const { removeMarkdownOnExport } = useAppSelector(
     (state) => state.global.settings
   );
-  const [shouldRemoveMarkdown, setRemoveMarkdown] = import_react25.default.useState(
+  const [shouldRemoveMarkdown, setRemoveMarkdown] = import_react42.default.useState(
     removeMarkdownOnExport
   );
   function handleCopyClick(value) {
@@ -52283,12 +56213,12 @@ function ExportApp({ app, loomState, loomFilePath }) {
   } else if (exportType === "CSV" /* CSV */) {
     content = exportToCSV(app, loomState, shouldRemoveMarkdown);
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime32.jsx)("div", { className: "dataloom-export-app", children: /* @__PURE__ */ (0, import_jsx_runtime32.jsxs)(Stack, { spacing: "xl", width: "100%", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(ExportTypeSelect, { value: exportType, onChange: setExportType }),
-    exportType !== "Select an option" /* UNSELECTED */ && /* @__PURE__ */ (0, import_jsx_runtime32.jsxs)(import_jsx_runtime32.Fragment, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime32.jsxs)(Stack, { spacing: "sm", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime32.jsx)("label", { htmlFor: "remove-markdown", children: "Remove markdown" }),
-        /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime88.jsx)("div", { className: "dataloom-export-app", children: /* @__PURE__ */ (0, import_jsx_runtime88.jsxs)(Stack, { spacing: "xl", width: "100%", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime88.jsx)(ExportTypeSelect, { value: exportType, onChange: setExportType }),
+    exportType !== "Select an option" /* UNSELECTED */ && /* @__PURE__ */ (0, import_jsx_runtime88.jsxs)(import_jsx_runtime88.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime88.jsxs)(Stack, { spacing: "sm", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime88.jsx)("label", { htmlFor: "remove-markdown", children: "Remove markdown" }),
+        /* @__PURE__ */ (0, import_jsx_runtime88.jsx)(
           Switch,
           {
             id: "remove-markdown",
@@ -52297,9 +56227,9 @@ function ExportApp({ app, loomState, loomFilePath }) {
           }
         )
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(ContentTextArea, { value: content }),
-      /* @__PURE__ */ (0, import_jsx_runtime32.jsxs)(Stack, { isHorizontal: true, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(
+      /* @__PURE__ */ (0, import_jsx_runtime88.jsx)(ContentTextArea, { value: content }),
+      /* @__PURE__ */ (0, import_jsx_runtime88.jsxs)(Stack, { isHorizontal: true, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime88.jsx)(
           "button",
           {
             className: "mod-cta",
@@ -52307,7 +56237,7 @@ function ExportApp({ app, loomState, loomFilePath }) {
             children: "Download"
           }
         ),
-        /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime88.jsx)(
           "button",
           {
             className: "dataloom-copy-button",
@@ -52321,7 +56251,7 @@ function ExportApp({ app, loomState, loomFilePath }) {
 }
 
 // src/obsidian/modal/export-modal.tsx
-var import_jsx_runtime33 = __toESM(require_jsx_runtime());
+var import_jsx_runtime89 = __toESM(require_jsx_runtime());
 var ExportModal = class extends import_obsidian16.Modal {
   constructor(app, loomFile, loomState) {
     super(app);
@@ -52341,7 +56271,7 @@ var ExportModal = class extends import_obsidian16.Modal {
     return __async(this, null, function* () {
       this.root = (0, import_client2.createRoot)(contentEl);
       this.root.render(
-        /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(Provider_default, { store, children: /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime89.jsx)(Provider_default, { store, children: /* @__PURE__ */ (0, import_jsx_runtime89.jsx)(
           ExportApp,
           {
             app: this.app,
@@ -52363,7 +56293,7 @@ var import_obsidian17 = require("obsidian");
 var import_client3 = __toESM(require_client());
 
 // src/react/import-app/index.tsx
-var import_react30 = __toESM(require_react());
+var import_react47 = __toESM(require_react());
 var import_papaparse2 = __toESM(require_papaparse_min());
 
 // src/react/import-app/types.ts
@@ -52381,39 +56311,39 @@ var DataSource = /* @__PURE__ */ ((DataSource2) => {
 })(DataSource || {});
 
 // src/react/import-app/data-type-select.tsx
-var import_jsx_runtime34 = __toESM(require_jsx_runtime());
+var import_jsx_runtime90 = __toESM(require_jsx_runtime());
 function DataTypeSelect({ value, onChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime34.jsx)("div", { className: "dataloom-data-type-select", children: /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(Stack, { children: /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime90.jsx)("div", { className: "dataloom-data-type-select", children: /* @__PURE__ */ (0, import_jsx_runtime90.jsx)(Stack, { children: /* @__PURE__ */ (0, import_jsx_runtime90.jsx)(
     "select",
     {
       value,
       onChange: (e) => onChange(e.target.value),
-      children: Object.values(DataType).map((type) => /* @__PURE__ */ (0, import_jsx_runtime34.jsx)("option", { value: type, children: type }, type))
+      children: Object.values(DataType).map((type) => /* @__PURE__ */ (0, import_jsx_runtime90.jsx)("option", { value: type, children: type }, type))
     }
   ) }) });
 }
 
 // src/react/shared/stepper/index.tsx
-var import_react26 = __toESM(require_react());
+var import_react43 = __toESM(require_react());
 
 // src/react/shared/stepper/step-spacer.tsx
-var import_jsx_runtime35 = __toESM(require_jsx_runtime());
+var import_jsx_runtime91 = __toESM(require_jsx_runtime());
 function StepSpacer() {
-  return /* @__PURE__ */ (0, import_jsx_runtime35.jsx)("div", { className: "dataloom-step__spacer" });
+  return /* @__PURE__ */ (0, import_jsx_runtime91.jsx)("div", { className: "dataloom-step__spacer" });
 }
 
 // src/react/shared/stepper/step-content.tsx
-var import_jsx_runtime36 = __toESM(require_jsx_runtime());
+var import_jsx_runtime92 = __toESM(require_jsx_runtime());
 function StepContent({ content, addTopMargin }) {
   let className = "dataloom-step__content";
   if (addTopMargin) {
     className += " dataloom-step__content--margin-top";
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime36.jsx)("div", { className, children: content });
+  return /* @__PURE__ */ (0, import_jsx_runtime92.jsx)("div", { className, children: content });
 }
 
 // src/react/shared/stepper/step-buttons.tsx
-var import_jsx_runtime37 = __toESM(require_jsx_runtime());
+var import_jsx_runtime93 = __toESM(require_jsx_runtime());
 function StepButtons({
   isFirstStep,
   isLastStep,
@@ -52422,8 +56352,8 @@ function StepButtons({
   onNextClick,
   onBackClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime37.jsx)("div", { className: "dataloom-step__buttons", children: /* @__PURE__ */ (0, import_jsx_runtime37.jsxs)(Stack, { isHorizontal: true, spacing: "md", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime37.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime93.jsx)("div", { className: "dataloom-step__buttons", children: /* @__PURE__ */ (0, import_jsx_runtime93.jsxs)(Stack, { isHorizontal: true, spacing: "md", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(
       Button,
       {
         isDisabled: isNextDisabled,
@@ -52432,12 +56362,12 @@ function StepButtons({
         children: isLastStep ? finishButtonLabel : "Next"
       }
     ),
-    !isFirstStep && /* @__PURE__ */ (0, import_jsx_runtime37.jsx)(Button, { onClick: onBackClick, children: "Back" })
+    !isFirstStep && /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(Button, { onClick: onBackClick, children: "Back" })
   ] }) });
 }
 
 // src/react/shared/stepper/step-indicator.tsx
-var import_jsx_runtime38 = __toESM(require_jsx_runtime());
+var import_jsx_runtime94 = __toESM(require_jsx_runtime());
 function StepIndicator({ index, isComplete, onClick }) {
   function handleClick() {
     if (!isComplete)
@@ -52448,11 +56378,11 @@ function StepIndicator({ index, isComplete, onClick }) {
   if (isComplete) {
     className += " dataloom-step__indicator--complete";
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime38.jsx)("div", { className, onClick: handleClick, children: /* @__PURE__ */ (0, import_jsx_runtime38.jsx)(Flex, { justify: "center", align: "center", height: "100%", children: isComplete ? /* @__PURE__ */ (0, import_jsx_runtime38.jsx)(Icon, { lucideId: "checkmark", size: "lg" }) : /* @__PURE__ */ (0, import_jsx_runtime38.jsx)(Text, { value: index + 1, variant: "semibold", size: "lg" }) }) });
+  return /* @__PURE__ */ (0, import_jsx_runtime94.jsx)("div", { className, onClick: handleClick, children: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(Flex, { justify: "center", align: "center", height: "100%", children: isComplete ? /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(Icon, { lucideId: "checkmark", size: "lg" }) : /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(Text, { value: index + 1, variant: "semibold", size: "lg" }) }) });
 }
 
 // src/react/shared/stepper/step-text.tsx
-var import_jsx_runtime39 = __toESM(require_jsx_runtime());
+var import_jsx_runtime95 = __toESM(require_jsx_runtime());
 function StepText({
   title,
   description,
@@ -52468,14 +56398,14 @@ function StepText({
   if (isComplete) {
     className += " dataloom-step__text--complete";
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime39.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime39.jsxs)(Stack, { spacing: "sm", onClick: handleClick, children: [
-    /* @__PURE__ */ (0, import_jsx_runtime39.jsx)(Text, { variant: "semibold", size: "lg", value: title }),
-    description && /* @__PURE__ */ (0, import_jsx_runtime39.jsx)(Text, { size: "md", value: description })
+  return /* @__PURE__ */ (0, import_jsx_runtime95.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime95.jsxs)(Stack, { spacing: "sm", onClick: handleClick, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(Text, { variant: "semibold", size: "lg", value: title }),
+    description && /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(Text, { size: "md", value: description })
   ] }) });
 }
 
 // src/react/shared/stepper/step-header.tsx
-var import_jsx_runtime40 = __toESM(require_jsx_runtime());
+var import_jsx_runtime96 = __toESM(require_jsx_runtime());
 function StepHeader({
   title,
   description,
@@ -52488,8 +56418,8 @@ function StepHeader({
     className += " dataloom-step__header--margin-bottom";
   }
   const isComplete = activeIndex > index;
-  return /* @__PURE__ */ (0, import_jsx_runtime40.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime40.jsxs)(Stack, { isHorizontal: true, children: [
-    /* @__PURE__ */ (0, import_jsx_runtime40.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime96.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime96.jsxs)(Stack, { isHorizontal: true, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(
       StepIndicator,
       {
         index,
@@ -52497,7 +56427,7 @@ function StepHeader({
         onClick: () => onClick(index)
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime40.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(
       StepText,
       {
         title,
@@ -52510,23 +56440,23 @@ function StepHeader({
 }
 
 // src/react/shared/stepper/step-separator.tsx
-var import_jsx_runtime41 = __toESM(require_jsx_runtime());
+var import_jsx_runtime97 = __toESM(require_jsx_runtime());
 function StepSeparator({ hideBorder }) {
   let className = "dataloom-step__separator";
   if (hideBorder) {
     className += " dataloom-step__separator--no-border";
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime41.jsx)("div", { className });
+  return /* @__PURE__ */ (0, import_jsx_runtime97.jsx)("div", { className });
 }
 
 // src/react/shared/stepper/index.tsx
-var import_jsx_runtime42 = __toESM(require_jsx_runtime());
+var import_jsx_runtime98 = __toESM(require_jsx_runtime());
 function Stepper({
   steps,
   finishButtonLabel = "Finish",
   onFinishClick
 }) {
-  const [activeIndex, setActiveIndex] = import_react26.default.useState(0);
+  const [activeIndex, setActiveIndex] = import_react43.default.useState(0);
   const activeStep = steps[activeIndex];
   function handleStepHeaderClick(index) {
     var _a2, _b;
@@ -52555,15 +56485,15 @@ function Stepper({
   }
   const isFirstStep = activeIndex === 0;
   const isLastStep = activeIndex === steps.length - 1;
-  return /* @__PURE__ */ (0, import_jsx_runtime42.jsx)("div", { className: "dataloom-stepper", children: steps.map((step, i2) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime98.jsx)("div", { className: "dataloom-stepper", children: steps.map((step, i2) => {
     const {
       title,
       description,
       content,
       canContinue = true
     } = step;
-    return /* @__PURE__ */ (0, import_jsx_runtime42.jsxs)("div", { className: "dataloom-step", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime42.jsx)(
+    return /* @__PURE__ */ (0, import_jsx_runtime98.jsxs)("div", { className: "dataloom-step", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(
         StepHeader,
         {
           title,
@@ -52573,17 +56503,17 @@ function Stepper({
           onClick: handleStepHeaderClick
         }
       ),
-      i2 === activeIndex && /* @__PURE__ */ (0, import_jsx_runtime42.jsxs)(Stack, { isHorizontal: true, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime42.jsx)(StepSeparator, { hideBorder: isLastStep }),
-        /* @__PURE__ */ (0, import_jsx_runtime42.jsxs)(Stack, { spacing: "lg", width: "100%", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime42.jsx)(
+      i2 === activeIndex && /* @__PURE__ */ (0, import_jsx_runtime98.jsxs)(Stack, { isHorizontal: true, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(StepSeparator, { hideBorder: isLastStep }),
+        /* @__PURE__ */ (0, import_jsx_runtime98.jsxs)(Stack, { spacing: "lg", width: "100%", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(
             StepContent,
             {
               content,
               addTopMargin: description !== void 0
             }
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime42.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(
             StepButtons,
             {
               isNextDisabled: canContinue instanceof Function ? !canContinue() : !canContinue,
@@ -52596,20 +56526,20 @@ function Stepper({
           )
         ] })
       ] }),
-      i2 < steps.length - 1 && /* @__PURE__ */ (0, import_jsx_runtime42.jsx)(StepSpacer, {})
+      i2 < steps.length - 1 && /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(StepSpacer, {})
     ] }, i2);
   }) });
 }
 
 // src/react/import-app/data-source-select.tsx
-var import_jsx_runtime43 = __toESM(require_jsx_runtime());
+var import_jsx_runtime99 = __toESM(require_jsx_runtime());
 function DataSourceSelect({ value, onChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime43.jsx)("div", { className: "dataloom-data-source-select", children: /* @__PURE__ */ (0, import_jsx_runtime43.jsx)(Stack, { children: /* @__PURE__ */ (0, import_jsx_runtime43.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime99.jsx)("div", { className: "dataloom-data-source-select", children: /* @__PURE__ */ (0, import_jsx_runtime99.jsx)(Stack, { children: /* @__PURE__ */ (0, import_jsx_runtime99.jsx)(
     "select",
     {
       value,
       onChange: (e) => onChange(e.target.value),
-      children: Object.values(DataSource).map((type) => /* @__PURE__ */ (0, import_jsx_runtime43.jsx)("option", { value: type, children: type }, type))
+      children: Object.values(DataSource).map((type) => /* @__PURE__ */ (0, import_jsx_runtime99.jsx)("option", { value: type, children: type }, type))
     }
   ) }) });
 }
@@ -52627,7 +56557,7 @@ var getAcceptForDataType = (value) => {
 };
 
 // src/react/import-app/upload-data/file-input/index.tsx
-var import_jsx_runtime44 = __toESM(require_jsx_runtime());
+var import_jsx_runtime100 = __toESM(require_jsx_runtime());
 function FileInput({
   hasHeadersRow,
   fileName,
@@ -52648,10 +56578,10 @@ function FileInput({
     reader.readAsText(file);
   }
   const accept = getAcceptForDataType(dataType);
-  return /* @__PURE__ */ (0, import_jsx_runtime44.jsx)("div", { className: "dataloom-file-input", children: /* @__PURE__ */ (0, import_jsx_runtime44.jsxs)(Stack, { spacing: "2xl", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime44.jsxs)(Stack, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime44.jsx)(Text, { value: fileName != null ? fileName : "No file chosen" }),
-      /* @__PURE__ */ (0, import_jsx_runtime44.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime100.jsx)("div", { className: "dataloom-file-input", children: /* @__PURE__ */ (0, import_jsx_runtime100.jsxs)(Stack, { spacing: "2xl", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime100.jsxs)(Stack, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime100.jsx)(Text, { value: fileName != null ? fileName : "No file chosen" }),
+      /* @__PURE__ */ (0, import_jsx_runtime100.jsx)(
         "input",
         {
           type: "file",
@@ -52660,9 +56590,9 @@ function FileInput({
         }
       )
     ] }),
-    accept === ".csv" && /* @__PURE__ */ (0, import_jsx_runtime44.jsxs)(Stack, { spacing: "sm", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime44.jsx)("label", { htmlFor: "has-headers", children: "First row contains headers" }),
-      /* @__PURE__ */ (0, import_jsx_runtime44.jsx)(
+    accept === ".csv" && /* @__PURE__ */ (0, import_jsx_runtime100.jsxs)(Stack, { spacing: "sm", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime100.jsx)("label", { htmlFor: "has-headers", children: "First row contains headers" }),
+      /* @__PURE__ */ (0, import_jsx_runtime100.jsx)(
         Switch,
         {
           id: "has-headers",
@@ -52675,13 +56605,13 @@ function FileInput({
 }
 
 // src/react/import-app/upload-data/upload-textarea.tsx
-var import_jsx_runtime45 = __toESM(require_jsx_runtime());
+var import_jsx_runtime101 = __toESM(require_jsx_runtime());
 function UploadTextarea({ value, onChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime45.jsx)("textarea", { value, onChange: (e) => onChange(e.target.value) });
+  return /* @__PURE__ */ (0, import_jsx_runtime101.jsx)("textarea", { value, onChange: (e) => onChange(e.target.value) });
 }
 
 // src/react/import-app/upload-data/index.tsx
-var import_jsx_runtime46 = __toESM(require_jsx_runtime());
+var import_jsx_runtime102 = __toESM(require_jsx_runtime());
 function UploadData({
   source,
   fileName,
@@ -52692,9 +56622,9 @@ function UploadData({
   onRawDataChange,
   onHeadersRowToggle
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime46.jsxs)("div", { className: "dataloom-upload-data", children: [
-    source === "Paste from clipboard" /* PASTE */ && /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(UploadTextarea, { value: rawData, onChange: onRawDataChange }),
-    source === "File" /* FILE */ && /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime102.jsxs)("div", { className: "dataloom-upload-data", children: [
+    source === "Paste from clipboard" /* PASTE */ && /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(UploadTextarea, { value: rawData, onChange: onRawDataChange }),
+    source === "File" /* FILE */ && /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(
       FileInput,
       {
         fileName,
@@ -52704,12 +56634,15 @@ function UploadData({
         onDataChange: onRawDataChange
       }
     ),
-    errorText !== null && /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(Text, { variant: "error", value: errorText, size: "sm" })
+    errorText !== null && /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(Text, { variant: "error", value: errorText, size: "sm" })
   ] });
 }
 
+// src/react/import-app/match-columns/index.tsx
+var import_react46 = __toESM(require_react());
+
 // src/react/import-app/match-columns/body-cell.tsx
-var import_jsx_runtime47 = __toESM(require_jsx_runtime());
+var import_jsx_runtime103 = __toESM(require_jsx_runtime());
 function BodyCell2({ value, isDisabled }) {
   const overflowClassName = useOverflow(false, {
     ellipsis: true
@@ -52717,18 +56650,18 @@ function BodyCell2({ value, isDisabled }) {
   let className = overflowClassName;
   if (isDisabled)
     className += " dataloom-disabled";
-  return /* @__PURE__ */ (0, import_jsx_runtime47.jsx)("td", { className, children: value });
+  return /* @__PURE__ */ (0, import_jsx_runtime103.jsx)("td", { className, children: value });
 }
 
-// src/react/shared/menu/modal-menu.tsx
-var import_react28 = __toESM(require_react());
+// src/react/shared/model-menu/index.tsx
+var import_react45 = __toESM(require_react());
 
 // src/react/shared/modal-mount-provider/index.tsx
-var import_react27 = __toESM(require_react());
-var import_jsx_runtime48 = __toESM(require_jsx_runtime());
-var MountContext2 = import_react27.default.createContext(null);
+var import_react44 = __toESM(require_react());
+var import_jsx_runtime104 = __toESM(require_jsx_runtime());
+var MountContext2 = import_react44.default.createContext(null);
 var useModalMount = () => {
-  const value = import_react27.default.useContext(MountContext2);
+  const value = import_react44.default.useContext(MountContext2);
   if (value === null) {
     throw new Error(
       "useModalMount() called without a <ModalMountProvider /> in the tree."
@@ -52741,106 +56674,58 @@ function ModalMountProvider({
   modalEl,
   children
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime48.jsx)(MountContext2.Provider, { value: { obsidianApp, modalEl }, children });
+  return /* @__PURE__ */ (0, import_jsx_runtime104.jsx)(MountContext2.Provider, { value: { obsidianApp, modalEl }, children });
 }
 
-// src/react/shared/menu/modal-menu.tsx
-var import_jsx_runtime49 = __toESM(require_jsx_runtime());
+// src/react/shared/model-menu/index.tsx
+var import_jsx_runtime105 = __toESM(require_jsx_runtime());
 function ModalMenu({
   id: id2,
   isOpen,
   hideBorder = false,
   openDirection,
-  triggerPosition,
+  position,
   width = 0,
   height = 0,
   maxHeight = 0,
   maxWidth = 0,
-  children,
-  onRequestClose,
-  onClose
+  children
 }) {
-  const ref = import_react28.default.useRef(null);
+  const ref = import_react45.default.useRef(null);
   const { modalEl } = useModalMount();
-  useShiftMenu(true, modalEl, ref, triggerPosition, isOpen, {
+  useShiftMenu(true, modalEl, ref, position, isOpen, {
     openDirection
   });
-  if (!isOpen)
-    return /* @__PURE__ */ (0, import_jsx_runtime49.jsx)(import_jsx_runtime49.Fragment, {});
-  return /* @__PURE__ */ (0, import_jsx_runtime49.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime105.jsx)(
     base_menu_default,
     {
       ref,
       id: id2,
       isOpen,
       hideBorder,
-      triggerPosition,
+      position,
       width,
       height,
       maxHeight,
       maxWidth,
-      onRequestClose,
-      onClose,
       children
     }
   );
 }
 
-// src/react/shared/icon/utils.tsx
-var getIconIdForSourceType = (type) => {
-  switch (type) {
-    case "folder" /* FOLDER */:
-      return "folder";
-    case "tag" /* TAG */:
-      return "tag";
-    default:
-      return "";
-  }
-};
-var getIconIdForCellType = (type) => {
-  switch (type) {
-    case "text" /* TEXT */:
-      return "text";
-    case "embed" /* EMBED */:
-      return "link";
-    case "source-file" /* SOURCE_FILE */:
-    case "file" /* FILE */:
-      return "file";
-    case "number" /* NUMBER */:
-      return "hash";
-    case "checkbox" /* CHECKBOX */:
-      return "check-square";
-    case "creation-time" /* CREATION_TIME */:
-    case "last-edited-time" /* LAST_EDITED_TIME */:
-      return "clock-2";
-    case "tag" /* TAG */:
-      return "tag";
-    case "multi-tag" /* MULTI_TAG */:
-      return "tags";
-    case "date" /* DATE */:
-      return "calendar";
-    case "source" /* SOURCE */:
-      return "rss";
-    default:
-      return "text";
-  }
-};
-
 // src/react/import-app/constants.ts
 var NEW_COLUMN_ID = "-1";
 
 // src/react/import-app/match-columns/select-column-menu.tsx
-var import_jsx_runtime50 = __toESM(require_jsx_runtime());
+var import_jsx_runtime106 = __toESM(require_jsx_runtime());
 function SelectColumnMenu({
   id: id2,
-  triggerPosition,
+  position,
   isOpen,
   columns,
   columnMatches,
   selectedColumnId,
-  onColumnClick,
-  onRequestClose,
-  onClose
+  onColumnClick
 }) {
   const columnsToDisplay = columns.filter((column) => {
     const { id: id3 } = column;
@@ -52848,19 +56733,17 @@ function SelectColumnMenu({
       return true;
     return !columnMatches.some((match) => match.columnId === id3);
   });
-  return /* @__PURE__ */ (0, import_jsx_runtime50.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime106.jsxs)(
     ModalMenu,
     {
       id: id2,
       isOpen,
-      triggerPosition,
-      onRequestClose,
+      position,
       openDirection: "bottom-left",
-      onClose,
       children: [
         columnsToDisplay.map((column) => {
           const { id: id3, name, type } = column;
-          return /* @__PURE__ */ (0, import_jsx_runtime50.jsx)(
+          return /* @__PURE__ */ (0, import_jsx_runtime106.jsx)(
             MenuItem,
             {
               name,
@@ -52871,8 +56754,8 @@ function SelectColumnMenu({
             id3
           );
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime50.jsx)(Divider, {}),
-        /* @__PURE__ */ (0, import_jsx_runtime50.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime106.jsx)(Divider, {}),
+        /* @__PURE__ */ (0, import_jsx_runtime106.jsx)(
           MenuItem,
           {
             name: "Insert new column",
@@ -52880,9 +56763,9 @@ function SelectColumnMenu({
             isSelected: selectedColumnId === NEW_COLUMN_ID
           }
         ),
-        selectedColumnId !== null && /* @__PURE__ */ (0, import_jsx_runtime50.jsxs)(import_jsx_runtime50.Fragment, { children: [
-          /* @__PURE__ */ (0, import_jsx_runtime50.jsx)(Divider, {}),
-          /* @__PURE__ */ (0, import_jsx_runtime50.jsx)(
+        selectedColumnId !== null && /* @__PURE__ */ (0, import_jsx_runtime106.jsxs)(import_jsx_runtime106.Fragment, { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime106.jsx)(Divider, {}),
+          /* @__PURE__ */ (0, import_jsx_runtime106.jsx)(
             MenuItem,
             {
               name: "Unmatch",
@@ -52896,7 +56779,7 @@ function SelectColumnMenu({
 }
 
 // src/react/import-app/match-columns/header-cell.tsx
-var import_jsx_runtime51 = __toESM(require_jsx_runtime());
+var import_jsx_runtime107 = __toESM(require_jsx_runtime());
 function HeaderCell2({
   isDisabled,
   columns,
@@ -52910,23 +56793,14 @@ function HeaderCell2({
   const overflowClassName = useOverflow(false, {
     ellipsis: true
   });
-  const {
-    menu,
-    triggerPosition,
-    triggerRef,
-    isOpen,
-    onOpen,
-    onClose,
-    onRequestClose
-  } = useModalMenu({
-    shouldFocusTriggerOnClose: false
-  });
+  const COMPONENT_ID = `header-cell-${index}`;
+  const menu = useMenu(COMPONENT_ID);
   function handleColumnClick(columnId) {
     onColumnMatch(index, columnId);
-    onClose();
+    menu.onClose();
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime51.jsxs)(import_jsx_runtime51.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime51.jsx)("th", { className: overflowClassName, children: /* @__PURE__ */ (0, import_jsx_runtime51.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime107.jsxs)(import_jsx_runtime107.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime107.jsx)("th", { className: overflowClassName, children: /* @__PURE__ */ (0, import_jsx_runtime107.jsxs)(
       Stack,
       {
         className: isDisabled ? "dataloom-disabled" : void 0,
@@ -52935,9 +56809,9 @@ function HeaderCell2({
         spacing: "xl",
         width: "100%",
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime51.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime51.jsx)(Text, { value: importValue }),
-            /* @__PURE__ */ (0, import_jsx_runtime51.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime107.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(Text, { value: importValue }),
+            /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(
               Icon,
               {
                 color: matchId ? "green" : "red",
@@ -52947,8 +56821,8 @@ function HeaderCell2({
               }
             )
           ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime51.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime51.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime107.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(
               "input",
               {
                 "aria-label": "Toggle column",
@@ -52957,31 +56831,31 @@ function HeaderCell2({
                 onChange: () => onColumnToggle(index)
               }
             ),
-            /* @__PURE__ */ (0, import_jsx_runtime51.jsx)(
+            /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(
               menu_button_default,
               {
-                menu,
-                ref: triggerRef,
+                ref: menu.triggerRef,
+                isFocused: menu.isTriggerFocused,
+                menuId: menu.id,
+                level: 1 /* ONE */,
                 ariaLabel: "Match column",
-                icon: /* @__PURE__ */ (0, import_jsx_runtime51.jsx)(Icon, { lucideId: "columns", size: "lg" }),
-                onOpen
+                icon: /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(Icon, { lucideId: "columns", size: "lg" }),
+                onOpen: () => menu.onOpen(1 /* ONE */)
               }
             )
           ] })
         ]
       }
     ) }),
-    /* @__PURE__ */ (0, import_jsx_runtime51.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(
       SelectColumnMenu,
       {
         id: menu.id,
-        isOpen,
-        triggerPosition,
+        isOpen: menu.isOpen,
+        position: menu.position,
         selectedColumnId: matchId,
         columnMatches,
         columns,
-        onRequestClose,
-        onClose,
         onColumnClick: handleColumnClick
       }
     )
@@ -52989,8 +56863,7 @@ function HeaderCell2({
 }
 
 // src/react/import-app/match-columns/index.tsx
-var import_react29 = __toESM(require_react());
-var import_jsx_runtime52 = __toESM(require_jsx_runtime());
+var import_jsx_runtime108 = __toESM(require_jsx_runtime());
 function MatchColumns({
   columns,
   columnMatches,
@@ -53000,11 +56873,11 @@ function MatchColumns({
   onAllColumnsToggle,
   onColumnMatch
 }) {
-  const containerRef = import_react29.default.useRef(null);
-  const { onCloseAll } = useMenuOperations();
-  import_react29.default.useEffect(() => {
+  const containerRef = import_react46.default.useRef(null);
+  const menuOperations = useMenuOperations();
+  import_react46.default.useEffect(() => {
     function handleScroll() {
-      onCloseAll();
+      menuOperations.onCloseAll();
     }
     if (!containerRef.current)
       return;
@@ -53020,24 +56893,24 @@ function MatchColumns({
       containerEl.removeEventListener("scroll", handleScroll);
       window.removeEventListener("resize", handleScroll);
     };
-  }, [onCloseAll]);
+  }, [menuOperations]);
   let numUnmatched = enabledColumnIndices.length - columnMatches.length;
   if (numUnmatched < 0)
     numUnmatched = 0;
-  return /* @__PURE__ */ (0, import_jsx_runtime52.jsxs)("div", { className: "dataloom-match-columns", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime52.jsx)(Padding, { pb: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime52.jsx)(Button, { variant: "default", onClick: onAllColumnsToggle, children: "Toggle all" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime52.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime108.jsxs)("div", { className: "dataloom-match-columns", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime108.jsx)(Padding, { pb: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime108.jsx)(Button, { variant: "default", onClick: onAllColumnsToggle, children: "Toggle all" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime108.jsx)(
       "div",
       {
         ref: containerRef,
         className: "dataloom-match-columns__container",
-        children: /* @__PURE__ */ (0, import_jsx_runtime52.jsxs)("table", { children: [
-          /* @__PURE__ */ (0, import_jsx_runtime52.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime52.jsx)("tr", { children: data[0].map((header, i2) => {
+        children: /* @__PURE__ */ (0, import_jsx_runtime108.jsxs)("table", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime108.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime108.jsx)("tr", { children: data[0].map((header, i2) => {
             var _a2, _b;
             const matchId = (_b = (_a2 = columnMatches.find(
               (match) => match.importColumnIndex === i2
             )) == null ? void 0 : _a2.columnId) != null ? _b : null;
-            return /* @__PURE__ */ (0, import_jsx_runtime52.jsx)(
+            return /* @__PURE__ */ (0, import_jsx_runtime108.jsx)(
               HeaderCell2,
               {
                 isDisabled: !enabledColumnIndices.includes(i2),
@@ -53052,7 +56925,7 @@ function MatchColumns({
               i2
             );
           }) }) }),
-          /* @__PURE__ */ (0, import_jsx_runtime52.jsx)("tbody", { children: data.slice(1).map((row, i2) => /* @__PURE__ */ (0, import_jsx_runtime52.jsx)("tr", { children: row.map((cell, j2) => /* @__PURE__ */ (0, import_jsx_runtime52.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime108.jsx)("tbody", { children: data.slice(1).map((row, i2) => /* @__PURE__ */ (0, import_jsx_runtime108.jsx)("tr", { children: row.map((cell, j2) => /* @__PURE__ */ (0, import_jsx_runtime108.jsx)(
             BodyCell2,
             {
               value: cell,
@@ -53063,8 +56936,8 @@ function MatchColumns({
         ] })
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime52.jsx)(Padding, { pt: "3xl", pb: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime52.jsxs)(Stack, { spacing: "lg", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime52.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime108.jsx)(Padding, { pt: "3xl", pb: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime108.jsxs)(Stack, { spacing: "lg", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime108.jsx)(
         Text,
         {
           size: "sm",
@@ -53072,7 +56945,7 @@ function MatchColumns({
           value: `Importing ${enabledColumnIndices.length} of ${data[0].length} columns`
         }
       ),
-      numUnmatched > 0 && /* @__PURE__ */ (0, import_jsx_runtime52.jsx)(
+      numUnmatched > 0 && /* @__PURE__ */ (0, import_jsx_runtime108.jsx)(
         Text,
         {
           size: "sm",
@@ -53135,51 +57008,13 @@ var validateMarkdownTable = (tokens) => {
   }
 };
 
-// src/shared/color.ts
-var findColorClassName = (isDarkMode, color) => {
-  switch (color) {
-    case "light gray" /* LIGHT_GRAY */:
-      return isDarkMode ? "dataloom-light-gray--dark" : "dataloom-light-gray--light";
-    case "gray" /* GRAY */:
-      return isDarkMode ? "dataloom-gray--dark" : "dataloom-gray--light";
-    case "brown" /* BROWN */:
-      return isDarkMode ? "dataloom-brown--dark" : "dataloom-brown--light";
-    case "orange" /* ORANGE */:
-      return isDarkMode ? "dataloom-orange--dark" : "dataloom-orange--light";
-    case "yellow" /* YELLOW */:
-      return isDarkMode ? "dataloom-yellow--dark" : "dataloom-yellow--light";
-    case "green" /* GREEN */:
-      return isDarkMode ? "dataloom-green--dark" : "dataloom-green--light";
-    case "blue" /* BLUE */:
-      return isDarkMode ? "dataloom-blue--dark" : "dataloom-blue--light";
-    case "purple" /* PURPLE */:
-      return isDarkMode ? "dataloom-purple--dark" : "dataloom-purple--light";
-    case "pink" /* PINK */:
-      return isDarkMode ? "dataloom-pink--dark" : "dataloom-pink--light";
-    case "red" /* RED */:
-      return isDarkMode ? "dataloom-red--dark" : "dataloom-red--light";
-    default:
-      return "";
-  }
-};
-var randomColor = () => {
-  const index = Math.floor(Math.random() * Object.values(Color).length);
-  return Object.values(Color)[index];
-};
-
-// src/shared/constants.ts
-var MIN_COLUMN_WIDTH = 40;
-var CHECKBOX_MARKDOWN_CHECKED = "[x]";
-var CHECKBOX_MARKDOWN_UNCHECKED2 = "[ ]";
-
 // src/shared/loom-state/loom-state-factory.ts
-var createFolderSource = (path) => {
+var createFolderSource = (path, includeSubfolders) => {
   return {
     id: generateUuid(),
     type: "folder" /* FOLDER */,
     path,
-    showMarkdownOnly: true,
-    showNested: false
+    includeSubfolders
   };
 };
 var createColumn = (options) => {
@@ -53661,19 +57496,19 @@ var isDateParsable = (value) => {
 };
 
 // src/react/import-app/index.tsx
-var import_jsx_runtime53 = __toESM(require_jsx_runtime());
+var import_jsx_runtime109 = __toESM(require_jsx_runtime());
 function ImportApp({ state, onStateChange }) {
-  const { onCloseAll } = useMenuOperations();
-  const [dataSource, setDataSource] = import_react30.default.useState("Select an option" /* UNSELECTED */);
-  const [dataType, setDataType] = import_react30.default.useState("Select an option" /* UNSELECTED */);
-  const [fileName, setFileName] = import_react30.default.useState(null);
-  const [rawData, setRawData] = import_react30.default.useState("");
-  const [data, setData] = import_react30.default.useState([]);
-  const [errorText, setErrorText] = import_react30.default.useState(null);
-  const [hasHeadersRow, setHeadersRow] = import_react30.default.useState(true);
-  const [enabledColumnIndices, setEnabledColumnIndices] = import_react30.default.useState([]);
-  const [toggleColumns, setToggleColumns] = import_react30.default.useState(false);
-  const [columnMatches, setColumnMatches] = import_react30.default.useState([]);
+  const menuOperations = useMenuOperations();
+  const [dataSource, setDataSource] = import_react47.default.useState("Select an option" /* UNSELECTED */);
+  const [dataType, setDataType] = import_react47.default.useState("Select an option" /* UNSELECTED */);
+  const [fileName, setFileName] = import_react47.default.useState(null);
+  const [rawData, setRawData] = import_react47.default.useState("");
+  const [data, setData] = import_react47.default.useState([]);
+  const [errorText, setErrorText] = import_react47.default.useState(null);
+  const [hasHeadersRow, setHeadersRow] = import_react47.default.useState(true);
+  const [enabledColumnIndices, setEnabledColumnIndices] = import_react47.default.useState([]);
+  const [toggleColumns, setToggleColumns] = import_react47.default.useState(false);
+  const [columnMatches, setColumnMatches] = import_react47.default.useState([]);
   function handleColumnToggle(index) {
     setEnabledColumnIndices((prevState) => {
       if (prevState.includes(index)) {
@@ -53702,7 +57537,7 @@ function ImportApp({ state, onStateChange }) {
   }
   function handleAllColumnsToggle() {
     if (toggleColumns) {
-      setEnabledColumnIndices(data[0].map((_5, i2) => i2));
+      setEnabledColumnIndices(data[0].map((_7, i2) => i2));
     } else {
       setEnabledColumnIndices([]);
     }
@@ -53748,7 +57583,7 @@ function ImportApp({ state, onStateChange }) {
   const steps = [
     {
       title: "Select data type",
-      content: /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(
+      content: /* @__PURE__ */ (0, import_jsx_runtime109.jsx)(
         DataTypeSelect,
         {
           value: dataType,
@@ -53759,7 +57594,7 @@ function ImportApp({ state, onStateChange }) {
     },
     {
       title: "Select data source",
-      content: /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(
+      content: /* @__PURE__ */ (0, import_jsx_runtime109.jsx)(
         DataSourceSelect,
         {
           value: dataSource,
@@ -53770,7 +57605,7 @@ function ImportApp({ state, onStateChange }) {
     },
     {
       title: "Upload data",
-      content: /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(
+      content: /* @__PURE__ */ (0, import_jsx_runtime109.jsx)(
         UploadData,
         {
           hasHeadersRow,
@@ -53805,17 +57640,17 @@ function ImportApp({ state, onStateChange }) {
         }
         if (!hasHeadersRow) {
           parsedArr.unshift(
-            parsedArr[0].map((_5, i2) => `Unnamed ${i2}`)
+            parsedArr[0].map((_7, i2) => `Unnamed ${i2}`)
           );
         }
         setData(parsedArr);
-        setEnabledColumnIndices(parsedArr[0].map((_5, i2) => i2));
+        setEnabledColumnIndices(parsedArr[0].map((_7, i2) => i2));
         return true;
       }
     },
     {
       title: "Match columns",
-      content: /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(
+      content: /* @__PURE__ */ (0, import_jsx_runtime109.jsx)(
         MatchColumns,
         {
           data,
@@ -53836,17 +57671,17 @@ function ImportApp({ state, onStateChange }) {
   ];
   function handleModalClick(e) {
     e.stopPropagation();
-    onCloseAll();
+    menuOperations.onCloseAll();
   }
   function handleFinishClick() {
     const newState = addImportData(state, data, columnMatches);
     onStateChange(newState);
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime53.jsx)("div", { className: "dataloom-import-app", onClick: handleModalClick, children: /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(Stepper, { steps, onFinishClick: handleFinishClick }) });
+  return /* @__PURE__ */ (0, import_jsx_runtime109.jsx)("div", { className: "dataloom-import-app", onClick: handleModalClick, children: /* @__PURE__ */ (0, import_jsx_runtime109.jsx)(Stepper, { steps, onFinishClick: handleFinishClick }) });
 }
 
 // src/obsidian/modal/import-modal.tsx
-var import_jsx_runtime54 = __toESM(require_jsx_runtime());
+var import_jsx_runtime110 = __toESM(require_jsx_runtime());
 var ImportModal = class extends import_obsidian17.Modal {
   constructor(app, loomFile, loomState) {
     super(app);
@@ -53879,7 +57714,7 @@ var ImportModal = class extends import_obsidian17.Modal {
         throw new Error("Modal element not found.");
       this.root = (0, import_client3.createRoot)(contentEl);
       this.root.render(
-        /* @__PURE__ */ (0, import_jsx_runtime54.jsx)(Provider_default, { store, children: /* @__PURE__ */ (0, import_jsx_runtime54.jsx)(ModalMountProvider, { obsidianApp: this.app, modalEl, children: /* @__PURE__ */ (0, import_jsx_runtime54.jsx)(MenuProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime54.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime110.jsx)(Provider_default, { store, children: /* @__PURE__ */ (0, import_jsx_runtime110.jsx)(ModalMountProvider, { obsidianApp: this.app, modalEl, children: /* @__PURE__ */ (0, import_jsx_runtime110.jsx)(MenuProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime110.jsx)(
           ImportApp,
           {
             state: this.loomState,
@@ -53896,7 +57731,7 @@ var ImportModal = class extends import_obsidian17.Modal {
 };
 
 // src/react/loom-app/option-bar/more-menu/base-content.tsx
-var import_jsx_runtime55 = __toESM(require_jsx_runtime());
+var import_jsx_runtime111 = __toESM(require_jsx_runtime());
 function BaseContent({
   onToggleColumnClick,
   onFilterClick,
@@ -53907,8 +57742,8 @@ function BaseContent({
   const { app, loomFile } = useAppMount();
   const { loomState } = useLoomState();
   const isSmallScreen = isSmallScreenSize();
-  return /* @__PURE__ */ (0, import_jsx_runtime55.jsxs)(Padding, { p: "sm", children: [
-    isSmallScreen && /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime111.jsxs)(Padding, { p: "sm", children: [
+    isSmallScreen && /* @__PURE__ */ (0, import_jsx_runtime111.jsx)(
       MenuItem,
       {
         lucideId: "filter",
@@ -53916,7 +57751,7 @@ function BaseContent({
         onClick: onSourcesClick
       }
     ),
-    isSmallScreen && /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(
+    isSmallScreen && /* @__PURE__ */ (0, import_jsx_runtime111.jsx)(
       MenuItem,
       {
         lucideId: "filter",
@@ -53924,7 +57759,7 @@ function BaseContent({
         onClick: onFilterClick
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime111.jsx)(
       MenuItem,
       {
         lucideId: "eye-off",
@@ -53932,7 +57767,7 @@ function BaseContent({
         onClick: onToggleColumnClick
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime111.jsx)(
       MenuItem,
       {
         lucideId: "import",
@@ -53943,7 +57778,7 @@ function BaseContent({
         }
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime111.jsx)(
       MenuItem,
       {
         lucideId: "download",
@@ -53954,7 +57789,7 @@ function BaseContent({
         }
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime111.jsx)(
       MenuItem,
       {
         lucideId: "wrench",
@@ -53965,44 +57800,16 @@ function BaseContent({
   ] });
 }
 
-// src/react/shared/submenu/index.tsx
-var import_jsx_runtime56 = __toESM(require_jsx_runtime());
-function Submenu({
-  title,
-  showBackButton = true,
-  children,
-  onBackClick
-}) {
-  return /* @__PURE__ */ (0, import_jsx_runtime56.jsxs)(Padding, { p: "sm", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime56.jsxs)(Stack, { spacing: "md", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime56.jsxs)(Stack, { isHorizontal: true, children: [
-        showBackButton && /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(
-          Button,
-          {
-            icon: /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(Icon, { lucideId: "arrow-left" }),
-            onClick: () => {
-              onBackClick();
-            }
-          }
-        ),
-        /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(Padding, { pr: "md", children: title })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(Divider, {})
-    ] }),
-    children
-  ] });
-}
-
 // src/react/loom-app/option-bar/more-menu/settings-submenu.tsx
-var import_jsx_runtime57 = __toESM(require_jsx_runtime());
+var import_jsx_runtime112 = __toESM(require_jsx_runtime());
 function SettingsSubmenu({
   showCalculationRow,
   onCalculationRowToggle,
   onBackClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(Submenu, { title: "Settings", onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime57.jsxs)(Stack, { isHorizontal: true, spacing: "lg", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(Text, { value: "Display calculation row" }),
-    /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime112.jsx)(Submenu, { title: "Settings", onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime112.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime112.jsxs)(Stack, { isHorizontal: true, spacing: "lg", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime112.jsx)(Text, { value: "Calculation row" }),
+    /* @__PURE__ */ (0, import_jsx_runtime112.jsx)(
       Switch,
       {
         value: showCalculationRow,
@@ -54012,51 +57819,23 @@ function SettingsSubmenu({
   ] }) }) });
 }
 
-// src/react/shared/wrap/index.tsx
-var import_jsx_runtime58 = __toESM(require_jsx_runtime());
-function Wrap({
-  justify,
-  align = "center",
-  spacingX = "md",
-  spacingY = "md",
-  width,
-  children
-}) {
-  const justifyContent = getDynamicSize("flex-start", justify);
-  const renderWidth = getDynamicSize("100%", width);
-  return /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(
-    "div",
-    {
-      className: "dataloom-wrap",
-      style: {
-        width: renderWidth,
-        rowGap: getSpacing(spacingX),
-        columnGap: getSpacing(spacingY),
-        justifyContent,
-        alignItems: align
-      },
-      children
-    }
-  );
-}
-
 // src/react/loom-app/option-bar/more-menu/toggle-column-submenu.tsx
-var import_jsx_runtime59 = __toESM(require_jsx_runtime());
+var import_jsx_runtime113 = __toESM(require_jsx_runtime());
 function ToggleColumnSubmenu({
   columns,
   onColumnToggle,
   onBackClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(Submenu, { title: "Toggle", onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(Padding, { py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(Stack, { spacing: "md", children: columns.map((column) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime113.jsx)(Submenu, { title: "Toggle", onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime113.jsx)(Padding, { py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime113.jsx)(Stack, { spacing: "md", children: columns.map((column) => {
     const { id: id2, content, isVisible } = column;
-    return /* @__PURE__ */ (0, import_jsx_runtime59.jsxs)(
+    return /* @__PURE__ */ (0, import_jsx_runtime113.jsxs)(
       Wrap,
       {
         justify: "space-between",
         spacingX: "4xl",
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(Text, { value: content, maxWidth: "250px" }),
-          /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime113.jsx)(Text, { value: content, maxWidth: "250px" }),
+          /* @__PURE__ */ (0, import_jsx_runtime113.jsx)(
             Switch,
             {
               value: isVisible,
@@ -54071,36 +57850,33 @@ function ToggleColumnSubmenu({
 }
 
 // src/react/loom-app/option-bar/more-menu/index.tsx
-var import_jsx_runtime60 = __toESM(require_jsx_runtime());
+var import_jsx_runtime114 = __toESM(require_jsx_runtime());
 function MoreMenu({
   id: id2,
   isOpen,
-  triggerPosition,
+  position,
   showCalculationRow,
   columns,
   onFilterClick,
   onSourcesClick,
-  onRequestClose,
   onClose,
   onCalculationRowToggle,
   onColumnToggle
 }) {
-  const [submenu, setSubmenu] = import_react31.default.useState(null);
-  import_react31.default.useEffect(() => {
+  const [submenu, setSubmenu] = import_react48.default.useState(null);
+  import_react48.default.useEffect(() => {
     if (!isOpen)
       setSubmenu(null);
   }, [isOpen]);
-  return /* @__PURE__ */ (0, import_jsx_runtime60.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime114.jsxs)(
     Menu,
     {
       id: id2,
       openDirection: "bottom-left",
       isOpen,
-      triggerPosition,
-      onRequestClose,
-      onClose,
+      position,
       children: [
-        submenu === null && /* @__PURE__ */ (0, import_jsx_runtime60.jsx)(
+        submenu === null && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
           BaseContent,
           {
             onToggleColumnClick: () => setSubmenu(1 /* TOGGLE_COLUMNS */),
@@ -54110,7 +57886,7 @@ function MoreMenu({
             onSettingsClick: () => setSubmenu(0 /* SETTINGS */)
           }
         ),
-        submenu === 0 /* SETTINGS */ && /* @__PURE__ */ (0, import_jsx_runtime60.jsx)(
+        submenu === 0 /* SETTINGS */ && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
           SettingsSubmenu,
           {
             showCalculationRow,
@@ -54118,7 +57894,7 @@ function MoreMenu({
             onCalculationRowToggle
           }
         ),
-        submenu === 1 /* TOGGLE_COLUMNS */ && /* @__PURE__ */ (0, import_jsx_runtime60.jsx)(
+        submenu === 1 /* TOGGLE_COLUMNS */ && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
           ToggleColumnSubmenu,
           {
             columns,
@@ -54131,40 +57907,8 @@ function MoreMenu({
   );
 }
 
-// src/react/shared/select/index.tsx
-var import_jsx_runtime61 = __toESM(require_jsx_runtime());
-function Select({
-  id: id2,
-  hasError,
-  className: customClassName,
-  value,
-  onChange,
-  onKeyDown,
-  children
-}) {
-  let className = "dataloom-select dataloom-focusable";
-  if (customClassName) {
-    className += " " + customClassName;
-  }
-  if (hasError) {
-    className += " dataloom-select--error";
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime61.jsx)(
-    "select",
-    {
-      id: id2,
-      tabIndex: 0,
-      className,
-      value,
-      onChange: (e) => onChange(e.target.value),
-      onKeyDown,
-      children
-    }
-  );
-}
-
 // src/react/loom-app/option-bar/filter-menu/filter-column-select/index.tsx
-var import_jsx_runtime62 = __toESM(require_jsx_runtime());
+var import_jsx_runtime115 = __toESM(require_jsx_runtime());
 function FilterColumnSelect({
   id: id2,
   columns,
@@ -54176,7 +57920,7 @@ function FilterColumnSelect({
       e.stopPropagation();
     }
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime62.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime115.jsx)(
     Select,
     {
       className: "dataloom-filter-column-select",
@@ -54185,290 +57929,14 @@ function FilterColumnSelect({
       onChange: (newValue) => onChange(id2, newValue),
       children: columns.filter((column) => column.type !== "source" /* SOURCE */).map((column) => {
         const { id: id3, content } = column;
-        return /* @__PURE__ */ (0, import_jsx_runtime62.jsx)("option", { value: id3, children: content }, id3);
+        return /* @__PURE__ */ (0, import_jsx_runtime115.jsx)("option", { value: id3, children: content }, id3);
       })
     }
   );
 }
 
-// src/shared/loom-state/type-display-names.ts
-var getShortDisplayNameForCalculation = (value) => {
-  switch (value) {
-    case "count-all" /* COUNT_ALL */:
-      return "Count";
-    case "count-not-empty" /* COUNT_NOT_EMPTY */:
-      return "Not empty";
-    case "count-values" /* COUNT_VALUES */:
-      return "Values";
-    case "count-empty" /* COUNT_EMPTY */:
-      return "Empty";
-    case "count-unique" /* COUNT_UNIQUE */:
-      return "Unique";
-    case "none" /* NONE */:
-      return "None";
-    case "percent-empty" /* PERCENT_EMPTY */:
-      return "Empty";
-    case "percent-not-empty" /* PERCENT_NOT_EMPTY */:
-      return "Not empty";
-    default:
-      return "";
-  }
-};
-var getShortDisplayNameForCalculationType = (value) => {
-  if (isNumberCalcuation(value))
-    return getDisplayNameForNumberCalculation(value);
-  return getShortDisplayNameForCalculation(value);
-};
-var getAriaLabelForCalculation = (value) => {
-  switch (value) {
-    case "count-all" /* COUNT_ALL */:
-      return "Counts the total number of rows";
-    case "count-empty" /* COUNT_EMPTY */:
-      return "Counts the number of rows with an empty cell value";
-    case "count-not-empty" /* COUNT_NOT_EMPTY */:
-      return "Counts the number of rows with a non-empty cell value";
-    case "count-unique" /* COUNT_UNIQUE */:
-      return "Counts the number of unique values in the column";
-    case "count-values" /* COUNT_VALUES */:
-      return "Counts the number of values in the column";
-    case "percent-empty" /* PERCENT_EMPTY */:
-      return "Displays the percentage of rows with an empty cell value";
-    case "percent-not-empty" /* PERCENT_NOT_EMPTY */:
-      return "Displays the percentage of rows with a non-empty cell value";
-    default:
-      return "";
-  }
-};
-var getAriaLabelForNumberCalculation = (value) => {
-  switch (value) {
-    case "sum" /* SUM */:
-      return "Computes the sum of the cells in the column";
-    case "avg" /* AVG */:
-      return "Computes the average of the cells in the column";
-    case "min" /* MIN */:
-      return "Computes the minimum of the cells in the column";
-    case "max" /* MAX */:
-      return "Computes the maximum of the cells in the column";
-    case "median" /* MEDIAN */:
-      return "Computes the median of the cells in the column";
-    case "range" /* RANGE */:
-      return "Computes the range (max - min) of the cells in the column";
-    default:
-      return "";
-  }
-};
-var getDisplayNameForCalculation = (value) => {
-  switch (value) {
-    case "count-all" /* COUNT_ALL */:
-      return "Count all";
-    case "count-not-empty" /* COUNT_NOT_EMPTY */:
-      return "Count not empty";
-    case "count-values" /* COUNT_VALUES */:
-      return "Count values";
-    case "count-empty" /* COUNT_EMPTY */:
-      return "Count empty";
-    case "count-unique" /* COUNT_UNIQUE */:
-      return "Count unique";
-    case "none" /* NONE */:
-      return "None";
-    case "percent-empty" /* PERCENT_EMPTY */:
-      return "Percent empty";
-    case "percent-not-empty" /* PERCENT_NOT_EMPTY */:
-      return "Percent not empty";
-    default:
-      return "";
-  }
-};
-var getDisplayNameForNumberCalculation = (value) => {
-  switch (value) {
-    case "sum" /* SUM */:
-      return "Sum";
-    case "avg" /* AVG */:
-      return "Average";
-    case "min" /* MIN */:
-      return "Min";
-    case "max" /* MAX */:
-      return "Max";
-    case "median" /* MEDIAN */:
-      return "Median";
-    case "range" /* RANGE */:
-      return "Range";
-    default:
-      return "";
-  }
-};
-var getDisplayNameForSource = (type) => {
-  switch (type) {
-    case "folder" /* FOLDER */:
-      return "Folder";
-    case "tag" /* TAG */:
-      return "Tag";
-    default:
-      return "";
-  }
-};
-var getDisplayNameForDateFormat = (format) => {
-  switch (format) {
-    case "dd/mm/yyyy" /* DD_MM_YYYY */:
-      return "Day/Month/Year";
-    case "mm/dd/yyyy" /* MM_DD_YYYY */:
-      return "Month/Day/Year";
-    case "yyyy/mm/dd" /* YYYY_MM_DD */:
-      return "Year/Month/Day";
-    case "full" /* FULL */:
-      return "Full";
-    case "relative" /* RELATIVE */:
-      return "Relative";
-    default:
-      return "";
-  }
-};
-var getDisplayNameForCurrencyType = (type) => {
-  switch (type) {
-    case "USD" /* UNITED_STATES */:
-      return "United States Dollar";
-    case "CAD" /* CANADA */:
-      return "Canadian Dollar";
-    case "AUD" /* AUSTRALIA */:
-      return "Australian Dollar";
-    case "SGB" /* SINGAPORE */:
-      return "Singapore Dollar";
-    case "KRW" /* SOUTH_KOREA */:
-      return "Won";
-    case "CNY" /* CHINA */:
-      return "Yuan";
-    case "JPY" /* JAPAN */:
-      return "Yen";
-    case "AED" /* UAE */:
-      return "Dirham";
-    case "SAR" /* SAUDI_ARABIA */:
-      return "Riyal";
-    case "COP" /* COLOMBIA */:
-      return "Colombian Peso";
-    case "EUR" /* EUROPE */:
-      return "Euro";
-    case "SEK" /* SWEDEN */:
-      return "Swedish Krona";
-    case "DKK" /* DENMARK */:
-      return "Danish Krone";
-    case "NOK" /* NORWAY */:
-      return "Norwegian Krone";
-    case "ISK" /* ICELAND */:
-      return "Icelandic Kr\xF3na";
-    case "BRL" /* BRAZIL */:
-      return "Real";
-    case "GBP" /* GREAT_BRITAIN */:
-      return "Pound";
-    case "INR" /* INDIA */:
-      return "Rupee";
-    case "ARS" /* ARGENTINA */:
-      return "Argentine Peso";
-    case "MXN" /* MEXICO */:
-      return "Mexican Peso";
-    case "RUB" /* RUSSIA */:
-      return "Ruble";
-    case "ILS" /* ISRAEL */:
-      return "Israeli Shekel";
-    case "CHF" /* SWITZERLAND */:
-      return "Swiss Franc";
-    default:
-      return "";
-  }
-};
-var getDisplayNameForCellType = (type) => {
-  switch (type) {
-    case "text" /* TEXT */:
-      return "Text";
-    case "embed" /* EMBED */:
-      return "Embed";
-    case "file" /* FILE */:
-      return "File";
-    case "number" /* NUMBER */:
-      return "Number";
-    case "checkbox" /* CHECKBOX */:
-      return "Checkbox";
-    case "date" /* DATE */:
-      return "Date";
-    case "last-edited-time" /* LAST_EDITED_TIME */:
-      return "Last edited";
-    case "creation-time" /* CREATION_TIME */:
-      return "Creation";
-    case "tag" /* TAG */:
-      return "Tag";
-    case "multi-tag" /* MULTI_TAG */:
-      return "Multi-tag";
-    default:
-      return "";
-  }
-};
-var getDisplayNameForFilterCondition = (type) => {
-  switch (type) {
-    case "is" /* IS */:
-    case "is" /* IS */:
-      return "Is";
-    case "is-not" /* IS_NOT */:
-      return "Is not";
-    case "contains" /* CONTAINS */:
-      return "Contains";
-    case "does-not-contain" /* DOES_NOT_CONTAIN */:
-      return "Does not contain";
-    case "starts-with" /* STARTS_WITH */:
-      return "Starts with";
-    case "ends-with" /* ENDS_WITH */:
-      return "Ends with";
-    case "is-equal" /* IS_EQUAL */:
-      return "=";
-    case "is-not-equal" /* IS_NOT_EQUAL */:
-      return "!=";
-    case "is-greater" /* IS_GREATER */:
-      return ">";
-    case "is-greater-or-equal" /* IS_GREATER_OR_EQUAL */:
-      return ">=";
-    case "is-less" /* IS_LESS */:
-      return "<";
-    case "is-less-or-equal" /* IS_LESS_OR_EQUAL */:
-      return "<=";
-    case "is-after" /* IS_AFTER */:
-      return "Is after";
-    case "is-before" /* IS_BEFORE */:
-      return "Is before";
-    case "is-empty" /* IS_EMPTY */:
-    case "is-empty" /* IS_EMPTY */:
-    case "is-empty" /* IS_EMPTY */:
-      return "Is empty";
-    case "is-not-empty" /* IS_NOT_EMPTY */:
-    case "is-not-empty" /* IS_NOT_EMPTY */:
-    case "is-not-empty" /* IS_NOT_EMPTY */:
-      return "Is not empty";
-    default:
-      return "";
-  }
-};
-var getDisplayNameForDateFilterOption = (value) => {
-  switch (value) {
-    case "unselected" /* UNSELECTED */:
-      return "Select an option";
-    case "today" /* TODAY */:
-      return "Today";
-    case "tomorrow" /* TOMORROW */:
-      return "Tomorrow";
-    case "yesterday" /* YESTERDAY */:
-      return "Yesterday";
-    case "one-week-ago" /* ONE_WEEK_AGO */:
-      return "One week ago";
-    case "one-week-from-now" /* ONE_WEEK_FROM_NOW */:
-      return "One week from now";
-    case "one-month-ago" /* ONE_MONTH_AGO */:
-      return "One month ago";
-    case "one-month-from-now" /* ONE_MONTH_FROM_NOW */:
-      return "One month from now";
-    default:
-      return "";
-  }
-};
-
 // src/react/loom-app/option-bar/filter-menu/filter-condition-select.tsx
-var import_jsx_runtime63 = __toESM(require_jsx_runtime());
+var import_jsx_runtime116 = __toESM(require_jsx_runtime());
 function FilterConditionSelect({
   id: id2,
   value,
@@ -54480,36 +57948,36 @@ function FilterConditionSelect({
       e.stopPropagation();
     }
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(
     Select,
     {
       value,
       onKeyDown: handleKeyDown,
       onChange: (newValue) => onChange(id2, newValue),
-      children: options.map((option) => /* @__PURE__ */ (0, import_jsx_runtime63.jsx)("option", { value: option, children: getDisplayNameForFilterCondition(option) }, option))
+      children: options.map((option) => /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("option", { value: option, children: getDisplayNameForFilterCondition(option) }, option))
     }
   );
 }
 
 // src/react/loom-app/option-bar/filter-menu/filter-operator/index.tsx
-var import_jsx_runtime64 = __toESM(require_jsx_runtime());
+var import_jsx_runtime117 = __toESM(require_jsx_runtime());
 function FilterOperator({ id: id2, value, onChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime64.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime117.jsxs)(
     Select,
     {
       className: "dataloom-filter-operator",
       value,
       onChange: (newValue) => onChange(id2, newValue),
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime64.jsx)("option", { value: "or", children: "Or" }),
-        /* @__PURE__ */ (0, import_jsx_runtime64.jsx)("option", { value: "and", children: "And" })
+        /* @__PURE__ */ (0, import_jsx_runtime117.jsx)("option", { value: "or", children: "Or" }),
+        /* @__PURE__ */ (0, import_jsx_runtime117.jsx)("option", { value: "and", children: "And" })
       ]
     }
   );
 }
 
 // src/react/loom-app/option-bar/filter-menu/filter-row/index.tsx
-var import_jsx_runtime65 = __toESM(require_jsx_runtime());
+var import_jsx_runtime118 = __toESM(require_jsx_runtime());
 function FilterRow({
   index,
   id: id2,
@@ -54526,16 +57994,16 @@ function FilterRow({
   onConditionChange,
   onDeleteClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime65.jsx)("div", { className: "dataloom-filter-row", children: /* @__PURE__ */ (0, import_jsx_runtime65.jsxs)(Wrap, { children: [
-    index !== 0 ? /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime118.jsx)("div", { className: "dataloom-filter-row", children: /* @__PURE__ */ (0, import_jsx_runtime118.jsxs)(Wrap, { children: [
+    index !== 0 ? /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
       FilterOperator,
       {
         id: id2,
         value: selectedOperator,
         onChange: onOperatorChange
       }
-    ) : /* @__PURE__ */ (0, import_jsx_runtime65.jsx)("div", { className: "dataloom-filter-row__spacer" }),
-    /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(
+    ) : /* @__PURE__ */ (0, import_jsx_runtime118.jsx)("div", { className: "dataloom-filter-row__spacer" }),
+    /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
       FilterColumnSelect,
       {
         id: id2,
@@ -54544,7 +58012,7 @@ function FilterRow({
         onChange: onColumnChange
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
       FilterConditionSelect,
       {
         id: id2,
@@ -54553,8 +58021,8 @@ function FilterRow({
         onChange: onConditionChange
       }
     ),
-    selectedCondition !== "is-empty" /* IS_EMPTY */ && selectedCondition !== "is-not-empty" /* IS_NOT_EMPTY */ && /* @__PURE__ */ (0, import_jsx_runtime65.jsx)("div", { className: "dataloom-filter-row__input", children: inputNode }),
-    /* @__PURE__ */ (0, import_jsx_runtime65.jsxs)(
+    selectedCondition !== "is-empty" /* IS_EMPTY */ && selectedCondition !== "is-not-empty" /* IS_NOT_EMPTY */ && /* @__PURE__ */ (0, import_jsx_runtime118.jsx)("div", { className: "dataloom-filter-row__input", children: inputNode }),
+    /* @__PURE__ */ (0, import_jsx_runtime118.jsxs)(
       Stack,
       {
         grow: true,
@@ -54563,15 +58031,15 @@ function FilterRow({
         spacing: "lg",
         isHorizontal: true,
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
             Button,
             {
-              icon: /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(Icon, { lucideId: "trash-2" }),
+              icon: /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(Icon, { lucideId: "trash-2" }),
               ariaLabel: "Delete filter",
               onClick: () => onDeleteClick(id2)
             }
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
             Switch,
             {
               value: isEnabled,
@@ -54585,66 +58053,181 @@ function FilterRow({
   ] }) });
 }
 
-// src/react/shared/multi-select/index.tsx
-var import_jsx_runtime66 = __toESM(require_jsx_runtime());
-function MultiSelect({
-  className: customClassName,
-  value,
-  onChange,
-  onKeyDown,
-  children
+// src/react/shared/multi-select/multi-select-option.tsx
+var import_jsx_runtime119 = __toESM(require_jsx_runtime());
+function MultiSelectOption({
+  id: id2,
+  isChecked,
+  component,
+  handleOptionClick
 }) {
-  function handleChange(e) {
-    const selectedValues = Array.from(
-      e.target.selectedOptions,
-      (option) => option.value
-    );
-    onChange(selectedValues);
+  function handleKeyDown(e) {
+    if (e.key === "Enter") {
+      e.stopPropagation();
+      handleOptionClick(id2);
+    }
   }
-  let className = "dataloom-multi-select dataloom-focusable";
-  if (customClassName) {
-    className += " " + customClassName;
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime66.jsx)(
-    "select",
+  return /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
+    "div",
     {
+      className: "dataloom-multi-select__option dataloom-focusable dataloom-selectable",
       tabIndex: 0,
-      multiple: true,
-      className,
-      value,
-      onChange: handleChange,
-      onKeyDown,
-      children
+      onKeyDown: handleKeyDown,
+      onClick: () => handleOptionClick(id2),
+      children: /* @__PURE__ */ (0, import_jsx_runtime119.jsxs)(Stack, { isHorizontal: true, width: "100%", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
+          "input",
+          {
+            className: "task-list-item-checkbox",
+            type: "checkbox",
+            checked: isChecked,
+            onChange: () => {
+            }
+          }
+        ),
+        component
+      ] })
     }
   );
 }
 
+// src/react/shared/multi-select/multi-select-menu.tsx
+var import_react49 = __toESM(require_react());
+var import_jsx_runtime120 = __toESM(require_jsx_runtime());
+function MultiSelectMenu({
+  id: id2,
+  isOpen,
+  position,
+  options,
+  selectedOptionIds,
+  onChange
+}) {
+  const [inputValue, setInputValue] = import_react49.default.useState("");
+  import_react49.default.useEffect(() => {
+    if (!isOpen) {
+      setInputValue("");
+    }
+  }, [isOpen]);
+  function handleOptionClick(id3) {
+    const isSelected = selectedOptionIds.includes(id3);
+    if (isSelected) {
+      const filteredOptionIds = selectedOptionIds.filter(
+        (selected) => selected !== id3
+      );
+      onChange(filteredOptionIds);
+    } else {
+      onChange([...selectedOptionIds, id3]);
+    }
+  }
+  const filteredOptions = options.filter(
+    (option) => option.name.toLowerCase().includes(inputValue.toLocaleLowerCase())
+  );
+  return /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(Menu, { id: id2, isOpen, position, topOffset: 35, children: /* @__PURE__ */ (0, import_jsx_runtime120.jsx)("div", { className: "dataloom-multi-select-menu", children: /* @__PURE__ */ (0, import_jsx_runtime120.jsxs)(Stack, { spacing: "md", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(Padding, { px: "md", pt: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(
+      input_default,
+      {
+        value: inputValue,
+        placeholder: "Type to filter...",
+        onChange: setInputValue
+      }
+    ) }),
+    /* @__PURE__ */ (0, import_jsx_runtime120.jsxs)("div", { className: "dataloom-multi-select__options", children: [
+      filteredOptions.map((option) => {
+        const { id: id3, component } = option;
+        const isChecked = selectedOptionIds.includes(id3);
+        return /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(
+          MultiSelectOption,
+          {
+            id: id3,
+            isChecked,
+            component,
+            handleOptionClick
+          },
+          id3
+        );
+      }),
+      options.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(Padding, { px: "md", pb: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(Text, { value: "No options to select" }) })
+    ] })
+  ] }) }) });
+}
+
+// src/react/shared/multi-select/index.tsx
+var import_jsx_runtime121 = __toESM(require_jsx_runtime());
+function MultiSelect({
+  id: id2,
+  title,
+  selectedOptionIds,
+  options,
+  onChange
+}) {
+  const COMPONENT_ID = `multi-select-${id2}`;
+  const menu = useMenu(COMPONENT_ID);
+  function openMenu() {
+    menu.onOpen(2 /* TWO */);
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime121.jsxs)(import_jsx_runtime121.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(
+      menu_trigger_default,
+      {
+        ref: menu.triggerRef,
+        variant: "cell",
+        menuId: menu.id,
+        level: 2 /* TWO */,
+        isFocused: menu.isTriggerFocused,
+        onOpen: () => openMenu(),
+        children: /* @__PURE__ */ (0, import_jsx_runtime121.jsx)("div", { className: "dataloom-multi-select", children: /* @__PURE__ */ (0, import_jsx_runtime121.jsxs)(
+          Stack,
+          {
+            isHorizontal: true,
+            justify: "space-between",
+            align: "center",
+            height: "100%",
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(Text, { value: `${selectedOptionIds.length} ${title}` }),
+              /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(Icon, { lucideId: "chevron-down" })
+            ]
+          }
+        ) })
+      }
+    ),
+    /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(
+      MultiSelectMenu,
+      {
+        id: menu.id,
+        isOpen: menu.isOpen,
+        position: menu.position,
+        options,
+        selectedOptionIds,
+        onChange
+      }
+    )
+  ] });
+}
+
 // src/react/loom-app/option-bar/filter-menu/date-filter-select.tsx
-var import_jsx_runtime67 = __toESM(require_jsx_runtime());
+var import_jsx_runtime122 = __toESM(require_jsx_runtime());
 function DateFilterSelect({ value, onChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime67.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(
     Select,
     {
       value,
       onChange: (value2) => onChange(value2),
-      children: Object.values(DateFilterOption).map((option) => /* @__PURE__ */ (0, import_jsx_runtime67.jsx)("option", { value: option, children: getDisplayNameForDateFilterOption(option) }, option))
+      children: Object.values(DateFilterOption).map((option) => /* @__PURE__ */ (0, import_jsx_runtime122.jsx)("option", { value: option, children: getDisplayNameForDateFilterOption(option) }, option))
     }
   );
 }
 
 // src/react/loom-app/option-bar/filter-menu/index.tsx
-var import_jsx_runtime68 = __toESM(require_jsx_runtime());
+var import_jsx_runtime123 = __toESM(require_jsx_runtime());
 function FilterMenu({
   id: id2,
-  triggerPosition,
   isOpen,
+  position,
   columns,
   filters,
   onAddClick,
   onUpdate,
-  onDeleteClick,
-  onRequestClose,
-  onClose
+  onDeleteClick
 }) {
   function onColumnChange(id3, columnId) {
     const filter3 = filters.find((filter4) => filter4.id === id3);
@@ -54806,24 +58389,22 @@ function FilterMenu({
       throw new Error("Filter not found");
     onUpdate(id3, { isEnabled: !filter3.isEnabled });
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
     Menu,
     {
       id: id2,
       isOpen,
-      triggerPosition,
+      position,
       openDirection: "bottom-left",
       maxHeight: 255,
-      onRequestClose,
-      onClose,
-      children: /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
         "div",
         {
           className: "dataloom-filter-menu",
           style: {
             width: isSmallScreenSize() ? "calc(100vw - 30px)" : void 0
           },
-          children: /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(Padding, { p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime68.jsxs)(Stack, { spacing: "lg", children: [
+          children: /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(Padding, { p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime123.jsxs)(Stack, { spacing: "lg", children: [
             filters.map((filter3, i2) => {
               const {
                 id: id3,
@@ -54844,7 +58425,7 @@ function FilterMenu({
               switch (type) {
                 case "text" /* TEXT */: {
                   const { text } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
                     input_default,
                     {
                       value: text,
@@ -54865,7 +58446,7 @@ function FilterMenu({
                 }
                 case "file" /* FILE */: {
                   const { text } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
                     input_default,
                     {
                       value: text,
@@ -54886,7 +58467,7 @@ function FilterMenu({
                 }
                 case "source-file" /* SOURCE_FILE */: {
                   const { text } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
                     input_default,
                     {
                       value: text,
@@ -54907,21 +58488,21 @@ function FilterMenu({
                 }
                 case "checkbox" /* CHECKBOX */: {
                   const { text } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime68.jsxs)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime123.jsxs)(
                     Select,
                     {
                       value: text,
                       onChange: (newValue) => onTextChange(id3, newValue),
                       children: [
-                        /* @__PURE__ */ (0, import_jsx_runtime68.jsx)("option", { value: "", children: "Select an option" }),
-                        /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+                        /* @__PURE__ */ (0, import_jsx_runtime123.jsx)("option", { value: "", children: "Select an option" }),
+                        /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
                           "option",
                           {
                             value: CHECKBOX_MARKDOWN_CHECKED,
                             children: "Checked"
                           }
                         ),
-                        /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+                        /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
                           "option",
                           {
                             value: CHECKBOX_MARKDOWN_UNCHECKED2,
@@ -54939,14 +58520,14 @@ function FilterMenu({
                 }
                 case "tag" /* TAG */: {
                   const { tagId } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime68.jsxs)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime123.jsxs)(
                     Select,
                     {
                       value: tagId,
                       onChange: (newValue) => onTagChange(id3, newValue),
                       children: [
-                        /* @__PURE__ */ (0, import_jsx_runtime68.jsx)("option", { value: "", children: "Select an option" }),
-                        tags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+                        /* @__PURE__ */ (0, import_jsx_runtime123.jsx)("option", { value: "", children: "Select an option" }),
+                        tags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
                           "option",
                           {
                             value: tag.id,
@@ -54967,19 +58548,24 @@ function FilterMenu({
                 }
                 case "multi-tag" /* MULTI_TAG */: {
                   const { tagIds } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
                     MultiSelect,
                     {
-                      value: tagIds,
-                      onChange: (value) => onTagsChange(id3, value),
-                      children: tags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
-                        "option",
-                        {
-                          value: tag.id,
-                          children: tag.content
-                        },
-                        tag.id
-                      ))
+                      id: id3,
+                      title: "Tags",
+                      options: tags.map((tag) => ({
+                        id: tag.id,
+                        name: tag.content,
+                        component: /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
+                          Tag5,
+                          {
+                            content: tag.content,
+                            color: tag.color
+                          }
+                        )
+                      })),
+                      selectedOptionIds: tagIds,
+                      onChange: (value) => onTagsChange(id3, value)
                     }
                   );
                   conditionOptions = [
@@ -54999,7 +58585,7 @@ function FilterMenu({
                 }
                 case "number" /* NUMBER */: {
                   const { text } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
                     input_default,
                     {
                       inputMode: "numeric",
@@ -55021,7 +58607,7 @@ function FilterMenu({
                 }
                 case "date" /* DATE */: {
                   const { option } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
                     DateFilterSelect,
                     {
                       value: option,
@@ -55042,7 +58628,7 @@ function FilterMenu({
                 }
                 case "creation-time" /* CREATION_TIME */: {
                   const { option } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
                     DateFilterSelect,
                     {
                       value: option,
@@ -55061,7 +58647,7 @@ function FilterMenu({
                 }
                 case "last-edited-time" /* LAST_EDITED_TIME */: {
                   const { option } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
                     DateFilterSelect,
                     {
                       value: option,
@@ -55081,7 +58667,7 @@ function FilterMenu({
                 default:
                   throw new Error("Column type not handled");
               }
-              return /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+              return /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
                 FilterRow,
                 {
                   index: i2,
@@ -55102,16 +58688,16 @@ function FilterMenu({
                 id3
               );
             }),
-            /* @__PURE__ */ (0, import_jsx_runtime68.jsxs)(Stack, { isHorizontal: true, children: [
-              /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+            /* @__PURE__ */ (0, import_jsx_runtime123.jsxs)(Stack, { isHorizontal: true, children: [
+              /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
                 Button,
                 {
-                  icon: /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(Icon, { lucideId: "plus" }),
+                  icon: /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(Icon, { lucideId: "plus" }),
                   ariaLabel: "Add filter",
                   onClick: () => onAddClick()
                 }
               ),
-              filters.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(Text, { value: "No filters to display" })
+              filters.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(Text, { value: "No filters to display" })
             ] })
           ] }) })
         }
@@ -55121,32 +58707,32 @@ function FilterMenu({
 }
 
 // src/react/loom-app/option-bar/sort-bubble/index.tsx
-var import_jsx_runtime69 = __toESM(require_jsx_runtime());
+var import_jsx_runtime124 = __toESM(require_jsx_runtime());
 function SortBubble({
   sortDir,
   content,
   onRemoveClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime69.jsx)("div", { className: "dataloom-sort-bubble", children: /* @__PURE__ */ (0, import_jsx_runtime69.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime124.jsx)("div", { className: "dataloom-sort-bubble", children: /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
     Bubble,
     {
       canRemove: true,
       value: content,
-      icon: sortDir === "asc" /* ASC */ ? /* @__PURE__ */ (0, import_jsx_runtime69.jsx)(Icon, { lucideId: "arrow-up" }) : /* @__PURE__ */ (0, import_jsx_runtime69.jsx)(Icon, { lucideId: "arrow-down" }),
+      icon: sortDir === "asc" /* ASC */ ? /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(Icon, { lucideId: "arrow-up" }) : /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(Icon, { lucideId: "arrow-down" }),
       onRemoveClick
     }
   ) });
 }
 
 // src/react/loom-app/option-bar/sort-bubble-list.tsx
-var import_jsx_runtime70 = __toESM(require_jsx_runtime());
+var import_jsx_runtime125 = __toESM(require_jsx_runtime());
 function SortBubbleList({
   sortedColumns,
   onRemoveClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(Stack, { spacing: "sm", isHorizontal: true, children: sortedColumns.map((column, i2) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(Stack, { spacing: "sm", isHorizontal: true, children: sortedColumns.map((column, i2) => {
     const { id: id2, sortDir, content } = column;
-    return /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
+    return /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(
       SortBubble,
       {
         sortDir,
@@ -55159,48 +58745,90 @@ function SortBubbleList({
 }
 
 // src/react/loom-app/option-bar/sources-menu/index.tsx
-var import_react34 = __toESM(require_react());
+var import_react52 = __toESM(require_react());
 
-// src/react/loom-app/option-bar/sources-menu/add-source-submenu.tsx
-var import_react32 = __toESM(require_react());
-var import_jsx_runtime71 = __toESM(require_jsx_runtime());
-var PATH_INPUT_ID = "path";
-var TYPE_SELECT_ID = "type";
+// src/react/loom-app/option-bar/sources-menu/add-source-submenu/index.tsx
+var import_react50 = __toESM(require_react());
+
+// src/react/loom-app/option-bar/sources-menu/add-source-submenu/folder-source-options.tsx
+var import_jsx_runtime126 = __toESM(require_jsx_runtime());
+function FolderSourceOptions({
+  pathInputId,
+  includeSubfoldersInputId,
+  error,
+  includeSubfolders,
+  path,
+  onIncludeSubfoldersToggle,
+  onPathChange
+}) {
+  return /* @__PURE__ */ (0, import_jsx_runtime126.jsxs)(import_jsx_runtime126.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime126.jsxs)(Stack, { spacing: "sm", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime126.jsx)("label", { htmlFor: pathInputId, children: "Path" }),
+      /* @__PURE__ */ (0, import_jsx_runtime126.jsx)(
+        input_default,
+        {
+          id: pathInputId,
+          autoFocus: false,
+          hasError: (error == null ? void 0 : error.inputId) === pathInputId,
+          value: path,
+          onChange: (value) => onPathChange(value)
+        }
+      )
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime126.jsxs)(Stack, { spacing: "sm", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime126.jsx)("label", { htmlFor: includeSubfoldersInputId, children: "Include subfolders" }),
+      /* @__PURE__ */ (0, import_jsx_runtime126.jsx)(
+        Switch,
+        {
+          value: includeSubfolders,
+          onToggle: onIncludeSubfoldersToggle
+        }
+      )
+    ] })
+  ] });
+}
+
+// src/react/loom-app/option-bar/sources-menu/add-source-submenu/index.tsx
+var import_jsx_runtime127 = __toESM(require_jsx_runtime());
 function AddSourceSubmenu({
   sources,
   onAddSourceClick,
   onBackClick
 }) {
-  const [type, setType] = import_react32.default.useState(null);
-  const [path, setPath] = import_react32.default.useState("");
-  const [error, setError] = import_react32.default.useState(null);
+  const [type, setType] = import_react50.default.useState(null);
+  const [path, setPath] = import_react50.default.useState("");
+  const [includeSubfolders, setIncludeSubfolders] = import_react50.default.useState(true);
+  const [error, setError] = import_react50.default.useState(null);
+  const typeSelectId = import_react50.default.useId();
+  const pathInputId = import_react50.default.useId();
+  const includeSubfoldersInputId = import_react50.default.useId();
   function handleAddClick() {
     if (type === null) {
       setError({
         message: "Please select a type",
-        inputId: TYPE_SELECT_ID
+        inputId: typeSelectId
       });
       return;
     } else if (path === "") {
       setError({
         message: "Please enter a path",
-        inputId: PATH_INPUT_ID
+        inputId: pathInputId
       });
       return;
     } else if (alreadyHasSource(sources, type, path)) {
       setError({
         message: "Source already exists",
-        inputId: PATH_INPUT_ID
+        inputId: pathInputId
       });
       return;
     }
     let source;
     if (type === "folder" /* FOLDER */) {
-      source = createFolderSource(path);
+      source = createFolderSource(path, includeSubfolders);
     } else {
       setError({
         message: "Source not supported",
-        inputId: TYPE_SELECT_ID
+        inputId: pathInputId
       });
       return;
     }
@@ -55218,76 +58846,75 @@ function AddSourceSubmenu({
     }
     throw new Error("Source type not handled");
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(
     Submenu,
     {
       title: "Add source",
       showBackButton: sources.length > 0,
       onBackClick,
-      children: /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(Padding, { py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime71.jsxs)(Stack, { spacing: "lg", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime71.jsxs)(Stack, { spacing: "sm", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime71.jsx)("label", { htmlFor: "type", children: "Type" }),
-          /* @__PURE__ */ (0, import_jsx_runtime71.jsxs)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(Padding, { py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime127.jsxs)(Stack, { spacing: "lg", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime127.jsxs)(Stack, { spacing: "sm", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime127.jsx)("label", { htmlFor: "type", children: "Type" }),
+          /* @__PURE__ */ (0, import_jsx_runtime127.jsxs)(
             Select,
             {
               id: "type",
               value: type != null ? type : "",
-              hasError: (error == null ? void 0 : error.inputId) === TYPE_SELECT_ID,
+              hasError: (error == null ? void 0 : error.inputId) === typeSelectId,
               onChange: (value) => setType(value || null),
               children: [
-                /* @__PURE__ */ (0, import_jsx_runtime71.jsx)("option", { value: "", children: "Select an option" }),
+                /* @__PURE__ */ (0, import_jsx_runtime127.jsx)("option", { value: "", children: "Select an option" }),
                 Object.values(SourceType).filter((type2) => type2 !== "tag" /* TAG */).map((type2) => {
-                  return /* @__PURE__ */ (0, import_jsx_runtime71.jsx)("option", { value: type2, children: getDisplayNameForSource(type2) }, type2);
+                  return /* @__PURE__ */ (0, import_jsx_runtime127.jsx)("option", { value: type2, children: getDisplayNameForSource(type2) }, type2);
                 })
               ]
             }
           )
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime71.jsxs)(Stack, { spacing: "sm", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime71.jsx)("label", { htmlFor: PATH_INPUT_ID, children: "Path" }),
-          /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
-            input_default,
-            {
-              id: PATH_INPUT_ID,
-              autoFocus: false,
-              hasError: (error == null ? void 0 : error.inputId) === PATH_INPUT_ID,
-              value: path,
-              onChange: (value) => setPath(value)
-            }
-          )
-        ] }),
-        (error == null ? void 0 : error.message) && /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(Text, { value: error.message, variant: "error" }),
-        /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(Button, { variant: "default", onClick: () => handleAddClick(), children: "Add" })
+        /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(
+          FolderSourceOptions,
+          {
+            pathInputId,
+            includeSubfoldersInputId,
+            error,
+            includeSubfolders,
+            path,
+            onIncludeSubfoldersToggle: setIncludeSubfolders,
+            onPathChange: (value) => setPath(value)
+          }
+        ),
+        (error == null ? void 0 : error.message) && /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(Text, { value: error.message, variant: "error" }),
+        /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(Button, { variant: "default", onClick: () => handleAddClick(), children: "Add" })
       ] }) })
     }
   );
 }
 
 // src/react/loom-app/option-bar/sources-menu/base-content/index.tsx
-var import_react33 = __toESM(require_react());
+var import_react51 = __toESM(require_react());
 
 // src/react/loom-app/option-bar/sources-menu/sources-header.tsx
-var import_jsx_runtime72 = __toESM(require_jsx_runtime());
+var import_jsx_runtime128 = __toESM(require_jsx_runtime());
 function SourcesHeader({
   showEditButton,
   onAddClick,
   onEditClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime72.jsxs)(Flex, { justify: "space-between", align: "center", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(Text, { value: "Sources" }),
-    /* @__PURE__ */ (0, import_jsx_runtime72.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
-      showEditButton && /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime128.jsxs)(Flex, { justify: "space-between", align: "center", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(Text, { value: "Sources" }),
+    /* @__PURE__ */ (0, import_jsx_runtime128.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
+      showEditButton && /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(
         Button,
         {
-          icon: /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(Icon, { lucideId: "edit" }),
+          icon: /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(Icon, { lucideId: "edit" }),
           ariaLabel: "Edit source",
           onClick: () => onEditClick()
         }
       ),
-      /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(
+      /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(
         Button,
         {
-          icon: /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(Icon, { lucideId: "plus" }),
+          icon: /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(Icon, { lucideId: "plus" }),
           onClick: () => onAddClick(),
           ariaLabel: "Add source"
         }
@@ -55297,7 +58924,7 @@ function SourcesHeader({
 }
 
 // src/react/loom-app/option-bar/sources-menu/dataloom-source/index.tsx
-var import_jsx_runtime73 = __toESM(require_jsx_runtime());
+var import_jsx_runtime129 = __toESM(require_jsx_runtime());
 function SourceItem({
   id: id2,
   content,
@@ -55305,19 +58932,19 @@ function SourceItem({
   isEditing,
   onDelete
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime73.jsx)("div", { className: "dataloom-source", children: /* @__PURE__ */ (0, import_jsx_runtime73.jsxs)(Flex, { justify: "space-between", align: "center", height: "100%", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(Stack, { isHorizontal: true, spacing: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime129.jsx)("div", { className: "dataloom-source", children: /* @__PURE__ */ (0, import_jsx_runtime129.jsxs)(Flex, { justify: "space-between", align: "center", height: "100%", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(Stack, { isHorizontal: true, spacing: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
       Bubble,
       {
-        icon: /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(Icon, { lucideId: getIconIdForSourceType(type) }),
+        icon: /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(Icon, { lucideId: getIconIdForSourceType(type) }),
         variant: "no-fill",
         value: content
       }
     ) }),
-    isEditing && /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(
+    isEditing && /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
       Button,
       {
-        icon: /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(Icon, { lucideId: "trash" }),
+        icon: /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(Icon, { lucideId: "trash" }),
         ariaLabel: "Delete source",
         onClick: () => onDelete(id2)
       }
@@ -55326,15 +58953,15 @@ function SourceItem({
 }
 
 // src/react/loom-app/option-bar/sources-menu/base-content/index.tsx
-var import_jsx_runtime74 = __toESM(require_jsx_runtime());
+var import_jsx_runtime130 = __toESM(require_jsx_runtime());
 function BaseContent2({
   sources,
   onAddClick,
   onDeleteClick
 }) {
-  const [isEditing, setIsEditing] = import_react33.default.useState(false);
-  return /* @__PURE__ */ (0, import_jsx_runtime74.jsxs)(Stack, { spacing: "md", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime74.jsx)(
+  const [isEditing, setIsEditing] = import_react51.default.useState(false);
+  return /* @__PURE__ */ (0, import_jsx_runtime130.jsxs)(Stack, { spacing: "md", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
       SourcesHeader,
       {
         showEditButton: sources.length > 0,
@@ -55342,7 +58969,7 @@ function BaseContent2({
         onEditClick: () => setIsEditing((prevState) => !prevState)
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime74.jsx)("div", { className: "dataloom-source-container", children: sources.map((source) => {
+    /* @__PURE__ */ (0, import_jsx_runtime130.jsx)("div", { className: "dataloom-source-container", children: sources.map((source) => {
       const { id: id2, type } = source;
       let content = "";
       if (type === "folder" /* FOLDER */) {
@@ -55350,7 +58977,7 @@ function BaseContent2({
       } else if (type === "tag" /* TAG */) {
         content = source.name;
       }
-      return /* @__PURE__ */ (0, import_jsx_runtime74.jsx)(
+      return /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
         SourceItem,
         {
           id: id2,
@@ -55366,21 +58993,20 @@ function BaseContent2({
 }
 
 // src/react/loom-app/option-bar/sources-menu/index.tsx
-var import_jsx_runtime75 = __toESM(require_jsx_runtime());
+var import_jsx_runtime131 = __toESM(require_jsx_runtime());
 function SourcesMenu({
   id: id2,
   isOpen,
-  triggerPosition,
+  position,
   sources,
   onSourceAdd,
   onSourceDelete,
-  onRequestClose,
   onClose
 }) {
-  const [submenu, setSubmenu] = import_react34.default.useState(
+  const [submenu, setSubmenu] = import_react52.default.useState(
     sources.length === 0 ? 0 /* ADD */ : null
   );
-  import_react34.default.useLayoutEffect(() => {
+  import_react52.default.useLayoutEffect(() => {
     if (sources.length === 0) {
       setSubmenu(0 /* ADD */);
     }
@@ -55390,18 +59016,16 @@ function SourcesMenu({
     setSubmenu(null);
     onClose();
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime75.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
     Menu,
     {
       id: id2,
       openDirection: "bottom-left",
       isOpen,
       width: 225,
-      triggerPosition,
-      onRequestClose,
-      onClose,
-      children: /* @__PURE__ */ (0, import_jsx_runtime75.jsxs)(Padding, { px: "lg", py: "md", children: [
-        submenu === null && /* @__PURE__ */ (0, import_jsx_runtime75.jsx)(
+      position,
+      children: /* @__PURE__ */ (0, import_jsx_runtime131.jsxs)(Padding, { px: "lg", py: "md", children: [
+        submenu === null && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
           BaseContent2,
           {
             sources,
@@ -55409,7 +59033,7 @@ function SourcesMenu({
             onDeleteClick: onSourceDelete
           }
         ),
-        submenu === 0 /* ADD */ && /* @__PURE__ */ (0, import_jsx_runtime75.jsx)(
+        submenu === 0 /* ADD */ && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
           AddSourceSubmenu,
           {
             sources,
@@ -55423,7 +59047,7 @@ function SourcesMenu({
 }
 
 // src/react/loom-app/option-bar/index.tsx
-var import_jsx_runtime76 = __toESM(require_jsx_runtime());
+var import_jsx_runtime132 = __toESM(require_jsx_runtime());
 function OptionBar({
   columns,
   filters,
@@ -55437,33 +59061,13 @@ function OptionBar({
   onSourceDelete,
   onColumnChange
 }) {
-  const {
-    menu: moreMenu,
-    triggerRef: moreMenuTriggerRef,
-    triggerPosition: moreMenuTriggerPosition,
-    isOpen: isMoreMenuOpen,
-    onOpen: onMoreMenuOpen,
-    onRequestClose: onMoreMenuRequestClose,
-    onClose: onMoreMenuClose
-  } = useMenu();
-  const {
-    menu: sourcesMenu,
-    triggerRef: sourcesMenuTriggerRef,
-    triggerPosition: sourcesMenuTriggerPosition,
-    isOpen: isSourcesMenuOpen,
-    onOpen: onSourcesMenuOpen,
-    onRequestClose: onSourcesMenuRequestClose,
-    onClose: onSourcesMenuClose
-  } = useMenu();
-  const {
-    menu: filterMenu,
-    triggerRef: filterMenuTriggerRef,
-    triggerPosition: filterMenuTriggerPosition,
-    isOpen: isFilterMenuOpen,
-    onOpen: onFilterMenuOpen,
-    onRequestClose: onFilterMenuRequestClose,
-    onClose: onFilterMenuClose
-  } = useMenu();
+  const COMPONENT_ID = "option-bar";
+  const SOURCE_MENU_ID = "sources-menu";
+  const MORE_MENU_ID = "more-menu";
+  const FILTER_MENU_ID = "filter-menu";
+  const sourcesMenu = useMenu(COMPONENT_ID, { name: SOURCE_MENU_ID });
+  const moreMenu = useMenu(COMPONENT_ID, { name: MORE_MENU_ID });
+  const filterMenu = useMenu(COMPONENT_ID, { name: FILTER_MENU_ID });
   function handleRemoveClick(columnId) {
     onColumnChange(
       columnId,
@@ -55476,20 +59080,29 @@ function OptionBar({
   function handleColumnToggle(columnId, isVisible) {
     onColumnChange(columnId, { isVisible });
   }
+  function handleSourceMenuOpen() {
+    sourcesMenu.onOpen(1 /* ONE */);
+  }
+  function handleFilterMenuOpen() {
+    filterMenu.onOpen(1 /* ONE */);
+  }
+  function handleMoreMenuOpen() {
+    moreMenu.onOpen(1 /* ONE */);
+  }
   const activeFilters = filters.filter((filter3) => filter3.isEnabled);
   const sortedColumns = columns.filter(
     (column) => column.sortDir !== "default" /* NONE */
   );
   const isSmallScreen = isSmallScreenSize();
-  return /* @__PURE__ */ (0, import_jsx_runtime76.jsxs)(import_jsx_runtime76.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime76.jsx)("div", { className: "dataloom-option-bar", children: /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(Padding, { py: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime76.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime132.jsxs)(import_jsx_runtime132.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime132.jsx)("div", { className: "dataloom-option-bar", children: /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(Padding, { py: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime132.jsxs)(
       Stack,
       __spreadProps(__spreadValues({
         isHorizontal: !isSmallScreen,
         spacing: "sm"
       }, !isSmallScreen && { justify: "space-between" }), {
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime76.jsxs)(
+          /* @__PURE__ */ (0, import_jsx_runtime132.jsxs)(
             Stack,
             __spreadProps(__spreadValues({
               isHorizontal: true,
@@ -55500,14 +59113,14 @@ function OptionBar({
               justify: "flex-end"
             }), {
               children: [
-                /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
+                /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
                   SortBubbleList,
                   {
                     sortedColumns,
                     onRemoveClick: handleRemoveClick
                   }
                 ),
-                /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
+                /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
                   ActiveFilterBubble,
                   {
                     numActive: activeFilters.length
@@ -55516,7 +59129,7 @@ function OptionBar({
               ]
             })
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime76.jsxs)(
+          /* @__PURE__ */ (0, import_jsx_runtime132.jsxs)(
             Stack,
             __spreadProps(__spreadValues({
               isHorizontal: true,
@@ -55527,32 +59140,38 @@ function OptionBar({
               width: "100%"
             }), {
               children: [
-                isSmallScreen === false && /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
+                isSmallScreen === false && /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
                   menu_button_default,
                   {
-                    ref: sourcesMenuTriggerRef,
-                    menu: sourcesMenu,
-                    onOpen: onSourcesMenuOpen,
+                    isFocused: sourcesMenu.isTriggerFocused,
+                    menuId: sourcesMenu.id,
+                    ref: sourcesMenu.triggerRef,
+                    level: 1 /* ONE */,
+                    onOpen: handleSourceMenuOpen,
                     children: "Sources"
                   }
                 ),
-                isSmallScreen === false && /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
+                isSmallScreen === false && /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
                   menu_button_default,
                   {
-                    ref: filterMenuTriggerRef,
-                    menu: filterMenu,
-                    onOpen: onFilterMenuOpen,
+                    isFocused: filterMenu.isTriggerFocused,
+                    menuId: filterMenu.id,
+                    ref: filterMenu.triggerRef,
+                    level: 1 /* ONE */,
+                    onOpen: handleFilterMenuOpen,
                     children: "Filter"
                   }
                 ),
-                /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(SearchBar, {}),
-                /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
+                /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(SearchBar, {}),
+                /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
                   menu_button_default,
                   {
-                    ref: moreMenuTriggerRef,
-                    menu: moreMenu,
-                    icon: /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(Icon, { lucideId: "more-vertical" }),
-                    onOpen: onMoreMenuOpen
+                    isFocused: moreMenu.isTriggerFocused,
+                    menuId: moreMenu.id,
+                    ref: moreMenu.triggerRef,
+                    level: 1 /* ONE */,
+                    icon: /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(Icon, { lucideId: "more-vertical" }),
+                    onOpen: handleMoreMenuOpen
                   }
                 )
               ]
@@ -55561,64 +59180,61 @@ function OptionBar({
         ]
       })
     ) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
       SourcesMenu,
       {
         id: sourcesMenu.id,
-        isOpen: isSourcesMenuOpen,
-        triggerPosition: sourcesMenuTriggerPosition,
+        isOpen: sourcesMenu.isOpen,
+        position: sourcesMenu.position,
         sources,
         columns,
         onSourceAdd,
         onSourceDelete,
-        onRequestClose: onSourcesMenuRequestClose,
-        onClose: onSourcesMenuClose
+        onClose: sourcesMenu.onClose
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
       MoreMenu,
       {
         id: moreMenu.id,
-        isOpen: isMoreMenuOpen,
+        isOpen: moreMenu.isOpen,
         showCalculationRow,
-        triggerPosition: moreMenuTriggerPosition,
+        position: moreMenu.position,
         columns,
-        onFilterClick: () => onFilterMenuOpen(),
+        onFilterClick: handleFilterMenuOpen,
         onColumnToggle: handleColumnToggle,
-        onRequestClose: onMoreMenuRequestClose,
         onCalculationRowToggle,
-        onClose: onMoreMenuClose,
-        onSourcesClick: () => onSourcesMenuOpen()
+        onClose: moreMenu.onClose,
+        onSourcesClick: handleSourceMenuOpen
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
       FilterMenu,
       {
         id: filterMenu.id,
-        isOpen: isFilterMenuOpen,
-        triggerPosition: isSmallScreen ? moreMenuTriggerPosition : filterMenuTriggerPosition,
+        isOpen: filterMenu.isOpen,
+        position: isSmallScreen ? moreMenu.position : filterMenu.position,
         columns,
         filters,
         onUpdate: onFilterUpdate,
         onDeleteClick: onFilterDeleteClick,
-        onAddClick: onFilterAddClick,
-        onRequestClose: onFilterMenuRequestClose,
-        onClose: onFilterMenuClose
+        onAddClick: onFilterAddClick
       }
     )
   ] });
 }
 
 // src/react/loom-app/bottom-bar/index.tsx
-var import_react35 = __toESM(require_react());
+var import_react53 = __toESM(require_react());
+var import_lodash9 = __toESM(require_lodash());
 
 // src/react/loom-app/new-row-button/index.tsx
-var import_jsx_runtime77 = __toESM(require_jsx_runtime());
+var import_jsx_runtime133 = __toESM(require_jsx_runtime());
 function NewRowButton({ onClick }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(
     Button,
     {
-      icon: /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(Icon, { lucideId: "plus" }),
+      icon: /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(Icon, { lucideId: "plus" }),
       ariaLabel: "New row",
       onClick: () => onClick(),
       children: "New"
@@ -55627,7 +59243,7 @@ function NewRowButton({ onClick }) {
 }
 
 // src/react/loom-app/bottom-bar/index.tsx
-var import_jsx_runtime78 = __toESM(require_jsx_runtime());
+var import_jsx_runtime134 = __toESM(require_jsx_runtime());
 function BottomBar({
   onRowAddClick,
   onScrollToTopClick,
@@ -55635,76 +59251,85 @@ function BottomBar({
   onUndoClick,
   onRedoClick
 }) {
-  const ref = import_react35.default.useRef(null);
-  const [spaceBetweenTableAndContainer, setSpaceBetweenTableAndContainer] = import_react35.default.useState(0);
-  import_react35.default.useEffect(() => {
-    let observer = null;
-    if (!ref.current)
+  const ref = import_react53.default.useRef(null);
+  const [bottomBarOffset, setBottomBarOffset] = import_react53.default.useState(0);
+  const isMobile = isOnMobile();
+  import_react53.default.useEffect(() => {
+    const el = ref.current;
+    if (!el)
       return;
-    const appEl = ref.current.closest(".dataloom-app");
-    const tableEl = appEl == null ? void 0 : appEl.querySelector(".dataloom-table");
+    const appEl = el.closest(".dataloom-app");
+    if (!appEl)
+      return;
+    const tableEl = appEl.querySelector(
+      ".dataloom-table"
+    );
     if (!tableEl)
       return;
     const tableContainerEl = tableEl.parentElement;
     if (!tableContainerEl)
       return;
-    observer = new ResizeObserver(() => {
-      const containerRect = tableContainerEl.getBoundingClientRect();
-      const tableRect = tableEl.getBoundingClientRect();
-      let diff = containerRect.height - tableRect.height;
+    function updateBottomBar(tableEl2, tableContainerEl2) {
+      const tableRect = tableEl2.getBoundingClientRect();
+      const tableContainerRect = tableContainerEl2.getBoundingClientRect();
+      let diff = tableContainerRect.height - tableRect.height;
       if (diff < 0)
         diff = 0;
-      setSpaceBetweenTableAndContainer(diff);
+      setBottomBarOffset(diff);
+    }
+    const DEBOUNCE_TIME_MILLIS = 100;
+    const debounceUpdate = import_lodash9.default.debounce(
+      updateBottomBar,
+      DEBOUNCE_TIME_MILLIS
+    );
+    const observer = new ResizeObserver(() => {
+      debounceUpdate(tableEl, tableContainerEl);
     });
     observer.observe(tableEl);
-    observer.observe(tableContainerEl);
     return () => {
-      if (tableEl)
-        observer == null ? void 0 : observer.unobserve(tableEl);
+      observer.disconnect();
     };
-  }, [ref]);
-  const isMobile = isOnMobile();
-  return /* @__PURE__ */ (0, import_jsx_runtime78.jsx)("div", { className: "dataloom-bottom-bar", children: /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(
+  }, []);
+  return /* @__PURE__ */ (0, import_jsx_runtime134.jsx)("div", { ref, className: "dataloom-bottom-bar", children: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(
     "div",
     {
-      ref,
       style: {
-        top: numToPx(-spaceBetweenTableAndContainer)
+        top: numToPx(-bottomBarOffset)
       },
-      children: /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(Padding, { pt: "md", width: "100%", children: /* @__PURE__ */ (0, import_jsx_runtime78.jsxs)(Flex, { justify: "space-between", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime78.jsxs)(Stack, { spacing: "md", isHorizontal: true, children: [
-          isMobile && /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(Padding, { pt: "md", width: "100%", children: /* @__PURE__ */ (0, import_jsx_runtime134.jsxs)(Flex, { justify: "space-between", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime134.jsxs)(Stack, { spacing: "md", isHorizontal: true, children: [
+          isMobile && /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(
             Button,
             {
               ariaLabel: "Undo",
-              icon: /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(Icon, { lucideId: "undo" }),
+              icon: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(Icon, { lucideId: "undo" }),
               onClick: onUndoClick
             }
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(NewRowButton, { onClick: onRowAddClick })
+          /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(NewRowButton, { onClick: onRowAddClick })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime78.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime134.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(
             Button,
             {
               ariaLabel: "Scroll to top",
-              icon: /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(Icon, { lucideId: "chevron-up" }),
+              icon: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(Icon, { lucideId: "chevron-up" }),
               onClick: onScrollToTopClick
             }
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(
             Button,
             {
               ariaLabel: "Scroll to bottom",
               onClick: onScrollToBottomClick,
-              icon: /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(Icon, { lucideId: "chevron-down" })
+              icon: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(Icon, { lucideId: "chevron-down" })
             }
           ),
-          isMobile && /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(
+          isMobile && /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(
             Button,
             {
               ariaLabel: "Redo",
-              icon: /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(Icon, { lucideId: "redo" }),
+              icon: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(Icon, { lucideId: "redo" }),
               onClick: onRedoClick
             }
           )
@@ -56036,7 +59661,7 @@ var doesTextMatch = (cellContent, filterText, condition) => {
 };
 
 // src/shared/loom-state/commands/filter-update-command.ts
-var import_lodash9 = __toESM(require_lodash());
+var import_lodash10 = __toESM(require_lodash());
 var FilterUpdateCommand = class extends loom_state_command_default {
   constructor(id2, data, isPartial = true) {
     super();
@@ -56049,7 +59674,7 @@ var FilterUpdateCommand = class extends loom_state_command_default {
     const { filters } = prevState.model;
     const nextFilters = filters.map((filter3) => {
       if (filter3.id === this.id) {
-        this.prevFilter = (0, import_lodash9.cloneDeep)(filter3);
+        this.prevFilter = (0, import_lodash10.cloneDeep)(filter3);
         let newFilter = this.data;
         if (this.isPartial)
           newFilter = __spreadValues(__spreadValues({}, filter3), this.data);
@@ -56165,7 +59790,7 @@ var FilterAddCommand = class extends loom_state_command_default {
 };
 
 // src/shared/loom-state/commands/filter-delete-command.ts
-var import_lodash10 = __toESM(require_lodash());
+var import_lodash11 = __toESM(require_lodash());
 var FilterDeleteCommand = class extends loom_state_command_default {
   constructor(id2) {
     super();
@@ -56178,7 +59803,7 @@ var FilterDeleteCommand = class extends loom_state_command_default {
       if (f3.id === this.id) {
         this.deletedFilter = {
           arrIndex: filters.indexOf(f3),
-          filter: (0, import_lodash10.cloneDeep)(f3)
+          filter: (0, import_lodash11.cloneDeep)(f3)
         };
         return false;
       }
@@ -56193,7 +59818,7 @@ var FilterDeleteCommand = class extends loom_state_command_default {
   undo(prevState) {
     super.onUndo();
     const { filters } = prevState.model;
-    const nextFilters = (0, import_lodash10.cloneDeep)(filters);
+    const nextFilters = (0, import_lodash11.cloneDeep)(filters);
     nextFilters.splice(
       this.deletedFilter.arrIndex,
       0,
@@ -56501,7 +60126,7 @@ var CommandArgumentsError = class extends Error {
 };
 
 // src/shared/loom-state/commands/column-delete-command/utils.ts
-var import_lodash11 = __toESM(require_lodash());
+var import_lodash12 = __toESM(require_lodash());
 var columnDeleteExecute = (prevColumns, prevRows, prevFilters, id2) => {
   if (prevColumns.length === 1) {
     return null;
@@ -56511,7 +60136,7 @@ var columnDeleteExecute = (prevColumns, prevRows, prevFilters, id2) => {
     throw new ColumnNotFoundError({ id: id2 });
   const deletedColumn = {
     arrIndex: prevColumns.indexOf(columnToDelete),
-    column: (0, import_lodash11.cloneDeep)(columnToDelete)
+    column: (0, import_lodash12.cloneDeep)(columnToDelete)
   };
   const nextColumns = prevColumns.filter((column) => column.id !== id2);
   const deletedCells = [];
@@ -56525,7 +60150,7 @@ var columnDeleteExecute = (prevColumns, prevRows, prevFilters, id2) => {
       });
     deletedCells.push({
       rowId: row.id,
-      cell: (0, import_lodash11.cloneDeep)(cell),
+      cell: (0, import_lodash12.cloneDeep)(cell),
       arrIndex: row.cells.indexOf(cell)
     });
     const nextCells = cells.filter((cell2) => cell2.columnId !== id2);
@@ -56538,7 +60163,7 @@ var columnDeleteExecute = (prevColumns, prevRows, prevFilters, id2) => {
   );
   const deletedFilters = filtersToDelete.map((filter3) => ({
     arrIndex: prevFilters.indexOf(filter3),
-    filter: (0, import_lodash11.cloneDeep)(filter3)
+    filter: (0, import_lodash12.cloneDeep)(filter3)
   }));
   const nextFilters = prevFilters.filter((filter3) => filter3.columnId !== id2);
   return {
@@ -56641,7 +60266,7 @@ var ColumnDeleteCommand = class extends loom_state_command_default {
 };
 
 // src/shared/loom-state/commands/column-update-command.ts
-var import_lodash12 = __toESM(require_lodash());
+var import_lodash13 = __toESM(require_lodash());
 var ColumnUpdateCommand = class extends loom_state_command_default {
   constructor(columnId, data, options) {
     const { shouldSortRows = false, isPartial = true } = options || {};
@@ -56658,7 +60283,7 @@ var ColumnUpdateCommand = class extends loom_state_command_default {
       throw new ColumnNotFoundError({ id: this.columnId });
     const nextColumns = columns.map((column2) => {
       if (column2.id === this.columnId) {
-        this.prevColumn = (0, import_lodash12.cloneDeep)(column2);
+        this.prevColumn = (0, import_lodash13.cloneDeep)(column2);
         let newColumn = this.data;
         if (this.isPartial)
           newColumn = __spreadValues(__spreadValues({}, column2), this.data);
@@ -56706,7 +60331,7 @@ var ColumnUpdateCommand = class extends loom_state_command_default {
 };
 
 // src/shared/loom-state/commands/column-type-update-command.ts
-var import_lodash13 = __toESM(require_lodash());
+var import_lodash14 = __toESM(require_lodash());
 var ColumnTypeUpdateCommand = class extends loom_state_command_default {
   constructor(id2, type) {
     super();
@@ -56730,8 +60355,8 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
     if (type === this.nextType)
       return prevState;
     this.previousType = column.type;
-    let nextColumns = (0, import_lodash13.cloneDeep)(columns);
-    let nextRows = (0, import_lodash13.cloneDeep)(rows);
+    let nextColumns = (0, import_lodash14.cloneDeep)(columns);
+    let nextRows = (0, import_lodash14.cloneDeep)(rows);
     if (this.previousType === "multi-tag" /* MULTI_TAG */ && this.nextType !== "tag" /* TAG */ || this.previousType === "tag" /* TAG */ && this.nextType !== "multi-tag" /* MULTI_TAG */) {
       nextRows = this.fromTagOrMultiTag(nextRows);
     } else if (this.previousType !== "multi-tag" /* MULTI_TAG */ && this.nextType === "tag" /* TAG */) {
@@ -56762,7 +60387,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
       if (filter3.columnId === this.id) {
         this.deletedFilters.push({
           arrIndex: filters.indexOf(filter3),
-          filter: (0, import_lodash13.cloneDeep)(filter3)
+          filter: (0, import_lodash14.cloneDeep)(filter3)
         });
         return false;
       }
@@ -56793,7 +60418,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
         cells: nextCells
       });
     });
-    const nextFilters = (0, import_lodash13.cloneDeep)(filters);
+    const nextFilters = (0, import_lodash14.cloneDeep)(filters);
     this.deletedFilters.forEach((f3) => {
       const { arrIndex, filter: filter3 } = f3;
       nextFilters.splice(arrIndex, 0, filter3);
@@ -56884,7 +60509,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
             const updatedCell = __spreadProps(__spreadValues({}, cell), {
               tagIds: []
             });
-            this.updatedCells.previous.push((0, import_lodash13.cloneDeep)(cell));
+            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
             this.updatedCells.next.push(updatedCell);
             return updatedCell;
           }
@@ -56910,7 +60535,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
             const newCell = __spreadProps(__spreadValues({}, cell), {
               content: dateString
             });
-            this.updatedCells.previous.push((0, import_lodash13.cloneDeep)(cell));
+            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
             this.updatedCells.next.push(newCell);
             return newCell;
           }
@@ -56944,14 +60569,14 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
                   tagIds.push(existingTag.id);
                 } else {
                   const tag = createTag(tagContent);
-                  this.addedTags.push((0, import_lodash13.cloneDeep)(tag));
+                  this.addedTags.push((0, import_lodash14.cloneDeep)(tag));
                   column.tags.push(tag);
                   tagIds.push(tag.id);
                 }
               } else {
                 if (!existingTag) {
                   const tag = createTag(tagContent);
-                  this.addedTags.push((0, import_lodash13.cloneDeep)(tag));
+                  this.addedTags.push((0, import_lodash14.cloneDeep)(tag));
                   column.tags.push(tag);
                 }
               }
@@ -56959,7 +60584,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
             const newCell = __spreadProps(__spreadValues({}, cell), {
               tagIds
             });
-            this.updatedCells.previous.push((0, import_lodash13.cloneDeep)(cell));
+            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
             this.updatedCells.next.push(newCell);
             return newCell;
           }
@@ -56992,7 +60617,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
                 tagIds.push(existingTag.id);
               } else {
                 const tag = createTag(tagContent);
-                this.addedTags.push((0, import_lodash13.cloneDeep)(tag));
+                this.addedTags.push((0, import_lodash14.cloneDeep)(tag));
                 column.tags.push(tag);
                 tagIds.push(tag.id);
               }
@@ -57000,7 +60625,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
             const newCell = __spreadProps(__spreadValues({}, cell), {
               tagIds
             });
-            this.updatedCells.previous.push((0, import_lodash13.cloneDeep)(cell));
+            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
             this.updatedCells.next.push(newCell);
             return newCell;
           }
@@ -57022,7 +60647,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
             const newCell = __spreadProps(__spreadValues({}, cell), {
               tagIds: [tagIds[0]]
             });
-            this.updatedCells.previous.push((0, import_lodash13.cloneDeep)(cell));
+            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
             this.updatedCells.next.push(newCell);
             return newCell;
           }
@@ -57044,7 +60669,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
             const newCell = __spreadProps(__spreadValues({}, cell), {
               content: CHECKBOX_MARKDOWN_UNCHECKED2
             });
-            this.updatedCells.previous.push((0, import_lodash13.cloneDeep)(cell));
+            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
             this.updatedCells.next.push(newCell);
             return newCell;
           }
@@ -57058,39 +60683,148 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
   }
 };
 
+// src/shared/loom-state/commands/column-reorder-command.ts
+var ColumnReorderCommand = class extends loom_state_command_default {
+  constructor(dragId, targetId) {
+    super();
+    this.dragId = dragId;
+    this.targetId = targetId;
+  }
+  execute(prevState) {
+    super.onExecute();
+    const { columns } = prevState.model;
+    const dragIndex = columns.findIndex(
+      (column) => column.id === this.dragId
+    );
+    const targetIndex = columns.findIndex(
+      (column) => column.id === this.targetId
+    );
+    this.dragIndex = dragIndex;
+    this.targetIndex = targetIndex;
+    const newColumns = [...columns];
+    const draggedEl = newColumns[dragIndex];
+    newColumns.splice(dragIndex, 1);
+    newColumns.splice(targetIndex, 0, draggedEl);
+    const nextRows = this.sortCellsByColumns(
+      prevState.model.rows,
+      newColumns
+    );
+    return __spreadProps(__spreadValues({}, prevState), {
+      model: __spreadProps(__spreadValues({}, prevState.model), {
+        columns: newColumns,
+        rows: nextRows
+      })
+    });
+  }
+  undo(prevState) {
+    super.onUndo();
+    const { columns } = prevState.model;
+    const newColumns = [...columns];
+    const draggedEl = newColumns[this.targetIndex];
+    newColumns.splice(this.targetIndex, 1);
+    newColumns.splice(this.dragIndex, 0, draggedEl);
+    const nextRows = this.sortCellsByColumns(
+      prevState.model.rows,
+      newColumns
+    );
+    return __spreadProps(__spreadValues({}, prevState), {
+      model: __spreadProps(__spreadValues({}, prevState.model), {
+        columns: newColumns,
+        rows: nextRows
+      })
+    });
+  }
+  redo(prevState) {
+    super.onRedo();
+    const { columns } = prevState.model;
+    const newColumns = [...columns];
+    const draggedEl = newColumns[this.dragIndex];
+    newColumns.splice(this.dragIndex, 1);
+    newColumns.splice(this.targetIndex, 0, draggedEl);
+    const nextRows = this.sortCellsByColumns(
+      prevState.model.rows,
+      newColumns
+    );
+    return __spreadProps(__spreadValues({}, prevState), {
+      model: __spreadProps(__spreadValues({}, prevState.model), {
+        columns: newColumns,
+        rows: nextRows
+      })
+    });
+  }
+  sortCellsByColumns(prevRows, columns) {
+    return prevRows.map((row) => {
+      const { cells } = row;
+      const nextCells = cells.sort((a2, b2) => {
+        const aIndex = columns.findIndex(
+          (column) => column.id === a2.columnId
+        );
+        const bIndex = columns.findIndex(
+          (column) => column.id === b2.columnId
+        );
+        return aIndex - bIndex;
+      });
+      return __spreadProps(__spreadValues({}, row), {
+        cells: nextCells
+      });
+    });
+  }
+};
+
 // src/react/loom-app/app/hooks/use-column/index.ts
+var import_react54 = __toESM(require_react());
 var useColumn = () => {
   const logger = useLogger();
   const { doCommand } = useLoomState();
-  function handleNewColumnClick() {
+  const handleNewColumnClick = import_react54.default.useCallback(() => {
     logger("handleNewColumnClick");
     doCommand(new ColumnAddCommand());
-  }
-  function handleColumnTypeChange(columnId, type) {
-    logger("handleColumnTypeChange", {
-      columnId,
-      type
-    });
-    doCommand(new ColumnTypeUpdateCommand(columnId, type));
-  }
-  function handleColumnChange(columnId, data, options) {
-    logger("handleColumnChange", {
-      columnId,
-      data
-    });
-    doCommand(new ColumnUpdateCommand(columnId, data, options));
-  }
-  function handleColumnDeleteClick(columnId) {
-    logger("handleColumnDeleteClick", {
-      columnId
-    });
-    doCommand(new ColumnDeleteCommand({ id: columnId }));
-  }
+  }, [doCommand, logger]);
+  const handleColumnTypeChange = import_react54.default.useCallback(
+    (columnId, type) => {
+      logger("handleColumnTypeChange", {
+        columnId,
+        type
+      });
+      doCommand(new ColumnTypeUpdateCommand(columnId, type));
+    },
+    [doCommand, logger]
+  );
+  const handleColumnChange = import_react54.default.useCallback(
+    (columnId, data, options) => {
+      logger("handleColumnChange", {
+        columnId,
+        data
+      });
+      doCommand(new ColumnUpdateCommand(columnId, data, options));
+    },
+    [doCommand, logger]
+  );
+  const handleColumnDeleteClick = import_react54.default.useCallback(
+    (columnId) => {
+      logger("handleColumnDeleteClick", {
+        columnId
+      });
+      doCommand(new ColumnDeleteCommand({ id: columnId }));
+    },
+    [doCommand, logger]
+  );
+  const handleColumnReorder = import_react54.default.useCallback(
+    (dragId, targetId) => {
+      logger("handleColumnReorder", {
+        dragId,
+        targetId
+      });
+      doCommand(new ColumnReorderCommand(dragId, targetId));
+    },
+    [doCommand, logger]
+  );
   return {
     onColumnAddClick: handleNewColumnClick,
     onColumnTypeChange: handleColumnTypeChange,
     onColumnDeleteClick: handleColumnDeleteClick,
-    onColumnChange: handleColumnChange
+    onColumnChange: handleColumnChange,
+    onColumnReorder: handleColumnReorder
   };
 };
 
@@ -57136,7 +60870,7 @@ var RowAddCommand = class extends loom_state_command_default {
 };
 
 // src/shared/loom-state/commands/row-delete-command.ts
-var import_lodash14 = __toESM(require_lodash());
+var import_lodash15 = __toESM(require_lodash());
 var RowDeleteCommand = class extends loom_state_command_default {
   constructor(options) {
     super();
@@ -57159,7 +60893,7 @@ var RowDeleteCommand = class extends loom_state_command_default {
       throw new RowNotFoundError(id2);
     this.deletedRow = {
       arrIndex: rows.indexOf(rowToDelete),
-      row: (0, import_lodash14.cloneDeep)(rowToDelete)
+      row: (0, import_lodash15.cloneDeep)(rowToDelete)
     };
     let newRows = rows.filter((row) => row.id !== id2);
     this.previousRows = newRows.filter((row) => row.index > this.deletedRow.row.index).map((row) => {
@@ -57208,7 +60942,7 @@ var RowDeleteCommand = class extends loom_state_command_default {
 };
 
 // src/react/loom-app/app/hooks/use-row.ts
-var import_react36 = __toESM(require_react());
+var import_react55 = __toESM(require_react());
 
 // src/shared/loom-state/commands/row-insert-command.ts
 var RowInsertCommand = class extends loom_state_command_default {
@@ -57315,11 +61049,99 @@ var RowInsertCommand = class extends loom_state_command_default {
   }
 };
 
+// src/shared/loom-state/commands/row-reorder-command.ts
+var RowReorderCommand = class extends loom_state_command_default {
+  constructor(dragId, targetId) {
+    super();
+    this.previousColumnSort = [];
+    this.previousRowOrder = [];
+    this.dragId = dragId;
+    this.targetId = targetId;
+  }
+  execute(prevState) {
+    super.onExecute();
+    const { rows, columns } = prevState.model;
+    const dragIndex = rows.findIndex((row) => row.id === this.dragId);
+    const targetIndex = rows.findIndex((row) => row.id === this.targetId);
+    this.dragIndex = dragIndex;
+    this.targetIndex = targetIndex;
+    let newRows = [...rows];
+    const draggedEl = newRows[dragIndex];
+    newRows.splice(dragIndex, 1);
+    newRows.splice(targetIndex, 0, draggedEl);
+    newRows = newRows.map((row, i2) => {
+      const { id: id2, index } = row;
+      this.previousRowOrder.push({
+        id: id2,
+        index
+      });
+      return __spreadProps(__spreadValues({}, row), {
+        index: i2
+      });
+    });
+    const nextColumns = columns.map((column) => {
+      const { id: id2, sortDir } = column;
+      this.previousColumnSort.push({
+        id: id2,
+        sortDir
+      });
+      return __spreadProps(__spreadValues({}, column), {
+        sortDir: "default" /* NONE */
+      });
+    });
+    return __spreadProps(__spreadValues({}, prevState), {
+      model: __spreadProps(__spreadValues({}, prevState.model), {
+        rows: newRows,
+        columns: nextColumns
+      })
+    });
+  }
+  undo(prevState) {
+    super.onUndo();
+    const { rows, columns } = prevState.model;
+    let newRows = [...rows];
+    const draggedEl = newRows[this.targetIndex];
+    newRows.splice(this.targetIndex, 1);
+    newRows.splice(this.dragIndex, 0, draggedEl);
+    newRows = newRows.map((row) => {
+      const previousRowOrder = this.previousRowOrder.find(
+        (order) => order.id === row.id
+      );
+      if (!previousRowOrder)
+        throw new Error("Row order not found");
+      return __spreadProps(__spreadValues({}, row), {
+        index: previousRowOrder.index
+      });
+    });
+    const nextColumns = columns.map((column) => {
+      const { id: id2 } = column;
+      const previousSort = this.previousColumnSort.find(
+        (sort) => sort.id === id2
+      );
+      if (!previousSort)
+        throw new ColumnNotFoundError({ id: id2 });
+      return __spreadProps(__spreadValues({}, column), {
+        sortDir: previousSort.sortDir
+      });
+    });
+    return __spreadProps(__spreadValues({}, prevState), {
+      model: __spreadProps(__spreadValues({}, prevState.model), {
+        rows: newRows,
+        columns: nextColumns
+      })
+    });
+  }
+  redo(prevState) {
+    super.onRedo();
+    return this.execute(prevState);
+  }
+};
+
 // src/react/loom-app/app/hooks/use-row.ts
 var useRow = () => {
   const logger = useLogger();
   const { doCommand, loomState } = useLoomState();
-  const handleRowDeleteClick = import_react36.default.useCallback(
+  const handleRowDeleteClick = import_react55.default.useCallback(
     (rowId) => {
       logger("handleRowDeleteClick", {
         rowId
@@ -57328,39 +61150,56 @@ var useRow = () => {
     },
     [doCommand, logger]
   );
-  function handleNewRowClick() {
+  const handleNewRowClick = import_react55.default.useCallback(() => {
     logger("handleNewRowClick");
     doCommand(new RowAddCommand());
-  }
-  function handleRowInsertAboveClick(rowId) {
-    logger("handleRowInsertAboveClick", {
-      rowId
-    });
-    if (confirmSortOrderChange(loomState)) {
-      doCommand(new RowInsertCommand(rowId, "above"));
-    }
-  }
-  function handleRowInsertBelowClick(rowId) {
-    logger("handleRowInsertBelowClick", {
-      rowId
-    });
-    if (confirmSortOrderChange(loomState)) {
-      doCommand(new RowInsertCommand(rowId, "below"));
-    }
-  }
+  }, [doCommand, logger]);
+  const handleRowInsertAboveClick = import_react55.default.useCallback(
+    (rowId) => {
+      logger("handleRowInsertAboveClick", {
+        rowId
+      });
+      if (confirmSortOrderChange(loomState)) {
+        doCommand(new RowInsertCommand(rowId, "above"));
+      }
+    },
+    [doCommand, logger, loomState]
+  );
+  const handleRowInsertBelowClick = import_react55.default.useCallback(
+    (rowId) => {
+      logger("handleRowInsertBelowClick", {
+        rowId
+      });
+      if (confirmSortOrderChange(loomState)) {
+        doCommand(new RowInsertCommand(rowId, "below"));
+      }
+    },
+    [doCommand, logger, loomState]
+  );
+  const handleRowReorder = import_react55.default.useCallback(
+    (dragId, targetId) => {
+      logger("handleRowReorder", {
+        dragId,
+        targetId
+      });
+      doCommand(new RowReorderCommand(dragId, targetId));
+    },
+    [doCommand, logger]
+  );
   return {
     onRowAddClick: handleNewRowClick,
     onRowDeleteClick: handleRowDeleteClick,
     onRowInsertAboveClick: handleRowInsertAboveClick,
-    onRowInsertBelowClick: handleRowInsertBelowClick
+    onRowInsertBelowClick: handleRowInsertBelowClick,
+    onRowReorder: handleRowReorder
   };
 };
 
 // src/shared/loom-state/commands/cell-body-update-command.ts
-var import_lodash15 = __toESM(require_lodash());
+var import_lodash16 = __toESM(require_lodash());
 var CellBodyUpdateCommand = class extends loom_state_command_default {
   constructor(id2, data, isPartial = true) {
-    super();
+    super(true);
     this.id = id2;
     this.data = data;
     this.isPartial = isPartial;
@@ -57379,7 +61218,7 @@ var CellBodyUpdateCommand = class extends loom_state_command_default {
       const { cells } = row2;
       const nextCells = cells.map((cell) => {
         if (cell.id === this.id) {
-          this.prevCell = (0, import_lodash15.cloneDeep)(cell);
+          this.prevCell = (0, import_lodash16.cloneDeep)(cell);
           let newCell = this.data;
           if (this.isPartial)
             newCell = __spreadValues(__spreadValues({}, cell), this.data);
@@ -57457,17 +61296,21 @@ var CellBodyUpdateCommand = class extends loom_state_command_default {
 };
 
 // src/react/loom-app/app/hooks/use-cell/index.ts
+var import_react56 = __toESM(require_react());
 var useCell = () => {
   const logger = useLogger();
   const { doCommand } = useLoomState();
-  function handleCellChange(id2, value, isPartial = true) {
-    logger("handleCellChange", {
-      id: id2,
-      value,
-      isPartial
-    });
-    doCommand(new CellBodyUpdateCommand(id2, value, isPartial));
-  }
+  const handleCellChange = import_react56.default.useCallback(
+    (id2, value, isPartial = true) => {
+      logger("handleCellChange", {
+        id: id2,
+        value,
+        isPartial
+      });
+      doCommand(new CellBodyUpdateCommand(id2, value, isPartial));
+    },
+    [doCommand, logger]
+  );
   return {
     onCellChange: handleCellChange
   };
@@ -57574,7 +61417,7 @@ var TagDeleteCommand = class extends loom_state_command_default {
 };
 
 // src/shared/loom-state/commands/tag-update-command.ts
-var import_lodash16 = __toESM(require_lodash());
+var import_lodash17 = __toESM(require_lodash());
 var TagUpdateCommand = class extends loom_state_command_default {
   constructor(columnId, tagId, data, isPartial = true) {
     super();
@@ -57591,7 +61434,7 @@ var TagUpdateCommand = class extends loom_state_command_default {
         const { tags } = column;
         const nextTags = tags.map((tag) => {
           if (tag.id === this.tagId) {
-            this.prevTag = (0, import_lodash16.cloneDeep)(tag);
+            this.prevTag = (0, import_lodash17.cloneDeep)(tag);
             let newTag = this.data;
             if (this.isPartial)
               newTag = __spreadValues(__spreadValues({}, tag), this.data);
@@ -58132,58 +61975,77 @@ var TagCellMultipleRemoveCommand = class extends loom_state_command_default {
 };
 
 // src/react/loom-app/app/hooks/use-tag/index.ts
+var import_react57 = __toESM(require_react());
 var useTag = () => {
   const { doCommand } = useLoomState();
-  const logFunc = useLogger();
-  function handleTagAdd(cellId, columnId, markdown, color, isMultiTag) {
-    logFunc("handleTagAdd", {
-      cellId,
-      columnId,
-      markdown,
-      color,
-      isMultiTag
-    });
-    doCommand(
-      new TagAddCommand(cellId, columnId, markdown, color, isMultiTag)
-    );
-  }
-  function handleTagCellAdd(cellId, tagId, isMultiTag) {
-    logFunc("handleTagCellAdd", {
-      cellId,
-      tagId,
-      isMultiTag
-    });
-    doCommand(new TagCellAddCommand(cellId, tagId, isMultiTag));
-  }
-  function handleTagCellRemove(cellId, tagId) {
-    logFunc("handleTagCellRemove", {
-      cellId,
-      tagId
-    });
-    doCommand(new TagCellRemoveCommand(cellId, tagId));
-  }
-  function handleTagChange(columnId, tagId, data, isPartial = true) {
-    logFunc("handleTagChange", {
-      columnId,
-      tagId,
-      data
-    });
-    doCommand(new TagUpdateCommand(columnId, tagId, data, isPartial));
-  }
-  function handleTagCellMultipleRemove(cellId, tagIds) {
-    logFunc("handleTagCellMultipleRemove", {
-      cellId,
-      tagIds
-    });
-    doCommand(new TagCellMultipleRemoveCommand(cellId, tagIds));
-  }
-  function handleTagDeleteClick(columnId, tagId) {
-    logFunc("handleTagDeleteClick", {
-      columnId,
-      tagId
-    });
-    doCommand(new TagDeleteCommand(columnId, tagId));
-  }
+  const logger = useLogger();
+  const handleTagAdd = import_react57.default.useCallback(
+    (cellId, columnId, markdown, color, isMultiTag) => {
+      logger("handleTagAdd", {
+        cellId,
+        columnId,
+        markdown,
+        color,
+        isMultiTag
+      });
+      doCommand(
+        new TagAddCommand(cellId, columnId, markdown, color, isMultiTag)
+      );
+    },
+    [doCommand, logger]
+  );
+  const handleTagCellAdd = import_react57.default.useCallback(
+    (cellId, tagId, isMultiTag) => {
+      logger("handleTagCellAdd", {
+        cellId,
+        tagId,
+        isMultiTag
+      });
+      doCommand(new TagCellAddCommand(cellId, tagId, isMultiTag));
+    },
+    [doCommand, logger]
+  );
+  const handleTagCellRemove = import_react57.default.useCallback(
+    (cellId, tagId) => {
+      logger("handleTagCellRemove", {
+        cellId,
+        tagId
+      });
+      doCommand(new TagCellRemoveCommand(cellId, tagId));
+    },
+    [doCommand, logger]
+  );
+  const handleTagChange = import_react57.default.useCallback(
+    (columnId, tagId, data, isPartial = true) => {
+      logger("handleTagChange", {
+        columnId,
+        tagId,
+        data
+      });
+      doCommand(new TagUpdateCommand(columnId, tagId, data, isPartial));
+    },
+    [doCommand, logger]
+  );
+  const handleTagCellMultipleRemove = import_react57.default.useCallback(
+    (cellId, tagIds) => {
+      logger("handleTagCellMultipleRemove", {
+        cellId,
+        tagIds
+      });
+      doCommand(new TagCellMultipleRemoveCommand(cellId, tagIds));
+    },
+    [doCommand, logger]
+  );
+  const handleTagDeleteClick = import_react57.default.useCallback(
+    (columnId, tagId) => {
+      logger("handleTagDeleteClick", {
+        columnId,
+        tagId
+      });
+      doCommand(new TagDeleteCommand(columnId, tagId));
+    },
+    [doCommand, logger]
+  );
   return {
     onTagCellAdd: handleTagCellAdd,
     onTagAdd: handleTagAdd,
@@ -58195,7 +62057,7 @@ var useTag = () => {
 };
 
 // src/react/loom-app/app/hooks/use-export-events.ts
-var import_react37 = __toESM(require_react());
+var import_react58 = __toESM(require_react());
 
 // src/shared/event-system/utils.ts
 var isEventForThisApp = (appId, allowOutsideEvents = false) => {
@@ -58210,9 +62072,7 @@ var isEventForThisApp = (appId, allowOutsideEvents = false) => {
   const menuEl = activeEl.closest(".dataloom-menu");
   if (menuEl) {
     const menuId = menuEl.id;
-    const menuTrigger = document.querySelector(
-      `[data-menu-id="${menuId}"]`
-    );
+    const menuTrigger = findMenuTriggerEl(menuId);
     if (!menuTrigger)
       return false;
     const appEl2 = menuTrigger.closest(".dataloom-app");
@@ -58229,7 +62089,7 @@ var useExportEvents = (state) => {
     (state2) => state2.global.settings
   );
   const filePath = loomFile.path;
-  import_react37.default.useEffect(() => {
+  import_react58.default.useEffect(() => {
     function handleDownloadCSV() {
       if (isEventForThisApp(reactAppId)) {
         setTimeout(() => {
@@ -58270,11 +62130,11 @@ var useExportEvents = (state) => {
 };
 
 // src/react/loom-app/app/hooks/use-row-events.ts
-var import_react38 = __toESM(require_react());
+var import_react59 = __toESM(require_react());
 var useRowEvents = () => {
   const { reactAppId, app } = useAppMount();
   const { doCommand } = useLoomState();
-  import_react38.default.useEffect(() => {
+  import_react59.default.useEffect(() => {
     function handleRowAddEvent() {
       if (isEventForThisApp(reactAppId))
         doCommand(new RowAddCommand());
@@ -58293,12 +62153,12 @@ var useRowEvents = () => {
 };
 
 // src/react/loom-app/app/hooks/use-column-events.ts
-var import_react39 = __toESM(require_react());
+var import_react60 = __toESM(require_react());
 var useColumnEvents = () => {
   const { reactAppId, app } = useAppMount();
   const { doCommand } = useLoomState();
   const logger = useLogger();
-  import_react39.default.useEffect(() => {
+  import_react60.default.useEffect(() => {
     function handleColumnAddEvent() {
       if (isEventForThisApp(reactAppId)) {
         logger("handleColumnAddEvent");
@@ -58357,15 +62217,19 @@ var TableSettingsUpdateCommand = class extends loom_state_command_default {
 };
 
 // src/react/loom-app/app/hooks/use-table-settings.ts
+var import_react61 = __toESM(require_react());
 var useTableSettings = () => {
   const logger = useLogger();
   const { doCommand } = useLoomState();
-  function handleFrozenColumnsChange(numColumns) {
-    logger("handleFrozenColumnsChange", { numColumns });
-    doCommand(
-      new TableSettingsUpdateCommand("numFrozenColumns", numColumns)
-    );
-  }
+  const handleFrozenColumnsChange = import_react61.default.useCallback(
+    (numColumns) => {
+      logger("handleFrozenColumnsChange", { numColumns });
+      doCommand(
+        new TableSettingsUpdateCommand("numFrozenColumns", numColumns)
+      );
+    },
+    [doCommand, logger]
+  );
   function handleCalculationRowToggle(value) {
     logger("handleCalculationRowToggle");
     doCommand(new TableSettingsUpdateCommand("showCalculationRow", value));
@@ -58374,6 +62238,80 @@ var useTableSettings = () => {
     onFrozenColumnsChange: handleFrozenColumnsChange,
     onCalculationRowToggle: handleCalculationRowToggle
   };
+};
+
+// src/react/loom-app/app/hooks/use-focus/utils.ts
+var removeCurrentFocusClass = () => {
+  const el = document.querySelector(".dataloom-focusable--focused");
+  el == null ? void 0 : el.classList.remove("dataloom-focusable--focused");
+};
+var getFocusLayerEl = (topMenu, appId) => {
+  if (topMenu) {
+    const topMenuEl = document.getElementById(topMenu.id);
+    if (!topMenuEl)
+      throw Error("No top menu element found");
+    return topMenuEl;
+  }
+  const appEl = document.getElementById(appId);
+  if (!appEl)
+    throw Error("No app element found");
+  return appEl;
+};
+var getFocusableEls = (layerEl) => {
+  const focusableEls = layerEl.querySelectorAll(".dataloom-focusable");
+  const arr = Array.from(focusableEls);
+  if (isMenuEl(layerEl)) {
+    const menuId = layerEl.id;
+    const menuTrigger = findMenuTriggerEl(menuId);
+    if (menuTrigger) {
+      return [menuTrigger, ...arr];
+    }
+  }
+  return arr;
+};
+var focusNextElement = (layerEl, focusableEls) => {
+  const focusedEl = document.activeElement;
+  if (focusedEl) {
+    const currentIndex = Array.from(focusableEls).indexOf(focusedEl);
+    if (currentIndex !== -1) {
+      let index = currentIndex + 1;
+      if (index > focusableEls.length - 1)
+        index = 0;
+      focusableEls[index].focus();
+      return;
+    }
+  }
+  const selectedEl = layerEl.querySelector(".dataloom-selected");
+  if (selectedEl) {
+    selectedEl.focus();
+  } else {
+    focusableEls[0].focus();
+  }
+};
+var getNumOptionBarFocusableEls = (appEl) => {
+  const el = appEl.querySelector(
+    ".dataloom-option-bar"
+  );
+  if (!el)
+    throw Error("No option bar found");
+  return getFocusableEls(el).length;
+};
+var getNumBottomBarFocusableEl = (appEl) => {
+  const el = appEl.querySelector(
+    ".dataloom-bottom-bar"
+  );
+  if (!el)
+    throw Error("No bottom bar found");
+  return getFocusableEls(el).length;
+};
+var isArrowKeyPressed = (e, isMenuOpen) => {
+  if (isMenuOpen) {
+    return e.key === "ArrowDown" || e.key === "ArrowUp";
+  }
+  return e.key === "ArrowDown" || e.key === "ArrowUp" || e.key === "ArrowLeft" || e.key === "ArrowRight";
+};
+var isMenuEl = (el) => {
+  return el.classList.contains("dataloom-menu");
 };
 
 // src/react/loom-app/app/hooks/use-focus/move-focus.ts
@@ -58453,18 +62391,14 @@ function useFocus() {
     if (e.key === "Tab") {
       removeCurrentFocusClass();
       e.preventDefault();
-      const menuEl = getTopMenuEl(topMenu, reactAppId);
-      if (!menuEl)
-        return;
-      const focusableEls = menuEl.querySelectorAll(".dataloom-focusable");
+      const layerEl = getFocusLayerEl(topMenu, reactAppId);
+      const focusableEls = getFocusableEls(layerEl);
       if (focusableEls.length === 0)
         return;
-      focusNextElement(menuEl, focusableEls);
+      focusNextElement(layerEl, focusableEls);
     } else if (isArrowKeyPressed(e, topMenu !== null)) {
-      const layerEl = getTopMenuEl(topMenu, reactAppId);
-      if (!layerEl)
-        return;
-      const focusableEls = getFocusableElements(layerEl);
+      const layerEl = getFocusLayerEl(topMenu, reactAppId);
+      const focusableEls = getFocusableEls(layerEl);
       if (focusableEls.length === 0)
         return;
       e.preventDefault();
@@ -58527,117 +62461,6 @@ function useFocus() {
     onFocusKeyDown: handleKeyDown
   };
 }
-
-// src/react/loom-app/app/hooks/use-menu-events.ts
-var import_react40 = __toESM(require_react());
-var import_lodash17 = __toESM(require_lodash());
-var useMenuEvents = () => {
-  const hookName = "useMenuEvents";
-  const logger = useLogger();
-  const { reactAppId, isMarkdownView, app } = useAppMount();
-  const { onCloseAll } = useMenuOperations();
-  import_react40.default.useEffect(() => {
-    const THROTTLE_TIME_MILLIS = 100;
-    const throttleHandleScroll = import_lodash17.default.throttle(
-      handleScroll,
-      THROTTLE_TIME_MILLIS
-    );
-    function handleScroll() {
-      const openMenus = document.querySelectorAll(".dataloom-menu");
-      for (const menu of openMenus) {
-        menu.style.display = "none";
-      }
-      onCloseAll();
-    }
-    const appEl = document.getElementById(reactAppId);
-    if (!appEl)
-      return;
-    const tableContainer = appEl.querySelector(
-      '[data-virtuoso-scroller="true"]'
-    );
-    if (!tableContainer)
-      return;
-    tableContainer.addEventListener("scroll", throttleHandleScroll);
-    return () => tableContainer == null ? void 0 : tableContainer.removeEventListener("scroll", throttleHandleScroll);
-  }, [onCloseAll, reactAppId]);
-  import_react40.default.useEffect(() => {
-    var _a2;
-    let pageScrollerEl;
-    const THROTTLE_TIME_MILLIS = 100;
-    const throttleHandleScroll = import_lodash17.default.throttle(
-      handleScroll,
-      THROTTLE_TIME_MILLIS
-    );
-    function handleScroll() {
-      const openMenus = document.querySelectorAll(".dataloom-menu");
-      for (const menu of openMenus) {
-        menu.style.display = "none";
-      }
-      onCloseAll();
-    }
-    if (isMarkdownView) {
-      const appEl = document.getElementById(reactAppId);
-      if (!appEl)
-        return;
-      pageScrollerEl = (_a2 = appEl.closest(".markdown-preview-view")) != null ? _a2 : appEl.closest(".cm-scroller");
-      pageScrollerEl == null ? void 0 : pageScrollerEl.addEventListener("scroll", throttleHandleScroll);
-    }
-    return () => pageScrollerEl == null ? void 0 : pageScrollerEl.removeEventListener("scroll", throttleHandleScroll);
-  }, [onCloseAll, isMarkdownView, reactAppId]);
-  import_react40.default.useEffect(() => {
-    function isModalOpen() {
-      return document.body.querySelector(":scope > .modal-container") !== null;
-    }
-    const observer = new MutationObserver((entries) => {
-      for (const entry of entries) {
-        if (entry.target === document.body) {
-          if (isModalOpen()) {
-            logger(`${hookName} onCloseAll`);
-            onCloseAll();
-            break;
-          }
-        }
-      }
-    });
-    observer.observe(document.body, { childList: true });
-    return () => observer.disconnect();
-  }, [logger, onCloseAll]);
-  import_react40.default.useEffect(() => {
-    function handleGlobalClick() {
-      logger(`${hookName} handleGlobalClick`);
-      onCloseAll();
-    }
-    app.workspace.on(EVENT_GLOBAL_CLICK, handleGlobalClick);
-    return () => app.workspace.off(EVENT_GLOBAL_CLICK, handleGlobalClick);
-  }, [app, logger, onCloseAll]);
-};
-
-// src/shared/event-system/event-system.ts
-var EventSystem = class {
-  constructor() {
-    this.eventListeners = [];
-  }
-  addEventListener(name, callback, priority = 0) {
-    this.eventListeners.push({
-      name,
-      callback,
-      priority
-    });
-    this.eventListeners.sort((a2, b2) => b2.priority - a2.priority);
-  }
-  removeEventListener(name, callback) {
-    this.eventListeners = this.eventListeners.filter(
-      (l2) => l2.name !== name || l2.callback !== callback
-    );
-  }
-  dispatchEvent(name, event, ...data) {
-    const listeners = this.eventListeners.filter((l2) => l2.name === name);
-    listeners.forEach((listener2) => {
-      listener2.callback(event, data);
-    });
-  }
-};
-var nltEventSystem = new EventSystem();
 
 // src/shared/loom-state/commands/source-add-command.ts
 var import_lodash18 = __toESM(require_lodash());
@@ -58996,7 +62819,6 @@ var deserializeFrontmatterKeys = (app, columns, rows) => {
       }
     });
   }
-  console.log(keys);
   return keys;
 };
 var deserializeFrontmatterForCell = (app, column, path) => {
@@ -59075,13 +62897,16 @@ function findDataFromSources(app, sources, columns, numRows) {
     const { id: id2, type } = source;
     switch (type) {
       case "folder" /* FOLDER */: {
-        const { path } = source;
+        const { path, includeSubfolders } = source;
         const result = findRowsFromFolder(
           app,
           nextColumns,
+          numRows + newRows.length,
           id2,
-          path,
-          numRows + newRows.length
+          {
+            path,
+            includeSubfolders
+          }
         );
         newRows.push(...result.newRows);
         nextColumns = result.nextColumns;
@@ -59096,29 +62921,33 @@ function findDataFromSources(app, sources, columns, numRows) {
     nextColumns
   };
 }
-var findRowsFromFolder = (app, columns, sourceId, folderPath, numRows) => {
-  const folder = app.vault.getAbstractFileByPath(folderPath);
+var findRowsFromFolder = (app, columns, numRows, sourceId, folderOptions) => {
+  const { path, includeSubfolders } = folderOptions;
+  const folder = app.vault.getAbstractFileByPath(path);
   if (!folder)
     return {
       nextColumns: columns,
       newRows: []
     };
   const files = app.vault.getMarkdownFiles().filter((file) => {
-    var _a2;
-    return ((_a2 = file.parent) == null ? void 0 : _a2.path) === folder.path;
+    var _a2, _b;
+    if (includeSubfolders) {
+      return (_a2 = file.parent) == null ? void 0 : _a2.path.startsWith(folder.path);
+    }
+    return ((_b = file.parent) == null ? void 0 : _b.path) === folder.path;
   });
   const newRows = [];
   const nextColumns = (0, import_lodash20.cloneDeep)(columns);
   files.forEach((file) => {
     const cells = [];
     nextColumns.forEach((column) => {
-      const { path } = file;
+      const { path: path2 } = file;
       const { id: id2, type, frontmatterKey } = column;
       let newCell = null;
       if (type === "source-file" /* SOURCE_FILE */) {
-        newCell = createCell(id2, { type, content: path });
+        newCell = createCell(id2, { type, content: path2 });
       } else if (frontmatterKey !== null) {
-        const result = deserializeFrontmatterForCell(app, column, path);
+        const result = deserializeFrontmatterForCell(app, column, path2);
         if (result !== null) {
           const { newCell: cell, nextTags } = result;
           newCell = cell;
@@ -59144,15 +62973,15 @@ var findRowsFromFolder = (app, columns, sourceId, folderPath, numRows) => {
 };
 
 // src/react/loom-app/app/hooks/use-source/index.ts
-var import_react41 = __toESM(require_react());
+var import_react62 = __toESM(require_react());
 var useSource = () => {
   const logger = useLogger();
   const { app } = useAppMount();
   const { doCommand, setLoomState, loomState } = useLoomState();
-  const [allFrontMatterKeys, setFrontMatterKeys] = import_react41.default.useState(
+  const [frontmatterKeys, setFrontMatterKeys] = import_react62.default.useState(
     /* @__PURE__ */ new Map()
   );
-  import_react41.default.useEffect(() => {
+  import_react62.default.useEffect(() => {
     const { columns, rows } = loomState.model;
     setFrontMatterKeys(
       () => deserializeFrontmatterKeys(app, columns, rows)
@@ -59166,7 +62995,7 @@ var useSource = () => {
     logger("handleSourceDelete", { id: id2 });
     doCommand(new SourceDeleteCommand(id2));
   }
-  const handleUpdateRowsFromSources = (0, import_react41.useCallback)(() => {
+  const handleUpdateRowsFromSources = (0, import_react62.useCallback)(() => {
     setLoomState((prevState) => {
       const { sources, columns, rows } = prevState.model;
       const result = findDataFromSources(
@@ -59187,3679 +63016,153 @@ var useSource = () => {
     });
   }, [setLoomState, app]);
   return {
-    allFrontMatterKeys,
+    frontmatterKeys,
     onSourceAdd: handleSourceAdd,
     onSourceDelete: handleSourceDelete,
     onUpdateRowsFromSources: handleUpdateRowsFromSources
   };
 };
 
-// src/react/loom-app/body-cell-container/index.tsx
-var import_react52 = __toESM(require_react());
-var import_obsidian18 = require("obsidian");
-
-// src/react/loom-app/text-cell/index.tsx
-var import_jsx_runtime79 = __toESM(require_jsx_runtime());
-function TextCell({ value, shouldWrapOverflow }) {
-  const { containerRef, renderRef } = useRenderMarkdown(value);
-  const overflowClassName = useOverflow(shouldWrapOverflow);
-  let className = "dataloom-text-cell";
-  className += " " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime79.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime79.jsx)(
-    "div",
-    {
-      className: "dataloom-text-cell__container",
-      ref: (node) => {
-        containerRef.current = node;
-        appendOrReplaceFirstChild(node, renderRef.current);
-      }
-    }
-  ) });
-}
-
-// src/react/shared/tag/index.tsx
-var import_jsx_runtime80 = __toESM(require_jsx_runtime());
-function Tag10({
-  id: id2,
-  color,
-  maxWidth,
-  content,
-  showRemoveButton,
-  onRemoveClick
-}) {
-  const { isDarkMode } = useAppSelector((state) => state.global);
-  let tagClassName = "dataloom-tag";
-  tagClassName += " " + findColorClassName(isDarkMode, color);
-  if (onRemoveClick !== void 0 && id2 === void 0) {
-    throw new Error(
-      "An id must defined when the onRemoveClick handler is present."
-    );
-  }
-  let contentClassName = "dataloom-tag-content";
-  if (maxWidth !== void 0) {
-    contentClassName += " dataloom-overflow--ellipsis";
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime80.jsx)("div", { className: tagClassName, children: /* @__PURE__ */ (0, import_jsx_runtime80.jsxs)(Stack, { spacing: "sm", justify: "center", isHorizontal: true, children: [
-    /* @__PURE__ */ (0, import_jsx_runtime80.jsx)(
-      "div",
-      {
-        className: contentClassName,
-        style: {
-          maxWidth
-        },
-        children: content
-      }
-    ),
-    showRemoveButton && /* @__PURE__ */ (0, import_jsx_runtime80.jsx)(Padding, { width: "max-content", children: /* @__PURE__ */ (0, import_jsx_runtime80.jsx)(
-      Button,
-      {
-        isSmall: true,
-        icon: /* @__PURE__ */ (0, import_jsx_runtime80.jsx)(Icon, { lucideId: "x" }),
-        onClick: () => {
-          if (id2 && onRemoveClick)
-            onRemoveClick(id2);
-        }
-      }
-    ) })
-  ] }) });
-}
-
-// src/react/loom-app/tag-cell/index.tsx
-var import_jsx_runtime81 = __toESM(require_jsx_runtime());
-function TagCell({ content, color, shouldWrapOverflow }) {
-  const overflowClassName = useOverflow(shouldWrapOverflow);
-  let className = "dataloom-tag-cell";
-  className += " " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime81.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime81.jsx)(Tag10, { content, color }) });
-}
-
-// src/react/loom-app/checkbox-cell/index.tsx
-var import_jsx_runtime82 = __toESM(require_jsx_runtime());
-function CheckboxCell({ value }) {
-  const isChecked = isCheckboxChecked(value);
-  return /* @__PURE__ */ (0, import_jsx_runtime82.jsx)("div", { className: "dataloom-checkbox-cell", children: /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(
-    "input",
-    {
-      className: "task-list-item-checkbox",
-      type: "checkbox",
-      checked: isChecked,
-      onChange: () => {
-      }
-    }
-  ) });
-}
-
-// src/react/loom-app/date-cell/index.tsx
-var import_jsx_runtime83 = __toESM(require_jsx_runtime());
-function DateCell({ value, format }) {
-  const overflowClassName = useOverflow(false, {
-    ellipsis: true
-  });
-  let className = "dataloom-date-cell";
-  className += " " + overflowClassName;
-  const content = getDateCellContent(value, format);
-  return /* @__PURE__ */ (0, import_jsx_runtime83.jsx)("div", { className, children: content });
-}
-
-// src/react/loom-app/number-cell/index.tsx
-var import_jsx_runtime84 = __toESM(require_jsx_runtime());
-function NumberCell({
-  value,
-  currency,
-  format,
-  prefix: prefix2,
-  suffix,
-  separator
-}) {
-  const overflowClassName = useOverflow(false);
-  if (isNumber(value)) {
-    value = getNumberCellContent(format, value, {
-      currency,
-      prefix: prefix2,
-      suffix,
-      separator
-    });
-  }
-  let className = "dataloom-number-cell";
-  className += " " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime84.jsx)("div", { className, children: value });
-}
-
-// src/react/loom-app/number-cell-edit/index.tsx
-var import_react42 = __toESM(require_react());
-var import_jsx_runtime85 = __toESM(require_jsx_runtime());
-function NumberCellEdit({
-  closeRequest,
-  value,
-  onChange,
-  onClose
-}) {
-  const initialValue = isNumber(value) ? value : "";
-  const [localValue, setLocalValue] = import_react42.default.useState(initialValue);
-  const inputRef = import_react42.default.useRef(null);
-  usePlaceCursorAtEnd(inputRef, localValue);
-  import_react42.default.useEffect(() => {
-    if (closeRequest !== null) {
-      if (localValue !== value)
-        onChange(localValue);
-      onClose();
-    }
-  }, [value, localValue, closeRequest, onClose, onChange]);
-  function handleChange(inputValue) {
-    if (!isNumberInput(inputValue))
-      return;
-    setLocalValue(inputValue);
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime85.jsx)("div", { className: "dataloom-number-cell-edit", children: /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
-    input_default,
-    {
-      ref: inputRef,
-      focusOutline: "default",
-      inputMode: "numeric",
-      value: localValue,
-      onChange: handleChange,
-      onBlur: (e) => {
-        e.target.classList.add("dataloom-blur--cell");
-      }
-    }
-  ) });
-}
-
-// src/react/loom-app/text-cell-edit/index.tsx
-var import_react45 = __toESM(require_react());
-
-// src/react/shared/suggest-list/index.tsx
-var import_react44 = __toESM(require_react());
-var import_fuzzysort = __toESM(require_fuzzysort());
-
-// src/react/shared/suggest-list/suggest-item/index.tsx
-var import_react43 = __toESM(require_react());
-var import_jsx_runtime86 = __toESM(require_jsx_runtime());
-var SuggestItem = import_react43.default.forwardRef(
-  function SuggestItem2({ index, file, isHighlighted, onItemClick }, ref) {
-    const handleClick = import_react43.default.useCallback(
-      (e) => {
-        e.stopPropagation();
-        onItemClick(file);
-      },
-      [file, onItemClick]
-    );
-    import_react43.default.useEffect(() => {
-      function handleKeyDown(e) {
-        if (e.key === "Enter")
-          onItemClick(file);
-      }
-      if (isHighlighted)
-        nltEventSystem.addEventListener("keydown", handleKeyDown, 1);
-      return () => nltEventSystem.removeEventListener("keydown", handleKeyDown);
-    }, [isHighlighted, onItemClick, file]);
-    let name = "No match found";
-    if (file) {
-      if (file.extension === "md") {
-        name = file.basename;
-      } else {
-        name = file.name;
-      }
-    }
-    let path = null;
-    if (file) {
-      if (file.parent && file.parent.path !== "/") {
-        path = file.parent.path + "/";
-      }
-    }
-    return /* @__PURE__ */ (0, import_jsx_runtime86.jsxs)(
-      "div",
-      {
-        tabIndex: 0,
-        "data-index": index,
-        className: "dataloom-suggest-item dataloom-focusable",
-        ref,
-        style: {
-          backgroundColor: isHighlighted ? "var(--background-modifier-hover)" : "var(--background-primary)"
-        },
-        onClick: handleClick,
-        children: [
-          /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
-            Text,
-            {
-              variant: "semibold",
-              size: "xs",
-              value: name,
-              maxWidth: "275px"
-            }
-          ),
-          path && /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(Text, { value: path, size: "xs" })
-        ]
-      }
-    );
-  }
-);
-var suggest_item_default = SuggestItem;
-
-// src/react/shared/suggest-list/suggest-input/index.tsx
-var import_jsx_runtime87 = __toESM(require_jsx_runtime());
-function SuggestInput({ value, onChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime87.jsx)("div", { className: "dataloom-suggest-input", children: /* @__PURE__ */ (0, import_jsx_runtime87.jsx)(
-    input_default,
-    {
-      isTransparent: true,
-      focusOutline: "none",
-      placeholder: "Search for a file...",
-      value,
-      onChange
-    }
-  ) });
-}
-
-// src/react/shared/suggest-list/clear-button.tsx
-var import_jsx_runtime88 = __toESM(require_jsx_runtime());
-function ClearButton({ onClick }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime88.jsxs)(import_jsx_runtime88.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime88.jsx)(Divider, {}),
-    /* @__PURE__ */ (0, import_jsx_runtime88.jsx)(MenuItem, { name: "Clear", onClick })
-  ] });
-}
-
-// src/react/shared/suggest-list/create-button.tsx
-var import_jsx_runtime89 = __toESM(require_jsx_runtime());
-function CreateButton({ value, onClick }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime89.jsxs)(import_jsx_runtime89.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime89.jsx)(
-      MenuItem,
-      {
-        name: `Create ${value}`,
-        onClick: () => onClick == null ? void 0 : onClick(value)
-      }
-    ),
-    /* @__PURE__ */ (0, import_jsx_runtime89.jsx)(Divider, {})
-  ] });
-}
-
-// src/react/shared/suggest-list/index.tsx
-var import_jsx_runtime90 = __toESM(require_jsx_runtime());
-function SuggestList({
-  hiddenExtensions = [],
-  showInput,
-  showCreate,
-  showClear,
-  filterValue,
-  onItemClick,
-  onClearClick,
-  onCreateClick
-}) {
-  const [localFilterValue, setLocalFilterValue] = import_react44.default.useState(
-    filterValue != null ? filterValue : ""
-  );
-  const highlightItemRef = import_react44.default.useRef(null);
-  const [highlightIndex, setHighlightIndex] = import_react44.default.useState(-1);
-  const { app } = useAppMount();
+// src/react/loom-app/app/hooks/use-app-events/index.tsx
+var import_react63 = __toESM(require_react());
+var useAppEvents = () => {
+  const { topMenu, onRequestClose } = useMenuOperations();
   const logger = useLogger();
-  import_react44.default.useEffect(() => {
-    setLocalFilterValue(filterValue != null ? filterValue : "");
-  }, [filterValue]);
-  import_react44.default.useEffect(() => {
-    if (highlightItemRef.current) {
-      highlightItemRef.current.scrollIntoView({
-        behavior: "auto",
-        block: "nearest"
-      });
-    }
-  }, [highlightIndex]);
-  const files = app.vault.getFiles().filter((file) => !hiddenExtensions.includes(file.extension));
-  let filteredFiles = [];
-  if (localFilterValue !== "") {
-    const results = import_fuzzysort.default.go(localFilterValue, files, {
-      key: "path",
-      limit: 20
-    });
-    filteredFiles = results.map((result) => result.obj);
-  } else {
-    filteredFiles = files;
-    filteredFiles.sort((a2, b2) => b2.stat.mtime - a2.stat.mtime);
-    filteredFiles = filteredFiles.slice(0, 20);
-  }
-  import_react44.default.useEffect(() => {
-    function handleKeyDown() {
-      logger("SuggestMenuContent handleKeyDown");
-      const focusedEl = document.activeElement;
-      if (!focusedEl)
-        return;
-      if (focusedEl.classList.contains("dataloom-suggest-item")) {
-        const index = focusedEl.getAttribute("data-index");
-        if (!index)
-          return;
-        setHighlightIndex(parseInt(index));
+  const handleClick = import_react63.default.useCallback(
+    (e) => {
+      logger("App handleClick");
+      e.stopPropagation();
+      if (!topMenu) {
+        removeCurrentFocusClass();
         return;
       }
-      setHighlightIndex(-1);
-    }
-    nltEventSystem.addEventListener("keydown", handleKeyDown);
-    return () => nltEventSystem.removeEventListener("keydown", handleKeyDown);
-  }, [filteredFiles.length, logger, highlightIndex]);
-  const doesFilterFileExist = filteredFiles.map((file) => file.path).includes(localFilterValue);
-  return /* @__PURE__ */ (0, import_jsx_runtime90.jsxs)("div", { className: "dataloom-suggest-menu", children: [
-    showInput && files.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime90.jsxs)(import_jsx_runtime90.Fragment, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime90.jsx)(
-        SuggestInput,
-        {
-          value: localFilterValue,
-          onChange: setLocalFilterValue
-        }
-      ),
-      /* @__PURE__ */ (0, import_jsx_runtime90.jsx)(Divider, {})
-    ] }),
-    showCreate && !doesFilterFileExist && localFilterValue !== "" && /* @__PURE__ */ (0, import_jsx_runtime90.jsx)(
-      CreateButton,
-      {
-        value: localFilterValue,
-        onClick: onCreateClick
-      }
-    ),
-    files.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime90.jsxs)("div", { className: "dataloom-suggest-menu__container", children: [
-      filteredFiles.length === 0 && !showCreate && /* @__PURE__ */ (0, import_jsx_runtime90.jsx)(
-        suggest_item_default,
-        {
-          index: 0,
-          file: null,
-          ref: null,
-          isHighlighted: true,
-          onItemClick
-        }
-      ),
-      filteredFiles.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime90.jsx)(import_jsx_runtime90.Fragment, { children: filteredFiles.map((file, index) => /* @__PURE__ */ (0, import_jsx_runtime90.jsx)(
-        suggest_item_default,
-        {
-          index,
-          ref: highlightIndex === index ? highlightItemRef : null,
-          file,
-          isHighlighted: index === highlightIndex,
-          onItemClick
-        },
-        file.path
-      )) })
-    ] }),
-    files.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime90.jsx)(Padding, { px: "md", pb: "md", children: /* @__PURE__ */ (0, import_jsx_runtime90.jsx)(Text, { value: "No image files found" }) }),
-    showClear && /* @__PURE__ */ (0, import_jsx_runtime90.jsx)(ClearButton, { onClick: onClearClick })
-  ] });
-}
-
-// src/react/loom-app/text-cell-edit/suggest-menu.tsx
-var import_jsx_runtime91 = __toESM(require_jsx_runtime());
-function SuggestMenu({
-  id: id2,
-  isOpen,
-  triggerPosition,
-  filterValue,
-  onItemClick,
-  onRequestClose,
-  onClose
-}) {
-  return /* @__PURE__ */ (0, import_jsx_runtime91.jsx)(
-    Menu,
-    {
-      id: id2,
-      isOpen,
-      triggerPosition,
-      width: 275,
-      onRequestClose,
-      onClose,
-      children: /* @__PURE__ */ (0, import_jsx_runtime91.jsx)(SuggestList, { filterValue, onItemClick })
-    }
+      onRequestClose(topMenu.id, "close-on-save");
+    },
+    [topMenu, logger, onRequestClose]
   );
-}
+  return {
+    onClick: handleClick
+  };
+};
 
-// src/react/loom-app/text-cell-edit/utils.ts
+// src/react/loom-app/app/hooks/use-menu-events.ts
+var import_react64 = __toESM(require_react());
 var import_lodash21 = __toESM(require_lodash());
-
-// src/react/loom-app/text-cell-edit/constants.ts
-var DOUBLE_BRACKET_REGEX = new RegExp(/\[\[(.*?)]]/g);
-
-// src/react/loom-app/text-cell-edit/utils.ts
-var isSurroundedByDoubleBrackets = (inputValue, selectionStart) => {
-  let match;
-  const regex = (0, import_lodash21.cloneDeep)(DOUBLE_BRACKET_REGEX);
-  while ((match = regex.exec(inputValue)) !== null) {
-    const innerText2 = match[1];
-    const startIndex = match.index + 2;
-    const endIndex = startIndex + innerText2.length - 1;
-    const index = selectionStart - 1;
-    if (innerText2 === "" && index === startIndex - 1)
-      return true;
-    if (index >= startIndex && index <= endIndex)
-      return true;
-  }
-  return false;
+var useMenuEvents = () => {
+  useCloseOnOutsideClick();
+  useCloseOnObsidianModalOpen();
+  useCloseOnMarkdownViewScroll();
+  useLockTableScroll();
 };
-var doubleBracketsInnerReplace = (inputValue, selectionStart, replacement) => {
-  let match;
-  const regex = (0, import_lodash21.cloneDeep)(DOUBLE_BRACKET_REGEX);
-  while ((match = regex.exec(inputValue)) !== null) {
-    const innerText2 = match[1];
-    const startIndex = match.index + 2;
-    const endIndex = startIndex + innerText2.length - 1;
-    const index = selectionStart - 1;
-    if (innerText2 === "" && index === startIndex - 1) {
-      return inputValue.slice(0, startIndex) + replacement + inputValue.slice(endIndex + 1);
-    }
-    if (index >= startIndex && index <= endIndex) {
-      return inputValue.slice(0, startIndex) + replacement + inputValue.slice(endIndex + 1);
-    }
-  }
-  return inputValue;
-};
-var getFilterValue = (inputValue, selectionStart) => {
-  let match;
-  const regex = (0, import_lodash21.cloneDeep)(DOUBLE_BRACKET_REGEX);
-  while ((match = regex.exec(inputValue)) !== null) {
-    const innerText2 = match[1];
-    const startIndex = match.index + 2;
-    const endIndex = startIndex + innerText2.length - 1;
-    const index = selectionStart - 1;
-    if (innerText2 === "" && index === startIndex - 1) {
-      return innerText2;
-    }
-    if (index >= startIndex && index <= endIndex) {
-      return innerText2;
-    }
-  }
-  return null;
-};
-var addClosingBracket = (value, selectionStart) => {
-  const char = value[selectionStart - 1];
-  if (char === "[")
-    value = value + "]";
-  return value;
-};
-var removeClosingBracket = (previousValue, value, selectionStart) => {
-  const previousChar = previousValue[selectionStart];
-  const nextChar = value[selectionStart];
-  if (previousChar === "[" && nextChar === "]") {
-    const updatedValue = value.slice(0, selectionStart) + value.slice(selectionStart + 1);
-    value = updatedValue;
-  }
-  return value;
-};
-
-// src/react/loom-app/text-cell-edit/index.tsx
-var import_jsx_runtime92 = __toESM(require_jsx_runtime());
-function TextCellEdit({
-  shouldWrapOverflow,
-  closeRequest,
-  value,
-  onChange,
-  onClose
-}) {
-  var _a2, _b, _c;
-  const { onCloseAll } = useMenuOperations();
-  const {
-    menu: suggestMenu,
-    triggerRef: suggestMenuTriggerRef,
-    triggerPosition: suggestMenuTriggerPosition,
-    isOpen: isSuggestMenuOpen,
-    onOpen: onSuggestMenuOpen,
-    onRequestClose: onSuggestMenuRequestClose,
-    onClose: onSuggestMenuClose
-  } = useMenu({ level: 2 /* TWO */ });
-  const [localValue, setLocalValue] = import_react45.default.useState(value);
-  const [cursorPosition, setCursorPosition] = import_react45.default.useState(
-    null
-  );
-  const inputRef = import_react45.default.useRef(null);
+var useLockTableScroll = () => {
+  const { reactAppId } = useAppMount();
+  const { topMenu } = useMenuOperations();
   const logger = useLogger();
-  usePlaceCursorAtEnd(inputRef, localValue);
-  import_react45.default.useEffect(() => {
-    if (inputRef.current) {
-      const selectionIndex = inputRef.current.selectionStart;
-      if (localValue[selectionIndex - 1] === "]" && localValue[selectionIndex - 2] === "[") {
-        inputRef.current.selectionStart = selectionIndex - 1;
-        inputRef.current.selectionEnd = selectionIndex - 1;
-      } else if (localValue[selectionIndex - 1] === "]" && localValue[selectionIndex - 2] === "]" && localValue[selectionIndex - 3] === "[") {
-        inputRef.current.selectionStart = selectionIndex - 2;
-        inputRef.current.selectionEnd = selectionIndex - 2;
-      }
-    }
-  }, [inputRef, localValue]);
-  import_react45.default.useEffect(() => {
-    if (closeRequest !== null) {
-      if (localValue !== value)
-        onChange(localValue);
-      onClose();
-    }
-  }, [value, localValue, closeRequest, onClose, onChange]);
-  function handleKeyDown(e) {
-    var _a3, _b2;
-    const el = e.target;
-    logger("TextCellEdit handleKeyDown");
-    if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
-      const cursorPosition2 = el.selectionStart;
-      if (isSuggestMenuOpen) {
-        if (!isSurroundedByDoubleBrackets(value, cursorPosition2))
-          onClose();
-      }
-      if (inputRef.current) {
-        const inputEl = inputRef.current;
-        inputEl.selectionStart = cursorPosition2;
-        inputEl.selectionEnd = cursorPosition2;
-      }
-    } else if (isInsertLineDown(e)) {
-      if (isSuggestMenuOpen)
-        return;
-      e.stopPropagation();
-    } else if (isInsertLineAltDown(e)) {
-      if (isSuggestMenuOpen)
-        return;
-      e.stopPropagation();
-      const cursorPosition2 = (_b2 = (_a3 = inputRef.current) == null ? void 0 : _a3.selectionStart) != null ? _b2 : 0;
-      setLocalValue(
-        (prevState) => prevState.slice(0, cursorPosition2) + "\n" + prevState.slice(cursorPosition2)
-      );
-      setCursorPosition(cursorPosition2 + 1);
-    }
-  }
-  import_react45.default.useEffect(() => {
-    if (cursorPosition !== null && inputRef.current) {
-      inputRef.current.selectionStart = cursorPosition;
-      inputRef.current.selectionEnd = cursorPosition;
-      setCursorPosition(null);
-    }
-  }, [cursorPosition, inputRef]);
-  import_react45.default.useEffect(
-    function scrollToBottom() {
-      if (inputRef.current) {
-        inputRef.current.scrollTop = inputRef.current.scrollHeight;
-      }
-    },
-    [inputRef, localValue]
-  );
-  function handleTextareaChange(e) {
-    const inputValue = e.target.value;
-    let newValue = inputValue;
-    if (inputRef.current) {
-      const inputEl = inputRef.current;
-      if (inputValue.length > localValue.length) {
-        newValue = addClosingBracket(newValue, inputEl.selectionStart);
-      } else {
-        newValue = removeClosingBracket(
-          localValue,
-          inputValue,
-          inputEl.selectionStart
-        );
-      }
-      if (isSurroundedByDoubleBrackets(newValue, inputEl.selectionStart)) {
-        onSuggestMenuOpen();
-      }
-    }
-    setLocalValue(newValue);
-  }
-  function handleSuggestItemClick(file) {
-    var _a3, _b2;
-    if (file) {
-      const fileName = getWikiLinkText(file.path);
-      const newValue = doubleBracketsInnerReplace(
-        localValue,
-        (_b2 = (_a3 = inputRef.current) == null ? void 0 : _a3.selectionStart) != null ? _b2 : 0,
-        fileName
-      );
-      onChange(newValue);
-    }
-    onCloseAll();
-  }
-  const overflowClassName = useOverflow(shouldWrapOverflow);
-  const filterValue = (_c = getFilterValue(localValue, (_b = (_a2 = inputRef.current) == null ? void 0 : _a2.selectionStart) != null ? _b : 0)) != null ? _c : "";
-  return /* @__PURE__ */ (0, import_jsx_runtime92.jsxs)(import_jsx_runtime92.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime92.jsx)(
-      "div",
-      {
-        className: "dataloom-text-cell-edit",
-        ref: suggestMenuTriggerRef,
-        children: /* @__PURE__ */ (0, import_jsx_runtime92.jsx)(
-          "textarea",
-          {
-            className: overflowClassName,
-            autoFocus: true,
-            ref: inputRef,
-            value: localValue,
-            onKeyDown: handleKeyDown,
-            onChange: handleTextareaChange,
-            onBlur: (e) => {
-              e.target.classList.add("dataloom-blur--cell");
-            }
-          }
-        )
-      }
-    ),
-    /* @__PURE__ */ (0, import_jsx_runtime92.jsx)(
-      SuggestMenu,
-      {
-        id: suggestMenu.id,
-        isOpen: isSuggestMenuOpen,
-        triggerPosition: suggestMenuTriggerPosition,
-        filterValue,
-        onItemClick: handleSuggestItemClick,
-        onRequestClose: onSuggestMenuRequestClose,
-        onClose: onSuggestMenuClose
-      }
-    )
-  ] });
-}
-
-// src/react/loom-app/tag-cell-edit/index.tsx
-var import_react48 = __toESM(require_react());
-
-// src/react/loom-app/tag-cell-edit/menu-header/index.tsx
-var import_react46 = __toESM(require_react());
-var import_jsx_runtime93 = __toESM(require_jsx_runtime());
-function MenuHeader({
-  cellTags,
-  inputValue,
-  onInputValueChange,
-  onRemoveTag
-}) {
-  const inputRef = import_react46.default.useRef(null);
-  function handleInputChange(value) {
-    if (value.match(/^\s/))
+  const hasLockRef = import_react64.default.useRef(false);
+  import_react64.default.useEffect(() => {
+    const appEl = document.getElementById(reactAppId);
+    if (!appEl)
       return;
-    onInputValueChange(value);
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime93.jsxs)("div", { className: "dataloom-tag-cell-edit__menu-header", children: [
-    cellTags.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(Padding, { px: "md", pt: "md", pb: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(Wrap, { spacingX: "sm", children: cellTags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(
-      Tag10,
-      {
-        id: tag.id,
-        color: tag.color,
-        content: tag.content,
-        maxWidth: "150px",
-        showRemoveButton: true,
-        onRemoveClick: onRemoveTag
-      },
-      tag.id
-    )) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(
-      input_default,
-      {
-        ref: inputRef,
-        isTransparent: true,
-        focusOutline: "none",
-        placeholder: "Search for a tag...",
-        value: inputValue,
-        onChange: handleInputChange
-      }
-    )
-  ] });
-}
-
-// src/react/loom-app/tag-cell-edit/create-tag/index.tsx
-var import_jsx_runtime94 = __toESM(require_jsx_runtime());
-function CreateTag({ content, color, onTagAdd }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime94.jsx)("div", { className: "dataloom-create-tag", children: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(
-    Button,
-    {
-      variant: "text",
-      isFullWidth: true,
-      onClick: () => onTagAdd(content, color),
-      children: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(Padding, { px: "md", children: /* @__PURE__ */ (0, import_jsx_runtime94.jsxs)(Stack, { spacing: "sm", isHorizontal: true, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime94.jsx)("div", { children: "Create" }),
-        /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(Tag10, { content, color, maxWidth: "120px" })
-      ] }) })
-    }
-  ) });
-}
-
-// src/shared/string-utils.ts
-var uppercaseFirst = (input) => {
-  return input.charAt(0).toUpperCase() + input.slice(1);
-};
-
-// src/react/loom-app/tag-color-menu/components/color-item/index.tsx
-var import_jsx_runtime95 = __toESM(require_jsx_runtime());
-function ColorItem({
-  isDarkMode,
-  color,
-  isSelected,
-  onColorClick
-}) {
-  function handleKeyDown(e) {
-    if (e.key === "Enter") {
-      e.stopPropagation();
-      onColorClick(color);
-    }
-  }
-  let containerClass = "dataloom-color-item dataloom-focusable dataloom-selectable";
-  if (isSelected)
-    containerClass += " dataloom-selected";
-  const colorClass = findColorClassName(isDarkMode, color);
-  let squareClass = "dataloom-color-item__square";
-  squareClass += " " + colorClass;
-  return /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(
-    "div",
-    {
-      tabIndex: 0,
-      className: containerClass,
-      onKeyDown: handleKeyDown,
-      onClick: () => {
-        onColorClick(color);
-      },
-      children: /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(Padding, { px: "lg", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime95.jsxs)(Stack, { isHorizontal: true, spacing: "lg", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime95.jsx)("div", { className: squareClass }),
-        /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(Text, { value: uppercaseFirst(color), size: "sm" })
-      ] }) })
-    }
-  );
-}
-
-// src/react/loom-app/tag-color-menu/index.tsx
-var import_react47 = __toESM(require_react());
-var import_jsx_runtime96 = __toESM(require_jsx_runtime());
-function TagColorMenu({
-  id: id2,
-  isOpen,
-  triggerPosition,
-  selectedColor,
-  content,
-  closeRequest,
-  onColorClick,
-  onDeleteClick,
-  onRequestClose,
-  onTagContentChange,
-  onClose
-}) {
-  const { isDarkMode } = useAppSelector((state) => state.global);
-  const [localValue, setLocalValue] = import_react47.default.useState(content);
-  import_react47.default.useEffect(
-    function saveOnCloseRequest() {
-      if (closeRequest === null)
-        return;
-      if (content !== localValue)
-        onTagContentChange(localValue);
-      onClose();
-    },
-    [closeRequest, content, localValue, onTagContentChange, onClose]
-  );
-  return /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(
-    Menu,
-    {
-      id: id2,
-      isOpen,
-      triggerPosition,
-      onRequestClose,
-      onClose,
-      children: /* @__PURE__ */ (0, import_jsx_runtime96.jsx)("div", { className: "dataloom-tag-color-menu", children: /* @__PURE__ */ (0, import_jsx_runtime96.jsxs)(Stack, { spacing: "sm", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(Padding, { px: "md", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(input_default, { value: localValue, onChange: setLocalValue }) }),
-        /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(
-          MenuItem,
-          {
-            lucideId: "trash-2",
-            name: "Delete",
-            onClick: onDeleteClick
-          }
-        ),
-        /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(Divider, {}),
-        /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(Padding, { px: "lg", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(Text, { value: "Colors" }) }),
-        /* @__PURE__ */ (0, import_jsx_runtime96.jsx)("div", { className: "dataloom-tag-color-menu__color-container", children: Object.values(Color).map((color) => /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(
-          ColorItem,
-          {
-            isDarkMode,
-            color,
-            onColorClick,
-            isSelected: selectedColor === color
-          },
-          color
-        )) })
-      ] }) })
-    }
-  );
-}
-
-// src/react/loom-app/tag-cell-edit/selectable-tag/index.tsx
-var import_jsx_runtime97 = __toESM(require_jsx_runtime());
-function SelectableTag({
-  id: id2,
-  content,
-  color,
-  onClick,
-  onColorChange,
-  onDeleteClick,
-  onTagContentChange
-}) {
-  const {
-    menu,
-    triggerRef,
-    triggerPosition,
-    isOpen,
-    closeRequest,
-    onOpen,
-    onClose,
-    onRequestClose
-  } = useMenu({ level: 2 /* TWO */, shouldRequestOnClose: true });
-  function handleColorChange(color2) {
-    onColorChange(id2, color2);
-    onClose();
-  }
-  function handleDeleteClick() {
-    onDeleteClick(id2);
-    onClose();
-  }
-  function handleTagContentChange(value) {
-    onTagContentChange(id2, value);
-    onClose();
-  }
-  function handleKeyDown(e) {
-    if (e.key === "Enter") {
-      e.stopPropagation();
-      onClick(id2);
-    }
-  }
-  function handleClick(e) {
-    const target = e.target;
-    if (target.classList.contains("dataloom-menu-trigger"))
-      return;
-    e.stopPropagation();
-    onClick(id2);
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime97.jsxs)(import_jsx_runtime97.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime97.jsxs)(
-      "div",
-      {
-        tabIndex: 0,
-        className: "dataloom-selectable-tag dataloom-focusable dataloom-selectable",
-        onClick: handleClick,
-        onKeyDown: handleKeyDown,
-        children: [
-          /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(Tag10, { content, color, maxWidth: "150px" }),
-          /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(
-            menu_button_default,
-            {
-              ref: triggerRef,
-              menu,
-              icon: /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(Icon, { lucideId: "more-horizontal" }),
-              onOpen
-            }
-          )
-        ]
-      }
-    ),
-    /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(
-      TagColorMenu,
-      {
-        isOpen,
-        id: menu.id,
-        triggerPosition,
-        closeRequest,
-        content,
-        selectedColor: color,
-        onColorClick: (color2) => handleColorChange(color2),
-        onDeleteClick: handleDeleteClick,
-        onRequestClose,
-        onTagContentChange: handleTagContentChange,
-        onClose
-      }
-    )
-  ] });
-}
-
-// src/react/loom-app/tag-cell-edit/menu-body/index.tsx
-var import_jsx_runtime98 = __toESM(require_jsx_runtime());
-function MenuBody({
-  columnTags,
-  inputValue,
-  newTagColor,
-  onTagAdd,
-  onTagClick,
-  onTagColorChange,
-  onTagDelete,
-  onTagContentChange
-}) {
-  const hasTagWithSameCase = columnTags.find((tag) => tag.content === inputValue) !== void 0;
-  const filteredTags = columnTags.filter(
-    (tag) => tag.content.toLowerCase().includes(inputValue.toLowerCase())
-  );
-  return /* @__PURE__ */ (0, import_jsx_runtime98.jsxs)("div", { className: "dataloom-tag-cell-edit__menu-body", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(Text, { value: "Select a tag or create one" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime98.jsxs)("div", { className: "dataloom-tag-cell-edit__menu-body-container", children: [
-      !hasTagWithSameCase && inputValue !== "" && /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(
-        CreateTag,
-        {
-          content: inputValue,
-          color: newTagColor,
-          onTagAdd
-        }
-      ),
-      filteredTags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(
-        SelectableTag,
-        {
-          id: tag.id,
-          color: tag.color,
-          content: tag.content,
-          onColorChange: onTagColorChange,
-          onClick: onTagClick,
-          onDeleteClick: onTagDelete,
-          onTagContentChange
-        },
-        tag.id
-      ))
-    ] })
-  ] });
-}
-
-// src/react/loom-app/tag-cell-edit/index.tsx
-var import_jsx_runtime99 = __toESM(require_jsx_runtime());
-function TagCellEdit({
-  isMulti,
-  columnTags,
-  cellTags,
-  closeRequest,
-  onTagClick,
-  onTagAdd,
-  onTagColorChange,
-  onTagDelete,
-  onRemoveTag,
-  onTagContentChange,
-  onClose
-}) {
-  const [inputValue, setInputValue] = import_react48.default.useState("");
-  const [newTagColor, setNewTagColor] = import_react48.default.useState(randomColor());
-  const handleTagAdd = import_react48.default.useCallback(
-    (markdown, color) => {
-      onTagAdd(markdown, color);
-      setInputValue("");
-      setNewTagColor(randomColor());
-      if (!isMulti)
-        onClose();
-    },
-    [isMulti, onTagAdd, onClose]
-  );
-  import_react48.default.useEffect(() => {
-    if (closeRequest !== null) {
-      if (closeRequest.type === "close-on-save") {
-        if (inputValue !== "") {
-          const doesTagExist = columnTags.find(
-            (tag) => tag.content === inputValue
-          );
-          if (!doesTagExist) {
-            handleTagAdd(inputValue, newTagColor);
-            return;
-          }
-        }
-      }
-      onClose();
-    }
-  }, [
-    handleTagAdd,
-    columnTags,
-    inputValue,
-    newTagColor,
-    closeRequest,
-    onClose
-  ]);
-  function handleTagClick(id2) {
-    onTagClick(id2);
-    if (!isMulti)
-      onClose();
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime99.jsxs)("div", { className: "dataloom-tag-cell-edit", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime99.jsx)(
-      MenuHeader,
-      {
-        inputValue,
-        cellTags,
-        onInputValueChange: setInputValue,
-        onRemoveTag
-      }
-    ),
-    /* @__PURE__ */ (0, import_jsx_runtime99.jsx)(
-      MenuBody,
-      {
-        inputValue,
-        columnTags,
-        newTagColor,
-        onTagAdd: handleTagAdd,
-        onTagClick: handleTagClick,
-        onTagDelete,
-        onTagColorChange,
-        onTagContentChange
-      }
-    )
-  ] });
-}
-
-// src/react/loom-app/date-cell-edit/index.tsx
-var import_react49 = __toESM(require_react());
-
-// src/react/loom-app/date-cell-edit/date-format-menu.tsx
-var import_jsx_runtime100 = __toESM(require_jsx_runtime());
-function DateFormatMenu({
-  id: id2,
-  triggerPosition,
-  isOpen,
-  value,
-  onChange,
-  onRequestClose,
-  onClose
-}) {
-  return /* @__PURE__ */ (0, import_jsx_runtime100.jsx)(
-    Menu,
-    {
-      isOpen,
-      id: id2,
-      triggerPosition,
-      width: 175,
-      onRequestClose,
-      onClose,
-      children: /* @__PURE__ */ (0, import_jsx_runtime100.jsx)("div", { className: "dataloom-date-format-menu", children: Object.values([
-        "dd/mm/yyyy" /* DD_MM_YYYY */,
-        "mm/dd/yyyy" /* MM_DD_YYYY */,
-        "yyyy/mm/dd" /* YYYY_MM_DD */
-      ]).map((format) => /* @__PURE__ */ (0, import_jsx_runtime100.jsx)(
-        MenuItem,
-        {
-          name: getDisplayNameForDateFormat(format),
-          isSelected: value === format,
-          onClick: () => {
-            onChange(format);
-          }
-        },
-        format
-      )) })
-    }
-  );
-}
-
-// src/react/loom-app/date-cell-edit/index.tsx
-var import_jsx_runtime101 = __toESM(require_jsx_runtime());
-function DateCellEdit({
-  value,
-  closeRequest,
-  dateFormat,
-  onDateTimeChange,
-  onClose,
-  onDateFormatChange
-}) {
-  const {
-    menu: dateFormatMenu,
-    triggerRef: dateFormatMenuTriggerRef,
-    triggerPosition: dateFormatMenuTriggerPosition,
-    isOpen: isDateFormatMenuOpen,
-    onOpen: onDateFormatMenuOpen,
-    onClose: onDateFormatMenuClose,
-    onRequestClose: onDateFormatMenuRequestClose
-  } = useMenu({ level: 2 /* TWO */ });
-  const [localValue, setLocalValue] = import_react49.default.useState(
-    value === null ? "" : unixTimeToDateString(value, dateFormat)
-  );
-  const [isInputInvalid, setInputInvalid] = import_react49.default.useState(false);
-  const [closeTime, setCloseTime] = import_react49.default.useState(0);
-  const inputRef = import_react49.default.useRef(null);
-  import_react49.default.useEffect(() => {
-    setLocalValue(
-      value === null ? "" : unixTimeToDateString(value, dateFormat)
+    const tableContainerEl = appEl.querySelector(
+      '[data-virtuoso-scroller="true"]'
     );
-  }, [value, dateFormat]);
-  import_react49.default.useEffect(() => {
-    if (closeRequest !== null) {
-      let newValue = null;
-      if (localValue !== "") {
-        if (isValidDateFormat(localValue, dateFormat)) {
-          newValue = dateStringToUnixTime(localValue, dateFormat);
-        } else {
-          if (closeRequest.type === "close-on-save") {
-            setInputInvalid(true);
-            return;
-          }
-          newValue = value;
-        }
-      }
-      if (newValue !== value) {
-        setInputInvalid(false);
-        onDateTimeChange(newValue);
-      }
-      setCloseTime(Date.now());
+    if (!tableContainerEl)
+      return;
+    if (topMenu) {
+      if (hasLockRef.current)
+        return;
+      hasLockRef.current = true;
+      const { parentComponentId } = topMenu;
+      if (!(parentComponentId == null ? void 0 : parentComponentId.includes("cell")))
+        return;
+      logger("useLockTableScroll cell menu opened. locking table scroll");
+      tableContainerEl.style.overflow = "hidden";
+    } else {
+      hasLockRef.current = false;
+      logger(
+        "useLockTableScroll cell menu closed. unlocking table scroll"
+      );
+      tableContainerEl.style.overflow = "auto";
     }
-  }, [
-    value,
-    localValue,
-    closeRequest,
-    dateFormat,
-    onDateTimeChange,
-    onClose
-  ]);
-  import_react49.default.useEffect(() => {
-    if (closeTime !== 0) {
-      onClose();
-    }
-  }, [closeTime, onClose]);
-  function handleDateFormatChange(value2) {
-    onDateFormatChange(value2);
-    onDateFormatMenuClose();
-  }
-  function handleClearClick() {
-    onDateTimeChange(null);
-    onClose();
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime101.jsxs)(import_jsx_runtime101.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime101.jsx)("div", { className: "dataloom-date-cell-edit", children: /* @__PURE__ */ (0, import_jsx_runtime101.jsxs)(Stack, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime101.jsx)(Padding, { p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime101.jsx)(
-        input_default,
-        {
-          ref: inputRef,
-          showBorder: true,
-          hasError: isInputInvalid,
-          value: localValue,
-          onChange: setLocalValue
-        }
-      ) }),
-      /* @__PURE__ */ (0, import_jsx_runtime101.jsx)(
-        menu_trigger_default,
-        {
-          ref: dateFormatMenuTriggerRef,
-          menu: dateFormatMenu,
-          onOpen: onDateFormatMenuOpen,
-          children: /* @__PURE__ */ (0, import_jsx_runtime101.jsx)(
-            MenuItem,
-            {
-              isFocusable: false,
-              name: "Date format",
-              value: getDisplayNameForDateFormat(dateFormat)
-            }
-          )
-        }
-      ),
-      /* @__PURE__ */ (0, import_jsx_runtime101.jsx)(MenuItem, { name: "Clear", onClick: handleClearClick })
-    ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime101.jsx)(
-      DateFormatMenu,
-      {
-        id: dateFormatMenu.id,
-        isOpen: isDateFormatMenuOpen,
-        triggerPosition: dateFormatMenuTriggerPosition,
-        value: dateFormat,
-        onChange: handleDateFormatChange,
-        onRequestClose: onDateFormatMenuRequestClose,
-        onClose: onDateFormatMenuClose
-      }
-    )
-  ] });
-}
-
-// src/react/loom-app/multi-tag-cell/index.tsx
-var import_jsx_runtime102 = __toESM(require_jsx_runtime());
-function MultiTagCell({ cellTags, shouldWrapOverflow }) {
-  const overflowClassName = useOverflow(shouldWrapOverflow);
-  let className = "dataloom-multi-tag-cell";
-  className += " " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime102.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(Wrap, { children: cellTags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(Tag10, { content: tag.content, color: tag.color }, tag.id)) }) });
-}
-
-// src/shared/cell-content/file-cell-content.ts
-var getFileCellContent = (markdown) => {
-  if (markdown === "")
-    return markdown;
-  const linkRegex = new RegExp(/\[\[([^[\]]+)\]\]/);
-  const matches = markdown.match(linkRegex);
-  let matchStartIndex = -1;
-  let matchEndIndex = -1;
-  if (matches) {
-    matchStartIndex = markdown.indexOf(matches[0]);
-    matchEndIndex = matchStartIndex + matches[0].length;
-  }
-  if (matches === null) {
-    return `[[${markdown}]]`;
-  } else if (matchStartIndex === 0) {
-    return `${markdown.slice(0, matchEndIndex + 1).trim()}`;
-  } else {
-    return `[[${markdown.slice(0, matchStartIndex).trim()}]]`;
-  }
+  }, [topMenu, logger, reactAppId]);
 };
-
-// src/react/loom-app/file-cell/index.tsx
-var import_jsx_runtime103 = __toESM(require_jsx_runtime());
-function FileCell({ value, shouldWrapOverflow }) {
-  const content = getFileCellContent(value);
-  const { containerRef, renderRef } = useRenderMarkdown(content);
-  const overflowClassName = useOverflow(shouldWrapOverflow);
-  let className = "dataloom-file-cell";
-  className += " " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime103.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime103.jsx)(
-    "div",
-    {
-      ref: (node) => {
-        containerRef.current = node;
-        appendOrReplaceFirstChild(node, renderRef.current);
+var useCloseOnMarkdownViewScroll = () => {
+  const { reactAppId, isMarkdownView } = useAppMount();
+  const { onCloseAll } = useMenuOperations();
+  import_react64.default.useEffect(() => {
+    var _a2;
+    let pageScrollerEl;
+    const THROTTLE_TIME_MILLIS = 100;
+    const throttleHandleScroll = import_lodash21.default.throttle(
+      handleScroll,
+      THROTTLE_TIME_MILLIS
+    );
+    function handleScroll() {
+      const openMenus = document.querySelectorAll(".dataloom-menu");
+      if (openMenus.length === 0)
+        return;
+      for (const menu of openMenus) {
+        menu.style.display = "none";
       }
+      onCloseAll();
     }
-  ) });
-}
-
-// src/react/loom-app/file-cell-edit/index.tsx
-var import_jsx_runtime104 = __toESM(require_jsx_runtime());
-function FileCellEdit({ onChange, onClose }) {
-  function handleSuggestItemClick(file) {
-    if (file) {
-      let fileName = file.basename;
-      if (file.path.includes("/"))
-        fileName = `${file.path}|${file.basename}`;
-      onChange(`[[${fileName}]]`);
+    if (isMarkdownView) {
+      const appEl = document.getElementById(reactAppId);
+      if (!appEl)
+        return;
+      pageScrollerEl = (_a2 = appEl.closest(".markdown-preview-view")) != null ? _a2 : appEl.closest(".cm-scroller");
+      pageScrollerEl == null ? void 0 : pageScrollerEl.addEventListener("scroll", throttleHandleScroll);
     }
-    onClose();
-  }
-  function handleClearClick() {
-    onChange("");
-    onClose();
-  }
-  function handleCreateClick(value) {
-    let link = `[[${value}]]`;
-    if (value.includes("/")) {
-      const fileName = getBasename(value);
-      link = `${value}|${fileName}`;
-    }
-    onChange(link);
-    onClose();
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime104.jsx)("div", { className: "dataloom-file-cell-edit", children: /* @__PURE__ */ (0, import_jsx_runtime104.jsx)(
-    SuggestList,
-    {
-      showInput: true,
-      showClear: true,
-      showCreate: true,
-      onItemClick: handleSuggestItemClick,
-      onClearClick: handleClearClick,
-      onCreateClick: handleCreateClick
-    }
-  ) });
-}
-
-// src/react/loom-app/embed-cell/embed/index.tsx
-var import_jsx_runtime105 = __toESM(require_jsx_runtime());
-function Embed({
-  isExternalLink,
-  content,
-  aspectRatio,
-  horizontalPadding,
-  verticalPadding
-}) {
-  const { containerRef, renderRef } = useRenderMarkdown(content, {
-    isEmbed: true,
-    isExternalLink
-  });
-  const paddingX = getSpacing(horizontalPadding);
-  const paddingY = getSpacing(verticalPadding);
-  return /* @__PURE__ */ (0, import_jsx_runtime105.jsx)(
-    "div",
-    {
-      style: {
-        aspectRatio,
-        paddingLeft: paddingX,
-        paddingRight: paddingX,
-        paddingTop: paddingY,
-        paddingBottom: paddingY
-      },
-      ref: (node) => {
-        containerRef.current = node;
-        appendOrReplaceFirstChild(node, renderRef.current);
-      }
-    }
-  );
-}
-
-// src/react/loom-app/embed-cell/index.tsx
-var import_jsx_runtime106 = __toESM(require_jsx_runtime());
-function EmbedCell({
-  isExternalLink,
-  value,
-  aspectRatio,
-  horizontalPadding,
-  verticalPadding
-}) {
+    return () => pageScrollerEl == null ? void 0 : pageScrollerEl.removeEventListener("scroll", throttleHandleScroll);
+  }, [onCloseAll, isMarkdownView, reactAppId]);
+};
+var useCloseOnOutsideClick = () => {
   const { app } = useAppMount();
-  const content = getEmbedCellContent(app, value, {
-    isExternalLink
-  });
-  return /* @__PURE__ */ (0, import_jsx_runtime106.jsx)("div", { className: "dataloom-embed-cell", children: /* @__PURE__ */ (0, import_jsx_runtime106.jsx)(
-    Embed,
-    {
-      isExternalLink,
-      content,
-      aspectRatio,
-      horizontalPadding,
-      verticalPadding
+  const { onCloseAll } = useMenuOperations();
+  const logger = useLogger();
+  import_react64.default.useEffect(() => {
+    function handleGlobalClick() {
+      logger("handleGlobalClick");
+      onCloseAll();
     }
-  ) });
-}
-
-// src/react/loom-app/embed-cell-edit/index.tsx
-var import_react51 = __toESM(require_react());
-
-// src/react/loom-app/embed-cell-edit/external-embed-input.tsx
-var import_react50 = __toESM(require_react());
-var import_jsx_runtime107 = __toESM(require_jsx_runtime());
-function ExternalEmbedInput({ value, onChange }) {
-  const ref = import_react50.default.useRef(null);
-  usePlaceCursorAtEnd(ref, value);
-  return /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(
-    input_default,
-    {
-      ref,
-      showBorder: true,
-      placeholder: "Enter a url",
-      value,
-      onChange
+    app.workspace.on(EVENT_GLOBAL_CLICK, handleGlobalClick);
+    return () => app.workspace.off(EVENT_GLOBAL_CLICK, handleGlobalClick);
+  }, [app, logger, onCloseAll]);
+};
+var useCloseOnObsidianModalOpen = () => {
+  const hasCloseLock = import_react64.default.useRef(false);
+  const { topMenu, onCloseAll } = useMenuOperations();
+  const logger = useLogger();
+  import_react64.default.useEffect(() => {
+    if (!topMenu)
+      hasCloseLock.current = false;
+  }, [topMenu]);
+  import_react64.default.useEffect(() => {
+    function hasOpenModal() {
+      return document.querySelector("body > .modal-container") !== null;
     }
-  );
-}
-
-// src/react/loom-app/embed-cell-edit/internal-embed-suggest.tsx
-var import_jsx_runtime108 = __toESM(require_jsx_runtime());
-function InternalEmbedSuggest({ onChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime108.jsx)(
-    SuggestList,
-    {
-      showInput: true,
-      hiddenExtensions: ["md", LOOM_EXTENSION],
-      onItemClick: (item) => {
-        var _a2;
-        return onChange((_a2 = item == null ? void 0 : item.path) != null ? _a2 : "");
-      }
-    }
-  );
-}
-
-// src/react/loom-app/embed-cell-edit/index.tsx
-var import_jsx_runtime109 = __toESM(require_jsx_runtime());
-function EmbedCellEdit({
-  closeRequest,
-  isExternalLink,
-  value,
-  onChange,
-  onClose,
-  onExternalLinkToggle
-}) {
-  const [externalLink, setExternalLink] = import_react51.default.useState(
-    isExternalLink ? value : ""
-  );
-  import_react51.default.useEffect(() => {
-    if (closeRequest !== null) {
-      if (isExternalLink) {
-        if (externalLink !== value)
-          onChange(externalLink);
-      }
-      onClose();
-    }
-  }, [isExternalLink, value, externalLink, closeRequest, onClose, onChange]);
-  function handleSuggestChange(value2) {
-    onChange(value2);
-    onClose();
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime109.jsxs)("div", { className: "dataloom-embed-cell-edit", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime109.jsx)(Padding, { width: "100%", p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime109.jsxs)(Stack, { spacing: "sm", width: "100%", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime109.jsx)("label", { htmlFor: "external-switch", children: "External Link" }),
-      /* @__PURE__ */ (0, import_jsx_runtime109.jsx)(
-        Switch,
-        {
-          id: "external-switch",
-          value: isExternalLink,
-          onToggle: onExternalLinkToggle
-        }
-      )
-    ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime109.jsx)(Divider, {}),
-    isExternalLink && /* @__PURE__ */ (0, import_jsx_runtime109.jsx)(Padding, { width: "100%", p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime109.jsx)(
-      ExternalEmbedInput,
-      {
-        value: externalLink,
-        onChange: setExternalLink
-      }
-    ) }),
-    !isExternalLink && /* @__PURE__ */ (0, import_jsx_runtime109.jsx)(InternalEmbedSuggest, { onChange: handleSuggestChange })
-  ] });
-}
-
-// src/react/loom-app/last-edited-time-cell/index.tsx
-var import_jsx_runtime110 = __toESM(require_jsx_runtime());
-function LastEditedTimeCell({
-  value,
-  format,
-  shouldWrapOverflow
-}) {
-  const overflowClassName = useOverflow(shouldWrapOverflow);
-  let className = "dataloom-last-edited-time-cell";
-  className += " " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime110.jsx)("div", { className, children: unixTimeToDateTimeString(value, format) });
-}
-
-// src/react/loom-app/creation-time-cell/index.tsx
-var import_jsx_runtime111 = __toESM(require_jsx_runtime());
-function CreationTimeCell({
-  value,
-  format,
-  shouldWrapOverflow
-}) {
-  const overflowClassName = useOverflow(shouldWrapOverflow);
-  let className = "dataloom-creation-time-cell";
-  className += " " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime111.jsx)("div", { className, children: unixTimeToDateTimeString(value, format) });
-}
-
-// src/react/loom-app/source-cell/index.tsx
-var import_jsx_runtime112 = __toESM(require_jsx_runtime());
-function SourceCell({ source, shouldWrapOverflow }) {
-  const overflowClassName = useOverflow(shouldWrapOverflow);
-  let className = "dataloom-source-cell";
-  className += " " + overflowClassName;
-  const content = getSourceCellContent(source);
-  return /* @__PURE__ */ (0, import_jsx_runtime112.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime112.jsx)(
-    Bubble,
-    {
-      variant: "no-fill",
-      icon: /* @__PURE__ */ (0, import_jsx_runtime112.jsx)(
-        Icon,
-        {
-          lucideId: getIconIdForSourceType(
-            source == null ? void 0 : source.type
-          )
-        }
-      ),
-      value: content
-    }
-  ) });
-}
-
-// src/react/loom-app/source-file-cell/index.tsx
-var import_jsx_runtime113 = __toESM(require_jsx_runtime());
-function SourceFileCell({
-  shouldWrapOverflow,
-  content: originalContent
-}) {
-  const content = getSourceFileContent(originalContent);
-  const overflowClassName = useOverflow(shouldWrapOverflow);
-  const { containerRef, renderRef } = useRenderMarkdown(content);
-  let className = "dataloom-source-file-cell";
-  className += " " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime113.jsx)(
-    "div",
-    {
-      className,
-      ref: (node) => {
-        if (content !== "") {
-          containerRef.current = node;
-          appendOrReplaceFirstChild(node, renderRef.current);
-        }
-      },
-      children: content === "" && content
-    }
-  );
-}
-
-// src/react/loom-app/body-cell-container/index.tsx
-var import_jsx_runtime114 = __toESM(require_jsx_runtime());
-function BodyCellContainer({
-  cellId,
-  columnId,
-  isExternalLink,
-  source,
-  content,
-  aspectRatio,
-  numberFormat,
-  verticalPadding,
-  frontmatterKey,
-  currencyType,
-  horizontalPadding,
-  dateFormat,
-  dateTime,
-  numberPrefix,
-  numberSuffix,
-  numberSeparator,
-  columnType,
-  rowCreationTime,
-  rowLastEditedTime,
-  columnTags,
-  cellTagIds,
-  width,
-  shouldWrapOverflow,
-  onTagRemoveClick,
-  onTagMultipleRemove,
-  onTagDeleteClick,
-  onTagClick,
-  onColumnChange,
-  onTagAdd,
-  onTagChange,
-  onCellChange
-}) {
-  const shouldRequestOnClose = columnType === "text" /* TEXT */ || columnType === "embed" /* EMBED */ || columnType === "number" /* NUMBER */ || columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */;
-  const {
-    menu,
-    triggerRef,
-    triggerPosition,
-    closeRequest,
-    isOpen,
-    onOpen,
-    onClose,
-    onRequestClose
-  } = useMenu({
-    shouldRequestOnClose
-  });
-  function handleCellContextClick() {
-    return __async(this, null, function* () {
-      try {
-        yield navigator.clipboard.writeText(content);
-        new import_obsidian18.Notice("Copied text to clipboard");
-      } catch (err) {
-        console.error(err);
-      }
-    });
-  }
-  function toggleCheckbox() {
-    const isChecked = isCheckboxChecked(content);
-    if (isChecked) {
-      handleCheckboxChange(CHECKBOX_MARKDOWN_UNCHECKED2);
-    } else {
-      handleCheckboxChange(CHECKBOX_MARKDOWN_CHECKED);
-    }
-  }
-  function handleMenuTriggerBackspaceDown() {
-    if (columnType === "text" /* TEXT */ || columnType === "embed" /* EMBED */ || columnType === "number" /* NUMBER */ || columnType === "file" /* FILE */) {
-      onCellChange(cellId, { content: "" });
-    } else if (columnType === "date" /* DATE */) {
-      onCellChange(cellId, { dateTime: null });
-    } else if (columnType === "checkbox" /* CHECKBOX */) {
-      onCellChange(cellId, { content: CHECKBOX_MARKDOWN_UNCHECKED2 });
-    } else if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) {
-      onTagMultipleRemove(cellId, cellTagIds);
-    }
-  }
-  function handleMenuTriggerEnterDown() {
-    if (columnType === "checkbox" /* CHECKBOX */)
-      toggleCheckbox();
-  }
-  function handleMenuTriggerClick() {
-    if (columnType === "checkbox" /* CHECKBOX */) {
-      toggleCheckbox();
-    }
-  }
-  function handleExternalLinkToggle(value) {
-    onCellChange(cellId, { isExternalLink: value });
-  }
-  function handleTagAdd(markdown, color) {
-    if (markdown === "")
-      return;
-    onTagAdd(
-      cellId,
-      columnId,
-      markdown.trim(),
-      color,
-      columnType === "multi-tag" /* MULTI_TAG */
-    );
-  }
-  function handleRemoveTagClick(tagId) {
-    onTagRemoveClick(cellId, tagId);
-  }
-  function handleTagColorChange(tagId, value) {
-    onTagChange(columnId, tagId, { color: value });
-  }
-  function handleTagDeleteClick(tagId) {
-    onTagDeleteClick(columnId, tagId);
-  }
-  function handleTagContentChange(tagId, value) {
-    onTagChange(columnId, tagId, { content: value });
-  }
-  function handleTagClick(tagId) {
-    onTagClick(cellId, tagId, columnType === "multi-tag" /* MULTI_TAG */);
-  }
-  const handleInputChange = import_react52.default.useCallback(
-    (value) => {
-      onCellChange(cellId, { content: value });
-    },
-    [cellId, onCellChange]
-  );
-  function handleCheckboxChange(value) {
-    onCellChange(cellId, { content: value });
-  }
-  function handleDateFormatChange(value) {
-    onColumnChange(
-      columnId,
-      { dateFormat: value },
-      { shouldSortRows: true }
-    );
-  }
-  const handleDateTimeChange = import_react52.default.useCallback(
-    (value) => {
-      onCellChange(cellId, { dateTime: value });
-    },
-    [cellId, onCellChange]
-  );
-  let menuWidth = triggerPosition.width;
-  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "embed" /* EMBED */) {
-    menuWidth = 250;
-  } else if (columnType === "file" /* FILE */) {
-    menuWidth = 275;
-  } else if (columnType === "date" /* DATE */) {
-    menuWidth = 175;
-  }
-  let menuHeight = triggerPosition.height;
-  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */ || columnType === "number" /* NUMBER */ || columnType === "file" /* FILE */ || columnType === "embed" /* EMBED */) {
-    menuHeight = 0;
-  }
-  let className = "dataloom-cell__body-container";
-  if (columnType === "last-edited-time" /* LAST_EDITED_TIME */ || columnType === "creation-time" /* CREATION_TIME */ || columnType === "source" /* SOURCE */ || columnType === "source-file" /* SOURCE_FILE */ || source && frontmatterKey === null) {
-    className += " dataloom-cell__body-container--default-cursor";
-  }
-  const cellTags = columnTags.filter((tag) => cellTagIds.includes(tag.id));
-  let shouldOpenOnTrigger = true;
-  if (columnType === "checkbox" /* CHECKBOX */ || columnType === "creation-time" /* CREATION_TIME */ || columnType === "last-edited-time" /* LAST_EDITED_TIME */ || columnType === "source" /* SOURCE */ || columnType === "source-file" /* SOURCE_FILE */ || source && frontmatterKey === null) {
-    shouldOpenOnTrigger = false;
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime114.jsxs)(import_jsx_runtime114.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
-      menu_trigger_default,
-      {
-        ref: triggerRef,
-        menu,
-        isCell: true,
-        onClick: handleMenuTriggerClick,
-        onEnterDown: handleMenuTriggerEnterDown,
-        onBackspaceDown: handleMenuTriggerBackspaceDown,
-        shouldOpenOnTrigger,
-        onOpen,
-        children: /* @__PURE__ */ (0, import_jsx_runtime114.jsxs)(
-          "div",
-          {
-            onContextMenu: handleCellContextClick,
-            className,
-            style: {
-              width
-            },
-            children: [
-              columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
-                TextCell,
-                {
-                  value: content,
-                  shouldWrapOverflow
-                }
-              ),
-              columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
-                EmbedCell,
-                {
-                  isExternalLink,
-                  value: content,
-                  verticalPadding,
-                  horizontalPadding,
-                  aspectRatio
-                }
-              ),
-              columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
-                FileCell,
-                {
-                  value: content,
-                  shouldWrapOverflow
-                }
-              ),
-              columnType === "source-file" /* SOURCE_FILE */ && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
-                SourceFileCell,
-                {
-                  shouldWrapOverflow,
-                  content
-                }
-              ),
-              columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
-                NumberCell,
-                {
-                  value: content,
-                  currency: currencyType,
-                  format: numberFormat,
-                  prefix: numberPrefix,
-                  suffix: numberSuffix,
-                  separator: numberSeparator
-                }
-              ),
-              columnType === "tag" /* TAG */ && cellTags.length === 1 && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
-                TagCell,
-                {
-                  content: cellTags[0].content,
-                  color: cellTags[0].color,
-                  shouldWrapOverflow
-                }
-              ),
-              columnType === "multi-tag" /* MULTI_TAG */ && cellTags.length !== 0 && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
-                MultiTagCell,
-                {
-                  cellTags,
-                  shouldWrapOverflow
-                }
-              ),
-              columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(DateCell, { value: dateTime, format: dateFormat }),
-              columnType === "checkbox" /* CHECKBOX */ && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(CheckboxCell, { value: content }),
-              columnType === "creation-time" /* CREATION_TIME */ && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
-                CreationTimeCell,
-                {
-                  value: rowCreationTime,
-                  format: dateFormat,
-                  shouldWrapOverflow
-                }
-              ),
-              columnType === "last-edited-time" /* LAST_EDITED_TIME */ && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
-                LastEditedTimeCell,
-                {
-                  value: rowLastEditedTime,
-                  format: dateFormat,
-                  shouldWrapOverflow
-                }
-              ),
-              columnType === "source" /* SOURCE */ && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
-                SourceCell,
-                {
-                  shouldWrapOverflow,
-                  source
-                }
-              )
-            ]
-          }
-        )
-      }
-    ),
-    /* @__PURE__ */ (0, import_jsx_runtime114.jsxs)(
-      Menu,
-      {
-        id: menu.id,
-        hideBorder: columnType === "text" /* TEXT */ || columnType === "number" /* NUMBER */,
-        isOpen,
-        triggerPosition,
-        width: menuWidth,
-        height: menuHeight,
-        onRequestClose,
-        onClose,
-        children: [
-          columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
-            TextCellEdit,
-            {
-              closeRequest,
-              shouldWrapOverflow,
-              value: content,
-              onChange: handleInputChange,
-              onClose
-            }
-          ),
-          columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
-            EmbedCellEdit,
-            {
-              isExternalLink,
-              closeRequest,
-              value: content,
-              onChange: handleInputChange,
-              onClose,
-              onExternalLinkToggle: handleExternalLinkToggle
-            }
-          ),
-          columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
-            FileCellEdit,
-            {
-              onChange: handleInputChange,
-              onClose
-            }
-          ),
-          columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
-            NumberCellEdit,
-            {
-              closeRequest,
-              value: content,
-              onChange: handleInputChange,
-              onClose
-            }
-          ),
-          (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
-            TagCellEdit,
-            {
-              isMulti: columnType === "multi-tag" /* MULTI_TAG */,
-              closeRequest,
-              columnTags,
-              cellTags,
-              onTagColorChange: handleTagColorChange,
-              onTagAdd: handleTagAdd,
-              onRemoveTag: handleRemoveTagClick,
-              onTagClick: handleTagClick,
-              onTagDelete: handleTagDeleteClick,
-              onTagContentChange: handleTagContentChange,
-              onClose
-            }
-          ),
-          columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
-            DateCellEdit,
-            {
-              value: dateTime,
-              closeRequest,
-              dateFormat,
-              onDateTimeChange: handleDateTimeChange,
-              onDateFormatChange: handleDateFormatChange,
-              onClose
-            }
-          )
-        ]
-      }
-    )
-  ] });
-}
-
-// src/react/loom-app/row-options/row-menu/index.tsx
-var import_jsx_runtime115 = __toESM(require_jsx_runtime());
-function RowOptions({
-  id: id2,
-  isOpen,
-  triggerPosition,
-  canDeleteRow,
-  onDeleteClick,
-  onInsertAboveClick,
-  onInsertBelowClick,
-  onRequestClose,
-  onClose
-}) {
-  return /* @__PURE__ */ (0, import_jsx_runtime115.jsx)(
-    Menu,
-    {
-      id: id2,
-      isOpen,
-      openDirection: "bottom-right",
-      triggerPosition,
-      onRequestClose,
-      onClose,
-      children: /* @__PURE__ */ (0, import_jsx_runtime115.jsxs)("div", { className: "dataloom-row-menu", children: [
-        canDeleteRow && /* @__PURE__ */ (0, import_jsx_runtime115.jsx)(
-          MenuItem,
-          {
-            lucideId: "trash-2",
-            name: "Delete",
-            onClick: () => onDeleteClick()
-          }
-        ),
-        /* @__PURE__ */ (0, import_jsx_runtime115.jsx)(
-          MenuItem,
-          {
-            lucideId: "chevrons-up",
-            name: "Insert above",
-            onClick: () => onInsertAboveClick()
-          }
-        ),
-        /* @__PURE__ */ (0, import_jsx_runtime115.jsx)(
-          MenuItem,
-          {
-            lucideId: "chevrons-down",
-            name: "Insert below",
-            onClick: () => onInsertBelowClick()
-          }
-        )
-      ] })
-    }
-  );
-}
-
-// src/react/loom-app/row-options/index.tsx
-var import_jsx_runtime116 = __toESM(require_jsx_runtime());
-function RowOptions2({
-  rowId,
-  source,
-  onDeleteClick,
-  onInsertAboveClick,
-  onInsertBelowClick
-}) {
-  const {
-    menu,
-    triggerRef,
-    triggerPosition,
-    isOpen,
-    onOpen,
-    onClose,
-    onRequestClose
-  } = useMenu();
-  const { dragData, touchDropZone, setDragData, setTouchDropZone } = useDragContext();
-  const { loomState, setLoomState } = useLoomState();
-  function handleDeleteClick() {
-    onDeleteClick(rowId);
-    onClose();
-  }
-  function handleInsertAboveClick() {
-    onInsertAboveClick(rowId);
-    onClose();
-  }
-  function handleInsertBelowClick() {
-    onInsertBelowClick(rowId);
-    onClose();
-  }
-  function handleMouseDown(e) {
-    const el = e.target;
-    const row = el.closest(".dataloom-row");
-    if (row) {
-      row.setAttr("draggable", true);
-      const dragStartEvent = new DragEvent("dragstart");
-      Object.defineProperty(dragStartEvent, "target", {
-        value: row
-      });
-      row.dispatchEvent(dragStartEvent);
-    }
-  }
-  function handleTouchStart(e) {
-    e.stopPropagation();
-    const targetEl = e.currentTarget;
-    const rowEl = targetEl.closest(".dataloom-row");
-    if (!rowEl)
-      throw new Error("Row not found");
-    const rowId2 = getRowId(rowEl);
-    if (!rowId2)
-      return;
-    setDragData({
-      type: "row",
-      id: rowId2
-    });
-  }
-  const handleTouchMove = (e) => {
-    e.stopPropagation();
-    if (dragData == null)
-      return;
-    const { clientX, clientY } = e.touches[0];
-    const elementUnderneath = document.elementFromPoint(clientX, clientY);
-    if (!elementUnderneath)
-      return;
-    const rowEl = elementUnderneath.closest(
-      ".dataloom-row"
-    );
-    if (!rowEl)
-      return;
-    const targetId = getRowId(rowEl);
-    if (!targetId)
-      return;
-    if (targetId === dragData.id)
-      return;
-    const { top, left, bottom, right } = rowEl.getBoundingClientRect();
-    setTouchDropZone({
-      id: targetId,
-      top,
-      left,
-      bottom,
-      right
-    });
-    removeDragHover();
-    addDragHover(rowEl);
-  };
-  function handleTouchCancel() {
-    endDrag();
-  }
-  function handleTouchEnd(e) {
-    if (touchDropZone) {
-      const touchX = e.changedTouches[0].clientX;
-      const touchY = e.changedTouches[0].clientY;
-      const isInsideDropZone = touchX >= touchDropZone.left && touchX <= touchDropZone.right && touchY >= touchDropZone.top && touchY <= touchDropZone.bottom;
-      if (isInsideDropZone) {
-        dropDrag(touchDropZone.id, dragData, loomState, setLoomState);
-      }
-    }
-    endDrag();
-  }
-  function endDrag() {
-    setDragData(null);
-    setTouchDropZone(null);
-    removeDragHover();
-  }
-  function addDragHover(rowEl) {
-    const children = rowEl.querySelectorAll(".dataloom-cell");
-    for (let i2 = 0; i2 < children.length; i2++) {
-      children[i2].classList.add("dataloom-tr--drag-over");
-    }
-  }
-  function removeDragHover() {
-    const children = document.querySelectorAll(".dataloom-tr--drag-over");
-    for (let i2 = 0; i2 < children.length; i2++) {
-      children[i2].classList.remove("dataloom-tr--drag-over");
-    }
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime116.jsxs)(import_jsx_runtime116.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("div", { className: "dataloom-row-options", children: /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(Padding, { p: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(
-      "div",
-      {
-        className: "dataloom-row-options__container",
-        onTouchStart: handleTouchStart,
-        onTouchMove: handleTouchMove,
-        onTouchEnd: handleTouchEnd,
-        onTouchCancel: handleTouchCancel,
-        children: /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(
-          menu_button_default,
-          {
-            ref: triggerRef,
-            menu,
-            icon: /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(Icon, { lucideId: "grip-vertical" }),
-            ariaLabel: "Drag to move or click to open",
-            onMouseDown: handleMouseDown,
-            onOpen
-          }
-        )
-      }
-    ) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(
-      RowOptions,
-      {
-        id: menu.id,
-        isOpen,
-        triggerPosition,
-        canDeleteRow: source === null,
-        onDeleteClick: handleDeleteClick,
-        onInsertAboveClick: handleInsertAboveClick,
-        onInsertBelowClick: handleInsertBelowClick,
-        onRequestClose,
-        onClose
-      }
-    )
-  ] });
-}
-
-// src/react/loom-app/app/get-body-rows.tsx
-var import_jsx_runtime117 = __toESM(require_jsx_runtime());
-function getBodyRows({
-  sources,
-  firstColumnId,
-  lastColumnId,
-  visibleColumns,
-  rows,
-  onRowDeleteClick,
-  onRowInsertAboveClick,
-  onRowInsertBelowClick,
-  onColumnChange,
-  onCellChange,
-  onTagAdd,
-  onTagCellAdd,
-  onTagCellRemove,
-  onTagCellMultipleRemove,
-  onTagChange,
-  onTagDeleteClick
-}) {
-  return rows.map((row) => {
-    var _a2;
-    const { id: rowId, lastEditedTime, creationTime, sourceId } = row;
-    const source = (_a2 = sources.find((source2) => source2.id === sourceId)) != null ? _a2 : null;
-    return {
-      id: rowId,
-      cells: [
-        {
-          id: firstColumnId,
-          content: /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(
-            RowOptions2,
-            {
-              source,
-              rowId,
-              onDeleteClick: onRowDeleteClick,
-              onInsertAboveClick: onRowInsertAboveClick,
-              onInsertBelowClick: onRowInsertBelowClick
-            }
-          )
-        },
-        ...visibleColumns.map((column) => {
-          var _a3;
-          const {
-            id: columnId,
-            width,
-            type,
-            shouldWrapOverflow,
-            currencyType,
-            numberPrefix,
-            numberSeparator,
-            numberFormat,
-            numberSuffix,
-            dateFormat,
-            tags,
-            verticalPadding,
-            horizontalPadding,
-            aspectRatio,
-            frontmatterKey
-          } = column;
-          const cell = row.cells.find(
-            (cell2) => cell2.columnId === columnId
-          );
-          if (!cell)
-            throw new CellNotFoundError({
-              columnId,
-              rowId
-            });
-          const {
-            id: cellId,
-            content,
-            dateTime,
-            tagIds,
-            isExternalLink
-          } = cell;
-          const source2 = (_a3 = sources.find((source3) => source3.id === row.sourceId)) != null ? _a3 : null;
-          return {
-            id: cellId,
-            content: /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(
-              BodyCellContainer,
-              {
-                cellId,
-                frontmatterKey,
-                isExternalLink,
-                verticalPadding,
-                horizontalPadding,
-                aspectRatio,
-                columnTags: tags,
-                cellTagIds: tagIds,
-                columnId,
-                source: source2,
-                numberFormat,
-                rowCreationTime: creationTime,
-                dateFormat,
-                currencyType,
-                numberPrefix,
-                numberSuffix,
-                numberSeparator,
-                rowLastEditedTime: lastEditedTime,
-                dateTime,
-                content,
-                columnType: type,
-                shouldWrapOverflow,
-                width,
-                onTagClick: onTagCellAdd,
-                onTagRemoveClick: onTagCellRemove,
-                onTagMultipleRemove: onTagCellMultipleRemove,
-                onCellChange,
-                onTagDeleteClick,
-                onTagAdd,
-                onColumnChange,
-                onTagChange
-              },
-              cellId
-            )
-          };
-        }),
-        {
-          id: lastColumnId,
-          content: /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(import_jsx_runtime117.Fragment, {})
-        }
-      ]
-    };
-  });
-}
-
-// src/react/loom-app/footer-cell-container/calculation-menu.tsx
-var import_jsx_runtime118 = __toESM(require_jsx_runtime());
-function CalculationMenu({
-  id: id2,
-  value,
-  cellType,
-  isOpen,
-  triggerPosition,
-  onClick,
-  onRequestClose,
-  onClose
-}) {
-  return /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
-    Menu,
-    {
-      id: id2,
-      isOpen,
-      triggerPosition,
-      onRequestClose,
-      onClose,
-      children: /* @__PURE__ */ (0, import_jsx_runtime118.jsxs)("div", { className: "dataloom-function-menu", children: [
-        Object.values(GeneralCalculation).map((type) => /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
-          MenuItem,
-          {
-            name: getDisplayNameForCalculation(type),
-            ariaLabel: getAriaLabelForCalculation(type),
-            onClick: () => onClick(type),
-            isSelected: type === value
-          },
-          type
-        )),
-        cellType === "number" /* NUMBER */ && Object.values(NumberCalculation).map((type) => /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
-          MenuItem,
-          {
-            ariaLabel: getAriaLabelForNumberCalculation(type),
-            name: getDisplayNameForNumberCalculation(type),
-            onClick: () => onClick(type),
-            isSelected: type === value
-          },
-          type
-        ))
-      ] })
-    }
-  );
-}
-
-// src/react/loom-app/footer-cell-container/utils.ts
-var NAMESPACE = "fa23ee5e-43ae-45e0-83ed-97c577913416";
-var hashString = (value) => {
-  return v5_default(value, NAMESPACE);
-};
-var round2Digits = (value) => {
-  if (value.toString().includes("."))
-    return parseFloat(value.toFixed(2));
-  return value;
-};
-
-// src/shared/loom-state/utils/column-utils.ts
-var getColumnCells = (rows, columnId) => {
-  return rows.map((row) => {
-    const { cells } = row;
-    const cell = cells.find((cell2) => cell2.columnId === columnId);
-    if (!cell)
-      throw new RowNotFoundError(row.id);
-    return cell;
-  });
-};
-
-// src/react/loom-app/footer-cell-container/general-calculation.ts
-var getGeneralCalculationContent = (columnId, sources, rows, columnTags, cellType, calculationType, dateFormat) => {
-  const columnCells = getColumnCells(rows, columnId);
-  return getCalculation(
-    sources,
-    columnCells,
-    rows,
-    columnTags,
-    cellType,
-    calculationType,
-    dateFormat
-  ).toString();
-};
-var getCalculation = (sources, columnCells, rows, columnTags, cellType, calculationType, dateFormat) => {
-  if (calculationType === "count-all" /* COUNT_ALL */) {
-    return countAll(rows);
-  } else if (calculationType === "count-empty" /* COUNT_EMPTY */) {
-    return countEmpty(columnCells, cellType);
-  } else if (calculationType === "count-not-empty" /* COUNT_NOT_EMPTY */) {
-    return countNotEmpty(columnCells, cellType);
-  } else if (calculationType === "count-unique" /* COUNT_UNIQUE */) {
-    return countUnique(
-      sources,
-      rows,
-      columnCells,
-      columnTags,
-      cellType,
-      dateFormat
-    );
-  } else if (calculationType === "count-values" /* COUNT_VALUES */) {
-    return countValues(columnCells, cellType);
-  } else if (calculationType === "percent-empty" /* PERCENT_EMPTY */) {
-    return percentEmpty(columnCells, cellType);
-  } else if (calculationType === "percent-not-empty" /* PERCENT_NOT_EMPTY */) {
-    return percentNotEmpty(columnCells, cellType);
-  } else if (calculationType === "none" /* NONE */) {
-    return "";
-  } else {
-    throw new Error("Unhandled calculation type");
-  }
-};
-var countAll = (rows) => {
-  return rows.length;
-};
-var countEmpty = (columnCells, cellType) => {
-  return columnCells.map((cell) => isCellEmpty(cell, cellType)).reduce((accum, value) => {
-    if (value === true)
-      return accum + 1;
-    return accum;
-  }, 0);
-};
-var countNotEmpty = (columnCells, type) => {
-  return columnCells.map((cell) => isCellEmpty(cell, type)).reduce((accum, value) => {
-    if (value === false)
-      return accum + 1;
-    return accum;
-  }, 0);
-};
-var countUnique = (sources, rows, columnCells, columnTags, cellType, dateFormat) => {
-  const hashes = columnCells.map((cell) => {
-    var _a2;
-    const row = rows.find((row2) => {
-      const { cells } = row2;
-      return cells.find((c2) => c2.id === cell.id);
-    });
-    if (!row)
-      throw new RowNotFoundError();
-    const source = (_a2 = sources.find((source2) => source2.id === row.sourceId)) != null ? _a2 : null;
-    const cellValues = getCellValues(
-      cell,
-      cellType,
-      dateFormat,
-      row,
-      source,
-      columnTags
-    );
-    return cellValues.filter((value) => value !== "").map((value) => hashString(value));
-  }).flat(1);
-  const uniqueHashes = new Set(hashes);
-  return uniqueHashes.size;
-};
-var countValues = (columnCells, cellType) => {
-  return columnCells.map((cell) => countCellValues(cell, cellType)).reduce((accum, value) => accum + value, 0);
-};
-var percentEmpty = (columnCells, cellType) => {
-  if (columnCells.length === 0)
-    return "0%";
-  const percent = countEmpty(columnCells, cellType) / columnCells.length * 100;
-  return round2Digits(percent) + "%";
-};
-var percentNotEmpty = (columnCells, cellType) => {
-  if (columnCells.length === 0)
-    return "0%";
-  const percent = countNotEmpty(columnCells, cellType) / columnCells.length * 100;
-  return round2Digits(percent) + "%";
-};
-var getCellValues = (cell, type, dateFormat, row, source, columnTags) => {
-  const { content, dateTime, tagIds } = cell;
-  const { creationTime, lastEditedTime } = row;
-  if (type === "text" /* TEXT */ || type === "embed" /* EMBED */ || type === "number" /* NUMBER */ || type === "checkbox" /* CHECKBOX */ || type === "file" /* FILE */ || type === "source-file" /* SOURCE_FILE */) {
-    return [content];
-  } else if (type === "date" /* DATE */) {
-    if (dateTime)
-      return [dateTime.toString()];
-    return [];
-  } else if (type === "tag" /* TAG */ || type === "multi-tag" /* MULTI_TAG */) {
-    return tagIds.map((tagId) => {
-      const tag = columnTags.find((tag2) => tag2.id === tagId);
-      if (!tag)
-        throw new TagNotFoundError(tagId);
-      const { content: content2 } = tag;
-      return content2;
-    });
-  } else if (type === "last-edited-time" /* LAST_EDITED_TIME */) {
-    return [unixTimeToDateTimeString(lastEditedTime, dateFormat)];
-  } else if (type === "creation-time" /* CREATION_TIME */) {
-    return [unixTimeToDateTimeString(creationTime, dateFormat)];
-  } else if (type === "source" /* SOURCE */) {
-    return [getSourceCellContent(source)];
-  } else {
-    throw new Error("Unhandled cell type");
-  }
-};
-var countCellValues = (cell, type) => {
-  const { content, dateTime, tagIds } = cell;
-  if (type === "text" /* TEXT */ || type === "embed" /* EMBED */ || type === "number" /* NUMBER */ || type === "file" /* FILE */ || type === "source-file" /* SOURCE_FILE */) {
-    return content === "" ? 0 : 1;
-  } else if (type === "date" /* DATE */) {
-    return dateTime == null ? 0 : 1;
-  } else if (type === "tag" /* TAG */ || type === "multi-tag" /* MULTI_TAG */) {
-    return tagIds.length;
-  } else if (type === "checkbox" /* CHECKBOX */) {
-    return isCheckboxChecked(content) ? 1 : 0;
-  } else if (type === "last-edited-time" /* LAST_EDITED_TIME */ || type === "creation-time" /* CREATION_TIME */) {
-    return 1;
-  } else if (type === "source" /* SOURCE */) {
-    return 1;
-  } else {
-    throw new Error("Unhandled cell type");
-  }
-};
-var isCellEmpty = (cell, type) => {
-  const { content, dateTime, tagIds } = cell;
-  if (type === "text" /* TEXT */ || type === "embed" /* EMBED */ || type === "number" /* NUMBER */ || type === "file" /* FILE */ || type === "source-file" /* SOURCE_FILE */) {
-    return content === "";
-  } else if (type === "date" /* DATE */) {
-    return dateTime == null;
-  } else if (type === "tag" /* TAG */ || type === "multi-tag" /* MULTI_TAG */) {
-    return tagIds.length === 0;
-  } else if (type === "checkbox" /* CHECKBOX */) {
-    return !isCheckboxChecked(content);
-  } else if (type === "last-edited-time" /* LAST_EDITED_TIME */ || type === "creation-time" /* CREATION_TIME */) {
-    return true;
-  } else if (type === "source" /* SOURCE */) {
-    return false;
-  } else {
-    throw new Error("Unhandled cell type");
-  }
-};
-
-// src/react/loom-app/footer-cell-container/arithmetic.ts
-var getAverage = (values) => {
-  return getSum(values) / values.length;
-};
-var getSum = (values) => {
-  return values.reduce((sum, a2) => sum + a2, 0);
-};
-var getMaximum = (values) => {
-  return Math.max(...values);
-};
-var getMinimum = (values) => {
-  return Math.min(...values);
-};
-var getMedian = (values) => {
-  const sortedValues = values.sort((a2, b2) => a2 - b2);
-  const middle = Math.floor(values.length / 2);
-  if (values.length % 2 === 0) {
-    return (sortedValues[middle - 1] + sortedValues[middle]) / 2;
-  } else {
-    return sortedValues[middle];
-  }
-};
-var getRange = (values) => {
-  return getMaximum(values) - getMinimum(values);
-};
-
-// src/react/loom-app/footer-cell-container/number-calculation.ts
-var getNumberCalculationContent = (values, format, currency, calculation) => {
-  const value = getNumberCalculation(values, calculation).toString();
-  if (format === "currency" /* CURRENCY */) {
-    return getNumberCellContent(format, value, {
-      currency
-    });
-  }
-  return value;
-};
-var getNumberCalculation = (values, type) => {
-  if (type === "avg" /* AVG */) {
-    return round2Digits(getAverage(values));
-  } else if (type === "max" /* MAX */) {
-    return getMaximum(values);
-  } else if (type === "min" /* MIN */) {
-    return getMinimum(values);
-  } else if (type === "range" /* RANGE */) {
-    return round2Digits(getRange(values));
-  } else if (type === "sum" /* SUM */) {
-    return round2Digits(getSum(values));
-  } else if (type === "median" /* MEDIAN */) {
-    return round2Digits(getMedian(values));
-  } else {
-    throw new Error("Unhandled number calculation type");
-  }
-};
-
-// src/react/loom-app/footer-cell-container/index.tsx
-var import_jsx_runtime119 = __toESM(require_jsx_runtime());
-function FooterCellContainer({
-  sources,
-  columnId,
-  columnCells,
-  columnTags,
-  dateFormat,
-  numberFormat,
-  rows,
-  width,
-  calculationType,
-  currencyType,
-  cellType,
-  onColumnChange
-}) {
-  const {
-    menu,
-    triggerRef,
-    triggerPosition,
-    isOpen,
-    onOpen,
-    onClose,
-    onRequestClose
-  } = useMenu();
-  function handleTypeClick(value) {
-    onColumnChange(columnId, {
-      calculationType: value
-    });
-    onClose();
-  }
-  let content = "";
-  if (isNumberCalcuation(calculationType)) {
-    const cellValues = columnCells.filter((cell) => isNumber(cell.content)).map((cell) => parseFloat(cell.content));
-    if (cellValues.length !== 0)
-      content = getNumberCalculationContent(
-        cellValues,
-        numberFormat,
-        currencyType,
-        calculationType
-      );
-  } else {
-    content = getGeneralCalculationContent(
-      columnId,
-      sources,
-      rows,
-      columnTags,
-      cellType,
-      calculationType,
-      dateFormat
-    );
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime119.jsxs)(import_jsx_runtime119.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(menu_trigger_default, { menu, isCell: true, ref: triggerRef, onOpen, children: /* @__PURE__ */ (0, import_jsx_runtime119.jsxs)(
-      "div",
-      {
-        className: "dataloom-cell--footer__container dataloom-selectable",
-        style: {
-          width
-        },
-        children: [
-          calculationType === "none" /* NONE */ && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(Text, { value: "Calculate", variant: "faint" }),
-          calculationType !== "none" /* NONE */ && /* @__PURE__ */ (0, import_jsx_runtime119.jsxs)(Stack, { spacing: "sm", isHorizontal: true, children: [
-            /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
-              Text,
-              {
-                value: getShortDisplayNameForCalculationType(
-                  calculationType
-                ),
-                variant: "muted"
-              }
-            ),
-            /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(Text, { value: content, variant: "semibold" })
-          ] })
-        ]
-      }
-    ) }),
-    /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
-      CalculationMenu,
-      {
-        id: menu.id,
-        isOpen,
-        triggerPosition,
-        cellType,
-        value: calculationType,
-        onClick: handleTypeClick,
-        onRequestClose,
-        onClose
-      }
-    )
-  ] });
-}
-
-// src/react/loom-app/app/get-footer-row.tsx
-var import_jsx_runtime120 = __toESM(require_jsx_runtime());
-function getFooterRow({
-  showCalculationRow,
-  firstColumnId,
-  lastColumnId,
-  visibleColumns,
-  sources,
-  rows,
-  onColumnChange
-}) {
-  if (!showCalculationRow)
-    return void 0;
-  return {
-    id: "footer-row",
-    cells: [
-      {
-        id: firstColumnId,
-        content: /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(import_jsx_runtime120.Fragment, {})
-      },
-      ...visibleColumns.map((column) => {
-        const {
-          id: columnId,
-          type,
-          currencyType,
-          dateFormat,
-          numberFormat,
-          width,
-          tags,
-          calculationType
-        } = column;
-        const columnCells = rows.map((row) => {
-          const { cells } = row;
-          const cell = cells.find(
-            (cell2) => cell2.columnId === columnId
-          );
-          if (!cell)
-            throw new CellNotFoundError({
-              columnId,
-              rowId: row.id
-            });
-          return cell;
-        });
-        return {
-          id: columnId,
-          content: /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(
-            FooterCellContainer,
-            {
-              sources,
-              columnId,
-              columnTags: tags,
-              numberFormat,
-              currencyType,
-              dateFormat,
-              columnCells,
-              rows,
-              calculationType,
-              width,
-              cellType: type,
-              onColumnChange
-            }
-          )
-        };
-      }),
-      {
-        id: lastColumnId,
-        content: /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(import_jsx_runtime120.Fragment, {})
-      }
-    ]
-  };
-}
-
-// src/react/loom-app/header-cell-container/index.tsx
-var import_react58 = __toESM(require_react());
-
-// src/react/loom-app/header-cell-container/use-column-resize.ts
-var import_react53 = __toESM(require_react());
-var useColumnResize = (columnId, onMove) => {
-  const { setResizingColumnId } = useLoomState();
-  const mouseDownX = (0, import_react53.useRef)(0);
-  function handleMouseMove(e) {
-    const dist = e.pageX - mouseDownX.current;
-    onMove(dist);
-  }
-  function handleTouchMove(e) {
-    e.stopPropagation();
-    const dist = e.touches[0].pageX - mouseDownX.current;
-    onMove(dist);
-  }
-  function handleMouseUp() {
-    document.removeEventListener("mousemove", handleMouseMove);
-    document.removeEventListener("mouseup", handleMouseUp);
-    setTimeout(() => {
-      setResizingColumnId(null);
-    }, 100);
-  }
-  function handleTouchEnd() {
-    document.removeEventListener("touchmove", handleTouchMove);
-    document.removeEventListener("touchend", handleTouchEnd);
-    setTimeout(() => {
-      setResizingColumnId(null);
-    }, 100);
-  }
-  function handleTouchStart(e) {
-    if (e.detail >= 2)
-      return;
-    document.addEventListener("touchmove", handleTouchMove);
-    document.addEventListener("touchend", handleTouchEnd);
-    mouseDownX.current = e.touches[0].pageX;
-    setResizingColumnId(columnId);
-  }
-  function handleMouseDown(e) {
-    if (e.detail >= 2)
-      return;
-    e.preventDefault();
-    document.addEventListener("mousemove", handleMouseMove);
-    document.addEventListener("mouseup", handleMouseUp);
-    mouseDownX.current = e.pageX;
-    setResizingColumnId(columnId);
-  }
-  return { handleMouseDown, handleTouchStart };
-};
-
-// src/react/loom-app/header-cell-container/column-resize/index.tsx
-var import_jsx_runtime121 = __toESM(require_jsx_runtime());
-function ColumnResize({
-  currentResizingId,
-  columnId,
-  width,
-  onWidthChange,
-  onMenuClose
-}) {
-  const { handleMouseDown, handleTouchStart } = useColumnResize(
-    columnId,
-    (dist) => {
-      const oldWidth = pxToNum(width);
-      const newWidth = oldWidth + dist;
-      if (newWidth < MIN_COLUMN_WIDTH)
+    const observer = new MutationObserver((entries) => {
+      if (hasCloseLock.current)
         return;
-      onWidthChange(columnId, numToPx(newWidth));
-    }
-  );
-  const isDragging = columnId === currentResizingId;
-  let innerClassName = "dataloom-column-resize__handle";
-  if (isDragging)
-    innerClassName += " dataloom-column-resize__handle--dragging";
-  return /* @__PURE__ */ (0, import_jsx_runtime121.jsx)("div", { className: "dataloom-column-resize", children: /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(
-    "div",
-    {
-      className: innerClassName,
-      onMouseDown: (e) => {
-        onMenuClose();
-        handleMouseDown(e);
-      },
-      onTouchStart: handleTouchStart,
-      onClick: (e) => {
-        e.stopPropagation();
-        if (e.detail === 2)
-          onWidthChange(columnId, "unset");
-      }
-    }
-  ) });
-}
-
-// src/react/loom-app/header-cell-edit/index.tsx
-var import_react57 = __toESM(require_react());
-
-// src/react/loom-app/header-cell-edit/option-submenu.tsx
-var import_jsx_runtime122 = __toESM(require_jsx_runtime());
-function OptionSubmenu({
-  type,
-  currencyType,
-  numberFormat,
-  numberPrefix,
-  numberSuffix,
-  numberSeparator,
-  aspectRatio,
-  verticalPadding,
-  horizontalPadding,
-  title,
-  dateFormat,
-  onBackClick,
-  onSubmenuChange
-}) {
-  const numberFormatDisplayName = numberFormat === "number" /* NUMBER */ ? "Number" : getDisplayNameForCurrencyType(currencyType);
-  return /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(Submenu, { title, onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(Padding, { pt: "sm", pb: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime122.jsxs)(Stack, { spacing: "sm", children: [
-    type === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(
-      MenuItem,
-      {
-        name: "Aspect ratio",
-        value: aspectRatio,
-        onClick: () => onSubmenuChange(6 /* ASPECT_RATIO */)
-      }
-    ),
-    type === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(
-      MenuItem,
-      {
-        name: "Horizontal padding",
-        value: horizontalPadding,
-        onClick: () => onSubmenuChange(4 /* HORIZONTAL_PADDING */)
-      }
-    ),
-    type === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(
-      MenuItem,
-      {
-        name: "Vertical padding",
-        value: verticalPadding,
-        onClick: () => onSubmenuChange(5 /* VERTICAL_PADDING */)
-      }
-    ),
-    type === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(
-      MenuItem,
-      {
-        name: "Number format",
-        value: numberFormatDisplayName,
-        onClick: () => onSubmenuChange(2 /* CURRENCY */)
-      }
-    ),
-    type === "number" /* NUMBER */ && numberFormat == "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(
-      MenuItem,
-      {
-        name: "Prefix",
-        value: numberPrefix,
-        onClick: () => onSubmenuChange(
-          7 /* TEXT_INPUT_NUMBER_PREFIX */
-        )
-      }
-    ),
-    type === "number" /* NUMBER */ && numberFormat == "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(
-      MenuItem,
-      {
-        name: "Suffix",
-        value: numberSuffix,
-        onClick: () => onSubmenuChange(
-          8 /* TEXT_INPUT_NUMBER_SUFFIX */
-        )
-      }
-    ),
-    type === "number" /* NUMBER */ && numberFormat == "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(
-      MenuItem,
-      {
-        name: "Separator",
-        value: numberSeparator,
-        onClick: () => onSubmenuChange(
-          9 /* TEXT_INPUT_NUMBER_SEPARATOR */
-        )
-      }
-    ),
-    (type === "creation-time" /* CREATION_TIME */ || type === "last-edited-time" /* LAST_EDITED_TIME */ || type === "date" /* DATE */) && /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(
-      MenuItem,
-      {
-        name: "Date format",
-        value: getDisplayNameForDateFormat(dateFormat),
-        onClick: () => onSubmenuChange(3 /* DATE_FORMAT */)
-      }
-    )
-  ] }) }) });
-}
-
-// src/react/loom-app/header-cell-edit/type-submenu.tsx
-var import_jsx_runtime123 = __toESM(require_jsx_runtime());
-function TypeSubmenu({
-  title,
-  value,
-  onValueClick,
-  onBackClick
-}) {
-  return /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(Submenu, { title, onBackClick, children: Object.values(CellType2).filter(
-    (type) => type !== "source" /* SOURCE */ && type !== "source-file" /* SOURCE_FILE */
-  ).map((type) => /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
-    MenuItem,
-    {
-      name: getDisplayNameForCellType(type),
-      lucideId: getIconIdForCellType(type),
-      onClick: () => onValueClick(type),
-      isSelected: type === value
-    },
-    type
-  )) });
-}
-
-// src/react/loom-app/header-cell-edit/base-menu.tsx
-var import_react54 = __toESM(require_react());
-var import_jsx_runtime124 = __toESM(require_jsx_runtime());
-function BaseMenu2({
-  index,
-  shouldWrapOverflow,
-  numFrozenColumns,
-  numSources,
-  frontmatterKey,
-  columnName,
-  columnId,
-  columnType,
-  columnSortDir,
-  canDeleteColumn,
-  onSortClick,
-  onSubmenuChange,
-  onWrapOverflowToggle,
-  onDeleteClick,
-  onColumnNameChange,
-  onHideClick,
-  onFrozenColumnsChange
-}) {
-  const inputRef = import_react54.default.useRef(null);
-  usePlaceCursorAtEnd(inputRef, columnName);
-  import_react54.default.useEffect(() => {
-    if (inputRef.current) {
-      inputRef.current.focus();
-    }
-  }, [inputRef]);
-  function handleInputChange(inputValue) {
-    onColumnNameChange(inputValue);
-  }
-  const hasOptions = columnType === "embed" /* EMBED */ || columnType === "date" /* DATE */ || columnType === "number" /* NUMBER */ || columnType === "last-edited-time" /* LAST_EDITED_TIME */ || columnType === "creation-time" /* CREATION_TIME */;
-  return /* @__PURE__ */ (0, import_jsx_runtime124.jsxs)(Stack, { spacing: "sm", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime124.jsxs)(Stack, { spacing: "sm", width: "100%", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(Padding, { px: "md", py: "sm", width: "100%", children: /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
-        input_default,
-        {
-          ref: inputRef,
-          isDisabled: columnType === "source" /* SOURCE */ || columnType === "source-file" /* SOURCE_FILE */,
-          showBorder: true,
-          value: columnName,
-          onChange: handleInputChange
-        }
-      ) }),
-      columnType !== "source" /* SOURCE */ && columnType !== "source-file" /* SOURCE_FILE */ && /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
-        MenuItem,
-        {
-          lucideId: "list",
-          name: "Type",
-          value: getDisplayNameForCellType(columnType),
-          onClick: () => {
-            onSubmenuChange(0 /* TYPE */);
+      for (const entry of entries) {
+        if (entry.target === document.body) {
+          if (hasOpenModal()) {
+            logger("obsidian modal opened. closing all menus");
+            hasCloseLock.current = true;
+            onCloseAll();
+            break;
           }
         }
-      ),
-      numSources > 0 && columnType !== "source" /* SOURCE */ && columnType !== "source-file" /* SOURCE_FILE */ && /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
-        MenuItem,
-        {
-          lucideId: "file-key-2",
-          name: "Frontmatter key",
-          value: (frontmatterKey == null ? void 0 : frontmatterKey.value) || "No key set",
-          onClick: () => {
-            onSubmenuChange(10 /* FRONTMATTER_KEY */);
-          }
-        }
-      ),
-      hasOptions && /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
-        MenuItem,
-        {
-          lucideId: "settings",
-          name: "Options",
-          onClick: () => {
-            onSubmenuChange(1 /* OPTIONS */);
-          }
-        }
-      )
-    ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(Divider, {}),
-    /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
-      MenuItem,
-      {
-        lucideId: "arrow-up",
-        name: "Ascending",
-        onClick: () => onSortClick("asc" /* ASC */),
-        isSelected: columnSortDir === "asc" /* ASC */
       }
-    ),
-    /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
-      MenuItem,
-      {
-        lucideId: "arrow-down",
-        name: "Descending",
-        onClick: () => onSortClick("desc" /* DESC */),
-        isSelected: columnSortDir === "desc" /* DESC */
-      }
-    ),
-    /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(Divider, {}),
-    /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
-      MenuItem,
-      {
-        lucideId: "eye-off",
-        name: "Hide",
-        onClick: () => onHideClick()
-      }
-    ),
-    index < 4 && numFrozenColumns !== index + 2 && /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
-      MenuItem,
-      {
-        lucideId: "pin",
-        name: "Freeze up to column",
-        onClick: () => onFrozenColumnsChange(index + 2)
-      }
-    ),
-    numFrozenColumns === index + 2 && /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
-      MenuItem,
-      {
-        lucideId: "pin-off",
-        name: "Unfreeze columns",
-        onClick: () => onFrozenColumnsChange(1)
-      }
-    ),
-    canDeleteColumn && /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
-      MenuItem,
-      {
-        lucideId: "trash",
-        name: "Delete",
-        onClick: () => onDeleteClick()
-      }
-    ),
-    columnType !== "embed" /* EMBED */ && columnType !== "number" /* NUMBER */ && columnType !== "source" /* SOURCE */ && /* @__PURE__ */ (0, import_jsx_runtime124.jsxs)(import_jsx_runtime124.Fragment, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(Divider, {}),
-      /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime124.jsxs)(Flex, { justify: "space-between", align: "center", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(Text, { value: "Wrap content" }),
-        /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
-          Switch,
-          {
-            value: shouldWrapOverflow,
-            onToggle: (value) => onWrapOverflowToggle(columnId, value)
-          }
-        )
-      ] }) })
-    ] })
-  ] });
-}
-
-// src/react/loom-app/header-cell-edit/number-format-submenu/index.tsx
-var import_jsx_runtime125 = __toESM(require_jsx_runtime());
-function NumberFormatSubmenu({
-  title,
-  format,
-  currency,
-  onNumberFormatChange,
-  onBackClick
-}) {
-  return /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(Submenu, { title, onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime125.jsxs)("div", { className: "dataloom-number-format-submenu", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(
-      MenuItem,
-      {
-        name: "Number",
-        onClick: () => onNumberFormatChange("number" /* NUMBER */),
-        isSelected: format === "number" /* NUMBER */
-      }
-    ),
-    Object.values(CurrencyType2).map((type) => /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(
-      MenuItem,
-      {
-        name: getDisplayNameForCurrencyType(type),
-        onClick: () => onNumberFormatChange("currency" /* CURRENCY */, {
-          currency: type
-        }),
-        isSelected: type === currency && format === "currency" /* CURRENCY */
-      },
-      type
-    ))
-  ] }) });
-}
-
-// src/react/loom-app/header-cell-edit/text-input-submenu.tsx
-var import_react55 = __toESM(require_react());
-var import_jsx_runtime126 = __toESM(require_jsx_runtime());
-function TextInputSubmenu({
-  title,
-  value,
-  onValueChange,
-  onBackClick,
-  closeRequest,
-  onClose
-}) {
-  const [textValue, setTextValue] = import_react55.default.useState(value);
-  import_react55.default.useEffect(() => {
-    if (closeRequest !== null) {
-      onValueChange(textValue);
-      onClose();
-    }
-  }, [onValueChange, textValue, closeRequest, onClose]);
-  return /* @__PURE__ */ (0, import_jsx_runtime126.jsx)(Submenu, { title, onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime126.jsx)(input_default, { value: textValue, onChange: setTextValue }) });
-}
-
-// src/react/loom-app/header-cell-edit/date-format-submenu.tsx
-var import_jsx_runtime127 = __toESM(require_jsx_runtime());
-function DateFormatSubmenu({
-  title,
-  value,
-  onValueClick,
-  onBackClick
-}) {
-  return /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(Submenu, { title, onBackClick, children: Object.values(DateFormat2).map((format) => /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(
-    MenuItem,
-    {
-      name: getDisplayNameForDateFormat(format),
-      onClick: () => onValueClick(format),
-      isSelected: format === value
-    },
-    format
-  )) });
-}
-
-// src/react/loom-app/header-cell-edit/aspect-ratio-submenu.tsx
-var import_jsx_runtime128 = __toESM(require_jsx_runtime());
-function AspectRatioSubmenu({
-  title,
-  value,
-  onValueClick,
-  onBackClick
-}) {
-  return /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(Submenu, { title, onBackClick, children: Object.values(AspectRatio2).map((ratio) => /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(
-    MenuItem,
-    {
-      name: ratio,
-      onClick: () => onValueClick(ratio),
-      isSelected: ratio === value
-    },
-    ratio
-  )) });
-}
-
-// src/react/loom-app/header-cell-edit/padding-submenu.tsx
-var import_jsx_runtime129 = __toESM(require_jsx_runtime());
-function PaddingSubmenu({
-  title,
-  value,
-  onValueClick,
-  onBackClick
-}) {
-  return /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(Submenu, { title, onBackClick, children: Object.values(PaddingSize2).map((size) => /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
-    MenuItem,
-    {
-      name: size,
-      onClick: () => onValueClick(size),
-      isSelected: size === value
-    },
-    size
-  )) });
-}
-
-// src/react/loom-app/header-cell-edit/frontmatter-key-submenu.tsx
-var import_react56 = __toESM(require_react());
-var import_jsx_runtime130 = __toESM(require_jsx_runtime());
-var USE_CUSTOM_INPUT_VALUE = "custom-key";
-function FrontmatterKeySubmenu({
-  title,
-  frontmatterKey,
-  frontmatterKeys,
-  onFrontMatterKeyChange,
-  onBackClick,
-  closeRequest,
-  onClose
-}) {
-  const { value = "", isCustom = false } = frontmatterKey != null ? frontmatterKey : {};
-  const [inputValue, setInputValue] = import_react56.default.useState(value);
-  import_react56.default.useEffect(() => {
-    if (closeRequest !== null) {
-      if (isCustom) {
-        onFrontMatterKeyChange({ value: inputValue, isCustom: true });
-      }
-      onClose();
-    }
-  }, [onFrontMatterKeyChange, inputValue, closeRequest, onClose, isCustom]);
-  function handleValueChange(value2) {
-    if (value2 === USE_CUSTOM_INPUT_VALUE) {
-      onFrontMatterKeyChange({
-        value: "",
-        isCustom: true
-      });
-    } else if (value2 === "") {
-      onFrontMatterKeyChange(null);
-    } else {
-      onFrontMatterKeyChange({
-        value: value2,
-        isCustom: false
-      });
-    }
-  }
-  let selectedValue = value;
-  if (isCustom) {
-    selectedValue = USE_CUSTOM_INPUT_VALUE;
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(Submenu, { title, onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime130.jsxs)(Stack, { spacing: "md", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime130.jsxs)(Select, { value: selectedValue, onChange: handleValueChange, children: [
-      /* @__PURE__ */ (0, import_jsx_runtime130.jsx)("option", { value: "", children: "Select an option" }),
-      frontmatterKeys.map((key) => /* @__PURE__ */ (0, import_jsx_runtime130.jsx)("option", { value: key, children: key }, key)),
-      /* @__PURE__ */ (0, import_jsx_runtime130.jsx)("option", { value: USE_CUSTOM_INPUT_VALUE, children: "Custom" })
-    ] }),
-    isCustom && /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(input_default, { value: inputValue, onChange: setInputValue })
-  ] }) }) });
-}
-
-// src/react/loom-app/header-cell-edit/index.tsx
-var import_jsx_runtime131 = __toESM(require_jsx_runtime());
-var SELFHANDLE_CLOSE = [
-  8 /* TEXT_INPUT_NUMBER_SUFFIX */,
-  7 /* TEXT_INPUT_NUMBER_PREFIX */,
-  9 /* TEXT_INPUT_NUMBER_SEPARATOR */
-];
-function HeaderMenu({
-  index,
-  isOpen,
-  numSources,
-  column,
-  id: id2,
-  triggerPosition,
-  numFrozenColumns,
-  frontmatterKeys,
-  canDeleteColumn,
-  closeRequest,
-  onColumnDeleteClick,
-  onClose,
-  onRequestClose,
-  onFrozenColumnsChange,
-  onColumnChange,
-  onColumnTypeChange
-}) {
-  const {
-    id: columnId,
-    content,
-    type,
-    sortDir,
-    dateFormat,
-    aspectRatio,
-    verticalPadding,
-    horizontalPadding,
-    shouldWrapOverflow,
-    numberFormat,
-    currencyType,
-    numberPrefix,
-    numberSeparator,
-    numberSuffix,
-    frontmatterKey
-  } = column;
-  const [submenu, setSubmenu] = (0, import_react57.useState)(null);
-  const [localValue, setLocalValue] = (0, import_react57.useState)(content);
-  import_react57.default.useEffect(() => {
-    if (closeRequest !== null) {
-      if (submenu === null) {
-        if (localValue !== content)
-          onColumnChange(columnId, { content: localValue });
-      }
-      if (!submenu || !SELFHANDLE_CLOSE.includes(submenu)) {
-        onClose();
-      }
-    }
-  }, [
-    content,
-    columnId,
-    closeRequest,
-    submenu,
-    localValue,
-    onColumnChange,
-    onClose
-  ]);
-  function handleWrapOverflowToggle() {
-  }
-  function handleSortClick(sortDir2) {
-    onColumnChange(columnId, { sortDir: sortDir2 }, { shouldSortRows: true });
-    onClose();
-  }
-  function handleAspectRatioClick(value) {
-    onColumnChange(columnId, { aspectRatio: value });
-    onClose();
-    setSubmenu(1 /* OPTIONS */);
-  }
-  function handleHorizontalPaddingClick(value) {
-    onColumnChange(columnId, { horizontalPadding: value });
-    onClose();
-    setSubmenu(1 /* OPTIONS */);
-  }
-  function handleVerticalPaddingClick(value) {
-    onColumnChange(columnId, { verticalPadding: value });
-    onClose();
-    setSubmenu(1 /* OPTIONS */);
-  }
-  function handleTypeClick(type2) {
-    onColumnTypeChange(columnId, type2);
-    onClose();
-    setSubmenu(null);
-  }
-  function handleFrozenColumnsChange(value) {
-    onFrozenColumnsChange(value);
-    onClose();
-    setSubmenu(null);
-  }
-  function handleHideClick() {
-    onColumnChange(columnId, { isVisible: false });
-    onClose();
-    setSubmenu(null);
-  }
-  function handleDeleteClick() {
-    onColumnDeleteClick(columnId);
-    onClose();
-    setSubmenu(null);
-  }
-  function handleNumberFormatChange(value, options) {
-    onColumnChange(
-      columnId,
-      __spreadValues({
-        numberFormat: value
-      }, (options == null ? void 0 : options.currency) && {
-        currencyType: options.currency
-      }),
-      { shouldSortRows: true }
-    );
-    setSubmenu(1 /* OPTIONS */);
-  }
-  function handleNumberOptionChange(value) {
-    submenu === 7 /* TEXT_INPUT_NUMBER_PREFIX */ && onColumnChange(
-      columnId,
-      { numberPrefix: value },
-      { shouldSortRows: true }
-    );
-    submenu === 8 /* TEXT_INPUT_NUMBER_SUFFIX */ && onColumnChange(
-      columnId,
-      { numberSuffix: value },
-      { shouldSortRows: true }
-    );
-    submenu === 9 /* TEXT_INPUT_NUMBER_SEPARATOR */ && onColumnChange(
-      columnId,
-      { numberSeparator: value },
-      { shouldSortRows: true }
-    );
-    setSubmenu(null);
-  }
-  function handleDateFormatClick(value) {
-    onColumnChange(columnId, { dateFormat: value });
-    setSubmenu(1 /* OPTIONS */);
-  }
-  function handleFrontmatterKeyChange(frontmatterKey2) {
-    onColumnChange(columnId, {
-      frontmatterKey: frontmatterKey2
     });
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
-    Menu,
-    {
-      isOpen,
-      id: id2,
-      triggerPosition,
-      width: 190,
-      onRequestClose,
-      onClose,
-      children: /* @__PURE__ */ (0, import_jsx_runtime131.jsxs)("div", { className: "dataloom-header-menu", children: [
-        submenu === null && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
-          BaseMenu2,
-          {
-            index,
-            numSources,
-            canDeleteColumn,
-            shouldWrapOverflow,
-            numFrozenColumns,
-            frontmatterKey,
-            columnId,
-            columnName: localValue,
-            columnType: type,
-            columnSortDir: sortDir,
-            onColumnNameChange: setLocalValue,
-            onSortClick: handleSortClick,
-            onSubmenuChange: setSubmenu,
-            onWrapOverflowToggle: handleWrapOverflowToggle,
-            onDeleteClick: handleDeleteClick,
-            onHideClick: handleHideClick,
-            onFrozenColumnsChange: handleFrozenColumnsChange
-          }
-        ),
-        submenu === 1 /* OPTIONS */ && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
-          OptionSubmenu,
-          {
-            title: "Options",
-            type,
-            horizontalPadding,
-            verticalPadding,
-            aspectRatio,
-            dateFormat,
-            numberFormat,
-            currencyType,
-            numberPrefix,
-            numberSuffix,
-            numberSeparator,
-            onBackClick: () => setSubmenu(null),
-            onSubmenuChange: setSubmenu
-          }
-        ),
-        submenu === 6 /* ASPECT_RATIO */ && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
-          AspectRatioSubmenu,
-          {
-            title: "Aspect ratio",
-            value: aspectRatio,
-            onValueClick: handleAspectRatioClick,
-            onBackClick: () => setSubmenu(null)
-          }
-        ),
-        submenu === 4 /* HORIZONTAL_PADDING */ && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
-          PaddingSubmenu,
-          {
-            title: "Horizontal padding",
-            value: horizontalPadding,
-            onValueClick: handleHorizontalPaddingClick,
-            onBackClick: () => setSubmenu(null)
-          }
-        ),
-        submenu === 5 /* VERTICAL_PADDING */ && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
-          PaddingSubmenu,
-          {
-            title: "Vertical padding",
-            value: verticalPadding,
-            onValueClick: handleVerticalPaddingClick,
-            onBackClick: () => setSubmenu(null)
-          }
-        ),
-        submenu === 0 /* TYPE */ && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
-          TypeSubmenu,
-          {
-            title: "Type",
-            value: type,
-            onValueClick: handleTypeClick,
-            onBackClick: () => setSubmenu(null)
-          }
-        ),
-        submenu === 3 /* DATE_FORMAT */ && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
-          DateFormatSubmenu,
-          {
-            title: "Date Format",
-            value: dateFormat,
-            onValueClick: handleDateFormatClick,
-            onBackClick: () => setSubmenu(1 /* OPTIONS */)
-          }
-        ),
-        submenu === 2 /* CURRENCY */ && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
-          NumberFormatSubmenu,
-          {
-            title: "Currency",
-            format: numberFormat,
-            currency: currencyType,
-            onNumberFormatChange: handleNumberFormatChange,
-            onBackClick: () => setSubmenu(1 /* OPTIONS */)
-          }
-        ),
-        submenu === 7 /* TEXT_INPUT_NUMBER_PREFIX */ && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
-          TextInputSubmenu,
-          {
-            title: "Prefix",
-            value: numberPrefix,
-            closeRequest,
-            onValueChange: handleNumberOptionChange,
-            onClose,
-            onBackClick: () => setSubmenu(1 /* OPTIONS */)
-          }
-        ),
-        submenu === 8 /* TEXT_INPUT_NUMBER_SUFFIX */ && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
-          TextInputSubmenu,
-          {
-            title: "Suffix",
-            closeRequest,
-            value: numberSuffix,
-            onClose,
-            onValueChange: handleNumberOptionChange,
-            onBackClick: () => setSubmenu(1 /* OPTIONS */)
-          }
-        ),
-        submenu === 9 /* TEXT_INPUT_NUMBER_SEPARATOR */ && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
-          TextInputSubmenu,
-          {
-            title: "Separator",
-            closeRequest,
-            value: numberSeparator,
-            onClose,
-            onValueChange: handleNumberOptionChange,
-            onBackClick: () => setSubmenu(1 /* OPTIONS */)
-          }
-        ),
-        submenu === 10 /* FRONTMATTER_KEY */ && /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
-          FrontmatterKeySubmenu,
-          {
-            title: "Frontmatter key",
-            closeRequest,
-            frontmatterKeys,
-            frontmatterKey,
-            onClose,
-            onFrontMatterKeyChange: handleFrontmatterKeyChange,
-            onBackClick: () => setSubmenu(null)
-          }
-        )
-      ] })
-    }
-  );
-}
-
-// src/react/loom-app/header-cell-container/index.tsx
-var import_jsx_runtime132 = __toESM(require_jsx_runtime());
-function HeaderCellContainer({
-  index,
-  column,
-  numSources,
-  numColumns,
-  frontmatterKeys,
-  numFrozenColumns,
-  resizingColumnId,
-  onColumnChange,
-  onColumnDeleteClick,
-  onFrozenColumnsChange,
-  onColumnTypeChange
-}) {
-  const { id: columnId, type, width, content } = column;
-  const {
-    menu,
-    triggerRef,
-    triggerPosition,
-    isOpen,
-    closeRequest,
-    onOpen,
-    onClose,
-    onRequestClose
-  } = useMenu({
-    shouldRequestOnClose: true
-  });
-  const [forceUpdateTime, forceUpdate] = useForceUpdate();
-  import_react58.default.useEffect(() => {
-    if (width === "unset")
-      forceUpdate();
-  }, [width, forceUpdate]);
-  const shouldUpdateWidth = useCompare(forceUpdateTime, false);
-  import_react58.default.useEffect(() => {
-    if (shouldUpdateWidth) {
-      const newWidth = numToPx(triggerPosition.width);
-      onColumnChange(columnId, {
-        width: newWidth
-      });
-    }
-  }, [columnId, shouldUpdateWidth, triggerPosition]);
-  const lucideId = getIconIdForCellType(type);
-  let contentClassName = "dataloom-cell--header__inner-container";
-  if (resizingColumnId == null)
-    contentClassName += " dataloom-selectable";
-  return /* @__PURE__ */ (0, import_jsx_runtime132.jsxs)(import_jsx_runtime132.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
-      menu_trigger_default,
-      {
-        ref: triggerRef,
-        menu,
-        isCell: true,
-        shouldOpenOnTrigger: resizingColumnId === null,
-        onOpen,
-        children: /* @__PURE__ */ (0, import_jsx_runtime132.jsxs)(
-          "div",
-          {
-            className: "dataloom-cell--header__container",
-            style: {
-              width
-            },
-            children: [
-              /* @__PURE__ */ (0, import_jsx_runtime132.jsx)("div", { className: contentClassName, children: /* @__PURE__ */ (0, import_jsx_runtime132.jsxs)(Stack, { isHorizontal: true, spacing: "md", align: "center", children: [
-                /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(Icon, { lucideId, size: "md" }),
-                content
-              ] }) }),
-              /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
-                ColumnResize,
-                {
-                  currentResizingId: resizingColumnId,
-                  columnId,
-                  width,
-                  onWidthChange: (id2, value) => {
-                    onColumnChange(id2, {
-                      width: value
-                    });
-                  },
-                  onMenuClose: () => onClose(false)
-                }
-              )
-            ]
-          }
-        )
-      }
-    ),
-    /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
-      HeaderMenu,
-      {
-        index,
-        isOpen,
-        numSources,
-        closeRequest,
-        frontmatterKeys,
-        triggerPosition,
-        id: menu.id,
-        numFrozenColumns,
-        column,
-        canDeleteColumn: numColumns > 1 && type !== "source-file" /* SOURCE_FILE */ && type !== "source" /* SOURCE */,
-        numColumns,
-        onColumnDeleteClick,
-        onColumnChange,
-        onClose,
-        onRequestClose,
-        onFrozenColumnsChange,
-        onColumnTypeChange
-      }
-    )
-  ] });
-}
-
-// src/react/loom-app/new-column-button/index.tsx
-var import_jsx_runtime133 = __toESM(require_jsx_runtime());
-function NewColumnButton({ onClick }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime133.jsx)("div", { className: "dataloom-new-column", children: /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(
-    Button,
-    {
-      icon: /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(Icon, { lucideId: "plus" }),
-      ariaLabel: "New column",
-      onClick: () => onClick()
-    }
-  ) });
-}
-
-// src/shared/deserialize-frontmatter/utils.ts
-var cellTypeToFrontMatterKeyTypes = (type) => {
-  switch (type) {
-    case "text" /* TEXT */:
-    case "embed" /* EMBED */:
-    case "file" /* FILE */:
-    case "tag" /* TAG */:
-      return ["text"];
-    case "number" /* NUMBER */:
-    case "date" /* DATE */:
-      return ["number"];
-    case "checkbox" /* CHECKBOX */:
-      return ["boolean"];
-    case "multi-tag" /* MULTI_TAG */:
-      return ["tags", "list"];
-    case "creation-time" /* CREATION_TIME */:
-    case "last-edited-time" /* LAST_EDITED_TIME */:
-    case "source" /* SOURCE */:
-    case "source-file" /* SOURCE_FILE */:
-      return [];
-    default:
-      throw new Error("Cell type not handled");
-  }
+    observer.observe(document.body, { childList: true });
+    return () => observer.disconnect();
+  }, [logger, onCloseAll]);
 };
-
-// src/react/loom-app/app/get-header-row.tsx
-var import_jsx_runtime134 = __toESM(require_jsx_runtime());
-function getHeaderRow({
-  allFrontMatterKeys,
-  firstColumnId,
-  lastColumnId,
-  columns,
-  numSources,
-  numFrozenColumns,
-  resizingColumnId,
-  onColumnChange,
-  onColumnDeleteClick,
-  onColumnAddClick,
-  onColumnTypeChange,
-  onFrozenColumnsChange
-}) {
-  const visibleColumns = columns.filter((column) => column.isVisible);
-  return {
-    id: "header-row",
-    cells: [
-      {
-        id: firstColumnId,
-        content: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)("div", { className: "dataloom-cell--left-corner" })
-      },
-      ...visibleColumns.map((column, i2) => {
-        const { id: id2, type } = column;
-        const frontmatterTypes = cellTypeToFrontMatterKeyTypes(type);
-        let frontmatterKeys = [];
-        frontmatterTypes.forEach((type2) => {
-          var _a2;
-          frontmatterKeys = frontmatterKeys.concat(
-            (_a2 = allFrontMatterKeys.get(type2)) != null ? _a2 : []
-          );
-        });
-        frontmatterKeys = frontmatterKeys.filter((key) => {
-          const columnWithKey = columns.find(
-            (column2) => {
-              var _a2;
-              return ((_a2 = column2.frontmatterKey) == null ? void 0 : _a2.value) === key;
-            }
-          );
-          if (!columnWithKey)
-            return true;
-          if (columnWithKey.id === id2)
-            return true;
-          return false;
-        });
-        return {
-          id: id2,
-          content: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(
-            HeaderCellContainer,
-            {
-              index: i2,
-              column,
-              frontmatterKeys,
-              numColumns: columns.length,
-              numSources,
-              numFrozenColumns,
-              resizingColumnId,
-              onColumnChange,
-              onColumnDeleteClick,
-              onColumnTypeChange,
-              onFrozenColumnsChange
-            },
-            id2
-          )
-        };
-      }),
-      {
-        id: lastColumnId,
-        content: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(NewColumnButton, { onClick: onColumnAddClick })
-      }
-    ]
-  };
-}
 
 // src/react/loom-app/app/index.tsx
 var import_jsx_runtime135 = __toESM(require_jsx_runtime());
-function App11() {
+function App10() {
   const logger = useLogger();
   const { reactAppId, isMarkdownView, app } = useAppMount();
   const {
@@ -62870,14 +63173,15 @@ function App11() {
     onUndo,
     setLoomState
   } = useLoomState();
-  const tableRef = import_react59.default.useRef(null);
-  const { onRequestCloseTop } = useMenuOperations();
+  const tableRef = import_react65.default.useRef(null);
+  const appRef = import_react65.default.useRef(null);
   useExportEvents(loomState);
   useRowEvents();
   useColumnEvents();
   useMenuEvents();
+  const { onClick } = useAppEvents();
   const {
-    allFrontMatterKeys,
+    frontmatterKeys,
     onSourceAdd,
     onSourceDelete,
     onUpdateRowsFromSources
@@ -62889,13 +63193,15 @@ function App11() {
     onColumnDeleteClick,
     onColumnAddClick,
     onColumnTypeChange,
-    onColumnChange
+    onColumnChange,
+    onColumnReorder
   } = useColumn();
   const {
     onRowAddClick,
     onRowDeleteClick,
     onRowInsertAboveClick,
-    onRowInsertBelowClick
+    onRowInsertBelowClick,
+    onRowReorder
   } = useRow();
   const { onCellChange } = useCell();
   const {
@@ -62908,7 +63214,7 @@ function App11() {
   } = useTag();
   const { columns, filters, settings, sources } = loomState.model;
   const { numFrozenColumns, showCalculationRow } = settings;
-  const frontmatterKeyHash = (0, import_react59.useMemo)(() => {
+  const frontmatterKeyHash = import_react65.default.useMemo(() => {
     return JSON.stringify(
       columns.map((column) => {
         var _a2;
@@ -62916,7 +63222,7 @@ function App11() {
       })
     );
   }, [columns]);
-  import_react59.default.useEffect(() => {
+  import_react65.default.useEffect(() => {
     onUpdateRowsFromSources();
   }, [
     setLoomState,
@@ -62925,7 +63231,7 @@ function App11() {
     frontmatterKeyHash,
     onUpdateRowsFromSources
   ]);
-  import_react59.default.useEffect(() => {
+  import_react65.default.useEffect(() => {
     app.workspace.on(EVENT_FILE_CREATE, onUpdateRowsFromSources);
     app.workspace.on(
       EVENT_FILE_FRONTMATTER_CHANGE,
@@ -62947,8 +63253,6 @@ function App11() {
       app.workspace.off(EVENT_FOLDER_DELETE, onUpdateRowsFromSources);
     };
   }, [onUpdateRowsFromSources, app]);
-  const firstColumnId = useUUID();
-  const lastColumnId = useUUID();
   function handleScrollToTopClick() {
     var _a2;
     (_a2 = tableRef.current) == null ? void 0 : _a2.scrollToIndex(0);
@@ -62956,11 +63260,6 @@ function App11() {
   function handleScrollToBottomClick() {
     var _a2;
     (_a2 = tableRef.current) == null ? void 0 : _a2.scrollToIndex(filteredRows.length - 1);
-  }
-  function handleClick(e) {
-    logger("App handleClick");
-    e.stopPropagation();
-    onRequestCloseTop();
   }
   function handleKeyDown(e) {
     logger("App handleKeyDown");
@@ -62974,7 +63273,6 @@ function App11() {
     } else {
       onFocusKeyDown(e);
     }
-    nltEventSystem.dispatchEvent("keydown", e);
   }
   let filteredRows = filterByFilters2(loomState);
   filteredRows = filterRowsBySearch(
@@ -62983,58 +63281,17 @@ function App11() {
     filteredRows,
     searchText
   );
-  const visibleColumns = columns.filter((column) => column.isVisible);
-  const headerRow = getHeaderRow({
-    allFrontMatterKeys,
-    firstColumnId,
-    lastColumnId,
-    columns,
-    numFrozenColumns,
-    resizingColumnId,
-    numSources: sources.length,
-    onColumnChange,
-    onFrozenColumnsChange,
-    onColumnDeleteClick,
-    onColumnAddClick,
-    onColumnTypeChange
-  });
-  const bodyRows = getBodyRows({
-    sources,
-    firstColumnId,
-    lastColumnId,
-    visibleColumns,
-    rows: filteredRows,
-    onTagCellAdd,
-    onTagAdd,
-    onTagCellRemove,
-    onTagCellMultipleRemove,
-    onTagDeleteClick,
-    onRowDeleteClick,
-    onRowInsertAboveClick,
-    onRowInsertBelowClick,
-    onCellChange,
-    onColumnChange,
-    onTagChange
-  });
-  const footerRow = getFooterRow({
-    showCalculationRow,
-    firstColumnId,
-    lastColumnId,
-    visibleColumns,
-    rows: filteredRows,
-    sources,
-    onColumnChange
-  });
   let className = "dataloom-app";
   if (isMarkdownView)
     className += " dataloom-app--markdown-view";
   return /* @__PURE__ */ (0, import_jsx_runtime135.jsxs)(
     "div",
     {
+      ref: appRef,
       id: reactAppId,
       className,
       onKeyDown: handleKeyDown,
-      onClick: handleClick,
+      onClick,
       children: [
         /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(
           OptionBar,
@@ -63055,11 +63312,31 @@ function App11() {
         /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(
           table_default,
           {
-            numFrozenColumns,
             ref: tableRef,
-            headerRow,
-            bodyRows,
-            footer: footerRow
+            sources,
+            rows: filteredRows,
+            frontmatterKeys,
+            columns,
+            numFrozenColumns,
+            resizingColumnId,
+            showCalculationRow,
+            onColumnDeleteClick,
+            onColumnAddClick,
+            onColumnTypeChange,
+            onFrozenColumnsChange,
+            onColumnReorder,
+            onRowDeleteClick,
+            onRowInsertAboveClick,
+            onRowInsertBelowClick,
+            onColumnChange,
+            onCellChange,
+            onTagAdd,
+            onTagCellAdd,
+            onTagCellRemove,
+            onTagCellMultipleRemove,
+            onTagChange,
+            onTagDeleteClick,
+            onRowReorder
           }
         ),
         /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(
@@ -63078,9 +63355,9 @@ function App11() {
 }
 
 // src/react/shared/error-boundary/index.tsx
-var import_react60 = __toESM(require_react());
+var import_react66 = __toESM(require_react());
 var import_jsx_runtime136 = __toESM(require_jsx_runtime());
-var ErrorBoundary = class extends import_react60.default.Component {
+var ErrorBoundary = class extends import_react66.default.Component {
   constructor(props) {
     super(props);
     this.state = { hasError: false };
@@ -63139,7 +63416,7 @@ function LoomApp({
         {
           initialState: loomState,
           onSaveState,
-          children: /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(DragProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(MenuProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(App11, {}) }) })
+          children: /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(DragProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(MenuProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(App10, {}) }) })
         }
       ) })
     }
@@ -63279,7 +63556,7 @@ function EditingViewPlugin(app, pluginVersion) {
 }
 
 // src/data/loom-file.ts
-var import_obsidian19 = require("obsidian");
+var import_obsidian18 = require("obsidian");
 
 // src/data/utils.ts
 var splitFileExtension = (filePath) => {
@@ -63309,7 +63586,14 @@ var updateLinkReferences = (content, newPath, oldPath) => {
 
 // src/data/file-operations.ts
 var createFolder = (app, folderPath) => __async(void 0, null, function* () {
-  return app.vault.createFolder(folderPath);
+  try {
+    yield app.vault.createFolder(folderPath);
+  } catch (err) {
+    const error = err;
+    if (error.message.includes("already exists"))
+      return;
+    throw err;
+  }
 });
 var createFile = (app, filePath, data, numExisting = 0) => __async(void 0, null, function* () {
   try {
@@ -63318,46 +63602,77 @@ var createFile = (app, filePath, data, numExisting = 0) => __async(void 0, null,
       throw new SyntaxError("File must include an extension");
     const numIterations = numExisting > 0 ? " " + numExisting : "";
     const filePathWithIteration = filePathExtension[0] + numIterations + filePathExtension[1];
-    yield app.vault.create(filePathWithIteration, data);
-    return filePathWithIteration;
+    const file = yield app.vault.create(filePathWithIteration, data);
+    return file;
   } catch (err) {
     const error = err;
-    if (error.message.includes("File already exists")) {
+    if (error.message.includes("already exists")) {
       return createFile(app, filePath, data, numExisting + 1);
-    } else {
-      throw err;
     }
+    throw err;
   }
 });
 
 // src/data/loom-file.ts
-var createLoomFile = (app, folderPath, pluginVersion, defaultFrozenColumnCount) => __async(void 0, null, function* () {
+var createLoomFile = (app, pluginVersion, defaultFrozenColumnCount, folderOptions) => __async(void 0, null, function* () {
+  const {
+    contextMenuFolderPath,
+    createAtAttachmentsFolder,
+    customFolderForNewFiles
+  } = folderOptions;
   try {
-    yield createFolderIfNotExists(app, folderPath);
-    const filePath = getFilePath(folderPath);
+    const fileName = getFileName();
+    const folderPath = yield getFolderForNewLoomFile(app, {
+      contextMenuFolderPath,
+      createAtAttachmentsFolder,
+      customFolderForNewFiles
+    });
+    yield createFolder(app, folderPath);
+    const filePath = (0, import_obsidian18.normalizePath)(folderPath + "/" + fileName);
+    const formattedPath = removeLeadingPeriod(filePath);
     const loomState = createLoomState(
       pluginVersion,
       defaultFrozenColumnCount
     );
     const serializedState = serializeState(loomState);
-    return yield createFile(app, filePath, serializedState);
+    const file = yield createFile(app, formattedPath, serializedState);
+    return file;
   } catch (err) {
-    new import_obsidian19.Notice("Could not create loom file");
+    new import_obsidian18.Notice("Could not create loom file");
     throw err;
   }
 });
-var getFileName = () => {
-  const fileName = DEFAULT_LOOM_NAME;
-  return `${fileName}.${LOOM_EXTENSION}`;
-};
-var getFilePath = (folderPath) => {
-  const fileName = getFileName();
-  return (0, import_obsidian19.normalizePath)(folderPath + "/" + fileName);
-};
-var createFolderIfNotExists = (app, folderPath) => __async(void 0, null, function* () {
-  if (app.vault.getAbstractFileByPath(folderPath) == null)
-    yield createFolder(app, folderPath);
+var getFolderForNewLoomFile = (app, options) => __async(void 0, null, function* () {
+  const {
+    contextMenuFolderPath,
+    createAtAttachmentsFolder,
+    customFolderForNewFiles
+  } = options;
+  let folderPath = "";
+  if (contextMenuFolderPath) {
+    folderPath = contextMenuFolderPath;
+  } else if (createAtAttachmentsFolder) {
+    const openFile = app.workspace.getActiveFile();
+    folderPath = yield app.vault.getAvailablePathForAttachments(
+      "",
+      "",
+      openFile
+    );
+  } else {
+    folderPath = customFolderForNewFiles;
+  }
+  const normalized = (0, import_obsidian18.normalizePath)(folderPath);
+  return normalized;
 });
+var getFileName = () => {
+  return `${DEFAULT_LOOM_NAME}.${LOOM_EXTENSION}`;
+};
+var removeLeadingPeriod = (path) => {
+  if (path.startsWith(".")) {
+    return path.substring(1);
+  }
+  return path;
+};
 
 // src/main.ts
 var import_lodash23 = __toESM(require_lodash());
@@ -63370,12 +63685,11 @@ var DEFAULT_SETTINGS = {
   defaultEmbedHeight: "340px",
   hasMigratedTo800: false,
   showWelcomeModal: true,
-  showSupportModal: true,
   showWhatsNewModal: true,
   defaultFrozenColumnCount: 1,
   pluginVersion: ""
 };
-var DataLoomPlugin = class extends import_obsidian20.Plugin {
+var DataLoomPlugin = class extends import_obsidian19.Plugin {
   onload() {
     return __async(this, null, function* () {
       yield this.loadSettings();
@@ -63438,10 +63752,10 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
           try {
             yield this.app.vault.rename(file, newFilePath);
           } catch (err) {
-            new import_obsidian20.Notice(
+            new import_obsidian19.Notice(
               `Failed renaming ${file.path} to ${newFilePath}`
             );
-            new import_obsidian20.Notice("Please rename this file manually");
+            new import_obsidian19.Notice("Please rename this file manually");
           }
         }
         this.settings.hasMigratedTo800 = true;
@@ -63449,50 +63763,31 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
       }
     });
   }
-  getFolderForNewLoomFile(contextMenuFolderPath) {
-    let folderPath = "";
-    if (contextMenuFolderPath) {
-      folderPath = contextMenuFolderPath;
-    } else if (this.settings.createAtObsidianAttachmentFolder) {
-      folderPath = this.app.vault.getConfig(
-        "attachmentFolderPath"
-      );
-    } else {
-      folderPath = this.settings.customFolderForNewFiles;
-    }
-    const normalized = (0, import_obsidian20.normalizePath)(folderPath);
-    if (normalized === ".")
-      return "/";
-    return normalized;
-  }
   newLoomFile(contextMenuFolderPath, embedded) {
     return __async(this, null, function* () {
-      const folderPath = this.getFolderForNewLoomFile(contextMenuFolderPath);
-      const filePath = yield createLoomFile(
+      const file = yield createLoomFile(
         this.app,
-        folderPath,
         this.manifest.version,
-        this.settings.defaultFrozenColumnCount
+        this.settings.defaultFrozenColumnCount,
+        {
+          contextMenuFolderPath,
+          createAtAttachmentsFolder: this.settings.createAtObsidianAttachmentFolder,
+          customFolderForNewFiles: this.settings.customFolderForNewFiles
+        }
       );
       if (embedded)
-        return filePath;
-      yield this.app.workspace.getLeaf(true).setViewState({
-        type: DATA_LOOM_VIEW,
-        active: true,
-        state: { file: filePath }
-      });
+        return file.path;
+      yield this.app.workspace.getLeaf(true).openFile(file);
     });
   }
   registerDOMEvents() {
     this.registerDomEvent(document, "click", () => {
-      if (this.settings.shouldDebug)
-        console.log("main handleClick");
+      log(this.settings.shouldDebug, "main handleClick");
       removeCurrentFocusClass();
       this.app.workspace.trigger(EVENT_GLOBAL_CLICK);
     });
     this.registerDomEvent(document, "keydown", (e) => {
-      if (this.settings.shouldDebug)
-        console.log("main handleKeyDown");
+      log(this.settings.shouldDebug, "main handleKeyDown");
       this.app.workspace.trigger(EVENT_GLOBAL_KEYDOWN, e);
     });
   }
@@ -63518,7 +63813,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
     );
     this.registerEvent(
       this.app.workspace.on("file-menu", (menu, file) => {
-        if (file instanceof import_obsidian20.TFolder) {
+        if (file instanceof import_obsidian19.TFolder) {
           menu.addItem((item) => {
             item.setTitle("New loom").setIcon("document").onClick(() => __async(this, null, function* () {
               yield this.newLoomFile(file.path);
@@ -63548,11 +63843,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
         if (shouldOpen) {
           this.displayModalsOnLoomOpen = false;
           if (this.settings.showWhatsNewModal) {
-            new WhatsNewModal(this.app, () => {
-              if (this.settings.showSupportModal) {
-                new SupportModal(this.app).open();
-              }
-            }).open();
+            new WhatsNewModal(this.app).open();
           }
         }
       }))
@@ -63561,7 +63852,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
       this.app.vault.on(
         "rename",
         (file, oldPath) => __async(this, null, function* () {
-          if (file instanceof import_obsidian20.TFile) {
+          if (file instanceof import_obsidian19.TFile) {
             const loomFiles = this.app.vault.getFiles().filter(
               (file2) => file2.extension === LOOM_EXTENSION
             );
@@ -63598,16 +63889,19 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
               });
             }
             if (numLinks > 0) {
-              new import_obsidian20.Notice(
+              new import_obsidian19.Notice(
                 `Updating ${numLinks} link${numLinks > 1 ? "s" : ""} in ${loomsToUpdate.length} loom file${loomsToUpdate.length > 1 ? "s" : ""}.`
               );
             }
             for (let i2 = 0; i2 < loomsToUpdate.length; i2++) {
               const { file: loomFile, state } = loomsToUpdate[i2];
-              if (this.settings.shouldDebug)
-                console.log("Updating links in file", {
+              log(
+                this.settings.shouldDebug,
+                "Updating links in file",
+                {
                   path: loomFile.path
-                });
+                }
+              );
               const newState = (0, import_lodash23.cloneDeep)(state);
               newState.model.rows.map((row) => {
                 const { cells } = row;
@@ -63619,12 +63913,14 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
                     oldPath
                   );
                   if (content !== newContent) {
-                    if (this.settings.shouldDebug) {
-                      console.log("Updated link", {
+                    log(
+                      this.settings.shouldDebug,
+                      "Updated link",
+                      {
                         oldLink: content,
                         newLink: newContent
-                      });
-                    }
+                      }
+                    );
                   }
                   return __spreadProps(__spreadValues({}, cell), {
                     content: newContent
@@ -63657,7 +63953,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
   registerSourceEvents() {
     this.registerEvent(
       this.app.vault.on("rename", (file) => {
-        if (file instanceof import_obsidian20.TFile) {
+        if (file instanceof import_obsidian19.TFile) {
           this.app.vault.trigger(EVENT_FILE_RENAME);
         } else {
           this.app.vault.trigger(EVENT_FOLDER_RENAME);
@@ -63666,14 +63962,14 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
     );
     this.registerEvent(
       this.app.vault.on("create", (file) => {
-        if (file instanceof import_obsidian20.TFile) {
+        if (file instanceof import_obsidian19.TFile) {
           this.app.vault.trigger(EVENT_FILE_CREATE);
         }
       })
     );
     this.registerEvent(
       this.app.vault.on("delete", (file) => {
-        if (file instanceof import_obsidian20.TFile) {
+        if (file instanceof import_obsidian19.TFile) {
           this.app.vault.trigger(EVENT_FILE_DELETE);
         } else {
           this.app.vault.trigger(EVENT_FOLDER_DELETE);
@@ -63682,7 +63978,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
     );
     this.registerEvent(
       this.app.metadataCache.on("changed", (file) => {
-        if (file instanceof import_obsidian20.TFile) {
+        if (file instanceof import_obsidian19.TFile) {
           this.app.vault.trigger(EVENT_FILE_FRONTMATTER_CHANGE);
         }
       })
@@ -63722,7 +64018,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "\\" }],
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian20.MarkdownView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian19.MarkdownView);
         if (loomView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_COLUMN_ADD);
@@ -63738,7 +64034,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Backspace" }],
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian20.MarkdownView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian19.MarkdownView);
         if (loomView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_COLUMN_DELETE);
@@ -63754,7 +64050,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Enter" }],
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian20.MarkdownView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian19.MarkdownView);
         if (loomView || markdownView) {
           if (!checking)
             this.app.workspace.trigger(EVENT_ROW_ADD);
@@ -63769,7 +64065,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
       hotkeys: [{ modifiers: ["Alt", "Shift"], key: "Backspace" }],
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian20.MarkdownView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian19.MarkdownView);
         if (loomView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_ROW_DELETE);
@@ -63784,7 +64080,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
       name: "Export as markdown",
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian20.MarkdownView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian19.MarkdownView);
         if (loomView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_DOWNLOAD_MARKDOWN);
@@ -63799,7 +64095,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
       name: "Export as CSV",
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian20.MarkdownView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian19.MarkdownView);
         if (loomView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_DOWNLOAD_CSV);

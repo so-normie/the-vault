@@ -10,10 +10,11 @@
     "keyboard-button",
     "header-font-size",
     "code",
-    "callouts"
+    "callouts",
+    "icons"
   ],
   "monospaceFontFamily": "CaskaydiaCove Nerd Font",
   "textFontFamily": "Atkinson Hyperlegible",
   "cssTheme": "Minimal",
-  "baseFontSize": 16
+  "baseFontSize": 13
 }

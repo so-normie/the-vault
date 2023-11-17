@@ -1,0 +1,59 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+body {
+	--cloze-underline-width: 1px;
+	--cloze-underline-style: solid;
+	--cloze-underline-color: var(--text-normal);
+	--cloze-fixed-width: 30px;
+	--cloze-hint-color: var(--text-muted);
+	--cloze-hint-font-size: var(--font-ui-smaller);
+}
+
+.cloze-span,
+.cloze[data-cloze-hide=true]{
+    cursor: pointer;
+}
+
+.cloze-span,
+.cloze{
+    border-bottom: var(--cloze-underline-width) var(--cloze-underline-style) var(--cloze-underline-color) !important;
+}
+
+[data-cloze-hide=true]:not(.cloze-hint) {
+	color: transparent !important;
+	text-shadow: none !important;
+}
+
+/* embedded segs */
+[data-cloze-hide=true] mark,
+[data-cloze-hide=true] u,
+[data-cloze-hide=true] strong {
+	color: transparent !important;
+	text-shadow: none !important;
+}
+
+/* fixed cloze width */
+.cloze-fixed-width .cloze[data-cloze-hide=true]:not(.cloze-hint) {
+	white-space: nowrap;
+	width: var(--cloze-fixed-width);
+	display: inline-block;
+	overflow: hidden;
+}
+
+/* cloze hint */
+.cloze-hint {
+	color: var(--cloze-hint-color);
+	font-size: var(--cloze-hint-font-size);
+	text-shadow: none !important;
+}
+
+.modal-hint-setting input{
+	width: 100%;
+}

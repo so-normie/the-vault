@@ -6,7 +6,7 @@
   "defaultViewMode": "preview",
   "livePreview": false,
   "readableLineLength": false,
-  "promptDelete": true,
+  "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": true,
   "showInlineTitle": false,
@@ -19,5 +19,6 @@
     "the-vault/scripts/",
     "the-vault/anki/"
   ],
-  "trashOption": "local"
+  "trashOption": "local",
+  "newFileLocation": "current"
 }

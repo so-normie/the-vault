@@ -1,682 +1,124 @@
 {
   "settings": {
     "migrated": 3,
-    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "EiStrataScratch",
-      "TiBible",
-      "BoBxBible",
-      "RiDeleteBinLine",
-      "SiYoutube"
+      "EiZoteroItem",
+      "BoBxsMessageSquareDots",
+      "SiWindows",
+      "EiPragmatiCoders",
+      "SiMicrosoftsqlserver",
+      "SiApachespark",
+      "EiRclone",
+      "EiPlantPot",
+      "RiPlantFill",
+      "SiAnaconda",
+      "SiPython",
+      "SiObsidian",
+      "EiVimium",
+      "SiWolframmathematica",
+      "SiYarn"
     ],
-    "recentlyUsedIconsSize": 5,
+    "recentlyUsedIconsSize": 15,
     "rules": [
       {
-        "rule": ".* ▹ 📋 Table of Contents",
-        "icon": "RiListOrdered2",
+        "rule": "the-vault\\/assets\\/excalidraw\\/.*\\.excalidraw",
+        "icon": "LiPenTool",
         "for": "files",
         "order": 0,
-        "useFilePath": true
+        "useFilePath": false
       },
       {
-        "rule": "zotero\\/.*",
-        "icon": "EiZoteroItem",
+        "rule": "the-vault\\/assets\\/audios\\/.*",
+        "icon": "FarFileAudio",
         "for": "files",
         "order": 1,
-        "useFilePath": true
+        "useFilePath": false
       },
       {
-        "rule": "🌐 LeetCode",
-        "icon": "SiLeetcode",
-        "for": "folders",
+        "rule": ".*\\.svg",
+        "icon": "SiSvg",
+        "for": "files",
         "order": 2,
-        "useFilePath": true
+        "useFilePath": false
       },
       {
-        "rule": "🌐 Structy",
-        "icon": "EiStructy",
-        "for": "folders",
+        "rule": ".*\\.[png,jpg,webp]",
+        "icon": "LiFileImage",
+        "for": "files",
         "order": 3,
-        "useFilePath": true
+        "useFilePath": false
       },
       {
-        "rule": "📕 Foundations of Scalable Systems \\(2022\\)",
-        "icon": "EiOReilly",
-        "for": "folders",
+        "rule": ".*\\.gif",
+        "icon": "RiFileGifLine",
+        "for": "files",
         "order": 4,
-        "useFilePath": true
+        "useFilePath": false
       },
       {
-        "rule": "🗒️ C++",
-        "icon": "SiCplusplus",
-        "for": "folders",
+        "rule": ".*\\.ps1",
+        "icon": "TiBrandPowershell",
+        "for": "files",
+        "order": 5
+      },
+      {
+        "rule": ".*\\.js",
+        "icon": "TiBrandJavascript",
+        "for": "files",
         "order": 6
       },
       {
-        "rule": "\\.jpg",
-        "icon": "FarFileImage",
+        "rule": ".*sortspec\\.md",
+        "icon": "TiSortDescending2",
         "for": "files",
-        "order": 7,
-        "useFilePath": true
+        "order": 7
       },
       {
-        "rule": "\\.excalidraw\\.md",
-        "icon": "RiPenNibLine",
+        "rule": ".*\\.code-workspace",
+        "icon": "TiBrandVscode",
         "for": "files",
-        "order": 8,
-        "useFilePath": true
+        "order": 13
       },
       {
-        "rule": "\\.gif",
-        "icon": "TiGif",
+        "rule": ".*\\.mp4",
+        "icon": "LiFileVideo2",
         "for": "files",
-        "order": 8,
-        "useFilePath": true
+        "order": 13
       },
       {
-        "rule": "\\.jpeg",
-        "icon": "FarFileImage",
-        "for": "files",
-        "order": 9,
-        "useFilePath": true
-      },
-      {
-        "rule": "\\.js",
-        "icon": "TiBrandJavascript",
-        "for": "files",
-        "order": 9,
-        "useFilePath": true
-      },
-      {
-        "rule": "sortspec\\.md",
-        "icon": "RiSortDesc",
-        "for": "files",
-        "order": 12,
-        "useFilePath": true
-      },
-      {
-        "rule": "\\.mp3",
-        "icon": "FarFileAudio",
-        "for": "files",
-        "order": 13,
-        "useFilePath": true
-      },
-      {
-        "rule": "\\.pdf",
-        "icon": "FarFilePdf",
-        "for": "files",
-        "order": 14,
-        "useFilePath": true
-      },
-      {
-        "rule": "\\.png",
-        "icon": "FarFileImage",
-        "for": "files",
-        "order": 15,
-        "useFilePath": true
-      },
-      {
-        "rule": "\\.svg",
-        "icon": "SiSvg",
-        "for": "files",
-        "order": 16,
-        "useFilePath": true
-      },
-      {
-        "rule": "\\.ps1",
-        "icon": "TiBrandPowershell",
-        "for": "files",
-        "order": 17,
-        "useFilePath": true
-      },
-      {
-        "rule": "\\.ttf",
+        "rule": ".*\\.ttf",
         "icon": "FasFont",
         "for": "files",
-        "order": 18,
-        "useFilePath": true
+        "order": 14
       },
       {
-        "rule": "\\.webm",
-        "icon": "FarFileAudio",
+        "rule": "∋ Table of Contents",
+        "icon": "FasListOl",
         "for": "files",
-        "order": 19,
-        "useFilePath": true
+        "order": 15
       },
       {
-        "rule": "\\.webp",
-        "icon": "FarFileImage",
-        "for": "files",
-        "order": 20,
-        "useFilePath": true
-      },
-      {
-        "rule": "^excalidraw-",
-        "icon": "RiPenNibLine",
-        "for": "files",
-        "order": 21
-      },
-      {
-        "rule": "C++ reference",
-        "icon": "EiCppReference",
-        "for": "folders",
-        "order": 22,
-        "useFilePath": true
-      },
-      {
-        "rule": "Template .*",
-        "icon": "TiTemplate",
-        "for": "files",
-        "order": 25,
-        "useFilePath": true
-      },
-      {
-        "rule": "📕 .*",
-        "icon": "BoBxsBook",
-        "for": "folders",
-        "order": 26,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Wolfram Mathematica",
-        "icon": "SiWolframmathematica",
-        "for": "folders",
-        "order": 28,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Yarn",
-        "icon": "SiYarn",
-        "for": "folders",
-        "order": 29,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ MSYS2",
-        "icon": "EiMSYS2",
-        "for": "folders",
-        "order": 29,
-        "useFilePath": true
-      },
-      {
-        "rule": "🌐 MSYS2 Documentation",
-        "icon": "EiMSYS2",
-        "for": "folders",
-        "order": 31,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Visual Studio Code",
-        "icon": "SiVisualstudiocode",
-        "for": "folders",
-        "order": 32,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Visual Studio",
-        "icon": "SiVisualstudio",
-        "for": "folders",
-        "order": 33,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ TypeScript",
-        "icon": "SiTypescript",
-        "for": "folders",
-        "order": 34,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Vimium",
-        "icon": "EiVimium",
-        "for": "folders",
-        "order": 35,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Rclone",
-        "icon": "EiRclone",
-        "for": "folders",
-        "order": 36,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Rust",
-        "icon": "SiRust",
-        "for": "folders",
-        "order": 37,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ PowerShell",
-        "icon": "SiPowershell",
-        "for": "folders",
-        "order": 38,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Quartz",
-        "icon": "EiPlantPot",
-        "for": "folders",
-        "order": 39,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Physics",
-        "icon": "EiPhysics",
-        "for": "folders",
-        "order": 40,
-        "useFilePath": true
-      },
-      {
-        "rule": "🌐 Typst",
-        "icon": "EiTypst",
-        "for": "folders",
-        "order": 41,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Node\\.js",
-        "icon": "FabNode",
-        "for": "folders",
-        "order": 42,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Microsoft Windows",
-        "icon": "FabMicrosoft",
-        "for": "folders",
-        "order": 43,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Neovim",
-        "icon": "SiNeovim",
-        "for": "folders",
-        "order": 44,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Microsoft Excel",
-        "icon": "SiMicrosoftexcel",
-        "for": "folders",
-        "order": 45,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ LaTeX",
-        "icon": "SiLatex",
-        "for": "folders",
-        "order": 46,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Lua",
-        "icon": "SiLua",
-        "for": "folders",
-        "order": 47,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ JavaScript",
-        "icon": "FabJava",
-        "for": "folders",
-        "order": 48,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ HTML",
-        "icon": "SiHtml5",
-        "for": "folders",
-        "order": 49,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Hugo",
-        "icon": "EiHugo",
-        "for": "folders",
-        "order": 50,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Google Apps Scripts",
-        "icon": "SiGoogleappsscript",
-        "for": "folders",
-        "order": 51,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ GoogleTest",
-        "icon": "SiGoogle",
-        "for": "folders",
-        "order": 52,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Go",
-        "icon": "SiGo",
-        "for": "folders",
-        "order": 53,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ ESBuild",
-        "icon": "SiEsbuild",
-        "for": "folders",
-        "order": 54,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ ESLint",
-        "icon": "SiEslint",
-        "for": "folders",
-        "order": 55,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Discord",
-        "icon": "SiDiscord",
-        "for": "folders",
-        "order": 56,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ CMake",
-        "icon": "EiCMake",
-        "for": "folders",
-        "order": 57,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Anki",
-        "icon": "EiAnki",
-        "for": "folders",
-        "order": 58,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Angular",
-        "icon": "SiAngular",
-        "for": "folders",
-        "order": 59,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Anaconda",
-        "icon": "SiAnaconda",
-        "for": "folders",
-        "order": 60,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ .NET",
-        "icon": "SiDotnet",
-        "for": "folders",
-        "order": 61,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Python",
-        "icon": "SiPython",
-        "for": "folders",
-        "order": 62,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Obsidian",
-        "icon": "SiObsidian",
-        "for": "folders",
-        "order": 63,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ JetBrains",
-        "icon": "SiJetbrains",
-        "for": "folders",
-        "order": 64,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ SQL Server",
-        "icon": "SiMicrosoftsqlserver",
-        "for": "folders",
-        "order": 65,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ SQL",
-        "icon": "TiSql",
-        "for": "folders",
-        "order": 66,
-        "useFilePath": true
-      },
-      {
-        "rule": "🔴 Academics\\/📚 Educational Resources(\\/🗒️ .*)\\/.*",
-        "icon": "EiScribbleNotes",
-        "for": "files",
-        "order": 66,
-        "useFilePath": true
-      },
-      {
-        "rule": "🌐 The Official Guide to Mermaid.js",
-        "icon": "EiMermaid",
-        "for": "folders",
-        "order": 68,
-        "useFilePath": true
-      },
-      {
-        "rule": "🌐 The Modern JavaScript Tutorial",
-        "icon": "LiRadioTower",
-        "for": "folders",
-        "order": 69,
-        "useFilePath": true
-      },
-      {
-        "rule": "🌐 Poetry Documentation",
-        "icon": "SiPoetry",
-        "for": "folders",
-        "order": 71,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Java",
-        "icon": "FabJava",
-        "for": "folders",
-        "order": 71,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ GitHub",
-        "icon": "SiGithub",
-        "for": "folders",
-        "order": 72,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Git",
-        "icon": "SiGit",
-        "for": "folders",
-        "order": 73,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Docker",
-        "icon": "SiDocker",
-        "for": "folders",
-        "order": 74,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Bash",
-        "icon": "SiGnubash",
-        "for": "folders",
-        "order": 75,
-        "useFilePath": true
-      },
-      {
-        "rule": "🌐 LearnCpp.com",
-        "icon": "EiLearnCpp",
-        "for": "folders",
-        "order": 76,
-        "useFilePath": true
-      },
-      {
-        "rule": "🗒️ Spark Optimization",
-        "icon": "SiApachespark",
-        "for": "folders",
-        "order": 77,
-        "useFilePath": true
-      },
-      {
-        "rule": "🌐 Codility",
-        "icon": "EiCodility",
-        "for": "folders",
-        "order": 78
-      },
-      {
-        "rule": "🌐 More Modern CMake",
-        "icon": "EiHsfLogo",
-        "for": "folders",
-        "order": 79
-      },
-      {
-        "rule": "🌐 Nodejs.dev",
-        "icon": "FabNode",
-        "for": "folders",
-        "order": 80
-      },
-      {
-        "rule": "🌐 HackerRank",
-        "icon": "SiHackerrank",
-        "for": "folders",
-        "order": 81
-      },
-      {
-        "rule": "🌐 Microsoft Learn",
-        "icon": "FabMicrosoft",
-        "for": "folders",
-        "order": 82
-      },
-      {
-        "rule": "🌐 IBM Technology",
-        "icon": "SiYoutube",
-        "for": "folders",
-        "order": 83
-      },
-      {
-        "rule": "🌐 PostgreSQL Documentation",
-        "icon": "BoBxlPostgresql",
-        "for": "folders",
-        "order": 85
-      },
-      {
-        "rule": "🌐 Use the Index, Luke!",
-        "icon": "EiUseTheIndexLuke",
-        "for": "folders",
-        "order": 86,
-        "useFilePath": true
-      },
-      {
-        "rule": "zotero",
-        "icon": "EiZotero",
-        "for": "folders",
-        "order": 86,
-        "useFilePath": true
-      },
-      {
-        "rule": "scripts",
-        "icon": "FasCode",
-        "for": "folders",
-        "order": 86,
-        "useFilePath": true
-      },
-      {
-        "rule": "🌐 GitHub Docs",
-        "icon": "SiGithub",
-        "for": "folders",
-        "order": 88
-      },
-      {
-        "rule": "templates",
-        "icon": "FasToolbox",
-        "for": "folders",
-        "order": 89,
-        "useFilePath": true
-      },
-      {
-        "rule": "anki",
-        "icon": "EiAnki",
-        "for": "folders",
-        "order": 89
-      },
-      {
-        "rule": "templates\\/.*",
-        "icon": "TiTemplate",
-        "for": "files",
-        "order": 89,
-        "useFilePath": true
-      },
-      {
-        "rule": "\\.code\\-workspace",
-        "icon": "SiVisualstudiocode",
-        "for": "files",
-        "order": 90
-      },
-      {
-        "rule": "the-vault\\/assets\\/(excalidraw|fonts|images|mermaid|videos|audios)",
+        "rule": ".*",
         "icon": "RiFolderFill",
         "for": "folders",
-        "order": 90,
-        "useFilePath": true
+        "order": 15
       },
       {
-        "rule": "the-vault\\/assets",
-        "icon": "LiBoxes",
-        "for": "folders",
-        "order": 90,
-        "useFilePath": true
-      },
-      {
-        "rule": "\\.md",
+        "rule": ".*\\.md",
         "icon": "RiMarkdownLine",
         "for": "files",
-        "order": 92
+        "order": 15,
+        "useFilePath": false
       },
       {
-        "rule": ".",
-        "icon": "RiFolderFill",
-        "for": "folders",
-        "order": 93,
-        "useFilePath": true
-      },
-      {
-        "rule": "\\.mp4",
-        "icon": "LiFileVideo",
+        "rule": ".*\\.mp3",
+        "icon": "LiFileAudio",
         "for": "files",
-        "order": 93
-      },
-      {
-        "rule": ".*\\.excalidraw\\.png",
-        "icon": "FarFileImage",
-        "for": "everything",
-        "order": 94
-      },
-      {
-        "rule": ".*\\.excalidraw",
-        "icon": "LiPencilRuler",
-        "for": "files",
-        "order": 95,
-        "useFilePath": true
-      },
-      {
-        "rule": ".* ▹ 📋 Table of Contents",
-        "icon": "RiListOrdered2",
-        "for": "files",
-        "order": 96,
-        "useFilePath": true
+        "order": 17
       }
     ],
     "extraMargin": {
@@ -685,9 +127,127 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": true,
-    "iconsBackgroundCheckEnabled": true,
-    "iconInTitleEnabled": false
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": true
   },
-  "the-vault/🔴 Academics/📚 Educational Resources/🌐 StrataScratch": "EiStrataScratch"
+  "the-vault/🔴 Academics/leila physics homework.md": "LiConstruction",
+  "the-vault/🔴 Academics/📚 Educational Resources/🗒️ GitHub": "FabGithub",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference": "EiCppReference",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs": "SiDocker",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Fluent Python, 2nd Edition (2022)": "EiOReilly",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Foundations of Scalable Systems (2022)": "EiOReilly",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs": "SiGithub",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/HackerRank": "SiHackerrank",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Introduction to Algorithms, 4th Edition (2022)": "FasBook",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com": "EiLearnCpp",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Learning SQL, 3rd Edition (2020)": "EiOReilly",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode": "SiLeetcode",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Microsoft Learn": "SiMicrosoft",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/MSYS2 Documentation": "EiMSYS2",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Nodejs.dev": "FabNode",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Poetry Documentation": "SiPoetry",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Postgres Conference": "SiYoutube",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/PostgreSQL Documentation": "EiPostgreSQL",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Precalculus꞉ Mathematics for Calculus, 7th Edition": "FasBook",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python in a Nutshell, 4th Edition (2023)": "EiOReilly",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy": "EiStructy",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/The Official Guide to Mermaid.js": "EiMermaid",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/The Modern JavaScript Tutorial": "LiRadioTower",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)": "FasBook",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Typst": "EiTypst",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)": "FasBook",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Use the Index, Luke!": "EiUseTheIndexLuke",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bash": "SiGnubash",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++": "SiCplusplus",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ CMake": "EiCMake",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Docker": "SiDocker",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git": "SiGit",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/111. Minimum Depth of Binary Tree.md": "LiConstruction",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/112. Path Sum.md": "LiConstruction",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/217. Contains Duplicate.md": "LiConstruction",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems (Easy).md": "LiConstruction",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems (Hard).md": "LiConstruction",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems (Medium).md": "LiConstruction",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Angular": "SiAngular",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Anaconda": "SiAnaconda",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Discord": "SiDiscord",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub": "SiGithub",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI": "SiGithub",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Go": "SiGo",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESBuild": "SiEsbuild",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint": "SiEslint",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Google Apps Scripts": "SiGoogleappsscript",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ HTML": "SiHtml5",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript": "SiJavascript",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JetBrains": "SiJetbrains",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ LaTeX": "SiLatex",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Lua": "SiLua",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Excel": "SiMicrosoftexcel",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Neovim": "SiNeovim",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ MSYS2": "EiMSYS2",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Codility": "EiCodility",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Java": "FabJava",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Hugo": "EiHugo",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET": "EiMicrosoftNET",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/6. Stack": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/7. Exhaustive Recursion": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python": "SiPython",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell": "SiPowershell",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Rollup": "SiRollupdotjs",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Anki": "EiAnki",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Visual Studio": "SiVisualstudio",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems": "RiBookmarkFill",
+  "the-vault/templates/Template {{Anki Note ∋ “⋕card-reverse”}}.md": "TiTemplate",
+  "the-vault/templates/Template {{Anki Note ∋ “⋕card”}}.md": "TiTemplate",
+  "the-vault/templates/Template {{Anki Note ∋ “🃏”}}.md": "TiTemplate",
+  "the-vault/templates/Template {{Anki Note ∋ “🎴”}}.md": "TiTemplate",
+  "the-vault/templates/Template {{Attempt}}.md": "TiTemplate",
+  "the-vault/templates/Template {{Structy ∋ Challenge}}.md": "TiTemplate",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 2꞉ Containerize an application.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Docker Overview.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/003. max-value 🧑🏽‍💻.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/004. is prime 👨🏽‍💻.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Rust": "SiRust",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Microservice APIs": "EiOReilly",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Discrete Mathematics and Its Applications, 8th Edition": "FasBook",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Discrete Mathematical Structures, 6th Edition": "FasBook",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Visual Studio Code": "SiVisualstudiocode",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ TypeScript": "SiTypescript",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ SQL": "TiSql",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 3꞉ Update the application.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 4꞉ Share the application.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JetBrains/Keyboard Shortcuts.md": "TiKeyboardHide",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Yarn": "SiYarn",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Wolfram Mathematica": "SiWolframmathematica",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Vimium": "EiVimium",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian": "SiObsidian",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/136. Single Number.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/141. Linked List Cycle.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Conda": "SiAnaconda",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Quartz": "EiPlantPot",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Rclone": "EiRclone",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Spark Optimization": "SiApachespark",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ SQL Server": "SiMicrosoftsqlserver",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders": "EiPragmatiCoders",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Windows": "SiWindows",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md": "BoBxsMessageSquareDots",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python": "SiPython",
+  "the-vault/zotero/My Library.bib": "EiZoteroItem"
 }
