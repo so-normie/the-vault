@@ -763,19 +763,19 @@
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 428,
+      "wordCount": 455,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.4266666666666667,
-      "characterCount": 2915,
-      "nonWhitespaceCharacterCount": 2243,
-      "readingTimeInMinutes": 1.6150943396226416,
+      "pageCount": 1.5166666666666666,
+      "characterCount": 2943,
+      "nonWhitespaceCharacterCount": 2388,
+      "readingTimeInMinutes": 1.7169811320754718,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208481451,
-      "modifiedDate": 1700208481451,
-      "sizeInBytes": 3185
+      "modifiedDate": 1700212963290,
+      "sizeInBytes": 3218
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Node.js/🗒️ Node.js ∋ Table of Contents.md": {
       "isCountable": true,
@@ -2988,8 +2988,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208480026,
-      "modifiedDate": 1700209006117,
-      "sizeInBytes": 3296
+      "modifiedDate": 1700216583287,
+      "sizeInBytes": 3301
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/sortspec.md": {
       "isCountable": true,
@@ -5274,8 +5274,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208479036,
-      "modifiedDate": 1700208479036,
-      "sizeInBytes": 1238
+      "modifiedDate": 1700216469993,
+      "sizeInBytes": 1217
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/016. array and string wrap up 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5310,8 +5310,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208479024,
-      "modifiedDate": 1700208479024,
-      "sizeInBytes": 2782
+      "modifiedDate": 1700216469884,
+      "sizeInBytes": 2760
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/014. five sort 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5328,8 +5328,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208479018,
-      "modifiedDate": 1700208479019,
-      "sizeInBytes": 9609
+      "modifiedDate": 1700216469750,
+      "sizeInBytes": 9587
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/013. intersection 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5346,8 +5346,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208479012,
-      "modifiedDate": 1700208479013,
-      "sizeInBytes": 13263
+      "modifiedDate": 1700216469622,
+      "sizeInBytes": 13241
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/012. check in 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5364,8 +5364,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208479007,
-      "modifiedDate": 1700208479007,
-      "sizeInBytes": 1050
+      "modifiedDate": 1700216469451,
+      "sizeInBytes": 1028
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/011. pair product 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5382,8 +5382,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208479003,
-      "modifiedDate": 1700208479003,
-      "sizeInBytes": 5119
+      "modifiedDate": 1700216469290,
+      "sizeInBytes": 5097
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/010. pair sum 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5400,8 +5400,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478996,
-      "modifiedDate": 1700208478997,
-      "sizeInBytes": 5706
+      "modifiedDate": 1700216469048,
+      "sizeInBytes": 5684
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/009. most frequent char 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5418,8 +5418,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478991,
-      "modifiedDate": 1700208478991,
-      "sizeInBytes": 10478
+      "modifiedDate": 1700216468898,
+      "sizeInBytes": 10456
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/008. anagrams 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5436,8 +5436,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478984,
-      "modifiedDate": 1700208478984,
-      "sizeInBytes": 8391
+      "modifiedDate": 1700216468773,
+      "sizeInBytes": 8369
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/007. compress 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5454,8 +5454,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478977,
-      "modifiedDate": 1700208478977,
-      "sizeInBytes": 10487
+      "modifiedDate": 1700216468501,
+      "sizeInBytes": 10465
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/006. uncompress 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5472,8 +5472,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478971,
-      "modifiedDate": 1700208478971,
-      "sizeInBytes": 21477
+      "modifiedDate": 1700216468385,
+      "sizeInBytes": 21455
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/005. array and string welcome 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5490,8 +5490,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478964,
-      "modifiedDate": 1700208478965,
-      "sizeInBytes": 3605
+      "modifiedDate": 1700216468345,
+      "sizeInBytes": 3583
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/004. is prime 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5508,8 +5508,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478958,
-      "modifiedDate": 1700208478958,
-      "sizeInBytes": 17789
+      "modifiedDate": 1700216569084,
+      "sizeInBytes": 17782
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/003. max-value 🧑🏽‍💻.md": {
       "isCountable": true,
@@ -5526,8 +5526,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478950,
-      "modifiedDate": 1700208478951,
-      "sizeInBytes": 34084
+      "modifiedDate": 1700216568921,
+      "sizeInBytes": 34077
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md": {
       "isCountable": true,
@@ -5544,8 +5544,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478944,
-      "modifiedDate": 1700208478944,
-      "sizeInBytes": 20945
+      "modifiedDate": 1700216568759,
+      "sizeInBytes": 20938
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5562,8 +5562,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478938,
-      "modifiedDate": 1700208478939,
-      "sizeInBytes": 2194
+      "modifiedDate": 1700216568567,
+      "sizeInBytes": 2187
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5580,8 +5580,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478931,
-      "modifiedDate": 1700208478932,
-      "sizeInBytes": 1778
+      "modifiedDate": 1700216568454,
+      "sizeInBytes": 1771
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/0. Introduction ∋ Table of Contents.md": {
       "isCountable": true,
@@ -5598,8 +5598,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478923,
-      "modifiedDate": 1700208478923,
-      "sizeInBytes": 2394
+      "modifiedDate": 1700216568181,
+      "sizeInBytes": 2388
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md": {
       "isCountable": true,
@@ -5735,15 +5735,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.39,
-      "characterCount": 3828,
+      "characterCount": 3647,
       "nonWhitespaceCharacterCount": 3069,
       "readingTimeInMinutes": 1.5735849056603775,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478886,
-      "modifiedDate": 1700208478886,
-      "sizeInBytes": 4262
+      "modifiedDate": 1700216660146,
+      "sizeInBytes": 4045
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Postgres Conference/🗒️ PostgreSQL Next Generation Parallel Query.md": {
       "isCountable": true,
@@ -13556,6 +13556,96 @@
       "createdDate": 1700208477861,
       "modifiedDate": 1700208477861,
       "sizeInBytes": 6726
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Walkthroughs ∋ Table of Contents.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 42,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.14,
+      "characterCount": 402,
+      "nonWhitespaceCharacterCount": 342,
+      "readingTimeInMinutes": 0.15849056603773584,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1700212299372,
+      "modifiedDate": 1700212532140,
+      "sizeInBytes": 937
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/What is a container？.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 641,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.1366666666666667,
+      "characterCount": 5356,
+      "nonWhitespaceCharacterCount": 4641,
+      "readingTimeInMinutes": 2.418867924528302,
+      "linkCount": 0,
+      "embedCount": 1,
+      "aliases": null,
+      "createdDate": 1700212585609,
+      "modifiedDate": 1700216130762,
+      "sizeInBytes": 5921
+    },
+    "Pasted image 20231117020633.png": {
+      "isCountable": false,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700215593281,
+      "modifiedDate": 1700215593283,
+      "sizeInBytes": 42533
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/🗒️ Zotero ∋ Table of Contents.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 272,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.9066666666666666,
+      "characterCount": 2707,
+      "nonWhitespaceCharacterCount": 2383,
+      "readingTimeInMinutes": 1.0264150943396226,
+      "linkCount": 7,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1700216283293,
+      "modifiedDate": 1700216745001,
+      "sizeInBytes": 3333
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/Misc. Notes.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1700216352867,
+      "modifiedDate": 1700216352867,
+      "sizeInBytes": 0
     }
   }
 }

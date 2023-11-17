@@ -1,14 +1,13 @@
 ---
 title: Misc. Notes
 created: 2023-11-14T14:30
-updated: 2023-11-16T15:46
+updated: 2023-11-17T02:24
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/name/structy/0-introduction/
+  - 🔴-academic/📚-educational-resource/name/structy/🔖/0-introduction
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::PragmatiCoders::Misc. Notes
-icon: BoBxsMessageSquareDots
 ---
 
 # Misc. Notes

@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Obsidian
 created: 2023-08-20 08:26
-updated: 2023-11-05T01:47
+updated: 2023-11-17T01:22
 cards-deck: 🔴 Academic::📚 Educational Resourcesidian
 ---
 
@@ -28,7 +28,7 @@ When building a plugin, what command should you run to install dependencies?
 `npm i`
 
 ⌂
-<br>﹈<br>^1694505471052
+<br>﹈<br>^1700212809979
 
 
 ﹇<br>
@@ -39,7 +39,7 @@ When building a plugin, what command should you run to start compilation in watc
 `npm run dev`
 
 ⌂
-<br>﹈<br>^1694505471056
+<br>﹈<br>^1700212810070
 
 
 ﹇<br>
@@ -50,7 +50,7 @@ How to manually install a plugin?
 Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/your-plugin-id/`
 
 ⌂
-<br>﹈<br>^1694505471060
+<br>﹈<br>^1700212810077
 
 
 ﹇<br>
@@ -68,7 +68,7 @@ How to improve the code quality of a plugin with ESLint?
     - `eslint .\src\`
 
 ⌂
-<br>﹈<br>^1694505471065
+<br>﹈<br>^1700212810108
 
 
 ﹇<br>
@@ -79,18 +79,19 @@ What symbol should I use as an alternate to the colon (i.e., `:`) for filenames?
 Should use the following symbol… `꞉`
 
 ⌂
-<br>﹈<br>^1694505471070
+<br>﹈<br>^1700212810116
 
 
 ﹇<br>
-What symbol should I use as an alternate to the colon (i.e., `/`) for filenames?
+What symbol should I use as an alternate to the forward slash (i.e., `/`) for filenames?
 
 #card
 
 Should use the following symbol… `⟋`
 
 ⌂
-<br>﹈<br>^1694505471074
+<br>﹈<br>^1700212810133
+
 
 
 ﹇<br>
@@ -101,7 +102,7 @@ In my vault, what does the 🗒️ emoji mean in a file name?
 Means that it is “scratch note” pertaining to a topic. In other words, it is _not_ tied/related to a **singular** formal/structured educational resource like a book, website, etc.
 
 ⌂
-<br>﹈<br>^1694505471078
+<br>﹈<br>^1700212810155
 
 
 ﹇<br>
@@ -112,7 +113,7 @@ In my vault, what does the 📕 emoji mean in a file name?
 Means that it is “compendium” pertaining to a **singular** formal/structured educational resource in the format of a book.
 
 ⌂
-<br>﹈<br>^1694505471082
+<br>﹈<br>^1700212810166
 
 
 ﹇<br>
@@ -123,7 +124,7 @@ In my vault, what does the 🌐 emoji mean in a file name?
 Means that it is “compendium” pertaining to a **singular** formal/structured educational resource in the format of a website.
 
 ⌂
-<br>﹈<br>^1694505471087
+<br>﹈<br>^1700212810190
 
 
 ﹇<br>
@@ -134,7 +135,7 @@ In my vault, what does the ⌂ symbol mean?
 Simply used to signify the end of Anki flashcards so that they are formatted correctly. Not significant beyond that.
 
 ⌂
-<br>﹈<br>^1694505471091
+<br>﹈<br>^1700212810203
 
 
 ﹇<br>
@@ -145,7 +146,20 @@ What symbol should I use as an alternate to the colon (i.e., `#`) for filenames?
 Should use the following symbol… `⋕`
 
 ⌂
-<br>﹈<br>^1694505563810
+<br>﹈<br>^1700212810212
+
+
+﹇<br>
+What symbol should I use as an alternate to the question mark (i.e., `?`) for filenames?
+
+#card 
+
+Should use the following symbol… `？`
+
+⌂
+<br>﹈<br>^1700212962949
+
+
 
 
 ---

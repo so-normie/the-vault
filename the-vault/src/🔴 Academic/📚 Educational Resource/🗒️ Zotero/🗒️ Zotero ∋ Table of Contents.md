@@ -1,15 +1,15 @@
 ---
-title: Structy ∋ Table of Contents
+title: Zotero ∋ Table of Contents
 created: 2023-09-03 08:46
-updated: 2023-11-17T02:23
+updated: 2023-11-17T02:25
 author(s):
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/name/structy/🔖/structy-∋-table-of-contents
+  - 🔴-academic/📚-educational-resource/name/🗒️-zotero/🔖/🗒️-zotero-∋-table-of-contents
   - 🔴-academic/📚-educational-resource/course
   - 🔴-academic/📚-educational-resource/discipline/computer-science
   - study-note
-cards-deck: 🔴 Academic::📚 Educational Resource::Structy::Structy ∋ Table of Contents
+cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Zotero::🔖::🗒️ Zotero ∋ Table of Contents
 ---
 
 # Structy ∋ Table of Contents 
@@ -85,6 +85,5 @@ Structy is a guided course that builds your algorithm knowledge efficiently. [@z
 > - [0. Introduction ∋ Table of Contents](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/Structy/0.%20Introduction/0.%20Introduction%20∋%20Table%20of%20Contents.md)
 
 ---
-
 
 

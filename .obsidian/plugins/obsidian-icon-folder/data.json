@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "EiZotero",
       "FasBook",
       "FabNode",
       "EiPhysics",
@@ -19,8 +20,7 @@
       "EiRclone",
       "EiPlantPot",
       "RiPlantFill",
-      "SiAnaconda",
-      "SiPython"
+      "SiAnaconda"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -252,5 +252,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Foundations of Scalable Systems (2022)": "FasBook",
   "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Fluent Python, 2nd Edition (2022)": "FasBook",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Physics": "EiPhysics",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Node.js": "FabNode"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Node.js": "FabNode",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero": "EiZotero"
 }
