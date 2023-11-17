@@ -1,25 +1,8 @@
 {
-<<<<<<< Updated upstream
-  "pathToPandoc": "C:\\Users\\edmun\\AppData\\Local\\Pandoc\\pandoc.EXE",
-  "tooltipDelay": 500,
-  "zoteroGroups": [
-    {
-      "id": 1,
-      "name": "My Library",
-      "lastUpdate": 1700205599984
-    }
-  ],
-=======
   "pathToPandoc": "C:\\Program Files\\Pandoc\\pandoc.EXE",
   "tooltipDelay": 400,
   "zoteroGroups": [],
->>>>>>> Stashed changes
   "renderCitations": true,
   "renderCitationsReadingMode": true,
-  "renderLinkCitations": true,
-  "pullFromZotero": true,
-  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/ieee-with-url.csl",
-  "enableCiteKeyCompletion": true,
-  "showCitekeyTooltips": true,
-  "pathToBibliography": ""
+  "renderLinkCitations": true
 }

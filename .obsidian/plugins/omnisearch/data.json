@@ -25,10 +25,7 @@
   "weightUnmarkedTags": 1.1,
   "httpApiEnabled": false,
   "httpApiPort": "51361",
-<<<<<<< Updated upstream
   "httpApiNotice": true,
-=======
->>>>>>> Stashed changes
   "welcomeMessage": "1.10.1",
   "verboseLogging": false
 }
