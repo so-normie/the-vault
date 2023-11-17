@@ -1,0 +1,264 @@
+{
+  "main": {
+    "id": "129f3097f126cfc1",
+    "type": "split",
+    "children": [
+      {
+        "id": "624028e5dc32ea4d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3868feedd8498298",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f5a8eb526f77d33f",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2e799ad134556dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4bbd078a939f1607",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cfae32b46f24b2be",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9094592652bde7c5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "d8bd9e79e958e7e7",
+            "type": "leaf",
+            "state": {
+              "type": "trash-explorer",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 458.5
+  },
+  "right": {
+    "id": "1982d3464f83acf8",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbec3a49792849f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc8193e4b63054cc",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "fafe1fb10aade653",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6a9a1eb34124bef6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c223f0ff7f4a0f14",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6b3cd8aeff6b80db",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "f5f51bb6371a1726",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "3abdc3d8f00e79f9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "0c5e01afae58f6be",
+            "type": "leaf",
+            "state": {
+              "type": "reference-map-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "9ff5b99cd155d8a6",
+            "type": "leaf",
+            "state": {
+              "type": "ReferenceListView",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "horizontal",
+    "width": 433.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "flashcards-obsidian:Generate flashcards": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": true,
+      "zk-prefixer:Create new unique note": true,
+      "random-note:Open random note": true,
+      "audio-recorder:Start/stop recording": true,
+      "workspaces:Manage workspace layouts": false,
+      "publish:Publish changes...": true,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false,
+      "notion-like-tables:Create loom": false,
+      "custom-sort:Toggle custom sorting": false,
+      "chronology:Open Chronology": false,
+      "reference-map:Reference Map": false,
+      "cloze:Toggle all clozes": false,
+      "obsidian-trash-explorer:Open trash explorer": false
+    }
+  },
+  "active": "3868feedd8498298",
+  "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Guides ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Docker Overview.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 4꞉ Share the application.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/0. Introduction ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Rollup/Rollup ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python in a Nutshell, 4th Edition (2023)/Misc..md",
+    "the-vault/zotero/My Library.bib",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/PragmatiCoders ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Windows/🗒️ Microsoft Windows ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Conda/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Conda/Conda ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Conda",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Real Python ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/144. Binary Tree Preorder Traversal.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/141. Linked List Cycle.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1. Two Sum.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/136. Single Number.md",
+    "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/112. Path Sum.md",
+    "the-vault/🔴 Academics/🔴 Academics ∋ Table of Contents.md",
+    "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode",
+    "the-vault/🔴 Academics/📚 Educational Resources",
+    "the-vault/🔴 Academics",
+    "Pasted image 20231105005754.png",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Microservice APIs",
+    "the-vault/zotero",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Rollup",
+    "the-vault/assets/images/docker-docs-docker-architecture.png",
+    "the-vault/assets/images/Pasted image 20230913161050.png",
+    "the-vault/assets/images/Pasted image 20230924131220.png",
+    "the-vault/assets/images/Pasted image 20230815101404.png",
+    "the-vault/assets/images/Pasted image 20230813091946.png",
+    "the-vault/assets/images/Pasted image 20230810211121.png",
+    "the-vault/assets/images/Pasted image 20230807030022.png",
+    "the-vault/assets/images/Pasted image 20230807025824.png",
+    "the-vault/assets/images/Pasted image 20230807024546.png"
+  ]
+}
