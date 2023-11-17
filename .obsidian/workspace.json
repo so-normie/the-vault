@@ -6,6 +6,7 @@
       {
         "id": "b95cb04e78300bbf",
         "type": "tabs",
+        "dimension": 56.52173913043478,
         "children": [
           {
             "id": "0cec135f27dad579",
@@ -18,6 +19,29 @@
                 "backlinks": true,
                 "source": true
               }
+            }
+          },
+          {
+            "id": "7831ff04c498b116",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "4bef24ad4d92e3a7",
+        "type": "tabs",
+        "dimension": 43.47826086956522,
+        "children": [
+          {
+            "id": "ea6418be29f1ee5c",
+            "type": "leaf",
+            "state": {
+              "type": "reference-map-graph-view",
+              "state": {}
             }
           }
         ]
@@ -172,16 +196,6 @@
             }
           },
           {
-            "id": "7ecb6fc0fb9509fe",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md"
-              }
-            }
-          },
-          {
             "id": "0c5e01afae58f6be",
             "type": "leaf",
             "state": {
@@ -195,6 +209,16 @@
             "state": {
               "type": "ReferenceListView",
               "state": {}
+            }
+          },
+          {
+            "id": "dfcabb4d94777213",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md"
+              }
             }
           }
         ],
@@ -233,11 +257,11 @@
   },
   "active": "0cec135f27dad579",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
     "the-vault/zotero/My Library.bib",
     "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/PragmatiCoders ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Windows/🗒️ Microsoft Windows ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Conda/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Conda/Conda ∋ Table of Contents.md",

@@ -17,7 +17,7 @@
     {
       "id": 1,
       "name": "My Library",
-      "lastUpdate": 1700180747387
+      "lastUpdate": 1700182298814
     }
   ],
   "zoteroPort": "23119",
@@ -32,7 +32,7 @@
   "enableIndexSorting": true,
   "sortByIndex": "year",
   "sortOrderIndex": "desc",
-  "modalSearchLimit": 10,
+  "modalSearchLimit": 25,
   "fileNameFormat": "{{title}}-{{author}} {{year}}",
   "folder": "",
   "modalCreateTemplate": "{{title}}\n{{authors}}\n{{journal}}, {{year}}\n{{abstract}}\n{{doi}}\n[External Link]({{url}})\n{{pdfurl}}\n",
@@ -46,5 +46,5 @@
   "metadataCopyOneBatch": false,
   "metadataCopyTwoBatch": false,
   "metadataCopyThreeBatch": true,
-  "debugMode": false
+  "debugMode": true
 }
