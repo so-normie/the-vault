@@ -1,8 +1,8 @@
 ---
 title: Docker Docs ∋ Table of Contents
 created: 2023-10-31T16:39
-updated: 2023-11-17T00:36
-author(s):
+updated: 2023-11-17T00:50
+authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/docker-docs/🔖/docker-docs-∋-table-of-contents

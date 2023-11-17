@@ -6,6 +6,9 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasBook",
+      "FabNode",
+      "EiPhysics",
       "EiOReilly",
       "EiZoteroItem",
       "BoBxsMessageSquareDots",
@@ -17,10 +20,7 @@
       "EiPlantPot",
       "RiPlantFill",
       "SiAnaconda",
-      "SiPython",
-      "SiObsidian",
-      "EiVimium",
-      "SiWolframmathematica"
+      "SiPython"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -136,8 +136,6 @@
   "the-vault/🔴 Academics/📚 Educational Resources/🗒️ GitHub": "FabGithub",
   "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference": "EiCppReference",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs": "SiDocker",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Fluent Python, 2nd Edition (2022)": "EiOReilly",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Foundations of Scalable Systems (2022)": "EiOReilly",
   "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs": "SiGithub",
   "the-vault/src/🔴 Academic/📚 Educational Resource/HackerRank": "SiHackerrank",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Introduction to Algorithms, 4th Edition (2022)": "FasBook",
@@ -248,7 +246,11 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python": "SiPython",
   "the-vault/zotero/My Library.bib": "EiZoteroItem",
   "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning": "EiOReilly",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Microservice APIs": "EiOReilly",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Learning SQL, 3rd Edition (2020)": "EiOReilly",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Python in a Nutshell, 4th Edition (2023)": "EiOReilly"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Microservice APIs": "FasBook",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Learning SQL, 3rd Edition (2020)": "FasBook",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Python in a Nutshell, 4th Edition (2023)": "FasBook",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Foundations of Scalable Systems (2022)": "FasBook",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Fluent Python, 2nd Edition (2022)": "FasBook",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Physics": "EiPhysics",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Node.js": "FabNode"
 }

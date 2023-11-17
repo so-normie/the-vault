@@ -460,8 +460,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/CMake Reference Documentation/Reference Manuals.md": "564a308abd1efcc9d02a51ba8fa241edd9b23a488a358d5c6083491488f52faf",
     "the-vault/src/🔴 Academic/📚 Educational Resource/CMake Reference Documentation/Release Notes.md": "50fec301a70e18aba6a77c788b32da598923a631c1cc2fba898db28dae535d45",
     "the-vault/src/🔴 Academic/📚 Educational Resource/CMake Reference Documentation/sortspec.md.md": "c67a0695e4634225e6f0c70aec7c9058ecf828f6ddf7b40a81ab794b5d060d3d",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md": "ec7b61735e04977b38aa1fb838842f68659c1b090efe8d2a751854f69bfd6692",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Foundations of Scalable Systems (2022)/Preface.md": "f0eb8417a7291eb49325fb44e092c8857c3f590bca44c46575083724bdd64fad",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md": "3f8377f96b01ef3cca88484953f16d8489ddcff250f92094b37c09fc57521717",
     "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs/CICD and DevOps.md": "bcbe3891c98cca4a5631ec95517c7aeb328b4fdee1aafbb2609b600cecb73cea",
     "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs/Get started.md": "2d22daabf8f9c6a728ea13a52ab9ff203abd9cd3d18efe339a024055fc389ede",
     "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs/Table of Contents.md": "27b1c74ca057bc9b7b35ffbfc204e1071be0b2b47048300c9f562e34f9af880c",
@@ -803,14 +802,13 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Spark Optimization/Causes of OOM Errors/Excessively High Concurrency.md": "74d1443264b48b6724213206390a8dfbccbe3bfa59060928dfc2307d2513567c",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Spark Optimization/Causes of OOM Errors/Excessively Large Partition.md": "c217d31e34a587422be621d8f4fcef28d293426175d826f0c1f9648cfc52d228",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Spark Optimization/Optimizing DataFrame Transformations/General Join Mechanics.md": "4ec012bbd4416c7317f43653fe376d5a0f4a498427504cd2e277020f0818dcb0",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md": "22e5ab5af16106496ef0d3a9379e3f757749a4ec15b7d3de9b1a56348a88c96f",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md": "c6765a418ff21c1fe133c2f7be569529a76c78f46cdfe04ead53eb3b99946031",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 2꞉ Containerize an application.md": "cbf8929496140c9bc724ada50b5277450c24db02ee38651fc1d4ec3262b17577",
     "the-vault/src/🔴 Academic/📚 Educational Resource/AWS Educate/Misc. Notes.md": "bbdd3678e8bb0ee2a56617c2f96ea3b88d94e585c262adcaa39fe288b84fb668",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Codility/Misc. Notes.md": "abd4000e7ce96d37f2a6d210922b410d870fc6c6650bc1d1aa52c462c6ef5442",
     "the-vault/src/🔴 Academic/📚 Educational Resource/IBM Technology/Misc. Notes.md": "f4d32aa8fa38fc3ad8be8b8cb34a283e170ec865761444c7c391c226148713ec",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Calculus꞉ Early Transcendentals, 9th Edition/Chapter 8.md": "c54d47cc5f3441586250dee782deb5de3abf1b629d5e79ff6f850fd6d3c69246",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Master Your Data with Excel and Power BI/Misc..md": "2ebccb620442d2a40bbc5c0f7e159ee4901336f0fea58c071917bd17eb2e9e07",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Foundations of Scalable Systems (2022)/Misc..md": "e902fff3f6b8641ff11eaf58a158530166f13d8809785e3f6eeb9231b296e25c",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/036. binary tree welcome 👨🏻‍🏫.md": "7d2dd58dac16735ec076a767830bb8047bbf363084ef0167e6cfcd0f57ad932a",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/037. binary tree intro 👨🏻‍🏫.md": "7052e2d984421a5736bbd90b29f40fea864b10320ca127e851069961be4eda8c",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/038. binary tree warm up 👨🏻‍🏫.md": "c11b78540ce3937d8da57fc97be8158e38ff270e9eb5650f5006c7dedb4070d3",
@@ -892,6 +890,9 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Learning SQL, 3rd Edition (2020)/Preface.md": "ae6694f4e32d2538211d4967af337f239520f30577dd1d70ab4479591ceb5fcc",
     "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Learning SQL, 3rd Edition (2020)/sortspec.md.md": "e2fe35591b3be31c90430913e171a3ffdbfecc899f9b9381aaa55103ed7b9fef",
     "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Learning SQL, 3rd Edition (2020)/Table of Contents.md": "96b6831bfc2c8b8bfe0abf354f2a1eb1361c68713e212ecbb34e1f505fdf3d45",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Python in a Nutshell, 4th Edition (2023)/Misc..md": "ccf6eac364350ff7c158cc7a040e9c2ed4dc61e9089315950a3c9ff9af4c4e18"
+    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Python in a Nutshell, 4th Edition (2023)/Misc..md": "ccf6eac364350ff7c158cc7a040e9c2ed4dc61e9089315950a3c9ff9af4c4e18",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Foundations of Scalable Systems (2022)/Misc..md": "e902fff3f6b8641ff11eaf58a158530166f13d8809785e3f6eeb9231b296e25c",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Foundations of Scalable Systems (2022)/Preface.md": "f0eb8417a7291eb49325fb44e092c8857c3f590bca44c46575083724bdd64fad",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Get started ∋ Table of Contents.md": "5ddb3bda0720c33139c12e0e281e683961060d55b5b835184abf8d28cc77eea3"
   }
 }

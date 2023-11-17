@@ -869,7 +869,10 @@
     "🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/get-started/part-1-overview": 1,
     "🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/get-started/part-2-containerize-an-application": 2,
     "🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/get-started/part-3-update-the-application": 3,
-    "🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/get-started/part-4-share-the-application": 4
+    "🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/get-started/part-4-share-the-application": 4,
+    "🔴-academic/📚-educational-resource/name/docker-docs/🔖/get-started-∋-table-of-contents": 3,
+    "🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/get-started-∋-table-of-contents": 3,
+    "🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/get-started/get-started-∋-table-of-contents": 5
   },
   "_version": 2
 }

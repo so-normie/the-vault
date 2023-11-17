@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/O'Reilly Learning ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/O'Reilly Learning ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/O'Reilly Learning ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/O'Reilly Learning ∋ Table of Contents.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md"
               }
             }
           }
@@ -222,17 +222,18 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "4bbd078a939f1607",
+  "active": "08e41fc892ca79b3",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Get started ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Guides ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/O'Reilly Learning ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/0. Introduction ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Guides ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Docker Overview.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 4꞉ Share the application.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
@@ -254,7 +255,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/141. Linked List Cycle.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1. Two Sum.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/136. Single Number.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/112. Path Sum.md",
     "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode",
     "the-vault/🔴 Academics/📚 Educational Resources",
     "the-vault/🔴 Academics",
