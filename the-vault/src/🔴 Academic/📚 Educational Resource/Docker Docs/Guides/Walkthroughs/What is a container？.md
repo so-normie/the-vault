@@ -1,7 +1,7 @@
 ---
 title: What is a container?
 created: 2023-10-31T16:39
-updated: 2023-11-18T02:52
+updated: 2023-11-18T03:00
 authors:
   - Edmund Leibert III
 tags:
@@ -35,10 +35,10 @@ Does a container have knowledge of your operating system, or files?
 
 #card 
 
-No, a container has no knowledge of your operating system, or your files
+No, a container has no knowledge of your operating system, or your files.
 
 ⌂
-<br>﹈<br>^1700215950502
+<br>﹈<br>^1700305228786
 
 ﹇<br>
 Do _containers_ have everything that you need in order to run, down to a base operating system?
