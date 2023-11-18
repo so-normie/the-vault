@@ -7301,15 +7301,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 2.3466666666666667,
-      "characterCount": 6206,
+      "characterCount": 5980,
       "nonWhitespaceCharacterCount": 4828,
       "readingTimeInMinutes": 2.6566037735849055,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700304267743,
-      "modifiedDate": 1700304267743,
-      "sizeInBytes": 7410
+      "modifiedDate": 1700329053208,
+      "sizeInBytes": 7166
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/141. Linked List Cycle.md": {
       "isCountable": true,
@@ -13826,6 +13826,24 @@
       "createdDate": 1700304265481,
       "modifiedDate": 1700304265481,
       "sizeInBytes": 67523
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/145. Binary Tree Postorder Traversal.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 204,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.68,
+      "characterCount": 1412,
+      "nonWhitespaceCharacterCount": 1168,
+      "readingTimeInMinutes": 0.769811320754717,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1700328263028,
+      "modifiedDate": 1700329089358,
+      "sizeInBytes": 2505
     }
   }
 }

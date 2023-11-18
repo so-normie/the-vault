@@ -878,7 +878,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 4꞉ Share the application.md": "bf31d3864f4493c35b4489d14779512a44ceed230e6e67ac13c3af7714ed82f7",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/136. Single Number.md": "217b6ae057c051f8bb1caca5e7e95c718ec47d793c5855f79fcdfe9320eb7e4c",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/141. Linked List Cycle.md": "86609d0a32473eb7297b8851f731f82632b96d54ab4ccbda7e28842e6bd291a2",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/144. Binary Tree Preorder Traversal.md": "518862de0751c206c44cbb708b4e4f2bfcc82f72b6bbb050ec1fe5f4b95653d6",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/144. Binary Tree Preorder Traversal.md": "71eb4caf9228c4a3857e18578fa60f1ba7a8231b0e15b85ffb2138c99d1845cc",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md": "8bf436bed23085ab70941030a891faaec4c1f7c6b28422bbf75592e81af21745",
     "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md": "52c52aa0b100abf836113278416581016b24fea637bca9a5297caff8a0852c76",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Misc. Notes.md": "2144d907cb76b429afd0b6063a827d039687cb8a2625545a5af290c77ce76fbe",
@@ -902,6 +902,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/sortspec.md": "a83007209e01f97e2c32c4471d987f3e480d25b76289b88cd9c485b21a095635",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/How do I run a container？.md": "0719b06633c4f8683536a3d192462f39063ec74039ca746a9b7d8219f1a1d154",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Vim/Keyboard Shortcuts.md": "1534848dbe6026eec53c84d6fa7c604eb32f68ddc648f7e76bd02f0efc118806",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/sortspec.md": "4b07f5a7f5bab03cff644280674bb56e8b6c67d2d59a7c259025fdbf34e2435d"
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/sortspec.md": "4b07f5a7f5bab03cff644280674bb56e8b6c67d2d59a7c259025fdbf34e2435d",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/145. Binary Tree Postorder Traversal.md": "855cfd5428a417d8040f5be8eb871b985d7e2ef0a8cf598a53d124b688626a9a"
   }
 }
