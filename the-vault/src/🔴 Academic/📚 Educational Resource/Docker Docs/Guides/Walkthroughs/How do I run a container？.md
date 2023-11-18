@@ -1,7 +1,7 @@
 ---
 title: How do I run a container？
 created: 2023-10-31T16:39
-updated: 2023-11-18T04:35
+updated: 2023-11-18T05:41
 authors:
   - Edmund Leibert III
 tags:
@@ -30,7 +30,15 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkt
 In this walkthrough, you'll learn the {1:basic steps of building an image and running your own container}. This walkthrough uses a sample Node.js application, but it's not necessary to know Node.js.
 ^1700310924341
 
+﹇<br>
+What is the best color?
 
+#card 
+
+<mark>red</mark>
+
+⌂
+<br>﹈<br>^1700314816286
 
 ---
 
