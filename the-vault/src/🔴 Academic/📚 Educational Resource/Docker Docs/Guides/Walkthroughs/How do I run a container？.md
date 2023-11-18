@@ -1,7 +1,7 @@
 ---
 title: How do I run a container？
 created: 2023-10-31T16:39
-updated: 2023-11-18T05:41
+updated: 2023-11-18T06:19
 authors:
   - Edmund Leibert III
 tags:
@@ -39,6 +39,24 @@ What is the best color?
 
 ⌂
 <br>﹈<br>^1700314816286
+
+==red==
+
+<u>Yellow</u>
+
+<u>The yellow submarine</u>
+
+```
+{red}
+```
+
+```
+==blue==
+```
+
+```
+<u>red</u>
+```
 
 ---
 

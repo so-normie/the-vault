@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/How do I run a container？.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -208,11 +208,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 433.5
+    "width": 433.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "cloze:Toggle all clozes": false,
       "flashcards-obsidian:Generate flashcards": true,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "switcher:Open quick switcher": true,
@@ -220,6 +220,7 @@
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": true,
+      "cloze:Toggle all clozes": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": true,
       "zk-prefixer:Create new unique note": true,
