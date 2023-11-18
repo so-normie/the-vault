@@ -1,7 +1,7 @@
 ---
 title: What is a container?
 created: 2023-10-31T16:39
-updated: 2023-11-18T04:33
+updated: 2023-11-18T08:41
 authors:
   - Edmund Leibert III
 tags:
@@ -17,7 +17,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkt
 ---
 
 > [!abstract]+ 
-> Notes that pertain to [What is a container? | Docker Docs](https://docs.docker.com/guides/walkthroughs/what-is-a-container/). Explore a running container in Docker Desktop.
+> Notes that pertain to [What is a container? | Docker Docs](https://docs.docker.com/guides/walkthroughs/what-is-a-container/). Explore a running container in Docker Desktop. [@WhatContainer]
 
 ---
 
@@ -50,7 +50,7 @@ Yes.
 ⌂
 <br>﹈<br>^1700215950514
 
-## Step 1: Set up walkthrough
+## [Step 1: Set up the walkthrough](https://docs.docker.com/guides/walkthroughs/what-is-a-container/#step-1-set-up-the-walkthrough)
 
 ﹇<br>
 What exactly is the **Host port** option under **Optional settings** when running a image from Docker Desktop?
@@ -72,7 +72,7 @@ For example, if you have a web server running in a Docker container listening on
 <br>﹈<br>^1700307043223
 
 
-## Step 2: View containers on Docker Desktop
+## [Step 2: View containers on Docker Desktop](https://docs.docker.com/guides/walkthroughs/what-is-a-container/#step-2-view-containers-on-docker-desktop)
 
 ﹇<br>
 Can you view your containers in Docker Desktop?
@@ -86,7 +86,6 @@ Yes, you can view it in the **Containers** tab of Docker Desktop.
 ⌂
 <br>﹈<br>^1700215950559
 
-
 ﹇<br>
 The container in this walkthrough runs a simple web server that displays a simple website. What is an example architecture of a more complex project using docker containers?
 
@@ -97,9 +96,9 @@ When working with more complex projects, you'll run different parts in different
 ⌂
 <br>﹈<br>^1700215950567
 
-## Step 3: View the frontend
+## [Step 3: View the frontend](https://docs.docker.com/guides/walkthroughs/what-is-a-container/#step-3-view-the-frontend)
 
-## Step 4: Explore your container
+## [Step 4: Explore your container](https://docs.docker.com/guides/walkthroughs/what-is-a-container/#step-4-explore-your-container)
 
 ﹇<br>
 In Docker Desktop, how can you easily view and interact with different aspects of your container?
@@ -129,35 +128,36 @@ In Docker Desktop, when I inspect the files of a running container, what does th
 ⌂
 <br>﹈<br>^1700215950582
 
-## Step 5: Stop your container
+## [Step 5: Stop your container](https://docs.docker.com/guides/walkthroughs/what-is-a-container/#step-5-stop-your-container)
 
 The `welcome-to-docker` container continues to {1:run} until you {2:stop it}. To {2:stop} the container in Docker Desktop, go to the {3:**Containers**} tab and select the {4:**Stop**} icon in the {5:**Actions**} column of your container.
 ^1700215950606
 
-## Next Steps
+## [Summary](https://docs.docker.com/guides/walkthroughs/what-is-a-container/#summary)
+
+## [Next steps](https://docs.docker.com/guides/walkthroughs/what-is-a-container/#next-steps)
 
 ---
 
 ## :EiZoteroItem: Bibliography
 
 \[1\]
-“Explore networking features on Docker Desktop,” _Docker Documentation_, 09:42:25 +0200 +0200. Available: [https://docs.docker.com/desktop/networking/](https://docs.docker.com/desktop/networking/). [Accessed: Nov. 17, 2023]
+“What is a container?,” _Docker Docs_. Available: [https://docs.docker.com/guides/walkthroughs/what-is-a-container/](https://docs.docker.com/guides/walkthroughs/what-is-a-container/). [Accessed: Nov. 17, 2023]
 
 \[2\]
-baeldung, “Assigning a Port Mapping to a Running Docker Container | Baeldung on Linux,” Jan. 13, 2022. Available: [https://www.baeldung.com/linux/assign-port-docker-container](https://www.baeldung.com/linux/assign-port-docker-container). [Accessed: Nov. 17, 2023]
+“Explore networking features on Docker Desktop,” _Docker Documentation_, 09:42:25 +0200 +0200. Available: [https://docs.docker.com/desktop/networking/](https://docs.docker.com/desktop/networking/). [Accessed: Nov. 17, 2023]
 
 \[3\]
-I. Salki, “Answer to ‘Docker run -p ?/? (what are this two port numbers and what they represents ),’” _Stack Overflow_, Jun. 01, 2020. Available: [https://stackoverflow.com/a/62125889/8088657](https://stackoverflow.com/a/62125889/8088657). [Accessed: Nov. 17, 2023]
+baeldung, “Assigning a Port Mapping to a Running Docker Container | Baeldung on Linux,” Jan. 13, 2022. Available: [https://www.baeldung.com/linux/assign-port-docker-container](https://www.baeldung.com/linux/assign-port-docker-container). [Accessed: Nov. 17, 2023]
 
 \[4\]
-“Explore the Containers view in Docker Desktop,” _Docker Documentation_, 09:42:25 +0200 +0200. Available: [https://docs.docker.com/desktop/use-desktop/container/](https://docs.docker.com/desktop/use-desktop/container/). [Accessed: Nov. 17, 2023]
+I. Salki, “Answer to ‘Docker run -p ?/? (what are this two port numbers and what they represents ),’” _Stack Overflow_, Jun. 01, 2020. Available: [https://stackoverflow.com/a/62125889/8088657](https://stackoverflow.com/a/62125889/8088657). [Accessed: Nov. 17, 2023]
 
 \[5\]
+“Explore the Containers view in Docker Desktop,” _Docker Documentation_, 09:42:25 +0200 +0200. Available: [https://docs.docker.com/desktop/use-desktop/container/](https://docs.docker.com/desktop/use-desktop/container/). [Accessed: Nov. 17, 2023]
+
+\[6\]
 J. Walker, “How to Inspect Changes to a Docker Container’s Filesystem,” _How-To Geek_, Aug. 11, 2022. Available: [https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/). [Accessed: Nov. 17, 2023]
-
----
-
-## :EiZoteroItem: Bibliography
 
 ---
 
