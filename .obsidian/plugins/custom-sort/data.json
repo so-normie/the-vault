@@ -1,6 +1,6 @@
 {
   "additionalSortspecFile": "",
-  "suspended": false,
+  "suspended": true,
   "statusBarEntryEnabled": true,
   "notificationsEnabled": true,
   "mobileNotificationsEnabled": false,
