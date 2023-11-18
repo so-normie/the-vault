@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "37749b599f3677b7",
+            "id": "db17ffa0013a6684",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 412.5
+    "width": 412.5,
+    "collapsed": true
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -177,19 +178,9 @@
               "type": "ReferenceListView",
               "state": {}
             }
-          },
-          {
-            "id": "5cb5cf6db8ef3aeb",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/145. Binary Tree Postorder Traversal.md"
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -223,10 +214,10 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "f5f51bb6371a1726",
+  "active": "db17ffa0013a6684",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/144. Binary Tree Preorder Traversal.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/145. Binary Tree Postorder Traversal.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/144. Binary Tree Preorder Traversal.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/How do I run a container？.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/sortspec.md",
