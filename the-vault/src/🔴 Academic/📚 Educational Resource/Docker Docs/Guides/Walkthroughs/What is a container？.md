@@ -1,7 +1,7 @@
 ---
 title: What is a container?
 created: 2023-10-31T16:39
-updated: 2023-11-18T03:48
+updated: 2023-11-18T04:33
 authors:
   - Edmund Leibert III
 tags:
@@ -154,6 +154,10 @@ I. Salki, “Answer to ‘Docker run -p ?/? (what are this two port numbers an
 
 \[5\]
 J. Walker, “How to Inspect Changes to a Docker Container’s Filesystem,” _How-To Geek_, Aug. 11, 2022. Available: [https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/). [Accessed: Nov. 17, 2023]
+
+---
+
+## :EiZoteroItem: Bibliography
 
 ---
 
