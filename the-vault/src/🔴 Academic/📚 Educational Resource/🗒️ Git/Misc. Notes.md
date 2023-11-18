@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Git
 created: 2023-08-04 01:58
-updated: 2023-11-18T03:12
+updated: 2023-11-18T03:38
 authors:
   - Edmund Leibert III
 tags:
@@ -17,7 +17,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Git::Misc. Notes
 ---
 
 > [!ABSTRACT]+
-> 
+> Miscellaneous notes that pertain to [Git (git-scm.com)](https://git-scm.com/). [@Git]
 
 ---
 
@@ -834,10 +834,27 @@ How do I fetch all the branches from my remote repository named origin?
 
 #card 
 
-Answer
+To rename a remote branch in Git, you can follow these steps:
+
+1. **Switch to the local branch** you want to rename: `git checkout <old_name>`.
+2. **Rename the local branch**: `git branch -m <new_name>`.
+3. **Push the `<new_name>` local branch** and reset the upstream branch.
+4. **Delete the `<old_name>` remote branch**: `git push origin --delete <old_name>`.
+
+Please replace `<old_name>` and `<new_name>` with the actual names of your branches. Be careful when performing these operations as they can affect your repository's history. Always make sure you have a backup or you are sure about what you are doing before running these commands. [@panAnswerHowRename2017]
 
 ⌂
 <br>﹈<br>
+
+---
+
+## :EiZoteroItem: Bibliography
+
+\[1\]
+“Git,” _git_. Available: [https://git-scm.com/](https://git-scm.com/). [Accessed: Nov. 18, 2023]
+
+\[2\]
+Z. PAN, “Answer to ‘How do I rename both a Git local and remote branch name?,’” _Stack Overflow_, Aug. 08, 2017. Available: [https://stackoverflow.com/a/45561865/8088657](https://stackoverflow.com/a/45561865/8088657). [Accessed: Nov. 18, 2023]
 
 ---
 

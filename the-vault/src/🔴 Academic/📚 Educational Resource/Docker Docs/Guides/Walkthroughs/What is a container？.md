@@ -1,7 +1,7 @@
 ---
 title: What is a container?
 created: 2023-10-31T16:39
-updated: 2023-11-18T03:29
+updated: 2023-11-18T03:48
 authors:
   - Edmund Leibert III
 tags:
@@ -66,10 +66,11 @@ When you run a Docker container, it has its own set of port numbers. [If you wan
 
 The syntax for this in Docker is `-p HOST_PORT:CONTAINER_PORT`. [Here, `HOST_PORT` is the port number on your host machine, and `CONTAINER_PORT` is the port number in the container](https://stackoverflow.com/questions/62125794/docker-run-p-what-are-this-two-port-numbers-and-what-they-represents). [@salkiAnswerDockerRun2020] [@baeldungAssigningPortMapping2022] 
 
-For example, if you have a web server running in a Docker container listening on port 80, and you want to access it from your host machine on port 8000, you would use `-p 8000:80`. [Now, if you open a web browser on your host machine and go to `localhost:8000`, you’ll be able to access the web server running in your Docker container](https://docs.docker.com/desktop/networking/). [@ExploreNetworkingFeatures0200] 
+For example, if you have a web server running in a Docker container listening on port 80, and you want to access it from your host machine on port 8000, you would use `-p 8000:80`. [Now, if you open a web browser on your host machine and go to `localhost:8000`, you’ll be able to access the web server running in your Docker container](https://docs.docker.com/desktop/networking/). [@ExploreNetworkingFeatures0200] [@baeldungAssigningPortMapping2022] 
 
 ⌂
-<br>﹈<br>^1700215950549 
+<br>﹈<br>^1700307043223
+
 
 ## Step 2: View containers on Docker Desktop
 
@@ -119,11 +120,11 @@ In Docker Desktop, when I inspect the files of a running container, what does th
 
 #card 
 
-[In Docker Desktop, when you inspect the files of a running or stopped container, you can see which files have been recently added, modified, or deleted](https://docs.docker.com/desktop/use-desktop/container/)[1](https://docs.docker.com/desktop/use-desktop/container/). [The “modified” note indicates that the file has been changed or updated in some way since the container was started](https://docs.docker.com/desktop/use-desktop/container/)[1](https://docs.docker.com/desktop/use-desktop/container/). 
+[In Docker Desktop, when you inspect the files of a running or stopped container, you can see which files have been recently added, modified, or deleted](https://docs.docker.com/desktop/use-desktop/container/) [@ExploreContainersView0200a]. [The “modified” note indicates that the file has been changed or updated in some way since the container was started](https://docs.docker.com/desktop/use-desktop/container/) [@ExploreContainersView0200a]. 
 
-[This could be due to a variety of reasons, such as an application within the container writing to the file, a user manually editing the file, or a system process updating the file](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/)[2](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/). 
+[This could be due to a variety of reasons, such as an application within the container writing to the file, a user manually editing the file, or a system process updating the file](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/) [@walkerHowInspectChanges2022]. 
 
-[Remember, any changes made to the container’s filesystem will be lost when the container is restarted or destroyed, unless those changes are made in a volume](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/)[2](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/).
+[Remember, any changes made to the container’s filesystem will be lost when the container is restarted or destroyed, unless those changes are made in a volume](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/)[2](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/) [@walkerHowInspectChanges2022].
 
 ⌂
 <br>﹈<br>^1700215950582
@@ -147,6 +148,12 @@ baeldung, “Assigning a Port Mapping to a Running Docker Container | Baeldung o
 
 \[3\]
 I. Salki, “Answer to ‘Docker run -p ?/? (what are this two port numbers and what they represents ),’” _Stack Overflow_, Jun. 01, 2020. Available: [https://stackoverflow.com/a/62125889/8088657](https://stackoverflow.com/a/62125889/8088657). [Accessed: Nov. 17, 2023]
+
+\[4\]
+“Explore the Containers view in Docker Desktop,” _Docker Documentation_, 09:42:25 +0200 +0200. Available: [https://docs.docker.com/desktop/use-desktop/container/](https://docs.docker.com/desktop/use-desktop/container/). [Accessed: Nov. 17, 2023]
+
+\[5\]
+J. Walker, “How to Inspect Changes to a Docker Container’s Filesystem,” _How-To Geek_, Aug. 11, 2022. Available: [https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/). [Accessed: Nov. 17, 2023]
 
 ---
 

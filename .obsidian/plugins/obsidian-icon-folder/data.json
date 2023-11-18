@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiNotes",
       "TiTemplate",
       "EiZotero",
       "FasBook",
@@ -19,8 +20,7 @@
       "SiMicrosoftsqlserver",
       "SiApachespark",
       "EiRclone",
-      "EiPlantPot",
-      "RiPlantFill"
+      "EiPlantPot"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -254,5 +254,9 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Physics": "EiPhysics",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Node.js": "FabNode",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero": "EiZotero",
-  "the-vault/templates/Template {{LeetCode ∋ Problem}}.md": "TiTemplate"
+  "the-vault/templates/Template {{LeetCode ∋ Problem}}.md": "TiTemplate",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/What is a container？.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/How do I run a container？.md": "TiNotes"
 }
