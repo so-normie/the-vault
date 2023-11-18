@@ -1,7 +1,7 @@
 ---
 title: What is a container?
 created: 2023-10-31T16:39
-updated: 2023-11-17T09:51
+updated: 2023-11-18T02:52
 authors:
   - Edmund Leibert III
 tags:
@@ -27,7 +27,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkt
 
 ---
 
-A {{1:container} is an {2:isolated environment for your code}.
+A {1:container} is an {2:isolated environment for your code}.
 ^1700215950468
 
 ﹇<br>
