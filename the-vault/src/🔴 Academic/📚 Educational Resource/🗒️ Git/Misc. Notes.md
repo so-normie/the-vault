@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Git
 created: 2023-08-04 01:58
-updated: 2023-10-31T21:30
+updated: 2023-11-18T03:12
 authors:
   - Edmund Leibert III
 tags:
@@ -839,7 +839,6 @@ Answer
 ⌂
 <br>﹈<br>
 
-
 ---
 
 > [!INFO]+ 
@@ -847,6 +846,3 @@ Answer
 >
 
 ---
-
-
-
