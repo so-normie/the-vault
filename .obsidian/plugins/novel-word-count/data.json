@@ -147,6 +147,24 @@
       "modifiedDate": 1700304267926,
       "sizeInBytes": 30
     },
+    "the-vault/templates/Template {{Anki Note ∋ “⋕card”}}.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1697778379464,
+      "modifiedDate": 1700304267924,
+      "sizeInBytes": 71
+    },
     "the-vault/templates/Template {{Attempt}}.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -164,24 +182,6 @@
       "createdDate": 1700304267926,
       "modifiedDate": 1700304267926,
       "sizeInBytes": 144
-    },
-    "the-vault/templates/Template {{Anki Note ∋ “🎴”}}.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1697778379465,
-      "modifiedDate": 1700304267925,
-      "sizeInBytes": 34
     },
     "the-vault/templates/Template {{Anki Note ∋ “🃏”}}.md": {
       "isCountable": true,
@@ -201,7 +201,7 @@
       "modifiedDate": 1700304267925,
       "sizeInBytes": 34
     },
-    "the-vault/templates/Template {{Anki Note ∋ “⋕card”}}.md": {
+    "the-vault/templates/Template {{Anki Note ∋ “🎴”}}.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 0,
@@ -215,9 +215,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1697778379464,
-      "modifiedDate": 1700304267924,
-      "sizeInBytes": 71
+      "createdDate": 1697778379465,
+      "modifiedDate": 1700304267925,
+      "sizeInBytes": 34
     },
     "the-vault/templates/Template {{Anki Note ∋ “⋕card-reverse”}}.md": {
       "isCountable": true,
@@ -489,24 +489,6 @@
       "modifiedDate": 1700304267917,
       "sizeInBytes": 294
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ SQL Server/🗒️ SQL Server ∋ Table of Contents.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267910,
-      "modifiedDate": 1700304267910,
-      "sizeInBytes": 5916
-    },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ TypeScript/🗒️ TypeScript ∋ Table of Contents.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -524,6 +506,24 @@
       "createdDate": 1700304267916,
       "modifiedDate": 1700304267917,
       "sizeInBytes": 4809
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ SQL Server/🗒️ SQL Server ∋ Table of Contents.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267910,
+      "modifiedDate": 1700304267910,
+      "sizeInBytes": 5916
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ SQL/🗒️ SQL ∋ Table of Contents.md": {
       "isCountable": true,
@@ -759,24 +759,6 @@
       "modifiedDate": 1700304267909,
       "sizeInBytes": 270
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267908,
-      "modifiedDate": 1700304267908,
-      "sizeInBytes": 8975
-    },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Quartz/🗒️ Quartz ∋ Table of Contents.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -795,7 +777,7 @@
       "modifiedDate": 1700304267908,
       "sizeInBytes": 167
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md": {
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 0,
@@ -809,27 +791,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1700304267906,
-      "modifiedDate": 1700304267906,
-      "sizeInBytes": 845
-    },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267906,
-      "modifiedDate": 1700304267906,
-      "sizeInBytes": 3726
+      "createdDate": 1700304267908,
+      "modifiedDate": 1700304267908,
+      "sizeInBytes": 8975
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/🗒️ PowerShell ∋ Table of Contents.md": {
       "isCountable": true,
@@ -866,6 +830,42 @@
       "createdDate": 1700304267907,
       "modifiedDate": 1700304267907,
       "sizeInBytes": 4914
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267906,
+      "modifiedDate": 1700304267906,
+      "sizeInBytes": 845
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267906,
+      "modifiedDate": 1700304267906,
+      "sizeInBytes": 3726
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Node.js/🗒️ Node.js ∋ Table of Contents.md": {
       "isCountable": true,
@@ -2775,6 +2775,24 @@
       "modifiedDate": 1700304267857,
       "sizeInBytes": 1112
     },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/3. Derivatives.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267855,
+      "modifiedDate": 1700304267855,
+      "sizeInBytes": 1098
+    },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/7. Integrals and Transcendental Functions.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -2846,24 +2864,6 @@
       "createdDate": 1700304267855,
       "modifiedDate": 1700304267855,
       "sizeInBytes": 1114
-    },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/3. Derivatives.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267855,
-      "modifiedDate": 1700304267855,
-      "sizeInBytes": 1098
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/2. Limits and Continuity.md": {
       "isCountable": true,
@@ -2991,24 +2991,6 @@
       "modifiedDate": 1700304267852,
       "sizeInBytes": 1107
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/12. Vectors and the Geometry Space.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267851,
-      "modifiedDate": 1700304267851,
-      "sizeInBytes": 1118
-    },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/13. Vector-Valued Functions and Motion in Space.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -3026,6 +3008,24 @@
       "createdDate": 1700304267852,
       "modifiedDate": 1700304267852,
       "sizeInBytes": 1131
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/12. Vectors and the Geometry Space.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267851,
+      "modifiedDate": 1700304267851,
+      "sizeInBytes": 1118
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/11. Parametric Equations and Polar Coordinates.md": {
       "isCountable": true,
@@ -3171,24 +3171,6 @@
       "modifiedDate": 1700304267847,
       "sizeInBytes": 582
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/133. token replace 👨🏽‍💻.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267846,
-      "modifiedDate": 1700304267847,
-      "sizeInBytes": 703
-    },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/134. token transform 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -3207,7 +3189,43 @@
       "modifiedDate": 1700304267847,
       "sizeInBytes": 543
     },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/133. token replace 👨🏽‍💻.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267846,
+      "modifiedDate": 1700304267847,
+      "sizeInBytes": 703
+    },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/132. string search 👨🏽‍💻.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267846,
+      "modifiedDate": 1700304267846,
+      "sizeInBytes": 699
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/131. safe cracking 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 0,
@@ -3241,42 +3259,6 @@
       "aliases": [],
       "createdDate": 1700304267845,
       "modifiedDate": 1700304267845,
-      "sizeInBytes": 707
-    },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/131. safe cracking 👨🏽‍💻.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267846,
-      "modifiedDate": 1700304267846,
-      "sizeInBytes": 699
-    },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/127. build tree in pre 👨🏽‍💻.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267844,
-      "modifiedDate": 1700304267844,
       "sizeInBytes": 707
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/129. detect dictionary 👨🏽‍💻.md": {
@@ -3313,6 +3295,24 @@
       "aliases": [],
       "createdDate": 1700304267845,
       "modifiedDate": 1700304267845,
+      "sizeInBytes": 707
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/127. build tree in pre 👨🏽‍💻.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267844,
+      "modifiedDate": 1700304267844,
       "sizeInBytes": 707
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/126. build tree in post 👨🏽‍💻.md": {
@@ -3549,7 +3549,7 @@
       "modifiedDate": 1700304267839,
       "sizeInBytes": 693
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/111. lowest common ancestor 👨🏽‍💻.md": {
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/113. lefty nodes 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 0,
@@ -3565,7 +3565,7 @@
       "aliases": [],
       "createdDate": 1700304267838,
       "modifiedDate": 1700304267838,
-      "sizeInBytes": 660
+      "sizeInBytes": 687
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/112. flip tree 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3585,7 +3585,7 @@
       "modifiedDate": 1700304267838,
       "sizeInBytes": 687
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/113. lefty nodes 👨🏽‍💻.md": {
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/111. lowest common ancestor 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 0,
@@ -3601,7 +3601,7 @@
       "aliases": [],
       "createdDate": 1700304267838,
       "modifiedDate": 1700304267838,
-      "sizeInBytes": 687
+      "sizeInBytes": 660
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/110. linked list cycle 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3639,24 +3639,6 @@
       "modifiedDate": 1700304267837,
       "sizeInBytes": 695
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/107. mixed recall welcome 👨🏽‍💻.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267836,
-      "modifiedDate": 1700304267836,
-      "sizeInBytes": 727
-    },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/108. linked palindrome 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -3674,6 +3656,24 @@
       "createdDate": 1700304267836,
       "modifiedDate": 1700304267836,
       "sizeInBytes": 715
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/107. mixed recall welcome 👨🏽‍💻.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267836,
+      "modifiedDate": 1700304267836,
+      "sizeInBytes": 727
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/7. Exhaustive Recursion/7. Exhaustive Recursion ∋ Table of Contents.md": {
       "isCountable": true,
@@ -4089,24 +4089,6 @@
       "modifiedDate": 1700304267826,
       "sizeInBytes": 720
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/085. array stepper 👨🏽‍💻.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267825,
-      "modifiedDate": 1700304267826,
-      "sizeInBytes": 730
-    },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/086. max palin subsequence 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -4124,6 +4106,24 @@
       "createdDate": 1700304267826,
       "modifiedDate": 1700304267826,
       "sizeInBytes": 742
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/085. array stepper 👨🏽‍💻.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267825,
+      "modifiedDate": 1700304267826,
+      "sizeInBytes": 730
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/084. counting change 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4413,24 +4413,6 @@
       "modifiedDate": 1700304267819,
       "sizeInBytes": 669
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/067. longest path 👨🏽‍💻.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267818,
-      "modifiedDate": 1700304267818,
-      "sizeInBytes": 693
-    },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/069. best bridge 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -4466,6 +4448,24 @@
       "createdDate": 1700304267818,
       "modifiedDate": 1700304267818,
       "sizeInBytes": 691
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/067. longest path 👨🏽‍💻.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267818,
+      "modifiedDate": 1700304267818,
+      "sizeInBytes": 693
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/066. closest carrot 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4503,24 +4503,6 @@
       "modifiedDate": 1700304267817,
       "sizeInBytes": 689
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/062. slow and steady 👨🏻‍🏫.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267816,
-      "modifiedDate": 1700304267816,
-      "sizeInBytes": 694
-    },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/064. island count 👨🏽‍💻.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -4556,6 +4538,24 @@
       "createdDate": 1700304267816,
       "modifiedDate": 1700304267816,
       "sizeInBytes": 683
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/062. slow and steady 👨🏻‍🏫.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267816,
+      "modifiedDate": 1700304267816,
+      "sizeInBytes": 694
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/061. largest component 👨🏽‍💻.md": {
       "isCountable": true,
@@ -6483,78 +6483,6 @@
       "modifiedDate": 1700304267766,
       "sizeInBytes": 433
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs/Table of Contents.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267719,
-      "modifiedDate": 1700304267719,
-      "sizeInBytes": 525
-    },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs/Get started.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267718,
-      "modifiedDate": 1700304267718,
-      "sizeInBytes": 404
-    },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs/CICD and DevOps.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267718,
-      "modifiedDate": 1700304267718,
-      "sizeInBytes": 411
-    },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Master Your Data with Excel and Power BI/Misc..md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267762,
-      "modifiedDate": 1700304267762,
-      "sizeInBytes": 1258
-    },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Merriam-Webster/🌐 🤖 ChatGPT, Bing Chat, etc. Generated Flash Cards.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -6626,6 +6554,24 @@
       "createdDate": 1700304267763,
       "modifiedDate": 1700304267763,
       "sizeInBytes": 5964
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Master Your Data with Excel and Power BI/Misc..md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267762,
+      "modifiedDate": 1700304267762,
+      "sizeInBytes": 1258
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems (Medium).md": {
       "isCountable": true,
@@ -8067,24 +8013,6 @@
       "modifiedDate": 1700304267722,
       "sizeInBytes": 33492
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Appendix B꞉ C++ Updates.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267721,
-      "modifiedDate": 1700304267721,
-      "sizeInBytes": 740
-    },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Appendix C꞉ The End.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -8102,6 +8030,24 @@
       "createdDate": 1700304267721,
       "modifiedDate": 1700304267722,
       "sizeInBytes": 422
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Appendix B꞉ C++ Updates.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267721,
+      "modifiedDate": 1700304267721,
+      "sizeInBytes": 740
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Appendix A꞉ Miscellaneous Subjects.md": {
       "isCountable": true,
@@ -8121,24 +8067,6 @@
       "modifiedDate": 1700304267721,
       "sizeInBytes": 804
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/GoogleTest/GUIDES.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267719,
-      "modifiedDate": 1700304267719,
-      "sizeInBytes": 592
-    },
     "the-vault/src/🔴 Academic/📚 Educational Resource/IBM Technology/Misc. Notes.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -8157,7 +8085,7 @@
       "modifiedDate": 1700304267720,
       "sizeInBytes": 11166
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Guides ∋ Table of Contents.md": {
+    "the-vault/src/🔴 Academic/📚 Educational Resource/GoogleTest/GUIDES.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 0,
@@ -8171,9 +8099,63 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1700304267716,
-      "modifiedDate": 1700304267716,
-      "sizeInBytes": 0
+      "createdDate": 1700304267719,
+      "modifiedDate": 1700304267719,
+      "sizeInBytes": 592
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs/Table of Contents.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267719,
+      "modifiedDate": 1700304267719,
+      "sizeInBytes": 525
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs/Get started.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267718,
+      "modifiedDate": 1700304267718,
+      "sizeInBytes": 404
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs/CICD and DevOps.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267718,
+      "modifiedDate": 1700304267718,
+      "sizeInBytes": 411
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/What is a container？.md": {
       "isCountable": true,
@@ -8265,7 +8247,7 @@
       "modifiedDate": 1700319105548,
       "sizeInBytes": 1293
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Docker Overview.md": {
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Guides ∋ Table of Contents.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 0,
@@ -8279,9 +8261,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1700304267714,
-      "modifiedDate": 1700304267714,
-      "sizeInBytes": 16575
+      "createdDate": 1700304267716,
+      "modifiedDate": 1700304267716,
+      "sizeInBytes": 0
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 4꞉ Share the application.md": {
       "isCountable": true,
@@ -8301,24 +8283,6 @@
       "modifiedDate": 1700304267716,
       "sizeInBytes": 1090
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 2꞉ Containerize an application.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1700304267715,
-      "modifiedDate": 1700306364850,
-      "sizeInBytes": 3313
-    },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 3꞉ Update the application.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -8336,6 +8300,24 @@
       "createdDate": 1700304267716,
       "modifiedDate": 1700304267716,
       "sizeInBytes": 3068
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 2꞉ Containerize an application.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267715,
+      "modifiedDate": 1700306364850,
+      "sizeInBytes": 3313
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md": {
       "isCountable": true,
@@ -8372,6 +8354,24 @@
       "createdDate": 1700304267714,
       "modifiedDate": 1700304267714,
       "sizeInBytes": 2348
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Docker Overview.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700304267714,
+      "modifiedDate": 1700304267714,
+      "sizeInBytes": 16575
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md": {
       "isCountable": true,
@@ -13197,24 +13197,6 @@
       "modifiedDate": 1700304265538,
       "sizeInBytes": 90706
     },
-    "the-vault/assets/audios/rhythm-pronunciation.mp3": {
-      "isCountable": false,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1697778377868,
-      "modifiedDate": 1700304265529,
-      "sizeInBytes": 98907
-    },
     "the-vault/assets/audios/tangible-pronunciation.mp3": {
       "isCountable": false,
       "isDirectory": false,
@@ -13287,6 +13269,24 @@
       "modifiedDate": 1700304265532,
       "sizeInBytes": 123422
     },
+    "the-vault/assets/audios/rhythm-pronunciation.mp3": {
+      "isCountable": false,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1697778377868,
+      "modifiedDate": 1700304265529,
+      "sizeInBytes": 98907
+    },
     "the-vault/assets/audios/resemblance-pronunciation.mp3": {
       "isCountable": false,
       "isDirectory": false,
@@ -13304,24 +13304,6 @@
       "createdDate": 1697778377867,
       "modifiedDate": 1700304265527,
       "sizeInBytes": 114614
-    },
-    "the-vault/assets/audios/opportunity-pronunciation.mp3": {
-      "isCountable": false,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1697778377864,
-      "modifiedDate": 1700304265521,
-      "sizeInBytes": 99292
     },
     "the-vault/assets/audios/receipt-pronunciation.mp3": {
       "isCountable": false,
@@ -13377,6 +13359,24 @@
       "modifiedDate": 1700304265523,
       "sizeInBytes": 99786
     },
+    "the-vault/assets/audios/opportunity-pronunciation.mp3": {
+      "isCountable": false,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1697778377864,
+      "modifiedDate": 1700304265521,
+      "sizeInBytes": 99292
+    },
     "the-vault/assets/audios/mischievous-pronunciation.mp3": {
       "isCountable": false,
       "isDirectory": false,
@@ -13413,24 +13413,6 @@
       "modifiedDate": 1700304265518,
       "sizeInBytes": 99815
     },
-    "the-vault/assets/audios/liaison-pronunciation.mp3": {
-      "isCountable": false,
-      "isDirectory": false,
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1697778377860,
-      "modifiedDate": 1700304265514,
-      "sizeInBytes": 91528
-    },
     "the-vault/assets/audios/maneuver-pronunciation.mp3": {
       "isCountable": false,
       "isDirectory": false,
@@ -13448,6 +13430,24 @@
       "createdDate": 1697778377861,
       "modifiedDate": 1700304265516,
       "sizeInBytes": 85856
+    },
+    "the-vault/assets/audios/liaison-pronunciation.mp3": {
+      "isCountable": false,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1697778377860,
+      "modifiedDate": 1700304265514,
+      "sizeInBytes": 91528
     },
     "the-vault/assets/audios/jewelry-pronunciation.mp3": {
       "isCountable": false,
