@@ -1,7 +1,7 @@
 ---
 title: What is a container?
 created: 2023-10-31T16:39
-updated: 2023-11-18T03:15
+updated: 2023-11-18T03:29
 authors:
   - Edmund Leibert III
 tags:
@@ -38,7 +38,7 @@ Does a container have knowledge of your operating system, or files?
 No, a container has no knowledge of your operating system, or your files.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1700306173703
 
 ﹇<br>
 Do _containers_ have everything that you need in order to run, down to a base operating system?
@@ -55,17 +55,18 @@ Yes.
 ﹇<br>
 What exactly is the **Host port** option under **Optional settings** when running a image from Docker Desktop?
 
-![|400](https://docs.docker.com/guides/walkthroughs/images/getting-started-setup.webp?w=250&border=true)
+![Host port|400](https://docs.docker.com/guides/walkthroughs/images/getting-started-setup.webp?w=250&border=true)
 
 #card 
 
 The **Host port** option under **Optional settings** when running an image from Docker Desktop is used to map a port on your host machine to a port in the Docker container. This is known as port mapping or port forwarding.
 
-When you run a Docker container, it has its own set of port numbers. [If you want to access a service on this container from your host machine or network, you need to map a port on your host to a port on the container](https://docs.docker.com/desktop/networking/). [@ExploreNetworkingFeatures0200] [@baeldungAssigningPortMapping2022] 
+When you run a Docker container, it has its own set of port numbers. [If you want to access a service on this container from your host machine or network, you need to map a port on your host to a port on the container](https://docs.docker.com/desktop/networking/). [@ExploreNetworkingFeatures0200] 
+[@baeldungAssigningPortMapping2022] 
 
 The syntax for this in Docker is `-p HOST_PORT:CONTAINER_PORT`. [Here, `HOST_PORT` is the port number on your host machine, and `CONTAINER_PORT` is the port number in the container](https://stackoverflow.com/questions/62125794/docker-run-p-what-are-this-two-port-numbers-and-what-they-represents). [@salkiAnswerDockerRun2020] [@baeldungAssigningPortMapping2022] 
 
-For example, if you have a web server running in a Docker container listening on port 80, and you want to access it from your host machine on port 8000, you would use `-p 8000:80`. [Now, if you open a web browser on your host machine and go to `localhost:8000`, you’ll be able to access the web server running in your Docker container](https://docs.docker.com/desktop/networking/). [@ExploreNetworkingFeatures0200] [@baeldungAssigningPortMapping2022] 
+For example, if you have a web server running in a Docker container listening on port 80, and you want to access it from your host machine on port 8000, you would use `-p 8000:80`. [Now, if you open a web browser on your host machine and go to `localhost:8000`, you’ll be able to access the web server running in your Docker container](https://docs.docker.com/desktop/networking/). [@ExploreNetworkingFeatures0200] 
 
 ⌂
 <br>﹈<br>^1700215950549 
