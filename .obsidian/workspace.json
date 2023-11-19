@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/145. Binary Tree Postorder Traversal.md",
-                "mode": "preview",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/157. Read N Characters Given Read4.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 412.5,
-    "collapsed": true
+    "width": 412.5
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -103,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/145. Binary Tree Postorder Traversal.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/157. Read N Characters Given Read4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/145. Binary Tree Postorder Traversal.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/157. Read N Characters Given Read4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,6 +216,7 @@
   "active": "db17ffa0013a6684",
   "lastOpenFiles": [
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/145. Binary Tree Postorder Traversal.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/157. Read N Characters Given Read4.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/144. Binary Tree Preorder Traversal.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/How do I run a container？.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/sortspec.md",
@@ -242,7 +242,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/🗒️ Zotero ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero",
     "Pasted image 20231117020633.png",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs",

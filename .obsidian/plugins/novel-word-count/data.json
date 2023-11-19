@@ -13844,6 +13844,24 @@
       "createdDate": 1700304265481,
       "modifiedDate": 1700304265481,
       "sizeInBytes": 67523
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/157. Read N Characters Given Read4.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 177,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.59,
+      "characterCount": 1234,
+      "nonWhitespaceCharacterCount": 990,
+      "readingTimeInMinutes": 0.6679245283018868,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1700376040398,
+      "modifiedDate": 1700376512445,
+      "sizeInBytes": 2232
     }
   }
 }
