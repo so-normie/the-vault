@@ -1,7 +1,7 @@
 ---
 title: Run multi-container applications
 created: 2023-10-31T16:39
-updated: 2023-11-19T04:45
+updated: 2023-11-19T06:58
 authors:
   - Edmund Leibert III
 tags:
@@ -191,6 +191,9 @@ Here’s a breakdown of the `compose.yaml` file:
 	7. [**`action: sync`**: This line tells Docker Compose to synchronize source files with container content according to the `target` attribute when changes in the `./app` directory are detected](https://docs.docker.com/compose/file-watch/)[1](https://docs.docker.com/compose/file-watch/).
 	   
 	   In summary, these lines in your `compose.yaml` file enable Docker Compose to automatically rebuild your service or synchronize files when changes are detected in your local `package.json` file or `./app` directory. [This can be particularly useful for development workflows that involve frequent changes to source code](https://docs.docker.com/compose/file-watch/)[1](https://docs.docker.com/compose/file-watch/)[2](https://docs.docker.com/compose/compose-file/develop/).
+	   
+	   > [!Warning]
+	        > Note that the The `docker-compose up` command does not automatically activate the `watch` feature. In order to activate the `watch` feature, you should run `docker-compose`
 
 When you run `docker-compose up`, **Docker Compose** does the following:
 
@@ -203,9 +206,6 @@ When you run `docker-compose up`, **Docker Compose** does the following:
 
 ⌂
 <br>﹈<br>^1700397932926
-
-
-
 
 ﹇<br>
 Read to the following `compose.yaml` file…
@@ -333,6 +333,46 @@ So, while there’s no explicit line that says “run a container”, the instru
 
 ⌂
 <br>﹈<br>^1700397252931
+
+﹇<br>
+What is the difference between running `docker compose up` and `docker-compose up`?
+
+#card 
+
+[The commands `docker compose up` and `docker-compose up` essentially do the same thing, which is to build, (re)create, start, and attach to containers for a service](https://stackoverflow.com/questions/33715499/what-is-the-difference-between-docker-compose-up-and-docker-compose-start) [@lagoAnswerWhatDifference2015]. The difference lies in the version of Docker you are using.
+
+[In Docker version 1.27.0 and later, the Docker team introduced the command `docker compose` as a part of Docker CLI to bring Docker Compose capabilities into the Docker CLI](https://stackoverflow.com/questions/33715499/what-is-the-difference-between-docker-compose-up-and-docker-compose-start) [@lagoAnswerWhatDifference2015]. This was done to provide a more seamless and integrated experience for users. So, if you’re using Docker 1.27.0 or later, you can use `docker compose up`.
+
+On the other hand, `docker-compose up` is the command used in older versions of Docker, before the integration of Docker Compose into the Docker CLI. If you’re using an older version of Docker, you would use `docker-compose up`.
+
+In summary, both commands perform the same function, but `docker compose up` is used in Docker 1.27.0 and later, while `docker-compose up` is used in older versions of Docker.
+
+⌂
+<br>﹈<br>
+
+
+﹇<br>
+When I run `docker compose down`, does it delete the images built, or simply stop the containers running?
+
+#card 
+
+When you run the `docker-compose down` command, it stops all the running containers associated with your Docker Compose configuration. [It also removes the stopped containers as well as any networks that were created](https://docs.docker.com/engine/reference/commandline/compose_down/) [@DockerCompose0200] [@geniusAnswerDockercomposeStop2017] [@avimanyubandyopadhyayDockerComposeVs2021].
+
+By default, `docker-compose down` does **not** remove the images that were built or used by your services. However, you can add the `--rmi` option followed by `all` or `local` [to remove images`all` removes all images used by any service and `local` removes only images that don’t have a custom tag](https://docs.docker.com/engine/reference/commandline/compose_down/) .
+
+[Here’s a summary of what `docker-compose down` does](https://docs.docker.com/engine/reference/commandline/compose_down/) [@DockerCompose0200] [@geniusAnswerDockercomposeStop2017] [@avimanyubandyopadhyayDockerComposeVs2021]:
+
+- Stops running containers
+- Removes stopped containers
+- Removes networks created for the services
+
+[And optionally, with additional flags](https://docs.docker.com/engine/reference/commandline/compose_down/) [@DockerCompose0200]:
+
+- Removes images used by services (`--rmi all` or `--rmi local`)
+- Removes volumes (`-v` or `--volumes`)
+
+⌂
+<br>﹈<br>
 
 
 ## [Step 3: Run the application](https://docs.docker.com/guides/walkthroughs/multi-container-apps/#step-3-run-the-application)
