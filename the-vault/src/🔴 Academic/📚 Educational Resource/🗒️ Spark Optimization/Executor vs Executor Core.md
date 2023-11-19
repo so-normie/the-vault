@@ -1,7 +1,7 @@
 ---
 created: 2023-09-14 11:39
 pdated: 2023-09-18 18:04
-
+updated: 2023-11-18T02:44
 ---
 In the context of Apache Spark, "executor" and "executor core" are two related but distinct concepts that play crucial roles in distributed data processing. Let's explore the differences between them:
 

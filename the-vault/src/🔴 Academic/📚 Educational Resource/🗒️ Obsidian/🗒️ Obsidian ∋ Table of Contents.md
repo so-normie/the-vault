@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Obsidian ∋ Table of Contents
 created: 2023-08-20 08:26
-updated: 2023-11-17T09:01
+updated: 2023-11-18T02:44
 authors:
   - Edmund Leibert III
 tags:

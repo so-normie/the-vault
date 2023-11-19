@@ -10,7 +10,7 @@ tags:
   - 🔴-academic/📚-educational-resource/name/🗒️-rust/🔖-bookmark/🗒️-rust
   - study-note
 cards-deck: 🔴 Academic::📚 Educational ResourceRust
-updated: 2023-11-05T01:47
+updated: 2023-11-18T02:44
 ---
 
 ## 🔙 Previous Note(s):

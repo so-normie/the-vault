@@ -30,7 +30,7 @@ sorting-spec: |
   18. Complex Functions
   19. Fourier Series and Wavelets
 created: 2023-10-27T17:38
-updated: 2023-10-31T14:53
+updated: 2023-11-18T02:44
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Bash
 created: 2023-08-04 01:58
-updated: 2023-10-31T15:54
+updated: 2023-11-18T02:44
 authors:
   - Edmund Leibert III
 tags:

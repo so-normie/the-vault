@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Visual Studio Code
 created: 2023-09-25 16:03
-updated: 2023-11-02T15:14
+updated: 2023-11-18T02:44
 authors:
   - Edmund Leibert III
 tags:

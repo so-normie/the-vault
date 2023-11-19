@@ -1,7 +1,7 @@
 ---
 title: What is a container?
 created: 2023-10-31T16:39
-updated: 2023-11-18T08:41
+updated: 2023-11-19T12:42
 authors:
   - Edmund Leibert III
 tags:
@@ -17,7 +17,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkt
 ---
 
 > [!abstract]+ 
-> Notes that pertain to [What is a container? | Docker Docs](https://docs.docker.com/guides/walkthroughs/what-is-a-container/). Explore a running container in Docker Desktop. [@WhatContainer]
+> Notes pertaining to [What is a container? | Docker Docs](https://docs.docker.com/guides/walkthroughs/what-is-a-container/). Explore a running container in Docker Desktop. [@WhatContainer]
 
 ---
 
@@ -123,7 +123,7 @@ In Docker Desktop, when I inspect the files of a running container, what does th
 
 [This could be due to a variety of reasons, such as an application within the container writing to the file, a user manually editing the file, or a system process updating the file](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/) [@walkerHowInspectChanges2022]. 
 
-[Remember, any changes made to the container’s filesystem will be lost when the container is restarted or destroyed, unless those changes are made in a volume](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/)[2](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/) [@walkerHowInspectChanges2022].
+[Remember, any changes made to the container’s filesystem will be lost when the container is restarted or destroyed, unless those changes are made in a volume](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/) [@walkerHowInspectChanges2022].
 
 ⌂
 <br>﹈<br>^1700215950582

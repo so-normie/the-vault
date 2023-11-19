@@ -73,7 +73,7 @@
       "aliases": null,
       "createdDate": 1697778379467,
       "modifiedDate": 1700304267928,
-      "sizeInBytes": 1372
+      "sizeInBytes": 1370
     },
     "the-vault/templates/Template {{Table of Contents}}.md": {
       "isCountable": true,
@@ -289,7 +289,7 @@
       "aliases": null,
       "createdDate": 1700304267922,
       "modifiedDate": 1700304267922,
-      "sizeInBytes": 3422
+      "sizeInBytes": 3411
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/Misc. Notes.md": {
       "isCountable": true,
@@ -325,7 +325,7 @@
       "aliases": null,
       "createdDate": 1700304267922,
       "modifiedDate": 1700304267922,
-      "sizeInBytes": 286
+      "sizeInBytes": 278
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Yarn/🗒️ Yarn ∋ Table of Contents.md": {
       "isCountable": true,
@@ -397,7 +397,7 @@
       "aliases": null,
       "createdDate": 1700304267918,
       "modifiedDate": 1700304267918,
-      "sizeInBytes": 5178
+      "sizeInBytes": 5166
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Visual Studio Code/Keyboard Shortcuts.md": {
       "isCountable": true,
@@ -415,7 +415,7 @@
       "aliases": null,
       "createdDate": 1700304267918,
       "modifiedDate": 1700304267918,
-      "sizeInBytes": 1292
+      "sizeInBytes": 1280
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Visual Studio/🗒️ Visual Studio ∋ Table of Contents.md": {
       "isCountable": true,
@@ -433,7 +433,7 @@
       "aliases": null,
       "createdDate": 1700304267920,
       "modifiedDate": 1700304267920,
-      "sizeInBytes": 6403
+      "sizeInBytes": 6391
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Visual Studio/Project Structure.md": {
       "isCountable": true,
@@ -451,7 +451,7 @@
       "aliases": null,
       "createdDate": 1700304267919,
       "modifiedDate": 1700304267919,
-      "sizeInBytes": 7457
+      "sizeInBytes": 7445
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Visual Studio/Configuring the Settings.md": {
       "isCountable": true,
@@ -487,7 +487,7 @@
       "aliases": null,
       "createdDate": 1700304267917,
       "modifiedDate": 1700304267917,
-      "sizeInBytes": 294
+      "sizeInBytes": 287
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ TypeScript/🗒️ TypeScript ∋ Table of Contents.md": {
       "isCountable": true,
@@ -505,7 +505,7 @@
       "aliases": null,
       "createdDate": 1700304267916,
       "modifiedDate": 1700304267917,
-      "sizeInBytes": 4809
+      "sizeInBytes": 4799
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ SQL Server/🗒️ SQL Server ∋ Table of Contents.md": {
       "isCountable": true,
@@ -541,7 +541,7 @@
       "aliases": null,
       "createdDate": 1700304267911,
       "modifiedDate": 1700304267912,
-      "sizeInBytes": 38245
+      "sizeInBytes": 38233
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Spark Optimization/Repartition vs Coalesce.md": {
       "isCountable": true,
@@ -577,7 +577,7 @@
       "aliases": null,
       "createdDate": 1700304267916,
       "modifiedDate": 1700304267916,
-      "sizeInBytes": 3442
+      "sizeInBytes": 3437
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Spark Optimization/Optimizing DataFrame Transformations/General Join Mechanics.md": {
       "isCountable": true,
@@ -613,7 +613,7 @@
       "aliases": null,
       "createdDate": 1700304267914,
       "modifiedDate": 1700304267915,
-      "sizeInBytes": 3578
+      "sizeInBytes": 3600
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Spark Optimization/Dynamic Resource Allocation.md": {
       "isCountable": true,
@@ -649,7 +649,7 @@
       "aliases": null,
       "createdDate": 1700304267914,
       "modifiedDate": 1700304267914,
-      "sizeInBytes": 3089
+      "sizeInBytes": 3084
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Spark Optimization/Causes of OOM Errors/Excessively Large Partition.md": {
       "isCountable": true,
@@ -667,7 +667,7 @@
       "aliases": null,
       "createdDate": 1700304267913,
       "modifiedDate": 1700304267913,
-      "sizeInBytes": 3403
+      "sizeInBytes": 3398
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Spark Optimization/Causes of OOM Errors/Excessively High Concurrency.md": {
       "isCountable": true,
@@ -677,7 +677,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.3966666666666667,
-      "characterCount": 2968,
+      "characterCount": 2969,
       "nonWhitespaceCharacterCount": 2506,
       "readingTimeInMinutes": 1.5811320754716982,
       "linkCount": 0,
@@ -685,7 +685,7 @@
       "aliases": null,
       "createdDate": 1700304267913,
       "modifiedDate": 1700304267913,
-      "sizeInBytes": 2972
+      "sizeInBytes": 3032
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Spark Optimization/Causes of OOM Errors/Container killed by YARN.md": {
       "isCountable": true,
@@ -695,7 +695,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.1133333333333333,
-      "characterCount": 2322,
+      "characterCount": 2323,
       "nonWhitespaceCharacterCount": 1957,
       "readingTimeInMinutes": 1.260377358490566,
       "linkCount": 0,
@@ -703,7 +703,7 @@
       "aliases": null,
       "createdDate": 1700304267912,
       "modifiedDate": 1700304267912,
-      "sizeInBytes": 2326
+      "sizeInBytes": 2386
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Spark Optimization/Causes of OOM Errors/Broadcast Joins.md": {
       "isCountable": true,
@@ -713,7 +713,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 2.26,
-      "characterCount": 4373,
+      "characterCount": 4374,
       "nonWhitespaceCharacterCount": 3630,
       "readingTimeInMinutes": 2.5584905660377357,
       "linkCount": 0,
@@ -721,7 +721,7 @@
       "aliases": null,
       "createdDate": 1700304267912,
       "modifiedDate": 1700304267912,
-      "sizeInBytes": 4379
+      "sizeInBytes": 4439
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Rust/🗒️ Rust ∋ Table of Contents.md": {
       "isCountable": true,
@@ -739,7 +739,7 @@
       "aliases": null,
       "createdDate": 1700304267909,
       "modifiedDate": 1700304267910,
-      "sizeInBytes": 967
+      "sizeInBytes": 955
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Rclone/🗒️ Rclone ∋ Table of Contents.md": {
       "isCountable": true,
@@ -757,7 +757,7 @@
       "aliases": null,
       "createdDate": 1700304267909,
       "modifiedDate": 1700304267909,
-      "sizeInBytes": 270
+      "sizeInBytes": 268
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Quartz/🗒️ Quartz ∋ Table of Contents.md": {
       "isCountable": true,
@@ -775,7 +775,7 @@
       "aliases": null,
       "createdDate": 1700304267908,
       "modifiedDate": 1700304267908,
-      "sizeInBytes": 167
+      "sizeInBytes": 165
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md": {
       "isCountable": true,
@@ -829,7 +829,7 @@
       "aliases": null,
       "createdDate": 1700304267907,
       "modifiedDate": 1700304267907,
-      "sizeInBytes": 4914
+      "sizeInBytes": 4901
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md": {
       "isCountable": true,
@@ -847,7 +847,7 @@
       "aliases": null,
       "createdDate": 1700304267906,
       "modifiedDate": 1700304267906,
-      "sizeInBytes": 845
+      "sizeInBytes": 834
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md": {
       "isCountable": true,
@@ -857,15 +857,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.5366666666666666,
-      "characterCount": 3129,
+      "characterCount": 2977,
       "nonWhitespaceCharacterCount": 2431,
       "readingTimeInMinutes": 1.739622641509434,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700304267906,
-      "modifiedDate": 1700304267906,
-      "sizeInBytes": 3726
+      "modifiedDate": 1700426396873,
+      "sizeInBytes": 3562
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Node.js/🗒️ Node.js ∋ Table of Contents.md": {
       "isCountable": true,
@@ -893,7 +893,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 2.26,
-      "characterCount": 4381,
+      "characterCount": 4382,
       "nonWhitespaceCharacterCount": 3574,
       "readingTimeInMinutes": 2.5584905660377357,
       "linkCount": 0,
@@ -901,7 +901,7 @@
       "aliases": null,
       "createdDate": 1700304267904,
       "modifiedDate": 1700304267904,
-      "sizeInBytes": 4476
+      "sizeInBytes": 4536
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ MSYS2/MSYS2 Commands.md": {
       "isCountable": true,
@@ -929,7 +929,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.7633333333333333,
-      "characterCount": 1493,
+      "characterCount": 1494,
       "nonWhitespaceCharacterCount": 1207,
       "readingTimeInMinutes": 0.8641509433962264,
       "linkCount": 0,
@@ -937,7 +937,7 @@
       "aliases": null,
       "createdDate": 1700304267904,
       "modifiedDate": 1700304267904,
-      "sizeInBytes": 1515
+      "sizeInBytes": 1575
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Excel/🗒️ Microsoft Excel ∋ Table of Contents.md": {
       "isCountable": true,
@@ -955,7 +955,7 @@
       "aliases": null,
       "createdDate": 1700304267903,
       "modifiedDate": 1700304267903,
-      "sizeInBytes": 684
+      "sizeInBytes": 677
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Lua/🗒️ Lua ∋ Table of Contents.md": {
       "isCountable": true,
@@ -973,7 +973,7 @@
       "aliases": null,
       "createdDate": 1700304267902,
       "modifiedDate": 1700304267902,
-      "sizeInBytes": 320
+      "sizeInBytes": 310
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JetBrains/🗒️ JetBrains ∋ Table of Contents.md": {
       "isCountable": true,
@@ -991,7 +991,7 @@
       "aliases": null,
       "createdDate": 1700304267901,
       "modifiedDate": 1700304267901,
-      "sizeInBytes": 7254
+      "sizeInBytes": 7244
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JetBrains/Misc. Notes.md": {
       "isCountable": true,
@@ -1009,7 +1009,7 @@
       "aliases": null,
       "createdDate": 1700304267900,
       "modifiedDate": 1700304267900,
-      "sizeInBytes": 664
+      "sizeInBytes": 654
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JetBrains/Keyboard Shortcuts.md": {
       "isCountable": true,
@@ -1045,7 +1045,7 @@
       "aliases": null,
       "createdDate": 1700304267901,
       "modifiedDate": 1700304267901,
-      "sizeInBytes": 5430
+      "sizeInBytes": 5419
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/Misc. Notes.md": {
       "isCountable": true,
@@ -1081,25 +1081,25 @@
       "aliases": null,
       "createdDate": 1700304267899,
       "modifiedDate": 1700304267899,
-      "sizeInBytes": 824
+      "sizeInBytes": 814
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Hugo/📄 Hugo.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 7,
+      "wordCount": 15,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.023333333333333334,
-      "characterCount": 81,
-      "nonWhitespaceCharacterCount": 54,
-      "readingTimeInMinutes": 0.026415094339622643,
+      "pageCount": 0.05,
+      "characterCount": 144,
+      "nonWhitespaceCharacterCount": 106,
+      "readingTimeInMinutes": 0.05660377358490566,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700304267898,
       "modifiedDate": 1700304267898,
-      "sizeInBytes": 143
+      "sizeInBytes": 203
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ HTML/🗒️ HTML ∋ Table of Contents.md": {
       "isCountable": true,
@@ -1117,7 +1117,7 @@
       "aliases": null,
       "createdDate": 1700304267898,
       "modifiedDate": 1700304267898,
-      "sizeInBytes": 72
+      "sizeInBytes": 70
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GoogleTest/🗒️ GoogleTest ∋ Table of Contents.md": {
       "isCountable": true,
@@ -1135,7 +1135,7 @@
       "aliases": null,
       "createdDate": 1700304267897,
       "modifiedDate": 1700304267897,
-      "sizeInBytes": 1693
+      "sizeInBytes": 1691
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Google Apps Scripts/🗒️ Google Apps Scripts ∋ Table of Contents.md": {
       "isCountable": true,
@@ -1153,7 +1153,7 @@
       "aliases": null,
       "createdDate": 1700304267896,
       "modifiedDate": 1700304267896,
-      "sizeInBytes": 618
+      "sizeInBytes": 610
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Go/🗒️ Go ∋ Table of Contents.md": {
       "isCountable": true,
@@ -1171,7 +1171,7 @@
       "aliases": null,
       "createdDate": 1700304267896,
       "modifiedDate": 1700304267896,
-      "sizeInBytes": 41
+      "sizeInBytes": 66
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/🗒️ GitHub CLI ∋ Table of Contents.md": {
       "isCountable": true,
@@ -1189,7 +1189,7 @@
       "aliases": null,
       "createdDate": 1700304267895,
       "modifiedDate": 1700304267895,
-      "sizeInBytes": 6096
+      "sizeInBytes": 6085
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub/🗒️ GitHub ∋ Table of Contents.md": {
       "isCountable": true,
@@ -1207,7 +1207,7 @@
       "aliases": null,
       "createdDate": 1700304267895,
       "modifiedDate": 1700304267895,
-      "sizeInBytes": 2211
+      "sizeInBytes": 2200
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/🗒️ Git ∋ Table of Contents.md": {
       "isCountable": true,
@@ -1261,7 +1261,7 @@
       "aliases": null,
       "createdDate": 1700304267893,
       "modifiedDate": 1700304267893,
-      "sizeInBytes": 2256
+      "sizeInBytes": 2244
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESBuild/🗒️ ESBuild ∋ Table of Contents.md": {
       "isCountable": true,
@@ -1279,7 +1279,7 @@
       "aliases": null,
       "createdDate": 1700304267893,
       "modifiedDate": 1700304267893,
-      "sizeInBytes": 7544
+      "sizeInBytes": 7542
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Docker/🗒️ Docker ∋ Table of Contents.md": {
       "isCountable": true,
@@ -1297,7 +1297,7 @@
       "aliases": null,
       "createdDate": 1700304267892,
       "modifiedDate": 1700304267892,
-      "sizeInBytes": 7333
+      "sizeInBytes": 7323
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Discord/Custom CSS.md": {
       "isCountable": true,
@@ -1315,7 +1315,7 @@
       "aliases": null,
       "createdDate": 1700304267892,
       "modifiedDate": 1700304267892,
-      "sizeInBytes": 141
+      "sizeInBytes": 139
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ CMake/Misc. Notes.md": {
       "isCountable": true,
@@ -1333,7 +1333,7 @@
       "aliases": null,
       "createdDate": 1700304267891,
       "modifiedDate": 1700304267892,
-      "sizeInBytes": 3864
+      "sizeInBytes": 3853
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/🗒️ C++ ∋ Table of Contents.md": {
       "isCountable": true,
@@ -1351,7 +1351,7 @@
       "aliases": null,
       "createdDate": 1700304267890,
       "modifiedDate": 1700304267890,
-      "sizeInBytes": 6332
+      "sizeInBytes": 6320
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/MSVC.md": {
       "isCountable": true,
@@ -1369,7 +1369,7 @@
       "aliases": null,
       "createdDate": 1700304267889,
       "modifiedDate": 1700304267889,
-      "sizeInBytes": 5593
+      "sizeInBytes": 5581
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/Misc. Notes.md": {
       "isCountable": true,
@@ -1387,7 +1387,7 @@
       "aliases": null,
       "createdDate": 1700304267890,
       "modifiedDate": 1700304267890,
-      "sizeInBytes": 58356
+      "sizeInBytes": 58344
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/Algorithms library.md": {
       "isCountable": true,
@@ -1405,7 +1405,7 @@
       "aliases": null,
       "createdDate": 1700304267889,
       "modifiedDate": 1700304267889,
-      "sizeInBytes": 3556
+      "sizeInBytes": 3544
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bash/Misc. Notes.md": {
       "isCountable": true,
@@ -1423,7 +1423,7 @@
       "aliases": null,
       "createdDate": 1700304267888,
       "modifiedDate": 1700304267888,
-      "sizeInBytes": 2704
+      "sizeInBytes": 2693
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Angular/🗒️ Angular ∋ Table of Contents.md": {
       "isCountable": true,
@@ -1441,7 +1441,7 @@
       "aliases": null,
       "createdDate": 1700304267888,
       "modifiedDate": 1700304267888,
-      "sizeInBytes": 4089
+      "sizeInBytes": 4079
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Anaconda/🗒️ Anaconda ∋ Table of Contents.md": {
       "isCountable": true,
@@ -1459,7 +1459,7 @@
       "aliases": null,
       "createdDate": 1700304267887,
       "modifiedDate": 1700304267887,
-      "sizeInBytes": 614
+      "sizeInBytes": 603
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md": {
       "isCountable": true,
@@ -1477,7 +1477,7 @@
       "aliases": null,
       "createdDate": 1700304267886,
       "modifiedDate": 1700304267887,
-      "sizeInBytes": 16318
+      "sizeInBytes": 16309
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🏗️ Data Garage/Data Garage꞉ Project 1.md": {
       "isCountable": true,
@@ -1495,7 +1495,7 @@
       "aliases": null,
       "createdDate": 1700304267886,
       "modifiedDate": 1700304267886,
-      "sizeInBytes": 2047
+      "sizeInBytes": 2040
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🏗️ Data Garage/Data Garage꞉ Project 1 1.md": {
       "isCountable": true,
@@ -1513,7 +1513,7 @@
       "aliases": null,
       "createdDate": 1700304267885,
       "modifiedDate": 1700304267885,
-      "sizeInBytes": 1272
+      "sizeInBytes": 1327
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Vim/Vim ∋ Table of Contents.md": {
       "isCountable": true,
@@ -1585,7 +1585,7 @@
       "aliases": null,
       "createdDate": 1700304267884,
       "modifiedDate": 1700304267884,
-      "sizeInBytes": 2428
+      "sizeInBytes": 2418
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Use the Index, Luke!/0. Preface.md": {
       "isCountable": true,
@@ -1603,7 +1603,7 @@
       "aliases": null,
       "createdDate": 1700304267884,
       "modifiedDate": 1700304267884,
-      "sizeInBytes": 2004
+      "sizeInBytes": 2002
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/UNIT CONVERSION FACTORS.md": {
       "isCountable": true,
@@ -1621,7 +1621,7 @@
       "aliases": null,
       "createdDate": 1700304267883,
       "modifiedDate": 1700304267883,
-      "sizeInBytes": 1662
+      "sizeInBytes": 1656
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/TO THE STUDENT.md": {
       "isCountable": true,
@@ -1639,7 +1639,7 @@
       "aliases": null,
       "createdDate": 1700304267882,
       "modifiedDate": 1700304267883,
-      "sizeInBytes": 319
+      "sizeInBytes": 313
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/sortspec.md.md": {
       "isCountable": true,
@@ -1657,7 +1657,7 @@
       "aliases": null,
       "createdDate": 1700304267883,
       "modifiedDate": 1700304267883,
-      "sizeInBytes": 2244
+      "sizeInBytes": 2176
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/INDEX.md": {
       "isCountable": true,
@@ -1675,7 +1675,7 @@
       "aliases": null,
       "createdDate": 1700304267882,
       "modifiedDate": 1700304267882,
-      "sizeInBytes": 308
+      "sizeInBytes": 301
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/DETAILED CONTENTS.md": {
       "isCountable": true,
@@ -1693,7 +1693,7 @@
       "aliases": null,
       "createdDate": 1700304267882,
       "modifiedDate": 1700304267882,
-      "sizeInBytes": 322
+      "sizeInBytes": 316
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/CREDITS.md": {
       "isCountable": true,
@@ -1711,7 +1711,7 @@
       "aliases": null,
       "createdDate": 1700304267864,
       "modifiedDate": 1700304267864,
-      "sizeInBytes": 310
+      "sizeInBytes": 303
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 9 Rotation of Rigid Bodies.md": {
       "isCountable": true,
@@ -1729,7 +1729,7 @@
       "aliases": null,
       "createdDate": 1700304267882,
       "modifiedDate": 1700304267882,
-      "sizeInBytes": 271
+      "sizeInBytes": 265
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 8 Momentum, Impulse, and Collisions.md": {
       "isCountable": true,
@@ -1747,7 +1747,7 @@
       "aliases": null,
       "createdDate": 1700304267881,
       "modifiedDate": 1700304267881,
-      "sizeInBytes": 280
+      "sizeInBytes": 274
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 7 Potential Energy and Energy Conservation.md": {
       "isCountable": true,
@@ -1765,7 +1765,7 @@
       "aliases": null,
       "createdDate": 1700304267881,
       "modifiedDate": 1700304267881,
-      "sizeInBytes": 352
+      "sizeInBytes": 346
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 6 Work and Kinetic Energy.md": {
       "isCountable": true,
@@ -1783,7 +1783,7 @@
       "aliases": null,
       "createdDate": 1700304267881,
       "modifiedDate": 1700304267881,
-      "sizeInBytes": 335
+      "sizeInBytes": 329
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 5 Applying Newton’s Laws.md": {
       "isCountable": true,
@@ -1801,7 +1801,7 @@
       "aliases": null,
       "createdDate": 1700304267880,
       "modifiedDate": 1700304267880,
-      "sizeInBytes": 336
+      "sizeInBytes": 330
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 44 Particle Physics and Cosmology.md": {
       "isCountable": true,
@@ -1819,7 +1819,7 @@
       "aliases": null,
       "createdDate": 1700304267879,
       "modifiedDate": 1700304267879,
-      "sizeInBytes": 341
+      "sizeInBytes": 334
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 43 Nuclear Physics.md": {
       "isCountable": true,
@@ -1837,7 +1837,7 @@
       "aliases": null,
       "createdDate": 1700304267879,
       "modifiedDate": 1700304267879,
-      "sizeInBytes": 326
+      "sizeInBytes": 319
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 42 Molecules and Condensed Matter.md": {
       "isCountable": true,
@@ -1855,7 +1855,7 @@
       "aliases": null,
       "createdDate": 1700304267878,
       "modifiedDate": 1700304267879,
-      "sizeInBytes": 341
+      "sizeInBytes": 334
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 41 Quantum Mechanics II꞉ Atomic Structure.md": {
       "isCountable": true,
@@ -1873,7 +1873,7 @@
       "aliases": null,
       "createdDate": 1700304267878,
       "modifiedDate": 1700304267878,
-      "sizeInBytes": 351
+      "sizeInBytes": 344
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 40 Quantum Mechanics I꞉ Wave Functions.md": {
       "isCountable": true,
@@ -1891,7 +1891,7 @@
       "aliases": null,
       "createdDate": 1700304267878,
       "modifiedDate": 1700304267878,
-      "sizeInBytes": 348
+      "sizeInBytes": 341
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 4 Newton’s Laws of Motion.md": {
       "isCountable": true,
@@ -1909,7 +1909,7 @@
       "aliases": null,
       "createdDate": 1700304267877,
       "modifiedDate": 1700304267877,
-      "sizeInBytes": 337
+      "sizeInBytes": 331
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 39 Particles Behaving as Waves.md": {
       "isCountable": true,
@@ -1927,7 +1927,7 @@
       "aliases": null,
       "createdDate": 1700304267877,
       "modifiedDate": 1700304267877,
-      "sizeInBytes": 338
+      "sizeInBytes": 331
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 38 Photons꞉ Light Waves Behaving as Particles.md": {
       "isCountable": true,
@@ -1945,7 +1945,7 @@
       "aliases": null,
       "createdDate": 1700304267877,
       "modifiedDate": 1700304267877,
-      "sizeInBytes": 355
+      "sizeInBytes": 348
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 37 Relativity.md": {
       "isCountable": true,
@@ -1963,7 +1963,7 @@
       "aliases": null,
       "createdDate": 1700304267876,
       "modifiedDate": 1700304267876,
-      "sizeInBytes": 321
+      "sizeInBytes": 314
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 36 Diffraction.md": {
       "isCountable": true,
@@ -1981,7 +1981,7 @@
       "aliases": null,
       "createdDate": 1700304267876,
       "modifiedDate": 1700304267876,
-      "sizeInBytes": 322
+      "sizeInBytes": 315
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 35 Interference.md": {
       "isCountable": true,
@@ -1999,7 +1999,7 @@
       "aliases": null,
       "createdDate": 1700304267874,
       "modifiedDate": 1700304267874,
-      "sizeInBytes": 323
+      "sizeInBytes": 316
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 34 Geometric Optics.md": {
       "isCountable": true,
@@ -2017,7 +2017,7 @@
       "aliases": null,
       "createdDate": 1700304267874,
       "modifiedDate": 1700304267874,
-      "sizeInBytes": 327
+      "sizeInBytes": 320
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 33 The Nature and Propagation of Light.md": {
       "isCountable": true,
@@ -2035,7 +2035,7 @@
       "aliases": null,
       "createdDate": 1700304267874,
       "modifiedDate": 1700304267874,
-      "sizeInBytes": 346
+      "sizeInBytes": 339
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 32 Electromagnetic Waves.md": {
       "isCountable": true,
@@ -2053,7 +2053,7 @@
       "aliases": null,
       "createdDate": 1700304267874,
       "modifiedDate": 1700304267874,
-      "sizeInBytes": 332
+      "sizeInBytes": 325
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 31 Alternating Current.md": {
       "isCountable": true,
@@ -2071,7 +2071,7 @@
       "aliases": null,
       "createdDate": 1700304267873,
       "modifiedDate": 1700304267873,
-      "sizeInBytes": 330
+      "sizeInBytes": 323
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 30 Inductance.md": {
       "isCountable": true,
@@ -2089,7 +2089,7 @@
       "aliases": null,
       "createdDate": 1700304267873,
       "modifiedDate": 1700304267873,
-      "sizeInBytes": 321
+      "sizeInBytes": 314
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 3 Motion in Two or Three Dimensions.md": {
       "isCountable": true,
@@ -2107,7 +2107,7 @@
       "aliases": null,
       "createdDate": 1700304267872,
       "modifiedDate": 1700304267872,
-      "sizeInBytes": 345
+      "sizeInBytes": 339
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 29 Electromagnetic Induction.md": {
       "isCountable": true,
@@ -2125,7 +2125,7 @@
       "aliases": null,
       "createdDate": 1700304267872,
       "modifiedDate": 1700304267872,
-      "sizeInBytes": 336
+      "sizeInBytes": 329
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 28 Sources of Magnetic Field.md": {
       "isCountable": true,
@@ -2143,7 +2143,7 @@
       "aliases": null,
       "createdDate": 1700304267872,
       "modifiedDate": 1700304267872,
-      "sizeInBytes": 336
+      "sizeInBytes": 329
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 27 Magnetic Field and Magnetic Forces.md": {
       "isCountable": true,
@@ -2161,7 +2161,7 @@
       "aliases": null,
       "createdDate": 1700304267872,
       "modifiedDate": 1700304267872,
-      "sizeInBytes": 345
+      "sizeInBytes": 338
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 26 Direct-Current Circuits.md": {
       "isCountable": true,
@@ -2179,7 +2179,7 @@
       "aliases": null,
       "createdDate": 1700304267871,
       "modifiedDate": 1700304267871,
-      "sizeInBytes": 334
+      "sizeInBytes": 327
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 25 Current, Resistance, and Electromotive Force.md": {
       "isCountable": true,
@@ -2197,7 +2197,7 @@
       "aliases": null,
       "createdDate": 1700304267870,
       "modifiedDate": 1700304267871,
-      "sizeInBytes": 355
+      "sizeInBytes": 348
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 24 Capacitance.md": {
       "isCountable": true,
@@ -2215,7 +2215,7 @@
       "aliases": null,
       "createdDate": 1700304267870,
       "modifiedDate": 1700304267870,
-      "sizeInBytes": 322
+      "sizeInBytes": 315
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 23 Electric Potential.md": {
       "isCountable": true,
@@ -2233,7 +2233,7 @@
       "aliases": null,
       "createdDate": 1700304267870,
       "modifiedDate": 1700304267870,
-      "sizeInBytes": 329
+      "sizeInBytes": 322
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 22 Gauss’s Law.md": {
       "isCountable": true,
@@ -2251,7 +2251,7 @@
       "aliases": null,
       "createdDate": 1700304267869,
       "modifiedDate": 1700304267869,
-      "sizeInBytes": 324
+      "sizeInBytes": 317
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 21 Electric Charge and Electric Field.md": {
       "isCountable": true,
@@ -2269,7 +2269,7 @@
       "aliases": null,
       "createdDate": 1700304267869,
       "modifiedDate": 1700304267869,
-      "sizeInBytes": 345
+      "sizeInBytes": 338
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 20 The Second Law of Thermodynamics.md": {
       "isCountable": true,
@@ -2287,7 +2287,7 @@
       "aliases": null,
       "createdDate": 1700304267868,
       "modifiedDate": 1700304267869,
-      "sizeInBytes": 343
+      "sizeInBytes": 336
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 2 Motion Along a Straight Line.md": {
       "isCountable": true,
@@ -2305,7 +2305,7 @@
       "aliases": null,
       "createdDate": 1700304267868,
       "modifiedDate": 1700304267868,
-      "sizeInBytes": 343
+      "sizeInBytes": 337
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 19 The First Law of Thermodynamics.md": {
       "isCountable": true,
@@ -2323,7 +2323,7 @@
       "aliases": null,
       "createdDate": 1700304267868,
       "modifiedDate": 1700304267868,
-      "sizeInBytes": 342
+      "sizeInBytes": 335
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 18 Thermal Properties of Matter.md": {
       "isCountable": true,
@@ -2341,7 +2341,7 @@
       "aliases": null,
       "createdDate": 1700304267867,
       "modifiedDate": 1700304267867,
-      "sizeInBytes": 339
+      "sizeInBytes": 332
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 17 Temperature and Heat.md": {
       "isCountable": true,
@@ -2359,7 +2359,7 @@
       "aliases": null,
       "createdDate": 1700304267867,
       "modifiedDate": 1700304267867,
-      "sizeInBytes": 331
+      "sizeInBytes": 324
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 16 Sound and Hearing.md": {
       "isCountable": true,
@@ -2377,7 +2377,7 @@
       "aliases": null,
       "createdDate": 1700304267866,
       "modifiedDate": 1700304267867,
-      "sizeInBytes": 328
+      "sizeInBytes": 321
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 15 Mechanical Waves.md": {
       "isCountable": true,
@@ -2395,7 +2395,7 @@
       "aliases": null,
       "createdDate": 1700304267866,
       "modifiedDate": 1700304267866,
-      "sizeInBytes": 327
+      "sizeInBytes": 320
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 14 Periodic Motion.md": {
       "isCountable": true,
@@ -2413,7 +2413,7 @@
       "aliases": null,
       "createdDate": 1700304267866,
       "modifiedDate": 1700304267866,
-      "sizeInBytes": 326
+      "sizeInBytes": 319
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 13 Gravitation.md": {
       "isCountable": true,
@@ -2431,7 +2431,7 @@
       "aliases": null,
       "createdDate": 1700304267865,
       "modifiedDate": 1700304267865,
-      "sizeInBytes": 322
+      "sizeInBytes": 315
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 12 Fluid Mechanics.md": {
       "isCountable": true,
@@ -2449,7 +2449,7 @@
       "aliases": null,
       "createdDate": 1700304267865,
       "modifiedDate": 1700304267865,
-      "sizeInBytes": 326
+      "sizeInBytes": 319
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 11 Equilibrium and Elasticity.md": {
       "isCountable": true,
@@ -2467,7 +2467,7 @@
       "aliases": null,
       "createdDate": 1700304267864,
       "modifiedDate": 1700304267864,
-      "sizeInBytes": 337
+      "sizeInBytes": 330
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 10 Dynamics of Rotational Motion.md": {
       "isCountable": true,
@@ -2485,7 +2485,7 @@
       "aliases": null,
       "createdDate": 1700304267864,
       "modifiedDate": 1700304267864,
-      "sizeInBytes": 276
+      "sizeInBytes": 270
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/Chapter 1 Units, Physical Quantities, and Vectors.md": {
       "isCountable": true,
@@ -2503,7 +2503,7 @@
       "aliases": null,
       "createdDate": 1700304267864,
       "modifiedDate": 1700304267864,
-      "sizeInBytes": 354
+      "sizeInBytes": 348
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/APPLICATIONS.md": {
       "isCountable": true,
@@ -2521,7 +2521,7 @@
       "aliases": null,
       "createdDate": 1700304267863,
       "modifiedDate": 1700304267863,
-      "sizeInBytes": 317
+      "sizeInBytes": 311
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/APPENDIX F.md": {
       "isCountable": true,
@@ -2539,7 +2539,7 @@
       "aliases": null,
       "createdDate": 1700304267862,
       "modifiedDate": 1700304267862,
-      "sizeInBytes": 313
+      "sizeInBytes": 306
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/APPENDIX E.md": {
       "isCountable": true,
@@ -2557,7 +2557,7 @@
       "aliases": null,
       "createdDate": 1700304267862,
       "modifiedDate": 1700304267862,
-      "sizeInBytes": 310
+      "sizeInBytes": 303
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/APPENDIX D.md": {
       "isCountable": true,
@@ -2575,7 +2575,7 @@
       "aliases": null,
       "createdDate": 1700304267862,
       "modifiedDate": 1700304267862,
-      "sizeInBytes": 310
+      "sizeInBytes": 303
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/APPENDIX C.md": {
       "isCountable": true,
@@ -2593,7 +2593,7 @@
       "aliases": null,
       "createdDate": 1700304267862,
       "modifiedDate": 1700304267862,
-      "sizeInBytes": 310
+      "sizeInBytes": 303
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/APPENDIX B.md": {
       "isCountable": true,
@@ -2611,7 +2611,7 @@
       "aliases": null,
       "createdDate": 1700304267861,
       "modifiedDate": 1700304267861,
-      "sizeInBytes": 310
+      "sizeInBytes": 303
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/APPENDIX A.md": {
       "isCountable": true,
@@ -2629,7 +2629,7 @@
       "aliases": null,
       "createdDate": 1700304267860,
       "modifiedDate": 1700304267861,
-      "sizeInBytes": 310
+      "sizeInBytes": 303
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/University Physics with Modern Physics, 15th Edition (2019)/ANSWERS TO ODD-NUMBERED PROBLEMS.md": {
       "isCountable": true,
@@ -2647,7 +2647,7 @@
       "aliases": null,
       "createdDate": 1700304267860,
       "modifiedDate": 1700304267860,
-      "sizeInBytes": 335
+      "sizeInBytes": 328
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Typst/Misc. Notes.md": {
       "isCountable": true,
@@ -2665,7 +2665,7 @@
       "aliases": null,
       "createdDate": 1700304267859,
       "modifiedDate": 1700304267859,
-      "sizeInBytes": 2597
+      "sizeInBytes": 2590
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/sortspec.md.md": {
       "isCountable": true,
@@ -2683,7 +2683,7 @@
       "aliases": null,
       "createdDate": 1700304267859,
       "modifiedDate": 1700304267859,
-      "sizeInBytes": 1227
+      "sizeInBytes": 1195
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/Front endpaper.md": {
       "isCountable": true,
@@ -2701,7 +2701,7 @@
       "aliases": null,
       "createdDate": 1700304267858,
       "modifiedDate": 1700304267858,
-      "sizeInBytes": 6698
+      "sizeInBytes": 6685
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/Appendix B.md": {
       "isCountable": true,
@@ -2719,7 +2719,7 @@
       "aliases": null,
       "createdDate": 1700304267858,
       "modifiedDate": 1700304267858,
-      "sizeInBytes": 1094
+      "sizeInBytes": 1081
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/Appendix A.md": {
       "isCountable": true,
@@ -2737,7 +2737,7 @@
       "aliases": null,
       "createdDate": 1700304267858,
       "modifiedDate": 1700304267858,
-      "sizeInBytes": 1094
+      "sizeInBytes": 1081
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/9. First-Order Differential Equations.md": {
       "isCountable": true,
@@ -2755,7 +2755,7 @@
       "aliases": null,
       "createdDate": 1700304267857,
       "modifiedDate": 1700304267857,
-      "sizeInBytes": 1121
+      "sizeInBytes": 1108
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/8. Techniques of Integration.md": {
       "isCountable": true,
@@ -2773,7 +2773,7 @@
       "aliases": null,
       "createdDate": 1700304267857,
       "modifiedDate": 1700304267857,
-      "sizeInBytes": 1112
+      "sizeInBytes": 1099
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/7. Integrals and Transcendental Functions.md": {
       "isCountable": true,
@@ -2791,7 +2791,7 @@
       "aliases": null,
       "createdDate": 1700304267856,
       "modifiedDate": 1700304267856,
-      "sizeInBytes": 1125
+      "sizeInBytes": 1112
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/6. Applications of Definite Integrals.md": {
       "isCountable": true,
@@ -2809,7 +2809,7 @@
       "aliases": null,
       "createdDate": 1700304267856,
       "modifiedDate": 1700304267856,
-      "sizeInBytes": 1121
+      "sizeInBytes": 1108
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/5. Integrals.md": {
       "isCountable": true,
@@ -2827,7 +2827,7 @@
       "aliases": null,
       "createdDate": 1700304267856,
       "modifiedDate": 1700304267856,
-      "sizeInBytes": 1096
+      "sizeInBytes": 1083
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/4. Applications of Derivatives.md": {
       "isCountable": true,
@@ -2845,7 +2845,7 @@
       "aliases": null,
       "createdDate": 1700304267855,
       "modifiedDate": 1700304267855,
-      "sizeInBytes": 1114
+      "sizeInBytes": 1101
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/3. Derivatives.md": {
       "isCountable": true,
@@ -2863,7 +2863,7 @@
       "aliases": null,
       "createdDate": 1700304267855,
       "modifiedDate": 1700304267855,
-      "sizeInBytes": 1098
+      "sizeInBytes": 1085
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/2. Limits and Continuity.md": {
       "isCountable": true,
@@ -2881,7 +2881,7 @@
       "aliases": null,
       "createdDate": 1700304267854,
       "modifiedDate": 1700304267854,
-      "sizeInBytes": 1108
+      "sizeInBytes": 1095
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/19. Fourier Series and Wavelets.md": {
       "isCountable": true,
@@ -2899,7 +2899,7 @@
       "aliases": null,
       "createdDate": 1700304267854,
       "modifiedDate": 1700304267854,
-      "sizeInBytes": 1115
+      "sizeInBytes": 1102
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/18. Complex Functions.md": {
       "isCountable": true,
@@ -2917,7 +2917,7 @@
       "aliases": null,
       "createdDate": 1700304267854,
       "modifiedDate": 1700304267854,
-      "sizeInBytes": 1105
+      "sizeInBytes": 1092
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/17. Second-Order Differential Equations.md": {
       "isCountable": true,
@@ -2935,7 +2935,7 @@
       "aliases": null,
       "createdDate": 1700304267853,
       "modifiedDate": 1700304267853,
-      "sizeInBytes": 1123
+      "sizeInBytes": 1110
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/16. Integrals and Vector Fields.md": {
       "isCountable": true,
@@ -2953,7 +2953,7 @@
       "aliases": null,
       "createdDate": 1700304267853,
       "modifiedDate": 1700304267853,
-      "sizeInBytes": 1115
+      "sizeInBytes": 1102
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/15. Multiple Integrals.md": {
       "isCountable": true,
@@ -2971,7 +2971,7 @@
       "aliases": null,
       "createdDate": 1700304267852,
       "modifiedDate": 1700304267853,
-      "sizeInBytes": 1106
+      "sizeInBytes": 1093
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/14. Partial Derivatives.md": {
       "isCountable": true,
@@ -2989,7 +2989,7 @@
       "aliases": null,
       "createdDate": 1700304267852,
       "modifiedDate": 1700304267852,
-      "sizeInBytes": 1107
+      "sizeInBytes": 1094
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/13. Vector-Valued Functions and Motion in Space.md": {
       "isCountable": true,
@@ -3007,7 +3007,7 @@
       "aliases": null,
       "createdDate": 1700304267852,
       "modifiedDate": 1700304267852,
-      "sizeInBytes": 1131
+      "sizeInBytes": 1118
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/12. Vectors and the Geometry Space.md": {
       "isCountable": true,
@@ -3025,7 +3025,7 @@
       "aliases": null,
       "createdDate": 1700304267851,
       "modifiedDate": 1700304267851,
-      "sizeInBytes": 1118
+      "sizeInBytes": 1105
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/11. Parametric Equations and Polar Coordinates.md": {
       "isCountable": true,
@@ -3043,7 +3043,7 @@
       "aliases": null,
       "createdDate": 1700304267851,
       "modifiedDate": 1700304267851,
-      "sizeInBytes": 1130
+      "sizeInBytes": 1117
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/10. Infinite Sequences and Series.md": {
       "isCountable": true,
@@ -3061,7 +3061,7 @@
       "aliases": null,
       "createdDate": 1700304267851,
       "modifiedDate": 1700304267851,
-      "sizeInBytes": 1115
+      "sizeInBytes": 1102
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Thomas’ Calculus꞉ Early Transcendentals, 15th Edition (2022)/1. Functions.md": {
       "isCountable": true,
@@ -3079,7 +3079,7 @@
       "aliases": null,
       "createdDate": 1700304267850,
       "modifiedDate": 1700304267850,
-      "sizeInBytes": 13258
+      "sizeInBytes": 13245
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/The Modern JavaScript Tutorial/Part 1 “The JavaScript Language”.md": {
       "isCountable": true,
@@ -3097,7 +3097,7 @@
       "aliases": null,
       "createdDate": 1700304267849,
       "modifiedDate": 1700304267850,
-      "sizeInBytes": 21522
+      "sizeInBytes": 21515
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/System Design Fight Club/System Design꞉ Reddit.md": {
       "isCountable": true,
@@ -3115,7 +3115,7 @@
       "aliases": null,
       "createdDate": 1700304267848,
       "modifiedDate": 1700304267849,
-      "sizeInBytes": 6289
+      "sizeInBytes": 6277
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md": {
       "isCountable": true,
@@ -3151,7 +3151,7 @@
       "aliases": null,
       "createdDate": 1700304267848,
       "modifiedDate": 1700304267848,
-      "sizeInBytes": 164
+      "sizeInBytes": 156
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/8. Mixed Recall ∋ Table of Contents.md": {
       "isCountable": true,
@@ -3169,7 +3169,7 @@
       "aliases": null,
       "createdDate": 1700304267847,
       "modifiedDate": 1700304267847,
-      "sizeInBytes": 582
+      "sizeInBytes": 573
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/134. token transform 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3187,7 +3187,7 @@
       "aliases": null,
       "createdDate": 1700304267847,
       "modifiedDate": 1700304267847,
-      "sizeInBytes": 543
+      "sizeInBytes": 534
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/133. token replace 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3205,7 +3205,7 @@
       "aliases": null,
       "createdDate": 1700304267846,
       "modifiedDate": 1700304267847,
-      "sizeInBytes": 703
+      "sizeInBytes": 694
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/132. string search 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3223,7 +3223,7 @@
       "aliases": null,
       "createdDate": 1700304267846,
       "modifiedDate": 1700304267846,
-      "sizeInBytes": 699
+      "sizeInBytes": 690
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/131. safe cracking 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3241,7 +3241,7 @@
       "aliases": null,
       "createdDate": 1700304267846,
       "modifiedDate": 1700304267846,
-      "sizeInBytes": 699
+      "sizeInBytes": 690
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/130. topological order 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3259,7 +3259,7 @@
       "aliases": null,
       "createdDate": 1700304267845,
       "modifiedDate": 1700304267845,
-      "sizeInBytes": 707
+      "sizeInBytes": 698
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/129. detect dictionary 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3277,7 +3277,7 @@
       "aliases": null,
       "createdDate": 1700304267845,
       "modifiedDate": 1700304267845,
-      "sizeInBytes": 715
+      "sizeInBytes": 706
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/128. lexical order 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3295,7 +3295,7 @@
       "aliases": null,
       "createdDate": 1700304267845,
       "modifiedDate": 1700304267845,
-      "sizeInBytes": 707
+      "sizeInBytes": 698
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/127. build tree in pre 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3313,7 +3313,7 @@
       "aliases": null,
       "createdDate": 1700304267844,
       "modifiedDate": 1700304267844,
-      "sizeInBytes": 707
+      "sizeInBytes": 698
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/126. build tree in post 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3331,7 +3331,7 @@
       "aliases": null,
       "createdDate": 1700304267844,
       "modifiedDate": 1700304267844,
-      "sizeInBytes": 717
+      "sizeInBytes": 708
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/125. post order 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3349,7 +3349,7 @@
       "aliases": null,
       "createdDate": 1700304267843,
       "modifiedDate": 1700304267843,
-      "sizeInBytes": 703
+      "sizeInBytes": 694
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/124. is binary search tree 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3367,7 +3367,7 @@
       "aliases": null,
       "createdDate": 1700304267843,
       "modifiedDate": 1700304267843,
-      "sizeInBytes": 709
+      "sizeInBytes": 700
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/123. binary search tree includes 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3385,7 +3385,7 @@
       "aliases": null,
       "createdDate": 1700304267843,
       "modifiedDate": 1700304267843,
-      "sizeInBytes": 743
+      "sizeInBytes": 734
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/122. binary search 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3403,7 +3403,7 @@
       "aliases": null,
       "createdDate": 1700304267842,
       "modifiedDate": 1700304267842,
-      "sizeInBytes": 727
+      "sizeInBytes": 718
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/121. combine intervals 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3421,7 +3421,7 @@
       "aliases": null,
       "createdDate": 1700304267842,
       "modifiedDate": 1700304267842,
-      "sizeInBytes": 707
+      "sizeInBytes": 698
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/120. merge sort 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3439,7 +3439,7 @@
       "aliases": null,
       "createdDate": 1700304267842,
       "modifiedDate": 1700304267842,
-      "sizeInBytes": 701
+      "sizeInBytes": 692
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/119. breaking boundaries 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3457,7 +3457,7 @@
       "aliases": null,
       "createdDate": 1700304267841,
       "modifiedDate": 1700304267841,
-      "sizeInBytes": 705
+      "sizeInBytes": 696
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/118. positioning plants 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3475,7 +3475,7 @@
       "aliases": null,
       "createdDate": 1700304267840,
       "modifiedDate": 1700304267841,
-      "sizeInBytes": 721
+      "sizeInBytes": 712
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/117. max increasing subseq 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3493,7 +3493,7 @@
       "aliases": null,
       "createdDate": 1700304267840,
       "modifiedDate": 1700304267840,
-      "sizeInBytes": 725
+      "sizeInBytes": 716
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/115. tolerant teams 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3511,7 +3511,7 @@
       "aliases": null,
       "createdDate": 1700304267839,
       "modifiedDate": 1700304267839,
-      "sizeInBytes": 699
+      "sizeInBytes": 690
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/116. rare routing 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3529,7 +3529,7 @@
       "aliases": null,
       "createdDate": 1700304267840,
       "modifiedDate": 1700304267840,
-      "sizeInBytes": 713
+      "sizeInBytes": 704
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/114. can color 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3547,7 +3547,7 @@
       "aliases": null,
       "createdDate": 1700304267839,
       "modifiedDate": 1700304267839,
-      "sizeInBytes": 693
+      "sizeInBytes": 684
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/113. lefty nodes 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3565,7 +3565,7 @@
       "aliases": null,
       "createdDate": 1700304267838,
       "modifiedDate": 1700304267838,
-      "sizeInBytes": 687
+      "sizeInBytes": 678
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/112. flip tree 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3583,7 +3583,7 @@
       "aliases": null,
       "createdDate": 1700304267838,
       "modifiedDate": 1700304267838,
-      "sizeInBytes": 687
+      "sizeInBytes": 678
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/111. lowest common ancestor 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3601,7 +3601,7 @@
       "aliases": null,
       "createdDate": 1700304267838,
       "modifiedDate": 1700304267838,
-      "sizeInBytes": 660
+      "sizeInBytes": 651
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/110. linked list cycle 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3619,7 +3619,7 @@
       "aliases": null,
       "createdDate": 1700304267837,
       "modifiedDate": 1700304267837,
-      "sizeInBytes": 690
+      "sizeInBytes": 681
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/109. middle value 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3637,7 +3637,7 @@
       "aliases": null,
       "createdDate": 1700304267837,
       "modifiedDate": 1700304267837,
-      "sizeInBytes": 695
+      "sizeInBytes": 686
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/108. linked palindrome 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3655,7 +3655,7 @@
       "aliases": null,
       "createdDate": 1700304267836,
       "modifiedDate": 1700304267836,
-      "sizeInBytes": 715
+      "sizeInBytes": 706
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/8. Mixed Recall/107. mixed recall welcome 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3673,7 +3673,7 @@
       "aliases": null,
       "createdDate": 1700304267836,
       "modifiedDate": 1700304267836,
-      "sizeInBytes": 727
+      "sizeInBytes": 718
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/7. Exhaustive Recursion/7. Exhaustive Recursion ∋ Table of Contents.md": {
       "isCountable": true,
@@ -3691,7 +3691,7 @@
       "aliases": null,
       "createdDate": 1700304267835,
       "modifiedDate": 1700304267835,
-      "sizeInBytes": 975
+      "sizeInBytes": 966
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/7. Exhaustive Recursion/106. exhaustive recursion wrap-up 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3709,7 +3709,7 @@
       "aliases": null,
       "createdDate": 1700304267835,
       "modifiedDate": 1700304267835,
-      "sizeInBytes": 743
+      "sizeInBytes": 734
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/7. Exhaustive Recursion/105. substitute synonyms 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3727,7 +3727,7 @@
       "aliases": null,
       "createdDate": 1700304267835,
       "modifiedDate": 1700304267835,
-      "sizeInBytes": 757
+      "sizeInBytes": 748
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/7. Exhaustive Recursion/104. parenthetical possibilities 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3745,7 +3745,7 @@
       "aliases": null,
       "createdDate": 1700304267834,
       "modifiedDate": 1700304267834,
-      "sizeInBytes": 755
+      "sizeInBytes": 746
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/7. Exhaustive Recursion/103. create combinations 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3763,7 +3763,7 @@
       "aliases": null,
       "createdDate": 1700304267834,
       "modifiedDate": 1700304267834,
-      "sizeInBytes": 755
+      "sizeInBytes": 746
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/7. Exhaustive Recursion/102. break time 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3781,7 +3781,7 @@
       "aliases": null,
       "createdDate": 1700304267833,
       "modifiedDate": 1700304267834,
-      "sizeInBytes": 721
+      "sizeInBytes": 712
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/7. Exhaustive Recursion/101. permutations 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3799,7 +3799,7 @@
       "aliases": null,
       "createdDate": 1700304267833,
       "modifiedDate": 1700304267833,
-      "sizeInBytes": 707
+      "sizeInBytes": 698
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/7. Exhaustive Recursion/100. subsets 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3817,7 +3817,7 @@
       "aliases": null,
       "createdDate": 1700304267832,
       "modifiedDate": 1700304267832,
-      "sizeInBytes": 701
+      "sizeInBytes": 692
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/7. Exhaustive Recursion/099. exhaustive recursion welcome 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3835,7 +3835,7 @@
       "aliases": null,
       "createdDate": 1700304267832,
       "modifiedDate": 1700304267832,
-      "sizeInBytes": 733
+      "sizeInBytes": 724
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/6. Stack/6. Stack ∋ Table of Contents.md": {
       "isCountable": true,
@@ -3853,7 +3853,7 @@
       "aliases": null,
       "createdDate": 1700304267832,
       "modifiedDate": 1700304267832,
-      "sizeInBytes": 923
+      "sizeInBytes": 914
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/6. Stack/098. stack wrap up 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3871,7 +3871,7 @@
       "aliases": null,
       "createdDate": 1700304267832,
       "modifiedDate": 1700304267832,
-      "sizeInBytes": 732
+      "sizeInBytes": 723
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/6. Stack/097. nesting score 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3889,7 +3889,7 @@
       "aliases": null,
       "createdDate": 1700304267831,
       "modifiedDate": 1700304267831,
-      "sizeInBytes": 685
+      "sizeInBytes": 676
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/6. Stack/096. decompress braces 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3907,7 +3907,7 @@
       "aliases": null,
       "createdDate": 1700304267830,
       "modifiedDate": 1700304267830,
-      "sizeInBytes": 693
+      "sizeInBytes": 684
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/6. Stack/095. befitting brackets 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3925,7 +3925,7 @@
       "aliases": null,
       "createdDate": 1700304267830,
       "modifiedDate": 1700304267830,
-      "sizeInBytes": 703
+      "sizeInBytes": 694
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/6. Stack/094. paired parentheses 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3943,7 +3943,7 @@
       "aliases": null,
       "createdDate": 1700304267829,
       "modifiedDate": 1700304267830,
-      "sizeInBytes": 705
+      "sizeInBytes": 696
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/6. Stack/093. stack welcome 👨🏽‍💻.md": {
       "isCountable": true,
@@ -3961,7 +3961,7 @@
       "aliases": null,
       "createdDate": 1700304267829,
       "modifiedDate": 1700304267829,
-      "sizeInBytes": 695
+      "sizeInBytes": 686
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/5. Dynamic Programming ∋ Table of Contents.md": {
       "isCountable": true,
@@ -3979,7 +3979,7 @@
       "aliases": null,
       "createdDate": 1700304267828,
       "modifiedDate": 1700304267829,
-      "sizeInBytes": 972
+      "sizeInBytes": 963
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/092. dynamic programming wrap up 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -3997,7 +3997,7 @@
       "aliases": null,
       "createdDate": 1700304267828,
       "modifiedDate": 1700304267828,
-      "sizeInBytes": 730
+      "sizeInBytes": 721
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/091. dynamic programming quiz 📝.md": {
       "isCountable": true,
@@ -4015,7 +4015,7 @@
       "aliases": null,
       "createdDate": 1700304267828,
       "modifiedDate": 1700304267828,
-      "sizeInBytes": 763
+      "sizeInBytes": 754
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/090. knightly number 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4033,7 +4033,7 @@
       "aliases": null,
       "createdDate": 1700304267827,
       "modifiedDate": 1700304267827,
-      "sizeInBytes": 717
+      "sizeInBytes": 708
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/089. quickest concat 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4051,7 +4051,7 @@
       "aliases": null,
       "createdDate": 1700304267827,
       "modifiedDate": 1700304267827,
-      "sizeInBytes": 722
+      "sizeInBytes": 713
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/088. can concat 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4069,7 +4069,7 @@
       "aliases": null,
       "createdDate": 1700304267827,
       "modifiedDate": 1700304267827,
-      "sizeInBytes": 712
+      "sizeInBytes": 703
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/087. overlap subsequence 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4087,7 +4087,7 @@
       "aliases": null,
       "createdDate": 1700304267826,
       "modifiedDate": 1700304267826,
-      "sizeInBytes": 720
+      "sizeInBytes": 711
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/086. max palin subsequence 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4105,7 +4105,7 @@
       "aliases": null,
       "createdDate": 1700304267826,
       "modifiedDate": 1700304267826,
-      "sizeInBytes": 742
+      "sizeInBytes": 733
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/085. array stepper 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4123,7 +4123,7 @@
       "aliases": null,
       "createdDate": 1700304267825,
       "modifiedDate": 1700304267826,
-      "sizeInBytes": 730
+      "sizeInBytes": 721
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/084. counting change 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4141,7 +4141,7 @@
       "aliases": null,
       "createdDate": 1700304267825,
       "modifiedDate": 1700304267825,
-      "sizeInBytes": 718
+      "sizeInBytes": 709
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/083. summing squares 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4159,7 +4159,7 @@
       "aliases": null,
       "createdDate": 1700304267825,
       "modifiedDate": 1700304267825,
-      "sizeInBytes": 722
+      "sizeInBytes": 713
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/082. non-adjacent sum 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4177,7 +4177,7 @@
       "aliases": null,
       "createdDate": 1700304267824,
       "modifiedDate": 1700304267824,
-      "sizeInBytes": 724
+      "sizeInBytes": 715
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/081. max path sum 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4195,7 +4195,7 @@
       "aliases": null,
       "createdDate": 1700304267824,
       "modifiedDate": 1700304267824,
-      "sizeInBytes": 718
+      "sizeInBytes": 709
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/080. count paths 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4213,7 +4213,7 @@
       "aliases": null,
       "createdDate": 1700304267824,
       "modifiedDate": 1700304267824,
-      "sizeInBytes": 543
+      "sizeInBytes": 534
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/079. min change 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4231,7 +4231,7 @@
       "aliases": null,
       "createdDate": 1700304267823,
       "modifiedDate": 1700304267823,
-      "sizeInBytes": 704
+      "sizeInBytes": 695
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/078. sum possible 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4249,7 +4249,7 @@
       "aliases": null,
       "createdDate": 1700304267823,
       "modifiedDate": 1700304267823,
-      "sizeInBytes": 706
+      "sizeInBytes": 697
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/077. tribonacci 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4267,7 +4267,7 @@
       "aliases": null,
       "createdDate": 1700304267822,
       "modifiedDate": 1700304267823,
-      "sizeInBytes": 706
+      "sizeInBytes": 697
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/076. fib 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4285,7 +4285,7 @@
       "aliases": null,
       "createdDate": 1700304267822,
       "modifiedDate": 1700304267822,
-      "sizeInBytes": 688
+      "sizeInBytes": 679
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/5. Dynamic Programming/075. dynamic programming welcome 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -4303,7 +4303,7 @@
       "aliases": null,
       "createdDate": 1700304267822,
       "modifiedDate": 1700304267822,
-      "sizeInBytes": 722
+      "sizeInBytes": 713
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/4. Graph ∋ Table of Contents.md": {
       "isCountable": true,
@@ -4321,7 +4321,7 @@
       "aliases": null,
       "createdDate": 1700304267822,
       "modifiedDate": 1700304267822,
-      "sizeInBytes": 916
+      "sizeInBytes": 907
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/074. graph wrap up 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -4339,7 +4339,7 @@
       "aliases": null,
       "createdDate": 1700304267821,
       "modifiedDate": 1700304267821,
-      "sizeInBytes": 723
+      "sizeInBytes": 714
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/073. graph quiz 📝.md": {
       "isCountable": true,
@@ -4357,7 +4357,7 @@
       "aliases": null,
       "createdDate": 1700304267820,
       "modifiedDate": 1700304267820,
-      "sizeInBytes": 526
+      "sizeInBytes": 517
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/072. knight attack 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4375,7 +4375,7 @@
       "aliases": null,
       "createdDate": 1700304267820,
       "modifiedDate": 1700304267820,
-      "sizeInBytes": 657
+      "sizeInBytes": 648
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/071. prereqs possible 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4393,7 +4393,7 @@
       "aliases": null,
       "createdDate": 1700304267819,
       "modifiedDate": 1700304267820,
-      "sizeInBytes": 691
+      "sizeInBytes": 682
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/070. has cycle 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4411,7 +4411,7 @@
       "aliases": null,
       "createdDate": 1700304267819,
       "modifiedDate": 1700304267819,
-      "sizeInBytes": 669
+      "sizeInBytes": 660
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/069. best bridge 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4429,7 +4429,7 @@
       "aliases": null,
       "createdDate": 1700304267819,
       "modifiedDate": 1700304267819,
-      "sizeInBytes": 673
+      "sizeInBytes": 664
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/068. semesters required 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4447,7 +4447,7 @@
       "aliases": null,
       "createdDate": 1700304267818,
       "modifiedDate": 1700304267818,
-      "sizeInBytes": 691
+      "sizeInBytes": 682
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/067. longest path 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4465,7 +4465,7 @@
       "aliases": null,
       "createdDate": 1700304267818,
       "modifiedDate": 1700304267818,
-      "sizeInBytes": 693
+      "sizeInBytes": 684
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/066. closest carrot 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4483,7 +4483,7 @@
       "aliases": null,
       "createdDate": 1700304267818,
       "modifiedDate": 1700304267818,
-      "sizeInBytes": 685
+      "sizeInBytes": 676
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/065. minimum island 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4501,7 +4501,7 @@
       "aliases": null,
       "createdDate": 1700304267817,
       "modifiedDate": 1700304267817,
-      "sizeInBytes": 689
+      "sizeInBytes": 680
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/064. island count 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4519,7 +4519,7 @@
       "aliases": null,
       "createdDate": 1700304267817,
       "modifiedDate": 1700304267817,
-      "sizeInBytes": 685
+      "sizeInBytes": 676
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/063. shortest path 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4537,7 +4537,7 @@
       "aliases": null,
       "createdDate": 1700304267816,
       "modifiedDate": 1700304267816,
-      "sizeInBytes": 683
+      "sizeInBytes": 674
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/062. slow and steady 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -4555,7 +4555,7 @@
       "aliases": null,
       "createdDate": 1700304267816,
       "modifiedDate": 1700304267816,
-      "sizeInBytes": 694
+      "sizeInBytes": 685
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/061. largest component 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4573,7 +4573,7 @@
       "aliases": null,
       "createdDate": 1700304267816,
       "modifiedDate": 1700304267816,
-      "sizeInBytes": 697
+      "sizeInBytes": 688
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/060. connected components count 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4591,7 +4591,7 @@
       "aliases": null,
       "createdDate": 1700304267815,
       "modifiedDate": 1700304267815,
-      "sizeInBytes": 719
+      "sizeInBytes": 710
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/059. undirected path 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4609,7 +4609,7 @@
       "aliases": null,
       "createdDate": 1700304267815,
       "modifiedDate": 1700304267815,
-      "sizeInBytes": 715
+      "sizeInBytes": 706
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/058. has path 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4627,7 +4627,7 @@
       "aliases": null,
       "createdDate": 1700304267814,
       "modifiedDate": 1700304267815,
-      "sizeInBytes": 679
+      "sizeInBytes": 670
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/057. graph warm up 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -4645,7 +4645,7 @@
       "aliases": null,
       "createdDate": 1700304267814,
       "modifiedDate": 1700304267814,
-      "sizeInBytes": 675
+      "sizeInBytes": 666
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/056. graph intro 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -4663,7 +4663,7 @@
       "aliases": null,
       "createdDate": 1700304267814,
       "modifiedDate": 1700304267814,
-      "sizeInBytes": 686
+      "sizeInBytes": 677
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/055. graph welcome 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -4681,7 +4681,7 @@
       "aliases": null,
       "createdDate": 1700304267813,
       "modifiedDate": 1700304267813,
-      "sizeInBytes": 686
+      "sizeInBytes": 677
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/3. Binary Tree ∋ Table of Contents.md": {
       "isCountable": true,
@@ -4699,7 +4699,7 @@
       "aliases": null,
       "createdDate": 1700304267813,
       "modifiedDate": 1700304267813,
-      "sizeInBytes": 920
+      "sizeInBytes": 911
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/054. binary tree wrap up 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -4717,7 +4717,7 @@
       "aliases": null,
       "createdDate": 1700304267812,
       "modifiedDate": 1700304267812,
-      "sizeInBytes": 705
+      "sizeInBytes": 696
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/053. binary tree quiz 📝.md": {
       "isCountable": true,
@@ -4735,7 +4735,7 @@
       "aliases": null,
       "createdDate": 1700304267812,
       "modifiedDate": 1700304267812,
-      "sizeInBytes": 693
+      "sizeInBytes": 684
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/052. leaf list 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4753,7 +4753,7 @@
       "aliases": null,
       "createdDate": 1700304267812,
       "modifiedDate": 1700304267812,
-      "sizeInBytes": 673
+      "sizeInBytes": 664
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/051. level averages 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4771,7 +4771,7 @@
       "aliases": null,
       "createdDate": 1700304267812,
       "modifiedDate": 1700304267812,
-      "sizeInBytes": 691
+      "sizeInBytes": 682
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/050. tree levels 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4789,7 +4789,7 @@
       "aliases": null,
       "createdDate": 1700304267811,
       "modifiedDate": 1700304267811,
-      "sizeInBytes": 695
+      "sizeInBytes": 686
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/049. all tree paths 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4807,7 +4807,7 @@
       "aliases": null,
       "createdDate": 1700304267810,
       "modifiedDate": 1700304267810,
-      "sizeInBytes": 695
+      "sizeInBytes": 686
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/048. bottom right value 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4825,7 +4825,7 @@
       "aliases": null,
       "createdDate": 1700304267810,
       "modifiedDate": 1700304267810,
-      "sizeInBytes": 709
+      "sizeInBytes": 700
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/047. how high 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4843,7 +4843,7 @@
       "aliases": null,
       "createdDate": 1700304267810,
       "modifiedDate": 1700304267810,
-      "sizeInBytes": 697
+      "sizeInBytes": 688
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/046. tree value count 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4861,7 +4861,7 @@
       "aliases": null,
       "createdDate": 1700304267809,
       "modifiedDate": 1700304267809,
-      "sizeInBytes": 693
+      "sizeInBytes": 684
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/045. tree path finder 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4879,7 +4879,7 @@
       "aliases": null,
       "createdDate": 1700304267809,
       "modifiedDate": 1700304267809,
-      "sizeInBytes": 709
+      "sizeInBytes": 700
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/044. max root to leaf path sum 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4897,7 +4897,7 @@
       "aliases": null,
       "createdDate": 1700304267808,
       "modifiedDate": 1700304267809,
-      "sizeInBytes": 727
+      "sizeInBytes": 718
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/043. tree min value 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4915,7 +4915,7 @@
       "aliases": null,
       "createdDate": 1700304267808,
       "modifiedDate": 1700304267808,
-      "sizeInBytes": 723
+      "sizeInBytes": 714
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/042. tree includes 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4933,7 +4933,7 @@
       "aliases": null,
       "createdDate": 1700304267808,
       "modifiedDate": 1700304267808,
-      "sizeInBytes": 699
+      "sizeInBytes": 690
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/041. tree sum 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4951,7 +4951,7 @@
       "aliases": null,
       "createdDate": 1700304267807,
       "modifiedDate": 1700304267807,
-      "sizeInBytes": 687
+      "sizeInBytes": 678
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/040. breadth first values 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4969,7 +4969,7 @@
       "aliases": null,
       "createdDate": 1700304267807,
       "modifiedDate": 1700304267807,
-      "sizeInBytes": 701
+      "sizeInBytes": 692
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/039. depth first values 👨🏽‍💻.md": {
       "isCountable": true,
@@ -4987,7 +4987,7 @@
       "aliases": null,
       "createdDate": 1700304267807,
       "modifiedDate": 1700304267807,
-      "sizeInBytes": 721
+      "sizeInBytes": 712
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/038. binary tree warm up 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5005,7 +5005,7 @@
       "aliases": null,
       "createdDate": 1700304267806,
       "modifiedDate": 1700304267806,
-      "sizeInBytes": 719
+      "sizeInBytes": 710
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/037. binary tree intro 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5023,7 +5023,7 @@
       "aliases": null,
       "createdDate": 1700304267806,
       "modifiedDate": 1700304267806,
-      "sizeInBytes": 717
+      "sizeInBytes": 708
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/3. Binary Tree/036. binary tree welcome 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5041,7 +5041,7 @@
       "aliases": null,
       "createdDate": 1700304267805,
       "modifiedDate": 1700304267805,
-      "sizeInBytes": 727
+      "sizeInBytes": 718
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/2. Linked List ∋ Table of Contents.md": {
       "isCountable": true,
@@ -5059,7 +5059,7 @@
       "aliases": null,
       "createdDate": 1700304267805,
       "modifiedDate": 1700304267805,
-      "sizeInBytes": 936
+      "sizeInBytes": 927
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/035. linked list wrap up 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5077,7 +5077,7 @@
       "aliases": null,
       "createdDate": 1700304267804,
       "modifiedDate": 1700304267804,
-      "sizeInBytes": 1115
+      "sizeInBytes": 1106
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/034. linked list quiz 📝.md": {
       "isCountable": true,
@@ -5095,7 +5095,7 @@
       "aliases": null,
       "createdDate": 1700304267804,
       "modifiedDate": 1700304267804,
-      "sizeInBytes": 1085
+      "sizeInBytes": 1076
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/033. add lists 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5113,7 +5113,7 @@
       "aliases": null,
       "createdDate": 1700304267803,
       "modifiedDate": 1700304267803,
-      "sizeInBytes": 894
+      "sizeInBytes": 885
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/032. create linked list 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5131,7 +5131,7 @@
       "aliases": null,
       "createdDate": 1700304267803,
       "modifiedDate": 1700304267803,
-      "sizeInBytes": 919
+      "sizeInBytes": 910
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/031. insert node 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5149,7 +5149,7 @@
       "aliases": null,
       "createdDate": 1700304267802,
       "modifiedDate": 1700304267803,
-      "sizeInBytes": 924
+      "sizeInBytes": 915
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/030. remove node 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5167,7 +5167,7 @@
       "aliases": null,
       "createdDate": 1700304267802,
       "modifiedDate": 1700304267802,
-      "sizeInBytes": 909
+      "sizeInBytes": 900
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/029. longest streak 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5185,7 +5185,7 @@
       "aliases": null,
       "createdDate": 1700304267802,
       "modifiedDate": 1700304267802,
-      "sizeInBytes": 916
+      "sizeInBytes": 907
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/028. is univalue list 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5203,7 +5203,7 @@
       "aliases": null,
       "createdDate": 1700304267802,
       "modifiedDate": 1700304267802,
-      "sizeInBytes": 922
+      "sizeInBytes": 913
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/027. pep talk 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5221,7 +5221,7 @@
       "aliases": null,
       "createdDate": 1700304267800,
       "modifiedDate": 1700304267800,
-      "sizeInBytes": 913
+      "sizeInBytes": 904
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/026. merge lists 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5239,7 +5239,7 @@
       "aliases": null,
       "createdDate": 1700304267800,
       "modifiedDate": 1700304267800,
-      "sizeInBytes": 902
+      "sizeInBytes": 893
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/025. zipper lists 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5257,7 +5257,7 @@
       "aliases": null,
       "createdDate": 1700304267800,
       "modifiedDate": 1700304267800,
-      "sizeInBytes": 1239
+      "sizeInBytes": 1230
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/024. reverse list 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5275,7 +5275,7 @@
       "aliases": null,
       "createdDate": 1700304267800,
       "modifiedDate": 1700304267800,
-      "sizeInBytes": 6541
+      "sizeInBytes": 6532
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/023. get node value 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5293,7 +5293,7 @@
       "aliases": null,
       "createdDate": 1700304267799,
       "modifiedDate": 1700304267799,
-      "sizeInBytes": 1384
+      "sizeInBytes": 1375
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/022. linked list find 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5311,7 +5311,7 @@
       "aliases": null,
       "createdDate": 1700304267799,
       "modifiedDate": 1700304267799,
-      "sizeInBytes": 1773
+      "sizeInBytes": 1764
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/021. sum list 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5329,7 +5329,7 @@
       "aliases": null,
       "createdDate": 1700304267798,
       "modifiedDate": 1700304267798,
-      "sizeInBytes": 4796
+      "sizeInBytes": 4787
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/020. linked list values 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5347,7 +5347,7 @@
       "aliases": null,
       "createdDate": 1700304267798,
       "modifiedDate": 1700304267798,
-      "sizeInBytes": 2003
+      "sizeInBytes": 1994
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/019. linked list warm up 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5365,7 +5365,7 @@
       "aliases": null,
       "createdDate": 1700304267797,
       "modifiedDate": 1700304267797,
-      "sizeInBytes": 2534
+      "sizeInBytes": 2525
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/018. linked list intro 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5383,7 +5383,7 @@
       "aliases": null,
       "createdDate": 1700304267797,
       "modifiedDate": 1700304267797,
-      "sizeInBytes": 2532
+      "sizeInBytes": 2523
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/2. Linked List/017. linked list welcome 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5401,7 +5401,7 @@
       "aliases": null,
       "createdDate": 1700304267796,
       "modifiedDate": 1700304267796,
-      "sizeInBytes": 4060
+      "sizeInBytes": 4051
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/1. Array and String ∋ Table of Contents.md": {
       "isCountable": true,
@@ -5419,7 +5419,7 @@
       "aliases": null,
       "createdDate": 1700304267796,
       "modifiedDate": 1700304267796,
-      "sizeInBytes": 1229
+      "sizeInBytes": 1217
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/016. array and string wrap up 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5437,7 +5437,7 @@
       "aliases": null,
       "createdDate": 1700304267795,
       "modifiedDate": 1700304267795,
-      "sizeInBytes": 667
+      "sizeInBytes": 658
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/015. array and string quiz 📝.md": {
       "isCountable": true,
@@ -5455,7 +5455,7 @@
       "aliases": null,
       "createdDate": 1700304267795,
       "modifiedDate": 1700304267795,
-      "sizeInBytes": 2773
+      "sizeInBytes": 2760
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/014. five sort 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5473,7 +5473,7 @@
       "aliases": null,
       "createdDate": 1700304267794,
       "modifiedDate": 1700304267795,
-      "sizeInBytes": 9600
+      "sizeInBytes": 9587
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/013. intersection 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5491,7 +5491,7 @@
       "aliases": null,
       "createdDate": 1700304267794,
       "modifiedDate": 1700304267794,
-      "sizeInBytes": 13254
+      "sizeInBytes": 13241
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/012. check in 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5509,7 +5509,7 @@
       "aliases": null,
       "createdDate": 1700304267794,
       "modifiedDate": 1700304267794,
-      "sizeInBytes": 1041
+      "sizeInBytes": 1028
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/011. pair product 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5527,7 +5527,7 @@
       "aliases": null,
       "createdDate": 1700304267793,
       "modifiedDate": 1700304267793,
-      "sizeInBytes": 5110
+      "sizeInBytes": 5097
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/010. pair sum 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5545,7 +5545,7 @@
       "aliases": null,
       "createdDate": 1700304267793,
       "modifiedDate": 1700304267793,
-      "sizeInBytes": 5697
+      "sizeInBytes": 5684
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/009. most frequent char 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5563,7 +5563,7 @@
       "aliases": null,
       "createdDate": 1700304267792,
       "modifiedDate": 1700304267792,
-      "sizeInBytes": 10469
+      "sizeInBytes": 10456
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/008. anagrams 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5581,7 +5581,7 @@
       "aliases": null,
       "createdDate": 1700304267792,
       "modifiedDate": 1700304267792,
-      "sizeInBytes": 8382
+      "sizeInBytes": 8369
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/007. compress 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5599,7 +5599,7 @@
       "aliases": null,
       "createdDate": 1700304267792,
       "modifiedDate": 1700304267792,
-      "sizeInBytes": 10478
+      "sizeInBytes": 10465
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/006. uncompress 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5617,7 +5617,7 @@
       "aliases": null,
       "createdDate": 1700304267790,
       "modifiedDate": 1700304267790,
-      "sizeInBytes": 21468
+      "sizeInBytes": 21455
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/005. array and string welcome 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5635,7 +5635,7 @@
       "aliases": null,
       "createdDate": 1700304267790,
       "modifiedDate": 1700304267790,
-      "sizeInBytes": 3596
+      "sizeInBytes": 3583
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/004. is prime 👨🏽‍💻.md": {
       "isCountable": true,
@@ -5653,7 +5653,7 @@
       "aliases": null,
       "createdDate": 1700304267790,
       "modifiedDate": 1700304267790,
-      "sizeInBytes": 17794
+      "sizeInBytes": 17782
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/003. max-value 🧑🏽‍💻.md": {
       "isCountable": true,
@@ -5671,7 +5671,7 @@
       "aliases": null,
       "createdDate": 1700304267789,
       "modifiedDate": 1700304267789,
-      "sizeInBytes": 34089
+      "sizeInBytes": 34077
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md": {
       "isCountable": true,
@@ -5689,7 +5689,7 @@
       "aliases": null,
       "createdDate": 1700304267788,
       "modifiedDate": 1700304267788,
-      "sizeInBytes": 20950
+      "sizeInBytes": 20938
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5707,7 +5707,7 @@
       "aliases": null,
       "createdDate": 1700304267788,
       "modifiedDate": 1700304267788,
-      "sizeInBytes": 2199
+      "sizeInBytes": 2187
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md": {
       "isCountable": true,
@@ -5725,7 +5725,7 @@
       "aliases": null,
       "createdDate": 1700304267787,
       "modifiedDate": 1700304267787,
-      "sizeInBytes": 1783
+      "sizeInBytes": 1771
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/0. Introduction ∋ Table of Contents.md": {
       "isCountable": true,
@@ -5743,7 +5743,7 @@
       "aliases": null,
       "createdDate": 1700304267787,
       "modifiedDate": 1700304267787,
-      "sizeInBytes": 2399
+      "sizeInBytes": 2388
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md": {
       "isCountable": true,
@@ -5797,7 +5797,7 @@
       "aliases": null,
       "createdDate": 1700304267785,
       "modifiedDate": 1700304267785,
-      "sizeInBytes": 623
+      "sizeInBytes": 612
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Real Python ∋ Table of Contents.md": {
       "isCountable": true,
@@ -5833,7 +5833,7 @@
       "aliases": null,
       "createdDate": 1700304267784,
       "modifiedDate": 1700304267784,
-      "sizeInBytes": 435
+      "sizeInBytes": 427
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md": {
       "isCountable": true,
@@ -5869,7 +5869,7 @@
       "aliases": null,
       "createdDate": 1700304267782,
       "modifiedDate": 1700304267783,
-      "sizeInBytes": 1007
+      "sizeInBytes": 999
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md": {
       "isCountable": true,
@@ -5887,7 +5887,7 @@
       "aliases": null,
       "createdDate": 1700304267782,
       "modifiedDate": 1700304267782,
-      "sizeInBytes": 4236
+      "sizeInBytes": 4227
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Postgres Conference/🗒️ PostgreSQL Next Generation Parallel Query.md": {
       "isCountable": true,
@@ -5905,7 +5905,7 @@
       "aliases": null,
       "createdDate": 1700304267782,
       "modifiedDate": 1700304267782,
-      "sizeInBytes": 8800
+      "sizeInBytes": 8790
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Python in a Nutshell, 4th Edition (2023)/Misc..md": {
       "isCountable": true,
@@ -5923,7 +5923,7 @@
       "aliases": null,
       "createdDate": 1700304267781,
       "modifiedDate": 1700304267781,
-      "sizeInBytes": 5307
+      "sizeInBytes": 5293
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/O'Reilly Learning ∋ Table of Contents.md": {
       "isCountable": true,
@@ -5977,7 +5977,7 @@
       "aliases": null,
       "createdDate": 1700304267777,
       "modifiedDate": 1700304267777,
-      "sizeInBytes": 6726
+      "sizeInBytes": 6714
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Foundations of Scalable Systems (2022)/Misc..md": {
       "isCountable": true,
@@ -5995,7 +5995,7 @@
       "aliases": null,
       "createdDate": 1700304267776,
       "modifiedDate": 1700304267776,
-      "sizeInBytes": 2494
+      "sizeInBytes": 2482
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Learning SQL, 3rd Edition (2020)/Table of Contents.md": {
       "isCountable": true,
@@ -6013,7 +6013,7 @@
       "aliases": null,
       "createdDate": 1700304267779,
       "modifiedDate": 1700304267779,
-      "sizeInBytes": 514
+      "sizeInBytes": 504
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Learning SQL, 3rd Edition (2020)/sortspec.md.md": {
       "isCountable": true,
@@ -6031,7 +6031,7 @@
       "aliases": null,
       "createdDate": 1700304267779,
       "modifiedDate": 1700304267780,
-      "sizeInBytes": 1169
+      "sizeInBytes": 1133
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Learning SQL, 3rd Edition (2020)/Preface.md": {
       "isCountable": true,
@@ -6049,7 +6049,7 @@
       "aliases": null,
       "createdDate": 1700304267778,
       "modifiedDate": 1700304267779,
-      "sizeInBytes": 1271
+      "sizeInBytes": 1261
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Learning SQL, 3rd Edition (2020)/Chapter 2. Creating and Populating a Database.md": {
       "isCountable": true,
@@ -6067,7 +6067,7 @@
       "aliases": null,
       "createdDate": 1700304267778,
       "modifiedDate": 1700304267778,
-      "sizeInBytes": 875
+      "sizeInBytes": 865
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning/Learning SQL, 3rd Edition (2020)/Chapter 1. A Little Background.md": {
       "isCountable": true,
@@ -6085,7 +6085,7 @@
       "aliases": null,
       "createdDate": 1700304267777,
       "modifiedDate": 1700304267778,
-      "sizeInBytes": 36183
+      "sizeInBytes": 36173
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Nodejs.dev/Learn.md": {
       "isCountable": true,
@@ -6103,7 +6103,7 @@
       "aliases": null,
       "createdDate": 1700304267775,
       "modifiedDate": 1700304267775,
-      "sizeInBytes": 628
+      "sizeInBytes": 626
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/MSYS2 Documentation/What is MSYS2？.md": {
       "isCountable": true,
@@ -6121,7 +6121,7 @@
       "aliases": null,
       "createdDate": 1700304267761,
       "modifiedDate": 1700304267761,
-      "sizeInBytes": 4034
+      "sizeInBytes": 4028
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/More Modern CMake/Setup.md": {
       "isCountable": true,
@@ -6139,7 +6139,7 @@
       "aliases": null,
       "createdDate": 1700304267774,
       "modifiedDate": 1700304267774,
-      "sizeInBytes": 326
+      "sizeInBytes": 319
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/More Modern CMake/9. Finding Packages.md": {
       "isCountable": true,
@@ -6157,7 +6157,7 @@
       "aliases": null,
       "createdDate": 1700304267774,
       "modifiedDate": 1700304267774,
-      "sizeInBytes": 339
+      "sizeInBytes": 332
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/More Modern CMake/8. Debugging.md": {
       "isCountable": true,
@@ -6175,7 +6175,7 @@
       "aliases": null,
       "createdDate": 1700304267773,
       "modifiedDate": 1700304267773,
-      "sizeInBytes": 332
+      "sizeInBytes": 325
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/More Modern CMake/7. Common Problems and Solutions.md": {
       "isCountable": true,
@@ -6193,7 +6193,7 @@
       "aliases": null,
       "createdDate": 1700304267773,
       "modifiedDate": 1700304267773,
-      "sizeInBytes": 352
+      "sizeInBytes": 345
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/More Modern CMake/6. Project structure.md": {
       "isCountable": true,
@@ -6211,7 +6211,7 @@
       "aliases": null,
       "createdDate": 1700304267772,
       "modifiedDate": 1700304267772,
-      "sizeInBytes": 340
+      "sizeInBytes": 333
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/More Modern CMake/5. Variables explained.md": {
       "isCountable": true,
@@ -6229,7 +6229,7 @@
       "aliases": null,
       "createdDate": 1700304267771,
       "modifiedDate": 1700304267772,
-      "sizeInBytes": 342
+      "sizeInBytes": 335
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/More Modern CMake/4. Working with Targets.md": {
       "isCountable": true,
@@ -6247,7 +6247,7 @@
       "aliases": null,
       "createdDate": 1700304267771,
       "modifiedDate": 1700304267771,
-      "sizeInBytes": 343
+      "sizeInBytes": 336
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/More Modern CMake/3. Your first CMakeLists.txt.md": {
       "isCountable": true,
@@ -6265,7 +6265,7 @@
       "aliases": null,
       "createdDate": 1700304267771,
       "modifiedDate": 1700304267771,
-      "sizeInBytes": 348
+      "sizeInBytes": 341
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/More Modern CMake/2. Building with CMake.md": {
       "isCountable": true,
@@ -6283,7 +6283,7 @@
       "aliases": null,
       "createdDate": 1700304267770,
       "modifiedDate": 1700304267770,
-      "sizeInBytes": 342
+      "sizeInBytes": 335
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/More Modern CMake/11. Functions in CMake.md": {
       "isCountable": true,
@@ -6301,7 +6301,7 @@
       "aliases": null,
       "createdDate": 1700304267770,
       "modifiedDate": 1700304267770,
-      "sizeInBytes": 342
+      "sizeInBytes": 335
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/More Modern CMake/10. ROOT.md": {
       "isCountable": true,
@@ -6319,7 +6319,7 @@
       "aliases": null,
       "createdDate": 1700304267770,
       "modifiedDate": 1700304267770,
-      "sizeInBytes": 328
+      "sizeInBytes": 321
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/More Modern CMake/1. Introduction.md": {
       "isCountable": true,
@@ -6337,7 +6337,7 @@
       "aliases": null,
       "createdDate": 1700304267770,
       "modifiedDate": 1700304267770,
-      "sizeInBytes": 2398
+      "sizeInBytes": 2391
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Microsoft Learn/Training.md": {
       "isCountable": true,
@@ -6355,7 +6355,7 @@
       "aliases": null,
       "createdDate": 1700304267769,
       "modifiedDate": 1700304267769,
-      "sizeInBytes": 7935
+      "sizeInBytes": 7933
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Microsoft Learn/Shows.md": {
       "isCountable": true,
@@ -6373,7 +6373,7 @@
       "aliases": null,
       "createdDate": 1700304267768,
       "modifiedDate": 1700304267768,
-      "sizeInBytes": 427
+      "sizeInBytes": 425
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Microsoft Learn/Q&A.md": {
       "isCountable": true,
@@ -6391,7 +6391,7 @@
       "aliases": null,
       "createdDate": 1700304267768,
       "modifiedDate": 1700304267768,
-      "sizeInBytes": 425
+      "sizeInBytes": 423
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Microsoft Learn/Events.md": {
       "isCountable": true,
@@ -6409,7 +6409,7 @@
       "aliases": null,
       "createdDate": 1700304267767,
       "modifiedDate": 1700304267767,
-      "sizeInBytes": 428
+      "sizeInBytes": 426
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Microsoft Learn/Certifications.md": {
       "isCountable": true,
@@ -6427,7 +6427,7 @@
       "aliases": null,
       "createdDate": 1700304267766,
       "modifiedDate": 1700304267766,
-      "sizeInBytes": 436
+      "sizeInBytes": 434
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Microsoft Learn/Documentation.md": {
       "isCountable": true,
@@ -6445,7 +6445,7 @@
       "aliases": null,
       "createdDate": 1700304267767,
       "modifiedDate": 1700304267767,
-      "sizeInBytes": 36512
+      "sizeInBytes": 36510
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Microsoft Learn/Code Samples.md": {
       "isCountable": true,
@@ -6463,7 +6463,7 @@
       "aliases": null,
       "createdDate": 1700304267766,
       "modifiedDate": 1700304267767,
-      "sizeInBytes": 434
+      "sizeInBytes": 432
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Microsoft Learn/Assessments.md": {
       "isCountable": true,
@@ -6481,7 +6481,7 @@
       "aliases": null,
       "createdDate": 1700304267765,
       "modifiedDate": 1700304267766,
-      "sizeInBytes": 433
+      "sizeInBytes": 431
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Merriam-Webster/🌐 🤖 ChatGPT, Bing Chat, etc. Generated Flash Cards.md": {
       "isCountable": true,
@@ -6499,7 +6499,7 @@
       "aliases": null,
       "createdDate": 1700304267765,
       "modifiedDate": 1700304267765,
-      "sizeInBytes": 56654
+      "sizeInBytes": 56647
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Merriam-Webster/🌐 Word of the Day.md": {
       "isCountable": true,
@@ -6535,7 +6535,7 @@
       "aliases": null,
       "createdDate": 1700304267763,
       "modifiedDate": 1700304267764,
-      "sizeInBytes": 29601
+      "sizeInBytes": 29594
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Merriam-Webster/🌐 Weekly Challenges.md": {
       "isCountable": true,
@@ -6553,7 +6553,7 @@
       "aliases": null,
       "createdDate": 1700304267763,
       "modifiedDate": 1700304267763,
-      "sizeInBytes": 5964
+      "sizeInBytes": 5957
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Master Your Data with Excel and Power BI/Misc..md": {
       "isCountable": true,
@@ -6571,7 +6571,7 @@
       "aliases": null,
       "createdDate": 1700304267762,
       "modifiedDate": 1700304267762,
-      "sizeInBytes": 1258
+      "sizeInBytes": 1250
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems (Medium).md": {
       "isCountable": true,
@@ -6589,7 +6589,7 @@
       "aliases": null,
       "createdDate": 1700304267738,
       "modifiedDate": 1700304267738,
-      "sizeInBytes": 466
+      "sizeInBytes": 456
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems (Hard).md": {
       "isCountable": true,
@@ -6607,7 +6607,7 @@
       "aliases": null,
       "createdDate": 1700304267737,
       "modifiedDate": 1700304267737,
-      "sizeInBytes": 584
+      "sizeInBytes": 574
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems (Easy).md": {
       "isCountable": true,
@@ -6625,7 +6625,7 @@
       "aliases": null,
       "createdDate": 1700304267737,
       "modifiedDate": 1700304267737,
-      "sizeInBytes": 70434
+      "sizeInBytes": 70426
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/Problems ∋ Table of Contents.md": {
       "isCountable": true,
@@ -6643,7 +6643,7 @@
       "aliases": null,
       "createdDate": 1700304267760,
       "modifiedDate": 1700304267760,
-      "sizeInBytes": 715
+      "sizeInBytes": 703
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/9. Palindrome Number.md": {
       "isCountable": true,
@@ -6661,7 +6661,7 @@
       "aliases": null,
       "createdDate": 1700304267760,
       "modifiedDate": 1700304267760,
-      "sizeInBytes": 21554
+      "sizeInBytes": 21540
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/627. Swap Salary.md": {
       "isCountable": true,
@@ -6679,7 +6679,7 @@
       "aliases": null,
       "createdDate": 1700304267760,
       "modifiedDate": 1700304267760,
-      "sizeInBytes": 6706
+      "sizeInBytes": 6692
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md": {
       "isCountable": true,
@@ -6697,7 +6697,7 @@
       "aliases": null,
       "createdDate": 1700304267759,
       "modifiedDate": 1700304267759,
-      "sizeInBytes": 2894
+      "sizeInBytes": 2880
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/619. Biggest Single Number.md": {
       "isCountable": true,
@@ -6715,7 +6715,7 @@
       "aliases": null,
       "createdDate": 1700304267759,
       "modifiedDate": 1700304267759,
-      "sizeInBytes": 8718
+      "sizeInBytes": 8704
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/613. Shortest Distance in a Line.md": {
       "isCountable": true,
@@ -6733,7 +6733,7 @@
       "aliases": null,
       "createdDate": 1700304267758,
       "modifiedDate": 1700304267758,
-      "sizeInBytes": 16260
+      "sizeInBytes": 16248
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/610. Triangle Judgement.md": {
       "isCountable": true,
@@ -6751,7 +6751,7 @@
       "aliases": null,
       "createdDate": 1700304267758,
       "modifiedDate": 1700304267758,
-      "sizeInBytes": 7136
+      "sizeInBytes": 7123
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md": {
       "isCountable": true,
@@ -6769,7 +6769,7 @@
       "aliases": null,
       "createdDate": 1700304267757,
       "modifiedDate": 1700304267757,
-      "sizeInBytes": 3218
+      "sizeInBytes": 3204
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/597. Friend Requests I꞉ Overall Acceptance Rate.md": {
       "isCountable": true,
@@ -6787,7 +6787,7 @@
       "aliases": null,
       "createdDate": 1700304267757,
       "modifiedDate": 1700304267757,
-      "sizeInBytes": 1417
+      "sizeInBytes": 1404
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/596. Classes More Than 5 Students.md": {
       "isCountable": true,
@@ -6805,7 +6805,7 @@
       "aliases": null,
       "createdDate": 1700304267756,
       "modifiedDate": 1700304267756,
-      "sizeInBytes": 1664
+      "sizeInBytes": 1651
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/595. Big Countries.md": {
       "isCountable": true,
@@ -6823,7 +6823,7 @@
       "aliases": null,
       "createdDate": 1700304267756,
       "modifiedDate": 1700304267756,
-      "sizeInBytes": 1845
+      "sizeInBytes": 1832
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/586. Customer Placing the Largest Number of Orders.md": {
       "isCountable": true,
@@ -6841,7 +6841,7 @@
       "aliases": null,
       "createdDate": 1700304267755,
       "modifiedDate": 1700304267755,
-      "sizeInBytes": 9563
+      "sizeInBytes": 9550
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/584. Find Customer Referee.md": {
       "isCountable": true,
@@ -6859,7 +6859,7 @@
       "aliases": null,
       "createdDate": 1700304267755,
       "modifiedDate": 1700304267755,
-      "sizeInBytes": 1473
+      "sizeInBytes": 1461
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/577. Employee Bonus.md": {
       "isCountable": true,
@@ -6877,7 +6877,7 @@
       "aliases": null,
       "createdDate": 1700304267754,
       "modifiedDate": 1700304267755,
-      "sizeInBytes": 1570
+      "sizeInBytes": 1558
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/383. Ransom Note.md": {
       "isCountable": true,
@@ -6895,7 +6895,7 @@
       "aliases": null,
       "createdDate": 1700304267754,
       "modifiedDate": 1700304267754,
-      "sizeInBytes": 4029
+      "sizeInBytes": 4015
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2917. Find the K-or of an Array.md": {
       "isCountable": true,
@@ -6913,7 +6913,7 @@
       "aliases": null,
       "createdDate": 1700304267753,
       "modifiedDate": 1700304267754,
-      "sizeInBytes": 1540
+      "sizeInBytes": 1526
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2853. Highest Salaries Difference.md": {
       "isCountable": true,
@@ -6931,7 +6931,7 @@
       "aliases": null,
       "createdDate": 1700304267752,
       "modifiedDate": 1700304267752,
-      "sizeInBytes": 7735
+      "sizeInBytes": 7721
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2837. Total Traveled Distance.md": {
       "isCountable": true,
@@ -6949,7 +6949,7 @@
       "aliases": null,
       "createdDate": 1700304267752,
       "modifiedDate": 1700304267752,
-      "sizeInBytes": 11345
+      "sizeInBytes": 11331
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/278. First Bad Version.md": {
       "isCountable": true,
@@ -6967,7 +6967,7 @@
       "aliases": null,
       "createdDate": 1700304267752,
       "modifiedDate": 1700304267752,
-      "sizeInBytes": 2510
+      "sizeInBytes": 2495
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2687. Bikes Last Time Used.md": {
       "isCountable": true,
@@ -6985,7 +6985,7 @@
       "aliases": null,
       "createdDate": 1700304267751,
       "modifiedDate": 1700304267751,
-      "sizeInBytes": 3464
+      "sizeInBytes": 3450
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2669. Count Artist Occurrences On Spotify Ranking List.md": {
       "isCountable": true,
@@ -7003,7 +7003,7 @@
       "aliases": null,
       "createdDate": 1700304267750,
       "modifiedDate": 1700304267750,
-      "sizeInBytes": 2366
+      "sizeInBytes": 2352
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2668. Find Latest Salaries.md": {
       "isCountable": true,
@@ -7021,7 +7021,7 @@
       "aliases": null,
       "createdDate": 1700304267750,
       "modifiedDate": 1700304267750,
-      "sizeInBytes": 4100
+      "sizeInBytes": 4086
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/26. Remove Duplicates from Sorted Array.md": {
       "isCountable": true,
@@ -7039,7 +7039,7 @@
       "aliases": null,
       "createdDate": 1700304267749,
       "modifiedDate": 1700304267749,
-      "sizeInBytes": 7547
+      "sizeInBytes": 7532
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2504. Concatenate the Name and the Profession.md": {
       "isCountable": true,
@@ -7057,7 +7057,7 @@
       "aliases": null,
       "createdDate": 1700304267749,
       "modifiedDate": 1700304267749,
-      "sizeInBytes": 5165
+      "sizeInBytes": 5151
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2480. Form a Chemical Bond.md": {
       "isCountable": true,
@@ -7075,7 +7075,7 @@
       "aliases": null,
       "createdDate": 1700304267748,
       "modifiedDate": 1700304267748,
-      "sizeInBytes": 1906
+      "sizeInBytes": 1892
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2377. Sort the Olympic Table.md": {
       "isCountable": true,
@@ -7093,7 +7093,7 @@
       "aliases": null,
       "createdDate": 1700304267748,
       "modifiedDate": 1700304267748,
-      "sizeInBytes": 4312
+      "sizeInBytes": 4298
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2356. Number of Unique Subjects Taught by Each Teacher.md": {
       "isCountable": true,
@@ -7111,7 +7111,7 @@
       "aliases": null,
       "createdDate": 1700304267747,
       "modifiedDate": 1700304267747,
-      "sizeInBytes": 3933
+      "sizeInBytes": 3919
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2283. Check if Number Has Equal Digit Count and Digit Value.md": {
       "isCountable": true,
@@ -7129,7 +7129,7 @@
       "aliases": null,
       "createdDate": 1700304267747,
       "modifiedDate": 1700304267747,
-      "sizeInBytes": 12231
+      "sizeInBytes": 12215
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/226. Invert Binary Tree.md": {
       "isCountable": true,
@@ -7147,7 +7147,7 @@
       "aliases": null,
       "createdDate": 1700304267746,
       "modifiedDate": 1700304267747,
-      "sizeInBytes": 3257
+      "sizeInBytes": 3242
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/219. Contains Duplicate II.md": {
       "isCountable": true,
@@ -7165,7 +7165,7 @@
       "aliases": null,
       "createdDate": 1700304267746,
       "modifiedDate": 1700304267746,
-      "sizeInBytes": 13526
+      "sizeInBytes": 13510
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/21. Merge Two Sorted Lists.md": {
       "isCountable": true,
@@ -7183,7 +7183,7 @@
       "aliases": null,
       "createdDate": 1700304267745,
       "modifiedDate": 1700304267746,
-      "sizeInBytes": 4344
+      "sizeInBytes": 4331
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/20. Valid Parentheses.md": {
       "isCountable": true,
@@ -7201,7 +7201,7 @@
       "aliases": null,
       "createdDate": 1700304267745,
       "modifiedDate": 1700304267745,
-      "sizeInBytes": 8665
+      "sizeInBytes": 8651
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/196. Delete Duplicate Emails.md": {
       "isCountable": true,
@@ -7219,7 +7219,7 @@
       "aliases": null,
       "createdDate": 1700304267745,
       "modifiedDate": 1700304267745,
-      "sizeInBytes": 14285
+      "sizeInBytes": 14273
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/183. Customers Who Never Order.md": {
       "isCountable": true,
@@ -7237,7 +7237,7 @@
       "aliases": null,
       "createdDate": 1700304267744,
       "modifiedDate": 1700304267744,
-      "sizeInBytes": 5529
+      "sizeInBytes": 5516
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/182. Duplicate Emails.md": {
       "isCountable": true,
@@ -7255,7 +7255,7 @@
       "aliases": null,
       "createdDate": 1700304267744,
       "modifiedDate": 1700304267744,
-      "sizeInBytes": 1866
+      "sizeInBytes": 1853
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/181. Employees Earning More Than Their Managers.md": {
       "isCountable": true,
@@ -7273,7 +7273,7 @@
       "aliases": null,
       "createdDate": 1700304267743,
       "modifiedDate": 1700304267743,
-      "sizeInBytes": 2209
+      "sizeInBytes": 2197
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/175. Combine Two Tables.md": {
       "isCountable": true,
@@ -7291,7 +7291,7 @@
       "aliases": null,
       "createdDate": 1700304267743,
       "modifiedDate": 1700304267743,
-      "sizeInBytes": 1797
+      "sizeInBytes": 1784
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/145. Binary Tree Postorder Traversal.md": {
       "isCountable": true,
@@ -7345,7 +7345,7 @@
       "aliases": null,
       "createdDate": 1700304267742,
       "modifiedDate": 1700304267742,
-      "sizeInBytes": 3870
+      "sizeInBytes": 3854
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/136. Single Number.md": {
       "isCountable": true,
@@ -7363,7 +7363,7 @@
       "aliases": null,
       "createdDate": 1700304267742,
       "modifiedDate": 1700304267742,
-      "sizeInBytes": 4122
+      "sizeInBytes": 4107
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/13. Roman to Integer.md": {
       "isCountable": true,
@@ -7381,7 +7381,7 @@
       "aliases": null,
       "createdDate": 1700304267742,
       "modifiedDate": 1700304267742,
-      "sizeInBytes": 8254
+      "sizeInBytes": 8238
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/125. Valid Palindrome.md": {
       "isCountable": true,
@@ -7399,7 +7399,7 @@
       "aliases": null,
       "createdDate": 1700304267741,
       "modifiedDate": 1700304267741,
-      "sizeInBytes": 8804
+      "sizeInBytes": 8790
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/121. Best Time to Buy and Sell Stock.md": {
       "isCountable": true,
@@ -7417,7 +7417,7 @@
       "aliases": null,
       "createdDate": 1700304267740,
       "modifiedDate": 1700304267740,
-      "sizeInBytes": 6989
+      "sizeInBytes": 6976
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md": {
       "isCountable": true,
@@ -7435,7 +7435,7 @@
       "aliases": null,
       "createdDate": 1700304267740,
       "modifiedDate": 1700304267740,
-      "sizeInBytes": 2252
+      "sizeInBytes": 2237
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/118. Pascal's Triangle.md": {
       "isCountable": true,
@@ -7453,7 +7453,7 @@
       "aliases": null,
       "createdDate": 1700304267739,
       "modifiedDate": 1700304267739,
-      "sizeInBytes": 3171
+      "sizeInBytes": 3158
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1050. Actors and Directors Who Cooperated At Least Three Times.md": {
       "isCountable": true,
@@ -7471,7 +7471,7 @@
       "aliases": null,
       "createdDate": 1700304267739,
       "modifiedDate": 1700304267739,
-      "sizeInBytes": 5045
+      "sizeInBytes": 5031
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1. Two Sum.md": {
       "isCountable": true,
@@ -7489,7 +7489,7 @@
       "aliases": null,
       "createdDate": 1700304267738,
       "modifiedDate": 1700304267738,
-      "sizeInBytes": 22819
+      "sizeInBytes": 22805
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/217. Contains Duplicate.md": {
       "isCountable": true,
@@ -7507,7 +7507,7 @@
       "aliases": null,
       "createdDate": 1700304267736,
       "modifiedDate": 1700304267736,
-      "sizeInBytes": 2551
+      "sizeInBytes": 2549
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/112. Path Sum.md": {
       "isCountable": true,
@@ -7525,7 +7525,7 @@
       "aliases": null,
       "createdDate": 1700304267735,
       "modifiedDate": 1700304267735,
-      "sizeInBytes": 1053
+      "sizeInBytes": 1051
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/111. Minimum Depth of Binary Tree.md": {
       "isCountable": true,
@@ -7543,7 +7543,7 @@
       "aliases": null,
       "createdDate": 1700304267735,
       "modifiedDate": 1700304267735,
-      "sizeInBytes": 6034
+      "sizeInBytes": 6032
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/sortspec.md.md": {
       "isCountable": true,
@@ -7561,7 +7561,7 @@
       "aliases": null,
       "createdDate": 1700304267734,
       "modifiedDate": 1700304267734,
-      "sizeInBytes": 1787
+      "sizeInBytes": 1746
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter O꞉ Bit Manipulation (optional chapter).md": {
       "isCountable": true,
@@ -7579,7 +7579,7 @@
       "aliases": null,
       "createdDate": 1700304267734,
       "modifiedDate": 1700304267734,
-      "sizeInBytes": 896
+      "sizeInBytes": 889
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter M꞉ Move Semantics and Smart Pointers.md": {
       "isCountable": true,
@@ -7597,7 +7597,7 @@
       "aliases": null,
       "createdDate": 1700304267734,
       "modifiedDate": 1700304267734,
-      "sizeInBytes": 1376
+      "sizeInBytes": 1369
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 9꞉ Compound Types꞉ References and Pointers.md": {
       "isCountable": true,
@@ -7615,7 +7615,7 @@
       "aliases": null,
       "createdDate": 1700304267733,
       "modifiedDate": 1700304267733,
-      "sizeInBytes": 1800
+      "sizeInBytes": 1793
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 8꞉ Type Conversion and Function Overloading.md": {
       "isCountable": true,
@@ -7633,7 +7633,7 @@
       "aliases": null,
       "createdDate": 1700304267732,
       "modifiedDate": 1700304267732,
-      "sizeInBytes": 2316
+      "sizeInBytes": 2309
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 7꞉ Control Flow and Error Handling.md": {
       "isCountable": true,
@@ -7651,7 +7651,7 @@
       "aliases": null,
       "createdDate": 1700304267732,
       "modifiedDate": 1700304267732,
-      "sizeInBytes": 41178
+      "sizeInBytes": 41171
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 6꞉ Scope, Duration, and Linkage.md": {
       "isCountable": true,
@@ -7669,7 +7669,7 @@
       "aliases": null,
       "createdDate": 1700304267732,
       "modifiedDate": 1700304267732,
-      "sizeInBytes": 2338
+      "sizeInBytes": 2331
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 5꞉ Operators.md": {
       "isCountable": true,
@@ -7687,7 +7687,7 @@
       "aliases": null,
       "createdDate": 1700304267731,
       "modifiedDate": 1700304267731,
-      "sizeInBytes": 1302
+      "sizeInBytes": 1295
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 4꞉ Fundamental Data Types.md": {
       "isCountable": true,
@@ -7705,7 +7705,7 @@
       "aliases": null,
       "createdDate": 1700304267730,
       "modifiedDate": 1700304267730,
-      "sizeInBytes": 3506
+      "sizeInBytes": 3499
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 3꞉ Debugging C++ Programs.md": {
       "isCountable": true,
@@ -7723,7 +7723,7 @@
       "aliases": null,
       "createdDate": 1700304267730,
       "modifiedDate": 1700304267730,
-      "sizeInBytes": 1701
+      "sizeInBytes": 1694
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 2꞉ C++ Basics꞉ Functions and Files.md": {
       "isCountable": true,
@@ -7741,7 +7741,7 @@
       "aliases": null,
       "createdDate": 1700304267729,
       "modifiedDate": 1700304267730,
-      "sizeInBytes": 18169
+      "sizeInBytes": 18162
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 23꞉ Input and Output (I⟋O).md": {
       "isCountable": true,
@@ -7759,7 +7759,7 @@
       "aliases": null,
       "createdDate": 1700304267729,
       "modifiedDate": 1700304267729,
-      "sizeInBytes": 1338
+      "sizeInBytes": 1331
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 22꞉ std꞉꞉string.md": {
       "isCountable": true,
@@ -7777,7 +7777,7 @@
       "aliases": null,
       "createdDate": 1700304267728,
       "modifiedDate": 1700304267729,
-      "sizeInBytes": 1207
+      "sizeInBytes": 1200
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 21꞉ The Standard Template Library.md": {
       "isCountable": true,
@@ -7795,7 +7795,7 @@
       "aliases": null,
       "createdDate": 1700304267728,
       "modifiedDate": 1700304267728,
-      "sizeInBytes": 774
+      "sizeInBytes": 767
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 20꞉ Exceptions.md": {
       "isCountable": true,
@@ -7813,7 +7813,7 @@
       "aliases": null,
       "createdDate": 1700304267727,
       "modifiedDate": 1700304267727,
-      "sizeInBytes": 1513
+      "sizeInBytes": 1506
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 1꞉ C++ Basics.md": {
       "isCountable": true,
@@ -7831,7 +7831,7 @@
       "aliases": null,
       "createdDate": 1700304267727,
       "modifiedDate": 1700304267727,
-      "sizeInBytes": 67127
+      "sizeInBytes": 67120
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 19꞉ Templates and Classes.md": {
       "isCountable": true,
@@ -7849,7 +7849,7 @@
       "aliases": null,
       "createdDate": 1700304267726,
       "modifiedDate": 1700304267726,
-      "sizeInBytes": 1171
+      "sizeInBytes": 1164
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 18꞉ Virtual Functions.md": {
       "isCountable": true,
@@ -7867,7 +7867,7 @@
       "aliases": null,
       "createdDate": 1700304267726,
       "modifiedDate": 1700304267726,
-      "sizeInBytes": 1934
+      "sizeInBytes": 1927
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 17꞉ Inheritance.md": {
       "isCountable": true,
@@ -7885,7 +7885,7 @@
       "aliases": null,
       "createdDate": 1700304267725,
       "modifiedDate": 1700304267725,
-      "sizeInBytes": 1606
+      "sizeInBytes": 1599
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 16꞉ An Introduction to Object Relationships.md": {
       "isCountable": true,
@@ -7903,7 +7903,7 @@
       "aliases": null,
       "createdDate": 1700304267725,
       "modifiedDate": 1700304267725,
-      "sizeInBytes": 1091
+      "sizeInBytes": 1084
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 15꞉ Reserved for Future Reorganization.md": {
       "isCountable": true,
@@ -7921,7 +7921,7 @@
       "aliases": null,
       "createdDate": 1700304267724,
       "modifiedDate": 1700304267724,
-      "sizeInBytes": 367
+      "sizeInBytes": 360
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 14꞉ Operator overloading.md": {
       "isCountable": true,
@@ -7939,7 +7939,7 @@
       "aliases": null,
       "createdDate": 1700304267724,
       "modifiedDate": 1700304267724,
-      "sizeInBytes": 2657
+      "sizeInBytes": 2650
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 13꞉ Basic Object-oriented Programming.md": {
       "isCountable": true,
@@ -7957,7 +7957,7 @@
       "aliases": null,
       "createdDate": 1700304267724,
       "modifiedDate": 1700304267724,
-      "sizeInBytes": 2486
+      "sizeInBytes": 2479
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 12꞉ Functions.md": {
       "isCountable": true,
@@ -7975,7 +7975,7 @@
       "aliases": null,
       "createdDate": 1700304267723,
       "modifiedDate": 1700304267723,
-      "sizeInBytes": 1310
+      "sizeInBytes": 1303
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 11꞉ Arrays, Strings, and Dynamic Allocation.md": {
       "isCountable": true,
@@ -7993,7 +7993,7 @@
       "aliases": null,
       "createdDate": 1700304267723,
       "modifiedDate": 1700304267723,
-      "sizeInBytes": 4208
+      "sizeInBytes": 4201
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 10꞉ Compound Types꞉ Enums and Structs.md": {
       "isCountable": true,
@@ -8011,7 +8011,7 @@
       "aliases": null,
       "createdDate": 1700304267722,
       "modifiedDate": 1700304267722,
-      "sizeInBytes": 2023
+      "sizeInBytes": 2016
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Chapter 0꞉ Introduction⟋Getting Started.md": {
       "isCountable": true,
@@ -8029,7 +8029,7 @@
       "aliases": null,
       "createdDate": 1700304267722,
       "modifiedDate": 1700304267722,
-      "sizeInBytes": 33492
+      "sizeInBytes": 33485
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Appendix C꞉ The End.md": {
       "isCountable": true,
@@ -8047,7 +8047,7 @@
       "aliases": null,
       "createdDate": 1700304267721,
       "modifiedDate": 1700304267722,
-      "sizeInBytes": 422
+      "sizeInBytes": 415
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Appendix B꞉ C++ Updates.md": {
       "isCountable": true,
@@ -8065,7 +8065,7 @@
       "aliases": null,
       "createdDate": 1700304267721,
       "modifiedDate": 1700304267721,
-      "sizeInBytes": 740
+      "sizeInBytes": 733
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LearnCpp.com/Appendix A꞉ Miscellaneous Subjects.md": {
       "isCountable": true,
@@ -8083,7 +8083,7 @@
       "aliases": null,
       "createdDate": 1700304267720,
       "modifiedDate": 1700304267721,
-      "sizeInBytes": 804
+      "sizeInBytes": 797
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/IBM Technology/Misc. Notes.md": {
       "isCountable": true,
@@ -8101,7 +8101,7 @@
       "aliases": null,
       "createdDate": 1700304267720,
       "modifiedDate": 1700304267720,
-      "sizeInBytes": 11166
+      "sizeInBytes": 11164
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/GoogleTest/GUIDES.md": {
       "isCountable": true,
@@ -8119,7 +8119,7 @@
       "aliases": null,
       "createdDate": 1700304267719,
       "modifiedDate": 1700304267719,
-      "sizeInBytes": 592
+      "sizeInBytes": 590
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs/Table of Contents.md": {
       "isCountable": true,
@@ -8137,7 +8137,7 @@
       "aliases": null,
       "createdDate": 1700304267719,
       "modifiedDate": 1700304267719,
-      "sizeInBytes": 525
+      "sizeInBytes": 515
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs/Get started.md": {
       "isCountable": true,
@@ -8155,7 +8155,7 @@
       "aliases": null,
       "createdDate": 1700304267718,
       "modifiedDate": 1700304267718,
-      "sizeInBytes": 404
+      "sizeInBytes": 395
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs/CICD and DevOps.md": {
       "isCountable": true,
@@ -8173,25 +8173,25 @@
       "aliases": null,
       "createdDate": 1700304267718,
       "modifiedDate": 1700304267718,
-      "sizeInBytes": 411
+      "sizeInBytes": 402
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/What is a container？.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 778,
+      "wordCount": 777,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 2.5933333333333333,
-      "characterCount": 7532,
-      "nonWhitespaceCharacterCount": 6673,
-      "readingTimeInMinutes": 2.9358490566037734,
+      "pageCount": 2.59,
+      "characterCount": 7435,
+      "nonWhitespaceCharacterCount": 6577,
+      "readingTimeInMinutes": 2.9320754716981132,
       "linkCount": 0,
       "embedCount": 1,
       "aliases": null,
       "createdDate": 1700304267717,
-      "modifiedDate": 1700325685887,
-      "sizeInBytes": 8129
+      "modifiedDate": 1700426566111,
+      "sizeInBytes": 8032
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Walkthroughs ∋ Table of Contents.md": {
       "isCountable": true,
@@ -8226,8 +8226,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700308501150,
-      "modifiedDate": 1700308782367,
-      "sizeInBytes": 223
+      "modifiedDate": 1700430237644,
+      "sizeInBytes": 393
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md": {
       "isCountable": true,
@@ -8237,15 +8237,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.56,
-      "characterCount": 1206,
-      "nonWhitespaceCharacterCount": 1007,
+      "characterCount": 1853,
+      "nonWhitespaceCharacterCount": 1654,
       "readingTimeInMinutes": 0.6339622641509434,
-      "linkCount": 1,
+      "linkCount": 6,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700308039889,
-      "modifiedDate": 1700308377648,
-      "sizeInBytes": 1687
+      "modifiedDate": 1700430171605,
+      "sizeInBytes": 2358
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/How do I run a container？.md": {
       "isCountable": true,
@@ -8317,7 +8317,7 @@
       "aliases": null,
       "createdDate": 1700304267716,
       "modifiedDate": 1700304267716,
-      "sizeInBytes": 1090
+      "sizeInBytes": 1080
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 3꞉ Update the application.md": {
       "isCountable": true,
@@ -8335,7 +8335,7 @@
       "aliases": null,
       "createdDate": 1700304267716,
       "modifiedDate": 1700304267716,
-      "sizeInBytes": 3068
+      "sizeInBytes": 3058
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 2꞉ Containerize an application.md": {
       "isCountable": true,
@@ -8371,7 +8371,7 @@
       "aliases": null,
       "createdDate": 1700304267715,
       "modifiedDate": 1700304267715,
-      "sizeInBytes": 2959
+      "sizeInBytes": 2948
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Get started ∋ Table of Contents.md": {
       "isCountable": true,
@@ -8389,7 +8389,7 @@
       "aliases": null,
       "createdDate": 1700304267714,
       "modifiedDate": 1700304267714,
-      "sizeInBytes": 2348
+      "sizeInBytes": 2337
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Docker Overview.md": {
       "isCountable": true,
@@ -8407,7 +8407,7 @@
       "aliases": null,
       "createdDate": 1700304267714,
       "modifiedDate": 1700304267714,
-      "sizeInBytes": 16575
+      "sizeInBytes": 16563
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md": {
       "isCountable": true,
@@ -8425,7 +8425,7 @@
       "aliases": null,
       "createdDate": 1700304267714,
       "modifiedDate": 1700304267714,
-      "sizeInBytes": 2637
+      "sizeInBytes": 2626
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Conda/Misc. Notes.md": {
       "isCountable": true,
@@ -8443,7 +8443,7 @@
       "aliases": null,
       "createdDate": 1700304267712,
       "modifiedDate": 1700304267712,
-      "sizeInBytes": 1159
+      "sizeInBytes": 1148
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Conda/Conda ∋ Table of Contents.md": {
       "isCountable": true,
@@ -8479,7 +8479,7 @@
       "aliases": null,
       "createdDate": 1700304267712,
       "modifiedDate": 1700304267712,
-      "sizeInBytes": 8839
+      "sizeInBytes": 8830
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/CMake Reference Documentation/sortspec.md.md": {
       "isCountable": true,
@@ -8497,7 +8497,7 @@
       "aliases": null,
       "createdDate": 1700304267710,
       "modifiedDate": 1700304267710,
-      "sizeInBytes": 700
+      "sizeInBytes": 681
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/CMake Reference Documentation/Release Notes.md": {
       "isCountable": true,
@@ -8515,7 +8515,7 @@
       "aliases": null,
       "createdDate": 1700304267710,
       "modifiedDate": 1700304267710,
-      "sizeInBytes": 337
+      "sizeInBytes": 330
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/CMake Reference Documentation/Reference Manuals.md": {
       "isCountable": true,
@@ -8533,7 +8533,7 @@
       "aliases": null,
       "createdDate": 1700304267709,
       "modifiedDate": 1700304267709,
-      "sizeInBytes": 341
+      "sizeInBytes": 334
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/CMake Reference Documentation/Introduction.md": {
       "isCountable": true,
@@ -8551,7 +8551,7 @@
       "aliases": null,
       "createdDate": 1700304267709,
       "modifiedDate": 1700304267709,
-      "sizeInBytes": 336
+      "sizeInBytes": 329
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/CMake Reference Documentation/Interactive Dialogs.md": {
       "isCountable": true,
@@ -8569,7 +8569,7 @@
       "aliases": null,
       "createdDate": 1700304267708,
       "modifiedDate": 1700304267709,
-      "sizeInBytes": 336
+      "sizeInBytes": 329
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/CMake Reference Documentation/Index and Search.md": {
       "isCountable": true,
@@ -8587,7 +8587,7 @@
       "aliases": null,
       "createdDate": 1700304267708,
       "modifiedDate": 1700304267708,
-      "sizeInBytes": 340
+      "sizeInBytes": 333
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/CMake Reference Documentation/Guides.md": {
       "isCountable": true,
@@ -8605,7 +8605,7 @@
       "aliases": null,
       "createdDate": 1700304267707,
       "modifiedDate": 1700304267708,
-      "sizeInBytes": 45456
+      "sizeInBytes": 45449
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/CMake Reference Documentation/Command-Line Tools.md": {
       "isCountable": true,
@@ -8623,7 +8623,7 @@
       "aliases": null,
       "createdDate": 1700304267707,
       "modifiedDate": 1700304267707,
-      "sizeInBytes": 342
+      "sizeInBytes": 335
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Calculus꞉ Early Transcendentals, 9th Edition/Chapter 8.md": {
       "isCountable": true,
@@ -8641,7 +8641,7 @@
       "aliases": null,
       "createdDate": 1700304267711,
       "modifiedDate": 1700304267711,
-      "sizeInBytes": 1817
+      "sizeInBytes": 1805
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ Weekly With Jason Turner/C++ Weekly - Ep 342 - C++.md": {
       "isCountable": true,
@@ -8659,7 +8659,7 @@
       "aliases": null,
       "createdDate": 1700304267696,
       "modifiedDate": 1700304267696,
-      "sizeInBytes": 11529
+      "sizeInBytes": 11518
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Technical specifications.md": {
       "isCountable": true,
@@ -8677,7 +8677,7 @@
       "aliases": null,
       "createdDate": 1700304267706,
       "modifiedDate": 1700304267706,
-      "sizeInBytes": 440
+      "sizeInBytes": 432
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Strings library.md": {
       "isCountable": true,
@@ -8695,7 +8695,7 @@
       "aliases": null,
       "createdDate": 1700304267705,
       "modifiedDate": 1700304267705,
-      "sizeInBytes": 431
+      "sizeInBytes": 423
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Standard library (headers).md": {
       "isCountable": true,
@@ -8713,7 +8713,7 @@
       "aliases": null,
       "createdDate": 1700304267705,
       "modifiedDate": 1700304267705,
-      "sizeInBytes": 442
+      "sizeInBytes": 434
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/sortspec.md": {
       "isCountable": true,
@@ -8731,7 +8731,7 @@
       "aliases": null,
       "createdDate": 1700304267706,
       "modifiedDate": 1700304267706,
-      "sizeInBytes": 688
+      "sizeInBytes": 658
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Regular expressions library.md": {
       "isCountable": true,
@@ -8749,7 +8749,7 @@
       "aliases": null,
       "createdDate": 1700304267704,
       "modifiedDate": 1700304267704,
-      "sizeInBytes": 443
+      "sizeInBytes": 435
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Ranges library.md": {
       "isCountable": true,
@@ -8767,7 +8767,7 @@
       "aliases": null,
       "createdDate": 1700304267704,
       "modifiedDate": 1700304267704,
-      "sizeInBytes": 430
+      "sizeInBytes": 422
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Numerics library.md": {
       "isCountable": true,
@@ -8785,7 +8785,7 @@
       "aliases": null,
       "createdDate": 1700304267703,
       "modifiedDate": 1700304267703,
-      "sizeInBytes": 3278
+      "sizeInBytes": 3270
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Named requirements.md": {
       "isCountable": true,
@@ -8803,7 +8803,7 @@
       "aliases": null,
       "createdDate": 1700304267703,
       "modifiedDate": 1700304267703,
-      "sizeInBytes": 434
+      "sizeInBytes": 426
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Metaprogramming library.md": {
       "isCountable": true,
@@ -8821,7 +8821,7 @@
       "aliases": null,
       "createdDate": 1700304267702,
       "modifiedDate": 1700304267702,
-      "sizeInBytes": 439
+      "sizeInBytes": 431
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Memory management library.md": {
       "isCountable": true,
@@ -8839,7 +8839,7 @@
       "aliases": null,
       "createdDate": 1700304267702,
       "modifiedDate": 1700304267702,
-      "sizeInBytes": 441
+      "sizeInBytes": 433
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Localizations library.md": {
       "isCountable": true,
@@ -8857,7 +8857,7 @@
       "aliases": null,
       "createdDate": 1700304267702,
       "modifiedDate": 1700304267702,
-      "sizeInBytes": 437
+      "sizeInBytes": 429
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Language.md": {
       "isCountable": true,
@@ -8875,7 +8875,7 @@
       "aliases": null,
       "createdDate": 1700304267702,
       "modifiedDate": 1700304267702,
-      "sizeInBytes": 424
+      "sizeInBytes": 416
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Language support library.md": {
       "isCountable": true,
@@ -8893,7 +8893,7 @@
       "aliases": null,
       "createdDate": 1700304267701,
       "modifiedDate": 1700304267701,
-      "sizeInBytes": 440
+      "sizeInBytes": 432
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Iterators library.md": {
       "isCountable": true,
@@ -8911,7 +8911,7 @@
       "aliases": null,
       "createdDate": 1700304267700,
       "modifiedDate": 1700304267700,
-      "sizeInBytes": 433
+      "sizeInBytes": 425
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Input⟋output library.md": {
       "isCountable": true,
@@ -8929,7 +8929,7 @@
       "aliases": null,
       "createdDate": 1700304267700,
       "modifiedDate": 1700304267700,
-      "sizeInBytes": 438
+      "sizeInBytes": 430
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/General utilities library.md": {
       "isCountable": true,
@@ -8947,7 +8947,7 @@
       "aliases": null,
       "createdDate": 1700304267700,
       "modifiedDate": 1700304267700,
-      "sizeInBytes": 1155
+      "sizeInBytes": 1147
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Filesystem library.md": {
       "isCountable": true,
@@ -8965,7 +8965,7 @@
       "aliases": null,
       "createdDate": 1700304267699,
       "modifiedDate": 1700304267699,
-      "sizeInBytes": 434
+      "sizeInBytes": 426
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Feature test macros.md": {
       "isCountable": true,
@@ -8983,7 +8983,7 @@
       "aliases": null,
       "createdDate": 1700304267699,
       "modifiedDate": 1700304267699,
-      "sizeInBytes": 435
+      "sizeInBytes": 427
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Diagnostics library.md": {
       "isCountable": true,
@@ -9001,7 +9001,7 @@
       "aliases": null,
       "createdDate": 1700304267699,
       "modifiedDate": 1700304267699,
-      "sizeInBytes": 435
+      "sizeInBytes": 427
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Date and time library.md": {
       "isCountable": true,
@@ -9019,7 +9019,7 @@
       "aliases": null,
       "createdDate": 1700304267698,
       "modifiedDate": 1700304267698,
-      "sizeInBytes": 437
+      "sizeInBytes": 429
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Containers library.md": {
       "isCountable": true,
@@ -9037,7 +9037,7 @@
       "aliases": null,
       "createdDate": 1700304267698,
       "modifiedDate": 1700304267698,
-      "sizeInBytes": 434
+      "sizeInBytes": 426
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Concurrency support library.md": {
       "isCountable": true,
@@ -9055,7 +9055,7 @@
       "aliases": null,
       "createdDate": 1700304267697,
       "modifiedDate": 1700304267698,
-      "sizeInBytes": 443
+      "sizeInBytes": 435
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Concepts library.md": {
       "isCountable": true,
@@ -9073,7 +9073,7 @@
       "aliases": null,
       "createdDate": 1700304267697,
       "modifiedDate": 1700304267697,
-      "sizeInBytes": 432
+      "sizeInBytes": 424
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Algorithms library.md": {
       "isCountable": true,
@@ -9091,7 +9091,7 @@
       "aliases": null,
       "createdDate": 1700304267697,
       "modifiedDate": 1700304267697,
-      "sizeInBytes": 5421
+      "sizeInBytes": 5409
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/AWS Educate/Misc. Notes.md": {
       "isCountable": true,
@@ -9109,7 +9109,7 @@
       "aliases": null,
       "createdDate": 1700304267693,
       "modifiedDate": 1700304267693,
-      "sizeInBytes": 10714
+      "sizeInBytes": 10705
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Anki/Anki ∋ Table of Contents.md": {
       "isCountable": true,
@@ -9127,7 +9127,7 @@
       "aliases": null,
       "createdDate": 1700304267695,
       "modifiedDate": 1700304267696,
-      "sizeInBytes": 1628
+      "sizeInBytes": 1617
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Amazon Redshift - Fundamentals/2. Storage.md": {
       "isCountable": true,
@@ -9145,7 +9145,7 @@
       "aliases": null,
       "createdDate": 1700304267695,
       "modifiedDate": 1700304267695,
-      "sizeInBytes": 964
+      "sizeInBytes": 962
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Amazon Redshift - Fundamentals/1. Introduction.md": {
       "isCountable": true,
@@ -9163,7 +9163,7 @@
       "aliases": null,
       "createdDate": 1700304267695,
       "modifiedDate": 1700304267695,
-      "sizeInBytes": 6684
+      "sizeInBytes": 6675
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Advanced SQL/Advanced SQL — Chapter #05 — Video #29 — Window functions, frame specifications (ROWS∕RANGE∕GROUPS).md": {
       "isCountable": true,
@@ -9181,7 +9181,7 @@
       "aliases": null,
       "createdDate": 1700304267694,
       "modifiedDate": 1700304267694,
-      "sizeInBytes": 7190
+      "sizeInBytes": 7183
     },
     "the-vault/src/🔴 Academic/Projects/Projects ∋ Table of Contents.md": {
       "isCountable": true,
@@ -9325,7 +9325,7 @@
       "aliases": null,
       "createdDate": 1700304267689,
       "modifiedDate": 1700304267689,
-      "sizeInBytes": 2064
+      "sizeInBytes": 2056
     },
     "the-vault/src/🔴 Academic/Projects/Project “APIforMicrosoftWord”.md": {
       "isCountable": true,
@@ -9397,7 +9397,7 @@
       "aliases": null,
       "createdDate": 1700304267687,
       "modifiedDate": 1700304267687,
-      "sizeInBytes": 193
+      "sizeInBytes": 181
     },
     "the-vault/scripts/my_script.js": {
       "isCountable": false,
@@ -9505,7 +9505,7 @@
       "aliases": null,
       "createdDate": 1697778377463,
       "modifiedDate": 1700304265484,
-      "sizeInBytes": 747
+      "sizeInBytes": 744
     },
     "the-vault/assets/videos/structy-course-introduction.mp4": {
       "isCountable": false,
@@ -13903,19 +13903,19 @@
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 2539,
+      "wordCount": 3622,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 8.463333333333333,
-      "characterCount": 21538,
-      "nonWhitespaceCharacterCount": 18303,
-      "readingTimeInMinutes": 9.581132075471698,
+      "pageCount": 12.073333333333334,
+      "characterCount": 29636,
+      "nonWhitespaceCharacterCount": 25255,
+      "readingTimeInMinutes": 13.667924528301887,
       "linkCount": 0,
       "embedCount": 1,
       "aliases": null,
       "createdDate": 1700389459557,
-      "modifiedDate": 1700405908504,
-      "sizeInBytes": 22221
+      "modifiedDate": 1700426963645,
+      "sizeInBytes": 30368
     },
     "Pasted image 20231119023627.png": {
       "isCountable": false,
@@ -13934,6 +13934,60 @@
       "createdDate": 1700390187680,
       "modifiedDate": 1700390187682,
       "sizeInBytes": 52192
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Persist data between containers.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 886,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.953333333333333,
+      "characterCount": 6939,
+      "nonWhitespaceCharacterCount": 5912,
+      "readingTimeInMinutes": 3.3433962264150945,
+      "linkCount": 1,
+      "embedCount": 1,
+      "aliases": null,
+      "createdDate": 1700426692642,
+      "modifiedDate": 1700429769149,
+      "sizeInBytes": 7588
+    },
+    "Pasted image 20231119132130.png": {
+      "isCountable": false,
+      "isDirectory": false,
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1700428890334,
+      "modifiedDate": 1700428890336,
+      "sizeInBytes": 130919
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 88,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.29333333333333333,
+      "characterCount": 1159,
+      "nonWhitespaceCharacterCount": 1050,
+      "readingTimeInMinutes": 0.3320754716981132,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1700429967022,
+      "modifiedDate": 1700430481962,
+      "sizeInBytes": 1695
     }
   }
 }

@@ -8,7 +8,7 @@ tags:
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/sql
   - study-note
 cards-deck: Default::Computer Science
-updated: 2023-10-31T14:53
+updated: 2023-11-18T02:44
 ---
 
 # Learning SQL, 3rd Edition (2020)

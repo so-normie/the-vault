@@ -12,7 +12,7 @@ tags:
   - study-note
 cards-deck: Default::Computer Science
 created: 2023-09-03 08:46
-updated: 2023-11-16T18:06
+updated: 2023-11-18T02:44
 ---
 
 # Python in a Nutshell, 4ᵗʰ Edition (2023)

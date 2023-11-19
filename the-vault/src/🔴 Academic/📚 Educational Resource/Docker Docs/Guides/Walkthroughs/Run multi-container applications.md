@@ -1,7 +1,7 @@
 ---
 title: Run multi-container applications
-created: 2023-10-31T16:39
-updated: 2023-11-19T06:58
+created: 2023-11-19T02:24
+updated: 2023-11-19T12:49
 authors:
   - Edmund Leibert III
 tags:
@@ -18,6 +18,12 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkt
 
 > [!abstract]+ 
 > Notes that pertain to [Run multi-container applications | Docker Docs](https://docs.docker.com/guides/walkthroughs/multi-container-apps/). Use Docker Compose to run multi-container applications.
+
+---
+
+> [!info]+ 
+> **Previous Note(s):**
+> 
 
 ---
 
@@ -348,7 +354,7 @@ On the other hand, `docker-compose up` is the command used in older versions of 
 In summary, both commands perform the same function, but `docker compose up` is used in Docker 1.27.0 and later, while `docker-compose up` is used in older versions of Docker.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1700407647121
 
 
 ﹇<br>
@@ -372,8 +378,108 @@ By default, `docker-compose down` does **not** remove the images that were built
 - Removes volumes (`-v` or `--volumes`)
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1700407647128
 
+﹇<br>
+Explain line by line what the following Dockerfile does?
+
+```yaml
+# syntax=docker/dockerfile:1
+
+# Comments are provided throughout this file to help you get started.
+# If you need more help, visit the Dockerfile reference guide at
+# https://docs.docker.com/engine/reference/builder/
+
+ARG NODE_VERSION=19.5.0
+
+FROM node:${NODE_VERSION}-alpine
+
+# Use production node environment by default.
+ENV NODE_ENV production
+
+
+WORKDIR /usr/src/app
+
+# Download dependencies as a separate step to take advantage of Docker's caching.
+# Leverage a cache mount to /root/.npm to speed up subsequent builds.
+# Leverage a bind mounts to package.json and package-lock.json to avoid having to copy them into
+# into this layer.
+RUN --mount=type=bind,source=package.json,target=package.json \
+    --mount=type=bind,source=package-lock.json,target=package-lock.json \
+    --mount=type=cache,target=/root/.npm \
+    npm ci --include=dev
+
+# install nodemon for hot-reloading
+RUN npm install -g nodemon
+
+# Copy the rest of the source files into the image.
+COPY . .
+
+
+# Run the application as a non-root user.
+RUN  chown -R node /usr/src/app
+USER node
+
+# Expose the port that the application listens on.
+EXPOSE 3000
+
+# Run the application in dev mode to use with Compose watch feature
+CMD npm run dev
+```
+
+#card 
+
+Here’s a line-by-line explanation of the Dockerfile:
+
+1. **`# syntax=docker/dockerfile:1`**: This line specifies the Dockerfile syntax version to use. This is useful for using newer features in Dockerfiles.
+2. **`ARG NODE_VERSION=19.5.0`**: This line defines a build argument `NODE_VERSION` with a default value of `19.5.0`. Build arguments allow you to pass variables that can be used during the build process.
+3. **`FROM node:${NODE_VERSION}-alpine`**: This line specifies the base image for building your Docker image. It uses the Node.js image with the version specified by `NODE_VERSION` and the Alpine Linux variant.
+^1700407647135
+4. **`ENV NODE_ENV production`**: This line sets an environment variable `NODE_ENV` with the value `production` inside the Docker image.
+5. **`WORKDIR /usr/src/app`**: This line sets the working directory inside the Docker image to `/usr/src/app`. All subsequent commands in the Dockerfile will be run from this directory.
+6. **`RUN --mount=type=bind,source=package.json,target=package.json ... npm ci --include=dev`**: This line runs the `npm ci` command to install the Node.js dependencies for your application. It uses bind mounts to make the `package.json` and `package-lock.json` files available inside the Docker image, and a cache mount to cache the downloaded dependencies and speed up subsequent builds.
+7. **`RUN npm install -g nodemon`**: This line installs `nodemon` globally in the Docker image. `nodemon` is a utility that automatically restarts your Node.js application when file changes are detected.
+8. **`COPY . .`**: This line copies the rest of your application’s source files from your local directory (the build context) into the Docker image.
+9. **`RUN chown -R node /usr/src/app`**: This line changes the ownership of the `/usr/src/app` directory inside the Docker image to the `node` user.
+10. **`USER node`**: This line changes the current user to `node`. All subsequent commands in the Dockerfile will be run as this user.
+11. **`EXPOSE 3000`**: This line tells Docker that the Docker image will listen on port 3000 at runtime.
+12. **`CMD npm run dev`**: This line specifies the command to run when a container is started from the Docker image. In this case, it runs your application in development mode.
+
+⌂
+<br>﹈<br>^1700407647141
+
+﹇<br>
+In some Dockerfile’s, you will notice that a new non-root user (i.e., a user named `node`) is created. What is the purpose of creating a new non-root user?
+
+Specifically, why create a new user and then change ownership of the application directory to the `node` user?
+
+#card 
+
+[Creating a new user in a Dockerfile and running the application as this non-root user is a common practice for security reasons](https://www.baeldung.com/ops/root-user-password-docker-container) [@RootUserPassword] [@baeldungSettingUserDocker2023].
+
+By default, Docker runs containers as the root user. [If a user were to gain unauthorized access to the Docker container, they would have root access and could potentially harm the system](https://www.baeldung.com/linux/docker-set-user-container-host) [@baeldungSettingUserDocker2023]. Running the application as a non-root user limits the potential damage.
+
+[The line `RUN chown -R node /usr/src/app` changes the ownership of the `/usr/src/app` directory to the `node` user](https://stackoverflow.com/questions/45805309/docker-node-running-as-non-root-user-file-permissions) [@eljefedelrodeodeljefeAnswerDockernodeRunning2017]. This is done so that the `node` user has the necessary read and write permissions on this directory. [Without these permissions, the `node` user might not be able to access or modify the files in the `/usr/src/app` directory, which could prevent your application from running correctly](https://stackoverflow.com/questions/45805309/docker-node-running-as-non-root-user-file-permissions) [@eljefedelrodeodeljefeAnswerDockernodeRunning2017] [@vivekyad4vAnswerHowGive2017].
+
+In summary, creating a new user and changing the ownership of the application directory to this user is a security best practice that can help protect your system and ensure your application runs correctly.
+⌂
+<br>﹈<br>^1700407647146
+
+﹇<br>
+How is running your application as a non-root user a good security practice that can help protect your system?
+
+#card 
+
+Yes, you’re correct. When you change the user to `node` using the `USER node` command in your Dockerfile, the `node` user has limited privileges compared to the `root` user.
+
+If a malicious user were to gain unauthorized access to your Docker container, they would be limited to the privileges of the `node` user. This means they wouldn’t have the same level of access or control as the `root` user, which can help limit the potential damage they could do.
+
+However, it’s important to note that this doesn’t completely eliminate the risk of a security breach. It’s still crucial to follow other security best practices, such as keeping your software up to date, using secure passwords, and limiting the exposure of your application to the internet.
+
+In summary, running your application as a non-root user is a good security practice that can help protect your system, but it’s not a complete solution on its own. 
+
+⌂
+<br>﹈<br>^1700407647151
 
 ## [Step 3: Run the application](https://docs.docker.com/guides/walkthroughs/multi-container-apps/#step-3-run-the-application)
 
@@ -381,7 +487,28 @@ By default, `docker-compose down` does **not** remove the images that were built
 
 ## [Step 5: Develop in your containers](https://docs.docker.com/guides/walkthroughs/multi-container-apps/#step-5-develop-in-your-containers)
 
+When developing with **Docker**, you may need to automatically update and preview your running services as you edit and save your code. You can use {**Docker Compose Watch**} for this.
+^1700407721567
+
+﹇<br>
+What is the file extension `.ejs`? What does it stand for?
+
+#card 
+
+[The `.ejs` file extension stands for **Embedded JavaScript**](https://www.file-extensions.org/ejs-file-extension)[1](https://www.file-extensions.org/ejs-file-extension). [EJS is a simple templating language that lets you generate HTML markup with plain JavaScript](https://ejs.co/)[2](https://ejs.co/). [It’s used to separate the HTML code from JavaScript, making the code easier to read and maintain](https://www.file-extensions.org/ejs-file-extension)[1](https://www.file-extensions.org/ejs-file-extension).
+
+[EJS files are essentially HTML files, but they allow you to embed JavaScript code inside them for dynamic content](https://ejs.co/)[2](https://ejs.co/). [This can be particularly useful when building web applications that need to display data from a database or another source](https://ejs.co/)[2](https://ejs.co/).
+
+[In summary, `.ejs` files are used in web development to create dynamic web pages using Embedded JavaScript](https://www.file-extensions.org/ejs-file-extension)[1](https://www.file-extensions.org/ejs-file-extension)[2](https://ejs.co/).
+
+⌂
+<br>﹈<br>^1700407929899
+
+
 ## [Step 6: Delete everything and start over](https://docs.docker.com/guides/walkthroughs/multi-container-apps/#step-6-delete-everything-and-start-over)
+
+Note that when you {1:delete the containers and run them again}, any to-dos that you created {2:don't} persist.
+^1700408001871
 
 ## [Summary](https://docs.docker.com/guides/walkthroughs/multi-container-apps/#summary)
 

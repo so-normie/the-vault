@@ -1,7 +1,7 @@
 ---
 title: Keyboard Shortcuts
 created: 2023-09-25 16:03
-updated: 2023-11-16T23:00
+updated: 2023-11-18T02:44
 authors:
   - Edmund Leibert III
 tags:
