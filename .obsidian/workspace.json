@@ -13,11 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/Data Types/enum/enum ∋ Table of Contents.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
+            }
+          },
+          {
+            "id": "bb93d1bf164ec775",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -78,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 536.5,
-    "collapsed": true
+    "width": 536.5
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -103,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/Data Types/enum/enum ∋ Table of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/Data Types/enum/enum ∋ Table of Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/Data Types/enum/enum ∋ Table of Contents.md"
               }
             }
           }
@@ -224,11 +231,26 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "d5db7c978fb38240",
+  "active": "4bbd078a939f1607",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/Data Types/Data Types ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/Data Types/enum/enum ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/Data Types/enum",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/The Python Standard Library ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/Data Types",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python 3.12.0 documentation ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python Docs ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/red.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Pip.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/144. Binary Tree Preorder Traversal.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Containerize your application.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Persist data between containers.md",
@@ -245,27 +267,12 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
     "the-vault/assets/excalidraw/Drawing 2023-11-19 01.43.37.excalidraw.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/160. Intersection of Two Linked Lists.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/157. Read N Characters Given Read4.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/145. Binary Tree Postorder Traversal.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Vim/Keyboard Shortcuts.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Vim/Vim ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Vim",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 2꞉ Containerize an application.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero",
     "Pasted image 20231117020633.png",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs",
     "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning",
     "the-vault/zotero/My Library.bib",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Conda",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders",
-    "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode",
-    "the-vault/🔴 Academics/📚 Educational Resources",
     "Pasted image 20231105005754.png",
     "the-vault/assets/images/docker-docs-docker-architecture.png",
     "the-vault/assets/images/Pasted image 20230913161050.png",

@@ -913,7 +913,18 @@
     "database": 22,
     "🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/walkthroughs/persist-data-between-containers": 6,
     "🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/walkthroughs/access-a-local-folder-from-a-container": 7,
-    "🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/walkthroughs/containerize-your-application": 8
+    "🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/walkthroughs/containerize-your-application": 8,
+    "example-tag": 23,
+    "🔴-academic/📚-educational-resource/name/pyhton": 64,
+    "🔴-academic/📚-educational-resource/name/pyhton/🔖": 1,
+    "🔴-academic/📚-educational-resource/name/pyhton/🔖/docker-docs-∋-table-of-contents": 1,
+    "🔴-academic/📚-educational-resource/name/🗒️-pyhton": 65,
+    "🔴-academic/📚-educational-resource/name/🗒️-pyhton/🔖": 1,
+    "🔴-academic/📚-educational-resource/name/🗒️-pyhton/🔖/docker-docs-∋-table-of-contents": 1,
+    "🔴-academic/📚-educational-resource/name/🗒️-pyhton/🔖/python-∋-table-of-contents": 2,
+    "🔴-academic/📚-educational-resource/name/🗒️-python": 66,
+    "🔴-academic/📚-educational-resource/name/🗒️-python/🔖": 1,
+    "🔴-academic/📚-educational-resource/name/🗒️-python/🔖/python-∋-table-of-contents": 1
   },
   "_version": 2
 }

@@ -6,6 +6,8 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasListOl",
+      "RiBookLine",
       "SiVim",
       "RiBookMarkFill",
       "RiBookmarkFill",
@@ -18,9 +20,7 @@
       "EiOReilly",
       "EiZoteroItem",
       "BoBxsMessageSquareDots",
-      "SiWindows",
-      "EiPragmatiCoders",
-      "SiMicrosoftsqlserver"
+      "SiWindows"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -269,5 +269,8 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run Docker Hub images.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run multi-container applications.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Persist data between containers.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md": "TiNotes"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Pip.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python Docs ∋ Table of Contents.md": "FasListOl"
 }
