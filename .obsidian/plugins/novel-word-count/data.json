@@ -14168,6 +14168,24 @@
       "createdDate": 1700485164427,
       "modifiedDate": 1700489370160,
       "sizeInBytes": 5019
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/163. Missing Ranges.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 46,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.15333333333333332,
+      "characterCount": 401,
+      "nonWhitespaceCharacterCount": 336,
+      "readingTimeInMinutes": 0.17358490566037735,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1700490043026,
+      "modifiedDate": 1700490102649,
+      "sizeInBytes": 1133
     }
   }
 }
