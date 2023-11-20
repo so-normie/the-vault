@@ -1,7 +1,7 @@
 ---
 title: Containerize your application
 created: 2023-10-31T16:39
-updated: 2023-11-19T17:09
+updated: 2023-11-19T17:28
 authors:
   - Edmund Leibert III
 tags:
@@ -35,7 +35,7 @@ What do you typically need to create when working with containers?
 You typically need to create a Dockerfile to define your image and a `compose.yaml` file to define how to run it.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1700443693267
 
 ﹇<br>
 What command does Docker Desktop provide to help create the required files for containerization?
@@ -45,7 +45,7 @@ What command does Docker Desktop provide to help create the required files for c
 Docker Desktop provides the `docker init` command.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1700443693273
 
 ﹇<br>
 Where should you run the `docker init` command?
@@ -55,7 +55,7 @@ Where should you run the `docker init` command?
 You should run the `docker init` command in a terminal within your project folder.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1700443693279
 
 ﹇<br>
 What does the `docker init` command do?
@@ -65,7 +65,7 @@ What does the `docker init` command do?
 The `docker init` command creates all the required files to containerize your application.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1700443693285
 
 ﹇<br>
 What should you get before you start containerizing your application?
@@ -75,7 +75,7 @@ What should you get before you start containerizing your application?
 You should get Docker Desktop before you start.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1700443693290
 
 ## [Step 1: Run the command to create Docker assets](https://docs.docker.com/guides/walkthroughs/containerize-your-app/#step-1-run-the-command-to-create-docker-assets)
 
@@ -84,6 +84,36 @@ You should get Docker Desktop before you start.
 ## [Step 3: Try to run your application](https://docs.docker.com/guides/walkthroughs/containerize-your-app/#step-3-try-to-run-your-application)
 
 ## [Step 4: Update the Docker assets](https://docs.docker.com/guides/walkthroughs/containerize-your-app/#step-4-update-the-docker-assets)
+
+﹇<br>
+What does the `docker init` command try to do?
+
+#card 
+
+The `docker init` command tries its best to do the heavy lifting for you in terms of containerization.
+
+⌂
+<br>﹈<br>^1700443693296
+
+﹇<br>
+What might be required when using the `docker init` command?
+
+#card 
+
+Sometimes there’s some assembly required when using the `docker init` command.
+
+⌂
+<br>﹈<br>^1700443693302
+
+﹇<br>
+What should you refer to if you need to learn how to update the files created by `docker init`?
+
+#card 
+
+You can refer to the [Dockerfile reference⁠](https://docs.docker.com/engine/reference/builder/) and [Compose file reference](https://docs.docker.com/compose/compose-file/) to learn how to update the files created by `docker init`.
+
+⌂
+<br>﹈<br>^1700443693307
 
 ## [Summary](https://docs.docker.com/guides/walkthroughs/containerize-your-app/#summary)
 
