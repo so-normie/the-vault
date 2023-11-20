@@ -1,7 +1,7 @@
 ---
 title: Docker Overview
 created: 2023-10-31T17:48
-updated: 2023-11-18T02:44
+updated: 2023-11-20T05:03
 authors:
   - Edmund Leibert III
 tags:
@@ -409,14 +409,17 @@ Namespaces provide a layer of isolation by ensuring that each aspect of a contai
 ⌂
 <br>﹈<br>^1698905013676
 
+---
 
+## :EiZoteroItem: Bibliography
 
-## Next steps
+\[1\]
+“Home,” _Docker Docs_, 09:42:25 +0200 +0200. Available: [https://docs.docker.com/](https://docs.docker.com/). [Accessed: Nov. 17, 2023]
 
 ---
 
-> [!INFO]+ 
-> **Next Note(s)**:
+> [!info]+
+> **Next Note(s):**
 > - [Part 2꞉ Containerize an application](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/Docker%20Docs/Guides/Get%20started/Part%202꞉%20Containerize%20an%20application.md)
 
 ---

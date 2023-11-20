@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiPython",
       "FasListOl",
       "RiBookLine",
       "SiVim",
@@ -19,8 +20,7 @@
       "EiPhysics",
       "EiOReilly",
       "EiZoteroItem",
-      "BoBxsMessageSquareDots",
-      "SiWindows"
+      "BoBxsMessageSquareDots"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -272,5 +272,14 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Pip.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation": "RiBookmarkFill",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python Docs ∋ Table of Contents.md": "FasListOl"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python Docs ∋ Table of Contents.md": "FasListOl",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library": "RiBookMarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/Data Types": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python 3.12.0 documentation ∋ Table of Contents.md": "FasListOl",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs/Python HOWTOs ∋ Table of Contents.md": "FasListOl",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs/Enum HOWTO.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/Data Types/Data Types ∋ Table of Contents.md": "FasListOl",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/The Python Standard Library ∋ Table of Contents.md": "FasListOl",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs": "SiPython"
 }

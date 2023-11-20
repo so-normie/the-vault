@@ -672,7 +672,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🙋🏽‍♂️ Data Engineering Prep (Discord Group)/Unique Problems.md": "74f39539eb8fdacb95bb410c13e6483aa0e2c7fc3b19aced72e8d14d848fa132",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ MSYS2/MSYS2 Commands.md": "fc6d81192a6f129621ff1710cbc4dcbf8dcbec0e903870575919b8ed6126853b",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Excel/🗒️ Microsoft Excel ∋ Table of Contents.md": "02732c0c8fee7137bb1d6f4af2ef442c7de190c281567c476f99d6e1023b3258",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Docker Overview.md": "0cb06df940cc10d2a5be83314c0622c35a9bef230cd2045314f6a597e25b8e84",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Docker Overview.md": "8ff31b8edbe6527b31d7862d8f7d7867f602054cb23766b5c22149a74735cabf",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1. Two Sum.md": "14d55fbd17b38d218c1d5c4cf38b02d026c1b66c29d94ec342bb3b0f081a315e",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1050. Actors and Directors Who Cooperated At Least Three Times.md": "cd0230b08081c318032a2589f37ff1dce765410c1a1ea3a99ffd75d916432d47",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/118. Pascal's Triangle.md": "4b190636dcf0b46997089a212d6d0c521fbd481b1260bcb323283f963cba9cb1",
@@ -910,6 +910,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run multi-container applications.md": "07157ca7d3aa9cb70f53891ef0fecc76fe4f0ec21d797d52af4faa603cf9b5f9",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Persist data between containers.md": "afa757144f8ffcb3089b56abf99f9aaafc13ce61e18fc61103ed5cadcb5d520b",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md": "69b87b68a2964898c7e6cc3db42bea3fef3152a56ad3372ca5742c4f8331c202",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Containerize your application.md": "ffb53af0ee24f361f2a2bf508ab49be1bb5afeb1eda1f94ff56d861365a711e9"
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Containerize your application.md": "ffb53af0ee24f361f2a2bf508ab49be1bb5afeb1eda1f94ff56d861365a711e9",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs/Enum HOWTO.md": "83377906129ca1a2d363784526fd1e77498c3078e566fff22cc333c5cc706bbc"
   }
 }

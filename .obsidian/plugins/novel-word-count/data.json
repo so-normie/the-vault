@@ -8395,19 +8395,19 @@
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 2287,
+      "wordCount": 2301,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 7.623333333333333,
-      "characterCount": 15856,
-      "nonWhitespaceCharacterCount": 12945,
-      "readingTimeInMinutes": 8.630188679245283,
+      "pageCount": 7.67,
+      "characterCount": 15606,
+      "nonWhitespaceCharacterCount": 13094,
+      "readingTimeInMinutes": 8.683018867924527,
       "linkCount": 1,
       "embedCount": 1,
       "aliases": null,
       "createdDate": 1700304267714,
-      "modifiedDate": 1700304267714,
-      "sizeInBytes": 16563
+      "modifiedDate": 1700485409340,
+      "sizeInBytes": 16316
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md": {
       "isCountable": true,
@@ -14133,7 +14133,7 @@
       "modifiedDate": 1700484881365,
       "sizeInBytes": 0
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/Data Types/enum/enum ∋ Table of Contents.md": {
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs/Python HOWTOs ∋ Table of Contents.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
@@ -14147,9 +14147,27 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1700484908402,
-      "modifiedDate": 1700484908402,
+      "createdDate": 1700485013004,
+      "modifiedDate": 1700485013004,
       "sizeInBytes": 0
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs/Enum HOWTO.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 658,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.1933333333333334,
+      "characterCount": 4435,
+      "nonWhitespaceCharacterCount": 3673,
+      "readingTimeInMinutes": 2.483018867924528,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1700485164427,
+      "modifiedDate": 1700489370160,
+      "sizeInBytes": 5019
     }
   }
 }
