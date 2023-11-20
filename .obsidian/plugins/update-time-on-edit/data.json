@@ -898,7 +898,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/What is a container？.md": "2582199ceab737825d6d554393819f976a9e6148c25ce7e67e451b021b64ae5e",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/🗒️ Zotero ∋ Table of Contents.md": "d945be6346ac56bdda7d1ac05163bcf5051c81df8d4169f3f12faa953c53feec",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md": "879b0cee284b40db91ead90dd2fe9d8d5d4025ac9e3f0c3bb96ae8a81864a8a9",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md": "200d211693be293a6e0a6ad8ca6b538fe54a5e536e45069cbb3b37a3d1270a31",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md": "071e1f021010c4ba66066ac443a87ed0d686c2883f68b341417646e2ae01aa5f",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/sortspec.md": "d66b59b61cac5993e8a9903a0a63abb6c935a49862750d6be9b054b145d602e0",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/How do I run a container？.md": "8bdf4accbd919353051b8cb915c085b6f25c186b0775f3b1cb2f20d647128916",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Vim/Keyboard Shortcuts.md": "1534848dbe6026eec53c84d6fa7c604eb32f68ddc648f7e76bd02f0efc118806",
@@ -909,6 +909,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run Docker Hub images.md": "bee96db729fce1c2ae71807c694b1092ed6ef121fa01c0a6cf87ef85dba619f1",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run multi-container applications.md": "07157ca7d3aa9cb70f53891ef0fecc76fe4f0ec21d797d52af4faa603cf9b5f9",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Persist data between containers.md": "afa757144f8ffcb3089b56abf99f9aaafc13ce61e18fc61103ed5cadcb5d520b",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md": "116448bc87fd1d02b07eb8dfd667cb7797e5fab0eac9b254e91c842270725778"
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md": "69b87b68a2964898c7e6cc3db42bea3fef3152a56ad3372ca5742c4f8331c202",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Containerize your application.md": "9d125a0c12e40b2a920eb01d3032be62fa29bab41c93a50ec059d4fc4838bf42"
   }
 }

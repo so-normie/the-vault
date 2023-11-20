@@ -1,7 +1,7 @@
 ---
 title: What is a container?
 created: 2023-10-31T16:39
-updated: 2023-11-19T13:42
+updated: 2023-11-19T16:57
 authors:
   - Edmund Leibert III
 tags:
@@ -17,7 +17,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkt
 ---
 
 > [!abstract]+ 
-> Notes that pertain to [Walkthroughs overview | Docker Docs](https://docs.docker.com/guides/walkthroughs/). Get introduced to Docker Desktop in these 5-minute hands-on guides.
+> Notes pertaining to [Walkthroughs overview | Docker Docs](https://docs.docker.com/guides/walkthroughs/). Get introduced to Docker Desktop in these 5-minute hands-on guides.
 
 ---
 

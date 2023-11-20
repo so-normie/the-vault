@@ -1,7 +1,7 @@
 ---
 title: Access a local folder
 created: 2023-11-19T12:44
-updated: 2023-11-19T16:02
+updated: 2023-11-19T16:56
 authors:
   - Edmund Leibert III
 tags:
@@ -9,7 +9,7 @@ tags:
   - 🔴-academic/📚-educational-resource/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/docker
   - study-note
-cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkthroughs::Access a local folder from a container
+cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkthroughs::Access a local folder
 ---
 
 # Access a local folder from a container
@@ -27,16 +27,31 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkt
 
 ---
 
+﹇<br>
+By default, what can’t containers do?
+
+#card 
+
+{{Answer}}
+^1700441205439
+
+⌂
+<br>﹈<br>^1700441205448
+
 ## [Step 1: Get the sample application](https://docs.docker.com/guides/walkthroughs/access-local-folder/#step-1-get-the-sample-application)
+
+## [Step 2: Add a bind mount using Compose](https://docs.docker.com/guides/walkthroughs/access-local-folder/#step-2-add-a-bind-mount-using-compose)
 
 ﹇<br>
 What is a bind mount in Docker?
 
 #card 
 
-A bind mount in Docker lets you share a directory from your host’s filesystem into the container. It allows you to access data on your system from a container.
+Docker isolates all content, code, and data in a container from your local filesystem. By default, containers can't access directories in your local filesystem.
 
-![|350](Pasted%20image%2020231119160217.png)
+![Data isolation diagram|350](https://docs.docker.com/guides/walkthroughs/images/getting-started-isolation.webp?w=400)
+
+Sometimes, you may want to access a directory from your local filesystem. To do this, you can use bind mounts.
 
 ⌂
 <br>﹈<br>^1700438454634
@@ -156,8 +171,8 @@ services:
 - `links:`: This is where you define any services that this service depends on. In this case, `todo-app` depends on `todo-database`.
 - `- todo-database`: This tells Docker that `todo-app` depends on `todo-database`.
 - `volumes:`: This is where you define any volumes or bind mounts that you want to attach to this service.
-- `- ./app:/usr/src/app`: This is a bind mount. It tells Docker to mount the `./app` directory from the host machine to the `/usr/src/app` directory in the `todo-app` container.
-- `- /usr/src/app/node_modules`: This is another bind mount. It tells Docker to mount the `/usr/src/app/node_modules` directory from the host machine to the same directory in the `todo-app` container.
+- `- ./app:/usr/src/app`: The `volumes` element tells **Docker Compose** to mount the local folder `./app` to `/usr/src/app` in the container for the `todo-app` service. This particular bind mount overwrites the static contents of the `/usr/src/app` directory in the container and creates what is known as a development container.
+- `- /usr/src/app/node_modules`: This second instruction, `/usr/src/app/node_modules`, prevents the bind mount from overwriting the container's `node_modules` directory to preserve the packages installed in the container.
 - `ports:`: This is where you define any ports that you want to expose from this service.
 - `- 3001:3001`: This tells Docker to map port 3001 of the host machine to port 3001 of the `todo-app` container.
 - `todo-database:`: This is the name of the second service. It’s a MongoDB database.
@@ -172,25 +187,37 @@ So, in summary, this configuration is setting up two services: `todo-app` and `t
 <br>﹈<br>^1700438454655
 
 ﹇<br>
-{{Question}}
+What is the difference between **Docker Compose** watch and bind mounts?
 
 #card 
 
-{{Answer}}
+Compose supports sharing a host directory inside service containers. Watch mode does not replace this functionality but exists as a companion specifically suited to developing in containers.
+
+More importantly, `watch` allows for greater granularity than is practical with a bind mount. Watch rules let you ignore specific files or entire directories within the watched tree.
+
+For example, in a JavaScript project, ignoring the `node_modules/` directory has two benefits:
+
+- Performance. File trees with many small files can cause high I/O load in some configurations
+- Multi-platform. Compiled artifacts cannot be shared if the host OS or architecture is different to the container
+
+For example, in a Node.js project, it's not recommended to sync the `node_modules/` directory. Even though JavaScript is interpreted, `npm` packages can contain native code that is not portable across platforms [@UseComposeWatch0200].
 
 ⌂
-<br>﹈<br>
-
-
-
-
-
-
-## [Step 2: Add a bind mount using Compose](https://docs.docker.com/guides/walkthroughs/access-local-folder/#step-2-add-a-bind-mount-using-compose)
+<br>﹈<br>^1700441205457
 
 ## [Step 3: Run the application](https://docs.docker.com/guides/walkthroughs/access-local-folder/#step-3-run-the-application)
 
 ## [Step 4: Develop the application](https://docs.docker.com/guides/walkthroughs/access-local-folder/#step-4-develop-the-application)
+
+﹇<br>
+In comparing with the previous walkthrough [Persist data between containers](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/Docker%20Docs/Guides/Walkthroughs/Persist%20data%20between%20containers.md), what approach to development is better overall?
+
+#card 
+
+The watch method by far. It includes nodemon for hot reload and the watch is much more granular in detail.
+
+⌂
+<br>﹈<br>^1700441773703
 
 ## [Summary](https://docs.docker.com/guides/walkthroughs/access-local-folder/#summary)
 

@@ -912,7 +912,8 @@
     "volumes": 21,
     "database": 22,
     "🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/walkthroughs/persist-data-between-containers": 6,
-    "🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/walkthroughs/access-a-local-folder-from-a-container": 7
+    "🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/walkthroughs/access-a-local-folder-from-a-container": 7,
+    "🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/walkthroughs/containerize-your-application": 8
   },
   "_version": 2
 }
