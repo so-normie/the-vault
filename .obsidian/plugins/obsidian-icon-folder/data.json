@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "EiWikipedia",
       "SiWikipedia",
       "SiPython",
       "FasListOl",
@@ -19,8 +20,7 @@
       "FasBook",
       "FabNode",
       "EiPhysics",
-      "EiOReilly",
-      "EiZoteroItem"
+      "EiOReilly"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -282,5 +282,7 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/Data Types/Data Types ∋ Table of Contents.md": "FasListOl",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/The Python Standard Library ∋ Table of Contents.md": "FasListOl",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs": "SiPython",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Containerize your application.md": "TiNotes"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Containerize your application.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia": "EiWikipedia",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia/Tree traversal.md": "TiNotes"
 }

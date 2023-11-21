@@ -931,7 +931,10 @@
     "🔴-academic/📚-educational-resource/name/python-docs/🔖/python-3-12-0-documentation": 2,
     "🔴-academic/📚-educational-resource/name/python-docs/🔖/python-3-12-0-documentation/python-howtos": 1,
     "🔴-academic/📚-educational-resource/name/python-docs/🔖/python-3-12-0-documentation/python-howtos/enum-howto": 1,
-    "🔴-academic/📚-educational-resource/name/leetcode/🔖/problems/163-missing-ranges": 3
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖/problems/163-missing-ranges": 3,
+    "🔴-academic/📚-educational-resource/name/wikipedia": 68,
+    "🔴-academic/📚-educational-resource/name/wikipedia/🔖": 1,
+    "🔴-academic/📚-educational-resource/name/wikipedia/🔖/tree-traversal": 1
   },
   "_version": 2
 }
