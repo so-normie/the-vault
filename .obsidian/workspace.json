@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/163. Missing Ranges.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -26,14 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
-                "mode": "source",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia/Wikipedia ∋ Table of Contents.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 442.5,
-    "collapsed": true
+    "width": 442.5
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -203,12 +203,11 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 433.5,
-    "collapsed": true
+    "width": 433.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,16 +232,18 @@
       "custom-sort:Toggle custom sorting": false,
       "chronology:Open Chronology": false,
       "reference-map:Reference Map": false,
-      "cloze:Toggle all clozes": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "cloze:Toggle all clozes": false
     }
   },
-  "active": "d5db7c978fb38240",
+  "active": "4bbd078a939f1607",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs/Enum HOWTO.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/163. Missing Ranges.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Docker Overview.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/How do I run a container？.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia/Wikipedia ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/163. Missing Ranges.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs/Enum HOWTO.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Docker Overview.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs/Python HOWTOs ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/Data Types/Data Types ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs",
@@ -272,13 +273,10 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/What is a container？.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md",
     "Pasted image 20231119023627.png",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run Docker Hub images.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Walkthroughs ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Vim",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero",
     "Pasted image 20231117020633.png",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning",
     "Pasted image 20231105005754.png",
     "the-vault/assets/images/docker-docs-docker-architecture.png",
     "the-vault/assets/images/Pasted image 20230913161050.png",
