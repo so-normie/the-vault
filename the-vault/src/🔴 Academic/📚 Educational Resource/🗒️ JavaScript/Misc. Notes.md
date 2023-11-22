@@ -1,7 +1,7 @@
 ---
 title: Misc. Notes
 created: 2023-11-17T00:08
-updated: 2023-11-22T12:15
+updated: 2023-11-22T12:17
 author(s):
   - Edmund Leibert III
 tags:
@@ -288,7 +288,7 @@ Is `int` a data type in JavaScript?
 
 #card 
 
-No, `int` is not a data type in JavaScript. [JavaScript has the following data types](https://www.w3schools.com/js/js_datatypes.asp) :
+No, `int` is not a data type in JavaScript. [JavaScript has the following data types](https://www.w3schools.com/js/js_datatypes.asp) [@JavaScriptDataTypes]:
 
 1. String
 2. Number
@@ -301,7 +301,7 @@ No, `int` is not a data type in JavaScript. [JavaScript has the following data t
 
 [The `Number` data type in JavaScript represents both integers and floating-point numbers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)[2](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number). [There is no separate integer type for everyday use](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)[2](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number). [However, JavaScript does have a `BigInt` type for representing integers with arbitrary magnitude](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)[3](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures). [But it’s not designed to replace `Number` for everyday uses](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)[2](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number).
 
-In most programming languages, numbers are often represented as different types like integers (`int`), short, long, floating-point, etc. [But in JavaScript, numbers are always stored as double precision floating point numbers, following the international IEEE 754 standard](https://www.w3schools.com/js/js_numbers.asp)[4](https://www.w3schools.com/js/js_numbers.asp).
+In most programming languages, numbers are often represented as different types like integers (`int`), short, long, floating-point, etc. [But in JavaScript, numbers are always stored as double precision floating point numbers, following the international IEEE 754 standard](https://www.w3schools.com/js/js_numbers.asp) [@JavaScriptNumbers].
 
 So, if you’re looking to use integers in JavaScript, you would use the `Number` or `BigInt` data type.
 
