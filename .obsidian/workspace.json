@@ -21,35 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "ab37c5edc60f7315",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets/Google Sheets ∋ Table of Contents.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "60aadcbabcb2953f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#🔴-academic/📚-educational-resource/discipline",
+                "query": "tag:#🔴-academic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,11 +76,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 461.5
+    "width": 461.5,
+    "collapsed": true
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -131,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets/Google Sheets ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets/Google Sheets ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,17 +188,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets/Google Sheets ∋ Table of Contents.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 433.5,
-    "collapsed": true
+    "width": 433.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,15 +226,17 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "ab37c5edc60f7315",
+  "active": "cfae32b46f24b2be",
   "lastOpenFiles": [
+    "Pasted image 20231117020633.png",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets/Google Sheets ∋ Table of Contents.md",
     "the-vault/sortspec.md",
     "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ∋ Table of Contents.md",
     "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy/🌐 Structy ▹ 📋 Table of Contents.md",
     "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/GoogleTest/GUIDES.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/619. Biggest Single Number.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets",
@@ -284,10 +260,7 @@
     "the-vault/templates/Template {{Table of Contents}}.md",
     "the-vault/templates/Template {{Bibliography}}.md",
     "the-vault/templates/Template {{Attempt}}.md",
-    "the-vault/templates/Template {{Structy ∋ Challenge}}.md",
-    "the-vault/templates/Template {{LeetCode ∋ Problem}}.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero",
-    "Pasted image 20231117020633.png",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs",
     "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning",
     "the-vault/zotero/My Library.bib",

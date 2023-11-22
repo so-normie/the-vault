@@ -1,12 +1,12 @@
 ---
 title: 🗒️ Obsidian ∋ Table of Contents
 created: 2023-08-20 08:26
-updated: 2023-11-17T09:05
+updated: 2023-11-22T15:06
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/🗒️-obsidian/🔖/misc-notes
-  - 🔴-academic/📚-educational-resource/website
+  - 🔴-academic/📚-educational-resource/format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/obsidian
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Obsidian::Misc. Notes
