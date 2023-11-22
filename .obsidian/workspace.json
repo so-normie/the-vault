@@ -76,13 +76,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 461.5,
-    "collapsed": true
+    "width": 456.5
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -226,7 +224,7 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "cfae32b46f24b2be",
+  "active": "4bbd078a939f1607",
   "lastOpenFiles": [
     "Pasted image 20231117020633.png",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
