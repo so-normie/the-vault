@@ -1,12 +1,12 @@
 ---
 title: 📕 Foundations of Scalable Systems (2022) ▹ 📋 Table of Contents
 created: 2023-09-12 03:27
-updated: 2023-10-31T14:53
+updated: 2023-11-22T11:02
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/📕-foundations-of-scalable-systems-(2022)
-  - 🔴-academic/📚-educational-resource/source-format/book
+  - 🔴-academic/📚-educational-resource/format/book
   - 🔴-academic/📚-educational-resource/discipline/computer-science
   - 🔴-academic/📚-educational-resource/name/📕-foundations-of-scalable-systems-(2022)/🔖-bookmark/📕-foundations-of-scalable-systems-(2022)/📕-foundations-of-scalable-systems-(2022)-▹-📋-table-of-contents
   - study-note

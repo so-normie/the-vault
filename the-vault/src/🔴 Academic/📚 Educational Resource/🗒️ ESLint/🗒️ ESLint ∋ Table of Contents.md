@@ -3,10 +3,10 @@ title: 🗒️ C++
 authors:
   - Edmund Leibert III
 created: 2023-09-03 08:46
-updated: 2023-11-02T12:49
+updated: 2023-11-22T11:02
 tags:
   - 🔴-academic/📚-educational-resource/name/🗒️-eslint
-  - 🔴-academic/📚-educational-resource/source-format/miscellaneous
+  - 🔴-academic/📚-educational-resource/format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/eslint
   - 🔴-academic/📚-educational-resource/name/🗒️-eslint/🔖-bookmark/🗒️-eslint
   - study-note

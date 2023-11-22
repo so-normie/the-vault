@@ -1,23 +1,27 @@
 ---
 title: Misc. Notes
-created: 2023-09-03 08:46
-updated: 2023-09-25 06:30
-ducational-resources/discipline/computer-science/programming-language/javascript
-  - 🔴-academics/📚-educational-resources/name/🗒️-javascript/🔖-bookmark/🗒️-javascript/misc-notes
+created: 2023-11-17T00:08
+updated: 2023-11-22T12:15
+author(s):
+  - Edmund Leibert III
+tags:
+  - 🔴-academic/📚-educational-resource/name/🗒️-javascript/🔖/misc-notes
+  - 🔴-academic/📚-educational-resource/format/course
+  - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/javascript
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ JavaScript::Misc. Notes
 ---
 
+---
+
+ > [!Abstract]+ 
+ > Miscellaneous notes pertaining to JavaScript.
 
 ---
 
- > [!Info]+ 🕸️ All Mention(s): 
- > d
-
----
-
- > [!Info]+ 🔙️ Previous Note(s): 
- > d
+ > [!Info]+ 
+ > **Previous Note(s):** 
+ > 
 
 
 ---
@@ -35,7 +39,6 @@ window.location.href
 
 ⌂
 <br>﹈<br>
-
 
 ﹇<br>
 Consider the scenario where an _array_ of objects is represented as…
@@ -93,7 +96,6 @@ dv.pages(`"${current_folder}"`).values
 ⌂
 <br>﹈<br>
 
-
 ﹇<br>
 In the following snippet, what is the value of `value`?
 
@@ -144,7 +146,6 @@ dv.pages(`"${current_folder}"`).values
 ⌂
 <br>﹈<br>
 
-
 ﹇<br>
 What is the same origin policy? 
 
@@ -179,7 +180,6 @@ As far as the required server infrastructure is concerned, a website with JavaSc
 ⌂
 <br>﹈<br>
 
-
 ﹇<br>
 What is a dynamic site? 
 
@@ -191,7 +191,6 @@ A dynamic site is a site with a server side language (php, python etc.) You coul
 
 ⌂
 <br>﹈<br>
-
 
 ﹇<br>
 What is a function in JavaScript? 
@@ -213,7 +212,6 @@ In JavaScript, there is no concept of a `main` function like in other language
 
 ⌂
 <br>﹈<br>
-
 
 ﹇<br>
 How do you specify the entry point of a JavaScript project? 
@@ -237,7 +235,6 @@ Only thing that matters is that you start, and end, with the same symbol.
 
 ⌂
 <br>﹈<br>
-
 
 ﹇<br>
 What are template literals? 
@@ -286,14 +283,35 @@ The value to the left of the colon is true.
 ⌂
 <br>﹈<br>
 
+﹇<br>
+Is `int` a data type in JavaScript?
+
+#card 
+
+No, `int` is not a data type in JavaScript. [JavaScript has the following data types](https://www.w3schools.com/js/js_datatypes.asp) :
+
+1. String
+2. Number
+3. Bigint
+4. Boolean
+5. Undefined
+6. Null
+7. Symbol
+8. Object
+
+[The `Number` data type in JavaScript represents both integers and floating-point numbers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)[2](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number). [There is no separate integer type for everyday use](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)[2](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number). [However, JavaScript does have a `BigInt` type for representing integers with arbitrary magnitude](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)[3](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures). [But it’s not designed to replace `Number` for everyday uses](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)[2](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number).
+
+In most programming languages, numbers are often represented as different types like integers (`int`), short, long, floating-point, etc. [But in JavaScript, numbers are always stored as double precision floating point numbers, following the international IEEE 754 standard](https://www.w3schools.com/js/js_numbers.asp)[4](https://www.w3schools.com/js/js_numbers.asp).
+
+So, if you’re looking to use integers in JavaScript, you would use the `Number` or `BigInt` data type.
+
+⌂
+<br>﹈<br>
+
 ---
 
-> [!Info] 🔜 Next Note(s):
+> [!Info] 
+> **Next Note(s):**
 > 
 
 ---
-
-
-
-
-

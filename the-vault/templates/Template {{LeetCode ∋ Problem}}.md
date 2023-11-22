@@ -6,7 +6,7 @@ created:
 updated: 
 tags:
   - 🔴-academic/📚-educational-resource/name/leetcode/🔖/problems/
-  - 🔴-academic/📚-educational-resource/source-format/website
+  - 🔴-academic/📚-educational-resource/format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/
   - 🔴-academic/📚-educational-resource/name/leetcode/problems/🏷️/premium/
   - 🔴-academic/📚-educational-resource/name/leetcode/problems/🏷️/difficulty/

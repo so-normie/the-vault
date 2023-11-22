@@ -1,12 +1,12 @@
 ---
 title: Zotero ∋ Table of Contents
 created: 2023-09-03 08:46
-updated: 2023-11-17T02:25
+updated: 2023-11-22T11:01
 author(s):
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/🗒️-zotero/🔖/🗒️-zotero-∋-table-of-contents
-  - 🔴-academic/📚-educational-resource/course
+  - 🔴-academic/📚-educational-resource/format/course
   - 🔴-academic/📚-educational-resource/discipline/computer-science
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Zotero::🔖::🗒️ Zotero ∋ Table of Contents

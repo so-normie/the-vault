@@ -1,12 +1,12 @@
 ---
 title: Keyboard Shortcuts
 created: 2023-09-25 16:03
-updated: 2023-11-16T23:00
+updated: 2023-11-22T11:02
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/🗒️-visual-studio-code
-  - 🔴-academic/📚-educational-resource/source-format/miscellaneous
+  - 🔴-academic/📚-educational-resource/format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/visual-studio-code
   - 🔴-academic/📚-educational-resource/name/🗒️-visual-studio-code/🔖-bookmark/keyboard-shortcuts
   - study-note

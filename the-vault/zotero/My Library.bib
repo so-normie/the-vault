@@ -1,3 +1,30 @@
+@misc{12Documentation,
+  title = {3.12.0 {{Documentation}}},
+  urldate = {2023-11-20},
+  howpublished = {https://docs.python.org/3/},
+  file = {C:\Users\edmun\Zotero\storage\FG9KNBIX\3.html}
+}
+
+@misc{157ReadCharacters,
+  title = {157. {{Read N Characters Given Read4}}},
+  journal = {LeetCode},
+  urldate = {2023-11-19},
+  abstract = {Can you solve this real interview question? Read N Characters Given Read4 - Given a file and assume that you can only read the file using a given method read4, implement a method to read n characters. Method read4: The API read4 reads four consecutive characters from file, then writes those characters into the buffer array buf4. The return value is the number of actual characters read. Note that read4() has its own file pointer, much like FILE *fp in C. Definition of read4:     Parameter:  char[] buf4     Returns:    int buf4[] is a destination, not a source. The results from read4 will be copied to buf4[]. Below is a high-level example of how read4 works: [https://assets.leetcode.com/uploads/2020/07/01/157\_example.png] File file("abcde"); // File is "abcde", initially file pointer (fp) points to 'a' char[] buf4 = new char[4]; // Create buffer with enough space to store characters read4(buf4); // read4 returns 4. Now buf4 = "abcd", fp points to 'e' read4(buf4); // read4 returns 1. Now buf4 = "e", fp points to end of file read4(buf4); // read4 returns 0. Now buf4 = "", fp points to end of file ~ Method read: By using the read4 method, implement the method read that reads n characters from file and store it in the buffer array buf. Consider that you cannot manipulate file directly. The return value is the number of actual characters read. Definition of read:     Parameters:	char[] buf, int n     Returns:	int buf[] is a destination, not a source. You will need to write the results to buf[]. Note:  * Consider that you cannot manipulate the file directly. The file is only accessible for read4 but not for read.  * The read function will only be called once for each test case.  * You may assume the destination buffer array, buf, is guaranteed to have enough space for storing n characters. ~ Example 1: Input: file = "abc", n = 4 Output: 3 Explanation: After calling your read method, buf should contain "abc". We read a total of 3 characters from the file, so return 3. Note that "abc" is the file's content, not buf. buf is the destination buffer that you will have to write the results to. Example 2: Input: file = "abcde", n = 5 Output: 5 Explanation: After calling your read method, buf should contain "abcde". We read a total of 5 characters from the file, so return 5. Example 3: Input: file = "abcdABCD1234", n = 12 Output: 12 Explanation: After calling your read method, buf should contain "abcdABCD1234". We read a total of 12 characters from the file, so return 12. ~ Constraints:  * 1 {$<$}= file.length {$<$}= 500  * file consist of English letters and digits.  * 1 {$<$}= n {$<$}= 1000},
+  howpublished = {https://leetcode.com/problems/read-n-characters-given-read4/description},
+  langid = {english},
+  file = {C:\Users\edmun\Zotero\storage\UF3LXR3N\editorial.html}
+}
+
+@misc{160IntersectionTwo,
+  title = {160. {{Intersection}} of {{Two Linked Lists}}},
+  journal = {LeetCode},
+  urldate = {2023-11-19},
+  abstract = {Can you solve this real interview question? Intersection of Two Linked Lists - Given the heads of two singly linked-lists headA and headB, return the node at which the two lists intersect. If the two linked lists have no intersection at all, return null. For example, the following two linked lists begin to intersect at node c1: [https://assets.leetcode.com/uploads/2021/03/05/160\_statement.png] The test cases are generated such that there are no cycles anywhere in the entire linked structure. Note that the linked lists must retain their original structure after the function returns. Custom Judge: The inputs to the judge are given as follows (your program is not given these inputs):  * intersectVal - The value of the node where the intersection occurs. This is 0 if there is no intersected node.  * listA - The first linked list.  * listB - The second linked list.  * skipA - The number of nodes to skip ahead in listA (starting from the head) to get to the intersected node.  * skipB - The number of nodes to skip ahead in listB (starting from the head) to get to the intersected node. The judge will then create the linked structure based on these inputs and pass the two heads, headA and headB to your program. If you correctly return the intersected node, then your solution will be accepted. ~ Example 1: [https://assets.leetcode.com/uploads/2021/03/05/160\_example\_1\_1.png] Input: intersectVal = 8, listA = [4,1,8,4,5], listB = [5,6,1,8,4,5], skipA = 2, skipB = 3 Output: Intersected at '8' Explanation: The intersected node's value is 8 (note that this must not be 0 if the two lists intersect). From the head of A, it reads as [4,1,8,4,5]. From the head of B, it reads as [5,6,1,8,4,5]. There are 2 nodes before the intersected node in A; There are 3 nodes before the intersected node in B. - Note that the intersected node's value is not 1 because the nodes with value 1 in A and B (2nd node in A and 3rd node in B) are different node references. In other words, they point to two different locations in memory, while the nodes with value 8 in A and B (3rd node in A and 4th node in B) point to the same location in memory. Example 2: [https://assets.leetcode.com/uploads/2021/03/05/160\_example\_2.png] Input: intersectVal = 2, listA = [1,9,1,2,4], listB = [3,2,4], skipA = 3, skipB = 1 Output: Intersected at '2' Explanation: The intersected node's value is 2 (note that this must not be 0 if the two lists intersect). From the head of A, it reads as [1,9,1,2,4]. From the head of B, it reads as [3,2,4]. There are 3 nodes before the intersected node in A; There are 1 node before the intersected node in B. Example 3: [https://assets.leetcode.com/uploads/2021/03/05/160\_example\_3.png] Input: intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2 Output: No intersection Explanation: From the head of A, it reads as [2,6,4]. From the head of B, it reads as [1,5]. Since the two lists do not intersect, intersectVal must be 0, while skipA and skipB can be arbitrary values. Explanation: The two lists do not intersect, so return null. ~ Constraints:  * The number of nodes of listA is in the m.  * The number of nodes of listB is in the n.  * 1 {$<$}= m, n {$<$}= 3 * 104  * 1 {$<$}= Node.val {$<$}= 105  * 0 {$<$}= skipA {$<~$}m  * 0 {$<$}= skipB {$<~$}n  * intersectVal is 0 if listA and listB do not intersect.  * intersectVal == listA[skipA] == listB[skipB] if listA and listB intersect. ~ Follow up: Could you write a solution that runs in O(m + n) time and use only O(1) memory?},
+  howpublished = {https://leetcode.com/problems/intersection-of-two-linked-lists/description},
+  langid = {english},
+  file = {C:\Users\edmun\Zotero\storage\VXJ8TRHA\intersection-of-two-linked-lists.html}
+}
+
 @article{abrahamsenConfrontingInternationalPolitical2020,
   title = {Confronting the {{International Political Sociology}} of the {{New Right}}},
   author = {Abrahamsen, Rita and Drolet, Jean-Fran{\c c}ois and Gheciu, Alexandra and Narita, Karin and Vucetic, Srdjan and Williams, Michael},
@@ -13,7 +40,17 @@
   abstract = {The rise of radical right-wing leaders, parties, movements, and ideas have transformed not only domestic political landscapes but also the direction and dynamics of international relations. Yet for all their emphasis on nationalist identity, on ``America First'' and ``Taking Back Control,'' there is an unmistakable international dimension to contemporary nationalist, populist movements. Yet these movements are also often transnationally linked. We argue that a constitutive part of this globality is the New Right's (NR) own distinctive international political sociology (IPS). Key thinkers of the contemporary NR have, over several decades, theorized and strategically mobilized globalized economic dislocation and cultural resentment, developing a coherent sociological critique of globalization. Drawing on the oft-neglected tradition of elite managerialism, NR ideologues have borrowed freely from Lenin and Schmitt on the power of enmity, as well as from Gramsci and the Frankfurt School on counterhegemonic strategies. Against the temptation to dismiss right-wing ideas as ``merely'' populist and by implication as lacking in ideological and theoretical foundations, we are faced with the much more challenging task of engaging a position that has already developed its own international political sociology and incorporated it into its political strategies.}
 }
 
-@misc{AddonItem,
+@misc{AccessLocalFolder0800,
+  title = {Access a Local Folder from a Container},
+  year = {07:47:32 -0800 -0800},
+  journal = {Docker Documentation},
+  urldate = {2023-11-19},
+  abstract = {Learn how to access a local folder from a container},
+  howpublished = {https://docs.docker.com/guides/walkthroughs/access-local-folder/},
+  langid = {english}
+}
+
+@misc{AddonItema,
   title = {Addon {{Item}}}
 }
 
@@ -46,6 +83,18 @@
   urldate = {2023-11-17}
 }
 
+@misc{avimanyubandyopadhyayDockerComposeVs2021,
+  title = {Docker {{Compose Up}} vs {{Start}} and {{Down}} vs {{Stop}}: {{Differences Explained}}},
+  author = {{Avimanyu Bandyopadhyay}},
+  year = {2021},
+  month = nov,
+  journal = {Linux Handbook},
+  urldate = {2023-11-19},
+  abstract = {For a beginner on docker-compose, terms like docker-compose up, start, down and stop could be a quite overwhelming. This article explains the difference with detailed examples.},
+  howpublished = {https://linuxhandbook.com/docker-compose-up-start-down-stop/},
+  langid = {english}
+}
+
 @misc{baeldungAssigningPortMapping2022,
   title = {Assigning a {{Port Mapping}} to a {{Running Docker Container}} | {{Baeldung}} on {{Linux}}},
   author = {{baeldung}},
@@ -54,6 +103,17 @@
   urldate = {2023-11-17},
   abstract = {When running a Docker container we can set a port mapping to allow communication through the host. This usually is fixed for the lifetime of the container. We explore some strategies for changing the port mapping for an existing container.},
   howpublished = {https://www.baeldung.com/linux/assign-port-docker-container},
+  langid = {american}
+}
+
+@misc{baeldungSettingUserDocker2023,
+  title = {Setting the {{User}} in a {{Docker Container From}} the {{Host}} | {{Baeldung}} on {{Linux}}},
+  author = {{baeldung}},
+  year = {2023},
+  month = mar,
+  urldate = {2023-11-19},
+  abstract = {Learn how to set a user in a Docker container from the host.},
+  howpublished = {https://www.baeldung.com/linux/docker-set-user-container-host},
   langid = {american}
 }
 
@@ -157,6 +217,15 @@
   howpublished = {https://medium.com/@saschagrunert/demystifying-containers-part-i-kernel-space-2c53d6979504}
 }
 
+@misc{DockerCompose0200,
+  title = {Docker Compose Down},
+  year = {09:42:25 +0200 +0200},
+  journal = {Docker Documentation},
+  urldate = {2023-11-19},
+  howpublished = {https://docs.docker.com/engine/reference/commandline/compose\_down/},
+  langid = {english}
+}
+
 @misc{dr.philippmullerEuroscepticismDifficultiesBinary,
   type = {Billet},
   title = {``{{Euroscepticism}}'' and the Difficulties of a Binary Construction of Opposition to {{European Integration}}},
@@ -194,6 +263,24 @@
   file = {C:\Users\edmun\Zotero\storage\SBGPALFH\is-it-a-bad-idea-for-my-solution-and-project-to-be-stored-in-separate-locations.html}
 }
 
+@misc{eljefedelrodeodeljefeAnswerDockernodeRunning2017,
+  title = {Answer to "Docker-Node: {{Running}} as Non-Root User, File Permissions"},
+  shorttitle = {Answer to "docker-Node},
+  author = {{eljefedelrodeodeljefe}},
+  year = {2017},
+  month = aug,
+  journal = {Stack Overflow},
+  urldate = {2023-11-19}
+}
+
+@misc{EnumHOWTO,
+  title = {Enum {{HOWTO}}},
+  journal = {Python documentation},
+  urldate = {2023-11-20},
+  abstract = {An Enum is a set of symbolic names bound to unique values. They are similar to global variables, but they offer a more useful repr(), grouping, type-safety, and a few other features. They are most ...},
+  howpublished = {https://docs.python.org/3/howto/enum.html}
+}
+
 @misc{EuropeanUnionGateway,
   title = {European {{Union}} Gateway},
   urldate = {2022-12-01},
@@ -223,7 +310,7 @@
   abstract = {Understand what you can do with the Containers view on Docker Dashboard},
   howpublished = {https://docs.docker.com/desktop/use-desktop/container/},
   langid = {english},
-  file = {C:\Users\edmun\Zotero\storage\LDYKZSDP\container.html}
+  file = {C\:\\Users\\edmun\\Zotero\\storage\\GY49B4UQ\\container.html;C\:\\Users\\edmun\\Zotero\\storage\\LDYKZSDP\\container.html}
 }
 
 @misc{ExploreNetworkingFeatures0200,
@@ -247,6 +334,23 @@
   langid = {american},
   keywords = {Donald Trump,Fascism,Germany},
   file = {C:\Users\edmun\Zotero\storage\CR6KEW9A\global-right-germany.html}
+}
+
+@misc{geniusAnswerDockercomposeStop2017,
+  title = {Answer to "Docker-Compose up, down, Stop Start Difference"},
+  author = {{genius}, the},
+  year = {2017},
+  month = sep,
+  journal = {Stack Overflow},
+  urldate = {2023-11-19}
+}
+
+@misc{Git,
+  title = {Git},
+  journal = {git},
+  urldate = {2023-11-18},
+  howpublished = {https://git-scm.com/},
+  file = {C:\Users\edmun\Zotero\storage\9CQ49J32\git-scm.com.html}
 }
 
 @misc{GoProgrammingLanguage,
@@ -329,10 +433,15 @@
   file = {C:\Users\edmun\Zotero\storage\TLMDK7G9\docs.docker.com.html}
 }
 
-@misc{HowInspectChanges,
-  title = {How to {{Inspect Changes}} to a {{Docker Container}}'s {{Filesystem}}},
-  urldate = {2023-11-17},
-  howpublished = {https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/}
+@misc{HowRunContainer0800,
+  title = {How Do {{I}} Run a Container?},
+  year = {07:47:32 -0800 -0800},
+  journal = {Docker Documentation},
+  urldate = {2023-11-18},
+  abstract = {Learn how to build your own image and run it as a container},
+  howpublished = {https://docs.docker.com/guides/walkthroughs/run-a-container/},
+  langid = {english},
+  file = {C:\Users\edmun\Zotero\storage\S3YR6FP9\run-a-container.html}
 }
 
 @misc{IntroductionRollup,
@@ -340,6 +449,45 @@
   urldate = {2023-11-02},
   howpublished = {https://rollupjs.org/introduction/},
   file = {C:\Users\edmun\Zotero\storage\8QYBDNHI\introduction.html}
+}
+
+@misc{JavaScriptDataTypes,
+  title = {{{JavaScript Data Types}}},
+  urldate = {2023-11-22},
+  abstract = {W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.},
+  howpublished = {https://www.w3schools.com/js/js\_datatypes.asp},
+  langid = {american},
+  file = {C:\Users\edmun\Zotero\storage\XG9XW4NS\js_datatypes.html}
+}
+
+@misc{JavaScriptDataTypes2023,
+  title = {{{JavaScript}} Data Types and Data Structures - {{JavaScript}} | {{MDN}}},
+  year = {2023},
+  month = sep,
+  urldate = {2023-11-22},
+  abstract = {Programming languages all have built-in data structures, but these often differ from one language to another. This article attempts to list the built-in data structures available in JavaScript and what properties they have. These can be used to build other data structures.},
+  howpublished = {https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data\_structures},
+  langid = {american},
+  file = {C:\Users\edmun\Zotero\storage\2EK63DZN\Data_structures.html}
+}
+
+@misc{JavaScriptNumbers,
+  title = {{{JavaScript Numbers}}},
+  urldate = {2023-11-22},
+  abstract = {W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.},
+  howpublished = {https://www.w3schools.com/js/js\_numbers.asp},
+  langid = {american},
+  file = {C:\Users\edmun\Zotero\storage\JSXTGB7C\js_numbers.html}
+}
+
+@misc{lagoAnswerWhatDifference2015,
+  title = {Answer to "{{What}} Is the Difference between Docker-Compose up and Docker-Compose Start?"},
+  shorttitle = {Answer to "{{What}} Is the Difference between Docker-Compose up and Docker-Compose Start?},
+  author = {Lago, Luiz},
+  year = {2015},
+  month = nov,
+  journal = {Stack Overflow},
+  urldate = {2023-11-19}
 }
 
 @misc{leodanispozoramosBuildCommandLineInterfaces,
@@ -379,6 +527,16 @@
   file = {C:\Users\edmun\Zotero\storage\C8GMMNC8\python-click.html}
 }
 
+@misc{ManageDataDocker0000,
+  title = {Manage Data in {{Docker}}},
+  year = {09:27:43 +0000 UTC},
+  journal = {Docker Documentation},
+  urldate = {2023-11-19},
+  abstract = {Overview of persisting data in containers},
+  howpublished = {https://docs.docker.com/storage/},
+  langid = {english}
+}
+
 @misc{microsoftcorporationCanYouPlease2023,
   title = {Can You Please Give Me a Brief Quick Summary of What the Website Structy Is?},
   shorttitle = {Bing {{Chat}}},
@@ -411,6 +569,17 @@
   file = {C:\Users\edmun\Zotero\storage\5QKNNPDY\1.html}
 }
 
+@misc{NumberJavaScriptMDN2023,
+  title = {Number - {{JavaScript}} | {{MDN}}},
+  year = {2023},
+  month = oct,
+  urldate = {2023-11-22},
+  abstract = {Number values represent floating-point numbers like 37 or -9.25.},
+  howpublished = {https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Number},
+  langid = {american},
+  file = {C:\Users\edmun\Zotero\storage\UK84T49Z\Number.html}
+}
+
 @misc{odedAnswerWhatAre2011,
   title = {Answer to "{{What}} Are the Benefits of Multiple Projects and One Solution?"},
   shorttitle = {Answer to "{{What}} Are the Benefits of Multiple Projects and One Solution?},
@@ -431,6 +600,27 @@
   howpublished = {https://docs.docker.com/get-started/},
   langid = {english},
   file = {C:\Users\edmun\Zotero\storage\93CJP3VP\get-started.html}
+}
+
+@misc{panAnswerHowRename2017,
+  title = {Answer to "{{How}} Do {{I}} Rename Both a {{Git}} Local and Remote Branch Name?"},
+  shorttitle = {Answer to "{{How}} Do {{I}} Rename Both a {{Git}} Local and Remote Branch Name?},
+  author = {PAN, {\relax ZILONG}},
+  year = {2017},
+  month = aug,
+  journal = {Stack Overflow},
+  urldate = {2023-11-18},
+  file = {C:\Users\edmun\Zotero\storage\QIJ67I2Q\how-do-i-rename-both-a-git-local-and-remote-branch-name.html}
+}
+
+@misc{PersistDataContainers0800,
+  title = {Persist Data between Containers},
+  year = {07:47:32 -0800 -0800},
+  journal = {Docker Documentation},
+  urldate = {2023-11-19},
+  abstract = {Learn how to persist data between containers},
+  howpublished = {https://docs.docker.com/guides/walkthroughs/persist-data/},
+  langid = {english}
 }
 
 @misc{PythonStandardLibrary,
@@ -466,6 +656,12 @@
   file = {C:\Users\edmun\Zotero\storage\CCWIKYTG\python-command-line-arguments.html}
 }
 
+@misc{RootUserPassword,
+  title = {Root {{User}} and {{Password Inside}} a {{Docker Container}} | {{Baeldung}} on {{Ops}}},
+  urldate = {2023-11-19},
+  howpublished = {https://www.baeldung.com/ops/root-user-password-docker-container}
+}
+
 @article{rothIntroductionContemporaryCounterMovements2018,
   title = {Introduction: {{Contemporary Counter-Movements}} in the {{Age}} of {{Brexit}} and {{Trump}}},
   author = {Roth, Silke},
@@ -480,6 +676,16 @@
   doi = {10.1177/1360780418768828},
   urldate = {2022-11-15},
   abstract = {Brexit and the election of President Trump in the United States are the result of the rise of far-right populist movements which can be observed in Europe, North America, and other regions of the world. Whereas populism itself is one response to neoliberalism, globalization, and austerity measures, the election of Trump, in particular, has caused a new wave of protest. To a far lesser extent, on the 60th anniversary of the founding of the European Union in March 2017, people in the UK and many European countries participated in a March for Europe. These demonstrations represent counter-movements to the growing presence of right-wing, anti-immigrant, racist, nationalist, sexist, homophobic, anti-semitic and anti-Muslim movements throughout Europe and the United States. This rapid response issue surveys right-wing populist and left-liberal counter-movements which represent different responses to neoliberalism, globalization, austerity, and to each other. Social movements reflect and contribute to social change and need to be understood from an intersectional perspective. Networked media play an important role for both populist movements from the right and progressive counter-movements.}
+}
+
+@misc{RunDockerHub0800,
+  title = {Run {{Docker Hub}} Images},
+  year = {07:47:32 -0800 -0800},
+  journal = {Docker Documentation},
+  urldate = {2023-11-19},
+  abstract = {Learn how to run Docker Hub images},
+  howpublished = {https://docs.docker.com/guides/walkthroughs/run-hub-images/},
+  langid = {english}
 }
 
 @book{rydgrenOxfordHandbookRadical2018,
@@ -613,10 +819,33 @@
   file = {C:\Users\edmun\Zotero\storage\PVPXSF5D\Transaction_processing_system.html}
 }
 
+@article{TreeTraversal2023,
+  title = {Tree Traversal},
+  year = {2023},
+  month = oct,
+  journal = {Wikipedia},
+  urldate = {2023-11-18},
+  abstract = {In computer science, tree traversal (also known as tree search and walking the tree) is a form of graph traversal and refers to the process of visiting (e.g. retrieving, updating, or deleting) each node in a tree data structure, exactly once. Such traversals are classified by the order in which the nodes are visited. The following algorithms are described for a binary tree, but they may be generalized to other trees as well.},
+  copyright = {Creative Commons Attribution-ShareAlike License},
+  langid = {english},
+  annotation = {Page Version ID: 1178925596},
+  file = {C:\Users\edmun\Zotero\storage\2GW72LRQ\Tree_traversal.html}
+}
+
 @misc{UnixlikeWikipedia,
   title = {Unix-like - {{Wikipedia}}},
   urldate = {2023-11-17},
   howpublished = {https://en.wikipedia.org/wiki/Unix-like}
+}
+
+@misc{UseComposeWatch0200,
+  title = {Use {{Compose Watch}}},
+  year = {10:01:03 +0200 +0200},
+  journal = {Docker Documentation},
+  urldate = {2023-11-20},
+  abstract = {Use File watch to automatically update running services as you work},
+  howpublished = {https://docs.docker.com/compose/file-watch/},
+  langid = {english}
 }
 
 @article{vanhauwaertThinkingOutsideBox2021,
@@ -644,6 +873,15 @@
   keywords = {mass party,party membership,party organisation,populism,radical right}
 }
 
+@misc{vivekyad4vAnswerHowGive2017,
+  title = {Answer to "{{How}} to Give Folder Permissions inside a Docker Container {{Folder}}"},
+  author = {{vivekyad4v}},
+  year = {2017},
+  month = aug,
+  journal = {Stack Overflow},
+  urldate = {2023-11-19}
+}
+
 @misc{vladimirlikicUnderstandingBashElements2018,
   title = {Understanding {{Bash}}: {{Elements}} of {{Programming}}},
   author = {{Vladimir Likic}},
@@ -652,6 +890,16 @@
   journal = {Linux Journal},
   urldate = {2023-10-17},
   howpublished = {https://www.linuxjournal.com/content/understanding-bash-elements-programming}
+}
+
+@misc{Volumes0000,
+  title = {Volumes},
+  year = {09:27:43 +0000 UTC},
+  journal = {Docker Documentation},
+  urldate = {2023-11-19},
+  abstract = {Learn how to create, manage, and use volumes instead of bind mounts for persisting data generated and used by Docker.},
+  howpublished = {https://docs.docker.com/storage/volumes/},
+  langid = {english}
 }
 
 @misc{walkerHowInspectChanges2022,
@@ -686,6 +934,17 @@
   urldate = {2023-11-17},
   howpublished = {https://click.palletsprojects.com/en/8.0.x/},
   file = {C:\Users\edmun\Zotero\storage\4M828UHK\8.0.x.html}
+}
+
+@misc{WelcomePythonOrg2023,
+  title = {Welcome to {{Python}}.Org},
+  year = {2023},
+  month = nov,
+  journal = {Python.org},
+  urldate = {2023-11-20},
+  abstract = {The official home of the Python Programming Language},
+  howpublished = {https://www.python.org/},
+  langid = {english}
 }
 
 @misc{WhatClassDiagram,

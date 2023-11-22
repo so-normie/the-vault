@@ -1,12 +1,12 @@
 ---
 title: Part 1꞉ Overview
 created: 2023-10-31T17:48
-updated: 2023-11-17T01:01
+updated: 2023-11-22T11:01
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/get-started/part-1-overview
-  - 🔴-academic/📚-educational-resource/source-format/internet
+  - 🔴-academic/📚-educational-resource/format/internet
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/docker
   - study-note
 cards-deck: "🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Get started::Part 1: Overview"

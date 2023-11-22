@@ -899,7 +899,19 @@
     "🔴-academic/📚-educational-resource/name/🗒️-obsidian/🔖/misc-notes": 3,
     "🔴-academic/📚-educational-resource/discipline/computer-science/technology/obsidian": 19,
     "🔴-academic/📚-educational-resource/name/leetcode/🔖": 6,
-    "🔴-academic/📚-educational-resource/name/leetcode/🔖/problems": 3
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖/problems": 3,
+    "🔴-academic/📚-educational-resource/name/🗒️-javaScript": 64,
+    "🔴-academic/📚-educational-resource/name/🗒️-javascript": 65,
+    "🔴-academic/📚-educational-resource/name/🗒️-javascript/misc-notes": 1,
+    "🔴-academic/📚-educational-resource/name/🗒️-javascript/🔖": 2,
+    "🔴-academic/📚-educational-resource/name/🗒️-javascript/🔖/misc-notes": 1,
+    "🔴-academic/📚-educational-resource/format": 7,
+    "🔴-academic/📚-educational-resource/format/course": 1,
+    "🔴-academic/📚-educational-resource/format/miscellaneous": 2,
+    "🔴-academic/📚-educational-resource/format/internet": 3,
+    "🔴-academic/📚-educational-resource/format/internet/website": 1,
+    "🔴-academic/📚-educational-resource/format/website": 4,
+    "🔴-academic/📚-educational-resource/format/book": 5
   },
   "_version": 2
 }
