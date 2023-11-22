@@ -256,5 +256,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero": "EiZotero",
   "the-vault/templates/Template {{LeetCode ∋ Problem}}.md": "TiTemplate",
   "the-vault/templates/Template {{Bibliography}}.md": "TiTemplate",
-  "the-vault/templates/Template {{Table of Contents}}.md": "TiTemplate"
+  "the-vault/templates/Template {{Table of Contents}}.md": "TiTemplate",
+  "the-vault/templates/Template {{Date Created}}.md": "TiTemplate"
 }

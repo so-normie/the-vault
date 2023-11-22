@@ -911,7 +911,8 @@
     "🔴-academic/📚-educational-resource/format/internet": 3,
     "🔴-academic/📚-educational-resource/format/internet/website": 1,
     "🔴-academic/📚-educational-resource/format/website": 4,
-    "🔴-academic/📚-educational-resource/format/book": 5
+    "🔴-academic/📚-educational-resource/format/book": 5,
+    "🔴-academic/📚-educational-resource/discipline/computer-science/technology/apache-spark": 20
   },
   "_version": 2
 }

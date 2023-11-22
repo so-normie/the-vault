@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f56e99dfed218312",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/Misc. Notes.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "ab37c5edc60f7315",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/Misc. Notes.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -91,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 439.5,
-    "collapsed": true
+    "width": 367.5
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -185,7 +171,7 @@
             }
           },
           {
-            "id": "9ff5b99cd155d8a6",
+            "id": "8924c524809e611d",
             "type": "leaf",
             "state": {
               "type": "ReferenceListView",
@@ -193,7 +179,7 @@
             }
           },
           {
-            "id": "5cb5cf6db8ef3aeb",
+            "id": "b58e0506429c272d",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -203,11 +189,12 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 433.5
+    "width": 433.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,7 +223,7 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "f56e99dfed218312",
+  "active": "ab37c5edc60f7315",
   "lastOpenFiles": [
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/Misc. Notes.md",
