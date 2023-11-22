@@ -912,7 +912,21 @@
     "🔴-academic/📚-educational-resource/format/internet/website": 1,
     "🔴-academic/📚-educational-resource/format/website": 4,
     "🔴-academic/📚-educational-resource/format/book": 5,
-    "🔴-academic/📚-educational-resource/discipline/computer-science/technology/apache-spark": 20
+    "🔴-academic/📚-educational-resource/discipline/computer-science/technology/apache-spark": 20,
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖/🌐-leetcode": 4,
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖/🌐-leetcode/problems": 1,
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖/🌐-leetcode/problems/619-biggest-single-number": 1,
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖/problems/619-biggest-single-number": 1,
+    "🔴-academic/📚-educational-resource/name/leetcode/🏷️/problems": 3,
+    "🔴-academic/📚-educational-resource/name/leetcode/🏷️/problems/difficulty": 1,
+    "🔴-academic/📚-educational-resource/name/leetcode/🏷️/problems/difficulty/easy": 1,
+    "🔴-academic/📚-educational-resource/name/leetcode/🏷️/problems/tag": 2,
+    "🔴-academic/📚-educational-resource/name/leetcode/🏷️/problems/tag/topic": 1,
+    "🔴-academic/📚-educational-resource/name/leetcode/🏷️/problems/tag/topic/database": 1,
+    "🔴-academic/📚-educational-resource/name/leetcode/🏷️/problems/premium": 3,
+    "🔴-academic/📚-educational-resource/name/leetcode/🏷️/problems/premium/no": 1,
+    "🔴-academic/📚-educational-resource/name/leetcode/🏷️/problem/premium": 4,
+    "🔴-academic/📚-educational-resource/name/leetcode/🏷️/problem/premium/no": 1
   },
   "_version": 2
 }

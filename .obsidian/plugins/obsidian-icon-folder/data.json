@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiNotes",
       "SiLeetcode",
       "TiTemplate",
       "EiZotero",
@@ -19,8 +20,7 @@
       "EiPragmatiCoders",
       "SiMicrosoftsqlserver",
       "SiApachespark",
-      "EiRclone",
-      "EiPlantPot"
+      "EiRclone"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -257,5 +257,7 @@
   "the-vault/templates/Template {{LeetCode ∋ Problem}}.md": "TiTemplate",
   "the-vault/templates/Template {{Bibliography}}.md": "TiTemplate",
   "the-vault/templates/Template {{Table of Contents}}.md": "TiTemplate",
-  "the-vault/templates/Template {{Date Created}}.md": "TiTemplate"
+  "the-vault/templates/Template {{Date Created}}.md": "TiTemplate",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/Misc. Notes.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/619. Biggest Single Number.md": "TiNotes"
 }
