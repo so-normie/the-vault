@@ -221,8 +221,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 433.5,
-    "collapsed": true
+    "width": 433.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,8 +246,7 @@
       "custom-sort:Toggle custom sorting": false,
       "chronology:Open Chronology": false,
       "reference-map:Reference Map": false,
-      "cloze:Toggle all clozes": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "cloze:Toggle all clozes": false
     }
   },
   "active": "e58329c8294a6e29",
