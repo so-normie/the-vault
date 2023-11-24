@@ -1,12 +1,12 @@
 ---
 title: Walkthroughs ∋ Table of Contents
 created: 2023-10-31T16:39
-updated: 2023-11-17T01:15
+updated: 2023-11-22T15:06
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/walkthroughs/walkthroughs-∋-table-of-contents
-  - 🔴-academic/📚-educational-resource/website
+  - 🔴-academic/📚-educational-resource/format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/docker
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkthroughs ∋ Table of Contents

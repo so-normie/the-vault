@@ -2,11 +2,12 @@
 title: System Design꞉ Reddit
 created: 2023-08-24 00:06
 updated: 2023-11-18T02:44
+updated: 2023-11-22T11:02
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/🌐-system-design-fight-club
-  - 🔴-academic/📚-educational-resource/source-format/internet
+  - 🔴-academic/📚-educational-resource/format/internet
   - 🔴-academic/📚-educational-resource/discipline/computer-science
   - 🔴-academic/📚-educational-resource/name/🌐-system-design-fight-club/🔖-bookmark/🌐-system-design-fight-club/system-design-reddit
   - study-note

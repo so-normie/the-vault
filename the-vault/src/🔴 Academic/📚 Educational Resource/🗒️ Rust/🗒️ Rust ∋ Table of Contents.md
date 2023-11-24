@@ -5,12 +5,13 @@ authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/🗒️-rust
-  - 🔴-academic/📚-educational-resource/source-format/miscellaneous
+  - 🔴-academic/📚-educational-resource/format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science
   - 🔴-academic/📚-educational-resource/name/🗒️-rust/🔖-bookmark/🗒️-rust
   - study-note
 cards-deck: 🔴 Academic::📚 Educational ResourceRust
 updated: 2023-11-18T02:44
+updated: 2023-11-22T11:02
 ---
 
 ## 🔙 Previous Note(s):

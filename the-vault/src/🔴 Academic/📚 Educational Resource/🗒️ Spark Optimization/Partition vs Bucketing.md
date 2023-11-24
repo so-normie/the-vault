@@ -1,9 +1,10 @@
 ---
 tags:
-  - 🔴-academic/📚-educational-resource/discipline/computer-science/spark
+  - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/apache-spark
 cards-deck: Default::Computer Science
 created: 2023-09-12 11:38
 updated: 2023-11-18T02:44
+updated: 2023-11-22T13:50
 ---
 
 In Apache Spark, both partitioning and bucketing are techniques used to optimize data storage and query performance, especially for distributed data processing. However, they serve different purposes and are used in different scenarios.

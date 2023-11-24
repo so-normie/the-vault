@@ -27,7 +27,6 @@
   "math-booster",
   "obsidian-tikzjax",
   "flashcards-obsidian",
-  "obsidian-pandoc-reference-list",
   "obsidian-banners",
   "obsidian-excalidraw-plugin",
   "obsidian-icon-folder",
@@ -44,6 +43,6 @@
   "reference-map",
   "obsidian-zotero-desktop-connector",
   "obsidian-citation-plugin",
-  "obsidian-outliner",
-  "cloze"
+  "cloze",
+  "obsidian-pandoc-reference-list"
 ]

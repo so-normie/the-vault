@@ -3,10 +3,10 @@ title: Click and Build꞉ Build Extensible and Composable CLI Apps
 authors:
   - Edmund Leibert III
 created: 2023-11-14T19:56
-updated: 2023-11-19T01:45
+updated: 2023-11-22T11:02
 tags:
   - 🔴-academic/📚-educational-resource/name/real-python/click-and-build-build-extensible-and-composable-cli-apps
-  - 🔴-academic/📚-educational-resource/source-format/website
+  - 🔴-academic/📚-educational-resource/format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python
   - 🔴-academic/📚-educational-resource/discipline/computer-science/library/click
   - 🔴-academic/📚-educational-resource/name/real-python/🏷️/topic/devops
@@ -14,7 +14,7 @@ tags:
   - 🔴-academic/📚-educational-resource/name/real-python/🏷️/topic/python
   - 🔴-academic/📚-educational-resource/name/real-python/🏷️/topic/tools
   - study-note
-cards-deck: 🔴 Academic::📚 Educational Resource::Real Python::Click and Build꞉ Build Extensible and Composable CLI Apps
+cards-deck: 🔴 Academic::📚 Educational Resource::LeetCode::Problems::Click and Build꞉ Build Extensible and Composable CLI Apps
 ---
 
 
@@ -23,7 +23,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Real Python::Click and Bui
 ---
 
 > [!ABSTRACT]+
-> Notes are pertaining to the [Click and Python: Build Extensible and Composable CLI Apps](https://realpython.com/python-click/) article.
+> These notes are pertaining to the [Click and Python: Build Extensible and Composable CLI Apps](https://realpython.com/python-click/) article.
 
 ---
 
@@ -203,7 +203,7 @@ say_hello()
 In this example, `my_decorator` is a decorator that adds behavior before and after the `say_hello` function is executed.
 
 ⌂
-<br>﹈<br>^1700386981974
+<br>﹈<br>
 
 ### How to Install and Set Up Click: Your First CLI App
 

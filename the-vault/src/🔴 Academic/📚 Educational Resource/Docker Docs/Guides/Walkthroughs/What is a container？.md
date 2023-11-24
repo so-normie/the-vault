@@ -1,12 +1,12 @@
 ---
 title: What is a container?
 created: 2023-10-31T16:39
-updated: 2023-11-19T12:42
+updated: 2023-11-22T15:06
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/walkthroughs/what-is-a-container?
-  - 🔴-academic/📚-educational-resource/website
+  - 🔴-academic/📚-educational-resource/format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/docker
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkthroughs::What is a container?
@@ -17,7 +17,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkt
 ---
 
 > [!abstract]+ 
-> Notes pertaining to [What is a container? | Docker Docs](https://docs.docker.com/guides/walkthroughs/what-is-a-container/). Explore a running container in Docker Desktop. [@WhatContainer]
+> Notes that pertain to [What is a container? | Docker Docs](https://docs.docker.com/guides/walkthroughs/what-is-a-container/). Explore a running container in Docker Desktop.
 
 ---
 
@@ -27,7 +27,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkt
 
 ---
 
-A {1:container} is an {2:isolated environment for your code}.
+A {{1:container} is an {2:isolated environment for your code}.
 ^1700215950468
 
 ﹇<br>
@@ -35,10 +35,10 @@ Does a container have knowledge of your operating system, or files?
 
 #card 
 
-No, a container has no knowledge of your operating system, or your files.
+No, a container has no knowledge of your operating system, or your files
 
 ⌂
-<br>﹈<br>^1700306173703
+<br>﹈<br>^1700215950502
 
 ﹇<br>
 Do _containers_ have everything that you need in order to run, down to a base operating system?
@@ -50,29 +50,27 @@ Yes.
 ⌂
 <br>﹈<br>^1700215950514
 
-## [Step 1: Set up the walkthrough](https://docs.docker.com/guides/walkthroughs/what-is-a-container/#step-1-set-up-the-walkthrough)
+## Step 1: Set up walkthrough
 
 ﹇<br>
 What exactly is the **Host port** option under **Optional settings** when running a image from Docker Desktop?
 
-![Host port|400](https://docs.docker.com/guides/walkthroughs/images/getting-started-setup.webp?w=250&border=true)
+![|400](https://docs.docker.com/guides/walkthroughs/images/getting-started-setup.webp?w=250&border=true)
 
 #card 
 
 The **Host port** option under **Optional settings** when running an image from Docker Desktop is used to map a port on your host machine to a port in the Docker container. This is known as port mapping or port forwarding.
 
-When you run a Docker container, it has its own set of port numbers. [If you want to access a service on this container from your host machine or network, you need to map a port on your host to a port on the container](https://docs.docker.com/desktop/networking/). [@ExploreNetworkingFeatures0200] 
-[@baeldungAssigningPortMapping2022] 
+When you run a Docker container, it has its own set of port numbers. [If you want to access a service on this container from your host machine or network, you need to map a port on your host to a port on the container](https://docs.docker.com/desktop/networking/). [@ExploreNetworkingFeatures0200] [@baeldungAssigningPortMapping2022] 
 
 The syntax for this in Docker is `-p HOST_PORT:CONTAINER_PORT`. [Here, `HOST_PORT` is the port number on your host machine, and `CONTAINER_PORT` is the port number in the container](https://stackoverflow.com/questions/62125794/docker-run-p-what-are-this-two-port-numbers-and-what-they-represents). [@salkiAnswerDockerRun2020] [@baeldungAssigningPortMapping2022] 
 
 For example, if you have a web server running in a Docker container listening on port 80, and you want to access it from your host machine on port 8000, you would use `-p 8000:80`. [Now, if you open a web browser on your host machine and go to `localhost:8000`, you’ll be able to access the web server running in your Docker container](https://docs.docker.com/desktop/networking/). [@ExploreNetworkingFeatures0200] [@baeldungAssigningPortMapping2022] 
 
 ⌂
-<br>﹈<br>^1700307043223
+<br>﹈<br>^1700215950549 
 
-
-## [Step 2: View containers on Docker Desktop](https://docs.docker.com/guides/walkthroughs/what-is-a-container/#step-2-view-containers-on-docker-desktop)
+## Step 2: View containers on Docker Desktop
 
 ﹇<br>
 Can you view your containers in Docker Desktop?
@@ -86,6 +84,7 @@ Yes, you can view it in the **Containers** tab of Docker Desktop.
 ⌂
 <br>﹈<br>^1700215950559
 
+
 ﹇<br>
 The container in this walkthrough runs a simple web server that displays a simple website. What is an example architecture of a more complex project using docker containers?
 
@@ -96,9 +95,9 @@ When working with more complex projects, you'll run different parts in different
 ⌂
 <br>﹈<br>^1700215950567
 
-## [Step 3: View the frontend](https://docs.docker.com/guides/walkthroughs/what-is-a-container/#step-3-view-the-frontend)
+## Step 3: View the frontend
 
-## [Step 4: Explore your container](https://docs.docker.com/guides/walkthroughs/what-is-a-container/#step-4-explore-your-container)
+## Step 4: Explore your container
 
 ﹇<br>
 In Docker Desktop, how can you easily view and interact with different aspects of your container?
@@ -119,45 +118,34 @@ In Docker Desktop, when I inspect the files of a running container, what does th
 
 #card 
 
-[In Docker Desktop, when you inspect the files of a running or stopped container, you can see which files have been recently added, modified, or deleted](https://docs.docker.com/desktop/use-desktop/container/) [@ExploreContainersView0200a]. [The “modified” note indicates that the file has been changed or updated in some way since the container was started](https://docs.docker.com/desktop/use-desktop/container/) [@ExploreContainersView0200a]. 
+[In Docker Desktop, when you inspect the files of a running or stopped container, you can see which files have been recently added, modified, or deleted](https://docs.docker.com/desktop/use-desktop/container/)[1](https://docs.docker.com/desktop/use-desktop/container/). [The “modified” note indicates that the file has been changed or updated in some way since the container was started](https://docs.docker.com/desktop/use-desktop/container/)[1](https://docs.docker.com/desktop/use-desktop/container/). 
 
-[This could be due to a variety of reasons, such as an application within the container writing to the file, a user manually editing the file, or a system process updating the file](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/) [@walkerHowInspectChanges2022]. 
+[This could be due to a variety of reasons, such as an application within the container writing to the file, a user manually editing the file, or a system process updating the file](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/)[2](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/). 
 
-[Remember, any changes made to the container’s filesystem will be lost when the container is restarted or destroyed, unless those changes are made in a volume](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/) [@walkerHowInspectChanges2022].
+[Remember, any changes made to the container’s filesystem will be lost when the container is restarted or destroyed, unless those changes are made in a volume](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/)[2](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/).
 
 ⌂
 <br>﹈<br>^1700215950582
 
-## [Step 5: Stop your container](https://docs.docker.com/guides/walkthroughs/what-is-a-container/#step-5-stop-your-container)
+## Step 5: Stop your container
 
 The `welcome-to-docker` container continues to {1:run} until you {2:stop it}. To {2:stop} the container in Docker Desktop, go to the {3:**Containers**} tab and select the {4:**Stop**} icon in the {5:**Actions**} column of your container.
 ^1700215950606
 
-## [Summary](https://docs.docker.com/guides/walkthroughs/what-is-a-container/#summary)
-
-## [Next steps](https://docs.docker.com/guides/walkthroughs/what-is-a-container/#next-steps)
+## Next Steps
 
 ---
 
 ## :EiZoteroItem: Bibliography
 
 \[1\]
-“What is a container?,” _Docker Docs_. Available: [https://docs.docker.com/guides/walkthroughs/what-is-a-container/](https://docs.docker.com/guides/walkthroughs/what-is-a-container/). [Accessed: Nov. 17, 2023]
-
-\[2\]
 “Explore networking features on Docker Desktop,” _Docker Documentation_, 09:42:25 +0200 +0200. Available: [https://docs.docker.com/desktop/networking/](https://docs.docker.com/desktop/networking/). [Accessed: Nov. 17, 2023]
 
-\[3\]
+\[2\]
 baeldung, “Assigning a Port Mapping to a Running Docker Container | Baeldung on Linux,” Jan. 13, 2022. Available: [https://www.baeldung.com/linux/assign-port-docker-container](https://www.baeldung.com/linux/assign-port-docker-container). [Accessed: Nov. 17, 2023]
 
-\[4\]
+\[3\]
 I. Salki, “Answer to ‘Docker run -p ?/? (what are this two port numbers and what they represents ),’” _Stack Overflow_, Jun. 01, 2020. Available: [https://stackoverflow.com/a/62125889/8088657](https://stackoverflow.com/a/62125889/8088657). [Accessed: Nov. 17, 2023]
-
-\[5\]
-“Explore the Containers view in Docker Desktop,” _Docker Documentation_, 09:42:25 +0200 +0200. Available: [https://docs.docker.com/desktop/use-desktop/container/](https://docs.docker.com/desktop/use-desktop/container/). [Accessed: Nov. 17, 2023]
-
-\[6\]
-J. Walker, “How to Inspect Changes to a Docker Container’s Filesystem,” _How-To Geek_, Aug. 11, 2022. Available: [https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/](https://www.howtogeek.com/devops/how-to-inspect-changes-to-a-docker-containers-filesystem/). [Accessed: Nov. 17, 2023]
 
 ---
 

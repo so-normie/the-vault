@@ -20,6 +20,11 @@
                   "title": "🌐 Structy ꞉꞉ 📋 Table of Contents"
                 },
                 {
+                  "type": "file",
+                  "ctime": 1700694016394,
+                  "path": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md"
+                },
+                {
                   "type": "group",
                   "ctime": 1692304805595,
                   "items": [
@@ -353,7 +358,7 @@
                   "title": "8. Mixed Recall"
                 }
               ],
-              "title": "🌐 Structy"
+              "title": "Structy"
             },
             {
               "type": "file",
@@ -370,7 +375,7 @@
                   "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 System Design Fight Club/🌐 System Design Fight Club ▹ 📋 Table of Contents.md"
                 }
               ],
-              "title": "🌐 System Design Fight Club"
+              "title": "System Design Fight Club"
             },
             {
               "type": "group",
@@ -429,7 +434,7 @@
                   "title": "Problems"
                 }
               ],
-              "title": "🌐 LeetCode"
+              "title": "LeetCode"
             },
             {
               "type": "file",
@@ -459,10 +464,10 @@
               "title": "🗒️ C++"
             }
           ],
-          "title": "📚 Educational Resources"
+          "title": "📚 Educational Resource"
         }
       ],
-      "title": "🔴 Academics"
+      "title": "🔴 Academic"
     }
   ]
 }

@@ -1,12 +1,12 @@
 ---
 title: Docker Docs ∋ Table of Contents
 created: 2023-10-31T16:39
-updated: 2023-11-20T04:43
+updated: 2023-11-22T15:06
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/docker-docs/🔖/docker-docs-∋-table-of-contents
-  - 🔴-academic/📚-educational-resource/website
+  - 🔴-academic/📚-educational-resource/format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/docker
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Docker Docs ∋ Table of Contents

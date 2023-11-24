@@ -2,11 +2,12 @@
 title: 🗒️ Bash
 created: 2023-08-04 01:58
 updated: 2023-11-18T02:44
+updated: 2023-11-22T11:02
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/🗒️-bash/misc-notes
-  - 🔴-academic/📚-educational-resource/source-format/miscellaneous
+  - 🔴-academic/📚-educational-resource/format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/bash
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Bash::Misc. Notes

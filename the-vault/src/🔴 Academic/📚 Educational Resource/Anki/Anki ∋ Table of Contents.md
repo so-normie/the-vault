@@ -1,12 +1,12 @@
 ---
 title: Anki ▹ Table of Contents
 created: 2023-08-30 00:00
-updated: 2023-11-18T02:44
+updated: 2023-11-22T11:01
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/anki/anki-▹-table-of-contents
-  - 🔴-academic/📚-educational-resource/source-format/miscellaneous
+  - 🔴-academic/📚-educational-resource/format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::Anki::Anki ▹ Table of Contents

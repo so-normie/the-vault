@@ -5,11 +5,11 @@ authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/cpp-weekly-with-jason-turner
-  - 🔴-academic/📚-educational-resource/source-format/internet
+  - 🔴-academic/📚-educational-resource/format/internet
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/cpp
   - study-note
 cards-deck: Default::Computer Science
-updated: 2023-11-18T02:44
+updated: 2023-11-22T11:01
 ---
 
 # 🌐 C++ Weekly With Jason Turner

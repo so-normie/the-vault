@@ -4,9 +4,10 @@ authors:
   - Edmund Leibert III
 created: 2023-09-03 08:46
 updated: 2023-11-18T02:44
+updated: 2023-11-22T11:02
 tags:
   - 🔴-academic/📚-educational-resource/name/🗒️-sql
-  - 🔴-academic/📚-educational-resource/source-format/miscellaneous
+  - 🔴-academic/📚-educational-resource/format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/sql
   - 🔴-academic/📚-educational-resource/name/🗒️-sql/🔖-bookmark/🗒️-sql
   - study-note
