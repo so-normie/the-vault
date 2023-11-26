@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FabGoogle",
       "SiVim",
       "RiBookMarkFill",
       "RiBookmarkFill",
@@ -19,8 +20,7 @@
       "EiZoteroItem",
       "BoBxsMessageSquareDots",
       "SiWindows",
-      "EiPragmatiCoders",
-      "SiMicrosoftsqlserver"
+      "EiPragmatiCoders"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -263,5 +263,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs": "RiBookMarkFill",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Vim": "SiVim",
   "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/144. Binary Tree Preorder Traversal.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/145. Binary Tree Postorder Traversal.md": "TiNotes"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/145. Binary Tree Postorder Traversal.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GoogleTest": "FabGoogle"
 }
