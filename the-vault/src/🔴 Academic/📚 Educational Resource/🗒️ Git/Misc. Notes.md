@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Git
 created: 2023-08-04 01:58
-updated: 2023-11-25T17:32
+updated: 2023-11-25T18:29
 authors:
   - Edmund Leibert III
 tags:
@@ -795,7 +795,20 @@ In Git, the term **HEAD** refers to the current commit you are viewing. By defau
 Additionally, when you switch branches using `git checkout`, **HEAD** changes to point to the tip of the new branch. [If **HEAD** refers to a specific revision that is not associated with a branch name, it is called a **detached HEAD** state](https://stackoverflow.com/questions/2304087/what-is-head-in-git)[3](https://stackoverflow.com/questions/2304087/what-is-head-in-git). In summary, think of **HEAD** as a pointer that tracks your current position in the commit history. 🌟
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1700965662762
+
+﹇<br>
+What is Carmen’s favourite color?
+
+#card 
+
+Blue or Red
+
+⌂
+<br>﹈<br>^1700965662768
+
+
+
 
 ---
 
