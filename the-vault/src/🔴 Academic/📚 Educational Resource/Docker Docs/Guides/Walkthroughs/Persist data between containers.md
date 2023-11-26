@@ -1,12 +1,12 @@
 ---
 title: Persist data between containers
 created: 2023-11-19T12:44
-updated: 2023-11-19T13:36
+updated: 2023-11-26T10:54
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/walkthroughs/persist-data-between-containers
-  - 🔴-academic/📚-educational-resource/website
+  - 🔴-academic/📚-educational-resource/format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/docker
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkthroughs::Persist data between containers

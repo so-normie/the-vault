@@ -1,12 +1,12 @@
 ---
 title: Run Docker Hub images
 created: 2023-10-31T16:39
-updated: 2023-11-19T02:24
+updated: 2023-11-26T10:54
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/walkthroughs/run-docker-hub-images
-  - 🔴-academic/📚-educational-resource/website
+  - 🔴-academic/📚-educational-resource/format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/docker
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkthroughs::Run Docker Hub images

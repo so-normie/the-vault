@@ -6,6 +6,8 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "EiWikipedia",
+      "SiWikipedia",
       "FabGoogle",
       "SiVim",
       "RiBookMarkFill",
@@ -18,9 +20,7 @@
       "EiPhysics",
       "EiOReilly",
       "EiZoteroItem",
-      "BoBxsMessageSquareDots",
-      "SiWindows",
-      "EiPragmatiCoders"
+      "BoBxsMessageSquareDots"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -264,5 +264,11 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/Vim": "SiVim",
   "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/144. Binary Tree Preorder Traversal.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/145. Binary Tree Postorder Traversal.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GoogleTest": "FabGoogle"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GoogleTest": "FabGoogle",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run Docker Hub images.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run multi-container applications.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Persist data between containers.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Containerize your application.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia": "EiWikipedia"
 }

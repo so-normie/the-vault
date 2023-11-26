@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#🔴-academic",
+                "query": "tag:#🔴-academic/📚-educational-resource/source-format",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,12 +201,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -239,10 +240,15 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "d003ddaf50107b03",
+  "active": "c223f0ff7f4a0f14",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Walkthroughs ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run Docker Hub images.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run multi-container applications.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/How do I run a container？.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Persist data between containers.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Containerize your application.md",
     "Pasted image 20231105005754.png",
@@ -250,7 +256,6 @@
     "Pasted image 20231119023627.png",
     "Pasted image 20231119160217.png",
     "Pasted image 20231119132130.png",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets/Google Sheets ∋ Table of Contents.md",
@@ -272,12 +277,8 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/Misc. Notes.md",
     "the-vault/templates/Template {{Date Created}}.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/🗒️ JavaScript ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Walkthroughs ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/sortspec.md",
     "Untitled.loom",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/Problems ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/What is a container？.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs",
     "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning",

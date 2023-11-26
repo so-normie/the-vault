@@ -652,7 +652,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/🗒️ PowerShell ∋ Table of Contents.md": "6982ff3ca9b250d5d7757967ca3fafa7dc8372e46c5147b7cd5f9f77e43adaeb",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Quartz/🗒️ Quartz ∋ Table of Contents.md": "e5a740e184f874f786ad21643b5441d12a9539402c15f9bfc14a2cd849da2a36",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Rclone/🗒️ Rclone ∋ Table of Contents.md": "657de95eec0cfa84730cb798019b34bc5e1b027c77bcbea268512385c4a15d9b",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md": "f1f750e1f7c8c1059a7945444655539d9d9c2d3d8e1aed428460bc3388774ad2",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md": "2727cddbcd93912f711a4aa045df7071682261296e812ad3c075dc6379501ff7",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Rust/🗒️ Rust ∋ Table of Contents.md": "980bdb82d1004d63e31136e74fc7515ef6922614df5ba60ff53b1ca77b10bc78",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Spark Optimization/Dynamic Partition Pruning.md": "0cf20e54cd09f304f3ffc2221e7615fb2355ec99e3edbd8fcecd5f756bf2c960",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Spark Optimization/Dynamic Resource Allocation.md": "71b656e40392e0214c7be47fc0fbaca0ef534f44c62854a175bddf9ed8cfea17",
@@ -900,6 +900,19 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md": "9e22c93d1a01d422a1baf1015c796b2de50abab255300b7baa78f4ce537a50f9",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/sortspec.md": "94474fb421d8dcdc361706a165868699d1205df5324004f95e65cb942534b267",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets/Google Sheets ∋ Table of Contents.md": "f6d929eab6a02f9dd709c4509438231e5ea0271d862b5f4ab4abc3665c2fff78",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets/Misc. Notes.md": "98ff2e180ad667e52ce1e38aa87d68b9d63b631bccce4ab27abdc07d63bcf532"
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets/Misc. Notes.md": "98ff2e180ad667e52ce1e38aa87d68b9d63b631bccce4ab27abdc07d63bcf532",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md": "10997397f2bad342bbbd01eb9fe7ff8f1013dd474d7ee0acd96285122b902610",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Containerize your application.md": "80083878ba6c628e4ca9bedc97fc00d256ee2b98336cd59bd9284f5446c0aede",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/How do I run a container？.md": "7d3e1ae5f16d3db64cff5edd6ed2bfdb71400ecf9a2e649c4db54891df803220",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md": "0ecfe6f1004ea9997cb3e0f49f8785d4c395018aeb91427e9c62747236dd1856",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Persist data between containers.md": "65d09d0d83e1583c648c072e4143d3e3107965bd2d375cc5710a5a233a1efba1",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run Docker Hub images.md": "735d98714f0f2b9e633e32341ced705a46816a254f155e243ef877aad2efae24",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run multi-container applications.md": "c697a9ae2943a8573595d5737b1a4ee84a3f448bcc93b3493cc64e017061ff36",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/145. Binary Tree Postorder Traversal.md": "df626234811bfc5b33c4f602151f2786da2f8232558dca1bbaff1e9d75acef1a",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/157. Read N Characters Given Read4.md": "918ecc4257f202b13ce990296ccb5fdc7d494f60b6d18ec1fb618ca4693a963a",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/160. Intersection of Two Linked Lists.md": "cfc5b99bc5bc11642588c69e22ab08bf75ef5b9cf262b6c39faa0289a5a8eb53",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/163. Missing Ranges.md": "9b35ffeb8d75e9579ca2d9b02e827c1deadb9bc79f0c3719b405a44e07c161e3",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs/Enum HOWTO.md": "36fd7d90e48733afc88acd512feb473cc51c019cf51d76a054597fed1c6c7016",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia/Tree traversal.md": "42ac9d87822b2e8da4bccaa40d9c3189b8998de3d3ce39005be14aa26512d8df"
   }
 }

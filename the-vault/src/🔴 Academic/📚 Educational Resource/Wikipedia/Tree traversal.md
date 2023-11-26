@@ -3,10 +3,10 @@ title: Tree traversal
 authors:
   - Edmund Leibert III
 created: 2023-11-20T06:20
-updated: 2023-11-20T18:41
+updated: 2023-11-26T10:55
 tags:
   - 🔴-academic/📚-educational-resource/name/wikipedia/🔖/tree-traversal
-  - 🔴-academic/📚-educational-resource/source-format/website
+  - 🔴-academic/📚-educational-resource/format/website
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::Wikipedia::Tree traversal
 ---
