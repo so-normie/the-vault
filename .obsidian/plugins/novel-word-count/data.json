@@ -831,41 +831,23 @@
       "modifiedDate": 1701024889049,
       "sizeInBytes": 1452
     },
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/red.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1700484372210,
-      "modifiedDate": 1700484372210,
-      "sizeInBytes": 0
-    },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Pip.md": {
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 0,
+      "wordCount": 51,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
+      "pageCount": 0.17,
+      "characterCount": 379,
+      "nonWhitespaceCharacterCount": 316,
+      "readingTimeInMinutes": 0.19245283018867926,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700447491432,
-      "modifiedDate": 1700447491432,
-      "sizeInBytes": 0
+      "modifiedDate": 1701033691701,
+      "sizeInBytes": 808
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/🗒️ PowerShell ∋ Table of Contents.md": {
       "isCountable": true,
@@ -14312,6 +14294,24 @@
       "createdDate": 1700304265481,
       "modifiedDate": 1700304265481,
       "sizeInBytes": 67523
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 294,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.98,
+      "characterCount": 2013,
+      "nonWhitespaceCharacterCount": 1642,
+      "readingTimeInMinutes": 1.109433962264151,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1700484372210,
+      "modifiedDate": 1701034506303,
+      "sizeInBytes": 2169
     }
   }
 }

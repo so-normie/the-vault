@@ -28,8 +28,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
-                "mode": "preview",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md"
               }
             }
           }
@@ -240,14 +239,20 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "c223f0ff7f4a0f14",
+  "active": "d003ddaf50107b03",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Pip.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/163. Missing Ranges.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Walkthroughs ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run Docker Hub images.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run multi-container applications.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/How do I run a container？.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Persist data between containers.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Containerize your application.md",
@@ -269,15 +274,9 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/577. Employee Bonus.md",
     "the-vault/🔴 Academics/🔴 Academics ∋ Table of Contents.md",
     "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/112. Path Sum.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ∋ Table of Contents.md",
-    "the-vault/🔴 Academics/📚 Educational Resources/📚 Educational Resources ∋ Table of Contents.md",
     "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode",
     "the-vault/🔴 Academics/📚 Educational Resources",
     "the-vault/🔴 Academics",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/Misc. Notes.md",
-    "the-vault/templates/Template {{Date Created}}.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/🗒️ JavaScript ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/sortspec.md",
     "Untitled.loom",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs",

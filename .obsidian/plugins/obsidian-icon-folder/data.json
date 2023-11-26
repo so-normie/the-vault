@@ -6,6 +6,8 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FabAws",
+      "SiGooglesheets",
       "EiWikipedia",
       "SiWikipedia",
       "FabGoogle",
@@ -18,9 +20,7 @@
       "FasBook",
       "FabNode",
       "EiPhysics",
-      "EiOReilly",
-      "EiZoteroItem",
-      "BoBxsMessageSquareDots"
+      "EiOReilly"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -242,7 +242,7 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ SQL Server": "SiMicrosoftsqlserver",
   "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders": "EiPragmatiCoders",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Windows": "SiWindows",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md": "BoBxsMessageSquareDots",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python": "SiPython",
   "the-vault/zotero/My Library.bib": "EiZoteroItem",
   "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning": "EiOReilly",
@@ -270,5 +270,8 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Persist data between containers.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Containerize your application.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia": "EiWikipedia"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia": "EiWikipedia",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets": "SiGooglesheets",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/GoogleTest": "FabGoogle",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/AWS Educate": "FabAws"
 }
