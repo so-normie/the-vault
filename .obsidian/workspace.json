@@ -21,8 +21,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "d003ddaf50107b03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/How do I run a container？.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +55,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -104,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/How do I run a container？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/How do I run a container？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/How do I run a container？.md"
               }
             }
           }
@@ -199,33 +213,40 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "templater-obsidian:Templater": false,
       "flashcards-obsidian:Generate flashcards": true,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "switcher:Open quick switcher": true,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": true,
-      "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": true,
       "zk-prefixer:Create new unique note": true,
       "random-note:Open random note": true,
       "audio-recorder:Start/stop recording": true,
-      "workspaces:Manage workspace layouts": false,
       "publish:Publish changes...": true,
-      "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "omnisearch:Omnisearch": false,
       "notion-like-tables:Create loom": false,
       "custom-sort:Toggle custom sorting": false,
       "chronology:Open Chronology": false,
       "reference-map:Reference Map": false,
-      "cloze:Toggle all clozes": false
+      "cloze:Toggle all clozes": false,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "4bbd078a939f1607",
+  "active": "d003ddaf50107b03",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Persist data between containers.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Containerize your application.md",
+    "Pasted image 20231105005754.png",
     "Pasted image 20231117020633.png",
+    "Pasted image 20231119023627.png",
+    "Pasted image 20231119160217.png",
+    "Pasted image 20231119132130.png",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
@@ -256,19 +277,14 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/What is a container？.md",
     "the-vault/templates/Template {{Table of Contents}}.md",
     "the-vault/templates/Template {{Bibliography}}.md",
-    "the-vault/templates/Template {{Attempt}}.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs",
     "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning",
     "the-vault/zotero/My Library.bib",
-    "Pasted image 20231105005754.png",
     "the-vault/assets/images/docker-docs-docker-architecture.png",
     "the-vault/assets/images/Pasted image 20230913161050.png",
     "the-vault/assets/images/Pasted image 20230924131220.png",
     "the-vault/assets/images/Pasted image 20230815101404.png",
-    "the-vault/assets/images/Pasted image 20230813091946.png",
-    "the-vault/assets/images/Pasted image 20230810211121.png",
-    "the-vault/assets/images/Pasted image 20230807030022.png",
-    "the-vault/assets/images/Pasted image 20230807025824.png"
+    "the-vault/assets/images/Pasted image 20230813091946.png"
   ]
 }
