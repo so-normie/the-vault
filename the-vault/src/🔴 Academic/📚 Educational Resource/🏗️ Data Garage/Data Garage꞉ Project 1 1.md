@@ -1,6 +1,10 @@
 ---
-tags: [🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python, 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/sql]
+tags:
+  - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python
+  - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/sql
 cards-deck: Default::Computer Science
+created: 2023-11-18T02:44
+updated: 2023-11-18T02:44
 ---
 
 ## Table of Contents

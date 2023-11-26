@@ -5,7 +5,7 @@
     {
       "id": 1,
       "name": "My Library",
-      "lastUpdate": 1700960738060
+      "lastUpdate": 1700758997172
     }
   ],
   "renderCitations": true,
@@ -15,4 +15,3 @@
   "enableCiteKeyCompletion": true,
   "showCitekeyTooltips": true,
   "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/ieee-with-url.csl"
-}

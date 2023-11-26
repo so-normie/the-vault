@@ -8,7 +8,7 @@ tags:
   - study-note
 cards-deck: Default::Computer Science
 created: 2023-09-03 08:46
-updated: 2023-11-02T12:51
+updated: 2023-11-18T02:44
 ---
 
 The option {`--sourceMap`} tells the compiler that you want the source map generation. The next question is if you want them as separate files .js.map or not.

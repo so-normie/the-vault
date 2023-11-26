@@ -5,7 +5,7 @@ tags:
   - study-note
 cards-deck: Default::English
 created: 2023-09-03 08:46
-updated: 2023-11-02T12:47
+updated: 2023-11-18T02:44
 ---
 
 ce**: The spokesperson <span class="spoiler">obfuscated</span> their response to avoid giving a clear answer.

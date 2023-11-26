@@ -1,6 +1,8 @@
 ---
 title: Structy ∋ Table of Contents
 created: 2023-09-03 08:46
+updated: 2023-11-18T03:40
+author(s):
 updated: 2023-11-22T15:02
 authors:
   - Edmund Leibert III
@@ -77,6 +79,9 @@ Structy is a guided course that builds your algorithm knowledge efficiently. [@z
 ---
 
 ## :EiZoteroItem: Bibliography
+
+\[1\]
+A. Zabian, “Structy - Learn data structures and algorithms, efficiently.,” _Structy_, Sep. 30, 2023. Available: [https://www.structy.net/](https://www.structy.net/). [Accessed: Oct. 01, 2023]
 
 ---
 

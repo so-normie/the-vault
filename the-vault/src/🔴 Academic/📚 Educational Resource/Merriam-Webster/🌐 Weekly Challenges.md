@@ -5,7 +5,7 @@ tags:
   - study-note
 cards-deck: Default::English
 created: 2023-09-28 14:16
-updated: 2023-11-02T12:48
+updated: 2023-11-18T02:44
 ---
 
 # Merriam-Webster
