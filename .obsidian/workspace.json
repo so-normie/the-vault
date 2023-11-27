@@ -4,39 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f8857e31a478bac4",
+        "id": "19c872a8a893e9d4",
         "type": "tabs",
         "children": [
           {
-            "id": "2f369e372582872f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "d003ddaf50107b03",
+            "id": "19e32c342bd60966",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Containerize your application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Containerize your application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,12 +179,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Containerize your application.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -235,14 +214,15 @@
       "custom-sort:Toggle custom sorting": false,
       "chronology:Open Chronology": false,
       "reference-map:Reference Map": false,
-      "cloze:Toggle all clozes": false,
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "d003ddaf50107b03",
+  "active": "4bbd078a939f1607",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Pip.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run multi-container applications.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Pip.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md",
@@ -250,8 +230,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Walkthroughs ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run Docker Hub images.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run multi-container applications.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/How do I run a container？.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Persist data between containers.md",
