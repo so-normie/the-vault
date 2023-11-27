@@ -1,12 +1,12 @@
 ---
 title: What is a container?
 created: 2023-10-31T16:39
-updated: 2023-11-19T16:57
+updated: 2023-11-26T10:54
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/walkthroughs/overview
-  - 🔴-academic/📚-educational-resource/website
+  - 🔴-academic/📚-educational-resource/format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/docker
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkthroughs::Overview

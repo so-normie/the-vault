@@ -1,12 +1,12 @@
 ---
 title: 🗒️ Python ∋ Table of Contents
 created: 2023-10-31T16:39
-updated: 2023-11-19T18:39
+updated: 2023-11-26T10:54
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/🗒️-python/🔖/python-∋-table-of-contents
-  - 🔴-academic/📚-educational-resource/website
+  - 🔴-academic/📚-educational-resource/format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::Python::Python ∋ Table of Contents

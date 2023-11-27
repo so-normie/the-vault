@@ -1,12 +1,12 @@
 ---
 title: How do I run a container？
 created: 2023-10-31T16:39
-updated: 2023-11-19T02:11
+updated: 2023-11-26T10:54
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/walkthroughs/how-do-i-run-a-container?
-  - 🔴-academic/📚-educational-resource/website
+  - 🔴-academic/📚-educational-resource/format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/docker
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkthroughs::How do I run a container?

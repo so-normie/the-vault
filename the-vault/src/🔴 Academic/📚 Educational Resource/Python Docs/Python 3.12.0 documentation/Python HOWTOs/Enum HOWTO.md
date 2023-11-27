@@ -1,12 +1,12 @@
 ---
 title: Enum Howto
 created: 2023-10-31T17:48
-updated: 2023-11-20T06:09
+updated: 2023-11-26T10:55
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/python-docs/🔖/python-3-12-0-documentation/python-howtos/enum-howto
-  - 🔴-academic/📚-educational-resource/source-format/internet
+  - 🔴-academic/📚-educational-resource/format/internet
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::Python Docs::Python 3.12.0 documentation::Python HOWTOs::Enum HOWTO

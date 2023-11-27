@@ -1,12 +1,12 @@
 ---
 title: Run multi-container applications
 created: 2023-11-19T02:24
-updated: 2023-11-19T12:49
+updated: 2023-11-26T10:54
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides/walkthroughs/what-is-a-container?
-  - 🔴-academic/📚-educational-resource/website
+  - 🔴-academic/📚-educational-resource/format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/docker
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Walkthroughs::Run multi-container applications
