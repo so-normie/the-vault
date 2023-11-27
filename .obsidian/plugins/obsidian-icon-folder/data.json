@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "EiSystemDesignFightClub",
       "FabAws",
       "SiGooglesheets",
       "EiWikipedia",
@@ -19,8 +20,7 @@
       "EiZotero",
       "FasBook",
       "FabNode",
-      "EiPhysics",
-      "EiOReilly"
+      "EiPhysics"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -273,5 +273,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia": "EiWikipedia",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets": "SiGooglesheets",
   "the-vault/src/🔴 Academic/📚 Educational Resource/GoogleTest": "FabGoogle",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/AWS Educate": "FabAws"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/AWS Educate": "FabAws",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/System Design Fight Club": "EiSystemDesignFightClub"
 }

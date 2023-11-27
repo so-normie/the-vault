@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Obsidian ∋ Table of Contents
 created: 2023-08-20 08:26
-updated: 2023-11-22T15:06
+updated: 2023-11-26T20:21
 authors:
   - Edmund Leibert III
 tags:
@@ -17,7 +17,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Obsidian::Misc. No
 ---
 
 > [!abstract]+ 
-> Miscellaneous notes that pertain to Obsidian.
+> Miscellaneous notes pertaining to Obsidian.
 
 ---
 
