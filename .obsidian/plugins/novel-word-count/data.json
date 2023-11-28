@@ -857,15 +857,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.98,
-      "characterCount": 2013,
-      "nonWhitespaceCharacterCount": 1642,
+      "characterCount": 2027,
+      "nonWhitespaceCharacterCount": 1656,
       "readingTimeInMinutes": 1.109433962264151,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1701050676539,
-      "modifiedDate": 1701050854623,
-      "sizeInBytes": 2169
+      "modifiedDate": 1701155145893,
+      "sizeInBytes": 2167
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/🗒️ PowerShell ∋ Table of Contents.md": {
       "isCountable": true,

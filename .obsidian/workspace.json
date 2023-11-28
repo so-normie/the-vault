@@ -11,8 +11,13 @@
             "id": "d8fc2231d40b5c82",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -97,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +183,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md"
+              }
             }
           }
         ],

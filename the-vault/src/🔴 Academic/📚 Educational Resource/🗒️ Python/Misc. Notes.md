@@ -1,7 +1,7 @@
 ---
 created: 2023-11-20T04:46
-updated: 2023-11-26T13:35
-cards-deck: the-vault::src::🔴 Academic::📚 Educational Resource::🗒️ Python
+updated: 2023-11-27T23:05
+cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Python
 ---
 
 
@@ -72,4 +72,4 @@ if __name__ == '__main__':
 ```
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701155145777
