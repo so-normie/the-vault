@@ -6,6 +6,29 @@
       {
         "id": "19c872a8a893e9d4",
         "type": "tabs",
+        "dimension": 45.41446208112875,
+        "children": [
+          {
+            "id": "d9e21690f6e822c8",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              },
+              "pinned": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "b26d08752279f3a1",
+        "type": "tabs",
+        "dimension": 54.58553791887125,
         "children": [
           {
             "id": "98b881f770c00af2",
@@ -13,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/627. Swap Salary.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -78,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 456.5
+    "width": 456.5,
+    "collapsed": true
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -102,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/627. Swap Salary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/627. Swap Salary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/627. Swap Salary.md"
               }
             }
           }
@@ -224,8 +248,14 @@
   },
   "active": "98b881f770c00af2",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md",
+    "the-vault/templates/Template {{Anki Note ∋ “⋕card”}}.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/627. Swap Salary.md",
+    "the-vault/templates/Template {{Attempt ∋ “❌ Failed”}}.md",
+    "the-vault/templates/Template {{Attempt ∋ “✅ Succeeded”}}.md",
+    "the-vault/templates/Template {{Anki Note ∋ “🎴”}} 1.md",
+    "the-vault/templates/Template {{LeetCode ∋ Problem}}.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1. Two Sum.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/112. Path Sum.md",
@@ -244,17 +274,11 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/163. Missing Ranges.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Walkthroughs ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run Docker Hub images.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Persist data between containers.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Containerize your application.md",
     "Pasted image 20231105005754.png",
     "Pasted image 20231117020633.png",
     "Pasted image 20231119023627.png",
     "Pasted image 20231119160217.png",
     "Pasted image 20231119132130.png",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
     "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets",
     "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode",
