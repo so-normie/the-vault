@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiPython",
       "EiSystemDesignFightClub",
       "FabAws",
       "SiGooglesheets",
@@ -19,8 +20,7 @@
       "TiTemplate",
       "EiZotero",
       "FasBook",
-      "FabNode",
-      "EiPhysics"
+      "FabNode"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -274,5 +274,11 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets": "SiGooglesheets",
   "the-vault/src/🔴 Academic/📚 Educational Resource/GoogleTest": "FabGoogle",
   "the-vault/src/🔴 Academic/📚 Educational Resource/AWS Educate": "FabAws",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/System Design Fight Club": "EiSystemDesignFightClub"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/System Design Fight Club": "EiSystemDesignFightClub",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs": "SiPython",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation": "RiBookMarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library": "RiBookMarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/Data Types": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md": "TiNotes"
 }

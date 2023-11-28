@@ -378,65 +378,6 @@
               "title": "System Design Fight Club"
             },
             {
-              "type": "group",
-              "ctime": 1693756112016,
-              "items": [
-                {
-                  "type": "file",
-                  "ctime": 1693761211030,
-                  "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/🌐 LeetCode ▹ 📋 Table of Contents.md"
-                },
-                {
-                  "type": "group",
-                  "ctime": 1693761202276,
-                  "items": [
-                    {
-                      "type": "file",
-                      "ctime": 1693782245953,
-                      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/Problems ▹ 📋 Table of Contents.md"
-                    },
-                    {
-                      "type": "file",
-                      "ctime": 1693799696586,
-                      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/1. Two Sum.md"
-                    },
-                    {
-                      "type": "file",
-                      "ctime": 1693781989086,
-                      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/196. Delete Duplicate Emails.md"
-                    },
-                    {
-                      "type": "file",
-                      "ctime": 1693787375514,
-                      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/175. Combine Two Tables.md"
-                    },
-                    {
-                      "type": "file",
-                      "ctime": 1693789814724,
-                      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/181. Employees Earning More Than Their Managers.md"
-                    },
-                    {
-                      "type": "file",
-                      "ctime": 1693793672819,
-                      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/182. Duplicate Emails.md"
-                    },
-                    {
-                      "type": "file",
-                      "ctime": 1693793679449,
-                      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/183. Customers Who Never Order.md"
-                    },
-                    {
-                      "type": "file",
-                      "ctime": 1694218977292,
-                      "path": "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode/Problems/596. Classes More Than 5 Students.md"
-                    }
-                  ],
-                  "title": "Problems"
-                }
-              ],
-              "title": "LeetCode"
-            },
-            {
               "type": "file",
               "ctime": 1694208713683,
               "path": "🔴 Academics/📚 Educational Resources/🗒️ Obsidian.md"
