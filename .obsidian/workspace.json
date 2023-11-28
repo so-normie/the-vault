@@ -193,8 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 433.5,
-    "collapsed": true
+    "width": 433.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,8 +217,7 @@
       "notion-like-tables:Create loom": false,
       "custom-sort:Toggle custom sorting": false,
       "chronology:Open Chronology": false,
-      "reference-map:Reference Map": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "reference-map:Reference Map": false
     }
   },
   "active": "d8fc2231d40b5c82",
