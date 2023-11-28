@@ -8,19 +8,28 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d8fc2231d40b5c82",
+            "id": "06bae97ea74d8f36",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md",
-                "mode": "preview",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia/Tree traversal.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
+          },
+          {
+            "id": "a77da6707eb6c9ba",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +111,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +127,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,17 +190,16 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md"
-              }
+              "state": {}
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 433.5
+    "width": 433.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,11 +223,17 @@
       "notion-like-tables:Create loom": false,
       "custom-sort:Toggle custom sorting": false,
       "chronology:Open Chronology": false,
-      "reference-map:Reference Map": false
+      "reference-map:Reference Map": false,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "d8fc2231d40b5c82",
+  "active": "a77da6707eb6c9ba",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia/Tree traversal.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Pip.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python Docs ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/627. Swap Salary.md",
     "the-vault/templates/Template {{Anki Note ∋ “⋕card”}}.md",
@@ -240,14 +252,9 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Run multi-container applications.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Pip.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/163. Missing Ranges.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Walkthroughs ∋ Table of Contents.md",
     "Pasted image 20231105005754.png",
     "Pasted image 20231117020633.png",
     "Pasted image 20231119023627.png",

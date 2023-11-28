@@ -280,5 +280,12 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library": "RiBookMarkFill",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/The Python Standard Library/Data Types": "RiBookmarkFill",
   "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md": "TiNotes",
-  "the-vault/templates/Template {{Attempt ∋ “✅ Succeeded”}}.md": "TiTemplate"
+  "the-vault/templates/Template {{Attempt ∋ “✅ Succeeded”}}.md": "TiTemplate",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Pip.md": "TiNotes",
+  "the-vault/templates/Template {{Attempt ∋ “❌ Failed”}}.md": "TiTemplate",
+  "the-vault/templates/Template {{Bibliography}}.md": "TiTemplate",
+  "the-vault/templates/Template {{Date Created}}.md": "TiTemplate",
+  "the-vault/templates/Template {{Table of Contents}}.md": "TiTemplate",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia/Tree traversal.md": "TiNotes"
 }

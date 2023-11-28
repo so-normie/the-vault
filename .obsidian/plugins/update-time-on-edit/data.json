@@ -652,7 +652,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/🗒️ PowerShell ∋ Table of Contents.md": "6982ff3ca9b250d5d7757967ca3fafa7dc8372e46c5147b7cd5f9f77e43adaeb",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Quartz/🗒️ Quartz ∋ Table of Contents.md": "e5a740e184f874f786ad21643b5441d12a9539402c15f9bfc14a2cd849da2a36",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Rclone/🗒️ Rclone ∋ Table of Contents.md": "657de95eec0cfa84730cb798019b34bc5e1b027c77bcbea268512385c4a15d9b",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md": "2727cddbcd93912f711a4aa045df7071682261296e812ad3c075dc6379501ff7",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md": "b95558e98e4bc71a380d5a98d1ccfb04b15739536b3e54a18ce2cf8e7d171a5b",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Rust/🗒️ Rust ∋ Table of Contents.md": "980bdb82d1004d63e31136e74fc7515ef6922614df5ba60ff53b1ca77b10bc78",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Spark Optimization/Dynamic Partition Pruning.md": "0cf20e54cd09f304f3ffc2221e7615fb2355ec99e3edbd8fcecd5f756bf2c960",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Spark Optimization/Dynamic Resource Allocation.md": "71b656e40392e0214c7be47fc0fbaca0ef534f44c62854a175bddf9ed8cfea17",
@@ -913,8 +913,8 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/160. Intersection of Two Linked Lists.md": "cfc5b99bc5bc11642588c69e22ab08bf75ef5b9cf262b6c39faa0289a5a8eb53",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/163. Missing Ranges.md": "9b35ffeb8d75e9579ca2d9b02e827c1deadb9bc79f0c3719b405a44e07c161e3",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs/Enum HOWTO.md": "36fd7d90e48733afc88acd512feb473cc51c019cf51d76a054597fed1c6c7016",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia/Tree traversal.md": "42ac9d87822b2e8da4bccaa40d9c3189b8998de3d3ce39005be14aa26512d8df",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Pip.md": "8407b0b88905b3fffa14a3240b1128f534868c99bb309293f7362712cc43fbc9",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md": "7ff73d3533092827dbf1155f1c25a33e539367512439f018364be3458bd920f1"
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia/Tree traversal.md": "1f1479966bf1a77268cf7af79f3a698daf2dd209c0915aef183ffeec9a32c3dc",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Pip.md": "ac10feeb43b5885603ca746afd7d941e6288d53df9e22957caf0335787f0280e",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md": "cff731b00a8ca94a65e253a3c63e9996497b8ef8df5f07d131ca61eb30caa6b9"
   }
 }

@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Python ∋ Table of Contents
 created: 2023-10-31T16:39
-updated: 2023-11-26T10:54
+updated: 2023-11-28T10:36
 authors:
   - Edmund Leibert III
 tags:
@@ -17,7 +17,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Python::Python ∋ Table o
 ---
 
 > [!ABSTRACT]+ 
-> Miscellaneous notes pertaining to [Python](https://www.python.org/). [@WelcomePythonOrg2023]
+> Scratch notes pertaining to [Python](https://www.python.org/). [@WelcomePythonOrg2023]
 > 
 > These notes are primarily structured in a Q&A format, making it easy to follow and learn. Corresponding Anki flashcards are available, enabling efficient revision and reinforcement of the concepts.
 
@@ -33,6 +33,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Python::Python ∋ Table o
 
 - **Python**
 	- [🗒️ Python ∋ Table of Contents](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20Python/🗒️%20Python%20∋%20Table%20of%20Contents.md)
+	- [Misc. Notes](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20Python/Misc.%20Notes.md)
 	- [Pip](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20Python/Pip.md)
 
 ---
