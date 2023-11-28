@@ -4,43 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "19c872a8a893e9d4",
+        "id": "c8f35433f18f03a3",
         "type": "tabs",
-        "dimension": 45.41446208112875,
         "children": [
           {
-            "id": "d9e21690f6e822c8",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              },
-              "pinned": true
-            }
-          }
-        ]
-      },
-      {
-        "id": "b26d08752279f3a1",
-        "type": "tabs",
-        "dimension": 54.58553791887125,
-        "children": [
-          {
-            "id": "98b881f770c00af2",
+            "id": "d8fc2231d40b5c82",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/627. Swap Salary.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -101,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 456.5,
-    "collapsed": true
+    "width": 456.5
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -126,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/627. Swap Salary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/627. Swap Salary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,9 +176,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/627. Swap Salary.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -246,15 +213,15 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "98b881f770c00af2",
+  "active": "d8fc2231d40b5c82",
   "lastOpenFiles": [
-    "the-vault/templates/Template {{Anki Note ∋ “⋕card”}}.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/627. Swap Salary.md",
+    "the-vault/templates/Template {{Anki Note ∋ “⋕card”}}.md",
     "the-vault/templates/Template {{Attempt ∋ “❌ Failed”}}.md",
     "the-vault/templates/Template {{Attempt ∋ “✅ Succeeded”}}.md",
     "the-vault/templates/Template {{Anki Note ∋ “🎴”}} 1.md",
     "the-vault/templates/Template {{LeetCode ∋ Problem}}.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1. Two Sum.md",
