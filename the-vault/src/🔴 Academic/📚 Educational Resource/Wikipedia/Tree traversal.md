@@ -1,13 +1,13 @@
 ---
 title: Tree traversal
 created: 2023-11-20T06:20
-updated: 2023-11-28T10:59
+updated: 2023-11-28T14:46
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/wikipedia/🔖/tree-traversal
   - 🔴-academic/📚-educational-resource/format/website
-  - 🔴-academic/📚-educational-resource/format/website
+  - 🔴-academic/📚-educational-resource/discipline/computer-science/data-structures-and-algorithms/tree
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::Wikipedia::Tree traversal
 ---

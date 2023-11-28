@@ -402,7 +402,10 @@
     "🔴-academic/📚-educational-resource/name/leetcode/problems/tag": 13,
     "🔴-academic/📚-educational-resource/name/leetcode/problems/tag/topic": 1,
     "🔴-academic/📚-educational-resource/name/leetcode/🔖/problems/627-swap-salary": 6,
-    "": 9
+    "": 9,
+    "🔴-academic/📚-educational-resource/discipline/computer-science/data-structure-and-algorithms": 7,
+    "🔴-academic/📚-educational-resource/discipline/computer-science/data-structures-and-algorithms": 8,
+    "🔴-academic/📚-educational-resource/discipline/computer-science/data-structures-and-algorithms/tree": 1
   },
   "_version": 2
 }

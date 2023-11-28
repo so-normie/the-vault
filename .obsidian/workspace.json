@@ -14,22 +14,13 @@
               "type": "markdown",
               "state": {
                 "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia/Tree traversal.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
-          },
-          {
-            "id": "a77da6707eb6c9ba",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -87,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 456.5
+    "width": 456.5,
+    "collapsed": true
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -198,12 +190,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 433.5,
-    "collapsed": true
+    "width": 433.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,10 +218,11 @@
       "notion-like-tables:Create loom": false,
       "custom-sort:Toggle custom sorting": false,
       "chronology:Open Chronology": false,
-      "reference-map:Reference Map": false
+      "reference-map:Reference Map": false,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "a77da6707eb6c9ba",
+  "active": "06bae97ea74d8f36",
   "lastOpenFiles": [
     "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia/Tree traversal.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Pip.md",
@@ -277,4 +269,6 @@
     "the-vault/assets/images/Pasted image 20230913161050.png",
     "the-vault/assets/images/Pasted image 20230924131220.png",
     "the-vault/assets/images/Pasted image 20230815101404.png",
-    "the-vault/assets/images/Pasted image 20
+    "the-vault/assets/images/Pasted image 20230813091946.png"
+  ]
+}
