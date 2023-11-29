@@ -1,9 +1,7 @@
 ---
 title: Structy ∋ Table of Contents
 created: 2023-09-03 08:46
-updated: 2023-11-18T03:40
-author(s):
-updated: 2023-11-22T15:02
+updated: 2023-11-28T15:43
 authors:
   - Edmund Leibert III
 tags:
