@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Obsidian ∋ Table of Contents
 created: 2023-08-20 08:26
-updated: 2023-12-01T11:56
+updated: 2023-12-01T12:02
 authors:
   - Edmund Leibert III
 tags:
@@ -89,7 +89,7 @@ What symbol should I use as an alternate to the forward slash (i.e., `/`) for fi
 
 #card
 
-Should use the **fraction slash** symbol… `⁄`. 
+Should use the **fraction slash** symbol… `⁄`. [@SlashPunctuationWikipedia] 
 
 ⌂
 <br>﹈<br>^1700212810133
@@ -154,6 +154,13 @@ Should use the following symbol… `？`
 
 ⌂
 <br>﹈<br>^1700212962949
+
+---
+
+## :EiZoteroItem: Bibliography
+
+\[1\]
+“Slash (punctuation) - Wikipedia.” Available: [https://en.wikipedia.org/wiki/Slash_(punctuation)](https://en.wikipedia.org/wiki/Slash_(punctuation)). [Accessed: Dec. 01, 2023]
 
 ---
 
