@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md"
               }
             }
           }
@@ -218,13 +218,14 @@
       "notion-like-tables:Create loom": false,
       "custom-sort:Toggle custom sorting": false,
       "chronology:Open Chronology": false,
-      "reference-map:Reference Map": false
+      "reference-map:Reference Map": false,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
   "active": "06bae97ea74d8f36",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Exce/Exce ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Exce/Exce ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Exce",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs/Enum HOWTO.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",

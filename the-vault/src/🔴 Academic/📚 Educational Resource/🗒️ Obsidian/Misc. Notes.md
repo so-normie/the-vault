@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Obsidian ∋ Table of Contents
 created: 2023-08-20 08:26
-updated: 2023-11-26T20:21
+updated: 2023-12-01T11:56
 authors:
   - Edmund Leibert III
 tags:
@@ -89,7 +89,7 @@ What symbol should I use as an alternate to the forward slash (i.e., `/`) for fi
 
 #card
 
-Should use the following symbol… `⟋`
+Should use the **fraction slash** symbol… `⁄`. 
 
 ⌂
 <br>﹈<br>^1700212810133
