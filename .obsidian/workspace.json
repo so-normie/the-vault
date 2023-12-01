@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md"
               }
             }
           }
@@ -218,12 +218,15 @@
       "notion-like-tables:Create loom": false,
       "custom-sort:Toggle custom sorting": false,
       "chronology:Open Chronology": false,
-      "reference-map:Reference Map": false
+      "reference-map:Reference Map": false,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
   "active": "73f77c85f01a61a4",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/DE Grind Crew/DE Grind Crew ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/DE Grind Crew",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Exce/Exce ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Exce",
@@ -249,7 +252,6 @@
     "the-vault/templates/Template {{Anki Note ∋ “🎴”}} 1.md",
     "the-vault/templates/Template {{LeetCode ∋ Problem}}.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1. Two Sum.md",
     "Pasted image 20231105005754.png",
     "Pasted image 20231117020633.png",
     "Pasted image 20231119023627.png",
@@ -263,7 +265,6 @@
     "Untitled.loom",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning",
     "the-vault/assets/images/docker-docs-docker-architecture.png",
     "the-vault/assets/images/Pasted image 20230913161050.png",
     "the-vault/assets/images/Pasted image 20230924131220.png",
