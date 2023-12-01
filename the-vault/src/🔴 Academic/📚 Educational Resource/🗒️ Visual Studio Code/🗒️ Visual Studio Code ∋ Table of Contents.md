@@ -1,12 +1,13 @@
 ---
 title: 🗒️ Visual Studio Code
 created: 2023-09-25 16:03
-updated: 2023-11-02T15:14
+updated: 2023-11-18T02:44
+updated: 2023-11-22T11:02
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/🗒️-visual-studio-code
-  - 🔴-academic/📚-educational-resource/source-format/internet
+  - 🔴-academic/📚-educational-resource/format/internet
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/visual-studio-code
   - 🔴-academic/📚-educational-resource/name/🗒️-visual-studio-code/🔖-bookmark/🗒️-visual-studio-code-▹-📋-table-of-contents
   - study-note

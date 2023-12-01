@@ -1,3 +1,6 @@
 [submodule ".obsidian/plugins/flashcards-obsidian"]
 	path = .obsidian/plugins/flashcards-obsidian
 	url = https://github.com/edmund-leibert/flashcards-obsidian.git
+[submodule ".obsidian/plugins/obsidian-cloze-plugin"]
+	path = .obsidian/plugins/obsidian-cloze-plugin
+	url = git@eleibert-github.com:edmund-leibert/obsidian-cloze-plugin.git

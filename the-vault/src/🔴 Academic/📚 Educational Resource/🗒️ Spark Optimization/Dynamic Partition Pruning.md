@@ -1,8 +1,9 @@
 ---
 created: 2023-09-14 09:51
-updated: 2023-10-10 23:28
+updated: 2023-11-18T02:44
+updated: 2023-11-22T13:50
 tags:
-  - 🔴-academic/📚-educational-resource/discipline/computer-science/spark
+  - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/apache-spark
 cards-deck: Default::Computer Science
 ---
 Dynamic Partition Pruning (DPP) is a technique used in Apache Spark to optimize query performance when working with partitioned tables or data. It helps reduce the amount of data that needs to be scanned during query execution by eliminating unnecessary partitions. This can significantly speed up query processing, especially for large datasets.

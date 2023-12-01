@@ -1,7 +1,7 @@
 ---
 title: Part 2꞉ Containerize an application
 created: 2023-10-31T17:48
-updated: 2023-11-16T23:07
+updated: 2023-11-18T03:19
 authors:
   - Edmund Leibert III
 tags:
@@ -33,7 +33,7 @@ cards-deck: "🔴 Academic::📚 Educational Resource::Docker Docs::Guides::Get 
 ## Build the app's image
 
 To {1:build the image}, you'll need to use a {2:Dockerfile}. 
-^1699320877568
+^1700306355234
 
 ﹇<br>
 What is a Dockerfile?
@@ -97,11 +97,12 @@ The `-p` flag (short for `--publish`) creates a port mapping between the host
 <br>﹈<br>^1699320858038
 
 Run the following {1:`docker ps`} command in a terminal to {2:list your containers}.
+^1700306355240
 
 ---
 
 > [!INFO]+ 
 > **Next Note(s)**:
-> - 
+> 
 
 ---

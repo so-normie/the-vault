@@ -8,22 +8,6 @@
       "key": "I"
     }
   ],
-  "editor:swap-line-up": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "ArrowUp"
-    }
-  ],
-  "editor:swap-line-down": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "ArrowDown"
-    }
-  ],
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
@@ -87,5 +71,25 @@
       "key": "R"
     }
   ],
-  "templater-obsidian:replace-in-file-templater": []
+  "templater-obsidian:replace-in-file-templater": [],
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "obsidian-citation-plugin:insert-citation": [],
+  "obsidian-citation-plugin:open-literature-note": []
 }

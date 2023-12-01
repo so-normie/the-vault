@@ -1,12 +1,12 @@
 ---
 title: Misc. Notes
 created: 2023-11-14T23:35
-updated: 2023-11-14T23:38
+updated: 2023-11-22T15:06
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/conda/misc-notes
-  - 🔴-academic/📚-educational-resource/source-format/internet/website
+  - 🔴-academic/📚-educational-resource/format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/conda
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::Conda::Misc. Notes

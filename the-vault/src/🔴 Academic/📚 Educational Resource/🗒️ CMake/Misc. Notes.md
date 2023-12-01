@@ -1,12 +1,13 @@
 ---
 title: Misc. Notes
 created: 2023-09-12 03:27
-updated: 2023-11-02T12:51
+updated: 2023-11-18T02:44
+updated: 2023-11-22T11:02
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/🗒️-cmake/misc-notes
-  - 🔴-academic/📚-educational-resource/source-format/miscellaneous
+  - 🔴-academic/📚-educational-resource/format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/cmake
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ CMake::Misc. Notes

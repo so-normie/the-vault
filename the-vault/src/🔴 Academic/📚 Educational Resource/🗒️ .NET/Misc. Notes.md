@@ -7,7 +7,7 @@ tags:
   - study-note
 cards-deck: Default::Computer Science
 created: 2023-09-03 08:46
-updated: 2023-11-01T00:59
+updated: 2023-11-18T02:44
 ---
 
 Using the [DocTo](https://github.com/tobya/DocTo) library, how can I export a .docx to a .pdf in the command line? #card 

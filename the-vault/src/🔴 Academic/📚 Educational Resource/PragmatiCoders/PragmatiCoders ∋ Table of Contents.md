@@ -1,12 +1,13 @@
 ---
 title: PragmatiCoders ∋ Table of Contents
 created: 2023-11-14T14:30
-updated: 2023-11-16T15:44
+updated: 2023-11-29T00:07
+authors:
+  - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/pragmaticoders/pragmaticoders-∋-table-of-contents
+  - 🔴-academic/📚-educational-resource/name/pragmaticoders/🔖/pragmaticoders-∋-table-of-contents
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource️::PragmatiCoders::PragmatiCoders ∋ Table of Contents
-icon: ListOI
 ---
 
 # PragmatiCoders ∋ Table of Contents
@@ -14,48 +15,22 @@ icon: ListOI
 ---
 
 > [!abstract]+ 
-> 
+> Miscellaneous notes pertaining to the [PragmatiCoders Discord server](https://discord.gg/xQwh3TP2).
 
 ---
 
 > [!info]+ 
 > **Previous Note(s):**
-> - 
+>
 
 ---
-## :BoBxBook: Problem
 
-## :FarCompass: Approach
+## Table of Contents
+- [Misc. Notes](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/PragmatiCoders/Misc.%20Notes.md)
 
-## :LiVideo: Walkthrough
+---
 
-### :SiCplusplus: C++
-
-### :SiPython: Python
-
-### :SiJavascript: JavaScript
-
-### :FabJava: Java
-
-## :FarLightbulb: Solution
-
-### :SiCplusplus: C++
-
-### :SiPython: Python
-
-### :SiJavascript: JavaScript
-
-### :FabJava: Java
-
-## :RiHistoryLine: Submissions
-
-### :SiCplusplus: C++
-
-### :SiPython: Python
-
-### :SiJavascript: JavaScript
-
-### :FabJava: Java
+## :EiZoteroItem: Bibliography
 
 ---
 
@@ -64,8 +39,3 @@ icon: ListOI
 > 
 
 ---
-
-
-
-
-f

@@ -1,12 +1,12 @@
 ---
 title: Structy ∋ Table of Contents
 created: 2023-09-03 08:46
-updated: 2023-11-16T22:53
-author(s):
+updated: 2023-11-28T15:43
+authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/name/structy/structy-∋-table-of-contents
-  - 🔴-academic/📚-educational-resource/course
+  - 🔴-academic/📚-educational-resource/name/structy/🔖/structy-∋-table-of-contents
+  - 🔴-academic/📚-educational-resource/format/course
   - 🔴-academic/📚-educational-resource/discipline/computer-science
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::Structy::Structy ∋ Table of Contents
@@ -73,6 +73,13 @@ Structy is a guided course that builds your algorithm knowledge efficiently. [@z
 	- **6. Stack**
 	- **7. Exhaustive Recursion**
 	- **8. Mixed Recall**
+
+---
+
+## :EiZoteroItem: Bibliography
+
+\[1\]
+A. Zabian, “Structy - Learn data structures and algorithms, efficiently.,” _Structy_, Sep. 30, 2023. Available: [https://www.structy.net/](https://www.structy.net/). [Accessed: Oct. 01, 2023]
 
 ---
 

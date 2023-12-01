@@ -11,10 +11,11 @@
     "header-font-size",
     "code",
     "callouts",
-    "icons"
+    "icons",
+    "bibliography-list"
   ],
   "monospaceFontFamily": "CaskaydiaCove Nerd Font",
   "textFontFamily": "Atkinson Hyperlegible",
   "cssTheme": "Minimal",
-  "baseFontSize": 13
+  "baseFontSize": 16
 }

@@ -3,10 +3,10 @@ title: Click and Build꞉ Build Extensible and Composable CLI Apps
 authors:
   - Edmund Leibert III
 created: 2023-11-14T19:56
-updated: 2023-11-16T22:37
+updated: 2023-11-22T11:02
 tags:
   - 🔴-academic/📚-educational-resource/name/real-python/click-and-build-build-extensible-and-composable-cli-apps
-  - 🔴-academic/📚-educational-resource/source-format/website
+  - 🔴-academic/📚-educational-resource/format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python
   - 🔴-academic/📚-educational-resource/discipline/computer-science/library/click
   - 🔴-academic/📚-educational-resource/name/real-python/🏷️/topic/devops

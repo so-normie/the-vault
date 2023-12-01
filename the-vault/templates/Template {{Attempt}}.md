@@ -1,3 +1,0 @@
-**Attempt #1** • 📆 <% tp.date.now("YYYY-MM-DD HH:mm Z") %> • ✅ Succeeded • ⏱️ 0:00:00 • \[Author(s): Edmund Leibert III\]
-
-

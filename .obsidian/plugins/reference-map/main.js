@@ -54838,6 +54838,43 @@ function makeFileName(metaData, fileNameFormat) {
 function replaceIllegalFileNameCharactersInString(text) {
   return text.replace(/[\\,#%&{}/*<>$":@?.]/g, "").replace(/\s+/g, " ");
 }
+async function getCanvasContent(fileCache) {
+  let content = "";
+  const canvasJson = JSON.parse(fileCache);
+  const nodes = canvasJson == null ? void 0 : canvasJson.nodes;
+  if (nodes) {
+    for (const node of nodes) {
+      switch (node.type) {
+        case "text": {
+          content += (node == null ? void 0 : node.text) ? node == null ? void 0 : node.text : "";
+          break;
+        }
+        case "link": {
+          content += (node == null ? void 0 : node.url) ? node == null ? void 0 : node.url : "";
+          break;
+        }
+        case "file": {
+          if (node.file) {
+            try {
+              const file = this.app.vault.getAbstractFileByPath(node.file);
+              if (file instanceof import_obsidian.TFile) {
+                const temContent = await app.vault.read(file);
+                content += temContent;
+              } else {
+                content += (node == null ? void 0 : node.file) ? node == null ? void 0 : node.file : "";
+              }
+            } catch (err) {
+              content += "";
+            }
+          }
+          break;
+        }
+      }
+    }
+    fileCache += content;
+  }
+  return fileCache;
+}
 
 // src/lang/locale/ar.ts
 var ar_default = {};
@@ -54883,7 +54920,7 @@ var en_default = {
   HIDE_SHOW_REDUNDANT_REFERENCES: "Show or Hide Redundant Items",
   HIDE_SHOW_REDUNDANT_REFERENCES_DESC: "Show or Hide references with no cited and citation count<br><b> Toggle ON:</b> Redundant entries will be hidden<br><b> Toggle OFF:</b> Redundant entries will be listed",
   LOOKUP_ENTRIES_LINKED_FILES: "Lookup Entries in Linked Files",
-  LOOKUP_ENTRIES_LINKED_FILES_DESC: "Include entries fround in the linked files.<br>Enabling will also hide the location indicators. This feature is not included for canvas<br><b>Toggle ON:</b> Enable lookup in linked files<br><b>Toggle OFF:</b> Disable lookup in linked files",
+  LOOKUP_ENTRIES_LINKED_FILES_DESC: "Include entries fround in the linked files.<br>Enabling will also hide the location indicators.<br><b>Toggle ON:</b> Enable lookup in linked files<br><b>Toggle OFF:</b> Disable lookup in linked files",
   SEARCH_TITLE: "Get Using File Name",
   SEARCH_TITLE_DESC: "Find references using the markdown file name in addition to entries in the file.<br><b>Toggle ON:</b> Get using file name is enabled<br><b>Toggle OFF:</b> Get using file name disabled",
   SEARCH_LIMIT: "Get Limit",
@@ -56310,8 +56347,16 @@ var SidebarView = class extends import_obsidian6.ItemView {
       var _a;
       const activeFile = this.app.workspace.getActiveFile();
       const settings = this.plugin.settings;
+      let fileCache = "";
       if (activeFile) {
-        let fileCache = await this.app.vault.cachedRead(activeFile);
+        try {
+          fileCache = await this.app.vault.read(activeFile);
+        } catch (e) {
+          fileCache = await this.app.vault.cachedRead(activeFile);
+        }
+        if (activeFile.extension === "canvas") {
+          fileCache += await getCanvasContent(fileCache);
+        }
         if (settings.lookupLinkedFiles) {
           const linkedFiles = getLinkedFiles(activeFile);
           for (const file of linkedFiles) {
@@ -56457,7 +56502,7 @@ var getPaperIds = (content) => {
   }
   if (doi_matches) {
     for (const match of doi_matches) {
-      output.push(match.replace(/\)+$|\]+$|\*+$|_+$|`+$/, ""));
+      output.push(match.replace(/\)+$|\]+$|\*+$|_+$|`+$|\.+$|,+$/, ""));
     }
   }
   return new Set(output.sort());
@@ -67565,19 +67610,26 @@ var GraphView = class extends import_obsidian7.ItemView {
   constructor(leaf, plugin) {
     super(leaf);
     this.onUnload = () => {
-      events_default.off(EVENTS.UPDATE, () => {
-      });
+      events_default.off(EVENTS.UPDATE, () => this.openGraph());
     };
     this.prepare = async (activeFile) => {
       const settings = this.plugin.settings;
       let isUpdate = false;
+      let fileCache = "";
       if (activeFile) {
         let isFm = false;
         let isFn = false;
         let isIdx = false;
         let isCite = false;
         this.updateChecker.basename = activeFile.basename;
-        let fileCache = await this.app.vault.cachedRead(activeFile);
+        try {
+          fileCache = await this.app.vault.read(activeFile);
+        } catch (e) {
+          fileCache = await this.app.vault.cachedRead(activeFile);
+        }
+        if (activeFile.extension === "canvas") {
+          fileCache += await getCanvasContent(fileCache);
+        }
         if (settings.lookupLinkedFiles) {
           const linkedFiles = getLinkedFiles(activeFile);
           for (const file of linkedFiles) {

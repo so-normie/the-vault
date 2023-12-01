@@ -1,14 +1,13 @@
 ---
 title: Misc. Notes
 created: 2023-11-14T14:30
-updated: 2023-11-16T15:46
+updated: 2023-11-29T00:08
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/name/structy/0-introduction/
+  - 🔴-academic/📚-educational-resource/name/pragmaticoders/🔖/misc-notes
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::PragmatiCoders::Misc. Notes
-icon: BoBxsMessageSquareDots
 ---
 
 # Misc. Notes
@@ -167,7 +166,7 @@ The `+`, `-`, `#` and `~` symbols before an attribute and operation name in a cl
 - `~` denotes package attributes or operations
 
 ⌂
-<br>﹈<br>^1700012792711
+<br>﹈<br>^1701245322883
 
 {1:`+`} denotes {2:public} attributes or operations
 ^1700012792744
@@ -180,6 +179,26 @@ The `+`, `-`, `#` and `~` symbols before an attribute and operation name in a cl
 
 {1:`~`} denotes {2:package} attributes or operations
 ^1700012792767
+
+﹇<br>
+What does “feeding a new table mean in the context of data engineering”?
+
+#card 
+
+In the context of data engineering, “feeding a new table” typically refers to the process of populating a newly created database table with data. This can be done through various methods such as:
+
+- **Data ingestion**: This is the process of obtaining and importing data for immediate use or storage in a database. [The data could be streaming in real time or ingested in batches](https://en.wikipedia.org/wiki/Data_engineering)[1](https://en.wikipedia.org/wiki/Data_engineering).
+- [**Data transformation**: This involves converting the data from the format it is ingested in into a format that can be used for further processing](https://en.wikipedia.org/wiki/Data_engineering)[2](https://mindtitan.com/resources/blog/what-is-data-engineering/).
+- [**Data loading**: This is the process of writing the data into the target database](https://en.wikipedia.org/wiki/Data_engineering)[2](https://mindtitan.com/resources/blog/what-is-data-engineering/).
+
+[The data used to feed the new table can come from various sources such as existing databases, data warehouses, external data sources, or real-time data streams](https://en.wikipedia.org/wiki/Data_engineering)[1](https://en.wikipedia.org/wiki/Data_engineering)[2](https://mindtitan.com/resources/blog/what-is-data-engineering/). [The specific method and tools used to feed a new table can vary depending on the specific requirements of the data engineering task](https://en.wikipedia.org/wiki/Data_engineering)[1](https://en.wikipedia.org/wiki/Data_engineering)[2](https://mindtitan.com/resources/blog/what-is-data-engineering/).
+
+⌂
+<br>﹈<br>^1701245287787
+
+---
+
+## :EiZoteroItem: Bibliography
 
 ---
 

@@ -1,9 +1,10 @@
 ---
 tags:
-  - 🔴-academic/📚-educational-resource/discipline/computer-science/spark
+  - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/apache-spark
 cards-deck: Default::Computer Science
 created: 2023-09-12 11:38
-updated: 2023-11-02T12:51
+updated: 2023-11-18T02:44
+updated: 2023-11-22T13:50
 ---
 
 ry is typically divided into different regions, such as storage memory and execution memory. When one excessive large partition is processed in an executor, it can lead to out-of-memory errors due to several reasons:

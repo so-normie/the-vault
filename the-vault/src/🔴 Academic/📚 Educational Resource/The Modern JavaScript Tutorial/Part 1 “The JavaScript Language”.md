@@ -5,7 +5,7 @@ tags:
   - study-note
 cards-deck: Default::Computer Science
 created: 2023-10-13T01:57
-updated: 2023-10-31T14:46
+updated: 2023-11-18T02:44
 ---
 
 # The Modern JavaScript Tutorial
