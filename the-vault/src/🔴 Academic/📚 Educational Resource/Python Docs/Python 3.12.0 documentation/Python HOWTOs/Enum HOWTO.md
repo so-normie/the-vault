@@ -1,7 +1,7 @@
 ---
 title: Enum Howto
 created: 2023-10-31T17:48
-updated: 2023-11-26T10:55
+updated: 2023-11-29T09:10
 authors:
   - Edmund Leibert III
 tags:
@@ -75,6 +75,104 @@ So, symbolic names in Enums help improve the readability and understandability o
 
 ⌂
 <br>﹈<br>^1700485874258
+
+In Python, {1:`def`} is used to {2:define a function}, while {3:`class`} is used to {4:define a class}.
+^1701277546102
+
+﹇<br>
+In Python, can we have functions, within classes, be the same name as the class they’re in? Similar to how constructors work in C++?
+
+#card 
+
+In Python, constructors are defined using the `__init__` method, which is a special method that gets called when an object is instantiated. It’s similar to a constructor in C++. Here’s an example:
+
+```python
+class MyClass:
+    def __init__(self):
+        print("This is the constructor")
+```
+
+In this example, `__init__` is the constructor for `MyClass`. When you create an instance of `MyClass`, the message “This is the constructor” will be printed.
+
+Unlike C++, Python doesn’t allow multiple constructors with different parameters. However, you can achieve similar functionality by providing default values for your parameters or by using `*args` or `**kwargs` to accept a variable number of arguments. Here’s an example:
+
+```python
+class MyClass:
+    def __init__(self, param1=None, param2=None):
+        self.param1 = param1
+        self.param2 = param2
+```
+
+In this example, `param1` and `param2` are optional. If you don’t provide them when creating an instance of `MyClass`, they will be `None`.
+
+So, while you can’t have functions within classes with the same name to signal constructors like in C++, you can use the `__init__` method and optional parameters to achieve similar functionality.
+
+⌂
+<br>﹈<br>^1701277546117
+
+﹇<br>
+What is the difference between Python and C++ in terms of constructors?
+
+#card #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/cpp 
+
+Unlike C++, Python doesn’t allow multiple constructors with different parameters.
+
+⌂
+<br>﹈<br>^1701277546128
+
+﹇<br>
+In Python, how can you achieve similar functionality to multiple constructors like in C++?
+
+#card 
+
+You can achieve similar functionality by providing default values for your parameters or by using `*args` or `**kwargs` to accept a variable number of arguments.
+
+For example:
+
+```python
+class MyClass:
+    def __init__(self, param1=None, param2=None):
+        self.param1 = param1
+        self.param2 = param2
+```
+
+In this example, `param1` and `param2` are optional. If you don’t provide them when creating an instance of `MyClass`, they will be `None`.
+
+So, while you can’t have functions within classes with the same name to signal constructors like in C++, you can use the `__init__` method and optional parameters to achieve similar functionality.
+
+⌂
+<br>﹈<br>^1701277546138
+
+﹇<br>
+Can you overload a function in Python, like in C++? 
+
+#card #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/cpp 
+
+[In Python, function overloading in the same way as in C++ or Java is not directly supported](https://stackoverflow.com/questions/7113032/overloaded-functions-in-python)[1](https://stackoverflow.com/questions/7113032/overloaded-functions-in-python)[2](https://stackoverflow.com/questions/75326378/function-overloading-in-python). [This means you can’t have multiple definitions of the same function with different numbers or types of parameters](https://www.geeksforgeeks.org/python-method-overloading/)[3](https://www.geeksforgeeks.org/python-method-overloading/). [If you try to define a function more than once, only the most recent definition will be used](https://www.geeksforgeeks.org/python-method-overloading/)[3](https://www.geeksforgeeks.org/python-method-overloading/).
+
+[However, there are ways to achieve similar functionality to function overloading in Python](https://stackoverflow.com/questions/7113032/overloaded-functions-in-python)[1](https://stackoverflow.com/questions/7113032/overloaded-functions-in-python)[3](https://www.geeksforgeeks.org/python-method-overloading/):
+
+1. **Default and Optional Parameters**: You can define a function with default values for some parameters. [This allows you to call the function with different numbers of arguments](https://stackoverflow.com/questions/7113032/overloaded-functions-in-python)[1](https://stackoverflow.com/questions/7113032/overloaded-functions-in-python). For example:
+
+```python
+def func(a, b, c=None):
+    if c is None:
+        return a + b
+    else:
+        return a + b + c
+```
+
+2. [**Variable-length Arguments**: You can define a function that takes a variable number of arguments by using `*args` for positional arguments and `**kwargs` for keyword arguments](https://stackoverflow.com/questions/7113032/overloaded-functions-in-python)[1](https://stackoverflow.com/questions/7113032/overloaded-functions-in-python).
+    
+3. [**Single Dispatch Generic Functions**: In Python 3.4 and later, you can use the `functools.singledispatch` decorator to create a generic function that dispatches on the type of the first argument](https://stackoverflow.com/questions/7113032/overloaded-functions-in-python)[1](https://stackoverflow.com/questions/7113032/overloaded-functions-in-python).
+    
+4. [**Multiple Dispatch Decorator**: You can use the `multipledispatch` library to create functions that dispatch on the types of multiple arguments](https://stackoverflow.com/questions/7113032/overloaded-functions-in-python)[3](https://www.geeksforgeeks.org/python-method-overloading/).
+    
+
+[Remember, Python is a dynamically-typed language, so the need for function overloading is less than in statically-typed languages like C++](https://stackoverflow.com/questions/7113032/overloaded-functions-in-python)[1](https://stackoverflow.com/questions/7113032/overloaded-functions-in-python).
+
+⌂
+<br>﹈<br>^1701277824442
 
 ﹇<br>
 In the following code snippet, could you please explain what is happening? Specifically, I’m interested in the portion `Weekday(Enum)`.

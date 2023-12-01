@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiMicrosoftexcel",
       "SiPython",
       "EiSystemDesignFightClub",
       "FabAws",
@@ -19,8 +20,7 @@
       "TiNotes",
       "TiTemplate",
       "EiZotero",
-      "FasBook",
-      "FabNode"
+      "FasBook"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
