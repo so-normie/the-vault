@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Python ∋ Table of Contents
 created: 2023-10-31T16:39
-updated: 2023-11-28T10:36
+updated: 2023-12-02T23:21
 authors:
   - Edmund Leibert III
 tags:
@@ -31,7 +31,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Python::Python ∋ Table o
 
 ## :FasListOl: Table of Contents
 
-- **Python**
+- **🗒️ Python**
 	- [🗒️ Python ∋ Table of Contents](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20Python/🗒️%20Python%20∋%20Table%20of%20Contents.md)
 	- [Misc. Notes](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20Python/Misc.%20Notes.md)
 	- [Pip](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20Python/Pip.md)

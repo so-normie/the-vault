@@ -11,10 +11,11 @@ sorting-spec: |-
   🗒️ Bash
   🗒️ Python
   DE Grind Crew
+  🗒️ Bazel
   %
   sortspec
 created: 2023-09-03 08:46
-updated: 2023-12-01T15:21
+updated: 2023-12-02T23:17
 ---
 
 

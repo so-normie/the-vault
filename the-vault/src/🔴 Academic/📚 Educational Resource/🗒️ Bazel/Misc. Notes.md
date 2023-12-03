@@ -1,18 +1,18 @@
 ---
-title: 🗒️ Bazel ∋ Table of Contents
+title: Misc. Notes
 created: 2023-10-31T16:39
-updated: 2023-12-02T23:19
+updated: 2023-12-02T23:22
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/name/🗒️-bazel/🔖/bazel-∋-table-of-contents
+  - 🔴-academic/📚-educational-resource/name/🗒️-bazel/🔖/misc-notes
   - 🔴-academic/📚-educational-resource/format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/bazel
   - study-note
-cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Bazel::🗒️ Bazel ∋ Table of Contents
+cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Bazel::Misc. Notes
 ---
 
-# 🗒️ Bazel ∋ Table of Contents
+# Misc. Notes
 
 ---
 
@@ -30,10 +30,14 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Bazel::🗒️ Baz
 ---
 
 ## :FasListOl: Table of Contents
+- **🗒️ Bazel**
+	- [Misc. Notes](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20Bazel/Misc.%20Notes.md)
 
 ---
 
 ## :EiZoteroItem: Bibliography
+
+\[1\] “Bazel,” _Bazel_. Available: [https://bazel.build/](https://bazel.build/). [Accessed: Dec. 03, 2023]
 
 ---
 
