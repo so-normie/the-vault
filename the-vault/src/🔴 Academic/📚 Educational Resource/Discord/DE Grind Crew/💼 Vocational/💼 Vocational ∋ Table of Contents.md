@@ -1,7 +1,7 @@
 ---
-title: 🗒️ DE Grind Crew ∋ Table of Contents
-created: 2023-10-31T16:39
-updated: 2023-12-03T15:08
+title: 💼 Vocational ∋ Table of Contents
+created: 2023-12-03T15:08
+updated: 2023-12-03T15:14
 authors:
   - Edmund Leibert III
 tags:
@@ -11,7 +11,7 @@ tags:
 cards-deck: 🔴 Academic::📚 Educational Resource::Discord::De Grind Crew::DE Grind Crew ∋ Table of Contents
 ---
 
-# DE Grind Crew ∋ Table of Contents
+# 💼 Vocational ∋ Table of Contents
 
 ---
 
@@ -25,21 +25,5 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Discord::De Grind Crew::DE
 > [!INFO]+ 
 > **Previous Note(s):**
 > 
-
----
-
-## :FasListOl: Table of Contents
-
-- **DE Grind Crew**
-
----
-
-## :EiZoteroItem: Bibliography
-
-
----
-
-> [!INFO]+
-> **Next Note(s):**
 
 ---

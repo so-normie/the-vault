@@ -6,6 +6,8 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiNotes",
+      "FasHashtag",
       "SiDiscord",
       "EiBazel",
       "EiDEGrindCrew",
@@ -18,9 +20,7 @@
       "SiWikipedia",
       "FabGoogle",
       "SiVim",
-      "RiBookMarkFill",
-      "RiBookmarkFill",
-      "TiNotes"
+      "RiBookMarkFill"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -292,5 +292,7 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel/Misc. Notes.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/Misc. Notes.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Discord": "SiDiscord",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew": "EiDEGrindCrew"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew": "EiDEGrindCrew",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational/📒interview-questions.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational": "RiBookmarkFill"
 }
