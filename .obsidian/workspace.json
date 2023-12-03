@@ -13,21 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/DE Grind Crew ∋ Table of Contents.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b2ace9936e9a4f3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md",
-                "mode": "preview",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational/📒interview-questions.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -115,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/DE Grind Crew ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational/📒interview-questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/DE Grind Crew ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational/📒interview-questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/DE Grind Crew ∋ Table of Contents.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational/📒interview-questions.md"
               }
             }
           }
@@ -206,7 +193,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 433.5
+    "width": 433.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,23 +224,23 @@
   },
   "active": "9bd0924dd9af8225",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/Discord ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational/💼 Vocational ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/DE Grind Crew ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational/📒interview-questions.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/DE Grind Crew ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel/🗒️ Bazel ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/Discord ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python Docs ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/🗒️ PowerShell ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel/🗒️ Bazel ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Anaconda/🗒️ Anaconda ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Angular/🗒️ Angular ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Exce/Exce ∋ Table of Contents.md",

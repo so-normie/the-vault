@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Obsidian ∋ Table of Contents
 created: 2023-08-20 08:26
-updated: 2023-12-01T12:02
+updated: 2023-12-03T15:34
 authors:
   - Edmund Leibert III
 tags:
@@ -17,7 +17,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Obsidian::Misc. No
 ---
 
 > [!abstract]+ 
-> Miscellaneous notes pertaining to Obsidian.
+> Miscellaneous scratch notes pertaining to Obsidian.
 
 ---
 
@@ -154,6 +154,26 @@ Should use the following symbol… `？`
 
 ⌂
 <br>﹈<br>^1700212962949
+
+﹇<br>
+When writing software engineering documents, should I put filenames in code blocks or bold them?
+
+#card 
+
+When writing software engineering documents, it’s common to put filenames, code snippets, and commands within code blocks (or monospace font) to distinguish them from the rest of the text. This helps to make it clear that you’re referring to something that’s part of the code or file system.
+
+For example, you might write: “Open the `main.py` file and add the following code: `print('Hello, World!')`.”
+
+Bolding can be used for emphasis or to highlight important parts of the text. However, it’s less common to use bolding for filenames or code, as this can make it less clear that you’re referring to a literal piece of code or a filename.
+
+Remember, the most important thing is to be consistent in your formatting throughout your document. If you choose to use code blocks for filenames, for example, you should do so consistently throughout your document.
+
+> [!TIP]
+> For this repository of notes, we will be following the convention of writing filenames in code blocks.
+
+⌂
+<br>﹈<br>
+
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 🗒️ DE Grind Crew ∋ Table of Contents
 created: 2023-10-31T16:39
-updated: 2023-12-03T15:08
+updated: 2023-12-03T15:40
 authors:
   - Edmund Leibert III
 tags:
@@ -35,7 +35,6 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Discord::De Grind Crew::DE
 ---
 
 ## :EiZoteroItem: Bibliography
-
 
 ---
 

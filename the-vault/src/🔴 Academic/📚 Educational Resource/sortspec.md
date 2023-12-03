@@ -13,10 +13,12 @@ sorting-spec: |-
   DE Grind Crew
   🗒️ Bazel
   🗒️ PowerShell
+  🗒️ Obsidian
+  Discord
   %
   sortspec
 created: 2023-09-03 08:46
-updated: 2023-12-02T23:39
+updated: 2023-12-03T15:39
 ---
 
 

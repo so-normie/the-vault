@@ -127,7 +127,7 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": false,
+    "iconInTabsEnabled": true,
     "iconInTitleEnabled": false,
     "iconInFrontmatterEnabled": false,
     "iconsBackgroundCheckEnabled": true,
@@ -294,5 +294,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/Discord": "SiDiscord",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew": "EiDEGrindCrew",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational/📒interview-questions.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational": "RiBookmarkFill"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md": "TiNotes"
 }

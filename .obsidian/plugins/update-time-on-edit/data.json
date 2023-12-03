@@ -422,7 +422,7 @@
     "the-vault/src/🔴 Academic/Projects/Project “BetterWinget”.md": "2d3eaaef97be5a72a71d5c2c795cfde21a52613338e7df68e36f2c2cdd5e05b9",
     "the-vault/src/🔴 Academic/Projects/Project “Colortype”.md": "9460a23b704923d724504df4af75dc6f06aec852a913cf03af9726ef540d3097",
     "the-vault/src/🔴 Academic/Projects/Project “MeDev”.md": "f1c2312010cedbe88db1bbbf9004930fb5af37d9a86ca2b89c0bac5574d2206e",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md": "f5b3ed73faf9e3eb450b7156ecb53631e1fc5290515ac52cbc4fc037240885e5",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md": "5b5309936410441aa60f06b496ba1fa3c28dfd5b2208343074b75e44eb48fae6",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Advanced SQL/Advanced SQL — Chapter #05 — Video #29 — Window functions, frame specifications (ROWS∕RANGE∕GROUPS).md": "1b9f3d75fda0802b9d601bb68449e477ebc5752f687a456abf82400afee2c859",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Amazon Redshift - Fundamentals/1. Introduction.md": "be181d8287c33cf8ec8e41d3f414a091b450ff357f6f2d6a33cdaef97de99222",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Amazon Redshift - Fundamentals/2. Storage.md": "d97395b3491b014a6dc482c423d7ad51001802bde75d28b87a5f5349c2b33e3a",
@@ -897,7 +897,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Walkthroughs ∋ Table of Contents.md": "57ea1279d6d62099b0ab3b534bd5ead3bd337d034efb613d14219df7ea791116",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/What is a container？.md": "7c1639a32b515ed81cd52fe12d836a8a4e7a7100441d671c310f26a8b4d1bee1",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/🗒️ Zotero ∋ Table of Contents.md": "8986164d9245e4361c3326004c51cc5f1c1ffdf90906cc8f681c77d7273002de",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md": "6ab8a038d6e17863678e37e39c5903dbba6d78ae6d125310b677f3bdb086d618",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md": "06116f8a07d97ddb2ede2a78e58e8378dcef4bd3d1fbefae4224f63c085a4b97",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/sortspec.md": "94474fb421d8dcdc361706a165868699d1205df5324004f95e65cb942534b267",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets/Google Sheets ∋ Table of Contents.md": "f6d929eab6a02f9dd709c4509438231e5ea0271d862b5f4ab4abc3665c2fff78",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets/Misc. Notes.md": "98ff2e180ad667e52ce1e38aa87d68b9d63b631bccce4ab27abdc07d63bcf532",
@@ -917,9 +917,10 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Pip.md": "ac10feeb43b5885603ca746afd7d941e6288d53df9e22957caf0335787f0280e",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md": "cff731b00a8ca94a65e253a3c63e9996497b8ef8df5f07d131ca61eb30caa6b9",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel/🗒️ Bazel ∋ Table of Contents.md": "9ff423cb2d449f69ef88b0684fab8eae05c5eb73915e2c02c96e7539f348cb21",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel/Misc. Notes.md": "a218d3aef3d833cdd0796bf480e5b79c774cc68d6e043da76a03cb25cefa5d38",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel/Misc. Notes.md": "b1ee9946c45ea81b3d72a757ab65c38bbfb261e933a823a7c792b6fcd66c3745",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/Misc. Notes.md": "88eaa328e0f5e792fe93e82e081c9d3aa60781e3597ed4f5ce9e38aad0637aff",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/DE Grind Crew ∋ Table of Contents.md": "28f596e71f4b990cbe01d0b4368ea1daa78611999069ba13552008cc04a5a3a3",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational/💼 Vocational ∋ Table of Contents.md": "8b1ea7e0f01a4918126210c269ec07af000047791f85d78e54be50ecee4f84a3"
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/DE Grind Crew ∋ Table of Contents.md": "f8d15fdfc17137967e478bfa386cdc09e74197cc2b2589ccf4626ddf2f36ba79",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational/💼 Vocational ∋ Table of Contents.md": "84162a7231fc4901f2b05c26e6c520e9c97b36288e513a16aeff035fa9b74696",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational/📒interview-questions.md": "2e6b32bd9bf621adf28d0d5e057f6ccf2e805fecd8f25c874e684a49a902bd9a"
   }
 }
