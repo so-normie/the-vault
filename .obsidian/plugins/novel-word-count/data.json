@@ -943,19 +943,19 @@
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 2908,
+      "wordCount": 84,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 9.693333333333333,
-      "characterCount": 22441,
-      "nonWhitespaceCharacterCount": 18761,
-      "readingTimeInMinutes": 10.973584905660378,
-      "linkCount": 0,
+      "pageCount": 0.28,
+      "characterCount": 798,
+      "nonWhitespaceCharacterCount": 694,
+      "readingTimeInMinutes": 0.3169811320754717,
+      "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208481491,
-      "modifiedDate": 1700208481491,
-      "sizeInBytes": 22600
+      "modifiedDate": 1701590112226,
+      "sizeInBytes": 1377
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md": {
       "isCountable": true,
@@ -1573,19 +1573,19 @@
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 72,
+      "wordCount": 85,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.24,
-      "characterCount": 491,
-      "nonWhitespaceCharacterCount": 403,
-      "readingTimeInMinutes": 0.27169811320754716,
-      "linkCount": 0,
+      "pageCount": 0.2833333333333333,
+      "characterCount": 758,
+      "nonWhitespaceCharacterCount": 654,
+      "readingTimeInMinutes": 0.32075471698113206,
+      "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1701587339287,
-      "modifiedDate": 1701587967461,
-      "sizeInBytes": 1001
+      "modifiedDate": 1701590047935,
+      "sizeInBytes": 1300
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bash/Misc. Notes.md": {
       "isCountable": true,
@@ -5976,8 +5976,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208480927,
-      "modifiedDate": 1701587877171,
-      "sizeInBytes": 303
+      "modifiedDate": 1701589156730,
+      "sizeInBytes": 324
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Rollup/Rollup ∋ Table of Contents.md": {
       "isCountable": true,
@@ -14384,6 +14384,24 @@
       "createdDate": 1701587907483,
       "modifiedDate": 1701588155476,
       "sizeInBytes": 1155
+    },
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/Misc. Notes.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 2938,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 9.793333333333333,
+      "characterCount": 22076,
+      "nonWhitespaceCharacterCount": 18761,
+      "readingTimeInMinutes": 11.086792452830188,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1701589167153,
+      "modifiedDate": 1701591671585,
+      "sizeInBytes": 22835
     }
   }
 }

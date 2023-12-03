@@ -12,10 +12,11 @@ sorting-spec: |-
   🗒️ Python
   DE Grind Crew
   🗒️ Bazel
+  🗒️ PowerShell
   %
   sortspec
 created: 2023-09-03 08:46
-updated: 2023-12-02T23:17
+updated: 2023-12-02T23:39
 ---
 
 

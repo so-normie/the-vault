@@ -422,7 +422,7 @@
     "the-vault/src/🔴 Academic/Projects/Project “BetterWinget”.md": "2d3eaaef97be5a72a71d5c2c795cfde21a52613338e7df68e36f2c2cdd5e05b9",
     "the-vault/src/🔴 Academic/Projects/Project “Colortype”.md": "9460a23b704923d724504df4af75dc6f06aec852a913cf03af9726ef540d3097",
     "the-vault/src/🔴 Academic/Projects/Project “MeDev”.md": "f1c2312010cedbe88db1bbbf9004930fb5af37d9a86ca2b89c0bac5574d2206e",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md": "1111ab7b18673dc55f248ac4797028990b211aeea8e42a81d51dede0de516e43",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md": "f5b3ed73faf9e3eb450b7156ecb53631e1fc5290515ac52cbc4fc037240885e5",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Advanced SQL/Advanced SQL — Chapter #05 — Video #29 — Window functions, frame specifications (ROWS∕RANGE∕GROUPS).md": "1b9f3d75fda0802b9d601bb68449e477ebc5752f687a456abf82400afee2c859",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Amazon Redshift - Fundamentals/1. Introduction.md": "be181d8287c33cf8ec8e41d3f414a091b450ff357f6f2d6a33cdaef97de99222",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Amazon Redshift - Fundamentals/2. Storage.md": "d97395b3491b014a6dc482c423d7ad51001802bde75d28b87a5f5349c2b33e3a",
@@ -649,7 +649,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Node.js/🗒️ Node.js ∋ Table of Contents.md": "5a3412088491c65f6a67a3e60969061a50148004c5f41331be9a6679f9f0db04",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md": "3dc50157477254a00156d86f26cbf44813b27f7eb05d49650598e4d90366e4be",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Physics/Mechanical Physics.md": "d8ef2e120eda1c9c6ca8069ada351df490f729630aad90bac2b49d2e7254e507",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/🗒️ PowerShell ∋ Table of Contents.md": "6982ff3ca9b250d5d7757967ca3fafa7dc8372e46c5147b7cd5f9f77e43adaeb",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/🗒️ PowerShell ∋ Table of Contents.md": "47f0000fac5f06fa6d16b53e45f21a074409fbd9ef868c6b980c8ff0915dac52",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Quartz/🗒️ Quartz ∋ Table of Contents.md": "e5a740e184f874f786ad21643b5441d12a9539402c15f9bfc14a2cd849da2a36",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Rclone/🗒️ Rclone ∋ Table of Contents.md": "657de95eec0cfa84730cb798019b34bc5e1b027c77bcbea268512385c4a15d9b",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md": "24c9642bc9e6b88969859ddc4c2672904325fbda8d7b773ce2862305380c1073",
@@ -916,7 +916,8 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia/Tree traversal.md": "877089a56a26bcc121331803626415c5b809084408783d9e7515b5c5b6773edc",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Pip.md": "ac10feeb43b5885603ca746afd7d941e6288d53df9e22957caf0335787f0280e",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md": "cff731b00a8ca94a65e253a3c63e9996497b8ef8df5f07d131ca61eb30caa6b9",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel/🗒️ Bazel ∋ Table of Contents.md": "26f68e9bc1649f9b858492fb5f1085843b2af7b9a069083b7436899c44e51897",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel/Misc. Notes.md": "a218d3aef3d833cdd0796bf480e5b79c774cc68d6e043da76a03cb25cefa5d38"
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel/🗒️ Bazel ∋ Table of Contents.md": "9ff423cb2d449f69ef88b0684fab8eae05c5eb73915e2c02c96e7539f348cb21",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel/Misc. Notes.md": "a218d3aef3d833cdd0796bf480e5b79c774cc68d6e043da76a03cb25cefa5d38",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/Misc. Notes.md": "bfd572622cc6a2db0c92fb28a1df163a8f7d92e54eb4f861a5e542707ef18ccb"
   }
 }

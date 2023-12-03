@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Bazel ∋ Table of Contents
 created: 2023-10-31T16:39
-updated: 2023-12-02T23:19
+updated: 2023-12-02T23:54
 authors:
   - Edmund Leibert III
 tags:
@@ -30,6 +30,10 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Bazel::🗒️ Baz
 ---
 
 ## :FasListOl: Table of Contents
+
+- **🗒️ Bazel**
+	- [🗒️ Bazel ∋ Table of Contents](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20Bazel/🗒️%20Bazel%20∋%20Table%20of%20Contents.md)
+	- [Misc. Notes](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20Bazel/Misc.%20Notes.md)
 
 ---
 
