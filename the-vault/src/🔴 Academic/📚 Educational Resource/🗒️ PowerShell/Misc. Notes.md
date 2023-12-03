@@ -1,7 +1,7 @@
 ---
 title: Misc. Notes
 created: 2023-08-04 01:58
-updated: 2023-12-03T00:21
+updated: 2023-12-03T01:13
 authors:
   - Edmund Leibert III
 tags:
@@ -404,39 +404,81 @@ cat (Get-PSReadlineOption).HistorySavePath | Select-Object -Last 100
 ⌂
 <br>﹈<br>
 
+﹇<br>
+How do I open PowerShell with administrative privileges in Windows? 
 
-
-**Front**: How do I open PowerShell with administrative privileges in Windows? 
 #card 
-**Back**: Press the <kbd>Windows</kbd> key, type "PowerShell," right-click on "Windows PowerShell" and select "Run as administrator."
-^1682809184433
 
-**Front**: In PowerShell, how do I list all installed Linux distributions with their WSL versions? 
+Press the <kbd>Windows</kbd> key, type "PowerShell," right-click on "Windows PowerShell" and select "Run as administrator."
+
+⌂
+<br>﹈<br>
+
+﹇<br>
+In PowerShell, how do I list all installed Linux distributions with their WSL versions? 
+
 #card 
-**Back**: Run the command: `wsl --list --verbose`
-^1682809184436
 
-**Front**: How do I remove a specific Ubuntu distribution from WSL in PowerShell? 
+Run the command: `wsl --list --verbose`
+
+⌂
+<br>﹈<br>
+
+﹇<br>
+How do I remove a specific Ubuntu distribution from WSL in PowerShell?
+
 #card 
-**Back**: Use the command: `wsl --unregister <DistroName>`, replacing `<DistroName>` with the exact name of the Ubuntu distribution you want to remove.
-^1682809184440
 
-**Front**: How do I uninstall WSL and remove all installed Linux distributions in PowerShell? 
+Use the command: `wsl --unregister <DistroName>`, replacing `<DistroName>` with the exact name of the Ubuntu distribution you want to remove.
+
+⌂
+<br>﹈<br>
+
+﹇<br>
+How do I uninstall WSL and remove all installed Linux distributions in PowerShell?
+
 #card 
-**Back**: Run the command: `wsl --uninstall`
-^1682809184443
 
-**Front**: How do I remove the Windows Subsystem for Linux feature entirely from my Windows system using PowerShell? 
+Run the command: `wsl --uninstall`
+
+⌂
+<br>﹈<br>
+
+﹇<br>
+How do I remove the Windows Subsystem for Linux feature entirely from my Windows system using PowerShell? 
+
 #card 
-**Back**: Run the following commands in PowerShell (as an administrator): 1. `wsl --uninstall` 2. `dism.exe /online /disable-feature /featurename:Microsoft-Windows-Subsystem-Linux`
-^1682809184446
 
+Run the following commands in PowerShell (as an administrator):
+1. `wsl --uninstall`
+2. `dism.exe /online /disable-feature /featurename:Microsoft-Windows-Subsystem-Linux`
+
+⌂
+<br>﹈<br>
+
+﹇<br>
 Can you create an alias for a `cmdlet` or other command in Powershell? 
-#card
-- Yes, you can create an alias for a cmdlet or other command in PowerShell using the `Set-Alias` cmdlet.
+
+#card 
+
+Yes, you can create an alias for a cmdlet or other command in PowerShell using the `Set-Alias` cmdlet.
 	- The `Name` parameter specifies the alias’s name and the `Value` parameter specifies the cmdlet that the alias runs.
-	- For example, to create an alias named `list` for the `Get-ChildItem` cmdlet, you would enter `Set-Alias -Name list -Value Get-ChildItem`<sup>[[1](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/set-alias?view=powershell-7.3)]</sup>.
-^1682809184449
+
+For example, to create an alias named `list` for the `Get-ChildItem` cmdlet, you would enter `Set-Alias -Name list -Value Get-ChildItem`<sup>[[1](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/set-alias?view=powershell-7.3)]</sup>.
+
+⌂
+<br>﹈<br>
+
+﹇<br>
+{{Question}}
+
+#card 
+
+{{Answer}}
+
+⌂
+<br>﹈<br>
+
 
 Can you assign an alias to a command with parameters in PowerShell? 
 #card 
