@@ -1,7 +1,7 @@
 ---
 title: Misc. Notes
 created: 2023-08-04 01:58
-updated: 2023-12-03T01:13
+updated: 2023-12-03T01:48
 authors:
   - Edmund Leibert III
 tags:
@@ -37,8 +37,8 @@ What happens when you create a symbolic link?
 You are creating a shortcut to an other file or directory.
 
 ⌂
-<br>﹈<br>
-^1682809184347
+<br>﹈<br>^1701596649953
+
 
 ﹇<br>
 Does the symbolic link take up a lot of space in your hard drive? 
@@ -48,8 +48,8 @@ Does the symbolic link take up a lot of space in your hard drive?
 No, this is why it can save you space by allowing you to have multiple copies of the same file in different locations without actually taking up the space for each copy.
 
 ⌂
-<br>﹈<br>
-^1682809184353
+<br>﹈<br>^1701596649959
+
 
 ﹇<br>
 How do you create  symbolic link in PowerShell? 
@@ -59,8 +59,8 @@ How do you create  symbolic link in PowerShell?
 You can use the `New-Item` cmdlet with the `ItemType` `SymbolicLink` parameter.
 
 ⌂
-<br>﹈<br>
-^1682809184357
+<br>﹈<br>^1701596649963
+
 
 ﹇<br>
 What does the following code do? `New-Item -ItemType SymbolicLink -Path "Link" -Target "Target"` 
@@ -70,8 +70,8 @@ What does the following code do? `New-Item -ItemType SymbolicLink -Path "Link" -
 Creates a symbolic link called "Link" that points to the *file* "Target".
 
 ⌂
-<br>﹈<br>
-^1682809184360
+<br>﹈<br>^1701596649968
+
 
 ﹇<br>
 Can you create symbolic links to *directories* with PowerShell on Windows? 
@@ -81,8 +81,8 @@ Can you create symbolic links to *directories* with PowerShell on Windows?
 Yes. For example, to create a symbolic link called "Link" that points to the *directory* "Target", you can use the following command: `New-Item -ItemType Junction -Path "Link" -Target "Target"`
 
 ⌂
-<br>﹈<br>
-^1682809184363
+<br>﹈<br>^1701596649973
+
 
 ﹇<br>
 What are some of the upsides of symbolic links in PowerShell? 
@@ -94,8 +94,8 @@ If you have multiple copies of the same file in different locations, you can use
 If you have a lot of files in different locations, you can use <span class="spoiler">symbolic links</span> to create a central location for all of your files. This can make it easier to find the files you need and to keep track of what files you have.
 
 ⌂
-<br>﹈<br>
-^1682809184366
+<br>﹈<br>^1701596649977
+
 
 ﹇<br>
 What are some of the downsides of symbolic links in PowerShell? 
@@ -107,8 +107,8 @@ If you create a <span class="spoiler">symbolic link</span> and it does not work,
 When you access a <span class="spoiler">symbolic links</span>, the operating system has to first find the original file before it can access the file you are trying to access. This can add a few milliseconds to the time it takes to access a file.
 
 ⌂
-<br>﹈<br>
-^1682809184369
+<br>﹈<br>^1701596649981
+
 
 ﹇<br>
 What is a cmdlet in PowerShell? 
@@ -128,14 +128,16 @@ A cmdlet is a single command that participates in the pipeline semantics of Powe
 This includes binary (C#) cmdlets, advanced script functions, CDXML, and Workflows.
 
 ⌂
-<br>﹈<br>
-^1682809184372
+<br>﹈<br>^1701596873830
+
 
 A {1:cmdlet} is a lightweight command that is used in the PowerShell environment. 
-^1683681712863 
+^1701596649991
+ 
 
 The {1:PowerShell runtime} invokes these cmdlets within the context of automation scripts that are provided at the command line. 
-^1683681712871 
+^1701596649996
+ 
 
 ﹇<br>
 What do cmdlets typically return? 
@@ -145,8 +147,8 @@ What do cmdlets typically return?
 A Microsoft .NET object to the next pipeline.
 
 ⌂
-<br>﹈<br>
-^1683681712879
+<br>﹈<br>^1701596650000
+
 
 ﹇<br>
 In PowerShell, what are [cmdlets](https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/cmdlet-overview?view=powershell-7.3#cmdlets)? 
@@ -163,8 +165,8 @@ A <span class="spoiler">cmdlet</span> is a single command that participates in t
 - <span class="spoiler">Workflows</span>
 
 ⌂
-<br>﹈<br>
-^1682809184376
+<br>﹈<br>^1701596650005
+
 
 ﹇<br>
 What does `$PWD` mean in PowerShell? 
@@ -176,8 +178,8 @@ What does `$PWD` mean in PowerShell?
 It is a shortcut for <span class="spoiler">`Get-Location`</span>. To get the current directory, you can use either <span class="spoiler">`$PWD`</span> or <span class="spoiler">`Get-Location`</span>.
 
 ⌂
-<br>﹈<br>
-^1682809184379
+<br>﹈<br>^1701596650008
+
 
 ﹇<br>
 How do I open the current directory in File Explorer? 
@@ -189,8 +191,8 @@ explorer.exe .
 ```
 
 ⌂
-<br>﹈<br>
-^1682809184383
+<br>﹈<br>^1701596650012
+
 
 ﹇<br>
 How to test if a file or path exists in PowerShell? 
@@ -209,7 +211,7 @@ True
 This command checks whether all elements in the path exist, that is, the `C:` directory, the `Documents and Settings` directory, and the `DavidC` directory. If any are missing, the cmdlet returns `$False`. Otherwise, it returns `$True`.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650016
 
 ﹇<br>
 How can you enforce the type of a variable in PowerShell? 
@@ -231,7 +233,7 @@ $myInt = [int] 10
 ```
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650019
 
 ﹇<br>
 What are type accelerators in PowerShell? 
@@ -242,7 +244,7 @@ What are type accelerators in PowerShell?
 - For example, you can shorten the **AliasAttribute** class from `[System.Management.Automation.AliasAttribute]` to `[Alias]`.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650023
 
 ﹇<br>
 What are some common types in PowerShell? 
@@ -252,7 +254,7 @@ What are some common types in PowerShell?
 Some common types in PowerShell include `System.String`, `System.Int32`, `System.Boolean`, `System.DateTime`, `System.Array`, `System.Collections.ArrayList`, and `System.Collections.Hashtable`. PowerShell also has its own set of types that are specific to the language, such as `PSCustomObject`, `PSObject`, and `SwitchParameter`.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650027
 
 ﹇<br>
  What is the definition of a symbolic link? 
@@ -264,17 +266,7 @@ A <span class="spoiler">symbolic link</span>, also known as a symlink or soft li
 <span class="spoiler">Symbolic links</span> are a useful tool for managing your files. However, it is important to be aware of the downsides before you start using them.
 
 ⌂
-<br>﹈<br>
-
-﹇<br>
-What is a cmdlet in PowerShell? 
-
-#card-reverse 
-
-A <span class="spoiler">cmdlet</span> is a lightweight command used in the PowerShell scripting environment, designed to perform a specific function or action
-
-⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650030
 
 ﹇<br>
 What is the basic syntax of a PowerShell cmdlet? 
@@ -284,7 +276,7 @@ What is the basic syntax of a PowerShell cmdlet?
 The <span class="spoiler">basic syntax</span> of a PowerShell <span class="spoiler">cmdlet</span> is "Verb-Noun", where "Verb" represents the action and "Noun" represents the target object.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650035
 
 ﹇<br>
 How do you get help for a specific cmdlet in PowerShell? 
@@ -294,7 +286,7 @@ How do you get help for a specific cmdlet in PowerShell?
 Use the <span class="spoiler">`Get-Help`</span> cmdlet followed by the cmdlet name, e.g., `Get-Help Get-Process`.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650038
 
 ﹇<br>
 What is the purpose of the `Get-ChildItem` cmdlet? 
@@ -304,7 +296,7 @@ What is the purpose of the `Get-ChildItem` cmdlet?
  The <span class="spoiler">`Get-ChildItem`</span> cmdlet is used to retrieve a list of child items, such as files and folders, in a specified location.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650041
 
 ﹇<br>
 How do you create a new folder using a cmdlet in PowerShell? 
@@ -314,7 +306,7 @@ How do you create a new folder using a cmdlet in PowerShell?
 Use the <span class="spoiler">`New-Item`</span> cmdlet followed by the `-ItemType` and `-Path` parameters, e.g., `New-Item -ItemType Directory -Path "C:\NewFolder"`.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650044
 
 ﹇<br>
 How do you delete a file using a cmdlet in PowerShell? 
@@ -324,7 +316,7 @@ How do you delete a file using a cmdlet in PowerShell?
 Use the <span class="spoiler">`Remove-Item`</span> cmdlet followed by the `-Path` or `-LiteralPath` parameter, e.g., `Remove-Item -Path "C:\File.txt"`.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650047
 
 ﹇<br>
 What is the purpose of the `Get-Process` cmdlet? 
@@ -334,7 +326,7 @@ What is the purpose of the `Get-Process` cmdlet?
 The <span class="spoiler">`Get-Process`</span> cmdlet retrieves a list of currently running processes on the local or remote computer.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650050
 
 ﹇<br>
 How do you stop a specific process using a cmdlet in PowerShell? 
@@ -344,7 +336,7 @@ How do you stop a specific process using a cmdlet in PowerShell?
 Use the <span class="spoiler">`Stop-Process`</span> cmdlet followed by the `-Name` or `-Id` parameter, e.g., `Stop-Process -Name "ProcessName"`.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650053
 
 ﹇<br>
 How do you execute a PowerShell script using a cmdlet? 
@@ -354,7 +346,7 @@ How do you execute a PowerShell script using a cmdlet?
 Use the <span class="spoiler">`Invoke-Expression`</span> cmdlet or the “&” operator followed by the script path, e.g., `Invoke-Expression "C:\Script.ps1"` or `& "C:\Script.ps1"`.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650056
 
 ﹇<br>
 How do you export a list of running processes to a CSV file using cmdlets in PowerShell? 
@@ -364,7 +356,7 @@ How do you export a list of running processes to a CSV file using cmdlets in Pow
 Use the <span class="spoiler">Get-Process</span> cmdlet and pipe the output to the <span class="spoiler">Export-Csv</span> cmdlet, e.g., G`et-Process | Export-Csv -Path "C:\Processes.csv" -NoTypeInformation`.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650064
 
 ﹇<br>
 How to view the full history of commands across all shells and sessions? 
@@ -384,7 +376,7 @@ cat (Get-PSReadlineOption).HistorySavePath
 </span>
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650067
 
 ﹇<br>
 How to print only the last 100 lines of the output of a command in PowerShell? 
@@ -402,7 +394,7 @@ cat (Get-PSReadlineOption).HistorySavePath | Select-Object -Last 100
 </span>
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650071
 
 ﹇<br>
 How do I open PowerShell with administrative privileges in Windows? 
@@ -412,7 +404,7 @@ How do I open PowerShell with administrative privileges in Windows?
 Press the <kbd>Windows</kbd> key, type "PowerShell," right-click on "Windows PowerShell" and select "Run as administrator."
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650074
 
 ﹇<br>
 In PowerShell, how do I list all installed Linux distributions with their WSL versions? 
@@ -422,7 +414,7 @@ In PowerShell, how do I list all installed Linux distributions with their WSL ve
 Run the command: `wsl --list --verbose`
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650077
 
 ﹇<br>
 How do I remove a specific Ubuntu distribution from WSL in PowerShell?
@@ -432,7 +424,7 @@ How do I remove a specific Ubuntu distribution from WSL in PowerShell?
 Use the command: `wsl --unregister <DistroName>`, replacing `<DistroName>` with the exact name of the Ubuntu distribution you want to remove.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650080
 
 ﹇<br>
 How do I uninstall WSL and remove all installed Linux distributions in PowerShell?
@@ -442,7 +434,7 @@ How do I uninstall WSL and remove all installed Linux distributions in PowerShel
 Run the command: `wsl --uninstall`
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650083
 
 ﹇<br>
 How do I remove the Windows Subsystem for Linux feature entirely from my Windows system using PowerShell? 
@@ -454,7 +446,7 @@ Run the following commands in PowerShell (as an administrator):
 2. `dism.exe /online /disable-feature /featurename:Microsoft-Windows-Subsystem-Linux`
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650087
 
 ﹇<br>
 Can you create an alias for a `cmdlet` or other command in Powershell? 
@@ -467,236 +459,406 @@ Yes, you can create an alias for a cmdlet or other command in PowerShell using t
 For example, to create an alias named `list` for the `Get-ChildItem` cmdlet, you would enter `Set-Alias -Name list -Value Get-ChildItem`<sup>[[1](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/set-alias?view=powershell-7.3)]</sup>.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650091
 
 ﹇<br>
-{{Question}}
+Can you assign an alias to a command with parameters in PowerShell? 
 
 #card 
 
-{{Answer}}
+You **cannot** assign an alias to a command with parameters using `Set-Alias` or `New-Alias`.
+
+Instead, you can create a function that contains the command with parameters and then assign an alias to that function.
+
+For example, if you wanted to create an alias named `list` for the `Get-ChildItem` cmdlet with the `-Force` parameter, you could create a function like this:
+```PowerShell
+function Get-ChildItem-Force { Get-ChildItem -Force }
+```
+Then, you could create an alias for the function using `Set-Alias` or `New-Alias`:
+```PowerShell
+Set-Alias -Name list -Value Get-ChildItem-Force
+```
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701596650094
 
-
-Can you assign an alias to a command with parameters in PowerShell? 
-#card 
-- You **cannot** assign an alias to a command with parameters using `Set-Alias` or `New-Alias`.
-- Instead, you can create a function that contains the command with parameters and then assign an alias to that function.
-- For example, if you wanted to create an alias named `list` for the `Get-ChildItem` cmdlet with the `-Force` parameter, you could create a function like this:
-	```PowerShell
-	function Get-ChildItem-Force { Get-ChildItem -Force }
-	```
-	Then, you could create an alias for the function using `Set-Alias` or `New-Alias`:
-	```PowerShell
-	Set-Alias -Name list -Value Get-ChildItem-Force
-	```
-^1682809184452
-
+﹇<br>
 How to move multiple files, for instance a file named `A.txt` and `B.txt` in one command? 
+
 #card 
+
 ```powershell
 Get-Item -Path .\A.txt, .\B.txt | Move-Item -Destination .\neovim-configurations\ -Force
 ```
-^1682809184455
 
+⌂
+<br>﹈<br>^1701596650097
 
-**Front:** How do you pass arguments to a PowerShell script? 
+﹇<br>
+How do you pass arguments to a PowerShell script? 
+
 #card 
-**Back:** You can pass arguments to a PowerShell script by defining them using the `param` statement at the beginning of your script.
-^1683584331568
 
-**Front:** How do you define arguments in a PowerShell script? 
-#card 
-**Back:** You can define arguments in a PowerShell script using the `param` statement. For example: `param(＄name, ＄address = "USA", ＄age)`.
-^1683584331574
+You can pass arguments to a PowerShell script by defining them using the `param` statement at the beginning of your script.
 
-**Front:** How do you call a PowerShell script with arguments? 
-#card 
-**Back:** You can call a PowerShell script with arguments like this: `powershell.exe -file myscript.ps1 -name "John" -address "Canada" -age 25`.
-^1683584331578
+⌂
+<br>﹈<br>^1701596650100
 
-**Front:** How do you define a default value for a parameter in PowerShell? 
+﹇<br>
+How do you define arguments in a PowerShell script? 
+
 #card 
-**Back:** You can define a script `myscript.ps1` that takes in arguments for `name`, `address`, and `age` like this:
+
+You can define arguments in a PowerShell script using the `param` statement. For example: `param(＄name, ＄address = "USA", ＄age)`.
+
+⌂
+<br>﹈<br>^1701596650103
+
+﹇<br>
+How do you call a PowerShell script with arguments?
+
+#card 
+
+You can call a PowerShell script with arguments like this: `powershell.exe -file myscript.ps1 -name "John" -address "Canada" -age 25`.
+⌂
+<br>﹈<br>^1701596650107
+
+﹇<br>
+How do you define a default value for a parameter in PowerShell?
+
+#card 
+
+You can define a script `myscript.ps1` that takes in arguments for `name`, `address`, and `age` like this:
+
 ```PowerShell
 param($name, $address = "USA", $age)
 Write-Host "Name: $name"
 Write-Host "Address: $address"
 Write-Host "Age: $age"
 ```
+
 Here, the variable `$address` has a default value of `"USA"`. You can then call this script with arguments like this:
+
 ```PowerShell
 powershell.exe -file myscript.ps1 -name "John" -address "Canada" -age 25
 ```
+
 [This will pass the values `"John"`, `"Canada"`, and `25` to the `$name`, `$address`, and `$age` variables respectively](https://www.delftstack.com/howto/powershell/pass-an-argument-to-a-powershell-script/)
-^1683898509522
 
+⌂
+<br>﹈<br>^1701596650111
 
+﹇<br>
 How can you combine a path and child-path? 
+
 #card 
-`Join-Path` is a cmdlet in PowerShell that combines a path and child-path into a single path. The provider supplies the path delimiters[1](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/join-path?view=powershell-7.3). For example, if you want to combine a path with a child path, you can use `Join-Path -Path "path" -ChildPath "childpath"` which will return `path\childpath`[1](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/join-path?view=powershell-7.3)
-^1683898614447
 
+`Join-Path` is a cmdlet in PowerShell that combines a path and child-path into a single path. The provider supplies the path delimiters[1](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/join-path?view=powershell-7.3). 
 
+For example, if you want to combine a path with a child path, you can use `Join-Path -Path "path" -ChildPath "childpath"` which will return `path\childpath`[1](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/join-path?view=powershell-7.3)
+
+⌂
+<br>﹈<br>^1701596650114
+
+﹇<br>
 What is the target of a symbolic link? 
+
 #card 
+
 A symbolic link is a file whose purpose is to point to another file or directory (called the “target”) by specifying a path thereto. The object being pointed to is called the target.
-^1683584331585
 
-SSH stand for {Secure Shell}. 
-^1683611483284 
+⌂
+<br>﹈<br>^1701596650118
 
+SSH stands for {2:<b>S</b>ecure <b>S</b><b>h</b>ell}. 
+^1701596650121
+
+﹇<br>
 What is SSH? 
-#card 
-- A network protocol that provides a secure way to access a remote computer.
-- SSH encrypts all traffic between the client and the server, which protects the user's data from being intercepted.
-^1683611483295
 
-Lets say I am supposed to ssh into the account `lleibert@hills.ccsf.edu`. What would be my host? 
 #card 
+
+A network protocol that provides a secure way to access a remote computer.
+
+SSH encrypts all traffic between the client and the server, which protects the user's data from being intercepted.
+
+⌂
+<br>﹈<br>^1701596650125
+
+﹇<br>
+Lets say I am supposed to `ssh` into the account `lleibert@hills.ccsf.edu`. 
+
+What would be my host? 
+
+#card 
+
 Your host would be `hills.ccsf.edu`.
-^1683898423325
 
+⌂
+<br>﹈<br>^1701596650128
 
-In PowerShell, to print the current host you can use the cmdlet {`Get-Host`}.
-^1683898370405
+In PowerShell, to print the current host you can use the cmdlet {1:`Get-Host`}.
+^1701596650132
 
+﹇<br>
 What is the command to install all font type extension in Windows? 
+
 #card 
-Currently, there is not a singular cmdlet in PowerShell to install fonts. In order to install fonts in PowerShell, you need to move all the appropriate files to the  `C:\Windows\fonts\` folder.
-^1684498554648
 
-The alias for the `Get-Location` cmdlet is {pwd}
-^1684687243973
+Trick question!
+Currently, there is <b>not</b> a singular cmdlet in PowerShell to install fonts. In order to install fonts in PowerShell, you need to move all the appropriate files to the  `C:\Windows\fonts\` folder.
 
+⌂
+<br>﹈<br>^1701596650135
+
+The alias for the {1:`Get-Location`} cmdlet is {2:`pwd`}.
+^1701596650139
+
+﹇<br>
 What is wrong with following PowerShell command?
+
 ```powershell
-Get-Command | $_.Source
+Get-Command node | $_.Source
 ```
+
 #card 
-- The problem with the command is the use of `$_` outside of a script block `{}`.
-- The `$_` variable represents the current object in the pipeline, but it's only accessible within a script block.
-- Here's the corrected command:
+
+The problem with the command is the use of… 
+
+```powershell
+$_
+``` 
+
+…outside of a script block… 
+
+```powershell
+{}
+```
+
+The `$_` variable represents the current object in the pipeline, but it's only accessible within a script block.
+
+Here's the corrected command:
+
 ```powershell
 Get-Command node | ForEach-Object { $_.Source }
 ```
-^1684687243977
 
+⌂
+<br>﹈<br>^1701596799697
+
+﹇<br>
 How do you find a process with task id `4200` via PowerShell? 
-#card-reverse  
-`netstat -ano | findstr :4200`
-^1690892249692
 
-How does one kill a process with task id `4200` via PowerShell 
 #card-reverse 
-`taskkill /PID 15940 /F`
-^1690892249700
 
-**Front**: What is the difference between `Get-ChildItem` and `Get-Item` in PowerShell? 
+```powershell
+netstat -ano | findstr :4200
+```
+
+⌂
+<br>﹈<br>^1701596650145
+
+﹇<br>
+How does one kill a process with task id `4200` via PowerShell ?
+
+#card-reverse  
+
+```powershell
+taskkill /PID 15940 /F
+```
+
+⌂
+<br>﹈<br>^1701596650148
+
+﹇<br>
+What is the difference between `Get-ChildItem` and `Get-Item` in PowerShell? 
+
 #card 
-**Back**: `Get-Item` gets the item at the specified location, while `Get-ChildItem` gets the items and child items in one or more specified locations. In other words, `Get-Item` returns information about the targeted item itself, whereas `Get-ChildItem` returns information about the targeted item's children, if the given item happens to be a container ¹.
-- Source: Conversation with Bing, 6/14/2023
-  (1) Powershell: Get-Item vs Get-ChildItem - Stack Overflow. https://stackoverflow.com/questions/38663391/powershell-get-item-vs-get-childitem.
-  (2) Get-ChildItem (Microsoft.PowerShell.Management) - PowerShell. https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.3.
-  (3) PowerShell Get-Item - Computer Performance. https://www.computerperformance.co.uk/powershell/get-item/.
-  (4) powershell - Is there a difference between Get-Item ending with a .... https://stackoverflow.com/questions/70390400/is-there-a-difference-between-get-item-ending-with-a-trailing-wildcard-and-get-c.
-^1690892249707
 
+`Get-Item` gets the item at the specified location, while `Get-ChildItem` gets the items and child items in one or more specified locations. In other words, `Get-Item` returns information about the targeted item itself, whereas `Get-ChildItem` returns information about the targeted item's children, if the given item happens to be a container ¹.
+
+Source: Conversation with Bing, 6/14/2023
+
+  (1) Powershell: Get-Item vs Get-ChildItem - Stack Overflow. https://stackoverflow.com/questions/38663391/powershell-get-item-vs-get-childitem.
+  
+  (2) Get-ChildItem (Microsoft.PowerShell.Management) - PowerShell. https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.3.
+  
+  (3) PowerShell Get-Item - Computer Performance. https://www.computerperformance.co.uk/powershell/get-item/.
+  
+  (4) powershell - Is there a difference between Get-Item ending with a .... https://stackoverflow.com/questions/70390400/is-there-a-difference-between-get-item-ending-with-a-trailing-wildcard-and-get-c.
+
+⌂
+<br>﹈<br>^1701596650151
+
+﹇<br>
 What is wrong with the following PowerShell scripting code?
-```pwsh
+
+```powershell
 $currentDirectory = $Get-Location
 ```
-#card 
-When using the `Get-Location` cmdlet in PowerShell, it does *not* require the `$` symbol.
-^1690892249714
 
-What is the problem with the following code? 
 #card 
-```pwsh
+
+When using the `Get-Location` cmdlet in PowerShell, it does *not* require the `$` symbol.
+
+⌂
+<br>﹈<br>^1701596799701
+
+﹇<br>
+What is the problem with the following code? 
+
+```powershell
 Write-Host $currentDirectory > tmp.txt
 ```
+
 #card 
-- Write-Host sends information directly to the console, no to a file. If you want to write the value of $currentDirectory to a file, you should use either `Out-File` or `Set-Content`. For example…
-	- `$currentDirectory | Out-File "tmp.txt"`
-	- `Set-Content -Path "tmp.txt" -Value $currentDirectory`
-^1690892249721
 
+`Write-Host` sends information directly to the console, <i>not</i> to a file. If you want to write the value of `$currentDirectory` to a file, you should use either `Out-File` or `Set-Content`. For example…
+- `$currentDirectory | Out-File "tmp.txt"`
+- `Set-Content -Path "tmp.txt" -Value $currentDirectory`
+
+⌂
+<br>﹈<br>^1701596650158
+
+﹇<br>
 How can I use `Set-Content` to write the value of `$currentDirectory` to the file `tmp.txt`? 
-#card-reverse 
-`Set-Content -Path "tmp.txt" -Value $currentDirectory`
-^1690892249727
 
+#card-reverse  
+
+```powershell
+Set-Content -Path "tmp.txt" -Value $currentDirectory
+```
+
+⌂
+<br>﹈<br>^1701596650161
+
+﹇<br>
 How can I use `Out-File` to write the value of `$currentDirectory` to the file `tmp.txt` 
-#card-reverse 
-`$currentDirectory | Out-File "tmp.txt"`
-^1690892249735
+
+#card-reverse  
+
+```powershell
+$currentDirectory | Out-File "tmp.txt"
+```
+
+⌂
+<br>﹈<br>^1701596650164
 
 If you want to append new content to a file, you can use {`Out-File`}. If you want to replace the existing content with new content, you can use {`Set-Content`}. [You should also consider the encoding of the data when choosing which cmdlet to use](https://stackoverflow.com/questions/10655788/powershell-set-content-and-out-file-what-is-the-difference). 
-^1691990373869
-#card
-^1690892249742
+^1701596650168
 
+﹇<br>
 By default, `Out-File` saves data to a file in what encoding? 
+
 #card 
+
 Unicode (UTF-16LE) *This can be specified
-^1690892249751
 
+⌂
+<br>﹈<br>^1701596650171
+
+﹇<br>
 By default, `Set-Content` defaults to what encoding? 
+
 #card 
+
 ASCII (US-ASCII)
-^1690892249758
 
+⌂
+<br>﹈<br>^1701596650174
+
+﹇<br>
 What is a major difference between `Set-Content` and `Out-File`? 
+
 #card 
-- `Out-File` allows you append new content to a file using the `-Append` parameter
-- `Set-Content` will replace existing content with new content
- 
+
+`Out-File` allows you append new content to a file using the `-Append` parameter
+
+`Set-Content` will replace existing content with new content
+
+⌂
+<br>﹈<br>^1701596650178
+
+﹇<br>
 What is the difference between `Write-Host` and `Write-Information`? 
-#card 
-- `Write-Host` sends information directly to the console. As such, you can *not* pipe/transfer the output of Write-Host
-- The output of `Write-Information` can be redirected using either the `>` redirection operator or using cmdlets such as `Out-File`
-^1690892249765
 
+#card 
+
+`Write-Host` sends information directly to the console. As such, you can *not* pipe/transfer the output of Write-Host
+The output of `Write-Information` can be redirected using either the `>` redirection operator or using cmdlets such as `Out-File`
+
+⌂
+<br>﹈<br>^1701596650180
+
+﹇<br>
 Can you use `Out-File` or `>` to redirect the output of `Write-Host`? 
+
 #card 
+
 No!
-^1690892249772
 
+⌂
+<br>﹈<br>^1701596650184
+
+﹇<br>
 Can you use `Out-File` or `>` to redirect the output of `Write-Information`? 
+
 #card 
+
 Yes!
-^1690892249779
 
+⌂
+<br>﹈<br>^1701596650187
+
+﹇<br>
 Starting in PowerShell 5.0, is `Write-Host` a wrapper for `Write-Information`? 
-#card 
-Yes, although only explicitly calling the cmdlet `Write-Information` can you the output be redirected or reused.
-^1690892249786
 
-What command should I run if I want to get a list of all files in the current folder that contain the word “quartz” in their name? 
 #card 
+
+Yes, although only explicitly calling the cmdlet `Write-Information` can you the output be redirected or reused.
+
+⌂
+<br>﹈<br>^1701596650190
+
+﹇<br>
+What command should I run if I want to get a list of all files in the current folder that contain the word “quartz” in their name?
+
+#card 
+
 ```powershell
 Get-ChildItem -Filter "*quartz*" -Name
 ```
-^1690892249793
 
+⌂
+<br>﹈<br>^1701596650193
 
+﹇<br>
 What command should I run if I want to get a list of all files in the current folder, and all subsequent subfolders, that contain the word “quartz” in their name? 
+
 #card 
+
 ```powershell
 Get-ChildItem -Filter "*quartz*" -Recurse -Name
 ```
-^1690892249800
 
+⌂
+<br>﹈<br>^1701596650196
+
+﹇<br>
 What does the following PowerShell command do?
+
 ```powershell
 $Env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 ```
-#card 
-[This command retrieves the `Path` environment variable for both the `Machine` and `User` scopes, concatenates them with a semicolon separator, and assigns the result to the `$Env:Path` variable in the current PowerShell session](https://shellgeek.com/powershell-refresh-environment-variables/)[1](https://shellgeek.com/powershell-refresh-environment-variables/). This will update the `Path` environment variable in the current session without needing to restart PowerShell.
-^1691990373878
 
+#card 
+
+[This command retrieves the `Path` environment variable for both the `Machine` and `User` scopes, concatenates them with a semicolon separator, and assigns the result to the `$Env:Path` variable in the current PowerShell session](https://shellgeek.com/powershell-refresh-environment-variables/)[1](https://shellgeek.com/powershell-refresh-environment-variables/). 
+
+This will update the `Path` environment variable in the current session without needing to restart PowerShell.
+
+⌂
+<br>﹈<br>^1701596650200
 
 ---
 
