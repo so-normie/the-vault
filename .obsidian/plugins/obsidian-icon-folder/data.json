@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "EiBazel",
       "EiDEGrindCrew",
       "SiMicrosoftexcel",
       "SiPython",
@@ -19,8 +20,7 @@
       "RiBookMarkFill",
       "RiBookmarkFill",
       "TiNotes",
-      "TiTemplate",
-      "EiZotero"
+      "TiTemplate"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -288,5 +288,6 @@
   "the-vault/templates/Template {{Date Created}}.md": "TiTemplate",
   "the-vault/templates/Template {{Table of Contents}}.md": "TiTemplate",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia/Tree traversal.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/DE Grind Crew": "EiDEGrindCrew"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/DE Grind Crew": "EiDEGrindCrew",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel": "EiBazel"
 }

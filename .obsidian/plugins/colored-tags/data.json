@@ -410,7 +410,11 @@
     "🔴-academic/📚-educational-resource/name/pragmaticoders/🔖": 3,
     "🔴-academic/📚-educational-resource/name/pragmaticoders/🔖/pragmaticoders-∋-table-of-contents": 1,
     "🔴-academic/📚-educational-resource/name/pragmaticoders/🔖/misc-notes": 2,
-    "cpp": 10
+    "cpp": 10,
+    "🔴-academic/📚-educational-resource/name/🗒️-bazel": 65,
+    "🔴-academic/📚-educational-resource/name/🗒️-bazel/🔖": 1,
+    "🔴-academic/📚-educational-resource/name/🗒️-bazel/🔖/bazel-∋-table-of-contents": 1,
+    "🔴-academic/📚-educational-resource/discipline/computer-science/technology/bazel": 22
   },
   "_version": 2
 }
