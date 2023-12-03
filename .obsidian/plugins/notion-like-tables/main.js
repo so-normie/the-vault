@@ -2350,9 +2350,9 @@ var require_react_dom_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React68 = require_react();
+        var React67 = require_react();
         var Scheduler = require_scheduler();
-        var ReactSharedInternals = React68.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React67.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         var suppressWarning = false;
         function setSuppressWarning(newSuppressWarning) {
           {
@@ -2401,7 +2401,7 @@ var require_react_dom_development = __commonJS({
         var HostPortal = 4;
         var HostComponent = 5;
         var HostText = 6;
-        var Fragment25 = 7;
+        var Fragment27 = 7;
         var Mode = 8;
         var ContextConsumer = 9;
         var ContextProvider = 10;
@@ -3478,7 +3478,7 @@ var require_react_dom_development = __commonJS({
               return "DehydratedFragment";
             case ForwardRef:
               return getWrappedName$1(type, type.render, "ForwardRef");
-            case Fragment25:
+            case Fragment27:
               return "Fragment";
             case HostComponent:
               return type;
@@ -3873,7 +3873,7 @@ var require_react_dom_development = __commonJS({
           {
             if (props.value == null) {
               if (typeof props.children === "object" && props.children !== null) {
-                React68.Children.forEach(props.children, function(child) {
+                React67.Children.forEach(props.children, function(child) {
                   if (child == null) {
                     return;
                   }
@@ -12034,7 +12034,7 @@ var require_react_dom_development = __commonJS({
           }
         }
         var fakeInternalInstance = {};
-        var emptyRefsObject = new React68.Component().refs;
+        var emptyRefsObject = new React67.Component().refs;
         var didWarnAboutStateAssignmentForComponent;
         var didWarnAboutUninitializedState;
         var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -12843,7 +12843,7 @@ var require_react_dom_development = __commonJS({
             }
           }
           function updateFragment2(returnFiber, current2, fragment, lanes, key) {
-            if (current2 === null || current2.tag !== Fragment25) {
+            if (current2 === null || current2.tag !== Fragment27) {
               var created = createFiberFromFragment(fragment, returnFiber.mode, lanes, key);
               created.return = returnFiber;
               return created;
@@ -13245,7 +13245,7 @@ var require_react_dom_development = __commonJS({
               if (child.key === key) {
                 var elementType = element.type;
                 if (elementType === REACT_FRAGMENT_TYPE) {
-                  if (child.tag === Fragment25) {
+                  if (child.tag === Fragment27) {
                     deleteRemainingChildren(returnFiber, child.sibling);
                     var existing = useFiber(child, element.props.children);
                     existing.return = returnFiber;
@@ -17351,7 +17351,7 @@ var require_react_dom_development = __commonJS({
               var _resolvedProps2 = workInProgress2.elementType === type ? _unresolvedProps2 : resolveDefaultProps(type, _unresolvedProps2);
               return updateForwardRef(current2, workInProgress2, type, _resolvedProps2, renderLanes2);
             }
-            case Fragment25:
+            case Fragment27:
               return updateFragment(current2, workInProgress2, renderLanes2);
             case Mode:
               return updateMode(current2, workInProgress2, renderLanes2);
@@ -17623,7 +17623,7 @@ var require_react_dom_development = __commonJS({
             case SimpleMemoComponent:
             case FunctionComponent:
             case ForwardRef:
-            case Fragment25:
+            case Fragment27:
             case Mode:
             case Profiler:
             case ContextConsumer:
@@ -21837,7 +21837,7 @@ var require_react_dom_development = __commonJS({
           return fiber;
         }
         function createFiberFromFragment(elements, mode, lanes, key) {
-          var fiber = createFiber(Fragment25, elements, key, mode);
+          var fiber = createFiber(Fragment27, elements, key, mode);
           fiber.lanes = lanes;
           return fiber;
         }
@@ -26932,7 +26932,7 @@ var require_lodash = __commonJS({
           customizer = typeof customizer == "function" ? customizer : undefined2;
           return baseClone(value, CLONE_SYMBOLS_FLAG, customizer);
         }
-        function cloneDeep19(value) {
+        function cloneDeep12(value) {
           return baseClone(value, CLONE_DEEP_FLAG | CLONE_SYMBOLS_FLAG);
         }
         function cloneDeepWith(value, customizer) {
@@ -28058,7 +28058,7 @@ var require_lodash = __commonJS({
         lodash.ceil = ceil2;
         lodash.clamp = clamp;
         lodash.clone = clone2;
-        lodash.cloneDeep = cloneDeep19;
+        lodash.cloneDeep = cloneDeep12;
         lodash.cloneDeepWith = cloneDeepWith;
         lodash.cloneWith = cloneWith;
         lodash.conformsTo = conformsTo;
@@ -30284,8 +30284,8 @@ var require_use_sync_external_store_shim_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React68 = require_react();
-        var ReactSharedInternals = React68.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var React67 = require_react();
+        var ReactSharedInternals = React67.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         function error(format) {
           {
             {
@@ -30315,13 +30315,13 @@ var require_use_sync_external_store_shim_development = __commonJS({
           return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
         }
         var objectIs = typeof Object.is === "function" ? Object.is : is;
-        var useState = React68.useState, useEffect2 = React68.useEffect, useLayoutEffect2 = React68.useLayoutEffect, useDebugValue2 = React68.useDebugValue;
+        var useState = React67.useState, useEffect2 = React67.useEffect, useLayoutEffect2 = React67.useLayoutEffect, useDebugValue2 = React67.useDebugValue;
         var didWarnOld18Alpha = false;
         var didWarnUncachedGetSnapshot = false;
         function useSyncExternalStore3(subscribe2, getSnapshot, getServerSnapshot) {
           {
             if (!didWarnOld18Alpha) {
-              if (React68.startTransition !== void 0) {
+              if (React67.startTransition !== void 0) {
                 didWarnOld18Alpha = true;
                 error("You are using an outdated, pre-release alpha of React 18 that does not support useSyncExternalStore. The use-sync-external-store shim will not work correctly. Upgrade to a newer pre-release.");
               }
@@ -30386,7 +30386,7 @@ var require_use_sync_external_store_shim_development = __commonJS({
         var canUseDOM2 = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
         var isServerEnvironment = !canUseDOM2;
         var shim = isServerEnvironment ? useSyncExternalStore$1 : useSyncExternalStore3;
-        var useSyncExternalStore$2 = React68.useSyncExternalStore !== void 0 ? React68.useSyncExternalStore : shim;
+        var useSyncExternalStore$2 = React67.useSyncExternalStore !== void 0 ? React67.useSyncExternalStore : shim;
         exports.useSyncExternalStore = useSyncExternalStore$2;
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
@@ -30418,14 +30418,14 @@ var require_with_selector_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React68 = require_react();
+        var React67 = require_react();
         var shim = require_shim();
         function is(x2, y2) {
           return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
         }
         var objectIs = typeof Object.is === "function" ? Object.is : is;
         var useSyncExternalStore3 = shim.useSyncExternalStore;
-        var useRef4 = React68.useRef, useEffect2 = React68.useEffect, useMemo3 = React68.useMemo, useDebugValue2 = React68.useDebugValue;
+        var useRef4 = React67.useRef, useEffect2 = React67.useEffect, useMemo3 = React67.useMemo, useDebugValue2 = React67.useDebugValue;
         function useSyncExternalStoreWithSelector3(subscribe2, getSnapshot, getServerSnapshot, selector, isEqual) {
           var instRef = useRef4(null);
           var inst;
@@ -30578,7 +30578,7 @@ var require_react_is_development = __commonJS({
         var ContextProvider = REACT_PROVIDER_TYPE;
         var Element2 = REACT_ELEMENT_TYPE;
         var ForwardRef = REACT_FORWARD_REF_TYPE;
-        var Fragment25 = REACT_FRAGMENT_TYPE;
+        var Fragment27 = REACT_FRAGMENT_TYPE;
         var Lazy = REACT_LAZY_TYPE;
         var Memo = REACT_MEMO_TYPE;
         var Portal = REACT_PORTAL_TYPE;
@@ -30637,7 +30637,7 @@ var require_react_is_development = __commonJS({
         exports.ContextProvider = ContextProvider;
         exports.Element = Element2;
         exports.ForwardRef = ForwardRef;
-        exports.Fragment = Fragment25;
+        exports.Fragment = Fragment27;
         exports.Lazy = Lazy;
         exports.Memo = Memo;
         exports.Portal = Portal;
@@ -30845,7 +30845,7 @@ var require_react_is_development2 = __commonJS({
         var ContextProvider = REACT_PROVIDER_TYPE;
         var Element2 = REACT_ELEMENT_TYPE;
         var ForwardRef = REACT_FORWARD_REF_TYPE;
-        var Fragment25 = REACT_FRAGMENT_TYPE;
+        var Fragment27 = REACT_FRAGMENT_TYPE;
         var Lazy = REACT_LAZY_TYPE;
         var Memo = REACT_MEMO_TYPE;
         var Portal = REACT_PORTAL_TYPE;
@@ -30913,7 +30913,7 @@ var require_react_is_development2 = __commonJS({
         exports.ContextProvider = ContextProvider;
         exports.Element = Element2;
         exports.ForwardRef = ForwardRef;
-        exports.Fragment = Fragment25;
+        exports.Fragment = Fragment27;
         exports.Lazy = Lazy;
         exports.Memo = Memo;
         exports.Portal = Portal;
@@ -30961,7 +30961,7 @@ var require_react_jsx_runtime_development = __commonJS({
     if (true) {
       (function() {
         "use strict";
-        var React68 = require_react();
+        var React67 = require_react();
         var REACT_ELEMENT_TYPE = Symbol.for("react.element");
         var REACT_PORTAL_TYPE = Symbol.for("react.portal");
         var REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
@@ -30987,7 +30987,7 @@ var require_react_jsx_runtime_development = __commonJS({
           }
           return null;
         }
-        var ReactSharedInternals = React68.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React67.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         function error(format) {
           {
             {
@@ -31813,11 +31813,11 @@ var require_react_jsx_runtime_development = __commonJS({
             return jsxWithValidation(type, props, key, false);
           }
         }
-        var jsx145 = jsxWithValidationDynamic;
-        var jsxs68 = jsxWithValidationStatic;
+        var jsx149 = jsxWithValidationDynamic;
+        var jsxs71 = jsxWithValidationStatic;
         exports.Fragment = REACT_FRAGMENT_TYPE;
-        exports.jsx = jsx145;
-        exports.jsxs = jsxs68;
+        exports.jsx = jsx149;
+        exports.jsxs = jsxs71;
       })();
     }
   }
@@ -38269,6 +38269,3544 @@ var require_papaparse_min = __commonJS({
   }
 });
 
+// node_modules/jsondiffpatch/dist/empty.js
+var require_empty = __commonJS({
+  "node_modules/jsondiffpatch/dist/empty.js"() {
+  }
+});
+
+// node_modules/jsondiffpatch/dist/jsondiffpatch.umd.js
+var require_jsondiffpatch_umd = __commonJS({
+  "node_modules/jsondiffpatch/dist/jsondiffpatch.umd.js"(exports, module2) {
+    (function(global2, factory) {
+      typeof exports === "object" && typeof module2 !== "undefined" ? factory(exports, require_empty()) : typeof define === "function" && define.amd ? define(["exports", "./empty"], factory) : (global2 = typeof globalThis !== "undefined" ? globalThis : global2 || self, factory(global2.jsondiffpatch = {}, global2.chalk));
+    })(exports, function(exports2, chalk) {
+      "use strict";
+      class Processor {
+        constructor(options) {
+          this.selfOptions = options || {};
+          this.pipes = {};
+        }
+        options(options) {
+          if (options) {
+            this.selfOptions = options;
+          }
+          return this.selfOptions;
+        }
+        pipe(name, pipeArg) {
+          let pipe2 = pipeArg;
+          if (typeof name === "string") {
+            if (typeof pipe2 === "undefined") {
+              return this.pipes[name];
+            } else {
+              this.pipes[name] = pipe2;
+            }
+          }
+          if (name && name.name) {
+            pipe2 = name;
+            if (pipe2.processor === this) {
+              return pipe2;
+            }
+            this.pipes[pipe2.name] = pipe2;
+          }
+          pipe2.processor = this;
+          return pipe2;
+        }
+        process(input, pipe2) {
+          let context = input;
+          context.options = this.options();
+          let nextPipe = pipe2 || input.pipe || "default";
+          let lastPipe;
+          let lastContext;
+          while (nextPipe) {
+            if (typeof context.nextAfterChildren !== "undefined") {
+              context.next = context.nextAfterChildren;
+              context.nextAfterChildren = null;
+            }
+            if (typeof nextPipe === "string") {
+              nextPipe = this.pipe(nextPipe);
+            }
+            nextPipe.process(context);
+            lastContext = context;
+            lastPipe = nextPipe;
+            nextPipe = null;
+            if (context) {
+              if (context.next) {
+                context = context.next;
+                nextPipe = lastContext.nextPipe || context.pipe || lastPipe;
+              }
+            }
+          }
+          return context.hasResult ? context.result : void 0;
+        }
+      }
+      class Pipe {
+        constructor(name) {
+          this.name = name;
+          this.filters = [];
+        }
+        process(input) {
+          if (!this.processor) {
+            throw new Error("add this pipe to a processor before using it");
+          }
+          const debug = this.debug;
+          const length = this.filters.length;
+          const context = input;
+          for (let index2 = 0; index2 < length; index2++) {
+            const filter3 = this.filters[index2];
+            if (debug) {
+              this.log(`filter: ${filter3.filterName}`);
+            }
+            filter3(context);
+            if (typeof context === "object" && context.exiting) {
+              context.exiting = false;
+              break;
+            }
+          }
+          if (!context.next && this.resultCheck) {
+            this.resultCheck(context);
+          }
+        }
+        log(msg) {
+          console.log(`[jsondiffpatch] ${this.name} pipe, ${msg}`);
+        }
+        append() {
+          this.filters.push(...arguments);
+          return this;
+        }
+        prepend() {
+          this.filters.unshift(...arguments);
+          return this;
+        }
+        indexOf(filterName) {
+          if (!filterName) {
+            throw new Error("a filter name is required");
+          }
+          for (let index2 = 0; index2 < this.filters.length; index2++) {
+            const filter3 = this.filters[index2];
+            if (filter3.filterName === filterName) {
+              return index2;
+            }
+          }
+          throw new Error(`filter not found: ${filterName}`);
+        }
+        list() {
+          return this.filters.map((f3) => f3.filterName);
+        }
+        after(filterName) {
+          const index2 = this.indexOf(filterName);
+          const params = Array.prototype.slice.call(arguments, 1);
+          if (!params.length) {
+            throw new Error("a filter is required");
+          }
+          params.unshift(index2 + 1, 0);
+          Array.prototype.splice.apply(this.filters, params);
+          return this;
+        }
+        before(filterName) {
+          const index2 = this.indexOf(filterName);
+          const params = Array.prototype.slice.call(arguments, 1);
+          if (!params.length) {
+            throw new Error("a filter is required");
+          }
+          params.unshift(index2, 0);
+          Array.prototype.splice.apply(this.filters, params);
+          return this;
+        }
+        replace(filterName) {
+          const index2 = this.indexOf(filterName);
+          const params = Array.prototype.slice.call(arguments, 1);
+          if (!params.length) {
+            throw new Error("a filter is required");
+          }
+          params.unshift(index2, 1);
+          Array.prototype.splice.apply(this.filters, params);
+          return this;
+        }
+        remove(filterName) {
+          const index2 = this.indexOf(filterName);
+          this.filters.splice(index2, 1);
+          return this;
+        }
+        clear() {
+          this.filters.length = 0;
+          return this;
+        }
+        shouldHaveResult(should) {
+          if (should === false) {
+            this.resultCheck = null;
+            return;
+          }
+          if (this.resultCheck) {
+            return;
+          }
+          const pipe2 = this;
+          this.resultCheck = (context) => {
+            if (!context.hasResult) {
+              console.log(context);
+              const error = new Error(`${pipe2.name} failed`);
+              error.noResult = true;
+              throw error;
+            }
+          };
+          return this;
+        }
+      }
+      class Context {
+        setResult(result) {
+          this.result = result;
+          this.hasResult = true;
+          return this;
+        }
+        exit() {
+          this.exiting = true;
+          return this;
+        }
+        switchTo(next, pipe2) {
+          if (typeof next === "string" || next instanceof Pipe) {
+            this.nextPipe = next;
+          } else {
+            this.next = next;
+            if (pipe2) {
+              this.nextPipe = pipe2;
+            }
+          }
+          return this;
+        }
+        push(child, name) {
+          child.parent = this;
+          if (typeof name !== "undefined") {
+            child.childName = name;
+          }
+          child.root = this.root || this;
+          child.options = child.options || this.options;
+          if (!this.children) {
+            this.children = [child];
+            this.nextAfterChildren = this.next || null;
+            this.next = child;
+          } else {
+            this.children[this.children.length - 1].next = child;
+            this.children.push(child);
+          }
+          child.next = this;
+          return this;
+        }
+      }
+      const isArray$3 = typeof Array.isArray === "function" ? Array.isArray : (a2) => a2 instanceof Array;
+      function cloneRegExp(re) {
+        const regexMatch = /^\/(.*)\/([gimyu]*)$/.exec(re.toString());
+        return new RegExp(regexMatch[1], regexMatch[2]);
+      }
+      function clone$1(arg) {
+        if (typeof arg !== "object") {
+          return arg;
+        }
+        if (arg === null) {
+          return null;
+        }
+        if (isArray$3(arg)) {
+          return arg.map(clone$1);
+        }
+        if (arg instanceof Date) {
+          return new Date(arg.getTime());
+        }
+        if (arg instanceof RegExp) {
+          return cloneRegExp(arg);
+        }
+        const cloned = {};
+        for (const name in arg) {
+          if (Object.prototype.hasOwnProperty.call(arg, name)) {
+            cloned[name] = clone$1(arg[name]);
+          }
+        }
+        return cloned;
+      }
+      class DiffContext extends Context {
+        constructor(left, right) {
+          super();
+          this.left = left;
+          this.right = right;
+          this.pipe = "diff";
+        }
+        setResult(result) {
+          if (this.options.cloneDiffValues && typeof result === "object") {
+            const clone3 = typeof this.options.cloneDiffValues === "function" ? this.options.cloneDiffValues : clone$1;
+            if (typeof result[0] === "object") {
+              result[0] = clone3(result[0]);
+            }
+            if (typeof result[1] === "object") {
+              result[1] = clone3(result[1]);
+            }
+          }
+          return Context.prototype.setResult.apply(this, arguments);
+        }
+      }
+      class PatchContext extends Context {
+        constructor(left, delta) {
+          super();
+          this.left = left;
+          this.delta = delta;
+          this.pipe = "patch";
+        }
+      }
+      class ReverseContext extends Context {
+        constructor(delta) {
+          super();
+          this.delta = delta;
+          this.pipe = "reverse";
+        }
+      }
+      const isArray$2 = typeof Array.isArray === "function" ? Array.isArray : function(a2) {
+        return a2 instanceof Array;
+      };
+      const diffFilter$3 = function trivialMatchesDiffFilter(context) {
+        if (context.left === context.right) {
+          context.setResult(void 0).exit();
+          return;
+        }
+        if (typeof context.left === "undefined") {
+          if (typeof context.right === "function") {
+            throw new Error("functions are not supported");
+          }
+          context.setResult([context.right]).exit();
+          return;
+        }
+        if (typeof context.right === "undefined") {
+          context.setResult([context.left, 0, 0]).exit();
+          return;
+        }
+        if (typeof context.left === "function" || typeof context.right === "function") {
+          throw new Error("functions are not supported");
+        }
+        context.leftType = context.left === null ? "null" : typeof context.left;
+        context.rightType = context.right === null ? "null" : typeof context.right;
+        if (context.leftType !== context.rightType) {
+          context.setResult([context.left, context.right]).exit();
+          return;
+        }
+        if (context.leftType === "boolean" || context.leftType === "number") {
+          context.setResult([context.left, context.right]).exit();
+          return;
+        }
+        if (context.leftType === "object") {
+          context.leftIsArray = isArray$2(context.left);
+        }
+        if (context.rightType === "object") {
+          context.rightIsArray = isArray$2(context.right);
+        }
+        if (context.leftIsArray !== context.rightIsArray) {
+          context.setResult([context.left, context.right]).exit();
+          return;
+        }
+        if (context.left instanceof RegExp) {
+          if (context.right instanceof RegExp) {
+            context.setResult([context.left.toString(), context.right.toString()]).exit();
+          } else {
+            context.setResult([context.left, context.right]).exit();
+          }
+        }
+      };
+      diffFilter$3.filterName = "trivial";
+      const patchFilter$3 = function trivialMatchesPatchFilter(context) {
+        if (typeof context.delta === "undefined") {
+          context.setResult(context.left).exit();
+          return;
+        }
+        context.nested = !isArray$2(context.delta);
+        if (context.nested) {
+          return;
+        }
+        if (context.delta.length === 1) {
+          context.setResult(context.delta[0]).exit();
+          return;
+        }
+        if (context.delta.length === 2) {
+          if (context.left instanceof RegExp) {
+            const regexArgs = /^\/(.*)\/([gimyu]+)$/.exec(context.delta[1]);
+            if (regexArgs) {
+              context.setResult(new RegExp(regexArgs[1], regexArgs[2])).exit();
+              return;
+            }
+          }
+          context.setResult(context.delta[1]).exit();
+          return;
+        }
+        if (context.delta.length === 3 && context.delta[2] === 0) {
+          context.setResult(void 0).exit();
+        }
+      };
+      patchFilter$3.filterName = "trivial";
+      const reverseFilter$3 = function trivialReferseFilter(context) {
+        if (typeof context.delta === "undefined") {
+          context.setResult(context.delta).exit();
+          return;
+        }
+        context.nested = !isArray$2(context.delta);
+        if (context.nested) {
+          return;
+        }
+        if (context.delta.length === 1) {
+          context.setResult([context.delta[0], 0, 0]).exit();
+          return;
+        }
+        if (context.delta.length === 2) {
+          context.setResult([context.delta[1], context.delta[0]]).exit();
+          return;
+        }
+        if (context.delta.length === 3 && context.delta[2] === 0) {
+          context.setResult([context.delta[0]]).exit();
+        }
+      };
+      reverseFilter$3.filterName = "trivial";
+      function collectChildrenDiffFilter(context) {
+        if (!context || !context.children) {
+          return;
+        }
+        const length = context.children.length;
+        let child;
+        let result = context.result;
+        for (let index2 = 0; index2 < length; index2++) {
+          child = context.children[index2];
+          if (typeof child.result === "undefined") {
+            continue;
+          }
+          result = result || {};
+          result[child.childName] = child.result;
+        }
+        if (result && context.leftIsArray) {
+          result._t = "a";
+        }
+        context.setResult(result).exit();
+      }
+      collectChildrenDiffFilter.filterName = "collectChildren";
+      function objectsDiffFilter(context) {
+        if (context.leftIsArray || context.leftType !== "object") {
+          return;
+        }
+        let name;
+        let child;
+        const propertyFilter = context.options.propertyFilter;
+        for (name in context.left) {
+          if (!Object.prototype.hasOwnProperty.call(context.left, name)) {
+            continue;
+          }
+          if (propertyFilter && !propertyFilter(name, context)) {
+            continue;
+          }
+          child = new DiffContext(context.left[name], context.right[name]);
+          context.push(child, name);
+        }
+        for (name in context.right) {
+          if (!Object.prototype.hasOwnProperty.call(context.right, name)) {
+            continue;
+          }
+          if (propertyFilter && !propertyFilter(name, context)) {
+            continue;
+          }
+          if (typeof context.left[name] === "undefined") {
+            child = new DiffContext(void 0, context.right[name]);
+            context.push(child, name);
+          }
+        }
+        if (!context.children || context.children.length === 0) {
+          context.setResult(void 0).exit();
+          return;
+        }
+        context.exit();
+      }
+      objectsDiffFilter.filterName = "objects";
+      const patchFilter$2 = function nestedPatchFilter(context) {
+        if (!context.nested) {
+          return;
+        }
+        if (context.delta._t) {
+          return;
+        }
+        let name;
+        let child;
+        for (name in context.delta) {
+          child = new PatchContext(context.left[name], context.delta[name]);
+          context.push(child, name);
+        }
+        context.exit();
+      };
+      patchFilter$2.filterName = "objects";
+      const collectChildrenPatchFilter$1 = function collectChildrenPatchFilter2(context) {
+        if (!context || !context.children) {
+          return;
+        }
+        if (context.delta._t) {
+          return;
+        }
+        const length = context.children.length;
+        let child;
+        for (let index2 = 0; index2 < length; index2++) {
+          child = context.children[index2];
+          if (Object.prototype.hasOwnProperty.call(context.left, child.childName) && child.result === void 0) {
+            delete context.left[child.childName];
+          } else if (context.left[child.childName] !== child.result) {
+            context.left[child.childName] = child.result;
+          }
+        }
+        context.setResult(context.left).exit();
+      };
+      collectChildrenPatchFilter$1.filterName = "collectChildren";
+      const reverseFilter$2 = function nestedReverseFilter(context) {
+        if (!context.nested) {
+          return;
+        }
+        if (context.delta._t) {
+          return;
+        }
+        let name;
+        let child;
+        for (name in context.delta) {
+          child = new ReverseContext(context.delta[name]);
+          context.push(child, name);
+        }
+        context.exit();
+      };
+      reverseFilter$2.filterName = "objects";
+      function collectChildrenReverseFilter$1(context) {
+        if (!context || !context.children) {
+          return;
+        }
+        if (context.delta._t) {
+          return;
+        }
+        const length = context.children.length;
+        let child;
+        const delta = {};
+        for (let index2 = 0; index2 < length; index2++) {
+          child = context.children[index2];
+          if (delta[child.childName] !== child.result) {
+            delta[child.childName] = child.result;
+          }
+        }
+        context.setResult(delta).exit();
+      }
+      collectChildrenReverseFilter$1.filterName = "collectChildren";
+      const defaultMatch = function(array1, array2, index1, index2) {
+        return array1[index1] === array2[index2];
+      };
+      const lengthMatrix = function(array1, array2, match, context) {
+        const len1 = array1.length;
+        const len2 = array2.length;
+        let x2, y2;
+        const matrix = [len1 + 1];
+        for (x2 = 0; x2 < len1 + 1; x2++) {
+          matrix[x2] = [len2 + 1];
+          for (y2 = 0; y2 < len2 + 1; y2++) {
+            matrix[x2][y2] = 0;
+          }
+        }
+        matrix.match = match;
+        for (x2 = 1; x2 < len1 + 1; x2++) {
+          for (y2 = 1; y2 < len2 + 1; y2++) {
+            if (match(array1, array2, x2 - 1, y2 - 1, context)) {
+              matrix[x2][y2] = matrix[x2 - 1][y2 - 1] + 1;
+            } else {
+              matrix[x2][y2] = Math.max(matrix[x2 - 1][y2], matrix[x2][y2 - 1]);
+            }
+          }
+        }
+        return matrix;
+      };
+      const backtrack = function(matrix, array1, array2, context) {
+        let index1 = array1.length;
+        let index2 = array2.length;
+        const subsequence = {
+          sequence: [],
+          indices1: [],
+          indices2: []
+        };
+        while (index1 !== 0 && index2 !== 0) {
+          const sameLetter = matrix.match(array1, array2, index1 - 1, index2 - 1, context);
+          if (sameLetter) {
+            subsequence.sequence.unshift(array1[index1 - 1]);
+            subsequence.indices1.unshift(index1 - 1);
+            subsequence.indices2.unshift(index2 - 1);
+            --index1;
+            --index2;
+          } else {
+            const valueAtMatrixAbove = matrix[index1][index2 - 1];
+            const valueAtMatrixLeft = matrix[index1 - 1][index2];
+            if (valueAtMatrixAbove > valueAtMatrixLeft) {
+              --index2;
+            } else {
+              --index1;
+            }
+          }
+        }
+        return subsequence;
+      };
+      const get = function(array1, array2, match, context) {
+        const innerContext = context || {};
+        const matrix = lengthMatrix(array1, array2, match || defaultMatch, innerContext);
+        const result = backtrack(matrix, array1, array2, innerContext);
+        if (typeof array1 === "string" && typeof array2 === "string") {
+          result.sequence = result.sequence.join("");
+        }
+        return result;
+      };
+      var lcs = {
+        get
+      };
+      const ARRAY_MOVE = 3;
+      const isArray$1 = typeof Array.isArray === "function" ? Array.isArray : (a2) => a2 instanceof Array;
+      const arrayIndexOf = typeof Array.prototype.indexOf === "function" ? (array, item) => array.indexOf(item) : (array, item) => {
+        const length = array.length;
+        for (let i2 = 0; i2 < length; i2++) {
+          if (array[i2] === item) {
+            return i2;
+          }
+        }
+        return -1;
+      };
+      function arraysHaveMatchByRef(array1, array2, len1, len2) {
+        for (let index1 = 0; index1 < len1; index1++) {
+          const val1 = array1[index1];
+          for (let index2 = 0; index2 < len2; index2++) {
+            const val2 = array2[index2];
+            if (index1 !== index2 && val1 === val2) {
+              return true;
+            }
+          }
+        }
+      }
+      function matchItems(array1, array2, index1, index2, context) {
+        const value1 = array1[index1];
+        const value2 = array2[index2];
+        if (value1 === value2) {
+          return true;
+        }
+        if (typeof value1 !== "object" || typeof value2 !== "object") {
+          return false;
+        }
+        const objectHash = context.objectHash;
+        if (!objectHash) {
+          return context.matchByPosition && index1 === index2;
+        }
+        let hash1;
+        let hash2;
+        if (typeof index1 === "number") {
+          context.hashCache1 = context.hashCache1 || [];
+          hash1 = context.hashCache1[index1];
+          if (typeof hash1 === "undefined") {
+            context.hashCache1[index1] = hash1 = objectHash(value1, index1);
+          }
+        } else {
+          hash1 = objectHash(value1);
+        }
+        if (typeof hash1 === "undefined") {
+          return false;
+        }
+        if (typeof index2 === "number") {
+          context.hashCache2 = context.hashCache2 || [];
+          hash2 = context.hashCache2[index2];
+          if (typeof hash2 === "undefined") {
+            context.hashCache2[index2] = hash2 = objectHash(value2, index2);
+          }
+        } else {
+          hash2 = objectHash(value2);
+        }
+        if (typeof hash2 === "undefined") {
+          return false;
+        }
+        return hash1 === hash2;
+      }
+      const diffFilter$2 = function arraysDiffFilter(context) {
+        if (!context.leftIsArray) {
+          return;
+        }
+        const matchContext = {
+          objectHash: context.options && context.options.objectHash,
+          matchByPosition: context.options && context.options.matchByPosition
+        };
+        let commonHead = 0;
+        let commonTail = 0;
+        let index2;
+        let index1;
+        let index22;
+        const array1 = context.left;
+        const array2 = context.right;
+        const len1 = array1.length;
+        const len2 = array2.length;
+        let child;
+        if (len1 > 0 && len2 > 0 && !matchContext.objectHash && typeof matchContext.matchByPosition !== "boolean") {
+          matchContext.matchByPosition = !arraysHaveMatchByRef(array1, array2, len1, len2);
+        }
+        while (commonHead < len1 && commonHead < len2 && matchItems(array1, array2, commonHead, commonHead, matchContext)) {
+          index2 = commonHead;
+          child = new DiffContext(context.left[index2], context.right[index2]);
+          context.push(child, index2);
+          commonHead++;
+        }
+        while (commonTail + commonHead < len1 && commonTail + commonHead < len2 && matchItems(array1, array2, len1 - 1 - commonTail, len2 - 1 - commonTail, matchContext)) {
+          index1 = len1 - 1 - commonTail;
+          index22 = len2 - 1 - commonTail;
+          child = new DiffContext(context.left[index1], context.right[index22]);
+          context.push(child, index22);
+          commonTail++;
+        }
+        let result;
+        if (commonHead + commonTail === len1) {
+          if (len1 === len2) {
+            context.setResult(void 0).exit();
+            return;
+          }
+          result = result || {
+            _t: "a"
+          };
+          for (index2 = commonHead; index2 < len2 - commonTail; index2++) {
+            result[index2] = [array2[index2]];
+          }
+          context.setResult(result).exit();
+          return;
+        }
+        if (commonHead + commonTail === len2) {
+          result = result || {
+            _t: "a"
+          };
+          for (index2 = commonHead; index2 < len1 - commonTail; index2++) {
+            result[`_${index2}`] = [array1[index2], 0, 0];
+          }
+          context.setResult(result).exit();
+          return;
+        }
+        delete matchContext.hashCache1;
+        delete matchContext.hashCache2;
+        const trimmed1 = array1.slice(commonHead, len1 - commonTail);
+        const trimmed2 = array2.slice(commonHead, len2 - commonTail);
+        const seq = lcs.get(trimmed1, trimmed2, matchItems, matchContext);
+        const removedItems = [];
+        result = result || {
+          _t: "a"
+        };
+        for (index2 = commonHead; index2 < len1 - commonTail; index2++) {
+          if (arrayIndexOf(seq.indices1, index2 - commonHead) < 0) {
+            result[`_${index2}`] = [array1[index2], 0, 0];
+            removedItems.push(index2);
+          }
+        }
+        let detectMove = true;
+        if (context.options && context.options.arrays && context.options.arrays.detectMove === false) {
+          detectMove = false;
+        }
+        let includeValueOnMove = false;
+        if (context.options && context.options.arrays && context.options.arrays.includeValueOnMove) {
+          includeValueOnMove = true;
+        }
+        const removedItemsLength = removedItems.length;
+        for (index2 = commonHead; index2 < len2 - commonTail; index2++) {
+          const indexOnArray2 = arrayIndexOf(seq.indices2, index2 - commonHead);
+          if (indexOnArray2 < 0) {
+            let isMove = false;
+            if (detectMove && removedItemsLength > 0) {
+              for (let removeItemIndex1 = 0; removeItemIndex1 < removedItemsLength; removeItemIndex1++) {
+                index1 = removedItems[removeItemIndex1];
+                if (matchItems(trimmed1, trimmed2, index1 - commonHead, index2 - commonHead, matchContext)) {
+                  result[`_${index1}`].splice(1, 2, index2, ARRAY_MOVE);
+                  if (!includeValueOnMove) {
+                    result[`_${index1}`][0] = "";
+                  }
+                  index22 = index2;
+                  child = new DiffContext(context.left[index1], context.right[index22]);
+                  context.push(child, index22);
+                  removedItems.splice(removeItemIndex1, 1);
+                  isMove = true;
+                  break;
+                }
+              }
+            }
+            if (!isMove) {
+              result[index2] = [array2[index2]];
+            }
+          } else {
+            index1 = seq.indices1[indexOnArray2] + commonHead;
+            index22 = seq.indices2[indexOnArray2] + commonHead;
+            child = new DiffContext(context.left[index1], context.right[index22]);
+            context.push(child, index22);
+          }
+        }
+        context.setResult(result).exit();
+      };
+      diffFilter$2.filterName = "arrays";
+      const compare = {
+        numerically(a2, b2) {
+          return a2 - b2;
+        },
+        numericallyBy(name) {
+          return (a2, b2) => a2[name] - b2[name];
+        }
+      };
+      const patchFilter$1 = function nestedPatchFilter(context) {
+        if (!context.nested) {
+          return;
+        }
+        if (context.delta._t !== "a") {
+          return;
+        }
+        let index2;
+        let index1;
+        const delta = context.delta;
+        const array = context.left;
+        let toRemove = [];
+        let toInsert = [];
+        const toModify = [];
+        for (index2 in delta) {
+          if (index2 !== "_t") {
+            if (index2[0] === "_") {
+              if (delta[index2][2] === 0 || delta[index2][2] === ARRAY_MOVE) {
+                toRemove.push(parseInt(index2.slice(1), 10));
+              } else {
+                throw new Error(`only removal or move can be applied at original array indices, invalid diff type: ${delta[index2][2]}`);
+              }
+            } else {
+              if (delta[index2].length === 1) {
+                toInsert.push({
+                  index: parseInt(index2, 10),
+                  value: delta[index2][0]
+                });
+              } else {
+                toModify.push({
+                  index: parseInt(index2, 10),
+                  delta: delta[index2]
+                });
+              }
+            }
+          }
+        }
+        toRemove = toRemove.sort(compare.numerically);
+        for (index2 = toRemove.length - 1; index2 >= 0; index2--) {
+          index1 = toRemove[index2];
+          const indexDiff = delta[`_${index1}`];
+          const removedValue = array.splice(index1, 1)[0];
+          if (indexDiff[2] === ARRAY_MOVE) {
+            toInsert.push({
+              index: indexDiff[1],
+              value: removedValue
+            });
+          }
+        }
+        toInsert = toInsert.sort(compare.numericallyBy("index"));
+        const toInsertLength = toInsert.length;
+        for (index2 = 0; index2 < toInsertLength; index2++) {
+          const insertion = toInsert[index2];
+          array.splice(insertion.index, 0, insertion.value);
+        }
+        const toModifyLength = toModify.length;
+        let child;
+        if (toModifyLength > 0) {
+          for (index2 = 0; index2 < toModifyLength; index2++) {
+            const modification = toModify[index2];
+            child = new PatchContext(context.left[modification.index], modification.delta);
+            context.push(child, modification.index);
+          }
+        }
+        if (!context.children) {
+          context.setResult(context.left).exit();
+          return;
+        }
+        context.exit();
+      };
+      patchFilter$1.filterName = "arrays";
+      const collectChildrenPatchFilter = function collectChildrenPatchFilter2(context) {
+        if (!context || !context.children) {
+          return;
+        }
+        if (context.delta._t !== "a") {
+          return;
+        }
+        const length = context.children.length;
+        let child;
+        for (let index2 = 0; index2 < length; index2++) {
+          child = context.children[index2];
+          context.left[child.childName] = child.result;
+        }
+        context.setResult(context.left).exit();
+      };
+      collectChildrenPatchFilter.filterName = "arraysCollectChildren";
+      const reverseFilter$1 = function arraysReverseFilter(context) {
+        if (!context.nested) {
+          if (context.delta[2] === ARRAY_MOVE) {
+            context.newName = `_${context.delta[1]}`;
+            context.setResult([context.delta[0], parseInt(context.childName.substr(1), 10), ARRAY_MOVE]).exit();
+          }
+          return;
+        }
+        if (context.delta._t !== "a") {
+          return;
+        }
+        let name;
+        let child;
+        for (name in context.delta) {
+          if (name === "_t") {
+            continue;
+          }
+          child = new ReverseContext(context.delta[name]);
+          context.push(child, name);
+        }
+        context.exit();
+      };
+      reverseFilter$1.filterName = "arrays";
+      const reverseArrayDeltaIndex = (delta, index2, itemDelta) => {
+        if (typeof index2 === "string" && index2[0] === "_") {
+          return parseInt(index2.substr(1), 10);
+        } else if (isArray$1(itemDelta) && itemDelta[2] === 0) {
+          return `_${index2}`;
+        }
+        let reverseIndex = +index2;
+        for (const deltaIndex in delta) {
+          const deltaItem = delta[deltaIndex];
+          if (isArray$1(deltaItem)) {
+            if (deltaItem[2] === ARRAY_MOVE) {
+              const moveFromIndex = parseInt(deltaIndex.substr(1), 10);
+              const moveToIndex = deltaItem[1];
+              if (moveToIndex === +index2) {
+                return moveFromIndex;
+              }
+              if (moveFromIndex <= reverseIndex && moveToIndex > reverseIndex) {
+                reverseIndex++;
+              } else if (moveFromIndex >= reverseIndex && moveToIndex < reverseIndex) {
+                reverseIndex--;
+              }
+            } else if (deltaItem[2] === 0) {
+              const deleteIndex = parseInt(deltaIndex.substr(1), 10);
+              if (deleteIndex <= reverseIndex) {
+                reverseIndex++;
+              }
+            } else if (deltaItem.length === 1 && deltaIndex <= reverseIndex) {
+              reverseIndex--;
+            }
+          }
+        }
+        return reverseIndex;
+      };
+      function collectChildrenReverseFilter(context) {
+        if (!context || !context.children) {
+          return;
+        }
+        if (context.delta._t !== "a") {
+          return;
+        }
+        const length = context.children.length;
+        let child;
+        const delta = {
+          _t: "a"
+        };
+        for (let index2 = 0; index2 < length; index2++) {
+          child = context.children[index2];
+          let name = child.newName;
+          if (typeof name === "undefined") {
+            name = reverseArrayDeltaIndex(context.delta, child.childName, child.result);
+          }
+          if (delta[name] !== child.result) {
+            delta[name] = child.result;
+          }
+        }
+        context.setResult(delta).exit();
+      }
+      collectChildrenReverseFilter.filterName = "arraysCollectChildren";
+      const diffFilter$1 = function datesDiffFilter(context) {
+        if (context.left instanceof Date) {
+          if (context.right instanceof Date) {
+            if (context.left.getTime() !== context.right.getTime()) {
+              context.setResult([context.left, context.right]);
+            } else {
+              context.setResult(void 0);
+            }
+          } else {
+            context.setResult([context.left, context.right]);
+          }
+          context.exit();
+        } else if (context.right instanceof Date) {
+          context.setResult([context.left, context.right]).exit();
+        }
+      };
+      diffFilter$1.filterName = "dates";
+      function getDefaultExportFromCjs(x2) {
+        return x2 && x2.__esModule && Object.prototype.hasOwnProperty.call(x2, "default") ? x2["default"] : x2;
+      }
+      var diffMatchPatch = { exports: {} };
+      (function(module3) {
+        var diff_match_patch2 = function() {
+          this.Diff_Timeout = 1;
+          this.Diff_EditCost = 4;
+          this.Match_Threshold = 0.5;
+          this.Match_Distance = 1e3;
+          this.Patch_DeleteThreshold = 0.5;
+          this.Patch_Margin = 4;
+          this.Match_MaxBits = 32;
+        };
+        var DIFF_DELETE = -1;
+        var DIFF_INSERT = 1;
+        var DIFF_EQUAL = 0;
+        diff_match_patch2.Diff = function(op, text) {
+          return [op, text];
+        };
+        diff_match_patch2.prototype.diff_main = function(text1, text2, opt_checklines, opt_deadline) {
+          if (typeof opt_deadline == "undefined") {
+            if (this.Diff_Timeout <= 0) {
+              opt_deadline = Number.MAX_VALUE;
+            } else {
+              opt_deadline = new Date().getTime() + this.Diff_Timeout * 1e3;
+            }
+          }
+          var deadline = opt_deadline;
+          if (text1 == null || text2 == null) {
+            throw new Error("Null input. (diff_main)");
+          }
+          if (text1 == text2) {
+            if (text1) {
+              return [new diff_match_patch2.Diff(DIFF_EQUAL, text1)];
+            }
+            return [];
+          }
+          if (typeof opt_checklines == "undefined") {
+            opt_checklines = true;
+          }
+          var checklines = opt_checklines;
+          var commonlength = this.diff_commonPrefix(text1, text2);
+          var commonprefix = text1.substring(0, commonlength);
+          text1 = text1.substring(commonlength);
+          text2 = text2.substring(commonlength);
+          commonlength = this.diff_commonSuffix(text1, text2);
+          var commonsuffix = text1.substring(text1.length - commonlength);
+          text1 = text1.substring(0, text1.length - commonlength);
+          text2 = text2.substring(0, text2.length - commonlength);
+          var diffs = this.diff_compute_(text1, text2, checklines, deadline);
+          if (commonprefix) {
+            diffs.unshift(new diff_match_patch2.Diff(DIFF_EQUAL, commonprefix));
+          }
+          if (commonsuffix) {
+            diffs.push(new diff_match_patch2.Diff(DIFF_EQUAL, commonsuffix));
+          }
+          this.diff_cleanupMerge(diffs);
+          return diffs;
+        };
+        diff_match_patch2.prototype.diff_compute_ = function(text1, text2, checklines, deadline) {
+          var diffs;
+          if (!text1) {
+            return [new diff_match_patch2.Diff(DIFF_INSERT, text2)];
+          }
+          if (!text2) {
+            return [new diff_match_patch2.Diff(DIFF_DELETE, text1)];
+          }
+          var longtext = text1.length > text2.length ? text1 : text2;
+          var shorttext = text1.length > text2.length ? text2 : text1;
+          var i2 = longtext.indexOf(shorttext);
+          if (i2 != -1) {
+            diffs = [
+              new diff_match_patch2.Diff(DIFF_INSERT, longtext.substring(0, i2)),
+              new diff_match_patch2.Diff(DIFF_EQUAL, shorttext),
+              new diff_match_patch2.Diff(
+                DIFF_INSERT,
+                longtext.substring(i2 + shorttext.length)
+              )
+            ];
+            if (text1.length > text2.length) {
+              diffs[0][0] = diffs[2][0] = DIFF_DELETE;
+            }
+            return diffs;
+          }
+          if (shorttext.length == 1) {
+            return [
+              new diff_match_patch2.Diff(DIFF_DELETE, text1),
+              new diff_match_patch2.Diff(DIFF_INSERT, text2)
+            ];
+          }
+          var hm = this.diff_halfMatch_(text1, text2);
+          if (hm) {
+            var text1_a = hm[0];
+            var text1_b = hm[1];
+            var text2_a = hm[2];
+            var text2_b = hm[3];
+            var mid_common = hm[4];
+            var diffs_a = this.diff_main(text1_a, text2_a, checklines, deadline);
+            var diffs_b = this.diff_main(text1_b, text2_b, checklines, deadline);
+            return diffs_a.concat(
+              [new diff_match_patch2.Diff(DIFF_EQUAL, mid_common)],
+              diffs_b
+            );
+          }
+          if (checklines && text1.length > 100 && text2.length > 100) {
+            return this.diff_lineMode_(text1, text2, deadline);
+          }
+          return this.diff_bisect_(text1, text2, deadline);
+        };
+        diff_match_patch2.prototype.diff_lineMode_ = function(text1, text2, deadline) {
+          var a2 = this.diff_linesToChars_(text1, text2);
+          text1 = a2.chars1;
+          text2 = a2.chars2;
+          var linearray = a2.lineArray;
+          var diffs = this.diff_main(text1, text2, false, deadline);
+          this.diff_charsToLines_(diffs, linearray);
+          this.diff_cleanupSemantic(diffs);
+          diffs.push(new diff_match_patch2.Diff(DIFF_EQUAL, ""));
+          var pointer = 0;
+          var count_delete = 0;
+          var count_insert = 0;
+          var text_delete = "";
+          var text_insert = "";
+          while (pointer < diffs.length) {
+            switch (diffs[pointer][0]) {
+              case DIFF_INSERT:
+                count_insert++;
+                text_insert += diffs[pointer][1];
+                break;
+              case DIFF_DELETE:
+                count_delete++;
+                text_delete += diffs[pointer][1];
+                break;
+              case DIFF_EQUAL:
+                if (count_delete >= 1 && count_insert >= 1) {
+                  diffs.splice(
+                    pointer - count_delete - count_insert,
+                    count_delete + count_insert
+                  );
+                  pointer = pointer - count_delete - count_insert;
+                  var subDiff = this.diff_main(text_delete, text_insert, false, deadline);
+                  for (var j2 = subDiff.length - 1; j2 >= 0; j2--) {
+                    diffs.splice(pointer, 0, subDiff[j2]);
+                  }
+                  pointer = pointer + subDiff.length;
+                }
+                count_insert = 0;
+                count_delete = 0;
+                text_delete = "";
+                text_insert = "";
+                break;
+            }
+            pointer++;
+          }
+          diffs.pop();
+          return diffs;
+        };
+        diff_match_patch2.prototype.diff_bisect_ = function(text1, text2, deadline) {
+          var text1_length = text1.length;
+          var text2_length = text2.length;
+          var max_d = Math.ceil((text1_length + text2_length) / 2);
+          var v_offset = max_d;
+          var v_length = 2 * max_d;
+          var v1 = new Array(v_length);
+          var v2 = new Array(v_length);
+          for (var x2 = 0; x2 < v_length; x2++) {
+            v1[x2] = -1;
+            v2[x2] = -1;
+          }
+          v1[v_offset + 1] = 0;
+          v2[v_offset + 1] = 0;
+          var delta = text1_length - text2_length;
+          var front = delta % 2 != 0;
+          var k1start = 0;
+          var k1end = 0;
+          var k2start = 0;
+          var k2end = 0;
+          for (var d2 = 0; d2 < max_d; d2++) {
+            if (new Date().getTime() > deadline) {
+              break;
+            }
+            for (var k1 = -d2 + k1start; k1 <= d2 - k1end; k1 += 2) {
+              var k1_offset = v_offset + k1;
+              var x1;
+              if (k1 == -d2 || k1 != d2 && v1[k1_offset - 1] < v1[k1_offset + 1]) {
+                x1 = v1[k1_offset + 1];
+              } else {
+                x1 = v1[k1_offset - 1] + 1;
+              }
+              var y1 = x1 - k1;
+              while (x1 < text1_length && y1 < text2_length && text1.charAt(x1) == text2.charAt(y1)) {
+                x1++;
+                y1++;
+              }
+              v1[k1_offset] = x1;
+              if (x1 > text1_length) {
+                k1end += 2;
+              } else if (y1 > text2_length) {
+                k1start += 2;
+              } else if (front) {
+                var k2_offset = v_offset + delta - k1;
+                if (k2_offset >= 0 && k2_offset < v_length && v2[k2_offset] != -1) {
+                  var x22 = text1_length - v2[k2_offset];
+                  if (x1 >= x22) {
+                    return this.diff_bisectSplit_(text1, text2, x1, y1, deadline);
+                  }
+                }
+              }
+            }
+            for (var k2 = -d2 + k2start; k2 <= d2 - k2end; k2 += 2) {
+              var k2_offset = v_offset + k2;
+              var x22;
+              if (k2 == -d2 || k2 != d2 && v2[k2_offset - 1] < v2[k2_offset + 1]) {
+                x22 = v2[k2_offset + 1];
+              } else {
+                x22 = v2[k2_offset - 1] + 1;
+              }
+              var y2 = x22 - k2;
+              while (x22 < text1_length && y2 < text2_length && text1.charAt(text1_length - x22 - 1) == text2.charAt(text2_length - y2 - 1)) {
+                x22++;
+                y2++;
+              }
+              v2[k2_offset] = x22;
+              if (x22 > text1_length) {
+                k2end += 2;
+              } else if (y2 > text2_length) {
+                k2start += 2;
+              } else if (!front) {
+                var k1_offset = v_offset + delta - k2;
+                if (k1_offset >= 0 && k1_offset < v_length && v1[k1_offset] != -1) {
+                  var x1 = v1[k1_offset];
+                  var y1 = v_offset + x1 - k1_offset;
+                  x22 = text1_length - x22;
+                  if (x1 >= x22) {
+                    return this.diff_bisectSplit_(text1, text2, x1, y1, deadline);
+                  }
+                }
+              }
+            }
+          }
+          return [
+            new diff_match_patch2.Diff(DIFF_DELETE, text1),
+            new diff_match_patch2.Diff(DIFF_INSERT, text2)
+          ];
+        };
+        diff_match_patch2.prototype.diff_bisectSplit_ = function(text1, text2, x2, y2, deadline) {
+          var text1a = text1.substring(0, x2);
+          var text2a = text2.substring(0, y2);
+          var text1b = text1.substring(x2);
+          var text2b = text2.substring(y2);
+          var diffs = this.diff_main(text1a, text2a, false, deadline);
+          var diffsb = this.diff_main(text1b, text2b, false, deadline);
+          return diffs.concat(diffsb);
+        };
+        diff_match_patch2.prototype.diff_linesToChars_ = function(text1, text2) {
+          var lineArray = [];
+          var lineHash = {};
+          lineArray[0] = "";
+          function diff_linesToCharsMunge_(text) {
+            var chars = "";
+            var lineStart = 0;
+            var lineEnd = -1;
+            var lineArrayLength = lineArray.length;
+            while (lineEnd < text.length - 1) {
+              lineEnd = text.indexOf("\n", lineStart);
+              if (lineEnd == -1) {
+                lineEnd = text.length - 1;
+              }
+              var line = text.substring(lineStart, lineEnd + 1);
+              if (lineHash.hasOwnProperty ? lineHash.hasOwnProperty(line) : lineHash[line] !== void 0) {
+                chars += String.fromCharCode(lineHash[line]);
+              } else {
+                if (lineArrayLength == maxLines) {
+                  line = text.substring(lineStart);
+                  lineEnd = text.length;
+                }
+                chars += String.fromCharCode(lineArrayLength);
+                lineHash[line] = lineArrayLength;
+                lineArray[lineArrayLength++] = line;
+              }
+              lineStart = lineEnd + 1;
+            }
+            return chars;
+          }
+          var maxLines = 4e4;
+          var chars1 = diff_linesToCharsMunge_(text1);
+          maxLines = 65535;
+          var chars2 = diff_linesToCharsMunge_(text2);
+          return { chars1, chars2, lineArray };
+        };
+        diff_match_patch2.prototype.diff_charsToLines_ = function(diffs, lineArray) {
+          for (var i2 = 0; i2 < diffs.length; i2++) {
+            var chars = diffs[i2][1];
+            var text = [];
+            for (var j2 = 0; j2 < chars.length; j2++) {
+              text[j2] = lineArray[chars.charCodeAt(j2)];
+            }
+            diffs[i2][1] = text.join("");
+          }
+        };
+        diff_match_patch2.prototype.diff_commonPrefix = function(text1, text2) {
+          if (!text1 || !text2 || text1.charAt(0) != text2.charAt(0)) {
+            return 0;
+          }
+          var pointermin = 0;
+          var pointermax = Math.min(text1.length, text2.length);
+          var pointermid = pointermax;
+          var pointerstart = 0;
+          while (pointermin < pointermid) {
+            if (text1.substring(pointerstart, pointermid) == text2.substring(pointerstart, pointermid)) {
+              pointermin = pointermid;
+              pointerstart = pointermin;
+            } else {
+              pointermax = pointermid;
+            }
+            pointermid = Math.floor((pointermax - pointermin) / 2 + pointermin);
+          }
+          return pointermid;
+        };
+        diff_match_patch2.prototype.diff_commonSuffix = function(text1, text2) {
+          if (!text1 || !text2 || text1.charAt(text1.length - 1) != text2.charAt(text2.length - 1)) {
+            return 0;
+          }
+          var pointermin = 0;
+          var pointermax = Math.min(text1.length, text2.length);
+          var pointermid = pointermax;
+          var pointerend = 0;
+          while (pointermin < pointermid) {
+            if (text1.substring(text1.length - pointermid, text1.length - pointerend) == text2.substring(text2.length - pointermid, text2.length - pointerend)) {
+              pointermin = pointermid;
+              pointerend = pointermin;
+            } else {
+              pointermax = pointermid;
+            }
+            pointermid = Math.floor((pointermax - pointermin) / 2 + pointermin);
+          }
+          return pointermid;
+        };
+        diff_match_patch2.prototype.diff_commonOverlap_ = function(text1, text2) {
+          var text1_length = text1.length;
+          var text2_length = text2.length;
+          if (text1_length == 0 || text2_length == 0) {
+            return 0;
+          }
+          if (text1_length > text2_length) {
+            text1 = text1.substring(text1_length - text2_length);
+          } else if (text1_length < text2_length) {
+            text2 = text2.substring(0, text1_length);
+          }
+          var text_length = Math.min(text1_length, text2_length);
+          if (text1 == text2) {
+            return text_length;
+          }
+          var best = 0;
+          var length = 1;
+          while (true) {
+            var pattern = text1.substring(text_length - length);
+            var found = text2.indexOf(pattern);
+            if (found == -1) {
+              return best;
+            }
+            length += found;
+            if (found == 0 || text1.substring(text_length - length) == text2.substring(0, length)) {
+              best = length;
+              length++;
+            }
+          }
+        };
+        diff_match_patch2.prototype.diff_halfMatch_ = function(text1, text2) {
+          if (this.Diff_Timeout <= 0) {
+            return null;
+          }
+          var longtext = text1.length > text2.length ? text1 : text2;
+          var shorttext = text1.length > text2.length ? text2 : text1;
+          if (longtext.length < 4 || shorttext.length * 2 < longtext.length) {
+            return null;
+          }
+          var dmp2 = this;
+          function diff_halfMatchI_(longtext2, shorttext2, i2) {
+            var seed = longtext2.substring(i2, i2 + Math.floor(longtext2.length / 4));
+            var j2 = -1;
+            var best_common = "";
+            var best_longtext_a, best_longtext_b, best_shorttext_a, best_shorttext_b;
+            while ((j2 = shorttext2.indexOf(seed, j2 + 1)) != -1) {
+              var prefixLength = dmp2.diff_commonPrefix(
+                longtext2.substring(i2),
+                shorttext2.substring(j2)
+              );
+              var suffixLength = dmp2.diff_commonSuffix(
+                longtext2.substring(0, i2),
+                shorttext2.substring(0, j2)
+              );
+              if (best_common.length < suffixLength + prefixLength) {
+                best_common = shorttext2.substring(j2 - suffixLength, j2) + shorttext2.substring(j2, j2 + prefixLength);
+                best_longtext_a = longtext2.substring(0, i2 - suffixLength);
+                best_longtext_b = longtext2.substring(i2 + prefixLength);
+                best_shorttext_a = shorttext2.substring(0, j2 - suffixLength);
+                best_shorttext_b = shorttext2.substring(j2 + prefixLength);
+              }
+            }
+            if (best_common.length * 2 >= longtext2.length) {
+              return [
+                best_longtext_a,
+                best_longtext_b,
+                best_shorttext_a,
+                best_shorttext_b,
+                best_common
+              ];
+            } else {
+              return null;
+            }
+          }
+          var hm1 = diff_halfMatchI_(
+            longtext,
+            shorttext,
+            Math.ceil(longtext.length / 4)
+          );
+          var hm2 = diff_halfMatchI_(
+            longtext,
+            shorttext,
+            Math.ceil(longtext.length / 2)
+          );
+          var hm;
+          if (!hm1 && !hm2) {
+            return null;
+          } else if (!hm2) {
+            hm = hm1;
+          } else if (!hm1) {
+            hm = hm2;
+          } else {
+            hm = hm1[4].length > hm2[4].length ? hm1 : hm2;
+          }
+          var text1_a, text1_b, text2_a, text2_b;
+          if (text1.length > text2.length) {
+            text1_a = hm[0];
+            text1_b = hm[1];
+            text2_a = hm[2];
+            text2_b = hm[3];
+          } else {
+            text2_a = hm[0];
+            text2_b = hm[1];
+            text1_a = hm[2];
+            text1_b = hm[3];
+          }
+          var mid_common = hm[4];
+          return [text1_a, text1_b, text2_a, text2_b, mid_common];
+        };
+        diff_match_patch2.prototype.diff_cleanupSemantic = function(diffs) {
+          var changes = false;
+          var equalities = [];
+          var equalitiesLength = 0;
+          var lastEquality = null;
+          var pointer = 0;
+          var length_insertions1 = 0;
+          var length_deletions1 = 0;
+          var length_insertions2 = 0;
+          var length_deletions2 = 0;
+          while (pointer < diffs.length) {
+            if (diffs[pointer][0] == DIFF_EQUAL) {
+              equalities[equalitiesLength++] = pointer;
+              length_insertions1 = length_insertions2;
+              length_deletions1 = length_deletions2;
+              length_insertions2 = 0;
+              length_deletions2 = 0;
+              lastEquality = diffs[pointer][1];
+            } else {
+              if (diffs[pointer][0] == DIFF_INSERT) {
+                length_insertions2 += diffs[pointer][1].length;
+              } else {
+                length_deletions2 += diffs[pointer][1].length;
+              }
+              if (lastEquality && lastEquality.length <= Math.max(length_insertions1, length_deletions1) && lastEquality.length <= Math.max(
+                length_insertions2,
+                length_deletions2
+              )) {
+                diffs.splice(
+                  equalities[equalitiesLength - 1],
+                  0,
+                  new diff_match_patch2.Diff(DIFF_DELETE, lastEquality)
+                );
+                diffs[equalities[equalitiesLength - 1] + 1][0] = DIFF_INSERT;
+                equalitiesLength--;
+                equalitiesLength--;
+                pointer = equalitiesLength > 0 ? equalities[equalitiesLength - 1] : -1;
+                length_insertions1 = 0;
+                length_deletions1 = 0;
+                length_insertions2 = 0;
+                length_deletions2 = 0;
+                lastEquality = null;
+                changes = true;
+              }
+            }
+            pointer++;
+          }
+          if (changes) {
+            this.diff_cleanupMerge(diffs);
+          }
+          this.diff_cleanupSemanticLossless(diffs);
+          pointer = 1;
+          while (pointer < diffs.length) {
+            if (diffs[pointer - 1][0] == DIFF_DELETE && diffs[pointer][0] == DIFF_INSERT) {
+              var deletion = diffs[pointer - 1][1];
+              var insertion = diffs[pointer][1];
+              var overlap_length1 = this.diff_commonOverlap_(deletion, insertion);
+              var overlap_length2 = this.diff_commonOverlap_(insertion, deletion);
+              if (overlap_length1 >= overlap_length2) {
+                if (overlap_length1 >= deletion.length / 2 || overlap_length1 >= insertion.length / 2) {
+                  diffs.splice(pointer, 0, new diff_match_patch2.Diff(
+                    DIFF_EQUAL,
+                    insertion.substring(0, overlap_length1)
+                  ));
+                  diffs[pointer - 1][1] = deletion.substring(0, deletion.length - overlap_length1);
+                  diffs[pointer + 1][1] = insertion.substring(overlap_length1);
+                  pointer++;
+                }
+              } else {
+                if (overlap_length2 >= deletion.length / 2 || overlap_length2 >= insertion.length / 2) {
+                  diffs.splice(pointer, 0, new diff_match_patch2.Diff(
+                    DIFF_EQUAL,
+                    deletion.substring(0, overlap_length2)
+                  ));
+                  diffs[pointer - 1][0] = DIFF_INSERT;
+                  diffs[pointer - 1][1] = insertion.substring(0, insertion.length - overlap_length2);
+                  diffs[pointer + 1][0] = DIFF_DELETE;
+                  diffs[pointer + 1][1] = deletion.substring(overlap_length2);
+                  pointer++;
+                }
+              }
+              pointer++;
+            }
+            pointer++;
+          }
+        };
+        diff_match_patch2.prototype.diff_cleanupSemanticLossless = function(diffs) {
+          function diff_cleanupSemanticScore_(one, two) {
+            if (!one || !two) {
+              return 6;
+            }
+            var char1 = one.charAt(one.length - 1);
+            var char2 = two.charAt(0);
+            var nonAlphaNumeric1 = char1.match(diff_match_patch2.nonAlphaNumericRegex_);
+            var nonAlphaNumeric2 = char2.match(diff_match_patch2.nonAlphaNumericRegex_);
+            var whitespace1 = nonAlphaNumeric1 && char1.match(diff_match_patch2.whitespaceRegex_);
+            var whitespace2 = nonAlphaNumeric2 && char2.match(diff_match_patch2.whitespaceRegex_);
+            var lineBreak1 = whitespace1 && char1.match(diff_match_patch2.linebreakRegex_);
+            var lineBreak2 = whitespace2 && char2.match(diff_match_patch2.linebreakRegex_);
+            var blankLine1 = lineBreak1 && one.match(diff_match_patch2.blanklineEndRegex_);
+            var blankLine2 = lineBreak2 && two.match(diff_match_patch2.blanklineStartRegex_);
+            if (blankLine1 || blankLine2) {
+              return 5;
+            } else if (lineBreak1 || lineBreak2) {
+              return 4;
+            } else if (nonAlphaNumeric1 && !whitespace1 && whitespace2) {
+              return 3;
+            } else if (whitespace1 || whitespace2) {
+              return 2;
+            } else if (nonAlphaNumeric1 || nonAlphaNumeric2) {
+              return 1;
+            }
+            return 0;
+          }
+          var pointer = 1;
+          while (pointer < diffs.length - 1) {
+            if (diffs[pointer - 1][0] == DIFF_EQUAL && diffs[pointer + 1][0] == DIFF_EQUAL) {
+              var equality1 = diffs[pointer - 1][1];
+              var edit = diffs[pointer][1];
+              var equality2 = diffs[pointer + 1][1];
+              var commonOffset = this.diff_commonSuffix(equality1, edit);
+              if (commonOffset) {
+                var commonString = edit.substring(edit.length - commonOffset);
+                equality1 = equality1.substring(0, equality1.length - commonOffset);
+                edit = commonString + edit.substring(0, edit.length - commonOffset);
+                equality2 = commonString + equality2;
+              }
+              var bestEquality1 = equality1;
+              var bestEdit = edit;
+              var bestEquality2 = equality2;
+              var bestScore = diff_cleanupSemanticScore_(equality1, edit) + diff_cleanupSemanticScore_(edit, equality2);
+              while (edit.charAt(0) === equality2.charAt(0)) {
+                equality1 += edit.charAt(0);
+                edit = edit.substring(1) + equality2.charAt(0);
+                equality2 = equality2.substring(1);
+                var score = diff_cleanupSemanticScore_(equality1, edit) + diff_cleanupSemanticScore_(edit, equality2);
+                if (score >= bestScore) {
+                  bestScore = score;
+                  bestEquality1 = equality1;
+                  bestEdit = edit;
+                  bestEquality2 = equality2;
+                }
+              }
+              if (diffs[pointer - 1][1] != bestEquality1) {
+                if (bestEquality1) {
+                  diffs[pointer - 1][1] = bestEquality1;
+                } else {
+                  diffs.splice(pointer - 1, 1);
+                  pointer--;
+                }
+                diffs[pointer][1] = bestEdit;
+                if (bestEquality2) {
+                  diffs[pointer + 1][1] = bestEquality2;
+                } else {
+                  diffs.splice(pointer + 1, 1);
+                  pointer--;
+                }
+              }
+            }
+            pointer++;
+          }
+        };
+        diff_match_patch2.nonAlphaNumericRegex_ = /[^a-zA-Z0-9]/;
+        diff_match_patch2.whitespaceRegex_ = /\s/;
+        diff_match_patch2.linebreakRegex_ = /[\r\n]/;
+        diff_match_patch2.blanklineEndRegex_ = /\n\r?\n$/;
+        diff_match_patch2.blanklineStartRegex_ = /^\r?\n\r?\n/;
+        diff_match_patch2.prototype.diff_cleanupEfficiency = function(diffs) {
+          var changes = false;
+          var equalities = [];
+          var equalitiesLength = 0;
+          var lastEquality = null;
+          var pointer = 0;
+          var pre_ins = false;
+          var pre_del = false;
+          var post_ins = false;
+          var post_del = false;
+          while (pointer < diffs.length) {
+            if (diffs[pointer][0] == DIFF_EQUAL) {
+              if (diffs[pointer][1].length < this.Diff_EditCost && (post_ins || post_del)) {
+                equalities[equalitiesLength++] = pointer;
+                pre_ins = post_ins;
+                pre_del = post_del;
+                lastEquality = diffs[pointer][1];
+              } else {
+                equalitiesLength = 0;
+                lastEquality = null;
+              }
+              post_ins = post_del = false;
+            } else {
+              if (diffs[pointer][0] == DIFF_DELETE) {
+                post_del = true;
+              } else {
+                post_ins = true;
+              }
+              if (lastEquality && (pre_ins && pre_del && post_ins && post_del || lastEquality.length < this.Diff_EditCost / 2 && pre_ins + pre_del + post_ins + post_del == 3)) {
+                diffs.splice(
+                  equalities[equalitiesLength - 1],
+                  0,
+                  new diff_match_patch2.Diff(DIFF_DELETE, lastEquality)
+                );
+                diffs[equalities[equalitiesLength - 1] + 1][0] = DIFF_INSERT;
+                equalitiesLength--;
+                lastEquality = null;
+                if (pre_ins && pre_del) {
+                  post_ins = post_del = true;
+                  equalitiesLength = 0;
+                } else {
+                  equalitiesLength--;
+                  pointer = equalitiesLength > 0 ? equalities[equalitiesLength - 1] : -1;
+                  post_ins = post_del = false;
+                }
+                changes = true;
+              }
+            }
+            pointer++;
+          }
+          if (changes) {
+            this.diff_cleanupMerge(diffs);
+          }
+        };
+        diff_match_patch2.prototype.diff_cleanupMerge = function(diffs) {
+          diffs.push(new diff_match_patch2.Diff(DIFF_EQUAL, ""));
+          var pointer = 0;
+          var count_delete = 0;
+          var count_insert = 0;
+          var text_delete = "";
+          var text_insert = "";
+          var commonlength;
+          while (pointer < diffs.length) {
+            switch (diffs[pointer][0]) {
+              case DIFF_INSERT:
+                count_insert++;
+                text_insert += diffs[pointer][1];
+                pointer++;
+                break;
+              case DIFF_DELETE:
+                count_delete++;
+                text_delete += diffs[pointer][1];
+                pointer++;
+                break;
+              case DIFF_EQUAL:
+                if (count_delete + count_insert > 1) {
+                  if (count_delete !== 0 && count_insert !== 0) {
+                    commonlength = this.diff_commonPrefix(text_insert, text_delete);
+                    if (commonlength !== 0) {
+                      if (pointer - count_delete - count_insert > 0 && diffs[pointer - count_delete - count_insert - 1][0] == DIFF_EQUAL) {
+                        diffs[pointer - count_delete - count_insert - 1][1] += text_insert.substring(0, commonlength);
+                      } else {
+                        diffs.splice(0, 0, new diff_match_patch2.Diff(
+                          DIFF_EQUAL,
+                          text_insert.substring(0, commonlength)
+                        ));
+                        pointer++;
+                      }
+                      text_insert = text_insert.substring(commonlength);
+                      text_delete = text_delete.substring(commonlength);
+                    }
+                    commonlength = this.diff_commonSuffix(text_insert, text_delete);
+                    if (commonlength !== 0) {
+                      diffs[pointer][1] = text_insert.substring(text_insert.length - commonlength) + diffs[pointer][1];
+                      text_insert = text_insert.substring(0, text_insert.length - commonlength);
+                      text_delete = text_delete.substring(0, text_delete.length - commonlength);
+                    }
+                  }
+                  pointer -= count_delete + count_insert;
+                  diffs.splice(pointer, count_delete + count_insert);
+                  if (text_delete.length) {
+                    diffs.splice(
+                      pointer,
+                      0,
+                      new diff_match_patch2.Diff(DIFF_DELETE, text_delete)
+                    );
+                    pointer++;
+                  }
+                  if (text_insert.length) {
+                    diffs.splice(
+                      pointer,
+                      0,
+                      new diff_match_patch2.Diff(DIFF_INSERT, text_insert)
+                    );
+                    pointer++;
+                  }
+                  pointer++;
+                } else if (pointer !== 0 && diffs[pointer - 1][0] == DIFF_EQUAL) {
+                  diffs[pointer - 1][1] += diffs[pointer][1];
+                  diffs.splice(pointer, 1);
+                } else {
+                  pointer++;
+                }
+                count_insert = 0;
+                count_delete = 0;
+                text_delete = "";
+                text_insert = "";
+                break;
+            }
+          }
+          if (diffs[diffs.length - 1][1] === "") {
+            diffs.pop();
+          }
+          var changes = false;
+          pointer = 1;
+          while (pointer < diffs.length - 1) {
+            if (diffs[pointer - 1][0] == DIFF_EQUAL && diffs[pointer + 1][0] == DIFF_EQUAL) {
+              if (diffs[pointer][1].substring(diffs[pointer][1].length - diffs[pointer - 1][1].length) == diffs[pointer - 1][1]) {
+                diffs[pointer][1] = diffs[pointer - 1][1] + diffs[pointer][1].substring(0, diffs[pointer][1].length - diffs[pointer - 1][1].length);
+                diffs[pointer + 1][1] = diffs[pointer - 1][1] + diffs[pointer + 1][1];
+                diffs.splice(pointer - 1, 1);
+                changes = true;
+              } else if (diffs[pointer][1].substring(0, diffs[pointer + 1][1].length) == diffs[pointer + 1][1]) {
+                diffs[pointer - 1][1] += diffs[pointer + 1][1];
+                diffs[pointer][1] = diffs[pointer][1].substring(diffs[pointer + 1][1].length) + diffs[pointer + 1][1];
+                diffs.splice(pointer + 1, 1);
+                changes = true;
+              }
+            }
+            pointer++;
+          }
+          if (changes) {
+            this.diff_cleanupMerge(diffs);
+          }
+        };
+        diff_match_patch2.prototype.diff_xIndex = function(diffs, loc) {
+          var chars1 = 0;
+          var chars2 = 0;
+          var last_chars1 = 0;
+          var last_chars2 = 0;
+          var x2;
+          for (x2 = 0; x2 < diffs.length; x2++) {
+            if (diffs[x2][0] !== DIFF_INSERT) {
+              chars1 += diffs[x2][1].length;
+            }
+            if (diffs[x2][0] !== DIFF_DELETE) {
+              chars2 += diffs[x2][1].length;
+            }
+            if (chars1 > loc) {
+              break;
+            }
+            last_chars1 = chars1;
+            last_chars2 = chars2;
+          }
+          if (diffs.length != x2 && diffs[x2][0] === DIFF_DELETE) {
+            return last_chars2;
+          }
+          return last_chars2 + (loc - last_chars1);
+        };
+        diff_match_patch2.prototype.diff_prettyHtml = function(diffs) {
+          var html2 = [];
+          var pattern_amp = /&/g;
+          var pattern_lt = /</g;
+          var pattern_gt = />/g;
+          var pattern_para = /\n/g;
+          for (var x2 = 0; x2 < diffs.length; x2++) {
+            var op = diffs[x2][0];
+            var data = diffs[x2][1];
+            var text = data.replace(pattern_amp, "&amp;").replace(pattern_lt, "&lt;").replace(pattern_gt, "&gt;").replace(pattern_para, "&para;<br>");
+            switch (op) {
+              case DIFF_INSERT:
+                html2[x2] = '<ins style="background:#e6ffe6;">' + text + "</ins>";
+                break;
+              case DIFF_DELETE:
+                html2[x2] = '<del style="background:#ffe6e6;">' + text + "</del>";
+                break;
+              case DIFF_EQUAL:
+                html2[x2] = "<span>" + text + "</span>";
+                break;
+            }
+          }
+          return html2.join("");
+        };
+        diff_match_patch2.prototype.diff_text1 = function(diffs) {
+          var text = [];
+          for (var x2 = 0; x2 < diffs.length; x2++) {
+            if (diffs[x2][0] !== DIFF_INSERT) {
+              text[x2] = diffs[x2][1];
+            }
+          }
+          return text.join("");
+        };
+        diff_match_patch2.prototype.diff_text2 = function(diffs) {
+          var text = [];
+          for (var x2 = 0; x2 < diffs.length; x2++) {
+            if (diffs[x2][0] !== DIFF_DELETE) {
+              text[x2] = diffs[x2][1];
+            }
+          }
+          return text.join("");
+        };
+        diff_match_patch2.prototype.diff_levenshtein = function(diffs) {
+          var levenshtein = 0;
+          var insertions = 0;
+          var deletions = 0;
+          for (var x2 = 0; x2 < diffs.length; x2++) {
+            var op = diffs[x2][0];
+            var data = diffs[x2][1];
+            switch (op) {
+              case DIFF_INSERT:
+                insertions += data.length;
+                break;
+              case DIFF_DELETE:
+                deletions += data.length;
+                break;
+              case DIFF_EQUAL:
+                levenshtein += Math.max(insertions, deletions);
+                insertions = 0;
+                deletions = 0;
+                break;
+            }
+          }
+          levenshtein += Math.max(insertions, deletions);
+          return levenshtein;
+        };
+        diff_match_patch2.prototype.diff_toDelta = function(diffs) {
+          var text = [];
+          for (var x2 = 0; x2 < diffs.length; x2++) {
+            switch (diffs[x2][0]) {
+              case DIFF_INSERT:
+                text[x2] = "+" + encodeURI(diffs[x2][1]);
+                break;
+              case DIFF_DELETE:
+                text[x2] = "-" + diffs[x2][1].length;
+                break;
+              case DIFF_EQUAL:
+                text[x2] = "=" + diffs[x2][1].length;
+                break;
+            }
+          }
+          return text.join("	").replace(/%20/g, " ");
+        };
+        diff_match_patch2.prototype.diff_fromDelta = function(text1, delta) {
+          var diffs = [];
+          var diffsLength = 0;
+          var pointer = 0;
+          var tokens = delta.split(/\t/g);
+          for (var x2 = 0; x2 < tokens.length; x2++) {
+            var param = tokens[x2].substring(1);
+            switch (tokens[x2].charAt(0)) {
+              case "+":
+                try {
+                  diffs[diffsLength++] = new diff_match_patch2.Diff(DIFF_INSERT, decodeURI(param));
+                } catch (ex) {
+                  throw new Error("Illegal escape in diff_fromDelta: " + param);
+                }
+                break;
+              case "-":
+              case "=":
+                var n2 = parseInt(param, 10);
+                if (isNaN(n2) || n2 < 0) {
+                  throw new Error("Invalid number in diff_fromDelta: " + param);
+                }
+                var text = text1.substring(pointer, pointer += n2);
+                if (tokens[x2].charAt(0) == "=") {
+                  diffs[diffsLength++] = new diff_match_patch2.Diff(DIFF_EQUAL, text);
+                } else {
+                  diffs[diffsLength++] = new diff_match_patch2.Diff(DIFF_DELETE, text);
+                }
+                break;
+              default:
+                if (tokens[x2]) {
+                  throw new Error("Invalid diff operation in diff_fromDelta: " + tokens[x2]);
+                }
+            }
+          }
+          if (pointer != text1.length) {
+            throw new Error("Delta length (" + pointer + ") does not equal source text length (" + text1.length + ").");
+          }
+          return diffs;
+        };
+        diff_match_patch2.prototype.match_main = function(text, pattern, loc) {
+          if (text == null || pattern == null || loc == null) {
+            throw new Error("Null input. (match_main)");
+          }
+          loc = Math.max(0, Math.min(loc, text.length));
+          if (text == pattern) {
+            return 0;
+          } else if (!text.length) {
+            return -1;
+          } else if (text.substring(loc, loc + pattern.length) == pattern) {
+            return loc;
+          } else {
+            return this.match_bitap_(text, pattern, loc);
+          }
+        };
+        diff_match_patch2.prototype.match_bitap_ = function(text, pattern, loc) {
+          if (pattern.length > this.Match_MaxBits) {
+            throw new Error("Pattern too long for this browser.");
+          }
+          var s2 = this.match_alphabet_(pattern);
+          var dmp2 = this;
+          function match_bitapScore_(e, x2) {
+            var accuracy = e / pattern.length;
+            var proximity = Math.abs(loc - x2);
+            if (!dmp2.Match_Distance) {
+              return proximity ? 1 : accuracy;
+            }
+            return accuracy + proximity / dmp2.Match_Distance;
+          }
+          var score_threshold = this.Match_Threshold;
+          var best_loc = text.indexOf(pattern, loc);
+          if (best_loc != -1) {
+            score_threshold = Math.min(match_bitapScore_(0, best_loc), score_threshold);
+            best_loc = text.lastIndexOf(pattern, loc + pattern.length);
+            if (best_loc != -1) {
+              score_threshold = Math.min(match_bitapScore_(0, best_loc), score_threshold);
+            }
+          }
+          var matchmask = 1 << pattern.length - 1;
+          best_loc = -1;
+          var bin_min, bin_mid;
+          var bin_max = pattern.length + text.length;
+          var last_rd;
+          for (var d2 = 0; d2 < pattern.length; d2++) {
+            bin_min = 0;
+            bin_mid = bin_max;
+            while (bin_min < bin_mid) {
+              if (match_bitapScore_(d2, loc + bin_mid) <= score_threshold) {
+                bin_min = bin_mid;
+              } else {
+                bin_max = bin_mid;
+              }
+              bin_mid = Math.floor((bin_max - bin_min) / 2 + bin_min);
+            }
+            bin_max = bin_mid;
+            var start = Math.max(1, loc - bin_mid + 1);
+            var finish = Math.min(loc + bin_mid, text.length) + pattern.length;
+            var rd = Array(finish + 2);
+            rd[finish + 1] = (1 << d2) - 1;
+            for (var j2 = finish; j2 >= start; j2--) {
+              var charMatch = s2[text.charAt(j2 - 1)];
+              if (d2 === 0) {
+                rd[j2] = (rd[j2 + 1] << 1 | 1) & charMatch;
+              } else {
+                rd[j2] = (rd[j2 + 1] << 1 | 1) & charMatch | ((last_rd[j2 + 1] | last_rd[j2]) << 1 | 1) | last_rd[j2 + 1];
+              }
+              if (rd[j2] & matchmask) {
+                var score = match_bitapScore_(d2, j2 - 1);
+                if (score <= score_threshold) {
+                  score_threshold = score;
+                  best_loc = j2 - 1;
+                  if (best_loc > loc) {
+                    start = Math.max(1, 2 * loc - best_loc);
+                  } else {
+                    break;
+                  }
+                }
+              }
+            }
+            if (match_bitapScore_(d2 + 1, loc) > score_threshold) {
+              break;
+            }
+            last_rd = rd;
+          }
+          return best_loc;
+        };
+        diff_match_patch2.prototype.match_alphabet_ = function(pattern) {
+          var s2 = {};
+          for (var i2 = 0; i2 < pattern.length; i2++) {
+            s2[pattern.charAt(i2)] = 0;
+          }
+          for (var i2 = 0; i2 < pattern.length; i2++) {
+            s2[pattern.charAt(i2)] |= 1 << pattern.length - i2 - 1;
+          }
+          return s2;
+        };
+        diff_match_patch2.prototype.patch_addContext_ = function(patch2, text) {
+          if (text.length == 0) {
+            return;
+          }
+          if (patch2.start2 === null) {
+            throw Error("patch not initialized");
+          }
+          var pattern = text.substring(patch2.start2, patch2.start2 + patch2.length1);
+          var padding = 0;
+          while (text.indexOf(pattern) != text.lastIndexOf(pattern) && pattern.length < this.Match_MaxBits - this.Patch_Margin - this.Patch_Margin) {
+            padding += this.Patch_Margin;
+            pattern = text.substring(
+              patch2.start2 - padding,
+              patch2.start2 + patch2.length1 + padding
+            );
+          }
+          padding += this.Patch_Margin;
+          var prefix2 = text.substring(patch2.start2 - padding, patch2.start2);
+          if (prefix2) {
+            patch2.diffs.unshift(new diff_match_patch2.Diff(DIFF_EQUAL, prefix2));
+          }
+          var suffix = text.substring(
+            patch2.start2 + patch2.length1,
+            patch2.start2 + patch2.length1 + padding
+          );
+          if (suffix) {
+            patch2.diffs.push(new diff_match_patch2.Diff(DIFF_EQUAL, suffix));
+          }
+          patch2.start1 -= prefix2.length;
+          patch2.start2 -= prefix2.length;
+          patch2.length1 += prefix2.length + suffix.length;
+          patch2.length2 += prefix2.length + suffix.length;
+        };
+        diff_match_patch2.prototype.patch_make = function(a2, opt_b, opt_c) {
+          var text1, diffs;
+          if (typeof a2 == "string" && typeof opt_b == "string" && typeof opt_c == "undefined") {
+            text1 = a2;
+            diffs = this.diff_main(text1, opt_b, true);
+            if (diffs.length > 2) {
+              this.diff_cleanupSemantic(diffs);
+              this.diff_cleanupEfficiency(diffs);
+            }
+          } else if (a2 && typeof a2 == "object" && typeof opt_b == "undefined" && typeof opt_c == "undefined") {
+            diffs = a2;
+            text1 = this.diff_text1(diffs);
+          } else if (typeof a2 == "string" && opt_b && typeof opt_b == "object" && typeof opt_c == "undefined") {
+            text1 = a2;
+            diffs = opt_b;
+          } else if (typeof a2 == "string" && typeof opt_b == "string" && opt_c && typeof opt_c == "object") {
+            text1 = a2;
+            diffs = opt_c;
+          } else {
+            throw new Error("Unknown call format to patch_make.");
+          }
+          if (diffs.length === 0) {
+            return [];
+          }
+          var patches = [];
+          var patch2 = new diff_match_patch2.patch_obj();
+          var patchDiffLength = 0;
+          var char_count1 = 0;
+          var char_count2 = 0;
+          var prepatch_text = text1;
+          var postpatch_text = text1;
+          for (var x2 = 0; x2 < diffs.length; x2++) {
+            var diff_type = diffs[x2][0];
+            var diff_text = diffs[x2][1];
+            if (!patchDiffLength && diff_type !== DIFF_EQUAL) {
+              patch2.start1 = char_count1;
+              patch2.start2 = char_count2;
+            }
+            switch (diff_type) {
+              case DIFF_INSERT:
+                patch2.diffs[patchDiffLength++] = diffs[x2];
+                patch2.length2 += diff_text.length;
+                postpatch_text = postpatch_text.substring(0, char_count2) + diff_text + postpatch_text.substring(char_count2);
+                break;
+              case DIFF_DELETE:
+                patch2.length1 += diff_text.length;
+                patch2.diffs[patchDiffLength++] = diffs[x2];
+                postpatch_text = postpatch_text.substring(0, char_count2) + postpatch_text.substring(char_count2 + diff_text.length);
+                break;
+              case DIFF_EQUAL:
+                if (diff_text.length <= 2 * this.Patch_Margin && patchDiffLength && diffs.length != x2 + 1) {
+                  patch2.diffs[patchDiffLength++] = diffs[x2];
+                  patch2.length1 += diff_text.length;
+                  patch2.length2 += diff_text.length;
+                } else if (diff_text.length >= 2 * this.Patch_Margin) {
+                  if (patchDiffLength) {
+                    this.patch_addContext_(patch2, prepatch_text);
+                    patches.push(patch2);
+                    patch2 = new diff_match_patch2.patch_obj();
+                    patchDiffLength = 0;
+                    prepatch_text = postpatch_text;
+                    char_count1 = char_count2;
+                  }
+                }
+                break;
+            }
+            if (diff_type !== DIFF_INSERT) {
+              char_count1 += diff_text.length;
+            }
+            if (diff_type !== DIFF_DELETE) {
+              char_count2 += diff_text.length;
+            }
+          }
+          if (patchDiffLength) {
+            this.patch_addContext_(patch2, prepatch_text);
+            patches.push(patch2);
+          }
+          return patches;
+        };
+        diff_match_patch2.prototype.patch_deepCopy = function(patches) {
+          var patchesCopy = [];
+          for (var x2 = 0; x2 < patches.length; x2++) {
+            var patch2 = patches[x2];
+            var patchCopy = new diff_match_patch2.patch_obj();
+            patchCopy.diffs = [];
+            for (var y2 = 0; y2 < patch2.diffs.length; y2++) {
+              patchCopy.diffs[y2] = new diff_match_patch2.Diff(patch2.diffs[y2][0], patch2.diffs[y2][1]);
+            }
+            patchCopy.start1 = patch2.start1;
+            patchCopy.start2 = patch2.start2;
+            patchCopy.length1 = patch2.length1;
+            patchCopy.length2 = patch2.length2;
+            patchesCopy[x2] = patchCopy;
+          }
+          return patchesCopy;
+        };
+        diff_match_patch2.prototype.patch_apply = function(patches, text) {
+          if (patches.length == 0) {
+            return [text, []];
+          }
+          patches = this.patch_deepCopy(patches);
+          var nullPadding = this.patch_addPadding(patches);
+          text = nullPadding + text + nullPadding;
+          this.patch_splitMax(patches);
+          var delta = 0;
+          var results = [];
+          for (var x2 = 0; x2 < patches.length; x2++) {
+            var expected_loc = patches[x2].start2 + delta;
+            var text1 = this.diff_text1(patches[x2].diffs);
+            var start_loc;
+            var end_loc = -1;
+            if (text1.length > this.Match_MaxBits) {
+              start_loc = this.match_main(
+                text,
+                text1.substring(0, this.Match_MaxBits),
+                expected_loc
+              );
+              if (start_loc != -1) {
+                end_loc = this.match_main(
+                  text,
+                  text1.substring(text1.length - this.Match_MaxBits),
+                  expected_loc + text1.length - this.Match_MaxBits
+                );
+                if (end_loc == -1 || start_loc >= end_loc) {
+                  start_loc = -1;
+                }
+              }
+            } else {
+              start_loc = this.match_main(text, text1, expected_loc);
+            }
+            if (start_loc == -1) {
+              results[x2] = false;
+              delta -= patches[x2].length2 - patches[x2].length1;
+            } else {
+              results[x2] = true;
+              delta = start_loc - expected_loc;
+              var text2;
+              if (end_loc == -1) {
+                text2 = text.substring(start_loc, start_loc + text1.length);
+              } else {
+                text2 = text.substring(start_loc, end_loc + this.Match_MaxBits);
+              }
+              if (text1 == text2) {
+                text = text.substring(0, start_loc) + this.diff_text2(patches[x2].diffs) + text.substring(start_loc + text1.length);
+              } else {
+                var diffs = this.diff_main(text1, text2, false);
+                if (text1.length > this.Match_MaxBits && this.diff_levenshtein(diffs) / text1.length > this.Patch_DeleteThreshold) {
+                  results[x2] = false;
+                } else {
+                  this.diff_cleanupSemanticLossless(diffs);
+                  var index1 = 0;
+                  var index2;
+                  for (var y2 = 0; y2 < patches[x2].diffs.length; y2++) {
+                    var mod = patches[x2].diffs[y2];
+                    if (mod[0] !== DIFF_EQUAL) {
+                      index2 = this.diff_xIndex(diffs, index1);
+                    }
+                    if (mod[0] === DIFF_INSERT) {
+                      text = text.substring(0, start_loc + index2) + mod[1] + text.substring(start_loc + index2);
+                    } else if (mod[0] === DIFF_DELETE) {
+                      text = text.substring(0, start_loc + index2) + text.substring(start_loc + this.diff_xIndex(
+                        diffs,
+                        index1 + mod[1].length
+                      ));
+                    }
+                    if (mod[0] !== DIFF_DELETE) {
+                      index1 += mod[1].length;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          text = text.substring(nullPadding.length, text.length - nullPadding.length);
+          return [text, results];
+        };
+        diff_match_patch2.prototype.patch_addPadding = function(patches) {
+          var paddingLength = this.Patch_Margin;
+          var nullPadding = "";
+          for (var x2 = 1; x2 <= paddingLength; x2++) {
+            nullPadding += String.fromCharCode(x2);
+          }
+          for (var x2 = 0; x2 < patches.length; x2++) {
+            patches[x2].start1 += paddingLength;
+            patches[x2].start2 += paddingLength;
+          }
+          var patch2 = patches[0];
+          var diffs = patch2.diffs;
+          if (diffs.length == 0 || diffs[0][0] != DIFF_EQUAL) {
+            diffs.unshift(new diff_match_patch2.Diff(DIFF_EQUAL, nullPadding));
+            patch2.start1 -= paddingLength;
+            patch2.start2 -= paddingLength;
+            patch2.length1 += paddingLength;
+            patch2.length2 += paddingLength;
+          } else if (paddingLength > diffs[0][1].length) {
+            var extraLength = paddingLength - diffs[0][1].length;
+            diffs[0][1] = nullPadding.substring(diffs[0][1].length) + diffs[0][1];
+            patch2.start1 -= extraLength;
+            patch2.start2 -= extraLength;
+            patch2.length1 += extraLength;
+            patch2.length2 += extraLength;
+          }
+          patch2 = patches[patches.length - 1];
+          diffs = patch2.diffs;
+          if (diffs.length == 0 || diffs[diffs.length - 1][0] != DIFF_EQUAL) {
+            diffs.push(new diff_match_patch2.Diff(DIFF_EQUAL, nullPadding));
+            patch2.length1 += paddingLength;
+            patch2.length2 += paddingLength;
+          } else if (paddingLength > diffs[diffs.length - 1][1].length) {
+            var extraLength = paddingLength - diffs[diffs.length - 1][1].length;
+            diffs[diffs.length - 1][1] += nullPadding.substring(0, extraLength);
+            patch2.length1 += extraLength;
+            patch2.length2 += extraLength;
+          }
+          return nullPadding;
+        };
+        diff_match_patch2.prototype.patch_splitMax = function(patches) {
+          var patch_size = this.Match_MaxBits;
+          for (var x2 = 0; x2 < patches.length; x2++) {
+            if (patches[x2].length1 <= patch_size) {
+              continue;
+            }
+            var bigpatch = patches[x2];
+            patches.splice(x2--, 1);
+            var start1 = bigpatch.start1;
+            var start2 = bigpatch.start2;
+            var precontext = "";
+            while (bigpatch.diffs.length !== 0) {
+              var patch2 = new diff_match_patch2.patch_obj();
+              var empty2 = true;
+              patch2.start1 = start1 - precontext.length;
+              patch2.start2 = start2 - precontext.length;
+              if (precontext !== "") {
+                patch2.length1 = patch2.length2 = precontext.length;
+                patch2.diffs.push(new diff_match_patch2.Diff(DIFF_EQUAL, precontext));
+              }
+              while (bigpatch.diffs.length !== 0 && patch2.length1 < patch_size - this.Patch_Margin) {
+                var diff_type = bigpatch.diffs[0][0];
+                var diff_text = bigpatch.diffs[0][1];
+                if (diff_type === DIFF_INSERT) {
+                  patch2.length2 += diff_text.length;
+                  start2 += diff_text.length;
+                  patch2.diffs.push(bigpatch.diffs.shift());
+                  empty2 = false;
+                } else if (diff_type === DIFF_DELETE && patch2.diffs.length == 1 && patch2.diffs[0][0] == DIFF_EQUAL && diff_text.length > 2 * patch_size) {
+                  patch2.length1 += diff_text.length;
+                  start1 += diff_text.length;
+                  empty2 = false;
+                  patch2.diffs.push(new diff_match_patch2.Diff(diff_type, diff_text));
+                  bigpatch.diffs.shift();
+                } else {
+                  diff_text = diff_text.substring(
+                    0,
+                    patch_size - patch2.length1 - this.Patch_Margin
+                  );
+                  patch2.length1 += diff_text.length;
+                  start1 += diff_text.length;
+                  if (diff_type === DIFF_EQUAL) {
+                    patch2.length2 += diff_text.length;
+                    start2 += diff_text.length;
+                  } else {
+                    empty2 = false;
+                  }
+                  patch2.diffs.push(new diff_match_patch2.Diff(diff_type, diff_text));
+                  if (diff_text == bigpatch.diffs[0][1]) {
+                    bigpatch.diffs.shift();
+                  } else {
+                    bigpatch.diffs[0][1] = bigpatch.diffs[0][1].substring(diff_text.length);
+                  }
+                }
+              }
+              precontext = this.diff_text2(patch2.diffs);
+              precontext = precontext.substring(precontext.length - this.Patch_Margin);
+              var postcontext = this.diff_text1(bigpatch.diffs).substring(0, this.Patch_Margin);
+              if (postcontext !== "") {
+                patch2.length1 += postcontext.length;
+                patch2.length2 += postcontext.length;
+                if (patch2.diffs.length !== 0 && patch2.diffs[patch2.diffs.length - 1][0] === DIFF_EQUAL) {
+                  patch2.diffs[patch2.diffs.length - 1][1] += postcontext;
+                } else {
+                  patch2.diffs.push(new diff_match_patch2.Diff(DIFF_EQUAL, postcontext));
+                }
+              }
+              if (!empty2) {
+                patches.splice(++x2, 0, patch2);
+              }
+            }
+          }
+        };
+        diff_match_patch2.prototype.patch_toText = function(patches) {
+          var text = [];
+          for (var x2 = 0; x2 < patches.length; x2++) {
+            text[x2] = patches[x2];
+          }
+          return text.join("");
+        };
+        diff_match_patch2.prototype.patch_fromText = function(textline) {
+          var patches = [];
+          if (!textline) {
+            return patches;
+          }
+          var text = textline.split("\n");
+          var textPointer = 0;
+          var patchHeader = /^@@ -(\d+),?(\d*) \+(\d+),?(\d*) @@$/;
+          while (textPointer < text.length) {
+            var m2 = text[textPointer].match(patchHeader);
+            if (!m2) {
+              throw new Error("Invalid patch string: " + text[textPointer]);
+            }
+            var patch2 = new diff_match_patch2.patch_obj();
+            patches.push(patch2);
+            patch2.start1 = parseInt(m2[1], 10);
+            if (m2[2] === "") {
+              patch2.start1--;
+              patch2.length1 = 1;
+            } else if (m2[2] == "0") {
+              patch2.length1 = 0;
+            } else {
+              patch2.start1--;
+              patch2.length1 = parseInt(m2[2], 10);
+            }
+            patch2.start2 = parseInt(m2[3], 10);
+            if (m2[4] === "") {
+              patch2.start2--;
+              patch2.length2 = 1;
+            } else if (m2[4] == "0") {
+              patch2.length2 = 0;
+            } else {
+              patch2.start2--;
+              patch2.length2 = parseInt(m2[4], 10);
+            }
+            textPointer++;
+            while (textPointer < text.length) {
+              var sign = text[textPointer].charAt(0);
+              try {
+                var line = decodeURI(text[textPointer].substring(1));
+              } catch (ex) {
+                throw new Error("Illegal escape in patch_fromText: " + line);
+              }
+              if (sign == "-") {
+                patch2.diffs.push(new diff_match_patch2.Diff(DIFF_DELETE, line));
+              } else if (sign == "+") {
+                patch2.diffs.push(new diff_match_patch2.Diff(DIFF_INSERT, line));
+              } else if (sign == " ") {
+                patch2.diffs.push(new diff_match_patch2.Diff(DIFF_EQUAL, line));
+              } else if (sign == "@") {
+                break;
+              } else if (sign === "")
+                ;
+              else {
+                throw new Error('Invalid patch mode "' + sign + '" in: ' + line);
+              }
+              textPointer++;
+            }
+          }
+          return patches;
+        };
+        diff_match_patch2.patch_obj = function() {
+          this.diffs = [];
+          this.start1 = null;
+          this.start2 = null;
+          this.length1 = 0;
+          this.length2 = 0;
+        };
+        diff_match_patch2.patch_obj.prototype.toString = function() {
+          var coords1, coords2;
+          if (this.length1 === 0) {
+            coords1 = this.start1 + ",0";
+          } else if (this.length1 == 1) {
+            coords1 = this.start1 + 1;
+          } else {
+            coords1 = this.start1 + 1 + "," + this.length1;
+          }
+          if (this.length2 === 0) {
+            coords2 = this.start2 + ",0";
+          } else if (this.length2 == 1) {
+            coords2 = this.start2 + 1;
+          } else {
+            coords2 = this.start2 + 1 + "," + this.length2;
+          }
+          var text = ["@@ -" + coords1 + " +" + coords2 + " @@\n"];
+          var op;
+          for (var x2 = 0; x2 < this.diffs.length; x2++) {
+            switch (this.diffs[x2][0]) {
+              case DIFF_INSERT:
+                op = "+";
+                break;
+              case DIFF_DELETE:
+                op = "-";
+                break;
+              case DIFF_EQUAL:
+                op = " ";
+                break;
+            }
+            text[x2 + 1] = op + encodeURI(this.diffs[x2][1]) + "\n";
+          }
+          return text.join("").replace(/%20/g, " ");
+        };
+        module3.exports = diff_match_patch2;
+        module3.exports["diff_match_patch"] = diff_match_patch2;
+        module3.exports["DIFF_DELETE"] = DIFF_DELETE;
+        module3.exports["DIFF_INSERT"] = DIFF_INSERT;
+        module3.exports["DIFF_EQUAL"] = DIFF_EQUAL;
+      })(diffMatchPatch);
+      var diffMatchPatchExports = diffMatchPatch.exports;
+      var dmp = /* @__PURE__ */ getDefaultExportFromCjs(diffMatchPatchExports);
+      const TEXT_DIFF = 2;
+      const DEFAULT_MIN_LENGTH = 60;
+      let cachedDiffPatch = null;
+      const getDiffMatchPatch = function(required) {
+        if (!cachedDiffPatch) {
+          let instance;
+          if (typeof diff_match_patch !== "undefined") {
+            instance = typeof diff_match_patch === "function" ? new diff_match_patch() : new diff_match_patch.diff_match_patch();
+          } else if (dmp) {
+            try {
+              instance = dmp && new dmp();
+            } catch (err) {
+              instance = null;
+            }
+          }
+          if (!instance) {
+            if (!required) {
+              return null;
+            }
+            const error = new Error("text diff_match_patch library not found");
+            error.diff_match_patch_not_found = true;
+            throw error;
+          }
+          cachedDiffPatch = {
+            diff: function(txt1, txt2) {
+              return instance.patch_toText(instance.patch_make(txt1, txt2));
+            },
+            patch: function(txt1, patch2) {
+              const results = instance.patch_apply(instance.patch_fromText(patch2), txt1);
+              for (let i2 = 0; i2 < results[1].length; i2++) {
+                if (!results[1][i2]) {
+                  const error = new Error("text patch failed");
+                  error.textPatchFailed = true;
+                }
+              }
+              return results[0];
+            }
+          };
+        }
+        return cachedDiffPatch;
+      };
+      const diffFilter = function textsDiffFilter(context) {
+        if (context.leftType !== "string") {
+          return;
+        }
+        const minLength = context.options && context.options.textDiff && context.options.textDiff.minLength || DEFAULT_MIN_LENGTH;
+        if (context.left.length < minLength || context.right.length < minLength) {
+          context.setResult([context.left, context.right]).exit();
+          return;
+        }
+        const diffMatchPatch2 = getDiffMatchPatch();
+        if (!diffMatchPatch2) {
+          context.setResult([context.left, context.right]).exit();
+          return;
+        }
+        const diff2 = diffMatchPatch2.diff;
+        context.setResult([diff2(context.left, context.right), 0, TEXT_DIFF]).exit();
+      };
+      diffFilter.filterName = "texts";
+      const patchFilter = function textsPatchFilter(context) {
+        if (context.nested) {
+          return;
+        }
+        if (context.delta[2] !== TEXT_DIFF) {
+          return;
+        }
+        const patch2 = getDiffMatchPatch(true).patch;
+        context.setResult(patch2(context.left, context.delta[0])).exit();
+      };
+      patchFilter.filterName = "texts";
+      const textDeltaReverse = function(delta) {
+        let i2;
+        let l2;
+        let line;
+        let lineTmp;
+        let header = null;
+        const headerRegex = /^@@ +-(\d+),(\d+) +\+(\d+),(\d+) +@@$/;
+        let lineHeader;
+        const lines = delta.split("\n");
+        for (i2 = 0, l2 = lines.length; i2 < l2; i2++) {
+          line = lines[i2];
+          const lineStart = line.slice(0, 1);
+          if (lineStart === "@") {
+            header = headerRegex.exec(line);
+            lineHeader = i2;
+            lines[lineHeader] = "@@ -" + header[3] + "," + header[4] + " +" + header[1] + "," + header[2] + " @@";
+          } else if (lineStart === "+") {
+            lines[i2] = "-" + lines[i2].slice(1);
+            if (lines[i2 - 1].slice(0, 1) === "+") {
+              lineTmp = lines[i2];
+              lines[i2] = lines[i2 - 1];
+              lines[i2 - 1] = lineTmp;
+            }
+          } else if (lineStart === "-") {
+            lines[i2] = "+" + lines[i2].slice(1);
+          }
+        }
+        return lines.join("\n");
+      };
+      const reverseFilter = function textsReverseFilter(context) {
+        if (context.nested) {
+          return;
+        }
+        if (context.delta[2] !== TEXT_DIFF) {
+          return;
+        }
+        context.setResult([textDeltaReverse(context.delta[0]), 0, TEXT_DIFF]).exit();
+      };
+      reverseFilter.filterName = "texts";
+      class DiffPatcher {
+        constructor(options) {
+          this.processor = new Processor(options);
+          this.processor.pipe(new Pipe("diff").append(collectChildrenDiffFilter, diffFilter$3, diffFilter$1, diffFilter, objectsDiffFilter, diffFilter$2).shouldHaveResult());
+          this.processor.pipe(new Pipe("patch").append(collectChildrenPatchFilter$1, collectChildrenPatchFilter, patchFilter$3, patchFilter, patchFilter$2, patchFilter$1).shouldHaveResult());
+          this.processor.pipe(new Pipe("reverse").append(collectChildrenReverseFilter$1, collectChildrenReverseFilter, reverseFilter$3, reverseFilter, reverseFilter$2, reverseFilter$1).shouldHaveResult());
+        }
+        options() {
+          return this.processor.options(...arguments);
+        }
+        diff(left, right) {
+          return this.processor.process(new DiffContext(left, right));
+        }
+        patch(left, delta) {
+          return this.processor.process(new PatchContext(left, delta));
+        }
+        reverse(delta) {
+          return this.processor.process(new ReverseContext(delta));
+        }
+        unpatch(right, delta) {
+          return this.patch(right, this.reverse(delta));
+        }
+        clone(value) {
+          return clone$1(value);
+        }
+      }
+      const isArray = typeof Array.isArray === "function" ? Array.isArray : (a2) => a2 instanceof Array;
+      const getObjectKeys = typeof Object.keys === "function" ? (obj) => Object.keys(obj) : (obj) => {
+        const names = [];
+        for (const property in obj) {
+          if (Object.prototype.hasOwnProperty.call(obj, property)) {
+            names.push(property);
+          }
+        }
+        return names;
+      };
+      const trimUnderscore = (str) => {
+        if (str.substr(0, 1) === "_") {
+          return str.slice(1);
+        }
+        return str;
+      };
+      const arrayKeyToSortNumber = (key) => {
+        if (key === "_t") {
+          return -1;
+        } else {
+          if (key.substr(0, 1) === "_") {
+            return parseInt(key.slice(1), 10);
+          } else {
+            return parseInt(key, 10) + 0.1;
+          }
+        }
+      };
+      const arrayKeyComparer = (key1, key2) => arrayKeyToSortNumber(key1) - arrayKeyToSortNumber(key2);
+      class BaseFormatter {
+        format(delta, left) {
+          const context = {};
+          this.prepareContext(context);
+          this.recurse(context, delta, left);
+          return this.finalize(context);
+        }
+        prepareContext(context) {
+          context.buffer = [];
+          context.out = function() {
+            this.buffer.push(...arguments);
+          };
+        }
+        typeFormattterNotFound(context, deltaType) {
+          throw new Error(`cannot format delta type: ${deltaType}`);
+        }
+        typeFormattterErrorFormatter(context, err) {
+          return err.toString();
+        }
+        finalize(_ref) {
+          let {
+            buffer
+          } = _ref;
+          if (isArray(buffer)) {
+            return buffer.join("");
+          }
+        }
+        recurse(context, delta, left, key, leftKey, movedFrom, isLast) {
+          const useMoveOriginHere = delta && movedFrom;
+          const leftValue = useMoveOriginHere ? movedFrom.value : left;
+          if (typeof delta === "undefined" && typeof key === "undefined") {
+            return void 0;
+          }
+          const type = this.getDeltaType(delta, movedFrom);
+          const nodeType = type === "node" ? delta._t === "a" ? "array" : "object" : "";
+          if (typeof key !== "undefined") {
+            this.nodeBegin(context, key, leftKey, type, nodeType, isLast);
+          } else {
+            this.rootBegin(context, type, nodeType);
+          }
+          let typeFormattter;
+          try {
+            typeFormattter = this[`format_${type}`] || this.typeFormattterNotFound(context, type);
+            typeFormattter.call(this, context, delta, leftValue, key, leftKey, movedFrom);
+          } catch (err) {
+            this.typeFormattterErrorFormatter(context, err, delta, leftValue, key, leftKey, movedFrom);
+            if (typeof console !== "undefined" && console.error) {
+              console.error(err.stack);
+            }
+          }
+          if (typeof key !== "undefined") {
+            this.nodeEnd(context, key, leftKey, type, nodeType, isLast);
+          } else {
+            this.rootEnd(context, type, nodeType);
+          }
+        }
+        formatDeltaChildren(context, delta, left) {
+          const self2 = this;
+          this.forEachDeltaKey(delta, left, (key, leftKey, movedFrom, isLast) => {
+            self2.recurse(context, delta[key], left ? left[leftKey] : void 0, key, leftKey, movedFrom, isLast);
+          });
+        }
+        forEachDeltaKey(delta, left, fn2) {
+          const keys = getObjectKeys(delta);
+          const arrayKeys = delta._t === "a";
+          const moveDestinations = {};
+          let name;
+          if (typeof left !== "undefined") {
+            for (name in left) {
+              if (Object.prototype.hasOwnProperty.call(left, name)) {
+                if (typeof delta[name] === "undefined" && (!arrayKeys || typeof delta[`_${name}`] === "undefined")) {
+                  keys.push(name);
+                }
+              }
+            }
+          }
+          for (name in delta) {
+            if (Object.prototype.hasOwnProperty.call(delta, name)) {
+              const value = delta[name];
+              if (isArray(value) && value[2] === 3) {
+                moveDestinations[value[1].toString()] = {
+                  key: name,
+                  value: left && left[parseInt(name.substr(1))]
+                };
+                if (this.includeMoveDestinations !== false) {
+                  if (typeof left === "undefined" && typeof delta[value[1]] === "undefined") {
+                    keys.push(value[1].toString());
+                  }
+                }
+              }
+            }
+          }
+          if (arrayKeys) {
+            keys.sort(arrayKeyComparer);
+          } else {
+            keys.sort();
+          }
+          for (let index2 = 0, length = keys.length; index2 < length; index2++) {
+            const key = keys[index2];
+            if (arrayKeys && key === "_t") {
+              continue;
+            }
+            const leftKey = arrayKeys ? typeof key === "number" ? key : parseInt(trimUnderscore(key), 10) : key;
+            const isLast = index2 === length - 1;
+            fn2(key, leftKey, moveDestinations[leftKey], isLast);
+          }
+        }
+        getDeltaType(delta, movedFrom) {
+          if (typeof delta === "undefined") {
+            if (typeof movedFrom !== "undefined") {
+              return "movedestination";
+            }
+            return "unchanged";
+          }
+          if (isArray(delta)) {
+            if (delta.length === 1) {
+              return "added";
+            }
+            if (delta.length === 2) {
+              return "modified";
+            }
+            if (delta.length === 3 && delta[2] === 0) {
+              return "deleted";
+            }
+            if (delta.length === 3 && delta[2] === 2) {
+              return "textdiff";
+            }
+            if (delta.length === 3 && delta[2] === 3) {
+              return "moved";
+            }
+          } else if (typeof delta === "object") {
+            return "node";
+          }
+          return "unknown";
+        }
+        parseTextDiff(value) {
+          const output = [];
+          const lines = value.split("\n@@ ");
+          for (let i2 = 0, l2 = lines.length; i2 < l2; i2++) {
+            const line = lines[i2];
+            const lineOutput = {
+              pieces: []
+            };
+            const location = /^(?:@@ )?[-+]?(\d+),(\d+)/.exec(line).slice(1);
+            lineOutput.location = {
+              line: location[0],
+              chr: location[1]
+            };
+            const pieces = line.split("\n").slice(1);
+            for (let pieceIndex = 0, piecesLength = pieces.length; pieceIndex < piecesLength; pieceIndex++) {
+              const piece = pieces[pieceIndex];
+              if (!piece.length) {
+                continue;
+              }
+              const pieceOutput = {
+                type: "context"
+              };
+              if (piece.substr(0, 1) === "+") {
+                pieceOutput.type = "added";
+              } else if (piece.substr(0, 1) === "-") {
+                pieceOutput.type = "deleted";
+              }
+              pieceOutput.text = piece.slice(1);
+              lineOutput.pieces.push(pieceOutput);
+            }
+            output.push(lineOutput);
+          }
+          return output;
+        }
+      }
+      var base = /* @__PURE__ */ Object.freeze({
+        __proto__: null,
+        default: BaseFormatter
+      });
+      class HtmlFormatter extends BaseFormatter {
+        typeFormattterErrorFormatter(context, err) {
+          context.out(`<pre class="jsondiffpatch-error">${err}</pre>`);
+        }
+        formatValue(context, value) {
+          context.out(`<pre>${htmlEscape(JSON.stringify(value, null, 2))}</pre>`);
+        }
+        formatTextDiffString(context, value) {
+          const lines = this.parseTextDiff(value);
+          context.out('<ul class="jsondiffpatch-textdiff">');
+          for (let i2 = 0, l2 = lines.length; i2 < l2; i2++) {
+            const line = lines[i2];
+            context.out(`<li><div class="jsondiffpatch-textdiff-location"><span class="jsondiffpatch-textdiff-line-number">${line.location.line}</span><span class="jsondiffpatch-textdiff-char">${line.location.chr}</span></div><div class="jsondiffpatch-textdiff-line">`);
+            const pieces = line.pieces;
+            for (let pieceIndex = 0, piecesLength = pieces.length; pieceIndex < piecesLength; pieceIndex++) {
+              const piece = pieces[pieceIndex];
+              context.out(`<span class="jsondiffpatch-textdiff-${piece.type}">${htmlEscape(decodeURI(piece.text))}</span>`);
+            }
+            context.out("</div></li>");
+          }
+          context.out("</ul>");
+        }
+        rootBegin(context, type, nodeType) {
+          const nodeClass = `jsondiffpatch-${type}${nodeType ? ` jsondiffpatch-child-node-type-${nodeType}` : ""}`;
+          context.out(`<div class="jsondiffpatch-delta ${nodeClass}">`);
+        }
+        rootEnd(context) {
+          context.out(`</div>${context.hasArrows ? `<script type="text/javascript">setTimeout(${adjustArrows.toString()},10);<\/script>` : ""}`);
+        }
+        nodeBegin(context, key, leftKey, type, nodeType) {
+          const nodeClass = `jsondiffpatch-${type}${nodeType ? ` jsondiffpatch-child-node-type-${nodeType}` : ""}`;
+          context.out(`<li class="${nodeClass}" data-key="${leftKey}"><div class="jsondiffpatch-property-name">${leftKey}</div>`);
+        }
+        nodeEnd(context) {
+          context.out("</li>");
+        }
+        format_unchanged(context, delta, left) {
+          if (typeof left === "undefined") {
+            return;
+          }
+          context.out('<div class="jsondiffpatch-value">');
+          this.formatValue(context, left);
+          context.out("</div>");
+        }
+        format_movedestination(context, delta, left) {
+          if (typeof left === "undefined") {
+            return;
+          }
+          context.out('<div class="jsondiffpatch-value">');
+          this.formatValue(context, left);
+          context.out("</div>");
+        }
+        format_node(context, delta, left) {
+          const nodeType = delta._t === "a" ? "array" : "object";
+          context.out(`<ul class="jsondiffpatch-node jsondiffpatch-node-type-${nodeType}">`);
+          this.formatDeltaChildren(context, delta, left);
+          context.out("</ul>");
+        }
+        format_added(context, delta) {
+          context.out('<div class="jsondiffpatch-value">');
+          this.formatValue(context, delta[0]);
+          context.out("</div>");
+        }
+        format_modified(context, delta) {
+          context.out('<div class="jsondiffpatch-value jsondiffpatch-left-value">');
+          this.formatValue(context, delta[0]);
+          context.out('</div><div class="jsondiffpatch-value jsondiffpatch-right-value">');
+          this.formatValue(context, delta[1]);
+          context.out("</div>");
+        }
+        format_deleted(context, delta) {
+          context.out('<div class="jsondiffpatch-value">');
+          this.formatValue(context, delta[0]);
+          context.out("</div>");
+        }
+        format_moved(context, delta) {
+          context.out('<div class="jsondiffpatch-value">');
+          this.formatValue(context, delta[0]);
+          context.out(`</div><div class="jsondiffpatch-moved-destination">${delta[1]}</div>`);
+          context.out(
+            `<div class="jsondiffpatch-arrow" style="position: relative; left: -34px;">
+          <svg width="30" height="60" style="position: absolute; display: none;">
+          <defs>
+              <marker id="markerArrow" markerWidth="8" markerHeight="8"
+                 refx="2" refy="4"
+                     orient="auto" markerUnits="userSpaceOnUse">
+                  <path d="M1,1 L1,7 L7,4 L1,1" style="fill: #339;" />
+              </marker>
+          </defs>
+          <path d="M30,0 Q-10,25 26,50"
+            style="stroke: #88f; stroke-width: 2px; fill: none; stroke-opacity: 0.5; marker-end: url(#markerArrow);"
+          ></path>
+          </svg>
+      </div>`
+          );
+          context.hasArrows = true;
+        }
+        format_textdiff(context, delta) {
+          context.out('<div class="jsondiffpatch-value">');
+          this.formatTextDiffString(context, delta[0]);
+          context.out("</div>");
+        }
+      }
+      function htmlEscape(text) {
+        let html2 = text;
+        const replacements = [[/&/g, "&amp;"], [/</g, "&lt;"], [/>/g, "&gt;"], [/'/g, "&apos;"], [/"/g, "&quot;"]];
+        for (let i2 = 0; i2 < replacements.length; i2++) {
+          html2 = html2.replace(replacements[i2][0], replacements[i2][1]);
+        }
+        return html2;
+      }
+      const adjustArrows = function jsondiffpatchHtmlFormatterAdjustArrows(nodeArg) {
+        const node = nodeArg || document;
+        const getElementText = (_ref) => {
+          let {
+            textContent: textContent2,
+            innerText: innerText2
+          } = _ref;
+          return textContent2 || innerText2;
+        };
+        const eachByQuery = (el, query, fn2) => {
+          const elems = el.querySelectorAll(query);
+          for (let i2 = 0, l2 = elems.length; i2 < l2; i2++) {
+            fn2(elems[i2]);
+          }
+        };
+        const eachChildren = (_ref2, fn2) => {
+          let {
+            children
+          } = _ref2;
+          for (let i2 = 0, l2 = children.length; i2 < l2; i2++) {
+            fn2(children[i2], i2);
+          }
+        };
+        eachByQuery(node, ".jsondiffpatch-arrow", (_ref3) => {
+          let {
+            parentNode,
+            children,
+            style
+          } = _ref3;
+          const arrowParent = parentNode;
+          const svg = children[0];
+          const path = svg.children[1];
+          svg.style.display = "none";
+          const destination = getElementText(arrowParent.querySelector(".jsondiffpatch-moved-destination"));
+          const container = arrowParent.parentNode;
+          let destinationElem;
+          eachChildren(container, (child) => {
+            if (child.getAttribute("data-key") === destination) {
+              destinationElem = child;
+            }
+          });
+          if (!destinationElem) {
+            return;
+          }
+          try {
+            const distance = destinationElem.offsetTop - arrowParent.offsetTop;
+            svg.setAttribute("height", Math.abs(distance) + 6);
+            style.top = `${-8 + (distance > 0 ? 0 : distance)}px`;
+            const curve = distance > 0 ? `M30,0 Q-10,${Math.round(distance / 2)} 26,${distance - 4}` : `M30,${-distance} Q-10,${Math.round(-distance / 2)} 26,4`;
+            path.setAttribute("d", curve);
+            svg.style.display = "";
+          } catch (err) {
+          }
+        });
+      };
+      const showUnchanged = (show, node, delay) => {
+        const el = node || document.body;
+        const prefix2 = "jsondiffpatch-unchanged-";
+        const classes = {
+          showing: `${prefix2}showing`,
+          hiding: `${prefix2}hiding`,
+          visible: `${prefix2}visible`,
+          hidden: `${prefix2}hidden`
+        };
+        const list = el.classList;
+        if (!list) {
+          return;
+        }
+        if (!delay) {
+          list.remove(classes.showing);
+          list.remove(classes.hiding);
+          list.remove(classes.visible);
+          list.remove(classes.hidden);
+          if (show === false) {
+            list.add(classes.hidden);
+          }
+          return;
+        }
+        if (show === false) {
+          list.remove(classes.showing);
+          list.add(classes.visible);
+          setTimeout(() => {
+            list.add(classes.hiding);
+          }, 10);
+        } else {
+          list.remove(classes.hiding);
+          list.add(classes.showing);
+          list.remove(classes.hidden);
+        }
+        const intervalId = setInterval(() => {
+          adjustArrows(el);
+        }, 100);
+        setTimeout(() => {
+          list.remove(classes.showing);
+          list.remove(classes.hiding);
+          if (show === false) {
+            list.add(classes.hidden);
+            list.remove(classes.visible);
+          } else {
+            list.add(classes.visible);
+            list.remove(classes.hidden);
+          }
+          setTimeout(() => {
+            list.remove(classes.visible);
+            clearInterval(intervalId);
+          }, delay + 400);
+        }, delay);
+      };
+      const hideUnchanged = (node, delay) => showUnchanged(false, node, delay);
+      let defaultInstance$4;
+      function format$3(delta, left) {
+        if (!defaultInstance$4) {
+          defaultInstance$4 = new HtmlFormatter();
+        }
+        return defaultInstance$4.format(delta, left);
+      }
+      var html = /* @__PURE__ */ Object.freeze({
+        __proto__: null,
+        default: HtmlFormatter,
+        format: format$3,
+        hideUnchanged,
+        showUnchanged
+      });
+      class AnnotatedFormatter extends BaseFormatter {
+        constructor() {
+          super();
+          this.includeMoveDestinations = false;
+        }
+        prepareContext(context) {
+          super.prepareContext(context);
+          context.indent = function(levels) {
+            this.indentLevel = (this.indentLevel || 0) + (typeof levels === "undefined" ? 1 : levels);
+            this.indentPad = new Array(this.indentLevel + 1).join("&nbsp;&nbsp;");
+          };
+          context.row = (json, htmlNote) => {
+            context.out('<tr><td style="white-space: nowrap;"><pre class="jsondiffpatch-annotated-indent" style="display: inline-block">');
+            context.out(context.indentPad);
+            context.out('</pre><pre style="display: inline-block">');
+            context.out(json);
+            context.out('</pre></td><td class="jsondiffpatch-delta-note"><div>');
+            context.out(htmlNote);
+            context.out("</div></td></tr>");
+          };
+        }
+        typeFormattterErrorFormatter(context, err) {
+          context.row("", `<pre class="jsondiffpatch-error">${err}</pre>`);
+        }
+        formatTextDiffString(context, value) {
+          const lines = this.parseTextDiff(value);
+          context.out('<ul class="jsondiffpatch-textdiff">');
+          for (let i2 = 0, l2 = lines.length; i2 < l2; i2++) {
+            const line = lines[i2];
+            context.out(`<li><div class="jsondiffpatch-textdiff-location"><span class="jsondiffpatch-textdiff-line-number">${line.location.line}</span><span class="jsondiffpatch-textdiff-char">${line.location.chr}</span></div><div class="jsondiffpatch-textdiff-line">`);
+            const pieces = line.pieces;
+            for (let pieceIndex = 0, piecesLength = pieces.length; pieceIndex < piecesLength; pieceIndex++) {
+              const piece = pieces[pieceIndex];
+              context.out(`<span class="jsondiffpatch-textdiff-${piece.type}">${piece.text}</span>`);
+            }
+            context.out("</div></li>");
+          }
+          context.out("</ul>");
+        }
+        rootBegin(context, type, nodeType) {
+          context.out('<table class="jsondiffpatch-annotated-delta">');
+          if (type === "node") {
+            context.row("{");
+            context.indent();
+          }
+          if (nodeType === "array") {
+            context.row('"_t": "a",', "Array delta (member names indicate array indices)");
+          }
+        }
+        rootEnd(context, type) {
+          if (type === "node") {
+            context.indent(-1);
+            context.row("}");
+          }
+          context.out("</table>");
+        }
+        nodeBegin(context, key, leftKey, type, nodeType) {
+          context.row(`&quot;${key}&quot;: {`);
+          if (type === "node") {
+            context.indent();
+          }
+          if (nodeType === "array") {
+            context.row('"_t": "a",', "Array delta (member names indicate array indices)");
+          }
+        }
+        nodeEnd(context, key, leftKey, type, nodeType, isLast) {
+          if (type === "node") {
+            context.indent(-1);
+          }
+          context.row(`}${isLast ? "" : ","}`);
+        }
+        format_unchanged() {
+        }
+        format_movedestination() {
+        }
+        format_node(context, delta, left) {
+          this.formatDeltaChildren(context, delta, left);
+        }
+      }
+      const wrapPropertyName = (name) => `<pre style="display:inline-block">&quot;${name}&quot;</pre>`;
+      const deltaAnnotations = {
+        added(delta, left, key, leftKey) {
+          const formatLegend = " <pre>([newValue])</pre>";
+          if (typeof leftKey === "undefined") {
+            return `new value${formatLegend}`;
+          }
+          if (typeof leftKey === "number") {
+            return `insert at index ${leftKey}${formatLegend}`;
+          }
+          return `add property ${wrapPropertyName(leftKey)}${formatLegend}`;
+        },
+        modified(delta, left, key, leftKey) {
+          const formatLegend = " <pre>([previousValue, newValue])</pre>";
+          if (typeof leftKey === "undefined") {
+            return `modify value${formatLegend}`;
+          }
+          if (typeof leftKey === "number") {
+            return `modify at index ${leftKey}${formatLegend}`;
+          }
+          return `modify property ${wrapPropertyName(leftKey)}${formatLegend}`;
+        },
+        deleted(delta, left, key, leftKey) {
+          const formatLegend = " <pre>([previousValue, 0, 0])</pre>";
+          if (typeof leftKey === "undefined") {
+            return `delete value${formatLegend}`;
+          }
+          if (typeof leftKey === "number") {
+            return `remove index ${leftKey}${formatLegend}`;
+          }
+          return `delete property ${wrapPropertyName(leftKey)}${formatLegend}`;
+        },
+        moved(delta, left, key, leftKey) {
+          return `move from <span title="(position to remove at original state)">index ${leftKey}</span> to <span title="(position to insert at final state)">index ${delta[1]}</span>`;
+        },
+        textdiff(delta, left, key, leftKey) {
+          const location = typeof leftKey === "undefined" ? "" : typeof leftKey === "number" ? ` at index ${leftKey}` : ` at property ${wrapPropertyName(leftKey)}`;
+          return `text diff${location}, format is <a href="https://code.google.com/p/google-diff-match-patch/wiki/Unidiff">a variation of Unidiff</a>`;
+        }
+      };
+      const formatAnyChange = function(context, delta) {
+        const deltaType = this.getDeltaType(delta);
+        const annotator = deltaAnnotations[deltaType];
+        const htmlNote = annotator && annotator.apply(annotator, Array.prototype.slice.call(arguments, 1));
+        let json = JSON.stringify(delta, null, 2);
+        if (deltaType === "textdiff") {
+          json = json.split("\\n").join('\\n"+\n   "');
+        }
+        context.indent();
+        context.row(json, htmlNote);
+        context.indent(-1);
+      };
+      AnnotatedFormatter.prototype.format_added = formatAnyChange;
+      AnnotatedFormatter.prototype.format_modified = formatAnyChange;
+      AnnotatedFormatter.prototype.format_deleted = formatAnyChange;
+      AnnotatedFormatter.prototype.format_moved = formatAnyChange;
+      AnnotatedFormatter.prototype.format_textdiff = formatAnyChange;
+      let defaultInstance$3;
+      function format$2(delta, left) {
+        if (!defaultInstance$3) {
+          defaultInstance$3 = new AnnotatedFormatter();
+        }
+        return defaultInstance$3.format(delta, left);
+      }
+      var annotated = /* @__PURE__ */ Object.freeze({
+        __proto__: null,
+        default: AnnotatedFormatter,
+        format: format$2
+      });
+      const OPERATIONS = {
+        add: "add",
+        remove: "remove",
+        replace: "replace",
+        move: "move"
+      };
+      class JSONFormatter extends BaseFormatter {
+        constructor() {
+          super();
+          this.includeMoveDestinations = true;
+        }
+        prepareContext(context) {
+          super.prepareContext(context);
+          context.result = [];
+          context.path = [];
+          context.pushCurrentOp = function(obj) {
+            const {
+              op,
+              value
+            } = obj;
+            const val = {
+              op,
+              path: this.currentPath()
+            };
+            if (typeof value !== "undefined") {
+              val.value = value;
+            }
+            this.result.push(val);
+          };
+          context.pushMoveOp = function(to) {
+            const from = this.currentPath();
+            this.result.push({
+              op: OPERATIONS.move,
+              from,
+              path: this.toPath(to)
+            });
+          };
+          context.currentPath = function() {
+            return `/${this.path.join("/")}`;
+          };
+          context.toPath = function(toPath) {
+            const to = this.path.slice();
+            to[to.length - 1] = toPath;
+            return `/${to.join("/")}`;
+          };
+        }
+        typeFormattterErrorFormatter(context, err) {
+          context.out(`[ERROR] ${err}`);
+        }
+        rootBegin() {
+        }
+        rootEnd() {
+        }
+        nodeBegin(_ref, key, leftKey) {
+          let {
+            path
+          } = _ref;
+          path.push(leftKey);
+        }
+        nodeEnd(_ref2) {
+          let {
+            path
+          } = _ref2;
+          path.pop();
+        }
+        format_unchanged() {
+        }
+        format_movedestination() {
+        }
+        format_node(context, delta, left) {
+          this.formatDeltaChildren(context, delta, left);
+        }
+        format_added(context, delta) {
+          context.pushCurrentOp({
+            op: OPERATIONS.add,
+            value: delta[0]
+          });
+        }
+        format_modified(context, delta) {
+          context.pushCurrentOp({
+            op: OPERATIONS.replace,
+            value: delta[1]
+          });
+        }
+        format_deleted(context) {
+          context.pushCurrentOp({
+            op: OPERATIONS.remove
+          });
+        }
+        format_moved(context, delta) {
+          const to = delta[1];
+          context.pushMoveOp(to);
+        }
+        format_textdiff() {
+          throw new Error("Not implemented");
+        }
+        format(delta, left) {
+          const context = {};
+          this.prepareContext(context);
+          this.recurse(context, delta, left);
+          return context.result;
+        }
+      }
+      const last2 = (arr) => arr[arr.length - 1];
+      const sortBy = (arr, pred) => {
+        arr.sort(pred);
+        return arr;
+      };
+      const compareByIndexDesc = (indexA, indexB) => {
+        const lastA = parseInt(indexA, 10);
+        const lastB = parseInt(indexB, 10);
+        if (!(isNaN(lastA) || isNaN(lastB))) {
+          return lastB - lastA;
+        } else {
+          return 0;
+        }
+      };
+      const opsByDescendingOrder = (removeOps) => sortBy(removeOps, (a2, b2) => {
+        const splitA = a2.path.split("/");
+        const splitB = b2.path.split("/");
+        if (splitA.length !== splitB.length) {
+          return splitA.length - splitB.length;
+        } else {
+          return compareByIndexDesc(last2(splitA), last2(splitB));
+        }
+      });
+      const partitionOps = (arr, fns) => {
+        const initArr = Array(fns.length + 1).fill().map(() => []);
+        return arr.map((item) => {
+          let position = fns.map((fn2) => fn2(item)).indexOf(true);
+          if (position < 0) {
+            position = fns.length;
+          }
+          return {
+            item,
+            position
+          };
+        }).reduce((acc, item) => {
+          acc[item.position].push(item.item);
+          return acc;
+        }, initArr);
+      };
+      const isMoveOp = (_ref3) => {
+        let {
+          op
+        } = _ref3;
+        return op === "move";
+      };
+      const isRemoveOp = (_ref4) => {
+        let {
+          op
+        } = _ref4;
+        return op === "remove";
+      };
+      const reorderOps = (diff2) => {
+        const [moveOps, removedOps, restOps] = partitionOps(diff2, [isMoveOp, isRemoveOp]);
+        const removeOpsReverse = opsByDescendingOrder(removedOps);
+        return [...removeOpsReverse, ...moveOps, ...restOps];
+      };
+      let defaultInstance$2;
+      const format$1 = (delta, left) => {
+        if (!defaultInstance$2) {
+          defaultInstance$2 = new JSONFormatter();
+        }
+        return reorderOps(defaultInstance$2.format(delta, left));
+      };
+      const log$1 = (delta, left) => {
+        console.log(format$1(delta, left));
+      };
+      var jsonpatch = /* @__PURE__ */ Object.freeze({
+        __proto__: null,
+        default: JSONFormatter,
+        format: format$1,
+        log: log$1,
+        partitionOps
+      });
+      function chalkColor(name) {
+        return chalk && chalk[name] || function() {
+          for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+            args[_key] = arguments[_key];
+          }
+          return args;
+        };
+      }
+      const colors = {
+        added: chalkColor("green"),
+        deleted: chalkColor("red"),
+        movedestination: chalkColor("gray"),
+        moved: chalkColor("yellow"),
+        unchanged: chalkColor("gray"),
+        error: chalkColor("white.bgRed"),
+        textDiffLine: chalkColor("gray")
+      };
+      class ConsoleFormatter extends BaseFormatter {
+        constructor() {
+          super();
+          this.includeMoveDestinations = false;
+        }
+        prepareContext(context) {
+          super.prepareContext(context);
+          context.indent = function(levels) {
+            this.indentLevel = (this.indentLevel || 0) + (typeof levels === "undefined" ? 1 : levels);
+            this.indentPad = new Array(this.indentLevel + 1).join("  ");
+            this.outLine();
+          };
+          context.outLine = function() {
+            this.buffer.push(`
+${this.indentPad || ""}`);
+          };
+          context.out = function() {
+            for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+              args[_key2] = arguments[_key2];
+            }
+            for (let i2 = 0, l2 = args.length; i2 < l2; i2++) {
+              const lines = args[i2].split("\n");
+              let text = lines.join(`
+${this.indentPad || ""}`);
+              if (this.color && this.color[0]) {
+                text = this.color[0](text);
+              }
+              this.buffer.push(text);
+            }
+          };
+          context.pushColor = function(color) {
+            this.color = this.color || [];
+            this.color.unshift(color);
+          };
+          context.popColor = function() {
+            this.color = this.color || [];
+            this.color.shift();
+          };
+        }
+        typeFormattterErrorFormatter(context, err) {
+          context.pushColor(colors.error);
+          context.out(`[ERROR]${err}`);
+          context.popColor();
+        }
+        formatValue(context, value) {
+          context.out(JSON.stringify(value, null, 2));
+        }
+        formatTextDiffString(context, value) {
+          const lines = this.parseTextDiff(value);
+          context.indent();
+          for (let i2 = 0, l2 = lines.length; i2 < l2; i2++) {
+            const line = lines[i2];
+            context.pushColor(colors.textDiffLine);
+            context.out(`${line.location.line},${line.location.chr} `);
+            context.popColor();
+            const pieces = line.pieces;
+            for (let pieceIndex = 0, piecesLength = pieces.length; pieceIndex < piecesLength; pieceIndex++) {
+              const piece = pieces[pieceIndex];
+              context.pushColor(colors[piece.type]);
+              context.out(piece.text);
+              context.popColor();
+            }
+            if (i2 < l2 - 1) {
+              context.outLine();
+            }
+          }
+          context.indent(-1);
+        }
+        rootBegin(context, type, nodeType) {
+          context.pushColor(colors[type]);
+          if (type === "node") {
+            context.out(nodeType === "array" ? "[" : "{");
+            context.indent();
+          }
+        }
+        rootEnd(context, type, nodeType) {
+          if (type === "node") {
+            context.indent(-1);
+            context.out(nodeType === "array" ? "]" : "}");
+          }
+          context.popColor();
+        }
+        nodeBegin(context, key, leftKey, type, nodeType) {
+          context.pushColor(colors[type]);
+          context.out(`${leftKey}: `);
+          if (type === "node") {
+            context.out(nodeType === "array" ? "[" : "{");
+            context.indent();
+          }
+        }
+        nodeEnd(context, key, leftKey, type, nodeType, isLast) {
+          if (type === "node") {
+            context.indent(-1);
+            context.out(nodeType === "array" ? "]" : `}${isLast ? "" : ","}`);
+          }
+          if (!isLast) {
+            context.outLine();
+          }
+          context.popColor();
+        }
+        format_unchanged(context, delta, left) {
+          if (typeof left === "undefined") {
+            return;
+          }
+          this.formatValue(context, left);
+        }
+        format_movedestination(context, delta, left) {
+          if (typeof left === "undefined") {
+            return;
+          }
+          this.formatValue(context, left);
+        }
+        format_node(context, delta, left) {
+          this.formatDeltaChildren(context, delta, left);
+        }
+        format_added(context, delta) {
+          this.formatValue(context, delta[0]);
+        }
+        format_modified(context, delta) {
+          context.pushColor(colors.deleted);
+          this.formatValue(context, delta[0]);
+          context.popColor();
+          context.out(" => ");
+          context.pushColor(colors.added);
+          this.formatValue(context, delta[1]);
+          context.popColor();
+        }
+        format_deleted(context, delta) {
+          this.formatValue(context, delta[0]);
+        }
+        format_moved(context, delta) {
+          context.out(`==> ${delta[1]}`);
+        }
+        format_textdiff(context, delta) {
+          this.formatTextDiffString(context, delta[0]);
+        }
+      }
+      let defaultInstance$1;
+      const format = (delta, left) => {
+        if (!defaultInstance$1) {
+          defaultInstance$1 = new ConsoleFormatter();
+        }
+        return defaultInstance$1.format(delta, left);
+      };
+      function log2(delta, left) {
+        console.log(format(delta, left));
+      }
+      var console$1 = /* @__PURE__ */ Object.freeze({
+        __proto__: null,
+        default: ConsoleFormatter,
+        format,
+        log: log2
+      });
+      var index = /* @__PURE__ */ Object.freeze({
+        __proto__: null,
+        annotated,
+        base,
+        console: console$1,
+        html,
+        jsonpatch
+      });
+      function dateReviver(key, value) {
+        let parts;
+        if (typeof value === "string") {
+          parts = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})(?:\.(\d*))?(Z|([+-])(\d{2}):(\d{2}))$/.exec(value);
+          if (parts) {
+            return new Date(Date.UTC(+parts[1], +parts[2] - 1, +parts[3], +parts[4], +parts[5], +parts[6], +(parts[7] || 0)));
+          }
+        }
+        return value;
+      }
+      function create(options) {
+        return new DiffPatcher(options);
+      }
+      let defaultInstance;
+      function diff() {
+        if (!defaultInstance) {
+          defaultInstance = new DiffPatcher();
+        }
+        return defaultInstance.diff.apply(defaultInstance, arguments);
+      }
+      function patch() {
+        if (!defaultInstance) {
+          defaultInstance = new DiffPatcher();
+        }
+        return defaultInstance.patch.apply(defaultInstance, arguments);
+      }
+      function unpatch() {
+        if (!defaultInstance) {
+          defaultInstance = new DiffPatcher();
+        }
+        return defaultInstance.unpatch.apply(defaultInstance, arguments);
+      }
+      function reverse() {
+        if (!defaultInstance) {
+          defaultInstance = new DiffPatcher();
+        }
+        return defaultInstance.reverse.apply(defaultInstance, arguments);
+      }
+      function clone2() {
+        if (!defaultInstance) {
+          defaultInstance = new DiffPatcher();
+        }
+        return defaultInstance.clone.apply(defaultInstance, arguments);
+      }
+      exports2.DiffPatcher = DiffPatcher;
+      exports2.clone = clone2;
+      exports2.console = console$1;
+      exports2.create = create;
+      exports2.dateReviver = dateReviver;
+      exports2.diff = diff;
+      exports2.formatters = index;
+      exports2.patch = patch;
+      exports2.reverse = reverse;
+      exports2.unpatch = unpatch;
+    });
+  }
+});
+
 // src/main.ts
 var main_exports = {};
 __export(main_exports, {
@@ -38276,20 +41814,19 @@ __export(main_exports, {
   default: () => DataLoomPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian19 = require("obsidian");
+var import_obsidian22 = require("obsidian");
 
 // src/obsidian/modal/welcome-modal/index.tsx
 var import_obsidian = require("obsidian");
 
 // src/obsidian/shared/index.ts
-var renderBuyMeACoffeeBadge = (contentEl, width = 180) => {
+var renderBuyMeACoffeeBadge = (contentEl, width = 175) => {
   const linkEl = contentEl.createEl("a", {
     href: "https://www.buymeacoffee.com/treywallis"
   });
   const imgEl = linkEl.createEl("img");
-  imgEl.src = "https://img.buymeacoffee.com/button-api/?text=Buy me a herbal tea&emoji=\u{1F375}&slug=treywallis&button_colour=9478F0&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00&refresh_id=2";
-  imgEl.referrerPolicy = "no-referrer";
-  imgEl.alt = "Buymeacoffee";
+  imgEl.src = "https://github.com/trey-wallis/obsidian-dataloom/assets/40307803/dee919ac-1065-4595-8511-7e7e7a962356";
+  imgEl.alt = "Buy me a coffee";
   imgEl.width = width;
 };
 var renderDivider = (contentEl) => {
@@ -38332,28 +41869,28 @@ var WelcomeModal = class extends import_obsidian.Modal {
       cardContainerEl,
       "Quick start",
       "Learn the basics of creating a loom",
-      "https://dataloom.xyz/getting-started/quick-start",
+      "https://dataloom.xyz/quick-start",
       "table"
     );
     this.renderCard(
       cardContainerEl,
       "Import markdown tables and CSV data",
       "Learn how to import data from markdown tables and CSV files",
-      "https://dataloom.xyz/getting-started/importing",
+      "https://dataloom.xyz/basics/import",
       "import"
     );
     this.renderCard(
       cardContainerEl,
       "Embedded looms",
       "Learn how to embed a loom into a markdown note",
-      "https://dataloom.xyz/getting-started/embedding-looms",
+      "https://dataloom.xyz/basics/embed-looms",
       "sticky-note"
     );
     this.renderCard(
       cardContainerEl,
       "Keyboard navigation",
       "Learn how to navigate looms with your keyboard",
-      "https://dataloom.xyz/getting-started/keyboard-navigation",
+      "https://dataloom.xyz/basics/keyboard-navigation",
       "list-plus"
     );
   }
@@ -38423,21 +41960,7 @@ var WhatsNewModal = class extends import_obsidian3.Modal {
   renderDescription(containerEl) {
     return __async(this, null, function* () {
       containerEl.createDiv({
-        text: "Thank you for using DataLoom! If you like the plugin, please consider supporting me by buying an herbal tea. With your sponsorship, I'll be able to continue to add features, fix bugs, and respond to issues on Github."
-      });
-      const badgeContainer = containerEl.createDiv({
-        cls: "dataloom-whats-new-modal__badge-container"
-      });
-      renderBuyMeACoffeeBadge(badgeContainer, 200);
-      containerEl.createDiv({
-        text: "DataLoom now has a Discord. Please join to get help, report bugs, and participate in the community."
-      });
-      containerEl.createDiv({
-        cls: "dataloom-whats-new-modal__spacer"
-      });
-      containerEl.createEl("a", {
-        text: "Join Discord",
-        href: "https://discord.gg/QaFbepMdN4"
+        text: "Thank you for using DataLoom! Here are the latest updates:"
       });
     });
   }
@@ -38641,7 +42164,9 @@ var DataLoomSettingsTab = class extends import_obsidian4.PluginSettingTab {
   }
   renderModalSettings(containerEl) {
     new import_obsidian5.Setting(containerEl).setName("Modal").setHeading();
-    new import_obsidian5.Setting(containerEl).setName("What's new modal").setDesc("Show the what's new modal when the plugin is updated.").addToggle((cb) => {
+    new import_obsidian5.Setting(containerEl).setName("Release notes").setDesc(
+      "Display release notes the first time a loom file is opened after the plugin is updated."
+    ).addToggle((cb) => {
       cb.setValue(this.plugin.settings.showWhatsNewModal).onChange(
         (value) => __async(this, null, function* () {
           this.plugin.settings.showWhatsNewModal = value;
@@ -38668,11 +42193,14 @@ var DataLoomSettingsTab = class extends import_obsidian4.PluginSettingTab {
 // src/obsidian/editing-view-plugin.tsx
 var import_view = require("@codemirror/view");
 
+// src/obsidian/embedded/embedded-app-manager.tsx
+var import_obsidian19 = require("obsidian");
+
 // src/data/constants.ts
 var DEFAULT_LOOM_NAME = "Untitled";
 var LOOM_EXTENSION = "loom";
 var EXTENSION_REGEX = new RegExp(/\.[a-z]*$/);
-var WIKI_LINK_REGEX = new RegExp(/\[\[([^|\]]+)(?:\|([\w-]+))?\]\]/g);
+var WIKI_LINK_REGEX = new RegExp(/\[\[([^|\]]+)(\|([\w-]*))?\]\]/g);
 
 // src/shared/conversion.ts
 var pxToNum = (value) => {
@@ -38680,12 +42208,6 @@ var pxToNum = (value) => {
 };
 var numToPx = (value) => {
   return `${value}px`;
-};
-var stringToCurrencyString = (value, type) => {
-  return new Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency: type
-  }).format(parseFloat(value));
 };
 
 // src/obsidian/embedded/embed-utils.ts
@@ -41247,8 +44769,11 @@ var ColumnNotFoundError = class extends Error {
   }
 };
 
-// src/shared/loom-state/migrate/migrate-state-4.ts
+// src/shared/markdown/constants.ts
 var CHECKBOX_MARKDOWN_UNCHECKED = "[ ]";
+var CHECKBOX_MARKDOWN_CHECKED = "[x]";
+
+// src/shared/loom-state/migrate/migrate-state-4.ts
 var MigrateState4 = class {
   migrate(prevState) {
     const { columns, bodyCells } = prevState.model;
@@ -41413,11 +44938,6 @@ var MigrateState8 = class {
 };
 
 // src/shared/loom-state/types/loom-state.ts
-var SourceType = /* @__PURE__ */ ((SourceType2) => {
-  SourceType2["FOLDER"] = "folder";
-  SourceType2["TAG"] = "tag";
-  return SourceType2;
-})(SourceType || {});
 var Color = /* @__PURE__ */ ((Color2) => {
   Color2["LIGHT_GRAY"] = "light gray";
   Color2["GRAY"] = "gray";
@@ -41442,32 +44962,32 @@ var PaddingSize2 = /* @__PURE__ */ ((PaddingSize5) => {
   PaddingSize5["XXXXL"] = "4xl";
   return PaddingSize5;
 })(PaddingSize2 || {});
-var CellType2 = /* @__PURE__ */ ((CellType6) => {
-  CellType6["SOURCE_FILE"] = "source-file";
-  CellType6["SOURCE"] = "source";
-  CellType6["TEXT"] = "text";
-  CellType6["EMBED"] = "embed";
-  CellType6["FILE"] = "file";
-  CellType6["NUMBER"] = "number";
-  CellType6["TAG"] = "tag";
-  CellType6["MULTI_TAG"] = "multi-tag";
-  CellType6["DATE"] = "date";
-  CellType6["CHECKBOX"] = "checkbox";
-  CellType6["CREATION_TIME"] = "creation-time";
-  CellType6["LAST_EDITED_TIME"] = "last-edited-time";
-  return CellType6;
+var CellType2 = /* @__PURE__ */ ((CellType7) => {
+  CellType7["SOURCE_FILE"] = "source-file";
+  CellType7["SOURCE"] = "source";
+  CellType7["TEXT"] = "text";
+  CellType7["EMBED"] = "embed";
+  CellType7["FILE"] = "file";
+  CellType7["NUMBER"] = "number";
+  CellType7["TAG"] = "tag";
+  CellType7["MULTI_TAG"] = "multi-tag";
+  CellType7["DATE"] = "date";
+  CellType7["CHECKBOX"] = "checkbox";
+  CellType7["CREATION_TIME"] = "creation-time";
+  CellType7["LAST_EDITED_TIME"] = "last-edited-time";
+  return CellType7;
 })(CellType2 || {});
-var DateFormat2 = /* @__PURE__ */ ((DateFormat11) => {
-  DateFormat11["MM_DD_YYYY"] = "mmddyyyy";
-  DateFormat11["DD_MM_YYYY"] = "ddmmyyyy";
-  DateFormat11["YYYY_MM_DD"] = "yyyymmdd";
-  return DateFormat11;
+var DateFormat2 = /* @__PURE__ */ ((DateFormat12) => {
+  DateFormat12["MM_DD_YYYY"] = "mmddyyyy";
+  DateFormat12["DD_MM_YYYY"] = "ddmmyyyy";
+  DateFormat12["YYYY_MM_DD"] = "yyyymmdd";
+  return DateFormat12;
 })(DateFormat2 || {});
-var DateFormatSeparator = /* @__PURE__ */ ((DateFormatSeparator11) => {
-  DateFormatSeparator11["HYPHEN"] = "-";
-  DateFormatSeparator11["SLASH"] = "/";
-  DateFormatSeparator11["DOT"] = ".";
-  return DateFormatSeparator11;
+var DateFormatSeparator = /* @__PURE__ */ ((DateFormatSeparator12) => {
+  DateFormatSeparator12["HYPHEN"] = "-";
+  DateFormatSeparator12["SLASH"] = "/";
+  DateFormatSeparator12["DOT"] = ".";
+  return DateFormatSeparator12;
 })(DateFormatSeparator || {});
 var CurrencyType2 = /* @__PURE__ */ ((CurrencyType11) => {
   CurrencyType11["ARGENTINA"] = "ARS";
@@ -41522,17 +45042,22 @@ var NumberCalculation = /* @__PURE__ */ ((NumberCalculation2) => {
   NumberCalculation2["RANGE"] = "range";
   return NumberCalculation2;
 })(NumberCalculation || {});
-var DateFilterOption = /* @__PURE__ */ ((DateFilterOption4) => {
-  DateFilterOption4["UNSELECTED"] = "unselected";
-  DateFilterOption4["TODAY"] = "today";
-  DateFilterOption4["TOMORROW"] = "tomorrow";
-  DateFilterOption4["YESTERDAY"] = "yesterday";
-  DateFilterOption4["ONE_WEEK_AGO"] = "one-week-ago";
-  DateFilterOption4["ONE_WEEK_FROM_NOW"] = "one-week-from-now";
-  DateFilterOption4["ONE_MONTH_AGO"] = "one-month-ago";
-  DateFilterOption4["ONE_MONTH_FROM_NOW"] = "one-month-from-now";
-  return DateFilterOption4;
+var DateFilterOption = /* @__PURE__ */ ((DateFilterOption5) => {
+  DateFilterOption5["UNSELECTED"] = "unselected";
+  DateFilterOption5["TODAY"] = "today";
+  DateFilterOption5["TOMORROW"] = "tomorrow";
+  DateFilterOption5["YESTERDAY"] = "yesterday";
+  DateFilterOption5["ONE_WEEK_AGO"] = "one-week-ago";
+  DateFilterOption5["ONE_WEEK_FROM_NOW"] = "one-week-from-now";
+  DateFilterOption5["ONE_MONTH_AGO"] = "one-month-ago";
+  DateFilterOption5["ONE_MONTH_FROM_NOW"] = "one-month-from-now";
+  return DateFilterOption5;
 })(DateFilterOption || {});
+var SourceType = /* @__PURE__ */ ((SourceType6) => {
+  SourceType6["FOLDER"] = "folder";
+  SourceType6["FRONTMATTER"] = "frontmatter";
+  return SourceType6;
+})(SourceType || {});
 
 // src/shared/loom-state/migrate/migrate-state-9.ts
 var import_lodash4 = __toESM(require_lodash());
@@ -41855,7 +45380,7 @@ var MigrateState13 = class {
         const {
           columnId,
           id: id2,
-          isExternalLink,
+          isExternalLink: isExternalLink2,
           dateTime,
           markdown,
           tagIds
@@ -41863,7 +45388,7 @@ var MigrateState13 = class {
         return {
           id: id2,
           columnId,
-          isExternalLink,
+          isExternalLink: isExternalLink2,
           dateTime,
           content: markdown,
           tagIds
@@ -42047,6 +45572,307 @@ var getDateFormatDisplay = (format) => {
       return "yyyymmdd" /* YYYY_MM_DD */;
     default:
       return format;
+  }
+};
+
+// src/shared/link-and-path/link-predicates.ts
+var isExternalLink = (link) => {
+  if (isUrlLink(link))
+    return true;
+  if (isObsidianLink(link))
+    return false;
+  return false;
+};
+var isRelativePath = (link) => {
+  return !isUrlLink(link);
+};
+var isUrlLink = (link) => {
+  if (isHttpLink(link))
+    return true;
+  if (isObsidianLink(link))
+    return true;
+  return false;
+};
+var isObsidianLink = (link) => {
+  return link.startsWith("obsidian://");
+};
+var isHttpLink = (link) => {
+  return link.startsWith("http://") || link.startsWith("https://");
+};
+
+// src/shared/link-and-path/markdown-link-utils.ts
+var extractWikiLinkComponents = (markdown) => {
+  if (!markdown.startsWith("[[") || !markdown.endsWith("]]")) {
+    return { path: null, alias: null };
+  }
+  const content = markdown.slice(2, -2);
+  if (content.length === 0) {
+    return { path: null, alias: null };
+  }
+  const parts = content.split("|");
+  if (parts[0] === "") {
+    return { path: null, alias: null };
+  }
+  const path = parts[0];
+  let alias = null;
+  if (parts.length > 1 && parts[1] !== "") {
+    alias = parts[1];
+  }
+  return { path, alias };
+};
+var componentsToWikiLink = (path, alias) => {
+  if (alias === null)
+    return `[[${path}]]`;
+  return `[[${path}|${alias}]]`;
+};
+
+// src/shared/loom-state/migrate/migrate-state-18.ts
+var MigrateState18 = class {
+  migrate(prevState) {
+    const { rows, columns, filters } = prevState.model;
+    const nextRows = rows.map((row) => {
+      const { cells } = row;
+      const nextCells = cells.map((cell) => {
+        const {
+          dateTime,
+          content,
+          id: id2,
+          columnId,
+          isExternalLink: isExternalLink2,
+          tagIds
+        } = cell;
+        const column = columns.find((column2) => column2.id === columnId);
+        if (!column) {
+          throw new ColumnNotFoundError({ id: columnId });
+        }
+        const { type } = column;
+        if (type === "text" /* TEXT */) {
+          const newCell = {
+            id: id2,
+            columnId,
+            content
+          };
+          return newCell;
+        } else if (type === "number" /* NUMBER */) {
+          const newCell = {
+            id: id2,
+            columnId,
+            value: Number(content)
+          };
+          return newCell;
+        } else if (type === "date" /* DATE */) {
+          const newCell = {
+            id: id2,
+            columnId,
+            dateTime
+          };
+          return newCell;
+        } else if (type === "checkbox" /* CHECKBOX */) {
+          const value = isCheckboxChecked(content) ? true : false;
+          const newCell = {
+            id: id2,
+            columnId,
+            value
+          };
+          return newCell;
+        } else if (type === "embed" /* EMBED */) {
+          const isUrl = isUrlLink(content);
+          let pathOrUrl = "";
+          let saveAlias = null;
+          if (isUrl) {
+            pathOrUrl = content;
+          } else {
+            const { path, alias } = extractWikiLinkComponents(content);
+            if (path !== null) {
+              pathOrUrl = path;
+              saveAlias = alias;
+            }
+          }
+          const newCell = {
+            id: id2,
+            columnId,
+            pathOrUrl,
+            alias: saveAlias,
+            isExternal: isExternalLink2
+          };
+          return newCell;
+        } else if (type === "file" /* FILE */) {
+          const { path, alias } = extractWikiLinkComponents(content);
+          const newCell = {
+            id: id2,
+            columnId,
+            path: path != null ? path : "",
+            alias
+          };
+          return newCell;
+        } else if (type === "tag" /* TAG */) {
+          const newCell = {
+            id: id2,
+            columnId,
+            tagId: tagIds.length > 0 ? tagIds[0] : null
+          };
+          return newCell;
+        } else if (type === "multi-tag" /* MULTI_TAG */) {
+          const newCell = {
+            id: id2,
+            columnId,
+            tagIds
+          };
+          return newCell;
+        } else if (type === "creation-time" /* CREATION_TIME */) {
+          const newCell = {
+            id: id2,
+            columnId
+          };
+          return newCell;
+        } else if (type === "last-edited-time" /* LAST_EDITED_TIME */) {
+          const newCell = {
+            id: id2,
+            columnId
+          };
+          return newCell;
+        } else if (type === "source" /* SOURCE */) {
+          const newCell = {
+            id: id2,
+            columnId
+          };
+          return newCell;
+        } else if (type === "source-file" /* SOURCE_FILE */) {
+          const { path } = extractWikiLinkComponents(content);
+          const newCell = {
+            id: id2,
+            columnId,
+            path: path != null ? path : ""
+          };
+          return newCell;
+        } else {
+          throw new Error("Unhandled cell type");
+        }
+      });
+      return __spreadProps(__spreadValues({}, row), {
+        cells: nextCells
+      });
+    });
+    const nextFilters = filters.map((filter3) => {
+      const { type } = filter3;
+      if (type === "checkbox" /* CHECKBOX */) {
+        const { text } = filter3;
+        return __spreadProps(__spreadValues({}, filter3), {
+          value: isCheckboxChecked(text) ? true : false
+        });
+      }
+      return filter3;
+    });
+    return __spreadProps(__spreadValues({}, prevState), {
+      model: __spreadProps(__spreadValues({}, prevState.model), {
+        rows: nextRows,
+        filters: nextFilters
+      })
+    });
+  }
+};
+var CHECKBOX_CHECKED_REGEX = new RegExp(/^\[[x]\]$/);
+var isCheckboxChecked = (value) => {
+  return value.match(CHECKBOX_CHECKED_REGEX) !== null;
+};
+
+// src/shared/loom-state/migrate/migrate-state-19.ts
+var MigrateState19 = class {
+  migrate(prevState) {
+    const { sources } = prevState.model;
+    const nextSources = sources.filter(
+      (source) => source.type !== "tag" /* TAG */
+    );
+    return __spreadProps(__spreadValues({}, prevState), {
+      model: __spreadProps(__spreadValues({}, prevState.model), {
+        sources: nextSources
+      })
+    });
+  }
+};
+
+// src/shared/frontmatter/types.ts
+var ObsidianPropertyType = /* @__PURE__ */ ((ObsidianPropertyType2) => {
+  ObsidianPropertyType2["TEXT"] = "text";
+  ObsidianPropertyType2["NUMBER"] = "number";
+  ObsidianPropertyType2["TAGS"] = "tags";
+  ObsidianPropertyType2["MULTITEXT"] = "multitext";
+  ObsidianPropertyType2["CHECKBOX"] = "checkbox";
+  ObsidianPropertyType2["ALIASES"] = "aliases";
+  ObsidianPropertyType2["DATETIME"] = "datetime";
+  ObsidianPropertyType2["DATE"] = "date";
+  return ObsidianPropertyType2;
+})(ObsidianPropertyType || {});
+
+// src/react/loom-app/option-bar/sources-menu/add-source-submenu/utils.ts
+var getFilterConditionsForPropertyType = (type) => {
+  switch (type) {
+    case "text" /* TEXT */:
+      return [
+        "is" /* IS */,
+        "is-not" /* IS_NOT */,
+        "starts-with" /* STARTS_WITH */,
+        "ends-with" /* ENDS_WITH */,
+        "contains" /* CONTAINS */,
+        "does-not-contain" /* DOES_NOT_CONTAIN */,
+        "is-empty" /* IS_EMPTY */,
+        "is-not-empty" /* IS_NOT_EMPTY */
+      ];
+    case "number" /* NUMBER */:
+      return [
+        "is-equal" /* IS_EQUAL */,
+        "is-not-equal" /* IS_NOT_EQUAL */,
+        "is-greater" /* IS_GREATER */,
+        "is-less" /* IS_LESS */,
+        "is-greater-or-equal" /* IS_GREATER_OR_EQUAL */,
+        "is-less-or-equal" /* IS_LESS_OR_EQUAL */,
+        "is-empty" /* IS_EMPTY */,
+        "is-not-empty" /* IS_NOT_EMPTY */
+      ];
+    case "date" /* DATE */:
+    case "datetime" /* DATETIME */:
+      return [
+        "is" /* IS */,
+        "is-before" /* IS_BEFORE */,
+        "is-after" /* IS_AFTER */,
+        "is-empty" /* IS_EMPTY */,
+        "is-not-empty" /* IS_NOT_EMPTY */
+      ];
+    case "aliases" /* ALIASES */:
+    case "tags" /* TAGS */:
+    case "multitext" /* MULTITEXT */:
+      return [
+        "contains" /* CONTAINS */,
+        "does-not-contain" /* DOES_NOT_CONTAIN */,
+        "is-empty" /* IS_EMPTY */,
+        "is-not-empty" /* IS_NOT_EMPTY */
+      ];
+    case "checkbox" /* CHECKBOX */:
+      return ["is" /* IS */, "is-not" /* IS_NOT */];
+    default:
+      return [];
+  }
+};
+
+// src/shared/loom-state/migrate/migrate-state-20.ts
+var MigrateState20 = class {
+  migrate(prevState) {
+    const { sources } = prevState.model;
+    const nextSources = sources.map((source) => {
+      const { type } = source;
+      if (type === "frontmatter" /* FRONTMATTER */) {
+        const { propertyType } = source;
+        return __spreadProps(__spreadValues({}, source), {
+          filterCondition: getFilterConditionsForPropertyType(propertyType)[0]
+        });
+      }
+      return source;
+    });
+    return __spreadProps(__spreadValues({}, prevState), {
+      model: __spreadProps(__spreadValues({}, prevState.model), {
+        sources: nextSources
+      })
+    });
   }
 };
 
@@ -42310,7 +46136,7 @@ var Tag = (0, import_runtypes.Record)({
   content: import_runtypes.String,
   color: ColorUnion
 });
-var Column3 = (0, import_runtypes.Record)({
+var Column = (0, import_runtypes.Record)({
   id: import_runtypes.String,
   sortDir: SortDirUnion,
   width: import_runtypes.String,
@@ -42333,22 +46159,64 @@ var Column3 = (0, import_runtypes.Record)({
   horizontalPadding: PaddingSizeUnion,
   verticalPadding: PaddingSizeUnion
 });
-var Cell = (0, import_runtypes.Record)({
+var BaseCell = (0, import_runtypes.Record)({
   id: import_runtypes.String,
-  columnId: import_runtypes.String,
+  columnId: import_runtypes.String
+});
+var TextCell2 = BaseCell.extend({
+  content: import_runtypes.String
+});
+var EmbedCell2 = BaseCell.extend({
+  content: import_runtypes.String
+});
+var FileCell2 = BaseCell.extend({
   isExternalLink: import_runtypes.Boolean,
-  dateTime: (0, import_runtypes.Union)(import_runtypes.String, (0, import_runtypes.Literal)(null)),
-  content: import_runtypes.String,
+  content: import_runtypes.String
+});
+var NumberCell2 = BaseCell.extend({
+  content: (0, import_runtypes.Union)(import_runtypes.Number, (0, import_runtypes.Literal)(null))
+});
+var TagCell2 = BaseCell.extend({
+  tagId: (0, import_runtypes.Union)(import_runtypes.String, (0, import_runtypes.Literal)(null))
+});
+var MultiTagCell2 = BaseCell.extend({
   tagIds: (0, import_runtypes.Array)(import_runtypes.String)
 });
-var Row2 = (0, import_runtypes.Record)({
+var DateCell2 = BaseCell.extend({
+  dateTime: (0, import_runtypes.Union)(import_runtypes.String, (0, import_runtypes.Literal)(null))
+});
+var CheckboxCell2 = BaseCell.extend({
+  content: import_runtypes.Boolean
+});
+var CreationTimeCell2 = BaseCell.extend({});
+var LastEditedTimeCell2 = BaseCell.extend({});
+var SourceFileCell2 = BaseCell.extend({});
+var SourceCell2 = BaseCell.extend({});
+var Cell = (0, import_runtypes.Union)(
+  TextCell2,
+  TagCell2,
+  MultiTagCell2,
+  CheckboxCell2,
+  FileCell2,
+  EmbedCell2,
+  NumberCell2,
+  DateCell2,
+  CreationTimeCell2,
+  LastEditedTimeCell2,
+  SourceCell2,
+  SourceFileCell2
+);
+var Row = (0, import_runtypes.Record)({
   id: import_runtypes.String,
   index: import_runtypes.Number,
   creationDateTime: import_runtypes.String,
   lastEditedDateTime: import_runtypes.String,
   cells: (0, import_runtypes.Array)(Cell)
 });
-var SourceUnion = (0, import_runtypes.Union)((0, import_runtypes.Literal)("folder" /* FOLDER */), (0, import_runtypes.Literal)("tag" /* TAG */));
+var SourceUnion = (0, import_runtypes.Union)(
+  (0, import_runtypes.Literal)("folder" /* FOLDER */),
+  (0, import_runtypes.Literal)("frontmatter" /* FRONTMATTER */)
+);
 var BaseSource = (0, import_runtypes.Record)({
   id: import_runtypes.String,
   type: SourceUnion
@@ -42358,11 +46226,28 @@ var ObsidianFolderSource = BaseSource.extend({
   path: import_runtypes.String,
   includeSubfolders: import_runtypes.Boolean
 });
-var ObsidianTagSource = BaseSource.extend({
-  type: (0, import_runtypes.Literal)("tag" /* TAG */),
-  name: import_runtypes.String
+var ObsidianPropertyTypeUnion = (0, import_runtypes.Union)(
+  (0, import_runtypes.Literal)("aliases" /* ALIASES */),
+  (0, import_runtypes.Literal)("checkbox" /* CHECKBOX */),
+  (0, import_runtypes.Literal)("date" /* DATE */),
+  (0, import_runtypes.Literal)("datetime" /* DATETIME */),
+  (0, import_runtypes.Literal)("number" /* NUMBER */),
+  (0, import_runtypes.Literal)("text" /* TEXT */),
+  (0, import_runtypes.Literal)("tags" /* TAGS */),
+  (0, import_runtypes.Literal)("multitext" /* MULTITEXT */)
+);
+var ObsidianFrontmatterSource = BaseSource.extend({
+  type: (0, import_runtypes.Literal)("frontmatter" /* FRONTMATTER */),
+  propertyType: ObsidianPropertyTypeUnion,
+  propertyKey: import_runtypes.String,
+  filterCondition: (0, import_runtypes.Union)(
+    TextFilterConditionUnion,
+    NumberFilterConditionUnion,
+    DateFilterConditionUnion
+  ),
+  filterText: import_runtypes.String
 });
-var Source2 = (0, import_runtypes.Union)(ObsidianFolderSource, ObsidianTagSource);
+var Source = (0, import_runtypes.Union)(ObsidianFolderSource, ObsidianFrontmatterSource);
 var TableSettings = (0, import_runtypes.Record)({
   numFrozenColumns: import_runtypes.Number,
   showCalculationRow: import_runtypes.Boolean
@@ -42373,11 +46258,11 @@ var SourceRowOrder = (0, import_runtypes.Record)({
   uniqueId: import_runtypes.String
 });
 var TableModel = (0, import_runtypes.Record)({
-  columns: (0, import_runtypes.Array)(Column3),
-  rows: (0, import_runtypes.Array)(Row2),
+  columns: (0, import_runtypes.Array)(Column),
+  rows: (0, import_runtypes.Array)(Row),
   filters: (0, import_runtypes.Array)(Filter2),
   settings: TableSettings,
-  sources: (0, import_runtypes.Array)(Source2),
+  sources: (0, import_runtypes.Array)(Source),
   externalRowOrder: (0, import_runtypes.Array)(SourceRowOrder)
 });
 var LoomStateObject = (0, import_runtypes.Record)({
@@ -42594,6 +46479,33 @@ var deserializeState = (data, pluginVersion) => {
       currentState = nextState;
       failedMigration = null;
     }
+    const VERSION_8_13_0 = "8.13.0";
+    if (isVersionLessThan(fileVersion, VERSION_8_13_0)) {
+      failedMigration = VERSION_8_13_0;
+      const nextState = new MigrateState18().migrate(
+        currentState
+      );
+      currentState = nextState;
+      failedMigration = null;
+    }
+    const VERSION_8_15_0 = "8.15.0";
+    if (isVersionLessThan(fileVersion, VERSION_8_15_0)) {
+      failedMigration = VERSION_8_15_0;
+      const nextState = new MigrateState19().migrate(
+        currentState
+      );
+      currentState = nextState;
+      failedMigration = null;
+    }
+    const VERSION_8_15_1 = "8.15.1";
+    if (isVersionLessThan(fileVersion, VERSION_8_15_1)) {
+      failedMigration = VERSION_8_15_1;
+      const nextState = new MigrateState20().migrate(
+        currentState
+      );
+      currentState = nextState;
+      failedMigration = null;
+    }
     LoomStateObject.check(currentState);
     const state = currentState;
     state.pluginVersion = pluginVersion;
@@ -42609,7 +46521,7 @@ var deserializeState = (data, pluginVersion) => {
 };
 
 // src/obsidian/embedded/embedded-app-manager.tsx
-var import_lodash22 = __toESM(require_lodash());
+var import_lodash16 = __toESM(require_lodash());
 
 // node_modules/react-redux/es/index.js
 var import_shim = __toESM(require_shim());
@@ -42999,105 +46911,12 @@ var CellNotFoundError = class extends Error {
   }
 };
 
-// src/shared/error/row-not-found-error.ts
-var RowNotFoundError = class extends Error {
-  constructor(id2) {
-    super(`Cannot find row with id: ${id2}`);
-    this.name = "RowNotFoundError";
-  }
-};
-
 // src/shared/error/tag-not-found-error.ts
 var TagNotFoundError = class extends Error {
   constructor(id2) {
     super(`Cannot find tag with id: ${id2}`);
     this.name = "TagNotFoundError";
   }
-};
-
-// src/shared/loom-state/commands/command-redo-error.ts
-var CommandRedoError = class extends Error {
-  constructor() {
-    super(`undo() must be called before redo() is available`);
-    this.name = "CommandRedoError";
-  }
-};
-
-// src/shared/loom-state/commands/command-undo-error.ts
-var CommandUndoError = class extends Error {
-  constructor() {
-    super(`execute() must be called before undo() is available`);
-    this.name = "CommandUndoError";
-  }
-};
-
-// src/shared/loom-state/commands/loom-state-command.ts
-var LoomStateCommand = class {
-  constructor(shouldSortRows, options) {
-    const { shouldSaveFrontmatter = true } = options != null ? options : {};
-    this.hasExecuteBeenCalled = false;
-    this.hasUndoBeenCalled = false;
-    this.shouldSortRows = shouldSortRows;
-    this.shouldSaveFrontmatter = shouldSaveFrontmatter;
-  }
-  onExecute() {
-    this.hasExecuteBeenCalled = true;
-  }
-  onUndo() {
-    if (!this.hasExecuteBeenCalled)
-      throw new CommandUndoError();
-    this.hasUndoBeenCalled = true;
-  }
-  onRedo() {
-    if (!this.hasUndoBeenCalled)
-      throw new CommandRedoError();
-    this.hasUndoBeenCalled = false;
-  }
-};
-var loom_state_command_default = LoomStateCommand;
-
-// src/shared/match/regex.ts
-var NUMBER_REGEX = new RegExp(/^-?\d+\.?\d*$/);
-var NUMBER_INPUT_REGEX = new RegExp(/(^$)|(^-$)|(^-?\d+\.?\d*$)/);
-var DATE_REGEX = new RegExp(/^\d{4}\/\d{2}\/\d{2}$/);
-var CHECKBOX_REGEX = new RegExp(/^\[[x ]{0,1}\]$/);
-var CHECKBOX_CHECKED_REGEX = new RegExp(/^\[[x]\]$/);
-var IMAGE_EXTENSION_REGEX = new RegExp(
-  /\.(jpe?g|png|gif|bmp|tiff?|ico|webp)$/i
-);
-var YOUTUBE_LINK_REGEX = new RegExp(
-  /^https?:\/\/(?:www\.)?(?:youtube\.com\/\S+|youtu\.be\/\S+)$/
-);
-var TWITTER_LINK_REGEX = new RegExp(
-  /^https?:\/\/(?:www\.)?twitter\.com\/\S+|\bt\.co\/\S+$/
-);
-
-// src/shared/match/index.ts
-var isNumber = (value) => {
-  return value.match(NUMBER_REGEX) !== null;
-};
-var isNumberInput = (value) => {
-  return value.match(NUMBER_INPUT_REGEX) !== null;
-};
-var isCheckbox = (value) => {
-  return value.match(CHECKBOX_REGEX) !== null;
-};
-var isCheckboxChecked = (value) => {
-  return value.match(CHECKBOX_CHECKED_REGEX) !== null;
-};
-var isImage = (value) => {
-  return value.match(IMAGE_EXTENSION_REGEX) !== null;
-};
-var isYouTubeLink = (value) => {
-  return value.match(YOUTUBE_LINK_REGEX) !== null;
-};
-var isTwitterLink = (value) => {
-  return value.match(TWITTER_LINK_REGEX) !== null;
-};
-var isNumberCalcuation = (value) => {
-  return Object.values(NumberCalculation).includes(
-    value
-  );
 };
 
 // src/shared/cell-content/source-cell-content.ts
@@ -43109,6 +46928,10 @@ var getSourceCellContent = (source) => {
     case "folder" /* FOLDER */: {
       const { path } = source;
       return path;
+    }
+    case "frontmatter" /* FRONTMATTER */: {
+      const { propertyKey } = source;
+      return propertyKey;
     }
     default:
       throw new Error("Source type not supported");
@@ -43153,7 +46976,7 @@ var sortByNumber = (a2, b2, sortDir) => {
   }
 };
 var sortByText = (a2, b2, sortDir, forceEmptyToBottom = true) => {
-  const result = forceEmptyCellsToBottom(a2, b2);
+  const result = forceEmptyTextCellsToBottom(a2, b2);
   if (result !== null) {
     if (forceEmptyToBottom) {
       return result;
@@ -43167,7 +46990,16 @@ var sortByText = (a2, b2, sortDir, forceEmptyToBottom = true) => {
     return 0;
   }
 };
-var forceEmptyCellsToBottom = (a2, b2) => {
+var forceEmptyNumberCellsToBottom = (a2, b2) => {
+  if (a2 === null && b2 !== null)
+    return 1;
+  if (a2 !== null && b2 === null)
+    return -1;
+  if (a2 === null && b2 === null)
+    return 0;
+  return null;
+};
+var forceEmptyTextCellsToBottom = (a2, b2) => {
   if (a2 === "" && b2 !== "")
     return 1;
   if (a2 !== "" && b2 === "")
@@ -43177,207 +47009,270 @@ var forceEmptyCellsToBottom = (a2, b2) => {
   return null;
 };
 
-// src/shared/loom-state/commands/row-sort-command.ts
-var RowSortCommand = class extends loom_state_command_default {
-  constructor() {
-    super(false);
-    this.previousRowSort = [];
-    this.multiSort = (sources, sortedColumns, rows) => {
-      const rowsCopy = [...rows];
-      rowsCopy.sort((a2, b2) => {
-        var _a2, _b;
-        for (const column of sortedColumns) {
-          const cellA = a2.cells.find(
-            (cell) => cell.columnId === column.id
-          );
-          if (!cellA)
-            throw new CellNotFoundError({
-              columnId: column.id,
-              rowId: a2.id
-            });
-          const cellB = b2.cells.find(
-            (cell) => cell.columnId === column.id
-          );
-          if (!cellB)
-            throw new CellNotFoundError({
-              columnId: column.id,
-              rowId: b2.id
-            });
-          const sourceA = (_a2 = sources.find((source) => source.id === a2.sourceId)) != null ? _a2 : null;
-          const sourceB = (_b = sources.find((source) => source.id === b2.sourceId)) != null ? _b : null;
-          const comparison = this.sortByColumn(
-            a2,
-            b2,
-            cellA,
-            cellB,
-            sourceA,
-            sourceB,
-            column
-          );
-          if (comparison !== 0) {
-            return comparison;
-          }
-        }
-        return 0;
-      });
-      return rowsCopy;
-    };
+// src/shared/link-and-path/constants.ts
+var MARKDOWN_EXTENSION = "md";
+
+// src/shared/link-and-path/file-path-utils.ts
+var getFileName = (path) => {
+  const split2 = path.split("/");
+  if (split2.length === 0)
+    return "";
+  const fileName = split2[split2.length - 1];
+  if (fileName.includes(".")) {
+    return fileName.substring(0, fileName.lastIndexOf("."));
   }
-  execute(prevState) {
-    super.onExecute();
-    const { columns, rows, sources } = prevState.model;
-    const sortedColumns = columns.filter(
-      (columns2) => columns2.sortDir !== "default" /* NONE */
-    );
-    this.previousRowSort = rows.map((row) => ({
-      id: row.id,
-      index: row.index
-    }));
-    let newRows = [...rows];
-    if (sortedColumns.length !== 0) {
-      newRows = this.multiSort(sources, sortedColumns, rows);
-    } else {
-      newRows = this.sortByIndex(rows);
-    }
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        rows: newRows
-      })
-    });
+  return fileName;
+};
+var getBasename = (filePath) => {
+  const fileName = stripDirectory(filePath);
+  return stripFileExtension(fileName);
+};
+var isMarkdownFile = (path) => {
+  return path.endsWith(`.${MARKDOWN_EXTENSION}`);
+};
+var stripFileExtension = (filePath) => {
+  return filePath.substring(0, filePath.lastIndexOf("."));
+};
+var stripDirectory = (filePath) => {
+  return filePath.substring(filePath.lastIndexOf("/") + 1);
+};
+
+// src/shared/loom-state/sort-rows.ts
+var sortRows = (prevState) => {
+  const { columns, rows, sources } = prevState.model;
+  const sortedColumns = columns.filter(
+    (columns2) => columns2.sortDir !== "default" /* NONE */
+  );
+  let newRows = [...rows];
+  if (sortedColumns.length !== 0) {
+    newRows = multiSort(sources, sortedColumns, rows);
+  } else {
+    newRows = sortByIndex(rows);
   }
-  undo(prevState) {
-    super.onUndo();
-    const { rows } = prevState.model;
-    const newRows = this.previousRowSort.map((prev) => {
-      const row = rows.find((row2) => row2.id === prev.id);
-      if (!row)
-        throw new RowNotFoundError(prev.id);
-      return __spreadProps(__spreadValues({}, row), {
-        index: prev.index
-      });
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        rows: newRows
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    return this.execute(prevState);
-  }
-  sortByIndex(rows) {
-    const rowsCopy = [...rows];
-    rowsCopy.sort((a2, b2) => {
-      return a2.index - b2.index;
-    });
-    return rowsCopy;
-  }
-  sortByColumn(rowA, rowB, cellA, cellB, sourceA, sourceB, column) {
-    const { type, sortDir, tags } = column;
-    if (type === "number" /* NUMBER */) {
-      return this.sortByNumberCell(cellA, cellB, sortDir);
-    } else if (type === "tag" /* TAG */ || type === "multi-tag" /* MULTI_TAG */) {
-      return this.sortByTag(cellA, cellB, tags, sortDir);
-    } else if (type === "date" /* DATE */) {
-      return this.sortByDateCell(cellA, cellB, sortDir);
-    } else if (type === "last-edited-time" /* LAST_EDITED_TIME */) {
-      return this.sortByLastEditedTimeCell(rowA, rowA, sortDir);
-    } else if (type === "creation-time" /* CREATION_TIME */) {
-      return this.sortByCreationTimeCell(rowB, rowB, sortDir);
-    } else if (type === "checkbox" /* CHECKBOX */) {
-      return this.sortByCheckboxCell(cellA, cellB, sortDir);
-    } else if (type === "source-file" /* SOURCE_FILE */) {
-      return this.sortBySourceFileCell(cellA, cellB, sortDir);
-    } else if (type === "source" /* SOURCE */) {
-      return this.sortBySourceCell(sourceA, sourceB, sortDir);
-    } else {
-      return this.sortByTextCell(cellA, cellB, sortDir);
-    }
-  }
-  sortBySourceCell(a2, b2, sortDir) {
-    const contentA = a2 ? getSourceCellContent(a2) : "";
-    const contentB = b2 ? getSourceCellContent(b2) : "";
-    return sortByText(contentA, contentB, sortDir, false);
-  }
-  sortBySourceFileCell(a2, b2, sortDir) {
-    const { content: contentA } = a2;
-    const { content: contentB } = b2;
-    return sortByText(contentA, contentB, sortDir, false);
-  }
-  sortByTextCell(a2, b2, sortDir) {
-    const { content: contentA } = a2;
-    const { content: contentB } = b2;
-    return sortByText(contentA, contentB, sortDir);
-  }
-  sortByNumberCell(a2, b2, sortDir) {
-    const { content: contentA } = a2;
-    const { content: contentB } = b2;
-    const result = forceEmptyCellsToBottom(contentA, contentB);
-    if (result !== null)
-      return result;
-    const numberA = parseFloat(contentA);
-    const numberB = parseFloat(contentB);
-    return sortByNumber(numberA, numberB, sortDir);
-  }
-  sortByTag(cellA, cellB, columnTags, sortDir) {
-    if (cellA.tagIds.length === 0 && cellB.tagIds.length > 0)
-      return 1;
-    if (cellA.tagIds.length > 0 && cellB.tagIds.length === 0)
-      return -1;
-    if (cellA.tagIds.length === 0 && cellB.tagIds.length === 0)
-      return 0;
-    let tagLength = cellA.tagIds.length;
-    if (cellB.tagIds.length > cellA.tagIds.length) {
-      tagLength = cellB.tagIds.length;
-    }
-    for (let i2 = 0; i2 < tagLength; i2++) {
-      const tagIdA = cellA.tagIds[i2];
-      if (tagIdA === void 0)
-        return -1;
-      const tagA = columnTags.find((t2) => t2.id === tagIdA);
-      if (!tagA)
-        throw new TagNotFoundError(tagIdA);
-      const tagIdB = cellB.tagIds[i2];
-      if (tagIdB === void 0)
-        return 1;
-      const tagB = columnTags.find((t2) => t2.id === tagIdB);
-      if (!tagB)
-        throw new TagNotFoundError(tagIdA);
-      if (sortDir === "asc" /* ASC */) {
-        const result = tagA.content.localeCompare(tagB.content);
-        if (result !== 0)
-          return result;
-      } else if (sortDir === "desc" /* DESC */) {
-        const result = tagB.content.localeCompare(tagA.content);
-        if (result !== 0)
-          return result;
+  const nextState = __spreadProps(__spreadValues({}, prevState), {
+    model: __spreadProps(__spreadValues({}, prevState.model), {
+      rows: newRows
+    })
+  });
+  return nextState;
+};
+var multiSort = (sources, sortedColumns, rows) => {
+  const rowsCopy = [...rows];
+  rowsCopy.sort((a2, b2) => {
+    var _a2, _b;
+    for (const column of sortedColumns) {
+      const cellA = a2.cells.find((cell) => cell.columnId === column.id);
+      if (!cellA)
+        throw new CellNotFoundError({
+          columnId: column.id,
+          rowId: a2.id
+        });
+      const cellB = b2.cells.find((cell) => cell.columnId === column.id);
+      if (!cellB)
+        throw new CellNotFoundError({
+          columnId: column.id,
+          rowId: b2.id
+        });
+      const sourceA = (_a2 = sources.find((source) => source.id === a2.sourceId)) != null ? _a2 : null;
+      const sourceB = (_b = sources.find((source) => source.id === b2.sourceId)) != null ? _b : null;
+      const comparison = sortByColumn(
+        a2,
+        b2,
+        cellA,
+        cellB,
+        sourceA,
+        sourceB,
+        column
+      );
+      if (comparison !== 0) {
+        return comparison;
       }
     }
     return 0;
+  });
+  return rowsCopy;
+};
+var sortByIndex = (rows) => {
+  const rowsCopy = [...rows];
+  rowsCopy.sort((a2, b2) => {
+    return a2.index - b2.index;
+  });
+  return rowsCopy;
+};
+var sortByColumn = (rowA, rowB, cellA, cellB, sourceA, sourceB, column) => {
+  const { type, sortDir, tags } = column;
+  if (type === "number" /* NUMBER */) {
+    return sortByNumberCell(
+      cellA,
+      cellB,
+      sortDir
+    );
+  } else if (type === "multi-tag" /* MULTI_TAG */) {
+    return sortByMultiTag(
+      cellA,
+      cellB,
+      tags,
+      sortDir
+    );
+  } else if (type === "tag" /* TAG */) {
+    return sortByTag(cellA, cellB, tags, sortDir);
+  } else if (type === "date" /* DATE */) {
+    return sortByDateCell(cellA, cellB, sortDir);
+  } else if (type === "last-edited-time" /* LAST_EDITED_TIME */) {
+    return sortByLastEditedTimeCell(rowA, rowA, sortDir);
+  } else if (type === "creation-time" /* CREATION_TIME */) {
+    return sortByCreationTimeCell(rowB, rowB, sortDir);
+  } else if (type === "checkbox" /* CHECKBOX */) {
+    return sortByCheckboxCell(
+      cellA,
+      cellB,
+      sortDir
+    );
+  } else if (type === "source-file" /* SOURCE_FILE */) {
+    return sortBySourceFileCell(
+      cellA,
+      cellB,
+      sortDir
+    );
+  } else if (type === "source" /* SOURCE */) {
+    return sortBySourceCell(sourceA, sourceB, sortDir);
+  } else if (type === "text" /* TEXT */) {
+    return sortByTextCell(cellA, cellB, sortDir);
+  } else if (type === "file" /* FILE */) {
+    return sortByFileCell(cellA, cellB, sortDir);
+  } else if (type === "embed" /* EMBED */) {
+    return sortByEmbedCell(cellA, cellB, sortDir);
+  } else {
+    throw new Error("Unhandled cell type");
   }
-  sortByCheckboxCell(a2, b2, sortDir) {
-    const { content: contentA } = a2;
-    const { content: contentB } = b2;
-    const isCheckedA = isCheckboxChecked(contentA);
-    const isCheckedB = isCheckboxChecked(contentB);
-    return sortByBoolean(isCheckedA, isCheckedB, sortDir);
+};
+var sortBySourceCell = (a2, b2, sortDir) => {
+  const contentA = a2 ? getSourceCellContent(a2) : "";
+  const contentB = b2 ? getSourceCellContent(b2) : "";
+  return sortByText(contentA, contentB, sortDir, false);
+};
+var sortBySourceFileCell = (a2, b2, sortDir) => {
+  const { path: pathA } = a2;
+  const { path: pathB } = b2;
+  const contentA = getFileName(pathA);
+  const contentB = getFileName(pathB);
+  return sortByText(contentA, contentB, sortDir, false);
+};
+var sortByTextCell = (a2, b2, sortDir) => {
+  const { content: contentA } = a2;
+  const { content: contentB } = b2;
+  return sortByText(contentA, contentB, sortDir);
+};
+var sortByFileCell = (a2, b2, sortDir) => {
+  const { path: pathA } = a2;
+  const { path: pathB } = b2;
+  const contentA = getFileName(pathA);
+  const contentB = getFileName(pathB);
+  return sortByText(contentA, contentB, sortDir);
+};
+var sortByEmbedCell = (a2, b2, sortDir) => {
+  const { pathOrUrl: pathOrUrlA } = a2;
+  const { pathOrUrl: pathOrUrlB } = b2;
+  let contentA = pathOrUrlA;
+  if (isRelativePath(pathOrUrlA)) {
+    contentA = getFileName(pathOrUrlA);
   }
-  sortByDateCell(a2, b2, sortDir) {
-    const dateTimeA = a2.dateTime ? new Date(a2.dateTime).getTime() : 0;
-    const dateTimeB = b2.dateTime ? new Date(b2.dateTime).getTime() : 0;
-    return sortByNumber(dateTimeA, dateTimeB, sortDir);
+  let contentB = pathOrUrlB;
+  if (isRelativePath(pathOrUrlB)) {
+    contentB = getFileName(pathOrUrlB);
   }
-  sortByCreationTimeCell(a2, b2, sortDir) {
-    const creationTimeA = new Date(a2.creationDateTime).getTime();
-    const creationTimeB = new Date(b2.creationDateTime).getTime();
-    return sortByNumber(creationTimeA, creationTimeB, sortDir);
+  return sortByText(contentA, contentB, sortDir);
+};
+var sortByNumberCell = (a2, b2, sortDir) => {
+  const { value: valueA } = a2;
+  const { value: valueB } = b2;
+  const result = forceEmptyNumberCellsToBottom(valueA, valueB);
+  if (result !== null) {
+    return result;
   }
-  sortByLastEditedTimeCell(a2, b2, sortDir) {
-    const creationTimeA = new Date(a2.lastEditedDateTime).getTime();
-    const creationTimeB = new Date(b2.lastEditedDateTime).getTime();
-    return sortByNumber(creationTimeA, creationTimeB, sortDir);
+  return sortByNumber(valueA, valueB, sortDir);
+};
+var sortByMultiTag = (cellA, cellB, columnTags, sortDir) => {
+  if (cellA.tagIds.length === 0 && cellB.tagIds.length > 0)
+    return 1;
+  if (cellA.tagIds.length > 0 && cellB.tagIds.length === 0)
+    return -1;
+  if (cellA.tagIds.length === 0 && cellB.tagIds.length === 0)
+    return 0;
+  let tagLength = cellA.tagIds.length;
+  if (cellB.tagIds.length > cellA.tagIds.length) {
+    tagLength = cellB.tagIds.length;
   }
+  for (let i2 = 0; i2 < tagLength; i2++) {
+    const tagIdA = cellA.tagIds[i2];
+    if (tagIdA === void 0)
+      return -1;
+    const tagA = columnTags.find((t2) => t2.id === tagIdA);
+    if (!tagA)
+      throw new TagNotFoundError(tagIdA);
+    const tagIdB = cellB.tagIds[i2];
+    if (tagIdB === void 0)
+      return 1;
+    const tagB = columnTags.find((t2) => t2.id === tagIdB);
+    if (!tagB)
+      throw new TagNotFoundError(tagIdA);
+    if (sortDir === "asc" /* ASC */) {
+      const result = tagA.content.localeCompare(tagB.content);
+      if (result !== 0)
+        return result;
+    } else if (sortDir === "desc" /* DESC */) {
+      const result = tagB.content.localeCompare(tagA.content);
+      if (result !== 0)
+        return result;
+    }
+  }
+  return 0;
+};
+var sortByTag = (cellA, cellB, columnTags, sortDir) => {
+  const { tagId: tagIdA } = cellA;
+  const { tagId: tagIdB } = cellB;
+  if (tagIdA === null && tagIdB !== null)
+    return 1;
+  if (tagIdA !== null && tagIdB == null)
+    return -1;
+  if (tagIdA === null && tagIdB === null)
+    return 0;
+  const tagA = columnTags.find((t2) => t2.id === tagIdA);
+  if (!tagA)
+    throw new TagNotFoundError(tagIdA);
+  const tagB = columnTags.find((t2) => t2.id === tagIdB);
+  if (!tagB)
+    throw new TagNotFoundError(tagIdB);
+  if (sortDir === "asc" /* ASC */) {
+    const result = tagA.content.localeCompare(tagB.content);
+    if (result !== 0)
+      return result;
+  } else if (sortDir === "desc" /* DESC */) {
+    const result = tagB.content.localeCompare(tagA.content);
+    if (result !== 0)
+      return result;
+  }
+  return 0;
+};
+var sortByCheckboxCell = (a2, b2, sortDir) => {
+  const { value: valueA } = a2;
+  const { value: valueB } = b2;
+  return sortByBoolean(valueA, valueB, sortDir);
+};
+var sortByDateCell = (a2, b2, sortDir) => {
+  const dateTimeA = a2.dateTime ? new Date(a2.dateTime).getTime() : 0;
+  const dateTimeB = b2.dateTime ? new Date(b2.dateTime).getTime() : 0;
+  return sortByNumber(dateTimeA, dateTimeB, sortDir);
+};
+var sortByCreationTimeCell = (a2, b2, sortDir) => {
+  const creationTimeA = new Date(a2.creationDateTime).getTime();
+  const creationTimeB = new Date(b2.creationDateTime).getTime();
+  return sortByNumber(creationTimeA, creationTimeB, sortDir);
+};
+var sortByLastEditedTimeCell = (a2, b2, sortDir) => {
+  const creationTimeA = new Date(a2.lastEditedDateTime).getTime();
+  const creationTimeB = new Date(b2.lastEditedDateTime).getTime();
+  return sortByNumber(creationTimeA, creationTimeB, sortDir);
 };
 
 // src/react/loom-app/app-mount-provider/index.tsx
@@ -43436,12 +47331,11 @@ var EventManager = class {
     );
   }
   emit(eventName, ...data) {
-    console.log("[EventManager] emiting event:", eventName);
     if (!this.eventListeners[eventName]) {
       return;
     }
     this.eventListeners[eventName].forEach((callback) => {
-      callback(data);
+      callback(...data);
     });
   }
 };
@@ -43517,7 +47411,7 @@ function LoomStateProvider({
         logger(command.constructor.name + ".undo");
         let newState = command.undo(loomState.state);
         if (command.shouldSortRows) {
-          newState = new RowSortCommand().execute(newState);
+          newState = sortRows(newState);
         }
         setLoomState({
           state: newState,
@@ -43538,7 +47432,7 @@ function LoomStateProvider({
         logger(command.constructor.name + ".redo");
         let newState = command.redo(loomState.state);
         if (command.shouldSortRows) {
-          newState = new RowSortCommand().execute(newState);
+          newState = sortRows(newState);
         }
         setLoomState({
           state: newState,
@@ -43562,7 +47456,7 @@ function LoomStateProvider({
       setPosition((prevState) => prevState + 1);
       let newState = command.execute(loomState.state);
       if (command.shouldSortRows) {
-        newState = new RowSortCommand().execute(newState);
+        newState = sortRows(newState);
       }
       setLoomState({
         state: newState,
@@ -43595,7 +47489,7 @@ function LoomStateProvider({
 }
 
 // src/react/loom-app/app/index.tsx
-var import_react65 = __toESM(require_react());
+var import_react64 = __toESM(require_react());
 
 // src/react/loom-app/table/index.tsx
 var import_react40 = __toESM(require_react());
@@ -47894,6 +51788,20 @@ function MenuProvider({ children }) {
   const [closeRequests, setCloseRequests] = import_react7.default.useState([]);
   const [focusedMenuTrigger, setFocusedMenuTrigger] = import_react7.default.useState(null);
   const logger = useLogger();
+  const clearMenuTriggerFocus = import_react7.default.useCallback(() => {
+    logger("MenuProvider clearMenuTriggerFocus");
+    setFocusedMenuTrigger(null);
+  }, [logger]);
+  import_react7.default.useEffect(() => {
+    EventManager.getInstance().on(
+      "clear-menu-trigger-focus",
+      clearMenuTriggerFocus
+    );
+    return () => EventManager.getInstance().off(
+      "clear-menu-trigger-focus",
+      clearMenuTriggerFocus
+    );
+  }, [clearMenuTriggerFocus]);
   function handleOpen(parentComponentId, level, triggerRef, options) {
     logger("MenuProvider handleOpenMenu");
     const { name, shouldRequestOnClose, shouldFocusTriggerOnClose } = options != null ? options : {};
@@ -47928,10 +51836,6 @@ function MenuProvider({ children }) {
     },
     [logger]
   );
-  function clearMenuTriggerFocus() {
-    logger("MenuProvider clearMenuTriggerFocus");
-    setFocusedMenuTrigger(null);
-  }
   const handleClose = import_react7.default.useCallback(
     (id2) => {
       logger("MenuProvider onClose");
@@ -48051,7 +51955,8 @@ function MenuProvider({ children }) {
         onRequestClose: handleRequestClose,
         onPositionUpdate: handlePositionUpdate,
         onCloseAll: handleCloseAll,
-        onCloseRequestClear: handleCloseRequestClear
+        onCloseRequestClear: handleCloseRequestClear,
+        onClearMenuTriggerFocus: clearMenuTriggerFocus
       },
       children
     }
@@ -48173,13 +52078,21 @@ var useMenu = (parentComponentId, options) => {
   };
 };
 var useMenuOperations = () => {
-  const { topMenu, canOpen, onCloseAll, onRequestClose, onClose } = useMenuContext();
+  const {
+    topMenu,
+    canOpen,
+    onCloseAll,
+    onRequestClose,
+    onClose,
+    onClearMenuTriggerFocus
+  } = useMenuContext();
   return {
     topMenu,
     canOpen,
     onCloseAll,
     onClose,
-    onRequestClose
+    onRequestClose,
+    onClearMenuTriggerFocus
   };
 };
 
@@ -48193,6 +52106,7 @@ var BaseMenu = import_react10.default.forwardRef(
     position,
     width = 0,
     height = 0,
+    minWidth = 0,
     maxHeight = 0,
     maxWidth = 0,
     children
@@ -48234,6 +52148,7 @@ var BaseMenu = import_react10.default.forwardRef(
             left: numToPx(position.left),
             width: width !== 0 ? numToPx(width) : "max-content",
             height: height !== 0 ? numToPx(height) : "max-content",
+            minWidth: minWidth !== 0 ? numToPx(minWidth) : void 0,
             maxWidth: maxWidth !== 0 ? numToPx(maxWidth) : void 0,
             maxHeight: maxHeight !== 0 ? numToPx(maxHeight) : void 0,
             overflowY: maxHeight !== 0 ? "scroll" : void 0,
@@ -48620,13 +52535,18 @@ var serializeFrontmatter = (app, state) => __async(void 0, null, function* () {
     );
     if (!sourceFileCell)
       throw new Error("Source file cell not found");
-    const file = app.vault.getAbstractFileByPath(sourceFileCell.content);
+    const file = app.vault.getAbstractFileByPath(sourceFileCell.path);
     if (!file)
       throw new Error("Source file not found");
     if (!(file instanceof import_obsidian7.TFile))
       throw new Error("Expected TFile");
     for (const column of columns) {
-      const { type, frontmatterKey, tags, includeTime } = column;
+      const {
+        type,
+        frontmatterKey,
+        tags: columnTags,
+        includeTime
+      } = column;
       if (type === "source" /* SOURCE */)
         continue;
       if (type === "source-file" /* SOURCE_FILE */)
@@ -48639,32 +52559,52 @@ var serializeFrontmatter = (app, state) => __async(void 0, null, function* () {
           columnId: column.id,
           rowId: row.id
         });
-      const { tagIds } = cell;
-      let content = null;
-      if (type === "tag" /* TAG */ || type === "multi-tag" /* MULTI_TAG */) {
-        const cellTags = tags.filter((tag) => tagIds.includes(tag.id));
-        const cellTagContent = cellTags.map((tag) => tag.content);
-        if (type === "multi-tag" /* MULTI_TAG */) {
-          content = cellTagContent;
-        } else {
-          content = cellTagContent[0];
+      let saveValue = null;
+      if (type === "text" /* TEXT */) {
+        const { content } = cell;
+        saveValue = content;
+      } else if (type === "embed" /* EMBED */) {
+        const { pathOrUrl } = cell;
+        saveValue = pathOrUrl;
+      } else if (type === "file" /* FILE */) {
+        const { path } = cell;
+        saveValue = path;
+      } else if (type === "number" /* NUMBER */) {
+        const { value } = cell;
+        saveValue = value;
+      } else if (type === "checkbox" /* CHECKBOX */) {
+        const { value } = cell;
+        saveValue = value;
+      } else if (type === "tag" /* TAG */) {
+        const { tagId } = cell;
+        if (tagId) {
+          const tag = columnTags.find((tag2) => tag2.id === tagId);
+          if (!tag)
+            throw new TagNotFoundError(tagId);
+          saveValue = tag.content;
         }
+      } else if (type === "multi-tag" /* MULTI_TAG */) {
+        const { tagIds } = cell;
+        const cellTags = columnTags.filter(
+          (tag) => tagIds.includes(tag.id)
+        );
+        const cellTagContent = cellTags.map((tag) => tag.content);
+        saveValue = cellTagContent;
       } else if (type === "date" /* DATE */) {
-        if (cell.dateTime) {
-          content = dateTimeToObsidianDateTime(
-            cell.dateTime,
+        const { dateTime } = cell;
+        if (dateTime) {
+          saveValue = dateTimeToObsidianDateTime(
+            dateTime,
             includeTime
           );
         }
-      } else {
-        content = cell.content;
       }
       yield app.fileManager.processFrontMatter(file, (frontmatter) => {
         if (!frontmatter[frontmatterKey]) {
-          if (!content)
+          if (!saveValue)
             return;
         }
-        frontmatter[frontmatterKey] = content;
+        frontmatter[frontmatterKey] = saveValue;
       });
       if (type === "date" /* DATE */) {
         yield updateObsidianPropertyType(
@@ -48692,7 +52632,12 @@ var DataLoomView = class extends import_obsidian8.TextFileView {
       const serialized = serializeState(state);
       this.setViewData(serialized, false);
       this.requestSave();
-      this.app.workspace.trigger("app-refresh", this.file.path, appId, state);
+      EventManager.getInstance().emit(
+        "app-refresh",
+        this.file.path,
+        appId,
+        state
+      );
     });
     this.pluginId = pluginId;
     this.pluginVersion = pluginVersion;
@@ -48876,7 +52821,7 @@ var renderMarkdown = (app, leaf, markdown) => __async(void 0, null, function* ()
 });
 var useRenderMarkdown = (markdown, options) => {
   const { app } = useAppMount();
-  const { isEmbed = false, isExternalLink = false } = options != null ? options : {};
+  const { isEmbed = false, isExternalLink: isExternalLink2 = false } = options != null ? options : {};
   const containerRef = import_react11.default.useRef(null);
   const renderRef = import_react11.default.useRef(null);
   const { mountLeaf } = useAppMount();
@@ -48897,7 +52842,7 @@ var useRenderMarkdown = (markdown, options) => {
       });
     }
     updateContainerRef();
-  }, [app, markdown, mountLeaf, isExternalLink, isEmbed]);
+  }, [app, markdown, mountLeaf, isExternalLink2, isEmbed]);
   return {
     containerRef,
     renderRef
@@ -49018,6 +52963,7 @@ function Menu({
   hideBorder = false,
   openDirection,
   position,
+  minWidth = 0,
   width = 0,
   height = 0,
   leftOffset = 0,
@@ -49043,6 +52989,7 @@ function Menu({
       position,
       width,
       height,
+      minWidth,
       maxHeight,
       maxWidth,
       children
@@ -49099,6 +53046,7 @@ function Icon({
 // src/react/shared/flex/index.tsx
 var import_jsx_runtime14 = __toESM(require_jsx_runtime());
 function Flex({
+  grow = false,
   flexDir = "row",
   justify = "flex-start",
   align = "flex-start",
@@ -49112,6 +53060,7 @@ function Flex({
     {
       className: "dataloom-flex",
       style: {
+        flexGrow: grow ? 1 : 0,
         flexDirection: flexDir,
         justifyContent: justify,
         alignItems: align,
@@ -49187,6 +53136,41 @@ function MenuItem({
     }
   );
 }
+
+// src/shared/match/regex.ts
+var NUMBER_REGEX = new RegExp(/^-?\d+\.?\d*$/);
+var NUMBER_INPUT_REGEX = new RegExp(/(^$)|(^-$)|(^-?\d+\.?\d*$)/);
+var DATE_REGEX = new RegExp(/^\d{4}\/\d{2}\/\d{2}$/);
+var CHECKBOX_REGEX = new RegExp(/^\[[x ]{0,1}\]$/);
+var CHECKBOX_CHECKED_REGEX2 = new RegExp(/^\[[x]\]$/);
+var IMAGE_EXTENSION_REGEX = new RegExp(
+  /\.(jpe?g|png|gif|bmp|tiff?|ico|webp)$/i
+);
+var YOUTUBE_LINK_REGEX = new RegExp(
+  /^https?:\/\/(?:www\.)?(?:youtube\.com\/\S+|youtu\.be\/\S+)$/
+);
+var TWITTER_LINK_REGEX = new RegExp(
+  /^https?:\/\/(?:www\.)?twitter\.com\/\S+|\bt\.co\/\S+$/
+);
+
+// src/shared/match/index.ts
+var isNumber = (value) => {
+  return value.match(NUMBER_REGEX) !== null;
+};
+var isNumberInput = (value) => {
+  return value.match(NUMBER_INPUT_REGEX) !== null;
+};
+var isYouTubeLink = (value) => {
+  return value.match(YOUTUBE_LINK_REGEX) !== null;
+};
+var isTwitterLink = (value) => {
+  return value.match(TWITTER_LINK_REGEX) !== null;
+};
+var isNumberCalcuation = (value) => {
+  return Object.values(NumberCalculation).includes(
+    value
+  );
+};
 
 // src/shared/loom-state/type-display-names.ts
 var getShortDisplayNameForCalculation = (value) => {
@@ -49298,8 +53282,8 @@ var getDisplayNameForSource = (type) => {
   switch (type) {
     case "folder" /* FOLDER */:
       return "Folder";
-    case "tag" /* TAG */:
-      return "Tag";
+    case "frontmatter" /* FRONTMATTER */:
+      return "Frontmatter";
     default:
       return "";
   }
@@ -49564,6 +53548,7 @@ var MenuTrigger = import_react16.default.forwardRef(
           return;
         onRequestClose(topMenu == null ? void 0 : topMenu.id, "close-on-save");
       } else if (e.key === "Backspace") {
+        e.stopPropagation();
         onBackspaceDown == null ? void 0 : onBackspaceDown();
       } else if (e.key.length === 1) {
         if (isWindowsRedoDown(e) || isWindowsUndoDown(e) || isMacRedoDown(e) || isMacUndoDown(e))
@@ -49588,7 +53573,7 @@ var MenuTrigger = import_react16.default.forwardRef(
       }
       if (!topMenu)
         return;
-      onRequestClose(topMenu.id, "close-on-save");
+      onRequestClose(topMenu.id, "save-and-close");
     }
     let className = "dataloom-menu-trigger dataloom-focusable";
     if (isFocused) {
@@ -49626,6 +53611,14 @@ var round2Digits = (value) => {
   if (value.toString().includes("."))
     return parseFloat(value.toFixed(2));
   return value;
+};
+
+// src/shared/error/row-not-found-error.ts
+var RowNotFoundError = class extends Error {
+  constructor(id2) {
+    super(`Cannot find row with id: ${id2}`);
+    this.name = "RowNotFoundError";
+  }
 };
 
 // src/shared/date/date-time-conversion.ts
@@ -49683,6 +53676,17 @@ var getColumnCells = (rows, columnId) => {
       throw new RowNotFoundError(row.id);
     return cell;
   });
+};
+var mapCellsToColumn = (columns, rows) => {
+  const cellsToColumn = /* @__PURE__ */ new Map();
+  const cells = rows.flatMap((row) => row.cells);
+  cells.forEach((cell) => {
+    const column = columns.find((column2) => column2.id === cell.columnId);
+    if (!column)
+      throw new ColumnNotFoundError({ id: cell.columnId });
+    cellsToColumn.set(cell.columnId, column);
+  });
+  return cellsToColumn;
 };
 
 // src/react/loom-app/footer-cell-container/general-calculation.ts
@@ -49785,84 +53789,194 @@ var percentNotEmpty = (columnCells, cellType) => {
   return round2Digits(percent) + "%";
 };
 var getCellValues = (cell, type, dateFormat, dateFormatSeparator, row, source, columnTags) => {
-  const { content, dateTime, tagIds } = cell;
   const { creationDateTime, lastEditedDateTime } = row;
-  if (type === "text" /* TEXT */ || type === "embed" /* EMBED */ || type === "number" /* NUMBER */ || type === "checkbox" /* CHECKBOX */ || type === "file" /* FILE */ || type === "source-file" /* SOURCE_FILE */) {
-    return [content];
-  } else if (type === "date" /* DATE */) {
-    if (dateTime)
-      return [dateTime.toString()];
-    return [];
-  } else if (type === "tag" /* TAG */ || type === "multi-tag" /* MULTI_TAG */) {
-    return tagIds.map((tagId) => {
-      const tag = columnTags.find((tag2) => tag2.id === tagId);
-      if (!tag)
-        throw new TagNotFoundError(tagId);
-      const { content: content2 } = tag;
-      return content2;
-    });
-  } else if (type === "last-edited-time" /* LAST_EDITED_TIME */) {
-    return [
-      dateTimeToDateString(
-        lastEditedDateTime,
-        dateFormat,
-        dateFormatSeparator,
-        {
-          includeTime: true
-        }
-      )
-    ];
-  } else if (type === "creation-time" /* CREATION_TIME */) {
-    return [
-      dateTimeToDateString(
-        creationDateTime,
-        dateFormat,
-        dateFormatSeparator,
-        {
-          includeTime: true
-        }
-      )
-    ];
-  } else if (type === "source" /* SOURCE */) {
-    return [getSourceCellContent(source)];
-  } else {
-    throw new Error("Unhandled cell type");
+  switch (type) {
+    case "text" /* TEXT */: {
+      const { content } = cell;
+      return [content];
+    }
+    case "embed" /* EMBED */: {
+      const { pathOrUrl } = cell;
+      return [pathOrUrl];
+    }
+    case "number" /* NUMBER */: {
+      const { value } = cell;
+      if (value)
+        return [value.toString()];
+      return [];
+    }
+    case "file" /* FILE */: {
+      const { path } = cell;
+      const fileName = getFileName(path);
+      return [fileName];
+    }
+    case "source-file" /* SOURCE_FILE */: {
+      const { path } = cell;
+      const fileName = getFileName(path);
+      return [fileName];
+    }
+    case "checkbox" /* CHECKBOX */: {
+      const { value } = cell;
+      return [value ? "true" : "false"];
+    }
+    case "date" /* DATE */: {
+      const { dateTime } = cell;
+      if (dateTime)
+        return [dateTime.toString()];
+      return [];
+    }
+    case "tag" /* TAG */: {
+      const { tagId } = cell;
+      if (tagId) {
+        const tag = columnTags.find((tag2) => tag2.id === tagId);
+        if (!tag)
+          throw new TagNotFoundError(tagId);
+        const { content } = tag;
+        return [content];
+      }
+      return [];
+    }
+    case "multi-tag" /* MULTI_TAG */: {
+      const { tagIds } = cell;
+      return tagIds.map((tagId) => {
+        const tag = columnTags.find((tag2) => tag2.id === tagId);
+        if (!tag)
+          throw new TagNotFoundError(tagId);
+        const { content } = tag;
+        return content;
+      });
+    }
+    case "last-edited-time" /* LAST_EDITED_TIME */: {
+      return [
+        dateTimeToDateString(
+          lastEditedDateTime,
+          dateFormat,
+          dateFormatSeparator,
+          {
+            includeTime: true
+          }
+        )
+      ];
+    }
+    case "creation-time" /* CREATION_TIME */: {
+      return [
+        dateTimeToDateString(
+          creationDateTime,
+          dateFormat,
+          dateFormatSeparator,
+          {
+            includeTime: true
+          }
+        )
+      ];
+    }
+    case "source" /* SOURCE */: {
+      return [getSourceCellContent(source)];
+    }
+    default:
+      throw new Error("Unhandled cell type");
   }
 };
 var countCellValues = (cell, type) => {
-  const { content, dateTime, tagIds } = cell;
-  if (type === "text" /* TEXT */ || type === "embed" /* EMBED */ || type === "number" /* NUMBER */ || type === "file" /* FILE */ || type === "source-file" /* SOURCE_FILE */) {
-    return content === "" ? 0 : 1;
-  } else if (type === "date" /* DATE */) {
-    return dateTime == null ? 0 : 1;
-  } else if (type === "tag" /* TAG */ || type === "multi-tag" /* MULTI_TAG */) {
-    return tagIds.length;
-  } else if (type === "checkbox" /* CHECKBOX */) {
-    return isCheckboxChecked(content) ? 1 : 0;
-  } else if (type === "last-edited-time" /* LAST_EDITED_TIME */ || type === "creation-time" /* CREATION_TIME */) {
-    return 1;
-  } else if (type === "source" /* SOURCE */) {
-    return 1;
-  } else {
-    throw new Error("Unhandled cell type");
+  switch (type) {
+    case "text" /* TEXT */: {
+      const { content } = cell;
+      return content === "" ? 0 : 1;
+    }
+    case "embed" /* EMBED */: {
+      const { pathOrUrl } = cell;
+      return pathOrUrl === "" ? 0 : 1;
+    }
+    case "number" /* NUMBER */: {
+      const { value } = cell;
+      return value === null ? 0 : 1;
+    }
+    case "file" /* FILE */: {
+      const { path } = cell;
+      return path === "" ? 0 : 1;
+    }
+    case "source-file" /* SOURCE_FILE */: {
+      const { path } = cell;
+      return path === "" ? 0 : 1;
+    }
+    case "checkbox" /* CHECKBOX */: {
+      const { value } = cell;
+      return value ? 1 : 0;
+    }
+    case "date" /* DATE */: {
+      const { dateTime } = cell;
+      return dateTime == null ? 0 : 1;
+    }
+    case "tag" /* TAG */: {
+      const { tagId } = cell;
+      return tagId === null ? 0 : 1;
+    }
+    case "multi-tag" /* MULTI_TAG */: {
+      const { tagIds } = cell;
+      return tagIds.length;
+    }
+    case "last-edited-time" /* LAST_EDITED_TIME */: {
+      return 1;
+    }
+    case "creation-time" /* CREATION_TIME */: {
+      return 1;
+    }
+    case "source" /* SOURCE */: {
+      return 1;
+    }
+    default:
+      throw new Error("Unhandled cell type");
   }
 };
 var isCellEmpty = (cell, type) => {
-  const { content, dateTime, tagIds } = cell;
-  if (type === "text" /* TEXT */ || type === "embed" /* EMBED */ || type === "number" /* NUMBER */ || type === "file" /* FILE */ || type === "source-file" /* SOURCE_FILE */) {
-    return content === "";
-  } else if (type === "date" /* DATE */) {
-    return dateTime == null;
-  } else if (type === "tag" /* TAG */ || type === "multi-tag" /* MULTI_TAG */) {
-    return tagIds.length === 0;
-  } else if (type === "checkbox" /* CHECKBOX */) {
-    return !isCheckboxChecked(content);
-  } else if (type === "last-edited-time" /* LAST_EDITED_TIME */ || type === "creation-time" /* CREATION_TIME */) {
-    return true;
-  } else if (type === "source" /* SOURCE */) {
-    return false;
-  } else {
-    throw new Error("Unhandled cell type");
+  switch (type) {
+    case "text" /* TEXT */: {
+      const { content } = cell;
+      return content === "";
+    }
+    case "embed" /* EMBED */: {
+      const { pathOrUrl } = cell;
+      return pathOrUrl === "";
+    }
+    case "number" /* NUMBER */: {
+      const { value } = cell;
+      return value === null;
+    }
+    case "file" /* FILE */: {
+      const { path } = cell;
+      return path === "";
+    }
+    case "source-file" /* SOURCE_FILE */: {
+      const { path } = cell;
+      return path === "";
+    }
+    case "date" /* DATE */: {
+      const { dateTime } = cell;
+      return dateTime == null;
+    }
+    case "tag" /* TAG */: {
+      const { tagId } = cell;
+      return tagId === null;
+    }
+    case "multi-tag" /* MULTI_TAG */: {
+      const { tagIds } = cell;
+      return tagIds.length === 0;
+    }
+    case "checkbox" /* CHECKBOX */: {
+      const { value } = cell;
+      return value === false;
+    }
+    case "source" /* SOURCE */: {
+      return false;
+    }
+    case "last-edited-time" /* LAST_EDITED_TIME */: {
+      return true;
+    }
+    case "creation-time" /* CREATION_TIME */: {
+      return true;
+    }
+    default:
+      throw new Error("Unhandled cell type");
   }
 };
 
@@ -49901,35 +54015,46 @@ var addThousandsSeparator = (num, separator) => {
 // src/shared/cell-content/number-cell-content.ts
 var getNumberCellContent = (format, value, options) => {
   const { currency, separator, suffix, prefix: prefix2 } = options != null ? options : {};
-  if (!isNumber(value)) {
+  if (value === null) {
     return "";
   }
+  let formattedValue = value.toString();
   if (format === "currency" /* CURRENCY */) {
-    if (currency === void 0) {
-      throw new Error("currency is required when format is currency");
+    if (!currency) {
+      throw new Error(
+        "a currency is required when number format is set to currency"
+      );
     }
-    return stringToCurrencyString(value, currency);
+    return toCurrencyString(value, currency);
   }
-  if (separator && value.length > 0)
-    value = addThousandsSeparator(value, separator);
-  if (prefix2 && value.length > 0)
-    value = `${prefix2} ${value}`;
-  if (suffix && value.length > 0)
-    value = `${value} ${suffix}`;
-  return value;
+  if (separator && formattedValue.length > 0)
+    formattedValue = addThousandsSeparator(formattedValue, separator);
+  if (prefix2 && formattedValue.length > 0)
+    formattedValue = `${prefix2} ${value}`;
+  if (suffix && formattedValue.length > 0)
+    formattedValue = `${value} ${suffix}`;
+  return formattedValue;
+};
+var toCurrencyString = (value, type) => {
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: type
+  }).format(value);
 };
 
 // src/react/loom-app/footer-cell-container/number-calculation.ts
 var getNumberCalculationContent = (values, format, currency, calculation) => {
-  const value = getNumberCalculation(values, calculation).toString();
+  const value = getNumberCalculation(values, calculation);
   if (format === "currency" /* CURRENCY */) {
     return getNumberCellContent(format, value, {
       currency
     });
   }
-  return value;
+  return value.toString();
 };
 var getNumberCalculation = (values, type) => {
+  if (values.length === 0)
+    return 0;
   if (type === "avg" /* AVG */) {
     return round2Digits(getAverage(values));
   } else if (type === "max" /* MAX */) {
@@ -49976,14 +54101,13 @@ function FooterCellContainer({
   }
   let content = "";
   if (isNumberCalcuation(calculationType)) {
-    const cellValues = columnCells.filter((cell) => isNumber(cell.content)).map((cell) => parseFloat(cell.content));
-    if (cellValues.length !== 0)
-      content = getNumberCalculationContent(
-        cellValues,
-        numberFormat,
-        currencyType,
-        calculationType
-      );
+    const values = columnCells.map((cell) => cell.value).filter((value) => value !== null);
+    content = getNumberCalculationContent(
+      values,
+      numberFormat,
+      currencyType,
+      calculationType
+    );
   } else {
     content = getGeneralCalculationContent(
       columnId,
@@ -50096,8 +54220,6 @@ var useColumnResize = (columnId, onMove) => {
 
 // src/shared/constants.ts
 var MIN_COLUMN_WIDTH = 40;
-var CHECKBOX_MARKDOWN_CHECKED = "[x]";
-var CHECKBOX_MARKDOWN_UNCHECKED2 = "[ ]";
 
 // src/react/loom-app/header-cell-container/column-resize/index.tsx
 var import_jsx_runtime19 = __toESM(require_jsx_runtime());
@@ -50185,7 +54307,7 @@ function Button({
   variant = "text",
   isFullWidth,
   isFocusable = true,
-  isSmall,
+  size = "md",
   invertFocusColor,
   children,
   ariaLabel = "",
@@ -50215,8 +54337,12 @@ function Button({
     className += " dataloom-button--link";
   else if (variant == "text")
     className += " dataloom-button--text";
-  if (isSmall)
-    className += " dataloom-button--small";
+  if (size == "sm")
+    className += " dataloom-button--sm";
+  else if (size == "md")
+    className += " dataloom-button--md";
+  else if (size == "lg")
+    className += " dataloom-button--lg";
   if (isFullWidth)
     className += " dataloom-button--full-width";
   return /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(
@@ -50382,15 +54508,33 @@ function OptionSubmenu({
 }
 
 // src/react/shared/icon/utils.tsx
-var getIconIdForSourceType = (type) => {
-  switch (type) {
-    case "folder" /* FOLDER */:
-      return "folder";
-    case "tag" /* TAG */:
-      return "tag";
-    default:
-      return "";
+var getIconIdForSourceType = (type, options) => {
+  const { propertyType } = options != null ? options : {};
+  if (type === "folder" /* FOLDER */) {
+    return "folder";
+  } else if (type === "frontmatter" /* FRONTMATTER */) {
+    switch (propertyType) {
+      case "text" /* TEXT */:
+        return "text";
+      case "aliases" /* ALIASES */:
+        return "corner-up-right";
+      case "tags" /* TAGS */:
+        return "tags";
+      case "multitext" /* MULTITEXT */:
+        return "list";
+      case "date" /* DATE */:
+        return "calendar";
+      case "datetime" /* DATETIME */:
+        return "clock";
+      case "checkbox" /* CHECKBOX */:
+        return "check-square";
+      case "number" /* NUMBER */:
+        return "hash";
+      default:
+        throw new Error(`Property type not handled: ${propertyType}`);
+    }
   }
+  return "";
 };
 var getIconIdForCellType = (type) => {
   switch (type) {
@@ -50492,18 +54636,26 @@ var Input = import_react18.default.forwardRef(
     isDisabled = false,
     focusOutline = "accent",
     placeholder,
-    inputMode,
+    isNumeric,
     onChange,
     onKeyDown,
     onBlur
   }, ref) => {
+    function handleChange(e) {
+      const inputValue = e.target.value;
+      if (isNumeric) {
+        if (!isNumberInput(inputValue))
+          return;
+      }
+      onChange(inputValue);
+    }
     let className = "dataloom-input dataloom-focusable";
     if (isTransparent) {
       className += " dataloom-input--transparent";
     } else if (showBorder) {
       className += " dataloom-input--border";
     }
-    if (inputMode === "numeric")
+    if (isNumeric)
       className += " dataloom-input--numeric";
     if (focusOutline === "default") {
       className += " dataloom-input__focus-outline--default";
@@ -50521,10 +54673,10 @@ var Input = import_react18.default.forwardRef(
         placeholder,
         disabled: isDisabled,
         type: "text",
-        inputMode,
+        inputMode: isNumeric ? "numeric" : void 0,
         autoFocus,
         value,
-        onChange: (e) => onChange(e.target.value),
+        onChange: handleChange,
         onKeyDown,
         onBlur
       }
@@ -51054,9 +55206,7 @@ function HeaderMenu({
         shouldSaveFrontmatter: false
       }
     );
-    if (frontmatterKey2 !== null) {
-      onClose();
-    }
+    onClose();
   }
   return /* @__PURE__ */ (0, import_jsx_runtime35.jsx)(Menu, { isOpen, id: id2, position, width: 190, children: /* @__PURE__ */ (0, import_jsx_runtime35.jsxs)("div", { className: "dataloom-header-menu", children: [
     submenu === null && /* @__PURE__ */ (0, import_jsx_runtime35.jsx)(
@@ -51603,7 +55753,7 @@ function BodyCell({
   rowId,
   index,
   numFrozenColumns,
-  content
+  contentNode
 }) {
   const ref = import_react26.default.useRef(null);
   const leftOffset = useStickyOffset(ref, numFrozenColumns, index);
@@ -51618,7 +55768,7 @@ function BodyCell({
       ref,
       "data-row-id": index === 0 ? rowId : void 0,
       style: { left: shouldFreeze ? numToPx(leftOffset) : void 0 },
-      children: content
+      children: contentNode
     }
   );
 }
@@ -51919,7 +56069,7 @@ var import_obsidian13 = require("obsidian");
 
 // src/react/loom-app/text-cell/index.tsx
 var import_jsx_runtime46 = __toESM(require_jsx_runtime());
-function TextCell({ value }) {
+function TextCell6({ value }) {
   const { containerRef, renderRef } = useRenderMarkdown(value);
   return /* @__PURE__ */ (0, import_jsx_runtime46.jsx)("div", { className: "dataloom-text-cell", children: /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(
     "div",
@@ -52001,7 +56151,7 @@ function Tag5({
     showRemoveButton && /* @__PURE__ */ (0, import_jsx_runtime47.jsx)(Padding, { width: "max-content", children: /* @__PURE__ */ (0, import_jsx_runtime47.jsx)(
       Button,
       {
-        isSmall: true,
+        size: "sm",
         icon: /* @__PURE__ */ (0, import_jsx_runtime47.jsx)(Icon, { lucideId: "x" }),
         onClick: () => {
           if (id2 && onRemoveClick)
@@ -52014,74 +56164,35 @@ function Tag5({
 
 // src/react/loom-app/tag-cell/index.tsx
 var import_jsx_runtime48 = __toESM(require_jsx_runtime());
-function TagCell({ content, color }) {
+function TagCell6({ content, color }) {
   return /* @__PURE__ */ (0, import_jsx_runtime48.jsx)("div", { className: "dataloom-tag-cell", children: /* @__PURE__ */ (0, import_jsx_runtime48.jsx)(Tag5, { content, color }) });
 }
 
 // src/react/loom-app/checkbox-cell/index.tsx
 var import_jsx_runtime49 = __toESM(require_jsx_runtime());
-function CheckboxCell({ value }) {
-  const isChecked = isCheckboxChecked(value);
+function CheckboxCell6({ value }) {
   return /* @__PURE__ */ (0, import_jsx_runtime49.jsx)("div", { className: "dataloom-checkbox-cell", children: /* @__PURE__ */ (0, import_jsx_runtime49.jsx)(
     "input",
     {
       className: "task-list-item-checkbox",
       type: "checkbox",
-      checked: isChecked,
+      checked: value,
       onChange: () => {
       }
     }
   ) });
 }
 
-// src/shared/cell-content/date-cell-content.ts
-var getDateCellContent = (dateTime, format, separator, includeTime, hour12) => {
-  if (dateTime !== null)
-    return dateTimeToDateString(dateTime, format, separator, {
-      includeTime,
-      hour12
-    });
-  return "";
-};
-
 // src/react/loom-app/date-cell/index.tsx
 var import_jsx_runtime50 = __toESM(require_jsx_runtime());
-function DateCell({
-  value,
-  format,
-  formatSeparator,
-  includeTime,
-  hour12
-}) {
-  const content = getDateCellContent(
-    value,
-    format,
-    formatSeparator,
-    includeTime,
-    hour12
-  );
+function DateCell6({ content }) {
   return /* @__PURE__ */ (0, import_jsx_runtime50.jsx)("div", { className: "dataloom-date-cell", children: content });
 }
 
 // src/react/loom-app/number-cell/index.tsx
 var import_jsx_runtime51 = __toESM(require_jsx_runtime());
-function NumberCell({
-  value,
-  currency,
-  format,
-  prefix: prefix2,
-  suffix,
-  separator
-}) {
-  if (isNumber(value)) {
-    value = getNumberCellContent(format, value, {
-      currency,
-      prefix: prefix2,
-      suffix,
-      separator
-    });
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime51.jsx)("div", { className: "dataloom-number-cell", children: value });
+function NumberCell7({ content }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime51.jsx)("div", { className: "dataloom-number-cell", children: content });
 }
 
 // src/react/loom-app/number-cell-edit/index.tsx
@@ -52093,28 +56204,28 @@ function NumberCellEdit({
   onChange,
   onClose
 }) {
-  const initialValue = isNumber(value) ? value : "";
+  var _a2;
+  const initialValue = (_a2 = value == null ? void 0 : value.toString()) != null ? _a2 : "";
   const [localValue, setLocalValue] = import_react29.default.useState(initialValue);
   const inputRef = import_react29.default.useRef(null);
   usePlaceCursorAtEnd(inputRef, localValue);
   import_react29.default.useEffect(() => {
     if (closeRequest !== null) {
-      if (localValue !== value)
-        onChange(localValue);
+      if (localValue !== initialValue) {
+        onChange(localValue === "" ? null : parseFloat(localValue));
+      }
       onClose();
     }
-  }, [value, localValue, closeRequest, onClose, onChange]);
+  }, [initialValue, localValue, closeRequest, onClose, onChange]);
   function handleChange(inputValue) {
-    if (!isNumberInput(inputValue))
-      return;
     setLocalValue(inputValue);
   }
   return /* @__PURE__ */ (0, import_jsx_runtime52.jsx)("div", { className: "dataloom-number-cell-edit", children: /* @__PURE__ */ (0, import_jsx_runtime52.jsx)(
     input_default,
     {
+      isNumeric: true,
       ref: inputRef,
       focusOutline: "default",
-      inputMode: "numeric",
       value: localValue,
       onChange: handleChange,
       onBlur: (e) => {
@@ -52433,39 +56544,6 @@ var removeClosingBracket = (previousValue, value, selectionStart) => {
   return value;
 };
 
-// src/shared/link/link-utils.ts
-var getBasename = (filePath) => {
-  const fileName = stripDirectory(filePath);
-  return stripFileExtension(fileName);
-};
-var getExtension = (filePath) => {
-  return filePath.substring(filePath.lastIndexOf(".") + 1);
-};
-var stripFileExtension = (filePath) => {
-  return filePath.substring(0, filePath.lastIndexOf("."));
-};
-var stripDirectory = (filePath) => {
-  return filePath.substring(filePath.lastIndexOf("/") + 1);
-};
-var isMarkdownFile = (extension) => {
-  return extension === "md";
-};
-var getWikiLinkText = (path) => {
-  const basename = getBasename(path);
-  const extension = getExtension(path);
-  let text = basename;
-  if (!isMarkdownFile(extension)) {
-    text = stripDirectory(path);
-    if (path.includes("/"))
-      text = `${path}|${basename}`;
-  } else {
-    const pathWithoutExtension = stripFileExtension(path);
-    if (path.includes("/"))
-      text = `${pathWithoutExtension}|${basename}`;
-  }
-  return text;
-};
-
 // src/react/loom-app/text-cell-edit/index.tsx
 var import_jsx_runtime59 = __toESM(require_jsx_runtime());
 function TextCellEdit({
@@ -52561,11 +56639,14 @@ function TextCellEdit({
   function handleSuggestItemClick(file) {
     var _a3, _b2;
     if (file) {
-      const fileName = getWikiLinkText(file.path);
+      let path = file.path;
+      if (isMarkdownFile(path)) {
+        path = stripFileExtension(path);
+      }
       const newValue = doubleBracketsInnerReplace(
         localValue,
         (_b2 = (_a3 = inputRef.current) == null ? void 0 : _a3.selectionStart) != null ? _b2 : 0,
-        fileName
+        path
       );
       onChange(newValue);
     }
@@ -52933,7 +57014,7 @@ function MenuBody({
 // src/react/loom-app/tag-cell-edit/index.tsx
 var import_jsx_runtime67 = __toESM(require_jsx_runtime());
 function TagCellEdit({
-  isMulti,
+  isMulti = false,
   columnTags,
   cellTags,
   closeRequest,
@@ -53084,6 +57165,13 @@ function DateFormatSeparatorMenu({
 var import_dayjs = __toESM(require_dayjs_min());
 var import_customParseFormat = __toESM(require_customParseFormat());
 import_dayjs.default.extend(import_customParseFormat.default);
+var parseDateTime = (value) => {
+  const date = new Date(value);
+  if (date instanceof Date && !isNaN(date.getTime())) {
+    return date.toISOString();
+  }
+  return null;
+};
 var isValidDateString = (value, format, separator) => {
   const dateFormatString = getDateFormatString(format, separator);
   const dayjsDate = (0, import_dayjs.default)(value, dateFormatString, true);
@@ -53224,36 +57312,70 @@ function DateCellEdit({
   import_react36.default.useEffect(() => {
     if (closeRequest === null)
       return;
-    if (dateString !== "") {
-      if (!isValidDateString(dateString, dateFormat, dateFormatSeparator)) {
-        if (closeRequest.type === "close-on-save") {
-          setDateInputInvalid(true);
-          onCloseRequestClear();
-          return;
+    function validateDateInput(closeRequest2) {
+      if (dateString == "")
+        return true;
+      if (isValidDateString(dateString, dateFormat, dateFormatSeparator))
+        return true;
+      const { type } = closeRequest2;
+      if (type !== "close-on-save") {
+        return false;
+      }
+      setDateInputInvalid(true);
+      onCloseRequestClear();
+      return false;
+    }
+    function validateTimeInput(closeRequest2) {
+      if (!includeTime)
+        return true;
+      if (timeString === "")
+        return true;
+      if (isValidTimeString(timeString, hour12))
+        return true;
+      const { type } = closeRequest2;
+      if (type !== "close-on-save") {
+        return false;
+      }
+      setTimeInputInvalid(true);
+      onCloseRequestClear();
+      return false;
+    }
+    function getCurrentDateTime2() {
+      if (includeTime) {
+        if (dateString !== "" && timeString !== "") {
+          return dateStringToDateTime(
+            dateString,
+            dateFormat,
+            dateFormatSeparator,
+            {
+              timeString,
+              hour12
+            }
+          );
         }
       }
-    }
-    if (dateString !== "" || timeString !== "") {
-      if (!isValidTimeString(timeString, hour12)) {
-        if (closeRequest.type === "close-on-save") {
-          setTimeInputInvalid(true);
-          onCloseRequestClear();
-          return;
-        }
+      if (dateString !== "") {
+        return dateStringToDateTime(
+          dateString,
+          dateFormat,
+          dateFormatSeparator
+        );
       }
+      return null;
     }
-    let newValue = value;
-    if (dateString !== "" && timeString !== "") {
-      newValue = dateStringToDateTime(
-        dateString,
-        dateFormat,
-        dateFormatSeparator,
-        {
-          timeString,
-          hour12
-        }
-      );
+    if (!validateDateInput(closeRequest)) {
+      if (closeRequest.type !== "close-on-save") {
+        onClose();
+      }
+      return;
     }
+    if (!validateTimeInput(closeRequest)) {
+      if (closeRequest.type !== "close-on-save") {
+        onClose();
+      }
+      return;
+    }
+    const newValue = getCurrentDateTime2();
     if (newValue !== value) {
       setDateInputInvalid(false);
       setTimeInputInvalid(false);
@@ -53263,6 +57385,7 @@ function DateCellEdit({
   }, [
     value,
     dateString,
+    includeTime,
     hour12,
     timeString,
     closeRequest,
@@ -53283,6 +57406,10 @@ function DateCellEdit({
   function handleTimeFormatChange(value2) {
     onTimeFormatChange(value2);
     timeFormatMenu.onClose();
+  }
+  function handleTodayClick() {
+    onDateTimeChange(getCurrentDateTime());
+    onClose();
   }
   function handleClearClick() {
     onDateTimeChange(null);
@@ -53306,7 +57433,7 @@ function DateCellEdit({
             onChange: setDateString
           }
         ),
-        /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
+        includeTime && /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
           input_default,
           {
             ref: timeInputRef,
@@ -53394,6 +57521,7 @@ function DateCellEdit({
           )
         }
       ),
+      /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(MenuItem, { name: "Today", onClick: handleTodayClick }),
       /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(MenuItem, { name: "Clear", onClick: handleClearClick })
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
@@ -53431,35 +57559,13 @@ function DateCellEdit({
 
 // src/react/loom-app/multi-tag-cell/index.tsx
 var import_jsx_runtime72 = __toESM(require_jsx_runtime());
-function MultiTagCell({ cellTags }) {
+function MultiTagCell6({ cellTags }) {
   return /* @__PURE__ */ (0, import_jsx_runtime72.jsx)("div", { className: "dataloom-multi-tag-cell", children: /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(Wrap, { children: cellTags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(Tag5, { content: tag.content, color: tag.color }, tag.id)) }) });
 }
 
-// src/shared/cell-content/file-cell-content.ts
-var getFileCellContent = (markdown) => {
-  if (markdown === "")
-    return markdown;
-  const linkRegex = new RegExp(/\[\[([^[\]]+)\]\]/);
-  const matches = markdown.match(linkRegex);
-  let matchStartIndex = -1;
-  let matchEndIndex = -1;
-  if (matches) {
-    matchStartIndex = markdown.indexOf(matches[0]);
-    matchEndIndex = matchStartIndex + matches[0].length;
-  }
-  if (matches === null) {
-    return `[[${markdown}]]`;
-  } else if (matchStartIndex === 0) {
-    return `${markdown.slice(0, matchEndIndex + 1).trim()}`;
-  } else {
-    return `[[${markdown.slice(0, matchStartIndex).trim()}]]`;
-  }
-};
-
 // src/react/loom-app/file-cell/index.tsx
 var import_jsx_runtime73 = __toESM(require_jsx_runtime());
-function FileCell({ value }) {
-  const content = getFileCellContent(value);
+function FileCell6({ content }) {
   const { containerRef, renderRef } = useRenderMarkdown(content);
   return /* @__PURE__ */ (0, import_jsx_runtime73.jsx)("div", { className: "dataloom-file-cell", children: /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(
     "div",
@@ -53477,10 +57583,10 @@ var import_jsx_runtime74 = __toESM(require_jsx_runtime());
 function FileCellEdit({ onChange, onClose }) {
   function handleSuggestItemClick(file) {
     if (file) {
-      let fileName = file.basename;
-      if (file.path.includes("/"))
-        fileName = `${file.path}|${file.basename}`;
-      onChange(`[[${fileName}]]`);
+      let path = file.path;
+      if (isMarkdownFile(path))
+        path = stripFileExtension(path);
+      onChange(path);
     }
     onClose();
   }
@@ -53489,12 +57595,9 @@ function FileCellEdit({ onChange, onClose }) {
     onClose();
   }
   function handleCreateClick(value) {
-    let link = `[[${value}]]`;
-    if (value.includes("/")) {
-      const fileName = getBasename(value);
-      link = `${value}|${fileName}`;
-    }
-    onChange(link);
+    if (isMarkdownFile(value))
+      value = stripFileExtension(value);
+    onChange(value);
     onClose();
   }
   return /* @__PURE__ */ (0, import_jsx_runtime74.jsx)("div", { className: "dataloom-file-cell-edit", children: /* @__PURE__ */ (0, import_jsx_runtime74.jsx)(
@@ -53511,31 +57614,31 @@ function FileCellEdit({ onChange, onClose }) {
 }
 
 // src/shared/cell-content/embed-cell-content.ts
-var getEmbedCellContent = (app, value, options) => {
+var getEmbedCellContent = (app, pathOrUrl, options) => {
   const {
     shouldRemoveMarkdown = false,
-    isExternalLink = false,
+    isExternal = false,
     isExport = false
   } = options != null ? options : {};
-  if (shouldRemoveMarkdown || value === "") {
-    return value;
-  }
-  if (isExternalLink) {
-    if (isImage(value) || isYouTubeLink(value) || isTwitterLink(value)) {
-      return `![](${value})`;
+  if (shouldRemoveMarkdown)
+    return pathOrUrl;
+  if (pathOrUrl === "")
+    return pathOrUrl;
+  if (isExternal) {
+    if (isObsidianLink(pathOrUrl) || isTwitterLink(pathOrUrl) || isYouTubeLink(pathOrUrl)) {
+      return `![](${pathOrUrl})`;
     }
-    return "Unsupported link";
-  } else {
-    if (isExport)
-      return `![[${value}]]`;
-    return `![](${getResourcePath(app, value)})`;
+    return `<a href="${pathOrUrl}">${pathOrUrl}</a>`;
   }
+  if (isExport)
+    return `![[${pathOrUrl}]]`;
+  return `![](${getResourcePath(app, pathOrUrl)})`;
 };
 
 // src/react/loom-app/embed-cell/embed/index.tsx
 var import_jsx_runtime75 = __toESM(require_jsx_runtime());
 function Embed({
-  isExternalLink,
+  isExternalLink: isExternalLink2,
   content,
   aspectRatio,
   horizontalPadding,
@@ -53543,7 +57646,7 @@ function Embed({
 }) {
   const { containerRef, renderRef } = useRenderMarkdown(content, {
     isEmbed: true,
-    isExternalLink
+    isExternalLink: isExternalLink2
   });
   const paddingX = getSpacing(horizontalPadding);
   const paddingY = getSpacing(verticalPadding);
@@ -53567,21 +57670,21 @@ function Embed({
 
 // src/react/loom-app/embed-cell/index.tsx
 var import_jsx_runtime76 = __toESM(require_jsx_runtime());
-function EmbedCell({
-  isExternalLink,
-  value,
+function EmbedCell6({
+  isExternal,
+  pathOrUrl,
   aspectRatio,
   horizontalPadding,
   verticalPadding
 }) {
   const { app } = useAppMount();
-  const content = getEmbedCellContent(app, value, {
-    isExternalLink
+  const content = getEmbedCellContent(app, pathOrUrl, {
+    isExternal
   });
   return /* @__PURE__ */ (0, import_jsx_runtime76.jsx)("div", { className: "dataloom-embed-cell", children: /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
     Embed,
     {
-      isExternalLink,
+      isExternalLink: isExternal,
       content,
       aspectRatio,
       horizontalPadding,
@@ -53631,24 +57734,24 @@ function InternalEmbedSuggest({ onChange }) {
 var import_jsx_runtime79 = __toESM(require_jsx_runtime());
 function EmbedCellEdit({
   closeRequest,
-  isExternalLink,
+  isExternalLink: isExternalLink2,
   value,
   onChange,
   onClose,
   onExternalLinkToggle
 }) {
   const [externalLink, setExternalLink] = import_react38.default.useState(
-    isExternalLink ? value : ""
+    isExternalLink2 ? value : ""
   );
   import_react38.default.useEffect(() => {
     if (closeRequest !== null) {
-      if (isExternalLink) {
+      if (isExternalLink2) {
         if (externalLink !== value)
           onChange(externalLink);
       }
       onClose();
     }
-  }, [isExternalLink, value, externalLink, closeRequest, onClose, onChange]);
+  }, [isExternalLink2, value, externalLink, closeRequest, onClose, onChange]);
   function handleSuggestChange(value2) {
     onChange(value2);
     onClose();
@@ -53660,65 +57763,38 @@ function EmbedCellEdit({
         Switch,
         {
           id: "external-switch",
-          value: isExternalLink,
+          value: isExternalLink2,
           onToggle: onExternalLinkToggle
         }
       )
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime79.jsx)(Divider, {}),
-    isExternalLink && /* @__PURE__ */ (0, import_jsx_runtime79.jsx)(Padding, { width: "100%", p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime79.jsx)(
+    isExternalLink2 && /* @__PURE__ */ (0, import_jsx_runtime79.jsx)(Padding, { width: "100%", p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime79.jsx)(
       ExternalEmbedInput,
       {
         value: externalLink,
         onChange: setExternalLink
       }
     ) }),
-    !isExternalLink && /* @__PURE__ */ (0, import_jsx_runtime79.jsx)(InternalEmbedSuggest, { onChange: handleSuggestChange })
+    !isExternalLink2 && /* @__PURE__ */ (0, import_jsx_runtime79.jsx)(InternalEmbedSuggest, { onChange: handleSuggestChange })
   ] });
 }
 
 // src/react/loom-app/last-edited-time-cell/index.tsx
 var import_jsx_runtime80 = __toESM(require_jsx_runtime());
-function LastEditedTimeCell({
-  value,
-  format,
-  formatSeparator,
-  hour12
-}) {
-  return /* @__PURE__ */ (0, import_jsx_runtime80.jsx)("div", { className: "dataloom-last-edited-time-cell", children: dateTimeToDateString(value, format, formatSeparator, {
-    includeTime: true,
-    hour12
-  }) });
+function LastEditedTimeCell3({ value }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime80.jsx)("div", { className: "dataloom-last-edited-time-cell", children: value });
 }
 
 // src/react/loom-app/creation-time-cell/index.tsx
 var import_jsx_runtime81 = __toESM(require_jsx_runtime());
-function CreationTimeCell({
-  value,
-  format,
-  formatSeparator,
-  hour12
-}) {
-  return /* @__PURE__ */ (0, import_jsx_runtime81.jsx)("div", { className: "dataloom-creation-time-cell", children: dateTimeToDateString(value, format, formatSeparator, {
-    includeTime: true,
-    hour12
-  }) });
+function CreationTimeCell3({ value }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime81.jsx)("div", { className: "dataloom-creation-time-cell", children: value });
 }
-
-// src/shared/cell-content/source-file-content.ts
-var getSourceFileContent = (content, shouldRemoveMarkdown = false) => {
-  if (content === "")
-    return "";
-  if (shouldRemoveMarkdown)
-    return content;
-  const basename = getBasename(content);
-  return `[[${content}|${basename}]]`;
-};
 
 // src/react/loom-app/source-file-cell/index.tsx
 var import_jsx_runtime82 = __toESM(require_jsx_runtime());
-function SourceFileCell({ content: originalContent }) {
-  const content = getSourceFileContent(originalContent);
+function SourceFileCell6({ content }) {
   const { containerRef, renderRef } = useRenderMarkdown(content);
   return /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(
     "div",
@@ -53756,7 +57832,7 @@ function Bubble({
     canRemove && /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
       Button,
       {
-        isSmall: true,
+        size: "sm",
         invertFocusColor: true,
         icon: /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(Icon, { lucideId: "x", color: "var(--text-on-accent)" }),
         ariaLabel: "Remove sort",
@@ -53768,8 +57844,11 @@ function Bubble({
 
 // src/react/loom-app/source-cell/index.tsx
 var import_jsx_runtime84 = __toESM(require_jsx_runtime());
-function SourceCell({ source }) {
-  const content = getSourceCellContent(source);
+function SourceCell3({
+  content,
+  sourceType,
+  propertyType
+}) {
   return /* @__PURE__ */ (0, import_jsx_runtime84.jsx)("div", { className: "dataloom-source-cell", children: /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
     Bubble,
     {
@@ -53777,9 +57856,9 @@ function SourceCell({ source }) {
       icon: /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
         Icon,
         {
-          lucideId: getIconIdForSourceType(
-            source == null ? void 0 : source.type
-          )
+          lucideId: getIconIdForSourceType(sourceType, {
+            propertyType
+          })
         }
       ),
       value: content
@@ -53787,175 +57866,151 @@ function SourceCell({ source }) {
   ) });
 }
 
+// src/shared/cell-content/time-content.ts
+var getTimeCellContent = (dateTime, format, separator, hour12) => {
+  if (dateTime !== null) {
+    return dateTimeToDateString(dateTime, format, separator, {
+      includeTime: true,
+      hour12
+    });
+  }
+  return "";
+};
+
+// src/shared/cell-content/source-file-content.ts
+var getSourceFileContent = (path, shouldRemoveMarkdown = false) => {
+  if (shouldRemoveMarkdown)
+    return path;
+  if (path === "")
+    return "";
+  let fileName = stripDirectory(path);
+  if (isMarkdownFile(path)) {
+    fileName = stripFileExtension(fileName);
+  }
+  return componentsToWikiLink(fileName, null);
+};
+
+// src/shared/cell-content/file-cell-content.ts
+var getFileCellContent = (path, shouldRemoveMarkdown) => {
+  if (shouldRemoveMarkdown)
+    return path;
+  if (path === "")
+    return "";
+  return componentsToWikiLink(path, null);
+};
+
+// src/shared/cell-content/date-cell-content.ts
+var getDateCellContent = (dateTime, format, separator, includeTime, hour12) => {
+  if (dateTime !== null)
+    return dateTimeToDateString(dateTime, format, separator, {
+      includeTime,
+      hour12
+    });
+  return "";
+};
+
 // src/react/loom-app/body-cell-container/index.tsx
 var import_jsx_runtime85 = __toESM(require_jsx_runtime());
-function BodyCellContainer({
-  cellId,
-  columnId,
-  isExternalLink,
-  source,
-  includeTime,
-  content,
-  aspectRatio,
-  dateFormatSeparator,
-  numberFormat,
-  verticalPadding,
-  frontmatterKey,
-  currencyType,
-  horizontalPadding,
-  dateFormat,
-  dateTime,
-  hour12,
-  numberPrefix,
-  numberSuffix,
-  numberSeparator,
-  columnType,
-  rowCreationTime,
-  rowLastEditedTime,
-  columnTags,
-  cellTagIds,
-  width,
-  shouldWrapOverflow,
-  onTagRemoveClick,
-  onTagMultipleRemove,
-  onTagDeleteClick,
-  onTagClick,
-  onColumnChange,
-  onTagAdd,
-  onTagChange,
-  onCellChange
-}) {
-  const shouldRequestOnClose = columnType === "text" /* TEXT */ || columnType === "embed" /* EMBED */ || columnType === "number" /* NUMBER */ || columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */;
+function BodyCellContainer(props) {
+  const {
+    id: id2,
+    columnId,
+    source,
+    includeTime,
+    aspectRatio,
+    dateFormatSeparator,
+    numberFormat,
+    verticalPadding,
+    frontmatterKey,
+    currencyType,
+    horizontalPadding,
+    dateFormat,
+    hour12,
+    numberPrefix,
+    numberSuffix,
+    numberSeparator,
+    type,
+    rowCreationTime,
+    rowLastEditedTime,
+    columnTags,
+    width,
+    shouldWrapOverflow,
+    onCellChange
+  } = props;
+  const shouldRequestOnClose = type === "text" /* TEXT */ || type === "embed" /* EMBED */ || type === "number" /* NUMBER */ || type === "tag" /* TAG */ || type === "multi-tag" /* MULTI_TAG */ || type === "date" /* DATE */;
   const isDisabled = source !== null && frontmatterKey === null;
-  const isUneditable = columnType === "checkbox" /* CHECKBOX */ || columnType === "creation-time" /* CREATION_TIME */ || columnType === "last-edited-time" /* LAST_EDITED_TIME */ || columnType === "source" /* SOURCE */ || columnType === "source-file" /* SOURCE_FILE */;
-  const COMPONENT_ID = `body-cell-${cellId}`;
+  const isUneditable = type === "checkbox" /* CHECKBOX */ || type === "creation-time" /* CREATION_TIME */ || type === "last-edited-time" /* LAST_EDITED_TIME */ || type === "source" /* SOURCE */ || type === "source-file" /* SOURCE_FILE */;
+  const COMPONENT_ID = `body-cell-${id2}`;
   const menu = useMenu(COMPONENT_ID);
-  function handleCellContextClick() {
+  function copyTextToClipboard(value) {
     return __async(this, null, function* () {
       try {
-        yield navigator.clipboard.writeText(content);
-        new import_obsidian13.Notice("Copied text to clipboard");
+        yield navigator.clipboard.writeText(value);
+        new import_obsidian13.Notice("Copied cell content to clipboard");
       } catch (err) {
         console.error(err);
       }
     });
   }
-  function toggleCheckbox() {
-    const isChecked = isCheckboxChecked(content);
-    if (isChecked) {
-      handleCheckboxChange(CHECKBOX_MARKDOWN_UNCHECKED2);
-    } else {
-      handleCheckboxChange(CHECKBOX_MARKDOWN_CHECKED);
-    }
+  function onMenuTriggerEnterDown(cellActionCallback) {
+    return () => {
+      if (isDisabled)
+        return;
+      cellActionCallback();
+    };
   }
-  function handleMenuTriggerBackspaceDown() {
-    if (columnType === "text" /* TEXT */ || columnType === "embed" /* EMBED */ || columnType === "number" /* NUMBER */ || columnType === "file" /* FILE */) {
-      onCellChange(cellId, { content: "" });
-    } else if (columnType === "date" /* DATE */) {
-      onCellChange(cellId, { dateTime: null });
-    } else if (columnType === "checkbox" /* CHECKBOX */) {
-      onCellChange(cellId, { content: CHECKBOX_MARKDOWN_UNCHECKED2 });
-    } else if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) {
-      onTagMultipleRemove(cellId, cellTagIds);
-    }
+  function onMenuTriggerClick(cellActionCallback) {
+    return () => {
+      if (isDisabled)
+        return;
+      cellActionCallback();
+    };
   }
-  function handleMenuTriggerEnterDown() {
-    if (isDisabled)
-      return;
-    if (columnType === "checkbox" /* CHECKBOX */)
-      toggleCheckbox();
-  }
-  function handleMenuTriggerClick() {
-    if (isDisabled)
-      return;
-    if (columnType === "checkbox" /* CHECKBOX */)
-      toggleCheckbox();
-  }
-  function handleExternalLinkToggle(value) {
-    onCellChange(cellId, { isExternalLink: value });
-  }
-  function handleTagAdd(markdown, color) {
-    if (markdown === "")
-      return;
-    onTagAdd(
-      cellId,
-      columnId,
-      markdown.trim(),
-      color,
-      columnType === "multi-tag" /* MULTI_TAG */
-    );
-  }
-  function handleRemoveTagClick(tagId) {
-    onTagRemoveClick(cellId, tagId);
-  }
-  function handleTagColorChange(tagId, value) {
-    onTagChange(columnId, tagId, { color: value });
-  }
-  function handleTagDeleteClick(tagId) {
-    onTagDeleteClick(columnId, tagId);
-  }
-  function handleTagContentChange(tagId, value) {
-    onTagChange(columnId, tagId, { content: value });
-  }
-  function handleTagClick(tagId) {
-    onTagClick(cellId, tagId, columnType === "multi-tag" /* MULTI_TAG */);
-  }
-  const handleInputChange = import_react39.default.useCallback(
+  const handleTextChange = import_react39.default.useCallback(
     (value) => {
-      onCellChange(cellId, { content: value });
+      onCellChange(id2, { content: value });
     },
-    [cellId, onCellChange]
+    [id2, onCellChange]
   );
-  function handleCheckboxChange(value) {
-    onCellChange(cellId, { content: value });
-  }
-  function handleDateFormatChange(value) {
-    onColumnChange(
-      columnId,
-      { dateFormat: value },
-      { shouldSortRows: true }
-    );
-  }
-  function handleDateFormatSeparatorChange(value) {
-    onColumnChange(
-      columnId,
-      { dateFormatSeparator: value },
-      { shouldSortRows: true }
-    );
-  }
-  function handleTimeFormatChange(value) {
-    onColumnChange(columnId, { hour12: value }, { shouldSortRows: true });
-  }
-  function handleIncludeTimeToggle(value) {
-    return __async(this, null, function* () {
-      onColumnChange(
-        columnId,
-        { includeTime: value, frontmatterKey },
-        { shouldSortRows: true }
-      );
-    });
-  }
+  const handleNumberChange = import_react39.default.useCallback(
+    (value) => {
+      onCellChange(id2, { value });
+    },
+    [id2, onCellChange]
+  );
   const handleDateTimeChange = import_react39.default.useCallback(
     (value) => {
-      onCellChange(cellId, { dateTime: value });
+      onCellChange(id2, { dateTime: value });
     },
-    [cellId, onCellChange]
+    [id2, onCellChange]
+  );
+  const handleEmbedChange = import_react39.default.useCallback(
+    (pathOrUrl) => {
+      onCellChange(id2, { pathOrUrl });
+    },
+    [id2, onCellChange]
+  );
+  const handleFileChange = import_react39.default.useCallback(
+    (path) => {
+      onCellChange(id2, { path });
+    },
+    [id2, onCellChange]
   );
   let menuWidth = menu.position.width;
-  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "embed" /* EMBED */) {
+  if (type === "tag" /* TAG */ || type === "multi-tag" /* MULTI_TAG */ || type === "embed" /* EMBED */) {
     menuWidth = 250;
-  } else if (columnType === "file" /* FILE */) {
+  } else if (type === "file" /* FILE */) {
     menuWidth = 275;
-  } else if (columnType === "date" /* DATE */) {
+  } else if (type === "date" /* DATE */) {
     menuWidth = 235;
   }
   let menuHeight = menu.position.height;
-  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */ || columnType === "number" /* NUMBER */ || columnType === "file" /* FILE */ || columnType === "embed" /* EMBED */) {
+  if (type === "tag" /* TAG */ || type === "multi-tag" /* MULTI_TAG */ || type === "date" /* DATE */ || type === "number" /* NUMBER */ || type === "file" /* FILE */ || type === "embed" /* EMBED */) {
     menuHeight = 0;
   }
   let className = "dataloom-cell--body__container";
   const overflowClass = useOverflow(shouldWrapOverflow, {
-    ellipsis: columnType === "date" /* DATE */
+    ellipsis: type === "date" /* DATE */
   });
   className += " " + overflowClass;
   if (isUneditable) {
@@ -53963,14 +58018,351 @@ function BodyCellContainer({
   } else if (isDisabled) {
     className += " dataloom-cell--disabled";
   }
-  const cellTags = columnTags.filter((tag) => cellTagIds.includes(tag.id));
   let shouldRunTrigger = true;
   if (isUneditable || isDisabled) {
     shouldRunTrigger = false;
   }
   let ariaLabel = "";
-  if (isDisabled) {
+  if (isDisabled && type !== "source" /* SOURCE */ && type !== "source-file" /* SOURCE_FILE */) {
     ariaLabel = "This cell is disabled until you choose a frontmatter key for this column";
+  }
+  let contentNode = null;
+  let menuNode = null;
+  let handleCellContextClick = () => void 0;
+  let handleMenuTriggerEnterDown = () => void 0;
+  let handleMenuTriggerClick = () => void 0;
+  let handleMenuTriggerBackspaceDown = () => void 0;
+  switch (type) {
+    case "text" /* TEXT */: {
+      const { content } = props;
+      handleMenuTriggerBackspaceDown = () => {
+        onCellChange(id2, { content: "" });
+      };
+      handleCellContextClick = () => {
+        copyTextToClipboard(content);
+      };
+      contentNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(TextCell6, { value: content });
+      menuNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
+        TextCellEdit,
+        {
+          cellId: id2,
+          closeRequest: menu.closeRequest,
+          shouldWrapOverflow,
+          value: content,
+          onChange: handleTextChange,
+          onClose: menu.onClose
+        }
+      );
+      break;
+    }
+    case "number" /* NUMBER */: {
+      const { value } = props;
+      const content = getNumberCellContent(numberFormat, value, {
+        currency: currencyType,
+        prefix: numberPrefix,
+        suffix: numberSuffix,
+        separator: numberSeparator
+      });
+      handleMenuTriggerBackspaceDown = () => {
+        onCellChange(id2, { value: null });
+      };
+      handleCellContextClick = () => {
+        copyTextToClipboard(content);
+      };
+      contentNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(NumberCell7, { content });
+      menuNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
+        NumberCellEdit,
+        {
+          closeRequest: menu.closeRequest,
+          value,
+          onChange: handleNumberChange,
+          onClose: menu.onClose
+        }
+      );
+      break;
+    }
+    case "tag" /* TAG */:
+    case "multi-tag" /* MULTI_TAG */: {
+      let handleTagAdd2 = function(markdown, color) {
+        if (markdown === "")
+          return;
+        onTagAdd(id2, columnId, markdown.trim(), color);
+      }, handleRemoveTagClick2 = function(tagId) {
+        onTagCellRemove(id2, tagId);
+      }, handleTagColorChange2 = function(tagId, value) {
+        onTagChange(columnId, tagId, { color: value });
+      }, handleTagDeleteClick2 = function(tagId) {
+        onTagDeleteClick(columnId, tagId);
+      }, handleTagContentChange2 = function(tagId, value) {
+        onTagChange(columnId, tagId, { content: value });
+      }, handleTagClick2 = function(tagId) {
+        onTagCellAdd(id2, tagId);
+      };
+      var handleTagAdd = handleTagAdd2, handleRemoveTagClick = handleRemoveTagClick2, handleTagColorChange = handleTagColorChange2, handleTagDeleteClick = handleTagDeleteClick2, handleTagContentChange = handleTagContentChange2, handleTagClick = handleTagClick2;
+      const {
+        onTagCellRemove,
+        onTagAdd,
+        onTagChange,
+        onTagCellAdd,
+        onTagDeleteClick,
+        onTagCellMultipleRemove
+      } = props;
+      let cellTags = [];
+      if (type === "tag" /* TAG */) {
+        const { tagId } = props;
+        cellTags = columnTags.filter((tag) => tag.id === tagId);
+        handleMenuTriggerBackspaceDown = () => {
+          if (tagId !== null) {
+            onTagCellRemove(id2, tagId);
+          }
+        };
+      } else {
+        const { tagIds } = props;
+        cellTags = columnTags.filter((tag) => tagIds.includes(tag.id));
+        handleMenuTriggerBackspaceDown = () => {
+          onTagCellMultipleRemove(id2, tagIds);
+        };
+      }
+      handleCellContextClick = () => {
+        const content = cellTags.map((tag) => tag.content).join(",");
+        copyTextToClipboard(content);
+      };
+      if (type === "tag" /* TAG */) {
+        if (cellTags.length > 0) {
+          contentNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
+            TagCell6,
+            {
+              content: cellTags[0].content,
+              color: cellTags[0].color
+            }
+          );
+        }
+      } else {
+        contentNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(MultiTagCell6, { cellTags });
+      }
+      menuNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
+        TagCellEdit,
+        {
+          isMulti: type === "multi-tag" /* MULTI_TAG */,
+          closeRequest: menu.closeRequest,
+          columnTags,
+          cellTags,
+          onTagColorChange: handleTagColorChange2,
+          onTagAdd: handleTagAdd2,
+          onRemoveTag: handleRemoveTagClick2,
+          onTagClick: handleTagClick2,
+          onTagDelete: handleTagDeleteClick2,
+          onTagContentChange: handleTagContentChange2,
+          onClose: menu.onClose
+        }
+      );
+      break;
+    }
+    case "date" /* DATE */: {
+      let handleDateFormatChange2 = function(value) {
+        onColumnChange(
+          columnId,
+          { dateFormat: value },
+          { shouldSortRows: true }
+        );
+      }, handleDateFormatSeparatorChange2 = function(value) {
+        onColumnChange(
+          columnId,
+          { dateFormatSeparator: value },
+          { shouldSortRows: true }
+        );
+      }, handleTimeFormatChange2 = function(value) {
+        onColumnChange(
+          columnId,
+          { hour12: value },
+          { shouldSortRows: true }
+        );
+      };
+      var handleDateFormatChange = handleDateFormatChange2, handleDateFormatSeparatorChange = handleDateFormatSeparatorChange2, handleTimeFormatChange = handleTimeFormatChange2;
+      const { dateTime, onColumnChange } = props;
+      const content = getDateCellContent(
+        dateTime,
+        dateFormat,
+        dateFormatSeparator,
+        includeTime,
+        hour12
+      );
+      handleMenuTriggerBackspaceDown = () => {
+        onCellChange(id2, { dateTime: null });
+      };
+      handleCellContextClick = () => {
+        copyTextToClipboard(content);
+      };
+      function handleIncludeTimeToggle(value) {
+        return __async(this, null, function* () {
+          onColumnChange(
+            columnId,
+            { includeTime: value, frontmatterKey },
+            { shouldSortRows: true }
+          );
+        });
+      }
+      contentNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(DateCell6, { content });
+      menuNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
+        DateCellEdit,
+        {
+          cellId: id2,
+          value: dateTime,
+          includeTime,
+          closeRequest: menu.closeRequest,
+          dateFormat,
+          hour12,
+          dateFormatSeparator,
+          onDateTimeChange: handleDateTimeChange,
+          onDateFormatChange: handleDateFormatChange2,
+          onClose: menu.onClose,
+          onCloseRequestClear: menu.onCloseRequestClear,
+          onIncludeTimeToggle: handleIncludeTimeToggle,
+          onDateFormatSeparatorChange: handleDateFormatSeparatorChange2,
+          onTimeFormatChange: handleTimeFormatChange2
+        }
+      );
+      break;
+    }
+    case "checkbox" /* CHECKBOX */: {
+      let handleCheckboxChange2 = function(value2) {
+        onCellChange(id2, { value: value2 });
+      };
+      var handleCheckboxChange = handleCheckboxChange2;
+      const { value } = props;
+      handleMenuTriggerBackspaceDown = () => {
+        onCellChange(id2, { value: false });
+      };
+      handleCellContextClick = () => {
+        copyTextToClipboard(value ? "true" : "false");
+      };
+      handleMenuTriggerClick = onMenuTriggerClick(() => {
+        if (value) {
+          handleCheckboxChange2(false);
+        } else {
+          handleCheckboxChange2(true);
+        }
+      });
+      handleMenuTriggerEnterDown = onMenuTriggerEnterDown(() => {
+        if (value) {
+          handleCheckboxChange2(false);
+        } else {
+          handleCheckboxChange2(true);
+        }
+      });
+      contentNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(CheckboxCell6, { value });
+      break;
+    }
+    case "creation-time" /* CREATION_TIME */: {
+      const content = getTimeCellContent(
+        rowCreationTime,
+        dateFormat,
+        dateFormatSeparator,
+        hour12
+      );
+      handleCellContextClick = () => {
+        copyTextToClipboard(content);
+      };
+      contentNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(CreationTimeCell3, { value: content });
+      break;
+    }
+    case "last-edited-time" /* LAST_EDITED_TIME */: {
+      const content = getTimeCellContent(
+        rowLastEditedTime,
+        dateFormat,
+        dateFormatSeparator,
+        hour12
+      );
+      handleCellContextClick = () => {
+        copyTextToClipboard(content);
+      };
+      contentNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(LastEditedTimeCell3, { value: content });
+      break;
+    }
+    case "source" /* SOURCE */: {
+      const content = getSourceCellContent(source);
+      handleCellContextClick = () => {
+        copyTextToClipboard(content);
+      };
+      let propertyType = void 0;
+      if ((source == null ? void 0 : source.type) === "frontmatter" /* FRONTMATTER */) {
+        propertyType = source == null ? void 0 : source.propertyType;
+      }
+      contentNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
+        SourceCell3,
+        {
+          sourceType: source == null ? void 0 : source.type,
+          propertyType,
+          content
+        }
+      );
+      break;
+    }
+    case "source-file" /* SOURCE_FILE */: {
+      const { path } = props;
+      const content = getSourceFileContent(path);
+      handleCellContextClick = () => {
+        copyTextToClipboard(content);
+      };
+      contentNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(SourceFileCell6, { content });
+      break;
+    }
+    case "embed" /* EMBED */: {
+      let handleExternalLinkToggle2 = function(value) {
+        onCellChange(id2, { isExternal: value });
+      };
+      var handleExternalLinkToggle = handleExternalLinkToggle2;
+      const { pathOrUrl, isExternal } = props;
+      handleCellContextClick = () => {
+        copyTextToClipboard(pathOrUrl);
+      };
+      handleMenuTriggerBackspaceDown = () => {
+        onCellChange(id2, { pathOrUrl: "", alias: null });
+      };
+      contentNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
+        EmbedCell6,
+        {
+          isExternal,
+          pathOrUrl,
+          verticalPadding,
+          horizontalPadding,
+          aspectRatio
+        }
+      );
+      menuNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
+        EmbedCellEdit,
+        {
+          isExternalLink: isExternal,
+          closeRequest: menu.closeRequest,
+          value: pathOrUrl,
+          onChange: handleEmbedChange,
+          onClose: menu.onClose,
+          onExternalLinkToggle: handleExternalLinkToggle2
+        }
+      );
+      break;
+    }
+    case "file" /* FILE */: {
+      const { path } = props;
+      const content = getFileCellContent(path, false);
+      handleMenuTriggerBackspaceDown = () => {
+        onCellChange(id2, { path: "", alias: null });
+      };
+      handleCellContextClick = () => {
+        copyTextToClipboard(content);
+      };
+      contentNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(FileCell6, { content });
+      menuNode = /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
+        FileCellEdit,
+        {
+          onChange: handleFileChange,
+          onClose: menu.onClose
+        }
+      );
+      break;
+    }
+    default:
+      throw new Error("Unhandled cell type");
   }
   return /* @__PURE__ */ (0, import_jsx_runtime85.jsxs)(import_jsx_runtime85.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
@@ -53989,7 +58381,7 @@ function BodyCellContainer({
         onOpen: () => menu.onOpen(1 /* ONE */, {
           shouldRequestOnClose
         }),
-        children: /* @__PURE__ */ (0, import_jsx_runtime85.jsxs)(
+        children: /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
           "div",
           {
             onContextMenu: handleCellContextClick,
@@ -53997,158 +58389,21 @@ function BodyCellContainer({
             style: {
               width
             },
-            children: [
-              columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(TextCell, { value: content }),
-              columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
-                EmbedCell,
-                {
-                  isExternalLink,
-                  value: content,
-                  verticalPadding,
-                  horizontalPadding,
-                  aspectRatio
-                }
-              ),
-              columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(FileCell, { value: content }),
-              columnType === "source-file" /* SOURCE_FILE */ && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(SourceFileCell, { content }),
-              columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
-                NumberCell,
-                {
-                  value: content,
-                  currency: currencyType,
-                  format: numberFormat,
-                  prefix: numberPrefix,
-                  suffix: numberSuffix,
-                  separator: numberSeparator
-                }
-              ),
-              columnType === "tag" /* TAG */ && cellTags.length === 1 && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
-                TagCell,
-                {
-                  content: cellTags[0].content,
-                  color: cellTags[0].color
-                }
-              ),
-              columnType === "multi-tag" /* MULTI_TAG */ && cellTags.length !== 0 && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(MultiTagCell, { cellTags }),
-              columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
-                DateCell,
-                {
-                  value: dateTime,
-                  format: dateFormat,
-                  formatSeparator: dateFormatSeparator,
-                  includeTime,
-                  hour12
-                }
-              ),
-              columnType === "checkbox" /* CHECKBOX */ && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(CheckboxCell, { value: content }),
-              columnType === "creation-time" /* CREATION_TIME */ && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
-                CreationTimeCell,
-                {
-                  value: rowCreationTime,
-                  format: dateFormat,
-                  formatSeparator: dateFormatSeparator,
-                  hour12
-                }
-              ),
-              columnType === "last-edited-time" /* LAST_EDITED_TIME */ && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
-                LastEditedTimeCell,
-                {
-                  value: rowLastEditedTime,
-                  format: dateFormat,
-                  formatSeparator: dateFormatSeparator,
-                  hour12
-                }
-              ),
-              columnType === "source" /* SOURCE */ && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(SourceCell, { source })
-            ]
+            children: contentNode
           }
         )
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime85.jsxs)(
+    /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
       Menu,
       {
         id: menu.id,
-        hideBorder: columnType === "text" /* TEXT */ || columnType === "number" /* NUMBER */,
+        hideBorder: type === "text" /* TEXT */ || type === "number" /* NUMBER */,
         isOpen: menu.isOpen,
         position: menu.position,
         width: menuWidth,
         height: menuHeight,
-        children: [
-          columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
-            TextCellEdit,
-            {
-              cellId,
-              closeRequest: menu.closeRequest,
-              shouldWrapOverflow,
-              value: content,
-              onChange: handleInputChange,
-              onClose: menu.onClose
-            }
-          ),
-          columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
-            EmbedCellEdit,
-            {
-              isExternalLink,
-              closeRequest: menu.closeRequest,
-              value: content,
-              onChange: handleInputChange,
-              onClose: menu.onClose,
-              onExternalLinkToggle: handleExternalLinkToggle
-            }
-          ),
-          columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
-            FileCellEdit,
-            {
-              onChange: handleInputChange,
-              onClose: menu.onClose
-            }
-          ),
-          columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
-            NumberCellEdit,
-            {
-              closeRequest: menu.closeRequest,
-              value: content,
-              onChange: handleInputChange,
-              onClose: menu.onClose
-            }
-          ),
-          (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
-            TagCellEdit,
-            {
-              isMulti: columnType === "multi-tag" /* MULTI_TAG */,
-              closeRequest: menu.closeRequest,
-              columnTags,
-              cellTags,
-              onTagColorChange: handleTagColorChange,
-              onTagAdd: handleTagAdd,
-              onRemoveTag: handleRemoveTagClick,
-              onTagClick: handleTagClick,
-              onTagDelete: handleTagDeleteClick,
-              onTagContentChange: handleTagContentChange,
-              onClose: menu.onClose
-            }
-          ),
-          columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
-            DateCellEdit,
-            {
-              cellId,
-              value: dateTime,
-              includeTime,
-              closeRequest: menu.closeRequest,
-              dateFormat,
-              hour12,
-              dateFormatSeparator,
-              onDateTimeChange: handleDateTimeChange,
-              onDateFormatChange: handleDateFormatChange,
-              onClose: menu.onClose,
-              onCloseRequestClear: menu.onCloseRequestClear,
-              onIncludeTimeToggle: handleIncludeTimeToggle,
-              onDateFormatSeparatorChange: handleDateFormatSeparatorChange,
-              onTimeFormatChange: handleTimeFormatChange
-            }
-          )
-        ]
+        children: menuNode
       }
     )
   ] });
@@ -54190,7 +58445,6 @@ var FrontmatterCache = class {
     this.cache = /* @__PURE__ */ new Map();
   }
   loadProperties(app) {
-    console.log("Loading frontmatter properties...");
     this.cache.clear();
     const properties = getAllObsidianProperties(app);
     Object.values(properties).forEach((value) => {
@@ -54263,8 +58517,6 @@ var Table2 = import_react40.default.forwardRef(function Table3({
     if (previousRowLength < rows.length)
       (_a2 = ref.current) == null ? void 0 : _a2.scrollToIndex(rows.length - 1);
   }, [ref, previousRowLength, rows.length]);
-  import_react40.default.useLayoutEffect(() => {
-  });
   const visibleColumns = columns.filter((column) => column.isVisible);
   return /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
     TableVirtuoso,
@@ -54444,12 +58696,12 @@ var Table2 = import_react40.default.forwardRef(function Table3({
         const columns2 = [null, ...visibleColumns, null];
         return columns2.map((column, i2) => {
           var _a3;
-          let content;
+          let contentNode;
           let key;
           if (column === null) {
             key = `filler-${i2}`;
             if (i2 === 0) {
-              content = /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
+              contentNode = /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
                 RowOptions2,
                 {
                   source,
@@ -54461,7 +58713,7 @@ var Table2 = import_react40.default.forwardRef(function Table3({
                 }
               );
             } else {
-              content = /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(import_jsx_runtime86.Fragment, {});
+              contentNode = /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(import_jsx_runtime86.Fragment, {});
             }
           } else {
             const {
@@ -54492,63 +58744,202 @@ var Table2 = import_react40.default.forwardRef(function Table3({
                 columnId,
                 rowId
               });
-            const {
-              id: cellId,
-              content: cellContent,
-              dateTime,
-              tagIds,
-              isExternalLink
-            } = cell;
             const source2 = (_a3 = sources.find(
               (source3) => source3.id === row.sourceId
             )) != null ? _a3 : null;
             key = column.id;
-            content = /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
-              BodyCellContainer,
-              {
-                cellId,
-                frontmatterKey,
-                isExternalLink,
-                verticalPadding,
-                includeTime,
-                dateFormatSeparator,
-                horizontalPadding,
-                aspectRatio,
-                columnTags: tags,
-                cellTagIds: tagIds,
-                columnId,
-                source: source2,
-                hour12,
-                numberFormat,
-                rowCreationTime: creationDateTime,
-                dateFormat,
-                currencyType,
-                numberPrefix,
-                numberSuffix,
-                numberSeparator,
-                rowLastEditedTime: lastEditedDateTime,
-                dateTime,
-                content: cellContent,
-                columnType: type,
-                shouldWrapOverflow,
-                width,
-                onTagClick: onTagCellAdd,
-                onTagRemoveClick: onTagCellRemove,
-                onTagMultipleRemove: onTagCellMultipleRemove,
-                onCellChange,
-                onTagDeleteClick,
-                onTagAdd,
-                onColumnChange,
-                onTagChange
-              },
-              cellId
-            );
+            const { id: id2 } = cell;
+            const commonProps = {
+              id: id2,
+              columnId,
+              frontmatterKey,
+              verticalPadding,
+              includeTime,
+              dateFormatSeparator,
+              horizontalPadding,
+              aspectRatio,
+              columnTags: tags,
+              source: source2,
+              hour12,
+              numberFormat,
+              rowCreationTime: creationDateTime,
+              dateFormat,
+              currencyType,
+              numberPrefix,
+              numberSuffix,
+              numberSeparator,
+              rowLastEditedTime: lastEditedDateTime,
+              shouldWrapOverflow,
+              width,
+              onCellChange
+            };
+            switch (type) {
+              case "text" /* TEXT */: {
+                const { content } = cell;
+                contentNode = /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
+                  BodyCellContainer,
+                  __spreadProps(__spreadValues({}, commonProps), {
+                    type,
+                    content
+                  }),
+                  id2
+                );
+                break;
+              }
+              case "number" /* NUMBER */: {
+                const { value } = cell;
+                contentNode = /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
+                  BodyCellContainer,
+                  __spreadProps(__spreadValues({}, commonProps), {
+                    type,
+                    value
+                  }),
+                  id2
+                );
+                break;
+              }
+              case "tag" /* TAG */: {
+                const { tagId } = cell;
+                contentNode = /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
+                  BodyCellContainer,
+                  __spreadProps(__spreadValues({}, commonProps), {
+                    type,
+                    tagId,
+                    onTagAdd,
+                    onTagCellAdd,
+                    onTagCellRemove,
+                    onTagCellMultipleRemove,
+                    onTagChange,
+                    onTagDeleteClick
+                  }),
+                  id2
+                );
+                break;
+              }
+              case "multi-tag" /* MULTI_TAG */: {
+                const { tagIds } = cell;
+                contentNode = /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
+                  BodyCellContainer,
+                  __spreadProps(__spreadValues({}, commonProps), {
+                    type,
+                    tagIds,
+                    onCellChange,
+                    onTagAdd,
+                    onTagCellAdd,
+                    onTagCellRemove,
+                    onTagCellMultipleRemove,
+                    onTagChange,
+                    onTagDeleteClick
+                  }),
+                  id2
+                );
+                break;
+              }
+              case "file" /* FILE */: {
+                const { path, alias } = cell;
+                contentNode = /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
+                  BodyCellContainer,
+                  __spreadProps(__spreadValues({}, commonProps), {
+                    type,
+                    path,
+                    alias
+                  }),
+                  id2
+                );
+                break;
+              }
+              case "embed" /* EMBED */: {
+                const { pathOrUrl, alias, isExternal } = cell;
+                contentNode = /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
+                  BodyCellContainer,
+                  __spreadProps(__spreadValues({}, commonProps), {
+                    type,
+                    pathOrUrl,
+                    alias,
+                    isExternal
+                  }),
+                  id2
+                );
+                break;
+              }
+              case "checkbox" /* CHECKBOX */: {
+                const { value } = cell;
+                contentNode = /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
+                  BodyCellContainer,
+                  __spreadProps(__spreadValues({}, commonProps), {
+                    type,
+                    value
+                  }),
+                  id2
+                );
+                break;
+              }
+              case "date" /* DATE */: {
+                const { dateTime } = cell;
+                contentNode = /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
+                  BodyCellContainer,
+                  __spreadProps(__spreadValues({}, commonProps), {
+                    type,
+                    dateTime,
+                    onColumnChange
+                  }),
+                  id2
+                );
+                break;
+              }
+              case "creation-time" /* CREATION_TIME */: {
+                contentNode = /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
+                  BodyCellContainer,
+                  __spreadProps(__spreadValues({}, commonProps), {
+                    type
+                  }),
+                  id2
+                );
+                break;
+              }
+              case "last-edited-time" /* LAST_EDITED_TIME */: {
+                contentNode = /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
+                  BodyCellContainer,
+                  __spreadProps(__spreadValues({}, commonProps), {
+                    type
+                  }),
+                  id2
+                );
+                break;
+              }
+              case "source" /* SOURCE */: {
+                contentNode = /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
+                  BodyCellContainer,
+                  __spreadProps(__spreadValues({}, commonProps), {
+                    type
+                  }),
+                  id2
+                );
+                break;
+              }
+              case "source-file" /* SOURCE_FILE */: {
+                const { path } = cell;
+                contentNode = /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
+                  BodyCellContainer,
+                  __spreadProps(__spreadValues({}, commonProps), {
+                    type,
+                    path
+                  }),
+                  id2
+                );
+                break;
+              }
+              default:
+                throw new Error(
+                  `Cell type ${type} not implemented`
+                );
+            }
           }
           return /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
             BodyCell,
             {
               rowId,
-              content,
+              contentNode,
               index: i2,
               numFrozenColumns
             },
@@ -54820,13 +59211,13 @@ function toAlignment(value) {
 }
 
 // src/shared/cell-content/checkbox-cell-content.ts
-var getCheckboxCellContent = (content, shouldRemoveMarkdown) => {
+var getCheckboxCellContent = (value, shouldRemoveMarkdown) => {
   if (shouldRemoveMarkdown) {
-    if (isCheckboxChecked(content))
+    if (value)
       return "true";
     return "false";
   }
-  return content;
+  return value ? CHECKBOX_MARKDOWN_CHECKED : CHECKBOX_MARKDOWN_UNCHECKED;
 };
 
 // src/shared/cell-content/text-cell-content.ts
@@ -57139,28 +61530,26 @@ var getTextCellContent = (content, shouldRemoveMarkdown) => {
   return content;
 };
 
-// src/shared/cell-content/time-content.ts
-var getTimeCellContent = (dateTime, format, separator, hour12) => {
-  if (dateTime !== null) {
-    return dateTimeToDateString(dateTime, format, separator, {
-      includeTime: true,
-      hour12
-    });
-  }
-  return "";
-};
-
 // src/shared/cell-content/index.ts
 var getTagCellContent = (column, cell) => {
+  const { tagId } = cell;
+  if (!tagId)
+    return "";
+  const tag = column.tags.find((tag2) => tag2.id === tagId);
+  if (!tag)
+    throw new TagNotFoundError(tagId);
+  return tag.content;
+};
+var getMultiTagCellContent = (column, cell) => {
   return column.tags.filter((tag) => cell.tagIds.includes(tag.id)).map((tag) => tag.content).join(",");
 };
 var getCellContent = (app, source, column, row, cell, shouldRemoveMarkdown) => {
-  const { content, isExternalLink, dateTime } = cell;
   const {
     currencyType,
     numberPrefix,
     numberSuffix,
     numberSeparator,
+    numberFormat,
     dateFormat,
     dateFormatSeparator,
     includeTime,
@@ -57168,28 +61557,41 @@ var getCellContent = (app, source, column, row, cell, shouldRemoveMarkdown) => {
   } = column;
   const { creationDateTime, lastEditedDateTime } = row;
   switch (column.type) {
-    case "text" /* TEXT */:
-    case "file" /* FILE */:
+    case "text" /* TEXT */: {
+      const { content } = cell;
       return getTextCellContent(content, shouldRemoveMarkdown);
-    case "number" /* NUMBER */:
-      return getNumberCellContent(column.numberFormat, content, {
+    }
+    case "file" /* FILE */: {
+      const { path } = cell;
+      return getTextCellContent(path, shouldRemoveMarkdown);
+    }
+    case "number" /* NUMBER */: {
+      const { value } = cell;
+      return getNumberCellContent(numberFormat, value, {
         currency: currencyType,
         prefix: numberPrefix,
         suffix: numberSuffix,
         separator: numberSeparator
       });
-    case "embed" /* EMBED */:
-      return getEmbedCellContent(app, content, {
+    }
+    case "embed" /* EMBED */: {
+      const { pathOrUrl, isExternal } = cell;
+      return getEmbedCellContent(app, pathOrUrl, {
         isExport: true,
-        isExternalLink,
+        isExternal,
         shouldRemoveMarkdown
       });
-    case "checkbox" /* CHECKBOX */:
-      return getCheckboxCellContent(content, shouldRemoveMarkdown);
+    }
+    case "checkbox" /* CHECKBOX */: {
+      const { value } = cell;
+      return getCheckboxCellContent(value, shouldRemoveMarkdown);
+    }
     case "tag" /* TAG */:
-    case "multi-tag" /* MULTI_TAG */:
       return getTagCellContent(column, cell);
-    case "date" /* DATE */:
+    case "multi-tag" /* MULTI_TAG */:
+      return getMultiTagCellContent(column, cell);
+    case "date" /* DATE */: {
+      const { dateTime } = cell;
       return getDateCellContent(
         dateTime,
         dateFormat,
@@ -57197,25 +61599,30 @@ var getCellContent = (app, source, column, row, cell, shouldRemoveMarkdown) => {
         includeTime,
         hour12
       );
-    case "creation-time" /* CREATION_TIME */:
+    }
+    case "creation-time" /* CREATION_TIME */: {
       return getTimeCellContent(
         creationDateTime,
         dateFormat,
         dateFormatSeparator,
         hour12
       );
-    case "last-edited-time" /* LAST_EDITED_TIME */:
+    }
+    case "last-edited-time" /* LAST_EDITED_TIME */: {
       return getTimeCellContent(
         lastEditedDateTime,
         dateFormat,
         dateFormatSeparator,
         hour12
       );
+    }
     case "source" /* SOURCE */: {
       return getSourceCellContent(source);
     }
-    case "source-file" /* SOURCE_FILE */:
-      return getSourceFileContent(content, shouldRemoveMarkdown);
+    case "source-file" /* SOURCE_FILE */: {
+      const { path } = cell;
+      return getSourceFileContent(path, shouldRemoveMarkdown);
+    }
     default:
       throw new Error("Unsupported cell type");
   }
@@ -58244,6 +62651,21 @@ var createFolderSource = (path, includeSubfolders) => {
     includeSubfolders
   };
 };
+var createFrontmatterSource = (propertyType, propertyKey, options) => {
+  const { filterCondition: originalFilterCondition, filterText = "" } = options || {};
+  let filterCondition = originalFilterCondition;
+  if (!filterCondition) {
+    filterCondition = getFilterConditionsForPropertyType(propertyType)[0];
+  }
+  return {
+    id: generateUuid(),
+    type: "frontmatter" /* FRONTMATTER */,
+    propertyType,
+    propertyKey,
+    filterCondition,
+    filterText
+  };
+};
 var createColumn = (options) => {
   const {
     type = "text" /* TEXT */,
@@ -58294,25 +62716,96 @@ var createRow = (index, options) => {
     cells
   };
 };
-var createCell = (columnId, options = {}) => {
-  const {
-    type,
-    tagIds = [],
-    content: originalContent = "",
-    dateTime = null
-  } = options != null ? options : {};
-  let content = originalContent;
-  if (type === "checkbox" /* CHECKBOX */) {
-    if (content === "") {
-      content = CHECKBOX_MARKDOWN_UNCHECKED2;
-    }
-  }
+var createTextCell = (columnId, options) => {
+  const { content = "" } = options != null ? options : {};
   return {
     id: generateUuid(),
-    isExternalLink: false,
     columnId,
-    dateTime,
-    content,
+    content
+  };
+};
+var createNumberCell = (columnId, options) => {
+  const { value = null } = options != null ? options : {};
+  return {
+    id: generateUuid(),
+    columnId,
+    value
+  };
+};
+var createDateCell = (columnId, options) => {
+  const { dateTime = null } = options != null ? options : {};
+  return {
+    id: generateUuid(),
+    columnId,
+    dateTime
+  };
+};
+var createLastEditedTimeCell = (columnId) => {
+  return {
+    id: generateUuid(),
+    columnId
+  };
+};
+var createCreationTimeCell = (columnId) => {
+  return {
+    id: generateUuid(),
+    columnId
+  };
+};
+var createSourceCell = (columnId) => {
+  return {
+    id: generateUuid(),
+    columnId
+  };
+};
+var createSourceFileCell = (columnId, options) => {
+  const { path = "" } = options || {};
+  return {
+    id: generateUuid(),
+    columnId,
+    path
+  };
+};
+var createEmbedCell = (columnId, options) => {
+  const { isExternal = false, pathOrUrl = "", alias = null } = options || {};
+  return {
+    id: generateUuid(),
+    columnId,
+    isExternal,
+    pathOrUrl,
+    alias
+  };
+};
+var createFileCell = (columnId, options) => {
+  const { path = "", alias = null } = options || {};
+  return {
+    id: generateUuid(),
+    columnId,
+    path,
+    alias
+  };
+};
+var createCheckboxCell = (columnId, options) => {
+  const { value = false } = options || {};
+  return {
+    id: generateUuid(),
+    columnId,
+    value
+  };
+};
+var createTagCell = (columnId, options) => {
+  const { tagId = null } = options || {};
+  return {
+    id: generateUuid(),
+    columnId,
+    tagId
+  };
+};
+var createMultiTagCell = (columnId, options) => {
+  const { tagIds = [] } = options || {};
+  return {
+    id: generateUuid(),
+    columnId,
     tagIds
   };
 };
@@ -58365,7 +62858,7 @@ var createCheckboxFilter2 = (columnId, options) => {
   const {
     condition = "is" /* IS */,
     isEnabled = true,
-    text = ""
+    value = false
   } = options || {};
   const baseFilter = createBaseFilter2(columnId, {
     isEnabled
@@ -58373,8 +62866,8 @@ var createCheckboxFilter2 = (columnId, options) => {
   return __spreadProps(__spreadValues({}, baseFilter), {
     type: "checkbox" /* CHECKBOX */,
     condition,
-    text,
-    isEnabled
+    isEnabled,
+    value
   });
 };
 var createTagFilter2 = (columnId, options) => {
@@ -58506,13 +62999,37 @@ var createTag = (content, options) => {
     color
   };
 };
-var createLoomState = (pluginVersion, frozenColumnCount) => {
-  return createBasicLoomState(1, 1, {
-    pluginVersion,
-    frozenColumnCount
-  });
+var createCellForType = (columnId, type) => {
+  switch (type) {
+    case "text" /* TEXT */:
+      return createTextCell(columnId);
+    case "number" /* NUMBER */:
+      return createNumberCell(columnId);
+    case "date" /* DATE */:
+      return createDateCell(columnId);
+    case "creation-time" /* CREATION_TIME */:
+      return createCreationTimeCell(columnId);
+    case "last-edited-time" /* LAST_EDITED_TIME */:
+      return createLastEditedTimeCell(columnId);
+    case "embed" /* EMBED */:
+      return createEmbedCell(columnId);
+    case "file" /* FILE */:
+      return createFileCell(columnId);
+    case "checkbox" /* CHECKBOX */:
+      return createCheckboxCell(columnId);
+    case "tag" /* TAG */:
+      return createTagCell(columnId);
+    case "multi-tag" /* MULTI_TAG */:
+      return createMultiTagCell(columnId);
+    case "source" /* SOURCE */:
+      return createSourceCell(columnId);
+    case "source-file" /* SOURCE_FILE */:
+      return createSourceFileCell(columnId);
+    default:
+      throw new Error("Unhandled cell type");
+  }
 };
-var createBasicLoomState = (numColumns, numRows, options) => {
+var createLoomState = (numColumns, numRows, options) => {
   const {
     type,
     pluginVersion = "1.0.0",
@@ -58526,7 +63043,7 @@ var createBasicLoomState = (numColumns, numRows, options) => {
   for (let i2 = 0; i2 < numRows; i2++) {
     const cells = [];
     for (let j2 = 0; j2 < numColumns; j2++) {
-      const newCell = createCell(columns[j2].id);
+      const newCell = createTextCell(columns[j2].id);
       cells.push(newCell);
     }
     const row = createRow(i2, {
@@ -58583,7 +63100,7 @@ var addImportData = (prevState, data, columnMatches, dateFormat, dateFormatSepar
     const { cells } = row;
     const newCells = [...cells];
     newColumns.forEach((column) => {
-      const cell = createCell(column.id);
+      const cell = createTextCell(column.id);
       newCells.push(cell);
     });
     return __spreadProps(__spreadValues({}, row), {
@@ -58605,7 +63122,7 @@ var addImportData = (prevState, data, columnMatches, dateFormat, dateFormatSepar
         const { importColumnIndex } = match;
         content = importRow[importColumnIndex].trim();
         if (type === "tag" /* TAG */) {
-          const { cell, newTags } = createTagCell(
+          const { cell, newTags } = findTagCell(
             columnTags,
             columnId,
             content
@@ -58613,7 +63130,7 @@ var addImportData = (prevState, data, columnMatches, dateFormat, dateFormatSepar
           newCell = cell;
           columnTags.push(...newTags);
         } else if (type === "multi-tag" /* MULTI_TAG */) {
-          const { cell, newTags } = createMultiTagCell(
+          const { cell, newTags } = findMultiTagCell(
             columnTags,
             columnId,
             content
@@ -58621,7 +63138,7 @@ var addImportData = (prevState, data, columnMatches, dateFormat, dateFormatSepar
           newCell = cell;
           columnTags.push(...newTags);
         } else if (type === "date" /* DATE */) {
-          const cell = createDateCell(
+          const cell = findDateCell(
             columnId,
             content,
             dateFormat,
@@ -58631,7 +63148,7 @@ var addImportData = (prevState, data, columnMatches, dateFormat, dateFormatSepar
         }
       }
       if (!newCell) {
-        newCell = createCell(columnId, {
+        newCell = createTextCell(columnId, {
           content
         });
       }
@@ -58649,7 +63166,7 @@ var addImportData = (prevState, data, columnMatches, dateFormat, dateFormatSepar
     })
   });
 };
-var createMultiTagCell = (columnTags, columnId, content) => {
+var findMultiTagCell = (columnTags, columnId, content) => {
   const newTags = [];
   const tagIds = [];
   const parsedTags = content.split(",").map((tag) => tag.trim());
@@ -58667,7 +63184,7 @@ var createMultiTagCell = (columnTags, columnId, content) => {
       }
     });
   }
-  const cell = createCell(columnId, {
+  const cell = createMultiTagCell(columnId, {
     tagIds
   });
   return {
@@ -58675,7 +63192,7 @@ var createMultiTagCell = (columnTags, columnId, content) => {
     newTags
   };
 };
-var createTagCell = (columnTags, columnId, content) => {
+var findTagCell = (columnTags, columnId, content) => {
   const newTags = [];
   let tagId = null;
   const parsedTags = content.split(",").map((tag) => tag.trim());
@@ -58695,15 +63212,15 @@ var createTagCell = (columnTags, columnId, content) => {
       }
     });
   }
-  const cell = createCell(columnId, {
-    tagIds: tagId ? [tagId] : void 0
+  const cell = createTagCell(columnId, {
+    tagId
   });
   return {
     cell,
     newTags
   };
 };
-var createDateCell = (columnId, content, dateFormat, dateFormatSeparator) => {
+var findDateCell = (columnId, content, dateFormat, dateFormatSeparator) => {
   let dateTime = null;
   if (dateFormat && dateFormatSeparator) {
     if (isValidDateString(content, dateFormat, dateFormatSeparator)) {
@@ -58714,7 +63231,7 @@ var createDateCell = (columnId, content, dateFormat, dateFormatSeparator) => {
       );
     }
   }
-  const cell = createCell(columnId, {
+  const cell = createDateCell(columnId, {
     dateTime
   });
   return cell;
@@ -58727,6 +63244,7 @@ var import_react46 = __toESM(require_react());
 var import_jsx_runtime113 = __toESM(require_jsx_runtime());
 function Select({
   id: id2,
+  isDisabled,
   hasError,
   className: customClassName,
   value,
@@ -58744,6 +63262,7 @@ function Select({
   return /* @__PURE__ */ (0, import_jsx_runtime113.jsx)(
     "select",
     {
+      disabled: isDisabled,
       id: id2,
       tabIndex: 0,
       className,
@@ -59109,12 +63628,13 @@ var ImportModal = class extends import_obsidian17.Modal {
     this.handleStateChange = (state) => __async(this, null, function* () {
       const serialized = serializeState(state);
       yield this.app.vault.modify(this.loomFile, serialized);
-      this.app.workspace.trigger(
+      EventManager.getInstance().emit(
         "app-refresh",
         this.loomFile.path,
         "",
         state
       );
+      new import_obsidian17.Notice("Success! DataLoom import completed.");
       this.close();
     });
     this.loomFile = loomFile;
@@ -59403,6 +63923,7 @@ function FilterRow({
   index,
   id: id2,
   columns,
+  useSpacer,
   isEnabled,
   selectedColumnId,
   selectedOperator,
@@ -59416,14 +63937,15 @@ function FilterRow({
   onDeleteClick
 }) {
   return /* @__PURE__ */ (0, import_jsx_runtime124.jsx)("div", { className: "dataloom-filter-row", children: /* @__PURE__ */ (0, import_jsx_runtime124.jsxs)(Wrap, { children: [
-    index !== 0 ? /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
+    index !== 0 && /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
       FilterOperator,
       {
         id: id2,
         value: selectedOperator,
         onChange: onOperatorChange
       }
-    ) : /* @__PURE__ */ (0, import_jsx_runtime124.jsx)("div", { className: "dataloom-filter-row__spacer" }),
+    ),
+    useSpacer && /* @__PURE__ */ (0, import_jsx_runtime124.jsx)("div", { className: "dataloom-filter-row__spacer" }),
     /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
       FilterColumnSelect,
       {
@@ -59625,7 +64147,7 @@ function MultiSelect({
   ] });
 }
 
-// src/react/loom-app/option-bar/filter-menu/date-filter-select.tsx
+// src/react/shared/date-filter-select/index.tsx
 var import_jsx_runtime128 = __toESM(require_jsx_runtime());
 function DateFilterSelect({ value, onChange }) {
   return /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(
@@ -59638,8 +64160,24 @@ function DateFilterSelect({ value, onChange }) {
   );
 }
 
-// src/react/loom-app/option-bar/filter-menu/index.tsx
+// src/react/shared/checkbox-filter-select/index.tsx
 var import_jsx_runtime129 = __toESM(require_jsx_runtime());
+function CheckboxFilterSelect({ value, onChange }) {
+  function handleChange(value2) {
+    if (value2 === "true") {
+      onChange(true);
+      return;
+    }
+    onChange(false);
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime129.jsxs)(Select, { value: value ? "true" : "false", onChange: handleChange, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime129.jsx)("option", { value: "false", children: "Unchecked" }),
+    /* @__PURE__ */ (0, import_jsx_runtime129.jsx)("option", { value: "true", children: "Checked" })
+  ] });
+}
+
+// src/react/loom-app/option-bar/filter-menu/index.tsx
+var import_jsx_runtime130 = __toESM(require_jsx_runtime());
 function FilterMenu({
   id: id2,
   isOpen,
@@ -59795,6 +64333,9 @@ function FilterMenu({
   function onTextChange(id3, text) {
     onUpdate(id3, { text });
   }
+  function onCheckboxChange(id3, text) {
+    onUpdate(id3, { text });
+  }
   function onDateFilterOptionChange(id3, option) {
     onUpdate(id3, { option });
   }
@@ -59810,7 +64351,7 @@ function FilterMenu({
       throw new Error("Filter not found");
     onUpdate(id3, { isEnabled: !filter3.isEnabled });
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
     Menu,
     {
       id: id2,
@@ -59818,14 +64359,14 @@ function FilterMenu({
       position,
       openDirection: "bottom-left",
       maxHeight: 255,
-      children: /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
         "div",
         {
           className: "dataloom-filter-menu",
           style: {
             width: isSmallScreenSize() ? "calc(100vw - 30px)" : void 0
           },
-          children: /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(Padding, { p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime129.jsxs)(Stack, { spacing: "lg", children: [
+          children: /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(Padding, { p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime130.jsxs)(Stack, { spacing: "lg", children: [
             filters.map((filter3, i2) => {
               const {
                 id: id3,
@@ -59846,7 +64387,7 @@ function FilterMenu({
               switch (type) {
                 case "text" /* TEXT */: {
                   const { text } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
                     input_default,
                     {
                       value: text,
@@ -59867,7 +64408,7 @@ function FilterMenu({
                 }
                 case "file" /* FILE */: {
                   const { text } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
                     input_default,
                     {
                       value: text,
@@ -59888,7 +64429,7 @@ function FilterMenu({
                 }
                 case "source-file" /* SOURCE_FILE */: {
                   const { text } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
                     input_default,
                     {
                       value: text,
@@ -59908,29 +64449,15 @@ function FilterMenu({
                   break;
                 }
                 case "checkbox" /* CHECKBOX */: {
-                  const { text } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime129.jsxs)(
-                    Select,
+                  const { value } = filter3;
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
+                    CheckboxFilterSelect,
                     {
-                      value: text,
-                      onChange: (newValue) => onTextChange(id3, newValue),
-                      children: [
-                        /* @__PURE__ */ (0, import_jsx_runtime129.jsx)("option", { value: "", children: "Select an option" }),
-                        /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
-                          "option",
-                          {
-                            value: CHECKBOX_MARKDOWN_CHECKED,
-                            children: "Checked"
-                          }
-                        ),
-                        /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
-                          "option",
-                          {
-                            value: CHECKBOX_MARKDOWN_UNCHECKED2,
-                            children: "Unchecked"
-                          }
-                        )
-                      ]
+                      value,
+                      onChange: (newValue) => onCheckboxChange(
+                        id3,
+                        newValue.toString()
+                      )
                     }
                   );
                   conditionOptions = [
@@ -59941,14 +64468,14 @@ function FilterMenu({
                 }
                 case "tag" /* TAG */: {
                   const { tagId } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime129.jsxs)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime130.jsxs)(
                     Select,
                     {
                       value: tagId,
                       onChange: (newValue) => onTagChange(id3, newValue),
                       children: [
-                        /* @__PURE__ */ (0, import_jsx_runtime129.jsx)("option", { value: "", children: "Select an option" }),
-                        tags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
+                        /* @__PURE__ */ (0, import_jsx_runtime130.jsx)("option", { value: "", children: "Select an option" }),
+                        tags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
                           "option",
                           {
                             value: tag.id,
@@ -59969,7 +64496,7 @@ function FilterMenu({
                 }
                 case "multi-tag" /* MULTI_TAG */: {
                   const { tagIds } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
                     MultiSelect,
                     {
                       id: id3,
@@ -59977,7 +64504,7 @@ function FilterMenu({
                       options: tags.map((tag) => ({
                         id: tag.id,
                         name: tag.content,
-                        component: /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
+                        component: /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
                           Tag5,
                           {
                             content: tag.content,
@@ -60006,10 +64533,10 @@ function FilterMenu({
                 }
                 case "number" /* NUMBER */: {
                   const { text } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
                     input_default,
                     {
-                      inputMode: "numeric",
+                      isNumeric: true,
                       value: text,
                       onChange: (newValue) => onTextChange(id3, newValue)
                     }
@@ -60028,7 +64555,7 @@ function FilterMenu({
                 }
                 case "date" /* DATE */: {
                   const { option } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
                     DateFilterSelect,
                     {
                       value: option,
@@ -60049,7 +64576,7 @@ function FilterMenu({
                 }
                 case "creation-time" /* CREATION_TIME */: {
                   const { option } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
                     DateFilterSelect,
                     {
                       value: option,
@@ -60068,7 +64595,7 @@ function FilterMenu({
                 }
                 case "last-edited-time" /* LAST_EDITED_TIME */: {
                   const { option } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
                     DateFilterSelect,
                     {
                       value: option,
@@ -60088,11 +64615,12 @@ function FilterMenu({
                 default:
                   throw new Error("Column type not handled");
               }
-              return /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
+              return /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
                 FilterRow,
                 {
                   index: i2,
                   id: id3,
+                  useSpacer: filters.length > 1 && i2 === 0,
                   columns,
                   selectedColumnId: columnId,
                   selectedCondition: condition,
@@ -60109,17 +64637,14 @@ function FilterMenu({
                 id3
               );
             }),
-            /* @__PURE__ */ (0, import_jsx_runtime129.jsxs)(Stack, { isHorizontal: true, children: [
-              /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(
-                Button,
-                {
-                  icon: /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(Icon, { lucideId: "plus" }),
-                  ariaLabel: "Add filter",
-                  onClick: () => onAddClick()
-                }
-              ),
-              filters.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime129.jsx)(Text, { value: "No filters to display" })
-            ] })
+            /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
+              Button,
+              {
+                icon: /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(Icon, { lucideId: "plus" }),
+                ariaLabel: "Add filter",
+                onClick: () => onAddClick()
+              }
+            )
           ] }) })
         }
       )
@@ -60128,32 +64653,32 @@ function FilterMenu({
 }
 
 // src/react/loom-app/option-bar/sort-bubble/index.tsx
-var import_jsx_runtime130 = __toESM(require_jsx_runtime());
+var import_jsx_runtime131 = __toESM(require_jsx_runtime());
 function SortBubble({
   sortDir,
   content,
   onRemoveClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime130.jsx)("div", { className: "dataloom-sort-bubble", children: /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime131.jsx)("div", { className: "dataloom-sort-bubble", children: /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
     Bubble,
     {
       canRemove: true,
       value: content,
-      icon: sortDir === "asc" /* ASC */ ? /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(Icon, { lucideId: "arrow-up" }) : /* @__PURE__ */ (0, import_jsx_runtime130.jsx)(Icon, { lucideId: "arrow-down" }),
+      icon: sortDir === "asc" /* ASC */ ? /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(Icon, { lucideId: "arrow-up" }) : /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(Icon, { lucideId: "arrow-down" }),
       onRemoveClick
     }
   ) });
 }
 
 // src/react/loom-app/option-bar/sort-bubble-list.tsx
-var import_jsx_runtime131 = __toESM(require_jsx_runtime());
+var import_jsx_runtime132 = __toESM(require_jsx_runtime());
 function SortBubbleList({
   sortedColumns,
   onRemoveClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(Stack, { spacing: "sm", isHorizontal: true, children: sortedColumns.map((column, i2) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(Stack, { spacing: "sm", isHorizontal: true, children: sortedColumns.map((column, i2) => {
     const { id: id2, sortDir, content } = column;
-    return /* @__PURE__ */ (0, import_jsx_runtime131.jsx)(
+    return /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
       SortBubble,
       {
         sortDir,
@@ -60166,13 +64691,13 @@ function SortBubbleList({
 }
 
 // src/react/loom-app/option-bar/sources-menu/index.tsx
-var import_react52 = __toESM(require_react());
+var import_react51 = __toESM(require_react());
 
 // src/react/loom-app/option-bar/sources-menu/add-source-submenu/index.tsx
 var import_react50 = __toESM(require_react());
 
 // src/react/loom-app/option-bar/sources-menu/add-source-submenu/folder-source-options.tsx
-var import_jsx_runtime132 = __toESM(require_jsx_runtime());
+var import_jsx_runtime133 = __toESM(require_jsx_runtime());
 function FolderSourceOptions({
   pathInputId,
   includeSubfoldersInputId,
@@ -60182,10 +64707,10 @@ function FolderSourceOptions({
   onIncludeSubfoldersToggle,
   onPathChange
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime132.jsxs)(import_jsx_runtime132.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime132.jsxs)(Stack, { spacing: "sm", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime132.jsx)("label", { htmlFor: pathInputId, children: "Path" }),
-      /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime133.jsxs)(import_jsx_runtime133.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime133.jsxs)(Stack, { spacing: "sm", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime133.jsx)("label", { htmlFor: pathInputId, children: "Path" }),
+      /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(
         input_default,
         {
           id: pathInputId,
@@ -60196,9 +64721,9 @@ function FolderSourceOptions({
         }
       )
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime132.jsxs)(Stack, { spacing: "sm", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime132.jsx)("label", { htmlFor: includeSubfoldersInputId, children: "Include subfolders" }),
-      /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime133.jsxs)(Stack, { spacing: "sm", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime133.jsx)("label", { htmlFor: includeSubfoldersInputId, children: "Include subfolders" }),
+      /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(
         Switch,
         {
           value: includeSubfolders,
@@ -60210,7 +64735,65 @@ function FolderSourceOptions({
 }
 
 // src/react/loom-app/option-bar/sources-menu/add-source-submenu/index.tsx
-var import_jsx_runtime133 = __toESM(require_jsx_runtime());
+var import_obsidian18 = require("obsidian");
+
+// src/react/loom-app/option-bar/sources-menu/add-source-submenu/frontmatter-source-options.tsx
+var import_jsx_runtime134 = __toESM(require_jsx_runtime());
+function FrontmatterSourceOptions({
+  propertyTypeSelectId,
+  propertyKeySelectId,
+  selectedPropertyType,
+  selectedPropertyKey,
+  onPropertyKeyChange,
+  onPropertyTypeChange
+}) {
+  let propertyTypes = [];
+  if (selectedPropertyType !== null) {
+    propertyTypes = FrontmatterCache.getInstance().getPropertyNames(
+      selectedPropertyType
+    );
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime134.jsxs)(import_jsx_runtime134.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime134.jsxs)(Stack, { spacing: "sm", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime134.jsx)("label", { htmlFor: propertyTypeSelectId, children: "Property Type" }),
+      /* @__PURE__ */ (0, import_jsx_runtime134.jsxs)(
+        Select,
+        {
+          value: selectedPropertyType != null ? selectedPropertyType : "",
+          onChange: (value) => onPropertyTypeChange(
+            value || null
+          ),
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime134.jsx)("option", { value: "", children: "Select an option" }),
+            Object.values(ObsidianPropertyType).map((type) => {
+              return /* @__PURE__ */ (0, import_jsx_runtime134.jsx)("option", { value: type, children: type }, type);
+            })
+          ]
+        }
+      )
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime134.jsxs)(Stack, { spacing: "sm", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime134.jsx)("label", { htmlFor: propertyKeySelectId, children: "Property Key" }),
+      /* @__PURE__ */ (0, import_jsx_runtime134.jsxs)(
+        Select,
+        {
+          isDisabled: selectedPropertyType === null,
+          value: selectedPropertyKey != null ? selectedPropertyKey : "",
+          onChange: (value) => onPropertyKeyChange(value || null),
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime134.jsx)("option", { value: "", children: "Select an option" }),
+            Object.values(propertyTypes).map((type) => {
+              return /* @__PURE__ */ (0, import_jsx_runtime134.jsx)("option", { value: type, children: type }, type);
+            })
+          ]
+        }
+      )
+    ] })
+  ] });
+}
+
+// src/react/loom-app/option-bar/sources-menu/add-source-submenu/index.tsx
+var import_jsx_runtime135 = __toESM(require_jsx_runtime());
 function AddSourceSubmenu({
   sources,
   onAddSourceClick,
@@ -60220,63 +64803,92 @@ function AddSourceSubmenu({
   const [path, setPath] = import_react50.default.useState("");
   const [includeSubfolders, setIncludeSubfolders] = import_react50.default.useState(true);
   const [error, setError] = import_react50.default.useState(null);
+  const [propertyType, setPropertyType] = import_react50.default.useState(null);
+  const [propertyKey, setPropertyKey] = import_react50.default.useState(null);
   const typeSelectId = import_react50.default.useId();
   const pathInputId = import_react50.default.useId();
   const includeSubfoldersInputId = import_react50.default.useId();
+  const propertyKeySelectId = import_react50.default.useId();
+  const propertyTypeSelectId = import_react50.default.useId();
   function handleAddClick() {
+    const formattedPath = (0, import_obsidian18.normalizePath)(path);
     if (type === null) {
       setError({
         message: "Please select a type",
         inputId: typeSelectId
       });
       return;
-    } else if (path === "") {
-      setError({
-        message: "Please enter a path",
-        inputId: pathInputId
-      });
-      return;
-    } else if (alreadyHasSource(sources, type, path)) {
-      setError({
-        message: "Source already exists",
-        inputId: pathInputId
-      });
-      return;
+    } else if (type === "folder" /* FOLDER */) {
+      if (path === "") {
+        setError({
+          message: "Please enter a path",
+          inputId: pathInputId
+        });
+        return;
+      } else if (alreadyHasSource(sources, type, { path: formattedPath })) {
+        setError({
+          message: "A source with this path already exists",
+          inputId: pathInputId
+        });
+        return;
+      }
+    } else if (type === "frontmatter" /* FRONTMATTER */) {
+      if (propertyType === null) {
+        setError({
+          message: "Please select a property type",
+          inputId: propertyTypeSelectId
+        });
+        return;
+      } else if (propertyKey === null) {
+        setError({
+          message: "Please select a property key",
+          inputId: propertyKeySelectId
+        });
+        return;
+      } else if (alreadyHasSource(sources, type, { key: propertyKey })) {
+        setError({
+          message: "A source with this key already exists",
+          inputId: propertyKeySelectId
+        });
+        return;
+      }
     }
-    let source;
+    let source = null;
     if (type === "folder" /* FOLDER */) {
-      source = createFolderSource(path, includeSubfolders);
+      source = createFolderSource(formattedPath, includeSubfolders);
+    } else if (type === "frontmatter" /* FRONTMATTER */) {
+      if (propertyType === null || propertyKey === null) {
+        throw new Error("Property type or key is null");
+      }
+      source = createFrontmatterSource(propertyType, propertyKey);
     } else {
-      setError({
-        message: "Source not supported",
-        inputId: pathInputId
-      });
-      return;
+      throw new Error("Source type not handled");
     }
     onAddSourceClick(source);
   }
-  function alreadyHasSource(sources2, type2, path2) {
+  function alreadyHasSource(sources2, type2, options) {
+    const { path: path2, key } = options != null ? options : {};
     if (type2 === "folder" /* FOLDER */) {
       return sources2.find(
         (source) => source.type === type2 && source.path === path2
       );
-    } else if (type2 === "tag" /* TAG */) {
+    } else if (type2 === "frontmatter" /* FRONTMATTER */) {
       return sources2.find(
-        (source) => source.type === type2 && source.name === path2
+        (source) => source.type === type2 && source.propertyKey === key
       );
     }
     throw new Error("Source type not handled");
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(
     Submenu,
     {
       title: "Add source",
       showBackButton: sources.length > 0,
       onBackClick,
-      children: /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(Padding, { py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime133.jsxs)(Stack, { spacing: "lg", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime133.jsxs)(Stack, { spacing: "sm", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime133.jsx)("label", { htmlFor: "type", children: "Type" }),
-          /* @__PURE__ */ (0, import_jsx_runtime133.jsxs)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(Padding, { py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime135.jsxs)(Stack, { spacing: "lg", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime135.jsxs)(Stack, { spacing: "sm", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime135.jsx)("label", { htmlFor: "type", children: "Type" }),
+          /* @__PURE__ */ (0, import_jsx_runtime135.jsxs)(
             Select,
             {
               id: "type",
@@ -60284,15 +64896,15 @@ function AddSourceSubmenu({
               hasError: (error == null ? void 0 : error.inputId) === typeSelectId,
               onChange: (value) => setType(value || null),
               children: [
-                /* @__PURE__ */ (0, import_jsx_runtime133.jsx)("option", { value: "", children: "Select an option" }),
-                Object.values(SourceType).filter((type2) => type2 !== "tag" /* TAG */).map((type2) => {
-                  return /* @__PURE__ */ (0, import_jsx_runtime133.jsx)("option", { value: type2, children: getDisplayNameForSource(type2) }, type2);
+                /* @__PURE__ */ (0, import_jsx_runtime135.jsx)("option", { value: "", children: "Select an option" }),
+                Object.values(SourceType).map((type2) => {
+                  return /* @__PURE__ */ (0, import_jsx_runtime135.jsx)("option", { value: type2, children: getDisplayNameForSource(type2) }, type2);
                 })
               ]
             }
           )
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(
+        type === "folder" /* FOLDER */ && /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(
           FolderSourceOptions,
           {
             pathInputId,
@@ -60304,68 +64916,52 @@ function AddSourceSubmenu({
             onPathChange: (value) => setPath(value)
           }
         ),
-        (error == null ? void 0 : error.message) && /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(Text, { value: error.message, variant: "error" }),
-        /* @__PURE__ */ (0, import_jsx_runtime133.jsx)(Button, { variant: "default", onClick: () => handleAddClick(), children: "Add" })
+        type === "frontmatter" /* FRONTMATTER */ && /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(
+          FrontmatterSourceOptions,
+          {
+            propertyKeySelectId,
+            propertyTypeSelectId,
+            error,
+            selectedPropertyType: propertyType,
+            selectedPropertyKey: propertyKey,
+            onPropertyKeyChange: setPropertyKey,
+            onPropertyTypeChange: setPropertyType
+          }
+        ),
+        (error == null ? void 0 : error.message) && /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(Text, { value: error.message, variant: "error" }),
+        /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(Button, { variant: "default", onClick: () => handleAddClick(), children: "Add" })
       ] }) })
     }
   );
 }
 
-// src/react/loom-app/option-bar/sources-menu/base-content/index.tsx
-var import_react51 = __toESM(require_react());
-
-// src/react/loom-app/option-bar/sources-menu/sources-header.tsx
-var import_jsx_runtime134 = __toESM(require_jsx_runtime());
-function SourcesHeader({
-  showEditButton,
-  onAddClick,
-  onEditClick
-}) {
-  return /* @__PURE__ */ (0, import_jsx_runtime134.jsxs)(Flex, { justify: "space-between", align: "center", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(Text, { value: "Sources" }),
-    /* @__PURE__ */ (0, import_jsx_runtime134.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
-      showEditButton && /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(
-        Button,
-        {
-          icon: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(Icon, { lucideId: "edit" }),
-          ariaLabel: "Edit source",
-          onClick: () => onEditClick()
-        }
-      ),
-      /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(
-        Button,
-        {
-          icon: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)(Icon, { lucideId: "plus" }),
-          onClick: () => onAddClick(),
-          ariaLabel: "Add source"
-        }
-      )
-    ] })
-  ] });
+// src/react/loom-app/option-bar/sources-menu/source-item/index.tsx
+var import_jsx_runtime136 = __toESM(require_jsx_runtime());
+function SourceItem({ children }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime136.jsx)("div", { className: "dataloom-source-item", children });
 }
 
-// src/react/loom-app/option-bar/sources-menu/dataloom-source/index.tsx
-var import_jsx_runtime135 = __toESM(require_jsx_runtime());
-function SourceItem({
+// src/react/loom-app/option-bar/sources-menu/folder-source-item/index.tsx
+var import_jsx_runtime137 = __toESM(require_jsx_runtime());
+function FolderSourceItem({
   id: id2,
   content,
   type,
-  isEditing,
   onDelete
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime135.jsx)("div", { className: "dataloom-source", children: /* @__PURE__ */ (0, import_jsx_runtime135.jsxs)(Flex, { justify: "space-between", align: "center", height: "100%", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(Stack, { isHorizontal: true, spacing: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(SourceItem, { children: /* @__PURE__ */ (0, import_jsx_runtime137.jsxs)(Flex, { justify: "space-between", align: "center", height: "100%", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(Stack, { isHorizontal: true, spacing: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(
       Bubble,
       {
-        icon: /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(Icon, { lucideId: getIconIdForSourceType(type) }),
+        icon: /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(Icon, { lucideId: getIconIdForSourceType(type) }),
         variant: "no-fill",
         value: content
       }
     ) }),
-    isEditing && /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(
       Button,
       {
-        icon: /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(Icon, { lucideId: "trash" }),
+        icon: /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(Icon, { lucideId: "trash" }),
         ariaLabel: "Delete source",
         onClick: () => onDelete(id2)
       }
@@ -60373,48 +64969,190 @@ function SourceItem({
   ] }) });
 }
 
-// src/react/loom-app/option-bar/sources-menu/base-content/index.tsx
-var import_jsx_runtime136 = __toESM(require_jsx_runtime());
-function BaseContent2({
-  sources,
-  onAddClick,
-  onDeleteClick
+// src/react/loom-app/option-bar/sources-menu/add-source-submenu/filter-input.tsx
+var import_jsx_runtime138 = __toESM(require_jsx_runtime());
+function FilterInput({
+  filterTextId,
+  selectedPropertyType,
+  filterText,
+  onFilterTextChange
 }) {
-  const [isEditing, setIsEditing] = import_react51.default.useState(false);
-  return /* @__PURE__ */ (0, import_jsx_runtime136.jsxs)(Stack, { spacing: "md", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime136.jsx)(
-      SourcesHeader,
+  const showListInput = selectedPropertyType === "aliases" /* ALIASES */ || selectedPropertyType === "tags" /* TAGS */ || selectedPropertyType === "multitext" /* MULTITEXT */;
+  const showDateInput = selectedPropertyType === "date" /* DATE */ || selectedPropertyType === "datetime" /* DATETIME */;
+  return /* @__PURE__ */ (0, import_jsx_runtime138.jsxs)(import_jsx_runtime138.Fragment, { children: [
+    selectedPropertyType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_jsx_runtime138.jsx)(
+      input_default,
       {
-        showEditButton: sources.length > 0,
-        onAddClick,
-        onEditClick: () => setIsEditing((prevState) => !prevState)
+        id: filterTextId,
+        autoFocus: false,
+        value: filterText,
+        onChange: (value) => onFilterTextChange(value)
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime136.jsx)("div", { className: "dataloom-source-container", children: sources.map((source) => {
-      const { id: id2, type } = source;
-      let content = "";
-      if (type === "folder" /* FOLDER */) {
-        content = source.path;
-      } else if (type === "tag" /* TAG */) {
-        content = source.name;
+    selectedPropertyType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime138.jsx)(
+      input_default,
+      {
+        id: filterTextId,
+        isNumeric: true,
+        autoFocus: false,
+        value: filterText,
+        onChange: (value) => onFilterTextChange(value)
       }
-      return /* @__PURE__ */ (0, import_jsx_runtime136.jsx)(
-        SourceItem,
-        {
-          id: id2,
-          content,
-          type,
-          isEditing,
-          onDelete: onDeleteClick
-        },
-        id2
-      );
-    }) })
+    ),
+    showDateInput && /* @__PURE__ */ (0, import_jsx_runtime138.jsx)(
+      DateFilterSelect,
+      {
+        value: filterText,
+        onChange: (value) => onFilterTextChange(value)
+      }
+    ),
+    selectedPropertyType === "checkbox" /* CHECKBOX */ && /* @__PURE__ */ (0, import_jsx_runtime138.jsx)(
+      CheckboxFilterSelect,
+      {
+        value: filterText === "true",
+        onChange: (value) => onFilterTextChange(value.toString())
+      }
+    ),
+    showListInput && /* @__PURE__ */ (0, import_jsx_runtime138.jsx)(
+      input_default,
+      {
+        id: filterTextId,
+        autoFocus: false,
+        value: filterText,
+        onChange: (value) => onFilterTextChange(value)
+      }
+    )
+  ] });
+}
+
+// src/react/loom-app/option-bar/sources-menu/frontmatter-source-item/index.tsx
+var import_jsx_runtime139 = __toESM(require_jsx_runtime());
+function FrontmatterSourceItem({
+  filterConditions,
+  filterText,
+  id: id2,
+  title,
+  selectedPropertyType,
+  selectedFilterCondition,
+  type,
+  onDelete,
+  onFilterConditionChange,
+  onFilterTextChange
+}) {
+  const showFilterInput = selectedFilterCondition !== "is-empty" /* IS_EMPTY */ && selectedFilterCondition !== "is-not-empty" /* IS_NOT_EMPTY */ && selectedFilterCondition !== "is-empty" /* IS_EMPTY */ && selectedFilterCondition !== "is-not-empty" /* IS_NOT_EMPTY */ && selectedFilterCondition !== "is-not-empty" /* IS_NOT_EMPTY */ && selectedFilterCondition !== "is-empty" /* IS_EMPTY */;
+  return /* @__PURE__ */ (0, import_jsx_runtime139.jsx)(SourceItem, { children: /* @__PURE__ */ (0, import_jsx_runtime139.jsx)("div", { className: "dataloom-frontmatter-source-item", children: /* @__PURE__ */ (0, import_jsx_runtime139.jsxs)(Wrap, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime139.jsx)(
+      Bubble,
+      {
+        icon: /* @__PURE__ */ (0, import_jsx_runtime139.jsx)(
+          Icon,
+          {
+            lucideId: getIconIdForSourceType(type, {
+              propertyType: selectedPropertyType
+            })
+          }
+        ),
+        variant: "no-fill",
+        value: title
+      }
+    ),
+    /* @__PURE__ */ (0, import_jsx_runtime139.jsx)(
+      Select,
+      {
+        value: selectedFilterCondition != null ? selectedFilterCondition : "",
+        onChange: (value) => onFilterConditionChange(
+          id2,
+          value || null
+        ),
+        children: Object.values(filterConditions).map((type2) => {
+          return /* @__PURE__ */ (0, import_jsx_runtime139.jsx)("option", { value: type2, children: getDisplayNameForFilterCondition(type2) }, type2);
+        })
+      }
+    ),
+    showFilterInput && /* @__PURE__ */ (0, import_jsx_runtime139.jsx)(
+      FilterInput,
+      {
+        selectedPropertyType,
+        filterText,
+        onFilterTextChange: (value) => onFilterTextChange(id2, value)
+      }
+    ),
+    /* @__PURE__ */ (0, import_jsx_runtime139.jsx)(Flex, { width: "fit-content", grow: true, justify: "flex-end", children: /* @__PURE__ */ (0, import_jsx_runtime139.jsx)(
+      Button,
+      {
+        icon: /* @__PURE__ */ (0, import_jsx_runtime139.jsx)(Icon, { lucideId: "trash" }),
+        ariaLabel: "Delete source",
+        onClick: () => onDelete(id2)
+      }
+    ) })
+  ] }) }) });
+}
+
+// src/react/loom-app/option-bar/sources-menu/base-content/index.tsx
+var import_jsx_runtime140 = __toESM(require_jsx_runtime());
+function BaseContent2({
+  sources,
+  onSourceAdd,
+  onSourceDelete,
+  onSourceFilterConditionChange,
+  onSourceFilterTextChange
+}) {
+  return /* @__PURE__ */ (0, import_jsx_runtime140.jsxs)(Stack, { spacing: "md", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime140.jsx)(Stack, { spacing: "md", children: sources.map((source) => {
+      const { id: id2, type } = source;
+      if (type === "folder" /* FOLDER */) {
+        const { path } = source;
+        return /* @__PURE__ */ (0, import_jsx_runtime140.jsx)(
+          FolderSourceItem,
+          {
+            id: id2,
+            content: path,
+            type,
+            onDelete: onSourceDelete
+          },
+          id2
+        );
+      } else if (type === "frontmatter" /* FRONTMATTER */) {
+        const {
+          filterCondition,
+          filterText,
+          propertyType,
+          propertyKey
+        } = source;
+        const filterConditions = getFilterConditionsForPropertyType(propertyType);
+        return /* @__PURE__ */ (0, import_jsx_runtime140.jsx)(
+          FrontmatterSourceItem,
+          {
+            id: id2,
+            title: propertyKey,
+            type,
+            onDelete: onSourceDelete,
+            selectedFilterCondition: filterCondition,
+            filterConditions,
+            filterText,
+            selectedPropertyType: propertyType,
+            onFilterConditionChange: onSourceFilterConditionChange,
+            onFilterTextChange: onSourceFilterTextChange
+          },
+          id2
+        );
+      } else {
+        throw new Error("Unhandled source type");
+      }
+    }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime140.jsx)(
+      Button,
+      {
+        icon: /* @__PURE__ */ (0, import_jsx_runtime140.jsx)(Icon, { lucideId: "plus" }),
+        onClick: () => onSourceAdd(),
+        ariaLabel: "Add source"
+      }
+    )
   ] });
 }
 
 // src/react/loom-app/option-bar/sources-menu/index.tsx
-var import_jsx_runtime137 = __toESM(require_jsx_runtime());
+var import_jsx_runtime141 = __toESM(require_jsx_runtime());
 function SourcesMenu({
   id: id2,
   isOpen,
@@ -60422,12 +65160,13 @@ function SourcesMenu({
   sources,
   onSourceAdd,
   onSourceDelete,
-  onClose
+  onSourceFilterConditionChange,
+  onSourceFilterTextChange
 }) {
-  const [submenu, setSubmenu] = import_react52.default.useState(
+  const [submenu, setSubmenu] = import_react51.default.useState(
     sources.length === 0 ? 0 /* ADD */ : null
   );
-  import_react52.default.useLayoutEffect(() => {
+  import_react51.default.useLayoutEffect(() => {
     if (sources.length === 0) {
       setSubmenu(0 /* ADD */);
     }
@@ -60435,26 +65174,26 @@ function SourcesMenu({
   function handleAddSourceClick(source) {
     onSourceAdd(source);
     setSubmenu(null);
-    onClose();
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime141.jsx)(
     Menu,
     {
       id: id2,
       openDirection: "bottom-left",
       isOpen,
-      width: 225,
       position,
-      children: /* @__PURE__ */ (0, import_jsx_runtime137.jsxs)(Padding, { px: "lg", py: "md", children: [
-        submenu === null && /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime141.jsxs)(Padding, { px: "lg", py: "md", children: [
+        submenu === null && /* @__PURE__ */ (0, import_jsx_runtime141.jsx)(
           BaseContent2,
           {
             sources,
-            onAddClick: () => setSubmenu(0 /* ADD */),
-            onDeleteClick: onSourceDelete
+            onSourceAdd: () => setSubmenu(0 /* ADD */),
+            onSourceDelete,
+            onSourceFilterConditionChange,
+            onSourceFilterTextChange
           }
         ),
-        submenu === 0 /* ADD */ && /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(
+        submenu === 0 /* ADD */ && /* @__PURE__ */ (0, import_jsx_runtime141.jsx)(
           AddSourceSubmenu,
           {
             sources,
@@ -60468,7 +65207,7 @@ function SourcesMenu({
 }
 
 // src/react/loom-app/option-bar/index.tsx
-var import_jsx_runtime138 = __toESM(require_jsx_runtime());
+var import_jsx_runtime142 = __toESM(require_jsx_runtime());
 function OptionBar({
   columns,
   filters,
@@ -60480,7 +65219,8 @@ function OptionBar({
   onCalculationRowToggle,
   onSourceAdd,
   onSourceDelete,
-  onColumnChange
+  onColumnChange,
+  onSourceUpdate
 }) {
   const COMPONENT_ID = "option-bar";
   const SOURCE_MENU_ID = "sources-menu";
@@ -60501,29 +65241,44 @@ function OptionBar({
   function handleColumnToggle(columnId, isVisible) {
     onColumnChange(columnId, { isVisible });
   }
+  function handleSourceFilterConditionChange(sourceId, value) {
+    onSourceUpdate(sourceId, { filterCondition: value });
+  }
+  function handleSourceFilterTextChange(sourceId, value) {
+    onSourceUpdate(sourceId, { filterText: value });
+  }
   function handleSourceMenuOpen() {
     sourcesMenu.onOpen(1 /* ONE */);
   }
   function handleFilterMenuOpen() {
     filterMenu.onOpen(1 /* ONE */);
+    if (filters.length === 0) {
+      onFilterAddClick();
+    }
   }
   function handleMoreMenuOpen() {
     moreMenu.onOpen(1 /* ONE */);
+  }
+  function handleFilterDelete(id2) {
+    onFilterDeleteClick(id2);
+    if (filters.length === 1) {
+      filterMenu.onClose();
+    }
   }
   const activeFilters = filters.filter((filter3) => filter3.isEnabled);
   const sortedColumns = columns.filter(
     (column) => column.sortDir !== "default" /* NONE */
   );
   const isSmallScreen = isSmallScreenSize();
-  return /* @__PURE__ */ (0, import_jsx_runtime138.jsxs)(import_jsx_runtime138.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime138.jsx)("div", { className: "dataloom-option-bar", children: /* @__PURE__ */ (0, import_jsx_runtime138.jsx)(Padding, { py: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime138.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime142.jsxs)(import_jsx_runtime142.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime142.jsx)("div", { className: "dataloom-option-bar", children: /* @__PURE__ */ (0, import_jsx_runtime142.jsx)(Padding, { py: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime142.jsxs)(
       Stack,
       __spreadProps(__spreadValues({
         isHorizontal: !isSmallScreen,
         spacing: "sm"
       }, !isSmallScreen && { justify: "space-between" }), {
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime138.jsxs)(
+          /* @__PURE__ */ (0, import_jsx_runtime142.jsxs)(
             Stack,
             __spreadProps(__spreadValues({
               isHorizontal: true,
@@ -60534,14 +65289,14 @@ function OptionBar({
               justify: "flex-end"
             }), {
               children: [
-                /* @__PURE__ */ (0, import_jsx_runtime138.jsx)(
+                /* @__PURE__ */ (0, import_jsx_runtime142.jsx)(
                   SortBubbleList,
                   {
                     sortedColumns,
                     onRemoveClick: handleRemoveClick
                   }
                 ),
-                /* @__PURE__ */ (0, import_jsx_runtime138.jsx)(
+                /* @__PURE__ */ (0, import_jsx_runtime142.jsx)(
                   ActiveFilterBubble,
                   {
                     numActive: activeFilters.length
@@ -60550,7 +65305,7 @@ function OptionBar({
               ]
             })
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime138.jsxs)(
+          /* @__PURE__ */ (0, import_jsx_runtime142.jsxs)(
             Stack,
             __spreadProps(__spreadValues({
               isHorizontal: true,
@@ -60561,7 +65316,7 @@ function OptionBar({
               width: "100%"
             }), {
               children: [
-                isSmallScreen === false && /* @__PURE__ */ (0, import_jsx_runtime138.jsx)(
+                isSmallScreen === false && /* @__PURE__ */ (0, import_jsx_runtime142.jsx)(
                   menu_button_default,
                   {
                     isFocused: sourcesMenu.isTriggerFocused,
@@ -60572,7 +65327,7 @@ function OptionBar({
                     children: "Sources"
                   }
                 ),
-                isSmallScreen === false && /* @__PURE__ */ (0, import_jsx_runtime138.jsx)(
+                isSmallScreen === false && /* @__PURE__ */ (0, import_jsx_runtime142.jsx)(
                   menu_button_default,
                   {
                     isFocused: filterMenu.isTriggerFocused,
@@ -60583,15 +65338,15 @@ function OptionBar({
                     children: "Filter"
                   }
                 ),
-                /* @__PURE__ */ (0, import_jsx_runtime138.jsx)(SearchBar, {}),
-                /* @__PURE__ */ (0, import_jsx_runtime138.jsx)(
+                /* @__PURE__ */ (0, import_jsx_runtime142.jsx)(SearchBar, {}),
+                /* @__PURE__ */ (0, import_jsx_runtime142.jsx)(
                   menu_button_default,
                   {
                     isFocused: moreMenu.isTriggerFocused,
                     menuId: moreMenu.id,
                     ref: moreMenu.triggerRef,
                     level: 1 /* ONE */,
-                    icon: /* @__PURE__ */ (0, import_jsx_runtime138.jsx)(Icon, { lucideId: "more-vertical" }),
+                    icon: /* @__PURE__ */ (0, import_jsx_runtime142.jsx)(Icon, { lucideId: "more-vertical" }),
                     onOpen: handleMoreMenuOpen
                   }
                 )
@@ -60601,7 +65356,7 @@ function OptionBar({
         ]
       })
     ) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime138.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime142.jsx)(
       SourcesMenu,
       {
         id: sourcesMenu.id,
@@ -60611,10 +65366,12 @@ function OptionBar({
         columns,
         onSourceAdd,
         onSourceDelete,
+        onSourceFilterConditionChange: handleSourceFilterConditionChange,
+        onSourceFilterTextChange: handleSourceFilterTextChange,
         onClose: sourcesMenu.onClose
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime138.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime142.jsx)(
       MoreMenu,
       {
         id: moreMenu.id,
@@ -60629,7 +65386,7 @@ function OptionBar({
         onSourcesClick: handleSourceMenuOpen
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime138.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime142.jsx)(
       FilterMenu,
       {
         id: filterMenu.id,
@@ -60638,7 +65395,7 @@ function OptionBar({
         columns,
         filters,
         onUpdate: onFilterUpdate,
-        onDeleteClick: onFilterDeleteClick,
+        onDeleteClick: handleFilterDelete,
         onAddClick: onFilterAddClick
       }
     )
@@ -60646,16 +65403,16 @@ function OptionBar({
 }
 
 // src/react/loom-app/bottom-bar/index.tsx
-var import_react53 = __toESM(require_react());
+var import_react52 = __toESM(require_react());
 var import_lodash9 = __toESM(require_lodash());
 
 // src/react/loom-app/new-row-button/index.tsx
-var import_jsx_runtime139 = __toESM(require_jsx_runtime());
+var import_jsx_runtime143 = __toESM(require_jsx_runtime());
 function NewRowButton({ onClick }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime139.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime143.jsx)(
     Button,
     {
-      icon: /* @__PURE__ */ (0, import_jsx_runtime139.jsx)(Icon, { lucideId: "plus" }),
+      icon: /* @__PURE__ */ (0, import_jsx_runtime143.jsx)(Icon, { lucideId: "plus" }),
       ariaLabel: "New row",
       onClick: () => onClick(),
       children: "New"
@@ -60664,7 +65421,7 @@ function NewRowButton({ onClick }) {
 }
 
 // src/react/loom-app/bottom-bar/index.tsx
-var import_jsx_runtime140 = __toESM(require_jsx_runtime());
+var import_jsx_runtime144 = __toESM(require_jsx_runtime());
 function BottomBar({
   onRowAddClick,
   onScrollToTopClick,
@@ -60672,10 +65429,10 @@ function BottomBar({
   onUndoClick,
   onRedoClick
 }) {
-  const ref = import_react53.default.useRef(null);
-  const [bottomBarOffset, setBottomBarOffset] = import_react53.default.useState(0);
+  const ref = import_react52.default.useRef(null);
+  const [bottomBarOffset, setBottomBarOffset] = import_react52.default.useState(0);
   const isMobile = isOnMobile();
-  import_react53.default.useEffect(() => {
+  import_react52.default.useEffect(() => {
     const el = ref.current;
     if (!el)
       return;
@@ -60711,46 +65468,54 @@ function BottomBar({
       observer.disconnect();
     };
   }, []);
-  return /* @__PURE__ */ (0, import_jsx_runtime140.jsx)("div", { ref, className: "dataloom-bottom-bar", children: /* @__PURE__ */ (0, import_jsx_runtime140.jsx)(
+  let className = "dataloom-bottom-bar";
+  if (isMobile) {
+    className += " dataloom-bottom-bar--mobile";
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime144.jsx)("div", { ref, className, children: /* @__PURE__ */ (0, import_jsx_runtime144.jsx)(
     "div",
     {
       style: {
         top: numToPx(-bottomBarOffset)
       },
-      children: /* @__PURE__ */ (0, import_jsx_runtime140.jsx)(Padding, { pt: "md", width: "100%", children: /* @__PURE__ */ (0, import_jsx_runtime140.jsxs)(Flex, { justify: "space-between", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime140.jsxs)(Stack, { spacing: "md", isHorizontal: true, children: [
-          isMobile && /* @__PURE__ */ (0, import_jsx_runtime140.jsx)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime144.jsx)(Padding, { pt: "md", width: "100%", children: /* @__PURE__ */ (0, import_jsx_runtime144.jsxs)(Stack, { spacing: "sm", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime144.jsxs)(Flex, { justify: "space-between", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime144.jsx)(NewRowButton, { onClick: onRowAddClick }),
+          /* @__PURE__ */ (0, import_jsx_runtime144.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime144.jsx)(
+              Button,
+              {
+                ariaLabel: "Scroll to top",
+                icon: /* @__PURE__ */ (0, import_jsx_runtime144.jsx)(Icon, { lucideId: "chevron-up" }),
+                onClick: onScrollToTopClick
+              }
+            ),
+            /* @__PURE__ */ (0, import_jsx_runtime144.jsx)(
+              Button,
+              {
+                ariaLabel: "Scroll to bottom",
+                onClick: onScrollToBottomClick,
+                icon: /* @__PURE__ */ (0, import_jsx_runtime144.jsx)(Icon, { lucideId: "chevron-down" })
+              }
+            )
+          ] })
+        ] }),
+        isMobile && /* @__PURE__ */ (0, import_jsx_runtime144.jsxs)(Flex, { justify: "space-between", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime144.jsx)(
             Button,
             {
               ariaLabel: "Undo",
-              icon: /* @__PURE__ */ (0, import_jsx_runtime140.jsx)(Icon, { lucideId: "undo" }),
+              size: "lg",
+              icon: /* @__PURE__ */ (0, import_jsx_runtime144.jsx)(Icon, { lucideId: "undo" }),
               onClick: onUndoClick
             }
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime140.jsx)(NewRowButton, { onClick: onRowAddClick })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime140.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime140.jsx)(
-            Button,
-            {
-              ariaLabel: "Scroll to top",
-              icon: /* @__PURE__ */ (0, import_jsx_runtime140.jsx)(Icon, { lucideId: "chevron-up" }),
-              onClick: onScrollToTopClick
-            }
-          ),
-          /* @__PURE__ */ (0, import_jsx_runtime140.jsx)(
-            Button,
-            {
-              ariaLabel: "Scroll to bottom",
-              onClick: onScrollToBottomClick,
-              icon: /* @__PURE__ */ (0, import_jsx_runtime140.jsx)(Icon, { lucideId: "chevron-down" })
-            }
-          ),
-          isMobile && /* @__PURE__ */ (0, import_jsx_runtime140.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime144.jsx)(
             Button,
             {
               ariaLabel: "Redo",
-              icon: /* @__PURE__ */ (0, import_jsx_runtime140.jsx)(Icon, { lucideId: "redo" }),
+              size: "lg",
+              icon: /* @__PURE__ */ (0, import_jsx_runtime144.jsx)(Icon, { lucideId: "redo" }),
               onClick: onRedoClick
             }
           )
@@ -60829,6 +65594,136 @@ var getDateJustBeforeMidnight = (date) => {
   return newDate;
 };
 
+// src/shared/filter/filter-match.ts
+var doesNumberMatchFilter = (value, condition, filterText, shouldMatchIfNull) => {
+  if (filterText === "")
+    return shouldMatchIfNull;
+  const filterNumber = Number(filterText);
+  switch (condition) {
+    case "is-equal" /* IS_EQUAL */:
+      if (value === null)
+        return shouldMatchIfNull;
+      return value === filterNumber;
+    case "is-greater" /* IS_GREATER */:
+      if (value === null)
+        return shouldMatchIfNull;
+      return value > filterNumber;
+    case "is-greater-or-equal" /* IS_GREATER_OR_EQUAL */:
+      if (value === null)
+        return shouldMatchIfNull;
+      return value >= filterNumber;
+    case "is-less" /* IS_LESS */:
+      if (value === null)
+        return shouldMatchIfNull;
+      return value < filterNumber;
+    case "is-less-or-equal" /* IS_LESS_OR_EQUAL */:
+      if (value === null)
+        return shouldMatchIfNull;
+      return value <= filterNumber;
+    case "is-not-equal" /* IS_NOT_EQUAL */:
+      if (value === null)
+        return shouldMatchIfNull;
+      return value !== filterNumber;
+    case "is-empty" /* IS_EMPTY */:
+      return value === null;
+    case "is-not-empty" /* IS_NOT_EMPTY */:
+      return value !== null;
+    default:
+      throw new Error("Filter condition not yet supported");
+  }
+};
+var doesBooleanMatchFilter = (value, condition, filterValue) => {
+  switch (condition) {
+    case "is" /* IS */:
+      return value === filterValue;
+    case "is-not" /* IS_NOT */:
+      return value !== filterValue;
+    default:
+      throw new Error("Filter condition not yet supported");
+  }
+};
+var doesTextMatchFilter = (value, condition, filterText, shouldMatchIfNull) => {
+  value = value.toLowerCase().trim();
+  filterText = filterText.toLowerCase().trim();
+  switch (condition) {
+    case "is" /* IS */:
+      if (filterText === "")
+        return shouldMatchIfNull;
+      return value === filterText;
+    case "is-not" /* IS_NOT */:
+      if (filterText === "")
+        return shouldMatchIfNull;
+      return value !== filterText;
+    case "contains" /* CONTAINS */:
+      if (filterText === "")
+        return shouldMatchIfNull;
+      return value.includes(filterText);
+    case "does-not-contain" /* DOES_NOT_CONTAIN */:
+      if (filterText === "")
+        return shouldMatchIfNull;
+      return !value.includes(filterText);
+    case "starts-with" /* STARTS_WITH */:
+      if (filterText === "")
+        return shouldMatchIfNull;
+      return value.startsWith(filterText);
+    case "ends-with" /* ENDS_WITH */:
+      if (filterText === "")
+        return shouldMatchIfNull;
+      return value.endsWith(filterText);
+    case "is-empty" /* IS_EMPTY */:
+      return value === "";
+    case "is-not-empty" /* IS_NOT_EMPTY */:
+      return value !== "";
+    default:
+      throw new Error("Filter condition not yet supported");
+  }
+};
+var doesDateMatchFilter = (valueDateTime, condition, option, filterDateTime, shouldMatchIfNull) => {
+  let cellDate = null;
+  if (valueDateTime !== null) {
+    cellDate = new Date(valueDateTime);
+  }
+  let compareDate = getDateFromDateFilterOption(option);
+  if (compareDate === null) {
+    if (filterDateTime !== null) {
+      compareDate = new Date(filterDateTime);
+    }
+  }
+  switch (condition) {
+    case "is" /* IS */: {
+      if (compareDate === null)
+        return shouldMatchIfNull;
+      if (cellDate === null)
+        return false;
+      const compareDateMidnight = getDateAtMidnight(compareDate);
+      const compareDateJustBeforeMidnight = getDateJustBeforeMidnight(compareDate);
+      return cellDate.getTime() >= compareDateMidnight.getTime() && cellDate.getTime() <= compareDateJustBeforeMidnight.getTime();
+    }
+    case "is-after" /* IS_AFTER */: {
+      if (compareDate === null)
+        return shouldMatchIfNull;
+      if (cellDate === null)
+        return false;
+      const compareDateBeforeMidnight = getDateJustBeforeMidnight(compareDate);
+      return cellDate.getTime() > compareDateBeforeMidnight.getTime();
+    }
+    case "is-before" /* IS_BEFORE */: {
+      if (compareDate === null)
+        return shouldMatchIfNull;
+      if (cellDate === null)
+        return false;
+      const compareDateMidnight = getDateAtMidnight(compareDate);
+      return cellDate.getTime() < compareDateMidnight.getTime();
+    }
+    case "is-empty" /* IS_EMPTY */:
+      return cellDate === null;
+    case "is-not-empty" /* IS_NOT_EMPTY */:
+      return cellDate !== null;
+    default:
+      throw new Error("Filter condition not yet supported");
+  }
+};
+
 // src/react/loom-app/app/filter-by-filters/index.ts
 var filterByFilters = (prevState) => {
   const { columns, rows, filters } = prevState.model;
@@ -60869,154 +65764,99 @@ var doesCellMatchFilters = (cell, row, cellType, columnTags, filters) => {
 var doesCellMatchFilter = (cell, row, cellType, columnTags, filter3) => {
   var _a2, _b;
   const { columnId, isEnabled, condition } = filter3;
-  const { content: cellContent } = cell;
   if (columnId !== cell.columnId)
     return null;
   if (!isEnabled)
     return null;
   switch (cellType) {
     case "text" /* TEXT */: {
+      const { content } = cell;
       const { text } = filter3;
-      return doesTextMatch(cellContent, text, condition);
+      return doesTextMatchFilter(content, condition, text, true);
     }
     case "file" /* FILE */: {
+      const { alias, path } = cell;
       const { text } = filter3;
-      return doesTextMatch(cellContent, text, condition);
+      return doesTextMatchFilter(alias != null ? alias : path, condition, text, true);
     }
     case "checkbox" /* CHECKBOX */: {
-      const { text } = filter3;
-      return doesTextMatch(cellContent, text, condition);
+      const { value } = cell;
+      const { value: filterValue } = filter3;
+      return doesBooleanMatchFilter(value, condition, filterValue);
     }
     case "tag" /* TAG */: {
-      const { tagId } = filter3;
-      const filterTag = (_a2 = columnTags.find((tag) => tagId === tag.id)) != null ? _a2 : null;
-      const cellTag = (_b = columnTags.find((tag) => cell.tagIds.includes(tag.id))) != null ? _b : null;
+      const { tagId: cellTagId } = cell;
+      const { tagId: filterTagId } = filter3;
+      const filterTag = (_a2 = columnTags.find((tag) => filterTagId === tag.id)) != null ? _a2 : null;
+      const cellTag = (_b = columnTags.find((tag) => cellTagId === tag.id)) != null ? _b : null;
       return doesTagMatch(cellTag, filterTag, condition);
     }
     case "multi-tag" /* MULTI_TAG */: {
-      const { tagIds } = filter3;
+      const { tagIds: cellTagIds } = cell;
+      const { tagIds: filterTagIds } = filter3;
       const filterTags = columnTags.filter(
-        (tag) => tagIds.includes(tag.id)
+        (tag) => filterTagIds.includes(tag.id)
       );
       const cellTags = columnTags.filter(
-        (tag) => cell.tagIds.includes(tag.id)
+        (tag) => cellTagIds.includes(tag.id)
       );
       return doTagsMatch(cellTags, filterTags, condition);
     }
     case "number" /* NUMBER */: {
+      const { value } = cell;
       const { text } = filter3;
-      return doesNumberMatch(cellContent, text, condition);
+      return doesNumberMatchFilter(value, condition, text, true);
     }
     case "embed" /* EMBED */: {
+      const { pathOrUrl } = cell;
       const { text } = filter3;
-      return doesTextMatch(cellContent, text, condition);
+      let compareValue = pathOrUrl;
+      if (isRelativePath(pathOrUrl)) {
+        compareValue = getFileName(pathOrUrl);
+      }
+      return doesTextMatchFilter(compareValue, condition, text, true);
     }
     case "date" /* DATE */: {
-      const { dateTime, option } = filter3;
-      return doesDateMatch(cell.dateTime, dateTime, option, condition);
+      const { dateTime: cellDateTime } = cell;
+      const { dateTime: filterDateTime, option } = filter3;
+      return doesDateMatchFilter(
+        cellDateTime,
+        condition,
+        option,
+        filterDateTime,
+        true
+      );
     }
     case "creation-time" /* CREATION_TIME */: {
       const { creationDateTime } = row;
       const { dateTime, option } = filter3;
-      return doesDateMatch(creationDateTime, dateTime, option, condition);
+      return doesDateMatchFilter(
+        creationDateTime,
+        condition,
+        option,
+        dateTime,
+        true
+      );
     }
     case "last-edited-time" /* LAST_EDITED_TIME */: {
       const { lastEditedDateTime } = row;
       const { dateTime, option } = filter3;
-      return doesDateMatch(
+      return doesDateMatchFilter(
         lastEditedDateTime,
-        dateTime,
+        condition,
         option,
-        condition
+        dateTime,
+        true
       );
     }
     case "source-file" /* SOURCE_FILE */: {
       const { text } = filter3;
-      return doesTextMatch(cellContent, text, condition);
+      const { path } = cell;
+      const fileName = getFileName(path);
+      return doesTextMatchFilter(fileName != null ? fileName : "", condition, text, true);
     }
     default:
       throw new Error("Unhandled cell type");
-  }
-};
-var doesNumberMatch = (cellContent, filterText, condition) => {
-  const cellNumber = Number(cellContent);
-  const filterNumber = Number(filterText);
-  switch (condition) {
-    case "is-equal" /* IS_EQUAL */:
-      if (cellContent === "")
-        return true;
-      return cellNumber === filterNumber;
-    case "is-greater" /* IS_GREATER */:
-      if (cellContent === "")
-        return true;
-      return cellNumber > filterNumber;
-    case "is-greater-or-equal" /* IS_GREATER_OR_EQUAL */:
-      if (cellContent === "")
-        return true;
-      return cellNumber >= filterNumber;
-    case "is-less" /* IS_LESS */:
-      if (cellContent === "")
-        return true;
-      return cellNumber < filterNumber;
-    case "is-less-or-equal" /* IS_LESS_OR_EQUAL */:
-      if (cellContent === "")
-        return true;
-      return cellNumber <= filterNumber;
-    case "is-not-equal" /* IS_NOT_EQUAL */:
-      if (cellContent === "")
-        return true;
-      return cellNumber !== filterNumber;
-    case "is-empty" /* IS_EMPTY */:
-      return cellContent === "";
-    case "is-not-empty" /* IS_NOT_EMPTY */:
-      return cellContent !== "";
-    default:
-      throw new Error("Filter condition not yet supported");
-  }
-};
-var doesDateMatch = (cellDateTime, filterDateTime, option, condition) => {
-  let cellDate = null;
-  if (cellDateTime !== null) {
-    cellDate = new Date(cellDateTime);
-  }
-  let compareDate = getDateFromDateFilterOption(option);
-  if (compareDate === null) {
-    if (filterDateTime !== null) {
-      compareDate = new Date(filterDateTime);
-    }
-  }
-  switch (condition) {
-    case "is" /* IS */: {
-      if (compareDate === null)
-        return true;
-      if (cellDate === null)
-        return false;
-      const compareDateMidnight = getDateAtMidnight(compareDate);
-      const compareDateJustBeforeMidnight = getDateJustBeforeMidnight(compareDate);
-      return cellDate.getTime() >= compareDateMidnight.getTime() && cellDate.getTime() <= compareDateJustBeforeMidnight.getTime();
-    }
-    case "is-after" /* IS_AFTER */: {
-      if (compareDate === null)
-        return true;
-      if (cellDate === null)
-        return false;
-      const compareDateBeforeMidnight = getDateJustBeforeMidnight(compareDate);
-      return cellDate.getTime() > compareDateBeforeMidnight.getTime();
-    }
-    case "is-before" /* IS_BEFORE */: {
-      if (compareDate === null)
-        return true;
-      if (cellDate === null)
-        return false;
-      const compareDateMidnight = getDateAtMidnight(compareDate);
-      return cellDate.getTime() < compareDateMidnight.getTime();
-    }
-    case "is-empty" /* IS_EMPTY */:
-      return cellDate === null;
-    case "is-not-empty" /* IS_NOT_EMPTY */:
-      return cellDate !== null;
-    default:
-      throw new Error("Filter condition not yet supported");
   }
 };
 var doesTagMatch = (cellTag, filterTag, condition) => {
@@ -61055,39 +65895,65 @@ var doTagsMatch = (cellTags, filterTags, condition) => {
       throw new Error("Filter condition not yet supported");
   }
 };
-var doesTextMatch = (cellContent, filterText, condition) => {
-  cellContent = cellContent.toLowerCase().trim();
-  filterText = filterText.toLowerCase().trim();
-  switch (condition) {
-    case "is" /* IS */:
-      if (filterText === "")
-        return true;
-      return cellContent === filterText;
-    case "is-not" /* IS_NOT */:
-      if (filterText === "")
-        return true;
-      return cellContent !== filterText;
-    case "contains" /* CONTAINS */:
-      return cellContent.includes(filterText);
-    case "does-not-contain" /* DOES_NOT_CONTAIN */:
-      if (filterText === "")
-        return true;
-      return !cellContent.includes(filterText);
-    case "starts-with" /* STARTS_WITH */:
-      return cellContent.startsWith(filterText);
-    case "ends-with" /* ENDS_WITH */:
-      return cellContent.endsWith(filterText);
-    case "is-empty" /* IS_EMPTY */:
-      return cellContent === "";
-    case "is-not-empty" /* IS_NOT_EMPTY */:
-      return cellContent !== "";
-    default:
-      throw new Error("Filter condition not yet supported");
+
+// src/shared/loom-state/commands/loom-state-command.ts
+var import_lodash10 = __toESM(require_lodash());
+
+// src/shared/loom-state/commands/error/command-redo-error.ts
+var CommandRedoError = class extends Error {
+  constructor() {
+    super(`undo() must be called before redo() is available`);
+    this.name = "CommandRedoError";
   }
 };
 
+// src/shared/loom-state/commands/error/command-undo-error.ts
+var CommandUndoError = class extends Error {
+  constructor() {
+    super(`execute() must be called before undo() is available`);
+    this.name = "CommandUndoError";
+  }
+};
+
+// src/shared/loom-state/commands/loom-state-command.ts
+var import_jsondiffpatch = __toESM(require_jsondiffpatch_umd());
+var LoomStateCommand = class {
+  constructor(shouldSortRows, options) {
+    this.hasExecuteBeenCalled = false;
+    this.hasUndoBeenCalled = false;
+    const { shouldSaveFrontmatter = true } = options != null ? options : {};
+    this.shouldSortRows = shouldSortRows;
+    this.shouldSaveFrontmatter = shouldSaveFrontmatter;
+  }
+  finishExecute(prevState, nextState) {
+    this.hasExecuteBeenCalled = true;
+    const patch = import_jsondiffpatch.default.diff(prevState, nextState);
+    this.statePatch = patch;
+  }
+  undo(executeState) {
+    if (!this.hasExecuteBeenCalled)
+      throw new CommandUndoError();
+    this.hasUndoBeenCalled = true;
+    if (!this.statePatch)
+      return executeState;
+    const stateCopy = (0, import_lodash10.cloneDeep)(executeState);
+    import_jsondiffpatch.default.unpatch(stateCopy, this.statePatch);
+    return stateCopy;
+  }
+  redo(undoState) {
+    if (!this.hasUndoBeenCalled)
+      throw new CommandRedoError();
+    this.hasUndoBeenCalled = false;
+    if (!this.statePatch)
+      return undoState;
+    const stateCopy = (0, import_lodash10.cloneDeep)(undoState);
+    import_jsondiffpatch.default.patch(stateCopy, this.statePatch);
+    return stateCopy;
+  }
+};
+var loom_state_command_default = LoomStateCommand;
+
 // src/shared/loom-state/commands/filter-update-command.ts
-var import_lodash10 = __toESM(require_lodash());
 var FilterUpdateCommand = class extends loom_state_command_default {
   constructor(id2, data, isPartial = true) {
     super(false);
@@ -61096,54 +65962,23 @@ var FilterUpdateCommand = class extends loom_state_command_default {
     this.isPartial = isPartial;
   }
   execute(prevState) {
-    super.onExecute();
     const { filters } = prevState.model;
     const nextFilters = filters.map((filter3) => {
       if (filter3.id === this.id) {
-        this.prevFilter = (0, import_lodash10.cloneDeep)(filter3);
         let newFilter = this.data;
         if (this.isPartial)
           newFilter = __spreadValues(__spreadValues({}, filter3), this.data);
-        this.nextFilter = newFilter;
         return newFilter;
       }
       return filter3;
     });
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         filters: nextFilters
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { filters } = prevState.model;
-    const nextFilters = filters.map((filter3) => {
-      if (filter3.id === this.nextFilter.id) {
-        return this.prevFilter;
-      }
-      return filter3;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        filters: nextFilters
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    const { filters } = prevState.model;
-    const nextFilters = filters.map((filter3) => {
-      if (filter3.id === this.id) {
-        return this.nextFilter;
-      }
-      return filter3;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        filters: nextFilters
-      })
-    });
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
 };
 
@@ -61153,7 +65988,6 @@ var FilterAddCommand = class extends loom_state_command_default {
     super(false);
   }
   execute(prevState) {
-    super.onExecute();
     const { filters, columns } = prevState.model;
     let column = columns[0];
     if (column.type === "source" /* SOURCE */) {
@@ -61186,82 +66020,33 @@ var FilterAddCommand = class extends loom_state_command_default {
     } else {
       throw new Error("Unhandled cell type");
     }
-    this.addedFilter = newFilter;
     const nextFilters = [...filters, newFilter];
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         filters: nextFilters
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { filters } = prevState.model;
-    const nextFilters = filters.filter(
-      (filter3) => filter3.id !== this.addedFilter.id
-    );
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        filters: nextFilters
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    const { filters } = prevState.model;
-    const nextFilters = [...filters, this.addedFilter];
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        filters: nextFilters
-      })
-    });
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
 };
 
 // src/shared/loom-state/commands/filter-delete-command.ts
-var import_lodash11 = __toESM(require_lodash());
 var FilterDeleteCommand = class extends loom_state_command_default {
   constructor(id2) {
     super(false);
     this.id = id2;
   }
   execute(prevState) {
-    super.onExecute();
     const { filters } = prevState.model;
-    const nextFilters = filters.filter((f3) => {
-      if (f3.id === this.id) {
-        this.deletedFilter = {
-          arrIndex: filters.indexOf(f3),
-          filter: (0, import_lodash11.cloneDeep)(f3)
-        };
-        return false;
-      }
-      return true;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextFilters = filters.filter((f3) => f3.id !== this.id);
+    const newState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         filters: nextFilters
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { filters } = prevState.model;
-    const nextFilters = (0, import_lodash11.cloneDeep)(filters);
-    nextFilters.splice(
-      this.deletedFilter.arrIndex,
-      0,
-      this.deletedFilter.filter
-    );
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        filters: nextFilters
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    return this.execute(prevState);
+    this.finishExecute(prevState, newState);
+    return newState;
   }
 };
 
@@ -61324,7 +66109,6 @@ var filterRowsBySearch = (sources, columns, rows, searchText) => {
   });
 };
 var doesCellMatch = (sources, cell, column, row, searchText) => {
-  const { dateTime, content } = cell;
   const {
     currencyType,
     type,
@@ -61340,22 +66124,41 @@ var doesCellMatch = (sources, cell, column, row, searchText) => {
   } = column;
   const { lastEditedDateTime, creationDateTime, sourceId } = row;
   switch (type) {
-    case "text" /* TEXT */:
-    case "embed" /* EMBED */:
-    case "file" /* FILE */:
-    case "checkbox" /* CHECKBOX */:
+    case "text" /* TEXT */: {
+      const { content } = cell;
       return matchTextCell(content, searchText);
-    case "number" /* NUMBER */:
+    }
+    case "embed" /* EMBED */: {
+      const { pathOrUrl } = cell;
+      let searchValue = "";
+      if (isRelativePath(pathOrUrl)) {
+        searchValue = getFileName(pathOrUrl);
+      }
+      return matchTextCell(searchValue, searchText);
+    }
+    case "file" /* FILE */: {
+      const { path } = cell;
+      const fileName = getFileName(path);
+      return matchTextCell(fileName, searchText);
+    }
+    case "checkbox" /* CHECKBOX */: {
+      const { value } = cell;
+      return matchCheckboxCell(value, searchText);
+    }
+    case "number" /* NUMBER */: {
+      const { value } = cell;
       return matchNumberCell(
         numberFormat,
         numberPrefix,
         numberSuffix,
         numberSeparator,
         currencyType,
-        content,
+        value,
         searchText
       );
-    case "date" /* DATE */:
+    }
+    case "date" /* DATE */: {
+      const { dateTime } = cell;
       return matchDateCell(
         dateTime,
         dateFormat,
@@ -61364,6 +66167,7 @@ var doesCellMatch = (sources, cell, column, row, searchText) => {
         hour12,
         searchText
       );
+    }
     case "creation-time" /* CREATION_TIME */:
       return matchCreationTimeCell(
         creationDateTime,
@@ -61380,35 +66184,35 @@ var doesCellMatch = (sources, cell, column, row, searchText) => {
         hour12,
         searchText
       );
-    case "tag" /* TAG */:
+    case "tag" /* TAG */: {
+      const { tagId } = cell;
+      return matchTag(tags, tagId, searchText);
+    }
     case "multi-tag" /* MULTI_TAG */: {
-      return matchTags(tags, cell, searchText);
+      const { tagIds } = cell;
+      return matchTags(tags, tagIds, searchText);
     }
     case "source" /* SOURCE */: {
       return matchSourceCell(sources, sourceId, searchText);
     }
     case "source-file" /* SOURCE_FILE */: {
-      return matchSourceFileCell(content, searchText);
+      const { path } = cell;
+      const fileName = getFileName(path);
+      return matchSourceFileCell(fileName, searchText);
     }
     default:
       throw new Error("Unsupported cell type");
   }
 };
-var matchSourceFileCell = (originalContent, searchText) => {
-  const content = getSourceFileContent(originalContent, true);
-  return content.toLowerCase().includes(searchText);
-};
-var matchSourceCell = (sources, sourceId, searchText) => {
-  var _a2;
-  const source = (_a2 = sources.find((source2) => source2.id === sourceId)) != null ? _a2 : null;
-  const content = getSourceCellContent(source);
+var matchCheckboxCell = (value, searchText) => {
+  const content = getCheckboxCellContent(value, true);
   return content.toLowerCase().includes(searchText);
 };
 var matchTextCell = (cellContent, searchText) => {
   return cellContent.toLowerCase().includes(searchText);
 };
-var matchNumberCell = (numberFormat, prefix2, suffix, separator, currencyType, cellContent, searchText) => {
-  const content = getNumberCellContent(numberFormat, cellContent, {
+var matchNumberCell = (numberFormat, prefix2, suffix, separator, currencyType, cellValue, searchText) => {
+  const content = getNumberCellContent(numberFormat, cellValue, {
     currency: currencyType,
     prefix: prefix2,
     suffix,
@@ -61416,8 +66220,16 @@ var matchNumberCell = (numberFormat, prefix2, suffix, separator, currencyType, c
   });
   return content.toLowerCase().includes(searchText.toLowerCase());
 };
-var matchTags = (columnTags, cell, searchText) => {
-  const cellTags = columnTags.filter((tag) => cell.tagIds.includes(tag.id));
+var matchTag = (columnTags, cellTagId, searchText) => {
+  if (!cellTagId)
+    return false;
+  const tag = columnTags.find((tag2) => tag2.id === cellTagId);
+  if (!tag)
+    throw new TagNotFoundError(cellTagId);
+  return tag.content.toLowerCase().includes(searchText);
+};
+var matchTags = (columnTags, cellTagIds, searchText) => {
+  const cellTags = columnTags.filter((tag) => cellTagIds.includes(tag.id));
   return cellTags.some(
     (tag) => tag.content.toLowerCase().includes(searchText)
   );
@@ -61450,66 +66262,30 @@ var matchLastEditedTimeCell = (lastEditedDateTime, dateFormat, dateFormatSeparat
   );
   return content.toLowerCase().includes(searchText);
 };
+var matchSourceFileCell = (originalContent, searchText) => {
+  const content = getSourceFileContent(originalContent, true);
+  return content.toLowerCase().includes(searchText);
+};
+var matchSourceCell = (sources, sourceId, searchText) => {
+  var _a2;
+  const source = (_a2 = sources.find((source2) => source2.id === sourceId)) != null ? _a2 : null;
+  const content = getSourceCellContent(source);
+  return content.toLowerCase().includes(searchText);
+};
 
 // src/shared/loom-state/commands/column-add-command/utils.ts
 var columnAddExecute = (prevColumns, prevRows, options) => {
-  const { type = "text" /* TEXT */, insertIndex, content } = options || {};
+  const { type = "text" /* TEXT */, insertIndex, content } = options != null ? options : {};
   const nextColumns = [...prevColumns];
   const newColumn = createColumn({
     type,
     content
   });
   nextColumns.splice(insertIndex != null ? insertIndex : prevColumns.length, 0, newColumn);
-  const addedCells = [];
   const nextRows = prevRows.map((row) => {
     const { cells } = row;
-    const newCell = createCell(newColumn.id, {
-      type
-    });
-    addedCells.push({
-      rowId: row.id,
-      cell: newCell
-    });
+    const newCell = createCellForType(newColumn.id, type);
     const nextCells = [...cells, newCell];
-    return __spreadProps(__spreadValues({}, row), {
-      cells: nextCells
-    });
-  });
-  return {
-    columns: nextColumns,
-    rows: nextRows,
-    addedColumn: newColumn,
-    addedCells
-  };
-};
-var columnAddUndo = (prevColumns, prevRows, addedColumn) => {
-  const nextColumns = prevColumns.filter(
-    (column) => column.id !== addedColumn.id
-  );
-  const nextRows = prevRows.map((row) => {
-    const { cells } = row;
-    const nextCells = cells.filter(
-      (cell) => cell.columnId !== addedColumn.id
-    );
-    return __spreadProps(__spreadValues({}, row), {
-      cells: nextCells
-    });
-  });
-  return {
-    columns: nextColumns,
-    rows: nextRows
-  };
-};
-var columnAddRedo = (prevColumns, prevRows, addedColumn, addedCells, options) => {
-  const { insertIndex } = options || {};
-  const nextColumns = [...prevColumns];
-  nextColumns.splice(insertIndex != null ? insertIndex : prevColumns.length, 0, addedColumn);
-  const nextRows = prevRows.map((row) => {
-    const { cells } = row;
-    const cell = addedCells.find((c2) => c2.rowId === row.id);
-    if (!cell)
-      throw new CellNotFoundError({ rowId: row.id });
-    const nextCells = [...cells, cell.cell];
     return __spreadProps(__spreadValues({}, row), {
       cells: nextCells
     });
@@ -61527,56 +66303,21 @@ var ColumnAddCommand = class extends loom_state_command_default {
     this.type = type;
   }
   execute(prevState) {
-    super.onExecute();
     const { columns, rows } = prevState.model;
     const result = columnAddExecute(columns, rows, { type: this.type });
-    const {
-      columns: nextColumns,
-      rows: nextRows,
-      addedColumn,
-      addedCells
-    } = result;
-    this.addedColumn = addedColumn;
-    this.addedCells = addedCells;
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        columns: nextColumns,
-        rows: nextRows
-      })
-    });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { columns, rows } = prevState.model;
-    const result = columnAddUndo(columns, rows, this.addedColumn);
     const { columns: nextColumns, rows: nextRows } = result;
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         columns: nextColumns,
         rows: nextRows
       })
     });
-  }
-  redo(prevState) {
-    super.onRedo();
-    const { rows, columns } = prevState.model;
-    const result = columnAddRedo(
-      columns,
-      rows,
-      this.addedColumn,
-      this.addedCells
-    );
-    const { columns: nextColumns, rows: nextRows } = result;
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        columns: nextColumns,
-        rows: nextRows
-      })
-    });
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
 };
 
-// src/shared/loom-state/commands/command-arguments-error.ts
+// src/shared/loom-state/commands/error/command-arguments-error.ts
 var CommandArgumentsError = class extends Error {
   constructor(type) {
     let message = "";
@@ -61589,7 +66330,6 @@ var CommandArgumentsError = class extends Error {
 };
 
 // src/shared/loom-state/commands/column-delete-command/utils.ts
-var import_lodash12 = __toESM(require_lodash());
 var columnDeleteExecute = (prevColumns, prevRows, prevFilters, id2) => {
   if (prevColumns.length === 1) {
     return null;
@@ -61597,12 +66337,7 @@ var columnDeleteExecute = (prevColumns, prevRows, prevFilters, id2) => {
   const columnToDelete = prevColumns.find((column) => column.id === id2);
   if (!columnToDelete)
     throw new ColumnNotFoundError({ id: id2 });
-  const deletedColumn = {
-    arrIndex: prevColumns.indexOf(columnToDelete),
-    column: (0, import_lodash12.cloneDeep)(columnToDelete)
-  };
   const nextColumns = prevColumns.filter((column) => column.id !== id2);
-  const deletedCells = [];
   const nextRows = prevRows.map((row) => {
     const { cells } = row;
     const cell = row.cells.find((cell2) => cell2.columnId === id2);
@@ -61611,51 +66346,12 @@ var columnDeleteExecute = (prevColumns, prevRows, prevFilters, id2) => {
         columnId: id2,
         rowId: row.id
       });
-    deletedCells.push({
-      rowId: row.id,
-      cell: (0, import_lodash12.cloneDeep)(cell),
-      arrIndex: row.cells.indexOf(cell)
-    });
     const nextCells = cells.filter((cell2) => cell2.columnId !== id2);
     return __spreadProps(__spreadValues({}, row), {
       cells: nextCells
     });
   });
-  const filtersToDelete = prevFilters.filter(
-    (filter3) => filter3.columnId === id2
-  );
-  const deletedFilters = filtersToDelete.map((filter3) => ({
-    arrIndex: prevFilters.indexOf(filter3),
-    filter: (0, import_lodash12.cloneDeep)(filter3)
-  }));
   const nextFilters = prevFilters.filter((filter3) => filter3.columnId !== id2);
-  return {
-    nextColumns,
-    nextRows,
-    nextFilters,
-    deletedCells,
-    deletedColumn,
-    deletedFilters
-  };
-};
-var columnDeleteUndo = (prevColumns, prevRows, prevFilters, deletedColumn, deletedCells, deletedFilters) => {
-  const nextColumns = [...prevColumns];
-  nextColumns.splice(deletedColumn.arrIndex, 0, deletedColumn.column);
-  const nextRows = prevRows.map((row) => {
-    const { cells } = row;
-    const nextCells = [...cells];
-    const cellsToAdd = deletedCells.filter((cell) => cell.rowId === row.id);
-    cellsToAdd.forEach((cell) => {
-      nextCells.splice(cell.arrIndex, 0, cell.cell);
-    });
-    return __spreadProps(__spreadValues({}, row), {
-      cells: nextCells
-    });
-  });
-  const nextFilters = [...prevFilters];
-  deletedFilters.forEach((filter3) => {
-    nextFilters.splice(filter3.arrIndex, 0, filter3.filter);
-  });
   return {
     nextColumns,
     nextRows,
@@ -61667,7 +66363,6 @@ var columnDeleteUndo = (prevColumns, prevRows, prevFilters, deletedColumn, delet
 var ColumnDeleteCommand = class extends loom_state_command_default {
   constructor(options) {
     super(false);
-    this.deletedCells = [];
     const { id: id2, last: last2 } = options;
     if (id2 === void 0 && last2 === void 0)
       throw new CommandArgumentsError("delete");
@@ -61675,7 +66370,6 @@ var ColumnDeleteCommand = class extends loom_state_command_default {
     this.last = last2;
   }
   execute(prevState) {
-    super.onExecute();
     const { columns, rows, filters } = prevState.model;
     let id2 = this.columnId;
     if (this.last)
@@ -61684,52 +66378,20 @@ var ColumnDeleteCommand = class extends loom_state_command_default {
     if (result === null) {
       return prevState;
     }
-    const {
-      nextColumns,
-      nextFilters,
-      nextRows,
-      deletedCells,
-      deletedColumn,
-      deletedFilters
-    } = result;
-    this.deletedColumn = deletedColumn;
-    this.deletedCells = deletedCells;
-    this.deletedFilters = deletedFilters;
-    return __spreadProps(__spreadValues({}, prevState), {
+    const { nextColumns, nextFilters, nextRows } = result;
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         columns: nextColumns,
         rows: nextRows,
         filters: nextFilters
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { columns, rows, filters } = prevState.model;
-    const { nextColumns, nextFilters, nextRows } = columnDeleteUndo(
-      columns,
-      rows,
-      filters,
-      this.deletedColumn,
-      this.deletedCells,
-      this.deletedFilters
-    );
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        columns: nextColumns,
-        rows: nextRows,
-        filters: nextFilters
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    return this.execute(prevState);
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
 };
 
 // src/shared/loom-state/commands/column-update-command.ts
-var import_lodash13 = __toESM(require_lodash());
 var ColumnUpdateCommand = class extends loom_state_command_default {
   constructor(columnId, data, options) {
     const {
@@ -61743,106 +66405,127 @@ var ColumnUpdateCommand = class extends loom_state_command_default {
     this.isPartial = isPartial;
   }
   execute(prevState) {
-    super.onExecute();
     const { columns } = prevState.model;
     const column = columns.find((column2) => column2.id === this.columnId);
     if (!column)
       throw new ColumnNotFoundError({ id: this.columnId });
     const nextColumns = columns.map((column2) => {
       if (column2.id === this.columnId) {
-        this.prevColumn = (0, import_lodash13.cloneDeep)(column2);
         let newColumn = this.data;
         if (this.isPartial)
           newColumn = __spreadValues(__spreadValues({}, column2), this.data);
-        this.nextColumn = newColumn;
         return newColumn;
       }
       return column2;
     });
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         columns: nextColumns
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { columns } = prevState.model;
-    const nextColumns = columns.map((column) => {
-      if (column.id === this.prevColumn.id) {
-        return this.prevColumn;
-      }
-      return column;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        columns: nextColumns
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    const { columns } = prevState.model;
-    const nextColumns = columns.map((column) => {
-      if (column.id === this.columnId) {
-        return this.nextColumn;
-      }
-      return column;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        columns: nextColumns
-      })
-    });
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
 };
 
 // src/shared/loom-state/commands/column-type-update-command.ts
-var import_lodash14 = __toESM(require_lodash());
+var import_lodash11 = __toESM(require_lodash());
 var ColumnTypeUpdateCommand = class extends loom_state_command_default {
-  constructor(id2, type) {
+  constructor(columnId, type) {
     super(false);
-    this.deletedFilters = [];
-    this.updatedCells = {
-      previous: [],
-      next: []
-    };
-    this.addedTags = [];
-    this.previousFrontmatterKey = null;
-    this.id = id2;
+    this.targetColumnId = columnId;
     this.nextType = type;
   }
   execute(prevState) {
-    super.onExecute();
     const { columns, rows, filters } = prevState.model;
-    const column = columns.find((column2) => column2.id === this.id);
+    const columnsCopy = (0, import_lodash11.cloneDeep)(columns);
+    const column = columnsCopy.find(
+      (column2) => column2.id === this.targetColumnId
+    );
     if (!column)
-      throw new ColumnNotFoundError({ id: this.id });
-    const { type } = column;
-    if (type === this.nextType)
+      throw new ColumnNotFoundError({ id: this.targetColumnId });
+    const { type: previousType } = column;
+    if (previousType === this.nextType)
       return prevState;
-    this.previousType = column.type;
-    let nextColumns = (0, import_lodash14.cloneDeep)(columns);
-    let nextRows = (0, import_lodash14.cloneDeep)(rows);
-    if (this.previousType === "multi-tag" /* MULTI_TAG */ && this.nextType !== "tag" /* TAG */ || this.previousType === "tag" /* TAG */ && this.nextType !== "multi-tag" /* MULTI_TAG */) {
-      nextRows = this.fromTagOrMultiTag(nextRows);
-    } else if (this.previousType !== "multi-tag" /* MULTI_TAG */ && this.nextType === "tag" /* TAG */) {
-      nextRows = this.toTag(nextColumns, nextRows);
-    } else if (this.previousType !== "tag" /* TAG */ && this.nextType === "multi-tag" /* MULTI_TAG */) {
-      nextRows = this.toMultiTag(nextColumns, nextRows);
-    } else if (this.previousType === "multi-tag" /* MULTI_TAG */ && this.nextType === "tag" /* TAG */) {
-      nextRows = this.fromMultiTagToTag(nextRows);
-    } else if (this.nextType === "checkbox" /* CHECKBOX */) {
-      nextRows = this.toCheckbox(nextRows);
-    } else if (this.previousType === "date" /* DATE */ && this.nextType === "text" /* TEXT */) {
-      nextRows = this.fromDateToText(column, nextRows);
-    }
-    if (this.previousType === "number" /* NUMBER */) {
-      nextColumns = this.fromNumber(nextColumns);
-    }
-    nextColumns = nextColumns.map((column2) => {
-      if (column2.id === this.id) {
-        this.previousFrontmatterKey = column2.frontmatterKey;
+    const nextRows = rows.map((row) => {
+      const { cells } = row;
+      const nextCells = cells.map((cell) => {
+        const { columnId } = cell;
+        if (columnId === this.targetColumnId) {
+          if (this.nextType === "text" /* TEXT */) {
+            if (previousType === "checkbox" /* CHECKBOX */) {
+              return this.fromCheckboxToText(
+                cell
+              );
+            } else if (previousType === "date" /* DATE */) {
+              return this.fromDateToText(
+                column,
+                cell
+              );
+            } else if (previousType === "number" /* NUMBER */) {
+              return this.fromNumberToText(cell);
+            } else if (previousType === "tag" /* TAG */) {
+              return this.fromTagToText(
+                column.tags,
+                cell
+              );
+            } else if (previousType === "multi-tag" /* MULTI_TAG */) {
+              return this.fromMultiTagToText(
+                column.tags,
+                cell
+              );
+            } else if (previousType === "file" /* FILE */) {
+              return this.fromFileToText(cell);
+            } else if (previousType === "embed" /* EMBED */) {
+              return this.fromEmbedToText(cell);
+            }
+          } else if (this.nextType === "checkbox" /* CHECKBOX */) {
+            if (previousType === "text" /* TEXT */) {
+              return this.fromTextToCheckbox(cell);
+            }
+          } else if (this.nextType === "date" /* DATE */) {
+            if (previousType === "text" /* TEXT */) {
+              return this.fromTextToDate(cell);
+            }
+          } else if (this.nextType === "number" /* NUMBER */) {
+            if (previousType === "text" /* TEXT */) {
+              return this.fromTextToNumber(cell);
+            }
+          } else if (this.nextType === "tag" /* TAG */) {
+            if (previousType === "text" /* TEXT */) {
+              return this.fromTextToTag(column, cell);
+            } else if (previousType === "multi-tag" /* MULTI_TAG */) {
+              return this.fromMultiTagToTag(cell);
+            }
+          } else if (this.nextType === "multi-tag" /* MULTI_TAG */) {
+            if (previousType === "text" /* TEXT */) {
+              return this.fromTextToMultiTag(
+                column,
+                cell
+              );
+            } else if (previousType === "tag" /* TAG */) {
+              return this.fromTagToMultiTag(cell);
+            }
+          } else if (this.nextType === "embed" /* EMBED */) {
+            if (previousType === "text" /* TEXT */) {
+              return this.fromTextToEmbed(cell);
+            }
+          } else if (this.nextType === "file" /* FILE */) {
+            if (previousType === "text" /* TEXT */) {
+              return this.fromTextToFile(cell);
+            }
+          }
+          const newCell = createCellForType(columnId, this.nextType);
+          return newCell;
+        }
+        return cell;
+      });
+      return __spreadProps(__spreadValues({}, row), {
+        cells: nextCells
+      });
+    });
+    const nextColumns = columnsCopy.map((column2) => {
+      if (column2.id === this.targetColumnId) {
         return __spreadProps(__spreadValues({}, column2), {
           type: this.nextType,
           frontmatterKey: null
@@ -61850,305 +66533,187 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
       }
       return column2;
     });
-    const nextFilters = filters.filter((filter3) => {
-      if (filter3.columnId === this.id) {
-        this.deletedFilters.push({
-          arrIndex: filters.indexOf(filter3),
-          filter: (0, import_lodash14.cloneDeep)(filter3)
-        });
-        return false;
-      }
-      return true;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        columns: nextColumns,
-        rows: nextRows,
-        filters: nextFilters
-      })
-    });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { columns, rows, filters } = prevState.model;
-    const nextRows = rows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        const nextCell = this.updatedCells.previous.find(
-          (c2) => c2.id === cell.id
-        );
-        if (nextCell)
-          return nextCell;
-        return cell;
-      });
-      return __spreadProps(__spreadValues({}, row), {
-        cells: nextCells
-      });
-    });
-    const nextFilters = (0, import_lodash14.cloneDeep)(filters);
-    this.deletedFilters.forEach((f3) => {
-      const { arrIndex, filter: filter3 } = f3;
-      nextFilters.splice(arrIndex, 0, filter3);
-    });
-    const nextColumns = columns.map((column) => {
-      if (column.id === this.id) {
-        return __spreadProps(__spreadValues({}, column), {
-          calculationType: this.previousCalculationType ? this.previousCalculationType : column.calculationType,
-          type: this.previousType,
-          tags: column.tags.filter(
-            (t2) => this.addedTags.find(
-              (added) => added.id === t2.id
-            ) === void 0
-          ),
-          frontmatterKey: this.previousFrontmatterKey
-        });
-      }
-      return column;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        columns: nextColumns,
-        rows: nextRows,
-        filters: nextFilters
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    const { columns, rows, filters } = prevState.model;
-    const nextRows = rows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        const nextCell = this.updatedCells.next.find(
-          (c2) => c2.id === cell.id
-        );
-        if (nextCell)
-          return nextCell;
-        return cell;
-      });
-      return __spreadProps(__spreadValues({}, row), {
-        cells: nextCells
-      });
-    });
-    const nextColumns = columns.map((column) => {
-      if (column.id === this.id) {
-        return __spreadProps(__spreadValues({}, column), {
-          type: this.nextType,
-          calculationType: this.nextCalculationType ? this.nextCalculationType : column.calculationType,
-          tags: [...column.tags, ...this.addedTags],
-          frontmatterKey: null
-        });
-      }
-      return column;
-    });
     const nextFilters = filters.filter(
-      (filter3) => !this.deletedFilters.find((f3) => f3.filter.id === filter3.id)
+      (filter3) => filter3.columnId !== this.targetColumnId
     );
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         columns: nextColumns,
         rows: nextRows,
         filters: nextFilters
       })
     });
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
-  fromNumber(prevColumns) {
-    return prevColumns.map((column) => {
-      const { id: id2, calculationType } = column;
-      if (id2 === this.id) {
-        if (isNumberCalcuation(calculationType)) {
-          this.previousCalculationType = calculationType;
-          this.nextCalculationType = "none" /* NONE */;
-          return __spreadProps(__spreadValues({}, column), {
-            calculationType: "none" /* NONE */
-          });
+  fromCheckboxToText(cell) {
+    const { columnId, value } = cell;
+    const content = value ? "true" : "false";
+    const newCell = createTextCell(columnId, {
+      content
+    });
+    return newCell;
+  }
+  fromNumberToText(cell) {
+    var _a2;
+    const { columnId, value } = cell;
+    const content = (_a2 = value == null ? void 0 : value.toString()) != null ? _a2 : "";
+    const newCell = createTextCell(columnId, {
+      content
+    });
+    return newCell;
+  }
+  fromTagToText(columnTags, cell) {
+    var _a2;
+    const { columnId, tagId } = cell;
+    const tag = columnTags.find((tag2) => tag2.id === tagId);
+    const newCell = createTextCell(columnId, {
+      content: (_a2 = tag == null ? void 0 : tag.content) != null ? _a2 : ""
+    });
+    return newCell;
+  }
+  fromTagToMultiTag(cell) {
+    const { columnId, tagId } = cell;
+    const newCell = createMultiTagCell(columnId, {
+      tagIds: tagId ? [tagId] : []
+    });
+    return newCell;
+  }
+  fromMultiTagToText(columnTags, cell) {
+    const { columnId, tagIds } = cell;
+    const content = tagIds.map((tagId) => {
+      var _a2;
+      const tag = columnTags.find((tag2) => tag2.id === tagId);
+      return (_a2 = tag == null ? void 0 : tag.content) != null ? _a2 : "";
+    }).join(",");
+    const newCell = createTextCell(columnId, {
+      content
+    });
+    return newCell;
+  }
+  fromMultiTagToTag(cell) {
+    const { columnId, tagIds } = cell;
+    let tagId = null;
+    if (tagIds.length > 0) {
+      tagId = tagIds[0];
+    }
+    const newCell = createTagCell(columnId, {
+      tagId
+    });
+    return newCell;
+  }
+  fromDateToText(column, cell) {
+    const { includeTime, hour12, dateFormat, dateFormatSeparator } = column;
+    const { columnId, dateTime } = cell;
+    let content = "";
+    if (dateTime !== null) {
+      content = dateTimeToDateString(
+        dateTime,
+        dateFormat,
+        dateFormatSeparator,
+        {
+          includeTime,
+          hour12
         }
+      );
+    }
+    const newCell = createTextCell(columnId, {
+      content
+    });
+    return newCell;
+  }
+  fromFileToText(cell) {
+    const { columnId, path } = cell;
+    const newCell = createTextCell(columnId, {
+      content: path
+    });
+    return newCell;
+  }
+  fromEmbedToText(cell) {
+    const { columnId, pathOrUrl } = cell;
+    const newCell = createTextCell(columnId, {
+      content: pathOrUrl
+    });
+    return newCell;
+  }
+  fromTextToCheckbox(cell) {
+    const { columnId, content } = cell;
+    const newCell = createCheckboxCell(columnId, {
+      value: content === "true"
+    });
+    return newCell;
+  }
+  fromTextToNumber(cell) {
+    const { columnId, content } = cell;
+    const newCell = createNumberCell(columnId, {
+      value: isNumber(content) ? Number(content) : null
+    });
+    return newCell;
+  }
+  fromTextToDate(cell) {
+    const { columnId, content } = cell;
+    const dateTime = parseDateTime(content);
+    const newCell = createDateCell(columnId, {
+      dateTime
+    });
+    return newCell;
+  }
+  fromTextToTag(column, cell) {
+    var _a2, _b;
+    const { columnId, content } = cell;
+    const { tags: columnTags } = column;
+    let tagId = (_b = (_a2 = columnTags.find((tag) => tag.content === content)) == null ? void 0 : _a2.id) != null ? _b : null;
+    if (content !== "") {
+      if (!tagId) {
+        const newTag = createTag(content);
+        tagId = newTag.id;
+        column.tags = [...columnTags, newTag];
       }
-      return column;
+    }
+    const newCell = createTagCell(columnId, {
+      tagId
     });
+    return newCell;
   }
-  fromTagOrMultiTag(prevRows) {
-    return prevRows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        if (cell.columnId === this.id) {
-          if (cell.tagIds.length > 0) {
-            const updatedCell = __spreadProps(__spreadValues({}, cell), {
-              tagIds: []
-            });
-            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
-            this.updatedCells.next.push(updatedCell);
-            return updatedCell;
-          }
-        }
-        return cell;
+  fromTextToMultiTag(column, cell) {
+    const { columnId, content } = cell;
+    const newTags = [];
+    if (content !== "") {
+      const { tags: columnTags } = column;
+      content.split(",").forEach((tagContent) => {
+        var _a2;
+        let tag = (_a2 = columnTags.find((tag2) => tag2.content === tagContent)) != null ? _a2 : null;
+        if (!tag)
+          tag = createTag(tagContent);
+        newTags.push(tag);
       });
-      return __spreadProps(__spreadValues({}, row), {
-        cells: nextCells
-      });
+    }
+    const allTags = [...column.tags, ...newTags];
+    const uniqueTags = allTags.reduce((acc, current) => {
+      if (!acc.find((tag) => tag.id === current.id)) {
+        acc.push(current);
+      }
+      return acc;
+    }, []);
+    column.tags = uniqueTags;
+    const newCell = createMultiTagCell(columnId, {
+      tagIds: uniqueTags.map((tag) => tag.id)
     });
+    return newCell;
   }
-  fromDateToText(column, prevRows) {
-    return prevRows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        const { dateTime, columnId } = cell;
-        const { dateFormat, dateFormatSeparator, id: id2 } = column;
-        if (columnId === id2) {
-          if (dateTime !== null) {
-            const dateString = dateTimeToDateString(
-              dateTime,
-              dateFormat,
-              dateFormatSeparator
-            );
-            const newCell = __spreadProps(__spreadValues({}, cell), {
-              content: dateString
-            });
-            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
-            this.updatedCells.next.push(newCell);
-            return newCell;
-          }
-        }
-        return cell;
-      });
-      return __spreadProps(__spreadValues({}, row), {
-        cells: nextCells
-      });
+  fromTextToFile(cell) {
+    const { columnId, content } = cell;
+    const newCell = createFileCell(columnId, {
+      path: content
     });
+    return newCell;
   }
-  toTag(columns, prevRows) {
-    return prevRows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        const { columnId, content } = cell;
-        if (columnId === this.id) {
-          if (content !== "") {
-            const tagIds = [];
-            content.split(",").forEach((tagContent) => {
-              const column = columns.find(
-                (column2) => column2.id === this.id
-              );
-              if (!column)
-                throw new ColumnNotFoundError({ id: this.id });
-              const existingTag = column.tags.find(
-                (tag) => tag.content === tagContent
-              );
-              if (tagIds.length === 0) {
-                if (existingTag) {
-                  tagIds.push(existingTag.id);
-                } else {
-                  const tag = createTag(tagContent);
-                  this.addedTags.push((0, import_lodash14.cloneDeep)(tag));
-                  column.tags.push(tag);
-                  tagIds.push(tag.id);
-                }
-              } else {
-                if (!existingTag) {
-                  const tag = createTag(tagContent);
-                  this.addedTags.push((0, import_lodash14.cloneDeep)(tag));
-                  column.tags.push(tag);
-                }
-              }
-            });
-            const newCell = __spreadProps(__spreadValues({}, cell), {
-              tagIds
-            });
-            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
-            this.updatedCells.next.push(newCell);
-            return newCell;
-          }
-        }
-        return cell;
-      });
-      return __spreadProps(__spreadValues({}, row), {
-        cells: nextCells
-      });
+  fromTextToEmbed(cell) {
+    const { columnId, content } = cell;
+    const newCell = createEmbedCell(columnId, {
+      pathOrUrl: content
     });
-  }
-  toMultiTag(columns, prevRows) {
-    return prevRows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        const { columnId, content } = cell;
-        if (columnId === this.id) {
-          if (content !== "") {
-            const tagIds = [];
-            content.split(",").forEach((tagContent) => {
-              const column = columns.find(
-                (column2) => column2.id === this.id
-              );
-              if (!column)
-                throw new ColumnNotFoundError({ id: this.id });
-              const existingTag = column.tags.find(
-                (tag) => tag.content === tagContent
-              );
-              if (existingTag) {
-                tagIds.push(existingTag.id);
-              } else {
-                const tag = createTag(tagContent);
-                this.addedTags.push((0, import_lodash14.cloneDeep)(tag));
-                column.tags.push(tag);
-                tagIds.push(tag.id);
-              }
-            });
-            const newCell = __spreadProps(__spreadValues({}, cell), {
-              tagIds
-            });
-            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
-            this.updatedCells.next.push(newCell);
-            return newCell;
-          }
-        }
-        return cell;
-      });
-      return __spreadProps(__spreadValues({}, row), {
-        cells: nextCells
-      });
-    });
-  }
-  fromMultiTagToTag(prevRows) {
-    return prevRows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        const { columnId, tagIds } = cell;
-        if (columnId === this.id) {
-          if (tagIds.length > 0) {
-            const newCell = __spreadProps(__spreadValues({}, cell), {
-              tagIds: [tagIds[0]]
-            });
-            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
-            this.updatedCells.next.push(newCell);
-            return newCell;
-          }
-        }
-        return cell;
-      });
-      return __spreadProps(__spreadValues({}, row), {
-        cells: nextCells
-      });
-    });
-  }
-  toCheckbox(prevRows) {
-    return prevRows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        const { columnId, content } = cell;
-        if (columnId === this.id) {
-          if (!isCheckbox(content)) {
-            const newCell = __spreadProps(__spreadValues({}, cell), {
-              content: CHECKBOX_MARKDOWN_UNCHECKED2
-            });
-            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
-            this.updatedCells.next.push(newCell);
-            return newCell;
-          }
-        }
-        return cell;
-      });
-      return __spreadProps(__spreadValues({}, row), {
-        cells: nextCells
-      });
-    });
+    return newCell;
   }
 };
 
@@ -62160,7 +66725,6 @@ var ColumnReorderCommand = class extends loom_state_command_default {
     this.targetId = targetId;
   }
   execute(prevState) {
-    super.onExecute();
     const { columns } = prevState.model;
     const dragIndex = columns.findIndex(
       (column) => column.id === this.dragId
@@ -62168,8 +66732,6 @@ var ColumnReorderCommand = class extends loom_state_command_default {
     const targetIndex = columns.findIndex(
       (column) => column.id === this.targetId
     );
-    this.dragIndex = dragIndex;
-    this.targetIndex = targetIndex;
     const newColumns = [...columns];
     const draggedEl = newColumns[dragIndex];
     newColumns.splice(dragIndex, 1);
@@ -62178,48 +66740,14 @@ var ColumnReorderCommand = class extends loom_state_command_default {
       prevState.model.rows,
       newColumns
     );
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         columns: newColumns,
         rows: nextRows
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { columns } = prevState.model;
-    const newColumns = [...columns];
-    const draggedEl = newColumns[this.targetIndex];
-    newColumns.splice(this.targetIndex, 1);
-    newColumns.splice(this.dragIndex, 0, draggedEl);
-    const nextRows = this.sortCellsByColumns(
-      prevState.model.rows,
-      newColumns
-    );
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        columns: newColumns,
-        rows: nextRows
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    const { columns } = prevState.model;
-    const newColumns = [...columns];
-    const draggedEl = newColumns[this.dragIndex];
-    newColumns.splice(this.dragIndex, 1);
-    newColumns.splice(this.targetIndex, 0, draggedEl);
-    const nextRows = this.sortCellsByColumns(
-      prevState.model.rows,
-      newColumns
-    );
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        columns: newColumns,
-        rows: nextRows
-      })
-    });
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
   sortCellsByColumns(prevRows, columns) {
     return prevRows.map((row) => {
@@ -62241,15 +66769,15 @@ var ColumnReorderCommand = class extends loom_state_command_default {
 };
 
 // src/react/loom-app/app/hooks/use-column/index.ts
-var import_react54 = __toESM(require_react());
+var import_react53 = __toESM(require_react());
 var useColumn = () => {
   const logger = useLogger();
   const { doCommand } = useLoomState();
-  const handleNewColumnClick = import_react54.default.useCallback(() => {
+  const handleNewColumnClick = import_react53.default.useCallback(() => {
     logger("handleNewColumnClick");
     doCommand(new ColumnAddCommand());
   }, [doCommand, logger]);
-  const handleColumnTypeChange = import_react54.default.useCallback(
+  const handleColumnTypeChange = import_react53.default.useCallback(
     (columnId, type) => {
       logger("handleColumnTypeChange", {
         columnId,
@@ -62259,7 +66787,7 @@ var useColumn = () => {
     },
     [doCommand, logger]
   );
-  const handleColumnChange = import_react54.default.useCallback(
+  const handleColumnChange = import_react53.default.useCallback(
     (columnId, data, options) => {
       logger("handleColumnChange", {
         columnId,
@@ -62270,7 +66798,7 @@ var useColumn = () => {
     },
     [doCommand, logger]
   );
-  const handleColumnDeleteClick = import_react54.default.useCallback(
+  const handleColumnDeleteClick = import_react53.default.useCallback(
     (columnId) => {
       logger("handleColumnDeleteClick", {
         columnId
@@ -62279,7 +66807,7 @@ var useColumn = () => {
     },
     [doCommand, logger]
   );
-  const handleColumnReorder = import_react54.default.useCallback(
+  const handleColumnReorder = import_react53.default.useCallback(
     (dragId, targetId) => {
       logger("handleColumnReorder", {
         dragId,
@@ -62304,43 +66832,23 @@ var RowAddCommand = class extends loom_state_command_default {
     super(true);
   }
   execute(prevState) {
-    super.onExecute();
     const { rows, columns } = prevState.model;
     const cells = columns.map((column) => {
       const { id: id2, type } = column;
-      return createCell(id2, {
-        type
-      });
+      return createCellForType(id2, type);
     });
     this.addedRow = createRow(rows.length, { cells });
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         rows: [...rows, this.addedRow]
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { rows } = prevState.model;
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        rows: rows.filter((row) => row.id !== this.addedRow.id)
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    const { rows } = prevState.model;
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        rows: [...rows, this.addedRow]
-      })
-    });
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
 };
 
 // src/shared/loom-state/commands/row-delete-command.ts
-var import_lodash15 = __toESM(require_lodash());
 var RowDeleteCommand = class extends loom_state_command_default {
   constructor(options) {
     super(false);
@@ -62351,7 +66859,6 @@ var RowDeleteCommand = class extends loom_state_command_default {
     this.last = last2;
   }
   execute(prevState) {
-    super.onExecute();
     const { rows } = prevState.model;
     if (rows.length === 0)
       return prevState;
@@ -62361,58 +66868,27 @@ var RowDeleteCommand = class extends loom_state_command_default {
     const rowToDelete = rows.find((row) => row.id === id2);
     if (!rowToDelete)
       throw new RowNotFoundError(id2);
-    this.deletedRow = {
-      arrIndex: rows.indexOf(rowToDelete),
-      row: (0, import_lodash15.cloneDeep)(rowToDelete)
-    };
     let newRows = rows.filter((row) => row.id !== id2);
-    this.previousRows = newRows.filter((row) => row.index > this.deletedRow.row.index).map((row) => {
-      return {
-        id: row.id,
-        index: row.index
-      };
-    });
     newRows = newRows.map((row) => {
-      if (row.index > this.deletedRow.row.index) {
+      if (row.index > rows.indexOf(rowToDelete)) {
         return __spreadProps(__spreadValues({}, row), {
           index: row.index - 1
         });
       }
       return row;
     });
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         rows: newRows
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { rows } = prevState.model;
-    const nextRows = [...rows].map((row) => {
-      const wasUpdated = this.previousRows.find((r2) => r2.id === row.id);
-      if (wasUpdated) {
-        return __spreadProps(__spreadValues({}, row), {
-          index: wasUpdated.index
-        });
-      }
-      return row;
-    });
-    nextRows.splice(this.deletedRow.arrIndex, 0, this.deletedRow.row);
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        rows: nextRows
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    return this.execute(prevState);
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
 };
 
 // src/react/loom-app/app/hooks/use-row.ts
-var import_react55 = __toESM(require_react());
+var import_react54 = __toESM(require_react());
 
 // src/shared/loom-state/commands/row-insert-command.ts
 var RowInsertCommand = class extends loom_state_command_default {
@@ -62422,7 +66898,6 @@ var RowInsertCommand = class extends loom_state_command_default {
     this.insert = insert2;
   }
   execute(prevState) {
-    super.onExecute();
     const { rows, columns } = prevState.model;
     const index = rows.findIndex((row) => row.id === this.rowId);
     if (index === -1)
@@ -62430,92 +66905,27 @@ var RowInsertCommand = class extends loom_state_command_default {
     const insertIndex = this.insert === "above" ? index : index + 1;
     const cells = columns.map((column) => {
       const { id: id2, type } = column;
-      return createCell(id2, {
-        type
-      });
+      return createCellForType(id2, type);
     });
     const createdRow = createRow(insertIndex, { cells });
-    this.addedRow = createdRow;
-    this.originalRowOrder = rows.map((row) => ({
-      id: row.id,
-      index: row.index
-    }));
     const updatedRows = [
       ...rows.slice(0, insertIndex),
       createdRow,
       ...rows.slice(insertIndex)
     ].map((row, i2) => __spreadProps(__spreadValues({}, row), { index: i2 }));
-    this.originalColumnSort = columns.map((column) => ({
-      id: column.id,
-      sortDir: column.sortDir
-    }));
     const updatedColumns = columns.map((column) => {
       return __spreadProps(__spreadValues({}, column), {
         sortDir: "default" /* NONE */
       });
     });
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         columns: updatedColumns,
         rows: updatedRows
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { rows, columns } = prevState.model;
-    const row = rows.find((row2) => row2.id === this.addedRow.id);
-    if (!row)
-      throw new RowNotFoundError(this.addedRow.id);
-    const updatedRows = rows.filter((row2) => row2.id !== this.addedRow.id).map((row2) => {
-      const original = this.originalRowOrder.find(
-        (r2) => r2.id === row2.id
-      );
-      if (!original)
-        throw new RowNotFoundError(row2.id);
-      const { index } = original;
-      return __spreadProps(__spreadValues({}, row2), {
-        index
-      });
-    });
-    const updatedColumns = columns.map((column) => {
-      const oldColumn = this.originalColumnSort.find(
-        (c2) => c2.id === column.id
-      );
-      if (!oldColumn)
-        throw new Error("Column not found");
-      const { sortDir } = oldColumn;
-      return __spreadProps(__spreadValues({}, column), {
-        sortDir
-      });
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        columns: updatedColumns,
-        rows: updatedRows
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    const { rows, columns } = prevState.model;
-    const insertIndex = this.addedRow.index;
-    const updatedRows = [
-      ...rows.slice(0, insertIndex),
-      this.addedRow,
-      ...rows.slice(insertIndex)
-    ].map((row, i2) => __spreadProps(__spreadValues({}, row), { index: i2 }));
-    const updatedColumns = columns.map((column) => {
-      return __spreadProps(__spreadValues({}, column), {
-        sortDir: "default" /* NONE */
-      });
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        columns: updatedColumns,
-        rows: updatedRows
-      })
-    });
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
 };
 
@@ -62523,87 +66933,35 @@ var RowInsertCommand = class extends loom_state_command_default {
 var RowReorderCommand = class extends loom_state_command_default {
   constructor(dragId, targetId) {
     super(false);
-    this.previousColumnSort = [];
-    this.previousRowOrder = [];
     this.dragId = dragId;
     this.targetId = targetId;
   }
   execute(prevState) {
-    super.onExecute();
     const { rows, columns } = prevState.model;
     const dragIndex = rows.findIndex((row) => row.id === this.dragId);
     const targetIndex = rows.findIndex((row) => row.id === this.targetId);
-    this.dragIndex = dragIndex;
-    this.targetIndex = targetIndex;
     let newRows = [...rows];
     const draggedEl = newRows[dragIndex];
     newRows.splice(dragIndex, 1);
     newRows.splice(targetIndex, 0, draggedEl);
     newRows = newRows.map((row, i2) => {
-      const { id: id2, index } = row;
-      this.previousRowOrder.push({
-        id: id2,
-        index
-      });
       return __spreadProps(__spreadValues({}, row), {
         index: i2
       });
     });
     const nextColumns = columns.map((column) => {
-      const { id: id2, sortDir } = column;
-      this.previousColumnSort.push({
-        id: id2,
-        sortDir
-      });
       return __spreadProps(__spreadValues({}, column), {
         sortDir: "default" /* NONE */
       });
     });
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         rows: newRows,
         columns: nextColumns
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { rows, columns } = prevState.model;
-    let newRows = [...rows];
-    const draggedEl = newRows[this.targetIndex];
-    newRows.splice(this.targetIndex, 1);
-    newRows.splice(this.dragIndex, 0, draggedEl);
-    newRows = newRows.map((row) => {
-      const previousRowOrder = this.previousRowOrder.find(
-        (order) => order.id === row.id
-      );
-      if (!previousRowOrder)
-        throw new Error("Row order not found");
-      return __spreadProps(__spreadValues({}, row), {
-        index: previousRowOrder.index
-      });
-    });
-    const nextColumns = columns.map((column) => {
-      const { id: id2 } = column;
-      const previousSort = this.previousColumnSort.find(
-        (sort) => sort.id === id2
-      );
-      if (!previousSort)
-        throw new ColumnNotFoundError({ id: id2 });
-      return __spreadProps(__spreadValues({}, column), {
-        sortDir: previousSort.sortDir
-      });
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        rows: newRows,
-        columns: nextColumns
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    return this.execute(prevState);
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
 };
 
@@ -62611,7 +66969,7 @@ var RowReorderCommand = class extends loom_state_command_default {
 var useRow = () => {
   const logger = useLogger();
   const { doCommand, loomState } = useLoomState();
-  const handleRowDeleteClick = import_react55.default.useCallback(
+  const handleRowDeleteClick = import_react54.default.useCallback(
     (rowId) => {
       logger("handleRowDeleteClick", {
         rowId
@@ -62620,11 +66978,11 @@ var useRow = () => {
     },
     [doCommand, logger]
   );
-  const handleNewRowClick = import_react55.default.useCallback(() => {
+  const handleNewRowClick = import_react54.default.useCallback(() => {
     logger("handleNewRowClick");
     doCommand(new RowAddCommand());
   }, [doCommand, logger]);
-  const handleRowInsertAboveClick = import_react55.default.useCallback(
+  const handleRowInsertAboveClick = import_react54.default.useCallback(
     (rowId) => {
       logger("handleRowInsertAboveClick", {
         rowId
@@ -62635,7 +66993,7 @@ var useRow = () => {
     },
     [doCommand, logger, loomState]
   );
-  const handleRowInsertBelowClick = import_react55.default.useCallback(
+  const handleRowInsertBelowClick = import_react54.default.useCallback(
     (rowId) => {
       logger("handleRowInsertBelowClick", {
         rowId
@@ -62646,7 +67004,7 @@ var useRow = () => {
     },
     [doCommand, logger, loomState]
   );
-  const handleRowReorder = import_react55.default.useCallback(
+  const handleRowReorder = import_react54.default.useCallback(
     (dragId, targetId) => {
       logger("handleRowReorder", {
         dragId,
@@ -62666,7 +67024,6 @@ var useRow = () => {
 };
 
 // src/shared/loom-state/commands/cell-body-update-command.ts
-var import_lodash16 = __toESM(require_lodash());
 var CellBodyUpdateCommand = class extends loom_state_command_default {
   constructor(id2, data, isPartial = true) {
     super(true);
@@ -62675,102 +67032,48 @@ var CellBodyUpdateCommand = class extends loom_state_command_default {
     this.isPartial = isPartial;
   }
   execute(prevState) {
-    super.onExecute();
     const { rows } = prevState.model;
     const row = rows.find(
       (row2) => row2.cells.find((cell) => cell.id === this.id)
     );
     if (!row)
       throw new RowNotFoundError();
-    this.rowId = row.id;
-    this.previousEditedDateTime = row.lastEditedDateTime;
+    const targetRowId = row.id;
     const nextRows = rows.map((row2) => {
       const { cells } = row2;
       const nextCells = cells.map((cell) => {
         if (cell.id === this.id) {
-          this.prevCell = (0, import_lodash16.cloneDeep)(cell);
           let newCell = this.data;
           if (this.isPartial)
             newCell = __spreadValues(__spreadValues({}, cell), this.data);
-          this.nextCell = newCell;
           return newCell;
         }
         return cell;
       });
-      if (row2.id === this.rowId) {
-        const newLastEditedDateTime = getCurrentDateTime();
-        this.nextLastEditedDateTime = newLastEditedDateTime;
+      if (row2.id === targetRowId) {
         return __spreadProps(__spreadValues({}, row2), {
-          lastEditedDateTime: newLastEditedDateTime,
+          lastEditedDateTime: getCurrentDateTime(),
           cells: nextCells
         });
       }
       return row2;
     });
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         rows: nextRows
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { rows } = prevState.model;
-    const nextRows = rows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        if (cell.id === this.id) {
-          return this.prevCell;
-        }
-        return cell;
-      });
-      if (row.id === this.rowId) {
-        return __spreadProps(__spreadValues({}, row), {
-          lastEditedDateTime: this.previousEditedDateTime,
-          cells: nextCells
-        });
-      }
-      return row;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        rows: nextRows
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    const { rows } = prevState.model;
-    const nextRows = rows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        if (cell.id === this.id) {
-          return this.nextCell;
-        }
-        return cell;
-      });
-      if (row.id === this.rowId) {
-        return __spreadProps(__spreadValues({}, row), {
-          lastEditedDateTime: this.nextLastEditedDateTime,
-          cells: nextCells
-        });
-      }
-      return row;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        rows: nextRows
-      })
-    });
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
 };
 
 // src/react/loom-app/app/hooks/use-cell/index.ts
-var import_react56 = __toESM(require_react());
+var import_react55 = __toESM(require_react());
 var useCell = () => {
   const logger = useLogger();
   const { doCommand } = useLoomState();
-  const handleCellChange = import_react56.default.useCallback(
+  const handleCellChange = import_react55.default.useCallback(
     (id2, value, isPartial = true) => {
       logger("handleCellChange", {
         id: id2,
@@ -62790,41 +67093,58 @@ var useCell = () => {
 var TagDeleteCommand = class extends loom_state_command_default {
   constructor(columnId, tagId) {
     super(true);
-    this.previousCellTagIds = [];
     this.columnId = columnId;
     this.tagId = tagId;
   }
   execute(prevState) {
-    super.onExecute();
     const { rows, columns } = prevState.model;
     const nextColumns = columns.map((column) => {
       if (column.id === this.columnId) {
         const tag = column.tags.find((tag2) => tag2.id === this.tagId);
         if (!tag)
           throw new TagNotFoundError(this.tagId);
-        this.deletedTag = {
-          arrIndex: column.tags.indexOf(tag),
-          tag
-        };
+        const nextTags = column.tags.filter(
+          (tag2) => tag2.id !== this.tagId
+        );
         return __spreadProps(__spreadValues({}, column), {
-          tags: column.tags.filter((tag2) => tag2.id !== this.tagId)
+          tags: nextTags
         });
       }
       return column;
     });
+    const cellsToColumn = /* @__PURE__ */ new Map();
+    const cells = rows.flatMap((row) => row.cells);
+    cells.forEach((cell) => {
+      const column = columns.find(
+        (column2) => column2.id === cell.columnId
+      );
+      if (!column)
+        throw new ColumnNotFoundError({ id: cell.columnId });
+      cellsToColumn.set(cell.columnId, column);
+    });
     const nextRows = rows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        if (cell.tagIds.includes(this.tagId)) {
-          this.previousCellTagIds.push({
-            cellId: cell.id,
-            tagIds: [...cell.tagIds]
-          });
-          return __spreadProps(__spreadValues({}, cell), {
-            tagIds: cell.tagIds.filter(
-              (tagId) => tagId !== this.tagId
-            )
-          });
+      const { cells: cells2 } = row;
+      const nextCells = cells2.map((cell) => {
+        const column = cellsToColumn.get(cell.columnId);
+        if (!column)
+          throw new ColumnNotFoundError({ id: cell.columnId });
+        const { type } = column;
+        if (type === "tag" /* TAG */) {
+          const { tagId } = cell;
+          if (tagId === this.tagId) {
+            return __spreadProps(__spreadValues({}, cell), {
+              tagId: null
+            });
+          }
+        } else if (type === "multi-tag" /* MULTI_TAG */) {
+          const { tagIds } = cell;
+          if (tagIds.includes(this.tagId)) {
+            return __spreadProps(__spreadValues({}, cell), {
+              tagIds: tagIds.filter(
+                (tagId) => tagId !== this.tagId
+              )
+            });
+          }
         }
         return cell;
       });
@@ -62832,62 +67152,18 @@ var TagDeleteCommand = class extends loom_state_command_default {
         cells: nextCells
       });
     });
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         columns: nextColumns,
         rows: nextRows
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { columns, rows } = prevState.model;
-    const nextColumns = columns.map((column) => {
-      if (column.id === this.columnId) {
-        const updatedTags = [...column.tags];
-        updatedTags.splice(
-          this.deletedTag.arrIndex,
-          0,
-          this.deletedTag.tag
-        );
-        return __spreadProps(__spreadValues({}, column), {
-          tags: updatedTags
-        });
-      }
-      return column;
-    });
-    const nextRows = rows.map((row) => {
-      const { cells } = row;
-      const newCells = cells.map((cell) => {
-        const previousTagIds = this.previousCellTagIds.find(
-          (previousCellTagId) => previousCellTagId.cellId === cell.id
-        );
-        if (previousTagIds) {
-          return __spreadProps(__spreadValues({}, cell), {
-            tagIds: previousTagIds.tagIds
-          });
-        }
-        return cell;
-      });
-      return __spreadProps(__spreadValues({}, row), {
-        cells: newCells
-      });
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        columns: nextColumns,
-        rows: nextRows
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    return this.execute(prevState);
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
 };
 
 // src/shared/loom-state/commands/tag-update-command.ts
-var import_lodash17 = __toESM(require_lodash());
 var TagUpdateCommand = class extends loom_state_command_default {
   constructor(columnId, tagId, data, isPartial = true) {
     super(false);
@@ -62897,18 +67173,15 @@ var TagUpdateCommand = class extends loom_state_command_default {
     this.isPartial = isPartial;
   }
   execute(prevState) {
-    super.onExecute();
     const { columns } = prevState.model;
     const nextColumns = columns.map((column) => {
       if (column.id === this.columnId) {
         const { tags } = column;
         const nextTags = tags.map((tag) => {
           if (tag.id === this.tagId) {
-            this.prevTag = (0, import_lodash17.cloneDeep)(tag);
             let newTag = this.data;
             if (this.isPartial)
               newTag = __spreadValues(__spreadValues({}, tag), this.data);
-            this.nextTag = newTag;
             return newTag;
           }
           return tag;
@@ -62917,82 +67190,36 @@ var TagUpdateCommand = class extends loom_state_command_default {
       }
       return column;
     });
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         columns: nextColumns
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { columns } = prevState.model;
-    const nextColumns = columns.map((column) => {
-      if (column.id === this.columnId) {
-        const { tags } = column;
-        const nextTags = tags.map((tag) => {
-          if (tag.id === this.nextTag.id) {
-            return this.prevTag;
-          }
-          return tag;
-        });
-        return __spreadProps(__spreadValues({}, column), { tags: nextTags });
-      }
-      return column;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        columns: nextColumns
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    const { columns } = prevState.model;
-    const nextColumns = columns.map((column) => {
-      if (column.id === this.columnId) {
-        const { tags } = column;
-        const nextTags = tags.map((tag) => {
-          if (tag.id === this.tagId) {
-            return this.nextTag;
-          }
-          return tag;
-        });
-        return __spreadProps(__spreadValues({}, column), { tags: nextTags });
-      }
-      return column;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        columns: nextColumns
-      })
-    });
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
 };
 
 // src/shared/loom-state/commands/tag-add-command.ts
 var TagAddCommand = class extends loom_state_command_default {
-  constructor(cellId, columnId, markdown, color, isMultiTag) {
+  constructor(cellId, columnId, markdown, color) {
     super(true);
     this.cellId = cellId;
     this.columnId = columnId;
     this.markdown = markdown;
     this.color = color;
-    this.isMultiTag = isMultiTag;
   }
   execute(prevState) {
-    super.onExecute();
     const { rows, columns } = prevState.model;
     const row = rows.find(
       (row2) => row2.cells.find((cell) => cell.id === this.cellId)
     );
     if (!row)
       throw new RowNotFoundError();
-    this.previousEditedDateTime = row.lastEditedDateTime;
-    this.rowId = row.id;
+    const targetRowId = row.id;
     const newTag = createTag(this.markdown, {
       color: this.color
     });
-    this.addedTag = newTag;
     const nextColumns = columns.map((column) => {
       if (column.id === this.columnId) {
         return __spreadProps(__spreadValues({}, column), {
@@ -63001,118 +67228,49 @@ var TagAddCommand = class extends loom_state_command_default {
       }
       return column;
     });
+    const cellsToColumn = mapCellsToColumn(columns, rows);
     const nextRows = rows.map((row2) => {
       const { cells } = row2;
       const nextCells = cells.map((cell) => {
-        const { id: id2, tagIds } = cell;
+        const { id: id2 } = cell;
         if (id2 === this.cellId) {
-          this.previousCellTagIds = [...tagIds];
-          let updatedTagIds = [];
-          if (this.isMultiTag === false) {
-            if (cell.tagIds.length > 0) {
-              updatedTagIds = [newTag.id];
-              this.nextCellTagIds = updatedTagIds;
-              return __spreadProps(__spreadValues({}, cell), {
-                tagIds: updatedTagIds
-              });
-            }
+          const column = cellsToColumn.get(cell.columnId);
+          if (!column)
+            throw new ColumnNotFoundError({
+              id: cell.columnId
+            });
+          const { type } = column;
+          if (type === "tag" /* TAG */) {
+            return __spreadProps(__spreadValues({}, cell), {
+              tagId: newTag.id
+            });
+          } else if (type === "multi-tag" /* MULTI_TAG */) {
+            const { tagIds } = cell;
+            return __spreadProps(__spreadValues({}, cell), {
+              tagIds: [...tagIds, newTag.id]
+            });
+          } else {
+            throw new Error("Cell type is not a tag or multi tag");
           }
-          updatedTagIds = [...tagIds, newTag.id];
-          this.nextCellTagIds = updatedTagIds;
-          return __spreadProps(__spreadValues({}, cell), {
-            tagIds: updatedTagIds
-          });
         }
         return cell;
       });
-      if (row2.id === this.rowId) {
-        const newLastEditedDateTime = getCurrentDateTime();
-        this.nextEditedDateTime = newLastEditedDateTime;
+      if (row2.id === targetRowId) {
         return __spreadProps(__spreadValues({}, row2), {
-          lastEditedDateTime: newLastEditedDateTime,
+          lastEditedDateTime: getCurrentDateTime(),
           cells: nextCells
         });
       }
       return row2;
     });
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         columns: nextColumns,
         rows: nextRows
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { rows, columns } = prevState.model;
-    const nextColumns = columns.map((column) => {
-      if (column.id === this.columnId) {
-        return __spreadProps(__spreadValues({}, column), {
-          tags: column.tags.filter(
-            (tag) => tag.id !== this.addedTag.id
-          )
-        });
-      }
-      return column;
-    });
-    const nextRows = rows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        if (cell.id === this.cellId) {
-          return __spreadProps(__spreadValues({}, cell), {
-            tagIds: this.previousCellTagIds
-          });
-        }
-        return cell;
-      });
-      if (row.id === this.rowId) {
-        return __spreadProps(__spreadValues({}, row), {
-          lastEditedDateTime: this.previousEditedDateTime,
-          cells: nextCells
-        });
-      }
-      return row;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        columns: nextColumns,
-        rows: nextRows
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    const { rows, columns } = prevState.model;
-    const nextColumns = columns.map((column) => {
-      if (column.id === this.columnId)
-        return __spreadProps(__spreadValues({}, column), {
-          tags: [...column.tags, this.addedTag]
-        });
-      return column;
-    });
-    const nextRows = rows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        if (cell.id === this.cellId)
-          return __spreadProps(__spreadValues({}, cell), {
-            tagIds: this.nextCellTagIds
-          });
-        return cell;
-      });
-      if (row.id === this.rowId) {
-        return __spreadProps(__spreadValues({}, row), {
-          lastEditedDateTime: this.nextEditedDateTime,
-          cells: nextCells
-        });
-      }
-      return row;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        columns: nextColumns,
-        rows: nextRows
-      })
-    });
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
 };
 
@@ -63124,216 +67282,118 @@ var TagCellRemoveCommand = class extends loom_state_command_default {
     this.tagId = tagId;
   }
   execute(prevState) {
-    super.onExecute();
-    const { rows } = prevState.model;
+    const { columns, rows } = prevState.model;
     const row = rows.find(
       (row2) => row2.cells.find((cell) => cell.id === this.cellId)
     );
     if (!row)
       throw new RowNotFoundError();
-    this.rowId = row.id;
-    this.previousEditedDateTime = row.lastEditedDateTime;
+    const targetRowId = row.id;
+    const cellsToColumn = mapCellsToColumn(columns, rows);
     const nextRows = rows.map((row2) => {
       const { cells } = row2;
       const nextCells = cells.map((cell) => {
-        if (cell.id === this.cellId) {
-          const { tagIds } = cell;
-          this.previousTagIdIndex = tagIds.indexOf(this.tagId);
-          const nextTagIds = tagIds.filter((id2) => id2 !== this.tagId);
-          return __spreadProps(__spreadValues({}, cell), {
-            tagIds: nextTagIds
-          });
+        const { id: id2 } = cell;
+        if (id2 === this.cellId) {
+          const column = cellsToColumn.get(cell.columnId);
+          if (!column)
+            throw new ColumnNotFoundError({
+              id: cell.columnId
+            });
+          const { type } = column;
+          if (type === "tag" /* TAG */) {
+            return __spreadProps(__spreadValues({}, cell), {
+              tagId: null
+            });
+          } else if (type === "multi-tag" /* MULTI_TAG */) {
+            const { tagIds } = cell;
+            const nextTagIds = tagIds.filter(
+              (id3) => id3 !== this.tagId
+            );
+            return __spreadProps(__spreadValues({}, cell), {
+              tagIds: nextTagIds
+            });
+          } else {
+            throw new Error("Cell type is not a tag or multi tag");
+          }
         }
         return cell;
       });
-      if (row2.id === this.rowId) {
-        const newEditedDateTime = getCurrentDateTime();
-        this.nextEditedDateTime = newEditedDateTime;
+      if (row2.id === targetRowId) {
         return __spreadProps(__spreadValues({}, row2), {
-          lastEditedDateTime: newEditedDateTime,
+          lastEditedDateTime: getCurrentDateTime(),
           cells: nextCells
         });
       }
       return row2;
     });
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         rows: nextRows
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { rows } = prevState.model;
-    const nextRows = rows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        if (cell.id === this.cellId) {
-          const { tagIds } = cell;
-          const nextTagIds = [...tagIds];
-          nextTagIds.splice(this.previousTagIdIndex, 0, this.tagId);
-          return __spreadProps(__spreadValues({}, cell), {
-            tagIds: nextTagIds
-          });
-        }
-        return cell;
-      });
-      if (row.id === this.rowId) {
-        return __spreadProps(__spreadValues({}, row), {
-          lastEditedDateTime: this.previousEditedDateTime,
-          cells: nextCells
-        });
-      }
-      return row;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        rows: nextRows
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    const { rows } = prevState.model;
-    const nextRows = rows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        if (cell.id === this.cellId) {
-          const { tagIds } = cell;
-          const nextTagIds = tagIds.filter((id2) => id2 !== this.tagId);
-          return __spreadProps(__spreadValues({}, cell), {
-            tagIds: nextTagIds
-          });
-        }
-        return cell;
-      });
-      if (row.id === this.rowId) {
-        return __spreadProps(__spreadValues({}, row), {
-          lastEditedDateTime: this.nextEditedDateTime,
-          cells: nextCells
-        });
-      }
-      return row;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        rows: nextRows
-      })
-    });
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
 };
 
 // src/shared/loom-state/commands/tag-cell-add-command.ts
 var TagCellAddCommand = class extends loom_state_command_default {
-  constructor(cellId, tagId, isMultiTag) {
+  constructor(cellId, tagId) {
     super(true);
     this.cellId = cellId;
     this.tagId = tagId;
-    this.isMultiTag = isMultiTag;
   }
   execute(prevState) {
-    super.onExecute();
-    const { rows } = prevState.model;
+    const { rows, columns } = prevState.model;
     const row = rows.find(
       (row2) => row2.cells.find((cell) => cell.id === this.cellId)
     );
     if (!row)
       throw new RowNotFoundError();
-    this.rowId = row.id;
-    this.previousEditedDateTime = row.lastEditedDateTime;
+    const targetRowId = row.id;
+    const cellsToColumn = mapCellsToColumn(columns, rows);
     const nextRows = rows.map((row2) => {
       const { cells } = row2;
       const nextCells = cells.map((cell) => {
-        const { tagIds } = cell;
-        let updatedTagIds = [];
-        if (cell.id === this.cellId) {
-          this.previousCellTagIds = [...tagIds];
-          if (this.isMultiTag === false) {
-            updatedTagIds = [this.tagId];
-            this.nextCellTagIds = updatedTagIds;
-            if (tagIds.length > 0) {
-              return __spreadProps(__spreadValues({}, cell), {
-                tagIds: updatedTagIds
-              });
-            }
+        const { id: id2 } = cell;
+        if (id2 === this.cellId) {
+          const column = cellsToColumn.get(cell.columnId);
+          if (!column)
+            throw new ColumnNotFoundError({
+              id: cell.columnId
+            });
+          const { type } = column;
+          if (type === "tag" /* TAG */) {
+            return __spreadProps(__spreadValues({}, cell), {
+              tagId: this.tagId
+            });
+          } else if (type === "multi-tag" /* MULTI_TAG */) {
+            const { tagIds } = cell;
+            return __spreadProps(__spreadValues({}, cell), {
+              tagIds: [...tagIds, this.tagId]
+            });
+          } else {
+            throw new Error("Cell type is not a tag or multi tag");
           }
-          updatedTagIds = [...tagIds, this.tagId];
-          this.nextCellTagIds = updatedTagIds;
-          return __spreadProps(__spreadValues({}, cell), {
-            tagIds: updatedTagIds
-          });
         }
         return cell;
       });
-      if (row2.id === this.rowId) {
-        const newLastEditedTime = getCurrentDateTime();
-        this.nextEditedDateTime = newLastEditedTime;
+      if (row2.id === targetRowId) {
         return __spreadProps(__spreadValues({}, row2), {
-          lastEditedDateTime: newLastEditedTime,
+          lastEditedDateTime: getCurrentDateTime(),
           cells: nextCells
         });
       }
       return row2;
     });
-    return __spreadProps(__spreadValues({}, prevState), {
+    const newState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         rows: nextRows
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { rows } = prevState.model;
-    const nextRows = rows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        if (cell.id === this.cellId) {
-          return __spreadProps(__spreadValues({}, cell), {
-            tagIds: this.previousCellTagIds
-          });
-        }
-        return cell;
-      });
-      if (row.id === this.rowId) {
-        return __spreadProps(__spreadValues({}, row), {
-          lastEditedDateTime: this.previousEditedDateTime,
-          cells: nextCells
-        });
-      }
-      return row;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        rows: nextRows
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    const { rows } = prevState.model;
-    const nextRows = rows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        if (cell.id === this.cellId) {
-          return __spreadProps(__spreadValues({}, cell), {
-            tagIds: this.nextCellTagIds
-          });
-        }
-        return cell;
-      });
-      if (row.id === this.rowId) {
-        return __spreadProps(__spreadValues({}, row), {
-          lastEditedDateTime: this.nextEditedDateTime,
-          cells: nextCells
-        });
-      }
-      return row;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        rows: nextRows
-      })
-    });
+    this.finishExecute(prevState, newState);
+    return newState;
   }
 };
 
@@ -63345,137 +67405,85 @@ var TagCellMultipleRemoveCommand = class extends loom_state_command_default {
     this.tagIds = tagIds;
   }
   execute(prevState) {
-    super.onExecute();
-    const { rows } = prevState.model;
+    const { columns, rows } = prevState.model;
     const row = rows.find(
       (row2) => row2.cells.find((cell) => cell.id === this.cellId)
     );
     if (!row)
       throw new RowNotFoundError();
-    this.rowId = row.id;
-    this.previousEditedDateTime = row.lastEditedDateTime;
+    const targetRowId = row.id;
+    const cellsToColumn = mapCellsToColumn(columns, rows);
     const nextRows = rows.map((row2) => {
       const { cells } = row2;
       const nextCells = cells.map((cell) => {
-        const { tagIds } = cell;
-        if (cell.id === this.cellId) {
-          this.previousTagIds = [...tagIds];
-          const nextTagIds = tagIds.filter(
-            (id2) => !this.tagIds.includes(id2)
-          );
-          return __spreadProps(__spreadValues({}, cell), {
-            tagIds: nextTagIds
-          });
+        const { id: id2 } = cell;
+        if (id2 === this.cellId) {
+          const column = cellsToColumn.get(cell.columnId);
+          if (!column)
+            throw new ColumnNotFoundError({
+              id: cell.columnId
+            });
+          const { type } = column;
+          if (type === "multi-tag" /* MULTI_TAG */) {
+            const { tagIds } = cell;
+            const updatedTagIds = tagIds.filter(
+              (id3) => !this.tagIds.includes(id3)
+            );
+            return __spreadProps(__spreadValues({}, cell), {
+              tagIds: updatedTagIds
+            });
+          } else {
+            throw new Error("Cell type is not multi tag.");
+          }
         }
         return cell;
       });
-      if (row2.id === this.rowId) {
-        const newEditedDateTime = getCurrentDateTime();
-        this.nextEditedDateTime = newEditedDateTime;
+      if (row2.id === targetRowId) {
         return __spreadProps(__spreadValues({}, row2), {
-          lastEditedDateTime: newEditedDateTime,
+          lastEditedDateTime: getCurrentDateTime(),
           cells: nextCells
         });
       }
       return row2;
     });
-    return __spreadProps(__spreadValues({}, prevState), {
+    const newState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         rows: nextRows
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { rows } = prevState.model;
-    const nextRows = rows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        if (cell.id === this.cellId) {
-          return __spreadProps(__spreadValues({}, cell), {
-            tagIds: this.previousTagIds
-          });
-        }
-        return cell;
-      });
-      if (row.id === this.rowId) {
-        return __spreadProps(__spreadValues({}, row), {
-          lastEditedDateTime: this.previousEditedDateTime,
-          cells: nextCells
-        });
-      }
-      return row;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        rows: nextRows
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    const { rows } = prevState.model;
-    const nextRows = rows.map((row) => {
-      const { cells } = row;
-      const nextCells = cells.map((cell) => {
-        if (cell.id === this.cellId) {
-          const nextTagIds = cell.tagIds.filter(
-            (id2) => !this.tagIds.includes(id2)
-          );
-          return __spreadProps(__spreadValues({}, cell), {
-            tagIds: nextTagIds
-          });
-        }
-        return cell;
-      });
-      if (row.id === this.rowId) {
-        return __spreadProps(__spreadValues({}, row), {
-          lastEditedDateTime: this.nextEditedDateTime,
-          cells: nextCells
-        });
-      }
-      return row;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        rows: nextRows
-      })
-    });
+    this.finishExecute(prevState, newState);
+    return newState;
   }
 };
 
 // src/react/loom-app/app/hooks/use-tag/index.ts
-var import_react57 = __toESM(require_react());
+var import_react56 = __toESM(require_react());
 var useTag = () => {
   const { doCommand } = useLoomState();
   const logger = useLogger();
-  const handleTagAdd = import_react57.default.useCallback(
-    (cellId, columnId, markdown, color, isMultiTag) => {
+  const handleTagAdd = import_react56.default.useCallback(
+    (cellId, columnId, markdown, color) => {
       logger("handleTagAdd", {
         cellId,
         columnId,
         markdown,
-        color,
-        isMultiTag
+        color
       });
-      doCommand(
-        new TagAddCommand(cellId, columnId, markdown, color, isMultiTag)
-      );
+      doCommand(new TagAddCommand(cellId, columnId, markdown, color));
     },
     [doCommand, logger]
   );
-  const handleTagCellAdd = import_react57.default.useCallback(
-    (cellId, tagId, isMultiTag) => {
+  const handleTagCellAdd = import_react56.default.useCallback(
+    (cellId, tagId) => {
       logger("handleTagCellAdd", {
         cellId,
-        tagId,
-        isMultiTag
+        tagId
       });
-      doCommand(new TagCellAddCommand(cellId, tagId, isMultiTag));
+      doCommand(new TagCellAddCommand(cellId, tagId));
     },
     [doCommand, logger]
   );
-  const handleTagCellRemove = import_react57.default.useCallback(
+  const handleTagCellRemove = import_react56.default.useCallback(
     (cellId, tagId) => {
       logger("handleTagCellRemove", {
         cellId,
@@ -63485,7 +67493,7 @@ var useTag = () => {
     },
     [doCommand, logger]
   );
-  const handleTagChange = import_react57.default.useCallback(
+  const handleTagChange = import_react56.default.useCallback(
     (columnId, tagId, data, isPartial = true) => {
       logger("handleTagChange", {
         columnId,
@@ -63496,7 +67504,7 @@ var useTag = () => {
     },
     [doCommand, logger]
   );
-  const handleTagCellMultipleRemove = import_react57.default.useCallback(
+  const handleTagCellMultipleRemove = import_react56.default.useCallback(
     (cellId, tagIds) => {
       logger("handleTagCellMultipleRemove", {
         cellId,
@@ -63506,7 +67514,7 @@ var useTag = () => {
     },
     [doCommand, logger]
   );
-  const handleTagDeleteClick = import_react57.default.useCallback(
+  const handleTagDeleteClick = import_react56.default.useCallback(
     (columnId, tagId) => {
       logger("handleTagDeleteClick", {
         columnId,
@@ -63527,7 +67535,7 @@ var useTag = () => {
 };
 
 // src/react/loom-app/app/hooks/use-export-events.ts
-var import_react58 = __toESM(require_react());
+var import_react57 = __toESM(require_react());
 
 // src/shared/event/utils.ts
 var isEventForThisApp = (appId, allowOutsideEvents = false) => {
@@ -63559,7 +67567,7 @@ var useExportEvents = (state) => {
     (state2) => state2.global.settings
   );
   const filePath = loomFile.path;
-  import_react58.default.useEffect(() => {
+  import_react57.default.useEffect(() => {
     function handleDownloadCSV() {
       if (isEventForThisApp(reactAppId)) {
         setTimeout(() => {
@@ -63606,11 +67614,11 @@ var useExportEvents = (state) => {
 };
 
 // src/react/loom-app/app/hooks/use-row-events.ts
-var import_react59 = __toESM(require_react());
+var import_react58 = __toESM(require_react());
 var useRowEvents = () => {
   const { reactAppId, app } = useAppMount();
   const { doCommand } = useLoomState();
-  import_react59.default.useEffect(() => {
+  import_react58.default.useEffect(() => {
     function handleRowAddEvent() {
       if (isEventForThisApp(reactAppId))
         doCommand(new RowAddCommand());
@@ -63629,12 +67637,12 @@ var useRowEvents = () => {
 };
 
 // src/react/loom-app/app/hooks/use-column-events.ts
-var import_react60 = __toESM(require_react());
+var import_react59 = __toESM(require_react());
 var useColumnEvents = () => {
   const { reactAppId, app } = useAppMount();
   const { doCommand } = useLoomState();
   const logger = useLogger();
-  import_react60.default.useEffect(() => {
+  import_react59.default.useEffect(() => {
     function handleColumnAddEvent() {
       if (isEventForThisApp(reactAppId)) {
         logger("handleColumnAddEvent");
@@ -63667,40 +67675,25 @@ var TableSettingsUpdateCommand = class extends loom_state_command_default {
     this.value = value;
   }
   execute(prevState) {
-    super.onExecute();
     const { settings } = prevState.model;
-    this.previousValue = settings[this.key];
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         settings: __spreadProps(__spreadValues({}, settings), {
           [this.key]: this.value
         })
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { settings } = prevState.model;
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        settings: __spreadProps(__spreadValues({}, settings), {
-          [this.key]: this.previousValue
-        })
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    return this.execute(prevState);
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
 };
 
 // src/react/loom-app/app/hooks/use-table-settings.ts
-var import_react61 = __toESM(require_react());
+var import_react60 = __toESM(require_react());
 var useTableSettings = () => {
   const logger = useLogger();
   const { doCommand } = useLoomState();
-  const handleFrozenColumnsChange = import_react61.default.useCallback(
+  const handleFrozenColumnsChange = import_react60.default.useCallback(
     (numColumns) => {
       logger("handleFrozenColumnsChange", { numColumns });
       doCommand(
@@ -63720,10 +67713,6 @@ var useTableSettings = () => {
 };
 
 // src/react/loom-app/app/hooks/use-focus/utils.ts
-var removeCurrentFocusClass = () => {
-  const el = document.querySelector(".dataloom-focusable--focused");
-  el == null ? void 0 : el.classList.remove("dataloom-focusable--focused");
-};
 var getFocusLayerEl = (topMenu, appId) => {
   if (topMenu) {
     const topMenuEl = document.getElementById(topMenu.id);
@@ -63864,11 +67853,11 @@ function useFocus() {
   const logger = useLogger();
   const { reactAppId } = useAppMount();
   const { loomState } = useLoomState();
-  const { topMenu } = useMenuOperations();
+  const { topMenu, onClearMenuTriggerFocus } = useMenuOperations();
   function handleKeyDown(e) {
     logger("useFocus handleKeyDown");
     if (e.key === "Tab") {
-      removeCurrentFocusClass();
+      onClearMenuTriggerFocus();
       e.preventDefault();
       const layerEl = getFocusLayerEl(topMenu, reactAppId);
       const focusableEls = getFocusableEls(layerEl);
@@ -63931,7 +67920,7 @@ function useFocus() {
           }
       }
       if (elementToFocus !== null) {
-        removeCurrentFocusClass();
+        onClearMenuTriggerFocus();
         elementToFocus.focus();
       }
     }
@@ -63942,24 +67931,19 @@ function useFocus() {
 }
 
 // src/react/loom-app/app/hooks/use-source/index.ts
-var import_react62 = __toESM(require_react());
+var import_react61 = __toESM(require_react());
 
 // src/shared/loom-state/commands/source-add-command.ts
-var import_lodash18 = __toESM(require_lodash());
+var import_lodash12 = __toESM(require_lodash());
 var SourceAddCommand = class extends loom_state_command_default {
   constructor(source) {
     super(false);
-    this.addedSourceColumn = null;
-    this.addedSourceCells = [];
-    this.addedSourceFileColumn = null;
-    this.addedSourceFileCells = [];
     this.newSource = source;
   }
   execute(prevState) {
-    super.onExecute();
     const { sources, columns, rows } = prevState.model;
-    let nextColumns = (0, import_lodash18.cloneDeep)(columns);
-    let nextRows = (0, import_lodash18.cloneDeep)(rows);
+    let nextColumns = (0, import_lodash12.cloneDeep)(columns);
+    let nextRows = (0, import_lodash12.cloneDeep)(rows);
     const nextSources = [...sources, this.newSource];
     const sourceFileColumn = columns.find(
       (column) => column.type === "source-file" /* SOURCE_FILE */
@@ -63970,9 +67954,7 @@ var SourceAddCommand = class extends loom_state_command_default {
         content: "Source File",
         insertIndex: 0
       });
-      const { addedCells, addedColumn, columns: columns2, rows: rows2 } = result;
-      this.addedSourceFileCells = addedCells;
-      this.addedSourceFileColumn = addedColumn;
+      const { columns: columns2, rows: rows2 } = result;
       nextColumns = columns2;
       nextRows = rows2;
     }
@@ -63985,115 +67967,34 @@ var SourceAddCommand = class extends loom_state_command_default {
         content: "Source",
         insertIndex: 0
       });
-      const { addedCells, addedColumn, columns: columns2, rows: rows2 } = result;
-      this.addedSourceCells = addedCells;
-      this.addedSourceColumn = addedColumn;
+      const { columns: columns2, rows: rows2 } = result;
       nextColumns = columns2;
       nextRows = rows2;
     }
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         columns: nextColumns,
         sources: nextSources,
         rows: nextRows
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { sources, columns, rows } = prevState.model;
-    let nextColumns = (0, import_lodash18.cloneDeep)(columns);
-    let nextRows = (0, import_lodash18.cloneDeep)(rows);
-    const nextSources = sources.filter(
-      (source) => source.id !== this.newSource.id
-    );
-    if (this.addedSourceFileColumn !== null) {
-      const result = columnAddUndo(
-        nextColumns,
-        nextRows,
-        this.addedSourceFileColumn
-      );
-      const { columns: columns2, rows: rows2 } = result;
-      nextColumns = columns2;
-      nextRows = rows2;
-    }
-    if (this.addedSourceColumn !== null) {
-      const result = columnAddUndo(
-        nextColumns,
-        nextRows,
-        this.addedSourceColumn
-      );
-      const { columns: columns2, rows: rows2 } = result;
-      nextColumns = columns2;
-      nextRows = rows2;
-    }
-    nextRows = nextRows.filter((row) => row.sourceId !== this.newSource.id);
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        sources: nextSources,
-        columns: nextColumns,
-        rows: nextRows
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    const { sources, columns, rows } = prevState.model;
-    let nextRows = (0, import_lodash18.cloneDeep)(rows);
-    let nextColumns = (0, import_lodash18.cloneDeep)(columns);
-    const nextSources = [...sources, this.newSource];
-    if (this.addedSourceFileColumn !== null) {
-      const result = columnAddRedo(
-        nextColumns,
-        nextRows,
-        this.addedSourceFileColumn,
-        this.addedSourceFileCells,
-        {
-          insertIndex: 0
-        }
-      );
-      const { columns: columns2, rows: rows2 } = result;
-      nextColumns = columns2;
-      nextRows = rows2;
-    }
-    if (this.addedSourceColumn !== null) {
-      const result = columnAddRedo(
-        nextColumns,
-        nextRows,
-        this.addedSourceColumn,
-        this.addedSourceCells,
-        {
-          insertIndex: 0
-        }
-      );
-      const { columns: columns2, rows: rows2 } = result;
-      nextColumns = columns2;
-      nextRows = rows2;
-    }
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        sources: nextSources,
-        columns: nextColumns,
-        rows: nextRows
-      })
-    });
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
 };
 
 // src/shared/loom-state/commands/source-delete-command.ts
-var import_lodash19 = __toESM(require_lodash());
+var import_lodash13 = __toESM(require_lodash());
 var SourceDeleteCommand = class extends loom_state_command_default {
   constructor(id2) {
     super(false);
-    this.deletedRows = [];
     this.id = id2;
   }
   execute(prevState) {
-    super.onExecute();
     const { sources, rows, columns, filters } = prevState.model;
-    let nextColumns = (0, import_lodash19.cloneDeep)(columns);
-    let nextRows = (0, import_lodash19.cloneDeep)(rows);
-    let nextFilters = (0, import_lodash19.cloneDeep)(filters);
+    let nextColumns = (0, import_lodash13.cloneDeep)(columns);
+    let nextRows = (0, import_lodash13.cloneDeep)(rows);
+    let nextFilters = (0, import_lodash13.cloneDeep)(filters);
     const isLastSource = sources.length === 1;
     if (isLastSource) {
       const sourceColumn = nextColumns.find(
@@ -64113,19 +68014,11 @@ var SourceDeleteCommand = class extends loom_state_command_default {
       const {
         nextColumns: nextColumns1,
         nextFilters: nextFilters1,
-        nextRows: nextRows1,
-        deletedCells: deletedCells1,
-        deletedColumn: deletedColumn1,
-        deletedFilters: deletedFilters1
+        nextRows: nextRows1
       } = result1;
       nextRows = nextRows1;
       nextColumns = nextColumns1;
       nextFilters = nextFilters1;
-      this.deletedSourceColumn = {
-        deletedCells: deletedCells1,
-        deletedColumn: deletedColumn1,
-        deletedFilters: deletedFilters1
-      };
       const sourceFileColumn = columns.find(
         (column) => column.type === "source-file" /* SOURCE_FILE */
       );
@@ -64143,42 +68036,25 @@ var SourceDeleteCommand = class extends loom_state_command_default {
       const {
         nextColumns: nextColumns2,
         nextRows: nextRows2,
-        nextFilters: nextFilters2,
-        deletedCells: deletedCells2,
-        deletedColumn: deletedColumn2,
-        deletedFilters: deletedFilters2
+        nextFilters: nextFilters2
       } = result2;
       nextColumns = nextColumns2;
       nextRows = nextRows2;
       nextFilters = nextFilters2;
-      this.deletedFileColumn = {
-        deletedCells: deletedCells2,
-        deletedColumn: deletedColumn2,
-        deletedFilters: deletedFilters2
-      };
     }
     const nextSources = sources.filter((source) => {
-      if (source.id === this.id) {
-        this.deletedSource = {
-          arrIndex: sources.indexOf(source),
-          source: (0, import_lodash19.cloneDeep)(source)
-        };
+      if (source.id === this.id)
         return false;
-      }
       return true;
     });
     nextRows = nextRows.filter((row) => {
       const { sourceId } = row;
       if (sourceId === this.id) {
-        this.deletedRows.push({
-          arrIndex: nextRows.indexOf(row),
-          row: (0, import_lodash19.cloneDeep)(row)
-        });
         return false;
       }
       return true;
     });
-    return __spreadProps(__spreadValues({}, prevState), {
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         sources: nextSources,
         rows: nextRows,
@@ -64186,70 +68062,8 @@ var SourceDeleteCommand = class extends loom_state_command_default {
         filters: nextFilters
       })
     });
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { sources, rows, columns, filters } = prevState.model;
-    let nextColumns = (0, import_lodash19.cloneDeep)(columns);
-    let nextRows = (0, import_lodash19.cloneDeep)(rows);
-    let nextFilters = (0, import_lodash19.cloneDeep)(filters);
-    this.deletedRows.forEach(({ arrIndex, row }) => {
-      nextRows.splice(arrIndex, 0, row);
-    });
-    const isLastSource = sources.length === 0;
-    if (isLastSource) {
-      const result2 = columnDeleteUndo(
-        nextColumns,
-        nextRows,
-        nextFilters,
-        this.deletedFileColumn.deletedColumn,
-        this.deletedFileColumn.deletedCells,
-        this.deletedFileColumn.deletedFilters
-      );
-      const {
-        nextColumns: nextColumns2,
-        nextRows: nextRows2,
-        nextFilters: nextFilters2
-      } = result2;
-      nextColumns = nextColumns2;
-      nextRows = nextRows2;
-      nextFilters = nextFilters2;
-      const result1 = columnDeleteUndo(
-        nextColumns,
-        nextRows,
-        nextFilters,
-        this.deletedSourceColumn.deletedColumn,
-        this.deletedSourceColumn.deletedCells,
-        this.deletedSourceColumn.deletedFilters
-      );
-      const {
-        nextColumns: nextColumns1,
-        nextRows: nextRows1,
-        nextFilters: nextFilters1
-      } = result1;
-      nextColumns = nextColumns1;
-      nextRows = nextRows1;
-      nextFilters = nextFilters1;
-    }
-    const nextSources = [...sources];
-    nextSources.splice(
-      this.deletedSource.arrIndex,
-      0,
-      this.deletedSource.source
-    );
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        columns: nextColumns,
-        rows: nextRows,
-        filters: nextFilters,
-        sources: nextSources
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    this.deletedRows = [];
-    return this.execute(prevState);
+    this.finishExecute(prevState, nextState);
+    return nextState;
   }
 };
 
@@ -64271,23 +68085,93 @@ var deserializeFrontmatterForCell = (app, column, path) => {
   const assignedType = (_a2 = getAssignedPropertyType(app, frontmatterKey)) != null ? _a2 : "text" /* TEXT */;
   const { id: id2, tags, type } = column;
   switch (type) {
-    case "text" /* TEXT */:
-    case "embed" /* EMBED */:
-    case "file" /* FILE */:
-    case "number" /* NUMBER */:
-    case "checkbox" /* CHECKBOX */: {
-      const newCell = createCell(id2, {
-        type,
+    case "text" /* TEXT */: {
+      if (typeof frontmatterValue !== "string")
+        throw new Error(
+          "Failed to load content for CellType.TEXT. Frontmatter value is not a string"
+        );
+      const newCell = createTextCell(id2, {
         content: frontmatterValue
       });
       return {
         newCell
       };
     }
+    case "embed" /* EMBED */: {
+      if (typeof frontmatterValue !== "string")
+        throw new Error(
+          "Failed to load content for CellType.EMBED. Frontmatter value is not a string"
+        );
+      const isExternal = isExternalLink(frontmatterValue);
+      let pathOrUrl = "";
+      let pathAlias = null;
+      if (isUrlLink(frontmatterValue)) {
+        pathOrUrl = frontmatterValue;
+      } else {
+        const { path: path2, alias } = extractWikiLinkComponents(frontmatterValue);
+        if (path2 !== null) {
+          pathOrUrl = path2;
+          pathAlias = alias;
+        }
+      }
+      const newCell = createEmbedCell(id2, {
+        isExternal,
+        pathOrUrl,
+        alias: pathAlias
+      });
+      return {
+        newCell
+      };
+    }
+    case "file" /* FILE */: {
+      if (typeof frontmatterValue !== "string")
+        throw new Error(
+          "Failed to load content for CellType.FILE. Frontmatter value is not a string"
+        );
+      const { path: path2, alias } = extractWikiLinkComponents(frontmatterValue);
+      const newCell = createFileCell(id2, {
+        path: path2 != null ? path2 : "",
+        alias: alias != null ? alias : ""
+      });
+      return {
+        newCell
+      };
+    }
+    case "number" /* NUMBER */: {
+      if (typeof frontmatterValue !== "number")
+        throw new Error(
+          "Failed to load content for CellType.NUMBER. Frontmatter value is not a number"
+        );
+      const newCell = createNumberCell(id2, {
+        value: frontmatterValue
+      });
+      return {
+        newCell
+      };
+    }
+    case "checkbox" /* CHECKBOX */: {
+      if (typeof frontmatterValue !== "boolean")
+        throw new Error(
+          "Failed to load content for CellType.CHECKBOX. Frontmatter value is not a boolean"
+        );
+      const newCell = createCheckboxCell(id2, {
+        value: frontmatterValue
+      });
+      return {
+        newCell
+      };
+    }
     case "date" /* DATE */: {
-      const dateString = frontmatterValue;
-      const newCell = createCell(id2, {
-        type,
+      if (typeof frontmatterValue !== "string")
+        throw new Error(
+          "Failed to load content for CellType.DATE. Frontmatter value is not a string"
+        );
+      let dateString = frontmatterValue;
+      const DATE_WITHOUT_TIME_REGEX = /^\d{4}-\d{2}-\d{2}$/;
+      if (dateString.match(DATE_WITHOUT_TIME_REGEX)) {
+        dateString += "T00:00:00";
+      }
+      const newCell = createDateCell(id2, {
         dateTime: new Date(dateString).toISOString()
       });
       const includeTime = assignedType === "datetime" /* DATETIME */;
@@ -64297,31 +68181,38 @@ var deserializeFrontmatterForCell = (app, column, path) => {
       };
     }
     case "tag" /* TAG */: {
-      const newTags = [];
-      const cellTagIds = [];
+      if (typeof frontmatterValue !== "string")
+        throw new Error(
+          "Failed to load content for CellType.TAG. Frontmatter value is not a string"
+        );
+      let newTag = null;
+      let cellTagId = null;
       if (frontmatterValue !== "") {
         const existingTag = tags.find(
           (tag) => tag.content === frontmatterValue
         );
         if (existingTag) {
-          cellTagIds.push(existingTag.id);
+          cellTagId = existingTag.id;
         } else {
-          const newTag = createTag(frontmatterValue);
-          cellTagIds.push(newTag.id);
-          newTags.push(newTag);
+          const tag = createTag(frontmatterValue);
+          cellTagId = tag.id;
+          newTag = tag;
         }
       }
-      const newCell = createCell(id2, {
-        type,
-        tagIds: cellTagIds
+      const newCell = createTagCell(id2, {
+        tagId: cellTagId
       });
-      const nextTags = [...column.tags, ...newTags];
+      const nextTags = [...column.tags, ...newTag ? [newTag] : []];
       return {
         newCell,
         nextTags
       };
     }
     case "multi-tag" /* MULTI_TAG */: {
+      if (typeof frontmatterValue !== "object")
+        throw new Error(
+          "Failed to load content for CellType.MULTI_TAG. Frontmatter value is not an object"
+        );
       const newTags = [];
       const cellTagIds = [];
       frontmatterValue.forEach((tagContent) => {
@@ -64338,8 +68229,7 @@ var deserializeFrontmatterForCell = (app, column, path) => {
           }
         }
       });
-      const newCell = createCell(id2, {
-        type,
+      const newCell = createMultiTagCell(id2, {
         tagIds: cellTagIds
       });
       const nextTags = [...column.tags, ...newTags];
@@ -64353,66 +68243,52 @@ var deserializeFrontmatterForCell = (app, column, path) => {
   }
 };
 
-// src/shared/loom-state/find-data-from-sources.tsx
-var import_lodash20 = __toESM(require_lodash());
-function findDataFromSources(app, sources, columns, numRows) {
-  const newRows = [];
-  let nextColumns = (0, import_lodash20.cloneDeep)(columns);
+// src/shared/loom-state/update-state-from-sources.tsx
+var import_lodash14 = __toESM(require_lodash());
+function updateStateFromSources(app, sources, columns, numRows) {
+  const sourceFileMap = /* @__PURE__ */ new Map();
   sources.forEach((source) => {
     const { id: id2, type } = source;
+    let sourceFiles = [];
     switch (type) {
       case "folder" /* FOLDER */: {
-        const { path, includeSubfolders } = source;
-        const result = findRowsFromFolder(
+        sourceFiles = findRowsFromFolderSource(
           app,
-          nextColumns,
-          numRows + newRows.length,
-          id2,
-          {
-            path,
-            includeSubfolders
-          }
+          source
         );
-        newRows.push(...result.newRows);
-        nextColumns = result.nextColumns;
         break;
       }
+      case "frontmatter" /* FRONTMATTER */:
+        sourceFiles = findRowsFromFrontmatterSource(app, source);
+        break;
       default:
         throw new Error(`Source type not handled: ${type}`);
     }
-  });
-  return {
-    newRows,
-    nextColumns
-  };
-}
-var findRowsFromFolder = (app, columns, numRows, sourceId, folderOptions) => {
-  const { path, includeSubfolders } = folderOptions;
-  const folder = app.vault.getAbstractFileByPath(path);
-  if (!folder)
-    return {
-      nextColumns: columns,
-      newRows: []
-    };
-  const files = app.vault.getMarkdownFiles().filter((file) => {
-    var _a2, _b;
-    if (includeSubfolders) {
-      return (_a2 = file.parent) == null ? void 0 : _a2.path.startsWith(folder.path);
-    }
-    return ((_b = file.parent) == null ? void 0 : _b.path) === folder.path;
+    sourceFiles.forEach((file) => {
+      sourceFileMap.set(file, id2);
+    });
   });
   const newRows = [];
-  const nextColumns = (0, import_lodash20.cloneDeep)(columns);
-  files.forEach((file) => {
+  const nextColumns = (0, import_lodash14.cloneDeep)(columns);
+  const uniqueMap = /* @__PURE__ */ new Map();
+  const seenValues = /* @__PURE__ */ new Set();
+  sourceFileMap.forEach((value, key) => {
+    const { path } = key;
+    if (!seenValues.has(path)) {
+      seenValues.add(path);
+      uniqueMap.set(key, value);
+    }
+  });
+  uniqueMap.forEach((sourceId, file) => {
     const cells = [];
     nextColumns.forEach((column) => {
-      const { path: path2 } = file;
+      const { path } = file;
       const { id: id2, type, frontmatterKey } = column;
       let newCell = null;
       if (type === "source-file" /* SOURCE_FILE */) {
-        newCell = createCell(id2, { type, content: path2 });
+        newCell = createSourceFileCell(id2, { path });
       } else if (frontmatterKey !== null) {
-        const result = deserializeFrontmatterForCell(app, column, path2);
+        const result = deserializeFrontmatterForCell(app, column, path);
         if (result !== null) {
           const { newCell: cell, nextTags, includeTime } = result;
           newCell = cell;
@@ -64423,10 +68299,10 @@ var findRowsFromFolder = (app, columns, numRows, sourceId, folderOptions) => {
         }
       }
       if (newCell === null)
-        newCell = createCell(id2, { type });
+        newCell = createCellForType(id2, type);
       cells.push(newCell);
     });
-    const row = createRow(numRows, {
+    const row = createRow(numRows + newRows.length, {
       cells,
       sourceId,
       creationDateTime: getDateTimeFromUnixTime(file.stat.ctime),
@@ -64438,6 +68314,139 @@ var findRowsFromFolder = (app, columns, numRows, sourceId, folderOptions) => {
     newRows,
     nextColumns
   };
+}
+var findRowsFromFolderSource = (app, source) => {
+  const { path, includeSubfolders } = source;
+  const folder = app.vault.getAbstractFileByPath(path);
+  if (!folder)
+    return [];
+  const files = app.vault.getMarkdownFiles().filter((file) => {
+    var _a2, _b;
+    if (includeSubfolders) {
+      return (_a2 = file.parent) == null ? void 0 : _a2.path.startsWith(folder.path);
+    }
+    return ((_b = file.parent) == null ? void 0 : _b.path) === folder.path;
+  });
+  return files;
+};
+var findRowsFromFrontmatterSource = (app, source) => {
+  const { propertyKey, propertyType, filterCondition, filterText } = source;
+  const files = app.vault.getMarkdownFiles().filter((file) => {
+    const { path } = file;
+    const fileMetadata = app.metadataCache.getCache(path);
+    if (!fileMetadata)
+      return false;
+    const frontmatter = fileMetadata.frontmatter;
+    if (!frontmatter)
+      return false;
+    const propertyValue = frontmatter[propertyKey];
+    if (propertyValue === void 0 || propertyValue === null)
+      return false;
+    if (filterCondition === null)
+      return false;
+    if (!doesMatchFilterCondition(
+      propertyType,
+      propertyValue,
+      filterCondition,
+      filterText
+    ))
+      return false;
+    return true;
+  });
+  return files;
+};
+var doesMatchFilterCondition = (propertyType, propertyValue, filterCondition, filterText) => {
+  switch (propertyType) {
+    case "text" /* TEXT */: {
+      const value = propertyValue;
+      return doesTextMatchFilter(
+        value,
+        filterCondition,
+        filterText,
+        false
+      );
+    }
+    case "checkbox" /* CHECKBOX */: {
+      const value = propertyValue;
+      return doesBooleanMatchFilter(
+        value,
+        filterCondition,
+        filterText === "true" ? true : false
+      );
+    }
+    case "number" /* NUMBER */: {
+      const value = propertyValue;
+      return doesNumberMatchFilter(
+        value,
+        filterCondition,
+        filterText,
+        false
+      );
+    }
+    case "date" /* DATE */:
+    case "datetime" /* DATETIME */: {
+      const value = propertyValue;
+      return doesDateMatchFilter(
+        value,
+        filterCondition,
+        filterText,
+        null,
+        false
+      );
+    }
+    case "aliases" /* ALIASES */:
+    case "tags" /* TAGS */:
+    case "multitext" /* MULTITEXT */: {
+      const value = propertyValue;
+      return doesListMatchFilter(value, filterCondition, filterText);
+    }
+    default:
+      return false;
+  }
+};
+var doesListMatchFilter = (values, condition, filterText) => {
+  const filterTextValues = filterText.split(",").map((text) => text.trim());
+  switch (condition) {
+    case "contains" /* CONTAINS */:
+      return filterTextValues.every((v2) => values.includes(v2));
+    case "does-not-contain" /* DOES_NOT_CONTAIN */:
+      return filterTextValues.every((v2) => !values.includes(v2));
+    case "is-empty" /* IS_EMPTY */:
+      return values.length === 0;
+    case "is-not-empty" /* IS_NOT_EMPTY */:
+      return values.length !== 0;
+    default:
+      return false;
+  }
+};
+
+// src/shared/loom-state/commands/source-update-command.ts
+var SourceUpdateCommand = class extends loom_state_command_default {
+  constructor(id2, data, isPartial = true) {
+    super(false);
+    this.id = id2;
+    this.data = data;
+    this.isPartial = isPartial;
+  }
+  execute(prevState) {
+    const { sources } = prevState.model;
+    const nextSources = sources.map((source) => {
+      if (source.id === this.id) {
+        let newSource = this.data;
+        if (this.isPartial)
+          newSource = __spreadValues(__spreadValues({}, source), this.data);
+        return newSource;
+      }
+      return source;
+    });
+    const nextState = __spreadProps(__spreadValues({}, prevState), {
+      model: __spreadProps(__spreadValues({}, prevState.model), {
+        sources: nextSources
+      })
+    });
+    this.finishExecute(prevState, nextState);
+    return nextState;
+  }
 };
 
 // src/react/loom-app/app/hooks/use-source/index.ts
@@ -64446,23 +68455,20 @@ var useSource = () => {
   const { app } = useAppMount();
   const { doCommand, loomState, setLoomState } = useLoomState();
   const { sources, columns } = loomState.model;
-  const frontmatterKeyHash = import_react62.default.useMemo(() => {
+  const frontmatterKeyHash = import_react61.default.useMemo(() => {
     return JSON.stringify(columns.map((column) => column.frontmatterKey));
   }, [columns]);
-  const updateRowsFromSources = import_react62.default.useCallback(
+  const updateRowsFromSources = import_react61.default.useCallback(
     (fromObsidianEvent = true) => {
       logger("updateRowsFromSources called");
       setLoomState((prevState) => {
         if (fromObsidianEvent) {
           if (Date.now() - prevState.time < 1e3) {
-            console.log(
-              "updateRowsFromSources called in the last 1000ms. returning..."
-            );
             return prevState;
           }
         }
         const { sources: sources2, columns: columns2, rows } = prevState.state.model;
-        const result = findDataFromSources(
+        const result = updateStateFromSources(
           app,
           sources2,
           columns2,
@@ -64488,10 +68494,10 @@ var useSource = () => {
     },
     [app, setLoomState, logger]
   );
-  import_react62.default.useEffect(() => {
+  import_react61.default.useEffect(() => {
     updateRowsFromSources(false);
-  }, [sources.length, frontmatterKeyHash, updateRowsFromSources]);
-  import_react62.default.useEffect(() => {
+  }, [sources, frontmatterKeyHash, updateRowsFromSources]);
+  import_react61.default.useEffect(() => {
     EventManager.getInstance().on("file-create", updateRowsFromSources);
     EventManager.getInstance().on(
       "file-frontmatter-change",
@@ -64544,28 +68550,36 @@ var useSource = () => {
     logger("handleSourceDelete", { id: id2 });
     doCommand(new SourceDeleteCommand(id2));
   }
+  function handleSourceUpdate(id2, data) {
+    logger("handleSourceUpdate", {
+      id: id2,
+      data
+    });
+    doCommand(new SourceUpdateCommand(id2, data));
+  }
   return {
     onSourceAdd: handleSourceAdd,
-    onSourceDelete: handleSourceDelete
+    onSourceDelete: handleSourceDelete,
+    onSourceUpdate: handleSourceUpdate
   };
 };
 
 // src/react/loom-app/app/hooks/use-app-events/index.tsx
-var import_react63 = __toESM(require_react());
+var import_react62 = __toESM(require_react());
 var useAppEvents = () => {
-  const { topMenu, onRequestClose } = useMenuOperations();
+  const { topMenu, onRequestClose, onClearMenuTriggerFocus } = useMenuOperations();
   const logger = useLogger();
-  const handleClick = import_react63.default.useCallback(
+  const handleClick = import_react62.default.useCallback(
     (e) => {
       logger("App handleClick");
       e.stopPropagation();
       if (!topMenu) {
-        removeCurrentFocusClass();
+        onClearMenuTriggerFocus();
         return;
       }
-      onRequestClose(topMenu.id, "close-on-save");
+      onRequestClose(topMenu.id, "save-and-close");
     },
-    [topMenu, logger, onRequestClose]
+    [topMenu, logger, onRequestClose, onClearMenuTriggerFocus]
   );
   return {
     onClick: handleClick
@@ -64573,8 +68587,8 @@ var useAppEvents = () => {
 };
 
 // src/react/loom-app/app/hooks/use-menu-events.ts
-var import_react64 = __toESM(require_react());
-var import_lodash21 = __toESM(require_lodash());
+var import_react63 = __toESM(require_react());
+var import_lodash15 = __toESM(require_lodash());
 var useMenuEvents = () => {
   useCloseOnOutsideClick();
   useCloseOnObsidianModalOpen();
@@ -64585,8 +68599,8 @@ var useLockTableScroll = () => {
   const { reactAppId } = useAppMount();
   const { topMenu } = useMenuOperations();
   const logger = useLogger();
-  const hasLockRef = import_react64.default.useRef(false);
-  import_react64.default.useEffect(() => {
+  const hasLockRef = import_react63.default.useRef(false);
+  import_react63.default.useEffect(() => {
     const appEl = document.getElementById(reactAppId);
     if (!appEl)
       return;
@@ -64616,11 +68630,11 @@ var useLockTableScroll = () => {
 var useCloseOnMarkdownViewScroll = () => {
   const { reactAppId, isMarkdownView } = useAppMount();
   const { onCloseAll } = useMenuOperations();
-  import_react64.default.useEffect(() => {
+  import_react63.default.useEffect(() => {
     var _a2;
     let pageScrollerEl;
     const THROTTLE_TIME_MILLIS = 100;
-    const throttleHandleScroll = import_lodash21.default.throttle(
+    const throttleHandleScroll = import_lodash15.default.throttle(
       handleScroll,
       THROTTLE_TIME_MILLIS
     );
@@ -64647,7 +68661,7 @@ var useCloseOnOutsideClick = () => {
   const { app } = useAppMount();
   const { onCloseAll } = useMenuOperations();
   const logger = useLogger();
-  import_react64.default.useEffect(() => {
+  import_react63.default.useEffect(() => {
     function handleGlobalClick() {
       logger("handleGlobalClick");
       onCloseAll();
@@ -64657,14 +68671,14 @@ var useCloseOnOutsideClick = () => {
   }, [app, logger, onCloseAll]);
 };
 var useCloseOnObsidianModalOpen = () => {
-  const hasCloseLock = import_react64.default.useRef(false);
+  const hasCloseLock = import_react63.default.useRef(false);
   const { topMenu, onCloseAll } = useMenuOperations();
   const logger = useLogger();
-  import_react64.default.useEffect(() => {
+  import_react63.default.useEffect(() => {
     if (!topMenu)
       hasCloseLock.current = false;
   }, [topMenu]);
-  import_react64.default.useEffect(() => {
+  import_react63.default.useEffect(() => {
     function hasOpenModal() {
       return document.querySelector("body > .modal-container") !== null;
     }
@@ -64688,19 +68702,19 @@ var useCloseOnObsidianModalOpen = () => {
 };
 
 // src/react/loom-app/app/index.tsx
-var import_jsx_runtime141 = __toESM(require_jsx_runtime());
+var import_jsx_runtime145 = __toESM(require_jsx_runtime());
 function App10() {
   const logger = useLogger();
   const { reactAppId, isMarkdownView } = useAppMount();
   const { loomState, resizingColumnId, searchText, onRedo, onUndo } = useLoomState();
-  const tableRef = import_react65.default.useRef(null);
-  const appRef = import_react65.default.useRef(null);
+  const tableRef = import_react64.default.useRef(null);
+  const appRef = import_react64.default.useRef(null);
   useExportEvents(loomState);
   useRowEvents();
   useColumnEvents();
   useMenuEvents();
   const { onClick } = useAppEvents();
-  const { onSourceAdd, onSourceDelete } = useSource();
+  const { onSourceAdd, onSourceDelete, onSourceUpdate } = useSource();
   const { onFocusKeyDown } = useFocus();
   const { onFrozenColumnsChange, onCalculationRowToggle } = useTableSettings();
   const { onFilterAdd, onFilterUpdate, onFilterDelete, filterByFilters: filterByFilters2 } = useFilter();
@@ -64760,7 +68774,7 @@ function App10() {
   let className = "dataloom-app";
   if (isMarkdownView)
     className += " dataloom-app--markdown-view";
-  return /* @__PURE__ */ (0, import_jsx_runtime141.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime145.jsxs)(
     "div",
     {
       ref: appRef,
@@ -64770,7 +68784,7 @@ function App10() {
       onKeyDown: handleKeyDown,
       onClick,
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime141.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime145.jsx)(
           OptionBar,
           {
             columns,
@@ -64783,10 +68797,11 @@ function App10() {
             onFilterUpdate,
             onCalculationRowToggle,
             onSourceAdd,
-            onSourceDelete
+            onSourceDelete,
+            onSourceUpdate
           }
         ),
-        /* @__PURE__ */ (0, import_jsx_runtime141.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime145.jsx)(
           table_default,
           {
             ref: tableRef,
@@ -64815,7 +68830,7 @@ function App10() {
             onRowReorder
           }
         ),
-        /* @__PURE__ */ (0, import_jsx_runtime141.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime145.jsx)(
           BottomBar,
           {
             onRowAddClick,
@@ -64831,9 +68846,9 @@ function App10() {
 }
 
 // src/react/shared/error-boundary/index.tsx
-var import_react66 = __toESM(require_react());
-var import_jsx_runtime142 = __toESM(require_jsx_runtime());
-var ErrorBoundary = class extends import_react66.default.Component {
+var import_react65 = __toESM(require_react());
+var import_jsx_runtime146 = __toESM(require_jsx_runtime());
+var ErrorBoundary = class extends import_react65.default.Component {
   constructor(props) {
     super(props);
     this.state = { hasError: false };
@@ -64851,7 +68866,7 @@ var ErrorBoundary = class extends import_react66.default.Component {
     if (this.state.hasError) {
       copyErrorMessage = `Error message: ${this.state.errorMessage}
 Error info: ${(_a2 = this.state.errorInfo) == null ? void 0 : _a2.componentStack}`;
-      return /* @__PURE__ */ (0, import_jsx_runtime142.jsx)(
+      return /* @__PURE__ */ (0, import_jsx_runtime146.jsx)(
         ErrorDisplay,
         {
           title: "DataLoom experienced an error",
@@ -64868,7 +68883,7 @@ Error info: ${(_a2 = this.state.errorInfo) == null ? void 0 : _a2.componentStack
 var error_boundary_default = ErrorBoundary;
 
 // src/react/loom-app/index.tsx
-var import_jsx_runtime143 = __toESM(require_jsx_runtime());
+var import_jsx_runtime147 = __toESM(require_jsx_runtime());
 function LoomApp({
   app,
   reactAppId,
@@ -64879,7 +68894,7 @@ function LoomApp({
   loomState,
   onSaveState
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime143.jsx)(error_boundary_default, { children: /* @__PURE__ */ (0, import_jsx_runtime143.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime147.jsx)(error_boundary_default, { children: /* @__PURE__ */ (0, import_jsx_runtime147.jsx)(
     AppMountProvider,
     {
       app,
@@ -64887,12 +68902,12 @@ function LoomApp({
       reactAppId,
       isMarkdownView,
       loomFile,
-      children: /* @__PURE__ */ (0, import_jsx_runtime143.jsx)(Provider_default, { store: store2, children: /* @__PURE__ */ (0, import_jsx_runtime143.jsx)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime147.jsx)(Provider_default, { store: store2, children: /* @__PURE__ */ (0, import_jsx_runtime147.jsx)(
         LoomStateProvider,
         {
           initialState: loomState,
           onSaveState,
-          children: /* @__PURE__ */ (0, import_jsx_runtime143.jsx)(DragProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime143.jsx)(MenuProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime143.jsx)(App10, {}) }) })
+          children: /* @__PURE__ */ (0, import_jsx_runtime147.jsx)(DragProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime147.jsx)(MenuProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime147.jsx)(App10, {}) }) })
         }
       ) })
     }
@@ -64900,13 +68915,16 @@ function LoomApp({
 }
 
 // src/obsidian/embedded/embedded-app-manager.tsx
-var import_jsx_runtime144 = __toESM(require_jsx_runtime());
+var import_jsx_runtime148 = __toESM(require_jsx_runtime());
 var embeddedApps = [];
 var loadPreviewModeApps = (app, markdownLeaves, pluginVersion) => {
   for (let i2 = 0; i2 < markdownLeaves.length; i2++) {
     const leaf = markdownLeaves[i2];
     const view = leaf.view;
-    const mode = view.getMode();
+    let mode = "";
+    if (view instanceof import_obsidian19.MarkdownView) {
+      mode = view.getMode();
+    }
     if (mode === "preview")
       loadEmbeddedLoomApps(app, pluginVersion, leaf, "preview");
   }
@@ -64961,9 +68979,9 @@ var processLinkEl = (app, pluginVersion, leaf, linkEl, mode) => __async(void 0, 
 });
 var renderApp = (app, reactAppId, leaf, file, root, state) => {
   const THROTTLE_TIME_MILLIS = 2e3;
-  const throttleHandleSave = import_lodash22.default.throttle(handleSave, THROTTLE_TIME_MILLIS);
+  const throttleHandleSave = import_lodash16.default.throttle(handleSave, THROTTLE_TIME_MILLIS);
   root.render(
-    /* @__PURE__ */ (0, import_jsx_runtime144.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime148.jsx)(
       LoomApp,
       {
         app,
@@ -64985,7 +69003,7 @@ var renderApp = (app, reactAppId, leaf, file, root, state) => {
   );
 };
 var renderErrorApp = (root, error) => {
-  root.render(/* @__PURE__ */ (0, import_jsx_runtime144.jsx)(ErrorApp, { error, isEmbeddedApp: true }));
+  root.render(/* @__PURE__ */ (0, import_jsx_runtime148.jsx)(ErrorApp, { error, isEmbeddedApp: true }));
 };
 var handleSave = (app, file, appId, state, shouldSaveFrontmatter) => __async(void 0, null, function* () {
   if (shouldSaveFrontmatter) {
@@ -64993,7 +69011,7 @@ var handleSave = (app, file, appId, state, shouldSaveFrontmatter) => __async(voi
   }
   const serialized = serializeState(state);
   yield app.vault.modify(file, serialized);
-  app.workspace.trigger("app-refresh", file.path, appId, state);
+  EventManager.getInstance().emit("app-refresh", file.path, appId, state);
 });
 var renderContainerEl = (linkEl) => {
   const containerEl = linkEl.createDiv({
@@ -65040,33 +69058,7 @@ function EditingViewPlugin(app, pluginVersion) {
 }
 
 // src/data/loom-file.ts
-var import_obsidian18 = require("obsidian");
-
-// src/data/utils.ts
-var splitFileExtension = (filePath) => {
-  if (filePath.match(EXTENSION_REGEX)) {
-    const periodIndex = filePath.lastIndexOf(".");
-    return [
-      filePath.substring(0, periodIndex),
-      filePath.substring(periodIndex)
-    ];
-  }
-  return null;
-};
-var updateLinkReferences = (content, newPath, oldPath) => {
-  return content.replace(WIKI_LINK_REGEX, (match, path) => {
-    let comparePath = oldPath;
-    if (!path.includes("/"))
-      comparePath = stripDirectory(comparePath);
-    if (!path.match(EXTENSION_REGEX))
-      comparePath = stripFileExtension(comparePath);
-    if (comparePath === path) {
-      const linkText = getWikiLinkText(newPath);
-      return `[[${linkText}]]`;
-    }
-    return match;
-  });
-};
+var import_obsidian20 = require("obsidian");
 
 // src/data/file-operations.ts
 var createFolder = (app, folderPath) => __async(void 0, null, function* () {
@@ -65096,6 +69088,16 @@ var createFile = (app, filePath, data, numExisting = 0) => __async(void 0, null,
     throw err;
   }
 });
+var splitFileExtension = (filePath) => {
+  if (filePath.match(EXTENSION_REGEX)) {
+    const periodIndex = filePath.lastIndexOf(".");
+    return [
+      filePath.substring(0, periodIndex),
+      filePath.substring(periodIndex)
+    ];
+  }
+  return null;
+};
 
 // src/data/loom-file.ts
 var createLoomFile = (app, pluginVersion, defaultFrozenColumnCount, folderOptions) => __async(void 0, null, function* () {
@@ -65105,24 +69107,24 @@ var createLoomFile = (app, pluginVersion, defaultFrozenColumnCount, folderOption
     customFolderForNewFiles
   } = folderOptions;
   try {
-    const fileName = getFileName();
+    const fileName = getFileName2();
     const folderPath = yield getFolderForNewLoomFile(app, {
       contextMenuFolderPath,
       createAtAttachmentsFolder,
       customFolderForNewFiles
     });
     yield createFolder(app, folderPath);
-    const filePath = (0, import_obsidian18.normalizePath)(folderPath + "/" + fileName);
+    const filePath = (0, import_obsidian20.normalizePath)(folderPath + "/" + fileName);
     const formattedPath = removeLeadingPeriod(filePath);
-    const loomState = createLoomState(
+    const loomState = createLoomState(1, 1, {
       pluginVersion,
-      defaultFrozenColumnCount
-    );
+      frozenColumnCount: defaultFrozenColumnCount
+    });
     const serializedState = serializeState(loomState);
     const file = yield createFile(app, formattedPath, serializedState);
     return file;
   } catch (err) {
-    new import_obsidian18.Notice("Could not create loom file");
+    new import_obsidian20.Notice("Could not create loom file");
     throw err;
   }
 });
@@ -65145,10 +69147,10 @@ var getFolderForNewLoomFile = (app, options) => __async(void 0, null, function* 
   } else {
     folderPath = customFolderForNewFiles;
   }
-  const normalized = (0, import_obsidian18.normalizePath)(folderPath);
+  const normalized = (0, import_obsidian20.normalizePath)(folderPath);
   return normalized;
 });
-var getFileName = () => {
+var getFileName2 = () => {
   return `${DEFAULT_LOOM_NAME}.${LOOM_EXTENSION}`;
 };
 var removeLeadingPeriod = (path) => {
@@ -65158,8 +69160,163 @@ var removeLeadingPeriod = (path) => {
   return path;
 };
 
+// src/data/main-utils.ts
+var import_obsidian21 = require("obsidian");
+var handleFileRename = (app, file, oldPath, currentAppVersion) => __async(void 0, null, function* () {
+  const loomFiles = getAllVaultLoomFiles(app);
+  let totalLinksUpdated = 0;
+  let numFilesUpdated = 0;
+  for (const loomFile of loomFiles) {
+    const { updatedState, didUpdate, numLinksUpdated } = yield updateLoomFileState(
+      app,
+      loomFile,
+      oldPath,
+      file.path,
+      currentAppVersion
+    );
+    if (didUpdate) {
+      totalLinksUpdated += numLinksUpdated;
+      numFilesUpdated++;
+      yield file.vault.modify(loomFile, serializeState(updatedState));
+      EventManager.getInstance().emit(
+        "app-refresh",
+        loomFile.path,
+        -1,
+        updatedState
+      );
+    }
+  }
+  if (totalLinksUpdated > 0) {
+    new import_obsidian21.Notice(
+      `Updated ${totalLinksUpdated} link${totalLinksUpdated > 1 ? "s" : ""} in ${numFilesUpdated} loom file${numFilesUpdated > 1 ? "s" : ""}.`
+    );
+  }
+});
+var updateLoomFileState = (app, loomFile, oldPath, newPath, currentAppVersion) => __async(void 0, null, function* () {
+  let numLinksUpdated = 0;
+  const data = yield app.vault.read(loomFile);
+  const state = deserializeState(data, currentAppVersion);
+  if (isMarkdownFile(oldPath)) {
+    oldPath = stripFileExtension(oldPath);
+  }
+  if (isMarkdownFile(newPath)) {
+    newPath = stripFileExtension(newPath);
+  }
+  const { columns, rows } = state.model;
+  const cellsToColumn = mapCellsToColumn(columns, rows);
+  const nextRows = rows.map((row) => {
+    const { cells } = row;
+    const nextCells = cells.map((cell) => {
+      const { columnId } = cell;
+      const column = cellsToColumn.get(columnId);
+      if (!column)
+        throw new ColumnNotFoundError({ id: columnId });
+      const { type } = column;
+      switch (type) {
+        case "text" /* TEXT */: {
+          const { nextCell, didUpdate } = updateTextCell(
+            cell,
+            oldPath,
+            newPath
+          );
+          if (didUpdate)
+            numLinksUpdated++;
+          return nextCell;
+        }
+        case "file" /* FILE */: {
+          const { nextCell, didUpdate } = updateFileCell(
+            cell,
+            oldPath,
+            newPath
+          );
+          if (didUpdate)
+            numLinksUpdated++;
+          return nextCell;
+        }
+        case "embed" /* EMBED */: {
+          const { nextCell, didUpdate } = updateEmbedCell(
+            cell,
+            oldPath,
+            newPath
+          );
+          if (didUpdate)
+            numLinksUpdated++;
+          return nextCell;
+        }
+        default:
+          return cell;
+      }
+    });
+    return __spreadProps(__spreadValues({}, row), {
+      cells: nextCells
+    });
+  });
+  const nextState = __spreadProps(__spreadValues({}, state), {
+    model: __spreadProps(__spreadValues({}, state.model), {
+      rows: nextRows
+    })
+  });
+  return {
+    updatedState: nextState,
+    didUpdate: JSON.stringify(state) !== JSON.stringify(nextState),
+    numLinksUpdated
+  };
+});
+var updateTextCell = (cell, oldPath, newPath) => {
+  const { content } = cell;
+  const { replacedString, replacementCount } = replaceWikiLinks(
+    content,
+    (path, alias) => {
+      if (path === oldPath) {
+        return componentsToWikiLink(newPath, alias);
+      }
+      return componentsToWikiLink(path, alias);
+    }
+  );
+  if (replacementCount > 0) {
+    const nextCell = __spreadProps(__spreadValues({}, cell), {
+      content: replacedString
+    });
+    return { nextCell, didUpdate: true };
+  }
+  return { nextCell: cell, didUpdate: false };
+};
+var updateEmbedCell = (cell, oldPath, newPath) => {
+  const { pathOrUrl } = cell;
+  if (pathOrUrl === oldPath) {
+    const nextCell = __spreadProps(__spreadValues({}, cell), {
+      pathOrUrl: newPath
+    });
+    return { nextCell, didUpdate: true };
+  }
+  return { nextCell: cell, didUpdate: false };
+};
+var updateFileCell = (cell, oldPath, newPath) => {
+  const { path } = cell;
+  if (path === oldPath) {
+    const nextCell = __spreadProps(__spreadValues({}, cell), {
+      path: newPath
+    });
+    return { nextCell, didUpdate: true };
+  }
+  return { nextCell: cell, didUpdate: false };
+};
+var replaceWikiLinks = (str, replaceFunction) => {
+  let replacementCount = 0;
+  const replacedString = str.replace(
+    WIKI_LINK_REGEX,
+    (_match, path, _7, alias) => {
+      replacementCount++;
+      return replaceFunction(path, alias || null);
+    }
+  );
+  return { replacedString, replacementCount };
+};
+var getAllVaultLoomFiles = (app) => {
+  return app.vault.getFiles().filter((file) => file.extension === LOOM_EXTENSION);
+};
+
 // src/main.ts
-var import_lodash23 = __toESM(require_lodash());
 var DEFAULT_SETTINGS = {
   shouldDebug: false,
   createAtObsidianAttachmentFolder: false,
@@ -65173,7 +69330,7 @@ var DEFAULT_SETTINGS = {
   defaultFrozenColumnCount: 1,
   pluginVersion: ""
 };
-var DataLoomPlugin = class extends import_obsidian19.Plugin {
+var DataLoomPlugin = class extends import_obsidian22.Plugin {
   onload() {
     return __async(this, null, function* () {
       yield this.loadSettings();
@@ -65201,7 +69358,7 @@ var DataLoomPlugin = class extends import_obsidian19.Plugin {
         EventManager.getInstance().emit("file-frontmatter-change");
         this.registerEvent(
           this.app.vault.on("create", (file) => {
-            if (file instanceof import_obsidian19.TFile) {
+            if (file instanceof import_obsidian22.TFile) {
               EventManager.getInstance().emit("file-create");
             }
           })
@@ -65245,10 +69402,10 @@ var DataLoomPlugin = class extends import_obsidian19.Plugin {
           try {
             yield this.app.vault.rename(file, newFilePath);
           } catch (err) {
-            new import_obsidian19.Notice(
+            new import_obsidian22.Notice(
               `Failed renaming ${file.path} to ${newFilePath}`
             );
-            new import_obsidian19.Notice("Please rename this file manually");
+            new import_obsidian22.Notice("Please rename this file manually");
           }
         }
         this.settings.hasMigratedTo800 = true;
@@ -65276,7 +69433,7 @@ var DataLoomPlugin = class extends import_obsidian19.Plugin {
   registerDOMEvents() {
     this.registerDomEvent(document, "click", () => {
       log(this.settings.shouldDebug, "main handleClick");
-      removeCurrentFocusClass();
+      EventManager.getInstance().emit("clear-menu-trigger-focus");
       EventManager.getInstance().emit("global-click");
     });
     this.registerDomEvent(document, "keydown", (e) => {
@@ -65306,7 +69463,7 @@ var DataLoomPlugin = class extends import_obsidian19.Plugin {
     );
     this.registerEvent(
       this.app.workspace.on("file-menu", (menu, file) => {
-        if (file instanceof import_obsidian19.TFolder) {
+        if (file instanceof import_obsidian22.TFolder) {
           menu.addItem((item) => {
             item.setTitle("New loom").setIcon("document").onClick(() => __async(this, null, function* () {
               yield this.newLoomFile(file.path);
@@ -65345,98 +69502,13 @@ var DataLoomPlugin = class extends import_obsidian19.Plugin {
       this.app.vault.on(
         "rename",
         (file, oldPath) => __async(this, null, function* () {
-          if (file instanceof import_obsidian19.TFile) {
-            const loomFiles = this.app.vault.getFiles().filter(
-              (file2) => file2.extension === LOOM_EXTENSION
+          if (file instanceof import_obsidian22.TFile) {
+            handleFileRename(
+              this.app,
+              file,
+              oldPath,
+              this.manifest.version
             );
-            const loomsToUpdate = [];
-            let numLinks = 0;
-            for (const loomFile of loomFiles) {
-              const data = yield file.vault.read(loomFile);
-              const state = deserializeState(
-                data,
-                this.manifest.version
-              );
-              state.model.rows.forEach((row) => {
-                const { cells } = row;
-                cells.forEach((cell) => {
-                  const { content } = cell;
-                  const regex = (0, import_lodash23.cloneDeep)(WIKI_LINK_REGEX);
-                  let matches;
-                  while ((matches = regex.exec(content)) !== null) {
-                    const path = matches[1];
-                    if (oldPath.includes(path)) {
-                      const found = loomsToUpdate.find(
-                        (loom) => loom.file.path === loomFile.path
-                      );
-                      if (!found) {
-                        loomsToUpdate.push({
-                          file: loomFile,
-                          state
-                        });
-                      }
-                      numLinks++;
-                    }
-                  }
-                });
-              });
-            }
-            if (numLinks > 0) {
-              new import_obsidian19.Notice(
-                `Updating ${numLinks} link${numLinks > 1 ? "s" : ""} in ${loomsToUpdate.length} loom file${loomsToUpdate.length > 1 ? "s" : ""}.`
-              );
-            }
-            for (let i2 = 0; i2 < loomsToUpdate.length; i2++) {
-              const { file: loomFile, state } = loomsToUpdate[i2];
-              log(
-                this.settings.shouldDebug,
-                "Updating links in file",
-                {
-                  path: loomFile.path
-                }
-              );
-              const newState = (0, import_lodash23.cloneDeep)(state);
-              newState.model.rows.map((row) => {
-                const { cells } = row;
-                const nextCells = cells.map((cell) => {
-                  const { content } = cell;
-                  const newContent = updateLinkReferences(
-                    content,
-                    file.path,
-                    oldPath
-                  );
-                  if (content !== newContent) {
-                    log(
-                      this.settings.shouldDebug,
-                      "Updated link",
-                      {
-                        oldLink: content,
-                        newLink: newContent
-                      }
-                    );
-                  }
-                  return __spreadProps(__spreadValues({}, cell), {
-                    content: newContent
-                  });
-                });
-                return __spreadProps(__spreadValues({}, row), {
-                  cells: nextCells
-                });
-              });
-              if (JSON.stringify(state) !== JSON.stringify(newState)) {
-                const serializedState = serializeState(newState);
-                yield file.vault.modify(
-                  loomFile,
-                  serializedState
-                );
-                EventManager.getInstance().emit(
-                  "app-refresh",
-                  loomFile.path,
-                  -1,
-                  newState
-                );
-              }
-            }
           }
         })
       )
@@ -65446,7 +69518,7 @@ var DataLoomPlugin = class extends import_obsidian19.Plugin {
   registerSourceEvents() {
     this.registerEvent(
       this.app.vault.on("rename", (file) => {
-        if (file instanceof import_obsidian19.TFile) {
+        if (file instanceof import_obsidian22.TFile) {
           EventManager.getInstance().emit("file-rename");
         } else {
           EventManager.getInstance().emit("folder-rename");
@@ -65455,7 +69527,7 @@ var DataLoomPlugin = class extends import_obsidian19.Plugin {
     );
     this.registerEvent(
       this.app.vault.on("delete", (file) => {
-        if (file instanceof import_obsidian19.TFile) {
+        if (file instanceof import_obsidian22.TFile) {
           EventManager.getInstance().emit("file-delete");
         } else {
           EventManager.getInstance().emit("folder-delete");
@@ -65482,7 +69554,7 @@ var DataLoomPlugin = class extends import_obsidian19.Plugin {
       this.app.metadataCache.on(
         "changed",
         (file) => __async(this, null, function* () {
-          if (file instanceof import_obsidian19.TFile) {
+          if (file instanceof import_obsidian22.TFile) {
             yield new Promise(
               (resolve) => setTimeout(resolve, 100)
             );
@@ -65529,7 +69601,7 @@ var DataLoomPlugin = class extends import_obsidian19.Plugin {
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "\\" }],
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian19.MarkdownView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian22.MarkdownView);
         if (loomView || markdownView) {
           if (!checking) {
             EventManager.getInstance().emit("add-column");
@@ -65545,7 +69617,7 @@ var DataLoomPlugin = class extends import_obsidian19.Plugin {
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Backspace" }],
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian19.MarkdownView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian22.MarkdownView);
         if (loomView || markdownView) {
           if (!checking) {
             EventManager.getInstance().emit("delete-column");
@@ -65561,7 +69633,7 @@ var DataLoomPlugin = class extends import_obsidian19.Plugin {
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Enter" }],
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian19.MarkdownView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian22.MarkdownView);
         if (loomView || markdownView) {
           if (!checking)
             EventManager.getInstance().emit("add-row");
@@ -65576,7 +69648,7 @@ var DataLoomPlugin = class extends import_obsidian19.Plugin {
       hotkeys: [{ modifiers: ["Alt", "Shift"], key: "Backspace" }],
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian19.MarkdownView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian22.MarkdownView);
         if (loomView || markdownView) {
           if (!checking) {
             EventManager.getInstance().emit("delete-row");
@@ -65591,7 +69663,7 @@ var DataLoomPlugin = class extends import_obsidian19.Plugin {
       name: "Export as markdown",
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian19.MarkdownView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian22.MarkdownView);
         if (loomView || markdownView) {
           if (!checking) {
             EventManager.getInstance().emit("download-markdown");
@@ -65606,7 +69678,7 @@ var DataLoomPlugin = class extends import_obsidian19.Plugin {
       name: "Export as CSV",
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian19.MarkdownView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian22.MarkdownView);
         if (loomView || markdownView) {
           if (!checking) {
             EventManager.getInstance().emit("download-csv");
