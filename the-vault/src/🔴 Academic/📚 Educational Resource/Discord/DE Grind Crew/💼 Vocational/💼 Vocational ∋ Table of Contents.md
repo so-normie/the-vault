@@ -1,14 +1,14 @@
 ---
 title: 💼 Vocational ∋ Table of Contents
 created: 2023-12-03T15:08
-updated: 2023-12-03T21:19
+updated: 2023-12-04T00:48
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/discord/de-grind-crew/🔖/de-grind-crew-∋-table-of-contents
   - 🔴-academic/📚-educational-resource/format/website
   - study-note
-cards-deck: 🔴 Academic::📚 Educational Resource::Discord::DE Grind Crew::💼 Vocational::DE Grind Crew ∋ Table of Contents
+cards-deck: 🔴 Academic::📚 Educational Resource::Discord::DE Grind Crew::💼 Vocational::💼 Vocational ∋ Table of Contents
 ---
 
 # 💼 Vocational ∋ Table of Contents

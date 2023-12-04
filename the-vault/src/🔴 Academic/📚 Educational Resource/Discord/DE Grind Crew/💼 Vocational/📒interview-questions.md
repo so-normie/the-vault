@@ -1,7 +1,7 @@
 ---
 title: 📒interview-questions
 created: 2023-12-03T15:09
-updated: 2023-12-03T23:34
+updated: 2023-12-04T00:47
 authors:
   - Edmund Leibert III
 tags:
@@ -101,14 +101,14 @@ In C++, a {1:lambda function} is a special type of function that you can {2:defi
 ^1701651716800
 
 ﹇<br>
-{{Question}}
+Red
 
 #card 
 
-{{Answer}}
+Blue
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1701679628062
 
 
 ---
