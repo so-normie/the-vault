@@ -436,7 +436,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Feature test macros.md": "fd0a4501e1e2f272acd5bf020ce8f94fa0934710aebb9f7a0c964335e2ec0a9b",
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Filesystem library.md": "fa5bb904838560fc9c4a3c23accb10c3eaf3fb9e1acb749b29b8ca201843631c",
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/General utilities library.md": "fbc9de7f03debc9951474460645e521b120ce3a24ac506aa112a2a7f0fefc6cd",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Input⟋output library.md": "544a7bb541723a97fe62fc5f2d5009840f4a99fab25bc07917c54f7215b61f10",
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Iterators library.md": "3053b8054af51d048846aa2edaaebf817781cfbe519031bbc2113c1ca96f5a78",
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Language support library.md": "a83b237b1f33983ea75f3d0496ee2630afb4e18440d39da674085a841c3154b7",
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Language.md": "d09cc78bcc5804e0066a59818f17154e612cc4b5f9fa99169f48611c9df55925",
@@ -447,7 +446,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Numerics library.md": "91e76cfc13369b88b41e216b1c437319ff5d530c16237cb5c1ac9d38de0136b0",
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Ranges library.md": "a63e76a8f07197fb267abb6da22abe27111497aba9e131b8785965c0d636b8b8",
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Regular expressions library.md": "f5fa0d9dd1ccc57ab2315358c353f328a8e65fb2a5cfeb53422f773d8ab81619",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/sortspec.md": "5a6bbb1b6a4c32356202c0e0902527f1e690d314f036f2bab68a4fe8b500be79",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/sortspec.md": "50ca9e674c542744b5eafb678242e35e6fc5c809127af4b9b86c45b8d0cde70a",
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Standard library (headers).md": "aff0c204fa6327b9474c4483c397a930c1c3af8f9e6e94e7164fef90bf9a09da",
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Strings library.md": "1edfb9e45240ae3ef24cb9f8446bfebb164f31e0a1aeb9f58d94258c0b7746b2",
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Technical specifications.md": "b85e568001b2d3b40877331cd4bf237a0cf5c722eddc66e3f428272c2ed2a7b9",
@@ -897,7 +896,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Walkthroughs ∋ Table of Contents.md": "57ea1279d6d62099b0ab3b534bd5ead3bd337d034efb613d14219df7ea791116",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/What is a container？.md": "7c1639a32b515ed81cd52fe12d836a8a4e7a7100441d671c310f26a8b4d1bee1",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/🗒️ Zotero ∋ Table of Contents.md": "8986164d9245e4361c3326004c51cc5f1c1ffdf90906cc8f681c77d7273002de",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md": "06116f8a07d97ddb2ede2a78e58e8378dcef4bd3d1fbefae4224f63c085a4b97",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md": "53b89b616b4245aa9d5abb839887533f5b31658da5362767829771d99850f0a3",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/sortspec.md": "94474fb421d8dcdc361706a165868699d1205df5324004f95e65cb942534b267",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets/Google Sheets ∋ Table of Contents.md": "f6d929eab6a02f9dd709c4509438231e5ea0271d862b5f4ab4abc3665c2fff78",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets/Misc. Notes.md": "98ff2e180ad667e52ce1e38aa87d68b9d63b631bccce4ab27abdc07d63bcf532",
@@ -922,6 +921,12 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/DE Grind Crew ∋ Table of Contents.md": "7050386742784912555ad0ce96062e48ca6d2157830cd373584d7cc35f34e69f",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational/💼 Vocational ∋ Table of Contents.md": "f761daec45ccf283f78686c0ffb5f488eb2f09987b15636427bd2e2b929b6498",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational/📒interview-questions.md": "a76d6971550b289f0cc32aa03fdc9023d3c5dc1bf84e5b0e0a3b1e8c2bae7126",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/sortspec.md": "16aa40e4117b385f5c5074778b5af43e1de9909dc8a86147f5b747b74132748f"
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/sortspec.md": "16aa40e4117b385f5c5074778b5af43e1de9909dc8a86147f5b747b74132748f",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/sortspec.md": "2548dd5d780063d972ad6afd312990e50d330299d1f7453451e49d04d1f223cb",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/sortspec.md": "37a05574bbbcbf96eff6eff5fdf1ae18d5c2c6ee63cedc65daae87dce3f3be72",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel/sortspec.md": "37a05574bbbcbf96eff6eff5fdf1ae18d5c2c6ee63cedc65daae87dce3f3be72",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/sortspec.md": "37a05574bbbcbf96eff6eff5fdf1ae18d5c2c6ee63cedc65daae87dce3f3be72",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bash/sortspec.md": "4460a3d94c47e6451247704d9b94d7856707b6ff347b804e06a0e7070ebc4762",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Input⁄output library.md": "544a7bb541723a97fe62fc5f2d5009840f4a99fab25bc07917c54f7215b61f10"
   }
 }

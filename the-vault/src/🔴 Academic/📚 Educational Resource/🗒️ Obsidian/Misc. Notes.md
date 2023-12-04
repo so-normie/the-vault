@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Obsidian ∋ Table of Contents
 created: 2023-08-20 08:26
-updated: 2023-12-03T15:34
+updated: 2023-12-04T09:56
 authors:
   - Edmund Leibert III
 tags:
@@ -62,14 +62,15 @@ How to improve the code quality of a plugin with ESLint?
 
 #card
 
-- [ESLint](https://eslint.org/) is a tool that analyzes your code to quickly find problems. You can run ESLint against your plugin to find common bugs and ways to improve your code.
-- To use ESLint with this project, make sure to install eslint from terminal:
-	- `npm install -g eslint`
-- To use ESLint to analyze this project use this command:
-    - `eslint main.ts`
-    - ESLint will then create a report with suggestions for code improvement by file and line number.
-- If your source code is in a folder, such as `src`, you can use ESLint with this command to analyze all files in that folder:
-    - `eslint .\src\`
+[ESLint](https://eslint.org/) is a tool that analyzes your code to quickly find problems. You can run ESLint against your plugin to find common bugs and ways to improve your code.
+
+To use ESLint with this project, make sure to install ESLint from the terminal: `npm install -g eslint`
+
+To use ESLint to analyze this project use this command: `eslint main.ts`
+
+ESLint will then create a report with suggestions for code improvement by file and line number.
+
+If your source code is in a folder, such as `src`, you can use ESLint with this command to analyze all files in that folder: `eslint .\src\`
 
 ⌂
 <br>﹈<br>^1700212810108
