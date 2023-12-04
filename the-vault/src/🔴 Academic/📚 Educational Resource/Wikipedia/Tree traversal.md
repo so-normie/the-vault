@@ -1,7 +1,7 @@
 ---
 title: Tree traversal
 created: 2023-11-20T06:20
-updated: 2023-11-28T14:46
+updated: 2023-12-04T08:26
 authors:
   - Edmund Leibert III
 tags:
@@ -58,6 +58,28 @@ Yes, the algorithms described for a binary tree may be generalized to other tree
 <br>﹈<br>^1700534457549
 
 ## Types
+
+### Data structures for tree traversal
+
+### Depth-first search
+
+#### Pre-order, NLR
+
+#### Post-order, LRN
+
+#### In-order, LNR
+
+#### Reverse pre-order, NRL
+
+#### Reverse post-order, RLN
+
+#### Reverse in-order, RNL
+
+#### Arbitrary trees
+
+### Breadth-first search
+
+### Other types
 
 ---
 
