@@ -1,8 +1,7 @@
 ---
 title: Misc. Notes
 created: 2023-09-12 03:27
-updated: 2023-11-18T02:44
-updated: 2023-11-22T11:02
+updated: 2023-12-04T08:59
 authors:
   - Edmund Leibert III
 tags:
@@ -17,12 +16,12 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ CMake::Misc. Notes
 
 ---
 
-> [!Abstract]- 
+> [!ABSTRACT]+
 > CMake is a cross-platform, open-source build system generator. For large scale software projects, managing the build process can be quite complex. CMake simplifies this process by automating the generation of build scripts1.
 
 ---
 
- > [!Info]- 
+ > [!INFO]+
  > **Previous Note(s)**: 
  > 
 
@@ -111,13 +110,13 @@ set_target_properties (${THE_TARGET} PROPERTIES COMPILE_FLAGS ${TEMP})
 ⌂
 <br>﹈<br>
 
+---
+
+## :EiZoteroItem: Bibliography
 
 ---
 
-> [!Info]- 
-> **Next Note(s)**:
-> - 
+> [!INFO]+
+> **Next Note(s):**
 
 ---
-
-

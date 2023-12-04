@@ -1,4 +1,6 @@
 ---
+created: 2023-09-03 08:46
+updated: 2023-12-04T09:12
 sorting-spec: |-
   target-folder: .
   order-desc: a-z
@@ -17,8 +19,6 @@ sorting-spec: |-
   Discord
   %
   sortspec
-created: 2023-09-03 08:46
-updated: 2023-12-03T15:39
 ---
 
 

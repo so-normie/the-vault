@@ -1,7 +1,7 @@
 ---
 title: Structy ∋ Table of Contents
 created: 2023-09-03 08:46
-updated: 2023-11-28T15:43
+updated: 2023-12-04T09:06
 authors:
   - Edmund Leibert III
 tags:
@@ -24,7 +24,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Structy::Structy ∋ Table
 ---
 
 > [!info]+ 
-> **Previous Note(s):**
+> **Previous Note(s)**:
 > 
 
 ---
@@ -84,7 +84,7 @@ A. Zabian, “Structy - Learn data structures and algorithms, efficiently.,” _
 ---
 
 > [!info]+
-> **Next Note(s):**
+> **Next Note(s)**:
 > - [0. Introduction ∋ Table of Contents](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/Structy/0.%20Introduction/0.%20Introduction%20∋%20Table%20of%20Contents.md)
 
 ---

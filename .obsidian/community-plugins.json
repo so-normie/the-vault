@@ -44,5 +44,6 @@
   "obsidian-zotero-desktop-connector",
   "obsidian-citation-plugin",
   "cloze",
-  "obsidian-pandoc-reference-list"
+  "obsidian-pandoc-reference-list",
+  "obsidian-admonition"
 ]
