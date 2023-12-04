@@ -1,15 +1,13 @@
 ---
 title: MSVC
 created: 2023-09-03 08:46
-updated: 2023-11-18T02:44
-updated: 2023-11-22T11:02
+updated: 2023-12-04T09:42
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/name/🗒️-cpp
+  - 🔴-academic/📚-educational-resource/name/🗒️-cpp/🔖/msvc
   - 🔴-academic/📚-educational-resource/format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/cpp
-  - 🔴-academic/📚-educational-resource/name/🗒️-cpp/🔖-bookmark/🗒️-cpp/msvc
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ C++::MSVC
 ---
@@ -18,18 +16,14 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ C++::MSVC
 
 ---
 
-> [!Abstract]+ MSVC
+> [!Abstract]+
 > This is a C++ _scratch note_ that is about the Microsoft Visual Studio C
 
 ---
 
- > [!Info]+ 🕸️ All Mention(s): 
- > d
-
----
-
- > [!Info]+ 🔙️ Previous Note(s): 
- > d
+ > [!Info]+ 
+ > **Previous Note(s)**: 
+ > 
 
 ---
 
@@ -42,7 +36,6 @@ Yes, `cl.exe` is the Microsoft C++ (MSVC) compiler<sup>[\[1\]](https://learn.mic
 
 ⌂
 <br>﹈<br>^1695663796624
-
 
 
 ﹇<br>
@@ -60,10 +53,8 @@ The main difference between the two lies in their compatibility and usage. g++ i
 <br>﹈<br>^1695663796631
 
 
-
 {1:**g++**} is a {2:GNU C++ compiler invocation command}, which is used for preprocessing, compilation, assembly, and linking of source code to generate an executable file<sup>[\[1\]](https://www.geeksforgeeks.org/compiling-with-g-plus-plus/)</sup>. It’s part of the GNU Compiler Collection (GCC), which includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D<sup>[\[2\]](https://gcc.gnu.org/)</sup>. You can use {1:`g++.exe`} with various tools like MinGW-w64 to create programs that run on different platforms including Windows<sup>[\[3\]](https://code.visualstudio.com/docs/cpp/config-mingw)</sup>.
 ^1695663796637
-
 
 ﹇<br>
 What does MSVC stand for and is that the same thing as the cl.exe?
@@ -81,7 +72,6 @@ To put it simply:
 ⌂
 <br>﹈<br>
 
-
 ﹇<br>
 What is the role of `cl.exe` in MSVC?
 
@@ -92,13 +82,10 @@ What is the role of `cl.exe` in MSVC?
 ⌂
 <br>﹈<br>
 
-
 ---
 
-> [!Info] 🔜 Next Note(s):
-> - 
+> [!Info] 
+> **Next Note(s)**:
+> 
 
 ---
-
-
-

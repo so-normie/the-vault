@@ -1,7 +1,7 @@
 ---
 title: 🗒️ C++
 created: 2023-09-28 14:16
-updated: 2023-12-04T09:08
+updated: 2023-12-04T09:30
 authors:
   - Edmund Leibert III
 tags:
@@ -16,8 +16,9 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ C++::🗒️ C++ �
 
 ---
 
-> [!Abstract]+ Abstract
+> [!Abstract]+ 
 > 
+
 
 ---
 

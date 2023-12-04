@@ -8,48 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d2b231a2e34e64cd",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "8b6a2a8e68ebf55b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/🗒️ C++ ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/Algorithms library.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
-          },
-          {
-            "id": "3679c067ba9bd753",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/🗒️ C++ ∋ Table of Contents.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/🗒️ C++ ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/Algorithms library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/🗒️ C++ ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/Algorithms library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,15 +211,18 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "3679c067ba9bd753",
+  "active": "8b6a2a8e68ebf55b",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/Algorithms library.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/MSVC.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/🗒️ C++ ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Docker/🗒️ Docker ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESBuild/🗒️ ESBuild ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/🗒️ C++ ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Real Python ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python Docs ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ CMake/🗒️ CMake ∋ Table of Contents.md",
@@ -267,11 +241,8 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/🗒️ PowerShell ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Anaconda/🗒️ Anaconda ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Angular/🗒️ Angular ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Exce/Exce ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Exce",
     "Pasted image 20231105005754.png",
     "Pasted image 20231117020633.png",
