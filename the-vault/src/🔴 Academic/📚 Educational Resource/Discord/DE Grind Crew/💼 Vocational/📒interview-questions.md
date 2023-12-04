@@ -1,7 +1,7 @@
 ---
 title: 📒interview-questions
 created: 2023-12-03T15:09
-updated: 2023-12-03T21:19
+updated: 2023-12-03T23:34
 authors:
   - Edmund Leibert III
 tags:
@@ -76,35 +76,39 @@ In the context of lambda functions in C++, the **capture clause** {1:`[]`} means
 #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/cpp
 ^1701651716777
 
-
 In the context of lambda functions in C++, the **capture clause** {1:`[x]`} means that it will capture `x` by value, so the function gets its own copy of `x` and changes won't affect the original `x`.
 #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/cpp
 ^1701651716782
-
 
 In the context of lambda functions in C++, the **capture clause** {1:`[=]`} means that it will capture all local variables by value. The function cannot modify the originals.
 #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/cpp
 ^1701651716786
 
-
 In the context of lambda functions in C++, the **capture clause** {1:`[&]`} means that it will capture all local variables by reference. This means the function has access to the original variable and any changes made to this variable will be seen outside the lambda function.
 #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/cpp
 ^1701651716790
-
 
 In the context of lambda functions in C++, the **capture clause** {1:`[&x]`} means that it will capture x by reference, the function can modify the original x.
 #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/cpp
 ^1701651716793
 
-
 In the context of lambda functions in C++, the **capture clause** {1:`[this]`} means that it will capture the current object by reference so that class members can be accessed.
 #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/cpp
 ^1701651716797
 
-
 In C++, a {1:lambda function} is a special type of function that you can {2:define inline} in your source code. They are particularly useful for {3:small functions} that are only going to be {1:used once or twice}.
 #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/cpp
 ^1701651716800
+
+﹇<br>
+{{Question}}
+
+#card 
+
+{{Answer}}
+
+⌂
+<br>﹈<br>
 
 
 ---
