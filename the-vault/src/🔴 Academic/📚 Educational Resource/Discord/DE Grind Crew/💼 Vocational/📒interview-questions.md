@@ -1,14 +1,14 @@
 ---
 title: 📒interview-questions
 created: 2023-12-03T15:09
-updated: 2023-12-03T19:05
+updated: 2023-12-03T21:19
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/discord/de-grind-crew/🔖/de-grind-crew-∋-table-of-contents
   - 🔴-academic/📚-educational-resource/format/website
   - study-note
-cards-deck: 🔴 Academic::📚 Educational Resource::Discord::De Grind Crew::💼 Vocational::📒interview-questions
+cards-deck: 🔴 Academic::📚 Educational Resource::Discord::DE Grind Crew::💼 Vocational::📒interview-questions
 ---
 
 # 📒interview-questions
