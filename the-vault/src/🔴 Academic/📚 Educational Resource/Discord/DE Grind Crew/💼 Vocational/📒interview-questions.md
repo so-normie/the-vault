@@ -1,7 +1,7 @@
 ---
 title: 📒interview-questions
 created: 2023-12-03T15:09
-updated: 2023-12-03T17:03
+updated: 2023-12-03T19:05
 authors:
   - Edmund Leibert III
 tags:
@@ -48,7 +48,7 @@ function<void(int, string)> dfs = [&](int work_left, string schedule){
 };
 ```
 
-
+However, my question is what exactly does this `[&]` mean in the code?
 
 #card #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/cpp 
 
