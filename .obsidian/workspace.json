@@ -191,16 +191,27 @@
               "type": "ReferenceListView",
               "state": {}
             }
+          },
+          {
+            "id": "1c9b8e7002d4b903",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 433.5,
-    "collapsed": true
+    "width": 433.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "cloze:Toggle all clozes": false,
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
       "omnisearch:Omnisearch": false,
@@ -225,7 +236,7 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "4bbd078a939f1607",
+  "active": "0c5e01afae58f6be",
   "lastOpenFiles": [
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bash/sortspec.md",
