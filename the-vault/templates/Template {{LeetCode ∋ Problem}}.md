@@ -20,7 +20,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::LeetCode::Problems::<% tp.
 ---
 
 > [!ABSTRACT]+
-> 
+> Notes pertaining to .
 
 ---
 

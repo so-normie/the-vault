@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/169. Majority Element.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/169. Majority Element.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/169. Majority Element.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/169. Majority Element.md"
               }
             }
           }
@@ -207,7 +207,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5
+    "width": 480.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,11 +232,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "notion-like-tables:Create loom": false,
       "custom-sort:Toggle custom sorting": false,
-      "reference-map:Reference Map": false
+      "reference-map:Reference Map": false,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
   "active": "acf531cffe0da331",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/169. Majority Element.md",
+    "the-vault/templates/Template {{LeetCode ∋ Problem}}.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/597. Friend Requests I꞉ Overall Acceptance Rate.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bash/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/sortspec.md",
@@ -257,11 +264,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ CMake/🗒️ CMake ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ CMake/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia/Tree traversal.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/Discord ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational/📒interview-questions.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational/💼 Vocational ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel",
