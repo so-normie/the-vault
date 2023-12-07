@@ -192,15 +192,16 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 433.5,
-    "collapsed": true
+    "width": 480.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "cloze:Toggle all clozes": false,
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
       "omnisearch:Omnisearch": false,
@@ -225,7 +226,7 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "4bbd078a939f1607",
+  "active": "acf531cffe0da331",
   "lastOpenFiles": [
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bash/sortspec.md",
