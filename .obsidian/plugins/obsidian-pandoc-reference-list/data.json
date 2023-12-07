@@ -1,15 +1,8 @@
 {
   "pathToPandoc": "C:\\Program Files\\Pandoc\\pandoc.EXE",
   "tooltipDelay": 400,
-  "zoteroGroups": [
-    {
-      "id": 1,
-      "name": "My Library",
-      "lastUpdate": 1701908906452
-    }
-  ],
+  "zoteroGroups": [],
   "renderCitations": true,
   "renderCitationsReadingMode": true,
-  "renderLinkCitations": true,
-  "pullFromZotero": true,
-  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/ieee-with-url.csl"
+  "renderLinkCitations": true
+}
