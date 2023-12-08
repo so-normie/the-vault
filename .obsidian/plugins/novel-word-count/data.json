@@ -5394,8 +5394,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1701589167153,
-      "modifiedDate": 1701596916463,
-      "sizeInBytes": 23685
+      "modifiedDate": 1702013671278,
+      "sizeInBytes": 23680
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/🗒️ PowerShell ∋ Table of Contents.md": {
       "isCountable": true,
@@ -5412,8 +5412,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208481491,
-      "modifiedDate": 1701590112226,
-      "sizeInBytes": 1377
+      "modifiedDate": 1702013671311,
+      "sizeInBytes": 1372
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Physics/Mechanical Physics.md": {
       "isCountable": true,
@@ -7871,15 +7871,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 2.9366666666666665,
-      "characterCount": 5645,
+      "characterCount": 5401,
       "nonWhitespaceCharacterCount": 4334,
       "readingTimeInMinutes": 3.3245283018867924,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208480050,
-      "modifiedDate": 1700961153579,
-      "sizeInBytes": 6309
+      "modifiedDate": 1702013809828,
+      "sizeInBytes": 5976
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/The Modern JavaScript Tutorial/Part 1 “The JavaScript Language”.md": {
       "isCountable": true,
@@ -10974,7 +10974,7 @@
       "embedCount": 13,
       "aliases": null,
       "createdDate": 1700208478879,
-      "modifiedDate": 1700961153158,
+      "modifiedDate": 1702013665244,
       "sizeInBytes": 8800
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/Nodejs.dev/Learn.md": {
@@ -12018,8 +12018,8 @@
       "embedCount": 3,
       "aliases": null,
       "createdDate": 1700208478232,
-      "modifiedDate": 1700961152986,
-      "sizeInBytes": 70434
+      "modifiedDate": 1702013198149,
+      "sizeInBytes": 70443
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/112. Path Sum.md": {
       "isCountable": true,
@@ -12090,8 +12090,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478709,
-      "modifiedDate": 1701133234954,
-      "sizeInBytes": 21524
+      "modifiedDate": 1702013365664,
+      "sizeInBytes": 21512
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/sortspec.md": {
       "isCountable": true,
@@ -12115,19 +12115,19 @@
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 29,
+      "wordCount": 23,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.09666666666666666,
-      "characterCount": 168,
-      "nonWhitespaceCharacterCount": 120,
-      "readingTimeInMinutes": 0.10943396226415095,
+      "pageCount": 0.07666666666666666,
+      "characterCount": 135,
+      "nonWhitespaceCharacterCount": 95,
+      "readingTimeInMinutes": 0.08679245283018867,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478710,
-      "modifiedDate": 1701133235005,
-      "sizeInBytes": 660
+      "modifiedDate": 1702013565075,
+      "sizeInBytes": 693
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/627. Swap Salary.md": {
       "isCountable": true,
@@ -12198,8 +12198,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478701,
-      "modifiedDate": 1701987649612,
-      "sizeInBytes": 3143
+      "modifiedDate": 1702013171937,
+      "sizeInBytes": 3151
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/610. Triangle Judgement.md": {
       "isCountable": true,
@@ -12216,8 +12216,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478703,
-      "modifiedDate": 1701133234791,
-      "sizeInBytes": 7107
+      "modifiedDate": 1702013365638,
+      "sizeInBytes": 7095
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/613. Shortest Distance in a Line.md": {
       "isCountable": true,
@@ -12234,8 +12234,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478704,
-      "modifiedDate": 1700679709853,
-      "sizeInBytes": 16255
+      "modifiedDate": 1702013117170,
+      "sizeInBytes": 16265
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/597. Friend Requests I꞉ Overall Acceptance Rate.md": {
       "isCountable": true,
@@ -12252,8 +12252,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478695,
-      "modifiedDate": 1701133234712,
-      "sizeInBytes": 1388
+      "modifiedDate": 1702013365545,
+      "sizeInBytes": 1375
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/596. Classes More Than 5 Students.md": {
       "isCountable": true,
@@ -12270,8 +12270,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478694,
-      "modifiedDate": 1701133234632,
-      "sizeInBytes": 1635
+      "modifiedDate": 1702013365466,
+      "sizeInBytes": 1622
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/595. Big Countries.md": {
       "isCountable": true,
@@ -12288,8 +12288,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478693,
-      "modifiedDate": 1701133234544,
-      "sizeInBytes": 1816
+      "modifiedDate": 1702013365384,
+      "sizeInBytes": 1803
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/586. Customer Placing the Largest Number of Orders.md": {
       "isCountable": true,
@@ -12306,8 +12306,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478692,
-      "modifiedDate": 1701133234464,
-      "sizeInBytes": 9534
+      "modifiedDate": 1702013365117,
+      "sizeInBytes": 9521
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/584. Find Customer Referee.md": {
       "isCountable": true,
@@ -12324,8 +12324,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478690,
-      "modifiedDate": 1701133234335,
-      "sizeInBytes": 1445
+      "modifiedDate": 1702013365031,
+      "sizeInBytes": 1432
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/577. Employee Bonus.md": {
       "isCountable": true,
@@ -12342,8 +12342,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478689,
-      "modifiedDate": 1701133234116,
-      "sizeInBytes": 1542
+      "modifiedDate": 1702013364670,
+      "sizeInBytes": 1529
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2917. Find the K-or of an Array.md": {
       "isCountable": true,
@@ -12360,8 +12360,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478686,
-      "modifiedDate": 1700679723047,
-      "sizeInBytes": 1519
+      "modifiedDate": 1702013169586,
+      "sizeInBytes": 1527
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/383. Ransom Note.md": {
       "isCountable": true,
@@ -12378,8 +12378,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478688,
-      "modifiedDate": 1701133234015,
-      "sizeInBytes": 3999
+      "modifiedDate": 1702013364151,
+      "sizeInBytes": 3987
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2853. Highest Salaries Difference.md": {
       "isCountable": true,
@@ -12396,8 +12396,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478680,
-      "modifiedDate": 1701133233922,
-      "sizeInBytes": 7705
+      "modifiedDate": 1702013364001,
+      "sizeInBytes": 7693
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2837. Total Traveled Distance.md": {
       "isCountable": true,
@@ -12414,8 +12414,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478679,
-      "modifiedDate": 1701133233836,
-      "sizeInBytes": 11315
+      "modifiedDate": 1702013363978,
+      "sizeInBytes": 11303
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2687. Bikes Last Time Used.md": {
       "isCountable": true,
@@ -12432,8 +12432,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478672,
-      "modifiedDate": 1701133233735,
-      "sizeInBytes": 3434
+      "modifiedDate": 1702013363899,
+      "sizeInBytes": 3422
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/278. First Bad Version.md": {
       "isCountable": true,
@@ -12450,8 +12450,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478678,
-      "modifiedDate": 1700679722710,
-      "sizeInBytes": 2488
+      "modifiedDate": 1702013168571,
+      "sizeInBytes": 2496
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2669. Count Artist Occurrences On Spotify Ranking List.md": {
       "isCountable": true,
@@ -12468,8 +12468,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478672,
-      "modifiedDate": 1701133233651,
-      "sizeInBytes": 2336
+      "modifiedDate": 1702013363819,
+      "sizeInBytes": 2324
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2668. Find Latest Salaries.md": {
       "isCountable": true,
@@ -12486,8 +12486,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478671,
-      "modifiedDate": 1701133233577,
-      "sizeInBytes": 4070
+      "modifiedDate": 1702013363737,
+      "sizeInBytes": 4058
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/26. Remove Duplicates from Sorted Array.md": {
       "isCountable": true,
@@ -12504,8 +12504,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478670,
-      "modifiedDate": 1701133233495,
-      "sizeInBytes": 7516
+      "modifiedDate": 1702013363660,
+      "sizeInBytes": 7505
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2504. Concatenate the Name and the Profession.md": {
       "isCountable": true,
@@ -12522,8 +12522,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478668,
-      "modifiedDate": 1701133233413,
-      "sizeInBytes": 5135
+      "modifiedDate": 1702013363580,
+      "sizeInBytes": 5123
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/219. Contains Duplicate II.md": {
       "isCountable": true,
@@ -12540,8 +12540,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478662,
-      "modifiedDate": 1701133232822,
-      "sizeInBytes": 13494
+      "modifiedDate": 1702013361240,
+      "sizeInBytes": 13484
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2377. Sort the Olympic Table.md": {
       "isCountable": true,
@@ -12558,8 +12558,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478666,
-      "modifiedDate": 1701133233208,
-      "sizeInBytes": 4282
+      "modifiedDate": 1702013847655,
+      "sizeInBytes": 4279
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2480. Form a Chemical Bond.md": {
       "isCountable": true,
@@ -12576,8 +12576,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478667,
-      "modifiedDate": 1701133233297,
-      "sizeInBytes": 1876
+      "modifiedDate": 1702013363501,
+      "sizeInBytes": 1864
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2356. Number of Unique Subjects Taught by Each Teacher.md": {
       "isCountable": true,
@@ -12594,8 +12594,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478665,
-      "modifiedDate": 1701133233081,
-      "sizeInBytes": 3903
+      "modifiedDate": 1702013839739,
+      "sizeInBytes": 3900
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/21. Merge Two Sorted Lists.md": {
       "isCountable": true,
@@ -12612,8 +12612,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478661,
-      "modifiedDate": 1701133232724,
-      "sizeInBytes": 4315
+      "modifiedDate": 1702013360956,
+      "sizeInBytes": 4303
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/226. Invert Binary Tree.md": {
       "isCountable": true,
@@ -12630,8 +12630,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478663,
-      "modifiedDate": 1701133232910,
-      "sizeInBytes": 3226
+      "modifiedDate": 1702013361285,
+      "sizeInBytes": 3216
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2283. Check if Number Has Equal Digit Count and Digit Value.md": {
       "isCountable": true,
@@ -12648,8 +12648,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478664,
-      "modifiedDate": 1701133233006,
-      "sizeInBytes": 12199
+      "modifiedDate": 1702013362001,
+      "sizeInBytes": 12189
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/182. Duplicate Emails.md": {
       "isCountable": true,
@@ -12666,8 +12666,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478656,
-      "modifiedDate": 1701133232358,
-      "sizeInBytes": 1837
+      "modifiedDate": 1702013359605,
+      "sizeInBytes": 1825
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/183. Customers Who Never Order.md": {
       "isCountable": true,
@@ -12684,8 +12684,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478657,
-      "modifiedDate": 1701133232449,
-      "sizeInBytes": 5500
+      "modifiedDate": 1702013360012,
+      "sizeInBytes": 5488
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/196. Delete Duplicate Emails.md": {
       "isCountable": true,
@@ -12702,8 +12702,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478659,
-      "modifiedDate": 1701133232534,
-      "sizeInBytes": 14257
+      "modifiedDate": 1702013360384,
+      "sizeInBytes": 14244
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/20. Valid Parentheses.md": {
       "isCountable": true,
@@ -12720,8 +12720,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478659,
-      "modifiedDate": 1701133232587,
-      "sizeInBytes": 8635
+      "modifiedDate": 1702013360428,
+      "sizeInBytes": 8624
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/175. Combine Two Tables.md": {
       "isCountable": true,
@@ -12738,8 +12738,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478654,
-      "modifiedDate": 1701133232177,
-      "sizeInBytes": 1768
+      "modifiedDate": 1702013358988,
+      "sizeInBytes": 1756
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/181. Employees Earning More Than Their Managers.md": {
       "isCountable": true,
@@ -12756,8 +12756,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478655,
-      "modifiedDate": 1701133232256,
-      "sizeInBytes": 2181
+      "modifiedDate": 1702013359301,
+      "sizeInBytes": 2168
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/163. Missing Ranges.md": {
       "isCountable": true,
@@ -12774,8 +12774,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700961153009,
-      "modifiedDate": 1701050676536,
-      "sizeInBytes": 7991
+      "modifiedDate": 1702013167228,
+      "sizeInBytes": 7977
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/145. Binary Tree Postorder Traversal.md": {
       "isCountable": true,
@@ -12792,8 +12792,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700961152996,
-      "modifiedDate": 1701050676534,
-      "sizeInBytes": 7568
+      "modifiedDate": 1702013163199,
+      "sizeInBytes": 7551
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/160. Intersection of Two Linked Lists.md": {
       "isCountable": true,
@@ -12803,15 +12803,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.0366666666666666,
-      "characterCount": 2425,
+      "characterCount": 2330,
       "nonWhitespaceCharacterCount": 1759,
       "readingTimeInMinutes": 1.1735849056603773,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700961153004,
-      "modifiedDate": 1701050676535,
-      "sizeInBytes": 3470
+      "modifiedDate": 1702013271058,
+      "sizeInBytes": 3231
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/157. Read N Characters Given Read4.md": {
       "isCountable": true,
@@ -12828,8 +12828,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700961152999,
-      "modifiedDate": 1701050676535,
-      "sizeInBytes": 3780
+      "modifiedDate": 1702013164152,
+      "sizeInBytes": 3764
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/144. Binary Tree Preorder Traversal.md": {
       "isCountable": true,
@@ -12846,8 +12846,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478653,
-      "modifiedDate": 1700679720629,
-      "sizeInBytes": 7386
+      "modifiedDate": 1702013161993,
+      "sizeInBytes": 7394
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/136. Single Number.md": {
       "isCountable": true,
@@ -12864,8 +12864,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478635,
-      "modifiedDate": 1700679720405,
-      "sizeInBytes": 4100
+      "modifiedDate": 1702013160840,
+      "sizeInBytes": 4108
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/141. Linked List Cycle.md": {
       "isCountable": true,
@@ -12882,8 +12882,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478645,
-      "modifiedDate": 1700679720510,
-      "sizeInBytes": 3847
+      "modifiedDate": 1702013161155,
+      "sizeInBytes": 3855
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/13. Roman to Integer.md": {
       "isCountable": true,
@@ -12900,8 +12900,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478280,
-      "modifiedDate": 1701133232058,
-      "sizeInBytes": 8222
+      "modifiedDate": 1702013358278,
+      "sizeInBytes": 8212
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/125. Valid Palindrome.md": {
       "isCountable": true,
@@ -12918,8 +12918,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478278,
-      "modifiedDate": 1701133231934,
-      "sizeInBytes": 8774
+      "modifiedDate": 1702013358219,
+      "sizeInBytes": 8763
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/121. Best Time to Buy and Sell Stock.md": {
       "isCountable": true,
@@ -12936,8 +12936,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478271,
-      "modifiedDate": 1701133231841,
-      "sizeInBytes": 6960
+      "modifiedDate": 1702013357854,
+      "sizeInBytes": 6948
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md": {
       "isCountable": true,
@@ -12954,8 +12954,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478266,
-      "modifiedDate": 1701132858391,
-      "sizeInBytes": 2118
+      "modifiedDate": 1702013160447,
+      "sizeInBytes": 2126
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/118. Pascal's Triangle.md": {
       "isCountable": true,
@@ -12972,8 +12972,8 @@
       "embedCount": 1,
       "aliases": null,
       "createdDate": 1700208478259,
-      "modifiedDate": 1701133231735,
-      "sizeInBytes": 3142
+      "modifiedDate": 1702013356577,
+      "sizeInBytes": 3130
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1. Two Sum.md": {
       "isCountable": true,
@@ -12990,8 +12990,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478255,
-      "modifiedDate": 1701132662169,
-      "sizeInBytes": 21902
+      "modifiedDate": 1702013104958,
+      "sizeInBytes": 21922
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1050. Actors and Directors Who Cooperated At Least Three Times.md": {
       "isCountable": true,
@@ -13008,8 +13008,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478256,
-      "modifiedDate": 1701133231577,
-      "sizeInBytes": 5015
+      "modifiedDate": 1702013832136,
+      "sizeInBytes": 5012
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/217. Contains Duplicate.md": {
       "isCountable": true,
@@ -14203,19 +14203,19 @@
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 549,
+      "wordCount": 44,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.83,
-      "characterCount": 4821,
-      "nonWhitespaceCharacterCount": 3366,
-      "readingTimeInMinutes": 2.0716981132075474,
-      "linkCount": 0,
+      "pageCount": 0.14666666666666667,
+      "characterCount": 354,
+      "nonWhitespaceCharacterCount": 282,
+      "readingTimeInMinutes": 0.1660377358490566,
+      "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208477539,
-      "modifiedDate": 1701133231456,
-      "sizeInBytes": 5393
+      "modifiedDate": 1702013985902,
+      "sizeInBytes": 924
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Concepts library.md": {
       "isCountable": true,
@@ -14603,15 +14603,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.03,
-      "characterCount": 2671,
+      "characterCount": 2578,
       "nonWhitespaceCharacterCount": 2164,
       "readingTimeInMinutes": 1.1660377358490566,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1701987734839,
-      "modifiedDate": 1701995972206,
-      "sizeInBytes": 3884
+      "modifiedDate": 1702012553934,
+      "sizeInBytes": 3727
     }
   }
 }
