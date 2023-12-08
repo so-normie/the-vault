@@ -181,19 +181,19 @@
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 44,
+      "wordCount": 65,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.14666666666666667,
-      "characterCount": 312,
-      "nonWhitespaceCharacterCount": 250,
-      "readingTimeInMinutes": 0.1660377358490566,
+      "pageCount": 0.21666666666666667,
+      "characterCount": 474,
+      "nonWhitespaceCharacterCount": 384,
+      "readingTimeInMinutes": 0.24528301886792453,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208481962,
-      "modifiedDate": 1701987714869,
-      "sizeInBytes": 975
+      "modifiedDate": 1702019447215,
+      "sizeInBytes": 1137
     },
     "the-vault/templates/Template {{Date Created}}.md": {
       "isCountable": true,
@@ -14599,19 +14599,19 @@
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 309,
+      "wordCount": 327,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.03,
-      "characterCount": 2578,
-      "nonWhitespaceCharacterCount": 2164,
-      "readingTimeInMinutes": 1.1660377358490566,
+      "pageCount": 1.09,
+      "characterCount": 2717,
+      "nonWhitespaceCharacterCount": 2279,
+      "readingTimeInMinutes": 1.2339622641509433,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1701987734839,
-      "modifiedDate": 1702012553934,
-      "sizeInBytes": 3727
+      "modifiedDate": 1702019416905,
+      "sizeInBytes": 3866
     }
   }
 }

@@ -38,6 +38,20 @@ cards-deck: 🔴 Academic::📚 Educational Resource::LeetCode::Problems::<% tp.
 
 ## :RiHistoryLine: Submissions
 
+### :SiJavascript: JavaScript
+
+### :SiTypescript: TypeScript
+
+### :SiGo: Go
+
+### :SiRust: Rust
+
+### :SiPython: Python
+
+### :SiCsharp: C\#
+
+### :SiCplusplus: C++
+
 ---
 
 ## :EiZoteroItem: Bibliography
