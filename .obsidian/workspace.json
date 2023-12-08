@@ -32,6 +32,32 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "c78c224eaa100726",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "cf425638b1442e6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ LaTeX/LaTeX.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -92,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 456.5
+    "width": 456.5,
+    "collapsed": true
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -191,23 +218,12 @@
               "type": "ReferenceListView",
               "state": {}
             }
-          },
-          {
-            "id": "3f6adeb78dd7b74f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/169. Majority Element.md"
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 480.5,
+    "width": 387.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -238,8 +254,14 @@
   },
   "active": "acf531cffe0da331",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/136. Single Number.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/141. Linked List Cycle.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/145. Binary Tree Postorder Traversal.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/169. Majority Element.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ LaTeX/LaTeX.md",
     "the-vault/templates/Template {{LeetCode ∋ Problem}}.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/597. Friend Requests I꞉ Overall Acceptance Rate.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
@@ -258,12 +280,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Docker/🗒️ Docker ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESBuild/🗒️ ESBuild ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Real Python ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python Docs ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ CMake/🗒️ CMake ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ CMake/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia/Tree traversal.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel",
