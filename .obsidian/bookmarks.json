@@ -403,6 +403,23 @@
                 }
               ],
               "title": "🗒️ C++"
+            },
+            {
+              "type": "group",
+              "ctime": 1702080485676,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1702080464921,
+                  "path": "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1702080516639,
+                  "path": "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Primer on Python Decorators.md"
+                }
+              ],
+              "title": "Real Python"
             }
           ],
           "title": "📚 Educational Resource"

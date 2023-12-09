@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1ecb8e4f6cef4ae6",
+            "id": "8709c17651aa604a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/169. Majority Element.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Primer on Python Decorators.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#🔴-academic/📚-educational-resource/name/leetcode/🔖/algorithms-library",
+                "query": "tag:#🔴-academic/📚-educational-resource/name/leetcode/🏷️/problems/",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -103,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/169. Majority Element.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Primer on Python Decorators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/169. Majority Element.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Primer on Python Decorators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,17 +186,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/169. Majority Element.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Primer on Python Decorators.md"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 387.5,
-    "collapsed": true
+    "width": 387.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,8 +223,17 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "4bbd078a939f1607",
+  "active": "cfae32b46f24b2be",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Untitled/Untitled ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Primer on Python Decorators.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Untitled",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/sortspec.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/sortspec.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Real Python ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/169. Majority Element.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/sortspec.md",
     "the-vault/templates/Template {{LeetCode ∋ Problem}}.md",
@@ -243,14 +252,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bash/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/Algorithms library.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/MSVC.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/🗒️ C++ ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel",
@@ -265,7 +266,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets",
     "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode",
     "the-vault/🔴 Academics/📚 Educational Resources",
-    "the-vault/🔴 Academics",
     "the-vault/assets/images/docker-docs-docker-architecture.png",
     "the-vault/assets/images/Pasted image 20230913161050.png",
     "the-vault/assets/images/Pasted image 20230924131220.png",

@@ -297,7 +297,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational": "RiBookmarkFill",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Misc. Notes.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ CMake/Misc. Notes.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/Algorithms library.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/MSVC.md": "TiNotes",
@@ -327,5 +326,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Regular expressions library.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Concurrency support library.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/AWS Educate/Misc. Notes.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/169. Majority Element.md": "TiNotes"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/169. Majority Element.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Primer on Python Decorators.md": "TiNotes"
 }
