@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(#javascript)",
+                "query": "tag:🔴-academic/📚-educational-resource/name/structy/🔖/0-introduction/002-hey-programmer-🧑🏽‍💻",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -224,7 +223,7 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "b0f41cdfacdd8b2a",
+  "active": "4bbd078a939f1607",
   "lastOpenFiles": [
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
