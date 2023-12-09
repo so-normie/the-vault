@@ -3,9 +3,9 @@ title: Primer on Python Decorators
 authors:
   - Edmund Leibert III
 created: 2023-11-14T19:56
-updated: 2023-12-08T15:59
+updated: 2023-12-08T16:30
 tags:
-  - 🔴-academic/📚-educational-resource/name/primer-on-python-decorators
+  - 🔴-academic/📚-educational-resource/name/real-python/primer-on-python-decorators
   - 🔴-academic/📚-educational-resource/format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python
   - 🔴-academic/📚-educational-resource/name/real-python/🏷️/all-resources/article
@@ -13,6 +13,7 @@ tags:
   - 🔴-academic/📚-educational-resource/name/real-python/🏷️/tutorials/category-tags/intermediate
   - 🔴-academic/📚-educational-resource/name/real-python/🏷️/tutorials/category-tags/python
   - study-note
+  - new-tag
 cards-deck: 🔴 Academic::📚 Educational Resource::LeetCode::Problems::Primer on Python Decorators
 ---
 
@@ -21,7 +22,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::LeetCode::Problems::Primer
 ---
 
 > [!ABSTRACT]+
-> Notes pertaining to the  article.
+> Notes pertaining to the [Primer on Python Decorators – Real Python](https://realpython.com/primer-on-python-decorators/) article. [@pythonPrimerPythonDecorators]
 
 ---
 
@@ -31,10 +32,13 @@ cards-deck: 🔴 Academic::📚 Educational Resource::LeetCode::Problems::Primer
 
 ---
 
+Decorators provide a simple syntax for calling {1:[higher-order functions](http://en.wikipedia.org/wiki/Higher-order_function)}.
+
+By definition, a {1:decorator} is a {2:function that takes another function and extends the behavior of the latter function without explicitly modifying it}.
+
 
 
 ---
-
 
 ## :EiZoteroItem: Bibliography
 
@@ -42,6 +46,6 @@ cards-deck: 🔴 Academic::📚 Educational Resource::LeetCode::Problems::Primer
 
 > [!INFO]+ 
 > **Next Note(s)**:
-> - 
+> 
 
 ---

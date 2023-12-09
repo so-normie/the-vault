@@ -2133,19 +2133,6 @@ var FileIO = class {
     this.plugin = plugin;
     this.file = file;
   }
-  async getBlockTextFromID(blockID, cache) {
-    var _a, _b;
-    cache = (_a = cache != null ? cache : this.plugin.app.metadataCache.getFileCache(this.file)) != null ? _a : void 0;
-    if (cache) {
-      const sectionCache = (_b = cache.sections) == null ? void 0 : _b.find(
-        (sectionCache2) => sectionCache2.id == blockID
-      );
-      const position = sectionCache == null ? void 0 : sectionCache.position;
-      if (position) {
-        return await this.getRange(position);
-      }
-    }
-  }
 };
 var ActiveNoteIO = class extends FileIO {
   /**
@@ -2178,10 +2165,6 @@ var ActiveNoteIO = class extends FileIO {
     const text = this.editor.getRange(from, to);
     return text;
   }
-  isSafe(lineNumber) {
-    const cursorPos = this.editor.getCursor();
-    return cursorPos.line != lineNumber;
-  }
 };
 var NonActiveNoteIO = class extends FileIO {
   /**
@@ -2191,10 +2174,6 @@ var NonActiveNoteIO = class extends FileIO {
   constructor(plugin, file) {
     super(plugin, file);
     this._data = null;
-  }
-  async getData() {
-    var _a;
-    return (_a = this._data) != null ? _a : this._data = await this.plugin.app.vault.cachedRead(this.file);
   }
   async setLine(lineNumber, text) {
     this.plugin.app.vault.process(this.file, (data) => {
@@ -2223,9 +2202,6 @@ var NonActiveNoteIO = class extends FileIO {
   async getRange(position) {
     const content = await this.plugin.app.vault.cachedRead(this.file);
     return content.slice(position.start.offset, position.end.offset);
-  }
-  isSafe(lineNumber) {
-    return true;
   }
 };
 function getIO(plugin, file, activeMarkdownView) {
@@ -3236,18 +3212,31 @@ function getMathTextWithTag(equation, lineByLine) {
   return equation.$mathText;
 }
 function insertTagInMathText(text, tagContent, lineByLine) {
-  if (lineByLine) {
-    const alignResult = text.match(/^\s*\\begin\{align\}([\s\S]*)\\end\{align\}\s*$/);
-    if (alignResult) {
-      let alignContent = alignResult[1].split("\n").map((line) => parseLatexComment(line).nonComment).join("\n");
-      let index = 1;
-      alignContent = alignContent.split("\\\\").map(
-        (alignLine) => !alignLine.trim() || alignLine.contains("\\nonumber") ? alignLine : alignLine + `\\tag{${tagContent}-${index++}}`
-      ).join("\\\\");
-      return "\\begin{align}" + alignContent + "\\end{align}";
+  if (!lineByLine)
+    return text + `\\tag{${tagContent}}`;
+  const alignResult = text.match(/^\s*\\begin\{align\}([\s\S]*)\\end\{align\}\s*$/);
+  if (!alignResult)
+    return text + `\\tag{${tagContent}}`;
+  const envStack = [];
+  let alignContent = alignResult[1].split("\n").map((line) => parseLatexComment(line).nonComment).join("\n");
+  let index = 1;
+  alignContent = alignContent.split("\\\\").map((alignLine) => {
+    const pattern = /\\(?<which>begin|end)\{(?<env>.*?)\}/g;
+    let result;
+    while (result = pattern.exec(alignLine)) {
+      const { which, env } = result.groups;
+      if (which === "begin")
+        envStack.push(env);
+      else if (envStack.last() === env)
+        envStack.pop();
     }
-  }
-  return text + `\\tag{${tagContent}}`;
+    if (envStack.length || !alignLine.trim() || alignLine.contains("\\nonumber"))
+      return alignLine;
+    return alignLine + `\\tag{${tagContent}-${index++}}`;
+  }).join("\\\\");
+  if (index <= 2)
+    return text + `\\tag{${tagContent}}`;
+  return "\\begin{align}" + alignContent + "\\end{align}";
 }
 
 // src/equations/reading-view.ts
@@ -5137,7 +5126,8 @@ var MathSearchCore = class {
   renderSuggestion(block, el) {
     const baseEl = el.createDiv({ cls: "math-booster-search-item" });
     if (block.$printName) {
-      baseEl.createDiv({ text: block.$printName });
+      const children = renderTextWithMath(block.$printName);
+      baseEl.createDiv().replaceChildren(...children);
     }
     const smallEl = baseEl.createEl(
       "small",
@@ -5292,7 +5282,7 @@ var patchLinkCompletion = (plugin) => {
         var _a, _b;
         old.call(this, item, el);
         if (plugin.extraSettings.showTheoremTitleinBuiltin && item.type === "block" && item.node.type === "callout" && isTheoremCallout(plugin, item.node.callout.type)) {
-          let title = (_b = (_a = item.node.children.find((child) => child.type === "callout-title")) == null ? void 0 : _a.children[0].value) != null ? _b : "";
+          let title = (_b = (_a = item.node.children.find((child) => child.type === "callout-title")) == null ? void 0 : _a.children.map((child) => child.value).join("")) != null ? _b : "";
           const content = item.display.slice(title.length);
           const page = plugin.indexManager.index.load(item.file.path);
           if (MarkdownPage.isMarkdownPage(page)) {
@@ -5300,7 +5290,8 @@ var patchLinkCompletion = (plugin) => {
             if (TheoremCalloutBlock.isTheoremCalloutBlock(block)) {
               renderInSuggestionTitleEl(el, (suggestionTitleEl) => {
                 suggestionTitleEl.replaceChildren();
-                suggestionTitleEl.createDiv({ text: block.$printName });
+                const children = renderTextWithMath(block.$printName);
+                suggestionTitleEl.createDiv().replaceChildren(...children);
                 if (content)
                   suggestionTitleEl.createDiv({ text: content });
               });
@@ -5315,7 +5306,8 @@ var patchLinkCompletion = (plugin) => {
             const formattedTitle = formatTitle(plugin, item.file, resolveSettings({ type, number, title }, plugin, item.file), true);
             renderInSuggestionTitleEl(el, (suggestionTitleEl) => {
               suggestionTitleEl.replaceChildren();
-              suggestionTitleEl.createDiv({ text: formattedTitle });
+              const children = renderTextWithMath(formattedTitle);
+              suggestionTitleEl.createDiv().replaceChildren(...children);
               if (content)
                 suggestionTitleEl.createDiv({ text: content });
             });

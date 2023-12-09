@@ -7194,8 +7194,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478704,
-      "modifiedDate": 1702013117170,
-      "sizeInBytes": 16265
+      "modifiedDate": 1702080661992,
+      "sizeInBytes": 16262
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/610. Triangle Judgement.md": {
       "isCountable": true,
@@ -7230,8 +7230,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478701,
-      "modifiedDate": 1702013171937,
-      "sizeInBytes": 3151
+      "modifiedDate": 1702080646408,
+      "sizeInBytes": 3148
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/597. Friend Requests I꞉ Overall Acceptance Rate.md": {
       "isCountable": true,
@@ -7374,8 +7374,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478686,
-      "modifiedDate": 1702013169586,
-      "sizeInBytes": 1527
+      "modifiedDate": 1702080675277,
+      "sizeInBytes": 1524
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2837. Total Traveled Distance.md": {
       "isCountable": true,
@@ -7421,15 +7421,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.7266666666666667,
-      "characterCount": 1645,
+      "characterCount": 1558,
       "nonWhitespaceCharacterCount": 1174,
       "readingTimeInMinutes": 0.8226415094339623,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478678,
-      "modifiedDate": 1702013168571,
-      "sizeInBytes": 2496
+      "modifiedDate": 1702080762058,
+      "sizeInBytes": 2426
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/2853. Highest Salaries Difference.md": {
       "isCountable": true,
@@ -7734,8 +7734,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700961153004,
-      "modifiedDate": 1702013271058,
-      "sizeInBytes": 3231
+      "modifiedDate": 1702080716921,
+      "sizeInBytes": 3267
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/181. Employees Earning More Than Their Managers.md": {
       "isCountable": true,
@@ -7878,8 +7878,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478653,
-      "modifiedDate": 1702013161993,
-      "sizeInBytes": 7394
+      "modifiedDate": 1702080635534,
+      "sizeInBytes": 7391
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/141. Linked List Cycle.md": {
       "isCountable": true,
@@ -7896,8 +7896,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478645,
-      "modifiedDate": 1702013161155,
-      "sizeInBytes": 3855
+      "modifiedDate": 1702080623407,
+      "sizeInBytes": 3852
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/136. Single Number.md": {
       "isCountable": true,
@@ -7914,8 +7914,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478635,
-      "modifiedDate": 1702013160840,
-      "sizeInBytes": 4108
+      "modifiedDate": 1702080611847,
+      "sizeInBytes": 4105
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/125. Valid Palindrome.md": {
       "isCountable": true,
@@ -7968,8 +7968,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478266,
-      "modifiedDate": 1702013160447,
-      "sizeInBytes": 2126
+      "modifiedDate": 1702080600095,
+      "sizeInBytes": 2123
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/118. Pascal's Triangle.md": {
       "isCountable": true,
@@ -8022,8 +8022,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1700208478255,
-      "modifiedDate": 1702013104958,
-      "sizeInBytes": 21922
+      "modifiedDate": 1702080586925,
+      "sizeInBytes": 21919
     },
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/111. Minimum Depth of Binary Tree.md": {
       "isCountable": true,
@@ -14617,19 +14617,19 @@
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 35,
+      "wordCount": 74,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.11666666666666667,
-      "characterCount": 223,
-      "nonWhitespaceCharacterCount": 169,
-      "readingTimeInMinutes": 0.1320754716981132,
+      "pageCount": 0.24666666666666667,
+      "characterCount": 637,
+      "nonWhitespaceCharacterCount": 544,
+      "readingTimeInMinutes": 0.2792452830188679,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1702079044188,
-      "modifiedDate": 1702079953353,
-      "sizeInBytes": 1104
+      "modifiedDate": 1702081815859,
+      "sizeInBytes": 1545
     }
   }
 }
