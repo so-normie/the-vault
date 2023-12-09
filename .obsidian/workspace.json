@@ -232,7 +232,8 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "notion-like-tables:Create loom": false,
       "custom-sort:Toggle custom sorting": false,
-      "reference-map:Reference Map": false
+      "reference-map:Reference Map": false,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
   "active": "acf531cffe0da331",
