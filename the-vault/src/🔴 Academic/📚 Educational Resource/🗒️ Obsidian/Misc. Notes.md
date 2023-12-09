@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Obsidian ∋ Table of Contents
 created: 2023-08-20 08:26
-updated: 2023-12-04T09:56
+updated: 2023-12-08T23:52
 authors:
   - Edmund Leibert III
 tags:
@@ -17,7 +17,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Obsidian::Misc. No
 ---
 
 > [!abstract]+ 
-> Miscellaneous scratch notes pertaining to Obsidian.
+> Miscellaneous scratch notes pertaining to [Obsidian](https://obsidian.md/).
 
 ---
 
@@ -38,7 +38,7 @@ When building a plugin, what command should you run to install dependencies?
 <br>﹈<br>^1700212809979
 
 ﹇<br>
-When building a plugin, what command should you run to start compilation in watch mode? 
+In the context of most Obsidian plugins, when building a plugin, what command should you run to start compilation in watch mode? 
 
 #card-reverse  
 
@@ -173,7 +173,7 @@ Remember, the most important thing is to be consistent in your formatting throug
 > For this repository of notes, we will be following the convention of writing filenames in code blocks.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702108324016
 
 
 ---

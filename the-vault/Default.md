@@ -1,6 +1,6 @@
 ---
 created: 2023-10-01 16:14
-updated: 2023-11-18T02:44
+updated: 2023-12-08T23:47
 cards-deck: Default
 ---
 
@@ -78,3 +78,6 @@ What is the most holy god
 ⌂
 <br>﹈<br>^1699173506002
 
+#🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/javascript
+
+#javascript #🍑-booty #🔴-academic📚-educational-resourcedisciplinecomputer-scienceprogramming-languagejavascript

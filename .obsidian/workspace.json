@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b0f41cdfacdd8b2a",
+            "id": "284f3933d57f6357",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
-                "mode": "preview",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md"
               }
             }
           }
@@ -194,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5
+    "width": 387.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,10 +223,14 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "b0f41cdfacdd8b2a",
+  "active": "284f3933d57f6357",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/0. Introduction ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
+    "the-vault/Default.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/015. array and string quiz 📝.md",
@@ -244,13 +249,9 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/157. Read N Characters Given Read4.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/136. Single Number.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Primer on Python Decorators.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Untitled/Untitled ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Untitled",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Click and Build꞉ Build Extensible and Composable CLI Apps.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel",
