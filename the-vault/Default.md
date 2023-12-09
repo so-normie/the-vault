@@ -1,7 +1,10 @@
 ---
 created: 2023-10-01 16:14
-updated: 2023-12-08T23:47
+updated: 2023-12-09T01:02
 cards-deck: Default
+tags:
+  - 🍑-booty
+  - javascript
 ---
 
 # Red
@@ -80,4 +83,4 @@ What is the most holy god
 
 #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/javascript
 
-#javascript #🍑-booty #🔴-academic📚-educational-resourcedisciplinecomputer-scienceprogramming-languagejavascript
+#javascript #🍑-booty

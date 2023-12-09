@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d4e1352aaf3e81fe",
+        "id": "ce8abd07089ad44a",
         "type": "tabs",
         "children": [
           {
-            "id": "284f3933d57f6357",
+            "id": "74d4ef8dec1cc3ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
-                "mode": "source",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/066. closest carrot 👨🏽‍💻.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:🔴-academic/📚-educational-resource/name/structy/🔖/0-introduction/002-hey-programmer-🧑🏽‍💻",
+                "query": "tag:#🔴-academic/📚-educational-resource/name/structy/🔖/0-introduction/000-course-introductio",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 490.5,
-    "collapsed": true
+    "width": 490.5
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -103,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/066. closest carrot 👨🏽‍💻.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/066. closest carrot 👨🏽‍💻.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,16 +184,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/066. closest carrot 👨🏽‍💻.md"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 387.5,
+    "width": 390.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -223,13 +222,14 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "284f3933d57f6357",
+  "active": "74d4ef8dec1cc3ea",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction.md",
+    "the-vault/Default.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/0. Introduction ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
-    "the-vault/Default.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/sortspec.md",
@@ -250,7 +250,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/136. Single Number.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Primer on Python Decorators.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Untitled/Untitled ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Untitled",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord",

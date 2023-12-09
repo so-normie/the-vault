@@ -211,11 +211,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 2꞉ Containerize an application.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Docker Overview.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/003. max-value 🧑🏽‍💻.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/004. is prime 👨🏽‍💻.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Rust": "SiRust",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Discrete Mathematics and Its Applications, 8th Edition": "FasBook",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Discrete Mathematical Structures, 6th Edition": "FasBook",
@@ -327,5 +322,10 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/C++ reference/Concurrency support library.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/AWS Educate/Misc. Notes.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/169. Majority Element.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Primer on Python Decorators.md": "TiNotes"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Primer on Python Decorators.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/001. code workspace tour.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/003. max-value.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/004. is prime.md": "TiNotes"
 }

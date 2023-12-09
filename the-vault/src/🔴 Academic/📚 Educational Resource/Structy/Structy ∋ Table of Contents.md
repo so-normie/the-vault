@@ -1,7 +1,7 @@
 ---
 title: Structy ∋ Table of Contents
 created: 2023-09-03 08:46
-updated: 2023-12-04T09:06
+updated: 2023-12-09T01:06
 authors:
   - Edmund Leibert III
 tags:
@@ -61,10 +61,10 @@ Structy is a guided course that builds your algorithm knowledge efficiently. [@z
 	- [Structy ∋ Table of Contents](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/Structy/Structy%20∋%20Table%20of%20Contents.md)
 	- **0. Introduction**
 		- [0. Introduction ∋ Table of Contents](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/Structy/0.%20Introduction/0.%20Introduction%20∋%20Table%20of%20Contents.md)
-		- [001. code workspace tour 👨🏻‍🏫](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/Structy/0.%20Introduction/001.%20code%20workspace%20tour%20👨🏻‍🏫.md)
-		- [002. hey programmer 🧑🏽‍💻](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/Structy/0.%20Introduction/002.%20hey%20programmer%20🧑🏽‍💻.md)
-		- [003. max-value 🧑🏽‍💻](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/Structy/0.%20Introduction/003.%20max-value%20🧑🏽‍💻.md)
-		- [004. is prime 👨🏽‍💻](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/Structy/0.%20Introduction/004.%20is%20prime%20👨🏽‍💻.md)
+		- [001. code workspace tour](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/Structy/0.%20Introduction/001.%20code%20workspace%20tour.md)
+		- [002. hey programmer](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/Structy/0.%20Introduction/002.%20hey%20programmer.md)
+		- [003. max-value](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/Structy/0.%20Introduction/003.%20max-value.md)
+		- [004. is prime](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/Structy/0.%20Introduction/004.%20is%20prime.md)
 	- **1. Array and String**
 	- **2. Array and String**
 	- **3. Binary Tree**

@@ -4,14 +4,14 @@
   "nativeMenus": true,
   "translucency": true,
   "enabledCssSnippets": [
-    "spoiler",
-    "source-mode",
-    "realistic-highlight",
-    "keyboard-button",
-    "header-font-size",
+    "bibliography-list",
     "code",
+    "header-font-size",
     "icons",
-    "bibliography-list"
+    "keyboard-button",
+    "realistic-highlight",
+    "source-mode",
+    "spoiler"
   ],
   "monospaceFontFamily": "CaskaydiaCove Nerd Font",
   "textFontFamily": "Atkinson Hyperlegible",
