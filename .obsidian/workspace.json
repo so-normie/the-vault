@@ -190,12 +190,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 387.5,
-    "collapsed": true
+    "width": 387.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,10 +216,10 @@
       "publish:Publish changes...": true,
       "chronology:Open Chronology": false,
       "custom-sort:Toggle custom sorting": false,
-      "obsidian-trash-explorer:Open trash explorer": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "notion-like-tables:Create loom": false,
-      "reference-map:Reference Map": false
+      "reference-map:Reference Map": false,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
   "active": "2d8136f999122c80",
