@@ -191,9 +191,19 @@
               "type": "ReferenceListView",
               "state": {}
             }
+          },
+          {
+            "id": "3e2a3d04afc5aada",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md"
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -222,8 +232,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "notion-like-tables:Create loom": false,
       "custom-sort:Toggle custom sorting": false,
-      "reference-map:Reference Map": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "reference-map:Reference Map": false
     }
   },
   "active": "acf531cffe0da331",
