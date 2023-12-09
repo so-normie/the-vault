@@ -45,5 +45,6 @@
   "cloze",
   "obsidian-pandoc-reference-list",
   "obsidian-admonition",
-  "obsidian-linter"
+  "obsidian-linter",
+  "colored-tags-wrangler"
 ]
