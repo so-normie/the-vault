@@ -1,6 +1,6 @@
 ---
 created: 2023-10-01 16:14
-updated: 2023-12-09T19:28
+updated: 2023-12-09T20:22
 cards-deck: Default
 tags:
   - 🍑-booty
@@ -85,4 +85,8 @@ What is the most holy god
 
 #javascript #🍑-booty
 
-What is your favorite {color}?
+What is your favorite {1:color}?
+
+Hello! A [hotdog] is my favorite food.
+
+Hello! A [French fry with ranch dressing] is my favorite snack.
