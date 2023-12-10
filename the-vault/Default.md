@@ -1,6 +1,6 @@
 ---
 created: 2023-10-01 16:14
-updated: 2023-12-09T01:02
+updated: 2023-12-09T19:28
 cards-deck: Default
 tags:
   - 🍑-booty
@@ -84,3 +84,5 @@ What is the most holy god
 #🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/javascript
 
 #javascript #🍑-booty
+
+What is your favorite {color}?
