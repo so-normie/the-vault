@@ -23,7 +23,6 @@
   "templater-obsidian",
   "obsidian-underline",
   "OA-file-hider",
-  "colored-tags",
   "math-booster",
   "obsidian-tikzjax",
   "flashcards-obsidian",
@@ -45,5 +44,7 @@
   "obsidian-citation-plugin",
   "cloze",
   "obsidian-pandoc-reference-list",
-  "obsidian-admonition"
+  "obsidian-admonition",
+  "colored-tags-wrangler",
+  "obsidian-linter"
 ]

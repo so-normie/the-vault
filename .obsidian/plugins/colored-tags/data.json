@@ -1,8 +1,8 @@
 {
   "chroma": 16,
   "lightness": 87,
-  "palette": 16,
-  "seed": 0,
+  "palette": 12,
+  "seed": 8,
   "knownTags": {
     "card": 1,
     "excalidraw": 2,
@@ -575,7 +575,18 @@
     "🔴-academic/📚-educational-resource/name/real-python/🏷️/all-skill-levels": 4,
     "🔴-academic/📚-educational-resource/name/real-python/🏷️/all-skill-levels/intermediate": 1,
     "🔴-academic/📚-educational-resource/name/real-python/🏷️/all-resources": 5,
-    "🔴-academic/📚-educational-resource/name/real-python/🏷️/all-resources/article": 1
+    "🔴-academic/📚-educational-resource/name/real-python/🏷️/all-resources/article": 1,
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖/problems/1-two-sum": 43,
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖/problems/119-pascals-triangle-ii": 44,
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖/problems/136-single-number": 45,
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖/problems/141-linked-list-cycle": 46,
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖/problems/144-binary-tree-preorder-traversal": 47,
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖/problems/2917-find-the-k-or-of-an-array": 48,
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖/problems/603-consecutive-available-seats": 49,
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖/problems/613-shortest-distance-in-a-line": 50,
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖/problems/160-intersection-of-two-linked-lists": 51,
+    "🔴-academic/📚-educational-resource/name/leetcode/problems/278-first-bad-version": 4,
+    "🔴-academic/📚-educational-resource/name/leetcode/🔖/problems/278-first-bad-version": 52
   },
   "_version": 2
 }
