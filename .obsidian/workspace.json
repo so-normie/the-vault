@@ -193,8 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 390.5,
-    "collapsed": true
+    "width": 390.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,8 +218,7 @@
       "custom-sort:Toggle custom sorting": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "notion-like-tables:Create loom": false,
-      "reference-map:Reference Map": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "reference-map:Reference Map": false
     }
   },
   "active": "2db8ff6c06efcacd",
