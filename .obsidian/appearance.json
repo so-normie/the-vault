@@ -3,16 +3,7 @@
   "theme": "obsidian",
   "nativeMenus": true,
   "translucency": true,
-  "enabledCssSnippets": [
-    "bibliography-list",
-    "code",
-    "header-font-size",
-    "icons",
-    "keyboard-button",
-    "realistic-highlight",
-    "source-mode",
-    "spoiler"
-  ],
+  "enabledCssSnippets": [],
   "monospaceFontFamily": "CaskaydiaCove Nerd Font",
   "textFontFamily": "Atkinson Hyperlegible",
   "cssTheme": "Minimal",
