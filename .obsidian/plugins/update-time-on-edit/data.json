@@ -422,7 +422,7 @@
     "the-vault/src/🔴 Academic/Projects/Project “BetterWinget”.md": "2d3eaaef97be5a72a71d5c2c795cfde21a52613338e7df68e36f2c2cdd5e05b9",
     "the-vault/src/🔴 Academic/Projects/Project “Colortype”.md": "9460a23b704923d724504df4af75dc6f06aec852a913cf03af9726ef540d3097",
     "the-vault/src/🔴 Academic/Projects/Project “MeDev”.md": "f1c2312010cedbe88db1bbbf9004930fb5af37d9a86ca2b89c0bac5574d2206e",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md": "e20ed261225601caa7e3055d59f50672001732773adb254b8817edcdcf872bfb",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md": "84408fa5853b1bbad6d8f8d3f0e11ebfd3cdc074871d8abc5374aa9210d869d7",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Advanced SQL/Advanced SQL — Chapter #05 — Video #29 — Window functions, frame specifications (ROWS∕RANGE∕GROUPS).md": "1b9f3d75fda0802b9d601bb68449e477ebc5752f687a456abf82400afee2c859",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Amazon Redshift - Fundamentals/1. Introduction.md": "be181d8287c33cf8ec8e41d3f414a091b450ff357f6f2d6a33cdaef97de99222",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Amazon Redshift - Fundamentals/2. Storage.md": "d97395b3491b014a6dc482c423d7ad51001802bde75d28b87a5f5349c2b33e3a",
@@ -630,7 +630,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Docker/🗒️ Docker ∋ Table of Contents.md": "ab920fdd5ab8bdc39422a9f9a06da828fb46f33e2f6fad6ce3fff067b50c72b2",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESBuild/🗒️ ESBuild ∋ Table of Contents.md": "de011ce8746ecdad308e5a139023435a9e14a943fdef7b4b1742bb089798acec",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint/🗒️ ESLint ∋ Table of Contents.md": "b5672778a8fab029d7a64df15d45c2df4e570ba9f54f80d6232b594843d16166",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md": "a6bd4584845df76ea64ec714c96f394e1fd061dd1b7d8e37fb1be838e1bcbf89",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md": "c897a6f3de07462867de773d92ed003dc2d639873fdad5cfeed40226df9afc48",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub/🗒️ GitHub ∋ Table of Contents.md": "ae5d65143e18b7f4ed2206f222265077bcd6a86bbd288a20f81080547de15cf3",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/🗒️ GitHub CLI ∋ Table of Contents.md": "ff57be14a8400e6b8bf5c860dacb54ebb19bac8401ffc548708d7ec5e5aa882c",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Google Apps Scripts/🗒️ Google Apps Scripts ∋ Table of Contents.md": "9f5e0bb8b1aebebe9eac1424dd2fd2027ec285ee07c4f628fcb1d7baf9d3217d",
@@ -931,6 +931,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/007. compress.md": "3916b844797a7b10db6b062ba68ff3159086ac906978b13b2b27a3d0c25e4dca",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/006. uncompress.md": "b4e863f6b3d0b90418807d587778c6ef9afa9b024177063890f583015789a16d",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/005. array and string welcome.md": "e24356b86e5720ed37ffffbcdcfbac0ca738904ed5b7313894f8450a0d68582c",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/sortspec.md": "259ac27228ddaae0e1a1fa51751ecc39cb970ab54cf46ec34b140bf83d07c110"
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/sortspec.md": "259ac27228ddaae0e1a1fa51751ecc39cb970ab54cf46ec34b140bf83d07c110",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/sortspec.md": "e5f586640ae59fd4a266c07bcf7f8629e2fe1f9d3f85d2045f47aa30aff96373"
   }
 }

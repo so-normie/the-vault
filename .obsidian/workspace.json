@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ce8abd07089ad44a",
+        "id": "bca46f31df617450",
         "type": "tabs",
         "children": [
           {
-            "id": "2db8ff6c06efcacd",
+            "id": "394a83b2ca2a185e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/Default.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/Default.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/Default.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/Default.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md"
               }
             }
           }
@@ -193,7 +193,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 390.5
+    "width": 390.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,11 +219,18 @@
       "custom-sort:Toggle custom sorting": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "notion-like-tables:Create loom": false,
-      "reference-map:Reference Map": false
+      "reference-map:Reference Map": false,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "2db8ff6c06efcacd",
+  "active": "4bbd078a939f1607",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/🗒️ Git ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/sortspec.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/sortspec.md",
+    "the-vault/Default.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/141. Linked List Cycle.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/144. Binary Tree Preorder Traversal.md",
@@ -239,16 +247,10 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 2꞉ Containerize an application.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/sortspec.md",
-    "the-vault/Default.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/4. Graph/066. closest carrot 👨🏽‍💻.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/0. Introduction ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/015. array and string quiz.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/1. Array and String ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/383. Ransom Note.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Untitled",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord",

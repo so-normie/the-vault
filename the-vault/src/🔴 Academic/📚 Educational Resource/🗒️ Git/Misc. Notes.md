@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Git
 created: 2023-08-04 01:58
-updated: 2023-11-25T18:29
+updated: 2023-12-09T20:57
 authors:
   - Edmund Leibert III
 tags:
@@ -807,7 +807,27 @@ Blue or Red
 ⌂
 <br>﹈<br>^1700965662768
 
+﹇<br>
+What does `git merge --quit` do?
 
+#card 
+
+The `git merge --quit` command does not exist in Git. It's likely a typo or a misunderstanding of other Git commands used for merging or quitting a merge in progress.
+
+Here are some possibilities:
+
+1. **Meant for `git merge --abort`:** This command aborts a merge in progress and attempts to restore the state of the repository to before the merge started. This is useful if you encounter conflicts during the merge and decide to abandon it.
+
+2. **Meant for exiting a merge conflict resolution:** This depends on the specific editor used for resolving conflicts. In Vim, you can exit with an error message using `cq!`, which will also effectively abort the merge. Other editors might have different escape sequences.
+
+3. **Meant for `git checkout --quit`:** This command is used to discard any uncommitted changes in the working directory and switch back to the previously checked-out branch. However, it doesn't affect an ongoing merge process.
+
+4. **Misinterpretation of `git merge --no-commit`:** This command performs the merge but stops just before creating a merge commit. It allows you to inspect and further modify the merged changes before committing them. However, it doesn't quit the merge process entirely.
+
+If you're unsure what command to use to achieve your desired outcome, it's always best to consult the official Git documentation or seek help from a Git expert.
+
+⌂
+<br>﹈<br>
 
 
 ---
