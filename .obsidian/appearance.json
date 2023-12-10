@@ -1,9 +1,18 @@
 {
   "accentColor": "#734eca",
-  "theme": "obsidian",
+  "theme": "system",
   "nativeMenus": true,
   "translucency": true,
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "bibliography-list",
+    "code",
+    "header-font-size",
+    "icons",
+    "keyboard-button",
+    "realistic-highlight",
+    "source-mode",
+    "spoiler"
+  ],
   "monospaceFontFamily": "CaskaydiaCove Nerd Font",
   "textFontFamily": "Atkinson Hyperlegible",
   "cssTheme": "Minimal",

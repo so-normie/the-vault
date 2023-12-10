@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 408.5
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -194,7 +193,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 390.5
+    "width": 390.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,7 +219,8 @@
       "custom-sort:Toggle custom sorting": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "notion-like-tables:Create loom": false,
-      "reference-map:Reference Map": false
+      "reference-map:Reference Map": false,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
   "active": "43b186012d49c565",
