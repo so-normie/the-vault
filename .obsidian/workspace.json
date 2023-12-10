@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "74d4ef8dec1cc3ea",
+            "id": "2db8ff6c06efcacd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -75,11 +75,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 490.5
+    "width": 520.5
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -190,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -223,8 +223,9 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "74d4ef8dec1cc3ea",
+  "active": "2db8ff6c06efcacd",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/141. Linked List Cycle.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/144. Binary Tree Preorder Traversal.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/627. Swap Salary.md",
@@ -250,7 +251,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/015. array and string quiz.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/1. Array and String ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/383. Ransom Note.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/603. Consecutive Available Seats.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Untitled",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord",
