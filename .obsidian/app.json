@@ -2,7 +2,7 @@
   "showFrontmatter": true,
   "showLineNumber": true,
   "spellcheck": true,
-  "vimMode": true,
+  "vimMode": false,
   "defaultViewMode": "preview",
   "livePreview": false,
   "readableLineLength": false,

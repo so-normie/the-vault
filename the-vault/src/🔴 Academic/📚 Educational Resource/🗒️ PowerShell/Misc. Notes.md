@@ -1,13 +1,13 @@
 ---
 title: Misc. Notes
 created: 2023-08-04 01:58
-updated: 2023-12-03T01:48
+updated: 2023-12-07T21:34
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academics/📚-educational-resources/name/powershell/🔖/misc-notes
-  - 🔴-academics/📚-educational-resource/format/website
-  - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/powershell
+  - 🔴-academic/📚-educational-resource/name/powershell/🔖/misc-notes
+  - 🔴-academic/📚-educational-resource/format/website
+  - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/powershell
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ PowerShell::Misc. Notes
 ---

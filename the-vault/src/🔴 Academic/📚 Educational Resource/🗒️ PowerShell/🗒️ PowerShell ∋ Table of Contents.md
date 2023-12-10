@@ -1,13 +1,13 @@
 ---
 title: 🗒️ PowerShell ∋ Table of Contents
 created: 2023-08-04 01:58
-updated: 2023-12-02T23:55
+updated: 2023-12-07T21:34
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academics/📚-educational-resources/name/powershell/🔖/powershell-∋-table-of-contents
-  - 🔴-academics/📚-educational-resource/format/website
-  - 🔴-academics/📚-educational-resources/discipline/computer-science/programming-language/powershell
+  - 🔴-academic/📚-educational-resource/name/powershell/🔖/powershell-∋-table-of-contents
+  - 🔴-academic/📚-educational-resource/format/website
+  - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/powershell
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ PowerShell::🗒️ PowerShell ∋ Table of Contents
 ---
