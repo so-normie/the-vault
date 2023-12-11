@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "dbecf1f8cb9af2ce",
+        "id": "ddace38881b85fa2",
         "type": "tabs",
         "children": [
           {
-            "id": "2cca559015faac77",
+            "id": "14a80dfda4497c08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e565e2bd8a29815f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -78,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 408.5
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -103,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/Misc. Notes.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md"
               }
             }
           }
@@ -194,7 +206,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 390.5
+    "width": 390.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,8 +236,19 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "2cca559015faac77",
+  "active": "14a80dfda4497c08",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/🗒️ C++ ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Real Python ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/003. max-value.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/001. code workspace tour.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/🗒️ PowerShell ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ PowerShell/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md",
@@ -236,21 +260,10 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/141. Linked List Cycle.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/144. Binary Tree Preorder Traversal.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/627. Swap Salary.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/003. max-value.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/008. anagrams.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/007. compress.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/006. uncompress.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/005. array and string welcome.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/004. is prime.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/001. code workspace tour.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 4꞉ Share the application.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 2꞉ Containerize an application.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Untitled",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord",

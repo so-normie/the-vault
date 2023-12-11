@@ -96,10 +96,11 @@
         "order": 14
       },
       {
-        "rule": "∋ Table of Contents",
+        "rule": ".* ∋ Table of Contents",
         "icon": "FasListOl",
         "for": "files",
-        "order": 15
+        "order": 15,
+        "useFilePath": true
       },
       {
         "rule": ".*",
@@ -339,5 +340,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/013. intersection.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/014. five sort.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/015. array and string quiz.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/016. array and string wrap up.md": "TiNotes"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/016. array and string wrap up.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md": "TiNotes"
 }

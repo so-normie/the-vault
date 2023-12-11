@@ -1,7 +1,7 @@
 ---
 title: Docker Docs ∋ Table of Contents
 created: 2023-10-31T16:39
-updated: 2023-11-22T15:06
+updated: 2023-12-10T21:35
 authors:
   - Edmund Leibert III
 tags:

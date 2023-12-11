@@ -459,7 +459,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/CMake Reference Documentation/Reference Manuals.md": "564a308abd1efcc9d02a51ba8fa241edd9b23a488a358d5c6083491488f52faf",
     "the-vault/src/🔴 Academic/📚 Educational Resource/CMake Reference Documentation/Release Notes.md": "50fec301a70e18aba6a77c788b32da598923a631c1cc2fba898db28dae535d45",
     "the-vault/src/🔴 Academic/📚 Educational Resource/CMake Reference Documentation/sortspec.md.md": "c67a0695e4634225e6f0c70aec7c9058ecf828f6ddf7b40a81ab794b5d060d3d",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md": "909ed38233527ec14722a4be3bae045f7942b31ded8d8bc93a3930b7bf0b5043",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Docker Docs ∋ Table of Contents.md": "120d9d4ff3f96a4033e95d7daf0fbe1c9c47f4f07c5e8afc93d747df56153d73",
     "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs/CICD and DevOps.md": "bcbe3891c98cca4a5631ec95517c7aeb328b4fdee1aafbb2609b600cecb73cea",
     "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs/Get started.md": "2d22daabf8f9c6a728ea13a52ab9ff203abd9cd3d18efe339a024055fc389ede",
     "the-vault/src/🔴 Academic/📚 Educational Resource/GitHub Docs/Table of Contents.md": "27b1c74ca057bc9b7b35ffbfc204e1071be0b2b47048300c9f562e34f9af880c",
@@ -617,7 +617,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Use the Index, Luke!/1. Chapter.md": "8979202cfcaf34c1580aae9601d52c6b5898a835de4ef6833dc36316e3272f94",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🏗️ Data Garage/Data Garage꞉ Project 1 1.md": "771494aa0079748cf9343faae8ebe2217508c41a6b9c739bfe60457b8b117c57",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🏗️ Data Garage/Data Garage꞉ Project 1.md": "d1d4464a2bd0baa460f50b4721b62581c82c30db48c03bedb3b114e14a49300d",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md": "334b4fcb8c269536194c8502938aa8eea347e901a3ac8d5f794211dff34cca3b",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md": "e88854ffbbdf8a97d3afc9c51cd7db29959aee37becc208f04121441a642ac7a",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Angular/🗒️ Angular ∋ Table of Contents.md": "8b8f5792c9da3cc9b8ad3f26b64df53aad4ac0de4309df446f3730e031b90797",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Anaconda/🗒️ Anaconda ∋ Table of Contents.md": "143b045e94fe855191eef6c1a9cd2147aa6d15a930d1a5b9c693471495da2c79",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bash/Misc. Notes.md": "cd86e5b8b1cf934bf1c097f7ae2161409540e8d91feb812a188b3fbf22880abd",
@@ -932,6 +932,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/006. uncompress.md": "b4e863f6b3d0b90418807d587778c6ef9afa9b024177063890f583015789a16d",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/005. array and string welcome.md": "e24356b86e5720ed37ffffbcdcfbac0ca738904ed5b7313894f8450a0d68582c",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/sortspec.md": "259ac27228ddaae0e1a1fa51751ecc39cb970ab54cf46ec34b140bf83d07c110",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/sortspec.md": "e5f586640ae59fd4a266c07bcf7f8629e2fe1f9d3f85d2045f47aa30aff96373"
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/sortspec.md": "e5f586640ae59fd4a266c07bcf7f8629e2fe1f9d3f85d2045f47aa30aff96373",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md": "d466bb0ab29a372f4a22f64f026103feb278454427cc6a4cba53af2d74a25a68"
   }
 }

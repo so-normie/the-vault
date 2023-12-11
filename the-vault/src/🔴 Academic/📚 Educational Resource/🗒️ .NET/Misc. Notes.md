@@ -1,71 +1,158 @@
 ---
+title: Misc. Notes
+created: 2023-09-03 08:46
+updated: 2023-12-10T22:17
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/discipline/computer-science/framework/.net
+  - 🔴-academic/📚-educational-resource/name/🗒️-net/🔖/misc-notes
+  - 🔴-academic/📚-educational-resource/discipline/computer-science/framework/net
   - 🔴-academic/📚-educational-resource/name/net
   - study-note
-cards-deck: Default::Computer Science
-created: 2023-09-03 08:46
-updated: 2023-11-18T02:44
+cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ .NET::Misc. Notes
 ---
 
-Using the [DocTo](https://github.com/tobya/DocTo) library, how can I export a .docx to a .pdf in the command line? #card 
+# Misc. Notes
+
+---
+
+> [!ABSTRACT]+ 
+> Miscellaneous scratch notes pertaining to [.NET](https://dotnet.microsoft.com/en-us/). [@NETBuildTest]
+> 
+> These notes are primarily structured in a Q&A format, making it easy to follow and learn. Corresponding Anki flashcards are available, enabling efficient revision and reinforcement of the concepts.
+
+---
+
+> [!INFO]+ 
+> **Previous Note(s):**
+> 
+
+---
+
+﹇<br>
+Using the [DocTo](https://github.com/tobya/DocTo) library, how can I export a .docx to a .pdf in the command line?
+
+#card 
+
 ```pwsh
- docto -f C:\Directory\MyFile.doc -O "C:\Output Directory\MyTextFile.pdf" -T wdFormatPDF
+docto -f C:\Directory\MyFile.doc -O "C:\Output Directory\MyTextFile.pdf" -T wdFormatPDF
 ```
-^1683793255524
 
-What does JSON stand for? #card 
+⌂
+<br>﹈<br>
+
+﹇<br>
+What does JSON stand for?
+
+#card 
+
 **J**ava**S**cript **O**bject **N**otation
-^1683793255529
 
-What namespace in .NET provides functionality for serializing to and deserializing form JavaScript Object Notation (JSON)? #card 
+⌂
+<br>﹈<br>
+
+﹇<br>
+What namespace in .NET provides functionality for serializing to and deserializing form JavaScript Object Notation (JSON)?
+
+#card 
+
 The `System.Text.JSON` namespace.
-^1683793255534
 
-Does the serialized form include any information about an object’s associated methods? #card 
+⌂
+<br>﹈<br>
+
+﹇<br>
+Does the serialized form include any information about an object’s associated methods?
+
+#card 
+
 No.
-^1683793255537
 
-What is the definition of *serialization*? #card 
+⌂
+<br>﹈<br>
+
+﹇<br>
+What is the definition of *serialization*?
+
+#card-reverse 
+
 The process of converting the state of an object, that is the values of its properties, into a form that can be stored or transmitted.
-^1683793255542
 
-What is the definition of *deserialization*? #card 
+⌂
+<br>﹈<br>
+
+﹇<br>
+What is the definition of *deserialization*?
+
+#card-reverse 
+
 Reconstructs an object from the deserialized form.
-^1683793255546
 
-What is the most prevalent encoding for data on the web and files on the disk? #card 
+⌂
+<br>﹈<br>
+
+﹇<br>
+As of 2023, what is the most prevalent encoding for data on the web and files on the disk?
+
+#card 
+
 UTF-8.
-^1683793255551
 
-Does UTF-8 support emojis? #card 
+⌂
+<br>﹈<br>
+
+﹇<br>
+Does UTF-8 support emojis?
+
+#card 
+
 Yes. Emojis are also characters from the UTF-8 alphabet: 😄 is 128516.
-^1683793255556
 
-What is the difference between **.NET Core**, **.NET Framework**, and **.NET**? #card 
-- **.NET Core**, **.NET Framework**, and **.NET** are runtimes for building applications with **.NET**, sharing many of the same APIs called the .NET Standard[1](https://stackify.com/net-core-vs-net-framework/).
+⌂
+<br>﹈<br>
+
+﹇<br>
+What is the difference between **.NET Core**, **.NET Framework**, and **.NET**?
+
+#card 
+
+As of 2023, **.NET Core**, **.NET Framework**, and **.NET** are runtimes for building applications with **.NET**, sharing many of the same APIs called the .NET Standard[1](https://stackify.com/net-core-vs-net-framework/).
 	- **.NET Framework** is used for Windows desktop and server-based applications, including ASP.NET web applications[1](https://stackify.com/net-core-vs-net-framework/).
 	- **.NET Core** is used for server applications that run on Windows, Linux, and Mac, and supports the implementation of micro-services[1](https://stackify.com/net-core-vs-net-framework/).
 		- **.NET Core** is more effective, fast, secure, flexible, and scalable than **.NET Framework**, and offers cross-platform performance and cloud deployment[1](https://stackify.com/net-core-vs-net-framework/).
 		- **.NET Core** is open source and free to use[1](https://stackify.com/net-core-vs-net-framework/).
 		- **.NET** is simply the new name for **.NET Core** (the “Core” part of the name was dropped for .NET Core v5.0)
-^1683793255560
 
+⌂
+<br>﹈<br>
 
-What is IIS? #card 
+﹇<br>
+What is IIS?
+
+#card 
+
 IIS stands for Internet Information Services.
 - It is an extensible web server created by Microsoft for use with the Windows NT family.
 - IIS supports HTTP, HTTP/2, HTTPS, FTP, FTPS, SMTP and NNTP.
-^1684962933123
 
-What are HTTP, HTTP/2, HTTPS, FTP, FTPS, SMTP and NNTP? #card 
-These are all network protocols. They are sed to transfer information over a computer network and are a integral part of today’s internet.
-^1684962933132
+⌂
+<br>﹈<br>
 
+﹇<br>
+What are HTTP, HTTP/2, HTTPS, FTP, FTPS, SMTP and NNTP?
+
+#card 
+
+These are all network protocols. They are designed to send/transfer information over a computer network and are a integral part of today’s internet.
+
+⌂
+<br>﹈<br>
+
+
+﹇<br>
 In the below code, why must the function `Main` have the `async Task<int>` attribute prepended to it? 
-```cpp
+
+```csharp
 internal abstract class MerriamWebsterAnkiFlashcardsGenerator
 {
     private static HttpClient sharedClient = new()
@@ -84,105 +171,202 @@ internal abstract class MerriamWebsterAnkiFlashcardsGenerator
     }
 }
 ```
+
 #card 
+
 Asynchronous methods in C# typically return a `Task` or `Task<T>`, and they should be awaited with the `await` keyword.
+
 When you use the `await` keyword on a Task, the method in which the `await` keyword is used must be marked as `async`. This is the signal to the compiler that the method contains an awaited asynchronous operation.
+
 The `Main` method in this case returns a `Task<int>` because it's an async method and has a return type of `int`. If it didn't return a value, it would return `Task`.
-^1684962933140
 
-**Question**: What does `Task<int>` signify in the context of an `async` method like `Main` in a C# program? #card 
-**Answer**: `Task<int>` is the return type of an asynchronous method that returns an integer. The `Task` represents an ongoing work that will eventually complete and produce a result of the type specified, in this case, an `int`. The `async` keyword allows the `await` keyword to be used in the method, which means the method will be executed asynchronously. The `Main` method returns `Task<int>` to indicate that it's an asynchronous method that will eventually produce an integer result (usually a status code).
-^1684966670448
+⌂
+<br>﹈<br>
 
-**Question**: Why is the `Main` function in C# programs marked with `async` when using `HttpClient.GetAsync`? #card 
-**Answer**: The `Main` function is marked with `async` because `HttpClient.GetAsync` is an asynchronous method, and any method that uses the `await` keyword must be marked as `async`. This lets the compiler know that the method contains an awaited asynchronous operation.
-^1684966693232
+﹇<br>
+What does `Task<int>` signify in the context of an `async` method like `Main` in a C# program?
 
+#card 
 
-**Question**: What does `ReadAsStringAsync` do in the context of an `HttpResponseMessage`? #card 
-**Answer**: The `ReadAsStringAsync` method is used to asynchronously read the content from the HTTP response as a string. It reads the byte stream from the HTTP response and converts it into a string using the encoding specified in the HTTP response.
-^1684966670452
+`Task<int>` is the return type of an asynchronous method that returns an integer. The `Task` represents an ongoing work that will eventually complete and produce a result of the type specified, in this case, an `int`. 
 
-**Question**: What are the benefits of reading the content of an HTTP response asynchronously? #card 
-**Answer**: Reading the content asynchronously allows the application to do other work while waiting for the IO operation to complete. It makes the application more efficient and responsive, especially for IO-bound operations.
-^1684966693237
+The `async` keyword allows the `await` keyword to be used in the method, which means the method will be executed asynchronously. The `Main` method returns `Task<int>` to indicate that it's an asynchronous method that will eventually produce an integer result (usually a status code).
 
+⌂
+<br>﹈<br>
 
-**Question**: What is the difference between thread-based operations and IO Completion Port (IOCP)-based operations? #card 
-**Answer**: Thread-based operations dedicate a thread for each IO operation, blocking it until the operation completes. This can be inefficient and resource-intensive. IOCP-based operations, on the other hand, use a pool of threads to handle multiple concurrent IO operations, increasing efficiency and performance.
-^1684966680738
+﹇<br>
+Why is the `Main` function in C# programs marked with `async` when using `HttpClient.GetAsync`?
 
-**Question**: How does .NET implement IOCP-based operations? #card 
-**Answer**: While developers don't directly create and manage IOCPs in C#, the .NET Framework's implementation of async/await and Task uses IOCP under the hood on Windows. When these features are used, they automatically leverage IOCP-based operations.
-^1684966670456
+#card 
 
-In .NET how do you ensure the success of a response? #card 
+ The `Main` function is marked with `async` because `HttpClient.GetAsync` is an asynchronous method, and any method that uses the `await` keyword must be marked as `async`. This lets the compiler know that the method contains an awaited asynchronous operation.
+
+⌂
+<br>﹈<br>
+
+﹇<br>
+What does `ReadAsStringAsync` do in the context of an `HttpResponseMessage`?
+
+#card 
+
+The `ReadAsStringAsync` method is used to asynchronously read the content from the HTTP response as a string. It reads the byte stream from the HTTP response and converts it into a string using the encoding specified in the HTTP response.
+
+⌂
+<br>﹈<br>
+
+﹇<br>
+What are the benefits of reading the content of an HTTP response asynchronously?
+
+#card 
+
+Reading the content asynchronously allows the application to do other work while waiting for the IO operation to complete. It makes the application more efficient and responsive, especially for IO-bound operations.
+
+⌂
+<br>﹈<br>
+
+﹇<br>
+What is the difference between thread-based operations and IO Completion Port (IOCP)-based operations?
+
+#card 
+
+Thread-based operations dedicate a thread for each IO operation, blocking it until the operation completes. This can be inefficient and resource-intensive. 
+
+IOCP-based operations, on the other hand, use a pool of threads to handle multiple concurrent IO operations, increasing efficiency and performance.
+
+⌂
+<br>﹈<br>
+
+﹇<br>
+How does .NET implement IOCP-based operations?
+
+#card 
+
+While developers don't directly create and manage IOCPs in C#, the .NET Framework's implementation of async/await and Task uses IOCP under the hood on Windows. When these features are used, they automatically leverage IOCP-based operations.
+
+⌂
+<br>﹈<br>
+
+﹇<br>
+In .NET how do you ensure the success of a response?
+
+#card 
+
 Use the method `EnsureSuccessStatusCode()`. For example…
+
 ```csharp
 using HttpResponseMessage response = await sharedClient.GetAsync("");
 response.EnsureSuccessStatusCode();
 ```
-^1684967287753
 
+⌂
+<br>﹈<br>
 
-  
-In C#, the {`internal`} keyword is an access modifier that makes a member (like a method, property, or class) accessible only within its own assembly. An assembly in .NET is a unit of deployment like a .dll or .exe file.
-^1684967287761
+In C#, the {`internal`} keyword is an access modifier that makes a member (like a method, property, or class) accessible only within its own assembly. An assembly in .NET is a unit of deployment like a `.dll` or `.exe` file.
 
 If you wanted to allow any code in any assembly to access a specific method, you would make it {`public`} instead. If you wanted to restrict access to only the containing class, you would use {`private`}. If you wanted to allow access from the containing class and any derived classes, you would use {`protected`}.
 ^1684967287766
 
-What is the default access modifier in C#? #card 
-`internal`
-^1684967798367
+﹇<br>
+What is the default access modifier in C#?
 
-What is the importance of `this` in the method argument of the below code? #card 
+#card 
+
+`internal`
+
+⌂
+<br>﹈<br>
+
+﹇<br>
+What is the importance of `this` in the method argument of the below code? 
+
 ```csharp
 internal static void WriteRequestToConsole(this HttpResponseMessage response)
 {
     ...
 }
 ```
+
+#card 
+
 The `this` keyword in front of `HttpResponseMessage response` indicates that `WriteRequestToConsole` is an extension method that can be called on instances of `HttpResponseMessage`. So, instead of calling the method like this:
+
 ```csharp
 HttpResponseMessageExtensions.WriteRequestToConsole(response);
 ```
+
 You can call it directly on an instance of `HttpResponseMessage`, like this:
+
 ```csharp
 response.WriteRequestToConsole();
 ```
+
 The latter is more intuitive and allows for more fluent and readable code, which is one of the main advantages of extension methods.
-^1684968163356
 
+⌂
+<br>﹈<br>
 
-**Question**: What is the purpose of the `this` keyword in the argument list of a method in C#? #card 
-**Answer**: The `this` keyword in the argument list of a method is used to create an extension method in C#. An extension method is a static method that can be called as if it were an instance method of the extended type. The `this` keyword in front of the first parameter specifies the type the method will operate on. For example, in `WriteRequestToConsole(this HttpResponseMessage response)`, `this` indicates that `WriteRequestToConsole` is an extension method that can be called on instances of `HttpResponseMessage`.
-^1684968163362
+﹇<br>
+What is the purpose of the `this` keyword in the argument list of a method in C#?
 
-How would you write an extension method for the class `HttpResponseMessage`? #card 
+#card 
+
+The `this` keyword in the argument list of a method is used to create an extension method in C#. An extension method is a static method that can be called as if it were an instance method of the extended type. The `this` keyword in front of the first parameter specifies the type the method will operate on. For example, in `WriteRequestToConsole(this HttpResponseMessage response)`, `this` indicates that `WriteRequestToConsole` is an extension method that can be called on instances of `HttpResponseMessage`.
+
+⌂
+<br>﹈<br>
+
+﹇<br>
+How would you write an extension method for the class `HttpResponseMessage`?
+
+#card 
+
 ```c#
 ExtensionMethod(this HttpResponseMessage response)
 ```
-^1684972102876
 
+⌂
+<br>﹈<br>
+
+﹇<br>
 In C#, how would you create a global variable for the entire executable and that would be called rom other classes too?
+
 #card 
-- In C#, you typically don't create global variables as you might in other programming languages. Instead, you would usually create a public static property in a static class. This property can then be accessed from any other class in your application.
-- Here is an example:
+
+In C#, you typically don't create global variables as you might in other programming languages. Instead, you would usually create a public static property in a static class. This property can then be accessed from any other class in your application.
+
+Here is an example:
+
 ```csharp
 public static class GlobalVariables
 {
     public static string GlobalString { get; set; }
 }
 ```
+
 You can then access this property from any other class in your application, like this:
+
 ```csharp
 GlobalVariables.GlobalString = "Hello, World!";
 // Getting the value
 string myString = GlobalVariables.GlobalString;
 ```
+
 This will effectively give you a "global" variable, in the sense that it's accessible from any part of your application. However, be aware that using such globally accessible data can lead to problems if not managed carefully, such as making the code harder to understand and maintain, and potentially causing issues with concurrency in multi-threaded applications. It's often better to pass data explicitly through method parameters and return values, or use dependency injection to provide dependencies to classes that need them.
-^1685640058564
+
+⌂
+<br>﹈<br>
+
+﹇<br>
+Factoring in that, in .NET, it is considered better to pass data explicitly through method parameter and return values, or use dependency injection to provide dependencies to classes that need them, how should we handle a `HttpClient` instance?
+
+#card 
+
+Generally, a `HttpClient` instance is a good candidate for using a singleton or shared object in your application because of its connection pooling capabilities. In other words, reusing it for the lifetime of your application is recommended as per Microsoft’s guidelines.
+
+⌂
+<br>﹈<br>
+
 
 Factoring in that, in .NET, it is considered better to pass data explicitly through method parameter and return values, or use dependency injection to provide dependencies to classes that need them, how should we handle a `HttpClient` instance? #card 
 - Generally, a `HttpClient` instance is a good candidate for using a singleton or shared object in your application because of its connection pooling capabilities. In other words, reusing it for the lifetime of your application is recommended as per Microsoft’s guidelines
@@ -250,5 +434,15 @@ What is **cron** and what is it used for? #card
 - The `cron` command-line utility is a job scheduler on Unix-like operating systems. Users who set up and maintain software environments use cron to schedule jobs (commands or shell scripts), also known as **cron jobs**, to run periodically at fixed times, dates, or intervals.
 - It typically automates system maintenance or administration—though its general-purpose nature makes it useful for things like downloading files from the Internet and downloading email at regular intervals.
 
+---
+
+## :EiZoteroItem: Bibliography
 
 
+
+---
+
+> [!INFO]+
+> **Next Note(s):**
+
+---

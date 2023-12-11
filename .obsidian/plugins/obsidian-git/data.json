@@ -1,5 +1,5 @@
 {
-  "commitMessage": "📝 docs[Obsidian]: vault backup: {{date}}",
+  "commitMessage": "📝 docs[Obsidian]: vault backup: on {{date}} from {{hostname}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 10,
   "autoPushInterval": 5,
