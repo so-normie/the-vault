@@ -1,7 +1,7 @@
 ---
 title: Misc. Notes
 created: 2023-08-04 01:58
-updated: 2023-12-07T21:34
+updated: 2023-12-10T03:47
 authors:
   - Edmund Leibert III
 tags:
@@ -17,7 +17,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ PowerShell::Misc. 
 ---
 
 > [!ABSTRACT]+ 
-> Miscellaneous scratch notes pertaining to [PowerShell](https://github.com/PowerShell/PowerShell). [@Bazel]
+> Miscellaneous scratch notes pertaining to [PowerShell](https://github.com/PowerShell/PowerShell). [@powershellteamPowerShellPowerShellPowerShell]
 > 
 > These notes are primarily structured in a Q&A format, making it easy to follow and learn. Corresponding Anki flashcards are available, enabling efficient revision and reinforcement of the concepts.
 
@@ -860,9 +860,25 @@ This will update the `Path` environment variable in the current session without 
 ⌂
 <br>﹈<br>^1701596650200
 
+﹇<br>
+Without closing a shell session, how can I make a new one/do a hard “refresh” so that it reloads all environment variables?
+
+#card 
+
+You can’t, at least easily.
+
+If you need to refresh environment variables, you may need to restart the PowerShell session (easiest way to have your new environment variables is to simply create a new session).
+
+⌂
+<br>﹈<br>^1702208877706
+
+
 ---
 
 ## :EiZoteroItem: Bibliography
+
+\[1\]
+“PowerShell/PowerShell: PowerShell for every system!,” _GitHub_. Available: [https://github.com/PowerShell/PowerShell](https://github.com/PowerShell/PowerShell). [Accessed: Dec. 10, 2023]
 
 ---
 
