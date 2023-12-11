@@ -4,6 +4,3 @@
 [submodule ".obsidian/plugins/obsidian-cloze-plugin"]
 	path = .obsidian/plugins/obsidian-cloze-plugin
 	url = git@eleibert-github.com:edmund-leibert/obsidian-cloze-plugin.git
-[submodule ".obsidian/plugins/obsidian-colored_tags_wrangler"]
-	path = .obsidian/plugins/obsidian-colored_tags_wrangler
-	url = eleibert-github.com:edmund-leibert/obsidian-colored_tags_wrangler.git
