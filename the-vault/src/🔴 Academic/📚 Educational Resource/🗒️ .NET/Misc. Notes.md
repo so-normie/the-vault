@@ -1,13 +1,13 @@
 ---
 title: Misc. Notes
 created: 2023-09-03 08:46
-updated: 2023-12-10T22:17
+updated: 2023-12-11T05:01
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/🗒️-net/🔖/misc-notes
+  - 🔴-academic/📚-educational-resource/format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/framework/net
-  - 🔴-academic/📚-educational-resource/name/net
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ .NET::Misc. Notes
 ---
@@ -24,7 +24,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ .NET::Misc. Notes
 ---
 
 > [!INFO]+ 
-> **Previous Note(s):**
+> **Previous Note(s)**:
 > 
 
 ---
@@ -39,7 +39,7 @@ docto -f C:\Directory\MyFile.doc -O "C:\Output Directory\MyTextFile.pdf" -T wdFo
 ```
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738200
 
 ﹇<br>
 What does JSON stand for?
@@ -49,7 +49,7 @@ What does JSON stand for?
 **J**ava**S**cript **O**bject **N**otation
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738213
 
 ﹇<br>
 What namespace in .NET provides functionality for serializing to and deserializing form JavaScript Object Notation (JSON)?
@@ -59,7 +59,7 @@ What namespace in .NET provides functionality for serializing to and deserializi
 The `System.Text.JSON` namespace.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738224
 
 ﹇<br>
 Does the serialized form include any information about an object’s associated methods?
@@ -69,7 +69,7 @@ Does the serialized form include any information about an object’s associated 
 No.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738231
 
 ﹇<br>
 What is the definition of *serialization*?
@@ -79,7 +79,7 @@ What is the definition of *serialization*?
 The process of converting the state of an object, that is the values of its properties, into a form that can be stored or transmitted.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738238
 
 ﹇<br>
 What is the definition of *deserialization*?
@@ -89,7 +89,7 @@ What is the definition of *deserialization*?
 Reconstructs an object from the deserialized form.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738247
 
 ﹇<br>
 As of 2023, what is the most prevalent encoding for data on the web and files on the disk?
@@ -99,7 +99,7 @@ As of 2023, what is the most prevalent encoding for data on the web and files on
 UTF-8.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738256
 
 ﹇<br>
 Does UTF-8 support emojis?
@@ -109,7 +109,7 @@ Does UTF-8 support emojis?
 Yes. Emojis are also characters from the UTF-8 alphabet: 😄 is 128516.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738264
 
 ﹇<br>
 What is the difference between **.NET Core**, **.NET Framework**, and **.NET**?
@@ -124,7 +124,7 @@ As of 2023, **.NET Core**, **.NET Framework**, and **.NET** are runtimes for bui
 		- **.NET** is simply the new name for **.NET Core** (the “Core” part of the name was dropped for .NET Core v5.0)
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738273
 
 ﹇<br>
 What is IIS?
@@ -136,7 +136,7 @@ IIS stands for Internet Information Services.
 - IIS supports HTTP, HTTP/2, HTTPS, FTP, FTPS, SMTP and NNTP.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738281
 
 ﹇<br>
 What are HTTP, HTTP/2, HTTPS, FTP, FTPS, SMTP and NNTP?
@@ -146,7 +146,7 @@ What are HTTP, HTTP/2, HTTPS, FTP, FTPS, SMTP and NNTP?
 These are all network protocols. They are designed to send/transfer information over a computer network and are a integral part of today’s internet.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738290
 
 
 ﹇<br>
@@ -181,7 +181,7 @@ When you use the `await` keyword on a Task, the method in which the `await` keyw
 The `Main` method in this case returns a `Task<int>` because it's an async method and has a return type of `int`. If it didn't return a value, it would return `Task`.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738298
 
 ﹇<br>
 What does `Task<int>` signify in the context of an `async` method like `Main` in a C# program?
@@ -193,7 +193,7 @@ What does `Task<int>` signify in the context of an `async` method like `Main` in
 The `async` keyword allows the `await` keyword to be used in the method, which means the method will be executed asynchronously. The `Main` method returns `Task<int>` to indicate that it's an asynchronous method that will eventually produce an integer result (usually a status code).
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738308
 
 ﹇<br>
 Why is the `Main` function in C# programs marked with `async` when using `HttpClient.GetAsync`?
@@ -203,7 +203,7 @@ Why is the `Main` function in C# programs marked with `async` when using `HttpCl
  The `Main` function is marked with `async` because `HttpClient.GetAsync` is an asynchronous method, and any method that uses the `await` keyword must be marked as `async`. This lets the compiler know that the method contains an awaited asynchronous operation.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738315
 
 ﹇<br>
 What does `ReadAsStringAsync` do in the context of an `HttpResponseMessage`?
@@ -213,7 +213,7 @@ What does `ReadAsStringAsync` do in the context of an `HttpResponseMessage`?
 The `ReadAsStringAsync` method is used to asynchronously read the content from the HTTP response as a string. It reads the byte stream from the HTTP response and converts it into a string using the encoding specified in the HTTP response.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738323
 
 ﹇<br>
 What are the benefits of reading the content of an HTTP response asynchronously?
@@ -223,7 +223,7 @@ What are the benefits of reading the content of an HTTP response asynchronously?
 Reading the content asynchronously allows the application to do other work while waiting for the IO operation to complete. It makes the application more efficient and responsive, especially for IO-bound operations.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738331
 
 ﹇<br>
 What is the difference between thread-based operations and IO Completion Port (IOCP)-based operations?
@@ -235,7 +235,7 @@ Thread-based operations dedicate a thread for each IO operation, blocking it unt
 IOCP-based operations, on the other hand, use a pool of threads to handle multiple concurrent IO operations, increasing efficiency and performance.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738341
 
 ﹇<br>
 How does .NET implement IOCP-based operations?
@@ -245,7 +245,7 @@ How does .NET implement IOCP-based operations?
 While developers don't directly create and manage IOCPs in C#, the .NET Framework's implementation of async/await and Task uses IOCP under the hood on Windows. When these features are used, they automatically leverage IOCP-based operations.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738348
 
 ﹇<br>
 In .NET how do you ensure the success of a response?
@@ -260,12 +260,13 @@ response.EnsureSuccessStatusCode();
 ```
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738358
 
 In C#, the {`internal`} keyword is an access modifier that makes a member (like a method, property, or class) accessible only within its own assembly. An assembly in .NET is a unit of deployment like a `.dll` or `.exe` file.
+^1702296738373
 
 If you wanted to allow any code in any assembly to access a specific method, you would make it {`public`} instead. If you wanted to restrict access to only the containing class, you would use {`private`}. If you wanted to allow access from the containing class and any derived classes, you would use {`protected`}.
-^1684967287766
+^1702296738384
 
 ﹇<br>
 What is the default access modifier in C#?
@@ -275,7 +276,7 @@ What is the default access modifier in C#?
 `internal`
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738391
 
 ﹇<br>
 What is the importance of `this` in the method argument of the below code? 
@@ -304,7 +305,7 @@ response.WriteRequestToConsole();
 The latter is more intuitive and allows for more fluent and readable code, which is one of the main advantages of extension methods.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738404
 
 ﹇<br>
 What is the purpose of the `this` keyword in the argument list of a method in C#?
@@ -314,19 +315,19 @@ What is the purpose of the `this` keyword in the argument list of a method in C#
 The `this` keyword in the argument list of a method is used to create an extension method in C#. An extension method is a static method that can be called as if it were an instance method of the extended type. The `this` keyword in front of the first parameter specifies the type the method will operate on. For example, in `WriteRequestToConsole(this HttpResponseMessage response)`, `this` indicates that `WriteRequestToConsole` is an extension method that can be called on instances of `HttpResponseMessage`.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738415
 
 ﹇<br>
 How would you write an extension method for the class `HttpResponseMessage`?
 
 #card 
 
-```c#
+```csharp
 ExtensionMethod(this HttpResponseMessage response)
 ```
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738431
 
 ﹇<br>
 In C#, how would you create a global variable for the entire executable and that would be called rom other classes too?
@@ -355,7 +356,7 @@ string myString = GlobalVariables.GlobalString;
 This will effectively give you a "global" variable, in the sense that it's accessible from any part of your application. However, be aware that using such globally accessible data can lead to problems if not managed carefully, such as making the code harder to understand and maintain, and potentially causing issues with concurrency in multi-threaded applications. It's often better to pass data explicitly through method parameters and return values, or use dependency injection to provide dependencies to classes that need them.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738438
 
 ﹇<br>
 Factoring in that, in .NET, it is considered better to pass data explicitly through method parameter and return values, or use dependency injection to provide dependencies to classes that need them, how should we handle a `HttpClient` instance?
@@ -365,17 +366,18 @@ Factoring in that, in .NET, it is considered better to pass data explicitly thro
 Generally, a `HttpClient` instance is a good candidate for using a singleton or shared object in your application because of its connection pooling capabilities. In other words, reusing it for the lifetime of your application is recommended as per Microsoft’s guidelines.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702296738448
 
 
-Factoring in that, in .NET, it is considered better to pass data explicitly through method parameter and return values, or use dependency injection to provide dependencies to classes that need them, how should we handle a `HttpClient` instance? #card 
-- Generally, a `HttpClient` instance is a good candidate for using a singleton or shared object in your application because of its connection pooling capabilities. In other words, reusing it for the lifetime of your application is recommended as per Microsoft’s guidelines
-- One common
-^1685640058573
+﹇<br>
+Can I have an async method in C# return a string?
 
-Can I have an async method in C# return a string? #card 
-- Yes, an async method in C# can return a string. However, the method signature would need to return a `Task<string>`, because asynchronous methods need to return a `Task` or `Task<T>`.
-- Here's an example of how you can do this:
+#card 
+
+Yes, an async method in C# can return a string. However, the method signature would need to return a `Task<string>`, because asynchronous methods need to return a `Task` or `Task<T>`.
+
+Here's an example of how you can do this:
+
 ```csharp
 public async Task<string> GetStringAsync() {
 	await Task.Delay(1000);  // simulate async work with a delay     
@@ -386,22 +388,53 @@ private static async Task Main(string[] args) {
 	Console.WriteLine(result);  // Outputs: Hello, World! 
 }
 ```
-^1685640817146
 
-What does the method `public async Task GetStringAsync()` return? #card 
+⌂
+<br>﹈<br>^1702296738457
+
+﹇<br>
+What does the method `public async Task GetStringAsync()` return?
+
+#card 
+
 It returns nothing.
-^1690533452886
 
-What does SOAP stand for in the context of .NET and software engineering in general? #card 
-To be filled/
-^1690533452893
+⌂
+<br>﹈<br>^1702296738465
 
 
-What does SDLC stand for in the context of .NET and the general context of software engineering? #card 
-In the context of software engineering, SDLC stands for **S**oftware **D**evelopment **L**ife-**C**ycle. It is a well defined sequence of step to not only create a software product, but ensure its longevity and continuous support.
-^1690533452901
+﹇<br>
+What does SOAP stand for in the context of .NET and software engineering in general?
 
-What process generally does SDLC entail? #card 
+#card 
+
+To be filled.
+
+⌂
+<br>﹈<br>^1702296738473
+
+﹇<br>
+What does SDLC stand for in the context of .NET and the general context of software engineering? 
+
+#card 
+
+In the context of software engineering, SDLC stands for:
+
+**S**oftware<br>
+**D**evelopment<br> 
+**L**ife-**C**ycle. <br>
+
+It is a well defined sequence of step to not only create a software product, but ensure its longevity and continuous support.
+
+⌂
+<br>﹈<br>^1702296738480
+
+
+﹇<br>
+What process generally does SDLC entail?
+
+#card 
+
 The process generally follows several stages, including…
 - planning
 - requirement analysis
@@ -410,10 +443,17 @@ The process generally follows several stages, including…
 - testing
 - deployment
 - maintenance
-^1690533452907
 
-What does distributed development entail in the context of C#/.NET development? #card 
+⌂
+<br>﹈<br>^1702296738488
+
+﹇<br>
+What does distributed development entail in the context of C#/.NET development?
+
+#card 
+
 Distributed development refers to the practice of developing software in a distributed computing environment, where different components of a software system can run on different systems (or servers), potentially across different locations.
+
 Here are a few elements it might entail in the context of C# and .NET development:
 1. **Microservices:** One common approach to distributed development is microservices architecture, where each service runs independently but communicates with others. Each service would have its own database and would be loosely coupled with the other services.
 2. **Communication Between Services:** Distributed development requires mechanisms for the different services to communicate with each other. This might include using HTTP/REST, gRPC (a high-performance, open-source framework developed by Google), or even a message bus such as RabbitMQ or Azure Service Bus.
@@ -424,25 +464,45 @@ Here are a few elements it might entail in the context of C# and .NET developmen
 7. **Resiliency and Fault Tolerance:** In distributed systems, dealing with failures becomes more complex. You may need to implement patterns like Circuit Breaker, Retry, or Fallback to handle potential issues.
 8. **Distributed Caching:** In order to reduce latency and increase performance, distributed caching like Redis might be used.
 9. **Concurrency and Synchronization:** Dealing with concurrency and synchronization in a distributed environment can be complex, and might involve using locks, semaphores, or other synchronization primitives, and dealing with issues like race conditions and deadlocks.
+
 Keep in mind that distributed development usually involves a lot more than just knowledge of a programming language like C# and a framework like .NET. It includes understanding distributed system principles, various tools, and technologies.
-^1690613407418
 
-What does **cron** stand for? #card 
-Command Run On
+⌂
+<br>﹈<br>^1702296738496
+ 
+﹇<br>
+What does **cron** stand for?
 
-What is **cron** and what is it used for? #card 
-- The `cron` command-line utility is a job scheduler on Unix-like operating systems. Users who set up and maintain software environments use cron to schedule jobs (commands or shell scripts), also known as **cron jobs**, to run periodically at fixed times, dates, or intervals.
-- It typically automates system maintenance or administration—though its general-purpose nature makes it useful for things like downloading files from the Internet and downloading email at regular intervals.
+#card 
+
+<b>C</b>ommand <b>R</b>un <b>O</b><b>N</b>
+
+⌂
+<br>﹈<br>^1702296738505
+
+﹇<br>
+What is **cron** and what is it used for?
+
+#card 
+
+The `cron` command-line utility is a job scheduler on Unix-like operating systems. Users who set up and maintain software environments use cron to schedule jobs (commands or shell scripts), also known as **cron jobs**, to run periodically at fixed times, dates, or intervals.
+
+It typically automates system maintenance or administration—though its general-purpose nature makes it useful for things like downloading files from the Internet and downloading email at regular intervals.
+
+⌂
+<br>﹈<br>^1702296738515
 
 ---
 
 ## :EiZoteroItem: Bibliography
 
-
+\[1\]
+“NET | Build. Test. Deploy.,” _Microsoft_. Available: [https://dotnet.microsoft.com/en-us/](https://dotnet.microsoft.com/en-us/). [Accessed: Dec. 11, 2023]
 
 ---
 
 > [!INFO]+
-> **Next Note(s):**
+> **Next Note(s)**:
+> 
 
 ---

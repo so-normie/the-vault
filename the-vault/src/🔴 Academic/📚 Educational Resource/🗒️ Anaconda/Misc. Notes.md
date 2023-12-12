@@ -1,23 +1,23 @@
 ---
-title: 🗒️ Anaconda
+title: Misc. Notes
 created: 2023-08-25 16:32
 updated: 2023-12-11T04:47
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/name/🗒️-anaconda/🔖/🗒️-anaconda-∋-table-of-contents
+  - 🔴-academic/📚-educational-resource/name/🗒️-anaconda/🔖/misc-notes
   - 🔴-academic/📚-educational-resource/format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/anaconda
   - study-note
-cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Anaconda::🗒️ Anaconda ∋ Table of Contents
+cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Anaconda::Misc. Notes
 ---
 
-#  🗒️ Anaconda ∋ Table of Contents
+#  Misc. Notes
 
 ---
 
 > [!ABSTRACT]+ 
-> Scratch notes pertaining to [Anaconda](https://www.anaconda.com/). [@AnacondaWorldMost]
+> Miscellaneous scratch notes pertaining to [Anaconda](https://www.anaconda.com/). [@AnacondaWorldMost]
 > 
 > These notes are primarily structured in a Q&A format, making it easy to follow and learn. Corresponding Anki flashcards are available, enabling efficient revision and reinforcement of the concepts.
 
@@ -29,10 +29,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Anaconda::🗒️ 
 
 ---
 
-## :FasListOl: Table of Contents
-- **🗒️ Anaconda**
-	- [🗒️ Anaconda ∋ Table of Contents](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20Anaconda/🗒️%20Anaconda%20∋%20Table%20of%20Contents.md)
-	- [Misc. Notes](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20Anaconda/Misc.%20Notes.md)
+
 
 ---
 
@@ -45,5 +42,6 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Anaconda::🗒️ 
 
 > [!INFO]+
 > **Next Note(s)**:
+> 
 
 ---

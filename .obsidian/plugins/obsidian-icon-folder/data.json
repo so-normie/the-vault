@@ -174,7 +174,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub": "SiGithub",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI": "SiGithub",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Go": "SiGo",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESBuild": "SiEsbuild",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint": "SiEslint",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Google Apps Scripts": "SiGoogleappsscript",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ HTML": "SiHtml5",
@@ -341,5 +340,11 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/014. five sort.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/015. array and string quiz.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/016. array and string wrap up.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md": "TiNotes"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Anaconda/Misc. Notes.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Angular/Misc. Notes.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Docker/Misc. Notes.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ esbuild": "SiEsbuild",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ esbuild/Misc. Notes.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint/Misc. Notes.md": "TiNotes"
 }
