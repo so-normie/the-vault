@@ -23,13 +23,13 @@
             }
           },
           {
-            "id": "ab2bbb79a79dabbc",
+            "id": "2985afe7e25ffb82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/Misc. Notes.md",
-                "mode": "source",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/🗒️ Zotero ∋ Table of Contents.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/🗒️ Zotero ∋ Table of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/🗒️ Zotero ∋ Table of Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,9 +229,13 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "ab2bbb79a79dabbc",
+  "active": "2985afe7e25ffb82",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/🗒️ Zotero ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Untitled/Untitled ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Untitled",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/🗒️ GitHub CLI ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub/🗒️ GitHub ∋ Table of Contents.md",
@@ -258,9 +262,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Angular/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Discord/Custom CSS.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Anaconda/Misc. Notes.md",
-    "🏗️ Data Garage/Data Garage꞉ Project 1.md",
-    "🏗️ Data Garage/Data Garage꞉ Project 1 1.md",
-    "🏗️ Data Garage/🏗️ Data Garage ∋ Table of Contents.md",
     "🏗️ Data Garage",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Untitled",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational",
@@ -275,7 +276,6 @@
     "Pasted image 20231119132130.png",
     "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets",
-    "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode",
     "the-vault/assets/images/docker-docs-docker-architecture.png"
   ]
 }
