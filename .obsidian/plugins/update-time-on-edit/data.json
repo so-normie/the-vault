@@ -626,8 +626,8 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Docker/🗒️ Docker ∋ Table of Contents.md": "506c5461b7e7f12153f63f2429e57e5be80c0629e35de94a5d009c205aea3dcd",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint/🗒️ ESLint ∋ Table of Contents.md": "694edb9e2210928be757a706977093fefcc0bcd8c8869138fe0438e361c2d4f8",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md": "4d36960b5b239503c84c37f2133d98d2a51bdee690d00a24adba978db1ddfd3e",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub/🗒️ GitHub ∋ Table of Contents.md": "3f6996774e526606fe95eb93712af33ce39479a93573e15729bddebae0e3cc75",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/🗒️ GitHub CLI ∋ Table of Contents.md": "ff57be14a8400e6b8bf5c860dacb54ebb19bac8401ffc548708d7ec5e5aa882c",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub/🗒️ GitHub ∋ Table of Contents.md": "934213c6a6943f933fe42ca7cb2d479190a2e9319dba71f03c0088d07a89b096",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/🗒️ GitHub CLI ∋ Table of Contents.md": "9d531e8c05b237b5fc59710b6042c72cfa6d1a3ced2da37662c6b68b45cdf2d7",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Google Apps Scripts/🗒️ Google Apps Scripts ∋ Table of Contents.md": "9f5e0bb8b1aebebe9eac1424dd2fd2027ec285ee07c4f628fcb1d7baf9d3217d",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Go/🗒️ Go ∋ Table of Contents.md": "a67cce1749b4e7b4a3eb4e8ce893674f317b162c1c1b7daf35ad47785fa3575a",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GoogleTest/🗒️ GoogleTest ∋ Table of Contents.md": "d925d523a993f7f44b33b8223ecc75961b9bf7ed2b433974ad941ee8a1a59d69",
@@ -937,6 +937,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Docker/Misc. Notes.md": "b070645f47507048ab154b85fd28ae8d8d5c41e28f074ad2f046cc113a296966",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ esbuild/Misc. Notes.md": "aa9842dc1082186572c0d0bd526fa1c5ea0843dd69d5a608fc8086d111d3b369",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ esbuild/🗒️ esbuild ∋ Table of Contents.md": "17122ef63d70d88b3adc33cd29414242c1e73a2280cde37ebb87301c2df6d107",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint/Misc. Notes.md": "7add80b705b9e7dfddca341938a2ca0714bf1c0b59e7679cff89404cd840c894"
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint/Misc. Notes.md": "7add80b705b9e7dfddca341938a2ca0714bf1c0b59e7679cff89404cd840c894",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/Misc. Notes.md": "c81973df1fe133ef111c738b01fb99a8a6c51ff8afbdfb43fb7a2554cac1c393"
   }
 }

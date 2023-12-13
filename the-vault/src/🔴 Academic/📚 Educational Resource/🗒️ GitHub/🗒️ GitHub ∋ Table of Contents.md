@@ -1,13 +1,13 @@
 ---
 title: 🗒️ GitHub ∋ Table of Contents
 created: 2023-10-31T16:39
-updated: 2023-12-12T01:39
+updated: 2023-12-12T05:45
 authors:
   - Edmund Leibert III
 tags:
   - 🔴-academic/📚-educational-resource/name/🗒️-github/🔖/🗒️-github-∋-table-of-contents
   - 🔴-academic/📚-educational-resource/format/miscellaneous
-  - 🔴-academic/📚-educational-resource/discipline/computer-science/framework/net
+  - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/github
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ GitHub::🗒️ GitHub ∋ Table of Contents
 ---
@@ -31,7 +31,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ GitHub::🗒️ Gi
 
 ## :FasListOl: Table of Contents
 
-- **🗒️ .NET**
+- **🗒️ GitHub**
 	- [🗒️ GitHub ∋ Table of Contents](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20GitHub/🗒️%20GitHub%20∋%20Table%20of%20Contents.md)
 
 ---

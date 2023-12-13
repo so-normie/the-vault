@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2b0b72be500b4db6",
+        "id": "0ae9939421fad5a8",
         "type": "tabs",
         "children": [
           {
-            "id": "d19aab6d0e0c3843",
+            "id": "d00820e836229d90",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -23,13 +23,13 @@
             }
           },
           {
-            "id": "4577006950cb4ee7",
+            "id": "ab2bbb79a79dabbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
-                "mode": "preview",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/Misc. Notes.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/Misc. Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/Misc. Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,23 +193,14 @@
               "type": "ReferenceListView",
               "state": {}
             }
-          },
-          {
-            "id": "9b1b34e9abd4d25f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md"
-              }
-            }
           }
         ],
         "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 390.5
+    "width": 502.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,20 +229,23 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "4577006950cb4ee7",
+  "active": "ab2bbb79a79dabbc",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub/🗒️ GitHub ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ esbuild/🗒️ esbuild ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/🗒️ GitHub CLI ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub/🗒️ GitHub ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint/🗒️ ESLint ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ esbuild/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ esbuild/🗒️ esbuild ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Docker/🗒️ Docker ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Discord/🗒️ Discord ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ CMake/🗒️ CMake ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Angular/🗒️ Angular ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Anaconda/🗒️ Anaconda ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/Discord ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Docker/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ CMake/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md",
@@ -268,9 +262,6 @@
     "🏗️ Data Garage/Data Garage꞉ Project 1 1.md",
     "🏗️ Data Garage/🏗️ Data Garage ∋ Table of Contents.md",
     "🏗️ Data Garage",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ C++/🗒️ C++ ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Untitled",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord",
