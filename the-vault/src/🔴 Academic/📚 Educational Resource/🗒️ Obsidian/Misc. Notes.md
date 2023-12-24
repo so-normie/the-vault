@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Obsidian ∋ Table of Contents
 created: 2023-08-20 08:26
-updated: 2023-12-08T23:52
+updated: 2023-12-13T08:45
 authors:
   - Edmund Leibert III
 tags:
@@ -48,11 +48,11 @@ In the context of most Obsidian plugins, when building a plugin, what command sh
 <br>﹈<br>^1700212810070
 
 ﹇<br>
-How to manually install a plugin?
+Generally, in the context of Obsidian plugin development, how can one manually install a plugin?
 
 #card-reverse 
 
-Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/your-plugin-id/`
+Simply copy over the `main.js`, `styles.css`, and `manifest.json` files of the plugin to your vault’s `.obsidian/plugins/your-plugin-id/` directory.
 
 ⌂
 <br>﹈<br>^1700212810077
@@ -105,16 +105,6 @@ Means that it is “scratch note” pertaining to a topic. In other words, it is
 
 ⌂
 <br>﹈<br>^1700212810155
-
-﹇<br>
-In my vault, what does the 📕 emoji mean in a file name?
-
-#card
-
-Means that it is “compendium” pertaining to a **singular** formal/structured educational resource in the format of a book.
-
-⌂
-<br>﹈<br>^1700212810166
 
 ﹇<br>
 In my vault, what does the 🌐 emoji mean in a file name?

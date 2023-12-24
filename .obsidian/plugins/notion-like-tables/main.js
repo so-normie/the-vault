@@ -42754,28 +42754,28 @@ function _typeof(o2) {
 }
 
 // node_modules/@babel/runtime/helpers/esm/toPrimitive.js
-function _toPrimitive(input, hint) {
-  if (_typeof(input) !== "object" || input === null)
-    return input;
-  var prim = input[Symbol.toPrimitive];
-  if (prim !== void 0) {
-    var res = prim.call(input, hint || "default");
-    if (_typeof(res) !== "object")
-      return res;
+function toPrimitive(t2, r2) {
+  if ("object" != _typeof(t2) || !t2)
+    return t2;
+  var e = t2[Symbol.toPrimitive];
+  if (void 0 !== e) {
+    var i2 = e.call(t2, r2 || "default");
+    if ("object" != _typeof(i2))
+      return i2;
     throw new TypeError("@@toPrimitive must return a primitive value.");
   }
-  return (hint === "string" ? String : Number)(input);
+  return ("string" === r2 ? String : Number)(t2);
 }
 
 // node_modules/@babel/runtime/helpers/esm/toPropertyKey.js
-function _toPropertyKey(arg) {
-  var key = _toPrimitive(arg, "string");
-  return _typeof(key) === "symbol" ? key : String(key);
+function toPropertyKey(t2) {
+  var i2 = toPrimitive(t2, "string");
+  return "symbol" == _typeof(i2) ? i2 : String(i2);
 }
 
 // node_modules/@babel/runtime/helpers/esm/defineProperty.js
 function _defineProperty(obj, key, value) {
-  key = _toPropertyKey(key);
+  key = toPropertyKey(key);
   if (key in obj) {
     Object.defineProperty(obj, key, {
       value,
@@ -47405,6 +47405,7 @@ function LoomStateProvider({
   const [position, setPosition] = import_react5.default.useState(0);
   const logger = useLogger();
   const { reactAppId, loomFile, app } = useAppMount();
+  const [error, setError] = import_react5.default.useState(null);
   const isMountedRef = import_react5.default.useRef(false);
   import_react5.default.useEffect(() => {
     if (!isMountedRef.current) {
@@ -47428,9 +47429,43 @@ function LoomStateProvider({
         });
       }
     }
-    EventManager.getInstance().on("app-refresh", handleRefreshEvent);
-    return () => EventManager.getInstance().off("app-refresh", handleRefreshEvent);
+    EventManager.getInstance().on(
+      "app-refresh-by-state",
+      handleRefreshEvent
+    );
+    return () => EventManager.getInstance().off(
+      "app-refresh-by-state",
+      handleRefreshEvent
+    );
   }, [reactAppId, loomFile, app]);
+  import_react5.default.useEffect(() => {
+    function handleRefreshEvent(file, pluginVersion) {
+      return __async(this, null, function* () {
+        if (file.path === loomFile.path) {
+          const fileData = yield app.vault.read(loomFile);
+          try {
+            const state = deserializeState(fileData, pluginVersion);
+            setLoomState({
+              state,
+              shouldSaveToDisk: false,
+              shouldSaveFrontmatter: false,
+              time: Date.now()
+            });
+          } catch (err) {
+            setError(err);
+          }
+        }
+      });
+    }
+    EventManager.getInstance().on(
+      "app-refresh-by-file",
+      handleRefreshEvent
+    );
+    return () => EventManager.getInstance().off(
+      "app-refresh-by-file",
+      handleRefreshEvent
+    );
+  }, [loomFile, app]);
   function handleToggleSearchBar() {
     setSearchBarVisible((prevState) => !prevState);
   }
@@ -47500,6 +47535,9 @@ function LoomStateProvider({
     },
     [position, history, loomState]
   );
+  if (error) {
+    throw error;
+  }
   return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
     LoomStateContext.Provider,
     {
@@ -52669,7 +52707,7 @@ var DataLoomView = class extends import_obsidian8.TextFileView {
       this.setViewData(serialized, false);
       this.requestSave();
       EventManager.getInstance().emit(
-        "app-refresh",
+        "app-refresh-by-state",
         this.file.path,
         appId,
         state
@@ -62341,7 +62379,9 @@ function MatchColumnMenu({
       position,
       openDirection: "bottom-left",
       children: [
-        columns.map((column) => {
+        columns.filter(
+          (column) => column.type !== "source" /* SOURCE */ && column.type !== "source-file" /* SOURCE_FILE */ && column.type !== "last-edited-time" /* LAST_EDITED_TIME */ && column.type !== "creation-time" /* CREATION_TIME */
+        ).map((column) => {
           const { id: id3, content, type } = column;
           const isDisabled = columnMatches.some(
             (match) => match.columnId === id3
@@ -63206,37 +63246,65 @@ var addImportData = (prevState, data, columnMatches, dateFormat, dateFormatSepar
       let newCell = null;
       if (match) {
         const { importColumnIndex } = match;
-        content = importRow[importColumnIndex].trim();
-        if (type === "tag" /* TAG */) {
-          const { cell, newTags } = findTagCell(
-            columnTags,
-            columnId,
-            content
-          );
-          newCell = cell;
-          columnTags.push(...newTags);
-        } else if (type === "multi-tag" /* MULTI_TAG */) {
-          const { cell, newTags } = findMultiTagCell(
-            columnTags,
-            columnId,
-            content
-          );
-          newCell = cell;
-          columnTags.push(...newTags);
-        } else if (type === "date" /* DATE */) {
-          const cell = findDateCell(
-            columnId,
-            content,
-            dateFormat,
-            dateFormatSeparator
-          );
-          newCell = cell;
+        content = importRow[importColumnIndex];
+        if (content !== void 0 && content !== null) {
+          content = content.trim();
         }
       }
-      if (!newCell) {
+      if (type === "tag" /* TAG */) {
+        const { cell, newTags } = findTagCell(
+          columnTags,
+          columnId,
+          content
+        );
+        newCell = cell;
+        columnTags.push(...newTags);
+      } else if (type === "multi-tag" /* MULTI_TAG */) {
+        const { cell, newTags } = findMultiTagCell(
+          columnTags,
+          columnId,
+          content
+        );
+        newCell = cell;
+        columnTags.push(...newTags);
+      } else if (type === "date" /* DATE */) {
+        const cell = findDateCell(
+          columnId,
+          content,
+          dateFormat,
+          dateFormatSeparator
+        );
+        newCell = cell;
+      } else if (type === "checkbox" /* CHECKBOX */) {
+        newCell = createCheckboxCell(columnId, {
+          value: content.toLowerCase() === "true" ? true : false
+        });
+      } else if (type === "number" /* NUMBER */) {
+        newCell = createNumberCell(columnId, {
+          value: parseFloat(content)
+        });
+      } else if (type === "embed" /* EMBED */) {
+        newCell = createEmbedCell(columnId, {
+          pathOrUrl: content
+        });
+      } else if (type === "file" /* FILE */) {
+        newCell = createFileCell(columnId, {
+          path: content
+        });
+      } else if (type === "creation-time" /* CREATION_TIME */) {
+        newCell = createCreationTimeCell(columnId);
+      } else if (type === "last-edited-time" /* LAST_EDITED_TIME */) {
+        newCell = createLastEditedTimeCell(columnId);
+      } else if (type === "source" /* SOURCE */) {
+        newCell = createSourceCell(columnId);
+      } else if (type === "source-file" /* SOURCE_FILE */) {
+        newCell = createSourceFileCell(columnId);
+      } else if (type === "text" /* TEXT */) {
         newCell = createTextCell(columnId, {
           content
         });
+      } else {
+        throw new Error("Unhandled cell type");
       }
       nextCells.push(newCell);
     });
@@ -63715,7 +63783,7 @@ var ImportModal = class extends import_obsidian17.Modal {
       const serialized = serializeState(state);
       yield this.app.vault.modify(this.loomFile, serialized);
       EventManager.getInstance().emit(
-        "app-refresh",
+        "app-refresh-by-state",
         this.loomFile.path,
         "",
         state
@@ -69119,7 +69187,12 @@ var handleSave = (app, file, appId, state, shouldSaveFrontmatter) => __async(voi
   }
   const serialized = serializeState(state);
   yield app.vault.modify(file, serialized);
-  EventManager.getInstance().emit("app-refresh", file.path, appId, state);
+  EventManager.getInstance().emit(
+    "app-refresh-by-state",
+    file.path,
+    appId,
+    state
+  );
 });
 var renderContainerEl = (linkEl) => {
   const containerEl = linkEl.createDiv({
@@ -69287,7 +69360,7 @@ var handleFileRename = (app, file, oldPath, currentAppVersion) => __async(void 0
       numFilesUpdated++;
       yield file.vault.modify(loomFile, serializeState(updatedState));
       EventManager.getInstance().emit(
-        "app-refresh",
+        "app-refresh-by-state",
         loomFile.path,
         -1,
         updatedState
@@ -69620,6 +69693,15 @@ var DataLoomPlugin = class extends import_obsidian22.Plugin {
           }
         })
       )
+    );
+    this.registerEvent(
+      this.app.vault.on("modify", (file) => __async(this, null, function* () {
+        if (file instanceof import_obsidian22.TFile) {
+          if (file.extension === LOOM_EXTENSION) {
+            EventManager.getInstance().emit("app-refresh-by-file", file, this.manifest.version);
+          }
+        }
+      }))
     );
     this.registerSourceEvents();
   }

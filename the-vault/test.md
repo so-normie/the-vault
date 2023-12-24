@@ -1,6 +1,6 @@
 ---
 created: 2023-10-01 16:14
-updated: 2023-12-10T02:39
+updated: 2023-12-24T05:58
 cards-deck: Default
 tags:
   - 🍑-booty
@@ -90,3 +90,7 @@ What is your favorite {1:color}?
 Hello! A [hotdog] is my favorite food.
 
 Hello! A [French fry with ranch dressing] is my favorite snack.
+
+Who was the grinch this christmas?
+Whiy, the grunch was Kartik :BoBxsFileArchive:
+

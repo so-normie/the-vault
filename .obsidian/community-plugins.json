@@ -42,9 +42,9 @@
   "reference-map",
   "obsidian-zotero-desktop-connector",
   "obsidian-citation-plugin",
-  "cloze",
   "obsidian-pandoc-reference-list",
   "obsidian-admonition",
   "obsidian-linter",
-  "colored-tags-wrangler"
+  "colored-tags-wrangler",
+  "cloze"
 ]
