@@ -21,22 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "8c20b24b5a201013",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-vault/test.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/test.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/test.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/test.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md"
               }
             }
           }
@@ -235,17 +221,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "cloze:Toggle all clozes": false,
       "notion-like-tables:Create loom": false,
-      "reference-map:Reference Map": false
+      "reference-map:Reference Map": false,
+      "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "8c20b24b5a201013",
+  "active": "7ec73663882afb20",
   "lastOpenFiles": [
+    "the-vault/test.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
     "the-vault/src/Leila's Junk/Leila Phyiscs Final.md",
     "the-vault/src/Leila's Junk/Leila's Junk ∋ Table of Contents.md",
     "the-vault/src/Leila's Junk",
     "🏗️ Data Garage/Data Garage꞉ Project 1.md",
-    "the-vault/test.md",
     "the-vault/terror-interview-problem.md",
     "the-vault/assets/images/Pasted image 20231119023627.png",
     "the-vault/assets/images/Pasted image 20231117020633.png",
