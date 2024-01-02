@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Obsidian ∋ Table of Contents
 created: 2023-08-20 08:26
-updated: 2023-12-13T08:45
+updated: 2024-01-02T00:08
 authors:
   - Edmund Leibert III
 tags:
@@ -137,7 +137,7 @@ Should use the following symbol… `⋕`
 <br>﹈<br>^1700212810212
 
 ﹇<br>
-What symbol should I use as an alternate to the question mark (i.e., `?`) for filenames?
+What symbol should I use as an alternate to the *question mark* (i.e., `?`) for filenames?
 
 #card 
 
@@ -145,6 +145,16 @@ Should use the following symbol… `？`
 
 ⌂
 <br>﹈<br>^1700212962949
+
+﹇<br>
+What symbol should I use as an alternate to the *period* (i.e., `.`) for filenames?
+
+#card 
+
+Should use the Unicode Character (U+2024): `․`
+
+⌂
+<br>﹈<br>^1704182900714
 
 ﹇<br>
 When writing software engineering documents, should I put filenames in code blocks or bold them?
