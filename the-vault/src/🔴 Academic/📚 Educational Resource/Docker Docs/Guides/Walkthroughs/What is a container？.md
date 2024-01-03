@@ -1,7 +1,7 @@
 ---
 title: What is a container?
 created: 2023-10-31T16:39
-updated: 2023-11-22T15:06
+updated: 2023-12-23T12:34
 authors:
   - Edmund Leibert III
 tags:
@@ -114,7 +114,7 @@ In Docker Desktop, simply select your container and then select **Files** to e
 ﹇<br>
 In Docker Desktop, when I inspect the files of a running container, what does the note “modified” mean of a file?
 
-![|550](Pasted%20image%2020231117020633.png)
+![|550](the-vault/assets/images/Pasted%20image%2020231117020633.png)
 
 #card 
 

@@ -6,6 +6,8 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "EiMermaid",
+      "EiTestingIcon",
       "TiNotes",
       "FasHashtag",
       "SiDiscord",
@@ -18,9 +20,7 @@
       "SiGooglesheets",
       "EiWikipedia",
       "SiWikipedia",
-      "FabGoogle",
-      "SiVim",
-      "RiBookMarkFill"
+      "FabGoogle"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -175,7 +175,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI": "SiGithub",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Go": "SiGo",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint": "SiEslint",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Google Apps Scripts": "SiGoogleappsscript",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ HTML": "SiHtml5",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript": "SiJavascript",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JetBrains": "SiJetbrains",
@@ -348,5 +347,11 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ esbuild/Misc. Notes.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint/Misc. Notes.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/Misc. Notes.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/Misc. Notes.md": "TiNotes"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/Misc. Notes.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Google Apps Script": "SiGoogleappsscript",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/190. Reverse Bits.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1050. Actors and Directors Who Cooperated At Least Three Times.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GoogleTest/Misc. Notes.md": "TiNotes",
+  "the-vault/test.md": "EiTestingIcon",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French/Misc. Notes.md": "TiNotes"
 }

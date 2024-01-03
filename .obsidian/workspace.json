@@ -4,39 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "0ae9939421fad5a8",
+        "id": "02312fc99c451256",
         "type": "tabs",
         "children": [
           {
-            "id": "d00820e836229d90",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "2985afe7e25ffb82",
+            "id": "17e2c3f12c4183e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/🗒️ Zotero ∋ Table of Contents.md",
+                "file": "kartik-misc/355._Design_Twitter.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -65,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "eslint",
+                "query": "line:(Access a local folder",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 482.50499725341797
+    "width": 489.5,
+    "collapsed": true
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -105,20 +90,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cc8193e4b63054cc",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
-          {
             "id": "fafe1fb10aade653",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/🗒️ Zotero ∋ Table of Contents.md",
+                "file": "kartik-misc/355._Design_Twitter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/🗒️ Zotero ∋ Table of Contents.md",
+                "file": "kartik-misc/355._Design_Twitter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +135,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -196,6 +175,23 @@
           },
           {
             "id": "0e6a21999e881f35",
+            "id": "247b616c84337e16",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "65d49d91f61a421f",
+            "type": "leaf",
+            "state": {
+              "type": "oz-calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "5f5c4fb233e89169",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -210,19 +206,42 @@
     ],
     "direction": "horizontal",
     "width": 502.5
+                "file": "kartik-misc/355._Design_Twitter.md"
+              }
+            }
+          },
+          {
+            "id": "dab8a3e518358855",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-sidebar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "377af7ea5432b005",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 9
+      }
+    ],
+    "direction": "horizontal",
+    "width": 520.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
-      "omnisearch:Omnisearch": false,
       "workspaces:Manage workspace layouts": false,
-      "templater-obsidian:Templater": false,
       "chronology:Open Chronology": false,
       "custom-sort:Toggle custom sorting": false,
-      "cloze:Toggle all clozes": false,
       "flashcards-obsidian:Generate flashcards": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
       "switcher:Open quick switcher": true,
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": true,
@@ -232,59 +251,65 @@
       "random-note:Open random note": true,
       "audio-recorder:Start/stop recording": true,
       "publish:Publish changes...": true,
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "notion-like-tables:Create loom": false,
       "reference-map:Reference Map": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-day-planner:Timeline": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "time-ruler:Open Time Ruler": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "cloze:Toggle all clozes": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "2985afe7e25ffb82",
+  "active": "17e2c3f12c4183e7",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/🗒️ Zotero ∋ Table of Contents.md",
+    "kartik-misc/kartik-misc ∋ Table of Contents.md",
+    "kartik-misc/355._Design_Twitter.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Excel/Misc. Notes.md",
+    "kartik-misc",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Excel/🗒️ Microsoft Excel ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French/🗒️ French ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Angular/Misc. Notes.md",
+    "the-vault/templates/Template {{Anki Note ∋ “⋕card-reverse”}}.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French",
+    "2023-12-26.md",
+    "the-vault/assets/excalidraw/Drawing 2023-12-26 13.41.06.excalidraw.md",
+    "the-vault/assets/excalidraw/Drawing 2023-12-26 13.50.21.excalidraw.md",
+    "assets/assets ∋ Table of Contents.md",
+    "assets/Pasted Image 20231226135112_076.png",
+    "assets",
+    "assets/Pasted Image 20231226134948_179.png",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Untitled/Untitled ∋ Table of Contents.md",
+    "the-vault/test.md",
+    "the-vault/src/Leila's Junk/Leila Phyiscs Final.md",
+    "the-vault/src/Leila's Junk/Leila's Junk ∋ Table of Contents.md",
+    "the-vault/src/Leila's Junk",
+    "🏗️ Data Garage/Data Garage꞉ Project 1.md",
+    "the-vault/terror-interview-problem.md",
+    "the-vault/assets/images/Pasted image 20231119023627.png",
+    "the-vault/assets/images/Pasted image 20231117020633.png",
+    "the-vault/assets/images/Pasted image 20231105005754.png",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Hugo/🗒️ Hugo ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ HTML/🗒️ HTML ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Hugo/📄 Hugo ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GoogleTest/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GoogleTest/🗒️ GoogleTest ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Google Apps Script/🗒️ Google Apps Script ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Go/🗒️ Go ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Untitled",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/🗒️ GitHub CLI ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub/🗒️ GitHub ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint/🗒️ ESLint ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ esbuild/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ esbuild/🗒️ esbuild ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Docker/🗒️ Docker ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Discord/🗒️ Discord ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ CMake/🗒️ CMake ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Angular/🗒️ Angular ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Anaconda/🗒️ Anaconda ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/Discord ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Docker/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ CMake/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md",
-    "the-vault/assets/excalidraw/kartik-edmund-secret-project.md",
     "the-vault/assets/excalidraw/Drawing 2023-12-11 22.48.51.excalidraw.light.png",
     "the-vault/assets/excalidraw/Drawing 2023-12-11 22.48.51.excalidraw.light.svg",
     "the-vault/assets/excalidraw/Drawing 2023-12-11 22.48.51.excalidraw.dark.png",
     "the-vault/assets/excalidraw/Drawing 2023-12-11 22.48.51.excalidraw.dark.svg",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Windows/🗒️ Microsoft Windows ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Angular/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Discord/Custom CSS.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Anaconda/Misc. Notes.md",
     "🏗️ Data Garage",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Untitled",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Exce",
-    "Pasted image 20231105005754.png",
-    "Pasted image 20231117020633.png",
-    "Pasted image 20231119023627.png",
-    "Pasted image 20231119160217.png",
-    "Pasted image 20231119132130.png",
-    "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets",
-    "the-vault/assets/images/docker-docs-docker-architecture.png"
+    "the-vault/assets/images/Pasted image 20231119160217.png"
   ]
-}

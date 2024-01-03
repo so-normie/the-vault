@@ -1,15 +1,15 @@
 ---
-title: 🗒️ .NET ∋ Table of Contents
+title: Misc. Notes
 created: 2023-10-31T16:39
-updated: 2023-12-12T18:45
+updated: 2023-12-14T05:34
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/name/🗒️-net/🔖/🗒️-net-∋-table-of-contents
+  - 🔴-academic/📚-educational-resource/name/🗒️-github-cli/🔖/misc-notes
   - 🔴-academic/📚-educational-resource/format/miscellaneous
-  - 🔴-academic/📚-educational-resource/discipline/computer-science/framework/net
+  - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/github-cli
   - study-note
-cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ .NET::🗒️ .NET ∋ Table of Contents
+cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ GitHub CLI::Misc.Notes
 ---
 
 # Misc. Notes
@@ -41,7 +41,7 @@ gh repo rename <new-repo-name>
 Make sure that you are in the current repository.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702464623433
 
 ﹇<br>
 How to update the remote URL on your local machine?
@@ -53,9 +53,10 @@ gh repo sync --remote origin --prompt
 ```
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702464623437
 
 {`gh repo sync`} is a command available in the GitHub CLI (gh) that synchronizes a local repository with its corresponding remote repository. This command is particularly useful when you want to update your local repository with the latest changes from the remote repository or when you want to push local changes to the remote repository.
+^1702464623442
 
 ﹇<br>
 What exactly does the the command `gh repo sync` do?
@@ -67,7 +68,7 @@ What exactly does the the command `gh repo sync` do?
 3. Pushes the local changes to the remote repository, if there are any.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702464623445
 
 ﹇<br>
 What strategy does `gh repo sync` use? 
@@ -77,7 +78,7 @@ What strategy does `gh repo sync` use?
 By default, `gh repo sync` uses the merge strategy.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702464623449
 
 ﹇<br>
 Can `gh repo sync` use other strategies than its default? 
@@ -87,7 +88,7 @@ Can `gh repo sync` use other strategies than its default?
 Yes, you can also use the rebase strategy by passing the `--rebase` flag.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702464623453
 
 ﹇<br>
 What is the difference between **merge** and **rebase**?
@@ -99,7 +100,7 @@ What is the difference between **merge** and **rebase**?
 - On the other hand, when you **rebase** a branch onto another branch, it moves the entire branch to begin on the tip of the other branch, effectively incorporating all of the new commits. Instead of using a merge commit, rebasing re-writes the project history by creating brand new commits for each commit in the original branch.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702464623457
 
 ﹇<br>
 What is a benefit of using the rebase strategy?
@@ -109,7 +110,7 @@ What is a benefit of using the rebase strategy?
 The major benefit of rebasing is that you get a much cleaner project history. It eliminates the unnecessary merge commits required by git merge and results in a perfectly linear project history.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702464623461
 
 ﹇<br>
 What is a downside of using rebase? 
@@ -120,7 +121,7 @@ What is a downside of using rebase?
 - Another potential issue with `rebase` is that it can make it difficult to resolve conflicts. When you encounter conflicts during a `rebase`, Git will pause on the conflicting commit, allowing you to fix the conflict before proceeding. Solving conflicts in the middle of rebasing a long chain of commits can be confusing and hard to get right[2](https://medium.com/@fredrikmorken/why-you-should-stop-using-git-rebase-5552bee4fed1)
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702464623465
 
 ﹇<br>
 If I have GitHub CLI installed, is there an easier way than using `git` to sync the branches of my forked repository with `upstream`?
@@ -144,7 +145,7 @@ gh repo sync owner/cli-fork -b BRANCH_NAME --force
 ```
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702464623468
 
 ﹇<br>
 Does `gh repo sync` sync all branches?
@@ -154,7 +155,7 @@ Does `gh repo sync` sync all branches?
 No, it just syncs the **current** branch.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702464623471
 
 ﹇<br>
 Using the **GitHub CLI**, is it possible to sync the `remote/origin` `main` branch with the `remote/upstream` `main` branch?
@@ -182,7 +183,7 @@ Make sure to replace `owner` with your GitHub username and `cli-fork` with the n
 After running this command, your fork’s `main` branch should be up to date with the upstream repository’s `main` branch.
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702464623474
 
 ---
 

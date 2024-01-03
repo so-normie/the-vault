@@ -1,11 +1,11 @@
 ---
 title: 🗒️ GitHub CLI
 created: 2023-08-04 01:58
-updated: 2023-12-12T06:32
+updated: 2023-12-13T02:52
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/name/🗒️-github-cli
+  - 🔴-academic/📚-educational-resource/name/🗒️-github-cli/🔖/🗒️-github-cli-∋-table-of-contents
   - 🔴-academic/📚-educational-resource/format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/github-cli
   - study-note

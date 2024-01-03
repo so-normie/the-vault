@@ -1,420 +1,39 @@
 {
   "workspaces": {
-    "LeetCode": {
-      "main": {
-        "id": "812027d141a633e2",
-        "type": "split",
-        "children": [
-          {
-            "id": "3217d6fdcda2b59c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9694da48f793424e",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms library.md",
-                    "mode": "preview",
-                    "backlinks": true,
-                    "source": true
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "e8ed80397d38533a",
-        "type": "split",
-        "children": [
-          {
-            "id": "54360f8db890b174",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "378dfb133d1155ab",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "recent-files",
-                  "state": {}
-                }
-              },
-              {
-                "id": "e3f6c9ecddf3f564",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "c66e0c5f869fd443",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "eac6a8071c277ac3",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "surfing-tab-tree",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "horizontal",
-        "width": 429.5
-      },
-      "right": {
-        "id": "4862554a11d6c3ac",
-        "type": "split",
-        "children": [
-          {
-            "id": "89a4ef93bf01a9a6",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b3e8b11d9885a773",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "quiet-outline",
-                  "state": {}
-                }
-              },
-              {
-                "id": "4a339558f59cc8a8",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms library.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "b1bed1699b770f6a",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms library.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "795183581340a3c8",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "ecfca12363b989f1",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              },
-              {
-                "id": "885a95689720234f",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "chronology-calendar-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "3d46bbe9c9fe1930",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {}
-                }
-              },
-              {
-                "id": "4290afceaa52a550",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency"
-                  }
-                }
-              },
-              {
-                "id": "c2bc21ce9f1342a9",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "the-vault/🔴 Academics/📚 Educational Resources/🗒️ C++/Algorithms library.md"
-                  }
-                }
-              },
-              {
-                "id": "aab6a010b368e52d",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "ReferenceListView",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 5
-          }
-        ],
-        "direction": "horizontal",
-        "width": 446.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Open quick switcher": false,
-          "omnisearch:Omnisearch": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": true,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "markdown-importer:Open format converter": false,
-          "zk-prefixer:Create new unique note": true,
-          "random-note:Open random note": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "publish:Publish changes...": true,
-          "table-editor-obsidian:Advanced Tables Toolbar": true,
-          "3d-graph:3D Graph": true,
-          "custom-sort:Toggle custom sorting": false,
-          "surfing:surfing-bookmark-manager": false,
-          "templater-obsidian:Templater": false,
-          "notion-like-tables:Create loom": false,
-          "chronology:Open Chronology": false,
-          "flashcards-obsidian:Generate flashcards": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false
-        }
-      },
-      "active": "9694da48f793424e",
-      "ophidian:layout-settings": {
-        "pane-relief:focus-lock": true
-      }
-    },
-    "Docker Docs": {
+    "Going through and reformatting notes": {
       "main": {
         "id": "129f3097f126cfc1",
         "type": "split",
         "children": [
           {
-            "id": "f8857e31a478bac4",
+            "id": "0ae9939421fad5a8",
             "type": "tabs",
             "children": [
               {
-                "id": "08e41fc892ca79b3",
+                "id": "d00820e836229d90",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Walkthroughs ∋ Table of Contents.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": true
-                  }
-                }
-              },
-              {
-                "id": "f1141900217fc1a2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/What is a container？.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": true
-                  }
-                }
-              },
-              {
-                "id": "7d682eb9911e97e6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md",
+                    "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
                     "mode": "preview",
                     "backlinks": true,
                     "source": true
-                  }
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "897514fb43184f87",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -443,7 +62,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:#🔴-academic/📚-educational-resource/name/docker-docs/🔖/guides",
+                    "query": "",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -472,7 +91,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 536.5,
+        "width": 482.50499725341797,
         "collapsed": true
       },
       "right": {
@@ -497,7 +116,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -514,7 +132,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -566,7 +183,7 @@
                 }
               },
               {
-                "id": "9ff5b99cd155d8a6",
+                "id": "8924c524809e611d",
                 "type": "leaf",
                 "state": {
                   "type": "ReferenceListView",
@@ -574,51 +191,50 @@
                 }
               },
               {
-                "id": "5cb5cf6db8ef3aeb",
+                "id": "4195f1d30f1f8d13",
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md"
-                  }
+                  "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 8
           }
         ],
         "direction": "horizontal",
-        "width": 433.5,
+        "width": 502.5,
         "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": false,
+          "omnisearch:Omnisearch": false,
+          "workspaces:Manage workspace layouts": false,
+          "templater-obsidian:Templater": false,
+          "chronology:Open Chronology": false,
+          "custom-sort:Toggle custom sorting": false,
+          "cloze:Toggle all clozes": false,
           "flashcards-obsidian:Generate flashcards": true,
           "table-editor-obsidian:Advanced Tables Toolbar": true,
           "switcher:Open quick switcher": true,
-          "graph:Open graph view": false,
           "canvas:Create new canvas": true,
           "daily-notes:Open today's daily note": true,
           "templates:Insert template": true,
-          "command-palette:Open command palette": false,
           "markdown-importer:Open format converter": true,
           "zk-prefixer:Create new unique note": true,
           "random-note:Open random note": true,
           "audio-recorder:Start/stop recording": true,
-          "workspaces:Manage workspace layouts": false,
           "publish:Publish changes...": true,
-          "templater-obsidian:Templater": false,
           "obsidian-excalidraw-plugin:Create new drawing": false,
-          "omnisearch:Omnisearch": false,
           "notion-like-tables:Create loom": false,
-          "custom-sort:Toggle custom sorting": false,
-          "chronology:Open Chronology": false,
           "reference-map:Reference Map": false,
-          "cloze:Toggle all clozes": false,
           "obsidian-trash-explorer:Open trash explorer": false
         }
       },
-      "active": "7d682eb9911e97e6"
+      "active": "897514fb43184f87"
     }
   },
-  "active": "Docker Docs"
+  "active": "Going through and reformatting notes"
 }
