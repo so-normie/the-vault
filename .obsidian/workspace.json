@@ -1,22 +1,19 @@
 {
   "main": {
-    "id": "129f3097f126cfc1",
+    "id": "6a37dff9111f7a7d",
     "type": "split",
     "children": [
       {
-        "id": "02312fc99c451256",
+        "id": "3b3105092d534f29",
         "type": "tabs",
         "children": [
           {
-            "id": "17e2c3f12c4183e7",
+            "id": "a7359aaf72a65cbd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "kartik-misc/355._Design_Twitter.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
+                "currentVersion": "1.5.3"
               }
             }
           }
@@ -26,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f5a8eb526f77d33f",
+    "id": "107bbf5a09fbff43",
     "type": "split",
     "children": [
       {
-        "id": "c2e799ad134556dd",
+        "id": "03851fd5d4cb524e",
         "type": "tabs",
         "children": [
           {
-            "id": "4bbd078a939f1607",
+            "id": "3b22159245c2a393",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,12 +41,12 @@
             }
           },
           {
-            "id": "cfae32b46f24b2be",
+            "id": "360e04912d62fdc3",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(Access a local folder",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -59,18 +56,10 @@
             }
           },
           {
-            "id": "9094592652bde7c5",
+            "id": "eefa6b4d30c89e6f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "d8bd9e79e958e7e7",
-            "type": "leaf",
-            "state": {
-              "type": "trash-explorer",
               "state": {}
             }
           }
@@ -78,24 +67,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 489.5,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "1982d3464f83acf8",
+    "id": "1186c1364788cf17",
     "type": "split",
     "children": [
       {
-        "id": "bbec3a49792849f3",
+        "id": "9d5e5c9b1fa7fc8c",
         "type": "tabs",
         "children": [
           {
-            "id": "fafe1fb10aade653",
+            "id": "1150306fa01e40e1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kartik-misc/355._Design_Twitter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,19 +94,18 @@
             }
           },
           {
-            "id": "6a9a1eb34124bef6",
+            "id": "731fdb06d412aa84",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kartik-misc/355._Design_Twitter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c223f0ff7f4a0f14",
+            "id": "4c1b27a015290e86",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -130,7 +116,7 @@
             }
           },
           {
-            "id": "6b3cd8aeff6b80db",
+            "id": "e720a8ccea140978",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -142,7 +128,15 @@
             }
           },
           {
-            "id": "f5f51bb6371a1726",
+            "id": "7e97bca5491001dd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "5aade107ecd47490",
             "type": "leaf",
             "state": {
               "type": "chronology-calendar-view",
@@ -150,15 +144,7 @@
             }
           },
           {
-            "id": "3abdc3d8f00e79f9",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "0c5e01afae58f6be",
+            "id": "14fdbc695897f306",
             "type": "leaf",
             "state": {
               "type": "reference-map-view",
@@ -166,150 +152,50 @@
             }
           },
           {
-            "id": "8924c524809e611d",
-            "type": "leaf",
-            "state": {
-              "type": "ReferenceListView",
-              "state": {}
-            }
-          },
-          {
-            "id": "0e6a21999e881f35",
-            "id": "247b616c84337e16",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "65d49d91f61a421f",
+            "id": "8f43968eb67ce56c",
             "type": "leaf",
             "state": {
               "type": "oz-calendar",
               "state": {}
             }
-          },
-          {
-            "id": "5f5c4fb233e89169",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero/🗒️ Zotero ∋ Table of Contents.md"
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 502.5
-                "file": "kartik-misc/355._Design_Twitter.md"
-              }
-            }
-          },
-          {
-            "id": "dab8a3e518358855",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-sidebar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "377af7ea5432b005",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 9
-      }
-    ],
-    "direction": "horizontal",
-    "width": 520.5,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": false,
-      "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "chronology:Open Chronology": false,
       "custom-sort:Toggle custom sorting": false,
-      "flashcards-obsidian:Generate flashcards": true,
-      "switcher:Open quick switcher": true,
-      "canvas:Create new canvas": true,
-      "daily-notes:Open today's daily note": true,
-      "templates:Insert template": true,
-      "markdown-importer:Open format converter": true,
-      "zk-prefixer:Create new unique note": true,
-      "random-note:Open random note": true,
-      "audio-recorder:Start/stop recording": true,
-      "publish:Publish changes...": true,
-      "obsidian-trash-explorer:Open trash explorer": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "notion-like-tables:Create loom": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
+      "flashcards-obsidian:Generate flashcards": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-trash-explorer:Open trash explorer": false,
       "reference-map:Reference Map": false,
+      "cloze:Toggle all clozes": false,
       "obsidian-day-planner:Timeline": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "time-ruler:Open Time Ruler": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "cloze:Toggle all clozes": false,
-      "templater-obsidian:Templater": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "publish:Publish changes...": false
     }
   },
-  "active": "17e2c3f12c4183e7",
-  "lastOpenFiles": [
-    "kartik-misc/kartik-misc ∋ Table of Contents.md",
-    "kartik-misc/355._Design_Twitter.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Excel/Misc. Notes.md",
-    "kartik-misc",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Excel/🗒️ Microsoft Excel ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French/🗒️ French ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Angular/Misc. Notes.md",
-    "the-vault/templates/Template {{Anki Note ∋ “⋕card-reverse”}}.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French",
-    "2023-12-26.md",
-    "the-vault/assets/excalidraw/Drawing 2023-12-26 13.41.06.excalidraw.md",
-    "the-vault/assets/excalidraw/Drawing 2023-12-26 13.50.21.excalidraw.md",
-    "assets/assets ∋ Table of Contents.md",
-    "assets/Pasted Image 20231226135112_076.png",
-    "assets",
-    "assets/Pasted Image 20231226134948_179.png",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
-    "the-vault/test.md",
-    "the-vault/src/Leila's Junk/Leila Phyiscs Final.md",
-    "the-vault/src/Leila's Junk/Leila's Junk ∋ Table of Contents.md",
-    "the-vault/src/Leila's Junk",
-    "🏗️ Data Garage/Data Garage꞉ Project 1.md",
-    "the-vault/terror-interview-problem.md",
-    "the-vault/assets/images/Pasted image 20231119023627.png",
-    "the-vault/assets/images/Pasted image 20231117020633.png",
-    "the-vault/assets/images/Pasted image 20231105005754.png",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Hugo/🗒️ Hugo ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ HTML/🗒️ HTML ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Hugo/📄 Hugo ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GoogleTest/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GoogleTest/🗒️ GoogleTest ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Google Apps Script/🗒️ Google Apps Script ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Go/🗒️ Go ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Untitled",
-    "the-vault/assets/excalidraw/Drawing 2023-12-11 22.48.51.excalidraw.light.png",
-    "the-vault/assets/excalidraw/Drawing 2023-12-11 22.48.51.excalidraw.light.svg",
-    "the-vault/assets/excalidraw/Drawing 2023-12-11 22.48.51.excalidraw.dark.png",
-    "the-vault/assets/excalidraw/Drawing 2023-12-11 22.48.51.excalidraw.dark.svg",
-    "🏗️ Data Garage",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Untitled",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Discord",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel",
-    "the-vault/assets/images/Pasted image 20231119160217.png"
-  ]
+  "active": "a7359aaf72a65cbd",
+  "lastOpenFiles": []
+}
