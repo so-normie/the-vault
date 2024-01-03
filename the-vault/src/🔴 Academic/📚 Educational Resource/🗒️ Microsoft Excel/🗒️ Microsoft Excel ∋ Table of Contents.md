@@ -5,13 +5,19 @@ tags:
   - study-note
 cards-deck: Default::Business
 created: 2023-09-03 08:46
-updated: 2023-12-13T05:53
+updated: 2024-01-02T00:58
 ---
 
-n excel? #card 
+Inexcel? 
+
+#card 
+
 `=DATE(year,1,1)`
 
-What is the shortcut to highlight an entire column of a table in Excel? #card 
+What is the shortcut to highlight an entire column of a table in Excel? 
+
+#card 
+
 <kbd>Ctrl</kbd> + <kbd>Space</kbd>
 
 What is the shortcut to highlight all cells above, or below, in a column of a table in Excel? #card

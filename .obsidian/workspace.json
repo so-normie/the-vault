@@ -8,33 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2e4e0a39555bc835",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French/Misc. Notes.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "17e2c3f12c4183e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+                "file": "kartik-misc/355._Design_Twitter.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 595.5,
+    "width": 489.5,
     "collapsed": true
   },
   "right": {
@@ -109,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+                "file": "kartik-misc/355._Design_Twitter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+                "file": "kartik-misc/355._Design_Twitter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md"
+                "file": "kartik-misc/355._Design_Twitter.md"
               }
             }
           },
@@ -230,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -269,7 +255,13 @@
   },
   "active": "17e2c3f12c4183e7",
   "lastOpenFiles": [
+    "kartik-misc/kartik-misc ∋ Table of Contents.md",
+    "kartik-misc/355._Design_Twitter.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Excel/Misc. Notes.md",
+    "kartik-misc",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Microsoft Excel/🗒️ Microsoft Excel ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French/🗒️ French ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Angular/Misc. Notes.md",
     "the-vault/templates/Template {{Anki Note ∋ “⋕card-reverse”}}.md",
@@ -298,11 +290,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GoogleTest/🗒️ GoogleTest ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Google Apps Script/🗒️ Google Apps Script ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Go/🗒️ Go ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/🗒️ GitHub CLI ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub/🗒️ GitHub ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Untitled",
     "the-vault/assets/excalidraw/Drawing 2023-12-11 22.48.51.excalidraw.light.png",
     "the-vault/assets/excalidraw/Drawing 2023-12-11 22.48.51.excalidraw.light.svg",
@@ -313,7 +300,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew/💼 Vocational",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Discord",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Bazel",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Discord/DE Grind Crew",
     "the-vault/assets/images/Pasted image 20231119160217.png"
   ]
 }
