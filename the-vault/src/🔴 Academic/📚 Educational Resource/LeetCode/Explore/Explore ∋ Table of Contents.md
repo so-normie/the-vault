@@ -1,7 +1,7 @@
 ---
-title: 0. Introduction ∋ Table of Contents
-created: 2023-08-30 00:00
-updated: 2024-01-05T10:44
+title: Explore ∋ Table of Contents
+created: 2024-01-05T10:43
+updated: 2024-01-05T10:46
 authors:
   - Edmund Leibert III
 tags:
@@ -9,10 +9,10 @@ tags:
   - 🔴-academic/📚-educational-resource/format/course
   - 🔴-academic/📚-educational-resource/discipline/computer-science
   - study-note
-cards-deck: 🔴 Academic::📚 Educational Resource::Structy::0. Introduction::0. Introduction ∋ Table of Contents
+cards-deck: 🔴 Academic::📚 Educational Resource::LeetCode::Explore ∋ Table of Contents
 ---
 
-# 0. Introduction
+# Explore
 
 ---
 
@@ -43,4 +43,5 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Structy::0. Introduction::
 > **Next Note(s):**
 > - [1. Array and String ∋ Table of Contents](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/Structy/1.%20Array%20and%20String/1.%20Array%20and%20String%20∋%20Table%20of%20Contents.md)
 > - [000. course introduction](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/Structy/0.%20Introduction/000.%20course%20introduction.md)
+
 ---

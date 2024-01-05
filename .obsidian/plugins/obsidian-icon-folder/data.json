@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiSelenium",
       "EiMermaid",
       "EiTestingIcon",
       "TiNotes",
@@ -19,8 +20,7 @@
       "FabAws",
       "SiGooglesheets",
       "EiWikipedia",
-      "SiWikipedia",
-      "FabGoogle"
+      "SiWikipedia"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -353,5 +353,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1050. Actors and Directors Who Cooperated At Least Three Times.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GoogleTest/Misc. Notes.md": "TiNotes",
   "the-vault/test.md": "EiTestingIcon",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French/Misc. Notes.md": "TiNotes"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French/Misc. Notes.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Selenium": "SiSelenium"
 }

@@ -1,7 +1,7 @@
 ---
 title: Misc. Notes
 created: 2023-09-03 08:46
-updated: 2023-12-11T05:01
+updated: 2024-01-05T10:53
 authors:
   - Edmund Leibert III
 tags:
@@ -117,11 +117,11 @@ What is the difference between **.NET Core**, **.NET Framework**, and **.NET**?
 #card 
 
 As of 2023, **.NET Core**, **.NET Framework**, and **.NET** are runtimes for building applications with **.NET**, sharing many of the same APIs called the .NET Standard[1](https://stackify.com/net-core-vs-net-framework/).
-	- **.NET Framework** is used for Windows desktop and server-based applications, including ASP.NET web applications[1](https://stackify.com/net-core-vs-net-framework/).
-	- **.NET Core** is used for server applications that run on Windows, Linux, and Mac, and supports the implementation of micro-services[1](https://stackify.com/net-core-vs-net-framework/).
-		- **.NET Core** is more effective, fast, secure, flexible, and scalable than **.NET Framework**, and offers cross-platform performance and cloud deployment[1](https://stackify.com/net-core-vs-net-framework/).
-		- **.NET Core** is open source and free to use[1](https://stackify.com/net-core-vs-net-framework/).
-		- **.NET** is simply the new name for **.NET Core** (the “Core” part of the name was dropped for .NET Core v5.0)
+- **.NET Framework** is used for Windows desktop and server-based applications, including ASP.NET web applications[1](https://stackify.com/net-core-vs-net-framework/).
+- **.NET Core** is used for server applications that run on Windows, Linux, and Mac, and supports the implementation of micro-services[1](https://stackify.com/net-core-vs-net-framework/).
+	- **.NET Core** is more effective, fast, secure, flexible, and scalable than **.NET Framework**, and offers cross-platform performance and cloud deployment[1](https://stackify.com/net-core-vs-net-framework/).
+	- **.NET Core** is open source and free to use[1](https://stackify.com/net-core-vs-net-framework/).
+	- **.NET** is simply the new name for **.NET Core** (the “Core” part of the name was dropped for .NET Core v5.0)
 
 ⌂
 <br>﹈<br>^1702296738273
