@@ -11,7 +11,8 @@
     "keyboard-button",
     "realistic-highlight",
     "source-mode",
-    "spoiler"
+    "spoiler",
+    "callouts"
   ],
   "monospaceFontFamily": "CaskaydiaCove Nerd Font",
   "textFontFamily": "Atkinson Hyperlegible",

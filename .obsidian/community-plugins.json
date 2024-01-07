@@ -1,5 +1,4 @@
 [
-  "obsidian-activity-history",
   "table-editor-obsidian",
   "obsidian-hider",
   "obsidian-minimal-settings",
@@ -48,9 +47,6 @@
   "colored-tags-wrangler",
   "cloze",
   "obsidian-day-planner",
-  "obsidian-full-calendar",
   "heatmap-calendar",
-  "oz-calendar",
-  "time-ruler",
   "obsidian-outliner"
 ]

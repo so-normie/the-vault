@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiEsbuild",
       "SiSelenium",
       "EiMermaid",
       "EiTestingIcon",
@@ -19,8 +20,7 @@
       "EiSystemDesignFightClub",
       "FabAws",
       "SiGooglesheets",
-      "EiWikipedia",
-      "SiWikipedia"
+      "EiWikipedia"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -354,5 +354,6 @@
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GoogleTest/Misc. Notes.md": "TiNotes",
   "the-vault/test.md": "EiTestingIcon",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French/Misc. Notes.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Selenium": "SiSelenium"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Selenium": "SiSelenium",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESBuild": "SiEsbuild"
 }

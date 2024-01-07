@@ -22,6 +22,3 @@ sorting-spec: |-
   %
   sortspec
 ---
-
-
-
