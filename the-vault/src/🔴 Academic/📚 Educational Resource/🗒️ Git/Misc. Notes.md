@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Git
 created: 2023-08-04 01:58
-updated: 2024-01-07T00:15
+updated: 2024-01-07T00:21
 authors:
   - Edmund Leibert III
 tags:
