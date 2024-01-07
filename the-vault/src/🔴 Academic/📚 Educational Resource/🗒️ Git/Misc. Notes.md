@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Git
 created: 2023-08-04 01:58
-updated: 2023-12-12T01:44
+updated: 2024-01-07T00:15
 authors:
   - Edmund Leibert III
 tags:
@@ -400,7 +400,7 @@ How do I set to ignore all the contents of a folder no matter where it may be in
 <br>﹈<br>^1700962345919
 
 ﹇<br>
-What does `git saubmodule add` do? 
+What does `git submodule add` do? 
 
 #card 
 
