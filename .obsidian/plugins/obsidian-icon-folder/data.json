@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "EiHsfLogo",
       "SiEsbuild",
       "SiSelenium",
       "EiMermaid",
@@ -19,8 +20,7 @@
       "SiPython",
       "EiSystemDesignFightClub",
       "FabAws",
-      "SiGooglesheets",
-      "EiWikipedia"
+      "SiGooglesheets"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -355,5 +355,7 @@
   "the-vault/test.md": "EiTestingIcon",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French/Misc. Notes.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Selenium": "SiSelenium",
-  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESBuild": "SiEsbuild"
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESBuild": "SiEsbuild",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESBuild/Misc. Notes.md": "TiNotes",
+  "the-vault/src/🔴 Academic/📚 Educational Resource/More Modern CMake": "EiHsfLogo"
 }

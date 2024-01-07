@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "3b3105092d534f29",
+        "id": "f314596cb6f9a9be",
         "type": "tabs",
         "children": [
           {
-            "id": "a7359aaf72a65cbd",
+            "id": "75dde340058e01a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "542f34c6787f4326",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,6 +161,24 @@
               "type": "reference-map-view",
               "state": {}
             }
+          },
+          {
+            "id": "b8b73bcedd402aeb",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          },
+          {
+            "id": "b022a1dcf1ac1279",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md"
+              }
+            }
           }
         ],
         "currentTab": 4
@@ -160,13 +192,8 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "chronology:Open Chronology": false,
       "custom-sort:Toggle custom sorting": false,
-      "notion-like-tables:Create loom": false,
-      "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false,
       "flashcards-obsidian:Generate flashcards": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-trash-explorer:Open trash explorer": false,
-      "reference-map:Reference Map": false,
       "cloze:Toggle all clozes": false,
       "obsidian-day-planner:Timeline": false,
       "switcher:Open quick switcher": false,
@@ -180,13 +207,24 @@
       "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "publish:Publish changes...": false
+      "publish:Publish changes...": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false,
+      "notion-like-tables:Create loom": false,
+      "reference-map:Reference Map": false
     }
   },
-  "active": "a7359aaf72a65cbd",
+  "active": "542f34c6787f4326",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Get started ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GoogleTest/🗒️ GoogleTest ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Hugo/🗒️ Hugo ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Java/🗒️ Java ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/🗒️ JavaScript ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Get started ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/sortspec.md",

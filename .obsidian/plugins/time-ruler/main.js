@@ -67642,20 +67642,20 @@ function roundMinutes(date) {
 var isDateISO = (isoString) => isoString.length === 10;
 var getEndISO = ({ tasks, events: events2, startISO, endISO }) => {
   invariant(startISO, endISO);
-  let startDate = DateTime.fromISO(startISO);
+  let startTime = DateTime.fromISO(startISO);
   for (let event of events2) {
     const length2 = DateTime.fromISO(event.endISO).diff(
       DateTime.fromISO(event.startISO)
     );
-    startDate = startDate.plus(length2);
+    startTime = startTime.plus(length2);
   }
   for (let task of tasks) {
     if (!task.length)
       continue;
     const length2 = Duration.fromDurationLike(task.length);
-    startDate = startDate.plus(length2);
+    startTime = startTime.plus(length2);
   }
-  return import_lodash2.default.max([toISO(startDate), endISO]);
+  return import_lodash2.default.max([toISO(startTime), endISO]);
 };
 var parseFolderFromPath = (path2) => {
   if (path2.endsWith("/"))
@@ -67667,6 +67667,8 @@ var parseFileFromPath = (path2) => {
     path2 = path2.slice(0, path2.indexOf(">"));
   if (path2.includes("#"))
     path2 = path2.slice(0, path2.indexOf("#"));
+  if (path2.includes(":"))
+    path2 = path2.slice(0, path2.indexOf(":"));
   return path2;
 };
 var parsePathFromDate = (date, dailyNoteInfo2) => {
@@ -67752,7 +67754,9 @@ var useChildWidth = ({
     if (newChildWidth !== childWidthRef.current)
       setters.set({ childWidth: newChildWidth });
   };
-  const [viewMode, viewModeRef] = useAppStoreRef((state) => state.viewMode);
+  const [viewMode, viewModeRef] = useAppStoreRef(
+    (state) => state.settings.viewMode
+  );
   const childWidthToClass = [
     "",
     "child:w-full",
@@ -67917,13 +67921,13 @@ var getParents = (task, tasks) => {
 };
 var getParentScheduled = (task, tasks) => {
   var _a, _b;
-  if (task.scheduled)
-    return task.scheduled;
+  if (parseTaskDate(task))
+    return parseTaskDate(task);
   let parent = (_a = task.parent) != null ? _a : task.queryParent;
   while (parent) {
     task = tasks[parent];
-    if (task.scheduled)
-      return task.scheduled;
+    if (parseTaskDate(task))
+      return parseTaskDate(task);
     parent = (_b = task.parent) != null ? _b : task.queryParent;
   }
   return void 0;
@@ -67972,11 +67976,18 @@ var useAppStore = createWithEqualityFn(() => ({
     showCompleted: false,
     extendBlocks: false,
     hideTimes: false,
-    separatorHour: 0
+    borders: false,
+    viewMode: "day"
   },
   showingPastDates: false,
   searchWithinWeeks: [-1, 1],
-  childWidth: 1
+  childWidth: 1,
+  timer: {
+    negative: false,
+    maxSeconds: null,
+    startISO: void 0,
+    playing: false
+  }
 }));
 var useAppStoreRef = (callback) => {
   const storeValue = useAppStore(callback);
@@ -68011,6 +68022,11 @@ var setters = {
       parseFileFromPath(heading),
       parseFileFromPath(beforeHeading)
     );
+  },
+  patchTimer: (timer) => {
+    modify((state) => {
+      state.timer = { ...state.timer, ...timer };
+    });
   }
 };
 var getters = {
@@ -68057,9 +68073,7 @@ var onDragEnd = async (ev, activeDragRef) => {
             if (!confirm(`Delete ${children.length} tasks and children?`))
               break;
           }
-          for (let id of children.reverse()) {
-            await getters.getObsidianAPI().deleteTask(id);
-          }
+          await getters.getObsidianAPI().deleteTasks(children.reverse());
           break;
       }
     } else {
@@ -68933,7 +68947,7 @@ function getProperty(page, property) {
 // src/services/obsidianApi.ts
 var dv;
 var ObsidianAPI = class extends import_obsidian3.Component {
-  constructor(settings, setSetting) {
+  constructor(settings, setSetting, app2) {
     super();
     this.getSetting = (setting) => this.settings[setting];
     this.createNewTask = (newTask, selectedHeading, dailyNoteInfo2) => {
@@ -68958,6 +68972,7 @@ var ObsidianAPI = class extends import_obsidian3.Component {
     dv = (0, import_obsidian_dataview.getAPI)();
     this.settings = settings;
     this.setSetting = setSetting;
+    this.app = app2;
   }
   playComplete() {
     if (this.settings.muted)
@@ -68965,7 +68980,7 @@ var ObsidianAPI = class extends import_obsidian3.Component {
     sounds.pop.currentTime = 0;
     sounds.pop.play();
   }
-  getExcludePaths() {
+  reload() {
     const excludePaths = app.vault.getConfig("userIgnoreFilters");
     if (!excludePaths)
       return;
@@ -68980,22 +68995,25 @@ var ObsidianAPI = class extends import_obsidian3.Component {
     );
     let taskSearch;
     let pageSearch;
+    const testDateBounds = (task) => {
+      var _a, _b;
+      const taskDate = (_b = (_a = task.scheduled) != null ? _a : task.due) != null ? _b : task.completion;
+      if (!DateTime.isDateTime(taskDate))
+        return true;
+      const dateString = toISO(taskDate);
+      if (!dateString)
+        return true;
+      return dateString >= dateBounds[0] && dateString <= dateBounds[1];
+    };
     try {
       let basicSearch = dv.pages(
         `"${path.replace(/"/g, '\\"')}" and (${this.settings.search || '""'})`
       );
-      const testDateBounds = (task) => {
-        var _a, _b;
-        const taskDate = (_b = (_a = task.scheduled) != null ? _a : task.due) != null ? _b : task.completion;
-        if (!DateTime.isDateTime(taskDate))
-          return !task.completion || this.settings.showCompleted;
-        const dateString = toISO(taskDate);
-        if (!dateString)
-          return true;
-        return (!completed || dateString >= dateBounds[0]) && dateString <= dateBounds[1];
-      };
       taskSearch = basicSearch["file"]["tasks"].where(
-        (task) => (completed && task.completed || (!completed || !this.settings.showCompleted) && !task.completed) && customStatuses.test(task.status) === this.settings.customStatus.include && !(this.excludePaths && this.excludePaths.test(task.path)) && !(task.start && DateTime.isDateTime(task.start) && now < task.start) && testDateBounds(task)
+        (task) => {
+          const tested = (this.settings.showCompleted || completed && task.completed || !completed && !task.completed) && customStatuses.test(task.status) === this.settings.customStatus.include && !(this.excludePaths && this.excludePaths.test(task.path)) && !(task.start && DateTime.isDateTime(task.start) && now < task.start) && testDateBounds(task);
+          return tested;
+        }
       );
       pageSearch = basicSearch.where((page) => {
         const pageCompleted = getProperty(page, "completed");
@@ -69054,7 +69072,7 @@ var ObsidianAPI = class extends import_obsidian3.Component {
     }
     return processedTasks;
   }
-  loadTasks(path2) {
+  loadTasks(path2, completed2) {
     if (!dv.index.initialized) {
       return;
     }
@@ -69064,16 +69082,10 @@ var ObsidianAPI = class extends import_obsidian3.Component {
       DateTime.now().plus({ weeks: searchWithinWeeks[0] }).toISODate(),
       DateTime.now().plus({ weeks: searchWithinWeeks[1] }).toISODate()
     ];
-    const tasks = this.searchTasks(path2, dailyNoteInfo2, false, dateBounds2);
-    const completedTasks = this.searchTasks(
-      path2,
-      dailyNoteInfo2,
-      true,
-      dateBounds2
-    );
-    this.updateTasks([...tasks, ...completedTasks], path2, dailyNoteInfo2);
+    const tasks = this.searchTasks(path2, dailyNoteInfo2, completed2, dateBounds2);
+    this.updateTasks([...tasks], path2, dailyNoteInfo2, completed2);
   }
-  updateTasks(processedTasks2, path2, dailyNoteInfo2) {
+  updateTasks(processedTasks2, path2, dailyNoteInfo2, completed2) {
     const updatedTasks = {
       ...getters.get("tasks")
     };
@@ -69102,8 +69114,9 @@ var ObsidianAPI = class extends import_obsidian3.Component {
     let updated = false;
     const updatedIds = processedTasks2.map((task) => task.id);
     const pathName = path2.replace(".md", "");
-    for (let id of Object.keys(updatedTasks).filter(
-      (taskId) => taskId.startsWith(pathName) && !updatedIds.includes(taskId)
+    const showCompleted = getters.get("settings").showCompleted;
+    for (let { id } of Object.values(updatedTasks).filter(
+      (task) => task.id.startsWith(pathName) && (showCompleted || task.completed === completed2) && !updatedIds.includes(task.id)
     )) {
       updated = true;
       delete updatedTasks[id];
@@ -69273,28 +69286,39 @@ var ObsidianAPI = class extends import_obsidian3.Component {
     else
       return void 0;
   }
-  async deleteTask(id) {
-    const task = getters.getTask(id);
-    const file = await this.getFile(task.path);
-    if (!file)
-      return;
-    const fileText = await app.vault.read(file);
-    const lines = fileText.split("\n");
-    lines.splice(
-      task.position.start.line,
-      task.position.end.line + 1 - task.position.start.line
+  async deleteTasks(ids2) {
+    const tasks = getters.get("tasks");
+    const deletedTaskGroups = ids2.map((id) => tasks[id]);
+    const files = import_lodash5.default.groupBy(
+      deletedTaskGroups,
+      (task) => parseFileFromPath(task.path)
     );
-    if (task.query) {
-      const updatedTasks = {};
-      for (let queriedTask of import_lodash5.default.filter(
-        getters.get("tasks"),
-        (queriedTask2) => queriedTask2.queryParent === task.id
+    const updatedTasks = {};
+    for (let [filePath, deletedTasks] of import_lodash5.default.entries(files)) {
+      const file = await this.getFile(filePath);
+      invariant(file);
+      const fileText = await this.app.vault.read(file);
+      const lines = fileText.split("\n");
+      for (let task of import_lodash5.default.sortBy(
+        deletedTasks,
+        (task2) => task2.position.start.line * -1
       )) {
-        updatedTasks[queriedTask.id] = import_lodash5.default.omit(queriedTask, "queryParent");
+        lines.splice(
+          task.position.start.line,
+          task.position.end.line + 1 - task.position.start.line
+        );
+        if (task.query) {
+          for (let queriedTask of import_lodash5.default.filter(
+            getters.get("tasks"),
+            (queriedTask2) => queriedTask2.queryParent === task.id
+          )) {
+            updatedTasks[queriedTask.id] = import_lodash5.default.omit(queriedTask, "queryParent");
+          }
+        }
       }
-      setters.set(updatedTasks);
+      await app.vault.modify(file, lines.join("\n"));
     }
-    await app.vault.modify(file, lines.join("\n"));
+    setters.set(updatedTasks);
   }
   async saveTask(task, newTask) {
     var _a, _b, _c;
@@ -69324,7 +69348,7 @@ var ObsidianAPI = class extends import_obsidian3.Component {
         // @ts-ignore
         "dataview:metadata-change",
         (...args) => {
-          this.loadTasks(args[1].path);
+          this.loadTasks(args[1].path, getters.get("showingPastDates"));
         }
       )
     );
@@ -69525,7 +69549,7 @@ function Droppable({
       ref(node);
       setNodeRef(node);
     } : setNodeRef,
-    className: `${children.props.className} rounded-lg ${isOver ? "!bg-selection" : ""}`
+    className: `${children.props.className} rounded-icon ${isOver ? "!bg-selection" : ""}`
   });
 }
 
@@ -69629,14 +69653,14 @@ function Task({
   return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
     "div",
     {
-      className: `relative rounded-lg py-0.5 transition-colors duration-300 w-full`,
+      className: `relative rounded-icon py-0.5 transition-colors duration-300 w-full`,
       "data-id": isLink ? "" : task.id,
       "data-task": task.status === " " ? "" : task.status,
       children: [
         /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
           "div",
           {
-            className: `selectable group flex items-start rounded-lg pr-2 ${isLink ? "font-menu text-xs" : "font-sans"}`,
+            className: `selectable group flex items-start rounded-icon pr-2 ${isLink ? "font-menu text-xs" : "font-sans"}`,
             ref: setNodeRef,
             children: [
               /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "flex h-line w-indent flex-none items-center justify-center", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
@@ -69644,7 +69668,7 @@ function Task({
                 {
                   onPointerDown: () => false,
                   onClick: () => completeTask(),
-                  className: `task-list-item-checkbox selectable flex flex-none items-center justify-center rounded-checkbox border border-solid border-faint p-0 text-xs shadow-none hover:border-normal ${isLink ? "h-2 w-2" : "h-4 w-4"} ${task.completed ? "bg-faint" : "bg-transparent"}`,
+                  className: `task-list-item-checkbox selectable flex flex-none items-center justify-center rounded-checkbox border border-solid border-faint p-0 text-xs shadow-none hover:border-normal cursor-pointer ${isLink ? "h-2 w-2" : "h-4 w-4"} ${task.completed ? "bg-faint" : "bg-transparent"}`,
                   "data-task": task.status === " " ? "" : task.status,
                   children: task.status === "x" ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(import_jsx_runtime4.Fragment, {}) : task.status
                 }
@@ -69660,14 +69684,6 @@ function Task({
                 }
               ),
               /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "flex h-line grow items-center justify-end space-x-1 font-menu child:my-1", children: [
-                task.tags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
-                  "div",
-                  {
-                    className: "cm-hashtag cm-hashtag-end cm-hashtag-begin !h-fit !text-xs !max-h-line",
-                    children: tag.replace("#", "")
-                  },
-                  tag
-                )),
                 task.priority !== 3 /* DEFAULT */ && /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "task-priority whitespace-nowrap rounded-full px-1 font-menu text-xs font-bold text-accent", children: priorityNumberToSimplePriority[task.priority] }),
                 hasLengthDrag && /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
                   "div",
@@ -69703,7 +69719,7 @@ function Task({
                       Logo,
                       {
                         src: "align-justify",
-                        className: "hover:bg-selection transition-colors duration-300 rounded-lg p-1 w-6"
+                        className: "hover:bg-selection transition-colors duration-300 rounded-icon p-1 w-6"
                       }
                     )
                   }
@@ -69712,11 +69728,14 @@ function Task({
             ]
           }
         ),
-        import_lodash6.default.keys(task.extraFields).length > 0 && /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "no-scrollbar flex space-x-2 overflow-x-auto pl-8 text-xs", children: import_lodash6.default.sortBy(import_lodash6.default.entries(task.extraFields), 0).map(([key2, value]) => /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "flex overflow-hidden rounded child:px-1", children: [
-          key2,
-          ": ",
-          value
-        ] }, key2)) }),
+        import_lodash6.default.keys(task.extraFields).length > 0 && /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "no-scrollbar flex space-x-2 overflow-x-auto pl-indent text-xs child:whitespace-nowrap", children: task.tags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
+          "div",
+          {
+            className: "cm-hashtag cm-hashtag-end cm-hashtag-begin !h-fit !text-xs",
+            children: tag.replace("#", "")
+          },
+          tag
+        )) }),
         !isLink && task.notes && /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "task-description break-words pl-indent pr-2 text-xs text-faint", children: task.notes }),
         subtasks && subtasks.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "flex w-full overflow-hidden", children: [
           /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
@@ -69726,7 +69745,7 @@ function Task({
               children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
                 "div",
                 {
-                  className: "h-full w-full transition-colors duration-300 hover:bg-selection rounded-lg flex items-center justify-center cursor-pointer",
+                  className: "h-full w-full transition-colors duration-300 hover:bg-selection rounded-icon flex items-center justify-center cursor-pointer",
                   onClick: () => setters.patchCollapsed([task.id], !collapsed),
                   children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
                     "div",
@@ -69817,13 +69836,13 @@ function Group({
                 heading: parseFileFromPath(path2)
               },
               id: `${dragContainer}::${path2}::droppable`,
-              children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { className: "h-2 w-full rounded-lg" })
+              children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { className: "h-2 w-full rounded-icon" })
             }
-          ) : /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { className: "h-2 w-full rounded-lg" }),
+          ) : /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { className: "h-2 w-full rounded-icon" }),
           /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(
             "div",
             {
-              className: `selectable flex rounded-lg font-menu text-xs group w-full`,
+              className: `selectable flex rounded-icon font-menu text-xs group w-full`,
               children: [
                 /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { className: "w-indent flex-none px-1", children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(
                   Button_default,
@@ -69847,7 +69866,7 @@ function Group({
                     children: [
                       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { className: `w-fit flex-none max-w-[50%] text-normal`, children: heading.slice(0, 40) + (heading.length > 40 ? "..." : "") }),
                       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("hr", { className: "border-t border-t-faint opacity-50 mx-2 h-0 my-0 w-full" }),
-                      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { className: "w-fit flex-none text-right pr-2", children: hidePaths.includes(container) ? "" : (container.slice(0, 25) + (container.length > 25 ? "..." : "")).replace(".md", "") })
+                      container && !hidePaths.includes(container) && /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", { className: "w-fit flex-none text-right pr-2", children: (container.slice(0, 25) + (container.length > 25 ? "..." : "")).replace(".md", "") })
                     ]
                   }
                 )
@@ -69876,39 +69895,29 @@ function Minutes({
   endISO,
   chopEnd,
   chopStart,
-  dragContainer,
-  noExtension,
-  nested
+  dragContainer
 }) {
-  const showingPastDates = useAppStore((state) => state.showingPastDates);
   const hideTimes = useAppStore((state) => state.settings.hideTimes);
-  const calendarMode = useAppStore((state) => state.viewMode === "week");
   const dayEnd = useAppStore((state) => state.settings.dayStartEnd[1]);
   if (hideTimes)
     return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(import_jsx_runtime6.Fragment, {});
   const times = [];
   const givenStart = DateTime.fromISO(startISO);
   const givenEnd = DateTime.fromISO(endISO);
-  const type = calendarMode ? "hours" : "minutes";
+  const type = useAppStore(
+    (state) => state.settings.viewMode === "week" ? "hours" : "minutes"
+  );
   let start = roundMinutes(givenStart);
   let end = roundMinutes(givenEnd);
   let dayEndTime = start.set({ hour: dayEnd });
-  if (dayEnd < 12 && end.get("hour") >= dayEnd)
+  if (dayEnd < 12 && start.get("hour") >= dayEnd)
     dayEndTime = dayEndTime.plus({ days: 1 });
   const now3 = roundMinutes(DateTime.now());
-  if (showingPastDates) {
-    start = DateTime.min(now3, start);
-    end = DateTime.min(now3, end);
-  } else {
-    start = DateTime.max(now3, start);
-    end = DateTime.max(now3, end);
-  }
   end = DateTime.min(end, dayEndTime);
   const modifier = {
     minutes: { minutes: 15 },
     hours: { hours: 1 }
   };
-  const nowISO = toISO(now3);
   if (chopStart && !(start <= now3 && end > now3))
     start = start.plus(modifier[type]);
   if (chopEnd)
@@ -69920,9 +69929,7 @@ function Minutes({
     );
   }
   const startISOs = times.map((time) => toISO(time));
-  return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", { className: `min-h-[4px]`, children: times.map(
-    (time, i) => startISOs[i] === nowISO ? /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(NowTime, { dragContainer }, startISOs[i]) : /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(Time, { ...{ type, time, dragContainer } }, startISOs[i])
-  ) });
+  return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", { className: `min-h-[4px]`, children: times.map((time, i) => /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(Time, { ...{ type, time, dragContainer } }, startISOs[i])) });
 }
 function Time({ time, type, dragContainer }) {
   const minutes = time.minute;
@@ -69972,7 +69979,7 @@ function Time({ time, type, dragContainer }) {
         /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(
           "div",
           {
-            className: `text-sm absolute right-10 h-4 items-center bg-primary rounded-lg px-2 text-accent !z-50 justify-center ${isOver ? "block" : "hidden"}`,
+            className: `flex text-sm absolute right-12 h-4 items-center bg-selection rounded-icon px-2 text-accent !z-50 justify-center ${isOver ? "block" : "hidden"}`,
             children: [
               hours,
               ":",
@@ -69994,7 +70001,7 @@ function Time({ time, type, dragContainer }) {
               /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(
                 "hr",
                 {
-                  className: `hover:border-accent border-faint my-0 border-0 border-t ${type === "hours" ? hours % 6 === 0 ? "w-6" : hours % 3 === 0 ? "w-4" : "w-1" : minutes === 0 ? hours % 3 === 0 ? "w-6" : "w-4" : minutes % 30 === 0 ? "w-2" : "w-1"}`
+                  className: `my-0 border-0 border-t hover:border-accent border-faint ${type === "hours" ? hours % 6 === 0 ? "w-6" : hours % 3 === 0 ? "w-4" : "w-1" : minutes === 0 ? hours % 3 === 0 ? "w-6" : "w-4" : minutes % 30 === 0 ? "w-2" : "w-1"}`
                 }
               ),
               /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(
@@ -70012,34 +70019,6 @@ function Time({ time, type, dragContainer }) {
     iso
   );
 }
-function NowTime({ dragContainer }) {
-  const startISO = toISO(roundMinutes(DateTime.now()));
-  const { isOver, setNodeRef: setDropNodeRef } = useDroppable({
-    id: `${dragContainer}::now::drop`,
-    data: { scheduled: startISO }
-  });
-  const dragData = {
-    dragType: "now"
-  };
-  const nowTime = roundMinutes(DateTime.now());
-  const hourDisplay = useHourDisplay(nowTime.hour);
-  return /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(
-    "div",
-    {
-      className: `flex w-full items-center rounded-lg pl-9 pr-2 hover:bg-selection transition-colors duration-300 ${isOver ? "bg-selection" : ""}`,
-      ref: (node) => {
-        setDropNodeRef(node);
-      },
-      children: [
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", { className: "h-1 w-1 rounded-full bg-red-800" }),
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", { className: "w-full border-0 border-b border-solid border-red-800" }),
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", { className: "text-xs font-menu ml-2", children: `${hourDisplay}:${String(
-          nowTime.minute
-        ).padStart(2, "0")}` })
-      ]
-    }
-  );
-}
 
 // src/components/Hours.tsx
 var import_jsx_runtime7 = __toESM(require_jsx_runtime());
@@ -70051,9 +70030,8 @@ function Hours({
   dragContainer = "",
   noExtension = false
 }) {
-  var _a, _b, _c, _d, _e, _f, _g, _h;
+  var _a, _b, _c, _d, _e, _f;
   const formattedBlocks = [];
-  const dayStartEnd = useAppStore((state) => state.settings.dayStartEnd);
   const extendBlocks = useAppStore((state) => state.settings.extendBlocks);
   for (let i = 0; i < blocks.length; i++) {
     let nestedBlocks = [];
@@ -70069,20 +70047,16 @@ function Hours({
       blocks: nestedBlocks
     });
   }
-  const hideTimes = useAppStore(
-    (state) => state.settings.hideTimes || state.viewMode === "week"
-  );
-  const event = (_d = (_c = blocks[0]) == null ? void 0 : _c.events) == null ? void 0 : _d[0];
+  const hideTimes = useAppStore((state) => state.settings.hideTimes);
   return /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: `pb-1 relative ${hideTimes ? "space-y-1" : ""}`, children: [
     /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
       Minutes,
       {
         dragContainer: dragContainer + "::" + startISO,
         startISO,
-        endISO: (_f = (_e = formattedBlocks[0]) == null ? void 0 : _e.startISO) != null ? _f : endISO,
+        endISO: (_d = (_c = formattedBlocks[0]) == null ? void 0 : _c.startISO) != null ? _d : endISO,
         chopEnd: true,
-        chopStart: chopStart || startISO === ((_h = (_g = formattedBlocks[0]) == null ? void 0 : _g.startISO) != null ? _h : endISO),
-        noExtension
+        chopStart: chopStart || startISO === ((_f = (_e = formattedBlocks[0]) == null ? void 0 : _e.startISO) != null ? _f : endISO)
       }
     ),
     formattedBlocks.map(
@@ -70114,8 +70088,7 @@ function Hours({
               startISO: blockEndISO,
               endISO: (_c2 = (_b2 = formattedBlocks[i + 1]) == null ? void 0 : _b2.startISO) != null ? _c2 : endISO,
               chopEnd: true,
-              chopStart: blockStartISO === blockEndISO,
-              noExtension
+              chopStart: blockStartISO === blockEndISO
             }
           )
         ] }, `${blockStartISO}::${(_a2 = events2[0]) == null ? void 0 : _a2.id}`);
@@ -70238,7 +70211,7 @@ function Block({
     const isDate2 = isDateISO(date);
     return isDate2 ? "all day" : DateTime.fromISO(date).toFormat(twentyFourHourFormat ? "T" : "t");
   };
-  const calendarMode = useAppStore((state) => state.viewMode === "week");
+  const hideTimes = useAppStore((state) => state.settings.hideTimes);
   const draggable = tasks.length > 0;
   const onlyPath = events2.length === 0 && type === "event" && sortedGroups.length === 1 && sortedGroups[0][0] !== UNGROUPED2 ? sortedGroups[0][0] : void 0;
   const onlyPathTitle = useAppStore(
@@ -70256,7 +70229,7 @@ function Block({
     {
       id,
       "data-role": "block",
-      className: `relative w-full rounded-lg ${dragging ? "opacity-50 ancestor:!bg-transparent" : ["event", "unscheduled"].includes(type) ? "bg-secondary-alt" : ""} `,
+      className: `relative w-full rounded-icon ${["event", "unscheduled"].includes(type) ? "bg-code" : ""} `,
       ref: draggable ? setNodeRef : void 0,
       children: [
         type === "event" && /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
@@ -70267,7 +70240,7 @@ function Block({
             children: /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)(
               "div",
               {
-                className: `selectable flex rounded-lg font-menu text-xs group w-full`,
+                className: `selectable flex rounded-icon font-menu text-xs group w-full py-0.5`,
                 children: [
                   /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "w-indent flex-none px-1", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
                     Button_default,
@@ -70299,7 +70272,7 @@ function Block({
                         children: [
                           /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("hr", { className: "border-t border-t-faint opacity-50 h-0 my-0 w-full" }),
                           startISO && /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("span", { className: "ml-2 whitespace-nowrap flex-none", children: formatStart(startISO) }),
-                          calendarMode && startISO && endISO && !isDateISO(startISO) && DateTime.fromISO(startISO).diff(DateTime.fromISO(endISO)) && /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)(import_jsx_runtime8.Fragment, { children: [
+                          hideTimes && startISO && endISO && !isDateISO(startISO) && DateTime.fromISO(startISO).diff(DateTime.fromISO(endISO)) && /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)(import_jsx_runtime8.Fragment, { children: [
                             /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("span", { className: "ml-2 text-faint flex-none", children: ">" }),
                             /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("span", { className: "ml-2 whitespace-nowrap text-muted flex-none", children: formatStart(endISO) })
                           ] })
@@ -70335,7 +70308,6 @@ function Block({
           firstStartISO && firstEndISO && firstStartISO < firstEndISO && /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "w-10 flex-none", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
             Minutes,
             {
-              nested: true,
               startISO: firstStartISO,
               endISO: firstEndISO,
               dragContainer,
@@ -70356,571 +70328,64 @@ function Block({
 
 // src/components/Day.tsx
 var import_lodash9 = __toESM(require_lodash());
-var import_react13 = __toESM(require_react());
-var import_jsx_runtime9 = __toESM(require_jsx_runtime());
-function Day({
-  startISO,
-  endISO,
-  type,
-  dragContainer
-}) {
-  const showingPastDates = useAppStore((state) => state.showingPastDates);
-  const now3 = DateTime.now().toISO();
-  const startDate = startISO.slice(0, 10);
-  const isToday = startDate === getToday();
-  const showCompleted = useAppStore((state) => state.settings.showCompleted);
-  const [blocksByTime, deadlines] = useAppStore((state) => {
-    const blocksByTime2 = {
-      [startDate]: {
-        startISO: startDate,
-        endISO: startDate,
-        blocks: [],
-        tasks: [],
-        events: []
-      }
-    };
-    const deadlines2 = [];
-    import_lodash9.default.forEach(state.tasks, (task) => {
-      const isShown = (task.due || task.scheduled && !task.queryParent) && (showCompleted || (showingPastDates ? task.completed : !task.completed));
-      if (!isShown)
-        return;
-      const scheduled = parseTaskDate(task);
-      const scheduledForToday = !scheduled ? false : isDateISO(scheduled) ? isToday ? scheduled <= startDate : scheduled === startDate : scheduled >= startISO && scheduled < endISO;
-      const dueToday = !task.due ? false : task.due >= startDate;
-      if (dueToday) {
-        deadlines2.push(task);
-      } else if (scheduledForToday) {
-        invariant(scheduled);
-        if (isDateISO(scheduled) || scheduled < startISO) {
-          blocksByTime2[startDate].tasks.push(task);
-        } else {
-          if (blocksByTime2[scheduled])
-            blocksByTime2[scheduled].tasks.push(task);
-          else
-            blocksByTime2[scheduled] = {
-              startISO: scheduled,
-              endISO: scheduled,
-              tasks: [task],
-              events: [],
-              blocks: []
-            };
-        }
-      }
-    });
-    for (let event of import_lodash9.default.filter(
-      state.events,
-      (event2) => event2.endISO > startISO && event2.startISO < endISO && (showingPastDates ? event2.startISO <= now3 : event2.endISO >= now3)
-    )) {
-      if (isDateISO(event.startISO))
-        blocksByTime2[startDate].events.push(event);
-      else if (blocksByTime2[event.startISO])
-        blocksByTime2[event.startISO].events.push(event);
-      else
-        blocksByTime2[event.startISO] = {
-          startISO: event.startISO,
-          endISO: event.endISO,
-          tasks: [],
-          events: [event],
-          blocks: []
-        };
-    }
-    return [blocksByTime2, deadlines2];
-  }, shallow$1);
-  const blocks = import_lodash9.default.map(import_lodash9.default.sortBy(import_lodash9.default.entries(blocksByTime), 0), 1);
-  const viewMode = useAppStore((state) => state.viewMode);
-  const calendarMode = viewMode === "week";
-  let title = dragContainer === "timer" ? "Now" : DateTime.fromISO(startISO || endISO).toFormat(
-    calendarMode ? "EEE d" : "EEE, MMM d"
-  );
-  const [expanded, setExpanded] = (0, import_react13.useState)(
-    dragContainer === "timer" && !calendarMode ? false : true
-  );
-  (0, import_react13.useEffect)(() => {
-    if (calendarMode)
-      setExpanded(true);
-  }, [calendarMode]);
-  const foundTaskInAllDay = useAppStore((state) => {
-    return state.findingTask && blocks[0].tasks.find((task) => task.id === state.findingTask) ? state.findingTask : null;
-  });
-  const expandIfFound = () => {
-    if (foundTaskInAllDay && !expanded) {
-      setExpanded(true);
-      const foundTask = blocks[0].tasks.find(
-        (task) => task.id === foundTaskInAllDay
-      );
-      if (!foundTask)
-        return;
-      setters.set({ findingTask: null });
-      setTimeout(() => openTaskInRuler(foundTask.id));
-    }
-  };
-  (0, import_react13.useEffect)(expandIfFound, [foundTaskInAllDay]);
-  const allDayFrame = (0, import_react13.useRef)(null);
-  const [allDayHeight, setAllDayHeight] = (0, import_react13.useState)();
-  (0, import_react13.useLayoutEffect)(() => {
-    const resizeHeight = () => {
-      if (!expanded || viewMode !== "day")
-        return;
-      const frame = allDayFrame.current;
-      if (!frame)
-        return;
-      const parentFrame = frame.parentElement;
-      invariant(parentFrame);
-      const parentHeight = parentFrame.getBoundingClientRect().height;
-      const frameHeight = frame.getBoundingClientRect().height;
-      if (frameHeight === parentHeight) {
-        setTimeout(resizeHeight);
-        return;
-      }
-      if (frameHeight > parentHeight / 2 && frameHeight !== parentHeight) {
-        setAllDayHeight("50%");
-      }
-    };
-    resizeHeight();
-  }, [calendarMode]);
-  const wide = useAppStore((state) => state.childWidth > 1);
-  return /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: `flex flex-col overflow-hidden relative`, children: [
-    /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "flex items-center group relative z-10 pl-indent", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
-      Droppable,
-      {
-        data: { scheduled: startDate },
-        id: dragContainer + "::" + startISO + "::timeline",
-        children: /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "flex items-center grow", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "font-menu w-full", children: title || "" }),
-          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
-            Button_default,
-            {
-              className: "w-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300",
-              src: expanded ? "chevron-down" : "chevron-left",
-              onClick: () => {
-                setExpanded(!expanded);
-                return false;
-              }
-            }
-          )
-        ] })
-      }
-    ) }),
-    /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)(
-      "div",
-      {
-        className: `rounded-lg ${{
-          hour: wide ? "h-0 grow flex space-x-2 child:h-full child:flex-1 child:w-full justify-center child:max-w-xl" : "h-0 grow flex flex-col",
-          day: "overflow-y-auto",
-          week: "overflow-y-auto"
-        }[viewMode]}`,
-        "data-auto-scroll": calendarMode ? "y" : void 0,
-        children: [
-          deadlines.length + blocks[0].tasks.length + blocks[0].events.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)(
-            "div",
-            {
-              className: `relative w-full child:mb-1 overflow-x-hidden rounded-lg mt-1 ${{
-                hour: wide ? "!h-full" : "max-h-[50%] flex-none overflow-y-auto resize-y",
-                day: "h-fit",
-                week: "h-fit"
-              }[viewMode]} ${!expanded ? "hidden" : "block"}`,
-              style: {
-                height: viewMode === "hour" ? allDayHeight : ""
-              },
-              "data-auto-scroll": calendarMode ? void 0 : "y",
-              ref: allDayFrame,
-              children: [
-                deadlines.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "rounded-lg bg-secondary-alt", children: import_lodash9.default.sortBy(deadlines, "due", "scheduled").map((task) => /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
-                  Task,
-                  {
-                    renderType: "deadline",
-                    subtasks: [],
-                    dragContainer,
-                    ...task
-                  },
-                  task.id
-                )) }),
-                blocks[0].events.map((event) => /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
-                  Block,
-                  {
-                    type: "event",
-                    events: [event],
-                    id: event.id,
-                    tasks: [],
-                    startISO: startDate,
-                    endISO: startDate,
-                    dragContainer,
-                    blocks: []
-                  },
-                  event.id
-                )),
-                blocks[0].tasks.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
-                  Block,
-                  {
-                    type: "event",
-                    events: [],
-                    tasks: blocks[0].tasks,
-                    startISO: startDate,
-                    endISO: startDate,
-                    dragContainer,
-                    blocks: []
-                  }
-                )
-              ]
-            }
-          ),
-          /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)(
-            "div",
-            {
-              className: `overflow-x-hidden rounded-lg mt-1 ${{
-                hour: "h-0 grow overflow-y-auto",
-                day: "h-fit",
-                week: "h-fit"
-              }[viewMode]}`,
-              "data-auto-scroll": calendarMode ? void 0 : "y",
-              children: [
-                /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
-                  Hours,
-                  {
-                    ...{
-                      startISO,
-                      endISO,
-                      type,
-                      blocks: blocks.slice(1),
-                      dragContainer
-                    }
-                  }
-                ),
-                /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
-                  Droppable,
-                  {
-                    data: { scheduled: startISO },
-                    id: `${dragContainer}::${startISO}::timeline::end`,
-                    children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "h-0 grow" })
-                  }
-                )
-              ]
-            }
-          )
-        ]
-      }
-    )
-  ] });
-}
-
-// src/components/NewTask.tsx
-var import_lodash10 = __toESM(require_lodash());
 var import_react14 = __toESM(require_react());
-var import_jsx_runtime10 = __toESM(require_jsx_runtime());
-function NewTask({ dragContainer }) {
-  var _a;
-  const data = {
-    dragType: "new_button"
-  };
-  const { attributes, listeners, setNodeRef } = useDraggable({
-    id: `new_task_button::${dragContainer}`,
-    data
-  });
-  const newTask = useAppStore((state) => state.newTask);
-  const frame = (0, import_react14.useRef)(null);
-  const inputFrame = (0, import_react14.useRef)(null);
-  const checkShowing = (ev) => {
-    invariant(frame.current);
-    const els = document.elementsFromPoint(ev.clientX, ev.clientY);
-    if (!els.includes(frame.current)) {
-      setters.set({ newTask: false });
-    }
-  };
-  (0, import_react14.useEffect)(() => {
-    window.removeEventListener("mousedown", checkShowing);
-    if (newTask) {
-      window.addEventListener("mousedown", checkShowing);
-      setTimeout(() => {
-        var _a2;
-        return (_a2 = inputFrame.current) == null ? void 0 : _a2.focus();
-      });
-    }
-    return () => window.removeEventListener("mousedown", checkShowing);
-  }, [!!newTask]);
-  const [search, setSearch] = (0, import_react14.useState)("");
-  const dailyNoteInfo2 = useAppStore((state) => state.dailyNoteInfo);
-  const allHeadings = useAppStore((state) => {
-    if (!newTask)
-      return [];
-    return import_lodash10.default.uniq(
-      import_lodash10.default.flatMap(state.tasks, (task) => {
-        if (task.completed)
-          return [];
-        const heading = parseHeadingFromPath(
-          task.path,
-          task.page,
-          dailyNoteInfo2
-        );
-        return heading.includes("#") ? [heading, parseFileFromPath(heading)] : heading;
-      })
-    ).sort();
-  }, shallow$1);
-  const searchExp = convertSearchToRegExp(search);
-  const filteredHeadings = allHeadings.filter(
-    (heading) => searchExp.test(heading)
-  );
-  (0, import_react14.useEffect)(() => {
-    setSearch("");
-  }, [newTask]);
-  const draggingTask = useAppStore(
-    (state) => state.dragData && ["task", "group", "block"].includes(state.dragData.dragType)
-  );
-  return /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "flex relative z-30", children: [
-    draggingTask && /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Droppable, { id: `delete-task`, data: { type: "delete" }, children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
-      Button_default,
-      {
-        src: "x",
-        className: "!rounded-full h-10 w-10 bg-red-900 mr-2 flex-none"
-      }
-    ) }),
-    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
-      "div",
-      {
-        className: "relative h-10 w-10 flex-none",
-        ...attributes,
-        ...listeners,
-        ref: setNodeRef,
-        children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
-          Button_default,
-          {
-            className: "h-full w-full cursor-grab !rounded-full bg-accent child:invert",
-            src: "plus"
-          }
-        )
-      }
-    ),
-    newTask && /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "fixed left-0 top-0 z-40 !mx-0 flex h-full w-full items-center justify-center p-8 space-y-2", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(
-      "div",
-      {
-        className: "flex h-full max-h-[50vh] w-full flex-col space-y-1 overflow-y-auto overflow-x-hidden rounded-lg border border-solid border-faint bg-primary p-2 max-w-2xl",
-        ref: frame,
-        children: [
-          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "pl-2 font-menu text-lg font-bold text-center", children: "New Task" }),
-          /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "flex", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
-              "input",
-              {
-                ref: inputFrame,
-                className: "w-full rounded-lg border border-solid border-faint bg-transparent font-menu font-light backdrop-blur !text-base px-1 py-2",
-                value: (_a = newTask.originalTitle) != null ? _a : "",
-                placeholder: "title...",
-                onChange: (ev) => setters.set({
-                  newTask: { ...newTask, originalTitle: ev.target.value }
-                }),
-                onKeyDown: (ev) => ev.key === "Enter" && getters.getObsidianAPI().createNewTask(newTask, null, dailyNoteInfo2)
-              }
-            ),
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
-              Button_default,
-              {
-                src: "check",
-                onClick: () => getters.getObsidianAPI().createNewTask(newTask, null, dailyNoteInfo2)
-              }
-            )
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
-            "input",
-            {
-              placeholder: "search files...",
-              className: "w-full rounded-lg border border-solid border-faint bg-transparent p-1 font-menu backdrop-blur",
-              value: search,
-              onChange: (ev) => setSearch(ev.target.value),
-              onKeyDown: (ev) => {
-                if (ev.key === "Enter") {
-                  getters.getObsidianAPI().createNewTask(newTask, filteredHeadings[0], dailyNoteInfo2);
-                }
-              }
-            }
-          ),
-          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "h-0 w-full grow space-y-1 overflow-y-auto text-sm", children: filteredHeadings.map((path2) => /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(NewTaskHeading, { path: path2 }, path2)) })
-        ]
-      }
-    ) })
-  ] });
-}
-function NewTaskHeading({ path: path2 }) {
-  const dailyNoteInfo2 = useAppStore((state) => state.dailyNoteInfo);
-  const [title, container] = useAppStore(
-    (state) => formatHeadingTitle(path2, "path", dailyNoteInfo2)
-  );
-  const newTask = useAppStore((state) => state.newTask);
-  invariant(newTask);
-  return /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(
-    "div",
-    {
-      onMouseDown: () => {
-        getters.getObsidianAPI().createNewTask(newTask, path2, dailyNoteInfo2);
-        setTimeout(() => setters.set({ newTask: false }));
-      },
-      className: `flex items-center w-full selectable cursor-pointer rounded-lg px-2 hover:underline ${path2.includes("#") ? "text-muted pl-4" : "font-bold text-accent"}`,
-      children: [
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "grow", children: title }),
-        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "text-faint text-xs", children: container })
-      ]
-    },
-    path2
-  );
-}
-
-// src/components/Search.tsx
-var import_lodash11 = __toESM(require_lodash());
-var import_react15 = __toESM(require_react());
-var import_react_dom2 = __toESM(require_react_dom());
-var import_jsx_runtime11 = __toESM(require_jsx_runtime());
-function Search() {
-  const tasks = useAppStore((state) => state.tasks);
-  const allTasks = (0, import_react15.useMemo)(
-    () => import_lodash11.default.sortBy(
-      import_lodash11.default.values(tasks).filter((task) => !task.completed),
-      "id"
-    ).map((task) => {
-      var _a;
-      return [
-        [
-          task.path + task.title,
-          task.tags.map((x) => "#" + x).join(" "),
-          (_a = task.notes) != null ? _a : "",
-          priorityNumberToKey[task.priority],
-          task.status
-        ],
-        task
-      ];
-    }),
-    [tasks]
-  );
-  const [search, setSearch] = (0, import_react15.useState)("");
-  const searchExp = convertSearchToRegExp(search);
-  const foundTasks = allTasks.filter(
-    ([strings]) => strings.find((string) => !search || string && searchExp.test(string))
-  );
-  const input = (0, import_react15.useRef)(null);
-  (0, import_react15.useEffect)(() => {
-    var _a;
-    return (_a = input.current) == null ? void 0 : _a.focus();
-  }, []);
-  return (0, import_react_dom2.createPortal)(
-    /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "modal-container mod-dim", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
-        "div",
-        {
-          className: "modal-bg",
-          onClick: () => setters.set({ searchStatus: false })
-        }
-      ),
-      /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "prompt", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "prompt-input-container", children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
-          "input",
-          {
-            className: "prompt-input",
-            style: { fontFamily: "var(--font-interface)" },
-            value: search,
-            onChange: (ev) => setSearch(ev.target.value),
-            onKeyDown: (ev) => {
-              if (ev.key === "Escape")
-                setters.set({ searchStatus: false });
-              else if (ev.key === "Enter") {
-                if (foundTasks[0])
-                  openTaskInRuler(foundTasks[0][1].id);
-                setters.set({ searchStatus: false });
-              }
-            },
-            ref: input
-          }
-        ) }),
-        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "prompt-results", children: foundTasks.map(([_strings, task]) => /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(
-          "div",
-          {
-            className: "clickable-icon suggestion-item mod-complex",
-            onClick: () => {
-              openTaskInRuler(task.id);
-              setters.set({ searchStatus: false });
-            },
-            children: [
-              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
-                "div",
-                {
-                  className: "suggestion-content",
-                  style: {
-                    color: "var(--text-normal)",
-                    overflow: "hidden",
-                    textOverflow: "ellipsis",
-                    whiteSpace: "nowrap"
-                  },
-                  children: task.title
-                }
-              ),
-              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
-                "div",
-                {
-                  className: "suggestion-aux",
-                  style: {
-                    overflow: "hidden",
-                    textOverflow: "ellipsis",
-                    maxWidth: "40%",
-                    whiteSpace: "nowrap",
-                    fontSize: "0.875rem",
-                    color: "var(--text-faint)",
-                    flex: "none"
-                  },
-                  children: task.path.replace("#", " # ").replace(".md", "")
-                }
-              )
-            ]
-          },
-          task.id
-        )) }),
-        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "prompt-instructions" })
-      ] })
-    ] }),
-    document.querySelector(".app-container")
-  );
-}
 
 // src/components/Timer.tsx
-var import_react16 = __toESM(require_react());
+var import_react13 = __toESM(require_react());
 var import_react_timer_hook = __toESM(require_dist());
-var import_jsx_runtime12 = __toESM(require_jsx_runtime());
+var import_jsx_runtime9 = __toESM(require_jsx_runtime());
 function Timer() {
-  const pauseExpiration = (0, import_react16.useRef)(true);
-  const [negative, setNegative] = (0, import_react16.useState)(false);
+  const pauseExpiration = (0, import_react13.useRef)(true);
+  const { negative, startISO, maxSeconds, playing } = useAppStore(
+    (state) => state.timer
+  );
   const muted = useAppStore((state) => state.settings.muted);
   const timer = (0, import_react_timer_hook.useTimer)({
-    expiryTimestamp: /* @__PURE__ */ new Date(),
+    expiryTimestamp: startISO ? new Date(startISO) : /* @__PURE__ */ new Date(),
     onExpire: () => {
       if (pauseExpiration.current)
         return;
-      setMaxSeconds(null);
       setInput("");
-      try {
-        new Notification("timer complete");
-        if (!muted)
-          sounds.timer.play();
-      } catch (err) {
-      }
       timer.pause();
+      stopwatch.totalSeconds = 0;
       stopwatch.start();
-      setNegative(true);
     },
     autoStart: false
   });
-  const stopwatch = (0, import_react_timer_hook.useStopwatch)({ autoStart: false });
-  (0, import_react16.useEffect)(() => {
+  const stopwatch = (0, import_react_timer_hook.useStopwatch)({
+    autoStart: false,
+    offsetTimestamp: startISO ? new Date(startISO) : /* @__PURE__ */ new Date()
+  });
+  (0, import_react13.useEffect)(() => {
     pauseExpiration.current = false;
+    if (!startISO)
+      return;
+    if (playing && maxSeconds)
+      timer.restart(new Date(startISO), true);
+    else if (playing) {
+      const seconds2 = DateTime.now().diff(DateTime.fromISO(startISO)).shiftTo("seconds").seconds;
+      stopwatch.reset(DateTime.now().plus({ seconds: seconds2 }).toJSDate(), true);
+    }
   }, []);
-  const expanded = useAppStore((state) => state.viewMode === "now");
-  const [input, setInput] = (0, import_react16.useState)("");
-  const [maxSeconds, setMaxSeconds] = (0, import_react16.useState)(null);
+  (0, import_react13.useEffect)(() => {
+    const newPlaying = stopwatch.isRunning || timer.isRunning;
+    if (newPlaying !== playing)
+      setters.patchTimer({ playing: newPlaying });
+  }, [stopwatch.isRunning, timer.isRunning]);
+  const [input, setInput] = (0, import_react13.useState)("");
   const seconds = maxSeconds ? timer.seconds : stopwatch.seconds;
   const minutes = maxSeconds ? timer.minutes : stopwatch.minutes;
   const hours = maxSeconds ? timer.hours : stopwatch.hours;
-  const playing = timer.isRunning || stopwatch.isRunning;
   const currentTime = maxSeconds ? timer.totalSeconds : stopwatch.totalSeconds;
   const start = () => {
-    setNegative(false);
+    setters.patchTimer({ negative: false });
     let hours2 = 0;
     let minutes2 = 0;
     if (!input) {
-      setMaxSeconds(null);
+      setters.patchTimer({
+        maxSeconds: null,
+        startISO: (/* @__PURE__ */ new Date()).toISOString()
+      });
       stopwatch.start();
     } else {
       if (input.includes(":")) {
@@ -70928,10 +70393,14 @@ function Timer() {
         hours2 = split[0];
         minutes2 = split[1];
       } else {
-        minutes2 = parseInt(input);
+        minutes2 = parseFloat(input);
       }
-      setMaxSeconds(minutes2 * 60 + hours2 * 60 * 60);
-      timer.restart(DateTime.now().plus({ minutes: minutes2, hours: hours2 }).toJSDate());
+      const endDate = DateTime.now().plus({ minutes: minutes2, hours: hours2 }).toJSDate();
+      timer.restart(endDate);
+      setters.patchTimer({
+        maxSeconds: minutes2 * 60 + hours2 * 60 * 60,
+        startISO: endDate.toISOString()
+      });
     }
     playSound();
   };
@@ -70962,9 +70431,11 @@ function Timer() {
     }
   };
   const reset = () => {
-    setNegative(false);
+    setters.patchTimer({ negative: false });
     if (maxSeconds) {
-      setMaxSeconds(null);
+      setters.patchTimer({
+        maxSeconds: null
+      });
       timer.restart(/* @__PURE__ */ new Date(), false);
     } else {
       stopwatch.reset(void 0, false);
@@ -70973,7 +70444,7 @@ function Timer() {
   };
   const addTime = (minutes2) => {
     if (maxSeconds) {
-      setMaxSeconds(maxSeconds + minutes2 * 60);
+      setters.patchTimer({ maxSeconds: maxSeconds + minutes2 * 60 });
       const currentTime2 = DateTime.now().plus({ minutes: timer.minutes, hours: timer.hours }).plus({ minutes: minutes2 });
       timer.restart(currentTime2.toJSDate(), true);
     } else {
@@ -70981,82 +70452,549 @@ function Timer() {
       stopwatch.reset(currentTime2.toJSDate(), true);
     }
   };
-  const previousViewMode = (0, import_react16.useRef)("hour");
-  return /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(
+  const borders = useAppStore((state) => state.settings.borders);
+  return /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)(
     "div",
     {
-      className: `${expanded ? "fixed left-0 top-0 z-40 flex h-full w-full flex-col bg-primary p-4" : "w-full"}`,
+      className: `relative my-1 flex w-full items-center justify-center rounded-icon font-menu text-sm child:relative child:h-full py-0.5 h-12 flex-none ${borders ? "border-solid border-divider border-[1px]" : ""} ${negative ? "bg-red-800/50" : "bg-code"}`,
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(
+        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
           "div",
           {
-            className: `relative my-1 flex w-full items-center justify-center rounded-icon bg-primary-alt font-menu text-sm child:relative child:h-full py-0.5 ${negative ? "bg-red-800/50" : ""} ${expanded ? "h-14" : "h-6"}`,
+            className: `!absolute left-0 top-0 h-full flex-none rounded-icon ${width === 0 ? "" : "transition-width duration-1000 ease-linear"} ${negative ? "bg-red-500/20" : "bg-selection"}`,
+            style: {
+              width: `${width}%`
+            }
+          }
+        ),
+        !playing && currentTime <= 0 ? /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
+          "input",
+          {
+            type: "number",
+            value: input,
+            placeholder: "mins",
+            onKeyDown: (ev) => ev.key === "Enter" && start(),
+            onChange: change,
+            className: "w-[4em] !border-none bg-transparent text-center !shadow-none"
+          }
+        ) : /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("pre", { className: "my-0 mr-1 !h-fit", children: `${negative ? "-" : ""}${hours > 0 ? hours + ":" : ""}${hours > 0 ? String(minutes).padStart(2, "0") : minutes}:${String(
+          seconds
+        ).padStart(2, "0")}` }),
+        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
+          Button_default,
+          {
+            className: "p-0.5",
+            onClick: togglePlaying,
+            src: playing ? "pause" : "play",
+            title: "timer or stopwatch"
+          }
+        ),
+        playing && /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)(import_jsx_runtime9.Fragment, { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(Button_default, { onClick: () => addTime(5), children: "+5" }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(Button_default, { onClick: () => addTime(-5), children: "-5" })
+        ] }),
+        !playing && currentTime > 0 && /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(Button_default, { onClick: reset, src: "rotate-cw", className: "p-0.5" })
+      ]
+    }
+  );
+}
+
+// src/components/Day.tsx
+var import_jsx_runtime10 = __toESM(require_jsx_runtime());
+function Day({
+  startISO,
+  endISO,
+  type,
+  dragContainer,
+  isNow
+}) {
+  const showingPastDates = useAppStore((state) => state.showingPastDates);
+  const now3 = toISO(roundMinutes(DateTime.now()));
+  const startDate = startISO.slice(0, 10);
+  const showCompleted = useAppStore((state) => state.settings.showCompleted);
+  const id = isNow ? "now" : startDate;
+  const [allDay, blocksByTime, deadlines] = useAppStore((state) => {
+    const allDay2 = {
+      startISO: startDate,
+      endISO: startDate,
+      blocks: [],
+      tasks: [],
+      events: []
+    };
+    const blocksByTime2 = {};
+    const deadlines2 = [];
+    import_lodash9.default.forEach(state.tasks, (task) => {
+      const scheduled = parseTaskDate(task);
+      const isShown = (task.due || scheduled && !task.queryParent) && (showCompleted || task.completed === showingPastDates);
+      if (!isShown)
+        return;
+      const scheduledForToday = !scheduled ? false : isNow ? isDateISO(scheduled) ? showingPastDates ? scheduled > startDate : scheduled < startDate : showingPastDates ? scheduled > startISO : scheduled < endISO : isDateISO(scheduled) ? scheduled === startDate : scheduled >= startISO && scheduled < endISO;
+      const dueToday = !task.due ? false : task.due >= startDate;
+      if (dueToday) {
+        deadlines2.push(task);
+      }
+      if (scheduledForToday) {
+        invariant(scheduled);
+        if (isDateISO(scheduled)) {
+          allDay2.tasks.push(task);
+        } else {
+          if (blocksByTime2[scheduled])
+            blocksByTime2[scheduled].tasks.push(task);
+          else
+            blocksByTime2[scheduled] = {
+              startISO: scheduled,
+              endISO: scheduled,
+              tasks: [task],
+              events: [],
+              blocks: []
+            };
+        }
+      }
+    });
+    for (let event of import_lodash9.default.filter(
+      state.events,
+      (event2) => event2.endISO > startISO && event2.startISO < endISO && (showingPastDates ? event2.startISO <= now3 : event2.endISO >= now3)
+    )) {
+      if (isDateISO(event.startISO))
+        allDay2.events.push(event);
+      else if (blocksByTime2[event.startISO])
+        blocksByTime2[event.startISO].events.push(event);
+      else
+        blocksByTime2[event.startISO] = {
+          startISO: event.startISO,
+          endISO: event.endISO,
+          tasks: [],
+          events: [event],
+          blocks: []
+        };
+    }
+    return [allDay2, blocksByTime2, deadlines2];
+  }, shallow$1);
+  const blocks = import_lodash9.default.map(import_lodash9.default.sortBy(import_lodash9.default.entries(blocksByTime), 0), 1);
+  const viewMode = useAppStore((state) => state.settings.viewMode);
+  const calendarMode = viewMode === "week";
+  let title = isNow ? "Now" : DateTime.fromISO(startISO || endISO).toFormat(
+    calendarMode ? "EEE d" : "EEE, MMM d"
+  );
+  const collapsed = useAppStore((state) => state.collapsed[id]);
+  const foundTaskInAllDay = useAppStore((state) => {
+    return state.findingTask && allDay.tasks.find((task) => task.id === state.findingTask) ? state.findingTask : null;
+  });
+  const expandIfFound = () => {
+    if (foundTaskInAllDay && collapsed) {
+      setters.patchCollapsed([id], false);
+      const foundTask = allDay.tasks.find(
+        (task) => task.id === foundTaskInAllDay
+      );
+      if (!foundTask)
+        return;
+      setters.set({ findingTask: null });
+      setTimeout(() => openTaskInRuler(foundTask.id));
+    }
+  };
+  (0, import_react14.useEffect)(expandIfFound, [foundTaskInAllDay]);
+  const allDayFrame = (0, import_react14.useRef)(null);
+  const [allDayHeight, setAllDayHeight] = (0, import_react14.useState)();
+  const wide = useAppStore((state) => state.childWidth > 1);
+  return /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: `flex flex-col overflow-hidden relative`, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "flex items-center group relative z-10", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
+      Droppable,
+      {
+        data: { scheduled: isNow ? now3 : startDate },
+        id: dragContainer + "::" + startISO + "::timeline",
+        children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "flex items-center grow", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "flex-none w-indent pr-1", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
+            Button_default,
+            {
+              className: "flex-none w-full opacity-0 group-hover:opacity-100 transition-opacity duration-300",
+              src: collapsed ? "chevron-right" : "chevron-down",
+              onClick: () => {
+                setters.patchCollapsed([id], !collapsed);
+                return false;
+              }
+            }
+          ) }),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "font-menu w-full", children: title || "" })
+        ] })
+      }
+    ) }),
+    isNow && /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Timer, {}),
+    /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(
+      "div",
+      {
+        className: `rounded-icon ${{
+          hour: wide ? "h-0 grow flex space-x-2 child:h-full child:flex-1 child:w-full justify-center child:max-w-xl" : "h-0 grow flex flex-col",
+          day: "overflow-y-auto",
+          week: "overflow-y-auto"
+        }[viewMode]}`,
+        "data-auto-scroll": calendarMode ? "y" : void 0,
+        children: [
+          deadlines.length + allDay.tasks.length + allDay.events.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(
+            "div",
+            {
+              className: `relative w-full child:mb-1 overflow-x-hidden rounded-icon mt-1 ${{
+                hour: wide ? "!h-full" : "max-h-[50%] flex-none overflow-y-auto resize-y",
+                day: "h-fit",
+                week: "h-fit"
+              }[viewMode]} ${collapsed ? "hidden" : "block"}`,
+              style: {
+                height: viewMode === "hour" ? allDayHeight : ""
+              },
+              "data-auto-scroll": calendarMode ? void 0 : "y",
+              ref: allDayFrame,
+              children: [
+                deadlines.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "rounded-icon bg-code", children: import_lodash9.default.sortBy(deadlines, "due", "scheduled").map((task) => /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
+                  Task,
+                  {
+                    renderType: "deadline",
+                    subtasks: [],
+                    dragContainer,
+                    ...task
+                  },
+                  task.id
+                )) }),
+                allDay.events.map((event) => /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
+                  Block,
+                  {
+                    type: "event",
+                    events: [event],
+                    id: event.id,
+                    tasks: [],
+                    startISO: startDate,
+                    endISO: startDate,
+                    dragContainer,
+                    blocks: []
+                  },
+                  event.id
+                )),
+                allDay.tasks.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
+                  Block,
+                  {
+                    type: "event",
+                    events: [],
+                    tasks: allDay.tasks,
+                    startISO: startDate,
+                    endISO: startDate,
+                    dragContainer,
+                    blocks: []
+                  }
+                )
+              ]
+            }
+          ),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(
+            "div",
+            {
+              className: `overflow-x-hidden rounded-icon mt-1 ${{
+                hour: "h-0 grow overflow-y-auto",
+                day: "h-fit",
+                week: "h-fit"
+              }[viewMode]}`,
+              "data-auto-scroll": calendarMode ? void 0 : "y",
+              children: [
+                /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
+                  Hours,
+                  {
+                    ...{
+                      startISO,
+                      endISO,
+                      type,
+                      blocks,
+                      dragContainer
+                    }
+                  }
+                ),
+                /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
+                  Droppable,
+                  {
+                    data: { scheduled: startISO },
+                    id: `${dragContainer}::${startISO}::timeline::end`,
+                    children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "h-0 grow" })
+                  }
+                )
+              ]
+            }
+          )
+        ]
+      }
+    )
+  ] });
+}
+
+// src/components/NewTask.tsx
+var import_lodash10 = __toESM(require_lodash());
+var import_react15 = __toESM(require_react());
+var import_jsx_runtime11 = __toESM(require_jsx_runtime());
+function NewTask({ dragContainer }) {
+  var _a;
+  const data = {
+    dragType: "new_button"
+  };
+  const { attributes, listeners, setNodeRef } = useDraggable({
+    id: `new_task_button::${dragContainer}`,
+    data
+  });
+  const newTask = useAppStore((state) => state.newTask);
+  const frame = (0, import_react15.useRef)(null);
+  const inputFrame = (0, import_react15.useRef)(null);
+  const checkShowing = (ev) => {
+    invariant(frame.current);
+    const els = document.elementsFromPoint(ev.clientX, ev.clientY);
+    if (!els.includes(frame.current)) {
+      setters.set({ newTask: false });
+    }
+  };
+  (0, import_react15.useEffect)(() => {
+    window.removeEventListener("mousedown", checkShowing);
+    if (newTask) {
+      window.addEventListener("mousedown", checkShowing);
+      setTimeout(() => {
+        var _a2;
+        return (_a2 = inputFrame.current) == null ? void 0 : _a2.focus();
+      });
+    }
+    return () => window.removeEventListener("mousedown", checkShowing);
+  }, [!!newTask]);
+  const [search, setSearch] = (0, import_react15.useState)("");
+  const dailyNoteInfo2 = useAppStore((state) => state.dailyNoteInfo);
+  const allHeadings = useAppStore((state) => {
+    if (!newTask)
+      return [];
+    return import_lodash10.default.uniq(
+      import_lodash10.default.flatMap(state.tasks, (task) => {
+        if (task.completed)
+          return [];
+        const heading = parseHeadingFromPath(
+          task.path,
+          task.page,
+          dailyNoteInfo2
+        );
+        return heading.includes("#") ? [heading, parseFileFromPath(heading)] : heading;
+      })
+    ).sort();
+  }, shallow$1);
+  const searchExp = convertSearchToRegExp(search);
+  const filteredHeadings = allHeadings.filter(
+    (heading) => searchExp.test(heading)
+  );
+  (0, import_react15.useEffect)(() => {
+    setSearch("");
+  }, [newTask]);
+  const draggingTask = useAppStore(
+    (state) => state.dragData && ["task", "group", "block"].includes(state.dragData.dragType)
+  );
+  return /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "flex relative z-30 pl-2", children: [
+    draggingTask && /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(Droppable, { id: `delete-task`, data: { type: "delete" }, children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+      Button_default,
+      {
+        src: "x",
+        className: "!rounded-full h-10 w-10 bg-red-900 mr-2 flex-none"
+      }
+    ) }),
+    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+      "div",
+      {
+        className: "relative h-10 w-10 flex-none",
+        ...attributes,
+        ...listeners,
+        ref: setNodeRef,
+        children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+          Button_default,
+          {
+            className: "h-full w-full cursor-grab !rounded-full bg-accent child:invert",
+            src: "plus"
+          }
+        )
+      }
+    ),
+    newTask && /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "fixed left-0 top-0 z-40 !mx-0 flex h-full w-full items-center justify-center p-8 space-y-2", children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(
+      "div",
+      {
+        className: "flex h-full max-h-[50vh] w-full flex-col space-y-1 overflow-y-auto overflow-x-hidden rounded-icon border border-solid border-faint bg-code p-2 max-w-2xl",
+        ref: frame,
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "pl-2 font-menu text-lg font-bold text-center", children: "New Task" }),
+          /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "flex", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+              "input",
+              {
+                ref: inputFrame,
+                className: "w-full rounded-icon border border-solid border-faint bg-transparent font-menu font-light backdrop-blur !text-base px-1 py-2",
+                value: (_a = newTask.originalTitle) != null ? _a : "",
+                placeholder: "title...",
+                onChange: (ev) => setters.set({
+                  newTask: { ...newTask, originalTitle: ev.target.value }
+                }),
+                onKeyDown: (ev) => ev.key === "Enter" && getters.getObsidianAPI().createNewTask(newTask, null, dailyNoteInfo2)
+              }
+            ),
+            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+              Button_default,
+              {
+                src: "check",
+                onClick: () => getters.getObsidianAPI().createNewTask(newTask, null, dailyNoteInfo2)
+              }
+            )
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+            "input",
+            {
+              placeholder: "search files...",
+              className: "w-full rounded-icon border border-solid border-faint bg-transparent p-1 font-menu backdrop-blur",
+              value: search,
+              onChange: (ev) => setSearch(ev.target.value),
+              onKeyDown: (ev) => {
+                if (ev.key === "Enter") {
+                  getters.getObsidianAPI().createNewTask(newTask, filteredHeadings[0], dailyNoteInfo2);
+                }
+              }
+            }
+          ),
+          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "h-0 w-full grow space-y-1 overflow-y-auto text-sm", children: filteredHeadings.map((path2) => /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(NewTaskHeading, { path: path2 }, path2)) })
+        ]
+      }
+    ) })
+  ] });
+}
+function NewTaskHeading({ path: path2 }) {
+  const dailyNoteInfo2 = useAppStore((state) => state.dailyNoteInfo);
+  const [title, container] = useAppStore(
+    (state) => formatHeadingTitle(path2, "path", dailyNoteInfo2)
+  );
+  const newTask = useAppStore((state) => state.newTask);
+  invariant(newTask);
+  return /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(
+    "div",
+    {
+      onMouseDown: () => {
+        getters.getObsidianAPI().createNewTask(newTask, path2, dailyNoteInfo2);
+        setTimeout(() => setters.set({ newTask: false }));
+      },
+      className: `flex items-center w-full selectable cursor-pointer rounded-icon px-2 hover:underline ${path2.includes("#") ? "text-muted pl-4" : "font-bold text-accent"}`,
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "grow", children: title }),
+        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "text-faint text-xs", children: container })
+      ]
+    },
+    path2
+  );
+}
+
+// src/components/Search.tsx
+var import_lodash11 = __toESM(require_lodash());
+var import_react16 = __toESM(require_react());
+var import_react_dom2 = __toESM(require_react_dom());
+var import_jsx_runtime12 = __toESM(require_jsx_runtime());
+function Search() {
+  const tasks = useAppStore((state) => state.tasks);
+  const showingPastDates = useAppStore((state) => state.showingPastDates);
+  const showCompleted = useAppStore((state) => state.settings.showCompleted);
+  const allTasks = (0, import_react16.useMemo)(
+    () => import_lodash11.default.sortBy(
+      import_lodash11.default.values(tasks).filter(
+        (task) => showCompleted || task.completed === showingPastDates
+      ),
+      "id"
+    ).map((task) => {
+      var _a;
+      return [
+        [
+          task.path + task.title,
+          task.tags.map((x) => "#" + x).join(" "),
+          (_a = task.notes) != null ? _a : "",
+          priorityNumberToKey[task.priority],
+          task.status
+        ],
+        task
+      ];
+    }),
+    [tasks]
+  );
+  const [search, setSearch] = (0, import_react16.useState)("");
+  const searchExp = convertSearchToRegExp(search);
+  const foundTasks = allTasks.filter(
+    ([strings]) => strings.find((string) => !search || string && searchExp.test(string))
+  );
+  const input = (0, import_react16.useRef)(null);
+  (0, import_react16.useEffect)(() => {
+    var _a;
+    return (_a = input.current) == null ? void 0 : _a.focus();
+  }, []);
+  return (0, import_react_dom2.createPortal)(
+    /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "modal-container mod-dim", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+        "div",
+        {
+          className: "modal-bg",
+          onClick: () => setters.set({ searchStatus: false })
+        }
+      ),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "prompt", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "prompt-input-container", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+          "input",
+          {
+            className: "prompt-input",
+            style: { fontFamily: "var(--font-interface)" },
+            value: search,
+            onChange: (ev) => setSearch(ev.target.value),
+            onKeyDown: (ev) => {
+              if (ev.key === "Escape")
+                setters.set({ searchStatus: false });
+              else if (ev.key === "Enter") {
+                if (foundTasks[0])
+                  openTaskInRuler(foundTasks[0][1].id);
+                setters.set({ searchStatus: false });
+              }
+            },
+            ref: input
+          }
+        ) }),
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "prompt-results", children: foundTasks.map(([_strings, task]) => /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(
+          "div",
+          {
+            className: "clickable-icon suggestion-item mod-complex",
+            onClick: () => {
+              openTaskInRuler(task.id);
+              setters.set({ searchStatus: false });
+            },
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "!absolute top-0 right-1 h-full flex items-center space-x-1", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(NewTask, { dragContainer: "timer" }) }),
               /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
                 "div",
                 {
-                  className: `!absolute left-0 top-0 h-full flex-none rounded-icon ${width === 0 ? "" : "transition-width duration-1000 ease-linear"} ${negative ? "bg-red-500/20" : "bg-selection"}`,
+                  className: "suggestion-content",
                   style: {
-                    width: `${width}%`
-                  }
-                }
-              ),
-              !playing && currentTime <= 0 ? /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
-                "input",
-                {
-                  type: "number",
-                  value: input,
-                  placeholder: "mins",
-                  onKeyDown: (ev) => ev.key === "Enter" && start(),
-                  onChange: change,
-                  className: "w-[4em] !border-none bg-transparent text-center !shadow-none"
-                }
-              ) : /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("pre", { className: "my-0 mr-1 !h-fit", children: `${negative ? "-" : ""}${hours > 0 ? hours + ":" : ""}${hours > 0 ? String(minutes).padStart(2, "0") : minutes}:${String(
-                seconds
-              ).padStart(2, "0")}` }),
-              /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
-                Button_default,
-                {
-                  className: "p-0.5",
-                  onClick: togglePlaying,
-                  src: playing ? "pause" : "play",
-                  title: "timer or stopwatch"
-                }
-              ),
-              playing && /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(import_jsx_runtime12.Fragment, { children: [
-                /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(Button_default, { onClick: () => addTime(5), children: "+5" }),
-                /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(Button_default, { onClick: () => addTime(-5), children: "-5" })
-              ] }),
-              !playing && currentTime > 0 && /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(Button_default, { onClick: reset, src: "rotate-cw", className: "p-0.5" }),
-              /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
-                Button_default,
-                {
-                  onClick: () => {
-                    if (!expanded) {
-                      previousViewMode.current = getters.get("viewMode");
-                      setters.set({ viewMode: "now" });
-                    } else {
-                      setters.set({ viewMode: previousViewMode.current });
-                    }
+                    color: "var(--text-normal)",
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
+                    whiteSpace: "nowrap"
                   },
-                  src: expanded ? "minimize-2" : "maximize-2"
+                  children: task.title
+                }
+              ),
+              /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+                "div",
+                {
+                  className: "suggestion-aux",
+                  style: {
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
+                    maxWidth: "40%",
+                    whiteSpace: "nowrap",
+                    fontSize: "0.875rem",
+                    color: "var(--text-faint)",
+                    flex: "none"
+                  },
+                  children: task.path.replace("#", " # ").replace(".md", "")
                 }
               )
             ]
-          }
-        ),
-        expanded && /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "relative h-full w-full overflow-y-auto py-2 text-base child:max-w-xl child:w-full flex justify-center", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
-          Day,
-          {
-            dragContainer: "timer",
-            startISO: DateTime.now().toISODate(),
-            endISO: toISO(DateTime.now()),
-            type: "minutes"
-          }
-        ) })
-      ]
-    }
+          },
+          task.id
+        )) }),
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "prompt-instructions" })
+      ] })
+    ] }),
+    document.querySelector(".app-container")
   );
 }
 
@@ -71076,37 +71014,14 @@ function _Unscheduled() {
     )
   );
   const childWidth = useAppStore(
-    (state) => (state.viewMode === "week" || state.viewMode === "hour") && state.childWidth > 1 ? state.childWidth : 1
-  );
-  const allHeadings = useAppStore(
-    (state) => tasks.flatMap(
-      (task) => formatHeadingTitle(
-        task.path,
-        state.settings.groupBy,
-        state.dailyNoteInfo,
-        task.page
-      )[0]
-    )
-  );
-  const collapsed = useAppStore(
-    (state) => allHeadings.map((heading) => state.collapsed[heading]).includes(false)
+    (state) => (state.settings.viewMode === "week" || state.settings.viewMode === "hour") && state.childWidth > 1 ? state.childWidth : 1
   );
   return /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: `h-0 grow flex flex-col`, children: [
-    /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "flex items-center space-x-1 group flex-none", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
-        Button_default,
-        {
-          className: "w-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300",
-          onClick: () => setters.patchCollapsed(allHeadings, !collapsed),
-          src: collapsed ? "chevron-right" : "chevron-down"
-        }
-      ),
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(Droppable, { id: "unscheduled-timespan", data: { scheduled: "" }, children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "font-menu", children: "Unscheduled" }) })
-    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "flex items-center space-x-1 group flex-none pl-indent", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(Droppable, { id: "unscheduled-timespan", data: { scheduled: "" }, children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", { className: "font-menu", children: "Unscheduled" }) }) }),
     /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
       "div",
       {
-        className: `h-0 grow w-full mt-1 rounded-lg ${childWidth > 1 ? `unscheduled child:h-full child:child:h-full ${[
+        className: `h-0 grow w-full mt-1 rounded-icon ${childWidth > 1 ? `unscheduled child:h-full child:child:h-full ${[
           "",
           "child:child:child:child:w-full",
           "child:child:child:child:w-1/2",
@@ -71142,7 +71057,7 @@ function App2({ apis }) {
       });
       return;
     }
-    apis.obsidian.getExcludePaths();
+    apis.obsidian.reload();
     const dailyNoteInfo2 = await getDailyNoteInfo();
     const settings = {
       muted: apis.obsidian.getSetting("muted"),
@@ -71151,7 +71066,9 @@ function App2({ apis }) {
       dayStartEnd: apis.obsidian.getSetting("dayStartEnd"),
       showCompleted: apis.obsidian.getSetting("showCompleted"),
       extendBlocks: apis.obsidian.getSetting("extendBlocks"),
-      hideTimes: apis.obsidian.getSetting("hideTimes")
+      hideTimes: apis.obsidian.getSetting("hideTimes"),
+      borders: apis.obsidian.getSetting("borders"),
+      viewMode: apis.obsidian.getSetting("viewMode")
     };
     setters.set({
       apis,
@@ -71159,7 +71076,7 @@ function App2({ apis }) {
       settings
     });
     apis.calendar.loadEvents();
-    apis.obsidian.loadTasks("");
+    apis.obsidian.loadTasks("", getters.get("showingPastDates"));
   };
   (0, import_react18.useEffect)(() => {
     reload();
@@ -71170,19 +71087,49 @@ function App2({ apis }) {
       setNow(DateTime.now());
     };
     const interval = window.setInterval(update, 6e4);
-    return () => window.clearInterval(interval);
+    const checkTimer = () => {
+      const { startISO, maxSeconds, playing } = getters.get("timer");
+      if (playing && startISO && maxSeconds && (/* @__PURE__ */ new Date()).toISOString() >= startISO) {
+        setters.patchTimer({
+          maxSeconds: null,
+          startISO: (/* @__PURE__ */ new Date()).toISOString(),
+          negative: true,
+          playing: true
+        });
+        try {
+          new Notification("timer complete");
+          if (!getters.get("settings").muted)
+            sounds.timer.play();
+        } catch (err) {
+        }
+      }
+    };
+    const timerInterval = window.setInterval(checkTimer, 1e3);
+    return () => {
+      window.clearInterval(interval);
+      window.clearInterval(timerInterval);
+    };
   }, []);
   const showingPastDates = useAppStore((state) => state.showingPastDates);
   const today = DateTime.fromISO(getToday());
   const [weeksShownState, setWeeksShown] = (0, import_react18.useState)(1);
-  const viewMode = useAppStore((state) => state.viewMode);
-  const datesShown = viewMode === "now" ? 0 : weeksShownState * 7 * (showingPastDates ? -1 : 1);
+  const viewMode = useAppStore((state) => state.settings.viewMode);
+  const datesShown = weeksShownState * 7 * (showingPastDates ? -1 : 1);
   const dayStart = useAppStore((state) => state.settings.dayStartEnd[0]);
+  const roundedNow = toISO(roundMinutes(DateTime.now()));
+  const nowBoundary = toISO(roundMinutes(DateTime.now().plus({ minute: 15 })));
   const times = [
     { type: "unscheduled" },
     {
-      startISO: toISO(today.plus({ hours: dayStart })),
-      endISO: showingPastDates ? toISO(DateTime.now()) : toISO(today.plus({ hours: dayStart, days: 1 })),
+      dragContainer: "now",
+      startISO: roundedNow,
+      endISO: nowBoundary,
+      type: "minutes",
+      isNow: true
+    },
+    {
+      startISO: showingPastDates ? toISO(today.plus({ hours: dayStart })) : nowBoundary,
+      endISO: showingPastDates ? roundedNow : toISO(today.plus({ hours: dayStart, days: 1 })),
       type: "minutes",
       dragContainer: "app"
     },
@@ -71198,8 +71145,8 @@ function App2({ apis }) {
   const searchWithinWeeks = useAppStore((state) => state.searchWithinWeeks);
   (0, import_react18.useEffect)(() => {
     var _a;
-    (_a = getters.getObsidianAPI()) == null ? void 0 : _a.loadTasks("");
-  }, [searchWithinWeeks]);
+    (_a = getters.getObsidianAPI()) == null ? void 0 : _a.loadTasks("", showingPastDates);
+  }, [searchWithinWeeks, showingPastDates]);
   (0, import_react18.useEffect)(() => {
     if (showingPastDates && -weeksShownState < searchWithinWeeks[0]) {
       setters.set({
@@ -71255,8 +71202,6 @@ function App2({ apis }) {
         return /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(Deadline, { ...activeDrag, isDragging: true });
       case "new_button":
         return /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(NewTask, { dragContainer: "activeDrag" });
-      case "now":
-        return /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(NowTime, { dragContainer: "activeDrag" });
     }
   };
   const scroller = (0, import_react18.useRef)(null);
@@ -71306,14 +71251,15 @@ function App2({ apis }) {
     (_b = (_a = (0, import_jquery2.default)("#time-ruler").parent()[0]) == null ? void 0 : _a.style) == null ? void 0 : _b.setProperty("overflow", "clip", "important");
     (_d = (_c = (0, import_jquery2.default)("#time-ruler").parent()[0]) == null ? void 0 : _c.style) == null ? void 0 : _d.setProperty("padding", "4px 8px 8px", "important");
   }, []);
-  const frameClass = "p-0.5 child:p-1 child:bg-primary-alt child:rounded-lg child:h-full child:w-full";
+  const borders = useAppStore((state) => state.settings.borders);
+  const frameClass = `p-0.5 child:p-1 child:bg-primary child:rounded-icon child:h-full child:w-full ${borders ? "child:border-solid child:border-divider child:border-[1px]" : ""}`;
   const dayPadding = (time) => {
     invariant(time.type !== "unscheduled");
     const startDate = DateTime.fromISO(time.startISO);
     return /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_jsx_runtime14.Fragment, { children: import_lodash13.default.range(startDate.weekday < 4 ? 1 : 5, startDate.weekday).map(
       (day) => /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: `${frameClass}`, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "flex-col", children: [
         /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "font-menu pl-8 text-faint flex-none", children: now3.startOf("week").plus({ days: day - 1 }).toFormat("EEE d") }),
-        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "grow h-0 w-full rounded-lg bg-secondary-alt" })
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "grow h-0 w-full rounded-icon bg-code" })
       ] }) }, day)
     ) });
   };
@@ -71340,21 +71286,22 @@ function App2({ apis }) {
               display: "flex",
               flexDirection: "column",
               overflow: "hidden",
-              background: "transparent"
+              backgroundColor: "var(--background-secondary)"
             },
-            className: `time-ruler-container`,
+            className: `time-ruler-container sidebar-color`,
             children: [
               /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
                 DragOverlay,
                 {
                   dropAnimation: null,
+                  className: "backdrop-blur opacity-50",
                   style: {
                     width: `calc((100% - 48px) / ${trueChildWidth})`
                   },
                   children: getDragElement()
                 }
               ),
-              viewMode !== "now" && /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
+              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
                 Buttons,
                 {
                   ...{
@@ -71367,11 +71314,10 @@ function App2({ apis }) {
                   }
                 }
               ),
-              /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "w-full flex items-center h-5 flex-none my-1", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(Timer, {}) }),
               /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
                 "div",
                 {
-                  className: `flex h-full w-full snap-mandatory rounded-lg text-base child:flex-none child:snap-start ${childClass} ${calendarMode ? "flex-wrap overflow-y-auto overflow-x-hidden snap-y justify-center child:h-1/2" : "snap-x !overflow-x-auto overflow-y-clip child:h-full"}`,
+                  className: `flex h-full w-full snap-mandatory rounded-icon text-base child:flex-none child:snap-start ${childClass} ${calendarMode ? "flex-wrap overflow-y-auto overflow-x-hidden snap-y justify-center child:h-1/2" : "snap-x !overflow-x-auto overflow-y-clip child:h-full"}`,
                   id: "time-ruler-times",
                   "data-auto-scroll": calendarMode ? "y" : "x",
                   ref: scroller,
@@ -71386,18 +71332,24 @@ function App2({ apis }) {
                         children: isShowing && /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(Unscheduled_default, {})
                       },
                       "unscheduled"
-                    ) : /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(import_react18.Fragment, { children: [
-                      calendarMode && i === (showingPastDates ? 0 : 1) && childWidth > 1 && dayPadding(time),
-                      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
-                        "div",
-                        {
-                          id: `time-ruler-${time.startISO.slice(0, 10)}`,
-                          className: frameClass,
-                          children: isShowing && /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(Day, { ...time, dragContainer: "app" })
-                        }
-                      ),
-                      calendarMode && DateTime.fromISO(time.startISO).weekday === 7 ? /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "!h-0 !w-1" }) : null
-                    ] }, time.startISO + "::" + time.type);
+                    ) : /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(
+                      import_react18.Fragment,
+                      {
+                        children: [
+                          calendarMode && i === (showingPastDates ? 0 : 1) && childWidth > 1 && dayPadding(time),
+                          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
+                            "div",
+                            {
+                              id: `time-ruler-${time.isNow ? "now" : time.startISO.slice(0, 10)}`,
+                              className: frameClass,
+                              children: isShowing && /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(Day, { ...time })
+                            }
+                          ),
+                          calendarMode && DateTime.fromISO(time.startISO).weekday === 7 ? /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "!h-0 !w-1" }) : null
+                        ]
+                      },
+                      time.isNow ? "now" : time.startISO + "::" + time.type
+                    );
                   })
                 }
               )
@@ -71417,7 +71369,7 @@ var Buttons = ({
   showingPastDates
 }) => {
   const now3 = DateTime.now();
-  const viewMode = useAppStore((state) => state.viewMode);
+  const viewMode = useAppStore((state) => state.settings.viewMode);
   (0, import_react18.useEffect)(() => {
     var _a;
     (_a = (0, import_jquery2.default)(`#time-ruler-${getToday()}`)[0]) == null ? void 0 : _a.scrollIntoView();
@@ -71436,7 +71388,7 @@ var Buttons = ({
     weeksShownState > 0 && /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
       Button_default,
       {
-        className: `force-hover rounded-lg`,
+        className: `force-hover rounded-icon`,
         onClick: () => setWeeksShown(weeksShownState - 1),
         src: "chevron-left"
       }
@@ -71464,29 +71416,31 @@ var Buttons = ({
   const yesterday = now3.minus({ days: 1 }).toISODate();
   const tomorrow = now3.plus({ days: 1 }).toISODate();
   const renderButton = (time, i) => {
-    var _a, _b, _c;
+    var _a, _b;
     const thisDate = DateTime.fromISO(time.startISO);
     return /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
       Droppable,
       {
         id: time.startISO + "::button",
-        data: { scheduled: (_c = (_b = time.startISO) == null ? void 0 : _b.slice(0, 10)) != null ? _c : "" },
+        data: {
+          scheduled: time.isNow ? time.startISO : (_b = (_a = time.startISO) == null ? void 0 : _a.slice(0, 10)) != null ? _b : ""
+        },
         children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
           Button_default,
           {
             className: "h-[28px]",
             onClick: () => scrollToSection(
-              !time.startISO ? "unscheduled" : time.startISO.slice(0, 10)
+              time.type === "unscheduled" ? "unscheduled" : time.isNow ? "now" : time.startISO.slice(0, 10)
             ),
-            children: time.type === "unscheduled" ? "Unscheduled" : time.startISO === today ? "Today" : time.startISO === yesterday ? "Yesterday" : time.startISO === tomorrow ? "Tomorrow" : thisDate.toFormat("EEE MMM d")
+            children: time.type === "unscheduled" ? "Unscheduled" : time.isNow ? "Now" : time.startISO === today ? "Today" : time.startISO === yesterday ? "Yesterday" : time.startISO === tomorrow ? "Tomorrow" : thisDate.toFormat("EEE MMM d")
           }
         )
       },
-      (_a = time.startISO) != null ? _a : "unscheduled"
+      time.type === "unscheduled" ? "unscheduled" : time.isNow ? "now" : time.startISO
     );
   };
   const hideTimes = useAppStore((state) => state.settings.hideTimes);
-  return /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_jsx_runtime14.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: `flex w-full items-center space-x-1 rounded-lg`, children: [
+  return /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_jsx_runtime14.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: `flex w-full items-center space-x-1 rounded-icon`, children: [
     /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", { className: "group relative", children: [
       /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(
         Button_default,
@@ -71593,7 +71547,7 @@ var Buttons = ({
                     title,
                     className: "w-6 flex-none",
                     onClick: () => {
-                      setters.set({
+                      getters.getObsidianAPI().setSetting({
                         viewMode: viewMode2
                       });
                     }
@@ -71625,7 +71579,8 @@ var Buttons = ({
           nextButton
         ]
       }
-    )
+    ),
+    /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(NewTask, { dragContainer: "buttons" })
   ] }) });
 };
 
@@ -71704,13 +71659,19 @@ var TimeRulerView = class extends import_obsidian7.ItemView {
     return "Time Ruler";
   }
   async onOpen() {
-    this.obsidianAPI = new ObsidianAPI(this.plugin.settings, (settings) => {
-      this.plugin.settings = { ...this.plugin.settings, ...settings };
-      this.plugin.saveSettings();
-      setters.set({
-        settings: { ...getters.get("settings"), ...settings }
-      });
-    });
+    this.obsidianAPI = new ObsidianAPI(
+      this.plugin.settings,
+      (settings) => {
+        for (let key2 of import_lodash15.default.keys(settings)) {
+          this.plugin.settings[key2] = settings[key2];
+        }
+        this.plugin.saveSettings();
+        setters.set({
+          settings: { ...this.plugin.settings }
+        });
+      },
+      this.app
+    );
     this.calendarLinkAPI = new CalendarAPI(this.plugin.settings, (calendar) => {
       import_lodash15.default.pull(this.plugin.settings.calendars, calendar);
       this.plugin.saveSettings();
@@ -71829,6 +71790,13 @@ var SettingsTab = class extends import_obsidian8.PluginSettingTab {
       toggle.setValue(this.plugin.settings.muted);
       toggle.onChange((value) => {
         this.plugin.settings.muted = value;
+        this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian8.Setting(containerEl).setName("Borders").setDesc("Toggle borders around days.").addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.borders);
+      toggle.onChange((value) => {
+        this.plugin.settings.borders = value;
         this.plugin.saveSettings();
       });
     });
@@ -71994,7 +71962,9 @@ var DEFAULT_SETTINGS = {
   filterFunction: "",
   addTaskToEnd: false,
   extendBlocks: false,
-  hideTimes: false
+  hideTimes: false,
+  borders: true,
+  viewMode: "day"
 };
 var TimeRulerPlugin = class extends import_obsidian9.Plugin {
   constructor(app2, manifest) {

@@ -1,6 +1,6 @@
 {
   "TagColors": {
-    "ColorPicker": {},
+    "ColorPicker": [],
     "EnableMultipleTags": true,
     "EnableSeparateBackground": false,
     "EnableSeparateLuminanceOffset": false,
@@ -20,7 +20,7 @@
   },
   "FolderNote": {
     "Enable": false,
-    "FolderTagLinks": {},
+    "FolderTagLinks": [],
     "EnableAutoDetect": true,
     "Values": {
       "ForceImportant": true,
@@ -48,9 +48,10 @@
     }
   },
   "Debug": {
-    "Enable": false
+    "Enable": false,
+    "EnableExperimentalCommands": false
   },
   "Info": {
-    "SettingsVersion": 10
+    "SettingsVersion": 12
   }
 }

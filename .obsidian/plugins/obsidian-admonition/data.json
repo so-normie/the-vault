@@ -1,7 +1,7 @@
 {
   "userAdmonitions": {},
   "syntaxHighlight": false,
-  "copyButton": false,
+  "copyButton": true,
   "version": "10.1.1",
   "autoCollapse": true,
   "defaultCollapseType": "open",
@@ -15,7 +15,10 @@
     "other": true,
     "advanced": false
   },
-  "icons": [],
+  "icons": [
+    "octicons",
+    "rpg"
+  ],
   "useFontAwesome": true,
   "rpgDownloadedOnce": false,
   "msDocConverted": false,

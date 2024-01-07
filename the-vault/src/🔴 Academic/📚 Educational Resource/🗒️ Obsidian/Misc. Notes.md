@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Obsidian ∋ Table of Contents
 created: 2023-08-20 08:26
-updated: 2024-01-02T00:08
+updated: 2024-01-06T16:33
 authors:
   - Edmund Leibert III
 tags:
@@ -28,7 +28,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Obsidian::Misc. No
 ---
 
 ﹇<br>
-When building a plugin, what command should you run to install dependencies?
+When building an Obsidian plugin, what command should you run to install dependencies?
 
 #card-reverse 
 
@@ -38,7 +38,7 @@ When building a plugin, what command should you run to install dependencies?
 <br>﹈<br>^1700212809979
 
 ﹇<br>
-In the context of most Obsidian plugins, when building a plugin, what command should you run to start compilation in watch mode? 
+In the context of *most* Obsidian plugins, when building a plugin, what command should you run to start compilation in *watch* mode? 
 
 #card-reverse  
 
@@ -168,6 +168,10 @@ For example, you might write: “Open the `main.py` file and add the following c
 Bolding can be used for emphasis or to highlight important parts of the text. However, it’s less common to use bolding for filenames or code, as this can make it less clear that you’re referring to a literal piece of code or a filename.
 
 Remember, the most important thing is to be consistent in your formatting throughout your document. If you choose to use code blocks for filenames, for example, you should do so consistently throughout your document.
+
+> [!tip]
+> red
+
 
 > [!TIP]
 > For this repository of notes, we will be following the convention of writing filenames in code blocks.

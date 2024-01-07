@@ -1,0 +1,36 @@
+{
+  "callouts": {
+    "custom": [
+      "note"
+    ],
+    "settings": {
+      "tip": [
+        {
+          "changes": {
+            "icon": "lucide-lightbulb"
+          }
+        }
+      ],
+      "note": [
+        {
+          "changes": {
+            "icon": "lucide-info"
+          }
+        }
+      ],
+      "important": [
+        {
+          "changes": {
+            "color": "165, 115, 174"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidianFallbackForced": false,
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

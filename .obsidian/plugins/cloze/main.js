@@ -35,6 +35,7 @@ var langs = {
   add_cloze_with_hint: "Create cloze with hint",
   remove_cloze: "Remove cloze",
   toggle_cloze: "Toggle all clozes",
+  reveal_more_hint: "More hint",
   setting_selector_tag: "Required tag",
   setting_selector_tag_desc: "If you provide a tag here, the plugin will only activate on notes with that tag i.e. #cloze.",
   setting_hide_by_default: "Hide by default",
@@ -59,6 +60,13 @@ var langs = {
   setting_custom_setting: "Custom settings",
   setting_fixed_cloze_width: "Fixed cloze width",
   setting_fixed_cloze_width_desc: "Enable this setting, clozes will have the same default width, which helps to ensure that the original text length is not revealed.",
+  setting_hint: "Hint",
+  setting_hint_strategy: "Hint strategy",
+  setting_hint_strategy_desc: "If you would like the cloze to automatically display the hint based on its content, you have two strategies to choose from: by text count or by text length percentage.",
+  setting_hint_by_count: "By count",
+  setting_hint_by_count_desc: "Set this setting, clozes that are in the hidden state will display the first n letters/characters as a hint.",
+  setting_hint_by_percentage: "By percentage",
+  setting_hint_by_percentage_desc: "Set this setting, clozes that are in the hidden state will display hint based on the percentage of the cloze content. For example, 20% of a cloze containing 10 letters would show 2 of its 1st letters.",
   setting_contact: "Thank you for using Cloze! Any feedback is welcomed"
 };
 var en_default = langs;
@@ -69,6 +77,7 @@ var langs2 = {
   add_cloze_with_hint: "\u6DFB\u52A0\u5E26\u63D0\u793A\u7684\u586B\u7A7A",
   remove_cloze: "\u79FB\u9664\u586B\u7A7A",
   toggle_cloze: "\u663E/\u9690\u6240\u6709\u586B\u7A7A",
+  reveal_more_hint: "\u66F4\u591A\u63D0\u793A",
   setting_selector_tag: "\u4F5C\u7528\u6807\u7B7E",
   setting_selector_tag_desc: "\u8BE5\u63D2\u4EF6\u5C06\u4EC5\u4F5C\u7528\u4E8E\u5E26\u6709\u8BE5\u6807\u7B7E\u7684\u7B14\u8BB0\u4E0A\uFF0C\u4E3A\u7A7A\u5219\u4F5C\u7528\u4E8E\u6240\u6709\u7B14\u8BB0 i.e. #cloze\u3002",
   setting_hide_by_default: "\u9ED8\u8BA4\u9690\u85CF",
@@ -93,6 +102,13 @@ var langs2 = {
   setting_custom_setting: "\u81EA\u5B9A\u4E49\u8BBE\u7F6E",
   setting_fixed_cloze_width: "\u56FA\u5B9A\u586B\u7A7A\u5BBD\u5EA6",
   setting_fixed_cloze_width_desc: "\u542F\u7528\u6B64\u8BBE\u7F6E\u540E\uFF0C\u6240\u6709\u586B\u7A7A\u7684\u5BBD\u5EA6\u9ED8\u8BA4\u76F8\u540C\uFF08\u53EF\u907F\u514D\u900F\u9732\u539F\u6587\u5B57\u957F\u5EA6\uFF09\u3002",
+  setting_hint: "\u63D0\u793A",
+  setting_hint_strategy: "\u63D0\u793A\u7B56\u7565",
+  setting_hint_strategy_desc: "\u5982\u679C\u4F60\u5E0C\u671B\u586B\u7A7A\u9ED8\u8BA4\u5C55\u793A\u63D0\u793A\uFF0C\u53EF\u9009\u62E9\u81EA\u52A8\u63D0\u793A\u7B56\u7565\uFF1A\u9996\u5B57\u6BCD\u6216\u662F\u767E\u5206\u6BD4\u3002",
+  setting_hint_by_count: "\u63D0\u793A\u5B57\u6570",
+  setting_hint_by_count_desc: "\u586B\u7A7A\u5728\u9690\u85CF\u72B6\u6001\u4E0B\u4F1A\u5C55\u793A\u539F\u4F4D\u7684\u9996n\u4E2A\u5B57\u7B26\u3002",
+  setting_hint_by_percentage: "\u63D0\u793A\u767E\u5206\u6BD4",
+  setting_hint_by_percentage_desc: "\u586B\u7A7A\u5728\u9690\u85CF\u72B6\u6001\u4E0B\u4F1A\u5C55\u793A\u539F\u4F4D\u7684\u9996n%\u4E2A\u5B57\u7B26\u3002",
   setting_contact: "\u8C22\u8C22\u4F60\u7684\u4F7F\u7528~ \u6B22\u8FCE\u53CD\u9988\uFF01\u6233\u8FD9\u91CC\uFF1A"
 };
 var zh_default = langs2;
@@ -106,6 +122,11 @@ var language = window.localStorage.getItem("language") || "en";
 var lang_default = langs3[language] || en_default;
 
 // src/settings/settingData.ts
+var HINT_STRATEGY = {
+  none: 0,
+  count: 1,
+  percentage: 2
+};
 var DEFAULT_SETTINGS = {
   defaultHide: true,
   selectorTag: "#",
@@ -118,7 +139,11 @@ var DEFAULT_SETTINGS = {
   fixedClozeWidth: false,
   editorMenuAddCloze: true,
   editorMenuAddClozeWithHint: true,
-  editorMenuRemoveCloze: true
+  editorMenuRemoveCloze: true,
+  hintStrategy: HINT_STRATEGY.none,
+  hintCount: 2,
+  hintPercentage: 0.2
+  // 20%
 };
 var settingData_default = DEFAULT_SETTINGS;
 
@@ -133,6 +158,13 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h1", { text: "Cloze" });
+    this.displayAutoConvert(containerEl);
+    this.displayCustomSetting(containerEl);
+    this.displayHintSetting(containerEl);
+    this.displayEditorMenuSetting(containerEl);
+    this.displayContact(containerEl);
+  }
+  displayAutoConvert(containerEl) {
     containerEl.createEl("h2", { text: lang_default.setting_auto_convert });
     new import_obsidian.Setting(containerEl).setName(lang_default.setting_highlight).setDesc(lang_default.setting_highlight_desc).addToggle((toggle) => toggle.setValue(this.plugin.settings.includeHighlighted).onChange((value) => {
       this.plugin.settings.includeHighlighted = value;
@@ -158,6 +190,8 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
       this.plugin.settings.includeCurlyBrackets = value;
       this.plugin.saveSettings();
     }));
+  }
+  displayCustomSetting(containerEl) {
     containerEl.createEl("h2", { text: lang_default.setting_custom_setting });
     new import_obsidian.Setting(containerEl).setName(lang_default.setting_selector_tag).setDesc(lang_default.setting_selector_tag_desc).addText((text) => text.setValue(this.plugin.settings.selectorTag).onChange(async (value) => {
       this.plugin.settings.selectorTag = this.sanitizeTag(value);
@@ -171,6 +205,57 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
       this.plugin.settings.defaultHide = value;
       this.plugin.saveSettings();
     }));
+  }
+  displayHintSetting(containerEl) {
+    const settingEl = containerEl.createEl("div");
+    settingEl.createEl("h2", { text: "Hint" });
+    new import_obsidian.Setting(settingEl).setName(lang_default.setting_hint_strategy).setDesc(lang_default.setting_hint_strategy_desc).addDropdown((comp) => {
+      comp.addOptions({ [HINT_STRATEGY.none]: "Off", [HINT_STRATEGY.count]: "By Count", [HINT_STRATEGY.percentage]: "By Percentage" });
+      comp.setValue(this.plugin.settings.hintStrategy.toString());
+      comp.onChange((val) => {
+        this.plugin.settings.hintStrategy = Number(val);
+        initHintStrategyVaule(Number(val));
+        this.plugin.saveSettings();
+      });
+    });
+    let hintStrategySetting;
+    const initHintStrategyVaule = (strategy) => {
+      var _a;
+      if (hintStrategySetting)
+        (_a = hintStrategySetting.settingEl.parentElement) == null ? void 0 : _a.removeChild(hintStrategySetting.settingEl);
+      switch (strategy) {
+        case HINT_STRATEGY.none:
+          break;
+        case HINT_STRATEGY.count:
+          hintStrategySetting = new import_obsidian.Setting(settingEl).setName(lang_default.setting_hint_by_count).setDesc(lang_default.setting_hint_by_count_desc).addText((text) => {
+            text.setValue(this.plugin.settings.hintCount.toString()).onChange(async (value) => {
+              const valueNumber = Number(value);
+              if (isNaN(valueNumber))
+                return;
+              this.plugin.settings.hintCount = valueNumber;
+              this.plugin.saveSettings();
+            });
+          });
+          break;
+        case HINT_STRATEGY.percentage:
+          hintStrategySetting = new import_obsidian.Setting(settingEl).setName(lang_default.setting_hint_by_percentage).setDesc(lang_default.setting_hint_by_percentage_desc).addText((text) => {
+            text.setValue(this.plugin.settings.hintPercentage * 100 + "%").onChange(async (value) => {
+              const matches = value.match(/^(\d+)%$/);
+              if (!matches)
+                return;
+              const valueNumber = Number(matches[1]) / 100;
+              if (isNaN(valueNumber))
+                return;
+              this.plugin.settings.hintPercentage = valueNumber;
+              this.plugin.saveSettings();
+            });
+          });
+          break;
+      }
+    };
+    initHintStrategyVaule(Number(this.plugin.settings.hintStrategy));
+  }
+  displayEditorMenuSetting(containerEl) {
     containerEl.createEl("h2", { text: lang_default.setting_editor_menu });
     new import_obsidian.Setting(containerEl).setName(lang_default.setting_editor_menu_add_cloze).addToggle((toggle) => toggle.setValue(this.plugin.settings.editorMenuAddCloze).onChange((value) => {
       this.plugin.settings.editorMenuAddCloze = value;
@@ -184,6 +269,8 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
       this.plugin.settings.editorMenuRemoveCloze = value;
       this.plugin.saveSettings();
     }));
+  }
+  displayContact(containerEl) {
     containerEl.createEl("p", {
       text: lang_default.setting_contact + " ",
       cls: "setting-item-description"
@@ -230,7 +317,7 @@ var HintModal = class extends import_obsidian2.Modal {
   }
 };
 
-// src/main.ts
+// src/const.ts
 var ATTRS = {
   hide: "data-cloze-hide",
   hint: "data-cloze-hint",
@@ -238,16 +325,69 @@ var ATTRS = {
 };
 var CLASSES = {
   cloze: "cloze",
+  clozeContent: "cloze-content",
   highlight: "cloze-highlight",
   bold: "cloze-bold",
   underline: "cloze-underline",
   hint: "cloze-hint",
   fixedWidth: "cloze-fixed-width"
 };
+
+// src/utils.ts
+var utils = {
+  getClozeEl: (target) => {
+    let targetCloze = null;
+    if (target.matches("." + CLASSES.cloze)) {
+      targetCloze = target;
+    } else if (target.matches("." + CLASSES.clozeContent)) {
+      targetCloze = target.parentElement;
+    }
+    return targetCloze;
+  },
+  getClozeContentEl: (target) => {
+    return target.querySelector("." + CLASSES.clozeContent);
+  },
+  getClozeHintEl: (target) => {
+    return target.querySelector("." + CLASSES.hint);
+  },
+  getClozeContent: (clozeEl) => {
+    const $content = clozeEl.querySelector("." + CLASSES.clozeContent);
+    if ($content) {
+      return $content.textContent || "";
+    }
+    return "";
+  },
+  hasCustomHint: (clozeEl) => {
+    return !!clozeEl.getAttribute(ATTRS.hint);
+  },
+  getClozeCustomHint: (clozeEl) => {
+    return clozeEl.getAttribute(ATTRS.hint) || "";
+  },
+  getClozeCurrentHint: (clozeEl) => {
+    const $hint = clozeEl.querySelector("." + CLASSES.hint);
+    if ($hint) {
+      return $hint.textContent || "";
+    }
+    return "";
+  },
+  setClozeHint: (clozeEl, hint) => {
+    const $hint = utils.getClozeHintEl(clozeEl);
+    if (!$hint || hint === void 0)
+      return;
+    $hint.textContent = hint;
+  },
+  isClozeHide: (clozeEl) => {
+    return !!clozeEl.getAttribute(ATTRS.hide);
+  }
+};
+var utils_default = utils;
+
+// src/main.ts
 var ClozePlugin = class extends import_obsidian3.Plugin {
   constructor() {
     super(...arguments);
-    this.isAllHide = true;
+    this.isSourceHide = false;
+    this.isPreviewHide = true;
     this.clozeSelector = () => {
       const selectors = [".cloze-span"];
       if (this.settings.includeHighlighted) {
@@ -279,25 +419,34 @@ var ClozePlugin = class extends import_obsidian3.Plugin {
         item.innerHTML = item.innerHTML.replace(/\{(.*?)\}/g, '<span class="cloze-span">$1</span>');
       });
     };
+    this.renderCloze = ($cloze) => {
+      $cloze.classList.add(CLASSES.cloze);
+      $cloze.innerHTML = `<span class="cloze-hint"></span><span class="cloze-content">${$cloze.innerHTML}</span>`;
+      this.initHint($cloze);
+    };
+    this.initHint = ($cloze) => {
+      let hint = "";
+      if (utils_default.hasCustomHint($cloze)) {
+        hint = utils_default.getClozeCustomHint($cloze);
+      } else {
+        const textContent = utils_default.getClozeContent($cloze);
+        if (this.settings.hintStrategy === HINT_STRATEGY.count) {
+          hint = textContent.slice(0, this.settings.hintCount);
+        } else if (this.settings.hintStrategy === HINT_STRATEGY.percentage) {
+          hint = textContent.slice(0, Math.ceil(textContent.length * this.settings.hintPercentage));
+        }
+      }
+      utils_default.setClozeHint($cloze, hint);
+    };
+    // ----------- cloze interaction ------------
     this.hideClozeContent = (target) => {
       if (!target.getAttribute(ATTRS.hide)) {
-        if (target.getAttribute(ATTRS.hint)) {
-          target.setAttribute(ATTRS.content, target.innerHTML);
-          target.innerHTML = target.getAttribute(ATTRS.hint) || "";
-          target.removeAttribute(ATTRS.hint);
-          target.classList.add(CLASSES.hint);
-        }
         target.setAttribute(ATTRS.hide, "true");
       }
+      this.initHint(target);
     };
     this.showClozeContent = (target) => {
       if (target.getAttribute(ATTRS.hide)) {
-        if (target.getAttribute(ATTRS.content)) {
-          target.setAttribute(ATTRS.hint, target.innerHTML);
-          target.innerHTML = target.getAttribute(ATTRS.content) || "";
-          target.removeAttribute(ATTRS.content);
-          target.classList.remove(CLASSES.hint);
-        }
         target.removeAttribute(ATTRS.hide);
       }
     };
@@ -321,25 +470,36 @@ var ClozePlugin = class extends import_obsidian3.Plugin {
       const newStr = currentStr.replace(/<span.*?class="cloze-span".*?>(.*?)<\/span>/g, "$1");
       editor.replaceSelection(newStr);
     };
+    this.revealMoreHint = ($cloze) => {
+      const currentHint = utils_default.getClozeCurrentHint($cloze);
+      const hintLength = currentHint.length + 3;
+      utils_default.setClozeHint($cloze, utils_default.getClozeContent($cloze).slice(0, hintLength));
+    };
   }
   async onload() {
     console.log("load cloze plugin");
     await this.loadSettings();
     this.addSettingTab(new settingTab_default(this.app, this));
     this.initRibbon();
-    this.registerDomEvent(document, "click", (event) => {
-      if (this.isPreviewMode() && this.checkTags()) {
-        this.toggleHide(event.target);
-      }
-    });
     this.initEditorMenu();
     this.initCommand();
     this.initMarkdownPostProcessor();
+    this.registerDomEvent(document, "click", (event) => {
+      if (this.isPreviewMode()) {
+        this.toggleHide(utils_default.getClozeEl(event.target));
+      }
+    });
+    this.registerDomEvent(document, "contextmenu", (event) => {
+      if (this.isPreviewMode()) {
+        this.onRightClick(event, utils_default.getClozeEl(event.target));
+      }
+    });
   }
   initRibbon() {
     this.addRibbonIcon("fish", lang_default.toggle_cloze, (evt) => {
-      this.toggleAllHide(document, !this.isAllHide);
-      this.isAllHide = !this.isAllHide;
+      if (this.checkTags()) {
+        this.togglePageAllHide();
+      }
     });
   }
   initEditorMenu() {
@@ -377,13 +537,10 @@ var ClozePlugin = class extends import_obsidian3.Plugin {
       id: "add-cloze",
       name: lang_default.add_cloze,
       icon: "fish",
-      editorCheckCallback: (checking, editor, ctx) => {
+      editorCallback: (editor, ctx) => {
         const selection = editor.getSelection();
-        if (selection && this.checkTags() && !checking) {
+        if (selection && this.checkTags()) {
           this.addCloze(editor);
-          return true;
-        } else {
-          return false;
         }
       }
     });
@@ -391,13 +548,10 @@ var ClozePlugin = class extends import_obsidian3.Plugin {
       id: "add-cloze-with-hint",
       name: lang_default.add_cloze_with_hint,
       icon: "fish-symbol",
-      editorCheckCallback: (checking, editor, ctx) => {
+      editorCallback: (editor, ctx) => {
         const selection = editor.getSelection();
-        if (selection && this.checkTags() && !checking) {
+        if (selection && this.checkTags()) {
           this.addCloze(editor, true);
-          return true;
-        } else {
-          return false;
         }
       }
     });
@@ -405,13 +559,19 @@ var ClozePlugin = class extends import_obsidian3.Plugin {
       id: "remove-cloze",
       name: lang_default.remove_cloze,
       icon: "fish-off",
-      editorCheckCallback: (checking, editor, ctx) => {
+      editorCallback: (editor, ctx) => {
         const selection = editor.getSelection();
-        if (selection && this.checkTags() && !checking) {
+        if (selection && this.checkTags()) {
           this.removeCloze(editor);
-          return true;
-        } else {
-          return false;
+        }
+      }
+    });
+    this.addCommand({
+      id: "toggle-cloze",
+      name: lang_default.toggle_cloze,
+      callback: () => {
+        if (this.checkTags()) {
+          this.togglePageAllHide();
         }
       }
     });
@@ -435,9 +595,24 @@ var ClozePlugin = class extends import_obsidian3.Plugin {
       if (this.settings.includeCurlyBrackets) {
         this.transformCurlyBracketedText(element);
       }
-      element.querySelectorAll(this.clozeSelector()).forEach((el) => el.classList.add(CLASSES.cloze));
-      this.toggleAllHide(element, this.isAllHide);
+      element.querySelectorAll(this.clozeSelector()).forEach(this.renderCloze);
+      this.toggleAllHide(element, this.isPreviewHide);
     });
+  }
+  onRightClick(event, $cloze) {
+    if (!$cloze)
+      return;
+    if (!utils_default.isClozeHide($cloze))
+      return;
+    if (utils_default.hasCustomHint($cloze))
+      return;
+    const menu = new import_obsidian3.Menu();
+    menu.addItem(
+      (item) => item.setTitle(en_default.reveal_more_hint).setIcon("snail").onClick(() => {
+        this.revealMoreHint($cloze);
+      })
+    );
+    menu.showAtMouseEvent(event);
   }
   isPreviewMode() {
     var _a;
@@ -468,23 +643,23 @@ var ClozePlugin = class extends import_obsidian3.Plugin {
   }
   async loadSettings() {
     this.settings = Object.assign({}, settingData_default, await this.loadData());
-    this.isAllHide = this.settings.defaultHide;
+    this.isPreviewHide = this.settings.defaultHide;
   }
   async saveSettings() {
     await this.saveData(this.settings);
-    this.isAllHide = this.settings.defaultHide;
+    this.isPreviewHide = this.settings.defaultHide;
   }
   toggleHide(target) {
-    if (target.matches(this.clozeSelector())) {
-      if (target.getAttribute(ATTRS.hide)) {
-        this.showClozeContent(target);
-      } else {
-        this.hideClozeContent(target);
-      }
+    if (!target)
+      return;
+    if (target.getAttribute(ATTRS.hide)) {
+      this.showClozeContent(target);
+    } else {
+      this.hideClozeContent(target);
     }
   }
   toggleAllHide(dom = document, hide) {
-    if (this.checkTags()) {
+    if (dom && this.checkTags()) {
       const marks = dom.querySelectorAll(this.clozeSelector());
       if (hide) {
         marks.forEach((mark) => {
@@ -495,6 +670,15 @@ var ClozePlugin = class extends import_obsidian3.Plugin {
           this.showClozeContent(mark);
         });
       }
+    }
+  }
+  togglePageAllHide() {
+    if (this.isPreviewMode()) {
+      this.toggleAllHide(document.querySelector(".markdown-preview-view"), !this.isPreviewHide);
+      this.isPreviewHide = !this.isPreviewHide;
+    } else {
+      this.toggleAllHide(document.querySelector(".markdown-source-view"), !this.isSourceHide);
+      this.isSourceHide = !this.isSourceHide;
     }
   }
 };
