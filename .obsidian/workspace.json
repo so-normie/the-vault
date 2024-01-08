@@ -11,8 +11,13 @@
             "id": "84f5f96f78cb96ee",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "the-vault/test.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "the-vault/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "the-vault/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "the-vault/test.md"
+              }
             }
           }
         ],
@@ -192,7 +201,7 @@
       "reference-map:Reference Map": false
     }
   },
-  "active": "3b22159245c2a393",
+  "active": "84f5f96f78cb96ee",
   "lastOpenFiles": [
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/🗒️ Git ∋ Table of Contents.md",
