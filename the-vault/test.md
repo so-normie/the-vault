@@ -1,6 +1,6 @@
 ---
 created: 2023-10-01 16:14
-updated: 2024-01-07T15:06
+updated: 2024-01-07T17:57
 cards-deck: Default
 tags:
   - 🍑-booty
@@ -16,12 +16,14 @@ tags:
 ﹇<br>
 What is our favorite color?
 
-> [!warning]
+> [!warning]+
 > I love notes
 
 #card 
 
 Red
+
+
 
 > [!info]+
 > I love notes
@@ -29,7 +31,7 @@ Red
 > [!info]-
 > I love notes
 
-> [!info]
+> [!info]+
 > I love notes
 
 > [!info]
@@ -95,6 +97,7 @@ Who was the grinch this christmas?
 Whiy, the grunch was Kartik :BoBxsFileArchive:
 
 
-> [!caution] 
+> [!caution] Title
 > Contents
+
 

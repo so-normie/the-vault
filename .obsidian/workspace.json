@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "84f5f96f78cb96ee",
+            "id": "7e28107089f07761",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 576.5
+    "width": 576.5,
+    "collapsed": true
   },
   "right": {
     "id": "1186c1364788cf17",
@@ -171,7 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394.5
+    "width": 400.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,8 +202,9 @@
       "reference-map:Reference Map": false
     }
   },
-  "active": "84f5f96f78cb96ee",
+  "active": "7e28107089f07761",
   "lastOpenFiles": [
+    "the-vault/test.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/🗒️ Git ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
