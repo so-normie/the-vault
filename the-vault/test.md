@@ -1,6 +1,6 @@
 ---
 created: 2023-10-01 16:14
-updated: 2024-01-07T17:57
+updated: 2024-01-07T20:07
 cards-deck: Default
 tags:
   - 🍑-booty
@@ -97,7 +97,7 @@ Who was the grinch this christmas?
 Whiy, the grunch was Kartik :BoBxsFileArchive:
 
 
-> [!caution] Title
+> [!CAUTION] 
 > Contents
 
 
