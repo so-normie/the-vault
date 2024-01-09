@@ -1,6 +1,6 @@
 ---
 created: 2023-10-01 16:14
-updated: 2024-01-07T20:07
+updated: 2024-01-07T21:06
 cards-deck: Default
 tags:
   - 🍑-booty
@@ -25,17 +25,17 @@ Red
 
 
 
-> [!info]+
+> [!INFO]+ Note
 > I love notes
 
-> [!info]-
+> [!INFO]- Note
 > I love notes
 
-> [!info]+
+> [!INFO]+ Note
 > I love notes
 
-> [!info]
-> >[!info]
+> [!INFO] Note
+> >[!INFO] Note
 > >sdcsd
 >
 
@@ -96,8 +96,19 @@ Hello! A [French fry with ranch dressing] is my favorite snack.
 Who was the grinch this christmas?
 Whiy, the grunch was Kartik :BoBxsFileArchive:
 
+What are the various callouts?
 
-> [!CAUTION] 
-> Contents
+> [!INFO] Note
+> Highlights information that users should take into account, even when skimming.
 
+> [!TIP] Tip
+> Optional information to help a user be more successful.
 
+> [!IMPORTANT] Important
+> Crucial information necessary for users to succeed.
+
+> [!WARNING] Warning
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION] Caution
+> Negative potential consequences of an action.
