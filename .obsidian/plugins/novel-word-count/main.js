@@ -969,6 +969,19 @@ var FileHelper = class {
   }
 };
 
+// logic/locale_format.ts
+var locales = [...navigator.languages, "en-US"];
+var DateFormat = new Intl.DateTimeFormat(locales);
+var NumberFormatDefault = new Intl.NumberFormat(locales);
+var NumberFormatDecimal = new Intl.NumberFormat(locales, {
+  minimumFractionDigits: 1,
+  maximumFractionDigits: 2
+});
+var NumberFormatFileSize = new Intl.NumberFormat(locales, {
+  minimumFractionDigits: 0,
+  maximumFractionDigits: 2
+});
+
 // logic/filesize.ts
 var formatThresholds = [{
   suffix: "B",
@@ -998,16 +1011,10 @@ var FileSizeHelper = class {
       if (bytes < formatThreshold.divisor * 1e3 || formatThreshold === largestThreshold) {
         const units = bytes / formatThreshold.divisor;
         const suffix = shouldAbbreviate ? formatThreshold.suffix : formatThreshold.suffixLong;
-        return `${this.round(units)}${suffix}`;
+        return `${NumberFormatFileSize.format(units)}${suffix}`;
       }
     }
     return `?B`;
-  }
-  round(value) {
-    return value.toLocaleString(void 0, {
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 2
-    });
   }
 };
 
@@ -1025,7 +1032,7 @@ var ReadTimeHelper = class {
     if (minutes < 60) {
       return `${Math.round(minutes)}m${final}`;
     }
-    const hours = Math.floor(minutes / 60).toLocaleString();
+    const hours = NumberFormatDefault.format(Math.floor(minutes / 60));
     const remainder = Math.floor(minutes) % 60;
     return remainder === 0 ? `${hours}h${final}` : `${hours}h${remainder}m${final}`;
   }
@@ -1077,7 +1084,12 @@ var NodeLabelHelper = class {
     const abbreviateDescriptions = counts.isDirectory && !this.settings.showSameCountsOnFolders ? this.settings.folderAbbreviateDescriptions : this.settings.abbreviateDescriptions;
     const separator = !this.settings.useAdvancedFormatting ? "|" : counts.isDirectory && !this.settings.showSameCountsOnFolders ? this.settings.folderPipeSeparator : this.settings.pipeSeparator;
     return countTypes.filter((ct) => ct.countType !== "none" /* None */).map(
-      (ct) => this.getDataTypeLabel(counts, ct.countType, abbreviateDescriptions, ct.overrideSuffix)
+      (ct) => this.getDataTypeLabel(
+        counts,
+        ct.countType,
+        abbreviateDescriptions,
+        ct.overrideSuffix
+      )
     ).filter((display) => display !== null).join(` ${separator} `);
   }
   getCountTypeWithSuffix(countType, customSuffix) {
@@ -1104,7 +1116,7 @@ var NodeLabelHelper = class {
         return null;
       case "word" /* Word */:
         return this.getBasicCountString({
-          count: Math.ceil(counts.wordCount).toLocaleString(),
+          count: NumberFormatDefault.format(Math.ceil(counts.wordCount)),
           noun: "word",
           abbreviatedNoun: "w",
           abbreviateDescriptions,
@@ -1112,7 +1124,7 @@ var NodeLabelHelper = class {
         });
       case "page" /* Page */:
         return this.getBasicCountString({
-          count: Math.ceil(counts.pageCount).toLocaleString(),
+          count: NumberFormatDefault.format(Math.ceil(counts.pageCount)),
           noun: "page",
           abbreviatedNoun: "p",
           abbreviateDescriptions,
@@ -1120,10 +1132,7 @@ var NodeLabelHelper = class {
         });
       case "pagedecimal" /* PageDecimal */:
         return this.getBasicCountString({
-          count: counts.pageCount.toLocaleString(void 0, {
-            minimumFractionDigits: 1,
-            maximumFractionDigits: 2
-          }),
+          count: NumberFormatDecimal.format(counts.pageCount),
           noun: "page",
           abbreviatedNoun: "p",
           abbreviateDescriptions,
@@ -1134,13 +1143,13 @@ var NodeLabelHelper = class {
           return null;
         }
         const fraction = counts.wordCountTowardGoal / counts.wordGoal;
-        const percent = Math.round(fraction * 100).toLocaleString();
-        const defaultSuffix = abbreviateDescriptions ? "%" : `% of ${counts.wordGoal.toLocaleString()}`;
+        const percent = NumberFormatDefault.format(Math.round(fraction * 100));
+        const defaultSuffix = abbreviateDescriptions ? "%" : `% of ${NumberFormatDefault.format(counts.wordGoal)}`;
         const suffix = overrideSuffix != null ? overrideSuffix : defaultSuffix;
         return `${percent}${suffix}`;
       case "note" /* Note */:
         return this.getBasicCountString({
-          count: counts.noteCount.toLocaleString(),
+          count: NumberFormatDefault.format(counts.noteCount),
           noun: "note",
           abbreviatedNoun: "n",
           abbreviateDescriptions,
@@ -1149,7 +1158,7 @@ var NodeLabelHelper = class {
       case "character" /* Character */:
         const characterCount = this.settings.characterCountType === "ExcludeWhitespace" /* ExcludeWhitespace */ ? counts.nonWhitespaceCharacterCount : counts.characterCount;
         return this.getBasicCountString({
-          count: characterCount.toLocaleString(),
+          count: NumberFormatDefault.format(characterCount),
           noun: "character",
           abbreviatedNoun: "ch",
           abbreviateDescriptions,
@@ -1165,7 +1174,7 @@ var NodeLabelHelper = class {
           return null;
         }
         return this.getBasicCountString({
-          count: counts.linkCount.toLocaleString(),
+          count: NumberFormatDefault.format(counts.linkCount),
           noun: "link",
           abbreviatedNoun: "x",
           abbreviateDescriptions,
@@ -1176,7 +1185,7 @@ var NodeLabelHelper = class {
           return null;
         }
         return this.getBasicCountString({
-          count: counts.embedCount.toLocaleString(),
+          count: NumberFormatDefault.format(counts.embedCount),
           noun: "embed",
           abbreviatedNoun: "em",
           abbreviateDescriptions,
@@ -1191,7 +1200,7 @@ var NodeLabelHelper = class {
         if (counts.createdDate === 0) {
           return null;
         }
-        const cDate = new Date(counts.createdDate).toLocaleDateString();
+        const cDate = DateFormat.format(new Date(counts.createdDate));
         if (overrideSuffix !== null) {
           return `${cDate}${overrideSuffix}`;
         }
@@ -1200,11 +1209,11 @@ var NodeLabelHelper = class {
         if (counts.modifiedDate === 0) {
           return null;
         }
-        const uDate = new Date(counts.modifiedDate).toLocaleDateString();
+        const uDate = DateFormat.format(new Date(counts.modifiedDate));
         if (overrideSuffix !== null) {
           return `${uDate}${overrideSuffix}`;
         }
-        return abbreviateDescriptions ? `${new Date(counts.modifiedDate).toLocaleDateString()}/u` : `Updated ${new Date(counts.modifiedDate).toLocaleDateString()}`;
+        return abbreviateDescriptions ? `${DateFormat.format(new Date(counts.modifiedDate))}/u` : `Updated ${DateFormat.format(new Date(counts.modifiedDate))}`;
       case "filesize" /* FileSize */:
         return this.fileSizeHelper.formatFileSize(
           counts.sizeInBytes,
@@ -1238,6 +1247,7 @@ var NovelWordCountPlugin = class extends import_obsidian4.Plugin {
     await this.loadSettings();
     this.fileHelper.setDebugMode(this.savedData.settings.debugMode);
     this.debugHelper.setDebugMode(this.savedData.settings.debugMode);
+    this.debugHelper.debug(`Detected locales: [${navigator.languages}]`);
     this.debugHelper.debug("onload lifecycle hook");
     this.addSettingTab(new NovelWordCountSettingTab(this.app, this));
     this.addCommand({

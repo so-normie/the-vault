@@ -1,5 +1,4 @@
 [
-  "obsidian-activity-history",
   "table-editor-obsidian",
   "obsidian-hider",
   "obsidian-minimal-settings",
@@ -42,9 +41,13 @@
   "reference-map",
   "obsidian-zotero-desktop-connector",
   "obsidian-citation-plugin",
-  "cloze",
   "obsidian-pandoc-reference-list",
-  "obsidian-admonition",
+  "obsidian-linter",
   "colored-tags-wrangler",
-  "obsidian-linter"
+  "cloze",
+  "obsidian-day-planner",
+  "heatmap-calendar",
+  "obsidian-outliner",
+  "callout-manager",
+  "obsidian-admonition"
 ]

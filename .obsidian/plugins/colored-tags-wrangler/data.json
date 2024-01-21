@@ -1,49 +1,27 @@
 {
   "TagColors": {
-    "ColorPicker": {
-      "04952e78-acea-4250-adf7-c7331102f81c": {
-        "tag_name": "🔴-academic/📚-educational-resource/name/real-python/",
-        "color": {
-          "r": 255,
-          "g": 247,
-          "b": 0
-        },
-        "background_color": {
-          "r": 0,
-          "g": 85,
-          "b": 255
-        },
-        "luminance_offset": 0.15
-      },
-      "0102e0fc-3d86-43e7-8f5e-610c04f360af": {
-        "tag_name": "new-tag",
-        "color": {
-          "r": 36,
-          "g": 214,
-          "b": 131
-        },
-        "background_color": {
-          "r": 208,
-          "g": 37,
-          "b": 37
-        },
-        "luminance_offset": 0.15
-      }
-    },
+    "ColorPicker": [],
     "EnableMultipleTags": true,
-    "EnableSeparateBackground": true,
-    "EnableSeparateLuminanceOffset": true,
+    "EnableSeparateBackground": false,
+    "EnableSeparateLuminanceOffset": false,
     "EnableDarkLightDifference": true,
-    "EnableBackgroundOpacity": true,
+    "EnableBackgroundOpacity": false,
     "Values": {
       "BackgroundOpacity": 0.2,
       "LuminanceOffset": 0.15
     }
   },
+  "CSS": {
+    "NoteTags": true,
+    "NoteProperties": true,
+    "NoteBackgrounds": false,
+    "TagsNoWrap": true,
+    "TagsNoWrapText": "pre"
+  },
   "FolderNote": {
     "Enable": false,
-    "FolderTagLinks": {},
-    "EnableAutoDetect": false,
+    "FolderTagLinks": [],
+    "EnableAutoDetect": true,
     "Values": {
       "ForceImportant": true,
       "BorderRadius": "12px",
@@ -62,17 +40,18 @@
       "ListBorderOpacity": 0.3
     }
   },
-  "Debug": {
-    "Enable": true
-  },
   "Canvas": {
-    "Enable": true,
+    "Enable": false,
     "Values": {
       "CardBorderOpacity": 0.3,
       "CardBackgroundLuminanceOffset": 0.15
     }
   },
+  "Debug": {
+    "Enable": false,
+    "EnableExperimentalCommands": false
+  },
   "Info": {
-    "SettingsVersion": 8
+    "SettingsVersion": 12
   }
 }
