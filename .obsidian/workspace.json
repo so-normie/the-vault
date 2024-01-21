@@ -74,13 +74,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 490.5,
-    "collapsed": true
+    "width": 490.5
   },
   "right": {
     "id": "1982d3464f83acf8",
@@ -144,7 +142,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -195,8 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5,
-    "collapsed": true
+    "width": 387.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,7 +204,6 @@
       "omnisearch:Omnisearch": false,
       "workspaces:Manage workspace layouts": false,
       "templater-obsidian:Templater": false,
-      "flashcards-obsidian:Generate flashcards": true,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "switcher:Open quick switcher": true,
       "canvas:Create new canvas": true,
@@ -224,7 +222,7 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "2d8136f999122c80",
+  "active": "4bbd078a939f1607",
   "lastOpenFiles": [
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Real Python/Primer on Python Decorators.md",
