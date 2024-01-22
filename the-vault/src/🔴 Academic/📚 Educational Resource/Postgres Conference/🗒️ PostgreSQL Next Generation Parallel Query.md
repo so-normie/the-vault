@@ -3,12 +3,12 @@ author: Kartik
 publisher: 
 published: 
 tags:
-  - 🔴-academic/educational-resource/pganalyze-webinar
+  - 🔴-academic/📚-educational-resource/name/pganalyze-webinar
   - 🔴-academic/📚-educational-resource/discipline/computer-science/dbms/postgresql
   - study-note
 cards-deck: Default::Computer Science
 created: 2023-09-04 15:48
-updated: 2023-11-18T02:44
+updated: 2023-12-07T21:34
 ---
 
 # [Seminar by Robert Haas (PostgreSQL core contributor)](https://www.youtube.com/watch?v=H38NT8cHGXo&pp=ygUqcm9iZXJ0IGhhYXMgbmV4dCBnZW5lcmF0aW9uIHBhcmFsbGVsIHF1ZXJ5) 

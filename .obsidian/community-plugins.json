@@ -1,5 +1,4 @@
 [
-  "obsidian-activity-history",
   "table-editor-obsidian",
   "obsidian-hider",
   "obsidian-minimal-settings",
@@ -23,7 +22,6 @@
   "templater-obsidian",
   "obsidian-underline",
   "OA-file-hider",
-  "colored-tags",
   "math-booster",
   "obsidian-tikzjax",
   "flashcards-obsidian",
@@ -43,6 +41,13 @@
   "reference-map",
   "obsidian-zotero-desktop-connector",
   "obsidian-citation-plugin",
+  "obsidian-pandoc-reference-list",
+  "obsidian-linter",
+  "colored-tags-wrangler",
   "cloze",
-  "obsidian-pandoc-reference-list"
+  "obsidian-day-planner",
+  "heatmap-calendar",
+  "obsidian-outliner",
+  "callout-manager",
+  "obsidian-admonition"
 ]

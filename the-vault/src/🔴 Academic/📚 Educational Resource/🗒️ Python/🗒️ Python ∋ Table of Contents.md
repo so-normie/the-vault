@@ -1,18 +1,18 @@
 ---
 title: 🗒️ Python ∋ Table of Contents
 created: 2023-10-31T16:39
-updated: 2023-11-28T10:36
+updated: 2023-12-04T08:10
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/name/🗒️-python/🔖/python-∋-table-of-contents
+  - 🔴-academic/📚-educational-resource/name/🗒️-python/🔖/🗒️-python-∋-table-of-contents
   - 🔴-academic/📚-educational-resource/format/website
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/python
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::Python::Python ∋ Table of Contents
 ---
 
-# Python ∋ Table of Contents
+# 🗒️ Python ∋ Table of Contents
 
 ---
 
@@ -31,7 +31,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::Python::Python ∋ Table o
 
 ## :FasListOl: Table of Contents
 
-- **Python**
+- **🗒️ Python**
 	- [🗒️ Python ∋ Table of Contents](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20Python/🗒️%20Python%20∋%20Table%20of%20Contents.md)
 	- [Misc. Notes](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20Python/Misc.%20Notes.md)
 	- [Pip](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20Python/Pip.md)

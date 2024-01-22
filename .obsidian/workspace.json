@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "129f3097f126cfc1",
+    "id": "6a37dff9111f7a7d",
     "type": "split",
     "children": [
       {
-        "id": "c8f35433f18f03a3",
+        "id": "f314596cb6f9a9be",
         "type": "tabs",
         "children": [
           {
-            "id": "06bae97ea74d8f36",
+            "id": "5aed801e64b2ef77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
+                "file": "the-vault/test.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -26,30 +26,30 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f5a8eb526f77d33f",
+    "id": "107bbf5a09fbff43",
     "type": "split",
     "children": [
       {
-        "id": "c2e799ad134556dd",
+        "id": "03851fd5d4cb524e",
         "type": "tabs",
         "children": [
           {
-            "id": "4bbd078a939f1607",
+            "id": "3b22159245c2a393",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "cfae32b46f24b2be",
+            "id": "360e04912d62fdc3",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:🔴-academic/📚-educational-resource/name/leetcode/🏷️/problem/difficulty/easy",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -59,18 +59,10 @@
             }
           },
           {
-            "id": "9094592652bde7c5",
+            "id": "eefa6b4d30c89e6f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "d8bd9e79e958e7e7",
-            "type": "leaf",
-            "state": {
-              "type": "trash-explorer",
               "state": {}
             }
           }
@@ -78,31 +70,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 456.5
+    "width": 576.5,
+    "collapsed": true
   },
   "right": {
-    "id": "1982d3464f83acf8",
+    "id": "1186c1364788cf17",
     "type": "split",
     "children": [
       {
-        "id": "bbec3a49792849f3",
+        "id": "9d5e5c9b1fa7fc8c",
         "type": "tabs",
         "children": [
           {
-            "id": "cc8193e4b63054cc",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "fafe1fb10aade653",
+            "id": "1150306fa01e40e1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
+                "file": "the-vault/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,19 +99,19 @@
             }
           },
           {
-            "id": "6a9a1eb34124bef6",
+            "id": "731fdb06d412aa84",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
+                "file": "the-vault/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c223f0ff7f4a0f14",
+            "id": "4c1b27a015290e86",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,17 +122,19 @@
             }
           },
           {
-            "id": "6b3cd8aeff6b80db",
+            "id": "e720a8ccea140978",
             "type": "leaf",
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
           {
-            "id": "f5f51bb6371a1726",
+            "id": "5aade107ecd47490",
             "type": "leaf",
             "state": {
               "type": "chronology-calendar-view",
@@ -155,15 +142,7 @@
             }
           },
           {
-            "id": "3abdc3d8f00e79f9",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "0c5e01afae58f6be",
+            "id": "14fdbc695897f306",
             "type": "leaf",
             "state": {
               "type": "reference-map-view",
@@ -171,104 +150,83 @@
             }
           },
           {
-            "id": "8924c524809e611d",
+            "id": "b8b73bcedd402aeb",
             "type": "leaf",
             "state": {
-              "type": "ReferenceListView",
+              "type": "timeline",
               "state": {}
             }
           },
           {
-            "id": "e47c8cf879ad0cef",
+            "id": "b022a1dcf1ac1279",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md"
+                "file": "the-vault/test.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 433.5,
-    "collapsed": true
+    "width": 400.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": false,
-      "command-palette:Open command palette": false,
-      "omnisearch:Omnisearch": false,
-      "workspaces:Manage workspace layouts": false,
-      "templater-obsidian:Templater": false,
-      "flashcards-obsidian:Generate flashcards": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "switcher:Open quick switcher": true,
-      "canvas:Create new canvas": true,
-      "daily-notes:Open today's daily note": true,
-      "templates:Insert template": true,
-      "markdown-importer:Open format converter": true,
-      "zk-prefixer:Create new unique note": true,
-      "random-note:Open random note": true,
-      "audio-recorder:Start/stop recording": true,
-      "publish:Publish changes...": true,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "notion-like-tables:Create loom": false,
-      "custom-sort:Toggle custom sorting": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "chronology:Open Chronology": false,
-      "reference-map:Reference Map": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "custom-sort:Toggle custom sorting": false,
+      "flashcards-obsidian:Generate flashcards": false,
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "cloze:Toggle all clozes": false,
+      "obsidian-day-planner:Timeline": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "publish:Publish changes...": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false,
+      "notion-like-tables:Create loom": false,
+      "reference-map:Reference Map": false
     }
   },
-  "active": "06bae97ea74d8f36",
+  "active": "5aed801e64b2ef77",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/PragmatiCoders/PragmatiCoders ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/002. hey programmer 🧑🏽‍💻.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/001. code workspace tour 👨🏻‍🏫.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/000. course introduction 👨🏻‍🏫.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/004. is prime 👨🏽‍💻.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/003. max-value 🧑🏽‍💻.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/0. Introduction/0. Introduction ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Wikipedia/Tree traversal.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Pip.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Python/🗒️ Python ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python Docs ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/627. Swap Salary.md",
-    "the-vault/templates/Template {{Anki Note ∋ “⋕card”}}.md",
-    "the-vault/templates/Template {{Attempt ∋ “❌ Failed”}}.md",
-    "the-vault/templates/Template {{Attempt ∋ “✅ Succeeded”}}.md",
-    "the-vault/templates/Template {{Anki Note ∋ “🎴”}} 1.md",
-    "the-vault/templates/Template {{LeetCode ∋ Problem}}.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1. Two Sum.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/112. Path Sum.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/How do I run a container？.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/Untitled.md",
-    "Pasted image 20231105005754.png",
-    "Pasted image 20231117020633.png",
-    "Pasted image 20231119023627.png",
-    "Pasted image 20231119160217.png",
-    "Pasted image 20231119132130.png",
-    "the-vault/🔴 Academics/📚 Educational Resources/🌐 Structy",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Google Sheets",
-    "the-vault/🔴 Academics/📚 Educational Resources/🌐 LeetCode",
-    "the-vault/🔴 Academics/📚 Educational Resources",
-    "the-vault/🔴 Academics",
-    "Untitled.loom",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Zotero",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/O'Reilly Learning",
-    "the-vault/zotero/My Library.bib",
-    "the-vault/assets/images/docker-docs-docker-architecture.png",
-    "the-vault/assets/images/Pasted image 20230913161050.png",
-    "the-vault/assets/images/Pasted image 20230924131220.png",
-    "the-vault/assets/images/Pasted image 20230815101404.png",
-    "the-vault/assets/images/Pasted image 20230813091946.png"
+    "the-vault/test.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/🗒️ Git ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GoogleTest/🗒️ GoogleTest ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Hugo/🗒️ Hugo ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Java/🗒️ Java ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/🗒️ JavaScript ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Get started ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/sortspec.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/sortspec.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Go/🗒️ Go ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Selenium/🗒️ Selenium ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Selenium",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Explore ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md"
   ]
 }

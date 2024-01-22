@@ -1,7 +1,7 @@
 ---
 title: Persist data between containers
 created: 2023-11-19T12:44
-updated: 2023-11-26T10:54
+updated: 2023-12-23T12:34
 authors:
   - Edmund Leibert III
 tags:
@@ -144,7 +144,7 @@ How exactly are volumes managed by Docker?
 
 [So, while the data in the volume persists even after the container is deleted, the management of these volumes is handled automatically by Docker](https://docs.docker.com/storage/volumes/) [@Volumes0000] [@ManageDataDocker0000].
 
-![|350](Pasted%20image%2020231119132130.png)
+![|350](the-vault/assets/images/Pasted%20image%2020231119132130.png)
 
 ⌂
 <br>﹈<br>^1700429007441

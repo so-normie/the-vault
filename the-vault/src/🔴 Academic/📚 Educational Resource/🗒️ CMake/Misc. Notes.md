@@ -1,12 +1,11 @@
 ---
 title: Misc. Notes
 created: 2023-09-12 03:27
-updated: 2023-11-18T02:44
-updated: 2023-11-22T11:02
+updated: 2023-12-11T17:36
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/name/🗒️-cmake/misc-notes
+  - 🔴-academic/📚-educational-resource/name/🗒️-cmake/🔖/misc-notes
   - 🔴-academic/📚-educational-resource/format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/cmake
   - study-note
@@ -17,12 +16,14 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ CMake::Misc. Notes
 
 ---
 
-> [!Abstract]- 
-> CMake is a cross-platform, open-source build system generator. For large scale software projects, managing the build process can be quite complex. CMake simplifies this process by automating the generation of build scripts1.
+> [!ABSTRACT]+ 
+> Miscellaneous scratch notes pertaining to [Angular](https://angular.dev/) [@Angular].
+> 
+> These notes are primarily structured in a Q&A format, making it easy to follow and learn. Corresponding Anki flashcards are available, enabling efficient revision and reinforcement of the concepts.
 
 ---
 
- > [!Info]- 
+ > [!INFO]+
  > **Previous Note(s)**: 
  > 
 
@@ -50,7 +51,7 @@ Supported languages are:
 - ASM-ATT
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702345012963
 
 
 ﹇<br>
@@ -70,7 +71,7 @@ From the CMake docs for 3.0.2:
 ```
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702345012968
 
 
 ﹇<br>
@@ -109,15 +110,15 @@ set_target_properties (${THE_TARGET} PROPERTIES COMPILE_FLAGS ${TEMP})
 [Please note that it’s generally recommended to use `set_compile_options`, `target_compile_options`, `add_compile_definitions`, and `target_compile_definitions` instead of manually setting `CMAKE_*_FLAGS`](https://stackoverflow.com/questions/59107988/correct-way-to-handle-compiler-flags-when-using-cmake)[2](https://stackoverflow.com/questions/59107988/correct-way-to-handle-compiler-flags-when-using-cmake).
 
 ⌂
-<br>﹈<br>
-
-
----
-
-> [!Info]- 
-> **Next Note(s)**:
-> - 
+<br>﹈<br>^1702345012972
 
 ---
 
+## :EiZoteroItem: Bibliography
 
+---
+
+> [!INFO]+
+> **Next Note(s):**
+
+---

@@ -1,7 +1,7 @@
 ---
 title: Run multi-container applications
 created: 2023-11-19T02:24
-updated: 2023-11-26T10:54
+updated: 2023-12-23T12:34
 authors:
   - Edmund Leibert III
 tags:
@@ -46,7 +46,7 @@ What is an example of an application that uses multiple containers?
 
 One example application could be a simple todo application built using ExpressJS and Node.js. The application saves all todos in a MongoDB database.
 
-![|450](Pasted%20image%2020231119023627.png)
+![|450](the-vault/assets/images/Pasted%20image%2020231119023627.png)
 
 ⌂
 <br>﹈<br>^1700397252904

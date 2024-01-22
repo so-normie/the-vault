@@ -20,7 +20,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::LeetCode::Problems::<% tp.
 ---
 
 > [!ABSTRACT]+
-> 
+> Notes pertaining to .
 
 ---
 
@@ -37,6 +37,20 @@ cards-deck: 🔴 Academic::📚 Educational Resource::LeetCode::Problems::<% tp.
 ## :RiFlaskLine: Solutions
 
 ## :RiHistoryLine: Submissions
+
+### :SiJavascript: JavaScript
+
+### :SiTypescript: TypeScript
+
+### :SiGo: Go
+
+### :SiRust: Rust
+
+### :SiPython: Python
+
+### :SiCsharp: C\#
+
+### :SiCplusplus: C++
 
 ---
 

@@ -1,32 +1,50 @@
 ---
-title: GitHub
-created date: 2023-08-04 02:56
+title: 🗒️ GitHub ∋ Table of Contents
+created: 2023-10-31T16:39
+updated: 2023-12-12T05:45
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/name/github
+  - 🔴-academic/📚-educational-resource/name/🗒️-github/🔖/🗒️-github-∋-table-of-contents
+  - 🔴-academic/📚-educational-resource/format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/github
   - study-note
-cards-deck: Default::Computer Science
-created: 2023-09-03 08:46
-updated: 2023-11-18T02:44
+cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ GitHub::🗒️ GitHub ∋ Table of Contents
 ---
 
-
-rojects**, a **repositories**, and **teams** and how are they all related? 
-#card 
-In summary, a repository contains the project files, a project helps you organize and prioritize your work within the repository, and a team is a group of people with different levels of access to the repository.
-- A **repository** is a container for your project files, including documentation, and it stores each file’s revision history. [Repositories can have multiple collaborators and can be either public or private](https://stackoverflow.com/questions/40509838/project-vs-repository-in-github)[1](https://stackoverflow.com/questions/40509838/project-vs-repository-in-github).
-- A **project** in GitHub is a way to organize and prioritize your work. Project boards on GitHub help you organize and prioritize your work. You can create project boards for specific feature work, comprehensive roadmaps, or even release checklists. [With project boards, you have the flexibility to create customized workflows that suit your needs](https://stackoverflow.com/questions/40509838/project-vs-repository-in-github)[1](https://stackoverflow.com/questions/40509838/project-vs-repository-in-github).
-- A **team** in GitHub is a group of organization members that reflect your company or group’s structure with cascading access permissions and mentions. [You can give organization members, outside collaborators, and teams of people different levels of access to repositories owned by an organization by assigning them to roles](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/repository-roles-for-an-organization)[2](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/repository-roles-for-an-organization).
-^1691144116081
-
+# 🗒️ GitHub ∋ Table of Contents
 
 ---
 
-## 🔜 Next Link(s):
+> [!ABSTRACT]+ 
+> Scratch notes pertaining to [GitHub](https://github.com/). [@GitHubLetBuild]
+> 
+> These notes are primarily structured in a Q&A format, making it easy to follow and learn. Corresponding Anki flashcards are available, enabling efficient revision and reinforcement of the concepts.
 
 ---
 
+> [!INFO]+ 
+> **Previous Note(s)**:
+> 
 
+---
 
+## :FasListOl: Table of Contents
+
+- **🗒️ GitHub**
+	- [🗒️ GitHub ∋ Table of Contents](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20GitHub/🗒️%20GitHub%20∋%20Table%20of%20Contents.md)
+
+---
+
+## :EiZoteroItem: Bibliography
+
+\[1\]
+“GitHub: Let’s build from here · GitHub,” _GitHub_. Available: [https://github.com/](https://github.com/). [Accessed: Dec. 12, 2023]
+
+---
+
+> [!INFO]+
+> **Next Note(s)**:
+> 
+
+---

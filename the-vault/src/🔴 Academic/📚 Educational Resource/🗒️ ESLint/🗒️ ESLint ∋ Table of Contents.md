@@ -1,89 +1,52 @@
 ---
-title: 🗒️ C++
+title: 🗒️ ESLint ∋ Table of Contents
 authors:
   - Edmund Leibert III
 created: 2023-09-03 08:46
-updated: 2023-11-18T02:44
-updated: 2023-11-22T11:02
+updated: 2023-12-12T01:19
 tags:
-  - 🔴-academic/📚-educational-resource/name/🗒️-eslint
+  - 🔴-academic/📚-educational-resource/name/🗒️-eslint/🔖/🗒️-eslint-∋-table-of-contents
   - 🔴-academic/📚-educational-resource/format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/eslint
-  - 🔴-academic/📚-educational-resource/name/🗒️-eslint/🔖-bookmark/🗒️-eslint
   - study-note
-cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ ESLint
+cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ ESLint::🗒️ ESLint ∋ Table of Contents
 ---
 
-# 🗒️ ESLint
-
----
-
-## 🕸️ All Mention(s):
+# 🗒️ ESLint ∋ Table of Contents
 
 ---
 
-## 🔙 Previous Note(s):
+> [!ABSTRACT]+ 
+> Scratch notes pertaining to [ESLint](https://eslint.org/). [@FindFixProblems]
+> 
+> These notes are primarily structured in a Q&A format, making it easy to follow and learn. Corresponding Anki flashcards are available, enabling efficient revision and reinforcement of the concepts.
 
 ---
 
-## 🗒️ ESLint
-
-﹇<br>
-In the following TypeScript snippet, why is **ESLint** notfying me that `headings` is never reassigned when there is statement where I _push_ values into it?
-
-```typescript
-	let headings: any = [];
-
-    if (contextAware) {
-		// https://regex101.com/r/agSp9X/4
-		let inCodeBlock = false;
-
-		file.split('\n').forEach(line => {
-			// Check for code block start or end
-			if (line.trim().startsWith('```')) {
-			  inCodeBlock = !inCodeBlock;
-			}
-	
-			// Skip lines in code blocks
-			if (inCodeBlock) return;
-	
-			// Match only if not in a code block
-			const match = line.match(/^ {0,3}(#{1,6}) +([^\n]+?) ?((?: *#\S+)*) *$/);
-			if (match) {
-				headings.push(match);
-		}
-	  });
-	}
-```
-
-#card 
-
-In JavaScript (and TypeScript), the `let` keyword allows you to reassign a variable to a new value, but pushing elements into an array does not count as reassignment. When ESLint says that the variable is never reassigned, it means that you never do something like:
-
-```javascript
-headings = someOtherArray;
-```
-
-Since you're only modifying the array (by pushing elements into it) rather than reassigning it, ESLint notices that you could use `const` instead of `let`:
-
-```javascript
-const headings: any = [];
-```
-
-With `const`, the variable `headings` itself cannot be reassigned, but the contents of the array it points to can still be modified. Using `const` helps to indicate that the variable will not be reassigned, making the code a bit easier to reason about.
-
-⌂
-<br>﹈<br>^1694493820734
-
-
-
-
+> [!INFO]+ 
+> **Previous Note(s)**:
+> 
 
 ---
 
-## 🔜 Next Note(s):
+## Table of Contents
+
+- **🗒️ ESLint ∋ Table of Contents**
+	- [🗒️ ESLint ∋ Table of Contents](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20ESLint/🗒️%20ESLint%20∋%20Table%20of%20Contents.md)
+	- [Misc. Notes](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20ESLint/Misc.%20Notes.md)
 
 ---
 
+## :EiZoteroItem: Bibliography
 
+\[1\]
+“Find and fix problems in your JavaScript code - ESLint - Pluggable JavaScript Linter,” _ESLint_. Available: [https://eslint.org/](https://eslint.org/). [Accessed: Dec. 12, 2023]
+
+---
+
+> [!INFO]+
+> **Next Note(s)**:
+> 
+
+---
 

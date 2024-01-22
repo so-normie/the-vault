@@ -1,91 +1,51 @@
 ---
-author: 
-publisher: 
-published: 
-tags:
-  - 🔴-academic/📚-educational-resource/discipline/computer-science/framework/angular
-  - 🔴-academic/📚-educational-resource/name/angular
-  - study-note
-cards-deck: Default::Computer Science
+title: 🗒️ Angular ∋ Table of Contents
 created: 2023-09-03 08:46
-updated: 2023-11-18T02:44
+updated: 2023-12-11T18:54
+authors:
+  - Edmund Leibert III
+tags:
+  - 🔴-academic/📚-educational-resource/name/🗒️-angular/🔖/🗒️-angular-∋-table-of-contents
+  - 🔴-academic/📚-educational-resource/format/miscellaneous
+  - 🔴-academic/📚-educational-resource/discipline/computer-science/technology/angular
+  - study-note
+cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ Angular::🗒️ Angular ∋ Table of Contents
 ---
 
-Look at the code below…
-```html
-<header>
-  <nav
-    class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3"
-  >
-    <div class="container">
-      <a class="navbar-brand" [routerLink]="['/']">WebApplicationAngular</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target=".navbar-collapse"
-        aria-label="Toggle navigation"
-        [attr.aria-expanded]="isExpanded"
-        (click)="toggle()"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        class="navbar-collapse collapse d-sm-inline-flex justify-content-end"
-        [ngClass]="{ show: isExpanded }"
-      >
-        <ul class="navbar-nav flex-grow">
-          <li
-            class="nav-item"
-            [routerLinkActive]="['link-active']"
-            [routerLinkActiveOptions]="{ exact: true }"
-          >
-            <a class="nav-link text-dark" [routerLink]="['/']">Home</a>
-          </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/counter']"
-              >Counter</a
-            >
-          </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/fetch-data']"
-              >Fetch data</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
-```
+# 🗒️ Angular ∋ Table of Contents
 
+---
 
-**[Front]**: What is @ViewChild in Angular? #card 
-**[Back]**: @ViewChild is a decorator in Angular used to establish a connection between a child component or a DOM element and a parent component. It provides direct access to the child's methods, properties, and so on. Example: `@ViewChild('bindingInput') bindingInput!: ElementRef;`
-^1686474890646
+> [!ABSTRACT]+ 
+> Scratch notes pertaining to [Angular](https://angular.dev/) [@Angular].
+> 
+> These notes are primarily structured in a Q&A format, making it easy to follow and learn. Corresponding Anki flashcards are available, enabling efficient revision and reinforcement of the concepts.
 
-**[Front]**: What is ElementRef in Angular? #card 
-**[Back]**: ElementRef is a wrapper around a native DOM element. It is used with @ViewChild to access a specific DOM element and its properties/methods in the component. Example: `@ViewChild('bindingInput') bindingInput!: ElementRef;`
-^1686474890650
+---
 
-**[Front]**: How does property binding work in Angular? #card 
-**[Back]**: Property binding in Angular allows you to bind a DOM property to a component property. Example: `<button [disabled]="isUnchanged">Save</button>` binds the disabled property of the button to the isUnchanged property of the component.
-^1686474890654
+> [!INFO]+ 
+> **Previous Note(s)**:
+> 
 
-**[Front]**: What is a template reference variable in Angular? #card 
-**[Back]**: A template reference variable in Angular is a way to give a name to a DOM element within a template. This can be used to access the properties of the named element directly. Example: `<input type="text" value="Sarah" #bindingInput>` creates a reference variable named `bindingInput` for the input element.
-^1686474890658
+---
 
-**[Front]**: What's the difference between HTML attribute and DOM property? #card 
-**[Back]**: HTML attributes are the default values that come from the HTML itself and do not change once the page is loaded. DOM properties, on the other hand, are the actual values that the browser uses while rendering and interacting with the webpage, and they can change dynamically.
-^1686474890662
+## :FasListOl: Table of Contents
 
-**[Front]**: How to access the HTML attribute and DOM property in Angular? #card
-**[Back]**: You can use ElementRef with @ViewChild to get the reference to a DOM element, then use getAttribute('value') for HTML attribute and .value for DOM property. Example: `console.warn('HTML attribute value: ' + this.bindingInput.nativeElement.getAttribute('value')); console.warn('DOM property value: ' + this.bindingInput.nativeElement.value);`
-^1686474890666
+- **🗒️ Angular**
+	- [🗒️ Angular ∋ Table of Contents](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20Angular/🗒️%20Angular%20∋%20Table%20of%20Contents.md)
+	- [Misc. Notes](the-vault/src/🔴%20Academic/📚%20Educational%20Resource/🗒️%20Angular/Misc.%20Notes.md)
 
+---
 
+## :EiZoteroItem: Bibliography
 
+\[1\]
+“Angular.” Available: [https://angular.dev/](https://angular.dev/). [Accessed: Dec. 11, 2023]
 
+---
 
+> [!INFO]+
+> **Next Note(s)**:
+> 
 
+---

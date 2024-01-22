@@ -1,15 +1,13 @@
 ---
 title: Algorithms library
 created: 2023-09-28 14:16
-updated: 2023-11-18T02:44
-updated: 2023-11-22T11:02
+updated: 2023-12-04T09:40
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/name/🗒️-cpp-reference
+  - 🔴-academic/📚-educational-resource/name/🗒️-cpp/🔖/algorithms-library
   - 🔴-academic/📚-educational-resource/format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/cpp
-  - 🔴-academic/📚-educational-resource/name/🗒️-cpp-reference/🔖-bookmark/algorithms-library
   - study-note
 cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ C++::Algorithms library
 ---
@@ -18,21 +16,16 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ C++::Algorithms li
 
 ---
 
-> [!Abstract]+ Abstract
+> [!Abstract]+
 > Scratch notes pertaining to the **algorithms** library in C++.
 
 ---
 
- > [!Info]+ 🕸️ All Mention(s): 
- > 
-
----
-
- > [!Info]+ 🔙️ Previous Note(s): 
+ > [!Info]+ 
+ > **Previous Note(s)**: 
  > 
  
 ---
-
 
 ﹇<br>
 In C++, what exactly is a **constrained algorithm**?
@@ -55,8 +48,6 @@ In C++, constrained algorithms are a feature introduced in C++20. They provide c
 ⌂
 <br>﹈<br>^1696159957179
 
-
-
 ﹇<br>
 What are the characteristics of constrained algorithm? Specifically, what makes an algorithm constrained vs. not constrained?
 
@@ -78,15 +69,10 @@ In contrast, non-constrained (traditional) algorithms in the STL do not have the
 ⌂
 <br>﹈<br>^1696159957244
 
-
-
-
 ---
 
-> [!Info]+ 🔜 Next Note(s):
+> [!Info]+ 
+> **Next Note(s)**:
 > 
 
 ---
-
-
-

@@ -1,35 +1,28 @@
 ---
 title: Misc. Notes
 created: 2023-09-03 08:46
-updated: 2023-11-18T02:44
-updated: 2023-11-22T11:02
+updated: 2023-12-04T09:39
 authors:
   - Edmund Leibert III
 tags:
-  - 🔴-academic/📚-educational-resource/name/🗒️-cpp
+  - 🔴-academic/📚-educational-resource/name/🗒️-cpp/🔖/misc-notes
   - 🔴-academic/📚-educational-resource/format/miscellaneous
   - 🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/cpp
-  - 🔴-academic/📚-educational-resource/name/🗒️-cpp/🔖-bookmark/🗒️-cpp/misc-notes
   - study-note
-cards-deck: 🔴 Academic::📚 Educational Resource️ C++::Misc. Notes
+cards-deck: 🔴 Academic::📚 Educational Resource️::🗒️ C++::Misc. Notes
 ---
 
 # Misc. Notes
 
-
 ---
 
-> [!abstract]+ Abstract 
+> [!abstract]+
 > 
 
 ---
 
-> [!info]+ 🕸️ All Mention(s): 
-> 
-
----
-
-> [!info]+ 🔙 Previous Note(s):
+> [!info]+ 
+> **Previous Note(s)**:
 > 
 
 ---
@@ -48,7 +41,6 @@ struct structName {
 
 ⌂
 <br>﹈<br>^1694418100786
-
 
 ﹇<br>
 What is the difference between brace and list initialization in C++?
@@ -72,7 +64,6 @@ In general, brace initialization is preferred in modern C++ due to its safety fe
 
 ⌂
 <br>﹈<br>^1694908101464
-
 
 
 ﹇<br>
@@ -103,7 +94,6 @@ int main() {
 
 ⌂
 <br>﹈<br>^1694418100793
-
 
 ﹇<br>
 What must I always remember when using the `new` keyword in C++? 
@@ -163,7 +153,6 @@ You should not use that pointer again. It’s a good practice to set the pointer
 ⌂
 <br>﹈<br>^1694494768670
 
-
 ﹇<br>
 Why should you set a pointer to `nullptr` after deleting it? 
 
@@ -173,7 +162,6 @@ Setting a pointer to `nullptr` after deleting it helps prevent “dangling poi
 
 ⌂
 <br>﹈<br>^1694494768674
-
 
 ﹇<br>
 What are “dangling pointers”? 
@@ -185,7 +173,6 @@ What are “dangling pointers”? 
 ⌂
 <br>﹈<br>^1694494768678
 
-
 ﹇<br>
 What can dangling pointers lead to? 
 
@@ -196,7 +183,6 @@ Dangling pointers can lead to undefined behavior and difficult-to-find bugs in y
 ⌂
 <br>﹈<br>^1694494768681
 
-
 ﹇<br>
 True or false, does C++ provides a built-in way to resize an array that has already been allocated? 
 
@@ -206,7 +192,6 @@ False. [If you need to change the size of the array during runtime, you’ll hav
 
 ⌂
 <br>﹈<br>^1694418100801
-
 
 ﹇<br>
 Are arrays contiguous in C++? If so, what is the benefit? 
@@ -220,7 +205,6 @@ Are arrays contiguous in C++? If so, what is the benefit?
 ⌂
 <br>﹈<br>^1694418100805
 
-
 ﹇<br>
 What is the downside of arrays being stored in contiguous memory in C++? 
 
@@ -233,7 +217,6 @@ What is the downside of arrays being stored in contiguous memory in C++?
 ⌂
 <br>﹈<br>^1694418100809
 
-
 ﹇<br>
 Does `printf()` have an option for `std::string`? 
 
@@ -244,7 +227,6 @@ No, `printf()` does ***not*** have an option for `std::string`
 ⌂
 <br>﹈<br>^1694418100813
 
-
 ﹇<br>
 Can you initialize a  `char*` via brace initialization with an empty string? 
 
@@ -254,7 +236,6 @@ Yes.
 
 ⌂
 <br>﹈<br>^1694418100817
-
 
 ﹇<br>
 Is the following a valid example of brace initialization? 
@@ -274,7 +255,6 @@ T object {arg1, arg2, ...};
 ⌂
 <br>﹈<br>^1694418100821
 
-
 ﹇<br>
 In C++, can `struct` have a member functions? 
 
@@ -286,7 +266,6 @@ Yes.
 <br>﹈<br>^1694418100825
 
 
-
 ﹇<br>
 What must be *always* at the end of declaring a class? 
 
@@ -296,7 +275,6 @@ A semicolon.
 
 ⌂
 <br>﹈<br>^1694418100832
-
 
 ﹇<br>
 As recommended by LearnCpp.com, what are the general things one should do when configuring their compiler for a C++ project? 
@@ -312,7 +290,6 @@ As recommended by LearnCpp.com, what are the general things one should do when c
 
 ⌂
 <br>﹈<br>^1694418100835
-
 
 ﹇<br>
 How would you convert the following implementation of a constructor to a initializer list?
@@ -345,7 +322,6 @@ IntCollection::IntCollection(const IntCollection &c)
 ⌂
 <br>﹈<br>^1694418100839
 
-
 ﹇<br>
 In C++, the initializer list provides several benefits:
 1. ???
@@ -362,8 +338,6 @@ In C++, the initializer list provides several benefits:
 ⌂
 <br>﹈<br>^1694834417492
 
-
-
 ﹇<br>
 In C++, explain relatively in-depth how an initializer list enhances **efficiency**.
 
@@ -373,7 +347,6 @@ In C++, explain relatively in-depth how an initializer list enhances **efficienc
 
 ⌂
 <br>﹈<br>^1694834417509
-
 
 ﹇<br>
 In C++, explain relatively in-depth how an initializer list enhances **immutability**.
@@ -387,7 +360,6 @@ For `const` members and references, you _**must**_ use an initializer list becau
 ⌂
 <br>﹈<br>^1694834417517
 
-
 ﹇<br>
 In C++, explain relatively in-depth how an initializer list enhances **readability**.
 
@@ -397,8 +369,6 @@ In C++, explain relatively in-depth how an initializer list enhances **readabili
 
 ⌂
 <br>﹈<br>^1694834417523
-
-
 
 ﹇<br>
 When at the end of a while loop in C++, are all objects deconstructed? For instance, I instantiated the `Assignment` class (which is a derived class of the `Activity` class) in a `while(true)` loop. If the loop is not broken and goes for another iteration, the assignment class appears to be deconstructed.
@@ -420,7 +390,6 @@ while (some_condition) {
 ⌂
 <br>﹈<br>^1694418100843
 
-
 ﹇<br>
 For the debug flag for g++, what is the difference between `-g` and `-ggdb`? 
 
@@ -433,10 +402,8 @@ For the debug flag for g++, what is the difference between `-g` and `-ggdb`?
 ⌂
 <br>﹈<br>^1694418100846
 
-
 In C++, the constructor is a {1:special member function} of a {1:class} that has the {2:same name as the class itself}. 
 ^1694834417534
-
 
 The purpose of the constructor is to {1:initialize the member variables and allocate resources}. Constructors {2:don't have a return type, not even `void`}.
 ^1694834417540
@@ -498,9 +465,6 @@ The member variables `data`, `size`, and `capacity` are already typed in the cla
 ⌂
 <br>﹈<br>^1694834417546
 
-
-
-
 ﹇<br>
 Is C++ pass-by-reference *or* pass-by-value? 
 
@@ -510,8 +474,6 @@ C++ is *both* pass-by-reference and pass-by-value.
 
 ⌂
 <br>﹈<br>^1694418100849
-
-
 
 ﹇<br>
 What is **pass-by-value**? 
@@ -525,7 +487,6 @@ void increment(int a) {
     cout << "Inside increment function: " << a << endl;
 }
 
-
 int main() {
     int num = 5;
     increment(num);
@@ -536,7 +497,6 @@ int main() {
 
 ⌂
 <br>﹈<br>^1694418100853
-
 
 ﹇<br>
 What is **pass-by-reference** 
@@ -550,7 +510,6 @@ void increment(int& a) {
     cout << "Inside increment function: " << a << endl;
 }
 
-
 int main() {
     int num = 5;
     increment(num);
@@ -562,33 +521,35 @@ int main() {
 ⌂
 <br>﹈<br>^1694418100857
 
-
 ﹇<br>
 When passing-by-reference, what is the advantage of using **reference** (i.e., `&`)? 
 
 #card 
 
-- References are typically easier and safer to use. Unlike pointers, they can't be null, and they don't require dereferencing to access the value they're referencing.
-- References provide a way to have function arguments behave like aliases for the original variables, which can make the code easier to read and understand.
-- It's considered good practice to use references when you can, especially for const references, which allows the function to work with both lvalues and rvalues.
+References are typically easier and safer to use. Unlike pointers, they can't be `null`, and they don't require dereferencing to access the value they're referencing.
+
+References provide a way to have function arguments behave like aliases for the original variables, which can make the code easier to read and understand.
+
+It's considered good practice to use references when you can, especially for `const` references, which allows the function to work with both *lvalues* and *rvalues*.
 
 ⌂
 <br>﹈<br>^1694418100861
-
 
 ﹇<br>
 When passing-by-reference, what is the advantage of using **pointers** (i.e., `*`)? 
 
 #card 
 
-- Pointers are more flexible and powerful, which can be both an advantage and a disadvantage. With pointers, you can point to different objects over their lifetime, and they can be reassigned to point to different objects.
-- Pointers can be null, which can be useful in situations where you might not have a valid object to reference all the time.
-- Pointers can be used in situations where "optional" semantics are needed. If a function accepts a pointer, you can pass in a null pointer to indicate that the argument isn't applicable.
-- Pointers can also point to an array of values, which can be useful in certain situations.
+Pointers are more flexible and powerful, which can be both an advantage and a disadvantage. With pointers, you can point to different objects over their lifetime, and they can be reassigned to point to different objects.
+
+Pointers can be `null`, which can be useful in situations where you might not have a valid object to reference all the time.
+
+Pointers can be used in situations where "optional" semantics are needed. If a function accepts a pointer, you can pass in a null pointer to indicate that the argument isn't applicable.
+
+Pointers can also point to an array of values, which can be useful in certain situations.
 
 ⌂
 <br>﹈<br>^1694418100865
-
 
 ﹇<br>
 Do references require dereferencing? 
@@ -604,7 +565,6 @@ ref = 20  // reference
 ⌂
 <br>﹈<br>^1694418100868
 
-
 ﹇<br>
 Can references be null? 
 
@@ -614,7 +574,6 @@ No.
 
 ⌂
 <br>﹈<br>^1694418100872
-
 
 ﹇<br>
 How would I go about creating a reference (i.e., alias) for the variable `x` in `int x = 10;`? 
@@ -628,13 +587,12 @@ int& ref = x; // ref is now a reference (i.e., alias) to 'x'
 
 In this case, `ref` is a reference to `x`, meaning it's just another name for `x`. When you use `ref`, you're directly accessing and manipulating `x`, without needing to do anything special. For example:
 ```cpp
-`ref = 20; // This changes 'x' to 20 
+ref = 20; // This changes 'x' to 20 
 cout << x << endl; // This will output '20'`
 ```
 
 ⌂
 <br>﹈<br>^1694418100875
-
 
 ﹇<br>
 In C++, what is the difference between a **struct** and a **class**? 
@@ -646,19 +604,21 @@ In C++, the only difference between a `struct` and a `class` is the default 
 ⌂
 <br>﹈<br>^1694418100879
 
-
 ﹇<br>
 Why does importing from a `.cxx` into another `.cxx` file create an error in C++? But when I rename the importing `.cxx` file to `.hxx` it works? 
 
 #card 
 
-- The general convention in C++ is to declare functions, classes, and variables in header (.h or .hpp) files, and define them in implementation (.cpp) files. This is because the C++ compilation model doesn't support directly including one .cpp file into another.
-- Here's a brief overview of how the C++ build process works:
-	1. The preprocessor processes `#include` directives. When it encounters `#include "file.h"`, it replaces the `#include` directive with the content of "file.h". The same goes for `#include <file>`, but with different lookup rules for the file.
-	2. The compiler then compiles each .cpp file into an "object file" (.o or .obj, depending on your system). If one .cpp file includes another, the content of the included file will be compiled multiple times, which can lead to multiple definition errors. Furthermore, when you define something in a .cpp file, it has internal linkage by default, meaning it can't be used from other .cpp files.
-	3. The linker links all the object files into a single executable. If the same symbol (function, variable, etc.) is defined in multiple object files, it will result in a linking error, unless that symbol was declared as `inline` or `static`.
-- So, if you need to use a function or a variable from one .cpp file in another, you should declare it in a .h file and include that .h file where you need it. Then you define it in a .cpp file. This allows the linker to link the code correctly. 
-- Let's consider an example. We have a function `void hello()` in `hello.cpp` and we want to use it in `main.cpp`. Here is how you should do it:
+The general convention in C++ is to declare functions, classes, and variables in header (.h or .hpp) files, and define them in implementation (.cpp) files. This is because the C++ compilation model doesn't support directly including one .cpp file into another.
+Here's a brief overview of how the C++ build process works:
+1. The preprocessor processes `#include` directives. When it encounters `#include "file.h"`, it replaces the `#include` directive with the content of "file.h". The same goes for `#include <file>`, but with different lookup rules for the file.
+2. The compiler then compiles each `.cpp` file into an "object file" (`.o` or `.obj`, depending on your system). If one .cpp file includes another, the content of the included file will be compiled multiple times, which can lead to multiple definition errors. Furthermore, when you define something in a `.cpp` file, it has internal linkage by default, meaning it can't be used from other `.cpp` files.
+3. The linker links all the object files into a single executable. If the same symbol (function, variable, etc.) is defined in multiple object files, it will result in a linking error, unless that symbol was declared as `inline` or `static`.
+
+So, if you need to use a function or a variable from one `.cpp` file in another, you should declare it in a `.h` file and include that `.h` file where you need it. Then you define it in a `.cpp` file. This allows the linker to link the code correctly. 
+
+Let's consider an example. We have a function `void hello()` in `hello.cpp` and we want to use it in `main.cpp`. Here is how you should do it:
+
 ```cpp
 // hello.h
 #pragma once
@@ -675,18 +635,19 @@ int main() {
 	return 0;
 }
 ```
-- When you compile `main.cpp`, the preprocessor will replace `#include "hello.h"` with the content of `hello.h`, so the compiler knows the declaration of `hello()`. When you link `main.o` and `hello.o`, the linker knows how to link `hello()` correctly.
+
+When you compile `main.cpp`, the preprocessor will replace `#include "hello.h"` with the content of `hello.h`, so the compiler knows the declaration of `hello()`. When you link `main.o` and `hello.o`, the linker knows how to link `hello()` correctly.
 
 ⌂
 <br>﹈<br>^1694418100882
-
 
 ﹇<br>
 In the broad sense, how should I think of mutexes in C++? What are some simple concrete examples displaying the concept? 
 
 #card 
 
-- In C++, a `std::mutex` can be used to protect shared data from being simultaneously accessed by multiple threads, thus preventing race condition. Here's a simple example:
+In C++, a `std::mutex` can be used to protect shared data from being simultaneously accessed by multiple threads, thus preventing race condition. Here's a simple example:
+
 ```cpp
 #include <iostream>
 #include <thread>
@@ -714,10 +675,15 @@ int main() {
     return 0;
 }
 ```
-- This is a simple program where two threads increment a global counter. A mutex is used to ensure that only one thread increments and prints the counter at a time, preventing race condition.
-- Note that `std::mutex::lock()` will block if the mutex is already locked by another thread, and will only return once the lock is acquired. Once you're done with the shared resource, you must call `std::mutex::unlock()` to release the lock, allowing other threads to acquire it.
-- The `lock()` and `unlock()` operations should always come in pairs. If a thread fails to unlock a mutex, other threads will be blocked when they attempt to lock the mutex, resulting in a deadlock.
-- It's generally recommended to use `std::lock_guard` or `std::unique_lock`, which provide a safer and more convenient way to manage locking and unlocking:
+
+This is a simple program where two threads increment a global counter. A mutex is used to ensure that only one thread increments and prints the counter at a time, preventing race condition.
+
+Note that `std::mutex::lock()` will block if the mutex is already locked by another thread, and will only return once the lock is acquired. Once you're done with the shared resource, you must call `std::mutex::unlock()` to release the lock, allowing other threads to acquire it.
+
+The `lock()` and `unlock()` operations should always come in pairs. If a thread fails to unlock a mutex, other threads will be blocked when they attempt to lock the mutex, resulting in a deadlock.
+
+It's generally recommended to use `std::lock_guard` or `std::unique_lock`, which provide a safer and more convenient way to manage locking and unlocking:
+
 ```cpp
 void increaseCount(int id, int loop_count) {
     for (int i = 0; i < loop_count; ++i) {
@@ -729,11 +695,11 @@ void increaseCount(int id, int loop_count) {
     }
 }
 ```
-- With `std::lock_guard`, you don't need to explicitly unlock the mutex. It will automatically be unlocked when the `lock_guard` object is destroyed, which happens when the object goes out of scope. This means the mutex will be unlocked even if an exception occurs, making your code more robust.
+
+With `std::lock_guard`, you don't need to explicitly unlock the mutex. It will automatically be unlocked when the `lock_guard` object is destroyed, which happens when the object goes out of scope. This means the mutex will be unlocked even if an exception occurs, making your code more robust.
 
 ⌂
 <br>﹈<br>^1694418100886
-
 
 ﹇<br>
 What is a mutex in C++? 
@@ -745,7 +711,6 @@ A mutex (short for "mutual exclusion") in C++ is a synchronization primitive tha
 ⌂
 <br>﹈<br>^1694418100890
 
-
 ﹇<br>
 What is the purpose of the `std::mutex::lock()` function in C++? 
 
@@ -755,7 +720,6 @@ The `std::mutex::lock()` function is used to lock the mutex. If the mutex is alr
 
 ⌂
 <br>﹈<br>^1694418100894
-
 
 ﹇<br>
 What is the purpose of the `std::mutex::unlock()` function in C++? 
@@ -767,7 +731,6 @@ The `std::mutex::unlock()` function in C++ is used to unlock the mutex, making i
 ⌂
 <br>﹈<br>^1694418100898
 
-
 ﹇<br>
 What is a deadlock in the context of mutexes?
 
@@ -777,7 +740,6 @@ A deadlock is a situation where a thread fails to unlock a mutex. This results i
 
 ⌂
 <br>﹈<br>^1694418100901
-
 
 ﹇<br>
 What are `std::lock_guard` and `std::unique_lock` in C++? 
@@ -789,7 +751,6 @@ What are `std::lock_guard` and `std::unique_lock` in C++?
 ⌂
 <br>﹈<br>^1694418100905
 
-
 ﹇<br>
 What is the difference between `std::lock_guard` and `std::unique_lock` in C++? 
 
@@ -799,7 +760,6 @@ Both `std::lock_guard` and `std::unique_lock` automatically manage the lock stat
 
 ⌂
 <br>﹈<br>^1694418100909
-
 
 ﹇<br> 
 How does `std::lock_guard` ensure the mutex gets unlocked in C++? 
@@ -812,9 +772,8 @@ How does `std::lock_guard` ensure the mutex gets unlocked in C++?
 <br>﹈<br>^1694418100913
 
 
-
 ﹇<br>
-How can you initialize a char* pointer to point to the start of a C string in C++? 
+How can you initialize a `char*` pointer to point to the start of a C string in C++? 
 
 #card 
 
@@ -841,7 +800,6 @@ In this case, `ptr` points to the first character of the array `str`, and you ca
 <br>﹈<br>^1694418100917
 
 
-
 ﹇<br>
 In C++, when you extract text from a string into a string stream, what is the time and space complexity of such an operation? For instance, consider the following snippet of code…
 
@@ -859,7 +817,6 @@ When extracting text form a string, the *time* complexity of such an operation i
 <br>﹈<br>^1694418100921
 
 
-
 ﹇<br>
 Is the generic function `std::reverse()`, from the `<algorithm>` library, an in-place algorithm? 
 
@@ -869,7 +826,6 @@ Yes, it is an in-place algorithm.
 
 ⌂
 <br>﹈<br>^1694418100925
-
 
 ﹇<br>
 What is the time and space complexity of `std::reverse()`? 
@@ -881,7 +837,6 @@ What is the time and space complexity of `std::reverse()`?
 
 ⌂
 <br>﹈<br>^1694418100929
-
 
 ﹇<br>
 Is the following code valid? 
@@ -901,7 +856,6 @@ No! You can not use
 
 ⌂
 <br>﹈<br>^1694418100933
-
 
 ﹇<br>
 Is the following code valid?
@@ -923,15 +877,15 @@ int main() {
 
 #card 
 
-- No, remember that to use `auto` range-based loops, the container/data structure must support the `.begin()` method.
-	- C-style string literals do not support that
-- Also, the statement `*it = 'l'` is wrong.
-	- In C++, string literals are stored in read-only memory, and attempting to modify them results in undefined behavior.
-	- To avoid this you can either use `std::string` or an **array** of `char`s.
+No, remember that to use `auto` range-based loops, the container/data structure must support the `.begin()` method.
+- C-style string literals do not support that
+	
+Also, the statement `*it = 'l'` is wrong.
+- In C++, string literals are stored in read-only memory, and attempting to modify them results in undefined behavior.
+- To avoid this you can either use `std::string` or an **array** of `char`s.
 
 ⌂
 <br>﹈<br>^1694418100937
-
 
 ﹇<br>
 Lets say I have a `std::stringstream` called `ss`, is the following code valid? 
@@ -943,13 +897,12 @@ ss.clear()
 
 #card 
 
-- No, the following code is not valid. `stringstream` and other stream classes in C++ do not have an `insert` method.
-	- If you want to insert data into a stream, use `<<` (i.e., insertion operator)
-	- You can also use the `string` method to set the contents of the stream directly.
+No, the following code is not valid. `stringstream` and other stream classes in C++ do not have an `insert` method.
+- If you want to insert data into a stream, use `<<` (i.e., insertion operator)
+- You can also use the `string` method to set the contents of the stream directly.
 
 ⌂
 <br>﹈<br>^1694418100941
-
 
 ﹇<br>
 How can I get `std::string` of all the values currently in a `std::stringstream`? 
@@ -961,7 +914,6 @@ Simply call `.str()` with no arguments.
 ⌂
 <br>﹈<br>^1694418100946
 
-
 ﹇<br>
 How can I completely erase/reset the values of a `std::stringstream` to empty? 
 
@@ -971,7 +923,6 @@ Simply call `.str("")` with the empty string (i.e., `""`) argument.
 
 ⌂
 <br>﹈<br>^1694418100950
-
 
 ﹇<br>
 What exactly is the heap in Computer Science? Particularly, what distinguishes it from stack? Reference not only the software layer but also the hardware layer/computer architecture that allows this. 
@@ -994,7 +945,6 @@ It’s important to note that while these concepts are common across many progra
 ⌂
 <br>﹈<br>^1694418100953
 
-
 ﹇<br>
 What is the difference between “heap” and “free store”?
 
@@ -1012,7 +962,6 @@ What is the difference between “heap” and “free store”?
 ⌂
 <br>﹈<br>^1694838074673
 
-
 ﹇<br>
 Why is `for(auto num : list)` undesirable? 
 
@@ -1022,7 +971,6 @@ You are iterating over elements by value which means we cannot modify them in pl
 
 ⌂
 <br>﹈<br>^1694418100957
-
 
 ﹇<br>
 Whare the three common examples in how one can use the `auto` keyword in a range-based for loop? 
@@ -1036,7 +984,6 @@ Whare the three common examples in how one can use the `auto` keyword in a range
 ⌂
 <br>﹈<br>^1694418100961
 
-
 ﹇<br>
 How do you declare an array of size three using the `array` library in C++? 
 
@@ -1045,7 +992,6 @@ How do you declare an array of size three using the `array` library in C++?
 The traditional way…
 ```cpp
 #include <array>
-
 
 // ...
 
@@ -1061,7 +1007,6 @@ auto a2 = std::to_array({0, 2, 1, 3});
 ⌂
 <br>﹈<br>^1694418100965
 
-
 ﹇<br>
 Is the following code valid?
 ```cpp
@@ -1076,7 +1021,6 @@ array<int> arr = [3, 2, 1];
 ⌂
 <br>﹈<br>^1694418100969
 
-
 ﹇<br>
 What library is the function `to_array()` a part of? 
 
@@ -1086,7 +1030,6 @@ It is part of the `<array>` library.
 
 ⌂
 <br>﹈<br>^1694418100973
-
 
 ﹇<br>
 What is the difference between `min()` and `lowest()` for `numeric_limits<T>`?
@@ -1098,7 +1041,6 @@ What is the difference between `min()` and `lowest()` for `numeric_limits<T>`?
 
 ⌂
 <br>﹈<br>^1694418100977
-
 
 ﹇<br>
 Is the following code valid?
@@ -1134,7 +1076,6 @@ No, I am missing a semicolon at the end of the line before the `switch` statemen
 ⌂
 <br>﹈<br>^1694418100984
 
-
 ﹇<br>
 How can  I go about using alternating values in C++?
 
@@ -1144,7 +1085,6 @@ One way is to use a `switch` statement with an iterator `i` that increments and 
 
 ⌂
 <br>﹈<br>^1694418100991
-
 
 ﹇<br>
 Is the following snippet valid in C++?
@@ -1163,7 +1103,6 @@ std::array<int,4> arr = {1,2,3,4}; // Size of array is 4
 ⌂
 <br>﹈<br>^1694418100998
 
-
 ﹇<br>
 Is the following code valid in C++?
 
@@ -1181,7 +1120,6 @@ The following code is **not** valid. `i` is a `const int&` so it is not allowed 
 <br>﹈<br>^1694494807603
 
 
-
 ﹇<br>
 Is the following code valid in C++?
 
@@ -1193,12 +1131,12 @@ for(auto i : arr) {
 
 #card 
 
-- While the code **will** compile, note that it **won’t** change the value of `arr` it will _only_ change the value of `i`.
-- Recall that in this form of a `for`-range loop, `i` is of type `int` (i.e., simply just a _copy_ of the value in `arr`)
+While the code **will** compile, note that it **won’t** change the value of `arr` it will _only_ change the value of `i`.
+
+Recall that in this form of a `for`-range loop, `i` is of type `int` (i.e., simply just a _copy_ of the value in `arr`)
 
 ⌂
 <br>﹈<br>^1694494836967
-
 
 
 ﹇<br>
@@ -1212,12 +1150,12 @@ for(auto& i : arr) {
 
 #card 
 
-- Yes, the following code will compile and its is logically sound.
-- `i` is of type `int &` so you can actually modify the elements of `arr`.
+Yes, the following code will compile and its is logically sound.
+
+`i` is of type `int &` so you can actually modify the elements of `arr`.
 
 ⌂
 <br>﹈<br>^1694418101012
-
 
 ﹇<br>
 Is the following code valid in C++?
@@ -1231,12 +1169,12 @@ for(auto& i : arr) {
 
 #card 
 
-- Yes, the following code will compile.
-- Remember that since `i` is of type `int &` (i.e., `i` is a reference), then we do **not** need to dereference (i.e., need to use the `*` operator)
+Yes, the following code will compile.
+
+Remember that since `i` is of type `int &` (i.e., `i` is a reference), then we do **not** need to dereference (i.e., need to use the `*` operator)
 
 ⌂
 <br>﹈<br>^1694494836971
-
 
 
 ﹇<br>
@@ -1251,12 +1189,14 @@ for(auto& i : arr) {
 
 #card 
 
-- No, the following code will **not** compile.
-- Remember that since `i` is of type `int &` (i.e., `i` is a reference), so if we wish to…
-	- **Reassign**: then we do **_not_** need to dereference (i.e., use the `*` operator); we simply assign like so…
+No, the following code will **not** compile.
+
+Remember that since `i` is of type `int &` (i.e., `i` is a reference), so if we wish to…
+- **Reassign**: then we do **_not_** need to dereference (i.e., use the `*` operator); we simply assign like so…
 ```cpp
 i = 4;
 ```
+
 - **Indirection**: to access a value of `i`, remember, like reassignment, we do **_not_** need to dereference. We simply just use the variable; for example, we can simply just do…
 ```cpp
 cout << i << endl;
@@ -1265,14 +1205,13 @@ cout << i << endl;
 ⌂
 <br>﹈<br>^1694418101026
 
-
 ﹇<br>
 Just to clarify, when dealing with type `int &` you do not need the dereference operator to access the value?
 
 #card 
 
 Yes, that’s correct! When dealing with a reference to an `int` (i.e., `int&`), you do not need to use the dereference operator (`*`) to access the value. A reference is an alias for another variable, so you can use it just like you would use the original variable. For example:
-```c++
+```cpp
 int x = 5;
 int& y = x;
 std::cout << y << std::endl; // prints 5
@@ -1283,14 +1222,13 @@ In this example, `y` is a reference to `x`, so when we print the value of `y`, i
 <br>﹈<br>^1694494836974
 
 
-
 ﹇<br>
 How could I assign a pointer `y` to point to an `int` variable called `x`?
 
 #card 
 
 If you want `y` to be a pointer to `x`, you can do that by declaring `y` as a pointer to an `int` and initializing it with the address of `x`. Here's an example:
-```c++
+```cpp
 int x = 5;
 int* y = &x;
 std::cout << *y << std::endl; // prints 5
@@ -1312,8 +1250,6 @@ Accessing an element in an array is faster because of the way arrays are stored 
 ⌂
 <br>﹈<br>^1694495603173
 
-
-
 ﹇<br>
 What are some reasons we wouldn’t always use linked lists instead of arrays in C++? 
 
@@ -1327,7 +1263,6 @@ There are several reasons why we might prefer arrays over linked lists in certai
 ⌂
 <br>﹈<br>^1694495603177
 
-
 ﹇<br>
 When can linked lists be more efficient than arrays?
 
@@ -1337,7 +1272,6 @@ Linked lists can be more efficient than arrays when you need to frequently add o
 
 ⌂
 <br>﹈<br>^1694495603181
-
 
 ﹇<br>
 In C++, what is the difference between a pointer and a reference?
@@ -1353,7 +1287,6 @@ A pointer is a variable that stores the memory address of another variable, whil
 ⌂
 <br>﹈<br>^1694418101047
 
-
 ﹇<br>
 In C++, specifically regarding the **syntax**, what is the difference between pointers and references?
 
@@ -1363,7 +1296,6 @@ In C++, specifically regarding the **syntax**, what is the difference between po
 
 ⌂
 <br>﹈<br>^1694418101055
-
 
 ﹇<br>
 In C++, specifically regarding the **initialization**, what is the difference between pointers and references?
@@ -1375,7 +1307,6 @@ In C++, specifically regarding the **initialization**, what is the difference be
 ⌂
 <br>﹈<br>^1694418101062
 
-
 ﹇<br>
 In C++, specifically regarding the **reassignment**, what is the difference between pointers and references?
 
@@ -1385,7 +1316,6 @@ In C++, specifically regarding the **reassignment**, what is the difference betw
 
 ⌂
 <br>﹈<br>^1694418101068
-
 
 ﹇<br>
 In C++, specifically regarding the **indirection**, what is the difference between pointers and references?
@@ -1400,15 +1330,14 @@ In C++, specifically regarding the **indirection**, what is the difference betwe
 ﹇<br>
 What are the main two types of polymorphism in C++?
 
-
 #card 
 
-- Compile-Time Polymorphism (Method Overloading)
-- Run-Time Polymorphism (Method Overriding via Virtual Functions)
+The two types of polymorphism are:
+- Compile-Time Polymorphism (i.e., Method Overloading)
+- Run-Time Polymorphism (i.e., Method Overriding via Virtual Functions)
 
 ⌂
 <br>﹈<br>^1694836467493
-
 
 ﹇<br>
 In programming, especially C++, what is polymorphism?
@@ -1499,7 +1428,6 @@ There are mainly two types of polymorphism in C++:
 ⌂
 <br>﹈<br>^1694836467498
 
-
 {1:Compile-Time Polymorphism} {2:(Method Overloading)}
 ^1694836467505
  
@@ -1516,7 +1444,6 @@ Compile-time polymorphism in C++ allows the function to be determined at compile
 ⌂
 <br>﹈<br>^1694836598257
 
-
 ﹇<br>
 What is run-time polymorphism in C++ and give an example?
 
@@ -1526,7 +1453,6 @@ Run-time polymorphism in C++ allows the function to be determined at run-time, t
 
 ⌂
 <br>﹈<br>^1694836598264
-
 
 ﹇<br>
 What is a virtual function in C++?
@@ -1538,7 +1464,6 @@ A virtual function in C++ is a member function that is declared within a base cl
 ⌂
 <br>﹈<br>^1694836598269
 
-
 ﹇<br>
 What does the `override` keyword signify in C++?
 
@@ -1548,7 +1473,6 @@ The `override` keyword in C++ indicates that a virtual member function in a deri
 
 ⌂
 <br>﹈<br>^1694836598274
-
 
 ﹇<br>
 In a brief summary, what is **polymorphism** in the context of C++?
@@ -1563,8 +1487,6 @@ In essence, polymorphism enables more flexible, extensible, and maintainable cod
 
 ⌂
 <br>﹈<br>^1694836789227
-
-
 
 ﹇<br>
 What is encapsulation in C++? Give an example.
@@ -1586,8 +1508,6 @@ public:
 
 ⌂
 <br>﹈<br>^1694836978464
-
-
 
 ﹇<br>
 What is inheritance in C++? Give an example.
@@ -1612,8 +1532,6 @@ public:
 ⌂
 <br>﹈<br>^1694836978474
 
-
-
 ﹇<br>
 What is polymorphism in C++? Give an example.
 
@@ -1630,7 +1548,6 @@ void drawShape(Shape& shape) {
 
 ⌂
 <br>﹈<br>^1694836978481
-
 
 ﹇<br>
 What is abstraction in C++? Give an example.
@@ -1650,12 +1567,10 @@ public:
 ⌂
 <br>﹈<br>^1694836978489
 
-
 ---
 
-> [!info]+ 🔜 Next Note(s):
+> [!info]+ 
+> **Next Note(s)**:
 >
 
 ---
-
-

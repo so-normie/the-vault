@@ -1,7 +1,7 @@
 ---
 title: Access a local folder
 created: 2023-11-19T12:44
-updated: 2023-11-26T10:54
+updated: 2023-12-13T08:47
 authors:
   - Edmund Leibert III
 tags:
@@ -32,8 +32,7 @@ By default, what can’t containers do?
 
 #card 
 
-{{Answer}}
-^1700441205439
+❗Need to go back and fix
 
 ⌂
 <br>﹈<br>^1700441205448
