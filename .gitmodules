@@ -1,12 +1,6 @@
 [submodule ".obsidian/plugins/obsidian-cloze-plugin"]
 	path = .obsidian/plugins/obsidian-cloze-plugin
 	url = https://github.com/edmund-leibert/obsidian-cloze-plugin.git
-[submodule ".obsidian/plugins/obsidian-colored_tags_wrangler"]
-	path = .obsidian/plugins/obsidian-colored_tags_wrangler
-	url = https://github.com/edmund-leibert/obsidian-colored_tags_wrangler.git
 [submodule ".obsidian/plugins/flashcards-obsidian"]
 	path = .obsidian/plugins/flashcards-obsidian
 	url = https://github.com/edmund-leibert/flashcards-obsidian.git
-[submodule ".obsidian/plugins/obsidian-callout-manager"]
-	path = .obsidian/plugins/obsidian-callout-manager
-	url = eleibert-github.com:edmund-leibert/obsidian-callout-manager.git
