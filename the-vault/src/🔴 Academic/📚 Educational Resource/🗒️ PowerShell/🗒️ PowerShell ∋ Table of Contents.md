@@ -1,7 +1,7 @@
 ---
 title: 🗒️ PowerShell ∋ Table of Contents
 created: 2023-08-04 01:58
-updated: 2023-12-07T21:34
+updated: 2023-12-10T03:35
 authors:
   - Edmund Leibert III
 tags:
@@ -17,7 +17,7 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ PowerShell::🗒�
 ---
 
 > [!ABSTRACT]+ 
-> Scratch notes pertaining to [PowerShell](https://github.com/PowerShell/PowerShell). [@Bazel]
+> Scratch notes pertaining to [PowerShell](https://github.com/PowerShell/PowerShell). [@powershellteamPowerShellPowerShellPowerShell]
 > 
 > These notes are primarily structured in a Q&A format, making it easy to follow and learn. Corresponding Anki flashcards are available, enabling efficient revision and reinforcement of the concepts.
 
@@ -38,6 +38,9 @@ cards-deck: 🔴 Academic::📚 Educational Resource::🗒️ PowerShell::🗒�
 ---
 
 ## :EiZoteroItem: Bibliography
+
+\[1\]
+“PowerShell/PowerShell: PowerShell for every system!,” _GitHub_. Available: [https://github.com/PowerShell/PowerShell](https://github.com/PowerShell/PowerShell). [Accessed: Dec. 10, 2023]
 
 ---
 

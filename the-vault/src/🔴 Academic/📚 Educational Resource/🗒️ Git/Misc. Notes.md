@@ -1,7 +1,7 @@
 ---
 title: 🗒️ Git
 created: 2023-08-04 01:58
-updated: 2023-11-25T18:29
+updated: 2024-01-07T01:09
 authors:
   - Edmund Leibert III
 tags:
@@ -138,9 +138,13 @@ How do you delete a remote branch in Git?
 
 #card 
 
-- [You can use the `git push` command with the `-d` flag followed by the name of the remote branch you want to delete](https://www.freecodecamp.org/news/git-delete-branch-how-to-remove-a-local-or-remote-branch/)
-- For example…
-	`git push origin -d remote_branch_name`
+[You can use the `git push` command with the `-d` flag followed by the name of the remote branch you want to delete](https://www.freecodecamp.org/news/git-delete-branch-how-to-remove-a-local-or-remote-branch/)
+
+For example:
+
+```bash
+git push origin -d remote_branch_name
+```
 
 ⌂
 <br>﹈<br>^1700962345825
@@ -396,7 +400,7 @@ How do I set to ignore all the contents of a folder no matter where it may be in
 <br>﹈<br>^1700962345919
 
 ﹇<br>
-What does `git saubmodule add` do? 
+What does `git submodule add` do? 
 
 #card 
 
@@ -769,9 +773,27 @@ By looking at the `.gitmodules` file in the root directory of the repository.
 <br>﹈<br>^1700962346061
 
 ﹇<br>
-How do I fetch all the branches from my remote repository named origin?
+Using Git, how can I fetch all the branches from my remote repository named origin?
 
-#card 
+#card #🔴-academic/📚-educational-resource/discipline/computer-science/technology/git 
+
+You can fetch all the branches from your remote repository named `origin` by using the following command in your terminal:
+
+```bash
+git fetch origin
+```
+
+This command will fetch all the branches from the remote repository named `origin`. After fetching, you can check out to any branch using `git checkout <branch-name>`. If the branch does not exist in your local repository, it will be created. Please replace `<branch-name>` with the actual name of the branch.
+
+Remember, `git fetch` only downloads the data from the remote repository but does not merge changes into your current branch. If you want to merge the changes, you can use `git pull` instead.
+
+⌂
+<br>﹈<br>^1702374241395
+
+﹇<br>
+How can you rename a remote branch in Git?
+
+#card #🔴-academic/📚-educational-resource/discipline/computer-science/technology/git 
 
 To rename a remote branch in Git, you can follow these steps:
 
@@ -783,7 +805,7 @@ To rename a remote branch in Git, you can follow these steps:
 Please replace `<old_name>` and `<new_name>` with the actual names of your branches. Be careful when performing these operations as they can affect your repository's history. Always make sure you have a backup or you are sure about what you are doing before running these commands. [@panAnswerHowRename2017]
 
 ⌂
-<br>﹈<br>
+<br>﹈<br>^1702374241400
 
 ﹇<br>
 When resolving git merges, what does `HEAD` mean?
@@ -807,6 +829,27 @@ Blue or Red
 ⌂
 <br>﹈<br>^1700965662768
 
+﹇<br>
+What does `git merge --quit` do?
+
+#card 
+
+The `git merge --quit` command does not exist in Git. It's likely a typo or a misunderstanding of other Git commands used for merging or quitting a merge in progress.
+
+Here are some possibilities:
+
+1. **Meant for `git merge --abort`:** This command aborts a merge in progress and attempts to restore the state of the repository to before the merge started. This is useful if you encounter conflicts during the merge and decide to abandon it.
+
+2. **Meant for exiting a merge conflict resolution:** This depends on the specific editor used for resolving conflicts. In Vim, you can exit with an error message using `cq!`, which will also effectively abort the merge. Other editors might have different escape sequences.
+
+3. **Meant for `git checkout --quit`:** This command is used to discard any uncommitted changes in the working directory and switch back to the previously checked-out branch. However, it doesn't affect an ongoing merge process.
+
+4. **Misinterpretation of `git merge --no-commit`:** This command performs the merge but stops just before creating a merge commit. It allows you to inspect and further modify the merged changes before committing them. However, it doesn't quit the merge process entirely.
+
+If you're unsure what command to use to achieve your desired outcome, it's always best to consult the official Git documentation or seek help from a Git expert.
+
+⌂
+<br>﹈<br>^1702374241405
 
 
 

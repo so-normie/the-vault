@@ -1,8 +1,11 @@
-/* .callout-title-inner {
-    align-items: end;
-    display: inline-flex;
-} */
-
 body {
     --p-spacing: 0.75rem;
+}
+
+.callout[data-callout="caution"] {
+    border-left: 0.25em red solid;
+}
+
+.callout-icon svg {
+    stroke-width: 2.5;
 }

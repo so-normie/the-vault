@@ -2,9 +2,11 @@
   "hideButtonsOnHover": true,
   "influentialCount": true,
   "showAbstract": true,
+  "abstractTruncateLength": 160,
   "showAuthors": true,
-  "showInvalidItems": true,
+  "showJournal": true,
   "filterRedundantReferences": true,
+  "removeDuplicateIds": true,
   "lookupLinkedFiles": true,
   "searchTitle": false,
   "searchLimit": 3,
@@ -17,7 +19,7 @@
     {
       "id": 1,
       "name": "My Library",
-      "lastUpdate": 1700205538651
+      "lastUpdate": 1702479214508
     }
   ],
   "zoteroPort": "23119",
@@ -38,13 +40,20 @@
   "modalCreateTemplate": "{{title}}\n{{authors}}\n{{journal}}, {{year}}\n{{abstract}}\n{{doi}}\n[External Link]({{url}})\n{{pdfurl}}\n",
   "modalInsertTemplate": "{{title}}\n{{authors}}\n{{journal}}, {{year}}\n{{abstract}}\n",
   "formatMetadataCopyOne": true,
-  "formatMetadataCopyTwo": true,
-  "formatMetadataCopyThree": true,
+  "formatMetadataCopyTwo": false,
+  "formatMetadataCopyThree": false,
   "metadataCopyTemplateOne": "{{bibtex}}",
   "metadataCopyTemplateTwo": "# {{title}}\n**{{authors}}**\n*{{journal}}, {{year}}*\n>[!abstract] Abstract\n>{{abstract}}\n",
   "metadataCopyTemplateThree": "[[{{title}}-{{author}} {{year}}]]",
   "metadataCopyOneBatch": true,
   "metadataCopyTwoBatch": true,
   "metadataCopyThreeBatch": true,
-  "debugMode": true
+  "debugMode": true,
+  "isLocalExclusive": false,
+  "cslStyle": "IEEE (with URL)",
+  "citationStylePath": "",
+  "cslLocale": "English (US)",
+  "defaultStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl",
+  "defaultLocale": "en-US",
+  "showInvalidItems": true
 }

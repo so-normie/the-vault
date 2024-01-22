@@ -1,6 +1,6 @@
 ---
 created: 2023-09-03 08:46
-updated: 2023-12-08T15:41
+updated: 2023-12-09T20:54
 sorting-spec: |-
   target-folder: .
   order-desc: a-z
@@ -18,9 +18,7 @@ sorting-spec: |-
   🗒️ PowerShell
   🗒️ Obsidian
   Discord
+  🗒️ Git
   %
   sortspec
 ---
-
-
-

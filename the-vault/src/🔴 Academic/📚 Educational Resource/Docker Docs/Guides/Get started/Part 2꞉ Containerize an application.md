@@ -1,7 +1,7 @@
 ---
 title: Part 2꞉ Containerize an application
 created: 2023-10-31T17:48
-updated: 2023-11-18T03:19
+updated: 2023-12-09T02:13
 authors:
   - Edmund Leibert III
 tags:
@@ -98,6 +98,10 @@ The `-p` flag (short for `--publish`) creates a port mapping between the host
 
 Run the following {1:`docker ps`} command in a terminal to {2:list your containers}.
 ^1700306355240
+
+---
+
+## :EiZoteroItem: Bibliography
 
 ---
 
