@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Interview/Interview ∋ Table of Contents.md",
+                "file": "the-vault/test.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 438.5
+    "width": 484.5
   },
   "right": {
     "id": "1186c1364788cf17",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Interview/Interview ∋ Table of Contents.md",
+                "file": "the-vault/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Interview/Interview ∋ Table of Contents.md",
+                "file": "the-vault/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,19 +155,9 @@
               "type": "timeline",
               "state": {}
             }
-          },
-          {
-            "id": "b022a1dcf1ac1279",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Interview/Interview ∋ Table of Contents.md"
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -201,10 +191,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3b22159245c2a393",
+  "active": "125d364fe9e6cd5d",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Learn/Learn ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs/Enum HOWTO.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python Docs ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Codility/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint/🗒️ ESLint ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESBuild/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French/🗒️ French ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Interview/Interview ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Learn/Learn ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Interview",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Featured/Featured ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Learn",
@@ -219,19 +218,11 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Hugo/🗒️ Hugo ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Java/🗒️ Java ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/🗒️ JavaScript ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Get started ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GitHub CLI/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Go/🗒️ Go ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Selenium/🗒️ Selenium ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Selenium",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md"
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore"
   ]
 }

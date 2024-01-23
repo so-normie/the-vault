@@ -5,7 +5,7 @@
     "EnableSeparateBackground": false,
     "EnableSeparateLuminanceOffset": false,
     "EnableDarkLightDifference": true,
-    "EnableBackgroundOpacity": false,
+    "EnableBackgroundOpacity": true,
     "Values": {
       "BackgroundOpacity": 0.2,
       "LuminanceOffset": 0.15
@@ -14,7 +14,7 @@
   "CSS": {
     "NoteTags": true,
     "NoteProperties": true,
-    "NoteBackgrounds": false,
+    "NoteBackgrounds": true,
     "TagsNoWrap": true,
     "TagsNoWrapText": "pre"
   },
@@ -54,7 +54,7 @@
     "EnableBackgroundOpacity": false
   },
   "Debug": {
-    "Enable": false,
+    "Enable": true,
     "EnableExperimentalCommands": false
   },
   "Info": {
