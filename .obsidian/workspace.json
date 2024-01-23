@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/test.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Interview/Interview ∋ Table of Contents.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/test.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Interview/Interview ∋ Table of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/test.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Interview/Interview ∋ Table of Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/test.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Interview/Interview ∋ Table of Contents.md"
               }
             }
           }
@@ -201,8 +201,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "125d364fe9e6cd5d",
+  "active": "3b22159245c2a393",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Learn/Learn ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Interview/Interview ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Interview",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Featured/Featured ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Learn",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Explore ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Featured",
     "the-vault/test.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
@@ -224,7 +231,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Go/🗒️ Go ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Selenium/🗒️ Selenium ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Selenium",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Explore ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/🗒️ Obsidian ∋ Table of Contents.md"
   ]
