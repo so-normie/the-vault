@@ -1,6 +1,6 @@
 ---
 created: 2023-10-01 16:14
-updated: 2024-01-22T23:05
+updated: 2024-01-23T07:34
 cards-deck: Default
 tags:
   - 🍑-booty
@@ -113,6 +113,6 @@ What are the various callouts?
 > Critical content demanding immediate user attention due to potential risks.
 
 
-> [!caution] Title
+> [!caution] Caution
 > Contents
 

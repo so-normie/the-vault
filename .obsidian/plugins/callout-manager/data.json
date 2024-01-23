@@ -15,14 +15,16 @@
           "condition": {
             "colorScheme": "light"
           },
-          "changes": {}
+          "changes": {
+            "color": "255, 0, 0"
+          }
         },
         {
           "condition": {
             "colorScheme": "dark"
           },
           "changes": {
-            "color": "213, 63, 63"
+            "color": "255, 0, 0"
           }
         }
       ],

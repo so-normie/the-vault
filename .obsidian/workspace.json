@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/test.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 484.5,
-    "collapsed": true
+    "width": 484.5
   },
   "right": {
     "id": "1186c1364788cf17",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/test.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/test.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,12 +162,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/test.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -204,6 +203,8 @@
   },
   "active": "125d364fe9e6cd5d",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
+    "the-vault/test.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs/Enum HOWTO.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python Docs ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Codility/Misc. Notes.md",
@@ -220,7 +221,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Learn",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Explore ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Featured",
-    "the-vault/test.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/🗒️ Git ∋ Table of Contents.md",
@@ -232,7 +232,6 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Part 1꞉ Overview.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Get started/Get started ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Overview.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Walkthroughs/Access a local folder.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Selenium",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore"
   ]
