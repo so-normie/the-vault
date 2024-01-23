@@ -1,6 +1,6 @@
 ---
 created: 2023-10-01 16:14
-updated: 2024-01-07T21:06
+updated: 2024-01-22T23:05
 cards-deck: Default
 tags:
   - 🍑-booty
@@ -98,17 +98,21 @@ Whiy, the grunch was Kartik :BoBxsFileArchive:
 
 What are the various callouts?
 
-> [!INFO] Note
+
+
+> [!info] Note
 > Highlights information that users should take into account, even when skimming.
 
-> [!TIP] Tip
+> [!tip] Tip
 > Optional information to help a user be more successful.
 
-> [!IMPORTANT] Important
+> [!important] Important
 > Crucial information necessary for users to succeed.
 
-> [!WARNING] Warning
+> [!warning] Warning
 > Critical content demanding immediate user attention due to potential risks.
 
-> [!CAUTION] Caution
-> Negative potential consequences of an action.
+
+> [!caution] Title
+> Contents
+

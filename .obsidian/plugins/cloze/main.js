@@ -336,13 +336,7 @@ var CLASSES = {
 // src/utils.ts
 var utils = {
   getClozeEl: (target) => {
-    let targetCloze = null;
-    if (target.matches("." + CLASSES.cloze)) {
-      targetCloze = target;
-    } else if (target.matches("." + CLASSES.clozeContent)) {
-      targetCloze = target.parentElement;
-    }
-    return targetCloze;
+    return target.closest("." + CLASSES.cloze);
   },
   getClozeContentEl: (target) => {
     return target.querySelector("." + CLASSES.clozeContent);
@@ -673,11 +667,23 @@ var ClozePlugin = class extends import_obsidian3.Plugin {
     }
   }
   togglePageAllHide() {
+    const mostRecentLeaf = this.app.workspace.getMostRecentLeaf();
+    if (!mostRecentLeaf)
+      return;
+    const leafContainer = mostRecentLeaf.containerEl;
+    if (!leafContainer)
+      return;
     if (this.isPreviewMode()) {
-      this.toggleAllHide(document.querySelector(".markdown-preview-view"), !this.isPreviewHide);
+      const nodeContainers = leafContainer.querySelectorAll(".markdown-preview-view");
+      nodeContainers.forEach((nodeContainer) => {
+        this.toggleAllHide(nodeContainer, !this.isPreviewHide);
+      });
       this.isPreviewHide = !this.isPreviewHide;
     } else {
-      this.toggleAllHide(document.querySelector(".markdown-source-view"), !this.isSourceHide);
+      const nodeContainers = leafContainer.querySelectorAll(".markdown-source-view");
+      nodeContainers.forEach((nodeContainer) => {
+        this.toggleAllHide(nodeContainer, !this.isSourceHide);
+      });
       this.isSourceHide = !this.isSourceHide;
     }
   }

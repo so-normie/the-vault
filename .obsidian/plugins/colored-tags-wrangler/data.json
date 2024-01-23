@@ -25,8 +25,10 @@
     "Values": {
       "ForceImportant": true,
       "BorderRadius": "12px",
-      "Padding": "5px"
-    }
+      "Padding": "5px",
+      "BackgroundOpacity": 0.2
+    },
+    "EnableBackgroundOpacity": false
   },
   "Kanban": {
     "Enable": false,
@@ -37,21 +39,25 @@
       "CardBackgroundOpacity": 0.2,
       "CardBorderOpacity": 0.3,
       "ListBackgroundOpacity": 0.2,
-      "ListBorderOpacity": 0.3
-    }
+      "ListBorderOpacity": 0.3,
+      "BackgroundOpacity": 0.2
+    },
+    "EnableBackgroundOpacity": false
   },
   "Canvas": {
     "Enable": false,
     "Values": {
       "CardBorderOpacity": 0.3,
-      "CardBackgroundLuminanceOffset": 0.15
-    }
+      "CardBackgroundLuminanceOffset": 0.15,
+      "BackgroundOpacity": 0.2
+    },
+    "EnableBackgroundOpacity": false
   },
   "Debug": {
     "Enable": false,
     "EnableExperimentalCommands": false
   },
   "Info": {
-    "SettingsVersion": 12
+    "SettingsVersion": 13
   }
 }
