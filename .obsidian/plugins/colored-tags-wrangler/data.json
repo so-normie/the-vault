@@ -1,8 +1,37 @@
 {
   "TagColors": {
-    "ColorPicker": [],
+    "ColorPicker": [
+      {
+        "tag_name": "🔴-academic/📚-educational-resource/discipline/computer-science/programming-language/javascript",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "background_color": {
+          "r": 251,
+          "g": 255,
+          "b": 0
+        },
+        "luminance_offset": 0.15
+      },
+      {
+        "tag_name": "🍑-booty",
+        "color": {
+          "r": 68,
+          "g": 0,
+          "b": 255
+        },
+        "background_color": {
+          "r": 171,
+          "g": 33,
+          "b": 33
+        },
+        "luminance_offset": 0.15
+      }
+    ],
     "EnableMultipleTags": true,
-    "EnableSeparateBackground": false,
+    "EnableSeparateBackground": true,
     "EnableSeparateLuminanceOffset": false,
     "EnableDarkLightDifference": true,
     "EnableBackgroundOpacity": true,
@@ -19,7 +48,7 @@
     "TagsNoWrapText": "pre"
   },
   "FolderNote": {
-    "Enable": false,
+    "Enable": true,
     "FolderTagLinks": [],
     "EnableAutoDetect": true,
     "Values": {
@@ -28,7 +57,7 @@
       "Padding": "5px",
       "BackgroundOpacity": 0.2
     },
-    "EnableBackgroundOpacity": false
+    "EnableBackgroundOpacity": true
   },
   "Kanban": {
     "Enable": false,
@@ -55,7 +84,7 @@
   },
   "Debug": {
     "Enable": true,
-    "EnableExperimentalCommands": false
+    "EnableExperimentalCommands": true
   },
   "Info": {
     "SettingsVersion": 13

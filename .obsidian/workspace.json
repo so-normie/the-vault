@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 484.5
+    "width": 484.5,
+    "collapsed": true
   },
   "right": {
     "id": "1186c1364788cf17",
@@ -155,9 +156,19 @@
               "type": "timeline",
               "state": {}
             }
+          },
+          {
+            "id": "4a082029aa70c458",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "the-vault/test.md"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
