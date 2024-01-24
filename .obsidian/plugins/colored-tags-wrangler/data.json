@@ -43,7 +43,7 @@
   "CSS": {
     "NoteTags": true,
     "NoteProperties": true,
-    "NoteBackgrounds": true,
+    "NoteBackgrounds": false,
     "TagsNoWrap": true,
     "TagsNoWrapText": "pre"
   },
@@ -74,13 +74,13 @@
     "EnableBackgroundOpacity": false
   },
   "Canvas": {
-    "Enable": false,
+    "Enable": true,
     "Values": {
       "CardBorderOpacity": 0.3,
       "CardBackgroundLuminanceOffset": 0.15,
       "BackgroundOpacity": 0.2
     },
-    "EnableBackgroundOpacity": false
+    "EnableBackgroundOpacity": true
   },
   "Debug": {
     "Enable": true,

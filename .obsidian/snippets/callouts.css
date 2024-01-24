@@ -3,7 +3,19 @@ body {
 }
 
 .callout[data-callout="caution"] {
-    border-left: 0.25em red solid;
+    border-left: 0.25em #cf222e solid;
+}
+.callout[data-callout="warning"] {
+    border-left: 0.25em #9a6700 solid;
+}
+.callout[data-callout="important"] {
+    border-left: 0.25em #8250df solid;
+}
+.callout[data-callout="tip"] {
+    border-left: 0.25em #1f883d solid;
+}
+.callout[data-callout="info"] {
+    border-left: 0.25em #0969da solid;
 }
 
 .callout-icon svg {
