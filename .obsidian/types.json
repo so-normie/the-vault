@@ -5,6 +5,7 @@
     "tags": "tags",
     "created": "datetime",
     "updated": "datetime",
-    "rec": "multitext"
+    "rec": "multitext",
+    "Difiiculty": "multitext"
   }
 }
