@@ -4,19 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "f314596cb6f9a9be",
+        "id": "c34ad7bce2abab3f",
         "type": "tabs",
         "children": [
           {
-            "id": "4d0076f26fe8473a",
+            "id": "2bb27ab85c829b62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Interview/Interview ∋ Table of Contents.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/4. Median of Two Arrays.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
+              }
+            }
+          },
+          {
+            "id": "0609569a9af57ea4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kartik-misc/4._Median_of_Two_Sorted_Arrays.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "aeceb8754384c1c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2feabab4f697ea73",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.md"
               }
             }
           }
@@ -78,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 457.5
+    "width": 472.5,
+    "collapsed": true
   },
   "right": {
     "id": "1186c1364788cf17",
@@ -94,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Interview/Interview ∋ Table of Contents.md",
+                "file": "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Interview/Interview ∋ Table of Contents.md",
+                "file": "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,86 +194,81 @@
               "type": "timeline",
               "state": {}
             }
-          },
-          {
-            "id": "4a082029aa70c458",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Interview/Interview ∋ Table of Contents.md"
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 400.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "chronology:Open Chronology": false,
-      "custom-sort:Toggle custom sorting": false,
-      "flashcards-obsidian:Generate flashcards": false,
-      "obsidian-trash-explorer:Open trash explorer": false,
-      "obsidian-day-planner:Timeline": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "zk-prefixer:Create new unique note": false,
-      "random-note:Open random note": false,
-      "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false,
-      "publish:Publish changes...": false,
-      "notion-like-tables:Create loom": false,
-      "reference-map:Reference Map": false,
-      "cloze:Toggle all clozes": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "omnisearch:Omnisearch": false,
-      "templater-obsidian:Templater": false
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "chronology:Open Chronology": true,
+      "custom-sort:Toggle custom sorting": true,
+      "flashcards-obsidian:Generate flashcards": true,
+      "obsidian-trash-explorer:Open trash explorer": true,
+      "obsidian-day-planner:Timeline": true,
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": true,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "markdown-importer:Open format converter": true,
+      "zk-prefixer:Create new unique note": true,
+      "random-note:Open random note": true,
+      "audio-recorder:Start/stop recording": true,
+      "workspaces:Manage workspace layouts": true,
+      "publish:Publish changes...": true,
+      "notion-like-tables:Create loom": true,
+      "reference-map:Reference Map": true,
+      "cloze:Toggle all clozes": true,
+      "obsidian-excalidraw-plugin:Create new drawing": true,
+      "omnisearch:Omnisearch": true,
+      "templater-obsidian:Templater": true
     }
   },
-  "active": "4d0076f26fe8473a",
+  "active": "2feabab4f697ea73",
   "lastOpenFiles": [
     "kartik-misc/4._Median_of_Two_Sorted_Arrays.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Discuss/Discuss ∋ Table of Contents.md",
+    "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.md",
+    "Untitled.loom",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/4. Median of Two Arrays.md",
+    "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.light.png",
+    "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.light.svg",
+    "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.dark.png",
+    "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.dark.svg",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ LaTeX/LaTeX.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/Untitled.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/118. Pascal's Triangle.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/sortspec.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/sortspec.md",
+    "the-vault/src/🔵 Vocational/🔵 Vocational ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md",
+    "the-vault/terror-interview-problem.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Interview/Interview ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Discuss/Discuss ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Interview",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Contest/Contest ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Discuss",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/LeetCode ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Contest",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/sortspec.md",
     "the-vault/test.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/sortspec.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs/Enum HOWTO.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python Docs ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Codility/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESLint/🗒️ ESLint ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ ESBuild/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ French/🗒️ French ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Interview/Interview ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Learn/Learn ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Interview",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Featured/Featured ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Learn",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Explore ∋ Table of Contents.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Featured",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/🗒️ Git ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Selenium",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore"
   ]

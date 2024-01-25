@@ -630,7 +630,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Go/🗒️ Go ∋ Table of Contents.md": "44cc9ec446ef6a1bd2d90dbc548228c52fc90b64d7fe6a59e59c94d0ce5fe108",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ GoogleTest/🗒️ GoogleTest ∋ Table of Contents.md": "437af0a2e5e9c8fc17a4633b0b978e96e96c80347111dd90ba27d0abdf31000d",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JavaScript/Misc. Notes.md": "0404ce7d5061bcabdecfa2c1ed50f2a8c99c690cb4c873506a078a219efbde3b",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ LaTeX/LaTeX.md": "9223667bd030cde53594353a20da0579f0b858f9a0d9857fb79069c545aad559",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ LaTeX/LaTeX.md": "5ccce142b8294598ce0ebb97ac5058fe69cfa9cb66f8e3d84706e1fedbaa7887",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ HTML/🗒️ HTML ∋ Table of Contents.md": "6e6b4ff19775de2ae5e24312ef673b775131ea8388354a8fa4df3b336070ea98",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Java/🗒️ Java ∋ Table of Contents.md": "30e7f2e86e40f5aefad13abf7e06a58ffad21043df00420fab9df2877df91755",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ JetBrains/🗒️ JetBrains ∋ Table of Contents.md": "687f884831f2dcbb9338118a90fb4d762330aa93eee72500a0b3b8c59931eef4",
@@ -666,7 +666,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/Guides/Docker Overview.md": "14bcebc79e140214526b5cb6cd20da89f94d543a38308c5e0fa3c8f91b902b93",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1. Two Sum.md": "f2840517078aa9a20a14fced3dcada6680152a7559719dd3ccd3242e4576fe79",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/1050. Actors and Directors Who Cooperated At Least Three Times.md": "f39b5793fcd8c12ffe47bb014fd4c5446f48f441f0d768a4c829b8083a88f765",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/118. Pascal's Triangle.md": "1bac61968cc250cc8878e5e023f831d67d9aa0013706297ce0f022c1a1d545d7",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/118. Pascal's Triangle.md": "0a30eb4b533435c0edebb1af2a9fabe90db804fca57a3a3937fe8b291ed5ff80",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/121. Best Time to Buy and Sell Stock.md": "5f7fa97038165e39dab7fd0bacb7640b80508d5f38c1b15938a1d6183173b1c3",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/125. Valid Palindrome.md": "f18896c72a401d822b95ce4b12a5afb2cde9487aabf8bf87629f9e6097100968",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/13. Roman to Integer.md": "5eac2150de7b6c3a44d42454098cac3e70d2d303dd8c80f450df69dc8a978362",
@@ -925,7 +925,7 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/005. array and string welcome.md": "e24356b86e5720ed37ffffbcdcfbac0ca738904ed5b7313894f8450a0d68582c",
     "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/1. Array and String/sortspec.md": "259ac27228ddaae0e1a1fa51751ecc39cb970ab54cf46ec34b140bf83d07c110",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Git/sortspec.md": "e5f586640ae59fd4a266c07bcf7f8629e2fe1f9d3f85d2045f47aa30aff96373",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md": "413d64fcee5595b6b7ebb0a11f788aed731095d6ada6d7d86b12d6ba279485c2",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md": "0aba37dfcd91b199fffb39c5670f70993160e80281f74a533cd7da455f34b776",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Anaconda/Misc. Notes.md": "3f986be18f19ea0422363725ee450719a13695fda0fb54adc2a797265e12d304",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Angular/Misc. Notes.md": "9bd706e6180b409f26a14cc67cb0585096d40176538e9b0cbfcaa819e8c906fa",
     "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ CMake/🗒️ CMake ∋ Table of Contents.md": "c681e12cad369ec932ebe4f064c7cff439ba3f357b635246370bd14f25ca61bb",
@@ -950,6 +950,8 @@
     "the-vault/src/🔴 Academic/📚 Educational Resource/Docker Docs/sortspec.md": "9f335b0a3c8d835fae0cf853f74e6480fd70ecaeb0c3a468104f0ff576f9ada8",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/sortspec.md": "590c039f6d1202668d7e5e402dd93acfc38368569032310140051638df7e19bc",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/LeetCode ∋ Table of Contents.md": "1a2bdbf77e7fc7dd64f3c89f6b292078206e198c5594957d5b98d6e5db97612b",
-    "kartik-misc/4._Median_of_Two_Sorted_Arrays.md": "a897695b4ec8fcdba7d0dd27819dff27dde3b16ad51c93451827de83e54251c1"
+    "kartik-misc/4._Median_of_Two_Sorted_Arrays.md": "a897695b4ec8fcdba7d0dd27819dff27dde3b16ad51c93451827de83e54251c1",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/sortspec.md": "5192dcfb24e05b8808979831770cb9d7adf0c0f2b8af86ca7b22cfe201b53890",
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/4. Median of Two Arrays.md": "2932a09f4af28c37d36db7a8927760786112c3486122ef9af392acb5caadc345"
   }
 }
