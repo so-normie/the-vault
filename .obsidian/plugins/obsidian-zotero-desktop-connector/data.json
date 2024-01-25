@@ -7,7 +7,8 @@
   "citeFormats": [
     {
       "name": "IEEE (with URL) ∋ Formatted Citation",
-      "format": "formatted-citation"
+      "format": "formatted-citation",
+      "cslStyle": "ieee-with-url"
     },
     {
       "name": "IEEE (with URL) ∋ Formatted Bibliography",

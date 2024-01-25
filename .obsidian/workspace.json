@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2bb27ab85c829b62",
+            "id": "3cdae4f9adbef58e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,18 +164,26 @@
               "type": "timeline",
               "state": {}
             }
+          },
+          {
+            "id": "8bc77db202d198be",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/4. Median of Two Arrays.md"
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 400.5,
-    "collapsed": true
+    "width": 400.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
       "chronology:Open Chronology": true,
       "custom-sort:Toggle custom sorting": true,
       "flashcards-obsidian:Generate flashcards": true,
@@ -197,16 +205,17 @@
       "reference-map:Reference Map": true,
       "cloze:Toggle all clozes": true,
       "obsidian-excalidraw-plugin:Create new drawing": true,
-      "omnisearch:Omnisearch": true,
-      "templater-obsidian:Templater": true
+      "templater-obsidian:Templater": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "2bb27ab85c829b62",
+  "active": "3cdae4f9adbef58e",
   "lastOpenFiles": [
+    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/4. Median of Two Arrays.md",
     "kartik-misc/4._Median_of_Two_Sorted_Arrays.md",
     "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.md",
     "Untitled.loom",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/4. Median of Two Arrays.md",
     "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.light.png",
     "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.light.svg",
     "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.dark.png",
