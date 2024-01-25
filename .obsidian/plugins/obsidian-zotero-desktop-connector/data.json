@@ -6,7 +6,11 @@
   "pdfExportImageQuality": 90,
   "citeFormats": [
     {
-      "name": "Citation",
+      "name": "IEEE (with URL) ∋ Formatted Citation",
+      "format": "formatted-citation"
+    },
+    {
+      "name": "IEEE (with URL) ∋ Formatted Bibliography",
       "format": "formatted-bibliography",
       "cslStyle": "ieee-with-url"
     }

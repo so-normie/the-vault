@@ -19,36 +19,6 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "0609569a9af57ea4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kartik-misc/4._Median_of_Two_Sorted_Arrays.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "aeceb8754384c1c8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2feabab4f697ea73",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.md"
-              }
-            }
           }
         ]
       }
@@ -125,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/4. Median of Two Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/4. Median of Two Arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +201,7 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "2feabab4f697ea73",
+  "active": "2bb27ab85c829b62",
   "lastOpenFiles": [
     "kartik-misc/4._Median_of_Two_Sorted_Arrays.md",
     "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.md",
