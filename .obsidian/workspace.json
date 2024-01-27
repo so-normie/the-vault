@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c34ad7bce2abab3f",
+        "id": "f129741313f011ac",
         "type": "tabs",
         "children": [
           {
-            "id": "9bbbf95b7a683918",
+            "id": "446ab448bcf5b4c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/4. Median of Two Arrays.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resources/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 472.5,
-    "collapsed": true
+    "width": 472.5
   },
   "right": {
     "id": "1186c1364788cf17",
@@ -90,12 +89,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "80a3bc7c08437d1a",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
             "id": "1150306fa01e40e1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/4. Median of Two Arrays.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resources/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/4. Median of Two Arrays.md",
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resources/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,12 +173,12 @@
             }
           },
           {
-            "id": "8bc77db202d198be",
+            "id": "35f6f2f8fa2d6dda",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/4. Median of Two Arrays.md"
+                "file": "the-vault/src/🔴 Academic/📚 Educational Resources/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md"
               }
             }
           }
@@ -180,12 +187,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 400.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
       "chronology:Open Chronology": true,
-      "custom-sort:Toggle custom sorting": true,
+      "custom-sort:Toggle custom sorting": false,
       "flashcards-obsidian:Generate flashcards": true,
       "obsidian-trash-explorer:Open trash explorer": true,
       "obsidian-day-planner:Timeline": true,
@@ -206,13 +215,18 @@
       "cloze:Toggle all clozes": true,
       "obsidian-excalidraw-plugin:Create new drawing": true,
       "templater-obsidian:Templater": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "omnisearch:Omnisearch": false
+      "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "9bbbf95b7a683918",
+  "active": "446ab448bcf5b4c9",
   "lastOpenFiles": [
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/4. Median of Two Arrays.md",
+    "the-vault/src/🔴 Academic/sortspec.md",
+    "the-vault/sortspec.md",
+    "the-vault/src/🔴 Academic/🔴 Academic ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Problems/4. Median of Two Arrays.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/Real Python/Real Python ∋ Table of Contents.md",
+    "the-vault/src/🔵 Vocational/🔵 Vocational ∋ Table of Contents.md",
     "kartik-misc/4._Median_of_Two_Sorted_Arrays.md",
     "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.md",
     "Untitled.loom",
@@ -220,35 +234,30 @@
     "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.light.svg",
     "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.dark.png",
     "the-vault/assets/excalidraw/Drawing 2024-01-24 18.09.02.excalidraw.dark.svg",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ LaTeX/LaTeX.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Obsidian/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/119. Pascal's Triangle II.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/🗒️ LaTeX/LaTeX.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/🗒️ Obsidian/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Problems/119. Pascal's Triangle II.md",
     "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/Untitled.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/Misc. Notes.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/118. Pascal's Triangle.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Problems/620. Not Boring Movies.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/🗒️ .NET ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ .NET/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/sortspec.md",
-    "the-vault/src/🔵 Vocational/🔵 Vocational ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/sortspec.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/🗒️ .NET/Misc. Notes.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Problems/118. Pascal's Triangle.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Problems/620. Not Boring Movies.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/🗒️ .NET/sortspec.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/sortspec.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/sortspec.md",
     "the-vault/terror-interview-problem.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Interview/Interview ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Discuss/Discuss ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Interview",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Contest/Contest ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Discuss",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/LeetCode ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Contest",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Interview/Interview ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Discuss/Discuss ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Interview",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Contest/Contest ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Discuss",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/LeetCode ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Contest",
     "the-vault/test.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/Structy ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Structy/sortspec.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python 3.12.0 documentation/Python HOWTOs/Enum HOWTO.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/Python Docs/Python Docs ∋ Table of Contents.md",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Interview",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Learn",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore/Featured",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/🗒️ Selenium",
-    "the-vault/src/🔴 Academic/📚 Educational Resource/LeetCode/Explore"
+    "the-vault/src/🔴 Academic/📚 Educational Resources/Structy/Structy ∋ Table of Contents.md",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Explore/Interview",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Explore/Learn",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Explore/Featured",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/🗒️ Selenium",
+    "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Explore"
   ]
 }
