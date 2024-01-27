@@ -63,7 +63,20 @@
   },
   "FolderNote": {
     "Enable": true,
-    "FolderTagLinks": [],
+    "FolderTagLinks": [
+      {
+        "tag_name": "🔴-academic/📚-educational-resource/discipline/computer-science/technology/yarn",
+        "folder_path": "the-vault/src/🔴 Academic/📚 Educational Resources/🗒️ Yarn"
+      },
+      {
+        "tag_name": "🔴-academic/📚-educational-resource/name/yarn",
+        "folder_path": "the-vault/src/🔴 Academic/📚 Educational Resources/🗒️ Yarn"
+      },
+      {
+        "tag_name": "study-note",
+        "folder_path": "the-vault/src/🔴 Academic/📚 Educational Resources/🗒️ Yarn"
+      }
+    ],
     "EnableAutoDetect": true,
     "Values": {
       "ForceImportant": true,

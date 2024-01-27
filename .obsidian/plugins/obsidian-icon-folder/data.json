@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiBookmarkFill",
       "LiConstruction",
       "EiHsfLogo",
       "SiEsbuild",
@@ -19,8 +20,7 @@
       "EiDEGrindCrew",
       "SiMicrosoftexcel",
       "SiPython",
-      "EiSystemDesignFightClub",
-      "FabAws"
+      "EiSystemDesignFightClub"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [
@@ -361,5 +361,9 @@
   "the-vault/src/🔴 Academic/📚 Educational Resources/Docker Docs/Guides/Walkthroughs/What is a container？.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resources/Docker Docs/Guides/Get started/Part 3꞉ Update the application.md": "TiNotes",
   "the-vault/src/🔴 Academic/📚 Educational Resources/Docker Docs/Guides/Get started/Part 4꞉ Share the application.md": "TiNotes",
-  "the-vault/src/🔴 Academic/📚 Educational Resources/Python Docs/Python 3.12.0 documentation/The Python Standard Library/Data Types": "RiBookmarkFill"
+  "the-vault/src/🔴 Academic/📚 Educational Resources/Python Docs/Python 3.12.0 documentation/The Python Standard Library/Data Types": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Explore": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Contest": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Discuss": "RiBookmarkFill",
+  "the-vault/src/🔴 Academic/📚 Educational Resources/LeetCode/Interview": "RiBookmarkFill"
 }
