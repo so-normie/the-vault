@@ -6,10 +6,14 @@
   "pdfExportImageQuality": 90,
   "citeFormats": [
     {
-      "name": "Citation",
-      "format": "pandoc",
-      "cslStyle": "ieee-with-url",
-      "brackets": true
+      "name": "IEEE (with URL) ∋ Formatted Citation",
+      "format": "formatted-citation",
+      "cslStyle": "ieee-with-url"
+    },
+    {
+      "name": "IEEE (with URL) ∋ Formatted Bibliography",
+      "format": "formatted-bibliography",
+      "cslStyle": "ieee-with-url"
     }
   ],
   "exportFormats": [],

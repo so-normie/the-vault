@@ -6390,7 +6390,7 @@ __export(main_exports, {
   default: () => ColoredTagWrangler
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian22 = require("obsidian");
+var import_obsidian26 = require("obsidian");
 
 // node_modules/uuid/dist/esm-browser/rng.js
 var getRandomValues;
@@ -6604,6 +6604,62 @@ function rgbToString(color) {
 function rgbaToString(color) {
   return `rgba(${color.r}, ${color.g}, ${color.b}, ${color.a})`;
 }
+function getContrastColor(rgb) {
+  let brightness = (rgb.r * 299 + rgb.g * 587 + rgb.b * 114) / 1e3;
+  return brightness > 128 ? { r: 0, g: 0, b: 0 } : { r: 255, g: 255, b: 255 };
+}
+function getContrastBool(rgb) {
+  return getContrastColor(rgb).r === 0;
+}
+function clamp(value, min, max) {
+  return Math.min(Math.max(value, min), max);
+}
+function adjustBrightness(rgb, factor) {
+  const r = rgb.r / 255, g = rgb.g / 255, b = rgb.b / 255;
+  const max = Math.max(r, g, b), min = Math.min(r, g, b);
+  let h = 0, s = 0, l = (max + min) / 2;
+  if (max !== min) {
+    const d = max - min;
+    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+    switch (max) {
+      case r:
+        h = (g - b) / d + (g < b ? 6 : 0);
+        break;
+      case g:
+        h = (b - r) / d + 2;
+        break;
+      case b:
+        h = (r - g) / d + 4;
+        break;
+    }
+    h /= 6;
+  }
+  l = clamp(l * factor, 0, 1);
+  let r1, g1, b1;
+  if (s === 0) {
+    r1 = g1 = b1 = l;
+  } else {
+    const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+    const p = 2 * l - q;
+    r1 = hue2rgb(p, q, h + 1 / 3);
+    g1 = hue2rgb(p, q, h);
+    b1 = hue2rgb(p, q, h - 1 / 3);
+  }
+  return { r: clamp(Math.round(r1 * 255), 0, 255), g: clamp(Math.round(g1 * 255), 0, 255), b: clamp(Math.round(b1 * 255), 0, 255) };
+  function hue2rgb(p, q, t) {
+    if (t < 0)
+      t += 1;
+    if (t > 1)
+      t -= 1;
+    if (t < 1 / 6)
+      return clamp(p + (q - p) * 6 * t, 0, 1);
+    if (t < 1 / 2)
+      return clamp(q, 0, 1);
+    if (t < 2 / 3)
+      return clamp(p + (q - p) * (2 / 3 - t) * 6, 0, 1);
+    return clamp(p, 0, 1);
+  }
+}
 
 // src/plugin/settings/migrations/migrate_06_to_07.ts
 function migrate_06_to_07(loaded_data) {
@@ -6626,9 +6682,7 @@ function migrate_06_to_07(loaded_data) {
   return transformed_data;
 }
 function checkColor(color, background) {
-  let check = color.r === background.r && color.g === background.g && color.b === background.b;
-  console.warn({ color, background, check });
-  return check;
+  return color.r === background.r && color.g === background.g && color.b === background.b;
 }
 function callback_fix_background(background, luminance_offset) {
   let background_hsl = rgbToHsl(background);
@@ -6685,6 +6739,19 @@ function migrate_11_to_12(loaded_data) {
   return transformed_data;
 }
 
+// src/plugin/settings/migrations/migrate_12_to_13.ts
+function migrate_12_to_13(loaded_data) {
+  let transformed_data = loaded_data;
+  transformed_data.FolderNote.EnableBackgroundOpacity = loaded_data.TagColors.EnableBackgroundOpacity;
+  transformed_data.FolderNote.Values.BackgroundOpacity = loaded_data.TagColors.Values.BackgroundOpacity;
+  transformed_data.Kanban.EnableBackgroundOpacity = loaded_data.TagColors.EnableBackgroundOpacity;
+  transformed_data.Kanban.Values.BackgroundOpacity = loaded_data.TagColors.Values.BackgroundOpacity;
+  transformed_data.Canvas.EnableBackgroundOpacity = loaded_data.TagColors.EnableBackgroundOpacity;
+  transformed_data.Canvas.Values.BackgroundOpacity = loaded_data.TagColors.Values.BackgroundOpacity;
+  transformed_data.Info.SettingsVersion = 13;
+  return transformed_data;
+}
+
 // src/plugin/settings/Migrate.ts
 var MIGRATION_STEPS = [
   // Using any's isn't perfect but will do for now
@@ -6702,7 +6769,8 @@ var MIGRATION_STEPS = [
   (data) => migrate_08_to_09(data),
   (data) => migrate_09_to_10(data),
   (data) => migrate_10_to_11(data),
-  (data) => migrate_11_to_12(data)
+  (data) => migrate_11_to_12(data),
+  (data) => migrate_12_to_13(data)
 ];
 function Migrate(data) {
   var _a, _b;
@@ -6834,7 +6902,9 @@ var DefaultSettings = {
     Enable: false,
     FolderTagLinks: [],
     EnableAutoDetect: true,
+    EnableBackgroundOpacity: false,
     Values: {
+      BackgroundOpacity: 0.45,
       ForceImportant: true,
       BorderRadius: "12px",
       Padding: "5px"
@@ -6845,7 +6915,9 @@ var DefaultSettings = {
     EnableCards: false,
     EnableLists: false,
     HideHashtags: false,
+    EnableBackgroundOpacity: false,
     Values: {
+      BackgroundOpacity: 0.45,
       CardBackgroundOpacity: 0.2,
       CardBorderOpacity: 0.3,
       ListBackgroundOpacity: 0.2,
@@ -6854,7 +6926,9 @@ var DefaultSettings = {
   },
   Canvas: {
     Enable: false,
+    EnableBackgroundOpacity: false,
     Values: {
+      BackgroundOpacity: 0.45,
       CardBorderOpacity: 0.3,
       CardBackgroundLuminanceOffset: 0.15
     }
@@ -6865,30 +6939,20 @@ var DefaultSettings = {
     EnableExperimentalCommands: false
   },
   Info: {
-    SettingsVersion: 12
+    SettingsVersion: 13
     // UPDATE THIS WHEN YOU CHANGE ANYTHING IN THE SETTINGS!!!
   }
 };
 
-// src/api/RemoveById.ts
-function removeById(id) {
-  if (!id.startsWith("#")) {
-    throw new DOMException("id did not start with a '#' ");
-  }
-  const existingStyle = document.querySelector(id);
-  if (existingStyle) {
-    existingStyle.remove();
-  }
-}
-
 // src/api/tags.ts
 var reSLASH = /\//g;
+var reSplit = /[\n;]/;
 function get_tags(data, enable_multiple_tags, remove_slash = true) {
   return data.flatMap(({ tag_name, color, background_color, luminance_offset }) => {
     if (!enable_multiple_tags) {
       return [{ tag_name, color, background_color, luminance_offset }];
     }
-    return tag_name.split(/[\n;]/).map((tag) => tag.trim()).filter(Boolean).map((tag) => remove_slash ? tag.replace(reSLASH, "") : tag).map((tag) => ({ tag_name: tag, color, background_color, luminance_offset }));
+    return tag_name.split(reSplit).map((tag) => tag.trim().toLowerCase()).filter(Boolean).map((tag) => remove_slash ? tag.replace(reSLASH, "") : tag).map((tag) => ({ tag_name: tag, color, background_color, luminance_offset }));
   });
 }
 
@@ -6897,8 +6961,9 @@ var StyleWrangler = class {
   // -----------------------------------------------------------------------------------------------------------------
   // Constructor
   // -----------------------------------------------------------------------------------------------------------------
-  constructor(plugin) {
+  constructor(plugin, settingLocation) {
     this.plugin = plugin;
+    this.SettingLocation = settingLocation;
   }
   // -----------------------------------------------------------------------------------------------------------------
   // Methods
@@ -6914,7 +6979,7 @@ var StyleWrangler = class {
     return rgbToString(color);
   }
   getBackgroundWithOpacityString(color) {
-    return this.plugin.settings.TagColors.EnableBackgroundOpacity ? rgbaToString({ ...color, a: this.plugin.settings.TagColors.Values.BackgroundOpacity }) : this.getBackgroundString(color);
+    return this.SettingLocation.EnableBackgroundOpacity ? rgbaToString({ ...color, a: this.SettingLocation.Values.BackgroundOpacity }) : this.getBackgroundString(color);
   }
   getForegroundString(color) {
     return rgbToString(color);
@@ -6930,8 +6995,8 @@ var CSSWrangler = class extends StyleWrangler {
   // -----------------------------------------------------------------------------------------------------------------
   // Constructor
   // -----------------------------------------------------------------------------------------------------------------
-  constructor(id, plugin) {
-    super(plugin);
+  constructor(id, plugin, settingLocation) {
+    super(plugin, settingLocation);
     this.id = !id.startsWith("#") ? `#${id}` : id;
     this.styleEL_light = document.createElement("style");
     this.styleEL_dark = document.createElement("style");
@@ -6942,17 +7007,10 @@ var CSSWrangler = class extends StyleWrangler {
   // Methods
   // -----------------------------------------------------------------------------------------------------------------
   applyStyles() {
-    this.removeStyles();
-    this.styleEL_light.innerText = this.assembleCss("body.theme-light").map(lineCleanup).join(" ");
-    this.styleEL_dark.innerText = this.assembleCss("body.theme-dark").map(lineCleanup).join(" ");
-    document.head.appendChild(this.styleEL_light);
-    document.head.appendChild(this.styleEL_dark);
-  }
-  removeStyles() {
-    var _a, _b, _c, _d;
-    (_b = (_a = this.styleEL_light) == null ? void 0 : _a.parentNode) == null ? void 0 : _b.removeChild(this.styleEL_light);
-    (_d = (_c = this.styleEL_dark) == null ? void 0 : _c.parentNode) == null ? void 0 : _d.removeChild(this.styleEL_dark);
-    removeById(this.id);
+    return [
+      this.assembleCss("body.theme-light").map(lineCleanup).join(" "),
+      this.assembleCss("body.theme-dark").map(lineCleanup).join(" ")
+    ];
   }
 };
 
@@ -6962,7 +7020,7 @@ var CSSWranglerKanbanHashtags = class extends CSSWrangler {
   // Constructor
   // -----------------------------------------------------------------------------------------------------------------
   constructor(plugin) {
-    super("#styleKanbanEl", plugin);
+    super("#styleKanbanEl", plugin, plugin.settings.Kanban);
   }
   // -----------------------------------------------------------------------------------------------------------------
   // Methods
@@ -6984,7 +7042,7 @@ var CSSWranglerKanbanCards = class extends CSSWrangler {
   // Constructor
   // -----------------------------------------------------------------------------------------------------------------
   constructor(plugin) {
-    super("#styleKanbanCardsEl", plugin);
+    super("#styleKanbanCardsEl", plugin, plugin.settings.Kanban);
   }
   // -----------------------------------------------------------------------------------------------------------------
   // Methods
@@ -7009,14 +7067,14 @@ var CSSWranglerKanbanLists = class extends CSSWrangler {
   // Constructor
   // -----------------------------------------------------------------------------------------------------------------
   constructor(plugin) {
-    super("#styleKanbanListsEl", plugin);
+    super("#styleKanbanListsEl", plugin, plugin.settings.Kanban);
   }
   // -----------------------------------------------------------------------------------------------------------------
   // Methods
   // -----------------------------------------------------------------------------------------------------------------
   assembleCss(theme) {
     const important = this.getImportant();
-    return this.getTags().map(
+    return this.getTags(false).map(
       ({ tag_name, color, background_color }) => `
 ${theme} div.kanban-plugin__lane:has(div.kanban-plugin__lane-title-text a[href="#${tag_name}"]){
 	background: ${this.getBackgroundWithOpacityString(background_color)} ${important};
@@ -7035,21 +7093,40 @@ var CSSWranglerTags = class extends CSSWrangler {
   // Constructor
   // -----------------------------------------------------------------------------------------------------------------
   constructor(plugin) {
-    super("#styleTagsEl", plugin);
+    super("#styleTagsEl", plugin, plugin.settings.TagColors);
   }
   // -----------------------------------------------------------------------------------------------------------------
   // Methods
   // -----------------------------------------------------------------------------------------------------------------
+  _assembleCss(theme, selector, important, color, background_color) {
+    return ` 
+				${theme} ${selector} { 
+					color: ${this.getForegroundString(color)} ${important};
+					background-color: ${this.getBackgroundWithOpacityString(background_color)} ${important};
+				}`;
+  }
   assembleCss(theme) {
     const important = this.getImportant();
-    return this.getTags().map(
-      ({ tag_name, color, background_color }) => ` 
-				${theme} .tag[href="#${tag_name}"], 
-				${theme} .cm-tag-${tag_name} { 
-					color: ${this.getForegroundString(color)} ${important};
-					background-color: ${this.getBackgroundString(background_color)} ${important};
-				}`
-    );
+    return [
+      ...this.getTags(false).map(
+        (v) => this._assembleCss(
+          theme,
+          `.tag[href="#${v.tag_name}"]`,
+          important,
+          v.color,
+          v.background_color
+        )
+      ),
+      ...this.getTags().map(
+        (v) => this._assembleCss(
+          theme,
+          `.cm-tag-${v.tag_name}`,
+          important,
+          v.color,
+          v.background_color
+        )
+      )
+    ];
   }
 };
 
@@ -7059,16 +7136,17 @@ var CSSWranglerTagsCanvas = class extends CSSWrangler {
   // Constructor
   // -----------------------------------------------------------------------------------------------------------------
   constructor(plugin) {
-    super("#styleTagsCanvasEl", plugin);
+    super("#styleTagsCanvasEl", plugin, plugin.settings.TagColors);
   }
   // -----------------------------------------------------------------------------------------------------------------
   // Methods
   // -----------------------------------------------------------------------------------------------------------------
   assembleCss(theme) {
     const important = this.getImportant();
-    return this.getTags().map(
+    return this.getTags(false).map(
       ({ tag_name, color, background_color }) => `
 ${theme} div.canvas-node-container:has(div.markdown-embed-content a[href="#${tag_name}"]) {
+	--canvas-color : ${color.r}, ${color.g}, ${color.b} !important;
 	background : ${this.getBackgroundWithOpacityString(background_color)} ${important};
 	border-color: rgb(${color.r}, ${color.g}, ${color.b}) ${important};
 }`
@@ -7082,7 +7160,7 @@ var CSSWranglerFolderNote = class extends CSSWrangler {
   // Constructor
   // -----------------------------------------------------------------------------------------------------------------
   constructor(plugin) {
-    super("#styleFolderNoteEl", plugin);
+    super("#styleFolderNoteEl", plugin, plugin.settings.FolderNote);
   }
   // -----------------------------------------------------------------------------------------------------------------
   // Methods
@@ -7150,7 +7228,7 @@ var CSSWranglerTagsNoWrap = class extends CSSWrangler {
   // Constructor
   // -----------------------------------------------------------------------------------------------------------------
   constructor(plugin) {
-    super("#styleCSS", plugin);
+    super("#styleCSS", plugin, plugin.settings.TagColors);
   }
   // -----------------------------------------------------------------------------------------------------------------
   // Methods
@@ -7165,8 +7243,8 @@ var JqueryWrangler = class extends StyleWrangler {
   // -----------------------------------------------------------------------------------------------------------------
   // Constructor
   // -----------------------------------------------------------------------------------------------------------------
-  constructor(plugin) {
-    super(plugin);
+  constructor(plugin, settingLocation) {
+    super(plugin, settingLocation);
   }
 };
 
@@ -7177,7 +7255,7 @@ var JqueryWranglerNotePropertyTags = class extends JqueryWrangler {
   // Constructor
   // -----------------------------------------------------------------------------------------------------------------
   constructor(plugin) {
-    super(plugin);
+    super(plugin, plugin.settings.TagColors);
   }
   // -----------------------------------------------------------------------------------------------------------------
   // Methods
@@ -7186,14 +7264,14 @@ var JqueryWranglerNotePropertyTags = class extends JqueryWrangler {
     return (0, import_jquery.default)('div[data-property-key="tags"]').find(`div.multi-select-pill:has(span:contains("${tag_name}"))`);
   }
   assembleStyling() {
-    this.getTags().map(
+    this.getTags(false).map(
       ({ tag_name, color, background_color }) => {
-        this.findElement(tag_name).css("background-color", this.getBackgroundString(background_color)).css("color", this.getForegroundString(color)).find("svg").css("stroke", this.getForegroundString(color));
+        this.findElement(tag_name).css("background-color", this.getBackgroundWithOpacityString(background_color)).css("color", this.getForegroundString(color)).find("svg").css("stroke", this.getForegroundString(color));
       }
     );
   }
   removeStyling() {
-    this.getTags().map(
+    this.getTags(false).map(
       ({ tag_name }) => {
         this.findElement(tag_name).removeAttr("style").find("svg").removeAttr("style");
       }
@@ -7208,7 +7286,7 @@ var JqueryWranglerNoteBackgrounds = class extends JqueryWrangler {
   // Constructor
   // -----------------------------------------------------------------------------------------------------------------
   constructor(plugin) {
-    super(plugin);
+    super(plugin, plugin.settings.TagColors);
   }
   // -----------------------------------------------------------------------------------------------------------------
   // Methods
@@ -7234,6 +7312,36 @@ var JqueryWranglerNoteBackgrounds = class extends JqueryWrangler {
   }
 };
 
+// src/plugin/style_manager/jquery_wranglers/JqueryWranglerCanvasNodeBackground.ts
+var import_jquery3 = __toESM(require_jquery());
+var JqueryWranglerCanvasNodeBackground = class extends JqueryWrangler {
+  // -----------------------------------------------------------------------------------------------------------------
+  // Constructor
+  // -----------------------------------------------------------------------------------------------------------------
+  constructor(plugin) {
+    super(plugin, plugin.settings.TagColors);
+  }
+  // -----------------------------------------------------------------------------------------------------------------
+  // Methods
+  // -----------------------------------------------------------------------------------------------------------------
+  findElement(tag_name) {
+    return (0, import_jquery3.default)(`div.canvas-node > div.canvas-node-container:has(a.tag[href="#${tag_name}"])`);
+  }
+  assembleStyling() {
+    this.getTags(false).map(
+      ({ tag_name, color, background_color }) => {
+        const canvasNode = this.findElement(tag_name);
+        if (canvasNode !== null) {
+          canvasNode.css({ "--canvas-color": `${color.r}, ${color.g}, ${color.b}` });
+          canvasNode.css({ "background-color": this.getBackgroundWithOpacityString(background_color) });
+        }
+      }
+    );
+  }
+  removeStyling() {
+  }
+};
+
 // src/plugin/style_manager/StyleManager.ts
 var StyleManager = class {
   // -----------------------------------------------------------------------------------------------------------------
@@ -7248,50 +7356,56 @@ var StyleManager = class {
     this.wrangler_kanban_cards = new CSSWranglerKanbanCards(plugin);
     this.wrangler_kanban_lists = new CSSWranglerKanbanLists(plugin);
     this.wrangler_folder_note = new CSSWranglerFolderNote(plugin);
-    this.style_wranglers_css = new Array(
-      this.wrangler_css_note_tags,
-      this.wrangler_css_note_tags_no_wrap,
-      this.wrangler_tags_canvas,
-      this.wrangler_kanban_hashtags,
-      this.wrangler_kanban_cards,
-      this.wrangler_kanban_lists,
-      this.wrangler_folder_note
-    );
     this.wrangler_note_property_tags = new JqueryWranglerNotePropertyTags(plugin);
     this.wrangler_note_background = new JqueryWranglerNoteBackgrounds(plugin);
-    this.style_wranglers_jquery = new Array(
-      this.wrangler_note_property_tags,
-      this.wrangler_note_background
-    );
+    this.wrangler_canvas_node_background = new JqueryWranglerCanvasNodeBackground(plugin);
+    this.styleElement = document.createElement("style");
+    this.styleElement.id = "colored-tags-wrangler";
   }
   // -----------------------------------------------------------------------------------------------------------------
   // Methods
   // -----------------------------------------------------------------------------------------------------------------
   switchAllStyles() {
-    this.plugin.settings.TagColors.ColorPicker.length != 0 && this.plugin.settings.CSS.NoteTags ? this.wrangler_css_note_tags.applyStyles() : this.wrangler_css_note_tags.removeStyles();
-    this.plugin.settings.CSS.TagsNoWrap ? this.wrangler_css_note_tags_no_wrap.applyStyles() : this.wrangler_css_note_tags_no_wrap.removeStyles();
-    this.plugin.settings.Canvas.Enable ? this.wrangler_tags_canvas.applyStyles() : this.wrangler_tags_canvas.removeStyles();
-    this.plugin.settings.Kanban.HideHashtags ? this.wrangler_kanban_hashtags.applyStyles() : this.wrangler_kanban_hashtags.removeStyles();
-    this.plugin.settings.Kanban.EnableCards ? this.wrangler_kanban_cards.applyStyles() : this.wrangler_kanban_cards.removeStyles();
-    this.plugin.settings.Kanban.EnableLists ? this.wrangler_kanban_lists.applyStyles() : this.wrangler_kanban_lists.removeStyles();
-    this.plugin.settings.FolderNote.Enable ? this.wrangler_folder_note.applyStyles() : this.wrangler_folder_note.removeStyles();
+    const styleSets = [
+      {
+        enabled: this.plugin.settings.TagColors.ColorPicker.length !== 0 && this.plugin.settings.CSS.NoteTags,
+        styles: this.wrangler_css_note_tags
+      },
+      {
+        enabled: this.plugin.settings.CSS.TagsNoWrap,
+        styles: this.wrangler_css_note_tags_no_wrap
+      },
+      {
+        enabled: this.plugin.settings.Canvas.Enable,
+        styles: this.wrangler_tags_canvas
+      },
+      {
+        enabled: this.plugin.settings.Kanban.HideHashtags,
+        styles: this.wrangler_kanban_hashtags
+      },
+      {
+        enabled: this.plugin.settings.Kanban.EnableCards,
+        styles: this.wrangler_kanban_cards
+      },
+      {
+        enabled: this.plugin.settings.Kanban.EnableLists,
+        styles: this.wrangler_kanban_lists
+      },
+      {
+        enabled: this.plugin.settings.FolderNote.Enable,
+        styles: this.wrangler_folder_note
+      }
+    ];
+    this.styleElement.innerHTML = styleSets.filter((set) => set.enabled).flatMap((set) => set.styles.applyStyles()).join("");
+    document.head.appendChild(this.styleElement);
   }
-  // -----------------------------------------------------------------------------------------------------------------
-  // applyAllStyles():void {
-  // 	this._style_wranglers.forEach(value => {value.applyStyles()});
-  // }	// -----------------------------------------------------------------------------------------------------------------
-  removeAllStyles() {
-    this.style_wranglers_css.forEach((value) => {
-      value.removeStyles();
-    });
-    this.style_wranglers_jquery.forEach((value) => {
-      value.removeStyling();
-    });
+  removeStyles() {
+    document.head.removeChild(this.styleElement);
   }
 };
 
 // src/plugin/setting_tab/SettingTab.ts
-var import_obsidian21 = require("obsidian");
+var import_obsidian25 = require("obsidian");
 
 // src/plugin/setting_tab/components/ComponentCSSTagsNoWrap.ts
 var import_obsidian2 = require("obsidian");
@@ -7410,7 +7524,6 @@ var ComponentDebugReloadCSS = class extends SettingsTabComponent {
 			`).addButton(
       (button) => button.setButtonText("Refresh").onClick(async () => {
         this.plugin.style_manager.switchAllStyles();
-        this.settings_tab.display();
       })
     );
   }
@@ -7491,6 +7604,7 @@ var ComponentFolderNoteDetect = class extends SettingsTabComponent {
         await Promise.all([
           this.plugin.saveSettings(),
           this.settings_tab.display()
+          // Yes, because this setting adds to the list of FolderNotes
         ]);
       }).setClass("mod-warning")
     );
@@ -7527,6 +7641,7 @@ var ComponentFolderNoteFolderTagLinks = class extends SettingsTabComponent {
         await Promise.all([
           this.plugin.saveSettings(),
           this.settings_tab.display()
+          // Yes, because this adds more elements to the list
         ]);
       }).setClass("mod-cta")
     );
@@ -7538,6 +7653,7 @@ var ComponentFolderNoteFolderTagLinks = class extends SettingsTabComponent {
             await Promise.all([
               this.plugin.saveSettings(),
               this.settings_tab.display()
+              // Yes, because this removes elements from the list
             ]);
           }
         ).setClass("mod-warning").setDisabled(this.plugin.settings.FolderNote.FolderTagLinks.length == 0)
@@ -7581,6 +7697,7 @@ var ComponentFolderNoteFolderTagLinks = class extends SettingsTabComponent {
         await Promise.all([
           this.plugin.saveSettings(),
           this.settings_tab.display()
+          // Yes, because this alters the list
         ]);
       })
     );
@@ -7588,14 +7705,45 @@ var ComponentFolderNoteFolderTagLinks = class extends SettingsTabComponent {
   }
 };
 
-// src/plugin/setting_tab/components/ComponentKanban.ts
+// src/plugin/setting_tab/components/ComponentFolderNoteEnableBackgroundOpacity.ts
 var import_obsidian13 = require("obsidian");
+var ComponentFolderNoteEnableBackgroundOpacity = class extends SettingsTabComponent {
+  // -----------------------------------------------------------------------------------------------------------------
+  // methods
+  // -----------------------------------------------------------------------------------------------------------------
+  create_component(containerEL) {
+    let setting = new import_obsidian13.Setting(containerEL).setName("Apply Opacity to Folder Note's background color").setDesc("Allows you define if an item's background should have an opacity offset").addToggle(
+      (component) => {
+        component.setValue(this.plugin.settings.FolderNote.EnableBackgroundOpacity).onChange(async (state) => {
+          this.plugin.settings.FolderNote.EnableBackgroundOpacity = state;
+          await this.plugin.saveSettings();
+          await this.settings_tab.display();
+        });
+      }
+    );
+    if (this.plugin.settings.FolderNote.EnableBackgroundOpacity) {
+      setting.addText((text) => {
+        text.setPlaceholder(this.plugin.settings.FolderNote.Values.BackgroundOpacity.toString()).setValue(this.plugin.settings.FolderNote.Values.BackgroundOpacity.toString()).onChange(async (state) => {
+          let state_as_number = Number(state);
+          if (isNaN(state_as_number) || state_as_number === null) {
+            state_as_number = 0;
+          }
+          this.plugin.settings.FolderNote.Values.BackgroundOpacity = state_as_number;
+          await this.plugin.saveSettings();
+        });
+      });
+    }
+  }
+};
+
+// src/plugin/setting_tab/components/ComponentKanban.ts
+var import_obsidian14 = require("obsidian");
 var ComponentKanban = class extends SettingsTabComponent {
   // -----------------------------------------------------------------------------------------------------------------
   // methods
   // -----------------------------------------------------------------------------------------------------------------
   create_component(containerEL) {
-    new import_obsidian13.Setting(containerEL).setName("Enable Kanban integration").addToggle(
+    new import_obsidian14.Setting(containerEL).setName("Enable Kanban integration").addToggle(
       (component) => {
         component.setValue(this.plugin.settings.Kanban.Enable).onChange(async (state) => {
           this.plugin.settings.Kanban.Enable = state;
@@ -7608,13 +7756,13 @@ var ComponentKanban = class extends SettingsTabComponent {
 };
 
 // src/plugin/setting_tab/components/ComponentKanbanCards.ts
-var import_obsidian14 = require("obsidian");
+var import_obsidian15 = require("obsidian");
 var ComponentKanbanCards = class extends SettingsTabComponent {
   // -----------------------------------------------------------------------------------------------------------------
   // methods
   // -----------------------------------------------------------------------------------------------------------------
   create_component(containerEL) {
-    new import_obsidian14.Setting(containerEL).setName("Apply tag color to kanban card").setDesc(`
+    new import_obsidian15.Setting(containerEL).setName("Apply tag color to kanban card").setDesc(`
 				Applies the tag color, of the tag within the card, to the background color of the card. 
 				Known issue: When a card has multiple tags, the color of the card is randomly chosen.
 			`).addToggle(
@@ -7629,13 +7777,13 @@ var ComponentKanbanCards = class extends SettingsTabComponent {
 };
 
 // src/plugin/setting_tab/components/ComponentKanbanHideHashtags.ts
-var import_obsidian15 = require("obsidian");
+var import_obsidian16 = require("obsidian");
 var ComponentKanbanHideHashtags = class extends SettingsTabComponent {
   // -----------------------------------------------------------------------------------------------------------------
   // methods
   // -----------------------------------------------------------------------------------------------------------------
   create_component(containerEL) {
-    new import_obsidian15.Setting(containerEL).setName("Omit '#' in kanban boards").setDesc(`
+    new import_obsidian16.Setting(containerEL).setName("Omit '#' in kanban boards").setDesc(`
 				Hides the '#' from the kanban view, 
 					though they still have to be typed out within the used areas.
 			`).addToggle(
@@ -7650,13 +7798,13 @@ var ComponentKanbanHideHashtags = class extends SettingsTabComponent {
 };
 
 // src/plugin/setting_tab/components/ComponentKanbanLists.ts
-var import_obsidian16 = require("obsidian");
+var import_obsidian17 = require("obsidian");
 var ComponentKanbanLists = class extends SettingsTabComponent {
   // -----------------------------------------------------------------------------------------------------------------
   // methods
   // -----------------------------------------------------------------------------------------------------------------
   create_component(containerEL) {
-    new import_obsidian16.Setting(containerEL).setName("Apply tag color to kanban list").setDesc(`
+    new import_obsidian17.Setting(containerEL).setName("Apply tag color to kanban list").setDesc(`
 				Applies the tag color, of the tag within the list's title, to the background color of the list. 
 				Known issue: When a list has multiple tags, the color of the list is randomly chosen.
 			`).addToggle(
@@ -7670,8 +7818,39 @@ var ComponentKanbanLists = class extends SettingsTabComponent {
   }
 };
 
+// src/plugin/setting_tab/components/ComponentKanbanEnableBackgroundOpacity.ts
+var import_obsidian18 = require("obsidian");
+var ComponentKanbanEnableBackgroundOpacity = class extends SettingsTabComponent {
+  // -----------------------------------------------------------------------------------------------------------------
+  // methods
+  // -----------------------------------------------------------------------------------------------------------------
+  create_component(containerEL) {
+    let setting = new import_obsidian18.Setting(containerEL).setName("Apply Opacity to KanBan components' background color").setDesc("Allows you define if an item's background should have an opacity offset").addToggle(
+      (component) => {
+        component.setValue(this.plugin.settings.Kanban.EnableBackgroundOpacity).onChange(async (state) => {
+          this.plugin.settings.Kanban.EnableBackgroundOpacity = state;
+          await this.plugin.saveSettings();
+          await this.settings_tab.display();
+        });
+      }
+    );
+    if (this.plugin.settings.Kanban.EnableBackgroundOpacity) {
+      setting.addText((text) => {
+        text.setPlaceholder(this.plugin.settings.Kanban.Values.BackgroundOpacity.toString()).setValue(this.plugin.settings.Kanban.Values.BackgroundOpacity.toString()).onChange(async (state) => {
+          let state_as_number = Number(state);
+          if (isNaN(state_as_number) || state_as_number === null) {
+            state_as_number = 0;
+          }
+          this.plugin.settings.Kanban.Values.BackgroundOpacity = state_as_number;
+          await this.plugin.saveSettings();
+        });
+      });
+    }
+  }
+};
+
 // src/plugin/setting_tab/components/ComponentTags.ts
-var import_obsidian17 = require("obsidian");
+var import_obsidian19 = require("obsidian");
 var _NEW_TAG_NAME = "new-tag";
 var _NEW_DEFAULT_COLOR = { r: 255, g: 255, b: 255 };
 var _NEW_DEFAULT_BACKGROUND_COLOR = { r: 100, g: 100, b: 100 };
@@ -7680,7 +7859,7 @@ var ComponentTags = class extends SettingsTabComponent {
   // methods
   // -----------------------------------------------------------------------------------------------------------------
   create_component(containerEL) {
-    let setting = new import_obsidian17.Setting(containerEL).setName("Custom color tags").setDesc(`Define custom colors for tags.`).addButton((button) => this._add_new_tag_button(button));
+    let setting = new import_obsidian19.Setting(containerEL).setName("Custom color tags").setDesc(`Define custom colors for tags.`).addButton((button) => this._add_new_tag_button(button));
     if (this.plugin.settings.Debug.Enable) {
       setting.addButton(
         (button) => button.setButtonText("Clear all").onClick(
@@ -7697,7 +7876,7 @@ var ComponentTags = class extends SettingsTabComponent {
     for (let i = 0; i < this.plugin.settings.TagColors.ColorPicker.length; i++) {
       this._createTagColorSetting(i, this.plugin.settings.TagColors.ColorPicker[i], containerEL);
     }
-    new import_obsidian17.Setting(containerEL).addButton((button) => this._add_new_tag_button(button));
+    new import_obsidian19.Setting(containerEL).addButton((button) => this._add_new_tag_button(button));
   }
   // -----------------------------------------------------------------------------------------------------------------
   _add_new_tag_button(button) {
@@ -7726,8 +7905,8 @@ var ComponentTags = class extends SettingsTabComponent {
   _createTagColorSetting(tag_id, tag_content, containerEL) {
     let new_tag_id = tag_id;
     let new_tag_content = tag_content;
-    const setting = new import_obsidian17.Setting(containerEL);
-    if (import_obsidian17.Platform.isMobileApp || import_obsidian17.Platform.isMobile) {
+    const setting = new import_obsidian19.Setting(containerEL);
+    if (import_obsidian19.Platform.isMobileApp || import_obsidian19.Platform.isMobile) {
       setting.setClass("cwt-setting-tags");
     }
     if (this.plugin.settings.TagColors.EnableMultipleTags) {
@@ -7741,13 +7920,29 @@ var ComponentTags = class extends SettingsTabComponent {
         this.plugin.settings.TagColors.ColorPicker[new_tag_id] = new_tag_content;
         await this.plugin.saveSettings();
       })
-    ).addColorPicker(
-      (colorPicker) => colorPicker.setValueRgb(new_tag_content.background_color).onChange(async (value) => {
+    );
+    let colorPickerBackground;
+    setting.addColorPicker((colorPicker) => {
+      colorPickerBackground = colorPicker;
+      colorPickerBackground.setValueRgb(new_tag_content.background_color).onChange(async (value) => {
         new_tag_content.background_color = hexToRgb(value);
         this.plugin.settings.TagColors.ColorPicker[new_tag_id] = new_tag_content;
         await this.plugin.saveSettings();
-      })
-    );
+      });
+    });
+    if (this.plugin.settings.TagColors.EnableSeparateBackground) {
+      setting.addButton((cb) => {
+        cb.setIcon("paintbrush").setTooltip("Automatically generate a background color").onClick(async () => {
+          new_tag_content.background_color = adjustBrightness(
+            new_tag_content.color,
+            getContrastBool(new_tag_content.color) ? 0.5 : 1.75
+            // light foreground
+          );
+          colorPickerBackground.setValueRgb(new_tag_content.background_color);
+          await this.plugin.saveSettings();
+        });
+      });
+    }
     setting.addExtraButton((cb) => {
       cb.setIcon("up-chevron-glyph").setTooltip("Move up").onClick(async () => {
         arrayMove(this.plugin.settings.TagColors.ColorPicker, new_tag_id, new_tag_id - 1);
@@ -7768,6 +7963,7 @@ var ComponentTags = class extends SettingsTabComponent {
         await Promise.all([
           this.plugin.saveSettings(),
           this.settings_tab.display()
+          // Yes, because this alters the list
         ]);
       })
     );
@@ -7775,39 +7971,14 @@ var ComponentTags = class extends SettingsTabComponent {
   }
 };
 
-// src/plugin/setting_tab/components/ComponentTagsCanvas.ts
-var import_obsidian18 = require("obsidian");
-var ComponentTagsCanvas = class extends SettingsTabComponent {
-  // -----------------------------------------------------------------------------------------------------------------
-  // methods
-  // -----------------------------------------------------------------------------------------------------------------
-  create_component(containerEL) {
-    new import_obsidian18.Setting(containerEL).setName("Apply tag color to canvas card").setDesc(`
-			Applies the tag color, of the tag within the canvas's card, to the background color of the canvas card.
-			The Value slider and setter to the right, are the luminance offsets for the background.
-			`).addToggle(
-      (component) => {
-        component.setValue(this.plugin.settings.Canvas.Enable).onChange(async (state) => {
-          this.plugin.settings.Canvas.Enable = state;
-          await this.plugin.saveSettings();
-          this.settings_tab.display();
-        });
-      }
-    );
-  }
-};
-
 // src/plugin/setting_tab/components/ComponentTagsEnableBackgroundOpacity.ts
-var import_obsidian19 = require("obsidian");
+var import_obsidian20 = require("obsidian");
 var ComponentTagsEnableBackgroundOpacity = class extends SettingsTabComponent {
   // -----------------------------------------------------------------------------------------------------------------
   // methods
   // -----------------------------------------------------------------------------------------------------------------
   create_component(containerEL) {
-    let setting = new import_obsidian19.Setting(containerEL).setName("Enable background opacity").setDesc(`
-				Makes the backgrounds of any tags, Canvas cards, etc... slightly opaque.
-				Recreates a pre 0.12.0 state.
-			`).addToggle(
+    let setting = new import_obsidian20.Setting(containerEL).setName("Apply Opacity to tag background color").setDesc(`Enables an opacity offset for a tag's background color`).addToggle(
       (component) => {
         component.setValue(this.plugin.settings.TagColors.EnableBackgroundOpacity).onChange(async (state) => {
           this.plugin.settings.TagColors.EnableBackgroundOpacity = state;
@@ -7832,13 +8003,13 @@ var ComponentTagsEnableBackgroundOpacity = class extends SettingsTabComponent {
 };
 
 // src/plugin/setting_tab/components/ComponentTagsEnableMultipleTags.ts
-var import_obsidian20 = require("obsidian");
+var import_obsidian21 = require("obsidian");
 var ComponentTagsEnableMultipleTags = class extends SettingsTabComponent {
   // -----------------------------------------------------------------------------------------------------------------
   // methods
   // -----------------------------------------------------------------------------------------------------------------
   create_component(containerEL) {
-    new import_obsidian20.Setting(containerEL).setName("Enable multiple tags per line").setDesc("Allows the usage of `;` or `\\n` (new line) to bind multiple tags to one color.").addToggle(
+    new import_obsidian21.Setting(containerEL).setName("Enable multiple tags per line").setDesc("Allows the usage of `;` or `\\n` (new line) to bind multiple tags to one color.").addToggle(
       (component) => {
         component.setValue(this.plugin.settings.TagColors.EnableMultipleTags).onChange(async (state) => {
           this.plugin.settings.TagColors.EnableMultipleTags = state;
@@ -7850,31 +8021,109 @@ var ComponentTagsEnableMultipleTags = class extends SettingsTabComponent {
   }
 };
 
+// src/plugin/setting_tab/components/ComponentTagsEnableAutoBackgroundButton.ts
+var import_obsidian22 = require("obsidian");
+var ComponentTagsEnableAutoBackgroundButton = class extends SettingsTabComponent {
+  // -----------------------------------------------------------------------------------------------------------------
+  // methods
+  // -----------------------------------------------------------------------------------------------------------------
+  create_component(containerEL) {
+    new import_obsidian22.Setting(containerEL).setName("Enable button for Auto Background coloring").setDesc(`
+				Adds a small button next to each color picker, allowing users to auto generate an appropriate background color.
+				This chosen color isn't always 100%, so please adjust when needed
+			`).addToggle(
+      (component) => {
+        component.setValue(this.plugin.settings.TagColors.EnableSeparateBackground).onChange(async (state) => {
+          this.plugin.settings.TagColors.EnableSeparateBackground = state;
+          await this.plugin.saveSettings();
+        });
+      }
+    );
+  }
+};
+
+// src/plugin/setting_tab/components/ComponentCanvas.ts
+var import_obsidian23 = require("obsidian");
+var ComponentCanvas = class extends SettingsTabComponent {
+  // -----------------------------------------------------------------------------------------------------------------
+  // methods
+  // -----------------------------------------------------------------------------------------------------------------
+  create_component(containerEL) {
+    new import_obsidian23.Setting(containerEL).setName("Apply tag color to canvas card").setDesc(`
+			Applies the tag color, of the tag within the canvas's card, to the background color of the canvas card.
+			The Value slider and setter to the right, are the luminance offsets for the background.
+			`).addToggle(
+      (component) => {
+        component.setValue(this.plugin.settings.Canvas.Enable).onChange(async (state) => {
+          this.plugin.settings.Canvas.Enable = state;
+          await this.plugin.saveSettings();
+          this.settings_tab.display();
+        });
+      }
+    );
+  }
+};
+
+// src/plugin/setting_tab/components/ComponentCanvasEnableBackgroundOpacity.ts
+var import_obsidian24 = require("obsidian");
+var ComponentCanvasEnableBackgroundOpacity = class extends SettingsTabComponent {
+  // -----------------------------------------------------------------------------------------------------------------
+  // methods
+  // -----------------------------------------------------------------------------------------------------------------
+  create_component(containerEL) {
+    let setting = new import_obsidian24.Setting(containerEL).setName("Apply Opacity to Canvas component's background color").setDesc("Allows you define if an item's background should have an opacity offset").addToggle(
+      (component) => {
+        component.setValue(this.plugin.settings.Canvas.EnableBackgroundOpacity).onChange(async (state) => {
+          this.plugin.settings.Canvas.EnableBackgroundOpacity = state;
+          await this.plugin.saveSettings();
+          await this.settings_tab.display();
+        });
+      }
+    );
+    if (this.plugin.settings.Canvas.EnableBackgroundOpacity) {
+      setting.addText((text) => {
+        text.setPlaceholder(this.plugin.settings.Canvas.Values.BackgroundOpacity.toString()).setValue(this.plugin.settings.Canvas.Values.BackgroundOpacity.toString()).onChange(async (state) => {
+          let state_as_number = Number(state);
+          if (isNaN(state_as_number) || state_as_number === null) {
+            state_as_number = 0;
+          }
+          this.plugin.settings.Canvas.Values.BackgroundOpacity = state_as_number;
+          await this.plugin.saveSettings();
+        });
+      });
+    }
+  }
+};
+
 // src/plugin/setting_tab/SettingTab.ts
-var SettingTab = class extends import_obsidian21.PluginSettingTab {
+var SettingTab = class extends import_obsidian25.PluginSettingTab {
   constructor(plugin) {
     super(plugin.app, plugin);
     this.plugin = plugin;
     this._components = {
-      tags: new ComponentTags(plugin, this),
-      tags_canvas: new ComponentTagsCanvas(plugin, this),
-      tags_enable_multiple_tags: new ComponentTagsEnableMultipleTags(plugin, this),
+      canvas: new ComponentCanvas(plugin, this),
+      canvas_enable_background_opacity: new ComponentCanvasEnableBackgroundOpacity(plugin, this),
+      css_note_background: new ComponentCSSNoteBackground(plugin, this),
+      css_note_properties: new ComponentCSSNoteProperties(plugin, this),
+      css_note_tags: new ComponentCSSNoteTags(plugin, this),
+      css_tags_no_wrap: new ComponentCSSTagsNoWrap(plugin, this),
+      debug: new ComponentDebug(plugin, this),
+      debug_experimental_commands: new ComponentDebugExperimentalCommands(plugin, this),
+      debug_reloadcss: new ComponentDebugReloadCSS(plugin, this),
       folder_note: new ComponentFolderNote(plugin, this),
       folder_note_auto_detect: new ComponentFolderNoteAutoDetect(plugin, this),
       folder_note_detect: new ComponentFolderNoteDetect(plugin, this),
       folder_note_folder_tag_links: new ComponentFolderNoteFolderTagLinks(plugin, this),
+      folder_note_enable_background_opacity: new ComponentFolderNoteEnableBackgroundOpacity(plugin, this),
       kanban: new ComponentKanban(plugin, this),
       kanban_cards: new ComponentKanbanCards(plugin, this),
-      kanban_lists: new ComponentKanbanLists(plugin, this),
       kanban_hashtags: new ComponentKanbanHideHashtags(plugin, this),
-      debug: new ComponentDebug(plugin, this),
-      debug_reloadcss: new ComponentDebugReloadCSS(plugin, this),
-      debug_experimental_commands: new ComponentDebugExperimentalCommands(plugin, this),
-      css_tags_no_wrap: new ComponentCSSTagsNoWrap(plugin, this),
-      css_note_tags: new ComponentCSSNoteTags(plugin, this),
-      css_note_background: new ComponentCSSNoteBackground(plugin, this),
-      css_note_properties: new ComponentCSSNoteProperties(plugin, this),
-      tags_enable_background_opacity: new ComponentTagsEnableBackgroundOpacity(plugin, this)
+      kanban_lists: new ComponentKanbanLists(plugin, this),
+      kanban_enable_background_opacity: new ComponentKanbanEnableBackgroundOpacity(plugin, this),
+      tags: new ComponentTags(plugin, this),
+      tags_enable_background_button: new ComponentTagsEnableAutoBackgroundButton(plugin, this),
+      tags_enable_background_opacity: new ComponentTagsEnableBackgroundOpacity(plugin, this),
+      tags_enable_multiple_tags: new ComponentTagsEnableMultipleTags(plugin, this)
     };
   }
   async display() {
@@ -7886,7 +8135,9 @@ var SettingTab = class extends import_obsidian21.PluginSettingTab {
     containerEl.createDiv({ cls: "setting-item-description", text: `If you forget this, this is done in code for you, resulting in the input being changed.` });
     containerEl.createEl("br");
     this._components.tags.create_component(containerEl);
-    this._components.tags_canvas.create_component(containerEl);
+    this._components.tags_enable_background_button.create_component(containerEl);
+    this._components.canvas.create_component(containerEl);
+    this._components.canvas_enable_background_opacity.create_component(containerEl);
     this._components.tags_enable_multiple_tags.create_component(containerEl);
     this._components.tags_enable_background_opacity.create_component(containerEl);
     containerEl.createEl("br");
@@ -7903,6 +8154,7 @@ var SettingTab = class extends import_obsidian21.PluginSettingTab {
       this._components.kanban_cards.create_component(containerEl);
       this._components.kanban_lists.create_component(containerEl);
       this._components.kanban_hashtags.create_component(containerEl);
+      this._components.kanban_enable_background_opacity.create_component(containerEl);
     }
     containerEl.createEl("br");
     containerEl.createEl("h2", { text: "Folder Note integration" });
@@ -7910,6 +8162,7 @@ var SettingTab = class extends import_obsidian21.PluginSettingTab {
     this._components.folder_note.create_component(containerEl);
     if (this.plugin.settings.FolderNote.Enable) {
       this._components.folder_note_auto_detect.create_component(containerEl);
+      this._components.folder_note_enable_background_opacity.create_component(containerEl);
       this._components.folder_note_detect.create_component(containerEl);
       this._components.folder_note_folder_tag_links.create_component(containerEl);
     }
@@ -7958,7 +8211,6 @@ async function readGraphJson(vault) {
   const graphJsonPath = `${vault.configDir}/graph.json`;
   try {
     const data = await this.app.vault.adapter.read(graphJsonPath);
-    console.warn(data);
     return JSON.parse(data);
   } catch (error) {
     console.error(error);
@@ -8039,8 +8291,26 @@ async function ExportGraphJsonTagsCodeblock(editor, ctx, plugin) {
   );
 }
 
+// src/plugin/event_handlers/ActiveLeafChange.ts
+var delay = (ms) => new Promise((res) => setTimeout(res, ms));
+var EventHandlerActiveLeafChange = class extends EventHandler {
+  async register() {
+    this.plugin.registerEvent(
+      this.plugin.app.workspace.on(
+        "active-leaf-change",
+        async (leaf) => {
+          if (this.plugin.settings.Canvas.Enable && (leaf == null ? void 0 : leaf.getViewState().type) === "canvas") {
+            await delay(1e3);
+            this.plugin.style_manager.wrangler_canvas_node_background.assembleStyling();
+          }
+        }
+      )
+    );
+  }
+};
+
 // src/main.ts
-var ColoredTagWrangler = class extends import_obsidian22.Plugin {
+var ColoredTagWrangler = class extends import_obsidian26.Plugin {
   // -----------------------------------------------------------------------------------------------------------------
   // Methods
   // -----------------------------------------------------------------------------------------------------------------
@@ -8050,6 +8320,7 @@ var ColoredTagWrangler = class extends import_obsidian22.Plugin {
     this.addSettingTab(new SettingTab(this));
     await new EventHandlerMetadataChange(this).register();
     await new EventHandlerFileOpen(this).register();
+    await new EventHandlerActiveLeafChange(this).register();
     this.app.workspace.onLayoutReady(() => {
       this.style_manager.switchAllStyles();
     });
@@ -8058,7 +8329,7 @@ var ColoredTagWrangler = class extends import_obsidian22.Plugin {
       name: "Creates a code block at caret of color groups, which you can manually copy into the graph.json file.",
       editorCallback: async (editor, ctx) => await ExportGraphJsonTagsCodeblock(editor, ctx, this)
     });
-    if (import_obsidian22.Platform.isDesktopApp && this.settings.Debug.EnableExperimentalCommands) {
+    if (import_obsidian26.Platform.isDesktopApp && this.settings.Debug.EnableExperimentalCommands) {
       this.addCommand({
         id: "export-tags-to-graph",
         name: "EXPERIMENTAL : export tags to graph.json. This overwrites your current graph.json. Use at own risk!",
@@ -8073,7 +8344,7 @@ var ColoredTagWrangler = class extends import_obsidian22.Plugin {
   }
   // -----------------------------------------------------------------------------------------------------------------
   onunload() {
-    this.style_manager.removeAllStyles();
+    this.style_manager.removeStyles();
   }
   // -----------------------------------------------------------------------------------------------------------------
   async loadSettings() {

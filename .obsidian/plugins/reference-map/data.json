@@ -6,7 +6,6 @@
   "showAuthors": true,
   "showJournal": true,
   "filterRedundantReferences": true,
-  "removeDuplicateIds": true,
   "lookupLinkedFiles": true,
   "searchTitle": false,
   "searchLimit": 3,
@@ -19,7 +18,7 @@
     {
       "id": 1,
       "name": "My Library",
-      "lastUpdate": 1702479214508
+      "lastUpdate": 1706173350954
     }
   ],
   "zoteroPort": "23119",
@@ -28,11 +27,13 @@
   "linkCiteKey": true,
   "findZoteroCiteKeyFromID": true,
   "findCiteKeyFromLinksWithoutPrefix": true,
+  "citedLimit": 100,
+  "citingLimit": 100,
   "enableReferenceSorting": true,
-  "sortByReference": "referenceCount",
+  "sortByReference": "citationCount",
   "sortOrderReference": "desc",
   "enableIndexSorting": true,
-  "sortByIndex": "year",
+  "sortByIndex": "citationCount",
   "sortOrderIndex": "desc",
   "modalSearchLimit": 25,
   "fileNameFormat": "{{title}}-{{author}} {{year}}",
@@ -40,8 +41,8 @@
   "modalCreateTemplate": "{{title}}\n{{authors}}\n{{journal}}, {{year}}\n{{abstract}}\n{{doi}}\n[External Link]({{url}})\n{{pdfurl}}\n",
   "modalInsertTemplate": "{{title}}\n{{authors}}\n{{journal}}, {{year}}\n{{abstract}}\n",
   "formatMetadataCopyOne": true,
-  "formatMetadataCopyTwo": false,
-  "formatMetadataCopyThree": false,
+  "formatMetadataCopyTwo": true,
+  "formatMetadataCopyThree": true,
   "metadataCopyTemplateOne": "{{bibtex}}",
   "metadataCopyTemplateTwo": "# {{title}}\n**{{authors}}**\n*{{journal}}, {{year}}*\n>[!abstract] Abstract\n>{{abstract}}\n",
   "metadataCopyTemplateThree": "[[{{title}}-{{author}} {{year}}]]",
@@ -55,5 +56,6 @@
   "cslLocale": "English (US)",
   "defaultStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl",
   "defaultLocale": "en-US",
+  "removeDuplicateIds": true,
   "showInvalidItems": true
 }
